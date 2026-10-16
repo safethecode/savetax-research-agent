@@ -3028,7 +3028,50 @@
     "observed_at_note": "출처 자료와 비교 순금액의 조건부 산술이다. 실판매가나 접수 예상액으로 채택하지 않았다."
   },
   "price_document_character_independent_review": "industrial 에이전트가 동일 SHA의 제조사 XLSX와 사이트 설명을 독립 대조했다. 판매가·공급가·공장도가 명시가 없고 설계자료·산출내역서용 엑셀로 분류되어 있다. 체크아웃 부재 자체를 배제 이유로 삼지 않는다.",
-  "availability_checked_again_at_utc": "2026-10-16T18:34:57.654629+00:00",
-  "remaining_claims_today_at_recheck": 38,
-  "not_submitted_reason_type": "missing_qualified_price_evidence_not_user_approval"
+  "availability_checked_again_at_utc": "2026-10-16T20:17:25.577555+00:00",
+  "remaining_claims_today_at_recheck": 37,
+  "not_submitted_reason_type": "missing_qualified_price_evidence_not_user_approval",
+  "final_followup": {
+    "observation_directory": "work/session-20261017/ceiling-final-followup",
+    "official_fact_rows_unchanged": true,
+    "official_C_krw": "6807052520",
+    "official_Q_m2": "141958",
+    "official_fact_count": 75,
+    "unique_request_count": 75,
+    "independent_conditional_check": {
+      "material_only_krw": "1757751313",
+      "plus_original_allowance_molding_krw": "1308905113",
+      "adopted_as_sale_price": false
+    },
+    "terra_price_source": "https://ssakda3482.tistory.com/5",
+    "terra_mbar_25_price_krw_per_m2": "6070",
+    "terra_clipbar_25_price_krw_per_m2": "6593",
+    "terra_price_scope": "틀 부재 수량표, 마감 텍스 제외. ZENFIX SDMC(DMC)-RES-36 전용 바 가격으로 쓰지 않음.",
+    "terra_vat_included": null,
+    "terra_shipping_included": null,
+    "terra_video_source": "https://www.youtube.com/watch?v=YZtEtQcMtuk",
+    "terra_video_actual_description_read": true,
+    "terra_video_observed_at_utc": "2026-10-16T20:19:49.327492+00:00",
+    "terra_video_published_date": "2022-03-15",
+    "terra_video_declared_design_performance_g": "0.55",
+    "terra_video_limit": "내진 설계 성능이라고만 표시하며 SDS 정의·시험번호가 없다. 원품SDS1.5g와 수치만으로 우열 비교하거나 300판 SDMC의 1.62g 시험을 옮기지 않는다.",
+    "amazon_terra_category": "https://www.amazonwood.co.kr/m2/goods/list.php?category=043002005",
+    "amazon_terra_product_url": "https://www.amazonwood.co.kr/m2/goods/view.php?category=043002005&goodsno=6680",
+    "amazon_actual_read": "category visible native DOM; product detail not opened",
+    "amazon_price_status": "견적 문의",
+    "amazon_scope": "내진(테라) 천정세트(M-BAR)/㎡, 몰딩 미포함",
+    "new_parallel_search_calls": 1,
+    "parallel_search_id": "search_f2c09cbad5b877713dd8a9bd6a64ec50",
+    "new_jev_calls": 1,
+    "jev": {
+      "status": "predicted",
+      "operation": "SCROLL_DOWN",
+      "latency_ms": 272,
+      "model": "jev-1.13.0"
+    },
+    "preview_called": false,
+    "post_called": false,
+    "reason_not_submitted": "시험 구성의 전용 바·클립 일반 판매가와 VAT 연결이 미확인이다. 설계용 단가나 다른 내진틀 가격을 완성 판매가로 바꾸지 않았다.",
+    "user_permission_pending": false
+  }
 }

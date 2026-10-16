@@ -16,10 +16,10 @@
     "stored_available_official_total_over_minimum_rows": 33,
     "fresh_direct_primary_pages_saved": 25,
     "new_confirmed_saving_candidates": 1,
-    "actual_parallel_calls": 80,
-    "fresh_official_item_details": 53,
-    "fresh_official_scorable_facts": 5867,
-    "actual_jev_calls": 7
+    "actual_parallel_calls": 90,
+    "fresh_official_item_details": 59,
+    "fresh_official_scorable_facts": 6023,
+    "actual_jev_calls": 8
   },
   "access": {
     "dataset_present": true,
@@ -1492,6 +1492,76 @@
       "search_id": "search_aa44f9789b5c3c69c4d369e1b977d1ea",
       "observed_at": "2026-10-16T19:57:12.652085+00:00",
       "returned_results": 2
+    },
+    {
+      "file": "work/industrial-goal1000/parallel-complete-next-myungga.json",
+      "query": "명가 DUBF RMD-02 이중창 덧창 판매 가격",
+      "search_id": "search_c8efad2b5e2ba5bdbef4396b421ee92c",
+      "observed_at": "2026-10-16T20:05:02.469493+00:00",
+      "returned_results": 3
+    },
+    {
+      "file": "work/industrial-goal1000/parallel-complete-next-penta.json",
+      "query": "펜타 PT-0950D HPM 마그네슘보드 9mm 판매 가격",
+      "search_id": "search_15410048dd1204550cb4caaeb8fceecf",
+      "observed_at": "2026-10-16T20:05:02.361942+00:00",
+      "returned_results": 3
+    },
+    {
+      "file": "work/industrial-goal1000/parallel-complete-next-penta-maker.json",
+      "query": "펜타 PT-0950D HPM 마그네슘 제조사 홈페이지",
+      "search_id": "search_bd3839adeeeb83a4f97dc94a6bdbe4dd",
+      "observed_at": "2026-10-16T20:05:43.058918+00:00",
+      "returned_results": 5
+    },
+    {
+      "file": "work/industrial-goal1000/parallel-complete-next-penta-upgrade.json",
+      "query": "불연 HPM 마그네슘보드 클릭 9T 12T 판매",
+      "search_id": "search_fd986b5366c66aa9d019a64a04d9388b",
+      "observed_at": "2026-10-16T20:06:50.854052+00:00",
+      "returned_results": 6
+    },
+    {
+      "file": "work/industrial-goal1000/parallel-door-ctdsd-identical.json",
+      "query": "씨티 CT-DSD-02-1 양개미닫이 목제문 세트 가격",
+      "search_id": "search_7319c5cd119f3b1c9f7d01ed8d30bf60",
+      "observed_at": "2026-10-16T20:09:12.792527+00:00",
+      "returned_results": 3
+    },
+    {
+      "file": "work/industrial-goal1000/parallel-door-ctdsd-maker.json",
+      "query": "씨티 목제문 학교문 5722900258 CT-DSD",
+      "search_id": "search_8534fde1237184d7d9de78ee8bfa8f8a",
+      "observed_at": "2026-10-16T20:09:24.737118+00:00",
+      "returned_results": 2
+    },
+    {
+      "file": "work/industrial-goal1000/parallel-door-classroom-complete-retail.json",
+      "query": "학교 교실 양개 미닫이 문틀 문짝 세트 2200 2600 판매 가격",
+      "search_id": "search_06172e0f853b3bb9e3d709e7235925d6",
+      "observed_at": "2026-10-16T20:10:47.035352+00:00",
+      "returned_results": 7
+    },
+    {
+      "file": "work/industrial-goal1000/parallel-door-classroom-hardware-retail.json",
+      "query": "교실문 양개미닫이 문틀포함 세트 목제 판매",
+      "search_id": "search_a8cbaff99b5f11941f3d1b1949be6f11",
+      "observed_at": "2026-10-16T20:11:52.677511+00:00",
+      "returned_results": 5
+    },
+    {
+      "file": "work/industrial-goal1000/parallel-instrument-next-bluesen.json",
+      "query": "블루센 ADS-50a 수질자동조정장치 판매 가격",
+      "search_id": "search_31205b0dd07bfecc305894055d1c493f",
+      "observed_at": "2026-10-16T20:14:47.429047+00:00",
+      "returned_results": 6
+    },
+    {
+      "file": "work/industrial-goal1000/parallel-instrument-next-rowats.json",
+      "query": "로얄정공 ROWATS-360D 디칸터 탈수기 판매 가격",
+      "search_id": "search_e2ed141dc1b53da1a023996214ca82a4",
+      "observed_at": "2026-10-16T20:14:47.430722+00:00",
+      "returned_results": 6
     }
   ],
   "jev_actual_call": {
@@ -75231,6 +75301,15 @@
       "latency_ms": 216,
       "status": "predicted",
       "assessment": "DONE 예측과 별개로 실제 DOM과 HTTP 판매 상세를 읽었다. 구매·장바구니·문의 동작은 하지 않았다."
+    },
+    {
+      "file": "work/industrial-goal1000/jev-door-munjanggun-sliding.json",
+      "url": "https://brand.naver.com/munjanggun/products/4515791893",
+      "operation": "BLOCKED",
+      "model": "jev-1.13.0",
+      "latency_ms": 226,
+      "status": "predicted",
+      "assessment": "실제 화면은 네이버 시스템 오류였다. BLOCKED는 예측 결과이며 옵션·가격·사양 검증으로 쓰지 않았다."
     }
   ],
   "new_industrial_round2": {
@@ -80111,6 +80190,381 @@
         "adopted_saving_krw": null
       }
     ],
+    "post_count": 0
+  },
+  "window_and_penta_original_scope_followup": {
+    "observed_at": "2026-10-16T20:08:29.290021+00:00",
+    "records": [
+      {
+        "item_id": "24116223",
+        "name": "합성수지제창, 명가, DUBF RMD-02, 1000×1000×223mm, 미서기중연이중창, 백색",
+        "state": "available",
+        "official_C_krw": "3549170931",
+        "official_Q": "13005",
+        "units": [
+          "㎡"
+        ],
+        "scorable_fact_count": 7,
+        "raw_fact_file": "work/industrial-goal1000/scope-next-24116223-event.json",
+        "event_source_url": "https://hackathon.savetax.now/v1/events/current/items/24116223",
+        "all_fulfillment_references_format": "contract_no|request_no|line_no",
+        "all_fulfillment_references": [
+          "002370265_1|3224324832|1",
+          "002370265_1|R25TB01157728|2",
+          "002370265_1|R26TB01828258|1",
+          "002370265_1|R26TB01855736|2",
+          "002370265_1|R26TB01914324|1",
+          "002370265_1|R26TB02019561|1",
+          "002370265_1|R26TB02135598|1"
+        ],
+        "adopted_B": null,
+        "adopted_saving_krw": null
+      },
+      {
+        "item_id": "25816073",
+        "name": "실내벽체마감패널, 펜타, PT-0950D, 1200×2400×t9mm",
+        "state": "available",
+        "official_C_krw": "1798998960",
+        "official_Q": "13629",
+        "units": [
+          "㎡"
+        ],
+        "scorable_fact_count": 31,
+        "raw_fact_file": "work/industrial-goal1000/scope-next-25816073-event.json",
+        "event_source_url": "https://hackathon.savetax.now/v1/events/current/items/25816073",
+        "all_fulfillment_references_format": "contract_no|request_no|line_no",
+        "all_fulfillment_references": [
+          "002360255_1|R25TB01212685|1",
+          "002360255_1|R25TB01250551|1",
+          "002360255_1|R25TB01276327|1",
+          "002360255_1|R25TB01289516|1",
+          "002360255_1|R26TB01453989|1",
+          "002360255_1|R26TB01490946|1",
+          "002360255_1|R26TB01511132|1",
+          "002360255_1|R26TB01513602|1",
+          "002360255_1|R26TB01543873|1",
+          "002360255_1|R26TB01573852|1",
+          "002360255_1|R26TB01576192|1",
+          "002360255_1|R26TB01589161|1",
+          "002360255_1|R26TB02060518|1",
+          "002360255_1|R26TB02092333|1",
+          "002360255_1|R26TB02114029|1",
+          "002360255_1|R26TB02115806|1",
+          "002360255_1|R26TB02120748|1",
+          "002360255_1|R26TB02121312|1",
+          "002360255_1|R26TB02122174|1",
+          "002360255_1|R26TB02147769|1",
+          "002360255_1|R26TB02154684|1",
+          "002360255_1|R26TB02163456|1",
+          "002360255_1|R26TB02169054|1",
+          "002360255_1|R26TB02174123|1",
+          "002360255_1|R26TB02174165|1",
+          "002360255_1|R26TB02183470|1",
+          "002360255_1|R26TB02186000|1",
+          "002360255_1|R26TB02226602|1",
+          "002360255_1|R26TB02262945|1",
+          "002360255_1|R26TB02287954|1",
+          "002360255_1|R26TB02307209|1"
+        ],
+        "adopted_B": null,
+        "adopted_saving_krw": null
+      },
+      {
+        "item_id": "23950808",
+        "name": "샌드위치패널, 에스와이테크, STR-GP-10180, 1000×1000×180mm",
+        "state": "claimed_by_me",
+        "official_C_krw": "3912297885",
+        "official_Q": "60778",
+        "units": [
+          "㎡"
+        ],
+        "scorable_fact_count": 59,
+        "raw_fact_file": "work/industrial-goal1000/sandwich-23950808-event.json",
+        "event_source_url": "https://hackathon.savetax.now/v1/events/current/items/23950808",
+        "all_fulfillment_references_format": "contract_no|request_no|line_no",
+        "all_fulfillment_references": [
+          "002170367_1|1224636625|7",
+          "002170367_1|2324345702|6",
+          "002170367_1|2324454373|4",
+          "002170367_1|2324458856|2",
+          "002170367_1|2424339683|3",
+          "002170367_1|3224400539|4",
+          "002170367_1|3524374997|3",
+          "002170367_1|R25TB00387401|4",
+          "002170367_1|R25TB00610686|2",
+          "002170367_1|R25TB00640415|2",
+          "002170367_1|R25TB00804595|2",
+          "002170367_1|R25TB00837636|5",
+          "002170367_1|R25TB00867102|2",
+          "002170367_1|R25TB00916700|2",
+          "002170367_1|R25TB00988592|3",
+          "002170367_1|R25TB01069764|3",
+          "002170367_1|R25TB01165150|3",
+          "002170367_1|R25TB01193929|3",
+          "002170367_1|R25TB01205592|2",
+          "002170367_1|R25TB01269072|5",
+          "002170367_1|R25TB01286013|3",
+          "002170367_1|R25TB01302489|3",
+          "002170367_1|R25TB01328415|4",
+          "002170367_1|R25TB01334159|7",
+          "002170367_1|R25TB01335623|7",
+          "002170367_1|R25TB01385018|2",
+          "002170367_1|R26TB01527751|3",
+          "002170367_1|R26TB01544751|2",
+          "002170367_1|R26TB01594887|2",
+          "002170367_1|R26TB01648531|4",
+          "002170367_1|R26TB01652921|4",
+          "002170367_1|R26TB01660363|7",
+          "002170367_1|R26TB01689075|2",
+          "002170367_1|R26TB01714341|4",
+          "002170367_1|R26TB01731845|2",
+          "002170367_1|R26TB01757758|3",
+          "002170367_1|R26TB01769223|3",
+          "002170367_1|R26TB01795766|4",
+          "002170367_1|R26TB01820824|1",
+          "002170367_1|R26TB01843837|5",
+          "002170367_1|R26TB01867949|2",
+          "002170367_1|R26TB01919287|3",
+          "002170367_1|R26TB01987869|5",
+          "002170367_1|R26TB01997619|2",
+          "002170367_1|R26TB02006268|3",
+          "002170367_1|R26TB02011816|3",
+          "002170367_1|R26TB02023190|2",
+          "002170367_1|R26TB02038638|3",
+          "002170367_1|R26TB02044899|3",
+          "002170367_1|R26TB02057565|4",
+          "002170367_1|R26TB02066134|4",
+          "002170367_1|R26TB02076471|3",
+          "002170367_1|R26TB02127269|3",
+          "002170367_1|R26TB02171433|2",
+          "002170367_1|R26TB02199988|3",
+          "002170367_1|R26TB02230807|2",
+          "002170367_1|R26TB02230808|3",
+          "002170367_1|R26TB02249736|3",
+          "002170367_1|R26TB02256980|3"
+        ],
+        "adopted_B": null,
+        "adopted_saving_krw": null
+      }
+    ],
+    "window": {
+      "original_listing_source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002370265_1040000002",
+      "original_document": "work/industrial-goal1000/complete-next-window-spec-text.json",
+      "maker_source_url": "https://mgwindow.co.kr/page/excellent.php?id=001",
+      "maker_observation_file": "work/industrial-goal1000/complete-next-myungga-maker-source.json",
+      "scope": "DUBF RMD-02는 기존 틀을 제거하지 않는 비철거 개보수용 내부/외부 결합창이다. 창틀223mm·미서기중연이중창·22mm(로이5+아르곤12+일반5) 유리, 열관류율0.866W/㎡K·효율1등급을 원규격에서 읽었다. 실제 제조사 페이지도 비철거 프레임·가변 폭·커버 몰딩·가스켓을 설명한다. 현장설치도/㎡이며 일반 이중창이나 PVC 프로파일만의 가격을 원품으로 쓰지 않았다.",
+      "price_result": "제조사 일반 판매가는 없고 견적 안내이다. 검색의 다른 해외 회사 창호를 동일품으로 채택하지 않았다."
+    },
+    "penta": {
+      "original_listing_source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002360255_1080000011",
+      "original_document": "work/industrial-goal1000/complete-next-penta-spec-download/extracted/실내벽체마감패널 규격서-펜타 주식회사_202506.pdf",
+      "original_drawing": "work/industrial-goal1000/complete-next-penta-spec-download/extracted/도면/11.PT-0950D.pdf",
+      "drawing_visual_review": "1쪽을 실제 PNG로 렌더링해 읽었다. 2쪽 스터드안은 PDF 추출문으로만 읽었다.",
+      "drawing_image_file": "work/industrial-goal1000/complete-next-penta-drawing.png",
+      "maker_source_url": "https://pentak.kr/business/click.php",
+      "maker_observation_file": "work/industrial-goal1000/complete-next-penta-maker-source.json",
+      "scope": "원규격은 1200×2400×9mm 마그네슘 심재8mm와 HPM0.6mm 양면 마감, 준불연이다. 원제조사 실제 페이지는 사면 클릭 가공을 설명한다. 조달 인도조건은 납품장소차상도/㎡다. 도면 1쪽에는 설치에 필요한 물품을 제공한다는 문구와 각재·못/타카핀·실리콘·알루미늄 몰딩 표가 있다. 목재30×30@300 또는400 및 코너 몰딩22×22×1.2T도 도면에 보인다. 주자재표에 패널만 적혔다는 이유로 원품을 원판 가격으로 축소하지 않는다. 부자재 수량/㎡는 아직 정량 확정하지 않았다.",
+      "price_result": "정확한 제조사 PT-0950D의 일반 판매가는 확보하지 못했다. Parallel이 반환한 일반 화이트보드·PVC 필름 타공 흡음판·KCC 마이톤 천장재는 HPM 클릭형 완성 패널의 분명한 상향 대안으로 채택하지 않았다. 검색 결과의 가격은 실제 판매 검증값으로 승격하지 않았다."
+    },
+    "claimed_panel": "23950808 STR-GP-10180은 신선 조회에서 claimed_by_me여서 원규격·가격 조사를 추가하지 않았다. 기존 등록과 가격은 유지한다.",
+    "ready": false,
+    "post_count": 0
+  },
+  "ct_dsd021_complete_door_followup": {
+    "observed_at": "2026-10-16T20:13:19.175557+00:00",
+    "assignment": "root가 owner0 예외로 이번 모델만 위임했다. MD5 batch 담당 전체 변경이 아니다.",
+    "records": [
+      {
+        "item_id": "24021340",
+        "name": "목제문세트, 씨·티, CT-DSD-02-1, 2200×2600×240mm, 양개미닫이",
+        "state": "available",
+        "official_C_krw": "3811802801",
+        "official_Q": "28768",
+        "units": [
+          "㎡"
+        ],
+        "scorable_fact_count": 47,
+        "unique_request_count": 47,
+        "raw_fact_file": "work/industrial-goal1000/door-24021340-event.json",
+        "event_source_url": "https://hackathon.savetax.now/v1/events/current/items/24021340",
+        "all_fulfillment_references_format": "contract_no|request_no|line_no",
+        "all_fulfillment_references": [
+          "002061554_1|1224604249|6",
+          "002061554_1|2224420933|2",
+          "002061554_1|2224421754|2",
+          "002061554_1|2224481327|4",
+          "002061554_1|2324419511|1",
+          "002061554_1|R25TB00389950|2",
+          "002061554_1|R25TB00414774|2",
+          "002061554_1|R25TB00440091|3",
+          "002061554_1|R25TB00539064|1",
+          "002061554_1|R25TB00600341|1",
+          "002061554_1|R25TB00787767|1",
+          "002061554_1|R25TB00821404|1",
+          "002061554_1|R25TB00834922|1",
+          "002061554_1|R25TB01075972|2",
+          "002061554_1|R25TB01088114|3",
+          "002061554_1|R25TB01099324|1",
+          "002061554_1|R25TB01155166|4",
+          "002061554_1|R25TB01156443|1",
+          "002061554_1|R25TB01179269|1",
+          "002061554_1|R25TB01202887|1",
+          "002061554_1|R25TB01203645|1",
+          "002061554_1|R25TB01219150|3",
+          "002061554_1|R25TB01224491|1",
+          "002061554_1|R25TB01234871|1",
+          "002061554_1|R25TB01266651|1",
+          "002061554_1|R25TB01276883|2",
+          "002061554_1|R25TB01307329|1",
+          "002061554_1|R25TB01311755|3",
+          "002061554_1|R25TB01329421|1",
+          "002061554_1|R25TB01344863|3",
+          "002061554_1|R25TB01381911|4",
+          "002061554_1|R25TB01383964|2",
+          "002061554_1|R26TB01657185|1",
+          "002061554_1|R26TB01906607|1",
+          "002061554_1|R26TB01949949|1",
+          "002061554_1|R26TB01982879|1",
+          "002061554_1|R26TB01998039|2",
+          "002061554_1|R26TB01998752|1",
+          "002061554_1|R26TB02020542|1",
+          "002061554_1|R26TB02039597|2",
+          "002061554_1|R26TB02057964|2",
+          "002061554_1|R26TB02135085|3",
+          "002061554_1|R26TB02147912|1",
+          "002061554_1|R26TB02172111|3",
+          "002061554_1|R26TB02173069|3",
+          "002061554_1|R26TB02177163|1",
+          "002061554_1|R26TB02231752|1"
+        ]
+      }
+    ],
+    "original_spec": {
+      "source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002061554_1230000024",
+      "local_file": "work/industrial-goal1000/complete-next-ctdoor-spec-download/목제문세트 규격서_씨티.pdf",
+      "bytes": 3946753,
+      "sha256": "051e325a8521754726fe4d28cb36de65434a7235c06420a393302e8dc04bdee0",
+      "text_file": "work/industrial-goal1000/door-ct-spec.txt",
+      "pages_visually_reviewed": [
+        5,
+        18
+      ],
+      "visual_files": [
+        "work/industrial-goal1000/door-ct-bom-p5.png",
+        "work/industrial-goal1000/door-ct-dsd021-drawing.png",
+        "work/industrial-goal1000/door-ct-glass-note.png"
+      ],
+      "scope": "학교·공공 건축물 내부 출입용 양개 미닫이 목제문세트. 규격서가 직접 2200×2600mm의 1세트를 5.72㎡로 환산한다. 공식 Q28768을 세트 수로 읽지 않았다. 현장설치도다.",
+      "BOM_per_5_72sqm_set": {
+        "frame_vertical": "집성원목 30/45×100/140×2600mm 2개",
+        "frame_horizontal": "집성원목 30/45×100/140×2200mm 1개",
+        "frame_middle": "집성원목 70×140×2200mm 1개",
+        "sliding_door_leaves": "집성원목/MDF 36×1117×2042mm 2개",
+        "transom_window_frames": "집성원목 33×1097×467mm 2개",
+        "rails": "8T×2120mm 2개",
+        "bottom_sill": "스테인리스1.2T×140×30×2110mm 1개",
+        "pinch_protection": "연질수지 사출물4.2m",
+        "rollers": "기성품36/30mm 4/4개(원문 표기 보존)",
+        "drop_bolts": "기성품2개",
+        "decor_sheet": "PVC 데코시트28m(원문 단위 보존)"
+      },
+      "glass_scope": "실제 p18 도면의 정확한 문구는 5T 맑은유리(불포함)이다. 표의 상부 창은 창틀을 뜻하며 유리를 포함한 것으로 확대하지 않았다.",
+      "performance": "미닫이 개폐력80N·10만회 반복개폐에 이상 없을 것, VOC≤0.4/톨루엔≤0.080/폼알데히드≤0.12mg/㎡h. 원품은 일반 목제문이며 방화문·차음문 등급으로 확대하지 않는다."
+    },
+    "price_findings": {
+      "identical": "정확한 CT-DSD-02-1의 일반 판매가를 찾지 못했다. 두 차례 exact 제조사 검색은 미국 점검구·타 회사 등 불일치를 반환했다.",
+      "manufacturer_candidate_access": "검색 단서 cteco.co.kr은 HTTPS TLS internal alert, HTTP 연결 종료였다. 원품 제조사와 같은 사이트인지도 미검증이므로 제조사 원문으로 승격하지 않았다. 실제 규격서의 사업장·전화번호만 원품 정보로 쓴다.",
+      "munjanggun_direct_sources": [
+        "https://munjanggun.com/",
+        "https://munjanggun.com/product/sliding/"
+      ],
+      "munjanggun_primary_files": [
+        "work/industrial-goal1000/door-munjanggun-home-source.json",
+        "work/industrial-goal1000/door-munjanggun-sliding-source.json"
+      ],
+      "munjanggun_findings": "실제 원문에서 ABS 슬라이딩550000원·양방향 댐퍼 기본 포함, 미서기 양개형 중문950000원, 셀프 ABS 문짝만125000원을 구분해 읽었다. 550000원 상품의 양개2문짝·상부창틀·240mm문틀·손끼임방지·2200×2600mm 옵션은 미확인이다. 950000원 양개형은 같은5.72㎡ 크기라고 가정해도 166083원/㎡로 공식 모든 행의 C/Q 상한147525원/㎡보다 비싸다. 이 면적 가정은 실제 판매 규격 확정이나 B 채택이 아니다.",
+      "retail_detail_jev": "https://brand.naver.com/munjanggun/products/4515791893 는 실제 브라우저에서 현재 서비스 접속 불가 시스템 오류였다. Jev1.13.0 BLOCKED0.76/226ms 예측과 원문 읽기 실패를 구분했다. 옵션/세금/배송은 미확인이다.",
+      "munjaengi": "학교문 판매처 https://xn--z92bu7tug.com/category/학교문/31/ 은 실제 HTTP403 카페24 접속 제한이어서 검색에 보인 견적상담 문구도 실제 판매가로 채택하지 않았다. 우회하지 않았다.",
+      "unrelated_results": "도어클로저 부품·문 표지판·해외 여닫이 문·가격 범위만 있는 공급자 모음은 완성 세트 가격이 아니다."
+    },
+    "necessary_average_B_ceiling_for_10eok_per_sqm": "97740.64241518353726362625139",
+    "adopted_B": null,
+    "adopted_saving_krw": null,
+    "ready": false,
+    "post_count": 0
+  },
+  "industrial_drain_and_decanter_followup": {
+    "observed_at": "2026-10-16T20:16:59.316716+00:00",
+    "records": [
+      {
+        "item_id": "23846846",
+        "name": "수질자동조정장치, 블루센, ADS-50a, 90t/h",
+        "state": "available",
+        "official_C_krw": "1151097000",
+        "official_Q": "29",
+        "units": [
+          "개"
+        ],
+        "scorable_fact_count": 6,
+        "raw_fact_file": "work/industrial-goal1000/instrument-next-23846846-event.json",
+        "event_source_url": "https://hackathon.savetax.now/v1/events/current/items/23846846",
+        "all_fulfillment_references_format": "contract_no|request_no|line_no",
+        "all_fulfillment_references": [
+          "002270312_1|R25TB01193124|1",
+          "002270312_1|R25TB01217157|1",
+          "002270312_1|R26TB01857255|1",
+          "002270312_1|R26TB01949419|1",
+          "002270312_1|R26TB01949603|1",
+          "002270312_1|R26TB01965054|1"
+        ],
+        "necessary_average_B_ceiling_for_10eok": "5210241.379310344827586206897",
+        "adopted_B": null,
+        "adopted_saving_krw": null
+      },
+      {
+        "item_id": "24606196",
+        "name": "디칸터형원심탈수기, 로얄정공, ROWATS-360D, 5~10㎥/h",
+        "state": "available",
+        "official_C_krw": "1388070000",
+        "official_Q": "9",
+        "units": [
+          "대"
+        ],
+        "scorable_fact_count": 6,
+        "raw_fact_file": "work/industrial-goal1000/instrument-next-24606196-event.json",
+        "event_source_url": "https://hackathon.savetax.now/v1/events/current/items/24606196",
+        "all_fulfillment_references_format": "contract_no|request_no|line_no",
+        "all_fulfillment_references": [
+          "002470305_1|R25TB01051096|1",
+          "002470305_1|R26TB01544681|1",
+          "002470305_1|R26TB01776420|1",
+          "002470305_1|R26TB01976663|1",
+          "002470305_1|R26TB01981458|1",
+          "002470305_1|R26TB02052763|1"
+        ],
+        "necessary_average_B_ceiling_for_10eok": "43118888.88888888888888888889",
+        "adopted_B": null,
+        "adopted_saving_krw": null
+      }
+    ],
+    "ownership": "owner_slot3. hardware_prices는 두 모델의 실제 제조사·가격 조사나 현재 진행과 중복되지 않음을 확인했다.",
+    "ADS_50a": {
+      "primary_source_url": "https://bluesen.com/en/product/product3_ads_50a.asp",
+      "primary_source_file": "work/industrial-goal1000/instrument-next-bluesen-source.json",
+      "verified_core_scope": "수도관 말단·정체구간의 수질을 실시간 측정하고 기준 초과 시 물을 배출하는 자동 드레인 장치다. 단순 약품 투입기나 휴대 pH 측정기가 아니다. 중앙 제어·배수·5항목 수질 측정의 완성 구성이며, 자동/수동밸브·유량계·압력전송기·탈염소탱크, 10인치 HMI, RS232C/Ethernet 원격 제어를 포함한다. 탁도·잔류염소·pH·전기전도도·수온을 측정한다.",
+      "version_difference": "현재 제조사 정확 ADS-50a 페이지는 높이1300mm인데 공식 REST 원품은1200mm다. 제조사 최신 페이지의 치수를 원품 원규격과 동일하다고 확정하지 않았다.",
+      "price_result": "제조사 일반 판매가가 없고 동일 모델 실제 일반가를 검색에서 확보하지 못했다. 90t/h 원품을 pH 센서나 투입 펌프 가격으로 대체하지 않는다."
+    },
+    "ROWATS_360D": {
+      "original_REST_scope": "5~10㎥/h·스크루디칸터·2000G·18.5~22kW·고형물회수율95%·SSC13/SSC14·2500kg·3075×1000×1170mm.",
+      "primary_source_url": "http://www.korearoyal.com/doc/product1_1.php",
+      "primary_source_file": "work/industrial-goal1000/instrument-next-royal-decanter-source.json",
+      "primary_manufacturer_identity": "현재 공식 사이트의 로얄정공 사업자503-81-28637·성서공단로25길6을 읽었다. 코머신 실제 화면에서 관측한 제조사 링크를 따라갔고 AI 요약은 원규격으로 쓰지 않았다.",
+      "verified_core_scope": "원심 압밀력과 Bowl/Screw 차속 자동 제어로 슬러지의 고형물과 수분을 분리하는 산업용 탈수기다. 소형 실험실 원심분리기·분리 로터·부품·중고 해체품을 대신하지 않는다.",
+      "version_difference": "현재 제조사 표의 360D는6~10㎥/h·2000~2500G·18.5~22kW·3340×1000×1180mm·3000kg이다. ROWATS-360D의 동일 판매 SKU 또는 개명 모델이라는 문서는 확보하지 못했다.",
+      "price_result": "실제 제조사 페이지는 카탈로그와 제품 문의만 있고 일반 판매가가 없다. Parallel이 반환한 SaveTax 조달 가격·다른 용량650D/750D 및 중고기계 매입 양식은 B로 채택하지 않았고 사이트 추정값을 판매가로 쓰지 않았다."
+    },
+    "ready": false,
     "post_count": 0
   }
 }
