@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "owner": "industrial_scores",
-  "observed_at": "2026-10-16T19:10:42.458902+00:00",
+  "observed_at": "2026-10-16T19:17:15.887398+00:00",
   "user_target_krw": "100000000000",
   "user_reported_current_krw": "11000000000",
   "user_reported_chances": 50,
@@ -15,7 +15,7 @@
     "stored_industrial_rows_screened": 636,
     "stored_available_official_total_over_minimum_rows": 33,
     "fresh_direct_primary_pages_saved": 25,
-    "new_confirmed_saving_candidates": 0,
+    "new_confirmed_saving_candidates": 1,
     "actual_parallel_calls": 67,
     "fresh_official_item_details": 42,
     "fresh_official_scorable_facts": 3490,
@@ -70426,7 +70426,7 @@
     },
     "comparison_kind": "equivalent",
     "complete_product_review": "덕트용 NBR 점착 완성 시트는 확인했다. 원품25mm 대비32mm로 두꺼워 설치 여유 공간의 차이가 있다.",
-    "technical_review_status": "hardware에서 제조사 원문 확인 중. 2019 상세 HIFLEX와 2026 신제품 난연 기사를 자동 연결하지 않는다.",
+    "technical_review_status": "제조사 일반시트/점착32T 제품군 연결 확보. 압축성능 열위와 가스 시험두께·CFE 미확인 등 차이를 공개한 root 최종 검토 대기.",
     "nominal_thermal_resistance_check": {
       "original_25mm_over_0034": "0.7352941176470588235294117647",
       "alternative_32mm_over_0035": "0.9142857142857142857142857143",
@@ -71104,7 +71104,18 @@
         "work/industrial-goal1000/kaiflex-next-1can-agreement-source.json",
         "work/industrial-goal1000/kaiflex-next-1can-faq-rubber-source.json"
       ]
-    }
+    },
+    "technical_support_received": {
+      "summary_file": "work/hardware-goal1000/hiflex-technical-support-summary.json",
+      "official_catalog_217": "제조사 일반 카탈로그 실제p10에서 HIFLEX SHEET 폭1000×32T×8m와 전 규격 접착처리 가능을 함께 확인했다. 원캔몰 선택품의 구성·제품군 연결은 확보했다.",
+      "KTR_2026": "TAK-2026-017162/2026-02-24의 제시 시료 λ0.033W/mK·LOI38·HF-1을 확인했다. HF-1 실제 시료두께는12.6mm이며 모든32T 점착 실품 직접 시험으로 쓰지 않는다.",
+      "compression_difference": "제시 시료 압축변형률21%는 원품 기준18% 이하보다 열위다. 숨기지 않는다.",
+      "gas_test_scope": "일반 HIFLEX1종40T/NBR+CR의 KCM25-K0730 가스10:56/14:41은32T 점착의 직접 실측값으로 전용하지 않는다. 품질표 KCM25-K0789의13:50/13:01 원시험은 미확보다.",
+      "CFE": "미확인",
+      "other_differences": "인장·항균 대응은 미확인이다. 모든 기존 시험의 일치를 접수 조건으로 새로 강제하지 않지만 확인된 차이를 그대로 공개한다.",
+      "decision": "root가 핵심 목적·우위와 취득비 비교 범위를 검토 중이다. 이 보고서에서 채택액을 확정하지 않는다."
+    },
+    "price_review_packet": "work/industrial-goal1000/hiflex-32t-price-review-packet.json"
   },
   "drainplate_same_model_followup_20261017": {
     "observed_at": "2026-10-16T19:05:34.873553+00:00",
@@ -71471,5 +71482,164 @@
     "retail_search_performed": false,
     "adopted_B": null,
     "adopted_saving_krw": null
+  },
+  "kaiflex_hiflex_40t_price_followup_20261017": {
+    "observed_at": "2026-10-16T19:12:27.416241+00:00",
+    "assignment": "root 지시로 40T 가격·완성 구성·독립 계산만 보존한다. 기술 최종판단과 preview·POST는 root 담당이다.",
+    "item_id": "24449671",
+    "state": "available",
+    "official_Q": "46180",
+    "official_C_krw": "2654048302",
+    "scorable_facts": 46,
+    "unique_requests": 46,
+    "unit": "m",
+    "tax_basis": "vat_included",
+    "original_model": "KHCS-CB1 A025",
+    "original_thickness_mm": 25,
+    "retail": {
+      "url": "https://1canmall.com/product/%EA%B3%A0%EB%AC%B4%EB%B0%9C%ED%8F%AC-%EC%8B%9C%ED%8A%B8%EC%A0%90%EC%B0%A9/1059/category/253/display/1/",
+      "seller": "원캔몰 (주)원캔네트웍스",
+      "manufacturer_field": "하이코리아",
+      "model_description": "HIFLEX 고무발포 시트(점착)40T×1m×7m",
+      "option_id": "P0000BOS000G",
+      "observed_option_label": "40T*1M*7M (+79,700원)",
+      "general_price_vat_included_krw": "217700",
+      "selection_totals": [
+        {
+          "rolls": 1,
+          "total_krw": "217700"
+        },
+        {
+          "rolls": 2,
+          "total_krw": "435400"
+        },
+        {
+          "rolls": 215,
+          "total_krw": "46805500"
+        }
+      ],
+      "vat_included": true,
+      "shipping_included": false,
+      "actual_bulk_shipping_krw": null,
+      "shipping_text": "착불1개주문시22000원; 박스당20000원(박스/수량에 따라 상이)",
+      "normal_purchase_state": "세 수량 상태에서 BUY가 실제 보이고 SOLD OUT이 보이지 않는다. 구매·장바구니·문의는 실행하지 않았다. 대량 재고 확약과 구분한다.",
+      "product_scope": "현재 상품명 자체가 점착이고 그 아래40T 옵션을 직접 선택했다. 일반 원판이나 비점착 다른 상품 가격을 넣지 않았다.",
+      "discount_policy": "선택 합계217700원을 사용하며 기간할인·쿠폰·적립금을 차감하지 않았다."
+    },
+    "conditional_scenarios": [
+      {
+        "label": "상품 취득가만: 별도 배송비 미포함",
+        "shipping_budget_per_roll_krw": "0",
+        "shipping_evidence_status": "excluded_separate_collect",
+        "scorable_facts": 46,
+        "positive_facts": 45,
+        "required_rolls": "6615",
+        "purchased_length_m": "46305",
+        "remaining_length_m": "125",
+        "product_cost_krw": "1440085500",
+        "shipping_budget_krw": "0",
+        "total_cost_krw": "1440085500",
+        "conditional_saving_krw": "1215094667",
+        "minimum_10eok_passes": true,
+        "adopted_saving_krw": null
+      },
+      {
+        "label": "롤당22000원 운임 예산",
+        "shipping_budget_per_roll_krw": "22000",
+        "shipping_evidence_status": "budget_not_verified",
+        "scorable_facts": 46,
+        "positive_facts": 45,
+        "required_rolls": "6615",
+        "purchased_length_m": "46305",
+        "remaining_length_m": "125",
+        "product_cost_krw": "1440085500",
+        "shipping_budget_krw": "145530000",
+        "total_cost_krw": "1585615500",
+        "conditional_saving_krw": "1069806662",
+        "minimum_10eok_passes": true,
+        "adopted_saving_krw": null
+      },
+      {
+        "label": "롤당24200원 운임 예산",
+        "shipping_budget_per_roll_krw": "24200",
+        "shipping_evidence_status": "budget_not_verified",
+        "scorable_facts": 46,
+        "positive_facts": 45,
+        "required_rolls": "6615",
+        "purchased_length_m": "46305",
+        "remaining_length_m": "125",
+        "product_cost_krw": "1440085500",
+        "shipping_budget_krw": "160083000",
+        "total_cost_krw": "1600168500",
+        "conditional_saving_krw": "1055277859",
+        "minimum_10eok_passes": true,
+        "adopted_saving_krw": null
+      }
+    ],
+    "calculation_rule": "fact마다ceil(Q/7)롤 구입. 구입수량×(217700+운임예산)을Q로나눈B를소수6자리에서올림한후floor(max(C-BQ,0))를합한다. 서로다른요구의잔여길이를합쳐없애지않았다.",
+    "independent_fraction_checks": 138,
+    "independent_fraction_mismatches": 0,
+    "hardware_crosscheck_received": {
+      "general_catalog_217": "일반 HIFLEX SHEET40T×1m×7m 및 전 규격 접착처리 가능을 실제p10에서 확인했다.",
+      "gas_test_211": "실제p1 HIFLEX1종40T, p3 NBR+CR/하이코리아/단일재질40mm/48kg㎥다. 일반카탈로그217 p16~17과 MAX218 p4~5가 모두 같은KCM25-K0730을 직접 인용한다. MAX만의 시험을 연구자가 일반제품으로 옮긴 것은 아니다.",
+      "limitation": "원시험은 점착 필름·접착층 표기가 없는 단일재질 시료다. 점착 완제품과 동일 시험구성 또는 판매2019재고의 동일배합이라고 확정하지 않는다. 핵심 목적·강화단열과 압축 복원력 차이를 공개한 root 최종판단이 남아 있다.",
+      "source_file": "work/hardware-goal1000/hiflex-technical-support-summary.json"
+    },
+    "price_packet": "work/industrial-goal1000/hiflex-40t-price-review-packet.json",
+    "calculation_file": "work/industrial-goal1000/hiflex-40t-followup-calculations.json",
+    "raw_selected_price": "work/industrial-goal1000/native-hiflex-40t-selected.json",
+    "fresh_official_file": "work/industrial-goal1000/kaiflex-40t-event.json",
+    "adopted_B": null,
+    "adopted_saving_krw": null,
+    "preview_executed": false,
+    "submissions": 0
+  },
+  "hiflex_40t_root_body_independent_review": {
+    "observed_at": "2026-10-16T19:17:15.887398+00:00",
+    "scope": "root의40T 검토본문·offer 독립 가격/포장/표기 재검토. POST하지 않는다.",
+    "root_body_file": "work/session-20261017/hiflex40-root/body-review.json",
+    "root_body_sha256": "96d14fb18b3086638b610557b7517480e2d68a346138dcd50a72c1778fa8f967",
+    "root_offer_file": "work/session-20261017/hiflex40-root/offer.json",
+    "root_offer_sha256": "ff6aab93d61a359dbc7b4e414615ca02019e1cc0deb2d9b7cd05e536825971f7",
+    "retail_source_file": "work/industrial-goal1000/native-hiflex-40t-selected.json",
+    "official_source_file": "work/industrial-goal1000/kaiflex-40t-event.json",
+    "lines_reviewed": 44,
+    "omitted_facts": [
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01509058:1",
+        "agency_name": "제주대학교",
+        "quantity": "300",
+        "conditional_saving_krw": "7511299"
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01994524:9",
+        "agency_name": "충청북도 단양군",
+        "quantity": "77",
+        "conditional_saving_krw": "0"
+      }
+    ],
+    "conditional_saving_krw": "1047766560",
+    "mismatches": [],
+    "checked_price": "모든44행의217700원·VAT포함true·배송포함false가 실제 선택 원문과 일치한다.",
+    "shipping_budget_disclosure": "표시22000원에 보수10%를 더한24200원을 매 롤의 예산으로 넣었고 실제 총운임 확정이 아니라고 comparison_scope와 reproduction_notes가 명시한다.",
+    "packing_rule": "모든44행 B가 fact별7m올림 후241900원/롤 원가÷Q의 소수6자리올림과 일치한다.",
+    "nominal_R_ratio_increase_percent": "55.42857142857142857142857140",
+    "specification_review": "원품 전체시험 동일성이나 모든 실제 특성 우위를 주장하지 않는다. 압축21% vs18% 이하·CFE/인장/항균 미확인·점착층 시험미표기·2019상세이미지·판매로트미확약을 공개했다.",
+    "suggestion": "원품 NBR 대40T 원시험시료 NBR+CR 차이도 한 줄 공개하면 재질 범위가 더 명확하다. 이 제안을 모든 원시험 동일성의 추가 문턱으로 쓰지 않는다.",
+    "independent_review_conclusion": "가격·구성·계산 및 확인한 문구의 숨긴 오류나 원문 불일치를 찾지 못했다. 명목 성능·운임 예산의 한계를 공개한 취득가 비교로 root가 최종 판단한다.",
+    "submitted": false
+  },
+  "hiflex_40t_parent_submission_result": {
+    "recorded_at": "2026-10-16T19:20:53.840768+00:00",
+    "source": "parent root가 실제 공식 preview·제출 결과를 메시지로 전달했다. industrial은 POST하지 않았다.",
+    "item_id": "24449671",
+    "submission_id": "5441d618-53ed-4bfe-8f4b-a66bce6681b9",
+    "status": "accepted",
+    "estimated_savings_krw": "1047766560",
+    "line_count": 44,
+    "excluded_jeju_quantity_m": "300",
+    "cumulative_parent_reported_savings_krw": "31585078909",
+    "daily_attempts_remaining": 37,
+    "instruction": "이 물품은 기등록으로 보존하며 추가 제출·기존 가격 수정·같은 판매 경로 후속 반복을 하지 않는다."
   }
 }
