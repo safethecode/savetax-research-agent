@@ -7,7 +7,7 @@ import re
 import requests
 
 from .client import SaveTaxClient, SaveTaxError, TOKEN_PATTERN, _redact
-from .evidence import _source_valid, _purchase_availability_reasons
+from .evidence import _source_valid, _purchase_availability_reasons, is_procurement_price_url
 
 BASE = 'https://hackathon.savetax.now/v1/events/current'
 
@@ -18,6 +18,8 @@ def canonical_model(value):
 
 
 def build_submission(item, offer, event):
+    if is_procurement_price_url(offer.get('url')):
+        raise ValueError('공공조달 견적은 시중 판매가격 근거로 사용할 수 없습니다')
     if item.get('availability',{}).get('state') != 'available':
         raise ValueError('미등록 available 물품만 신규 점수 대상입니다')
     kind = offer.get('comparison_kind','identical')
@@ -219,6 +221,10 @@ class ScoreClient:
     def _post(self, suffix, body, key=None):
         if suffix not in ('/submissions/preview','/submissions'):
             raise ValueError('허용되지 않은 점수 경로')
+        if any(is_procurement_price_url(evidence.get('source_url'))
+               for line in body.get('lines', [])
+               for evidence in line.get('price_evidence', [])):
+            raise ValueError('공공조달 견적은 시중 판매가격 근거로 사용할 수 없습니다')
         serialized = json.dumps(body,ensure_ascii=False,allow_nan=False,separators=(',',':'))
         if TOKEN_PATTERN.search(serialized):
             raise ValueError('본문에 비밀 문자열을 넣을 수 없습니다')

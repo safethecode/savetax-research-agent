@@ -13,6 +13,18 @@ import re
 from urllib.parse import urlsplit
 
 
+def is_procurement_price_url(url):
+    """공공조달 원규격 링크는 허용하되 시중 판매가 근거로는 쓰지 않는다."""
+    if not isinstance(url, str):
+        return False
+    try:
+        host = (urlsplit(url).hostname or '').lower().rstrip('.')
+    except ValueError:
+        return False
+    return any(host == domain or host.endswith('.' + domain)
+               for domain in ('s2b.kr', 'g2b.go.kr'))
+
+
 TARGET_KRW = "60000000000"
 _KST = timezone(timedelta(hours=9))
 _NUMBER = re.compile(r"[+]?(?:[0-9]+(?:\.[0-9]+)?|\.[0-9]+)\Z")

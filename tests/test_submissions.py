@@ -32,6 +32,30 @@ class ScoreTests(unittest.TestCase):
             self.assertIn(value,text)
         self.assertEqual(line['benchmark_unit_price_krw'],'100000')
 
+    def test_procurement_estimate_is_blocked_as_price_before_any_post(self):
+        client = ScoreClient(SaveTaxClient(token='savetax_'+'x'*32))
+        body = build_submission(self.item,self.offer,self.event)
+        for url in ('https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398',
+                    'https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=1',
+                    'https://ppi.g2b.go.kr:8914/sm/dm/sch/searchGoodsDetail.do?id=1'):
+            with self.subTest(url=url), patch('savetax.submissions.requests.post') as post:
+                with self.assertRaisesRegex(ValueError,'공공조달'):
+                    build_submission(self.item,{**self.offer,'url':url},self.event)
+                body['lines'][0]['price_evidence'][0]['source_url'] = url
+                with self.assertRaisesRegex(ValueError,'공공조달'):
+                    client.preview(body)
+                post.assert_not_called()
+
+    def test_procurement_specification_link_does_not_block_valid_retail_price(self):
+        offer = {**self.offer,'comparison_kind':'equivalent','model':'XYZ',
+            'comparison_assessment':self.assessment,'retail_model_verified':True,
+            'comparison_reviewed':True,'procurement_model':'ABC',
+            'spec_mapping':[{'attribute':'전력','original':'40W','alternative':'40W'}],
+            'spec_source_urls':['https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=1'],
+            'differences':'제조사가 다르다.'}
+        self.assertEqual(build_submission(self.item,offer,self.event)['lines'][0]
+                         ['price_evidence'][0]['source_url'],self.offer['url'])
+
     def test_pack_keeps_displayed_price_and_normalizes_benchmark(self):
         offer = {**self.offer,'unit_price':'18000','pack_quantity':5,'pack_quantity_verified':True,
                  'quote':'ABC 5개입 판매가 18000원 부가세 포함'}
