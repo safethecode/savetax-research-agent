@@ -1,0 +1,756 @@
+{
+ "submission": {
+  "submission_id": "78aeeb93-1d92-4c09-9e1b-247ea0a4422c",
+  "claim_id": "42eebecb-d597-4432-bbeb-5023cc998983",
+  "revision": 1,
+  "submission_state": "accepted",
+  "admitted_at": "2026-10-16T17:22:41.671Z",
+  "amount_krw": 2862417244,
+  "verification_status": "not_started",
+  "lint_status": "pending",
+  "event_epoch": 1,
+  "ruleset_version": "rules-v1",
+  "public_path": "/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/78aeeb93-1d92-4c09-9e1b-247ea0a4422c",
+  "api_path": "/v1/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/78aeeb93-1d92-4c09-9e1b-247ea0a4422c",
+  "web_path": "#/submission/78aeeb93-1d92-4c09-9e1b-247ea0a4422c"
+ },
+ "body": {
+  "dataset_release_id": "release-live-20261012",
+  "ruleset_version": "rules-v1",
+  "canonical_product_id": "24830440",
+  "title": "Tibero 7 Enterprise와 SQL Server 2022 Enterprise 코어 영구 사용권 취득가격 비교",
+  "claim": "조달 Tibero 7과 실제 판매 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001)의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. Tibero의 Oracle 문법 호환과 UNIX(HP-UX·AIX·Solaris) 지원은 SQL Server에 없어 기존 응용의 이관 비용이 생길 수 있다. 조달가에 포함될 수 있는 현장 설치·기술지원·하자보수는 판매가에 없으며 금액에 반영하지 않았다. SQL Server 영구 사용권의 가상머신 단위 라이선스에는 SA 또는 구독이 필요하므로 이 비교는 물리 서버의 코어 수가 fact 수량과 같다는 가정이다. 2코어 팩과 물리 프로세서당 최소 4코어 규칙에 따라 1~3코어와 홀수 코어 fact는 필요한 팩 수로 올려 개별 단가를 적용했고, 1·2코어 fact는 절감액이 없어 제외된다. 판매 화면의 세액 표시를 보수적으로 부가세 별도로 보고 10%를 더했다.",
+  "comparison_scope": "서로 다른 제조사 DBMS의 코어당 영구 사용권 취득가격 비교. 판매가는 부가세 별도로 보고 10%를 더해 1코어당 11,094,875원으로 환산했다. 설치·기술지원·하자보수와 이관 비용은 미반영. 원품 Tibero 7, 대체품 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001). 차이·제한: Tibero의 Oracle 문법 호환과 UNIX(HP-UX·AIX·Solaris) 지원은 SQL Server에 없어 기존 응용의 이관 비용이 생길 수 있다. 조달가에 포함될 수 있는 현장 설치·기술지원·하자보수는 판매가에 없으며 금액에 반영하지 않았다. SQL Server 영구 사용권의 가상머신 단위 라이선스에는 SA 또는 구독이 필요하므로 이 비교는 물리 서버의 코어 수가 fact 수량과 같다는 가정이다. 2코어 팩과 물리 프로세서당 최소 4코어 규칙에 따라 1~3코어와 홀수 코어 fact는 필요한 팩 수로 올려 개별 단가를 적용했고, 1·2코어 fact는 절감액이 없어 제외된다. 판매 화면의 세액 표시를 보수적으로 부가세 별도로 보고 10%를 더했다.",
+  "reproduction_notes": "공식 fact별 floor(max(C-B×Q,0))를 합산. 각 라인 근거에 계약·납품요구·라인 번호를 기재. 가격 시점 차이는 사용자 지정 대회 조사 기준에서 제외한다. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 사양 대응: 핵심 용도: Tibero 7 Enterprise, 기업용 관계형 DBMS(DBMS, 1Core, Enterprise) → SQL Server 2022 Enterprise 관계형 데이터베이스 엔진, 제조사가 최고 등급 에디션으로 설명; 사용권 단위와 기간: 1조=1Core, 기간 제한 없는 사용권 → 2코어 팩 CSP 영구 사용권, 코어 단위. 물리 프로세서당 최소 4코어를 적용해 fact별로 팩 수를 올림; 확장 한도: 구매한 코어 수 기준 → 단일 인스턴스 최대 컴퓨팅·버퍼 풀 메모리가 운영체제 최대, 최대 DB 크기 524PB; 고가용성: 공유디스크 Active-Active TAC 기술 보유. 조달 목록에서 Tibero Active Cluster 1Core는 별도 물품 24830439로 등재 → Enterprise 사용권에 Always On 가용성 그룹, 최대 16노드 장애조치 클러스터 인스턴스, 분산 가용성 그룹 포함; 대용량 처리: 병렬처리·파티셔닝·압축 → 파티셔닝·데이터 압축·병렬 처리·columnstore·메모리 내 OLTP; 보안: TDE(투명 데이터 암호화)·접근 제어 → TDE·Always Encrypted·행 수준 보안·서버 감사·원장; SQL 호환성: PL/SQL·패키지·트리거 등 Oracle 문법 호환 → T-SQL 기반, Oracle 문법 호환을 주장하지 않음. 사양 출처: https://learn.microsoft.com/ko-kr/sql/sql-server/editions-and-components-of-sql-server-2022?view=sql-server-ver16 https://www.microsoft.com/licensing/guidance/SQL https://www.tibero.com/ko/products/Tibero https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1. 비교 검토: 핵심 용도: 원품은 물품명상 DBMS 1Core Enterprise이고, 대체품은 제조사 문서상 중요 업무용 워크로드를 위한 SQL Server 최고 등급 에디션의 관계형 데이터베이스 엔진이다. 두 제품 모두 기업용 관계형 DB 운영이 핵심 용도다.; 완제품 구성: 판매가는 SQL Server 2022 Enterprise 2코어 CSP 영구 사용권 1copy이며 설치 미디어 다운로드와 관리센터 계정이 이메일로 제공된다고 상세에 표시된다. 코어 단위 사용권은 CAL이 필요 없고, 필요한 코어 수만큼 팩을 구매해 원품의 코어 수를 충족한다.",
+  "lines": [
+   {
+    "fact_id": "dl:24830440:002461246_1:R25TB01038351:2",
+    "benchmark_unit_price_krw": "11094875",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11094875원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R25TB01038351, 라인 2. 공식 fact dl:24830440:002461246_1:R25TB01038351:2, 수량 16, 비교금액 244816000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R25TB01096631:1",
+    "benchmark_unit_price_krw": "11094875",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11094875원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R25TB01096631, 라인 1. 공식 fact dl:24830440:002461246_1:R25TB01096631:1, 수량 16, 비교금액 244816000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R25TB01100378:1",
+    "benchmark_unit_price_krw": "11094875",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11094875원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R25TB01100378, 라인 1. 공식 fact dl:24830440:002461246_1:R25TB01100378:1, 수량 16, 비교금액 244816000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R25TB01123263:2",
+    "benchmark_unit_price_krw": "11094875",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11094875원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R25TB01123263, 라인 2. 공식 fact dl:24830440:002461246_1:R25TB01123263:2, 수량 24, 비교금액 367224000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R25TB01199043:1",
+    "benchmark_unit_price_krw": "11747514.705883",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11747514.705883원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R25TB01199043, 라인 1. 공식 fact dl:24830440:002461246_1:R25TB01199043:1, 수량 17, 비교금액 260117000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R25TB01231503:1",
+    "benchmark_unit_price_krw": "11289521.929825",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11289521.929825원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R25TB01231503, 라인 1. 공식 fact dl:24830440:002461246_1:R25TB01231503:1, 수량 57, 비교금액 872157000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R25TB01246889:1",
+    "benchmark_unit_price_krw": "11094875",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11094875원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R25TB01246889, 라인 1. 공식 fact dl:24830440:002461246_1:R25TB01246889:1, 수량 8, 비교금액 122408000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R25TB01256220:1",
+    "benchmark_unit_price_krw": "11094875",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11094875원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R25TB01256220, 라인 1. 공식 fact dl:24830440:002461246_1:R25TB01256220:1, 수량 8, 비교금액 122408000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R25TB01265617:1",
+    "benchmark_unit_price_krw": "12327638.888889",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 12327638.888889원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R25TB01265617, 라인 1. 공식 fact dl:24830440:002461246_1:R25TB01265617:1, 수량 9, 비교금액 137709000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R25TB01273192:1",
+    "benchmark_unit_price_krw": "11094875",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11094875원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R25TB01273192, 라인 1. 공식 fact dl:24830440:002461246_1:R25TB01273192:1, 수량 4, 비교금액 61204000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R25TB01285869:1",
+    "benchmark_unit_price_krw": "11094875",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11094875원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R25TB01285869, 라인 1. 공식 fact dl:24830440:002461246_1:R25TB01285869:1, 수량 4, 비교금액 61204000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R25TB01332542:2",
+    "benchmark_unit_price_krw": "11094875",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11094875원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R25TB01332542, 라인 2. 공식 fact dl:24830440:002461246_1:R25TB01332542:2, 수량 20, 비교금액 306020000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R25TB01337385:1",
+    "benchmark_unit_price_krw": "11094875",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11094875원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R25TB01337385, 라인 1. 공식 fact dl:24830440:002461246_1:R25TB01337385:1, 수량 4, 비교금액 61204000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R26TB01482466:2",
+    "benchmark_unit_price_krw": "11094875",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11094875원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R26TB01482466, 라인 2. 공식 fact dl:24830440:002461246_1:R26TB01482466:2, 수량 16, 비교금액 244816000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R26TB01518184:1",
+    "benchmark_unit_price_krw": "11094875",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11094875원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R26TB01518184, 라인 1. 공식 fact dl:24830440:002461246_1:R26TB01518184:1, 수량 4, 비교금액 61204000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R26TB01534353:1",
+    "benchmark_unit_price_krw": "14793166.666667",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 14793166.666667원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R26TB01534353, 라인 1. 공식 fact dl:24830440:002461246_1:R26TB01534353:1, 수량 3, 비교금액 45903000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R26TB01654660:1",
+    "benchmark_unit_price_krw": "11094875",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11094875원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R26TB01654660, 라인 1. 공식 fact dl:24830440:002461246_1:R26TB01654660:1, 수량 8, 비교금액 122408000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R26TB01846515:1",
+    "benchmark_unit_price_krw": "11094875",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11094875원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R26TB01846515, 라인 1. 공식 fact dl:24830440:002461246_1:R26TB01846515:1, 수량 4, 비교금액 61204000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R26TB01937715:2",
+    "benchmark_unit_price_krw": "11094875",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11094875원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R26TB01937715, 라인 2. 공식 fact dl:24830440:002461246_1:R26TB01937715:2, 수량 16, 비교금액 244816000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R26TB01964666:1",
+    "benchmark_unit_price_krw": "11202592.233010",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11202592.233010원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R26TB01964666, 라인 1. 공식 fact dl:24830440:002461246_1:R26TB01964666:1, 수량 103, 비교금액 1576003000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R26TB01987405:2",
+    "benchmark_unit_price_krw": "11094875",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11094875원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R26TB01987405, 라인 2. 공식 fact dl:24830440:002461246_1:R26TB01987405:2, 수량 88, 비교금액 1346488000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R26TB01987406:1",
+    "benchmark_unit_price_krw": "11094875",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11094875원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R26TB01987406, 라인 1. 공식 fact dl:24830440:002461246_1:R26TB01987406:1, 수량 20, 비교금액 306020000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R26TB01987407:2",
+    "benchmark_unit_price_krw": "11094875",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11094875원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R26TB01987407, 라인 2. 공식 fact dl:24830440:002461246_1:R26TB01987407:2, 수량 142, 비교금액 2172742000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R26TB01996174:1",
+    "benchmark_unit_price_krw": "12103500.000000",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 12103500.000000원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R26TB01996174, 라인 1. 공식 fact dl:24830440:002461246_1:R26TB01996174:1, 수량 11, 비교금액 168311000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R26TB01997240:2",
+    "benchmark_unit_price_krw": "11094875",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11094875원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R26TB01997240, 라인 2. 공식 fact dl:24830440:002461246_1:R26TB01997240:2, 수량 8, 비교금액 122408000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R26TB02066128:1",
+    "benchmark_unit_price_krw": "12327638.888889",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 12327638.888889원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R26TB02066128, 라인 1. 공식 fact dl:24830440:002461246_1:R26TB02066128:1, 수량 9, 비교금액 137709000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R26TB02340801:1",
+    "benchmark_unit_price_krw": "11094875",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11094875원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R26TB02340801, 라인 1. 공식 fact dl:24830440:002461246_1:R26TB02340801:1, 수량 60, 비교금액 918060000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:24830440:002461246_1:R26TB02345006:1",
+    "benchmark_unit_price_krw": "11094875",
+    "comparison_basis_id": "basis:조:vat_included",
+    "unit": "조",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+      "quote": "소프트웨어즈((주)넥스티어) 상품 상세: 'SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구]', 상품간략설명 '데이타베이스 서버 2022 중 엔터프라이즈 코어단위 에디션 - 2코어', 판매가 ₩20,172,500, 제조사 Microsoft, 제품분류 CSP영구, 모델 DG7GMGF0FKZV:0001, 세액 ₩2,017,250, '이 제품은 기업용 제품이며, 마이크로소프트의 새로운 CSP Perpetual(영구) 라이선스 입니다', '최소 구매 수량인 2core (라이선스1copy)가 포함되어 있습니다', 배송 비용: 무료, 바로 구매 버튼 표시. 2026-10-17 KST 직접 HTTP와 브라우저로 확인.",
+      "observed_price_krw": "20172500",
+      "observed_at": "2026-10-17",
+      "vat_included": false,
+      "shipping_included": true,
+      "note": "표시가 20172500원/공식 비교 단위 2조 구성. 공식 비교 단위 1조당 11094875원으로 비교. 표시가는 부가세 별도이며, 세율 10%로 부가세 포함 기준에 환산했다. 포장 환산 기준 단가는 11094875원이다. 실제 판매모델 SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001); 원품 Tibero 7과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 002461246_1, 납품요구 R26TB02345006, 라인 1. 공식 fact dl:24830440:002461246_1:R26TB02345006:1, 수량 4, 비교금액 61204000원."
+     }
+    ]
+   }
+  ]
+ }
+}
