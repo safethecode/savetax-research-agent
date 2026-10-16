@@ -1,0 +1,44 @@
+{
+  "observed_at_utc": "2026-10-16T09:27:07.335770+00:00",
+  "accepted_submission_count": 47,
+  "accepted_expected_amount_krw": "11804881979",
+  "remaining": {
+    "claims_per_day": 0,
+    "claims_total": 50,
+    "counterevidence": null,
+    "revisions": null,
+    "upload_bytes": 20971520
+  },
+  "meaning": "공식 접수 상태의 검증 전 예상액이며 최종 인정액이나 실제 예산 절감액이 아니다.",
+  "requested_submission": {
+    "submission_id": "975e811a-4b1e-4c1a-932d-1b1c05330673",
+    "public_url": "https://hackathon.savetax.now/#/submission/975e811a-4b1e-4c1a-932d-1b1c05330673",
+    "submission_state": "accepted",
+    "amount_krw": "1128470000",
+    "current_revision": 1,
+    "verification_status": "not_started",
+    "lint_status": "unreadable",
+    "lint_checked_at": "2026-10-16T07:47:48.486Z",
+    "lint_line_count": 59,
+    "lint_distinct_reasons": [
+      "판정기 오류로 판단 유보 — 근거 파일의 문제가 아니며 사람 검토 대상이다. 재시도(4회)도 실패했다. 운영자가 확인하며, 수정(revision)을 올리면 다시 검사된다"
+    ],
+    "assessment": "공식 사유는 판정기 자체 오류 및 네 번 재시도 실패로 사람 검토 대상이라는 것이다. 실제 판매 원문의 오류라고 확정한 판정은 아니다.",
+    "revision_sent": false
+  },
+  "last_three_submissions": {
+    "submission_ids": [
+      "975e811a-4b1e-4c1a-932d-1b1c05330673",
+      "17221199-9df4-4c24-babc-cf9501785d3b",
+      "14da6e95-ab5f-4e66-bffe-1deb898f3940"
+    ],
+    "total_expected_amount_krw": "3125470000",
+    "minimum_per_submission_krw": "803600000"
+  },
+  "goal": {
+    "target_krw": "60000000000",
+    "shortfall_from_accepted_expected_krw": "48195118021",
+    "achieved": false
+  },
+  "POST_count_this_status_check": 0
+}
