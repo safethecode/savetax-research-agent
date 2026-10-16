@@ -1,16 +1,16 @@
 {
-  "observed_at": "2026-10-16T06:43:53.228639+00:00",
-  "scored_claims_used": 40,
-  "accepted_amount_krw": 6772842979,
+  "observed_at": "2026-10-16T07:09:29.465071+00:00",
+  "scored_claims_used": 42,
+  "accepted_amount_krw": 7709041579,
   "remaining": {
-    "claims_per_day": 7,
-    "claims_total": 57,
+    "claims_per_day": 5,
+    "claims_total": 55,
     "counterevidence": null,
     "revisions": null,
     "upload_bytes": 20971520
   },
-  "shortfall_krw": 53227157021,
-  "required_average_per_remaining_submission_krw": "933809773",
+  "shortfall_krw": 52290958421,
+  "required_average_per_remaining_submission_krw": "950744699",
   "target_krw": 60000000000,
   "policy": "고액 우선. 10억원은 탐색 목표이며 검증된 억 단위 후보를 버리는 절대 문턱은 아니다. 신규 소액은 근거를 보존하고 대기한다.",
   "global_target_per_submission_krw": 1000000000,

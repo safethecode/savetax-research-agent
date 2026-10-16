@@ -1,0 +1,210 @@
+{
+  "submission": {
+    "submission_id": "41a5fe44-f0b9-4983-82e1-09bd3297c176",
+    "claim_id": "8d0d9af7-a55c-4aa6-b009-59472b6645ba",
+    "revision": 1,
+    "submission_state": "accepted",
+    "admitted_at": "2026-10-16T07:08:55.454Z",
+    "amount_krw": 606066600,
+    "verification_status": "not_started",
+    "lint_status": "pending",
+    "event_epoch": 1,
+    "ruleset_version": "rules-v1",
+    "public_path": "/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/41a5fe44-f0b9-4983-82e1-09bd3297c176",
+    "api_path": "/v1/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/41a5fe44-f0b9-4983-82e1-09bd3297c176",
+    "web_path": "#/submission/41a5fe44-f0b9-4983-82e1-09bd3297c176"
+  },
+  "body": {
+    "dataset_release_id": "release-live-20261012",
+    "ruleset_version": "rules-v1",
+    "canonical_product_id": "25055159",
+    "title": "BRGT-B08040RAI와 DS-2CD2686G2-IZS의 야간 카메라 본체 취득가격 비교",
+    "claim": "공식 납품 사실 7건의 489대·884,112,000원에 비교 단가 568,600원을 적용한 예상 차액은 606,066,600원이다. 판매가 565,000원은 부가세 포함이고 착불 배송비 3,600원을 각 대에 더했다.\n\n원품 BRGT-B08040RAI와 판매품 Hikvision DS-2CD2686G2-IZS는 다른 제조사와 모델이다. 실제 판매 상세 이미지의 1/1.8형·8MP 60Hz 24fps·2.8~12mm·IR60m·IP66 사양을 적용했다. 구형20fps 또는 다른 후속 G2H의 사양을 섞지 않았다. 원품8MP 30fps에 비해 대체품8MP는24fps이며, 대체품30fps는3200×1800 이하에서만 된다. 원품4.1~16.4mm·수평103.9~26도에 비해 대체품2.8~12mm·108~46도로 망원 범위가 줄어든다. 원품IP67에 비해 대체품IP66이므로 침수 정격 동등성을 주장하지 않는다. IK10은 양쪽에서 확인했다. 원품4스트림·기가랜·SD최대512GB가 대체품3스트림·100Mbps LAN·SD최대256GB로 줄어든다. 원품의 사람·자동차·오토바이·자전거·번호판 감지/속성 출력과 달리 대체품은 사람/차량 분류, 얼굴캡처, 선침범·침입·영역출입 감지를 확인했다. 원품의 모든 분석 속성과 동등하다고 주장하지 않는다. 대체품은 HTTPS 암호화를 명시하지만 원품의 전용 CCTV 영상암호화 시스템·특허·TTA·녹색인증 및 전용 연동을 충족한다고 주장하지 않는다. 원품 현장설치도·하자2년과 판매품 카메라 본체 택배 공급을 구분하며 설치 및 보증 동등성은 확인하지 않았다. 대체품은12VDC 최대13W 또는802.3at PoE 최대15W이며 원품12VDC/PoE 최대15W와 비교했다. 기존 PoE 장비·체결홀·녹화기의 개별 현장 호환은 확인하지 않았다.",
+    "comparison_scope": "1/1.8형 8MP 야간 IP 불릿 카메라와 사람·차량 분류 기능의 본체 취득가격 비교다. 최대 24fps와 수평 망원 화각 46도, IP66을 허용하는 용도로 한정한다. 원품의 30fps·26도 망원·IP67·4스트림·기가랜·512GB 저장·전용 보안 및 연동·TTA 인증을 요구하는 용도의 동등성은 확인하지 않았다. 원품은 현장설치도이며 본 비교에는 설치·배선·시험·2년 보증을 별도 금액으로 반영하지 않았다. 기본 택배 3,600원을 매대마다 더했으며 도서산간 추가운임은 미확인이다. 기관명만으로 실제 납품 장소를 확정하지 않는다.",
+    "reproduction_notes": "공식 fact별 floor(max(C-B×Q,0))를 합산. 각 라인 근거에 계약·납품요구·라인 번호를 기재. 가격 시점 차이는 사용자 지정 대회 조사 기준에서 제외한다. 사양 대응: 영상·센서: 1/1.8형 CMOS,3840×2160 최대30fps,공식 SNR50dB → 실제 판매 상세1/1.8형 CMOS,8MP 60Hz24fps,3200×1800 이하30fps,SNR≥52dB;8MP 프레임 손실; 전동 렌즈·화각: 4.1~16.4mm,수평103.9~26도 → 2.8~12mm,수평108~46도;26도 망원 용도 미대응; 야간: 공식 item IR50m / 제조사 카탈로그30m로 자료 차이 보존 → 판매 표제50m,실제 상세 규격 이미지 IR60m;실제 현장 식별거리 동등성은 미확인; 영상 처리: H.264/H.265/MJPEG,4스트림 → H.264/H.265/MJPEG,3스트림;서드스트림은 특정 설정에서 지원; 감지·분석: 사람·자동차·오토바이·자전거·번호판 감지/속성 → 사람/차량 분류,얼굴캡처,선침범·침입·영역출입;원품 모든 객체/속성 출력 미대응; 보호·보안: IP67/IK10,TTA·녹색인증,전용 영상암호화 시스템 → IP66/IK10,HTTPS 암호화;침수등급 하향,TTA·녹색·전용 암호 호환 미확인; 저장·네트워크: 기가랜,SD최대512GB → 100Mbps LAN,SD최대256GB,ONVIF S/G/T; 전원·장착: 12VDC/PoE,최대15W,일체형 장착발 → 12VDC 최대13W/802.3at PoE 최대15W,일체형 장착발;기존 전원·체결홀의 현장 호환 미확인; 공급·보증: 현장설치도,하자보수2년 → 카메라 본체 택배 공급,현장설치 및2년보증 동등성 미확인. 사양 출처: https://api.savetax.now/v1/items/25055159 https://hikv.cafe24.com/SPEC/DS-2CD2686G2-IZS.jpg 원품 제조사 도면·사양은 http://www.brinfo.co.kr/assets/cat-p2.pdf 3쪽에서 확인했다. 판매 상세 이미지의 실제 사양을 우선하며 신형 G2H 또는 다른 구형 리비전의 규격을 혼합하지 않았다. 원품 설치비를 임의 산정하지 않았고 제품 취득비 비교로 범위를 제한했다. 도서산간 추가운임은 미확정이다. PC와 모바일의 실제 수량 1 합계는 565,000원이었다. 검색에 남은 282,000원은 현재 가격으로 사용하지 않았다. 추가 구성상품인 녹화중 판넬은 선택하지 않았다. PC의 부가세포함가 문구와 배송 착불 3,600원을 확인했다. 판매처 이미지의 8MP 24fps·IR60m·IP66 사양을 직접 읽었다.",
+    "lines": [
+      {
+        "fact_id": "dl:25055159:002370098_1:R25TB01082105:2",
+        "benchmark_unit_price_krw": "568600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=85663",
+            "quote": "BtoB CCTV DS-2CD2686G2-IZS. 판매가 565,000원. 부가세포함가. 총 상품금액(수량): 565,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 PC·모바일 판매 화면 확인.",
+            "observed_price_krw": "565000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "관측가 565,000원은 VAT 포함, 배송 별도다. 기본 착불 3,600원을 각 대에 더한 B568,600원으로 비교했다. 별도 세금 예산이나 카드·쿠폰·포인트 할인을 적용하지 않았다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R25TB01082105, 라인 2. 공식 fact dl:25055159:002370098_1:R25TB01082105:2, 수량 12, 비교금액 21696000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25055159:002370098_1:R26TB01529768:3",
+        "benchmark_unit_price_krw": "568600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=85663",
+            "quote": "BtoB CCTV DS-2CD2686G2-IZS. 판매가 565,000원. 부가세포함가. 총 상품금액(수량): 565,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 PC·모바일 판매 화면 확인.",
+            "observed_price_krw": "565000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "관측가 565,000원은 VAT 포함, 배송 별도다. 기본 착불 3,600원을 각 대에 더한 B568,600원으로 비교했다. 별도 세금 예산이나 카드·쿠폰·포인트 할인을 적용하지 않았다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB01529768, 라인 3. 공식 fact dl:25055159:002370098_1:R26TB01529768:3, 수량 4, 비교금액 7232000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25055159:002370098_1:R26TB01755971:4",
+        "benchmark_unit_price_krw": "568600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=85663",
+            "quote": "BtoB CCTV DS-2CD2686G2-IZS. 판매가 565,000원. 부가세포함가. 총 상품금액(수량): 565,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 PC·모바일 판매 화면 확인.",
+            "observed_price_krw": "565000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "관측가 565,000원은 VAT 포함, 배송 별도다. 기본 착불 3,600원을 각 대에 더한 B568,600원으로 비교했다. 별도 세금 예산이나 카드·쿠폰·포인트 할인을 적용하지 않았다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB01755971, 라인 4. 공식 fact dl:25055159:002370098_1:R26TB01755971:4, 수량 3, 비교금액 5424000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25055159:002370098_1:R26TB01897977:2",
+        "benchmark_unit_price_krw": "568600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=85663",
+            "quote": "BtoB CCTV DS-2CD2686G2-IZS. 판매가 565,000원. 부가세포함가. 총 상품금액(수량): 565,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 PC·모바일 판매 화면 확인.",
+            "observed_price_krw": "565000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "관측가 565,000원은 VAT 포함, 배송 별도다. 기본 착불 3,600원을 각 대에 더한 B568,600원으로 비교했다. 별도 세금 예산이나 카드·쿠폰·포인트 할인을 적용하지 않았다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB01897977, 라인 2. 공식 fact dl:25055159:002370098_1:R26TB01897977:2, 수량 4, 비교금액 7232000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25055159:002370098_1:R26TB02250836:2",
+        "benchmark_unit_price_krw": "568600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=85663",
+            "quote": "BtoB CCTV DS-2CD2686G2-IZS. 판매가 565,000원. 부가세포함가. 총 상품금액(수량): 565,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 PC·모바일 판매 화면 확인.",
+            "observed_price_krw": "565000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "관측가 565,000원은 VAT 포함, 배송 별도다. 기본 착불 3,600원을 각 대에 더한 B568,600원으로 비교했다. 별도 세금 예산이나 카드·쿠폰·포인트 할인을 적용하지 않았다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB02250836, 라인 2. 공식 fact dl:25055159:002370098_1:R26TB02250836:2, 수량 1, 비교금액 1808000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25055159:002370098_1:R26TB02251694:2",
+        "benchmark_unit_price_krw": "568600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=85663",
+            "quote": "BtoB CCTV DS-2CD2686G2-IZS. 판매가 565,000원. 부가세포함가. 총 상품금액(수량): 565,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 PC·모바일 판매 화면 확인.",
+            "observed_price_krw": "565000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "관측가 565,000원은 VAT 포함, 배송 별도다. 기본 착불 3,600원을 각 대에 더한 B568,600원으로 비교했다. 별도 세금 예산이나 카드·쿠폰·포인트 할인을 적용하지 않았다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB02251694, 라인 2. 공식 fact dl:25055159:002370098_1:R26TB02251694:2, 수량 377, 비교금액 681616000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25055159:002370098_1:R26TB02298338:4",
+        "benchmark_unit_price_krw": "568600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=85663",
+            "quote": "BtoB CCTV DS-2CD2686G2-IZS. 판매가 565,000원. 부가세포함가. 총 상품금액(수량): 565,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 PC·모바일 판매 화면 확인.",
+            "observed_price_krw": "565000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "관측가 565,000원은 VAT 포함, 배송 별도다. 기본 착불 3,600원을 각 대에 더한 B568,600원으로 비교했다. 별도 세금 예산이나 카드·쿠폰·포인트 할인을 적용하지 않았다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB02298338, 라인 4. 공식 fact dl:25055159:002370098_1:R26TB02298338:4, 수량 88, 비교금액 159104000원."
+          }
+        ]
+      }
+    ]
+  }
+}

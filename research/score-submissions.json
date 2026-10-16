@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-16T06:43:53.228639+00:00",
+  "updated_at": "2026-10-16T07:09:29.465071+00:00",
   "target_krw": "60000000000",
-  "accepted_submission_count": 40,
-  "accepted_amount_krw": "6772842979",
+  "accepted_submission_count": 42,
+  "accepted_amount_krw": "7709041579",
   "review_approved_amount_krw": null,
   "realized_savings_krw": null,
   "status_note": "접수 예상액이다. 자동 점검 상태는 각 영수증 관측 시점이며 최종 인정·실제 집행 절감액과 다르다.",
@@ -26699,6 +26699,201 @@
         }
       ],
       "public_url": "https://hackathon.savetax.now/#/submission/8c34050d-b3f4-4073-9f26-a8671d7f7f25"
+    },
+    {
+      "submission_id": "41a5fe44-f0b9-4983-82e1-09bd3297c176",
+      "item_id": "25055159",
+      "title": "BRGT-B08040RAI와 DS-2CD2686G2-IZS의 야간 카메라 본체 취득가격 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "606066600",
+      "lint_status": "pending",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://btobcctv.com/product/detail.html?product_no=85663",
+      "displayed_price_krw": "565000",
+      "displayed_price_tax_basis": "vat_included",
+      "benchmark_unit_price_krw": "568600",
+      "benchmark_unit": "대",
+      "quantity": "489",
+      "comparable_amount_krw": "884112000",
+      "fact_count": 7,
+      "request_count": 7,
+      "claim": "공식 납품 사실 7건의 489대·884,112,000원에 비교 단가 568,600원을 적용한 예상 차액은 606,066,600원이다. 판매가 565,000원은 부가세 포함이고 착불 배송비 3,600원을 각 대에 더했다.\n\n원품 BRGT-B08040RAI와 판매품 Hikvision DS-2CD2686G2-IZS는 다른 제조사와 모델이다. 실제 판매 상세 이미지의 1/1.8형·8MP 60Hz 24fps·2.8~12mm·IR60m·IP66 사양을 적용했다. 구형20fps 또는 다른 후속 G2H의 사양을 섞지 않았다. 원품8MP 30fps에 비해 대체품8MP는24fps이며, 대체품30fps는3200×1800 이하에서만 된다. 원품4.1~16.4mm·수평103.9~26도에 비해 대체품2.8~12mm·108~46도로 망원 범위가 줄어든다. 원품IP67에 비해 대체품IP66이므로 침수 정격 동등성을 주장하지 않는다. IK10은 양쪽에서 확인했다. 원품4스트림·기가랜·SD최대512GB가 대체품3스트림·100Mbps LAN·SD최대256GB로 줄어든다. 원품의 사람·자동차·오토바이·자전거·번호판 감지/속성 출력과 달리 대체품은 사람/차량 분류, 얼굴캡처, 선침범·침입·영역출입 감지를 확인했다. 원품의 모든 분석 속성과 동등하다고 주장하지 않는다. 대체품은 HTTPS 암호화를 명시하지만 원품의 전용 CCTV 영상암호화 시스템·특허·TTA·녹색인증 및 전용 연동을 충족한다고 주장하지 않는다. 원품 현장설치도·하자2년과 판매품 카메라 본체 택배 공급을 구분하며 설치 및 보증 동등성은 확인하지 않았다. 대체품은12VDC 최대13W 또는802.3at PoE 최대15W이며 원품12VDC/PoE 최대15W와 비교했다. 기존 PoE 장비·체결홀·녹화기의 개별 현장 호환은 확인하지 않았다.",
+      "comparison_scope": "1/1.8형 8MP 야간 IP 불릿 카메라와 사람·차량 분류 기능의 본체 취득가격 비교다. 최대 24fps와 수평 망원 화각 46도, IP66을 허용하는 용도로 한정한다. 원품의 30fps·26도 망원·IP67·4스트림·기가랜·512GB 저장·전용 보안 및 연동·TTA 인증을 요구하는 용도의 동등성은 확인하지 않았다. 원품은 현장설치도이며 본 비교에는 설치·배선·시험·2년 보증을 별도 금액으로 반영하지 않았다. 기본 택배 3,600원을 매대마다 더했으며 도서산간 추가운임은 미확인이다. 기관명만으로 실제 납품 장소를 확정하지 않는다.",
+      "references": [
+        {
+          "fact_id": "dl:25055159:002370098_1:R25TB01082105:2",
+          "contract_no": "002370098_1",
+          "request_no": "R25TB01082105",
+          "line_no": "2",
+          "quantity": "12",
+          "comparable_amount_krw": "21696000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:대:vat_included"
+        },
+        {
+          "fact_id": "dl:25055159:002370098_1:R26TB01529768:3",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01529768",
+          "line_no": "3",
+          "quantity": "4",
+          "comparable_amount_krw": "7232000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:대:vat_included"
+        },
+        {
+          "fact_id": "dl:25055159:002370098_1:R26TB01755971:4",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01755971",
+          "line_no": "4",
+          "quantity": "3",
+          "comparable_amount_krw": "5424000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:대:vat_included"
+        },
+        {
+          "fact_id": "dl:25055159:002370098_1:R26TB01897977:2",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01897977",
+          "line_no": "2",
+          "quantity": "4",
+          "comparable_amount_krw": "7232000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:대:vat_included"
+        },
+        {
+          "fact_id": "dl:25055159:002370098_1:R26TB02250836:2",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB02250836",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "1808000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:대:vat_included"
+        },
+        {
+          "fact_id": "dl:25055159:002370098_1:R26TB02251694:2",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB02251694",
+          "line_no": "2",
+          "quantity": "377",
+          "comparable_amount_krw": "681616000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:대:vat_included"
+        },
+        {
+          "fact_id": "dl:25055159:002370098_1:R26TB02298338:4",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB02298338",
+          "line_no": "4",
+          "quantity": "88",
+          "comparable_amount_krw": "159104000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:대:vat_included"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/41a5fe44-f0b9-4983-82e1-09bd3297c176"
+    },
+    {
+      "submission_id": "32fc75ec-2ed1-4576-a9ec-dc74d20c0f92",
+      "item_id": "25063931",
+      "title": "BRLT-B08040RAI와 DS-2CD2686G2-IZS의 야간 카메라 본체 취득가격 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "330132000",
+      "lint_status": "pending",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://btobcctv.com/product/detail.html?product_no=85663",
+      "displayed_price_krw": "565000",
+      "displayed_price_tax_basis": "vat_included",
+      "benchmark_unit_price_krw": "568600",
+      "benchmark_unit": "대",
+      "quantity": "205",
+      "comparable_amount_krw": "446695000",
+      "fact_count": 6,
+      "request_count": 6,
+      "claim": "공식 납품 사실 6건의 205대·446,695,000원에 비교 단가 568,600원을 적용한 예상 차액은 330,132,000원이다. 판매가 565,000원은 부가세 포함이고 착불 배송비 3,600원을 각 대에 더했다.\n\n원품 BRLT-B08040RAI와 판매품 Hikvision DS-2CD2686G2-IZS는 다른 제조사와 모델이다. 실제 판매 상세 이미지의 1/1.8형·8MP 60Hz 24fps·2.8~12mm·IR60m·IP66 사양을 적용했다. 구형20fps 또는 다른 후속 G2H의 사양을 섞지 않았다. 원품8MP 30fps에 비해 대체품8MP는24fps이며, 대체품30fps는3200×1800 이하에서만 된다. 원품4.1~16.4mm·수평103.9~26도에 비해 대체품2.8~12mm·108~46도로 망원 범위가 줄어든다. 원품IP67에 비해 대체품IP66이므로 침수 정격 동등성을 주장하지 않는다. IK10은 양쪽에서 확인했다. 원품4스트림·기가랜·SD최대512GB가 대체품3스트림·100Mbps LAN·SD최대256GB로 줄어든다. 원품의 사람·자동차·오토바이·자전거·번호판 감지/속성 출력과 달리 대체품은 사람/차량 분류, 얼굴캡처, 선침범·침입·영역출입 감지를 확인했다. 원품의 모든 분석 속성과 동등하다고 주장하지 않는다. 대체품은 HTTPS 암호화를 명시하지만 원품의 전용 CCTV 영상암호화 시스템·특허·TTA·녹색인증 및 전용 연동을 충족한다고 주장하지 않는다. 원품 현장설치도·하자2년과 판매품 카메라 본체 택배 공급을 구분하며 설치 및 보증 동등성은 확인하지 않았다. 대체품은12VDC 최대13W 또는802.3at PoE 최대15W이며 원품12VDC/PoE 최대15W와 비교했다. 기존 PoE 장비·체결홀·녹화기의 개별 현장 호환은 확인하지 않았다.",
+      "comparison_scope": "1/1.8형 8MP 야간 IP 불릿 카메라와 사람·차량 분류 기능의 본체 취득가격 비교다. 최대 24fps와 수평 망원 화각 46도, IP66을 허용하는 용도로 한정한다. 원품의 30fps·26도 망원·IP67·4스트림·기가랜·512GB 저장·전용 보안 및 연동·TTA 인증을 요구하는 용도의 동등성은 확인하지 않았다. 원품은 현장설치도이며 본 비교에는 설치·배선·시험·2년 보증을 별도 금액으로 반영하지 않았다. 기본 택배 3,600원을 매대마다 더했으며 도서산간 추가운임은 미확인이다. 기관명만으로 실제 납품 장소를 확정하지 않는다.",
+      "references": [
+        {
+          "fact_id": "dl:25063931:002370098_1:R25TB00869311:10",
+          "contract_no": "002370098_1",
+          "request_no": "R25TB00869311",
+          "line_no": "10",
+          "quantity": "41",
+          "comparable_amount_krw": "89339000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:대:vat_included"
+        },
+        {
+          "fact_id": "dl:25063931:002370098_1:R25TB01044236:4",
+          "contract_no": "002370098_1",
+          "request_no": "R25TB01044236",
+          "line_no": "4",
+          "quantity": "55",
+          "comparable_amount_krw": "119845000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:대:vat_included"
+        },
+        {
+          "fact_id": "dl:25063931:002370098_1:R26TB01543401:2",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01543401",
+          "line_no": "2",
+          "quantity": "33",
+          "comparable_amount_krw": "71907000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:대:vat_included"
+        },
+        {
+          "fact_id": "dl:25063931:002370098_1:R26TB01841982:4",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01841982",
+          "line_no": "4",
+          "quantity": "5",
+          "comparable_amount_krw": "10895000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:대:vat_included"
+        },
+        {
+          "fact_id": "dl:25063931:002370098_1:R26TB01998479:2",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01998479",
+          "line_no": "2",
+          "quantity": "58",
+          "comparable_amount_krw": "126382000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:대:vat_included"
+        },
+        {
+          "fact_id": "dl:25063931:002370098_1:R26TB02134523:3",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB02134523",
+          "line_no": "3",
+          "quantity": "13",
+          "comparable_amount_krw": "28327000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:대:vat_included"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/32fc75ec-2ed1-4576-a9ec-dc74d20c0f92"
     }
   ]
 }
