@@ -1,0 +1,3610 @@
+{
+  "observed_at": "2026-10-16",
+  "handle": "삼손",
+  "dataset_release": "20261010-r5",
+  "selection": "unique item_id, representative listing_id ascending, MD5('삼손:20261010-r5:'||item_id) ascending, rank 50001..100000, 500-item batches, retail hardware with dlv_amount > 0; no global price cutoff",
+  "raw_data_policy": "Full snapshots remain only in work/private. Research artifact contains aggregates and at most 3 representative facts per item.",
+  "source_dataset": "work/data/savetax-products-20261010-r5/listings.parquet",
+  "selection_note": "8 eligible candidates, plus 3 reform_found audit exclusions; MD5 item order in allocated ranks50001..100000, 500-item batches.",
+  "candidates": [
+    {
+      "item_id": "26139779",
+      "rn": 53701,
+      "random_batch_500": 7,
+      "listing_id": "002062250_1350000060",
+      "name": "레이저프린터, Canon, (VN)imageCLASS LBP2493dwKG II , A4, 흑백36ppm",
+      "model": "(VN)imageCLASS LBP2493dwKG II",
+      "spec": "A4, 흑백36ppm",
+      "manufacturer": "Canon",
+      "unit": "대",
+      "detail_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002062250_1350000060",
+      "decision": "no_saving",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/26139779",
+      "availability": "available",
+      "api_source_release": "r20261011T012137",
+      "api_snapshot_fetched_at": "2026-10-12T03:09:53.045Z",
+      "fact_summary": {
+        "facts_total": 169,
+        "scorable_facts": 169,
+        "quantity": "390",
+        "comparable_amount_krw": "128700000",
+        "unit_price_range_krw": [
+          "330000",
+          "330000"
+        ],
+        "representative_facts": [
+          {
+            "fact_id": "dl:26139779:002062250_1:R26TB01870720:1",
+            "listing_id": "002062250_1350000060",
+            "contract_no": "002062250_1",
+            "request_no": "R26TB01870720",
+            "line_no": "1",
+            "request_date": "2026-04-29",
+            "agency_name": "국가보훈부",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "330000",
+            "quantity": "33",
+            "comparable_amount_krw": "10890000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:26139779:002062250_1:R26TB01871137:1",
+            "listing_id": "002062250_1350000060",
+            "contract_no": "002062250_1",
+            "request_no": "R26TB01871137",
+            "line_no": "1",
+            "request_date": "2026-04-29",
+            "agency_name": "전북특별자치도교육청 전북특별자치도전주교육지원청 전주하가초등학교",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "330000",
+            "quantity": "1",
+            "comparable_amount_krw": "330000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:26139779:002062250_1:R26TB01882292:1",
+            "listing_id": "002062250_1350000060",
+            "contract_no": "002062250_1",
+            "request_no": "R26TB01882292",
+            "line_no": "1",
+            "request_date": "2026-05-06",
+            "agency_name": "전북특별자치도교육청 전주생명과학고등학교",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "330000",
+            "quantity": "2",
+            "comparable_amount_krw": "660000",
+            "scorable": true,
+            "exclusion_reasons": []
+          }
+        ]
+      },
+      "retail_observations": [
+        {
+          "source_url": "https://biz.kr.canon/shop/goods_view.php?id=0002642210",
+          "seller": "캐논비즈몰",
+          "observed_at_utc": "2026-10-16T01:43:06Z",
+          "verification": "actual seller page opened with web tool",
+          "price_krw": "420000",
+          "quote": "LBP2493dwKG II / 420,000원 / 무료배송 / 총수량 1개",
+          "conditions_and_limits": "조달330000보다 비쌈. 등급할인 미채택. VAT/최대수량 미확인.",
+          "max_purchase_quantity": null
+        }
+      ],
+      "eligible_for_new_submission": true,
+      "procurement_conditions": []
+    },
+    {
+      "item_id": "25848765",
+      "rn": 53746,
+      "random_batch_500": 7,
+      "listing_id": "0024C1282_1040000052",
+      "name": "비디오프로젝터, Epson, (PH)EB-994F, 4100ANSI lm",
+      "model": "(PH)EB-994F",
+      "spec": "4100ANSI lm",
+      "manufacturer": "Epson",
+      "unit": "대",
+      "detail_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=0024C1282_1040000052",
+      "decision": "excluded_reform_found_public_case",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/25848765",
+      "availability": "reform_found",
+      "api_source_release": null,
+      "api_snapshot_fetched_at": null,
+      "fact_summary": {
+        "facts_total": 0,
+        "scorable_facts": 0,
+        "quantity": "0",
+        "comparable_amount_krw": "0",
+        "unit_price_range_krw": [],
+        "representative_facts": []
+      },
+      "retail_observations": [],
+      "eligible_for_new_submission": false,
+      "procurement_conditions": []
+    },
+    {
+      "item_id": "24821206",
+      "rn": 53885,
+      "random_batch_500": 7,
+      "listing_id": "002160956_1110000007",
+      "name": "전자복사기, (주문자상표부착)삼성전자, (CN)SL-G356K, 흑백35cpm",
+      "model": "(CN)SL-G356K",
+      "spec": "흑백35cpm",
+      "manufacturer": "삼성전자 주식회사",
+      "unit": "대",
+      "detail_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002160956_1110000007",
+      "decision": "held_no_retail_price",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/24821206",
+      "availability": "available",
+      "api_source_release": "r20261011T012137",
+      "api_snapshot_fetched_at": "2026-10-12T04:05:25.800Z",
+      "fact_summary": {
+        "facts_total": 14,
+        "scorable_facts": 14,
+        "quantity": "17",
+        "comparable_amount_krw": "56100000",
+        "unit_price_range_krw": [
+          "3300000",
+          "3300000"
+        ],
+        "representative_facts": [
+          {
+            "fact_id": "dl:24821206:002160956_1:R25TB01196707:1",
+            "listing_id": "002160956_1110000007",
+            "contract_no": "002160956_1",
+            "request_no": "R25TB01196707",
+            "line_no": "1",
+            "request_date": "2025-11-14",
+            "agency_name": "전라남도교육청 나주공업고등학교",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "3300000",
+            "quantity": "1",
+            "comparable_amount_krw": "3300000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:24821206:002160956_1:R25TB01260078:1",
+            "listing_id": "002160956_1110000007",
+            "contract_no": "002160956_1",
+            "request_no": "R25TB01260078",
+            "line_no": "1",
+            "request_date": "2025-11-29",
+            "agency_name": "경찰청 제주특별자치도경찰청 제주동부경찰서",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "3300000",
+            "quantity": "1",
+            "comparable_amount_krw": "3300000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:24821206:002160956_1:R25TB01380217:1",
+            "listing_id": "002160956_1110000007",
+            "contract_no": "002160956_1",
+            "request_no": "R25TB01380217",
+            "line_no": "1",
+            "request_date": "2025-12-29",
+            "agency_name": "경기도교육청 경기도수원교육청 동성중학교",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "3300000",
+            "quantity": "1",
+            "comparable_amount_krw": "3300000",
+            "scorable": true,
+            "exclusion_reasons": []
+          }
+        ]
+      },
+      "retail_observations": [
+        {
+          "source_url": "https://www.chd777.com/shop/shopdetail.html?branduid=495838",
+          "seller": "최고로디지탈",
+          "observed_at_utc": "2026-10-16T01:43:06Z",
+          "verification": "actual seller page opened with web tool",
+          "price_krw": null,
+          "quote": "삼성 SL-G356K흑백복합기 정부조달품목 흑백35cpm",
+          "conditions_and_limits": "판매가격 확인불가. 토너판매는 다른 상품으로 제외. 설치/배송/VAT/재고/최대수량 미확인.",
+          "max_purchase_quantity": null
+        }
+      ],
+      "eligible_for_new_submission": true,
+      "procurement_conditions": [
+        {
+          "api_url": "https://api.savetax.now/v1/listings/002160956_1110000007",
+          "delivery_terms": "현장설치도",
+          "supply_region": "전지역(제주도 제외,도서지역은 추가비용 발생)",
+          "warranty_2yr": false,
+          "special_inspection": false
+        }
+      ]
+    },
+    {
+      "item_id": "24035326",
+      "rn": 55316,
+      "random_batch_500": 10,
+      "listing_id": "0024C1282_1040000001",
+      "name": "비디오프로젝터, Epson, (PH)EB-X550KG, 5500ANSI lm",
+      "model": "(PH)EB-X550KG",
+      "spec": "5500ANSI lm",
+      "manufacturer": "Epson",
+      "unit": "대",
+      "detail_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=0024C1282_1040000001",
+      "decision": "existing_general_report_claimed; no_new_submission",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/24035326",
+      "availability": "claimed",
+      "api_source_release": "r20261011T012137",
+      "api_snapshot_fetched_at": "2026-10-11T22:13:41.193Z",
+      "fact_summary": {
+        "facts_total": 62,
+        "scorable_facts": 62,
+        "quantity": "82",
+        "comparable_amount_krw": "145408000",
+        "unit_price_range_krw": [
+          "1430000",
+          "1950000"
+        ],
+        "representative_facts": [
+          {
+            "fact_id": "dl:24035326:0024C1282_1:R25TB01047887:1",
+            "listing_id": "0024C1282_1040000001",
+            "contract_no": "0024C1282_1",
+            "request_no": "R25TB01047887",
+            "line_no": "1",
+            "request_date": "2025-10-13",
+            "agency_name": "경기도양평교육청 양평초등학교",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1950000",
+            "quantity": "1",
+            "comparable_amount_krw": "1950000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:24035326:0024C1282_1:R25TB01062611:1",
+            "listing_id": "0024C1282_1040000001",
+            "contract_no": "0024C1282_1",
+            "request_no": "R25TB01062611",
+            "line_no": "1",
+            "request_date": "2025-10-15",
+            "agency_name": "남부대학교",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1950000",
+            "quantity": "1",
+            "comparable_amount_krw": "1950000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:24035326:0024C1282_1:R25TB01065823:1",
+            "listing_id": "0024C1282_1040000001",
+            "contract_no": "0024C1282_1",
+            "request_no": "R25TB01065823",
+            "line_no": "1",
+            "request_date": "2025-10-15",
+            "agency_name": "경기도 광명시 철산2동",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1950000",
+            "quantity": "1",
+            "comparable_amount_krw": "1950000",
+            "scorable": true,
+            "exclusion_reasons": []
+          }
+        ]
+      },
+      "retail_observations": [
+        {
+          "source_url": "https://item.gmarket.co.kr/Item?goodsCode=3583096259",
+          "seller": "(주)진주코리아",
+          "observed_at_utc": "2026-10-16T01:43:06Z",
+          "verification": "actual seller page opened with web tool",
+          "price_krw": "957000",
+          "quote": "EB-X550KG 정품 / 957,000 원 판매가 / 새상품 / 과세상품 / 무료배송 로젠택배",
+          "conditions_and_limits": "모델정확. 국내배송. 일반판매가, 카드/포인트 제외. 조달 납품장소도. 설치비/보증/82대재고/최대수량 미확인.",
+          "max_purchase_quantity": null
+        }
+      ],
+      "eligible_for_new_submission": false,
+      "procurement_conditions": [
+        {
+          "api_url": "https://api.savetax.now/v1/listings/0024C1282_1040000001",
+          "delivery_terms": "납품장소도",
+          "supply_region": "전지역",
+          "warranty_2yr": false,
+          "special_inspection": true
+        }
+      ],
+      "comparison": {
+        "B": "957000",
+        "potential_savings_krw": "66934000",
+        "label": "대회식 납품요구Q/C기준 절감가능액. 실제지급변화미확인. 설치등실제조건차이는별도메모."
+      }
+    },
+    {
+      "item_id": "23558120",
+      "rn": 56292,
+      "random_batch_500": 12,
+      "listing_id": "002270051_1120000093",
+      "name": "하드디스크드라이브, Western digital, (TH)DC HC510(HUH721010AL5200), 10TB",
+      "model": "(TH)DC HC510(HUH721010AL5200)",
+      "spec": "10TB",
+      "manufacturer": "Western digital",
+      "unit": "대",
+      "detail_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002270051_1120000093",
+      "decision": "held_OEM_equivalence",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/23558120",
+      "availability": "claimed",
+      "api_source_release": "r20261011T012137",
+      "api_snapshot_fetched_at": "2026-10-12T04:41:05.726Z",
+      "fact_summary": {
+        "facts_total": 1,
+        "scorable_facts": 1,
+        "quantity": "6",
+        "comparable_amount_krw": "5430000",
+        "unit_price_range_krw": [
+          "905000",
+          "905000"
+        ],
+        "representative_facts": [
+          {
+            "fact_id": "dl:23558120:002270051_1:R26TB02072961:2",
+            "listing_id": "002270051_1120000093",
+            "contract_no": "002270051_1",
+            "request_no": "R26TB02072961",
+            "line_no": "2",
+            "request_date": "2026-06-29",
+            "agency_name": "경기도 용인시 수지구",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "905000",
+            "quantity": "6",
+            "comparable_amount_krw": "5430000",
+            "scorable": true,
+            "exclusion_reasons": []
+          }
+        ]
+      },
+      "retail_observations": [
+        {
+          "source_url": "https://item.gmarket.co.kr/Item?goodsCode=4211371437",
+          "seller": "coocompany",
+          "observed_at_utc": "2026-10-16T01:43:06Z",
+          "verification": "actual seller page opened with web tool",
+          "price_krw": "599990",
+          "quote": "델썬 오라클 7332753 / HUH721010AL5200 / 599,990 원 할인가 / 새상품 / 과세상품",
+          "conditions_and_limits": "국내무료배송 CJ택배. 판매자할인가, 쿠폰제외. Dell/Sun/Oracle OEM 펌웨어와 트레이가 WD DC HC510과 동등한지 미확인. 설치/최대수량 미확인.",
+          "max_purchase_quantity": null
+        }
+      ],
+      "eligible_for_new_submission": false,
+      "procurement_conditions": [
+        {
+          "api_url": "https://api.savetax.now/v1/listings/002270051_1120000093",
+          "delivery_terms": "납품장소 하차도",
+          "supply_region": "전지역(제주 및 도서산간지역 운임비 별도)",
+          "warranty_2yr": true,
+          "special_inspection": true
+        }
+      ]
+    },
+    {
+      "item_id": "25109623",
+      "rn": 59057,
+      "random_batch_500": 18,
+      "listing_id": "002270042_1280002067",
+      "name": "액정모니터, 삼성전자, (CN)LS22C312EAKXKR, 54.6cm",
+      "model": "(CN)LS22C312EAKXKR",
+      "spec": "54.6cm",
+      "manufacturer": "삼성전자 주식회사",
+      "unit": "대",
+      "detail_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002270042_1280002067",
+      "decision": "excluded_replacement_shipment; earlier 189000 comparison invalidated",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/25109623",
+      "availability": "claimed",
+      "api_source_release": "r20261011T012137",
+      "api_snapshot_fetched_at": "2026-10-12T02:06:40.793Z",
+      "fact_summary": {
+        "facts_total": 122,
+        "scorable_facts": 122,
+        "quantity": "199",
+        "comparable_amount_krw": "64298600",
+        "unit_price_range_krw": [
+          "323000",
+          "323900"
+        ],
+        "representative_facts": [
+          {
+            "fact_id": "dl:25109623:002270042_1:2424404789:4",
+            "listing_id": "002270042_1280002067",
+            "contract_no": "002270042_1",
+            "request_no": "2424404789",
+            "line_no": "4",
+            "request_date": "2025-11-10",
+            "agency_name": "전남광주통합특별시 나주시",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "323000",
+            "quantity": "1",
+            "comparable_amount_krw": "323000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:25109623:002270042_1:2524416967:10",
+            "listing_id": "002270042_1280002067",
+            "contract_no": "002270042_1",
+            "request_no": "2524416967",
+            "line_no": "10",
+            "request_date": "2026-03-17",
+            "agency_name": "충청남도 논산시 평생학습도서관",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "323000",
+            "quantity": "2",
+            "comparable_amount_krw": "646000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:25109623:002270042_1:R25TB00190431:2",
+            "listing_id": "002270042_1280002067",
+            "contract_no": "002270042_1",
+            "request_no": "R25TB00190431",
+            "line_no": "2",
+            "request_date": "2025-11-03",
+            "agency_name": "수도군단",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "323000",
+            "quantity": "1",
+            "comparable_amount_krw": "323000",
+            "scorable": true,
+            "exclusion_reasons": []
+          }
+        ]
+      },
+      "retail_observations": [
+        {
+          "source_url": "https://item.gmarket.co.kr/Item?goodsCode=3688303268",
+          "seller": "PC나라마트(상호 PC나라)",
+          "observed_at_utc": "2026-10-16T01:40:44Z",
+          "model_exact": true,
+          "price_krw": "189000",
+          "price_type": "일반 판매가; 카드/멤버십/포인트 및 쿠폰 미적용",
+          "quote": "LS22C312EAKXKR / 189,000 원 판매가 / 새상품 / 과세상품 / 무료배송 CJ택배 / 오늘출발 오후 4시 전 주문 시",
+          "condition": "새상품",
+          "tax": "과세상품 표기; 소비자 표시 판매가 사용, 별도 VAT 가산 표기 없음",
+          "shipping": "국내배송; 무료배송 CJ택배; 제주/도서산간 각각 5000원 추가",
+          "installation": "포함 여부 미표기; 조달 5개 등재 모두 현장설치도",
+          "pack_quantity": "단일 모니터 상품, 복수팩 표기 없음",
+          "availability": "오늘출발 오후4시 전 주문 시 및 구매하기 표시; 실제 재고수량 미확인",
+          "max_purchase_quantity": null,
+          "bulk_stock_quantity": null,
+          "limitations": [
+            "현장설치도 조달과 택배 소매조건 차이 미조정",
+            "2년 조달 하자보수 및 시스템검사 비용과 소매보증의 차이 미조정",
+            "199대 구매 가능 재고와 최대구매수량 미확인"
+          ],
+          "verification_channel": "web.open actual seller page; model/price/tax/shipping read from page body",
+          "additional_requests_result": "Python requests 403; web.open direct seller page body readable and reconfirmed at observed_at_utc"
+        }
+      ],
+      "identity_correction": {
+        "same_product": false,
+        "source_url": "https://item.gmarket.co.kr/Item/ItemDetailV2?detailVersionType=2&fasterDeliveryYn=false&fromBottomLayer=true&goodsCode=3688303268&isNew=true",
+        "observed_at_utc": "2026-10-16T01:54:10.599290Z",
+        "quote": "S22C310(2) 제품 단종(품절)되어 / 후속 신제품 S22D30x 상품으로 대체발송됩니다.",
+        "decision": "상품명에 원모델이 남아도 실제발송이 다름. 189000원 및 이에 기반한26687600원은 유효 비교에서 제외."
+      },
+      "eligible_for_new_submission": false,
+      "procurement_conditions": [
+        {
+          "api_url": "https://api.savetax.now/v1/listings/002270042_1280002067",
+          "delivery_terms": "현장설치도",
+          "supply_region": "전지역",
+          "warranty_2yr": true,
+          "special_inspection": true
+        },
+        {
+          "api_url": "https://api.savetax.now/v1/listings/002470119_1050000452",
+          "delivery_terms": "현장설치도",
+          "supply_region": "전지역",
+          "warranty_2yr": true,
+          "special_inspection": true
+        },
+        {
+          "api_url": "https://api.savetax.now/v1/listings/R25TA00906342060000944",
+          "delivery_terms": "현장설치도",
+          "supply_region": "전지역(제주 및 도서산간지역 운임비 별도)",
+          "warranty_2yr": true,
+          "special_inspection": false
+        },
+        {
+          "api_url": "https://api.savetax.now/v1/listings/002470082_1050000272",
+          "delivery_terms": "현장설치도",
+          "supply_region": "전지역",
+          "warranty_2yr": true,
+          "special_inspection": true
+        },
+        {
+          "api_url": "https://api.savetax.now/v1/listings/002470216_1080000138",
+          "delivery_terms": "현장설치도",
+          "supply_region": "전지역",
+          "warranty_2yr": true,
+          "special_inspection": true
+        }
+      ]
+    },
+    {
+      "item_id": "24339648",
+      "rn": 64545,
+      "random_batch_500": 29,
+      "listing_id": "002370124_1090000082",
+      "name": "하드디스크드라이브, Seagate, (CN)ST10000NM002G, 10TB",
+      "model": "(CN)ST10000NM002G",
+      "spec": "10TB",
+      "manufacturer": "Seagate",
+      "unit": "EA",
+      "detail_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002370124_1090000082",
+      "decision": "claimed; no_new_submission; seller_price_verified; VAT inclusion is retail-display inference",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/24339648",
+      "availability": "claimed",
+      "api_source_release": "r20261011T012137",
+      "api_snapshot_fetched_at": "2026-10-12T02:29:38.465Z",
+      "fact_summary": {
+        "facts_total": 5,
+        "scorable_facts": 5,
+        "quantity": "28",
+        "comparable_amount_krw": "47992000",
+        "unit_price_range_krw": [
+          "1714000",
+          "1714000"
+        ],
+        "representative_facts": [
+          {
+            "fact_id": "dl:24339648:002370124_1:R26TB02097655:6",
+            "listing_id": "002370124_1090000082",
+            "contract_no": "002370124_1",
+            "request_no": "R26TB02097655",
+            "line_no": "6",
+            "request_date": "2026-07-06",
+            "agency_name": "용인도시공사",
+            "unit": "EA",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:EA:vat_included",
+            "comparison_basis_id": "basis:EA:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1714000",
+            "quantity": "1",
+            "comparable_amount_krw": "1714000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:24339648:002470013_1:R26TB01486611:8",
+            "listing_id": "002470013_1090000694",
+            "contract_no": "002470013_1",
+            "request_no": "R26TB01486611",
+            "line_no": "8",
+            "request_date": "2026-01-30",
+            "agency_name": "부산광역시 건설본부",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1714000",
+            "quantity": "12",
+            "comparable_amount_krw": "20568000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:24339648:002470013_1:R26TB02267217:4",
+            "listing_id": "002470013_1090000694",
+            "contract_no": "002470013_1",
+            "request_no": "R26TB02267217",
+            "line_no": "4",
+            "request_date": "2026-08-28",
+            "agency_name": "강원특별자치도",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1714000",
+            "quantity": "5",
+            "comparable_amount_krw": "8570000",
+            "scorable": true,
+            "exclusion_reasons": []
+          }
+        ]
+      },
+      "retail_observations": [
+        {
+          "source_url": "https://www.11st.co.kr/products/4216032754",
+          "seller": "iworkstnc / 주식회사 아이웍스",
+          "observed_at_utc": "2026-10-16T01:50:28Z",
+          "verification": "actual seller page opened with web tool; public requests200 structured offer also checked",
+          "price_krw": "879000",
+          "regular_price_krw": "915620",
+          "quote": "ST10000NM002G 10TB 7200/256M 정품 / 새상품 / 879,000 원 / 무료배송",
+          "conditions_and_limits": "소비자표시금액, 별도VAT가산표기없음(VAT포함 추론, 과세문구 미발견). 11번가즉시할인36620원, 쿠폰/포인트 미사용. 국내무료로젠, 제주/산간4000원추가. 구매하기와InStock표시. 조달3등재모두현장설치도, 소매는택배단품. 설치비실제금액미확인. 단품한개, 최대구매수량미확인."
+        }
+      ],
+      "eligible_for_new_submission": false,
+      "procurement_conditions": [
+        {
+          "api_url": "https://api.savetax.now/v1/listings/002370124_1090000082",
+          "delivery_terms": "현장설치도",
+          "supply_region": "전지역(제주 및 도서산간지역 운임비 별도)",
+          "warranty_2yr": true,
+          "special_inspection": true
+        },
+        {
+          "api_url": "https://api.savetax.now/v1/listings/002470013_1090000694",
+          "delivery_terms": "현장설치도",
+          "supply_region": "전지역(제주 및 도서산간지역 운임비 별도)",
+          "warranty_2yr": true,
+          "special_inspection": true
+        },
+        {
+          "api_url": "https://api.savetax.now/v1/listings/002470247_1080000282",
+          "delivery_terms": "현장설치도",
+          "supply_region": "전지역",
+          "warranty_2yr": true,
+          "special_inspection": true
+        }
+      ],
+      "comparison": {
+        "B": "879000",
+        "potential_savings_krw": "23380000",
+        "label": "대회식 납품요구Q/C기준 절감가능액. 실제지급변화미확인. 설치등실제조건차이는별도메모."
+      }
+    },
+    {
+      "item_id": "24564417",
+      "rn": 66058,
+      "random_batch_500": 32,
+      "listing_id": "0024C1183_1100000009",
+      "name": "비디오프로젝터, Panasonic, (CN)PT-VGZ550, 5200ANSI lm",
+      "model": "(CN)PT-VGZ550",
+      "spec": "5200ANSI lm",
+      "manufacturer": "Panasonic",
+      "unit": "대",
+      "detail_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=0024C1183_1100000009",
+      "decision": "excluded_reform_found_public_case",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/24564417",
+      "availability": "reform_found",
+      "api_source_release": null,
+      "api_snapshot_fetched_at": null,
+      "fact_summary": {
+        "facts_total": 0,
+        "scorable_facts": 0,
+        "quantity": "0",
+        "comparable_amount_krw": "0",
+        "unit_price_range_krw": [],
+        "representative_facts": []
+      },
+      "retail_observations": [],
+      "eligible_for_new_submission": false,
+      "procurement_conditions": []
+    },
+    {
+      "item_id": "24893966",
+      "rn": 70025,
+      "random_batch_500": 40,
+      "listing_id": "002270042_1280001248",
+      "name": "하드디스크드라이브, Seagate, (TH)ST8000VX010, 8TB",
+      "model": "(TH)ST8000VX010",
+      "spec": "8TB",
+      "manufacturer": "Seagate",
+      "unit": "대",
+      "detail_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002270042_1280001248",
+      "decision": "not_prioritized_small_gap",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/24893966",
+      "availability": "claimed",
+      "api_source_release": "r20261011T012137",
+      "api_snapshot_fetched_at": "2026-10-12T01:05:02.500Z",
+      "fact_summary": {
+        "facts_total": 70,
+        "scorable_facts": 70,
+        "quantity": "285",
+        "comparable_amount_krw": "186530600",
+        "unit_price_range_krw": [
+          "563000",
+          "711000"
+        ],
+        "representative_facts": [
+          {
+            "fact_id": "dl:24893966:002270042_1:R25TB01119049:3",
+            "listing_id": "002270042_1280001248",
+            "contract_no": "002270042_1",
+            "request_no": "R25TB01119049",
+            "line_no": "3",
+            "request_date": "2025-10-28",
+            "agency_name": "경기도 수원시",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "711000",
+            "quantity": "8",
+            "comparable_amount_krw": "5688000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:24893966:002270042_1:R25TB01137473:5",
+            "listing_id": "002270042_1280001248",
+            "contract_no": "002270042_1",
+            "request_no": "R25TB01137473",
+            "line_no": "5",
+            "request_date": "2025-11-03",
+            "agency_name": "과학기술정보통신부 우정사업본부 전남지방우정청",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "711000",
+            "quantity": "4",
+            "comparable_amount_krw": "2844000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:24893966:002270042_1:R25TB01189253:3",
+            "listing_id": "002270042_1280001248",
+            "contract_no": "002270042_1",
+            "request_no": "R25TB01189253",
+            "line_no": "3",
+            "request_date": "2025-11-13",
+            "agency_name": "경상북도 칠곡군 왜관읍",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "711000",
+            "quantity": "1",
+            "comparable_amount_krw": "711000",
+            "scorable": true,
+            "exclusion_reasons": []
+          }
+        ]
+      },
+      "retail_observations": [
+        {
+          "source_url": "https://item.gmarket.co.kr/Item?goodsCode=2908978189",
+          "seller": "아이웍스",
+          "observed_at_utc": "2026-10-16T01:43:06Z",
+          "verification": "actual seller page opened with web tool",
+          "price_krw": "679000",
+          "quote": "ST8000VX010 / 679,000 원 판매가 / 새상품 / 과세상품 / 무료배송 로젠택배",
+          "conditions_and_limits": "국내배송. 제주/산간 각5000 추가. 일반판매가. 오늘출발 오후3시전, 실제재고수량/최대수량 미확인. 조달현장설치도. 가중평균 조달단가보다 소매가가 높고 일부 양수차이도 작음.",
+          "max_purchase_quantity": null
+        }
+      ],
+      "eligible_for_new_submission": false,
+      "procurement_conditions": [
+        {
+          "api_url": "https://api.savetax.now/v1/listings/002270042_1280001248",
+          "delivery_terms": "현장설치도",
+          "supply_region": "전지역",
+          "warranty_2yr": true,
+          "special_inspection": true
+        }
+      ]
+    },
+    {
+      "item_id": "25664964",
+      "rn": 95713,
+      "random_batch_500": 91,
+      "listing_id": "002270042_1280002309",
+      "name": "하드디스크드라이브, Seagate, (CN)ST20000NM002H, 20TB",
+      "model": "(CN)ST20000NM002H",
+      "spec": "20TB",
+      "manufacturer": "Seagate",
+      "unit": "대",
+      "detail_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002270042_1280002309",
+      "decision": "excluded_reform_found_public_case",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/25664964",
+      "availability": "reform_found",
+      "api_source_release": null,
+      "api_snapshot_fetched_at": null,
+      "fact_summary": {
+        "facts_total": 0,
+        "scorable_facts": 0,
+        "quantity": "0",
+        "comparable_amount_krw": "0",
+        "unit_price_range_krw": [],
+        "representative_facts": []
+      },
+      "retail_observations": [],
+      "eligible_for_new_submission": false,
+      "procurement_conditions": [
+        {
+          "api_url": "https://api.savetax.now/v1/listings/002270042_1280002309",
+          "delivery_terms": "현장설치도",
+          "supply_region": "전지역",
+          "warranty_2yr": true,
+          "special_inspection": true
+        }
+      ]
+    },
+    {
+      "item_id": "24128427",
+      "rn": 85934,
+      "random_batch_500": 71,
+      "listing_id": "002270075_1250000140",
+      "name": "하드디스크드라이브, Western Digital, (TH)WUH721818ALE6L4, 18TB",
+      "model": "(TH)WUH721818ALE6L4",
+      "spec": "18TB",
+      "manufacturer": "Western Digital",
+      "unit": "대",
+      "detail_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002270075_1250000140",
+      "decision": "held_sold_out_or_replacement",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/24128427",
+      "availability": "claimed",
+      "api_source_release": "r20261011T012137",
+      "api_snapshot_fetched_at": "2026-10-12T01:51:56.668Z",
+      "fact_summary": {
+        "facts_total": 2,
+        "scorable_facts": 2,
+        "quantity": "14",
+        "comparable_amount_krw": "41244000",
+        "unit_price_range_krw": [
+          "2946000",
+          "2946000"
+        ],
+        "representative_facts": [
+          {
+            "fact_id": "dl:24128427:002270075_1:R26TB01921993:3",
+            "listing_id": "002270075_1250000140",
+            "contract_no": "002270075_1",
+            "request_no": "R26TB01921993",
+            "line_no": "3",
+            "request_date": "2026-05-15",
+            "agency_name": "서울특별시 강서구",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "2946000",
+            "quantity": "8",
+            "comparable_amount_krw": "23568000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:24128427:002270075_1:R26TB01922018:3",
+            "listing_id": "002270075_1250000140",
+            "contract_no": "002270075_1",
+            "request_no": "R26TB01922018",
+            "line_no": "3",
+            "request_date": "2026-05-15",
+            "agency_name": "서울특별시 강서구",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "2946000",
+            "quantity": "6",
+            "comparable_amount_krw": "17676000",
+            "scorable": true,
+            "exclusion_reasons": []
+          }
+        ]
+      },
+      "retail_observations": [
+        {
+          "source_url": "https://item.gmarket.co.kr/Item?goodsCode=3362279830",
+          "seller": "디스컴시스템",
+          "observed_at_utc": "2026-10-16T01:43:06Z",
+          "verification": "actual seller page opened with web tool",
+          "price_krw": null,
+          "quote": "WUH721818ALE6L4 18TB / SOLD OUT",
+          "conditions_and_limits": "정확모델 품절. YES24 98876706도749000원 품절. G마켓4285477106은1569000원이나 HC555변경으로 다른 모델. 미채택.",
+          "max_purchase_quantity": null
+        }
+      ],
+      "eligible_for_new_submission": false,
+      "procurement_conditions": [
+        {
+          "api_url": "https://api.savetax.now/v1/listings/002270075_1250000140",
+          "delivery_terms": "현장설치도",
+          "supply_region": "전지역(제주 및 도서산간지역 운임비 별도)",
+          "warranty_2yr": true,
+          "special_inspection": true
+        }
+      ]
+    }
+  ],
+  "current_submission_policy": "신규 available만 점수후보. claimed/claimed_by_me/reform_found/on_hold 중복제출제외. 1억원이상 절감가능액 우선. 시간차이는 사용자정책상 비교배제사유아님. 모델·단위·VAT·배송·실제설치차이를 확인한다.",
+  "additional_screening": [
+    {
+      "item_id": "24001429",
+      "model": "DV90T5440KW",
+      "availability_source": "work/score-candidates/highc-available.json",
+      "availability": "available",
+      "exploratory_dataset_Q": "1380",
+      "exploratory_dataset_C": "827368736",
+      "source_url": "https://www.ssg.com/item/itemView.ssg?itemId=1000585325220",
+      "verification": "seller page directly opened",
+      "observed_date": "2026-10-16",
+      "seller": "(주)탑네트워크",
+      "price_krw": "756000",
+      "conditional_immediate_price_krw": "717790",
+      "quote": "DV90T5440KW / 판매가756,000원 / 즉시할인가717,790원 / 직접배송 설치상품 / 무료",
+      "conditions": "즉시할인38210원은2026-10-17 04:00까지. 일부회원만적용가능 안내가있어 일반가756000원 별도기록. 1대단품,구매버튼,배송설치상품. 최대수량미확인.",
+      "decision": "일반가와즉시가모두 탐색용가중평균599542.56원보다높음. 억단위절감후보에서후순위. 최종scorableAPI미조회."
+    },
+    {
+      "item_id": "24675872",
+      "model": "SG9800-16XF",
+      "availability_source": "work/score-candidates/highc-available.json",
+      "availability": "available",
+      "exploratory_dataset_Q": "39",
+      "exploratory_dataset_C": "574067340",
+      "source_url": "https://www.zungwon.co.kr/kr/contents/view.php?menu_id=102",
+      "verification": "web search found distributor specification; direct page returned error",
+      "observed_date": "2026-10-16",
+      "price_krw": null,
+      "decision": "정확모델10G SFP+16port Linecard 확인단서만발견. 공개구매가격없어비교단가미채택."
+    },
+    {
+      "item_id": "24051033",
+      "model": "MR-0402P-L",
+      "availability_source": "work/score-candidates/highc-available.json",
+      "availability": "available",
+      "exploratory_dataset_Q": "141",
+      "exploratory_dataset_C": "212020000",
+      "source_url": "https://mpsmall.co.kr/goods/goods_list.php?cateCd=038003003039",
+      "verification": "seller listing page directly opened",
+      "observed_date": "2026-10-16",
+      "quote": "모델번호:MR-0402P-L / 전화문의:1522-5632",
+      "price_krw": null,
+      "decision": "실제판매목록은전화문의가격. 948000원카탈로그는조달옵션가격으로일반소매검증가아님. 비교단가미채택."
+    },
+    {
+      "item_id": "24138760",
+      "model": "MA-045DT",
+      "availability_source": "work/score-candidates/highc-available.json",
+      "availability": "available",
+      "exploratory_dataset_Q": "640",
+      "exploratory_dataset_C": "276750000",
+      "source_url": "https://www.nawooel.kr/shop/1742451398",
+      "verification": "search snippet only; direct page empty",
+      "observed_date": "2026-10-16",
+      "price_krw": null,
+      "search_price_krw": "658000",
+      "decision": "검색소매가가 탐색용가중평균432421.875원보다높아후순위. 검증가격채택안함."
+    }
+  ],
+  "deep_pc_screening": {
+    "scope": "MD5 ranks1..100000, batch500, PC/멀티미디어 탐색용C>=1억원",
+    "candidate_count": 51,
+    "available_count": 11,
+    "note": "공식API scorable Q/C로 PC5개 재확인. 아래의 대체모델은 동일제품으로 표시하지 않고, 구성동등성 미완이면 금액채택안함."
+  },
+  "deep_pc_candidates": [
+    {
+      "item_id": "25935428",
+      "model": "TU2-RB5-506R55",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/25935428",
+      "raw_item_api_url": "https://api.savetax.now/v1/items/25935428",
+      "availability": "available",
+      "snapshot": {
+        "name": "데스크톱컴퓨터, 트리엠, TU2-RB5-506R55, Intel Core Ultra 5 235(3.4GHz)",
+        "model": "TU2-RB5-506R55",
+        "manufacturer": "주식회사 트리엠",
+        "category": "데스크톱컴퓨터",
+        "listings": [
+          {
+            "listing_id": "0024C0578_1330000325",
+            "vendor": "주식회사 트리엠",
+            "unit_price_krw": "2333900"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-12T02:44:08.185Z",
+        "facts_total": 15,
+        "facts_truncated": false
+      },
+      "fact_summary": {
+        "scorable_count": 15,
+        "Q": "102",
+        "C": "226834200",
+        "representative_facts": [
+          {
+            "fact_id": "dl:25935428:0024C0578_1:R26TB01461082:2",
+            "listing_id": "0024C0578_1330000325",
+            "contract_no": "0024C0578_1",
+            "request_no": "R26TB01461082",
+            "line_no": "2",
+            "request_date": "2026-01-23",
+            "agency_name": "건양대학교",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1980200",
+            "quantity": "2",
+            "comparable_amount_krw": "3960400",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:25935428:0024C0578_1:R26TB01708838:2",
+            "listing_id": "0024C0578_1330000325",
+            "contract_no": "0024C0578_1",
+            "request_no": "R26TB01708838",
+            "line_no": "2",
+            "request_date": "2026-03-24",
+            "agency_name": "경기도교육청 용인고등학교",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "2199800",
+            "quantity": "1",
+            "comparable_amount_krw": "2199800",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:25935428:0024C0578_1:R26TB01717243:1",
+            "listing_id": "0024C0578_1330000325",
+            "contract_no": "0024C0578_1",
+            "request_no": "R26TB01717243",
+            "line_no": "1",
+            "request_date": "2026-03-25",
+            "agency_name": "우송대학교 산학협력단",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "2199800",
+            "quantity": "34",
+            "comparable_amount_krw": "74793200",
+            "scorable": true,
+            "exclusion_reasons": []
+          }
+        ]
+      },
+      "procurement_attributes": [
+        {
+          "name": "그래픽",
+          "unit": null,
+          "value": "RTX 5050 D6 8GB"
+        },
+        {
+          "name": "메인보드",
+          "unit": null,
+          "value": "B860"
+        },
+        {
+          "name": "사용전압",
+          "unit": "V",
+          "value": "AC220"
+        },
+        {
+          "name": "운영체계",
+          "unit": null,
+          "value": "옵션제공"
+        },
+        {
+          "name": "클록속도",
+          "unit": "GHz",
+          "value": "3.4"
+        },
+        {
+          "name": "컴퓨터형식",
+          "unit": null,
+          "value": "타워"
+        },
+        {
+          "name": "구성입력장치",
+          "unit": null,
+          "value": "키보드, 마우스"
+        },
+        {
+          "name": "멀티메모리카드리더유무",
+          "unit": null,
+          "value": "옵션제공"
+        },
+        {
+          "name": "스위칭모드파워서플라이형식",
+          "unit": null,
+          "value": "700W"
+        },
+        {
+          "name": "크기(깊이)",
+          "unit": "mm",
+          "value": "364"
+        },
+        {
+          "name": "크기(높이)",
+          "unit": "mm",
+          "value": "432"
+        },
+        {
+          "name": "크기(폭)",
+          "unit": "mm",
+          "value": "180"
+        },
+        {
+          "name": "옵션/기타",
+          "unit": null,
+          "value": "복원솔루션 제공"
+        },
+        {
+          "name": "중앙처리장치(CPU)규격",
+          "unit": null,
+          "value": "Intel Core Ultra 5 235"
+        },
+        {
+          "name": "하드디스크(HDD)용량",
+          "unit": null,
+          "value": "미장착"
+        },
+        {
+          "name": "LAN규격",
+          "unit": null,
+          "value": "Gigabit"
+        },
+        {
+          "name": "광디스크(ODD)규격",
+          "unit": null,
+          "value": "옵션제공"
+        },
+        {
+          "name": "메모리(RAM)용량",
+          "unit": "GB",
+          "value": "16"
+        },
+        {
+          "name": "SSD용량",
+          "unit": "GB",
+          "value": "500~512"
+        }
+      ],
+      "contract_request_line_references": {
+        "0024C0578_1": [
+          {
+            "request_no": "R26TB01461082",
+            "line_no": "2"
+          },
+          {
+            "request_no": "R26TB01708838",
+            "line_no": "2"
+          },
+          {
+            "request_no": "R26TB01717243",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01730548",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01940513",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01946266",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01986693",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01986921",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02019224",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02030479",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02089789",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02123241",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02160824",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02162306",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02165061",
+            "line_no": "1"
+          }
+        ]
+      },
+      "observations": {
+        "exact_model_search": "정확모델 전체문자열 및 제조사/모델군 검색. 일치하는 공개소매가 미발견.",
+        "manufacturer_source": "https://treem.co.kr/bbs/board.php?bo_table=it_desktop_15th_b860&wr_id=45",
+        "manufacturer_result": "페이지직접열람. TU2-RB5-5106(25935429) 다른모델, 내장그래픽이며 조사모델RTX5050과달라 대체가격채택안함. 조달참고가격이며 민간소매검증가아님.",
+        "verified_comparison_price_krw": null,
+        "decision": "held_no_exact_retail_price_or_complete_equivalent"
+      }
+    },
+    {
+      "item_id": "26063757",
+      "model": "DG481-GD51E-005",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/26063757",
+      "raw_item_api_url": "https://api.savetax.now/v1/items/26063757",
+      "availability": "available",
+      "snapshot": {
+        "name": "데스크톱컴퓨터, 삼보컴퓨터, DG481-GD51E-005, Intel Core Ultra 7 265(2.4GHz)",
+        "model": "DG481-GD51E-005",
+        "manufacturer": "주식회사 삼보컴퓨터",
+        "category": "데스크톱컴퓨터",
+        "listings": [
+          {
+            "listing_id": "0024C1330_1200000230",
+            "vendor": "주식회사 삼보컴퓨터",
+            "unit_price_krw": "2678000"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-12T02:43:06.026Z",
+        "facts_total": 6,
+        "facts_truncated": false
+      },
+      "fact_summary": {
+        "scorable_count": 6,
+        "Q": "107",
+        "C": "235343560",
+        "representative_facts": [
+          {
+            "fact_id": "dl:26063757:0024C1330_1:R26TB01421399:1",
+            "listing_id": "0024C1330_1200000230",
+            "contract_no": "0024C1330_1",
+            "request_no": "R26TB01421399",
+            "line_no": "1",
+            "request_date": "2026-01-13",
+            "agency_name": "경남신용보증재단",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1894000",
+            "quantity": "7",
+            "comparable_amount_krw": "13258000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:26063757:0024C1330_1:R26TB01847566:2",
+            "listing_id": "0024C1330_1200000230",
+            "contract_no": "0024C1330_1",
+            "request_no": "R26TB01847566",
+            "line_no": "2",
+            "request_date": "2026-04-23",
+            "agency_name": "(주)한국거래소",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "2150490",
+            "quantity": "44",
+            "comparable_amount_krw": "94621560",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:26063757:0024C1330_1:R26TB01944970:1",
+            "listing_id": "0024C1330_1200000230",
+            "contract_no": "0024C1330_1",
+            "request_no": "R26TB01944970",
+            "line_no": "1",
+            "request_date": "2026-05-21",
+            "agency_name": "한국보훈복지의료공단 인천보훈병원",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "2217000",
+            "quantity": "20",
+            "comparable_amount_krw": "44340000",
+            "scorable": true,
+            "exclusion_reasons": []
+          }
+        ]
+      },
+      "procurement_attributes": [
+        {
+          "name": "그래픽",
+          "unit": null,
+          "value": "내장그래픽"
+        },
+        {
+          "name": "메인보드",
+          "unit": null,
+          "value": "H810"
+        },
+        {
+          "name": "사용전압",
+          "unit": "V",
+          "value": "AC220"
+        },
+        {
+          "name": "운영체계",
+          "unit": null,
+          "value": "옵션제공"
+        },
+        {
+          "name": "클록속도",
+          "unit": "GHz",
+          "value": "2.4"
+        },
+        {
+          "name": "컴퓨터형식",
+          "unit": null,
+          "value": "슬림"
+        },
+        {
+          "name": "구성입력장치",
+          "unit": null,
+          "value": "키보드, 마우스"
+        },
+        {
+          "name": "캐시메모리용량",
+          "unit": "MB",
+          "value": "30"
+        },
+        {
+          "name": "멀티메모리카드리더유무",
+          "unit": null,
+          "value": "옵션제공"
+        },
+        {
+          "name": "스위칭모드파워서플라이형식",
+          "unit": null,
+          "value": "400W"
+        },
+        {
+          "name": "크기(깊이)",
+          "unit": "mm",
+          "value": "420"
+        },
+        {
+          "name": "크기(높이)",
+          "unit": "mm",
+          "value": "365"
+        },
+        {
+          "name": "크기(폭)",
+          "unit": "mm",
+          "value": "97"
+        },
+        {
+          "name": "옵션/기타",
+          "unit": null,
+          "value": "TG 복원솔루션"
+        },
+        {
+          "name": "중앙처리장치(CPU)규격",
+          "unit": null,
+          "value": "Intel Core Ultra 7 265"
+        },
+        {
+          "name": "하드디스크(HDD)용량",
+          "unit": "TB",
+          "value": "2"
+        },
+        {
+          "name": "광디스크(ODD)규격",
+          "unit": null,
+          "value": "옵션제공"
+        },
+        {
+          "name": "메모리(RAM)용량",
+          "unit": "GB",
+          "value": "32"
+        },
+        {
+          "name": "SSD용량",
+          "unit": "GB",
+          "value": "512"
+        }
+      ],
+      "contract_request_line_references": {
+        "0024C1330_1": [
+          {
+            "request_no": "R26TB01421399",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01847566",
+            "line_no": "2"
+          },
+          {
+            "request_no": "R26TB01944970",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02193670",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02202529",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02225166",
+            "line_no": "1"
+          }
+        ]
+      },
+      "observations": {
+        "exact_model_search": "정확전체모델 검색에서 에너지효율 인증 발견, 같은모델 민간가격없음.",
+        "manufacturer_source": "https://eep.energy.or.kr/certification/certi_view_289.aspx?no=289253552",
+        "manufacturer_result": "모델등재단서. G마켓4616659605는 DG481-GD51E-003(울트라5/16GB/SSD512+HDD1TB)로CPU/RAM/HDD가다르고품절이라미채택.",
+        "alternative_source": "https://www.compuzone.co.kr/product/product_detail.htm?ProductNo=1268496",
+        "alternative_model": "HP M03-0000KR 구성변경 265/32GB/SSD1TB/FD",
+        "rejected_search_price_krw": "1215000",
+        "alternative_verification": "검색본문표시는있으나직접열람은빈본문. 일반GET200도111자이며가격없음. 기본8GB256GB가격과32GB옵션명이혼재했을가능성있어1215000원폐기. 다나와 정확32GB1TB 구성94813046은1738890원검색,32GB512구성94813040은1638990원검색. 직접판매페이지검증미완료라미채택.",
+        "remaining_differences": [
+          "HDD2TB미포함",
+          "슬림케이스와다름",
+          "복원솔루션/키보드마우스/정확보드범위차이"
+        ],
+        "verified_comparison_price_krw": null,
+        "max_B_for_100m_savings_krw": "1264893.084112",
+        "decision": "held_alternative_incomplete; no savings amount adopted"
+      }
+    },
+    {
+      "item_id": "26257522",
+      "model": "HS9C-CX050PA",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/26257522",
+      "raw_item_api_url": "https://api.savetax.now/v1/items/26257522",
+      "availability": "available",
+      "snapshot": {
+        "name": "데스크톱컴퓨터, 에이치케이시스템, HS9C-CX050PA, AMD Ryzen7 PRO 7745(3.8GHz)",
+        "model": "HS9C-CX050PA",
+        "manufacturer": "주식회사 에이치케이시스템",
+        "category": "데스크톱컴퓨터",
+        "listings": [
+          {
+            "listing_id": "R25TA00251743110000362",
+            "vendor": "주식회사 에이치케이시스템",
+            "unit_price_krw": "1155500"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-12T02:55:29.730Z",
+        "facts_total": 4,
+        "facts_truncated": false
+      },
+      "fact_summary": {
+        "scorable_count": 4,
+        "Q": "157",
+        "C": "172285050",
+        "representative_facts": [
+          {
+            "fact_id": "dl:26257522:R25TA00251743:R26TB02254390:1",
+            "listing_id": "R25TA00251743110000362",
+            "contract_no": "R25TA00251743",
+            "request_no": "R26TB02254390",
+            "line_no": "1",
+            "request_date": "2026-08-25",
+            "agency_name": "경기도광주교육청 만선초등학교",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1155500",
+            "quantity": "1",
+            "comparable_amount_krw": "1155500",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:26257522:R25TA00251743:R26TB02310695:2",
+            "listing_id": "R25TA00251743110000362",
+            "contract_no": "R25TA00251743",
+            "request_no": "R26TB02310695",
+            "line_no": "2",
+            "request_date": "2026-09-11",
+            "agency_name": "한국산업안전보건공단",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1039950",
+            "quantity": "79",
+            "comparable_amount_krw": "82156050",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:26257522:R25TA00251743:R26TB02315609:1",
+            "listing_id": "R25TA00251743110000362",
+            "contract_no": "R25TA00251743",
+            "request_no": "R26TB02315609",
+            "line_no": "1",
+            "request_date": "2026-09-14",
+            "agency_name": "경기도광주교육청 만선초등학교",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1155500",
+            "quantity": "4",
+            "comparable_amount_krw": "4622000",
+            "scorable": true,
+            "exclusion_reasons": []
+          }
+        ]
+      },
+      "procurement_attributes": [
+        {
+          "name": "그래픽",
+          "unit": null,
+          "value": "내장그래픽"
+        },
+        {
+          "name": "메인보드",
+          "unit": null,
+          "value": "AMD B650"
+        },
+        {
+          "name": "사용전압",
+          "unit": "V",
+          "value": "AC220"
+        },
+        {
+          "name": "운영체계",
+          "unit": null,
+          "value": "옵션제공"
+        },
+        {
+          "name": "클록속도",
+          "unit": "GHz",
+          "value": "3.8"
+        },
+        {
+          "name": "컴퓨터형식",
+          "unit": null,
+          "value": "슬림타워"
+        },
+        {
+          "name": "구성입력장치",
+          "unit": null,
+          "value": "USB 키보드, 마우스"
+        },
+        {
+          "name": "캐시메모리용량",
+          "unit": "MB",
+          "value": "32"
+        },
+        {
+          "name": "멀티메모리카드리더유무",
+          "unit": null,
+          "value": "옵션제공"
+        },
+        {
+          "name": "스위칭모드파워서플라이형식",
+          "unit": null,
+          "value": "450W"
+        },
+        {
+          "name": "크기(깊이)",
+          "unit": "mm",
+          "value": "425"
+        },
+        {
+          "name": "크기(높이)",
+          "unit": "mm",
+          "value": "335"
+        },
+        {
+          "name": "크기(폭)",
+          "unit": "mm",
+          "value": "93"
+        },
+        {
+          "name": "옵션/기타",
+          "unit": null,
+          "value": "복구솔루션제공"
+        },
+        {
+          "name": "중앙처리장치(CPU)규격",
+          "unit": null,
+          "value": "AMD Ryzen7 PRO 7745"
+        },
+        {
+          "name": "하드디스크(HDD)용량",
+          "unit": null,
+          "value": "미장착"
+        },
+        {
+          "name": "LAN규격",
+          "unit": null,
+          "value": "Gigabit LAN"
+        },
+        {
+          "name": "광디스크(ODD)규격",
+          "unit": null,
+          "value": "옵션제공"
+        },
+        {
+          "name": "메모리(RAM)용량",
+          "unit": "GB",
+          "value": "16"
+        },
+        {
+          "name": "SSD용량",
+          "unit": "GB",
+          "value": "500~512"
+        }
+      ],
+      "contract_request_line_references": {
+        "R25TA00251743": [
+          {
+            "request_no": "R26TB02254390",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02310695",
+            "line_no": "2"
+          },
+          {
+            "request_no": "R26TB02315609",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02339959",
+            "line_no": "1"
+          }
+        ]
+      },
+      "observations": {
+        "exact_model_search": "HS9C-CX050PA 전체모델 및 에이치케이시스템 제조사 검색에서 소매가격 미발견.",
+        "alternative_source": "https://www.compuzone.co.kr/product/product_detail.htm?ProductNo=1369894",
+        "alternative_model": "주연테크 PKMv745HFV-W16G512G (Ryzen7 7745/16GB/512GB/FD)",
+        "alternative_verification": "검색단서. 정확CPU PRO여부/메인보드B650/슬림형/구성동등성미완료. 다른모델이며대회비교가로채택안함.",
+        "verified_comparison_price_krw": null,
+        "decision": "held_no_exact_retail_price_or_complete_equivalent"
+      }
+    },
+    {
+      "item_id": "25653029",
+      "model": "SLM7-PGESBT",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/25653029",
+      "raw_item_api_url": "https://api.savetax.now/v1/items/25653029",
+      "availability": "available",
+      "snapshot": {
+        "name": "데스크톱컴퓨터, 스마트인디지털, SLM7-PGESBT, Intel Core i7-14700(2.1GHz)",
+        "model": "SLM7-PGESBT",
+        "manufacturer": "주식회사 스마트인디지털",
+        "category": "데스크톱컴퓨터",
+        "listings": [
+          {
+            "listing_id": "R25TA00314336070000032",
+            "vendor": "주식회사 스마트인디지털",
+            "unit_price_krw": "2211200"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-12T03:16:04.370Z",
+        "facts_total": 10,
+        "facts_truncated": false
+      },
+      "fact_summary": {
+        "scorable_count": 10,
+        "Q": "65",
+        "C": "112269300",
+        "representative_facts": [
+          {
+            "fact_id": "dl:25653029:R25TA00314336:R25TB01225826:1",
+            "listing_id": "R25TA00314336070000032",
+            "contract_no": "R25TA00314336",
+            "request_no": "R25TB01225826",
+            "line_no": "1",
+            "request_date": "2025-11-21",
+            "agency_name": "한국수력원자력(주) 청평양수발전소",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1247500",
+            "quantity": "8",
+            "comparable_amount_krw": "9980000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:25653029:R25TA00314336:R26TB01452318:1",
+            "listing_id": "R25TA00314336070000032",
+            "contract_no": "R25TA00314336",
+            "request_no": "R26TB01452318",
+            "line_no": "1",
+            "request_date": "2026-01-22",
+            "agency_name": "경상국립대학교",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1609000",
+            "quantity": "1",
+            "comparable_amount_krw": "1609000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:25653029:R25TA00314336:R26TB01893208:1",
+            "listing_id": "R25TA00314336070000032",
+            "contract_no": "R25TA00314336",
+            "request_no": "R26TB01893208",
+            "line_no": "1",
+            "request_date": "2026-05-08",
+            "agency_name": "한국원자력통제기술원",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1781400",
+            "quantity": "2",
+            "comparable_amount_krw": "3562800",
+            "scorable": true,
+            "exclusion_reasons": []
+          }
+        ]
+      },
+      "procurement_attributes": [
+        {
+          "name": "그래픽",
+          "unit": null,
+          "value": "내장그래픽"
+        },
+        {
+          "name": "메인보드",
+          "unit": null,
+          "value": "B760"
+        },
+        {
+          "name": "사용전압",
+          "unit": "V",
+          "value": "AC220"
+        },
+        {
+          "name": "운영체계",
+          "unit": null,
+          "value": "옵션제공"
+        },
+        {
+          "name": "클록속도",
+          "unit": "GHz",
+          "value": "2.1"
+        },
+        {
+          "name": "컴퓨터형식",
+          "unit": null,
+          "value": "미들타워"
+        },
+        {
+          "name": "구성입력장치",
+          "unit": null,
+          "value": "키보드, 마우스"
+        },
+        {
+          "name": "캐시메모리용량",
+          "unit": "MB",
+          "value": "33"
+        },
+        {
+          "name": "멀티메모리카드리더유무",
+          "unit": null,
+          "value": "옵션제공"
+        },
+        {
+          "name": "스위칭모드파워서플라이형식",
+          "unit": null,
+          "value": "700W"
+        },
+        {
+          "name": "크기(깊이)",
+          "unit": "mm",
+          "value": "400"
+        },
+        {
+          "name": "크기(높이)",
+          "unit": "mm",
+          "value": "365"
+        },
+        {
+          "name": "크기(폭)",
+          "unit": "mm",
+          "value": "173"
+        },
+        {
+          "name": "중앙처리장치(CPU)규격",
+          "unit": null,
+          "value": "Intel Core i7-14700"
+        },
+        {
+          "name": "하드디스크(HDD)용량",
+          "unit": "TB",
+          "value": "2"
+        },
+        {
+          "name": "광디스크(ODD)규격",
+          "unit": null,
+          "value": "옵션제공"
+        },
+        {
+          "name": "메모리(RAM)용량",
+          "unit": "GB",
+          "value": "16"
+        },
+        {
+          "name": "SSD용량",
+          "unit": "GB",
+          "value": "500"
+        }
+      ],
+      "contract_request_line_references": {
+        "R25TA00314336": [
+          {
+            "request_no": "R25TB01225826",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01452318",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01893208",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01931589",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01937031",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01979245",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02109102",
+            "line_no": "2"
+          },
+          {
+            "request_no": "R26TB02168498",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02180591",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02220470",
+            "line_no": "1"
+          }
+        ]
+      },
+      "observations": {
+        "exact_model_search": "제조사 M series 목록에서 정확 SLM7-PGESBT 사양검색됨, 가격없음.",
+        "manufacturer_source": "https://www.smartindigital.com/224",
+        "manufacturer_result": "검색사양 i7-14700/16G/SSD500/HDD1TB. 조달raw는HDD2TB라동일문자모델도구성확인필요. 직접열람403.",
+        "verified_comparison_price_krw": null,
+        "decision": "held_no_retail_price_and_manufacturer_HDD_configuration_diff"
+      }
+    },
+    {
+      "item_id": "25845489",
+      "model": "T-DT598T2M128-P1R59",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/25845489",
+      "raw_item_api_url": "https://api.savetax.now/v1/items/25845489",
+      "availability": "available",
+      "snapshot": {
+        "name": "데스크톱컴퓨터, 테트라, T-DT598T2M128-P1R59, Intel Core Ultra 9 285(2.5GHz)",
+        "model": "T-DT598T2M128-P1R59",
+        "manufacturer": "주식회사 테트라",
+        "category": "데스크톱컴퓨터",
+        "listings": [
+          {
+            "listing_id": "R25TA00252133090000110",
+            "vendor": "주식회사 테트라",
+            "unit_price_krw": "13248500"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-12T03:06:47.707Z",
+        "facts_total": 6,
+        "facts_truncated": false
+      },
+      "fact_summary": {
+        "scorable_count": 6,
+        "Q": "14",
+        "C": "136925000",
+        "representative_facts": [
+          {
+            "fact_id": "dl:25845489:R25TA00252133:R25TB01148203:1",
+            "listing_id": "R25TA00252133090000110",
+            "contract_no": "R25TA00252133",
+            "request_no": "R25TB01148203",
+            "line_no": "1",
+            "request_date": "2025-11-04",
+            "agency_name": "육군훈련소",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "7149200",
+            "quantity": "1",
+            "comparable_amount_krw": "7149200",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:25845489:R25TA00252133:R25TB01211734:3",
+            "listing_id": "R25TA00252133090000110",
+            "contract_no": "R25TA00252133",
+            "request_no": "R25TB01211734",
+            "line_no": "3",
+            "request_date": "2025-11-19",
+            "agency_name": "서울고속도로주식회사",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "7149200",
+            "quantity": "1",
+            "comparable_amount_krw": "7149200",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:25845489:R25TA00252133:R25TB01296075:1",
+            "listing_id": "R25TA00252133090000110",
+            "contract_no": "R25TA00252133",
+            "request_no": "R25TB01296075",
+            "line_no": "1",
+            "request_date": "2025-12-08",
+            "agency_name": "한국사회보장정보원",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "7149200",
+            "quantity": "2",
+            "comparable_amount_krw": "14298400",
+            "scorable": true,
+            "exclusion_reasons": []
+          }
+        ]
+      },
+      "procurement_attributes": [
+        {
+          "name": "그래픽",
+          "unit": null,
+          "value": "RTX 5090 D7 32GB"
+        },
+        {
+          "name": "메인보드",
+          "unit": null,
+          "value": "B860"
+        },
+        {
+          "name": "사용전압",
+          "unit": "V",
+          "value": "AC220~240"
+        },
+        {
+          "name": "운영체계",
+          "unit": null,
+          "value": "옵션제공"
+        },
+        {
+          "name": "클록속도",
+          "unit": "GHz",
+          "value": "2.5"
+        },
+        {
+          "name": "확장슬롯",
+          "unit": null,
+          "value": "PCIe 5.0 x16 UD *1, PCIe 4.0 x4 *1, M.2 Gen 5 *1, M.2 Gen 4 *2"
+        },
+        {
+          "name": "입출력포트",
+          "unit": null,
+          "value": "4*USB2.0, 4*USB3.2 Gen1, 2*USB3.2 Gen2, 1*USB4(DP-Alt), 1*2.5Gbe LAN(RJ45), 1*헤드폰, 1*마이크, 1*SPDIF 1*Display port, 1*HDMI, 1*USB4 DP 외장그래픽 : Display Port *3, HDMI *1"
+        },
+        {
+          "name": "컴퓨터형식",
+          "unit": null,
+          "value": "타워"
+        },
+        {
+          "name": "구성입력장치",
+          "unit": null,
+          "value": "USB 키보드, 마우스"
+        },
+        {
+          "name": "캐시메모리용량",
+          "unit": "MB",
+          "value": "36"
+        },
+        {
+          "name": "비디오메모리규격",
+          "unit": null,
+          "value": "DDR7 32GB"
+        },
+        {
+          "name": "오프모드소비전력",
+          "unit": "W",
+          "value": "0.9"
+        },
+        {
+          "name": "멀티메모리카드리더유무",
+          "unit": null,
+          "value": "무"
+        },
+        {
+          "name": "스위칭모드파워서플라이형식",
+          "unit": null,
+          "value": "1050W"
+        },
+        {
+          "name": "크기(깊이)",
+          "unit": "mm",
+          "value": "415"
+        },
+        {
+          "name": "크기(높이)",
+          "unit": "mm",
+          "value": "470"
+        },
+        {
+          "name": "크기(폭)",
+          "unit": "mm",
+          "value": "215"
+        },
+        {
+          "name": "옵션/기타",
+          "unit": null,
+          "value": "복구솔루션"
+        },
+        {
+          "name": "중앙처리장치(CPU)규격",
+          "unit": null,
+          "value": "Intel Core Ultra 9 285"
+        },
+        {
+          "name": "하드디스크(HDD)용량",
+          "unit": "TB",
+          "value": "8"
+        },
+        {
+          "name": "LAN규격",
+          "unit": null,
+          "value": "Max 2.5 Gbps"
+        },
+        {
+          "name": "광디스크(ODD)규격",
+          "unit": null,
+          "value": "무"
+        },
+        {
+          "name": "메모리(RAM)용량",
+          "unit": "GB",
+          "value": "128"
+        },
+        {
+          "name": "SSD용량",
+          "unit": "TB",
+          "value": "2"
+        }
+      ],
+      "contract_request_line_references": {
+        "R25TA00252133": [
+          {
+            "request_no": "R25TB01148203",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R25TB01211734",
+            "line_no": "3"
+          },
+          {
+            "request_no": "R25TB01296075",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01487817",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02138328",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02193888",
+            "line_no": "1"
+          }
+        ]
+      },
+      "observations": {
+        "exact_model_search": "정확모델 제조사판매몰 직접열람성공.",
+        "retail_source": "https://www.gotetramall.com/goods/goods_view.php?goodsNo=1000000371",
+        "seller": "(주)테트라",
+        "observed_at_utc": "2026-10-16T02:06:20Z",
+        "quote": "T-DT598T2M128-P1R59 / 판매가11,710,400원 / 배송비0원 / 구매제한최소1개",
+        "retail_price_krw": "11710400",
+        "conditions": "CPU Ultra9 285,DDR5 128GB,SSD PM9A1 2TB,HDD8TB,RTX5090 32GB,B860,1050W,키보드마우스범위는별도확인필요. 구매버튼. 세금포함명시문구/최대수량미확인.",
+        "verified_comparison_price_krw": null,
+        "decision": "no_saving; exact retailer price above procurement weighted mean"
+      }
+    }
+  ],
+  "multimedia_followups": [
+    {
+      "item_id": "25667061",
+      "api_url": "https://api.savetax.now/v1/items/25667061",
+      "model": "PPG-BYH-25",
+      "core_composition": [
+        {
+          "name": "구성품",
+          "unit": null,
+          "value": "프로그램, PC, 센서, 키오스크케이스, 모니터, 볼공급기, 파크골프 부스"
+        },
+        {
+          "name": "학습종류",
+          "unit": null,
+          "value": "가상파크골프학습시스템"
+        },
+        {
+          "name": "모니터규격",
+          "unit": "inch",
+          "value": "85"
+        }
+      ],
+      "decision": "전용프로그램/센서/부스 등 실제구성이 일반전자칠판과달라 단품동등가격으로비교하지않음. 정확모델민간판매가격미발견."
+    },
+    {
+      "item_id": "25351015",
+      "api_url": "https://api.savetax.now/v1/items/25351015",
+      "model": "Self-Confidence Ai 8000",
+      "core_composition": [
+        {
+          "name": "구성품",
+          "unit": null,
+          "value": "본체, 모니터,웹카메라, 소프트웨어"
+        },
+        {
+          "name": "학습종류",
+          "unit": null,
+          "value": "인공지능대입면접시스템"
+        },
+        {
+          "name": "모니터규격",
+          "unit": "inch",
+          "value": "55이상"
+        }
+      ],
+      "decision": "전용프로그램/센서/부스 등 실제구성이 일반전자칠판과달라 단품동등가격으로비교하지않음. 정확모델민간판매가격미발견."
+    },
+    {
+      "item_id": "26021382",
+      "api_url": "https://api.savetax.now/v1/items/26021382",
+      "model": "TERRA-26A",
+      "core_composition": [
+        {
+          "name": "구성품",
+          "unit": null,
+          "value": "소프트웨어, 터치모니터, 초고속카메라센서, 6키/볼공급기, 제어PC"
+        },
+        {
+          "name": "학습종류",
+          "unit": null,
+          "value": "가상파크골프학습시스템"
+        },
+        {
+          "name": "모니터규격",
+          "unit": "inch",
+          "value": "24, 터치모니터"
+        }
+      ],
+      "decision": "전용프로그램/센서/부스 등 실제구성이 일반전자칠판과달라 단품동등가격으로비교하지않음. 정확모델민간판매가격미발견."
+    },
+    {
+      "item_id": "24505958",
+      "api_url": "https://api.savetax.now/v1/items/24505958",
+      "model": "KJ-HT32A",
+      "core_composition": [
+        {
+          "name": "구성품",
+          "unit": null,
+          "value": "터치모니터, SW, 테이블"
+        },
+        {
+          "name": "학습종류",
+          "unit": null,
+          "value": "인지향상훈련"
+        },
+        {
+          "name": "모니터규격",
+          "unit": "inch",
+          "value": "32"
+        }
+      ],
+      "decision": "전용프로그램/센서/부스 등 실제구성이 일반전자칠판과달라 단품동등가격으로비교하지않음. 정확모델민간판매가격미발견."
+    }
+  ],
+  "industrial_pc_handoff": [
+    {
+      "item_id": "26145038",
+      "model": "xseries-m245KR16S5H0V5",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/26145038",
+      "availability": "available",
+      "snapshot": {
+        "name": "데스크톱컴퓨터, 삼영테크, xseries-m245KR16S5H0V5, Intel Core Ultra 5 245K(4.2GHz)",
+        "model": "xseries-m245KR16S5H0V5",
+        "manufacturer": "삼영테크 주식회사",
+        "category": "데스크톱컴퓨터",
+        "listings": [
+          {
+            "listing_id": "002360358_1290000056",
+            "vendor": "삼영테크 주식회사",
+            "unit_price_krw": "1903400"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-12T02:59:36.050Z",
+        "facts_total": 3,
+        "facts_truncated": false
+      },
+      "fact_summary": {
+        "scorable_count": 3,
+        "Q": "89",
+        "C": "157983600",
+        "representative_facts": [
+          {
+            "fact_id": "dl:26145038:002360358_1:R26TB02146757:1",
+            "listing_id": "002360358_1290000056",
+            "contract_no": "002360358_1",
+            "request_no": "R26TB02146757",
+            "line_no": "1",
+            "request_date": "2026-07-21",
+            "agency_name": "서울특별시교육청 성동공업고등학교",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1814900",
+            "quantity": "23",
+            "comparable_amount_krw": "41742700",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:26145038:002360358_1:R26TB02197341:1",
+            "listing_id": "002360358_1290000056",
+            "contract_no": "002360358_1",
+            "request_no": "R26TB02197341",
+            "line_no": "1",
+            "request_date": "2026-08-04",
+            "agency_name": "경상국립대학교 산학협력단",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1814900",
+            "quantity": "1",
+            "comparable_amount_krw": "1814900",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:26145038:002360358_1:R26TB02249181:2",
+            "listing_id": "002360358_1290000056",
+            "contract_no": "002360358_1",
+            "request_no": "R26TB02249181",
+            "line_no": "2",
+            "request_date": "2026-08-24",
+            "agency_name": "경복대학산학협력단",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1760400",
+            "quantity": "65",
+            "comparable_amount_krw": "114426000",
+            "scorable": true,
+            "exclusion_reasons": []
+          }
+        ]
+      },
+      "contract_request_line_references": {
+        "002360358_1": [
+          {
+            "request_no": "R26TB02146757",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02197341",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02249181",
+            "line_no": "2"
+          }
+        ]
+      },
+      "max_B_for_100m_savings_krw": "651501.1235955056179775280899",
+      "exact_model_search_result": "정확전체모델 검색 수행. 일반소매가격 미발견, 다른SKU나 낮은옵션가격으로 대체채택하지않음.",
+      "verified_comparison_price_krw": null,
+      "manufacturer_search": {
+        "source_url": "https://www.sytechsvc.kr/default/product/product_1.php?com_board_category_code=c1&sub=01&tit=03",
+        "verification": "search result only; direct page error",
+        "price": null
+      }
+    },
+    {
+      "item_id": "26071472",
+      "model": "THU27-SNV-01",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/26071472",
+      "availability": "available",
+      "snapshot": {
+        "name": "데스크톱컴퓨터, 리퓨터, THU27-SNV-01, Intel Core Ultra 7 265(2.4GHz)",
+        "model": "THU27-SNV-01",
+        "manufacturer": "주식회사 리퓨터",
+        "category": "데스크톱컴퓨터",
+        "listings": [
+          {
+            "listing_id": "R25TA00293576180000160",
+            "vendor": "주식회사 리퓨터",
+            "unit_price_krw": "2200700"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-12T03:11:56.786Z",
+        "facts_total": 9,
+        "facts_truncated": false
+      },
+      "fact_summary": {
+        "scorable_count": 9,
+        "Q": "60",
+        "C": "123026400",
+        "representative_facts": [
+          {
+            "fact_id": "dl:26071472:R25TA00293576:R26TB01867768:1",
+            "listing_id": "R25TA00293576180000160",
+            "contract_no": "R25TA00293576",
+            "request_no": "R26TB01867768",
+            "line_no": "1",
+            "request_date": "2026-04-29",
+            "agency_name": "경기도 성남시",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "2012500",
+            "quantity": "4",
+            "comparable_amount_krw": "8050000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:26071472:R25TA00293576:R26TB01880037:1",
+            "listing_id": "R25TA00293576180000160",
+            "contract_no": "R25TA00293576",
+            "request_no": "R26TB01880037",
+            "line_no": "1",
+            "request_date": "2026-05-04",
+            "agency_name": "전북특별자치도교육청 전북특별자치도완주교육지원청 삼례동초등학교",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "2012500",
+            "quantity": "1",
+            "comparable_amount_krw": "2012500",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:26071472:R25TA00293576:R26TB01963399:1",
+            "listing_id": "R25TA00293576180000160",
+            "contract_no": "R25TA00293576",
+            "request_no": "R26TB01963399",
+            "line_no": "1",
+            "request_date": "2026-05-28",
+            "agency_name": "경기도 성남시",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "2012500",
+            "quantity": "6",
+            "comparable_amount_krw": "12075000",
+            "scorable": true,
+            "exclusion_reasons": []
+          }
+        ]
+      },
+      "contract_request_line_references": {
+        "R25TA00293576": [
+          {
+            "request_no": "R26TB01867768",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01880037",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01963399",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02022319",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02059265",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02079125",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02142135",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02206079",
+            "line_no": "2"
+          },
+          {
+            "request_no": "R26TB02309520",
+            "line_no": "1"
+          }
+        ]
+      },
+      "max_B_for_100m_savings_krw": "383773.3333333333333333333333",
+      "exact_model_search_result": "정확전체모델 검색 수행. 일반소매가격 미발견, 다른SKU나 낮은옵션가격으로 대체채택하지않음.",
+      "verified_comparison_price_krw": null
+    },
+    {
+      "item_id": "25554363",
+      "model": "NY-E145SI30",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/25554363",
+      "availability": "available",
+      "snapshot": {
+        "name": "데스크톱컴퓨터, 엔와이컴퓨터, NY-E145SI30, Intel Core i5 14500(2.6GHz)",
+        "model": "NY-E145SI30",
+        "manufacturer": "주식회사 엔와이컴퓨터",
+        "category": "데스크톱컴퓨터",
+        "listings": [
+          {
+            "listing_id": "0024C1329_1230000044",
+            "vendor": "주식회사 엔와이컴퓨터",
+            "unit_price_krw": "1822400"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-12T03:03:42.317Z",
+        "facts_total": 1,
+        "facts_truncated": false
+      },
+      "fact_summary": {
+        "scorable_count": 1,
+        "Q": "100",
+        "C": "145395000",
+        "representative_facts": [
+          {
+            "fact_id": "dl:25554363:0024C1329_1:R26TB02281578:3",
+            "listing_id": "0024C1329_1230000044",
+            "contract_no": "0024C1329_1",
+            "request_no": "R26TB02281578",
+            "line_no": "3",
+            "request_date": "2026-09-18",
+            "agency_name": "해양경찰청",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1453950",
+            "quantity": "100",
+            "comparable_amount_krw": "145395000",
+            "scorable": true,
+            "exclusion_reasons": []
+          }
+        ]
+      },
+      "contract_request_line_references": {
+        "0024C1329_1": [
+          {
+            "request_no": "R26TB02281578",
+            "line_no": "3"
+          }
+        ]
+      },
+      "max_B_for_100m_savings_krw": "453950",
+      "exact_model_search_result": "정확전체모델 검색 수행. 일반소매가격 미발견, 다른SKU나 낮은옵션가격으로 대체채택하지않음.",
+      "verified_comparison_price_krw": null
+    },
+    {
+      "item_id": "25779535",
+      "model": "JDA99164R80",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/25779535",
+      "availability": "available",
+      "snapshot": {
+        "name": "데스크톱컴퓨터, 제이디솔루션, JDA99164R80, AMD Ryzen9 9900X(5.6GHz)",
+        "model": "JDA99164R80",
+        "manufacturer": "주식회사 제이디솔루션",
+        "category": "데스크톱컴퓨터",
+        "listings": [
+          {
+            "listing_id": "R25TA00982733060000041",
+            "vendor": "주식회사 제이디솔루션",
+            "unit_price_krw": "7089800"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-12T03:19:09.420Z",
+        "facts_total": 4,
+        "facts_truncated": false
+      },
+      "fact_summary": {
+        "scorable_count": 4,
+        "Q": "23",
+        "C": "107518100",
+        "representative_facts": [
+          {
+            "fact_id": "dl:25779535:R25TA00982733:R25TB01227072:1",
+            "listing_id": "R25TA00982733060000041",
+            "contract_no": "R25TA00982733",
+            "request_no": "R25TB01227072",
+            "line_no": "1",
+            "request_date": "2025-11-21",
+            "agency_name": "행정안전부",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "4598000",
+            "quantity": "1",
+            "comparable_amount_krw": "4598000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:25779535:R25TA00982733:R25TB01333689:1",
+            "listing_id": "R25TA00982733060000041",
+            "contract_no": "R25TA00982733",
+            "request_no": "R25TB01333689",
+            "line_no": "1",
+            "request_date": "2025-12-16",
+            "agency_name": "전남광주통합특별시 순천시",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "4598000",
+            "quantity": "19",
+            "comparable_amount_krw": "87362000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:25779535:R25TA00982733:R26TB01408850:1",
+            "listing_id": "R25TA00982733060000041",
+            "contract_no": "R25TA00982733",
+            "request_no": "R26TB01408850",
+            "line_no": "1",
+            "request_date": "2026-01-08",
+            "agency_name": "서울특별시 서울시립대학교",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "4598000",
+            "quantity": "2",
+            "comparable_amount_krw": "9196000",
+            "scorable": true,
+            "exclusion_reasons": []
+          }
+        ]
+      },
+      "contract_request_line_references": {
+        "R25TA00982733": [
+          {
+            "request_no": "R25TB01227072",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R25TB01333689",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01408850",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01629062",
+            "line_no": "1"
+          }
+        ]
+      },
+      "max_B_for_100m_savings_krw": "326873.9130434782608695652174",
+      "exact_model_search_result": "정확전체모델 검색 수행. 일반소매가격 미발견, 다른SKU나 낮은옵션가격으로 대체채택하지않음.",
+      "verified_comparison_price_krw": null
+    },
+    {
+      "item_id": "26063756",
+      "model": "DG481-GD71E-004",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/26063756",
+      "availability": "available",
+      "snapshot": {
+        "name": "데스크톱컴퓨터, 삼보컴퓨터, DG481-GD71E-004, Intel Core Ultra 7 265(2.4GHz)",
+        "model": "DG481-GD71E-004",
+        "manufacturer": "주식회사 삼보컴퓨터",
+        "category": "데스크톱컴퓨터",
+        "listings": [
+          {
+            "listing_id": "0024C1330_1200000229",
+            "vendor": "주식회사 삼보컴퓨터",
+            "unit_price_krw": "2411000"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-12T02:37:24.316Z",
+        "facts_total": 5,
+        "facts_truncated": false
+      },
+      "fact_summary": {
+        "scorable_count": 5,
+        "Q": "142",
+        "C": "288951200",
+        "representative_facts": [
+          {
+            "fact_id": "dl:26063756:0024C1330_1:R26TB02143611:1",
+            "listing_id": "0024C1330_1200000229",
+            "contract_no": "0024C1330_1",
+            "request_no": "R26TB02143611",
+            "line_no": "1",
+            "request_date": "2026-07-20",
+            "agency_name": "한국보훈복지의료공단 대구보훈병원",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "2131000",
+            "quantity": "2",
+            "comparable_amount_krw": "4262000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:26063756:0024C1330_1:R26TB02208492:1",
+            "listing_id": "0024C1330_1200000229",
+            "contract_no": "0024C1330_1",
+            "request_no": "R26TB02208492",
+            "line_no": "1",
+            "request_date": "2026-08-07",
+            "agency_name": "부산대학교",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "2131000",
+            "quantity": "1",
+            "comparable_amount_krw": "2131000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:26063756:0024C1330_1:R26TB02246521:2",
+            "listing_id": "0024C1330_1200000229",
+            "contract_no": "0024C1330_1",
+            "request_no": "R26TB02246521",
+            "line_no": "2",
+            "request_date": "2026-08-21",
+            "agency_name": "한국보훈복지의료공단 대구보훈병원",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "2024450",
+            "quantity": "92",
+            "comparable_amount_krw": "186249400",
+            "scorable": true,
+            "exclusion_reasons": []
+          }
+        ]
+      },
+      "contract_request_line_references": {
+        "0024C1330_1": [
+          {
+            "request_no": "R26TB02143611",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02208492",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02246521",
+            "line_no": "2"
+          },
+          {
+            "request_no": "R26TB02300648",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02318084",
+            "line_no": "2"
+          }
+        ]
+      },
+      "max_B_for_100m_savings_krw": "1330642.253521126760563380282",
+      "exact_model_search_result": "정확전체모델 검색 수행. 일반소매가격 미발견, 다른SKU나 낮은옵션가격으로 대체채택하지않음.",
+      "verified_comparison_price_krw": null,
+      "alternative_observation": {
+        "source_url": "https://prod.danawa.com/info/?pcode=94813040",
+        "verification": "price-comparison page directly opened; individual seller final page not verified",
+        "model": "HP M03-0000kr 32GB M.2 512GB",
+        "price_krw": "1822770",
+        "cash_price_krw": "1690000",
+        "quote": "HP M03-0000kr (32GB, M.2 512GB) / 최저가1,822,770원 / 무료배송",
+        "conditions": "CoreUltra7 265·내장그래픽·32GB·SSD512GB·OS미포함·400W. TG슬림과HP미니타워/보드/복원솔루션차이있음. 검색캐시1638990원과현재본문1822770원이달라낮은검색가미채택. 억단위절감없어후순위."
+      }
+    },
+    {
+      "item_id": "25822919",
+      "model": "ITA176-T4716320",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/25822919",
+      "availability": "available",
+      "snapshot": {
+        "name": "데스크톱컴퓨터, 인텍, ITA176-T4716320, IntelCore i7-14700(2.1GHz)",
+        "model": "ITA176-T4716320",
+        "manufacturer": "주식회사 인텍",
+        "category": "데스크톱컴퓨터",
+        "listings": [
+          {
+            "listing_id": "0024C0235_1300000111",
+            "vendor": "주식회사 인텍",
+            "unit_price_krw": "1897000"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-12T03:20:11.141Z",
+        "facts_total": 17,
+        "facts_truncated": false
+      },
+      "fact_summary": {
+        "scorable_count": 17,
+        "Q": "67",
+        "C": "105843500",
+        "representative_facts": [
+          {
+            "fact_id": "dl:25822919:0024C0235_1:R25TB01388600:1",
+            "listing_id": "0024C0235_1300000111",
+            "contract_no": "0024C0235_1",
+            "request_no": "R25TB01388600",
+            "line_no": "1",
+            "request_date": "2025-12-30",
+            "agency_name": "강원대학교 삼척캠퍼스",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1183000",
+            "quantity": "1",
+            "comparable_amount_krw": "1183000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:25822919:0024C0235_1:R26TB01432447:1",
+            "listing_id": "0024C0235_1300000111",
+            "contract_no": "0024C0235_1",
+            "request_no": "R26TB01432447",
+            "line_no": "1",
+            "request_date": "2026-01-16",
+            "agency_name": "강원특별자치도 원주시 태장1동",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1496000",
+            "quantity": "1",
+            "comparable_amount_krw": "1496000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:25822919:0024C0235_1:R26TB01463120:1",
+            "listing_id": "0024C0235_1300000111",
+            "contract_no": "0024C0235_1",
+            "request_no": "R26TB01463120",
+            "line_no": "1",
+            "request_date": "2026-01-26",
+            "agency_name": "춘천시립예술단",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1496000",
+            "quantity": "6",
+            "comparable_amount_krw": "8976000",
+            "scorable": true,
+            "exclusion_reasons": []
+          }
+        ]
+      },
+      "contract_request_line_references": {
+        "0024C0235_1": [
+          {
+            "request_no": "R25TB01388600",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01432447",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01463120",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01472807",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01475632",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01484046",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01530200",
+            "line_no": "3"
+          },
+          {
+            "request_no": "R26TB01539197",
+            "line_no": "2"
+          },
+          {
+            "request_no": "R26TB01582678",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01653914",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01654981",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01749959",
+            "line_no": "2"
+          },
+          {
+            "request_no": "R26TB01811087",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01871446",
+            "line_no": "7"
+          },
+          {
+            "request_no": "R26TB01894526",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02093510",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02212734",
+            "line_no": "1"
+          }
+        ]
+      },
+      "max_B_for_100m_savings_krw": "87216.41791044776119402985075",
+      "exact_model_search_result": "정확전체모델 검색 수행. 일반소매가격 미발견, 다른SKU나 낮은옵션가격으로 대체채택하지않음.",
+      "verified_comparison_price_krw": null
+    },
+    {
+      "item_id": "25545868",
+      "model": "T5E2-52E/B",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/25545868",
+      "availability": "available",
+      "snapshot": {
+        "name": "데스크톱컴퓨터, 유투, T5E2-52E/B, Intel Core i5 14500(2.6GHz)",
+        "model": "T5E2-52E/B",
+        "manufacturer": "(주)유투",
+        "category": "데스크톱컴퓨터",
+        "listings": [
+          {
+            "listing_id": "R25TA00785903210000046",
+            "vendor": "(주)유투",
+            "unit_price_krw": "2137800"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-12T03:12:28.193Z",
+        "facts_total": 19,
+        "facts_truncated": false
+      },
+      "fact_summary": {
+        "scorable_count": 19,
+        "Q": "72",
+        "C": "120636000",
+        "representative_facts": [
+          {
+            "fact_id": "dl:25545868:R25TA00785903:R25TB01229609:1",
+            "listing_id": "R25TA00785903210000046",
+            "contract_no": "R25TA00785903",
+            "request_no": "R25TB01229609",
+            "line_no": "1",
+            "request_date": "2025-11-24",
+            "agency_name": "학교법인한국폴리텍",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1437400",
+            "quantity": "9",
+            "comparable_amount_krw": "12936600",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:25545868:R25TA00785903:R25TB01237726:1",
+            "listing_id": "R25TA00785903210000046",
+            "contract_no": "R25TA00785903",
+            "request_no": "R25TB01237726",
+            "line_no": "1",
+            "request_date": "2025-11-25",
+            "agency_name": "학교법인한국폴리텍",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1437400",
+            "quantity": "1",
+            "comparable_amount_krw": "1437400",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:25545868:R25TA00785903:R25TB01279005:1",
+            "listing_id": "R25TA00785903210000046",
+            "contract_no": "R25TA00785903",
+            "request_no": "R25TB01279005",
+            "line_no": "1",
+            "request_date": "2025-12-03",
+            "agency_name": "국토안전관리원",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1437400",
+            "quantity": "9",
+            "comparable_amount_krw": "12936600",
+            "scorable": true,
+            "exclusion_reasons": []
+          }
+        ]
+      },
+      "contract_request_line_references": {
+        "R25TA00785903": [
+          {
+            "request_no": "R25TB01229609",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R25TB01237726",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R25TB01279005",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R25TB01282586",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01403498",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01405357",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01408931",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01416334",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01427071",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01449470",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01472375",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01520791",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01526784",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01527848",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01539994",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01701318",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01801397",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01817364",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02300744",
+            "line_no": "1"
+          }
+        ]
+      },
+      "max_B_for_100m_savings_krw": "286611.1111111111111111111111",
+      "exact_model_search_result": "정확전체모델 검색 수행. 일반소매가격 미발견, 다른SKU나 낮은옵션가격으로 대체채택하지않음.",
+      "verified_comparison_price_krw": null,
+      "manufacturer_observation": {
+        "source_url": "https://www.utoo.co.kr/board_intro/intro_B1.asp",
+        "verification": "manufacturer page directly opened",
+        "core_specs": "i5-14500 / 16GB / SSD512GB+HDD2TB / RTX4060 D6 8GB / 700W",
+        "price": "나라장터참고; 일반소매가없음"
+      }
+    },
+    {
+      "item_id": "25586036",
+      "model": "SI4CKM-4600BA",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/25586036",
+      "availability": "available",
+      "snapshot": {
+        "name": "데스크톱컴퓨터, 다컴시스템, SI4CKM-4600BA, Intel Core i3 14100(3.5GHz)",
+        "model": "SI4CKM-4600BA",
+        "manufacturer": "(주)다컴시스템",
+        "category": "데스크톱컴퓨터",
+        "listings": [
+          {
+            "listing_id": "R25TA00027199150000084",
+            "vendor": "(주)다컴시스템",
+            "unit_price_krw": "1612000"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-12T03:22:14.470Z",
+        "facts_total": 11,
+        "facts_truncated": false
+      },
+      "fact_summary": {
+        "scorable_count": 11,
+        "Q": "110",
+        "C": "101918500",
+        "representative_facts": [
+          {
+            "fact_id": "dl:25586036:R25TA00027199:R25TB01062996:1",
+            "listing_id": "R25TA00027199150000084",
+            "contract_no": "R25TA00027199",
+            "request_no": "R25TB01062996",
+            "line_no": "1",
+            "request_date": "2025-10-15",
+            "agency_name": "농림축산식품부 한국농수산대학교",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "894000",
+            "quantity": "1",
+            "comparable_amount_krw": "894000",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:25586036:R25TA00027199:R25TB01077380:1",
+            "listing_id": "R25TA00027199150000084",
+            "contract_no": "R25TA00027199",
+            "request_no": "R25TB01077380",
+            "line_no": "1",
+            "request_date": "2025-10-20",
+            "agency_name": "조달청",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "800100",
+            "quantity": "55",
+            "comparable_amount_krw": "44005500",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:25586036:R25TA00027199:R25TB01107371:1",
+            "listing_id": "R25TA00027199150000084",
+            "contract_no": "R25TA00027199",
+            "request_no": "R25TB01107371",
+            "line_no": "1",
+            "request_date": "2025-10-27",
+            "agency_name": "농림축산식품부 한국농수산대학교",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "894000",
+            "quantity": "2",
+            "comparable_amount_krw": "1788000",
+            "scorable": true,
+            "exclusion_reasons": []
+          }
+        ]
+      },
+      "contract_request_line_references": {
+        "R25TA00027199": [
+          {
+            "request_no": "R25TB01062996",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R25TB01077380",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R25TB01107371",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R25TB01127376",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R25TB01199543",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R25TB01275133",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R25TB01277770",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01407731",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01503976",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01808629",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02114819",
+            "line_no": "1"
+          }
+        ]
+      },
+      "max_B_for_100m_savings_krw": "17440.90909090909090909090909",
+      "exact_model_search_result": "정확전체모델 검색 수행. 일반소매가격 미발견, 다른SKU나 낮은옵션가격으로 대체채택하지않음.",
+      "verified_comparison_price_krw": null,
+      "manufacturer_observation": {
+        "source_url": "https://www.dacomsystem.com/si4ckm-4600ba/",
+        "verification": "manufacturer page directly opened",
+        "core_specs": "i3-14100 / Q670 / DDR5 16GB / SSD512GB / 그래픽없음 / 400W / WindowsPro옵션선택",
+        "price": null,
+        "note": "raw synonyms에다른제품RTX4060/AMD정보혼입. 정확제조사페이지로구성구별."
+      }
+    },
+    {
+      "item_id": "25694232",
+      "model": "JA-U5F5S",
+      "api_url": "https://hackathon.savetax.now/v1/events/current/items/25694232",
+      "availability": "available",
+      "snapshot": {
+        "name": "데스크톱컴퓨터, 주연테크, JA-U5F5S, Intel Core Ultra 5 245K(4.2GHz)",
+        "model": "JA-U5F5S",
+        "manufacturer": "주식회사 주연테크",
+        "category": "데스크톱컴퓨터",
+        "listings": [
+          {
+            "listing_id": "0024C1328_1120000128",
+            "vendor": "주식회사 주연테크",
+            "unit_price_krw": "1649000"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-12T02:50:19.301Z",
+        "facts_total": 42,
+        "facts_truncated": false
+      },
+      "fact_summary": {
+        "scorable_count": 42,
+        "Q": "136",
+        "C": "200626000",
+        "representative_facts": [
+          {
+            "fact_id": "dl:25694232:0024C1328_1:R26TB01443635:1",
+            "listing_id": "0024C1328_1120000128",
+            "contract_no": "0024C1328_1",
+            "request_no": "R26TB01443635",
+            "line_no": "1",
+            "request_date": "2026-01-20",
+            "agency_name": "부산광역시교육청 부산광역시북부교육지원청 강서유치원",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1335900",
+            "quantity": "9",
+            "comparable_amount_krw": "12023100",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:25694232:0024C1328_1:R26TB01448050:1",
+            "listing_id": "0024C1328_1120000128",
+            "contract_no": "0024C1328_1",
+            "request_no": "R26TB01448050",
+            "line_no": "1",
+            "request_date": "2026-01-21",
+            "agency_name": "부산광역시북부교육청 주감초등학교",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1335900",
+            "quantity": "1",
+            "comparable_amount_krw": "1335900",
+            "scorable": true,
+            "exclusion_reasons": []
+          },
+          {
+            "fact_id": "dl:25694232:0024C1328_1:R26TB01456905:1",
+            "listing_id": "0024C1328_1120000128",
+            "contract_no": "0024C1328_1",
+            "request_no": "R26TB01456905",
+            "line_no": "1",
+            "request_date": "2026-01-23",
+            "agency_name": "부산광역시교육청 부산광역시북부교육지원청 강서유치원",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "basis_id": "basis:대:vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "period_kind": "none",
+            "unit_price_krw": "1335900",
+            "quantity": "15",
+            "comparable_amount_krw": "20038500",
+            "scorable": true,
+            "exclusion_reasons": []
+          }
+        ]
+      },
+      "contract_request_line_references": {
+        "0024C1328_1": [
+          {
+            "request_no": "R26TB01443635",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01448050",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01456905",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01487466",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01579578",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01581198",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01615950",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01620251",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01633787",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01644249",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01661406",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01761623",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01764874",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01824173",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01824426",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01835735",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01836445",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01852857",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01900193",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01965536",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB01984105",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02000876",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02033409",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02086879",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02097706",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02111413",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02133184",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02147745",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02147809",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02150754",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02153821",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02158591",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02160005",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02167382",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02249579",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02278830",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02310267",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02311340",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02312531",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02323759",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02338341",
+            "line_no": "1"
+          },
+          {
+            "request_no": "R26TB02339507",
+            "line_no": "1"
+          }
+        ]
+      },
+      "max_B_for_100m_savings_krw": "739897.0588235294117647058824",
+      "exact_model_search_result": "정확전체모델 검색 수행. 일반소매가격 미발견, 다른SKU나 낮은옵션가격으로 대체채택하지않음.",
+      "verified_comparison_price_krw": null,
+      "alternative_search": {
+        "source_url": "https://www.compuzone.co.kr/product/product_detail.htm?ProductNo=1369850",
+        "model": "주연테크 D6v245KHFV-B16G512G",
+        "search_price_krw": "1519000",
+        "verification": "search only; no verified retail price adopted",
+        "decision": "동CPU245K·16GB·512GB/FD 검색가가조달가중평균보다높아후순위."
+      }
+    }
+  ]
+}
