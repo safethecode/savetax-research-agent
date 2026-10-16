@@ -121,6 +121,7 @@ class BrowserRuntime:
                 '--user-data-dir='+str(profile), '--remote-debugging-port=0', 'about:blank'],
                 stdin=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
                 env={k:v for k,v in env.items() if not k.endswith('_API_KEY')},
+                start_new_session=os.name != 'nt',
                 creationflags=getattr(subprocess, 'CREATE_NO_WINDOW', 0))
             self.process_file.write_text(json.dumps({'pid':child.pid,'profile':str(profile)}), encoding='utf-8')
             for _ in range(40):
