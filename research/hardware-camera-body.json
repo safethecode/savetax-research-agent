@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-16T06:17:55.347593+00:00",
+  "updated_at_utc": "2026-10-16T06:37:30.493846+00:00",
   "availability_observed_at_utc": "2026-10-16T05:45:43.777865+00:00",
   "scope": "사용자 지시에 따라 원 카메라 브래킷 분야에서 카메라 본체·영상저장장치까지 전체 owner 슬롯 예외 확장. 신규 available의 3억원 이상 차액 가능 후보 세 모델 집중 검토.",
   "local_selected_count": 102,
@@ -7,8 +7,8 @@
   "deep_review_item_count": 3,
   "parallel_search_calls": 7,
   "submission_ready_count": 0,
-  "adopted_saving_krw": "348329350",
-  "public_references_count": 109,
+  "adopted_saving_krw": "857054150",
+  "public_references_count": 171,
   "items": [
     {
       "item_id": "24070988",
@@ -190,7 +190,7 @@
         "public_price_krw": "1926200",
         "vat_basis": "판매처 상품 상세에 부가세포함 명시",
         "shipping_krw": null,
-        "purchase_state": "부모의 실제 브라우저에서 수량1 총액1,926,200원, 필수 옵션 없음, 바로구매 표시를 확인했다.",
+        "purchase_state": "실제 브라우저에서 수량1 총액1,926,200원, 필수 옵션 없음, 바로구매 표시를 확인했다.",
         "verified_specs": {
           "sensor": "1/1.8 progressive CMOS",
           "resolution_mp": 4,
@@ -1031,6 +1031,478 @@
       "tax_basis": "카메라 부가세포함 명시. 두 부품 합65,500원의 VAT 명시문장 미확인 때문에10%6,550원 추가 세금예산을 보수적으로 가산했다.",
       "superseded_provisional_benchmark_unit_price_krw": "1999100",
       "differences": "일반 팬틸트 감시용 제품 취득 비교. 원품2MP·40배·SNR55dB와 대체품4MP·42배·SNR≥52dB의 정격 차이를 명시했다. 원품 현장설치와 보안인증·침수 감시 시스템 전체의 동등성은 주장하지 않는다."
+    },
+    {
+      "item_id": "25431016",
+      "model": "EM-04B2-T",
+      "actual_alternative_models": [
+        "DS-7608NI-M2"
+      ],
+      "research_status": "접수 완료 / lint 비동기 검사 결과 미확인",
+      "submission_id": "b5171da9-f4f5-400f-ab38-5e186b256dd7",
+      "submission_state": "accepted",
+      "accepted_at_utc": "2026-10-16T06:35:50+00:00",
+      "quantity": "218",
+      "comparable_amount_krw": "599064000",
+      "fact_total": 62,
+      "scorable_facts": 62,
+      "unique_requests": 62,
+      "benchmark_unit_price_krw": "414400",
+      "preview_score_amount_krw": "508724800",
+      "lint_status": "pending_or_not_observed",
+      "event_api_url": "https://hackathon.savetax.now/v1/events/current/items/25431016",
+      "catalog_api_url": "https://api.savetax.now/v1/items/25431016",
+      "references": [
+        {
+          "fact_id": "dl:25431016:002270042_1:R25TB01295395:14",
+          "listing_id": "002270042_1280002194",
+          "contract_no": "002270042_1",
+          "request_no": "R25TB01295395",
+          "line_no": "14"
+        },
+        {
+          "fact_id": "dl:25431016:002270042_1:R26TB01891903:5",
+          "listing_id": "002270042_1280002194",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB01891903",
+          "line_no": "5"
+        },
+        {
+          "fact_id": "dl:25431016:002270042_1:R26TB02014544:8",
+          "listing_id": "002270042_1280002194",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB02014544",
+          "line_no": "8"
+        },
+        {
+          "fact_id": "dl:25431016:002270042_1:R26TB02038102:6",
+          "listing_id": "002270042_1280002194",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB02038102",
+          "line_no": "6"
+        },
+        {
+          "fact_id": "dl:25431016:002270042_1:R26TB02042878:7",
+          "listing_id": "002270042_1280002194",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB02042878",
+          "line_no": "7"
+        },
+        {
+          "fact_id": "dl:25431016:002270042_1:R26TB02117054:6",
+          "listing_id": "002270042_1280002194",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB02117054",
+          "line_no": "6"
+        },
+        {
+          "fact_id": "dl:25431016:002270042_1:R26TB02123714:9",
+          "listing_id": "002270042_1280002194",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB02123714",
+          "line_no": "9"
+        },
+        {
+          "fact_id": "dl:25431016:002270042_1:R26TB02157689:6",
+          "listing_id": "002270042_1280002194",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB02157689",
+          "line_no": "6"
+        },
+        {
+          "fact_id": "dl:25431016:002270042_1:R26TB02179231:6",
+          "listing_id": "002270042_1280002194",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB02179231",
+          "line_no": "6"
+        },
+        {
+          "fact_id": "dl:25431016:002270042_1:R26TB02216037:6",
+          "listing_id": "002270042_1280002194",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB02216037",
+          "line_no": "6"
+        },
+        {
+          "fact_id": "dl:25431016:002270042_1:R26TB02230649:6",
+          "listing_id": "002270042_1280002194",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB02230649",
+          "line_no": "6"
+        },
+        {
+          "fact_id": "dl:25431016:002270075_1:R26TB01935183:8",
+          "listing_id": "002270075_1250001414",
+          "contract_no": "002270075_1",
+          "request_no": "R26TB01935183",
+          "line_no": "8"
+        },
+        {
+          "fact_id": "dl:25431016:002270463_1:R25TB00693212:8",
+          "listing_id": "002270463_1160002347",
+          "contract_no": "002270463_1",
+          "request_no": "R25TB00693212",
+          "line_no": "8"
+        },
+        {
+          "fact_id": "dl:25431016:002270463_1:R25TB01191074:3",
+          "listing_id": "002270463_1160002347",
+          "contract_no": "002270463_1",
+          "request_no": "R25TB01191074",
+          "line_no": "3"
+        },
+        {
+          "fact_id": "dl:25431016:002270463_1:R26TB01726856:1",
+          "listing_id": "002270463_1160002347",
+          "contract_no": "002270463_1",
+          "request_no": "R26TB01726856",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25431016:002270463_1:R26TB02127311:15",
+          "listing_id": "002270463_1160002347",
+          "contract_no": "002270463_1",
+          "request_no": "R26TB02127311",
+          "line_no": "15"
+        },
+        {
+          "fact_id": "dl:25431016:002270463_1:R26TB02233682:10",
+          "listing_id": "002270463_1160002347",
+          "contract_no": "002270463_1",
+          "request_no": "R26TB02233682",
+          "line_no": "10"
+        },
+        {
+          "fact_id": "dl:25431016:002370098_1:R26TB01752704:5",
+          "listing_id": "002370098_1170001987",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01752704",
+          "line_no": "5"
+        },
+        {
+          "fact_id": "dl:25431016:002370098_1:R26TB01753614:4",
+          "listing_id": "002370098_1170001987",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01753614",
+          "line_no": "4"
+        },
+        {
+          "fact_id": "dl:25431016:002370098_1:R26TB01885342:3",
+          "listing_id": "002370098_1170001987",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01885342",
+          "line_no": "3"
+        },
+        {
+          "fact_id": "dl:25431016:002370098_1:R26TB01918931:3",
+          "listing_id": "002370098_1170001987",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01918931",
+          "line_no": "3"
+        },
+        {
+          "fact_id": "dl:25431016:002370098_1:R26TB01972816:3",
+          "listing_id": "002370098_1170001987",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01972816",
+          "line_no": "3"
+        },
+        {
+          "fact_id": "dl:25431016:002370098_1:R26TB02004466:2",
+          "listing_id": "002370098_1170001987",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB02004466",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:25431016:002370098_1:R26TB02066311:2",
+          "listing_id": "002370098_1170001987",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB02066311",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:25431016:002370098_1:R26TB02263808:10",
+          "listing_id": "002370098_1170001987",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB02263808",
+          "line_no": "10"
+        },
+        {
+          "fact_id": "dl:25431016:002370098_1:R26TB02297206:4",
+          "listing_id": "002370098_1170001987",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB02297206",
+          "line_no": "4"
+        },
+        {
+          "fact_id": "dl:25431016:002370098_1:R26TB02348266:1",
+          "listing_id": "002370098_1170001987",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB02348266",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25431016:002370125_1:R25TB01139619:17",
+          "listing_id": "002370125_1110000640",
+          "contract_no": "002370125_1",
+          "request_no": "R25TB01139619",
+          "line_no": "17"
+        },
+        {
+          "fact_id": "dl:25431016:002370125_1:R26TB02249538:4",
+          "listing_id": "002370125_1110000640",
+          "contract_no": "002370125_1",
+          "request_no": "R26TB02249538",
+          "line_no": "4"
+        },
+        {
+          "fact_id": "dl:25431016:002370211_1:R26TB01796259:4",
+          "listing_id": "002370211_1140000624",
+          "contract_no": "002370211_1",
+          "request_no": "R26TB01796259",
+          "line_no": "4"
+        },
+        {
+          "fact_id": "dl:25431016:002370211_1:R26TB01953264:3",
+          "listing_id": "002370211_1140000624",
+          "contract_no": "002370211_1",
+          "request_no": "R26TB01953264",
+          "line_no": "3"
+        },
+        {
+          "fact_id": "dl:25431016:002370211_1:R26TB01986335:6",
+          "listing_id": "002370211_1140000624",
+          "contract_no": "002370211_1",
+          "request_no": "R26TB01986335",
+          "line_no": "6"
+        },
+        {
+          "fact_id": "dl:25431016:002370211_1:R26TB02192033:3",
+          "listing_id": "002370211_1140000624",
+          "contract_no": "002370211_1",
+          "request_no": "R26TB02192033",
+          "line_no": "3"
+        },
+        {
+          "fact_id": "dl:25431016:002370213_1:R25TB01062990:4",
+          "listing_id": "002370213_1150001097",
+          "contract_no": "002370213_1",
+          "request_no": "R25TB01062990",
+          "line_no": "4"
+        },
+        {
+          "fact_id": "dl:25431016:002370213_1:R25TB01160169:9",
+          "listing_id": "002370213_1150001097",
+          "contract_no": "002370213_1",
+          "request_no": "R25TB01160169",
+          "line_no": "9"
+        },
+        {
+          "fact_id": "dl:25431016:002370213_1:R25TB01160192:9",
+          "listing_id": "002370213_1150001097",
+          "contract_no": "002370213_1",
+          "request_no": "R25TB01160192",
+          "line_no": "9"
+        },
+        {
+          "fact_id": "dl:25431016:002370213_1:R25TB01255818:9",
+          "listing_id": "002370213_1150001097",
+          "contract_no": "002370213_1",
+          "request_no": "R25TB01255818",
+          "line_no": "9"
+        },
+        {
+          "fact_id": "dl:25431016:002370213_1:R25TB01266426:10",
+          "listing_id": "002370213_1150001097",
+          "contract_no": "002370213_1",
+          "request_no": "R25TB01266426",
+          "line_no": "10"
+        },
+        {
+          "fact_id": "dl:25431016:002370213_1:R25TB01379386:4",
+          "listing_id": "002370213_1150001097",
+          "contract_no": "002370213_1",
+          "request_no": "R25TB01379386",
+          "line_no": "4"
+        },
+        {
+          "fact_id": "dl:25431016:002370213_1:R26TB01541238:6",
+          "listing_id": "002370213_1150001097",
+          "contract_no": "002370213_1",
+          "request_no": "R26TB01541238",
+          "line_no": "6"
+        },
+        {
+          "fact_id": "dl:25431016:002370213_1:R26TB01719537:2",
+          "listing_id": "002370213_1150001097",
+          "contract_no": "002370213_1",
+          "request_no": "R26TB01719537",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:25431016:002370213_1:R26TB01758907:4",
+          "listing_id": "002370213_1150001097",
+          "contract_no": "002370213_1",
+          "request_no": "R26TB01758907",
+          "line_no": "4"
+        },
+        {
+          "fact_id": "dl:25431016:002370307_1:R26TB01845889:8",
+          "listing_id": "002370307_1060000716",
+          "contract_no": "002370307_1",
+          "request_no": "R26TB01845889",
+          "line_no": "8"
+        },
+        {
+          "fact_id": "dl:25431016:002470013_1:R25TB01269196:2",
+          "listing_id": "002470013_1090001013",
+          "contract_no": "002470013_1",
+          "request_no": "R25TB01269196",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:25431016:002470148_1:R26TB02017024:5",
+          "listing_id": "002470148_1070000357",
+          "contract_no": "002470148_1",
+          "request_no": "R26TB02017024",
+          "line_no": "5"
+        },
+        {
+          "fact_id": "dl:25431016:002470197_1:R25TB01043761:3",
+          "listing_id": "002470197_1090000483",
+          "contract_no": "002470197_1",
+          "request_no": "R25TB01043761",
+          "line_no": "3"
+        },
+        {
+          "fact_id": "dl:25431016:002470197_1:R26TB01456788:1",
+          "listing_id": "002470197_1090000483",
+          "contract_no": "002470197_1",
+          "request_no": "R26TB01456788",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25431016:002470255_1:R25TB01045238:7",
+          "listing_id": "002470255_1040000057",
+          "contract_no": "002470255_1",
+          "request_no": "R25TB01045238",
+          "line_no": "7"
+        },
+        {
+          "fact_id": "dl:25431016:002470255_1:R25TB01181272:2",
+          "listing_id": "002470255_1040000057",
+          "contract_no": "002470255_1",
+          "request_no": "R25TB01181272",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:25431016:002470255_1:R26TB01405450:4",
+          "listing_id": "002470255_1040000057",
+          "contract_no": "002470255_1",
+          "request_no": "R26TB01405450",
+          "line_no": "4"
+        },
+        {
+          "fact_id": "dl:25431016:002470255_1:R26TB02133390:1",
+          "listing_id": "002470255_1040000057",
+          "contract_no": "002470255_1",
+          "request_no": "R26TB02133390",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25431016:002470275_1:R26TB02063003:4",
+          "listing_id": "002470275_1190000733",
+          "contract_no": "002470275_1",
+          "request_no": "R26TB02063003",
+          "line_no": "4"
+        },
+        {
+          "fact_id": "dl:25431016:R25TA00335583:R25TB01166312:11",
+          "listing_id": "R25TA00335583060000306",
+          "contract_no": "R25TA00335583",
+          "request_no": "R25TB01166312",
+          "line_no": "11"
+        },
+        {
+          "fact_id": "dl:25431016:R25TA00335583:R26TB01741474:6",
+          "listing_id": "R25TA00335583060000306",
+          "contract_no": "R25TA00335583",
+          "request_no": "R26TB01741474",
+          "line_no": "6"
+        },
+        {
+          "fact_id": "dl:25431016:R25TA00789927:R26TB01678777:3",
+          "listing_id": "R25TA00789927050000103",
+          "contract_no": "R25TA00789927",
+          "request_no": "R26TB01678777",
+          "line_no": "3"
+        },
+        {
+          "fact_id": "dl:25431016:R25TA00906342:R26TB01752047:3",
+          "listing_id": "R25TA00906342060000415",
+          "contract_no": "R25TA00906342",
+          "request_no": "R26TB01752047",
+          "line_no": "3"
+        },
+        {
+          "fact_id": "dl:25431016:R25TA00906342:R26TB02163154:3",
+          "listing_id": "R25TA00906342060000415",
+          "contract_no": "R25TA00906342",
+          "request_no": "R26TB02163154",
+          "line_no": "3"
+        },
+        {
+          "fact_id": "dl:25431016:R25TA01047518:R26TB01938170:14",
+          "listing_id": "R25TA01047518050000454",
+          "contract_no": "R25TA01047518",
+          "request_no": "R26TB01938170",
+          "line_no": "14"
+        },
+        {
+          "fact_id": "dl:25431016:R25TA01079745:R26TB01459561:9",
+          "listing_id": "R25TA01079745080000233",
+          "contract_no": "R25TA01079745",
+          "request_no": "R26TB01459561",
+          "line_no": "9"
+        },
+        {
+          "fact_id": "dl:25431016:R25TA01079745:R26TB02177574:5",
+          "listing_id": "R25TA01079745080000233",
+          "contract_no": "R25TA01079745",
+          "request_no": "R26TB02177574",
+          "line_no": "5"
+        },
+        {
+          "fact_id": "dl:25431016:R25TA01200385:R26TB01886333:10",
+          "listing_id": "R25TA01200385110000274",
+          "contract_no": "R25TA01200385",
+          "request_no": "R26TB01886333",
+          "line_no": "10"
+        },
+        {
+          "fact_id": "dl:25431016:R25TA01200385:R26TB02105120:4",
+          "listing_id": "R25TA01200385110000274",
+          "contract_no": "R25TA01200385",
+          "request_no": "R26TB02105120",
+          "line_no": "4"
+        }
+      ],
+      "price_source_urls": [
+        "https://itncctv.kr/product/detail.html?product_no=20773"
+      ],
+      "cost_breakdown_krw": {
+        "recorder_vat_included": "410000",
+        "shipping_per_unit_conservative": "4400"
+      },
+      "tax_basis": "실판매처 가격 옆 부가세포함 명시. HDD 선택않함 적용 후 수량1 총상품410,000원과 구매 버튼을 직접 관측했다.",
+      "observed_at_utc": "2026-10-16T06:33:56+00:00",
+      "differences": "서로 다른 모델의 일반 IP 4채널 제품 취득 비교다. 원품 최대500Mbps→대체품128Mbps, 최대저장48TB→32TB의 손실을 공개했다. 두 용량 모두 최대 지원치이며 본 비교는 녹화 HDD 미포함 본체다. TTA-V-24-300, 엠스톤 전용 연동·Failover·생체인증, 현장설치의 동등성은 확인하지 않았다. 실제 설치 현장 요구 충족을 확인한 것으로 주장하지 않는다.",
+      "spec_source_urls": [
+        "https://www.emstone.com/data/sales/ko/1UB2-T_CATALOG_KO_20240808.pdf",
+        "https://assets.hikvision.com/prd/public/all/doc/m000060963/Datasheet-of-DS-7608NI-M2_V4.63.010_20240606.pdf",
+        "https://itncctv.kr/web/upload/NNEditor/20260306/copy-1772774467-860_002.jpg"
+      ]
     }
   ],
   "closed_prior_paths": {
@@ -1042,8 +1514,8 @@
     "report": "research/hardware-pmcfb.json",
     "reference_count": 279
   },
-  "posting": "실 API POST를 호출하지 않았다. 최종 제출은 부모가 현재 guide를 다시 읽고 실제 판매가·범위를 검토한 뒤 담당한다.",
-  "accepted_submission_count": 1,
-  "accepted_preview_score_amount_krw": "348329350",
+  "posting": "조사 담당은 실 API POST를 호출하지 않았다. 총괄 검토 후 이 보고서의 VD-SD200과 EM-04B2-T 2건이 실제 accepted 접수됐다. 접수 및 공식 preview 산정액은 최종 심사 확정과 실제 예산 지급 변화 확인을 뜻하지 않는다.",
+  "accepted_submission_count": 2,
+  "accepted_preview_score_amount_krw": "857054150",
   "score_status_note": "접수 및 공식 preview 산정액이며 최종 lint 결과와 실제 예산 지급 변화 확인을 뜻하지 않는다."
 }

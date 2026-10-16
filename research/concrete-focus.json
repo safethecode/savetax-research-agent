@@ -1,23 +1,24 @@
 {
-  "observed_at": "2026-10-16T06:03:42.198664+00:00",
+  "observed_at": "2026-10-16T06:34:04.954252+00:00",
   "scope": "부모명시배정으로전체owner의콘크리트호안및옹벽블록/보차도용콘크리트블록",
   "local_catalog_read_count": 7521,
-  "official_lookup_unique_count": 213,
+  "official_lookup_unique_count": 246,
   "official_lookup_state_counts": {
-    "available": 75,
-    "claimed": 110,
+    "available": 92,
+    "claimed": 126,
     "on_hold": 28
   },
-  "named_item_web_search_unique_count": 6,
-  "retail_spec_price_comparison_started_unique_count": 12,
-  "retail_product_pages_saved_count": 13,
+  "named_item_web_search_unique_count": 14,
+  "retail_spec_price_comparison_started_unique_count": 18,
+  "retail_product_pages_saved_count": 18,
   "new_submitted_count": 2,
   "fully_equivalent_ready_count": 0,
   "disclosed_difference_parent_review_bundles": [
     "work/concrete-focus/review-24072887-p200.json",
     "work/concrete-focus/review-23220245-mh6s.json",
-    "work/concrete-focus/review-22364346-kd317.json",
-    "work/concrete-focus/review-20704042-ssv002.json"
+    "work/concrete-focus/review-22364346-kd317-conservative.json",
+    "work/concrete-focus/review-20704042-ssv002.json",
+    "work/concrete-focus/review-23303026-creta.json"
   ],
   "excluded_user_registered_models": [
     "DY-B400A",
@@ -53,6 +54,7 @@
       "md5_batch": 626,
       "owner_slot": 2,
       "local_average_price_krw": 18204.001495929904,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -76,6 +78,7 @@
       "md5_batch": 727,
       "owner_slot": 3,
       "local_average_price_krw": 24756.362722269263,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -99,6 +102,7 @@
       "md5_batch": 28,
       "owner_slot": 0,
       "local_average_price_krw": 17198.52455533883,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -122,6 +126,7 @@
       "md5_batch": 167,
       "owner_slot": 3,
       "local_average_price_krw": 16949.877627312606,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -145,6 +150,7 @@
       "md5_batch": 250,
       "owner_slot": 2,
       "local_average_price_krw": 21181.233151227425,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -168,6 +174,7 @@
       "md5_batch": 52,
       "owner_slot": 0,
       "local_average_price_krw": 14710.86886165457,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -191,6 +198,7 @@
       "md5_batch": 442,
       "owner_slot": 2,
       "local_average_price_krw": 16382.507059871501,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -214,6 +222,7 @@
       "md5_batch": 1580,
       "owner_slot": 0,
       "local_average_price_krw": 13520.75463498006,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -237,6 +246,7 @@
       "md5_batch": 1661,
       "owner_slot": 1,
       "local_average_price_krw": 25400.143044865777,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -260,6 +270,7 @@
       "md5_batch": 1483,
       "owner_slot": 3,
       "local_average_price_krw": 25474.49342640282,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -283,6 +294,7 @@
       "md5_batch": 1529,
       "owner_slot": 1,
       "local_average_price_krw": 12221.383893018317,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -306,6 +318,7 @@
       "md5_batch": 1606,
       "owner_slot": 2,
       "local_average_price_krw": 20839.144855144856,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -329,6 +342,7 @@
       "md5_batch": 63,
       "owner_slot": 3,
       "local_average_price_krw": 14924.148404619244,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -352,6 +366,7 @@
       "md5_batch": 1438,
       "owner_slot": 2,
       "local_average_price_krw": 28910.0,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -375,6 +390,7 @@
       "md5_batch": 24,
       "owner_slot": 0,
       "local_average_price_krw": 23098.730645423508,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -398,8 +414,9 @@
       "md5_batch": 302,
       "owner_slot": 2,
       "local_average_price_krw": 27000.412812476112,
+      "availability_at_lookup": "available",
       "availability": "available",
-      "finding": "kd-317은제조사사양상198×198×60불투수O형·123kg/㎡·25장/㎡. 소매불투수200×200×60T9900원/㎡+모든팔레트15000원·수량/차량끝수·지역한정예상운임·VAT로21facts/Q26021㎡/C702577800/B14842/산술차액316374118원. native수량21.6/216총액미관측을분리."
+      "finding": "KD317보수적재산정16facts/Q24335㎡/C657055800/B20880/산술차액148941000원. 21.6㎡팔레트올림·모든팔레트15000·8팔레트172.8㎡/차량·500km이내25t운임120만원예산·VAT. 이전316m안은지역30만원/10팔레트명목가정으로현재기본안에서대체. 크기198→200mm·불투수/60T·재생골재/색상차이공개. 부모검토전미접수."
     },
     {
       "item_id": "24221563",
@@ -421,6 +438,7 @@
       "md5_batch": 1040,
       "owner_slot": 0,
       "local_average_price_krw": 21206.1656395611,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -444,6 +462,7 @@
       "md5_batch": 1480,
       "owner_slot": 0,
       "local_average_price_krw": 22374.487446692532,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -467,6 +486,7 @@
       "md5_batch": 664,
       "owner_slot": 0,
       "local_average_price_krw": 19318.34216101695,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -490,6 +510,7 @@
       "md5_batch": 912,
       "owner_slot": 0,
       "local_average_price_krw": 17364.924502012593,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -513,6 +534,7 @@
       "md5_batch": 617,
       "owner_slot": 1,
       "local_average_price_krw": 14002.971431004386,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -536,6 +558,7 @@
       "md5_batch": 1647,
       "owner_slot": 3,
       "local_average_price_krw": 17067.135085892765,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -559,6 +582,7 @@
       "md5_batch": 1680,
       "owner_slot": 0,
       "local_average_price_krw": 17499.765484709602,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -582,6 +606,7 @@
       "md5_batch": 445,
       "owner_slot": 1,
       "local_average_price_krw": 23794.93964375092,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -605,6 +630,7 @@
       "md5_batch": 121,
       "owner_slot": 1,
       "local_average_price_krw": 13891.69358474209,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -628,6 +654,7 @@
       "md5_batch": 251,
       "owner_slot": 3,
       "local_average_price_krw": 17091.40692929347,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -651,6 +678,7 @@
       "md5_batch": 157,
       "owner_slot": 1,
       "local_average_price_krw": 24431.608894446832,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -674,6 +702,7 @@
       "md5_batch": 225,
       "owner_slot": 1,
       "local_average_price_krw": 20294.68802420814,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -697,6 +726,7 @@
       "md5_batch": 1367,
       "owner_slot": 3,
       "local_average_price_krw": 11432.417167000222,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -720,6 +750,7 @@
       "md5_batch": 1038,
       "owner_slot": 2,
       "local_average_price_krw": 20189.7992329057,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -743,6 +774,7 @@
       "md5_batch": 1306,
       "owner_slot": 2,
       "local_average_price_krw": 22330.383430974915,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -766,6 +798,7 @@
       "md5_batch": 1885,
       "owner_slot": 1,
       "local_average_price_krw": 27857.974830030376,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -789,6 +822,7 @@
       "md5_batch": 586,
       "owner_slot": 2,
       "local_average_price_krw": 16671.24228712464,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -812,6 +846,7 @@
       "md5_batch": 319,
       "owner_slot": 3,
       "local_average_price_krw": 23900.39065726084,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -835,6 +870,7 @@
       "md5_batch": 884,
       "owner_slot": 0,
       "local_average_price_krw": 15005.489510489511,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -858,6 +894,7 @@
       "md5_batch": 553,
       "owner_slot": 1,
       "local_average_price_krw": 42501.00974103112,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -881,6 +918,7 @@
       "md5_batch": 1519,
       "owner_slot": 3,
       "local_average_price_krw": 13413.80654402895,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -904,6 +942,7 @@
       "md5_batch": 1394,
       "owner_slot": 2,
       "local_average_price_krw": 38499.722162084145,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -927,6 +966,7 @@
       "md5_batch": 959,
       "owner_slot": 3,
       "local_average_price_krw": 18999.68762286,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -950,6 +990,7 @@
       "md5_batch": 561,
       "owner_slot": 1,
       "local_average_price_krw": 21132.93818123956,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -973,6 +1014,7 @@
       "md5_batch": 1544,
       "owner_slot": 0,
       "local_average_price_krw": 19168.564457632707,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -996,6 +1038,7 @@
       "md5_batch": 981,
       "owner_slot": 1,
       "local_average_price_krw": 22574.739147575452,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1019,6 +1062,7 @@
       "md5_batch": 1790,
       "owner_slot": 2,
       "local_average_price_krw": 12469.773993500856,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -1042,6 +1086,7 @@
       "md5_batch": 1498,
       "owner_slot": 2,
       "local_average_price_krw": 22750.536897418322,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1065,6 +1110,7 @@
       "md5_batch": 179,
       "owner_slot": 3,
       "local_average_price_krw": 17632.14285714286,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1088,6 +1134,7 @@
       "md5_batch": 222,
       "owner_slot": 2,
       "local_average_price_krw": 25499.420095100268,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1111,6 +1158,7 @@
       "md5_batch": 1229,
       "owner_slot": 1,
       "local_average_price_krw": 24200.488575930667,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1134,6 +1182,7 @@
       "md5_batch": 115,
       "owner_slot": 3,
       "local_average_price_krw": 13927.659629028121,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -1157,6 +1206,7 @@
       "md5_batch": 885,
       "owner_slot": 1,
       "local_average_price_krw": 23403.30866452016,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1180,6 +1230,7 @@
       "md5_batch": 1907,
       "owner_slot": 3,
       "local_average_price_krw": 27000.89965013606,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1203,6 +1254,7 @@
       "md5_batch": 585,
       "owner_slot": 1,
       "local_average_price_krw": 24999.94843500232,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1226,6 +1278,7 @@
       "md5_batch": 1265,
       "owner_slot": 1,
       "local_average_price_krw": 21999.799379901513,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1249,6 +1302,7 @@
       "md5_batch": 1155,
       "owner_slot": 3,
       "local_average_price_krw": 26607.655930611567,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1272,6 +1326,7 @@
       "md5_batch": 1877,
       "owner_slot": 1,
       "local_average_price_krw": 28055.694873738845,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1295,6 +1350,7 @@
       "md5_batch": 1252,
       "owner_slot": 0,
       "local_average_price_krw": 20999.589552238805,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1318,6 +1374,7 @@
       "md5_batch": 114,
       "owner_slot": 2,
       "local_average_price_krw": 23773.340950639853,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1341,6 +1398,7 @@
       "md5_batch": 472,
       "owner_slot": 0,
       "local_average_price_krw": 23494.786399302528,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1364,6 +1422,7 @@
       "md5_batch": 1033,
       "owner_slot": 1,
       "local_average_price_krw": 27220.0,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1387,6 +1446,7 @@
       "md5_batch": 1321,
       "owner_slot": 1,
       "local_average_price_krw": 15500.0,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "HANS547투수200×200×60,15500원/㎡. 소매9900원/㎡에팔레트·운임·VAT추가시1.2배기준미달가능하여후순위."
     },
@@ -1410,6 +1470,7 @@
       "md5_batch": 1008,
       "owner_slot": 0,
       "local_average_price_krw": 13882.238188734815,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1433,6 +1494,7 @@
       "md5_batch": 1806,
       "owner_slot": 2,
       "local_average_price_krw": 23623.070820021298,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1456,6 +1518,7 @@
       "md5_batch": 287,
       "owner_slot": 3,
       "local_average_price_krw": 14623.877886129821,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1479,6 +1542,7 @@
       "md5_batch": 204,
       "owner_slot": 0,
       "local_average_price_krw": 24780.60112711334,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1502,6 +1566,7 @@
       "md5_batch": 1367,
       "owner_slot": 3,
       "local_average_price_krw": 23937.114341846758,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1525,6 +1590,7 @@
       "md5_batch": 839,
       "owner_slot": 3,
       "local_average_price_krw": 22151.34156507242,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1548,6 +1614,7 @@
       "md5_batch": 1583,
       "owner_slot": 3,
       "local_average_price_krw": 18700.08249878678,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1571,6 +1638,7 @@
       "md5_batch": 852,
       "owner_slot": 0,
       "local_average_price_krw": 23017.247646157215,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -1594,6 +1662,7 @@
       "md5_batch": 317,
       "owner_slot": 1,
       "local_average_price_krw": 13014.86565962979,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -1617,6 +1686,7 @@
       "md5_batch": 462,
       "owner_slot": 2,
       "local_average_price_krw": 22235.039745627982,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1640,6 +1710,7 @@
       "md5_batch": 952,
       "owner_slot": 0,
       "local_average_price_krw": 25730.92252740485,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1663,6 +1734,7 @@
       "md5_batch": 1450,
       "owner_slot": 2,
       "local_average_price_krw": 22300.74251497006,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1686,6 +1758,7 @@
       "md5_batch": 1914,
       "owner_slot": 2,
       "local_average_price_krw": 30636.447644764477,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1709,6 +1782,7 @@
       "md5_batch": 195,
       "owner_slot": 3,
       "local_average_price_krw": 27000.0,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1732,6 +1806,7 @@
       "md5_batch": 1211,
       "owner_slot": 3,
       "local_average_price_krw": 23000.0,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1755,6 +1830,7 @@
       "md5_batch": 1108,
       "owner_slot": 0,
       "local_average_price_krw": 17373.808910636108,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1778,6 +1854,7 @@
       "md5_batch": 10,
       "owner_slot": 2,
       "local_average_price_krw": 20548.97951887226,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1801,6 +1878,7 @@
       "md5_batch": 1697,
       "owner_slot": 1,
       "local_average_price_krw": 25500.0,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1824,6 +1902,7 @@
       "md5_batch": 838,
       "owner_slot": 2,
       "local_average_price_krw": 21694.99313903068,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1847,6 +1926,7 @@
       "md5_batch": 1916,
       "owner_slot": 0,
       "local_average_price_krw": 20877.518420911096,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1870,6 +1950,7 @@
       "md5_batch": 972,
       "owner_slot": 0,
       "local_average_price_krw": 100579.56629491945,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1893,6 +1974,7 @@
       "md5_batch": 212,
       "owner_slot": 0,
       "local_average_price_krw": 101269.14266039252,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -1916,6 +1998,7 @@
       "md5_batch": 1878,
       "owner_slot": 2,
       "local_average_price_krw": 83184.95497259201,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -1939,6 +2022,7 @@
       "md5_batch": 546,
       "owner_slot": 2,
       "local_average_price_krw": 98100.0,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "DR-01 1000×700×500·2개/㎡와 소매곡선형1000×500×700 치수축대응은확인. 원품28MPa/소매25N/㎟내외 차이를공개해야함. 63facts확보·인도조건/팔레트비포함재산정중."
     },
@@ -1962,6 +2046,7 @@
       "md5_batch": 311,
       "owner_slot": 3,
       "local_average_price_krw": 98090.63957725947,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -1985,6 +2070,7 @@
       "md5_batch": 736,
       "owner_slot": 0,
       "local_average_price_krw": 100019.9962183285,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "OTCM-500A 1000×750×500·370kg/개·28MPa. 소매1000×700깊이/290kg/25N/㎟내외와차이."
     },
@@ -2008,6 +2094,7 @@
       "md5_batch": 570,
       "owner_slot": 2,
       "local_average_price_krw": 94688.90925756187,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -2031,6 +2118,7 @@
       "md5_batch": 1019,
       "owner_slot": 3,
       "local_average_price_krw": 97260.76684217632,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2054,6 +2142,7 @@
       "md5_batch": 437,
       "owner_slot": 1,
       "local_average_price_krw": 99593.14583333333,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "JI-5512 1000×700×500·430kg/개·28MPa. 소매290kg/개·25N/㎟내외와차이. 평균가만으로동등판정안함."
     },
@@ -2077,6 +2166,7 @@
       "md5_batch": 848,
       "owner_slot": 0,
       "local_average_price_krw": 72313.8451986755,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -2100,6 +2190,7 @@
       "md5_batch": 293,
       "owner_slot": 1,
       "local_average_price_krw": 93022.19847123508,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2123,6 +2214,7 @@
       "md5_batch": 815,
       "owner_slot": 3,
       "local_average_price_krw": 98859.1385160053,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "HB-173 1000×700×500·28MPa. 소매25N/㎟내외와차이. 구조승인확정주장금지."
     },
@@ -2146,6 +2238,7 @@
       "md5_batch": 898,
       "owner_slot": 2,
       "local_average_price_krw": 111789.36652391149,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -2169,6 +2262,7 @@
       "md5_batch": 1662,
       "owner_slot": 2,
       "local_average_price_krw": 101091.8058032096,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -2192,6 +2286,7 @@
       "md5_batch": 1403,
       "owner_slot": 3,
       "local_average_price_krw": 98274.22025316456,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2215,6 +2310,7 @@
       "md5_batch": 1521,
       "owner_slot": 1,
       "local_average_price_krw": 82447.45283018867,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2238,6 +2334,7 @@
       "md5_batch": 413,
       "owner_slot": 1,
       "local_average_price_krw": 95507.0206563385,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2261,6 +2358,7 @@
       "md5_batch": 535,
       "owner_slot": 3,
       "local_average_price_krw": 78390.0,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2284,6 +2382,7 @@
       "md5_batch": 1458,
       "owner_slot": 2,
       "local_average_price_krw": 89523.33389093343,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2307,6 +2406,7 @@
       "md5_batch": 1478,
       "owner_slot": 2,
       "local_average_price_krw": 102306.90138142748,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -2330,6 +2430,7 @@
       "md5_batch": 494,
       "owner_slot": 2,
       "local_average_price_krw": 101771.61610268378,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2353,6 +2454,7 @@
       "md5_batch": 432,
       "owner_slot": 0,
       "local_average_price_krw": 102560.91108016709,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2376,6 +2478,7 @@
       "md5_batch": 1232,
       "owner_slot": 0,
       "local_average_price_krw": 88756.65612925887,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2399,6 +2502,7 @@
       "md5_batch": 678,
       "owner_slot": 2,
       "local_average_price_krw": 124824.61103253183,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -2422,6 +2526,7 @@
       "md5_batch": 1842,
       "owner_slot": 2,
       "local_average_price_krw": 101114.20790906939,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2445,6 +2550,7 @@
       "md5_batch": 1649,
       "owner_slot": 1,
       "local_average_price_krw": 101236.90913543962,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2468,6 +2574,7 @@
       "md5_batch": 838,
       "owner_slot": 2,
       "local_average_price_krw": 211475.64905079527,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2491,6 +2598,7 @@
       "md5_batch": 45,
       "owner_slot": 1,
       "local_average_price_krw": 97246.67612293144,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2514,6 +2622,7 @@
       "md5_batch": 717,
       "owner_slot": 1,
       "local_average_price_krw": 96775.05755395684,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -2537,6 +2646,7 @@
       "md5_batch": 829,
       "owner_slot": 1,
       "local_average_price_krw": 87886.25964755744,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2560,6 +2670,7 @@
       "md5_batch": 1893,
       "owner_slot": 1,
       "local_average_price_krw": 101562.85414480588,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2583,6 +2694,7 @@
       "md5_batch": 84,
       "owner_slot": 0,
       "local_average_price_krw": 92600.0,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2606,6 +2718,7 @@
       "md5_batch": 1166,
       "owner_slot": 2,
       "local_average_price_krw": 99617.16572783871,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2629,6 +2742,7 @@
       "md5_batch": 1851,
       "owner_slot": 3,
       "local_average_price_krw": 109026.26024254343,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2652,6 +2766,7 @@
       "md5_batch": 401,
       "owner_slot": 1,
       "local_average_price_krw": 79800.0,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2675,6 +2790,7 @@
       "md5_batch": 684,
       "owner_slot": 0,
       "local_average_price_krw": 85675.68301687764,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2698,6 +2814,7 @@
       "md5_batch": 1936,
       "owner_slot": 0,
       "local_average_price_krw": 95070.09345794392,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2721,6 +2838,7 @@
       "md5_batch": 1911,
       "owner_slot": 3,
       "local_average_price_krw": 83388.82935976426,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -2744,6 +2862,7 @@
       "md5_batch": 129,
       "owner_slot": 1,
       "local_average_price_krw": 90700.0,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2767,6 +2886,7 @@
       "md5_batch": 1853,
       "owner_slot": 1,
       "local_average_price_krw": 79096.21439668565,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2790,6 +2910,7 @@
       "md5_batch": 1755,
       "owner_slot": 3,
       "local_average_price_krw": 101100.0,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2813,6 +2934,7 @@
       "md5_batch": 1938,
       "owner_slot": 2,
       "local_average_price_krw": 101655.48128342246,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2836,6 +2958,7 @@
       "md5_batch": 574,
       "owner_slot": 2,
       "local_average_price_krw": 119455.4204862495,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -2859,6 +2982,7 @@
       "md5_batch": 211,
       "owner_slot": 3,
       "local_average_price_krw": 99000.0,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2882,6 +3006,7 @@
       "md5_batch": 1284,
       "owner_slot": 0,
       "local_average_price_krw": 97050.0,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2905,6 +3030,7 @@
       "md5_batch": 367,
       "owner_slot": 3,
       "local_average_price_krw": 71865.58505408063,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2928,6 +3054,7 @@
       "md5_batch": 612,
       "owner_slot": 0,
       "local_average_price_krw": 142531.0684931507,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -2951,6 +3078,7 @@
       "md5_batch": 1603,
       "owner_slot": 3,
       "local_average_price_krw": 198039.09952606636,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -2974,6 +3102,7 @@
       "md5_batch": 909,
       "owner_slot": 1,
       "local_average_price_krw": 101161.47540983607,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -2997,6 +3126,7 @@
       "md5_batch": 958,
       "owner_slot": 2,
       "local_average_price_krw": 95980.59822150363,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -3020,6 +3150,7 @@
       "md5_batch": 379,
       "owner_slot": 3,
       "local_average_price_krw": 95951.08053419668,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -3043,6 +3174,7 @@
       "md5_batch": 919,
       "owner_slot": 3,
       "local_average_price_krw": 124900.0,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -3066,6 +3198,7 @@
       "md5_batch": 1325,
       "owner_slot": 1,
       "local_average_price_krw": 98176.68019846639,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -3089,8 +3222,801 @@
       "md5_batch": 1150,
       "owner_slot": 2,
       "local_average_price_krw": 91838.26690550828,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
+    },
+    {
+      "item_id": "22540518",
+      "product_name": "보차도용콘크리트블록, 성덕콘크리트, SD-063, t60mm, 인조화강블록, 보도용, 불투수",
+      "model": "SD-063",
+      "manufacturer": "성덕콘크리트(주)",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 22700.0,
+      "max_list_price": 22700.0,
+      "listing_count": 1,
+      "local_amount_krw": 857129300.0,
+      "local_quantity": 37759.0,
+      "local_delivery_count": 43.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 22700.0,
+      "spend_priority_rank": 2562,
+      "md5_rank": 555919,
+      "md5_batch": 1111,
+      "owner_slot": 3,
+      "local_average_price_krw": 22700.0,
+      "availability_at_lookup": "claimed",
+      "availability": "claimed",
+      "finding": "신규등록대상제외"
+    },
+    {
+      "item_id": "23367285",
+      "product_name": "보차도용콘크리트블록, 데코페이브, de-AC-60, t60mm, 공기정화블록, 불투수",
+      "model": "de-AC-60",
+      "manufacturer": "주식회사 데코페이브",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 26400.0,
+      "max_list_price": 26400.0,
+      "listing_count": 1,
+      "local_amount_krw": 750344232.0,
+      "local_quantity": 28422.0,
+      "local_delivery_count": 5.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 26400.120751530503,
+      "spend_priority_rank": 3065,
+      "md5_rank": 61492,
+      "md5_batch": 122,
+      "owner_slot": 2,
+      "local_average_price_krw": 26400.120751530503,
+      "availability_at_lookup": "available",
+      "availability": "available",
+      "finding": "공식상태만확인;소매대조미착수"
+    },
+    {
+      "item_id": "24076224",
+      "product_name": "보차도용콘크리트블록, 이노블록, GRA-6UI, t60mm, 그라나이트스톤, 불투수",
+      "model": "GRA-6UI",
+      "manufacturer": "주식회사 이노블록",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 37500.0,
+      "max_list_price": 37500.0,
+      "listing_count": 1,
+      "local_amount_krw": 698166000.0,
+      "local_quantity": 18618.0,
+      "local_delivery_count": 31.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 37499.516596841764,
+      "spend_priority_rank": 3391,
+      "md5_rank": 595649,
+      "md5_batch": 1191,
+      "owner_slot": 3,
+      "local_average_price_krw": 37499.516596841764,
+      "availability_at_lookup": "claimed",
+      "availability": "claimed",
+      "finding": "신규등록대상제외"
+    },
+    {
+      "item_id": "22813320",
+      "product_name": "보차도용콘크리트블록, 에코제이피, JP-NSB1226, 200×200×60mm, 불투수, 내츄럴블록",
+      "model": "JP-NSB1226",
+      "manufacturer": "(주)에코제이피",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 24000.0,
+      "max_list_price": 24000.0,
+      "listing_count": 1,
+      "local_amount_krw": 542990400.0,
+      "local_quantity": 22625.0,
+      "local_delivery_count": 23.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 23999.575690607733,
+      "spend_priority_rank": 4746,
+      "md5_rank": 321629,
+      "md5_batch": 643,
+      "owner_slot": 3,
+      "local_average_price_krw": 23999.575690607733,
+      "availability_at_lookup": "claimed",
+      "availability": "claimed",
+      "finding": "신규등록대상제외"
+    },
+    {
+      "item_id": "23173098",
+      "product_name": "보차도용콘크리트블록, 코단에코크리트, ko-118, t60mm, 인조화강이리스블록, 컬러, 불투수",
+      "model": "ko-118",
+      "manufacturer": "주식회사 코단에코크리트",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 25800.0,
+      "max_list_price": 25800.0,
+      "listing_count": 1,
+      "local_amount_krw": 529699800.0,
+      "local_quantity": 20530.0,
+      "local_delivery_count": 23.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 25801.25669751583,
+      "spend_priority_rank": 4897,
+      "md5_rank": 244213,
+      "md5_batch": 488,
+      "owner_slot": 0,
+      "local_average_price_krw": 25801.25669751583,
+      "availability_at_lookup": "claimed",
+      "availability": "claimed",
+      "finding": "신규등록대상제외"
+    },
+    {
+      "item_id": "22783303",
+      "product_name": "보차도용콘크리트블록, 이노블록, DS-6UI-MS, 1200×900×60mm, 데카스톤, 불투수",
+      "model": "DS-6UI-MS",
+      "manufacturer": "(주)이노블록",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 40500.0,
+      "max_list_price": 40500.0,
+      "listing_count": 1,
+      "local_amount_krw": 451242900.0,
+      "local_quantity": 11649.0,
+      "local_delivery_count": 17.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 38736.621169199076,
+      "spend_priority_rank": 5987,
+      "md5_rank": 848066,
+      "md5_batch": 1696,
+      "owner_slot": 0,
+      "local_average_price_krw": 38736.621169199076,
+      "availability_at_lookup": "claimed",
+      "availability": "claimed",
+      "finding": "신규등록대상제외"
+    },
+    {
+      "item_id": "23464448",
+      "product_name": "보차도용콘크리트블록, 해성기업, HS-HM1, t60mm, 현무암블록, 불투수",
+      "model": "HS-HM1",
+      "manufacturer": "(주)해성기업",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 33000.0,
+      "max_list_price": 33000.0,
+      "listing_count": 1,
+      "local_amount_krw": 409200000.0,
+      "local_quantity": 12400.0,
+      "local_delivery_count": 2.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 33000.0,
+      "spend_priority_rank": 6764,
+      "md5_rank": 907664,
+      "md5_batch": 1815,
+      "owner_slot": 3,
+      "local_average_price_krw": 33000.0,
+      "availability_at_lookup": "claimed",
+      "availability": "claimed",
+      "finding": "신규등록대상제외"
+    },
+    {
+      "item_id": "21983277",
+      "product_name": "보차도용콘크리트블록, 성덕콘크리트, SD-051, 200×200×60mm, 크리톤200, 불투수블록, 보도용, 컬러(백색/황토색외다수)",
+      "model": "SD-051",
+      "manufacturer": "성덕콘크리트(주)",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 29700.0,
+      "max_list_price": 29700.0,
+      "listing_count": 1,
+      "local_amount_krw": 380567781.0,
+      "local_quantity": 12814.0,
+      "local_delivery_count": 13.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 29699.374200093647,
+      "spend_priority_rank": 7426,
+      "md5_rank": 119428,
+      "md5_batch": 238,
+      "owner_slot": 2,
+      "local_average_price_krw": 29699.374200093647,
+      "availability_at_lookup": "claimed",
+      "availability": "claimed",
+      "finding": "신규등록대상제외"
+    },
+    {
+      "item_id": "24685024",
+      "product_name": "보차도용콘크리트블록, 블록킹, BK-CSTPS-6T, t60mm, 크리스탈차열블록, 불투수",
+      "model": "BK-CSTPS-6T",
+      "manufacturer": "블록킹 주식회사",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 26000.0,
+      "max_list_price": 26000.0,
+      "listing_count": 1,
+      "local_amount_krw": 354404960.0,
+      "local_quantity": 13631.0,
+      "local_delivery_count": 13.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 25999.923703323308,
+      "spend_priority_rank": 8121,
+      "md5_rank": 33272,
+      "md5_batch": 66,
+      "owner_slot": 2,
+      "local_average_price_krw": 25999.923703323308,
+      "availability_at_lookup": "claimed",
+      "availability": "claimed",
+      "finding": "신규등록대상제외"
+    },
+    {
+      "item_id": "24416286",
+      "product_name": "보차도용콘크리트블록, 블록킹, BK-EPST-6T, 200×200×60mm, 익스펜시브스트리트블록, 불투수",
+      "model": "BK-EPST-6T",
+      "manufacturer": "블록킹 주식회사",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 22000.0,
+      "max_list_price": 22000.0,
+      "listing_count": 1,
+      "local_amount_krw": 321398000.0,
+      "local_quantity": 14609.0,
+      "local_delivery_count": 18.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 22000.0,
+      "spend_priority_rank": 9129,
+      "md5_rank": 964128,
+      "md5_batch": 1928,
+      "owner_slot": 0,
+      "local_average_price_krw": 22000.0,
+      "availability_at_lookup": "claimed",
+      "availability": "claimed",
+      "finding": "신규등록대상제외"
+    },
+    {
+      "item_id": "22423171",
+      "product_name": "보차도용콘크리트블록, 엔씨원, NS-1601, 200×200×60mm, 내츄럴스톤블록, 보도용, 불투수",
+      "model": "NS-1601",
+      "manufacturer": "주식회사 엔씨원",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 23500.0,
+      "max_list_price": 23500.0,
+      "listing_count": 1,
+      "local_amount_krw": 297888350.0,
+      "local_quantity": 13477.0,
+      "local_delivery_count": 7.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 22103.46145284559,
+      "spend_priority_rank": 9989,
+      "md5_rank": 590060,
+      "md5_batch": 1180,
+      "owner_slot": 0,
+      "local_average_price_krw": 22103.46145284559,
+      "availability_at_lookup": "claimed",
+      "availability": "claimed",
+      "finding": "신규등록대상제외"
+    },
+    {
+      "item_id": "22734608",
+      "product_name": "보차도용콘크리트블록, 한본산업, CS-17, 200×200×60mm, 클린스톤블록, 불투수",
+      "model": "CS-17",
+      "manufacturer": "한본산업",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 24750.0,
+      "max_list_price": 24750.0,
+      "listing_count": 1,
+      "local_amount_krw": 284476500.0,
+      "local_quantity": 12487.0,
+      "local_delivery_count": 3.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 22781.813085609032,
+      "spend_priority_rank": 10566,
+      "md5_rank": 22724,
+      "md5_batch": 45,
+      "owner_slot": 1,
+      "local_average_price_krw": 22781.813085609032,
+      "availability_at_lookup": "claimed",
+      "availability": "claimed",
+      "finding": "신규등록대상제외"
+    },
+    {
+      "item_id": "22574302",
+      "product_name": "보차도용콘크리트블록, 조일콘크리트, BW6T, t60mm, 브라스톤워씽블록, 보도용",
+      "model": "BW6T",
+      "manufacturer": "(주)조일콘크리트",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 26300.0,
+      "max_list_price": 26300.0,
+      "listing_count": 1,
+      "local_amount_krw": 268296100.0,
+      "local_quantity": 10847.0,
+      "local_delivery_count": 18.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 24734.590209274455,
+      "spend_priority_rank": 11312,
+      "md5_rank": 463780,
+      "md5_batch": 927,
+      "owner_slot": 3,
+      "local_average_price_krw": 24734.590209274455,
+      "availability_at_lookup": "available",
+      "availability": "available",
+      "finding": "공식상태만확인;소매대조미착수"
+    },
+    {
+      "item_id": "22734135",
+      "product_name": "보차도용콘크리트블록, 88콘크리트, 88-6M, t60mm, 베이직마노블록, 불투수",
+      "model": "88-6M",
+      "manufacturer": "주식회사 88콘크리트",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 25000.0,
+      "max_list_price": 25000.0,
+      "listing_count": 1,
+      "local_amount_krw": 265225000.0,
+      "local_quantity": 10609.0,
+      "local_delivery_count": 12.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 25000.0,
+      "spend_priority_rank": 11432,
+      "md5_rank": 421116,
+      "md5_batch": 842,
+      "owner_slot": 2,
+      "local_average_price_krw": 25000.0,
+      "availability_at_lookup": "claimed",
+      "availability": "claimed",
+      "finding": "신규등록대상제외"
+    },
+    {
+      "item_id": "22710364",
+      "product_name": "보차도용콘크리트블록, 세원콘크리트, SWGS6, 200×200×60mm, 화강블록",
+      "model": "SWGS6",
+      "manufacturer": "(주)세원콘크리트",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 24500.0,
+      "max_list_price": 24500.0,
+      "listing_count": 1,
+      "local_amount_krw": 237285076.0,
+      "local_quantity": 10278.0,
+      "local_delivery_count": 11.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 23086.69741194785,
+      "spend_priority_rank": 12944,
+      "md5_rank": 15513,
+      "md5_batch": 31,
+      "owner_slot": 3,
+      "local_average_price_krw": 23086.69741194785,
+      "availability_at_lookup": "available",
+      "availability": "available",
+      "finding": "공식상태만확인;소매대조미착수"
+    },
+    {
+      "item_id": "24695462",
+      "product_name": "보차도용콘크리트블록, 일진하이콘, IJ602, t60mm, 하이스톤기가블록, 불투수, 컬러",
+      "model": "IJ602",
+      "manufacturer": "주식회사 일진하이콘",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 24750.0,
+      "max_list_price": 24750.0,
+      "listing_count": 1,
+      "local_amount_krw": 225239850.0,
+      "local_quantity": 9159.0,
+      "local_delivery_count": 11.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 24592.18801179168,
+      "spend_priority_rank": 13692,
+      "md5_rank": 862092,
+      "md5_batch": 1724,
+      "owner_slot": 0,
+      "local_average_price_krw": 24592.18801179168,
+      "availability_at_lookup": "claimed",
+      "availability": "claimed",
+      "finding": "신규등록대상제외"
+    },
+    {
+      "item_id": "21548835",
+      "product_name": "보차도용콘크리트블록, 삼진콘크리트, 샌딩200-6T불투수, t60mm, 불투수, 인조화강샌딩블록",
+      "model": "샌딩200-6T불투수",
+      "manufacturer": "(주)삼진콘크리트",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 22800.0,
+      "max_list_price": 22800.0,
+      "listing_count": 1,
+      "local_amount_krw": 221125572.0,
+      "local_quantity": 9698.0,
+      "local_delivery_count": 14.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 22801.15199010105,
+      "spend_priority_rank": 13948,
+      "md5_rank": 246580,
+      "md5_batch": 493,
+      "owner_slot": 1,
+      "local_average_price_krw": 22801.15199010105,
+      "availability_at_lookup": "claimed",
+      "availability": "claimed",
+      "finding": "신규등록대상제외"
+    },
+    {
+      "item_id": "22692739",
+      "product_name": "보차도용콘크리트블록, 그랜드코단, kd-326, 198×198×60mm, 그랜드스톤블록, 불투수",
+      "model": "kd-326",
+      "manufacturer": "(주)그랜드코단",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 22100.0,
+      "max_list_price": 22100.0,
+      "listing_count": 1,
+      "local_amount_krw": 209282580.0,
+      "local_quantity": 9470.0,
+      "local_delivery_count": 13.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 22099.533262935587,
+      "spend_priority_rank": 14764,
+      "md5_rank": 500619,
+      "md5_batch": 1001,
+      "owner_slot": 1,
+      "local_average_price_krw": 22099.533262935587,
+      "availability_at_lookup": "available",
+      "availability": "available",
+      "finding": "공식상태만확인;소매대조미착수"
+    },
+    {
+      "item_id": "22842704",
+      "product_name": "보차도용콘크리트블록, 에코제이피, JP-STF16, t60mm, 불투수, 스톤페이버",
+      "model": "JP-STF16",
+      "manufacturer": "(주)에코제이피",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 22300.0,
+      "max_list_price": 22300.0,
+      "listing_count": 1,
+      "local_amount_krw": 205628300.0,
+      "local_quantity": 9221.0,
+      "local_delivery_count": 8.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 22300.0,
+      "spend_priority_rank": 15029,
+      "md5_rank": 786443,
+      "md5_batch": 1572,
+      "owner_slot": 0,
+      "local_average_price_krw": 22300.0,
+      "availability_at_lookup": "available",
+      "availability": "available",
+      "finding": "공식상태만확인;소매대조미착수"
+    },
+    {
+      "item_id": "22109245",
+      "product_name": "보차도용콘크리트블록, 이노블록, DS-8UI-MS, 1200×900×80mm, 불투수, 데카스톤",
+      "model": "DS-8UI-MS",
+      "manufacturer": "(주)이노블록",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 41400.0,
+      "max_list_price": 41400.0,
+      "listing_count": 1,
+      "local_amount_krw": 468109800.0,
+      "local_quantity": 11707.0,
+      "local_delivery_count": 16.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 39985.46168958743,
+      "spend_priority_rank": 5741,
+      "md5_rank": 839794,
+      "md5_batch": 1679,
+      "owner_slot": 3,
+      "local_average_price_krw": 39985.46168958743,
+      "availability_at_lookup": "claimed",
+      "availability": "claimed",
+      "finding": "신규등록대상제외"
+    },
+    {
+      "item_id": "24640527",
+      "product_name": "보차도용콘크리트블록, 주포산업, JP-BCF01-80T, 500×500×80mm, 자이언트디자인블록, 검정/백색, 불투수",
+      "model": "JP-BCF01-80T",
+      "manufacturer": "주포산업(주)",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "개",
+      "min_list_price": 120400.0,
+      "max_list_price": 120400.0,
+      "listing_count": 1,
+      "local_amount_krw": 426097700.0,
+      "local_quantity": 3843.0,
+      "local_delivery_count": 3.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 110876.32058287796,
+      "spend_priority_rank": 6437,
+      "md5_rank": 217516,
+      "md5_batch": 435,
+      "owner_slot": 3,
+      "local_average_price_krw": 110876.32058287796,
+      "availability_at_lookup": "available",
+      "availability": "available",
+      "finding": "500×500×80·공식unit개/Q3843/C426097700. 실제공식사진이쭈꾸미거리그림/문구각인이라가공장식기능없는회색일반블록과동일목적가격으로제출하지않음. 형상규격만맞춘3억원대차액계산제외."
+    },
+    {
+      "item_id": "22434322",
+      "product_name": "보차도용콘크리트블록, 이노블록, DS-8UW-MS, 1200×900×80mm, 투수, 데카스톤",
+      "model": "DS-8UW-MS",
+      "manufacturer": "(주)이노블록",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 43500.0,
+      "max_list_price": 43500.0,
+      "listing_count": 1,
+      "local_amount_krw": 388803000.0,
+      "local_quantity": 8938.0,
+      "local_delivery_count": 15.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 43500.0,
+      "spend_priority_rank": 7256,
+      "md5_rank": 705325,
+      "md5_batch": 1410,
+      "owner_slot": 2,
+      "local_average_price_krw": 43500.0,
+      "availability_at_lookup": "claimed",
+      "availability": "claimed",
+      "finding": "신규등록대상제외"
+    },
+    {
+      "item_id": "25016987",
+      "product_name": "보차도용콘크리트블록, 이노블록, WOOD-S-NB, 500×250×80mm, 우드페이버S, 불투수",
+      "model": "WOOD-S-NB",
+      "manufacturer": "주식회사 이노블록",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 64200.0,
+      "max_list_price": 64200.0,
+      "listing_count": 1,
+      "local_amount_krw": 345524400.0,
+      "local_quantity": 5382.0,
+      "local_delivery_count": 34.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 64200.0,
+      "spend_priority_rank": 8383,
+      "md5_rank": 846691,
+      "md5_batch": 1693,
+      "owner_slot": 1,
+      "local_average_price_krw": 64200.0,
+      "availability_at_lookup": "available",
+      "availability": "available",
+      "finding": "공식상태만확인;소매대조미착수"
+    },
+    {
+      "item_id": "25182058",
+      "product_name": "보차도용콘크리트블록, 대흥콘크리트, DH5008, 200×200×80mm, 크로매딕블록, 불투수",
+      "model": "DH5008",
+      "manufacturer": "대흥콘크리트(주)",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 35000.0,
+      "max_list_price": 35000.0,
+      "listing_count": 1,
+      "local_amount_krw": 327537000.0,
+      "local_quantity": 10398.0,
+      "local_delivery_count": 1.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 31500.0,
+      "spend_priority_rank": 8938,
+      "md5_rank": 506244,
+      "md5_batch": 1012,
+      "owner_slot": 0,
+      "local_average_price_krw": 31500.0,
+      "availability_at_lookup": "available",
+      "availability": "available",
+      "finding": "공식상태만확인;소매대조미착수"
+    },
+    {
+      "item_id": "24914742",
+      "product_name": "보차도용콘크리트블록, 브라이트랜드, BWPA-80, 300×100×80mm, 브라이트패턴블록, 투수",
+      "model": "BWPA-80",
+      "manufacturer": "주식회사 브라이트랜드",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 37500.0,
+      "max_list_price": 37500.0,
+      "listing_count": 1,
+      "local_amount_krw": 315262500.0,
+      "local_quantity": 8407.0,
+      "local_delivery_count": 8.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 37500.0,
+      "spend_priority_rank": 9354,
+      "md5_rank": 682056,
+      "md5_batch": 1364,
+      "owner_slot": 0,
+      "local_average_price_krw": 37500.0,
+      "availability_at_lookup": "available",
+      "availability": "available",
+      "finding": "공식상태만확인;소매대조미착수"
+    },
+    {
+      "item_id": "24903633",
+      "product_name": "보차도용콘크리트블록, 이노블록, MOL-D4-NB, 1200×900×80mm, 몰리나, 불투수",
+      "model": "MOL-D4-NB",
+      "manufacturer": "주식회사 이노블록",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 59600.0,
+      "max_list_price": 59600.0,
+      "listing_count": 1,
+      "local_amount_krw": 302410400.0,
+      "local_quantity": 5074.0,
+      "local_delivery_count": 17.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 59600.0,
+      "spend_priority_rank": 9820,
+      "md5_rank": 477601,
+      "md5_batch": 955,
+      "owner_slot": 3,
+      "local_average_price_krw": 59600.0,
+      "availability_at_lookup": "available",
+      "availability": "available",
+      "finding": "공식상태만확인;소매대조미착수"
+    },
+    {
+      "item_id": "24876430",
+      "product_name": "보차도용콘크리트블록, 이노블록, DR1-8UW, 1225×875×80mm, 퍼즐스톤DR, 투수",
+      "model": "DR1-8UW",
+      "manufacturer": "주식회사 이노블록",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 33500.0,
+      "max_list_price": 33500.0,
+      "listing_count": 1,
+      "local_amount_krw": 298242460.0,
+      "local_quantity": 9272.0,
+      "local_delivery_count": 9.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 32165.92536669543,
+      "spend_priority_rank": 9977,
+      "md5_rank": 474870,
+      "md5_batch": 949,
+      "owner_slot": 1,
+      "local_average_price_krw": 32165.92536669543,
+      "availability_at_lookup": "available",
+      "availability": "available",
+      "finding": "공식상태만확인;소매대조미착수"
+    },
+    {
+      "item_id": "24903634",
+      "product_name": "보차도용콘크리트블록, 이노블록, NEO-338-NW, 300×300×80mm, 네오블렌딩스톤, 불투수",
+      "model": "NEO-338-NW",
+      "manufacturer": "주식회사 이노블록",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 62000.0,
+      "max_list_price": 62000.0,
+      "listing_count": 1,
+      "local_amount_krw": 286167076.0,
+      "local_quantity": 4840.0,
+      "local_delivery_count": 10.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 59125.42892561983,
+      "spend_priority_rank": 10496,
+      "md5_rank": 406878,
+      "md5_batch": 813,
+      "owner_slot": 1,
+      "local_average_price_krw": 59125.42892561983,
+      "availability_at_lookup": "available",
+      "availability": "available",
+      "finding": "불투수300×300×80·휨5N/㎟이상·일반블렌딩표면원품사진확인. 소매동일300×300×80·휨5내외14300원/㎡에팔레트/10팔레트차량·500km운임120만원·VAT산술안약1.12억. 색상블렌딩/흡수율차이·인도조건확인후번들화중."
+    },
+    {
+      "item_id": "23427742",
+      "product_name": "보차도용콘크리트블록, 흥덕산업, HD-3030, 300×300×80mm, 리비오그린블록, 불투수",
+      "model": "HD-3030",
+      "manufacturer": "흥덕산업(주)",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 34800.0,
+      "max_list_price": 34800.0,
+      "listing_count": 1,
+      "local_amount_krw": 260184636.0,
+      "local_quantity": 7505.0,
+      "local_delivery_count": 9.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 34668.17268487675,
+      "spend_priority_rank": 11697,
+      "md5_rank": 360478,
+      "md5_batch": 720,
+      "owner_slot": 0,
+      "local_average_price_krw": 34668.17268487675,
+      "availability_at_lookup": "available",
+      "availability": "available",
+      "finding": "공식상태만확인;소매대조미착수"
+    },
+    {
+      "item_id": "24416275",
+      "product_name": "보차도용콘크리트블록, 블록킹, BK-PS-W-8T, 200×200×80mm, 프리미엄스퀘어블록, 투수",
+      "model": "BK-PS-W-8T",
+      "manufacturer": "블록킹 주식회사",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 33000.0,
+      "max_list_price": 33000.0,
+      "listing_count": 1,
+      "local_amount_krw": 248476140.0,
+      "local_quantity": 7802.0,
+      "local_delivery_count": 4.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 31847.749295052552,
+      "spend_priority_rank": 12297,
+      "md5_rank": 305741,
+      "md5_batch": 611,
+      "owner_slot": 3,
+      "local_average_price_krw": 31847.749295052552,
+      "availability_at_lookup": "available",
+      "availability": "available",
+      "finding": "공식상태만확인;소매대조미착수"
+    },
+    {
+      "item_id": "22913293",
+      "product_name": "보차도용콘크리트블록, 선일씨앤씨, SC803W, t80mm, 내츄럴페이버, 투수",
+      "model": "SC803W",
+      "manufacturer": "주식회사 선일씨앤씨",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 36300.0,
+      "max_list_price": 36300.0,
+      "listing_count": 1,
+      "local_amount_krw": 233964390.0,
+      "local_quantity": 6911.0,
+      "local_delivery_count": 5.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 33853.91260309651,
+      "spend_priority_rank": 13147,
+      "md5_rank": 285042,
+      "md5_batch": 570,
+      "owner_slot": 2,
+      "local_average_price_krw": 33853.91260309651,
+      "availability_at_lookup": "available",
+      "availability": "available",
+      "finding": "공식상태만확인;소매대조미착수"
+    },
+    {
+      "item_id": "21793547",
+      "product_name": "보차도용콘크리트블록, 이노블록, NA-8SW, t80mm, 투수, 내츄럴페이버",
+      "model": "NA-8SW",
+      "manufacturer": "(주)이노블록",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 33800.0,
+      "max_list_price": 33800.0,
+      "listing_count": 1,
+      "local_amount_krw": 215914400.0,
+      "local_quantity": 6388.0,
+      "local_delivery_count": 14.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 33800.0,
+      "spend_priority_rank": 14320,
+      "md5_rank": 390217,
+      "md5_batch": 780,
+      "owner_slot": 0,
+      "local_average_price_krw": 33800.0,
+      "availability_at_lookup": "available",
+      "availability": "available",
+      "finding": "공식상태만확인;소매대조미착수"
+    },
+    {
+      "item_id": "24076225",
+      "product_name": "보차도용콘크리트블록, 이노블록, GRA-8UI, t80mm, 그라나이트스톤, 불투수",
+      "model": "GRA-8UI",
+      "manufacturer": "주식회사 이노블록",
+      "detail_category": "보차도용콘크리트블록",
+      "unit": "㎡",
+      "min_list_price": 39900.0,
+      "max_list_price": 39900.0,
+      "listing_count": 1,
+      "local_amount_krw": 204272040.0,
+      "local_quantity": 5120.0,
+      "local_delivery_count": 9.0,
+      "local_delivery_group_count": 1,
+      "local_unit_price_krw": 39896.8828125,
+      "spend_priority_rank": 15136,
+      "md5_rank": 504059,
+      "md5_batch": 1008,
+      "owner_slot": 0,
+      "local_average_price_krw": 39896.8828125,
+      "availability_at_lookup": "available",
+      "availability": "available",
+      "finding": "공식상태만확인;소매대조미착수"
     },
     {
       "item_id": "24889205",
@@ -3112,6 +4038,7 @@
       "md5_batch": 1756,
       "owner_slot": 0,
       "local_average_price_krw": 36518.51018574337,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -3135,6 +4062,7 @@
       "md5_batch": 348,
       "owner_slot": 0,
       "local_average_price_krw": 51998.04632973448,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -3158,6 +4086,7 @@
       "md5_batch": 1242,
       "owner_slot": 2,
       "local_average_price_krw": 13625.919626075774,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -3181,6 +4110,7 @@
       "md5_batch": 370,
       "owner_slot": 2,
       "local_average_price_krw": 100015.16215385965,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -3204,9 +4134,10 @@
       "md5_batch": 1174,
       "owner_slot": 2,
       "local_average_price_krw": 138592.62622461558,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "MH-6S-F(L)435×225×150·27.2kg·28N/㎟. 일반옹벽자재취득의다른형상/색상/강도대체비교.114facts/Q12354㎡/C1712279646/B88257/산술차액621952668원.25톤500km이내120만원예산·실경로/공장/하차미확정·도서해운미포함.274facts보존. 부모신규접수accepted·SID2f077bc7-12b9-4ac5-b491-9862cb954a25;심사완료아님.",
-      "research_status": "accepted"
+      "research_status": "accepted_submission_pending_review"
     },
     {
       "item_id": "22062407",
@@ -3228,6 +4159,7 @@
       "md5_batch": 1534,
       "owner_slot": 2,
       "local_average_price_krw": 100481.79915120882,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -3251,6 +4183,7 @@
       "md5_batch": 811,
       "owner_slot": 3,
       "local_average_price_krw": 48137.551176361616,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -3274,6 +4207,7 @@
       "md5_batch": 429,
       "owner_slot": 1,
       "local_average_price_krw": 266686.6096866097,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "DJ-B1 2000×1000×850 대형중간블록. 1200×600×600소매와단순개수대조금지. 대형동일규격실가미완성."
     },
@@ -3297,6 +4231,7 @@
       "md5_batch": 428,
       "owner_slot": 0,
       "local_average_price_krw": 102262.53026634382,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -3320,9 +4255,10 @@
       "md5_batch": 1376,
       "owner_slot": 0,
       "local_average_price_krw": 6457.321039104036,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "대체비교 산술안:팔레트/차량끝수·VAT포함B4290원/개,C20.174억·Q312423개·16facts 차액6.771억. 뒤길이340→330·압축28→25N/㎟내외 저하 명시. 부모검토용이며완전동등/심사완료주장없음. 부모신규접수accepted·SID9c39d2e4-987a-47a0-98c1-d2b219d277a9;심사완료아님.",
-      "research_status": "accepted"
+      "research_status": "accepted_submission_pending_review"
     },
     {
       "item_id": "25481853",
@@ -3344,6 +4280,7 @@
       "md5_batch": 820,
       "owner_slot": 0,
       "local_average_price_krw": 37200.0,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -3367,6 +4304,7 @@
       "md5_batch": 1023,
       "owner_slot": 3,
       "local_average_price_krw": 14639.088064415213,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -3390,6 +4328,7 @@
       "md5_batch": 1922,
       "owner_slot": 2,
       "local_average_price_krw": 45779.48690129664,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -3413,6 +4352,7 @@
       "md5_batch": 1519,
       "owner_slot": 3,
       "local_average_price_krw": 46194.123618542784,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -3436,6 +4376,7 @@
       "md5_batch": 1694,
       "owner_slot": 2,
       "local_average_price_krw": 47993.43350027824,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -3459,6 +4400,7 @@
       "md5_batch": 446,
       "owner_slot": 2,
       "local_average_price_krw": 44166.1794128764,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -3482,6 +4424,7 @@
       "md5_batch": 1109,
       "owner_slot": 1,
       "local_average_price_krw": 46372.116820553994,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -3505,6 +4448,7 @@
       "md5_batch": 610,
       "owner_slot": 2,
       "local_average_price_krw": 39534.82716021139,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "1000×1000×250소매28600+체인1000+예상운임4000원,VAT후36960원. 평균39535와20%차이없음; 개별고가fact검토가능."
     },
@@ -3528,8 +4472,9 @@
       "md5_batch": 370,
       "owner_slot": 2,
       "local_average_price_krw": 33100.0,
+      "availability_at_lookup": "available",
       "availability": "available",
-      "finding": "공식상태만확인; 소매대조미착수"
+      "finding": "고반사민무늬싸인블록200×200×60·개당33100원·Q51920개. 홍우비앤티공식제품목록과Parallel/웹검색은확인했으나고반사기능유지공개소매가격없음. 일반블록을같은기능으로주장하지않고보류."
     },
     {
       "item_id": "23113728",
@@ -3551,6 +4496,7 @@
       "md5_batch": 1281,
       "owner_slot": 1,
       "local_average_price_krw": 75382.93727735942,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -3574,6 +4520,7 @@
       "md5_batch": 51,
       "owner_slot": 3,
       "local_average_price_krw": 46444.118587071316,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -3597,6 +4544,7 @@
       "md5_batch": 1028,
       "owner_slot": 0,
       "local_average_price_krw": 66589.38454753217,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -3620,6 +4568,7 @@
       "md5_batch": 130,
       "owner_slot": 2,
       "local_average_price_krw": 37170.15360289135,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -3643,6 +4592,7 @@
       "md5_batch": 1440,
       "owner_slot": 0,
       "local_average_price_krw": 24771.04280993239,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -3666,6 +4616,7 @@
       "md5_batch": 1112,
       "owner_slot": 0,
       "local_average_price_krw": 23891.80771804595,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -3689,6 +4640,7 @@
       "md5_batch": 623,
       "owner_slot": 3,
       "local_average_price_krw": 30588.30013703125,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -3712,6 +4664,7 @@
       "md5_batch": 1721,
       "owner_slot": 1,
       "local_average_price_krw": 98690.35915626782,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -3735,6 +4688,7 @@
       "md5_batch": 1017,
       "owner_slot": 1,
       "local_average_price_krw": 91738.32730282606,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -3758,6 +4712,7 @@
       "md5_batch": 285,
       "owner_slot": 1,
       "local_average_price_krw": 32424.623146535243,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -3781,6 +4736,7 @@
       "md5_batch": 1293,
       "owner_slot": 1,
       "local_average_price_krw": 28823.49822165046,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -3804,6 +4760,7 @@
       "md5_batch": 1428,
       "owner_slot": 0,
       "local_average_price_krw": 49633.97738951696,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -3827,6 +4784,7 @@
       "md5_batch": 1211,
       "owner_slot": 3,
       "local_average_price_krw": 26502.935058932286,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -3850,6 +4808,7 @@
       "md5_batch": 269,
       "owner_slot": 1,
       "local_average_price_krw": 50102.83298673849,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -3873,6 +4832,7 @@
       "md5_batch": 208,
       "owner_slot": 0,
       "local_average_price_krw": 50938.16065643048,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -3896,6 +4856,7 @@
       "md5_batch": 1339,
       "owner_slot": 3,
       "local_average_price_krw": 42286.51108973974,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -3919,6 +4880,7 @@
       "md5_batch": 1079,
       "owner_slot": 3,
       "local_average_price_krw": 45735.93398777922,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -3942,8 +4904,9 @@
       "md5_batch": 989,
       "owner_slot": 1,
       "local_average_price_krw": 113767.40010031767,
+      "availability_at_lookup": "available",
       "availability": "available",
-      "finding": "SS-V0021000×700×1000·620kg/개·28MPa. 500높이소매2개환산만으로구조가같다고주장안함."
+      "finding": "SS-V002일반옹벽자재대체계산번들20facts/Q11719/B85625/328658265원보존. 1m일체블록대신0.5m2단접합추가·28→25MPa·중량/면적/장식차이및구조기능동등미검증으로보류."
     },
     {
       "item_id": "22924491",
@@ -3965,6 +4928,7 @@
       "md5_batch": 1044,
       "owner_slot": 0,
       "local_average_price_krw": 378636.5185806091,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -3988,6 +4952,7 @@
       "md5_batch": 1077,
       "owner_slot": 1,
       "local_average_price_krw": 11931.538297380448,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -4011,6 +4976,7 @@
       "md5_batch": 521,
       "owner_slot": 1,
       "local_average_price_krw": 49195.0225032546,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -4034,6 +5000,7 @@
       "md5_batch": 750,
       "owner_slot": 2,
       "local_average_price_krw": 85709.42273824278,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -4057,6 +5024,7 @@
       "md5_batch": 424,
       "owner_slot": 0,
       "local_average_price_krw": 102746.05510331872,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -4080,6 +5048,7 @@
       "md5_batch": 1047,
       "owner_slot": 3,
       "local_average_price_krw": 42331.34413635043,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -4103,6 +5072,7 @@
       "md5_batch": 552,
       "owner_slot": 0,
       "local_average_price_krw": 20449.2035750701,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -4126,6 +5096,7 @@
       "md5_batch": 751,
       "owner_slot": 3,
       "local_average_price_krw": 40888.79258997202,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -4149,6 +5120,7 @@
       "md5_batch": 1355,
       "owner_slot": 3,
       "local_average_price_krw": 25708.4842395827,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -4172,6 +5144,7 @@
       "md5_batch": 1011,
       "owner_slot": 3,
       "local_average_price_krw": 32403.729685418588,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -4195,6 +5168,7 @@
       "md5_batch": 763,
       "owner_slot": 3,
       "local_average_price_krw": 121737.69968980225,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -4218,8 +5192,9 @@
       "md5_batch": 1336,
       "owner_slot": 0,
       "local_average_price_krw": 119911.9770773639,
+      "availability_at_lookup": "available",
       "availability": "available",
-      "finding": "크레타230×250×150 장식옹벽. 일반500×200×330과동일제품이라고주장안함."
+      "finding": "크레타일반옹벽자재대체계산번들35facts/Q8078/B75882/355551204원보존. 장식색상·규격·28→25MPa·구조기능동등미검증이며부모지시로보류."
     },
     {
       "item_id": "23993443",
@@ -4241,8 +5216,10 @@
       "md5_batch": 11,
       "owner_slot": 3,
       "local_average_price_krw": 290665.271308803,
+      "availability_at_lookup": "available",
       "availability": "available",
-      "finding": "공식상태만확인; 소매대조미착수"
+      "finding": "BWL직판28MPa대체자재면적산술안5.191억(포장예산확장3.608억)이나배면깊이1000→750·상부키/접합·자중차이의구조대응미확인. 원품중량미공개. 구조기능미검증보류,절감접수ready아님.",
+      "research_status": "held_structural_function_not_verified"
     },
     {
       "item_id": "24633307",
@@ -4264,6 +5241,7 @@
       "md5_batch": 1535,
       "owner_slot": 3,
       "local_average_price_krw": 99715.23244280915,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -4287,6 +5265,7 @@
       "md5_batch": 0,
       "owner_slot": 0,
       "local_average_price_krw": 123256.50383528462,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -4310,6 +5289,7 @@
       "md5_batch": 701,
       "owner_slot": 1,
       "local_average_price_krw": 98993.23866919838,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -4333,6 +5313,7 @@
       "md5_batch": 599,
       "owner_slot": 3,
       "local_average_price_krw": 54660.41799908634,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -4356,6 +5337,7 @@
       "md5_batch": 1345,
       "owner_slot": 1,
       "local_average_price_krw": 50293.22003729446,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -4379,6 +5361,7 @@
       "md5_batch": 1225,
       "owner_slot": 1,
       "local_average_price_krw": 22784.9924733673,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -4402,6 +5385,7 @@
       "md5_batch": 834,
       "owner_slot": 2,
       "local_average_price_krw": 26699.703111171624,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -4425,6 +5409,7 @@
       "md5_batch": 452,
       "owner_slot": 0,
       "local_average_price_krw": 23702.606382978724,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -4448,6 +5433,7 @@
       "md5_batch": 1208,
       "owner_slot": 0,
       "local_average_price_krw": 95591.2526643712,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -4471,6 +5457,7 @@
       "md5_batch": 988,
       "owner_slot": 0,
       "local_average_price_krw": 24938.02993857652,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -4494,6 +5481,7 @@
       "md5_batch": 81,
       "owner_slot": 1,
       "local_average_price_krw": 21124.655571185853,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -4517,6 +5505,7 @@
       "md5_batch": 1510,
       "owner_slot": 2,
       "local_average_price_krw": 41594.82266170144,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -4540,8 +5529,10 @@
       "md5_batch": 682,
       "owner_slot": 2,
       "local_average_price_krw": 267136.7317647059,
+      "availability_at_lookup": "available",
       "availability": "available",
-      "finding": "공식상태만확인; 소매대조미착수"
+      "finding": "BWL직판대체자재면적산술안3.481억(포장예산확장1.955억)이나원품1278kg/㎡→대체786kg/㎡로38.5%자중감소·접합차이. 깊이증가/28MPa가이를보상한다고주장하지않음. 구조기능미검증보류.",
+      "research_status": "held_structural_function_not_verified"
     },
     {
       "item_id": "23176908",
@@ -4563,6 +5554,7 @@
       "md5_batch": 793,
       "owner_slot": 1,
       "local_average_price_krw": 39365.68049036778,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -4586,6 +5578,7 @@
       "md5_batch": 536,
       "owner_slot": 0,
       "local_average_price_krw": 101424.36373516891,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -4609,6 +5602,7 @@
       "md5_batch": 900,
       "owner_slot": 0,
       "local_average_price_krw": 22109.598723210216,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -4632,6 +5626,7 @@
       "md5_batch": 399,
       "owner_slot": 3,
       "local_average_price_krw": 52500.0,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -4655,6 +5650,7 @@
       "md5_batch": 592,
       "owner_slot": 0,
       "local_average_price_krw": 24347.725982484706,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -4678,8 +5674,10 @@
       "md5_batch": 1017,
       "owner_slot": 1,
       "local_average_price_krw": 337126.1482159195,
+      "availability_at_lookup": "available",
       "availability": "available",
-      "finding": "공식상태만확인; 소매대조미착수"
+      "finding": "BWL직판대체자재면적산술안5.525억(포장예산확장4.333억)이나배면900→750·접합차이,공식중량890kg의개/㎡분모미확정. 전체원설계기능절감으로주장안함. 구조기능미검증보류.",
+      "research_status": "held_structural_function_not_verified"
     },
     {
       "item_id": "21943851",
@@ -4701,6 +5699,7 @@
       "md5_batch": 848,
       "owner_slot": 0,
       "local_average_price_krw": 47910.0,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -4724,6 +5723,7 @@
       "md5_batch": 40,
       "owner_slot": 0,
       "local_average_price_krw": 33690.69247952345,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -4747,6 +5747,7 @@
       "md5_batch": 1459,
       "owner_slot": 3,
       "local_average_price_krw": 50549.04693107145,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -4770,6 +5771,7 @@
       "md5_batch": 930,
       "owner_slot": 2,
       "local_average_price_krw": 47223.946935041175,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -4793,6 +5795,7 @@
       "md5_batch": 1019,
       "owner_slot": 3,
       "local_average_price_krw": 49059.24188559029,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -4816,6 +5819,7 @@
       "md5_batch": 1400,
       "owner_slot": 0,
       "local_average_price_krw": 22999.879804028307,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -4839,6 +5843,7 @@
       "md5_batch": 1898,
       "owner_slot": 2,
       "local_average_price_krw": 47719.729705049765,
+      "availability_at_lookup": "on_hold",
       "availability": "on_hold",
       "finding": "신규등록대상제외"
     },
@@ -4862,6 +5867,7 @@
       "md5_batch": 1023,
       "owner_slot": 3,
       "local_average_price_krw": 38608.326848249024,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -4885,6 +5891,7 @@
       "md5_batch": 1194,
       "owner_slot": 2,
       "local_average_price_krw": 46269.88906882591,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     },
@@ -4908,6 +5915,7 @@
       "md5_batch": 1534,
       "owner_slot": 2,
       "local_average_price_krw": 29428.727857368438,
+      "availability_at_lookup": "available",
       "availability": "available",
       "finding": "공식상태만확인; 소매대조미착수"
     },
@@ -4931,6 +5939,7 @@
       "md5_batch": 1886,
       "owner_slot": 2,
       "local_average_price_krw": 21926.100543186552,
+      "availability_at_lookup": "claimed",
       "availability": "claimed",
       "finding": "신규등록대상제외"
     }
@@ -4950,5 +5959,35 @@
       "receipt_file": "work/concrete-focus/receipt-23220245.json",
       "review_status": "심사완료아님"
     }
+  ],
+  "official_state_count_note": "각lookup관측시점상태집계. 이후우리2건accepted는별도기록했으므로현재가용목록으로해석하지않음.",
+  "named_item_search_ids": [
+    "23220245",
+    "24072887",
+    "23251204",
+    "21508809",
+    "22364346",
+    "22102002",
+    "25192690",
+    "23534084",
+    "22540518",
+    "24076224",
+    "23993443",
+    "23676490",
+    "25492101",
+    "24640527"
+  ],
+  "search_count_note": "모델명기준실검색과일반규격검색은다름. 이번후속Parallel실검색7회는parallel-concrete-next4쿼리+parallel-large-wall-spec3쿼리이며모든로컬품목웹검토를뜻하지않음.",
+  "continuation_parallel_queries_count": 7,
+  "manufacturer_retail_product_pages_saved_count": 6,
+  "ready_for_parent_review_bundle": "work/concrete-focus/review-22364346-kd317-conservative.json",
+  "manufacturer_direct_store_findings": "work/concrete-focus/dmcon-findings.json",
+  "adjacent_material_local_scan_count": 414,
+  "adjacent_material_high_value_selected_count": 11,
+  "adjacent_material_official_lookup_count": 0,
+  "structural_function_held_bundles": [
+    "work/concrete-focus/review-23993443-bwl-structural-hold.json",
+    "work/concrete-focus/review-23676490-bwl-structural-hold.json",
+    "work/concrete-focus/review-25492101-bwl-structural-hold.json"
   ]
 }
