@@ -1754,11 +1754,49 @@
     "text_extraction_status": "unreviewed_text_extraction",
     "visual_pages_reviewed": [
       1,
-      2
+      2,
+      3,
+      4,
+      5
     ],
     "observation": "PDF1쪽 표는590mm·100000원·기본주문100개·부가세/시공비별도다. 현재190000원 판매가격의 할인이나 같은주문 옵션으로 합치지 않고 별도 자료로 보존한다.",
-    "visual_note": "1쪽은 속뚜껑/기존 맨홀링/설치·인체 하중 사진,2쪽은회전잠금 평면·단면이다. 정량 시험값은 없다.",
-    "download_method": "Windows curl.exe의 기본TLS검증으로 다운로드했다. Python requests의 DH_KEY_TOO_SMALL 오류는 별도로 기록했으며 보안검증을 낮추지 않았다."
+    "visual_note": "전체5쪽을 직접 읽었다. 회전 잠금 도면·기존 맨홀 설치·인체 하중 사진을 확인했으나 치수선·판두께·정량 시험값은 없다. 제조사 설명과 자료 속 과거 법령 인용을 시험성적이나 현행 법규 확인으로 확대하지 않았다.",
+    "download_method": "Windows curl.exe의 기본TLS검증으로 다운로드했다. Python requests의 DH_KEY_TOO_SMALL 오류는 별도로 기록했으며 보안검증을 낮추지 않았다.",
+    "visual_review_completed_at_utc": "2026-10-16T12:33:11.094296+00:00",
+    "page_findings": {
+      "1": "590mm·100000원·기본주문100개·VAT/시공별도와 기존 맨홀링 앙카·사람 하중 사진. 현재190000원 판매글과 별도 가격자료다.",
+      "2": "회전 잠금 평면과 단면은 있으나 치수선·판 두께·앙카 간격이나 시험하중 수치는 없다.",
+      "3": "제조사의 기존맨홀 설치·그레이팅·홍수/수압 고정 설명. 정량 시험성적서가 아니다.",
+      "4": "판매자료가 인용한2019 설계기준 설명. 개별 제품 시험·현행 법규 적합성 검증으로 사용하지 않는다.",
+      "5": "판매자료가 인용한2020/2021 안전표지 관련 법령 설명. 맨홀 덮개의 하중시험이나 원품과 동등한 성능 근거가 아니다."
+    },
+    "visual_page_files": [
+      {
+        "path": "work/concrete-focus/hanbyeol-manhole-page-1.png",
+        "bytes": 625563,
+        "sha256": "877a74a31f8b78152f2e85ccf3510dded6e4a7bdbc80acbef7ba6b028507a4c1"
+      },
+      {
+        "path": "work/concrete-focus/hanbyeol-manhole-page-2.png",
+        "bytes": 179090,
+        "sha256": "0f48d5fcdbcddfeaac70136296c7cd491afb970f9a01852f2234ce807f6b1efd"
+      },
+      {
+        "path": "work/concrete-focus/hanbyeol-manhole-complete-3.png",
+        "bytes": 220308,
+        "sha256": "107b8c55fcfca645bf3784d54de226f6a07f72e642b84b60b9c9462f66675678"
+      },
+      {
+        "path": "work/concrete-focus/hanbyeol-manhole-complete-4.png",
+        "bytes": 259523,
+        "sha256": "b5444297ad4c3a805b636860b70142415693988054394a41760b86b742bef53c"
+      },
+      {
+        "path": "work/concrete-focus/hanbyeol-manhole-complete-5.png",
+        "bytes": 102384,
+        "sha256": "df782f5c685e0fdec8f7a989c473e368248887f00c90ff4c23c2b2ef53b659ef"
+      }
+    ]
   },
   "raw_provenance_files": [
     "work/concrete-focus/hanbyeol-joongna230406946.html",
@@ -1797,6 +1835,8 @@
     "decision": "검증 완료 후보와 제출 확정 금액에서 제외한다. 실제 비교 범위와 성능 근거를 보완할 연구 단서로 보존한다.",
     "availability_requeried": false,
     "submission_or_revision_POST_sent": false,
-    "note": "122.51억은 산술 시나리오다. 등록 제한 해제나 일일 한도 복구만으로 제출 준비 완료가 되지는 않는다."
+    "note": "122.51억은 산술 시나리오다. 등록 제한 해제나 일일 한도 복구만으로 제출 준비 완료가 되지는 않는다.",
+    "brochure_visual_followup_utc": "2026-10-16T12:33:11.094296+00:00",
+    "brochure_followup_changes_comparability": false
   }
 }
