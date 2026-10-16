@@ -16,16 +16,32 @@ from .secrets import environment, redact_keys
 
 
 class BrowserRuntime:
-    def __init__(self, root='.', env_file='.env.txt'):
+    def __init__(self, root='.', env_file='.env.txt', session_name=None):
         self.root = Path(root).resolve()
         self.work = self.root/'work'
+        if session_name is not None and (
+                not isinstance(session_name, str)
+                or not re.fullmatch(r'[a-z0-9][a-z0-9_-]{0,31}', session_name)
+                or re.fullmatch(r'con|prn|aux|nul|com[1-9]|lpt[1-9]', session_name)):
+            raise ValueError('세션 이름은 장치명을 제외한 1~32자의 영문 소문자·숫자·하이픈·밑줄만 허용합니다')
+        self.session_name = session_name
+        self.session_dir = self.work if session_name is None else self.work/'browser-sessions'/session_name
+        self.profile = self.session_dir/'browser-chrome'
+        self.state = self.session_dir/'browser-state'
+        self.process_file = self.session_dir/'browser-chrome-process.json'
         self.python = self.work/'browser-runtime'/'Scripts'/'python.exe'
         self.cli = self.python.with_name('browser-harness.exe')
         self.env_file = self.root/env_file
 
     def _env(self):
         env = environment(self.env_file)
-        env.update(BH_HOME=str(self.work/'browser-state'), BH_RECORD='0', BH_TAB_MARKER='0', PYTHONIOENCODING='utf-8')
+        env.update(BH_HOME=str(self.state), BH_RECORD='0', BH_TAB_MARKER='0', PYTHONIOENCODING='utf-8')
+        if self.session_name is not None:
+            env.update(BH_CONFIG_DIR=str(self.state), BH_RUNTIME_DIR=str(self.state/'runtime'),
+                       BH_TMP_DIR=str(self.state/'tmp'), BH_AGENT_WORKSPACE=str(self.state/'agent-workspace'))
+            # 이름 있는 세션은 상위 프로세스의 다른 Chrome 연결을 물려받지 않는다.
+            for key in ('BU_CDP_URL', 'BU_CDP_WS', 'BU_NAME', 'BU_BROWSER_ID'):
+                env.pop(key, None)
         # 조달 인증은 판매 페이지/모델 subprocess에 전달하지 않는다.
         for key in list(env):
             if key.startswith('SAVETAX_'):
@@ -39,7 +55,7 @@ class BrowserRuntime:
             raise ValueError('공개 HTTPS 판매 페이지 URL만 브라우저 조사에 사용합니다')
 
     def _endpoint(self):
-        path = self.work/'browser-chrome'/'DevToolsActivePort'
+        path = self.profile/'DevToolsActivePort'
         try:
             port = int(path.read_text(encoding='utf-8').splitlines()[0])
             if not 1 <= port <= 65535:
@@ -81,14 +97,14 @@ class BrowserRuntime:
             chrome = next((p for p in candidates if p and Path(p).is_file()), None)
             if not chrome:
                 raise RuntimeError('Chrome 실행 파일이 없습니다')
-            profile = self.work/'browser-chrome'
+            profile = self.profile
             profile.mkdir(parents=True, exist_ok=True)
             child = subprocess.Popen([chrome, '--headless=new', '--no-first-run', '--no-default-browser-check',
                 '--user-data-dir='+str(profile), '--remote-debugging-port=0', 'about:blank'],
                 stdin=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
                 env={k:v for k,v in env.items() if not k.endswith('_API_KEY')},
                 creationflags=getattr(subprocess, 'CREATE_NO_WINDOW', 0))
-            (self.work/'browser-chrome-process.json').write_text(json.dumps({'pid':child.pid,'profile':str(profile)}), encoding='utf-8')
+            self.process_file.write_text(json.dumps({'pid':child.pid,'profile':str(profile)}), encoding='utf-8')
             for _ in range(40):
                 endpoint = self._endpoint()
                 if endpoint:
@@ -99,13 +115,13 @@ class BrowserRuntime:
             env.pop('BU_CDP_WS', None)
             env.pop('BU_NAME', None)
         elif start:
-            raise RuntimeError('격리 Chrome CDP 연결 실패; work/browser-state 진단을 확인하세요')
+            raise RuntimeError('격리 Chrome CDP 연결 실패; '+str(self.state)+' 진단을 확인하세요')
         return env
 
     @contextmanager
     def _operation(self):
-        lock = self.work/'browser-operation.lock'
-        self.work.mkdir(parents=True, exist_ok=True)
+        lock = self.session_dir/'browser-operation.lock'
+        self.session_dir.mkdir(parents=True, exist_ok=True)
         try:
             handle = lock.open('x', encoding='utf-8')
         except FileExistsError:

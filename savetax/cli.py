@@ -238,6 +238,8 @@ def main(argv=None):
     browser_plan.add_argument('--url', required=True)
     browser_plan.add_argument('--goal', required=True)
     browser_plan.add_argument('--output', required=True)
+    for browser_command in (browser_status, browser_read, browser_plan):
+        browser_command.add_argument('--session', help='독립 CLI 브라우저 세션 이름 (생략하면 기존 공유 경로)')
     document = sub.add_parser('document-read', help='로컬 HWP/HWPX 실제 형식 판별·본문 추출 (사양 검증 전)')
     document.add_argument('--input', required=True)
     document.add_argument('--output', required=True)
@@ -321,7 +323,7 @@ def main(argv=None):
             print('일반 제보 상태 저장: ' + str(args.output))
         elif args.command in ('browser-status','browser-read','browser-plan'):
             from .browser import BrowserRuntime
-            runtime = BrowserRuntime()
+            runtime = BrowserRuntime(session_name=args.session)
             if args.command == 'browser-status':
                 print(json.dumps(runtime.status(),ensure_ascii=False,indent=2))
             else:

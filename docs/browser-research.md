@@ -10,7 +10,19 @@ python -m savetax browser-read --url 'https://판매처/상품' --output work/br
 python -m savetax browser-plan --url 'https://판매처/상품' --goal '모델과 일반 판매가 열람' --output work/browser/plan.json
 ```
 
-Windows Chrome은 headless로 실행한다. 프로필은 `work/browser-chrome`, 하네스 상태는 `work/browser-state`다. 기존 작업 CDP를 재사용하며 사용자 기본 프로필에 원격 디버깅을 켤 필요가 없다. 세션은 하나이므로 브라우저 작업을 직렬 처리한다.
+Windows Chrome은 headless로 실행한다. `--session`을 생략하면 기존 프로필 `work/browser-chrome`, 하네스 상태 `work/browser-state`와 잠금 경로를 그대로 사용한다. 기존 작업 CDP를 재사용하며 사용자 기본 프로필에 원격 디버깅을 켤 필요가 없다. 공용 MCP 브라우저는 root 담당이며 직렬로 조작한다.
+
+독립 CLI 조사에는 세 명령 모두 `--session industrial`처럼 이름을 지정할 수 있다.
+
+```powershell
+python -m savetax browser-status --session industrial
+python -m savetax browser-read --session industrial --url 'https://판매처/상품' --output work/browser/industrial-product.json
+python -m savetax browser-plan --session industrial --url 'https://판매처/상품' --goal '모델과 일반 판매가 열람' --output work/browser/industrial-plan.json
+```
+
+이름 있는 세션은 `work/browser-sessions/<이름>/` 아래 Chrome 프로필·`DevToolsActivePort`·Chrome PID 파일·작업 잠금과 `browser-state`의 하네스 설정·daemon PID/port·임시 파일을 분리한다. 하네스 실행 파일과 Python 환경은 공유한다. 이름은 1~32자의 영문 소문자·숫자·하이픈·밑줄이며 첫 글자는 영문 소문자나 숫자다. Windows 장치명, 경로 구분자, 공백, 절대경로는 거절한다. 다른 세션의 CDP 선택자나 하네스 경로 환경변수를 물려받지 않는다.
+
+서로 다른 CLI 세션의 공개 페이지 읽기는 병렬로 가능하다. 같은 이름의 CLI 작업은 잠금으로 직렬 처리하며, 기본 세션과 공용 MCP는 계속 root와 순서를 조율한다. 이름을 바꿔 공용 MCP 탭을 조작하거나 로그인·캡차를 우회하지 않는다. CLI는 기존 고정 읽기와 다음 동작 제안만 제공하며 구매·장바구니·문의·자동 제출은 추가하지 않았다. 세션 분리는 경로와 작업 충돌을 줄이기 위한 기능이며 전체 조사 속도의 개선 수치는 측정하지 않았다.
 
 MCP `browser_harness`는 Codex에 등록했다. 실행 파일은 `work/browser-runtime/Scripts/python.exe`, 인자는 `scripts/browser_mcp.py`의 절대 경로다. 스크립트가 작업 CDP를 설정하고 공식 MCP 진입점을 호출한다. `work/browser-runtime`을 지우면 재설치가 필요하다.
 
@@ -29,6 +41,8 @@ TypeSafe는 Jev의 동작 선택에 사용한다. `TEXT_MODEL_API_KEY`가 없어
 | 네이티브 MCP | `browser_page_info`로 같은 작업 탭 확인 성공 |
 | Jev + TypeSafe | F19WDLPR 다나와 페이지 읽기·다음 동작 판단 성공. 모델 `jev-1.13.0`, 모델 응답 258ms (1회) |
 | G마켓 EWI | headless 접근은 '잠시만 기다리십시오…' 챌린지. 이 수집물을 가격 검증으로 채택하지 않음 |
+| 독립 CLI 세션 | `--session industrial`로 디자인템 D8013 판매 페이지의 제목·모델·12,900원 표시·배송 문구·FREE/XL 치수 목록을 1회 수집했다. 별도 Chrome ActivePort/PID·하네스 daemon port가 생성됐고 작업 잠금이 해제됐다. 옵션을 선택하지 않은 `unreviewed` 수집물이며 발송 옵션·사양·대회 자격 검증을 뜻하지 않는다. |
+| 독립 세션의 병렬 읽기 | `root-check-1`과 `root-check-2`로 공개 판매 페이지를 동시에 읽었다. 서로 다른 Chrome CDP 포트와 상태 경로를 썼고 잠금은 해제됐다. 작업 전후 공용 브라우저의 129개 탭은 같았다. 전체 147개 테스트도 통과했다. 독립 리뷰에서 발견한 원격 브라우저 식별자 `BU_BROWSER_ID` 상속은 차단하고 회귀 테스트로 확인했다. |
 
 258ms는 한 번의 모델 응답 시간이며 전체 조사 속도를 뜻하지 않는다. 수집 JSON의 `evidence_status=unreviewed`는 조사자가 모델·옵션·가격을 대조하기 전까지 유지한다. Jev의 DONE은 제출 자격 판정이 아니다. 공개 HTTP와 검색으로 읽을 수 있는 페이지는 그 경로도 계속 쓴다.
 

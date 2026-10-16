@@ -8,6 +8,7 @@ description: Use Browser Harness and Jev to inspect JS-rendered retail pages or 
 공개 페이지는 HTTP로 먼저 읽고 JS 화면·상세 iframe·검색 조작에 Browser Harness를 쓴다. 조달 조회는 공식 API를 사용한다.
 
 1. `python -m savetax browser-status`로 CDP·키 준비 상태를 확인한다. 키 존재 여부만 출력한다. `.env.txt`를 출력하지 않는다. `savetax.secrets.environment`는 허용된 이름만 파싱해 자식 프로세스 환경변수로 전달하며 기존 환경변수가 우선한다.
+   독립 CLI 조사에는 `browser-status/read/plan --session industrial`처럼 같은 이름을 사용한다. 이름은 1~32자의 영문 소문자·숫자·하이픈·밑줄(첫 글자 영문 소문자/숫자)이며 Windows 장치명·공백·경로는 거절된다. 프로필·CDP ActivePort·PID·하네스 설정/daemon·임시 파일·잠금은 `work/browser-sessions/<이름>/` 아래로 분리된다. 서로 다른 CLI 세션의 공개 읽기는 병렬로 가능하지만 같은 세션은 직렬이다. 기본 경로는 기존 그대로이며 공용 MCP는 root 전용 직렬 규칙을 유지한다. 독립 CLI로 공용 MCP나 다른 에이전트의 탭을 조작하지 않는다.
 2. `browser-read --url <공개 HTTPS URL> --output work/browser/<이름>.json`은 보이는 텍스트와 상세 iframe 주소를 저장한다. `unreviewed` 결과를 조사자가 대조한다. 챌린지·로그인·빈 화면은 판매가 확인 성공이 아니다.
 3. `browser-plan --url <URL> --goal <열람 목표> --output ...`은 실제 Jev·TypeSafe 호출로 다음 동작을 제안한다. 실행은 관측한 대상과 사용자 목표를 확인한 뒤 MCP로 수행한다. `TEXT_MODEL_API_KEY`가 없으면 upstream Jev의 자유 입력 생성은 사용할 수 없다. Parallel 키를 다른 공급자의 키로 바꿔 넣지 않는다.
 4. `browser_harness` MCP는 `scripts/browser_mcp.py`로 작업 전용 headless Chrome을 재사용한다. 다른 에이전트와 공유 브라우저를 병렬 조작하지 않는다. 본인이 만든 작업 탭을 재사용하고 본인 탭만 닫는다. 첫 이동은 `browser_new_tab`, 이후 `browser_wait_for_load`·`browser_page_info`로 확인한다.
