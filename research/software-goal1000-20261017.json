@@ -1,0 +1,809 @@
+{
+ "observed_at_utc": "2026-10-16T17:40:00+00:00",
+ "agent": "software",
+ "manifest_version": "a2edc57482d9cee1f04e",
+ "event": {
+  "dataset_release_id": "release-live-20261012",
+  "ruleset_version": "rules-v1",
+  "price_gap": {
+   "rule": "enforce",
+   "min_ratio": "1.2",
+   "min_unit_krw": "1000000"
+  }
+ },
+ "minimum_new_saving_krw": "1000000000",
+ "post_called_by_this_agent": false,
+ "credential_values_recorded": false,
+ "ready_packets": [
+  {
+   "item_id": "24830440",
+   "name": "데이터베이스관리소프트웨어, 티맥스티베로, Tibero 7, DBMS, 1Core, Enterprise",
+   "comparison_kind": "equivalent",
+   "retail_model": "SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] (DG7GMGF0FKZV:0001)",
+   "price_url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+   "observed_price_krw": "20172500",
+   "observed_tax_display": "세액 ₩2,017,250 (보수적으로 VAT 별도로 보고 10% 가산)",
+   "benchmark_unit_price_krw_per_core": "11094875",
+   "per_fact_rule": "2코어 팩 올림 + 물리 프로세서당 최소 4코어",
+   "shipping": "무료(이메일 발송)",
+   "official": {
+    "scorable_facts": 44,
+    "Q": "722",
+    "C_krw": "11047322000",
+    "unit_price_krw": "15301000"
+   },
+   "preview_total_krw": 2862417244,
+   "preview_lines": 28,
+   "preview_price_gap": {
+    "by": "ratio",
+    "counted_lines": 28,
+    "groups": [
+     {
+      "basis_id": "basis:조:vat_included",
+      "lines": 28,
+      "market_unit_krw": "11205982.47",
+      "markup_ratio": "1.36",
+      "max_passing_market_unit_krw": "14301000",
+      "pass": true,
+      "procurement_unit_krw": "15301000",
+      "quantity": "699",
+      "ratio_pass": true,
+      "unit": "조",
+      "unit_gap_krw": "4095017.52",
+      "unit_pass": true
+     }
+    ],
+    "ignored_lines": 0,
+    "markup_ratio": "1.36",
+    "min_ratio": "1.2",
+    "min_unit_krw": "1000000",
+    "pass": true,
+    "ratio_pass": true,
+    "representative": 0
+   },
+   "state_after_preview": {
+    "claimed_by_me": true,
+    "existing_submission_id": "78aeeb93-1d92-4c09-9e1b-247ea0a4422c",
+    "existing_submission_state": "accepted",
+    "note": "root가 준비 본문으로 접수한 것으로 보임. 이 에이전트는 POST하지 않음."
+   },
+   "files": {
+    "input": "work/software-goal1000/ready/24830440.json",
+    "body": "work/software-goal1000/ready/24830440.body.json",
+    "receipt_preview": "work/software-goal1000/ready/24830440.receipt.json",
+    "browser": "work/software-goal1000/browser-softwares-96.json",
+    "raw_html": "work/software-goal1000/raw/softwares-96.html"
+   },
+   "hashes": {
+    "spec_zip_sha256": "6ab06a2642ae484599bb071283a5cb9a0826160aab0104a1d60a26a0415405c7",
+    "spec_pdf_sha256": "3c0f94e27431b2ebe2a135e1f4634e23127c0dea3ce9f66ca29860e2102269b3",
+    "raw_html_sha256": "ffe9f5b86dc78decb6d26d907d498ccd4497a7468936282bf4901a2f2101276c",
+    "body_sha256": "8b68e3998c9ab80b46bc38b157535da5c50075fcae2b570455c41bbb5bd8ca42"
+   },
+   "original_spec_findings": [
+    "1조=1Core, 서버 설치, 사용 기간 제한 없음, 현장설치도",
+    "TAC(Fail-over 클러스터)는 Enterprise 도입 후 같은 코어 수만큼 별도 구매하는 24830439",
+    "기본 커스터마이징 포함",
+    "GS 1등급 22-0502",
+    "Windows·Linux·HP-UX·AIX·Solaris",
+    "1년 무상 하자보수(장애·일상 지원·이전 설치·패치·마이너 업그레이드·교육)"
+   ],
+   "risks": [
+    "Oracle 문법 호환·UNIX 지원 없음(이관 비용)",
+    "설치·커스터마이징·하자보수 미반영",
+    "VM 단위 사용권은 SA/구독 필요 → 물리 코어=fact 수량 가정",
+    "과거 타 참가자 반려 이력(on_hold) 사유 미상",
+    "softinfo SQL 2025 Enterprise 2,119,000원은 표기 오류로 판단해 미사용"
+   ],
+   "all_references": [
+    {
+     "fact_id": "dl:24830440:002461246_1:R25TB00981466:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R25TB00981466",
+     "line_no": "1",
+     "request_date": "2025-10-30",
+     "quantity": "1",
+     "comparable_amount_krw": "15301000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R25TB01038351:2",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R25TB01038351",
+     "line_no": "2",
+     "request_date": "2025-10-10",
+     "quantity": "16",
+     "comparable_amount_krw": "244816000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R25TB01079871:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R25TB01079871",
+     "line_no": "1",
+     "request_date": "2025-10-20",
+     "quantity": "1",
+     "comparable_amount_krw": "15301000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R25TB01096631:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R25TB01096631",
+     "line_no": "1",
+     "request_date": "2025-10-23",
+     "quantity": "16",
+     "comparable_amount_krw": "244816000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R25TB01100378:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R25TB01100378",
+     "line_no": "1",
+     "request_date": "2025-10-23",
+     "quantity": "16",
+     "comparable_amount_krw": "244816000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R25TB01105684:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R25TB01105684",
+     "line_no": "1",
+     "request_date": "2025-10-24",
+     "quantity": "2",
+     "comparable_amount_krw": "30602000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R25TB01123263:2",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R25TB01123263",
+     "line_no": "2",
+     "request_date": "2025-10-29",
+     "quantity": "24",
+     "comparable_amount_krw": "367224000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R25TB01128785:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R25TB01128785",
+     "line_no": "1",
+     "request_date": "2025-10-30",
+     "quantity": "1",
+     "comparable_amount_krw": "15301000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R25TB01199043:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R25TB01199043",
+     "line_no": "1",
+     "request_date": "2025-11-17",
+     "quantity": "17",
+     "comparable_amount_krw": "260117000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R25TB01231503:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R25TB01231503",
+     "line_no": "1",
+     "request_date": "2025-11-24",
+     "quantity": "57",
+     "comparable_amount_krw": "872157000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R25TB01246889:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R25TB01246889",
+     "line_no": "1",
+     "request_date": "2025-11-26",
+     "quantity": "8",
+     "comparable_amount_krw": "122408000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R25TB01256220:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R25TB01256220",
+     "line_no": "1",
+     "request_date": "2025-11-28",
+     "quantity": "8",
+     "comparable_amount_krw": "122408000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R25TB01265617:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R25TB01265617",
+     "line_no": "1",
+     "request_date": "2025-12-01",
+     "quantity": "9",
+     "comparable_amount_krw": "137709000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R25TB01273192:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R25TB01273192",
+     "line_no": "1",
+     "request_date": "2025-12-02",
+     "quantity": "4",
+     "comparable_amount_krw": "61204000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R25TB01285869:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R25TB01285869",
+     "line_no": "1",
+     "request_date": "2025-12-04",
+     "quantity": "4",
+     "comparable_amount_krw": "61204000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R25TB01304255:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R25TB01304255",
+     "line_no": "1",
+     "request_date": "2025-12-09",
+     "quantity": "2",
+     "comparable_amount_krw": "30602000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R25TB01326739:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R25TB01326739",
+     "line_no": "1",
+     "request_date": "2025-12-15",
+     "quantity": "1",
+     "comparable_amount_krw": "15301000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R25TB01332542:2",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R25TB01332542",
+     "line_no": "2",
+     "request_date": "2025-12-16",
+     "quantity": "20",
+     "comparable_amount_krw": "306020000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R25TB01337385:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R25TB01337385",
+     "line_no": "1",
+     "request_date": "2025-12-17",
+     "quantity": "4",
+     "comparable_amount_krw": "61204000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB01482466:2",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB01482466",
+     "line_no": "2",
+     "request_date": "2026-01-29",
+     "quantity": "16",
+     "comparable_amount_krw": "244816000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB01518184:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB01518184",
+     "line_no": "1",
+     "request_date": "2026-02-09",
+     "quantity": "4",
+     "comparable_amount_krw": "61204000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB01534353:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB01534353",
+     "line_no": "1",
+     "request_date": "2026-02-11",
+     "quantity": "3",
+     "comparable_amount_krw": "45903000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB01604139:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB01604139",
+     "line_no": "1",
+     "request_date": "2026-03-04",
+     "quantity": "2",
+     "comparable_amount_krw": "30602000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB01654660:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB01654660",
+     "line_no": "1",
+     "request_date": "2026-03-12",
+     "quantity": "8",
+     "comparable_amount_krw": "122408000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB01737845:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB01737845",
+     "line_no": "1",
+     "request_date": "2026-03-30",
+     "quantity": "2",
+     "comparable_amount_krw": "30602000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB01846515:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB01846515",
+     "line_no": "1",
+     "request_date": "2026-04-23",
+     "quantity": "4",
+     "comparable_amount_krw": "61204000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB01873819:2",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB01873819",
+     "line_no": "2",
+     "request_date": "2026-04-30",
+     "quantity": "1",
+     "comparable_amount_krw": "15301000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB01878432:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB01878432",
+     "line_no": "1",
+     "request_date": "2026-05-03",
+     "quantity": "2",
+     "comparable_amount_krw": "30602000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB01937715:2",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB01937715",
+     "line_no": "2",
+     "request_date": "2026-05-20",
+     "quantity": "16",
+     "comparable_amount_krw": "244816000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB01964666:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB01964666",
+     "line_no": "1",
+     "request_date": "2026-05-28",
+     "quantity": "103",
+     "comparable_amount_krw": "1576003000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB01987405:2",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB01987405",
+     "line_no": "2",
+     "request_date": "2026-06-04",
+     "quantity": "88",
+     "comparable_amount_krw": "1346488000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB01987406:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB01987406",
+     "line_no": "1",
+     "request_date": "2026-06-04",
+     "quantity": "20",
+     "comparable_amount_krw": "306020000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB01987407:2",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB01987407",
+     "line_no": "2",
+     "request_date": "2026-06-04",
+     "quantity": "142",
+     "comparable_amount_krw": "2172742000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB01996174:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB01996174",
+     "line_no": "1",
+     "request_date": "2026-06-08",
+     "quantity": "11",
+     "comparable_amount_krw": "168311000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB01997240:2",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB01997240",
+     "line_no": "2",
+     "request_date": "2026-06-08",
+     "quantity": "8",
+     "comparable_amount_krw": "122408000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB02066128:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB02066128",
+     "line_no": "1",
+     "request_date": "2026-06-25",
+     "quantity": "9",
+     "comparable_amount_krw": "137709000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB02181533:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB02181533",
+     "line_no": "1",
+     "request_date": "2026-07-29",
+     "quantity": "1",
+     "comparable_amount_krw": "15301000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB02185409:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB02185409",
+     "line_no": "1",
+     "request_date": "2026-07-30",
+     "quantity": "1",
+     "comparable_amount_krw": "15301000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB02209658:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB02209658",
+     "line_no": "1",
+     "request_date": "2026-08-10",
+     "quantity": "2",
+     "comparable_amount_krw": "30602000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB02252037:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB02252037",
+     "line_no": "1",
+     "request_date": "2026-08-25",
+     "quantity": "2",
+     "comparable_amount_krw": "30602000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB02306841:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB02306841",
+     "line_no": "1",
+     "request_date": "2026-09-10",
+     "quantity": "1",
+     "comparable_amount_krw": "15301000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB02313793:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB02313793",
+     "line_no": "1",
+     "request_date": "2026-09-14",
+     "quantity": "1",
+     "comparable_amount_krw": "15301000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB02340801:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB02340801",
+     "line_no": "1",
+     "request_date": "2026-09-22",
+     "quantity": "60",
+     "comparable_amount_krw": "918060000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    },
+    {
+     "fact_id": "dl:24830440:002461246_1:R26TB02345006:1",
+     "listing_id": "002461246_1040000010",
+     "contract_no": "002461246_1",
+     "request_no": "R26TB02345006",
+     "line_no": "1",
+     "request_date": "2026-09-22",
+     "quantity": "4",
+     "comparable_amount_krw": "61204000",
+     "unit": "조",
+     "tax_basis": "vat_included",
+     "basis_id": "basis:조:vat_included"
+    }
+   ]
+  }
+ ],
+ "queued_below_1b": [
+  {
+   "item_id": "23454736",
+   "reason": "C=997,257,800원 < 10억 원"
+  },
+  {
+   "item_id": "23454735",
+   "reason": "C=707,861,000원 < 10억 원"
+  }
+ ],
+ "negatives": [
+  {
+   "item_id": "25590568",
+   "reason": "국내 CC Pro for teams 1년 1,469,000원(softinfo 72)·1,365,000원(소프트웨어즈) > 조달 1,320,000원"
+  },
+  {
+   "item_id": "23235820",
+   "reason": "원화 VMS 채널권 판매처 없음. Synology 장치권은 NAS 전용"
+  },
+  {
+   "item_id": "24602353",
+   "reason": "재난 감지 원화 대안 없음"
+  },
+  {
+   "item_id": "24338860",
+   "reason": "원화 영상분석 채널권 없음"
+  },
+  {
+   "item_id": "24066903",
+   "reason": "원화 객체정보추출 채널권 없음"
+  },
+  {
+   "item_id": "23907057",
+   "reason": "원화 선별관제 채널권 없음"
+  },
+  {
+   "item_id": "25366238",
+   "reason": "SQL Enterprise 코어가 더 비쌈, Standard는 24코어·128GB 제한"
+  },
+  {
+   "item_id": "25267803",
+   "reason": "Windows DC 16코어 8,363,000원은 소켓 코어 수 가정 필요·IaaS 범위 차이; Proxmox는 EUR 연구독"
+  },
+  {
+   "item_id": "25819966",
+   "reason": "원화 상용 WAS 대안 없음"
+  },
+  {
+   "item_id": "25195754",
+   "reason": "원화 PAM 대안 없음"
+  },
+  {
+   "item_id": "23224766",
+   "reason": "원화 DB 접근제어 대안 없음"
+  },
+  {
+   "item_id": "25427714",
+   "reason": "EDR 1대 연 20,370원 이하 필요, 원화 공개가 없음"
+  },
+  {
+   "item_id": "24485653",
+   "reason": "1대 12,758원 이하 필요, 국내 백신 25,000원 이상"
+  },
+  {
+   "item_id": "24830439",
+   "reason": "TAC 단가 814만 원 < SQL Enterprise 1코어 환산 1,109만 원"
+  },
+  {
+   "item_id": "24139739",
+   "reason": "SQL Standard 4코어 비교 시 약 5억 원 < 10억 원"
+  },
+  {
+   "item_id": "22787893",
+   "reason": "원화 상용 ESB 대안 없음"
+  },
+  {
+   "item_id": "24386006",
+   "reason": "영구 그룹웨어 원화 대체가 없음"
+  },
+  {
+   "item_id": "25845621",
+   "reason": "영구 ERP 원화 대체가 없음"
+  },
+  {
+   "item_id": "24445466",
+   "reason": "claimed"
+  },
+  {
+   "item_id": "24445465",
+   "reason": "claimed"
+  },
+  {
+   "item_id": "25610079",
+   "reason": "Windows Server DC 2코어 1,046,000원 환산 시 약 4.6억 원 < 10억 원"
+  },
+  {
+   "item_id": "25796435",
+   "reason": "WebtoB 6 Standard: 1코어 약 20만 원 이하 필요, 원화 공개 동일품·상위 대체 없음"
+  },
+  {
+   "item_id": "25830570",
+   "reason": "JEUS 21 Standard: 1코어 약 41만 원 이하 필요, 원화 공개 대체 없음"
+  }
+ ],
+ "sweep": {
+  "source": "work/data/latest-20261017/full-catalog-priority.parquet",
+  "filter": "detail_category LIKE '%소프트웨어%' AND local_amount_krw>=1.5e9",
+  "count": 85,
+  "lookup_states": {
+   "available": 65,
+   "claimed": 17,
+   "claimed_by_me": 2,
+   "reform_found": 1
+  },
+  "lookup_file": "work/software-goal1000/lookup-software-85.json"
+ },
+ "parallel_search_files": "work/software-goal1000/ps-*.json",
+ "root_followup": {
+  "24830440": "root submitted 2,862,417,244",
+  "23235820": "submitted by parallel session",
+  "transferred_to_industrial": [
+   "24489065",
+   "25744757",
+   "26080143",
+   "26080142",
+   "26073305",
+   "26087250",
+   "25187406",
+   "24485653",
+   "25056651",
+   "25205561",
+   "25455039",
+   "24033319"
+  ]
+ }
+}
