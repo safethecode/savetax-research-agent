@@ -27825,5 +27825,70 @@
         "reason": "EFG 기준 10억 원 미만"
       }
     ]
+  },
+  "round4_desktops": {
+    "observed_kst": "2026-10-17 02:50~03:05",
+    "spec_source": "G2B 공개 첨부 규격서 xlsx 2건을 hardware 독립 브라우저로 다운로드(work/hardware-goal1000/desktop/*-dl/). 원문은 공공조달 규격 확인용이며 가격 근거로 쓰지 않음",
+    "25618494": {
+      "model": "BMZ-7756HMP",
+      "spec": "B650 베어본·500W·타워, AMD Ryzen7 7745(PRO 7745 계열 8코어 3.8GHz), 삼성 DDR5 16GB PC5-44800, 삼성 PM9A1a 512GB NVMe, WD Blue 2TB HDD, 그래픽카드 없음, 운영체제·설치는 별도 물품(기본가 미포함), 키보드·마우스, 하자보수 1년",
+      "fact_prices": "991,500~1,595,500원, 같은 구성(단가 차이는 다수공급자 가격 조정·할인)",
+      "avg": "1,299,136원",
+      "retail_scan": "다나와 Ryzen 7 7700·DDR5 16GB·512GB 완제품(OS 미포함, HDD 없음) 최저권 1,247,420~1,299,000원(그래픽 포함 모델은 더 높음)",
+      "verdict": "negative: 동일 모델 소매 없음, 동급 이상 완제품이 조달 평균가와 비슷하거나 높아 1.2배 가격 차이와 10억 원 불가"
+    },
+    "25569851": {
+      "model": "A4SQ-5NBDF",
+      "spec": "Q670 베어본·400W·슬림, Intel Core i5-14500, 삼성 DDR5 16GB PC5-44800, 삼성 PM9A1a 512GB, Toshiba 2TB 7200rpm HDD, 그래픽카드 없음, OS 별도, H/W 원격관리, 하자보수 1년",
+      "fact_prices": "1,158,000~1,604,000원",
+      "avg": "1,398,771원",
+      "retail_scan": "다나와 i5-14500 16GB/512GB 브랜드 완제품 Dell Pro Slim QVS1260(Linux) 1,288,990원, HP 280 G9R 1,389,000원 등, 2TB HDD 미포함",
+      "verdict": "negative: 동급 이상 완제품이 조달가와 비슷해 가격 차이 기준 미달"
+    },
+    "reason_note": "데스크톱 다수공급자 계약은 다나와·에누리 부품 최저가 평균으로 매월 단가를 조정하므로 일반 판매 완제품과 차이가 작다",
+    "other_onhold_pcs": [
+      {
+        "item_id": "25101217",
+        "model": "CSG-D5H1LB0 (i5-13500/16GB/512GB/1TB HDD, OS 옵션)",
+        "avg": "985,276원",
+        "B_needed_for_1b": "479,971원",
+        "verdict": "negative: 동급 완제품 소매가가 필요가의 2배 이상"
+      },
+      {
+        "item_id": "25797468",
+        "model": "CM4-E71-B0001 (i7-14700/16GB/512GB/2TB)",
+        "avg": "1,579,580원",
+        "B_needed_for_1b": "348,053원",
+        "verdict": "negative"
+      },
+      {
+        "item_id": "25717411",
+        "model": "MI61-4565000 (i5-14500/16GB/512GB)",
+        "avg": "1,166,286원",
+        "B_needed_for_1b": "219,317원",
+        "verdict": "negative"
+      },
+      {
+        "item_id": "25612359",
+        "model": "TMB-771900 (Ryzen7 7745/16GB/512GB)",
+        "avg": "1,087,158원",
+        "B_needed_for_1b": "106,766원",
+        "verdict": "negative"
+      },
+      {
+        "item_id": "25527207",
+        "model": "MGP137156-1610 노트북 (i7-1360P/16GB/1TB/15.6 FHD/Win11 Pro)",
+        "avg": "881,356원",
+        "B_needed_for_1b": "514,249원",
+        "verdict": "negative: 동급 Win11 Pro 노트북을 51만 원 이하로 볼 수 없음"
+      },
+      {
+        "item_id": "26069548",
+        "model": "16AL255H-1605 노트북 (Core Ultra7 255H/16GB/512GB/16인치 1920×1200/Wi-Fi 7/1.19kg/Win11 Pro)",
+        "avg": "1,588,868원",
+        "B_needed_for_1b": "750,645원",
+        "verdict": "negative: Ultra 7 255H 노트북 일반가는 필요가의 약 2배"
+      }
+    ]
   }
 }
