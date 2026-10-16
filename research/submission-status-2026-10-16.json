@@ -40,5 +40,30 @@
     "shortfall_from_accepted_expected_krw": "48195118021",
     "achieved": false
   },
-  "POST_count_this_status_check": 0
+  "POST_count_this_status_check": 0,
+  "latest_quota_check": {
+    "observed_at_utc": "2026-10-16T10:11:58.631070+00:00",
+    "source": "https://hackathon.savetax.now/v1/events/current/me",
+    "claims_today": 50,
+    "claims_used": 50,
+    "scored_claims_used": 47,
+    "general_reports_used": 3,
+    "limits": {
+      "max_claims_per_day": 50,
+      "max_claims_total": 100,
+      "max_counterevidence": null,
+      "max_revisions": null,
+      "max_upload_bytes_total": 20971520
+    },
+    "remaining": {
+      "claims_per_day": 0,
+      "claims_total": 50,
+      "counterevidence": null,
+      "revisions": null,
+      "upload_bytes": 20971520
+    },
+    "limits_note": "limits의 null은 제한 없음이다(운영 설정값 0 — '0회 허용'이 아니다). 값이 있는 항목만 그 횟수·바이트까지 쓸 수 있고, 남은 양은 remaining에서 같은 규칙으로 본다",
+    "new_submission_POST_sent_to_test_quota": false,
+    "assessment": "일일 잔여0이라는 공식 응답에 따른 판단이다. 실제 신규 제출 POST로 한도 초과 응답을 시험하지 않았다."
+  }
 }
