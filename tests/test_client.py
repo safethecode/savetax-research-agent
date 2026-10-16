@@ -149,6 +149,16 @@ class ClientTests(unittest.TestCase):
                 SaveTaxClient(guide_path=Path(folder) / "missing.md")
         get.assert_not_called()
 
+    def test_default_guide_accepts_markdown_escaped_credential(self):
+        with TemporaryDirectory() as folder, patch.dict(os.environ, {}, clear=True):
+            guide = Path(folder)/'guide.md'
+            guide.write_text(TOKEN.replace('_', '\\_'), encoding='utf-8')
+            with patch('savetax.client.Path.cwd', return_value=Path(folder)):
+                client = SaveTaxClient()
+            with patch('savetax.client.requests.get', return_value=response(payload={})) as get:
+                client.get_json('https://api.savetax.now/v1/me')
+                self.assertEqual(get.call_args.kwargs['headers']['Authorization'], 'Bearer ' + TOKEN)
+
     def test_invalid_json_is_a_sanitized_error(self):
         with patch("savetax.client.requests.get", return_value=response(body=TOKEN.encode())):
             with self.assertRaises(SaveTaxError) as raised:

@@ -8,6 +8,14 @@ from savetax.secrets import activated_environment, environment, load_env_file, r
 
 
 class SecretsTests(unittest.TestCase):
+    def test_env_fallback_preserves_legacy_precedence_and_allowlist(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder)/'.env.txt'
+            path.with_name('.env').write_text('PARALLEL_API_KEY=local-key\nPATH=bad\n')
+            self.assertEqual(load_env_file(path), {'PARALLEL_API_KEY':'local-key'})
+            path.write_text('TYPESAFE_API_KEY=legacy-key\n')
+            self.assertEqual(load_env_file(path), {'TYPESAFE_API_KEY':'legacy-key'})
+
     def test_only_allowed_assignment_without_shell_evaluation(self):
         with tempfile.TemporaryDirectory() as folder:
             path = Path(folder)/'keys.txt'

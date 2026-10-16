@@ -87,8 +87,11 @@ class SaveTaxClient:
             token = os.environ.get("SAVETAX_TOKEN")
             if not token:
                 path = Path(guide_path) if guide_path is not None else Path.cwd() / "savetax-agent-guide.md"
+                if guide_path is None and not path.exists():
+                    path = Path.cwd() / "guide.md"
                 try:
-                    matches = set(TOKEN_PATTERN.findall(path.read_text(encoding="utf-8-sig")))
+                    text = path.read_text(encoding="utf-8-sig").replace("\\_", "_")
+                    matches = set(TOKEN_PATTERN.findall(text))
                 except (OSError, UnicodeError):
                     matches = set()
                 token = matches.pop() if len(matches) == 1 else None

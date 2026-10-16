@@ -1,6 +1,7 @@
 """공개 판매 페이지용 격리 Chrome·Browser Harness·Jev 연결."""
 from contextlib import contextmanager
 from datetime import datetime, timezone
+import hashlib
 import json
 import os
 import re
@@ -28,9 +29,17 @@ class BrowserRuntime:
         self.session_dir = self.work if session_name is None else self.work/'browser-sessions'/session_name
         self.profile = self.session_dir/'browser-chrome'
         self.state = self.session_dir/'browser-state'
+        self.ipc_runtime = self.state/'runtime'
+        if os.name != 'nt' and len(str(self.ipc_runtime/'bu.sock').encode()) >= 100:
+            # macOS AF_UNIX paths have a 104-byte limit; keep durable data in work/.
+            digest = hashlib.sha256(str(self.state).encode()).hexdigest()[:16]
+            self.ipc_runtime = Path('/tmp')/f'savetax-bh-{os.getuid()}'/digest
         self.process_file = self.session_dir/'browser-chrome-process.json'
         self.python = self.work/'browser-runtime'/'Scripts'/'python.exe'
         self.cli = self.python.with_name('browser-harness.exe')
+        if os.name != 'nt':
+            self.python = self.work/'browser-runtime'/'bin'/'python'
+            self.cli = self.python.with_name('browser-harness')
         self.env_file = self.root/env_file
 
     def _env(self):
@@ -42,6 +51,8 @@ class BrowserRuntime:
             # 이름 있는 세션은 상위 프로세스의 다른 Chrome 연결을 물려받지 않는다.
             for key in ('BU_CDP_URL', 'BU_CDP_WS', 'BU_NAME', 'BU_BROWSER_ID'):
                 env.pop(key, None)
+        if self.ipc_runtime != self.state/'runtime':
+            env['BH_RUNTIME_DIR'] = str(self.ipc_runtime)
         # 조달 인증은 판매 페이지/모델 subprocess에 전달하지 않는다.
         for key in list(env):
             if key.startswith('SAVETAX_'):
@@ -92,6 +103,8 @@ class BrowserRuntime:
         endpoint = self._endpoint()
         if not endpoint and start:
             candidates = [shutil.which('chrome'),
+                shutil.which('google-chrome'), shutil.which('chromium'),
+                '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
                 str(Path(os.environ.get('PROGRAMFILES', 'C:/Program Files'))/'Google/Chrome/Application/chrome.exe'),
                 str(Path(os.environ.get('LOCALAPPDATA', ''))/'Google/Chrome/Application/chrome.exe')]
             chrome = next((p for p in candidates if p and Path(p).is_file()), None)

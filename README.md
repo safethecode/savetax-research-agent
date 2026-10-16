@@ -1,6 +1,6 @@
 # SaveTax 리서치 하네스
 
-조달 물품과 국내 실제 판매가를 대조하고, 신규 고액 절감 후보를 점수 제출까지 연결하는 Python 도구다. 목표는 대회 기준 600억 원이며 아직 달성하지 않았다. 최신 조사·제출 기준은 [AGENTS.md](AGENTS.md)에 있다.
+조달 물품과 국내 실제 판매가를 대조하고, 신규 고액 절감 후보를 점수 제출까지 연결하는 Python 도구다. 최신 목표는 대회 예상액 1,000억 원이며 아직 달성하지 않았다. 신규 건당 최소 10억 원과 최신 조사·제출 기준은 [AGENTS.md](AGENTS.md)에 있다.
 
 ## 구성
 
@@ -41,6 +41,8 @@ python -m savetax --help
 ```
 
 인증은 `SAVETAX_TOKEN` 환경변수를 우선 사용한다. 없으면 기존 `savetax-agent-guide.md`에서 한 개의 토큰만 메모리로 추출한다. 개인 지침은 Git 추적에서 제외되어 있다. 공개 manifest 확인은 활성 에이전트 세션에서 수행하며 이 도구는 별도 폴러를 만들지 않는다.
+
+macOS에서는 `guide.md`와 `.env`도 기존 파일 이름이 없을 때 읽는다. 개인 지침의 마크다운 밑줄 이스케이프는 메모리에서만 정규화한다. 브라우저 런타임은 `work/browser-runtime/bin/`을 사용하며, 길이가 제한된 Unix 소켓만 세션별 `/tmp/savetax-bh-<uid>/`에 둔다. Chrome 프로필·근거·로그·잠금은 계속 `work/`에 보존한다.
 
 ```powershell
 python -m savetax download

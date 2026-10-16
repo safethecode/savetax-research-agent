@@ -14,6 +14,8 @@ def load_env_file(path='.env.txt'):
     """셸 평가 없이 허용된 NAME=value만 파싱한다. 값은 출력하지 않는다."""
     values = {}
     source = Path(path)
+    if not source.exists() and source.name == '.env.txt':
+        source = source.with_name('.env')
     if not source.exists():
         return values
     for line in source.read_text(encoding='utf-8-sig').splitlines():

@@ -29,9 +29,9 @@ class BrowserSessionTests(unittest.TestCase):
             industrial = BrowserRuntime(folder, session_name='industrial')
             hardware = BrowserRuntime(folder, session_name='hardware-2')
             with patch('savetax.browser.environment', return_value={}):
-                self.assertEqual(default._env()['BH_HOME'], str(Path(folder)/'work/browser-state'))
-                self.assertEqual(industrial._env()['BH_HOME'], str(Path(folder)/'work/browser-sessions/industrial/browser-state'))
-                self.assertEqual(hardware._env()['BH_HOME'], str(Path(folder)/'work/browser-sessions/hardware-2/browser-state'))
+                self.assertEqual(default._env()['BH_HOME'], str(Path(folder).resolve()/'work/browser-state'))
+                self.assertEqual(industrial._env()['BH_HOME'], str(Path(folder).resolve()/'work/browser-sessions/industrial/browser-state'))
+                self.assertEqual(hardware._env()['BH_HOME'], str(Path(folder).resolve()/'work/browser-sessions/hardware-2/browser-state'))
             self.assertEqual(default.python, industrial.python)
 
     def test_named_session_reads_its_own_active_port(self):
@@ -68,8 +68,8 @@ class BrowserSessionTests(unittest.TestCase):
                          ('BH_RUNTIME_DIR','BH_TMP_DIR','BH_CONFIG_DIR','BH_AGENT_WORKSPACE')}
             with patch('savetax.browser.environment', return_value=inherited):
                 env = runtime._env()
-            home = Path(folder)/'work/browser-sessions/industrial/browser-state'
-            self.assertEqual(env['BH_RUNTIME_DIR'], str(home/'runtime'))
+            home = Path(folder).resolve()/'work/browser-sessions/industrial/browser-state'
+            self.assertEqual(env['BH_RUNTIME_DIR'], str(runtime.ipc_runtime))
             self.assertEqual(env['BH_TMP_DIR'], str(home/'tmp'))
             self.assertEqual(env['BH_CONFIG_DIR'], str(home))
             self.assertEqual(env['BH_AGENT_WORKSPACE'], str(home/'agent-workspace'))
@@ -87,7 +87,7 @@ class BrowserSessionTests(unittest.TestCase):
                     patch('savetax.browser.subprocess.Popen') as spawn:
                 spawn.return_value.pid = 4321
                 result = runtime.prepare_env(start=True)
-            base = Path(folder)/'work/browser-sessions/industrial'
+            base = Path(folder).resolve()/'work/browser-sessions/industrial'
             self.assertIn('--user-data-dir='+str(base/'browser-chrome'), spawn.call_args.args[0])
             self.assertEqual(json.loads((base/'browser-chrome-process.json').read_text())['pid'], 4321)
             self.assertFalse((Path(folder)/'work/browser-chrome-process.json').exists())
