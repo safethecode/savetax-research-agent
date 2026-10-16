@@ -172,13 +172,13 @@ def learn_from_feedback(strategy, feedback):
         code = code if isinstance(code, str) and code.strip() else "UNKNOWN"
         counts[code] = counts.get(code, 0) + 1
     proposals = {
-        "MODEL_MISMATCH": "Verify the exact manufacturer model before collecting price evidence.",
-        "VAT_UNKNOWN": "Require an explicit VAT basis before comparing prices.",
-        "PRICE_GAP_TOO_SMALL": "Prioritize candidates with a verified ratio or unit-gap threshold; do not alter observed prices.",
-        "COMPARISON_BASIS_MISMATCH": "Copy the unit, tax basis and comparison basis from the official fact.",
+        "MODEL_MISMATCH": "제조사와 전체 모델명을 확인한 뒤 판매가 근거를 수집합니다.",
+        "VAT_UNKNOWN": "부가세 포함 여부를 확인한 뒤 같은 세금 기준으로 비교합니다.",
+        "PRICE_GAP_TOO_SMALL": "확인한 가격으로 기준을 넘는 후보를 우선 조사합니다. 관측 가격을 낮춰 적지 않습니다.",
+        "COMPARISON_BASIS_MISMATCH": "공식 fact의 단위·세금·비교 기준을 그대로 사용합니다.",
     }
     suggestions = [{"review_code": code, "count": count,
-                    "proposal": proposals.get(code, "Review this rejection reason and propose an evidence-check policy change.")}
+                    "proposal": proposals.get(code, "반려 사유를 읽고 다음 후보에서 확인할 근거와 조건을 보완합니다.")}
                    for code, count in sorted(counts.items(), key=lambda pair: (-pair[1], pair[0]))]
     return {"strategy": policy, "review_code_counts": dict(sorted(counts.items())),
             "suggestions": suggestions, "requires_human_review": True}

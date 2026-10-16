@@ -113,7 +113,8 @@ class SaveTaxClient:
                 timeout=self.timeout, allow_redirects=False, stream=stream,
             )
         except requests.RequestException as exc:
-            error = SaveTaxError("SaveTax transport failed (" + type(exc).__name__ + ")", stage="transport")
+            error = SaveTaxError("SaveTax transport failed (" + type(exc).__name__ + ")",
+                                 code=type(exc).__name__, stage="transport")
         if error is not None:
             raise error from None
         if response.status_code < 200 or response.status_code >= 300:

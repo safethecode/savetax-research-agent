@@ -2,6 +2,7 @@
 import argparse
 import hashlib
 import json
+import re
 import sys
 import time
 import zipfile
@@ -46,7 +47,7 @@ def render_report(result):
              f"확인한 비교 조건의 절감 가능액: {Decimal(result['verified_potential_savings_krw']):,.0f}원",
              '목표: 60,000,000,000원(600억 원)',
              '심사 인정액: 미확인 · 실제 예산 절감액: 미확인', '',
-             '현재 판매가와 과거 납품요구 기록을 대조한 조사 결과다. 지급·검수 완료나 실제 예산 절감을 뜻하지 않는다.', '',
+             '대회 기준으로 동일 상품의 현재 판매가와 납품요구 fact를 대조했다. 가격의 시점 차이는 제외 조건으로 쓰지 않는다.', '',
              '| 물품 | fact | 판정 | 절감 가능액(원) | 확인할 내용 |',
              '|---|---|---|---:|---|']
     for row in result['results']:
@@ -109,23 +110,35 @@ def _hydrate(args):
     existing = read_json(args.output) if Path(args.output).exists() else {'items': [], 'failures': []}
     done = {i['item_id'] for i in existing['items']}
     failures = {f['item_id']: f for f in existing.get('failures', [])}
-    pending = [r for r in candidates if r['item_id'] not in done][:args.limit]
+    pending = [r for r in candidates if r['item_id'] not in done
+               and (args.retry_failures or r['item_id'] not in failures)][:args.limit]
     for row in pending:
         item_id = row['item_id']
+        if not isinstance(item_id, str) or not re.fullmatch(r'[A-Za-z0-9_-]{1,200}',item_id) or 'savetax_' in item_id:
+            raise ValueError('물품 식별번호 형식이 올바르지 않습니다')
+        request_url = BASE + '/items/lookup'
         try:
             lookup = client.get_json(BASE + '/items/lookup', params={'ids': item_id})
             lookup_row = next(iter(lookup.get('items', [])), {})
-            if lookup_row.get('state') != 'available':
+            if lookup_row.get('state') not in {'available', 'claimed', 'claimed_by_me', 'reform_found', 'on_hold'}:
                 failures[item_id] = {'item_id': item_id, 'stage': 'lookup', 'state': lookup_row.get('state'),
                                      'hold_until': lookup_row.get('hold_until'), 'retryable': True}
             else:
+                request_url = BASE + '/items/' + item_id
                 item = client.get_json(BASE + '/items/' + item_id)
                 existing['items'].append(item)
                 failures.pop(item_id, None)
                 print(f"{item_id}: fact {len(item.get('facts', []))}개")
         except SaveTaxError as exc:
             failures[item_id] = {'item_id': item_id, 'stage': getattr(exc, 'stage', 'http'),
-                                 'code': getattr(exc, 'code', None), 'retryable': True}
+                                 'code': getattr(exc, 'code', None), 'retryable': True,
+                                 'host': 'hackathon.savetax.now', 'url': request_url,
+                                 'http_status': getattr(exc, 'status', None),
+                                 'retry_after': getattr(exc, 'retry_after', None),
+                                 'observed_at': datetime.now(timezone.utc).isoformat()}
+            if getattr(exc,'stage',None) == 'transport':
+                from .client import diagnose_connection
+                failures[item_id]['connection_diagnostic'] = diagnose_connection('hackathon.savetax.now')
         existing['failures'] = list(failures.values())
         write_json(args.output, existing)
         time.sleep(0.55)
@@ -139,7 +152,8 @@ def _evaluate(args):
     total = Decimal(0)
     for candidate in candidates:
         fact = candidate['fact']
-        result = evaluate_candidate(fact, candidate.get('offers', []))
+        event_gap = data.get('event', {}).get('price_gap') if isinstance(data, dict) else None
+        result = evaluate_candidate(fact, candidate.get('offers', []), price_gap=event_gap)
         result.update({'item_id': fact['item_id'], 'fact_id': fact.get('fact_id')})
         key = fact.get('fact_id')
         if result['status'] == 'verified':
@@ -195,6 +209,7 @@ def main(argv=None):
     hydrate.add_argument('--output', default='work/facts.json')
     hydrate.add_argument('--guide', default='savetax-agent-guide.md')
     hydrate.add_argument('--limit', type=int, default=10)
+    hydrate.add_argument('--retry-failures', action='store_true', help='기록한 실패 후보를 다시 확인')
     evaluate = sub.add_parser('evaluate', help='판매가 증거 평가·한국어 보고서')
     evaluate.add_argument('--input', required=True)
     evaluate.add_argument('--output', default='work/evaluation.json')
@@ -233,7 +248,10 @@ def main(argv=None):
             _evaluate(args)
         elif args.command == 'feedback':
             from .rules import learn_from_feedback
-            write_json(args.output, learn_from_feedback(read_json(args.strategy), read_json(args.input)))
+            feedback_data = read_json(args.input)
+            if isinstance(feedback_data, dict):
+                feedback_data = feedback_data.get('status', feedback_data).get('reports', [])
+            write_json(args.output, learn_from_feedback(read_json(args.strategy), feedback_data))
         elif args.command == 'market-search':
             from .market import MarketClient
             write_json(args.output, MarketClient(args.provider).search(args.query, args.limit))
@@ -243,7 +261,15 @@ def main(argv=None):
             body = validate_report(read_json(args.input))
             key = 'research-' + hashlib.sha256(json.dumps(body, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
             receipt = {'idempotency_key': key, 'body': body, 'state': 'prepared'}
-            write_json(args.receipt, receipt)
+            if Path(args.receipt).exists():
+                receipt = read_json(args.receipt)
+                if receipt.get('idempotency_key') != key or receipt.get('body') != body:
+                    raise ValueError('다른 제보의 영수증입니다. 새 receipt 경로를 사용하세요')
+                if receipt.get('state') == 'submitted':
+                    print('이미 접수한 영수증을 보존합니다: ' + str(args.receipt))
+                    return 0
+            else:
+                write_json(args.receipt, receipt)
             if args.send:
                 receipt['response'] = ReportClient(SaveTaxClient(guide_path=args.guide)).submit(body, key)
                 receipt['state'] = 'submitted'
@@ -259,7 +285,7 @@ def main(argv=None):
             rows = status.get('reports', status.get('items', []))
             histories = {}
             for row in rows:
-                if row.get('status') == 'rejected' and (report_id := row.get('report_id', row.get('id'))):
+                if row.get('review_status', row.get('status')) == 'rejected' and (report_id := row.get('report_id', row.get('id'))):
                     histories[report_id] = client.get_json(REPORTS_URL + '/' + str(report_id) + '/history')
             write_json(args.output, {'status': status, 'rejected_histories': histories})
             print('일반 제보 상태 저장: ' + str(args.output))

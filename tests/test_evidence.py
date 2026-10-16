@@ -28,6 +28,22 @@ def offer(**updates):
 
 
 class EvidenceTests(unittest.TestCase):
+    def test_overseas_all_in_price_cannot_omit_known_shipping_and_installation(self):
+        current_fact = fact(quantity='1', delivered_unit_price='120000', installation_required=True)
+        current_offer = offer(domestic=False, unit_price='80000', shipping_total='10000',
+                     installation_total='20000', installation_included=False,
+                     landed_cost_krw='90000', taxes_verified=True)
+        result = evidence.evaluate_candidate(current_fact,[current_offer])
+        self.assertEqual(result['status'],'needs_review')
+        self.assertIsNone(result['potential_savings_krw'])
+
+    def test_current_event_price_gap_override_and_off(self):
+        current_fact = fact(quantity='1', delivered_unit_price='110000')
+        current_offer = offer(unit_price='100000', shipping_total='0', installation_total='0')
+        self.assertFalse(evidence.evaluate_candidate(current_fact,[current_offer])['eligible_for_preview'])
+        self.assertTrue(evidence.evaluate_candidate(current_fact,[current_offer],price_gap={'rule':'off'})['eligible_for_preview'])
+        self.assertTrue(evidence.evaluate_candidate(current_fact,[current_offer],price_gap={
+            'rule':'enforce','min_ratio':'1.1','min_unit_krw':'1000000'})['eligible_for_preview'])
     def setUp(self):
         self.assertIsNotNone(evidence, "the candidate evidence API must exist")
 

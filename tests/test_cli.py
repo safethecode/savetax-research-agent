@@ -47,6 +47,62 @@ class CliTests(unittest.TestCase):
             self.assertEqual(code, 2)
             mining.assert_not_called()
 
+    def test_hydrate_claimed_item_remains_available_for_general_report(self):
+        with tempfile.TemporaryDirectory() as folder:
+            source, output = Path(folder)/'input.json', Path(folder)/'facts.json'
+            write_json(source, {'candidates': [{'item_id': '001'}]})
+            with patch('savetax.client.SaveTaxClient') as factory, patch('savetax.cli.time.sleep'):
+                factory.return_value.get_json.side_effect = [
+                    {'items': [{'item_id': '001', 'state': 'claimed'}]},
+                    {'item_id': '001', 'facts': [], 'availability': {'state': 'claimed'}}]
+                with contextlib.redirect_stdout(io.StringIO()):
+                    self.assertEqual(main(['hydrate','--input',str(source),'--output',str(output)]),0)
+            self.assertEqual(len(json.loads(output.read_text(encoding='utf-8'))['items']),1)
+
+    def test_reports_reads_rejected_review_status_history(self):
+        with tempfile.TemporaryDirectory() as folder:
+            output = Path(folder)/'status.json'
+            with patch('savetax.client.SaveTaxClient') as factory:
+                factory.return_value.get_json.side_effect = [
+                    {'reports': [{'report_id': 'r1', 'review_status': 'rejected'}]},
+                    {'history': [{'review_code': 'MODEL_MISMATCH'}]}]
+                with contextlib.redirect_stdout(io.StringIO()):
+                    self.assertEqual(main(['reports', '--output', str(output)]),0)
+            self.assertIn('r1', json.loads(output.read_text(encoding='utf-8'))['rejected_histories'])
+
+    def test_report_replay_preserves_receipt_and_never_resends_success(self):
+        with tempfile.TemporaryDirectory() as folder:
+            source, receipt = Path(folder)/'report.json', Path(folder)/'receipt.json'
+            body = {'product_id': '001', 'product_name': '상품',
+                    'reason': '같은 모델의 현재 판매 페이지를 직접 확인했으며 조건 확인이 필요합니다.',
+                    'source_url': 'https://example.com/item'}
+            write_json(source, body)
+            with patch('savetax.client.SaveTaxClient'), patch('savetax.reports.ReportClient') as reports:
+                reports.return_value.submit.return_value = {'report_id': 'R-123', 'review_status': 'submitted'}
+                with contextlib.redirect_stdout(io.StringIO()):
+                    self.assertEqual(main(['report', '--input', str(source), '--receipt', str(receipt), '--send']),0)
+                    self.assertEqual(main(['report', '--input', str(source), '--receipt', str(receipt)]),0)
+                    self.assertEqual(main(['report', '--input', str(source), '--receipt', str(receipt), '--send']),0)
+            saved = json.loads(receipt.read_text(encoding='utf-8'))
+            self.assertEqual(saved['response']['report_id'], 'R-123')
+            self.assertEqual(saved['state'], 'submitted')
+            reports.return_value.submit.assert_called_once()
+
+    def test_hydrate_failure_records_actual_http_status_url_and_time(self):
+        from savetax.client import SaveTaxError
+        with tempfile.TemporaryDirectory() as folder:
+            source, output = Path(folder)/'input.json', Path(folder)/'facts.json'
+            write_json(source, {'candidates': [{'item_id': '001'}]})
+            with patch('savetax.client.SaveTaxClient') as factory, patch('savetax.cli.time.sleep'):
+                factory.return_value.get_json.side_effect = SaveTaxError('HTTP',status=401,code='invalid_token',stage='http')
+                with contextlib.redirect_stdout(io.StringIO()):
+                    self.assertEqual(main(['hydrate','--input',str(source),'--output',str(output)]),0)
+            row = json.loads(output.read_text(encoding='utf-8'))['failures'][0]
+            self.assertEqual(row['http_status'],401)
+            self.assertEqual(row['host'],'hackathon.savetax.now')
+            self.assertIn('/items/lookup',row['url'])
+            self.assertIn('+00:00',row['observed_at'])
+
 
 if __name__ == '__main__':
     unittest.main()

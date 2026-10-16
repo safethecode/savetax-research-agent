@@ -18,8 +18,8 @@ _KST = timezone(timedelta(hours=9))
 _NUMBER = re.compile(r"[+]?(?:[0-9]+(?:\.[0-9]+)?|\.[0-9]+)\Z")
 _DATE = re.compile(r"[0-9]{4}-[0-9]{2}-[0-9]{2}\Z")
 _CAVEAT = (
-    "과거 납품요구의 가격과 현재 관측 판매가는 시점이 다르므로, 관측 절감가능액은 "
-    "당시 구매 가능성·납품 완료·심사 인정액·실현절감액을 증명하지 않습니다."
+    "대회 기준으로 현재 확인한 동일 상품 가격과 납품요구 fact를 비교합니다. "
+    "계산된 절감 가능액과 심사 인정액·실제 예산 절감액은 구분합니다."
 )
 
 
@@ -164,6 +164,9 @@ def _offer_value(fact, offer, quantity, now):
             reasons.append("overseas_landed_cost_and_taxes_required")
         if landed is not None and price is not None and landed < price:
             reasons.append("overseas_landed_cost_below_observed_price")
+        if (landed is not None and price is not None and shipping is not None
+                and installation is not None and landed < price + (shipping + installation) / quantity):
+            reasons.append("overseas_landed_cost_omits_known_costs")
     if reasons:
         return None, reasons
     if landed is not None:
@@ -175,7 +178,7 @@ def _offer_value(fact, offer, quantity, now):
     return comparison.quantize(Decimal("0.000001"), rounding=ROUND_CEILING), []
 
 
-def evaluate_candidate(fact, offers):
+def evaluate_candidate(fact, offers, *, price_gap=None):
     """Evaluate supplied facts and independently observed, all-in KRW offers.
 
     A domestic valid offer wins over every overseas offer. An overseas offer
@@ -210,8 +213,17 @@ def evaluate_candidate(fact, offers):
         _, comparison, _, _, selected = min(valid, key=lambda entry: entry[:4])
         savings = max(amount - comparison * quantity, Decimal(0)).to_integral_value(rounding=ROUND_FLOOR)
         delivered_price = amount / quantity
-        threshold_met = (delivered_price >= Decimal("1.2") * comparison
-                         or delivered_price - comparison >= Decimal("1000000"))
+        gap = price_gap if price_gap is not None else {
+            'rule': 'enforce', 'min_ratio': '1.2', 'min_unit_krw': '1000000'}
+        if isinstance(gap, dict) and gap.get('rule') == 'off':
+            threshold_met = True
+        elif isinstance(gap, dict) and gap.get('rule') == 'enforce':
+            ratio = _number(gap.get('min_ratio'), positive=True)
+            unit_gap = _number(gap.get('min_unit_krw'))
+            threshold_met = bool(ratio is not None and unit_gap is not None and (
+                delivered_price >= ratio * comparison or delivered_price - comparison >= unit_gap))
+        else:
+            threshold_met = False
         result.update({"status": "verified" if savings > 0 else "no_saving",
                        "comparison_unit_price": _decimal_string(comparison),
                        "potential_savings_krw": _decimal_string(savings),
