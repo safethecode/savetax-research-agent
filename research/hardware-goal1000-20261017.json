@@ -27927,5 +27927,78 @@
     ],
     "price_reobserved": "2026-10-16T17:39:06Z usashop EFG 3,700,000원 관부가세 포함·무료배송·수량 1 합계 3,700,000원·바로 구매",
     "POST_calls": 0
+  },
+  "round6_security_network_0_8b_scan": {
+    "observed_kst": "2026-10-17 03:00~03:10",
+    "scanned": 62,
+    "available": 16,
+    "file": "work/hardware-goal1000/frontier/sec-net-0.8b-available.json",
+    "verdicts": [
+      [
+        "24239989 SNIPER ONE-i 5300",
+        "60Gbps IPS·64GB, EFG/UDM 열세, EF-Core 원화 없음"
+      ],
+      [
+        "25131074 BLUEMAX NGF 5100",
+        "160Gbps·32코어, 열세"
+      ],
+      [
+        "24689125 ITU 9000",
+        "24코어·32GB, EFG 열세, EF-Core 원화 없음"
+      ],
+      [
+        "24935005 TrusGuard 500C",
+        "FW 30G·VPN 6G·CPS 55만, EFG 명확한 우위 아님"
+      ],
+      [
+        "25890465 XTG 5000",
+        "64GB·FW 180G, 열세"
+      ],
+      [
+        "25940541 BLUEMAX WIPS 714",
+        "B≤1,057,573원 필요. Ubiquiti는 전용 WIPS 센서가 없어 명확한 상위 대체 아님"
+      ],
+      [
+        "24291246 AIPS 5000B",
+        "IPS 30G, 열세"
+      ],
+      [
+        "24935006 AIRTMS S800",
+        "B≤714,801원 필요, 전용 WIPS 대체 없음"
+      ],
+      [
+        "23891640 AXGATE 1300S",
+        "VPN 3.8G 공시, EFG VPN 우위 입증 불가"
+      ],
+      [
+        "24680233 한드림넷 SG9806",
+        "6슬롯 L3 섀시 1.28Tbps, 납품 구성의 모듈·포트 미확인, B≤7,571,840원"
+      ],
+      [
+        "24967543 AhnLab MDS 5000B",
+        "샌드박스 APT 분석 장비, 게이트웨이와 용도 다름"
+      ],
+      [
+        "23891639 AXGATE 300S",
+        "B≤1,967,156원 필요. EFG 3.7M 초과, UDM-Pro-Max는 F/W 12G·VPN 3.8G 대비 우위 입증 불가"
+      ],
+      [
+        "25937285 AhnLab XTG 500",
+        "16GB·FW 40G·VPN 10G·이중 전원, EFG 열세"
+      ],
+      [
+        "23606401 BLUEMAX NGF 100",
+        "B≤133,574원 필요"
+      ],
+      [
+        "24604299 BLUEMAX IPS 2000",
+        "B≤2,000,000원 필요, EFG 3.7M 초과"
+      ],
+      [
+        "25778511 WAPPLES 2700",
+        "웹방화벽, B≤1,671,600원 필요"
+      ]
+    ],
+    "ready": 0
   }
 }
