@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "savetax-research-agent"
+version = "0.1.0"
+description = "국내 판매가와 조달 납품요구 사실을 대조하는 근거 중심 리서치 하네스"
+requires-python = ">=3.11"
+dependencies = ["requests>=2.32,<3", "duckdb>=1.1,<2"]
+
+[project.scripts]
+savetax = "savetax.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["savetax*"]
