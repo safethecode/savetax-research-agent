@@ -1,0 +1,671 @@
+{
+ "observed_at": "2026-10-17 KST",
+ "scope": "총 납품금액 10억 원 이상 2,060개 중 available·비차량 물품 전체",
+ "items_with_local_spend_ge_1b": 2060,
+ "searched_items": 1313,
+ "items_with_price_mentions": 43,
+ "note": "Parallel 검색 발췌의 가격 언급은 단서일 뿐이다. 접수 근거로 쓰지 않았고 단서마다 원문 맥락을 확인했다. 전수 판정은 에이전트별 fullcoverage 파일에 이어서 기록한다.",
+ "hits": [
+  {
+   "item_id": "26094718",
+   "name": "다목적승용차, 현대자동차, 스타리아 투어러 가솔린 1.6 터보 하이브리드 9인승 스마트 2026년, A/T",
+   "unit_price": 37360000.0,
+   "amount": 7285200000.0,
+   "hit_prices": [
+    30370000
+   ],
+   "hit_urls": [
+    "https://mlimousine.co.kr/sub/price/staria_price.php"
+   ],
+   "verdict": "다른 트림(카고 디젤) 가격"
+  },
+  {
+   "item_id": "26163687",
+   "name": "전기다목적승용차, 기아, EV3 전기차 어스 롱레인지 2026년(27각자), 5인승",
+   "unit_price": 46360000.0,
+   "amount": 4404200000.0,
+   "hit_prices": [
+    20428200,
+    7214999,
+    33066130
+   ],
+   "hit_urls": [
+    "https://www.eacar.co.kr/car/33168",
+    "https://web.getcha.kr/blog/rent-0pay-kia-ev3-18156-18156",
+    "https://web.getcha.kr/blog/ev-lease-rent-kia-ev3-1065"
+   ],
+   "verdict": "리스 잔존가·보조금"
+  },
+  {
+   "item_id": "26082628",
+   "name": "중형승합차, 현대자동차, 스타리아 LPG 투어러 11인승 모던 2026년, A/T",
+   "unit_price": 35270000.0,
+   "amount": 2997950000.0,
+   "hit_prices": [
+    12713809,
+    27800000,
+    23900000,
+    23700000
+   ],
+   "hit_urls": [
+    "https://web.joongna.com/search/%EC%8A%A4%ED%83%80%EB%A6%AC%EC%95%8411%EC%9D%B8%EC%8A%B9"
+   ],
+   "verdict": "중고차 매물"
+  },
+  {
+   "item_id": "26163685",
+   "name": "전기다목적승용차, 기아, EV3 전기차 에어 롱레인지 2026년(27각자), 5인승",
+   "unit_price": 42560000.0,
+   "amount": 2979200000.0,
+   "hit_prices": [
+    33066130,
+    7214999
+   ],
+   "hit_urls": [
+    "https://web.getcha.kr/blog/ev-lease-rent-kia-ev3-1065",
+    "https://web.getcha.kr/blog/rent-0pay-kia-ev3-18156-18156"
+   ],
+   "verdict": "보조금 반영가"
+  },
+  {
+   "item_id": "26253422",
+   "name": "중형승합차, 현대자동차, 스타리아 킨더 LPI 3.5 11인승 2027년, A/T",
+   "unit_price": 40160000.0,
+   "amount": 2610400000.0,
+   "hit_prices": [
+    32590000
+   ],
+   "hit_urls": [
+    "https://www.hyundai.com/kr/ko/e/vehicles/staria/price"
+   ],
+   "verdict": "기본 트림 시작가"
+  },
+  {
+   "item_id": "26021362",
+   "name": "전기화물트럭, 현대자동차, 포터 EV 2WD 슈퍼캡 초장축 프리미엄 스페셜 2026년, 적재용량1000kg",
+   "unit_price": 44820000.0,
+   "amount": 2465100000.0,
+   "hit_prices": [
+    21410000,
+    21520000,
+    22650000,
+    22570000
+   ],
+   "hit_urls": [
+    "https://www.hyundai.com/kr/ko/e/vehicles/porter2/intro",
+    "https://www.carnoon.co.kr/newcar/estimate/10014"
+   ],
+   "verdict": "LPG 트림 가격"
+  },
+  {
+   "item_id": "26025574",
+   "name": "화물트럭, 현대자동차, 포터 LPDi 2WD 더블캡 초장축 프리미엄 2026년, M/T",
+   "unit_price": 24250000.0,
+   "amount": 2449250000.0,
+   "hit_prices": [
+    13181000,
+    13181000
+   ],
+   "hit_urls": [
+    "https://www.eacar.co.kr/car/33728"
+   ],
+   "verdict": "동일 트림 신차가 아님"
+  },
+  {
+   "item_id": "23975840",
+   "name": "차선분리대, 동양이엔씨, SH-001, Φ200×1800×980mm, 독립형",
+   "unit_price": 186969.34351775394,
+   "amount": 1811359000.0,
+   "hit_prices": [
+    87500,
+    88000,
+    149600,
+    100000
+   ],
+   "hit_urls": [
+    "https://annashs.co.kr/product/%EC%BC%80%EC%96%B4%EB%A7%A5%EC%8A%A4-%EC%A0%91%EC%9D%B4%EC%8B%9D-%EB%AA%A9%EC%9A%95%EC%9D%98%EC%9E%90-sh-001/156",
+    "https://hnmedi.co.kr/product/%EC%8B%A4%EB%B2%84%ED%94%8C%EB%9D%BC%EC%9D%B4-%EC%A0%91%EC%9D%B4%EC%8B%9D-%EB%AA%A9%EC%9A%95%EC%9D%98%EC%9E%90-sh-001/3769",
+    "https://gomedical.co.kr/product/%EC%BC%80%EC%96%B4%EB%A7%A5%EC%8A%A4-%EC%A0%91%EC%9D%B4%EC%8B%9D-%EB%AA%A9%EC%9A%95%EC%9D%98%EC%9E%90-sh-001-%EC%83%A4%EC%9B%8C%EC%B2%B4%EC%96%B4/442"
+   ],
+   "verdict": "동명 목욕의자"
+  },
+  {
+   "item_id": "24998491",
+   "name": "세탁물건조기, 삼성전자, DV20CB8600BW, 20kg",
+   "unit_price": 927946.7458932238,
+   "amount": 1807640261.0,
+   "hit_prices": [
+    651740,
+    749120,
+    411740
+   ],
+   "hit_urls": [
+    "https://m.shinsegaetvshopping.com/category/30101368?trackSearchType=m_category",
+    "https://www.lowchart.com/7746729803-20855998418"
+   ],
+   "verdict": "동일 모델 현재가가 조달가보다 높음"
+  },
+  {
+   "item_id": "24113178",
+   "name": "분전반, 동구, Donggu-DIST-S",
+   "unit_price": 37996800.0,
+   "amount": 1519872000.0,
+   "hit_prices": [
+    15000000
+   ],
+   "hit_urls": [
+    "https://www.donggu.go.kr/gyeyak/gyeyak_sub03_01_02.do"
+   ],
+   "verdict": "관공서 용역 계약금액"
+  },
+  {
+   "item_id": "25009660",
+   "name": "냉난방기, 삼성전자, AP290CSPDHH1PP, 냉방29/난방33kW, 직립형",
+   "unit_price": 4969000.0,
+   "amount": 1356537000.0,
+   "hit_prices": [
+    3980000
+   ],
+   "hit_urls": [
+    "https://www.coupang.com/vp/products/9742347325"
+   ],
+   "verdict": "모델 suffix 상이·쿠팡·예상 2.7억"
+  },
+  {
+   "item_id": "25777164",
+   "name": "세탁물건조기, 삼성전자, DV21DG8600BE, 21kg",
+   "unit_price": 998948.4708818636,
+   "amount": 1200736062.0,
+   "hit_prices": [
+    752070
+   ],
+   "hit_urls": [
+    "https://search.11st.co.kr/MW/search?searchKeyword=dv90t5540bv&tabId=TOTAL_SEARCH"
+   ],
+   "verdict": "예상 3억 미만"
+  },
+  {
+   "item_id": "26080143",
+   "name": "사무용소프트웨어, 한글과컴퓨터, 한컴오피스 AI 패키지 플러스 교육용 V1.0, 사무용문서작성, 10조이상/ALA",
+   "unit_price": 192500.0,
+   "amount": 9745120000.0,
+   "hit_prices": [
+    160000,
+    94900,
+    104900
+   ],
+   "hit_urls": [
+    "https://dscloud.co.kr/category/%ED%95%9C%EC%BB%B4%EC%98%A4%ED%94%BC%EC%8A%A4-2024/69"
+   ],
+   "verdict": "사용권 종류 상이(산업 에이전트 판정)"
+  },
+  {
+   "item_id": "21657949",
+   "name": "시멘트, 삼표시멘트, 포틀랜드시멘트(1종)포장, 40kg",
+   "unit_price": 5630.487681638923,
+   "amount": 7198567240.0,
+   "hit_prices": [
+    4390
+   ],
+   "hit_urls": [
+    "https://www.widedaily.com/news/articleView.html?idxno=284770"
+   ],
+   "verdict": "주가"
+  },
+  {
+   "item_id": "26262525",
+   "name": "전투복, 태일비즈, 육군 하계용 하의(남군), 국방규격",
+   "unit_price": 35860.0,
+   "amount": 6758570060.0,
+   "hit_prices": [
+    10900,
+    10900
+   ],
+   "hit_urls": [
+    "https://m.gun-go.com/product/%EA%B5%B0%EC%9D%B8-%EC%9E%85%EB%8C%80-%EC%A4%80%EB%B9%84%EB%AC%BC-%EB%AA%A8%EC%9D%8C-%EA%B5%B0%EC%9A%A9%ED%92%88-%EA%B5%B0%EC%9D%B8%ED%9B%88%EB%A0%A8-%EC%83%9D%ED%99%9C%EC%9A%A9%ED%92%88-%ED%95%84%EA%B8%B0%EC%9A%A9%ED%92%88-%ED%99%94%EC%9E%A5%ED%92%88/1752?item_code=P0000CPK0FRW"
+   ],
+   "verdict": "깔창 가격"
+  },
+  {
+   "item_id": "26262530",
+   "name": "전투복, 희림상사, 육군 사계용 상의(남군) 벨크로, 국방규격",
+   "unit_price": 38460.0,
+   "amount": 4277444280.0,
+   "hit_prices": [
+    27000,
+    30000,
+    29000,
+    19000
+   ],
+   "hit_urls": [
+    "https://xn--kj0bl76aelfh1l.com/"
+   ],
+   "verdict": "깃발·내의 가격"
+  },
+  {
+   "item_id": "26262529",
+   "name": "전투복, 희림상사, 육군 사계용 하의(남군), 국방규격",
+   "unit_price": 35630.0,
+   "amount": 4153887920.0,
+   "hit_prices": [
+    27500,
+    20000,
+    13000,
+    13500
+   ],
+   "hit_urls": [
+    "https://web.joongna.com/search/%EC%9C%A1%EA%B5%B0%EA%B5%AC%ED%98%95",
+    "https://gun-go.com/product/%EA%B5%B0%EC%9D%B8-%EC%96%91%EB%A7%90-%EC%97%AC%EB%A6%84-%ED%95%98%EA%B3%84%EC%9A%A9/323"
+   ],
+   "verdict": "깔창·중고"
+  },
+  {
+   "item_id": "26262531",
+   "name": "전투복, 무궁화용사촌에프앤씨, 육군 사계용 하의(남군), 국방규격",
+   "unit_price": 36140.0,
+   "amount": 4213309620.0,
+   "hit_prices": [
+    18000,
+    25000,
+    15000,
+    22000
+   ],
+   "hit_urls": [
+    "https://junwoomall.com/"
+   ],
+   "verdict": "국방규격 군복"
+  },
+  {
+   "item_id": "25368131",
+   "name": "햄류, 씨제이제일제당, 스팸클래식, 1.81kg",
+   "unit_price": 18800.0,
+   "amount": 3646391600.0,
+   "hit_prices": [
+    13120,
+    14610,
+    13690,
+    5980
+   ],
+   "hit_urls": [
+    "https://www.lotteon.com/m/product/LO2457579399",
+    "https://emile.emarteveryday.co.kr/product/ProductView?skuCode=8801007431147"
+   ],
+   "verdict": "kg당 소매가가 더 높음"
+  },
+  {
+   "item_id": "25601526",
+   "name": "보안소프트웨어, 이글루코퍼레이션, SPiDER ExD V1.0, 통합보안관리, Agent, Collector",
+   "unit_price": 2710000.0,
+   "amount": 3447120000.0,
+   "hit_prices": [
+    2000000
+   ],
+   "hit_urls": [
+    "https://www.ncloud.com/marketplace/spiderexd"
+   ],
+   "verdict": "검색 단서 부적합(동일 모델 아님 또는 10억 미만)"
+  },
+  {
+   "item_id": "26080142",
+   "name": "사무용소프트웨어, 한글과컴퓨터, 한컴오피스 AI 패키지 교육용 V1.0, 사무용문서작성, 10조이상/ALA",
+   "unit_price": 144100.0,
+   "amount": 3257380500.0,
+   "hit_prices": [
+    49000,
+    99000,
+    94900,
+    99000
+   ],
+   "hit_urls": [
+    "https://dscloud.co.kr/",
+    "https://ynssoft.co.kr/article/it-%EC%89%BD%EA%B2%8C-%EC%95%8C%EC%95%84%EA%B0%80%EA%B8%B0/5/5524",
+    "https://softinfo.co.kr/product/%ED%95%9C%EA%B8%80%EA%B3%BC%EC%BB%B4%ED%93%A8%ED%84%B0-%ED%95%9C%EC%BB%B4%EC%98%A4%ED%94%BC%EC%8A%A4-%ED%95%9C%EC%BB%B4%EB%8F%85%EC%8A%A4-mlp-%EA%B8%B0%EC%97%85%EC%9A%A91%EB%85%84%EC%82%AC%EC%9A%A9%EC%A0%9C%ED%92%88%ED%82%A4-%EB%B0%B0%EC%86%A1%ED%98%95/397"
+   ],
+   "verdict": "가격 차이 1.13배(산업 에이전트 판정)"
+  },
+  {
+   "item_id": "26262520",
+   "name": "전투복, 태일비즈, 육군 사계용 하의(남군), 국방규격",
+   "unit_price": 36310.0,
+   "amount": 3234385870.0,
+   "hit_prices": [
+    27500,
+    20000
+   ],
+   "hit_urls": [
+    "https://web.joongna.com/search/%EC%9C%A1%EA%B5%B0%EA%B5%AC%ED%98%95"
+   ],
+   "verdict": "국방규격 군복"
+  },
+  {
+   "item_id": "26073305",
+   "name": "사무용소프트웨어, 한글과컴퓨터, 한컴오피스 AI 패키지 플러스 행망용 V1.0, 사무용문서작성, 100조이상/ALA",
+   "unit_price": 224400.0,
+   "amount": 2845616400.0,
+   "hit_prices": [
+    106000,
+    104000
+   ],
+   "hit_urls": [
+    "https://www.devicemart.co.kr/goods/catalog?code=0016001500020002"
+   ],
+   "verdict": "사용권 종류 상이"
+  },
+  {
+   "item_id": "25187406",
+   "name": "사무용소프트웨어, 한글과컴퓨터, 한컴오피스 2024, 한글, 사무용문서작성, 200User이상/ALA",
+   "unit_price": 80740.0,
+   "amount": 2269278440.0,
+   "hit_prices": [
+    35500,
+    65000
+   ],
+   "hit_urls": [
+    "https://shopping.pping.kr/detail/12960548",
+    "https://digijobs.net/product/%EC%A0%95%ED%92%88-%ED%95%9C%EA%B8%80%EA%B3%BC%EC%BB%B4%ED%93%A8%ED%84%B0-%ED%95%9C%EC%BB%B4%EC%98%A4%ED%94%BC%EC%8A%A4-%ED%95%9C%EA%B8%80-2024-for-mac%EB%A7%A5%EC%9A%A9-%EA%B0%80%EC%A0%95-%EB%B0%8F-%ED%95%99%EC%83%9D%EC%9A%A9-%EC%A0%9C%ED%92%88%ED%82%A4-%EC%98%81%EA%B5%AC%EB%B2%84%EC%A0%84/94"
+   ],
+   "verdict": "공개가가 조달가보다 높음"
+  },
+  {
+   "item_id": "26274072",
+   "name": "군용방한복, 삼부산업, 육군 방상외피(레이어링), 국방규격",
+   "unit_price": 86780.0,
+   "amount": 2047140200.0,
+   "hit_prices": [
+    39000,
+    33150,
+    29000,
+    69000
+   ],
+   "hit_urls": [
+    "https://gunincom.cafe24.com/"
+   ],
+   "verdict": "국방규격 군복"
+  },
+  {
+   "item_id": "24136871",
+   "name": "전투복, 전투복, 하, 75-168-M(18년)",
+   "unit_price": 33806.181650765044,
+   "amount": 1725568930.0,
+   "hit_prices": [
+    19000,
+    24000,
+    19000,
+    19000
+   ],
+   "hit_urls": [
+    "https://gyobokmall.co.kr/category/%EB%B0%80%EB%A6%AC%ED%84%B0%EB%A6%AC-%EC%9D%98%EC%83%81/736"
+   ],
+   "verdict": "검색 단서 부적합(동일 모델 아님 또는 10억 미만)"
+  },
+  {
+   "item_id": "23534084",
+   "name": "보차도용콘크리트블록, 홍우비앤티, PBN-20206G, 200×200×60mm, 싸인블록, 고반사민무늬형, 불투수",
+   "unit_price": 33100.0,
+   "amount": 1718552000.0,
+   "hit_prices": [
+    13100
+   ],
+   "hit_urls": [
+    "https://savetax.now/agency/5740000?category=3013150201&from=2026-01-01&to=2026-12-31"
+   ],
+   "verdict": "다른 모델의 공공조달 납품가"
+  },
+  {
+   "item_id": "24597138",
+   "name": "소시지류, 농협목우촌, 주부9단 비엔나소시지, 700g",
+   "unit_price": 6300.0,
+   "amount": 1677078900.0,
+   "hit_prices": [
+    2000,
+    3000,
+    5000,
+    3500
+   ],
+   "hit_urls": [
+    "https://v.daum.net/v/7SctSANdva",
+    "https://moguchonmall.com/product/%EA%B7%B9%ED%95%9C%EB%94%9C-%EB%AA%A9%EC%9A%B0%EC%B4%8C-%EC%A3%BC%EB%B6%809%EB%8B%A8-%ED%95%9C%EC%9A%B0-%EC%82%AC%EA%B3%A8%EA%B3%B0%ED%83%95-450g-x-4%EA%B0%9C/3091",
+    "https://search.11st.co.kr/MW/search?rising=Y&searchKeyword=%EB%B9%84%EC%97%94%EB%82%98%EC%86%8C%EC%8B%9C%EC%A7%80&tabId=TOTAL_SEARCH"
+   ],
+   "verdict": "산업 에이전트 전수 판정으로 이관"
+  },
+  {
+   "item_id": "23733974",
+   "name": "레미콘, 남해레미콘, 25-27-150, 25-27-150",
+   "unit_price": 124740.0,
+   "amount": 1647191700.0,
+   "hit_prices": [
+    99600,
+    95500,
+    91400,
+    99600
+   ],
+   "hit_urls": [
+    "https://buildlibrary.co.kr/%EB%A0%88%EB%AF%B8%EC%BD%98-%EA%B0%80%EA%B2%A9-%EC%96%BC%EB%A7%88%EC%9D%BC%EA%B9%8C-2026%EB%85%84-%EA%B0%95%EB%8F%84%EB%B3%84%EC%A7%80%EC%97%AD%EB%B3%84-%EB%8B%A8%EA%B0%80-%EC%B4%9D%EC%A0%95"
+   ],
+   "verdict": "검색 단서 부적합(동일 모델 아님 또는 10억 미만)"
+  },
+  {
+   "item_id": "24136869",
+   "name": "전투복, 하전투복, 하, 75-168-M(18년)",
+   "unit_price": 33400.749546316496,
+   "amount": 1638072960.0,
+   "hit_prices": [
+    13000,
+    14000,
+    25000,
+    19900
+   ],
+   "hit_urls": [
+    "https://rokmcplaza.com/",
+    "https://hsmoa.com/search?query=%ED%95%98",
+    "https://web.joongna.com/search/%EC%9C%A1%EA%B5%B0%EA%B5%AC%ED%98%95"
+   ],
+   "verdict": "국방규격 군복"
+  },
+  {
+   "item_id": "22598402",
+   "name": "레미콘, 해국레미콘, 25-30-120, 25-30-120",
+   "unit_price": 197600.0,
+   "amount": 1544639200.0,
+   "hit_prices": [
+    114240
+   ],
+   "hit_urls": [
+    "https://ktomok.com/shop/item.php?it_id=1581999325"
+   ],
+   "verdict": "검색 단서 부적합(동일 모델 아님 또는 10억 미만)"
+  },
+  {
+   "item_id": "26262519",
+   "name": "전투복, 태일비즈, 육군 사계용 상의(남군), 국방규격",
+   "unit_price": 39220.0,
+   "amount": 1526795380.0,
+   "hit_prices": [
+    27500,
+    20000
+   ],
+   "hit_urls": [
+    "https://web.joongna.com/search/%EC%9C%A1%EA%B5%B0%EA%B5%AC%ED%98%95"
+   ],
+   "verdict": "검색 단서 부적합(동일 모델 아님 또는 10억 미만)"
+  },
+  {
+   "item_id": "26289030",
+   "name": "군용방한복, 518민주화운동부상자회, 육군 방상내피(레이어링), 국방규격",
+   "unit_price": 47220.0,
+   "amount": 1350114240.0,
+   "hit_prices": [
+    27000,
+    30000,
+    29000,
+    19000
+   ],
+   "hit_urls": [
+    "https://armyrang.com/",
+    "https://qoonin.com/"
+   ],
+   "verdict": "검색 단서 부적합(동일 모델 아님 또는 10억 미만)"
+  },
+  {
+   "item_id": "22839936",
+   "name": "수도용덕타일주철관, Φ350mm×6m, 2종, KP메커니컬/에폭시",
+   "unit_price": 909610.0,
+   "amount": 1339855530.0,
+   "hit_prices": [
+    707000
+   ],
+   "hit_urls": [
+    "https://www.ilovepc.co.kr/news/articleView.html?idxno=44008"
+   ],
+   "verdict": "검색 단서 부적합(동일 모델 아님 또는 10억 미만)"
+  },
+  {
+   "item_id": "25328870",
+   "name": "전투식량, 발열-22형, 10식단",
+   "unit_price": 12840.0,
+   "amount": 1310450400.0,
+   "hit_prices": [
+    9153,
+    9076,
+    9153,
+    9153
+   ],
+   "hit_urls": [
+    "https://biz.chungoose.kr/3038139780"
+   ],
+   "verdict": "검색 단서 부적합(동일 모델 아님 또는 10억 미만)"
+  },
+  {
+   "item_id": "25328872",
+   "name": "전투식량, 발열-22형, 12식단",
+   "unit_price": 12640.0,
+   "amount": 1296623840.0,
+   "hit_prices": [
+    9153,
+    9076,
+    9153,
+    9153
+   ],
+   "hit_urls": [
+    "https://biz.chungoose.kr/3038139780"
+   ],
+   "verdict": "검색 단서 부적합(동일 모델 아님 또는 10억 미만)"
+  },
+  {
+   "item_id": "25328869",
+   "name": "전투식량, 발열-22형, 9식단",
+   "unit_price": 12280.0,
+   "amount": 1253296800.0,
+   "hit_prices": [
+    9153,
+    9076,
+    9153,
+    9153
+   ],
+   "hit_urls": [
+    "https://biz.chungoose.kr/3038139780"
+   ],
+   "verdict": "검색 단서 부적합(동일 모델 아님 또는 10억 미만)"
+  },
+  {
+   "item_id": "22597697",
+   "name": "레미콘, 목포레미콘, 25-27-150, 25-27-150",
+   "unit_price": 124736.85127221324,
+   "amount": 1235393775.0,
+   "hit_prices": [
+    99600,
+    95500,
+    91400,
+    99600
+   ],
+   "hit_urls": [
+    "https://buildlibrary.co.kr/%EB%A0%88%EB%AF%B8%EC%BD%98-%EA%B0%80%EA%B2%A9-%EC%96%BC%EB%A7%88%EC%9D%BC%EA%B9%8C-2026%EB%85%84-%EA%B0%95%EB%8F%84%EB%B3%84%EC%A7%80%EC%97%AD%EB%B3%84-%EB%8B%A8%EA%B0%80-%EC%B4%9D%EC%A0%95",
+    "https://www.sankun.com/blog/detail/1224_2026-remicon-price-per-cubic-meter-by-region"
+   ],
+   "verdict": "검색 단서 부적합(동일 모델 아님 또는 10억 미만)"
+  },
+  {
+   "item_id": "26316952",
+   "name": "우의, 진화퍼시픽, 육군 기능성전투우의(레이어링) 상의, 국방규격",
+   "unit_price": 242930.0,
+   "amount": 1158776100.0,
+   "hit_prices": [
+    87160,
+    87160,
+    135750
+   ],
+   "hit_urls": [
+    "https://savetax.now/agency/ZD00106?sort=amount",
+    "https://savetax.now/agency/ZD00106?page=2&sort=amount"
+   ],
+   "verdict": "검색 단서 부적합(동일 모델 아님 또는 10억 미만)"
+  },
+  {
+   "item_id": "22840121",
+   "name": "수도용덕타일주철관, Φ150mm×6m, 3종, 타이튼/에폭시",
+   "unit_price": 318490.0,
+   "amount": 1132231950.0,
+   "hit_prices": [
+    149000,
+    149000
+   ],
+   "hit_urls": [
+    "https://www.elandmall.co.kr/i/item?itemNo=2111924770&lowerVendNo=LV21028254"
+   ],
+   "verdict": "검색 단서 부적합(동일 모델 아님 또는 10억 미만)"
+  },
+  {
+   "item_id": "26289024",
+   "name": "군용방한복, 제일피복공업, 육군 방상내피(레이어링), 국방규격",
+   "unit_price": 47000.0,
+   "amount": 1131525000.0,
+   "hit_prices": [
+    39000,
+    33150,
+    18000,
+    15300
+   ],
+   "hit_urls": [
+    "https://gunincom.cafe24.com/"
+   ],
+   "verdict": "검색 단서 부적합(동일 모델 아님 또는 10억 미만)"
+  },
+  {
+   "item_id": "25350763",
+   "name": "전투복, 하계용, 상의, 남군, 2023년, 벨크로",
+   "unit_price": 32998.9035410473,
+   "amount": 1121071750.0,
+   "hit_prices": [
+    24900,
+    23900,
+    11900,
+    19500
+   ],
+   "hit_urls": [
+    "https://augustplan.com/category/top/44",
+    "https://search.11st.co.kr/pc/total-search?kwd=%EC%95%84%EC%9E%84%ED%99%88%EB%A6%AC%EB%B9%99",
+    "https://4uprice.com/products/p-7445155151"
+   ],
+   "verdict": "검색 단서 부적합(동일 모델 아님 또는 10억 미만)"
+  },
+  {
+   "item_id": "24136889",
+   "name": "전투복, 하계용, 상의, 공군, 남군",
+   "unit_price": 33080.0,
+   "amount": 1024355280.0,
+   "hit_prices": [
+    24900,
+    23900,
+    11900,
+    19500
+   ],
+   "hit_urls": [
+    "https://augustplan.com/category/top/44",
+    "https://search.11st.co.kr/pc/total-search?kwd=%EC%95%84%EC%9E%84%ED%99%88%EB%A6%AC%EB%B9%99",
+    "https://4uprice.com/products/p-7445155151"
+   ],
+   "verdict": "검색 단서 부적합(동일 모델 아님 또는 10억 미만)"
+  }
+ ]
+}
