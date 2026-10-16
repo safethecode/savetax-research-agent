@@ -637,6 +637,31 @@
         "event_rules",
         "remaining_quota"
       ]
+    },
+    "nextday_local_assessment": {
+      "generated_at_utc": "2026-10-16T11:23:00.210532+00:00",
+      "harness_commit": "a3d1b9d",
+      "comparison_assessment": {
+        "core_purpose": {
+          "status": "verified",
+          "basis": "원품과 판매품 모두 성인용 접이식 야전침대의 기본 취침 용도다. 군용 재질·정량시험·부품 호환은 동등하다고 주장하지 않고 공개한 차이로 보존한다."
+        },
+        "complete_product": {
+          "status": "verified",
+          "basis": "판매 상세 사진9·10·11에서 침상 원단·측면폴·레버형 지지프레임·높이 다리·가방을 확인했다. 65,000원은 완성 침대1개 선택가이며 높이 다리 별도 필수옵션은 없다."
+        }
+      },
+      "body_file": "work/highvalue-industrial/cot-24077287/nextday-assessed-body.json",
+      "body_bytes_compact_utf8": 38559,
+      "body_sha256": "9abed5a5b8db2658c9d023eeda7d8de1265f09dca90bb07d1834b470d89427f2",
+      "local_build_passed": true,
+      "benchmark_krw": "68000",
+      "local_arithmetic_difference_krw": "484038612",
+      "official_preview_for_this_new_body_executed": false,
+      "fresh_state_price_rules_quota_and_preview_required_before_submission": true,
+      "prior_preview_body_retained": true,
+      "prior_preview_body_sha256": "1bd5398782f66e871fbb59476c6865bdc464ee0e184a628feb813ff10d04e3f4",
+      "new_submit_or_revision_calls": 0
     }
   }
 }
