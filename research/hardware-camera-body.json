@@ -5883,6 +5883,19 @@
         "receipt_key": "score-b968e12b77641dd48c44c6c644e6c8792949099b20da513616864da4d7239bf5",
         "note": "파일 해시는 저장한 최종 본문 바이트 기준이다. compact 해시는 ScoreClient의 JSON 직렬화 규칙 기준이며 멱등 키와 동일한 해시라고 주장하지 않는다."
       }
+    },
+    "military_sportswear": {
+      "status": "미접수. 오늘 한도0으로 내일 최종 검토 대기",
+      "report_json": "research/sportswear-candidates.json",
+      "report_markdown": "research/sportswear-candidates.md",
+      "item_ids": [
+        "23229507",
+        "23229506"
+      ],
+      "fact_references_count": 77,
+      "provisional_spring_comparison_amount_krw": "1605159000",
+      "adopted_saving_krw": "0",
+      "note": "전체 관련번호·원규격·실판매 근거·차이·한계는 별도 후보 문서에 보존한다."
     }
   },
   "accepted_items_references_count": 433,

@@ -106,3 +106,7 @@ EM-36B8V2는 [제조사 원문](https://www.emstone.com/ko/products/2ub8v2-tta2.
 일반 방화벽·IPsec VPN·기본 IPS 기능 범위의 다른 모델 비교다. 원품의 보안 인터페이스와 UDM 내장 L2 스위치 포트 구조, 별도 MGT·콘솔, 로그 1TB와 내장 128GB SSD, 가상 시스템, PQC·국산 암호·CC 인증, SSL 복호화·DLP·AV·단말 점검·고급 연동·Active-Active HA의 차이를 공개했다. 원품 Throughput 8Gbps와 [대체품의 IPS 5Gbps](https://techspecs.ui.com/unifi/cloud-gateways/udm-pro-max)는 측정 항목과 조건이 같다는 근거가 없어 성능 동등성 근거로 쓰지 않는다. 원품의 현장설치·1년 하자보수와 해외구매대행·국내 AS 불가도 다르다. 실제 기관의 모든 요구가 충족되거나 완전 교체 가능함을 입증한 비교가 아니다.
 
 이 보고서의 최신 accepted 누계는 **8건·5,085,493,150원**이다. NGF 310의 최종 본문은 `work/highvalue-hardware/score-25395525.json`이며 파일 크기 192,592바이트, SHA-256은 `73031f7935d0341e043f8d453173e0e059882debc3842903120e775909abbd6a`이다. 영수증 경로·멱등 키와 전체 123개 관련번호는 JSON에 보존했다.
+
+## 내일 검토 대기: 육군 춘추·동계 운동복
+
+춘추·동계 두 물품의 전체77개 관련번호와 원규격·실판매·차이·한계는 [별도 운동복 후보 문서](sportswear-candidates.md) 및 [JSON](sportswear-candidates.json)에 보존했다. 춘추 예비 산술 차액은1,605,159,000원이며 미접수·내일 검토 대기다. 이 보고서의8건 accepted 누계에는 포함하지 않는다.
