@@ -55,9 +55,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 42,603,448원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('휴네시온 i-oneNet V5.0 R2 가격 판매 견적') 결과 7건, 모델명 일치 7건. 원화 판매 페이지 없음. 제조사 사이트(hunesion.com)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 7177500000.0,
-   "max_benchmark_for_1B_krw": 42603448
+   "max_benchmark_for_1B_krw": 42603448,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24489065",
@@ -132,9 +133,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(시스템관리소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 2,631,104원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('지니언스 Genian ZTNA V6.0 SP1 가격 판매 견적') 결과 7건, 모델명 일치 5건. 원화 판매 페이지 없음. 제조사 사이트(docs.genians.com, genians.co.kr)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 4933500000.0,
-   "max_benchmark_for_1B_krw": 2631104
+   "max_benchmark_for_1B_krw": 2631104,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24279226",
@@ -143,9 +145,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(산업관리소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 13,110,169원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('피씨엔 광선로통합관리솔루션 v1.0 가격 판매 견적') 결과 4건, 모델명 일치 0건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 4867500000.0,
-   "max_benchmark_for_1B_krw": 13110169
+   "max_benchmark_for_1B_krw": 13110169,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25359608",
@@ -154,9 +157,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(시스템관리소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 2,744,205원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('제니퍼소프트 제니퍼 X 5.0 (JENNIFER X 5.0) 가격 판매 견적') 결과 6건, 모델명 일치 6건. 원화 판매 페이지 없음. 제조사 사이트(jennifersoft.com)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 4537280000.0,
-   "max_benchmark_for_1B_krw": 2744205
+   "max_benchmark_for_1B_krw": 2744205,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25424957",
@@ -176,9 +180,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 26,409,919원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('펜타시큐리티 D'Amo v5.0 가격 판매 견적') 결과 8건, 모델명 일치 6건. 원화 판매 페이지 없음. 제조사 사이트(pentasecurity.co.kr, pentasecurity.com)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 4248420000.0,
-   "max_benchmark_for_1B_krw": 26409919
+   "max_benchmark_for_1B_krw": 26409919,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25195754",
@@ -209,9 +214,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 48,758,621원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('피앤피시큐어 DBSAFER Enterprise V7.0 가격 판매 견적') 결과 8건, 모델명 일치 8건. 원화 판매 페이지 없음. 제조사 사이트(blog.pnpsecure.com, pnpsecure.com)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 3828000000.0,
-   "max_benchmark_for_1B_krw": 48758621
+   "max_benchmark_for_1B_krw": 48758621,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "26137711",
@@ -242,9 +248,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 1,923,836원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('이글루코퍼레이션 SPiDER ExD V1.0 가격 판매 견적') 결과 8건, 모델명 일치 8건. 원화 판매 페이지 없음. 제조사 사이트(igloo.co.kr)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음. 네이버 클라우드 SPiDER ExD on Cloud는 일일 10GB당 2,000,000원/월(VAT 별도) 구독이라 영구 Agent/Collector 사용권과 다름",
    "local_amount_krw": 3447120000.0,
-   "max_benchmark_for_1B_krw": 1923836
+   "max_benchmark_for_1B_krw": 1923836,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24422601",
@@ -253,9 +260,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(증명발급기), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 17,447,059원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('한국타피 TAPI-9320B 가격 판매 견적') 결과 6건, 모델명 일치 0건. 원화 판매 페이지 없음. 대체품 검색(work/software-goal1000/ps-sub-78cb49.json)에서도 행정 무인민원발급기 표준규격의 장애인 필수 7종과 발급 주변기기를 갖춘 소매 판매처를 찾지 못함.",
    "local_amount_krw": 3372800000.0,
-   "max_benchmark_for_1B_krw": 17447059
+   "max_benchmark_for_1B_krw": 17447059,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "26080142",
@@ -297,9 +305,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(유틸리티소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 777,784원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('비에이인프라 VIRBAK ABIO V5.0 가격 판매 견적') 결과 5건, 모델명 일치 3건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 3061905000.0,
-   "max_benchmark_for_1B_krw": 777784
+   "max_benchmark_for_1B_krw": 777784,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25267803",
@@ -330,9 +339,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 6,110,526원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('위즈디엔에스코리아 WEEDS BlackBox Suite V2.0 가격 판매 견적') 결과 8건, 모델명 일치 6건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 2857600000.0,
-   "max_benchmark_for_1B_krw": 6110526
+   "max_benchmark_for_1B_krw": 6110526,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "23638830",
@@ -341,9 +351,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(경영관리소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 38,541,667원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('씨앤에프시스템 올샵 플러스 v1.0 가격 판매 견적') 결과 8건, 모델명 일치 6건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 2850000000.0,
-   "max_benchmark_for_1B_krw": 38541667
+   "max_benchmark_for_1B_krw": 38541667,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "26073305",
@@ -363,9 +374,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(원격자동검침시스템), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 102,380원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('영아이티 E-FosPlayer v1.3 가격 판매 견적') 결과 3건, 모델명 일치 0건. 원화 판매 페이지 없음. 대체품 검색('NB-IoT 원격검침 단말기 수도계량기 판매 가격', work/software-goal1000/ps-sub-710d4d.json)에서도 통신 모듈과 수도계량기 프로토콜·인증을 갖춘 소매 단말기를 찾지 못함. G마켓의 원격지시부·산업용 유량계는 범위가 달라 제외.",
    "local_amount_krw": 2840682000.0,
-   "max_benchmark_for_1B_krw": 102380
+   "max_benchmark_for_1B_krw": 102380,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24066903",
@@ -385,9 +397,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 25,774,627원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('이글루코퍼레이션 SPiDER ExD V1.0 가격 판매 견적') 결과 8건, 모델명 일치 8건. 원화 판매 페이지 없음. 제조사 사이트(igloo.co.kr)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음. 네이버 클라우드 SPiDER ExD on Cloud는 월 구독 요금이라 영구 Manager 사용권과 다름",
    "local_amount_krw": 2726900000.0,
-   "max_benchmark_for_1B_krw": 25774627
+   "max_benchmark_for_1B_krw": 25774627,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25744757",
@@ -418,9 +431,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(데이터베이스관리소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 3,782,705원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('엑셈 맥스게이지 포 오라클 5 가격 판매 견적') 결과 5건, 모델명 일치 4건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 2706000000.0,
-   "max_benchmark_for_1B_krw": 3782705
+   "max_benchmark_for_1B_krw": 3782705,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25472474",
@@ -429,9 +443,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 85,913원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('지니언스 Genian Insights E v2.0 가격 판매 견적') 결과 8건, 모델명 일치 6건. 원화 판매 페이지 없음. 제조사 사이트(genians.co.kr, wp.genians.co.kr)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 2701674800.0,
-   "max_benchmark_for_1B_krw": 85913
+   "max_benchmark_for_1B_krw": 85913,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24239989",
@@ -451,9 +466,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 8,932,840원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('소만사 DB-i V6.1 가격 판매 견적') 결과 5건, 모델명 일치 2건. 원화 판매 페이지 없음. 제조사 사이트(somansa.com)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 2509650000.0,
-   "max_benchmark_for_1B_krw": 8932840
+   "max_benchmark_for_1B_krw": 8932840,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "26108550",
@@ -462,9 +478,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(원격자동검침시스템), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 29,900원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('삼성계기공업 S-AMN3-NB3 가격 판매 견적') 결과 2건, 모델명 일치 0건. 원화 판매 페이지 없음. 대체품 검색('NB-IoT 원격검침 단말기 수도계량기 판매 가격', work/software-goal1000/ps-sub-710d4d.json)에서도 통신 모듈과 수도계량기 프로토콜·인증을 갖춘 소매 단말기를 찾지 못함. G마켓의 원격지시부·산업용 유량계는 범위가 달라 제외.",
    "local_amount_krw": 2495000000.0,
-   "max_benchmark_for_1B_krw": 29900
+   "max_benchmark_for_1B_krw": 29900,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "23224766",
@@ -484,9 +501,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(패키지소프트웨어개발및도입서비스), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 176,311원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('대국지에스 공간누리 v5.0/커스터마이징-응용SW개발자/1인/1일 가격 판매 견적') 결과 8건, 모델명 일치 0건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 2359185270.0,
-   "max_benchmark_for_1B_krw": 176311
+   "max_benchmark_for_1B_krw": 176311,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25533814",
@@ -495,9 +513,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(시스템관리소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 12,666원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('지니언스 Genian ZTNA V6.0 SP1 가격 판매 견적') 결과 7건, 모델명 일치 5건. 원화 판매 페이지 없음. 제조사 사이트(docs.genians.com, genians.co.kr)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 2357080000.0,
-   "max_benchmark_for_1B_krw": 12666
+   "max_benchmark_for_1B_krw": 12666,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25677468",
@@ -506,9 +525,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(원격자동검침시스템), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 44,238원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('그린플로우 G-AMN-NB3S-K 가격 판매 견적') 결과 3건, 모델명 일치 0건. 원화 판매 페이지 없음. 대체품 검색('NB-IoT 원격검침 단말기 수도계량기 판매 가격', work/software-goal1000/ps-sub-710d4d.json)에서도 통신 모듈과 수도계량기 프로토콜·인증을 갖춘 소매 단말기를 찾지 못함. G마켓의 원격지시부·산업용 유량계는 범위가 달라 제외.",
    "local_amount_krw": 2317233920.0,
-   "max_benchmark_for_1B_krw": 44238
+   "max_benchmark_for_1B_krw": 44238,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24362786",
@@ -517,9 +537,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(증명발급기), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 12,263,333원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('에니텍시스 AT-K300E 가격 판매 견적') 결과 4건, 모델명 일치 2건. 원화 판매 페이지 없음. 대체품 검색(work/software-goal1000/ps-sub-78cb49.json)에서도 행정 무인민원발급기 표준규격의 장애인 필수 7종과 발급 주변기기를 갖춘 소매 판매처를 찾지 못함.",
    "local_amount_krw": 2287650000.0,
-   "max_benchmark_for_1B_krw": 12263333
+   "max_benchmark_for_1B_krw": 12263333,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25187406",
@@ -539,9 +560,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(원격자동검침시스템), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 70,021원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('쏜다 CA1200U 가격 판매 견적') 결과 3건, 모델명 일치 0건. 원화 판매 페이지 없음. 대체품 검색('NB-IoT 원격검침 단말기 수도계량기 판매 가격', work/software-goal1000/ps-sub-710d4d.json)에서도 통신 모듈과 수도계량기 프로토콜·인증을 갖춘 소매 단말기를 찾지 못함. G마켓의 원격지시부·산업용 유량계는 범위가 달라 제외.",
    "local_amount_krw": 2259881310.0,
-   "max_benchmark_for_1B_krw": 70021
+   "max_benchmark_for_1B_krw": 70021,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "22787893",
@@ -561,9 +583,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 24,000,000원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('로그프레소 Logpresso Sonar 4.0 가격 판매 견적') 결과 8건, 모델명 일치 6건. 원화 판매 페이지 없음. 제조사 사이트(logpresso.com, logpresso.store)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 2200000000.0,
-   "max_benchmark_for_1B_krw": 24000000
+   "max_benchmark_for_1B_krw": 24000000,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25131074",
@@ -594,9 +617,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(원격자동검침시스템), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 90,867원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('영아이티 SMART-AIM2.2 가격 판매 견적') 결과 4건, 모델명 일치 0건. 원화 판매 페이지 없음. 대체품 검색('NB-IoT 원격검침 단말기 수도계량기 판매 가격', work/software-goal1000/ps-sub-710d4d.json)에서도 통신 모듈과 수도계량기 프로토콜·인증을 갖춘 소매 단말기를 찾지 못함. G마켓의 원격지시부·산업용 유량계는 범위가 달라 제외.",
    "local_amount_krw": 2148290000.0,
-   "max_benchmark_for_1B_krw": 90867
+   "max_benchmark_for_1B_krw": 90867,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24590125",
@@ -605,9 +629,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 24,223,404원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('나일소프트 Secuguard SSE V7.0 가격 판매 견적') 결과 6건, 모델명 일치 1건. 원화 판매 페이지 없음. 제조사 사이트(nilesoft.co.kr)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 2138500000.0,
-   "max_benchmark_for_1B_krw": 24223404
+   "max_benchmark_for_1B_krw": 24223404,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24607829",
@@ -616,9 +641,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(프로그램개발용소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 4,960,556원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('투비소프트 Nexacro N 가격 판매 견적') 결과 6건, 모델명 일치 3건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 2116125000.0,
-   "max_benchmark_for_1B_krw": 4960556
+   "max_benchmark_for_1B_krw": 4960556,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25439743",
@@ -627,9 +653,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 1,295,755원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('시큐브 Secuve TOS 5.0 for Linux (RHEL 9) m 가격 판매 견적') 결과 8건, 모델명 일치 7건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 2098800000.0,
-   "max_benchmark_for_1B_krw": 1295755
+   "max_benchmark_for_1B_krw": 1295755,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25427714",
@@ -682,9 +709,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(인증서버소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 21,609,756원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('펜타시큐리티 iSIGN+ v4.0 가격 판매 견적') 결과 8건, 모델명 일치 5건. 원화 판매 페이지 없음. 제조사 사이트(pentasecurity.co.kr)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1886000000.0,
-   "max_benchmark_for_1B_krw": 21609756
+   "max_benchmark_for_1B_krw": 21609756,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25056651",
@@ -704,9 +732,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(통신소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 559,805원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('유비라인 UBIS-RBT&VR V2.00 가격 판매 견적') 결과 6건, 모델명 일치 0건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1860980000.0,
-   "max_benchmark_for_1B_krw": 559805
+   "max_benchmark_for_1B_krw": 559805,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25862817",
@@ -726,9 +755,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 7,270,570원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('쿼리시스템즈 QTIE v2.0 가격 판매 견적') 결과 5건, 모델명 일치 3건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1828845000.0,
-   "max_benchmark_for_1B_krw": 7270570
+   "max_benchmark_for_1B_krw": 7270570,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25341846",
@@ -737,9 +767,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(원격자동검침시스템), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 55,140원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('프리스타일테크놀로지 유한회사 FNB-533-5S 가격 판매 견적') 결과 3건, 모델명 일치 0건. 원화 판매 페이지 없음. 대체품 검색('NB-IoT 원격검침 단말기 수도계량기 판매 가격', work/software-goal1000/ps-sub-710d4d.json)에서도 통신 모듈과 수도계량기 프로토콜·인증을 갖춘 소매 단말기를 찾지 못함. G마켓의 원격지시부·산업용 유량계는 범위가 달라 제외.",
    "local_amount_krw": 1825003000.0,
-   "max_benchmark_for_1B_krw": 55140
+   "max_benchmark_for_1B_krw": 55140,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24139739",
@@ -759,9 +790,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(교통신호제어기), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 1,751,482원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('태대 TD-7001 가격 판매 견적') 결과 4건, 모델명 일치 0건. 원화 판매 페이지 없음.",
    "local_amount_krw": 1789918600.0,
-   "max_benchmark_for_1B_krw": 1751482
+   "max_benchmark_for_1B_krw": 1751482,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24619568",
@@ -770,9 +802,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 35,980,952원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('수산아이앤티 eWalker SWG V10 가격 판매 견적') 결과 3건, 모델명 일치 2건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1755600000.0,
-   "max_benchmark_for_1B_krw": 35980952
+   "max_benchmark_for_1B_krw": 35980952,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24033319",
@@ -803,9 +836,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B 제품(무인교통감시장치), 공개 판매가 없음 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('건아정보기술 KATES-I9MF-KAR-TP2 가격 판매 견적') 결과 3건, 모델명 일치 0건. 원화 판매 페이지 없음.",
    "local_amount_krw": 1692000000.0,
-   "max_benchmark_for_1B_krw": null
+   "max_benchmark_for_1B_krw": null,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "23896564",
@@ -847,9 +881,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 8,044,878원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('펜타시큐리티 D'Amo v5.0 가격 판매 견적') 결과 8건, 모델명 일치 6건. 원화 판매 페이지 없음. 제조사 사이트(pentasecurity.co.kr, pentasecurity.com)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1659680000.0,
-   "max_benchmark_for_1B_krw": 8044878
+   "max_benchmark_for_1B_krw": 8044878,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25845621",
@@ -869,9 +904,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 21,666,667원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('이글루코퍼레이션 SPiDER SOAR V2.0 가격 판매 견적') 결과 6건, 모델명 일치 2건. 원화 판매 페이지 없음. 제조사 사이트(igloo.co.kr)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1650000000.0,
-   "max_benchmark_for_1B_krw": 21666667
+   "max_benchmark_for_1B_krw": 21666667,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24947053",
@@ -880,9 +916,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 18,988,235원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('수산아이앤티 eWalker SWG V10 가격 판매 견적') 결과 3건, 모델명 일치 2건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1645600000.0,
-   "max_benchmark_for_1B_krw": 18988235
+   "max_benchmark_for_1B_krw": 18988235,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24027594",
@@ -891,9 +928,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(정보검색소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 3,865,031원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('이씨오 알파스 v1.0 가격 판매 견적') 결과 7건, 모델명 일치 0건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1630000000.0,
-   "max_benchmark_for_1B_krw": 3865031
+   "max_benchmark_for_1B_krw": 3865031,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "26041312",
@@ -902,9 +940,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 10,333,333원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('소만사 Privacy-i V8.0 가격 판매 견적') 결과 8건, 모델명 일치 5건. 원화 판매 페이지 없음. 제조사 사이트(somansa.com)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음. NHN·네이버 클라우드 Privacy-i는 월 구독(Agent 수 기준)으로 영구 유출통제모듈과 사용권 형태가 다름",
    "local_amount_krw": 1620000000.0,
-   "max_benchmark_for_1B_krw": 10333333
+   "max_benchmark_for_1B_krw": 10333333,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25521954",
@@ -913,9 +952,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(시스템관리소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 29,380,952원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('에스티이지 E-GENE ITSM v6.0 가격 판매 견적') 결과 7건, 모델명 일치 4건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1617000000.0,
-   "max_benchmark_for_1B_krw": 29380952
+   "max_benchmark_for_1B_krw": 29380952,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24935005",
@@ -935,9 +975,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(인증서버소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 131,054원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('담비기술 iokey 1 가격 판매 견적') 결과 7건, 모델명 일치 3건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1593152000.0,
-   "max_benchmark_for_1B_krw": 131054
+   "max_benchmark_for_1B_krw": 131054,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25819965",
@@ -957,9 +998,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(시스템관리소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 2,380,591원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('지니언스 Genian ZTNA V6.0 SP1 가격 판매 견적') 결과 7건, 모델명 일치 5건. 원화 판매 페이지 없음. 제조사 사이트(docs.genians.com, genians.co.kr)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1564200000.0,
-   "max_benchmark_for_1B_krw": 2380591
+   "max_benchmark_for_1B_krw": 2380591,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "23506581",
@@ -968,9 +1010,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(데이터베이스관리소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 1,442,455원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('엑셈 맥스게이지 5 가격 판매 견적') 결과 7건, 모델명 일치 1건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1564000000.0,
-   "max_benchmark_for_1B_krw": 1442455
+   "max_benchmark_for_1B_krw": 1442455,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25697029",
@@ -979,9 +1022,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(사무용소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 2,043,529원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('사이냅소프트 Synap Document Viewer 2025 가격 판매 견적') 결과 8건, 모델명 일치 5건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1555840000.0,
-   "max_benchmark_for_1B_krw": 2043529
+   "max_benchmark_for_1B_krw": 2043529,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25890465",
@@ -990,9 +1034,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(방화벽장치), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 17,241,935원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('안랩(AHNLAB,INC.) AhnLab XTG 5000 가격 판매 견적') 결과 8건, 모델명 일치 7건. 원화 판매 페이지 없음. 제조사 사이트(ahnlab.com, company.ahnlab.com)에도 공개 가격 없음.",
    "local_amount_krw": 1534500000.0,
-   "max_benchmark_for_1B_krw": 17241935
+   "max_benchmark_for_1B_krw": 17241935,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "23666581",
@@ -1001,9 +1046,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(원격자동검침시스템), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 34,450원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('유비콤 UTBNB9-19-UE 가격 판매 견적') 결과 3건, 모델명 일치 0건. 원화 판매 페이지 없음. 대체품 검색('NB-IoT 원격검침 단말기 수도계량기 판매 가격', work/software-goal1000/ps-sub-710d4d.json)에서도 통신 모듈과 수도계량기 프로토콜·인증을 갖춘 소매 단말기를 찾지 못함. G마켓의 원격지시부·산업용 유량계는 범위가 달라 제외.",
    "local_amount_krw": 1520946000.0,
-   "max_benchmark_for_1B_krw": 34450
+   "max_benchmark_for_1B_krw": 34450,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25184587",
@@ -1012,9 +1058,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 329,022원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('에스지에이솔루션즈 Secureguard AM v8.2 가격 판매 견적') 결과 8건, 모델명 일치 4건. 원화 판매 페이지 없음. 제조사 사이트(sgasol.kr)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1514920000.0,
-   "max_benchmark_for_1B_krw": 329022
+   "max_benchmark_for_1B_krw": 329022,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25415937",
@@ -1034,9 +1081,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(증명발급기), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 5,979,390원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('한국타피 TAPI-9270T 가격 판매 견적') 결과 4건, 모델명 일치 0건. 원화 판매 페이지 없음. 대체품 검색(work/software-goal1000/ps-sub-78cb49.json)에서도 행정 무인민원발급기 표준규격의 장애인 필수 7종과 발급 주변기기를 갖춘 소매 판매처를 찾지 못함.",
    "local_amount_krw": 1490310000.0,
-   "max_benchmark_for_1B_krw": 5979390
+   "max_benchmark_for_1B_krw": 5979390,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24528630",
@@ -1045,9 +1093,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 957원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('안랩(AHNLAB,INC.) AhnLab EPP Management 1.0 SP1 가격 판매 견적') 결과 8건, 모델명 일치 6건. 원화 판매 페이지 없음. 제조사 사이트(ahnlab.com)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1468641000.0,
-   "max_benchmark_for_1B_krw": 957
+   "max_benchmark_for_1B_krw": 957,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25197030",
@@ -1056,9 +1105,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 15,616,667원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('에스큐브아이 Net-Protect V3.0 가격 판매 견적') 결과 4건, 모델명 일치 1건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1468500000.0,
-   "max_benchmark_for_1B_krw": 15616667
+   "max_benchmark_for_1B_krw": 15616667,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24713135",
@@ -1067,9 +1117,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 12,572,973원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('피앤피시큐어 DBSAFER Enterprise V7.0 가격 판매 견적') 결과 8건, 모델명 일치 7건. 원화 판매 페이지 없음. 제조사 사이트(blog.pnpsecure.com, pnpsecure.com)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1465200000.0,
-   "max_benchmark_for_1B_krw": 12572973
+   "max_benchmark_for_1B_krw": 12572973,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "26050514",
@@ -1078,9 +1129,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 710,811원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('제너시스템 IEUMnet V1.0 가격 판매 견적') 결과 2건, 모델명 일치 0건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1420800000.0,
-   "max_benchmark_for_1B_krw": 710811
+   "max_benchmark_for_1B_krw": 710811,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25231511",
@@ -1089,9 +1141,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 4,011,990원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('라온시큐어 TouchEn mVaccine v3.0 가격 판매 견적') 결과 8건, 모델명 일치 7건. 원화 판매 페이지 없음. 제조사 사이트(raon.com, raonsecure.com)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1397187000.0,
-   "max_benchmark_for_1B_krw": 4011990
+   "max_benchmark_for_1B_krw": 4011990,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25533807",
@@ -1100,9 +1153,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(시스템관리소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 4,288,889원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('지니언스 Genian ZTNA V6.0 SP1 가격 판매 견적') 결과 7건, 모델명 일치 5건. 원화 판매 페이지 없음. 제조사 사이트(docs.genians.com, genians.co.kr)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1386000000.0,
-   "max_benchmark_for_1B_krw": 4288889
+   "max_benchmark_for_1B_krw": 4288889,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "26101163",
@@ -1111,9 +1165,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 13,785,714원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('한싹 SecureGate V4.0 가격 판매 견적') 결과 8건, 모델명 일치 5건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1386000000.0,
-   "max_benchmark_for_1B_krw": 13785714
+   "max_benchmark_for_1B_krw": 13785714,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24630643",
@@ -1122,9 +1177,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(무인교통감시장치), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 7,396,231원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('렉스젠 REX-NEH9 ST1 가격 판매 견적') 결과 4건, 모델명 일치 0건. 원화 판매 페이지 없음.",
    "local_amount_krw": 1384604000.0,
-   "max_benchmark_for_1B_krw": 7396231
+   "max_benchmark_for_1B_krw": 7396231,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24231459",
@@ -1133,9 +1189,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(유틸리티소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 3,881,702원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('엑스로그 X-LOG for CDC v6.0 가격 판매 견적') 결과 6건, 모델명 일치 5건. 원화 판매 페이지 없음. 제조사 사이트(xlog.co.kr, xlog.sh)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1364880000.0,
-   "max_benchmark_for_1B_krw": 3881702
+   "max_benchmark_for_1B_krw": 3881702,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24234183",
@@ -1144,9 +1201,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(통신소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 289,627원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('솔루텍 IPX-SERIES v3.0 가격 판매 견적') 결과 7건, 모델명 일치 0건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1357400000.0,
-   "max_benchmark_for_1B_krw": 289627
+   "max_benchmark_for_1B_krw": 289627,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24098522",
@@ -1155,9 +1213,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 12,685,714원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('에스큐아이소프트 ssBridge V5.0 가격 판매 견적') 결과 8건, 모델명 일치 1건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1355200000.0,
-   "max_benchmark_for_1B_krw": 12685714
+   "max_benchmark_for_1B_krw": 12685714,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25616385",
@@ -1166,9 +1225,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 20,176,471원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('소만사 WebKeeper SG V11 가격 판매 견적') 결과 8건, 모델명 일치 6건. 원화 판매 페이지 없음. 제조사 사이트(somansa.com)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1343000000.0,
-   "max_benchmark_for_1B_krw": 20176471
+   "max_benchmark_for_1B_krw": 20176471,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24000542",
@@ -1177,9 +1237,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(시스템관리소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 874,326원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('엑셈 인터맥스5 가격 판매 견적') 결과 4건, 모델명 일치 0건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1337490000.0,
-   "max_benchmark_for_1B_krw": 874326
+   "max_benchmark_for_1B_krw": 874326,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25455039",
@@ -1199,9 +1260,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(태양광발전장치), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 716,079원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색(' None 가격 판매 견적') 결과 7건, 모델명 일치 0건. 원화 판매 페이지 없음.",
    "local_amount_krw": 1330828300.0,
-   "max_benchmark_for_1B_krw": 716079
+   "max_benchmark_for_1B_krw": 716079,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24450917",
@@ -1210,9 +1272,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 6,591,837원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('소만사 WebKeeper SG V11 가격 판매 견적') 결과 8건, 모델명 일치 7건. 원화 판매 페이지 없음. 제조사 사이트(somansa.com)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1323000000.0,
-   "max_benchmark_for_1B_krw": 6591837
+   "max_benchmark_for_1B_krw": 6591837,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25610079",
@@ -1232,9 +1295,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(시스템관리소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 2,133,333원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('지니언스 Genian ZTNA V6.0 SP1 가격 판매 견적') 결과 7건, 모델명 일치 5건. 원화 판매 페이지 없음. 제조사 사이트(docs.genians.com, genians.co.kr)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1320000000.0,
-   "max_benchmark_for_1B_krw": 2133333
+   "max_benchmark_for_1B_krw": 2133333,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "23689037",
@@ -1243,9 +1307,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(프로그램개발용소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 26,666,667원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('티쓰리큐 T3Q.ai 3 가격 판매 견적') 결과 8건, 모델명 일치 5건. 원화 판매 페이지 없음. 제조사 사이트(t3q.ai, t3q.com)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1320000000.0,
-   "max_benchmark_for_1B_krw": 26666667
+   "max_benchmark_for_1B_krw": 26666667,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "23687048",
@@ -1254,9 +1319,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(웹페이지편집소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 3,780,000원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('한컴이노스트림 CLIP report V5.0 가격 판매 견적') 결과 8건, 모델명 일치 6건. 원화 판매 페이지 없음. 제조사 사이트(hancomins.com, tech.hancomins.com)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1302400000.0,
-   "max_benchmark_for_1B_krw": 3780000
+   "max_benchmark_for_1B_krw": 3780000,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25148372",
@@ -1265,9 +1331,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(패키지소프트웨어개발및도입서비스), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 69,829원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('핸디소프트 HANDY Smart Office v10/커스터마이징-응용SW개발자/1인/1일 가격 판매 견적') 결과 8건, 모델명 일치 3건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1288394800.0,
-   "max_benchmark_for_1B_krw": 69829
+   "max_benchmark_for_1B_krw": 69829,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25423179",
@@ -1287,9 +1354,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(방화벽장치), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 608,135원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('시큐아이 BLUEMAX WIPS 714 가격 판매 견적') 결과 8건, 모델명 일치 8건. 원화 판매 페이지 없음. 제조사 사이트(secui.com)에도 공개 가격 없음.",
    "local_amount_krw": 1270620000.0,
-   "max_benchmark_for_1B_krw": 608135
+   "max_benchmark_for_1B_krw": 608135,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25624862",
@@ -1298,9 +1366,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 5,331,837원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('소만사 WebKeeper SG V11 가격 판매 견적') 결과 8건, 모델명 일치 6건. 원화 판매 페이지 없음. 제조사 사이트(somansa.com)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음. kosw.or.kr의 33,000원은 다른 조달 품목(SecureWeb) 단가로 공공조달 가격이며 사용 불가",
    "local_amount_krw": 1261260000.0,
-   "max_benchmark_for_1B_krw": 5331837
+   "max_benchmark_for_1B_krw": 5331837,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25016109",
@@ -1309,9 +1378,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 6,684,211원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('펜타시큐리티 D'Amo KMS v5.0 가격 판매 견적') 결과 8건, 모델명 일치 6건. 원화 판매 페이지 없음. 제조사 사이트(pentasecurity.co.kr, pentasecurity.com)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1254000000.0,
-   "max_benchmark_for_1B_krw": 6684211
+   "max_benchmark_for_1B_krw": 6684211,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24910971",
@@ -1320,9 +1390,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 48,164원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('사이버다임 Destiny ECM v5 가격 판매 견적') 결과 8건, 모델명 일치 7건. 원화 판매 페이지 없음. 제조사 사이트(cyberdigm.co.kr, cyberdigm.tistory.com)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1248478000.0,
-   "max_benchmark_for_1B_krw": 48164
+   "max_benchmark_for_1B_krw": 48164,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "22830614",
@@ -1331,9 +1402,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(프로그램개발용소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 1,809,203원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('인스웨이브 웹스퀘어5 v5.0 가격 판매 견적') 결과 4건, 모델명 일치 1건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1240624000.0,
-   "max_benchmark_for_1B_krw": 1809203
+   "max_benchmark_for_1B_krw": 1809203,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "22777221",
@@ -1342,9 +1414,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 738,742원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('이지서티 UBI SAFER-PSM AGENT V3.0 가격 판매 견적') 결과 8건, 모델명 일치 7건. 원화 판매 페이지 없음. 제조사 사이트(easycerti.com)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1223100000.0,
-   "max_benchmark_for_1B_krw": 738742
+   "max_benchmark_for_1B_krw": 738742,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24901693",
@@ -1353,9 +1426,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(패키지소프트웨어개발및도입서비스), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 55,221원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('씨앤에프시스템 올샵플러스 v1.0/공공기관ERP/1~2 core/커스터마이징-응용SW개발자/1인/1일 가격 판매 견적') 결과 8건, 모델명 일치 2건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1215084200.0,
-   "max_benchmark_for_1B_krw": 55221
+   "max_benchmark_for_1B_krw": 55221,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25845622",
@@ -1364,9 +1438,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(경영관리소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 4,341,837원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('더존비즈온 Amaranth 10 v1.0 가격 판매 견적') 결과 8건, 모델명 일치 8건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1212750000.0,
-   "max_benchmark_for_1B_krw": 4341837
+   "max_benchmark_for_1B_krw": 4341837,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25402278",
@@ -1375,9 +1450,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 56,776원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('이스트시큐리티 시큐어디스크 v11 가격 판매 견적') 결과 8건, 모델명 일치 5건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1207800000.0,
-   "max_benchmark_for_1B_krw": 56776
+   "max_benchmark_for_1B_krw": 56776,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "26041313",
@@ -1386,9 +1462,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 14,943원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('소만사 Privacy-i V8.0 가격 판매 견적') 결과 8건, 모델명 일치 5건. 원화 판매 페이지 없음. 제조사 사이트(somansa.com)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음. NHN Cloud 마켓 Privacy-i 월 이용요금 100,000원(Agent 100개)·200,000원(200개)은 클라우드 월 구독이라 영구 Agent 사용권과 기간이 다름. 10억 원에는 영구 1Agent 약 14.6천 원 이하 필요",
    "local_amount_krw": 1204544000.0,
-   "max_benchmark_for_1B_krw": 14943
+   "max_benchmark_for_1B_krw": 14943,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24387617",
@@ -1408,9 +1485,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 3,333,333원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('이지서티 U-PRIVACY SAFER V4.0 가격 판매 견적') 결과 8건, 모델명 일치 3건. 원화 판매 페이지 없음. 제조사 사이트(easycerti.com)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1200000000.0,
-   "max_benchmark_for_1B_krw": 3333333
+   "max_benchmark_for_1B_krw": 3333333,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25031535",
@@ -1419,9 +1497,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(시스템관리소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 6,241,935원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('와치텍 WatchAll AppleMango 가격 판매 견적') 결과 6건, 모델명 일치 0건. 원화 판매 페이지 없음. 제조사 사이트(watchtek.co.kr)에도 공개 가격 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1193500000.0,
-   "max_benchmark_for_1B_krw": 6241935
+   "max_benchmark_for_1B_krw": 6241935,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "23827553",
@@ -1452,9 +1531,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(무인교통감시장치), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 3,778,837원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('하나씨엔에스 HANA-381 가격 판매 견적') 결과 4건, 모델명 일치 0건. 원화 판매 페이지 없음.",
    "local_amount_krw": 1185163000.0,
-   "max_benchmark_for_1B_krw": 3778837
+   "max_benchmark_for_1B_krw": 3778837,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24307270",
@@ -1463,9 +1543,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(보안소프트웨어), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 712,712원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('이스트시큐리티 인터넷디스크 v10 가격 판매 견적') 결과 5건, 모델명 일치 3건. 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색에서 해당 제품 없음.",
    "local_amount_krw": 1168200000.0,
-   "max_benchmark_for_1B_krw": 712712
+   "max_benchmark_for_1B_krw": 712712,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "24291246",
@@ -1474,9 +1555,10 @@
    "verdict": "no_public_price",
    "best_price_url": null,
    "best_price_krw": null,
-   "note": "국내 B2B·조달 전용 제품(방화벽장치), 원화 공개 판매가나 분명히 더 나은 대체품 없음; 10억 원에 단가 5,416,290원 이하 필요 (개별 판매가 검색은 하지 않음. 조달·SI 전용 범주로 분류)",
+   "note": "Parallel 1회 검색('안랩(AHNLAB,INC.) AhnLab AIPS 5000B 가격 판매 견적') 결과 8건, 모델명 일치 6건. 원화 판매 페이지 없음. 제조사 사이트(ahnlab.com, company.ahnlab.com)에도 공개 가격 없음.",
    "local_amount_krw": 1157072400.0,
-   "max_benchmark_for_1B_krw": 5416290
+   "max_benchmark_for_1B_krw": 5416290,
+   "search_file": "work/software-goal1000/cov82-search.json"
   },
   {
    "item_id": "25454447",
@@ -1875,5 +1957,5 @@
    "max_benchmark_for_1B_krw": 24242
   }
  ],
- "summary": "168 available. ready 0. 고액 소매 비교 가능 품목(Adobe, 태블릿, 앱코 충전함)은 동일품 소매가가 같거나 더 높음. 나머지는 국내 B2B 보안·SI·검침 제품으로 원화 공개가 없음."
+ "summary": "168 available, 준비된 패킷 0건. 82개 행을 개별 검색(Parallel 1회씩, 소프트웨어는 국내 쇼핑몰 2곳 추가)해 갱신. 원화 소매 동일품이나 분명히 더 나은 대체품이 확인된 품목은 없음. 클라우드 마켓 월 구독가(SPiDER ExD, Privacy-i)는 영구 사용권과 기간이 달라 제외."
 }
