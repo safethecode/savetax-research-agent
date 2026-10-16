@@ -1,0 +1,210 @@
+{
+  "submission": {
+    "submission_id": "0c9a4972-5271-40ff-9d87-d4424a0207b1",
+    "claim_id": "d7ce98aa-1b4f-4525-8828-95c711531c16",
+    "revision": 1,
+    "submission_state": "accepted",
+    "admitted_at": "2026-10-16T04:21:21.466Z",
+    "amount_krw": 24661500,
+    "verification_status": "not_started",
+    "lint_status": "pending",
+    "event_epoch": 1,
+    "ruleset_version": "rules-v1",
+    "public_path": "/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/0c9a4972-5271-40ff-9d87-d4424a0207b1",
+    "api_path": "/v1/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/0c9a4972-5271-40ff-9d87-d4424a0207b1",
+    "web_path": "#/submission/0c9a4972-5271-40ff-9d87-d4424a0207b1"
+  },
+  "body": {
+    "dataset_release_id": "release-live-20261012",
+    "ruleset_version": "rules-v1",
+    "canonical_product_id": "24112596",
+    "title": "PA12-40 → LDVAL LINEAR1200 BLADE40W865G3 대체품 14000원 비교",
+    "claim": "조달 PA12-40과 실제 판매 LDVAL LINEAR1200 BLADE40W865G3의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 조달 주식회사 동영 PA12-40과 실제 레드밴스 LDVAL LINEAR1200 BLADE40W865G3은 제조사·모델이 다르다. 용도:원품 레이스웨이/주차장/펜던트용직부형, 대체 고정형LED주차장/선형실내등기구. 주차장·레이스웨이용선형LED본체범위.원품펜던트취부/단면형상이같다는주장안함 전력/전압:원품 40W/AC220V, 대체 40W/AC220V60Hz. 정격대응 치수:원품 길이1200,폭64,높이60mm;기타치수8/50항목미확정, 대체 1197×55.4×35.6mm. 선형1.2m급근접길이.너비높이·취부구멍/브래킷차이명시 광색:원품 해당공식listing정량색온도미공개, 대체 6500K. 색온도동등성미확인.모델명N57등을근거없이수치로치환하지않음 광속/효율/연색성:원품 해당listing미공개, 대체 4400lm/110lmW이상/CRI80. 대체공시사양만확인.원품과전체광학/배광·눈부심동등주장안함 수명:원품 해당listing미공개, 대체 25000h. 원품과수명동등성미확인명시 제조·인증:원품 주식회사 동영, 대체 레드밴스/베트남/KSC7653 KTC23-0057/R-R-OSR-BTNBLADE40WG3. 서로다른제조사모델.국산동일품이라고하지않음 배송·취부:원품 납품장소 하차도, 대체 본체+직부고정브래킷,택배.파이프펜던트키트미포함. 제품본체범위.펜던트설치부속동등포함주장안함 동일제조사·동일모델아님.고정형선형40W220V본체의대체구매범위. 대체는6500K·25000시간.원품색온도·수명·광속·배광미공개또는공시차이를숨기지않음. 펜던트로사용하려면매달림부속및취부방법은별도이고본대체가격에포함했다고하지않음.기존직부/레이스웨이본체교체범위만비교. 파이프부속등확인된구성차이를동일하게포함한전체최종비용이라고하지않음.",
+    "comparison_scope": "40W·국내220V·1.2m급 고정형선형LED 본체의 주차장/레이스웨이 사용범위 대체구매가격 비교다. 펜던트취부부속·전체광학·수명·기존구멍호환 완전동등성은 주장하지 않는다. 원품공개색온도미확인,대체6500K. 하차도 본체가격 범위만 비교하며 설치공사·필수부속의 추가비용은 본B에 포함했다고 하지 않는다. 14000+배송3500=17500원을 개마다 적용했다. 추가배송 가능지역0facts를 제외한7facts만 선택했다. 원품 PA12-40, 대체품 LDVAL LINEAR1200 BLADE40W865G3. 세부 차이·제한은 주장과 재현 방법에 기재했다.",
+    "reproduction_notes": "공식 fact별 floor(max(C-B×Q,0))를 합산. 각 라인 근거에 계약·납품요구·라인 번호를 기재. 가격 시점 차이는 사용자 지정 대회 조사 기준에서 제외한다. 사양 대응: 용도: 레이스웨이/주차장/펜던트용직부형 → 고정형LED주차장/선형실내등기구; 전력/전압: 40W/AC220V → 40W/AC220V60Hz; 치수: 길이1200,폭64,높이60mm;기타치수8/50항목미확정 → 1197×55.4×35.6mm; 광색: 해당공식listing정량색온도미공개 → 6500K; 광속/효율/연색성: 해당listing미공개 → 4400lm/110lmW이상/CRI80; 수명: 해당listing미공개 → 25000h; 제조·인증: 주식회사 동영 → 레드밴스/베트남/KSC7653 KTC23-0057/R-R-OSR-BTNBLADE40WG3; 배송·취부: 납품장소 하차도 → 본체+직부고정브래킷,택배.파이프펜던트키트미포함. 사양 출처: https://hackathon.savetax.now/v1/events/current/items/24112596 https://www.alllight.co.kr/goods/goods_view.php?goodsNo=4101 https://cdn-saas-web-135-210.cdn-nhncommerce.com/power684651_godomall_com/data/editor/goods/e2ca2e7caf33a657.jpg",
+    "lines": [
+      {
+        "fact_id": "dl:24112596:R26TA01757553:R26TB01888384:6",
+        "benchmark_unit_price_krw": "17500",
+        "comparison_basis_id": "basis:개:vat_included",
+        "unit": "개",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.alllight.co.kr/goods/goods_view.php?goodsNo=4101",
+            "quote": "모든조명상사 레드밴스 LED 고효율 주차장등40W(1200mm). 40W옵션7952 1개 표시판매가14,000원,택배비3,500원. 상세사진의 실제모델 LDVAL LINEAR1200 BLADE40W865G3,40W/AC220V60Hz/6500K/4400lm/1197×55.4×35.6mm. 2026-10-16 실제 브라우저에서40W옵션1개와 구매버튼표시 확인, Jev 동작 완료. 쿠폰·카드할인 없는 소비자일반가를 VAT포함으로 비교하고 개마다 운임3500원을 더한17500원을B로 사용한다.",
+            "observed_price_krw": "14000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 14000원/1개 구성. 공식 비교 단위 1개당 17500원으로 비교. 실제 판매모델 LDVAL LINEAR1200 BLADE40W865G3; 원품 PA12-40과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01757553, 납품요구 R26TB01888384, 라인 6. 공식 fact dl:24112596:R26TA01757553:R26TB01888384:6, 수량 9, 비교금액 711000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24112596:R26TA01757553:R26TB01992059:1",
+        "benchmark_unit_price_krw": "17500",
+        "comparison_basis_id": "basis:개:vat_included",
+        "unit": "개",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.alllight.co.kr/goods/goods_view.php?goodsNo=4101",
+            "quote": "모든조명상사 레드밴스 LED 고효율 주차장등40W(1200mm). 40W옵션7952 1개 표시판매가14,000원,택배비3,500원. 상세사진의 실제모델 LDVAL LINEAR1200 BLADE40W865G3,40W/AC220V60Hz/6500K/4400lm/1197×55.4×35.6mm. 2026-10-16 실제 브라우저에서40W옵션1개와 구매버튼표시 확인, Jev 동작 완료. 쿠폰·카드할인 없는 소비자일반가를 VAT포함으로 비교하고 개마다 운임3500원을 더한17500원을B로 사용한다.",
+            "observed_price_krw": "14000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 14000원/1개 구성. 공식 비교 단위 1개당 17500원으로 비교. 실제 판매모델 LDVAL LINEAR1200 BLADE40W865G3; 원품 PA12-40과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01757553, 납품요구 R26TB01992059, 라인 1. 공식 fact dl:24112596:R26TA01757553:R26TB01992059:1, 수량 10, 비교금액 790000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24112596:R26TA01757553:R26TB02118848:1",
+        "benchmark_unit_price_krw": "17500",
+        "comparison_basis_id": "basis:개:vat_included",
+        "unit": "개",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.alllight.co.kr/goods/goods_view.php?goodsNo=4101",
+            "quote": "모든조명상사 레드밴스 LED 고효율 주차장등40W(1200mm). 40W옵션7952 1개 표시판매가14,000원,택배비3,500원. 상세사진의 실제모델 LDVAL LINEAR1200 BLADE40W865G3,40W/AC220V60Hz/6500K/4400lm/1197×55.4×35.6mm. 2026-10-16 실제 브라우저에서40W옵션1개와 구매버튼표시 확인, Jev 동작 완료. 쿠폰·카드할인 없는 소비자일반가를 VAT포함으로 비교하고 개마다 운임3500원을 더한17500원을B로 사용한다.",
+            "observed_price_krw": "14000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 14000원/1개 구성. 공식 비교 단위 1개당 17500원으로 비교. 실제 판매모델 LDVAL LINEAR1200 BLADE40W865G3; 원품 PA12-40과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01757553, 납품요구 R26TB02118848, 라인 1. 공식 fact dl:24112596:R26TA01757553:R26TB02118848:1, 수량 24, 비교금액 1896000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24112596:R26TA01757553:R26TB02147242:5",
+        "benchmark_unit_price_krw": "17500",
+        "comparison_basis_id": "basis:개:vat_included",
+        "unit": "개",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.alllight.co.kr/goods/goods_view.php?goodsNo=4101",
+            "quote": "모든조명상사 레드밴스 LED 고효율 주차장등40W(1200mm). 40W옵션7952 1개 표시판매가14,000원,택배비3,500원. 상세사진의 실제모델 LDVAL LINEAR1200 BLADE40W865G3,40W/AC220V60Hz/6500K/4400lm/1197×55.4×35.6mm. 2026-10-16 실제 브라우저에서40W옵션1개와 구매버튼표시 확인, Jev 동작 완료. 쿠폰·카드할인 없는 소비자일반가를 VAT포함으로 비교하고 개마다 운임3500원을 더한17500원을B로 사용한다.",
+            "observed_price_krw": "14000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 14000원/1개 구성. 공식 비교 단위 1개당 17500원으로 비교. 실제 판매모델 LDVAL LINEAR1200 BLADE40W865G3; 원품 PA12-40과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01757553, 납품요구 R26TB02147242, 라인 5. 공식 fact dl:24112596:R26TA01757553:R26TB02147242:5, 수량 216, 비교금액 17064000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24112596:R26TA01757553:R26TB02249967:5",
+        "benchmark_unit_price_krw": "17500",
+        "comparison_basis_id": "basis:개:vat_included",
+        "unit": "개",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.alllight.co.kr/goods/goods_view.php?goodsNo=4101",
+            "quote": "모든조명상사 레드밴스 LED 고효율 주차장등40W(1200mm). 40W옵션7952 1개 표시판매가14,000원,택배비3,500원. 상세사진의 실제모델 LDVAL LINEAR1200 BLADE40W865G3,40W/AC220V60Hz/6500K/4400lm/1197×55.4×35.6mm. 2026-10-16 실제 브라우저에서40W옵션1개와 구매버튼표시 확인, Jev 동작 완료. 쿠폰·카드할인 없는 소비자일반가를 VAT포함으로 비교하고 개마다 운임3500원을 더한17500원을B로 사용한다.",
+            "observed_price_krw": "14000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 14000원/1개 구성. 공식 비교 단위 1개당 17500원으로 비교. 실제 판매모델 LDVAL LINEAR1200 BLADE40W865G3; 원품 PA12-40과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01757553, 납품요구 R26TB02249967, 라인 5. 공식 fact dl:24112596:R26TA01757553:R26TB02249967:5, 수량 87, 비교금액 6873000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24112596:R26TA01757553:R26TB02296973:1",
+        "benchmark_unit_price_krw": "17500",
+        "comparison_basis_id": "basis:개:vat_included",
+        "unit": "개",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.alllight.co.kr/goods/goods_view.php?goodsNo=4101",
+            "quote": "모든조명상사 레드밴스 LED 고효율 주차장등40W(1200mm). 40W옵션7952 1개 표시판매가14,000원,택배비3,500원. 상세사진의 실제모델 LDVAL LINEAR1200 BLADE40W865G3,40W/AC220V60Hz/6500K/4400lm/1197×55.4×35.6mm. 2026-10-16 실제 브라우저에서40W옵션1개와 구매버튼표시 확인, Jev 동작 완료. 쿠폰·카드할인 없는 소비자일반가를 VAT포함으로 비교하고 개마다 운임3500원을 더한17500원을B로 사용한다.",
+            "observed_price_krw": "14000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 14000원/1개 구성. 공식 비교 단위 1개당 17500원으로 비교. 실제 판매모델 LDVAL LINEAR1200 BLADE40W865G3; 원품 PA12-40과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01757553, 납품요구 R26TB02296973, 라인 1. 공식 fact dl:24112596:R26TA01757553:R26TB02296973:1, 수량 2, 비교금액 158000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24112596:R26TA01757553:R26TB02312622:2",
+        "benchmark_unit_price_krw": "17500",
+        "comparison_basis_id": "basis:개:vat_included",
+        "unit": "개",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.alllight.co.kr/goods/goods_view.php?goodsNo=4101",
+            "quote": "모든조명상사 레드밴스 LED 고효율 주차장등40W(1200mm). 40W옵션7952 1개 표시판매가14,000원,택배비3,500원. 상세사진의 실제모델 LDVAL LINEAR1200 BLADE40W865G3,40W/AC220V60Hz/6500K/4400lm/1197×55.4×35.6mm. 2026-10-16 실제 브라우저에서40W옵션1개와 구매버튼표시 확인, Jev 동작 완료. 쿠폰·카드할인 없는 소비자일반가를 VAT포함으로 비교하고 개마다 운임3500원을 더한17500원을B로 사용한다.",
+            "observed_price_krw": "14000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 14000원/1개 구성. 공식 비교 단위 1개당 17500원으로 비교. 실제 판매모델 LDVAL LINEAR1200 BLADE40W865G3; 원품 PA12-40과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01757553, 납품요구 R26TB02312622, 라인 2. 공식 fact dl:24112596:R26TA01757553:R26TB02312622:2, 수량 53, 비교금액 4187000원."
+          }
+        ]
+      }
+    ]
+  }
+}

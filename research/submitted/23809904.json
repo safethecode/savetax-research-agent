@@ -1,0 +1,418 @@
+{
+  "submission": {
+    "submission_id": "8fac13fa-d7cc-4222-9ddd-a4fc4dd1036f",
+    "claim_id": "1ad41861-a369-43f7-bb9f-9d9d1db22bf9",
+    "revision": 1,
+    "submission_state": "accepted",
+    "admitted_at": "2026-10-16T04:23:40.476Z",
+    "amount_krw": 23788800,
+    "verification_status": "not_started",
+    "lint_status": "pending",
+    "event_epoch": 1,
+    "ruleset_version": "rules-v1",
+    "public_path": "/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/8fac13fa-d7cc-4222-9ddd-a4fc4dd1036f",
+    "api_path": "/v1/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/8fac13fa-d7cc-4222-9ddd-a4fc4dd1036f",
+    "web_path": "#/submission/8fac13fa-d7cc-4222-9ddd-a4fc4dd1036f"
+  },
+  "body": {
+    "dataset_release_id": "release-live-20261012",
+    "ruleset_version": "rules-v1",
+    "canonical_product_id": "23809904",
+    "title": "HN1016G → TL-SG2218 대체품 290000원 비교",
+    "claim": "조달 HN1016G과 실제 판매 TL-SG2218의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 원제조사/모델은한드림넷HN1016G이고실대체판매품은TP-LinkTL-SG2218이다. 동일품이라고하지않는다. 원14개동선포트대비대체16개로2개여유,32Gbps/23.8Mpps대비36Gbps/26.8Mpps이다. 한드림넷VNM/VIPM전용관리연동·Multi OS·국산장비/보안기능확인서인증을TP-Link가동일하게제공한다고주장하지않는다. TP-Link는Omada관리이며설정·운영체계가다르다. 원64MB플래시와대체메모리·세부큐구성의동일성,기관기존망에의연동시험·설정이행은확인하지않았다. SFP광모듈·케이블은별매범위이다.",
+    "comparison_scope": "일반 판매가·무료배송 기준 장비 본체의 핵심 통신 기능 대체 비교. 1Gbps SFP 사용 범위다. SFP 모듈·설치·설정·서비스 비용은 별도 반영하지 않았다. 제주·울릉 기관은 제외했다. 원품 HN1016G, 대체품 TL-SG2218. 차이·제한: 원제조사/모델은한드림넷HN1016G이고실대체판매품은TP-LinkTL-SG2218이다. 동일품이라고하지않는다. 원14개동선포트대비대체16개로2개여유,32Gbps/23.8Mpps대비36Gbps/26.8Mpps이다. 한드림넷VNM/VIPM전용관리연동·Multi OS·국산장비/보안기능확인서인증을TP-Link가동일하게제공한다고주장하지않는다. TP-Link는Omada관리이며설정·운영체계가다르다. 원64MB플래시와대체메모리·세부큐구성의동일성,기관기존망에의연동시험·설정이행은확인하지않았다. SFP광모듈·케이블은별매범위이다.",
+    "reproduction_notes": "공식 fact별 floor(max(C-B×Q,0))를 합산. 각 라인 근거에 계약·납품요구·라인 번호를 기재. 가격 시점 차이는 사용자 지정 대회 조사 기준에서 제외한다. 사양 대응: 동선포트: 14×10/100/1000Base-T → 16×10/100/1000Mbps RJ45; 광업링크: 2×1000Base-X SFP → 2×1000Mbps SFP; 스위칭/처리율/MAC: 32Gbps/23.8Mpps/8K → 36Gbps/26.8Mpps/8K; 망분리/루프/멀티캐스트: 802.1Q VLAN,STP,IGMP Snooping → 802.1Q VLAN,STP/RSTP/MSTP,IGMP Snooping; 트래픽관리: L2-L4 필터링,QoS,속도제한 → L2-L4 ACL,QoS,포트/흐름속도제한; 관리: SNMP,Telnet,SSH,Console,VNM/VIPM연동 → WEB/CLI,SSH/Telnet,Console,SNMP/RMON,Omada; PoE/전원: 비PoE/AC내장 → 비PoE/AC내장. 사양 출처: https://handreamnet.tistory.com/410 https://www.shsys.kr/user/default/image/page/%EB%B8%8C%EB%A1%9C%EC%85%94_%ED%95%9C%EB%93%9C%EB%A6%BC%EB%84%B7.pdf https://www.tp-link.com/kr/business-networking/omada-switch-smart/tl-sg2218/v1/",
+    "lines": [
+      {
+        "fact_id": "dl:23809904:R25TA00961673:R25TB01094561:1",
+        "benchmark_unit_price_krw": "290000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=75",
+            "quote": "티피링크몰 TL-SG2218 판매가 290,000원. 배송비 무료. 총 상품금액 290,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면 확인. 회원·딜러 할인은 적용하지 않았다.",
+            "observed_price_krw": "290000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 290000원/1개 구성. 공식 비교 단위 1대당 290000원으로 비교. 실제 판매모델 TL-SG2218; 원품 HN1016G과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00961673, 납품요구 R25TB01094561, 라인 1. 공식 fact dl:23809904:R25TA00961673:R25TB01094561:1, 수량 1, 비교금액 620400원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23809904:R25TA00961673:R25TB01123517:1",
+        "benchmark_unit_price_krw": "290000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=75",
+            "quote": "티피링크몰 TL-SG2218 판매가 290,000원. 배송비 무료. 총 상품금액 290,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면 확인. 회원·딜러 할인은 적용하지 않았다.",
+            "observed_price_krw": "290000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 290000원/1개 구성. 공식 비교 단위 1대당 290000원으로 비교. 실제 판매모델 TL-SG2218; 원품 HN1016G과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00961673, 납품요구 R25TB01123517, 라인 1. 공식 fact dl:23809904:R25TA00961673:R25TB01123517:1, 수량 1, 비교금액 620400원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23809904:R25TA00961673:R25TB01180222:1",
+        "benchmark_unit_price_krw": "290000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=75",
+            "quote": "티피링크몰 TL-SG2218 판매가 290,000원. 배송비 무료. 총 상품금액 290,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면 확인. 회원·딜러 할인은 적용하지 않았다.",
+            "observed_price_krw": "290000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 290000원/1개 구성. 공식 비교 단위 1대당 290000원으로 비교. 실제 판매모델 TL-SG2218; 원품 HN1016G과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00961673, 납품요구 R25TB01180222, 라인 1. 공식 fact dl:23809904:R25TA00961673:R25TB01180222:1, 수량 1, 비교금액 620400원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23809904:R25TA00961673:R25TB01204650:1",
+        "benchmark_unit_price_krw": "290000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=75",
+            "quote": "티피링크몰 TL-SG2218 판매가 290,000원. 배송비 무료. 총 상품금액 290,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면 확인. 회원·딜러 할인은 적용하지 않았다.",
+            "observed_price_krw": "290000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 290000원/1개 구성. 공식 비교 단위 1대당 290000원으로 비교. 실제 판매모델 TL-SG2218; 원품 HN1016G과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00961673, 납품요구 R25TB01204650, 라인 1. 공식 fact dl:23809904:R25TA00961673:R25TB01204650:1, 수량 1, 비교금액 620400원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23809904:R25TA00961673:R25TB01336349:2",
+        "benchmark_unit_price_krw": "290000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=75",
+            "quote": "티피링크몰 TL-SG2218 판매가 290,000원. 배송비 무료. 총 상품금액 290,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면 확인. 회원·딜러 할인은 적용하지 않았다.",
+            "observed_price_krw": "290000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 290000원/1개 구성. 공식 비교 단위 1대당 290000원으로 비교. 실제 판매모델 TL-SG2218; 원품 HN1016G과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00961673, 납품요구 R25TB01336349, 라인 2. 공식 fact dl:23809904:R25TA00961673:R25TB01336349:2, 수량 1, 비교금액 620400원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23809904:R25TA00961673:R25TB01386188:1",
+        "benchmark_unit_price_krw": "290000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=75",
+            "quote": "티피링크몰 TL-SG2218 판매가 290,000원. 배송비 무료. 총 상품금액 290,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면 확인. 회원·딜러 할인은 적용하지 않았다.",
+            "observed_price_krw": "290000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 290000원/1개 구성. 공식 비교 단위 1대당 290000원으로 비교. 실제 판매모델 TL-SG2218; 원품 HN1016G과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00961673, 납품요구 R25TB01386188, 라인 1. 공식 fact dl:23809904:R25TA00961673:R25TB01386188:1, 수량 1, 비교금액 620400원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23809904:R25TA00961673:R26TB01427087:1",
+        "benchmark_unit_price_krw": "290000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=75",
+            "quote": "티피링크몰 TL-SG2218 판매가 290,000원. 배송비 무료. 총 상품금액 290,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면 확인. 회원·딜러 할인은 적용하지 않았다.",
+            "observed_price_krw": "290000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 290000원/1개 구성. 공식 비교 단위 1대당 290000원으로 비교. 실제 판매모델 TL-SG2218; 원품 HN1016G과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00961673, 납품요구 R26TB01427087, 라인 1. 공식 fact dl:23809904:R25TA00961673:R26TB01427087:1, 수량 4, 비교금액 2481600원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23809904:R25TA00961673:R26TB01480955:3",
+        "benchmark_unit_price_krw": "290000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=75",
+            "quote": "티피링크몰 TL-SG2218 판매가 290,000원. 배송비 무료. 총 상품금액 290,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면 확인. 회원·딜러 할인은 적용하지 않았다.",
+            "observed_price_krw": "290000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 290000원/1개 구성. 공식 비교 단위 1대당 290000원으로 비교. 실제 판매모델 TL-SG2218; 원품 HN1016G과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00961673, 납품요구 R26TB01480955, 라인 3. 공식 fact dl:23809904:R25TA00961673:R26TB01480955:3, 수량 1, 비교금액 620400원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23809904:R25TA00961673:R26TB01569899:2",
+        "benchmark_unit_price_krw": "290000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=75",
+            "quote": "티피링크몰 TL-SG2218 판매가 290,000원. 배송비 무료. 총 상품금액 290,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면 확인. 회원·딜러 할인은 적용하지 않았다.",
+            "observed_price_krw": "290000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 290000원/1개 구성. 공식 비교 단위 1대당 290000원으로 비교. 실제 판매모델 TL-SG2218; 원품 HN1016G과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00961673, 납품요구 R26TB01569899, 라인 2. 공식 fact dl:23809904:R25TA00961673:R26TB01569899:2, 수량 51, 비교금액 31640400원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23809904:R25TA00961673:R26TB01705837:1",
+        "benchmark_unit_price_krw": "290000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=75",
+            "quote": "티피링크몰 TL-SG2218 판매가 290,000원. 배송비 무료. 총 상품금액 290,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면 확인. 회원·딜러 할인은 적용하지 않았다.",
+            "observed_price_krw": "290000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 290000원/1개 구성. 공식 비교 단위 1대당 290000원으로 비교. 실제 판매모델 TL-SG2218; 원품 HN1016G과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00961673, 납품요구 R26TB01705837, 라인 1. 공식 fact dl:23809904:R25TA00961673:R26TB01705837:1, 수량 1, 비교금액 620400원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23809904:R25TA00961673:R26TB01781296:1",
+        "benchmark_unit_price_krw": "290000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=75",
+            "quote": "티피링크몰 TL-SG2218 판매가 290,000원. 배송비 무료. 총 상품금액 290,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면 확인. 회원·딜러 할인은 적용하지 않았다.",
+            "observed_price_krw": "290000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 290000원/1개 구성. 공식 비교 단위 1대당 290000원으로 비교. 실제 판매모델 TL-SG2218; 원품 HN1016G과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00961673, 납품요구 R26TB01781296, 라인 1. 공식 fact dl:23809904:R25TA00961673:R26TB01781296:1, 수량 1, 비교금액 620400원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23809904:R25TA00961673:R26TB01788850:1",
+        "benchmark_unit_price_krw": "290000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=75",
+            "quote": "티피링크몰 TL-SG2218 판매가 290,000원. 배송비 무료. 총 상품금액 290,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면 확인. 회원·딜러 할인은 적용하지 않았다.",
+            "observed_price_krw": "290000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 290000원/1개 구성. 공식 비교 단위 1대당 290000원으로 비교. 실제 판매모델 TL-SG2218; 원품 HN1016G과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00961673, 납품요구 R26TB01788850, 라인 1. 공식 fact dl:23809904:R25TA00961673:R26TB01788850:1, 수량 1, 비교금액 620400원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23809904:R25TA00961673:R26TB01973465:1",
+        "benchmark_unit_price_krw": "290000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=75",
+            "quote": "티피링크몰 TL-SG2218 판매가 290,000원. 배송비 무료. 총 상품금액 290,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면 확인. 회원·딜러 할인은 적용하지 않았다.",
+            "observed_price_krw": "290000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 290000원/1개 구성. 공식 비교 단위 1대당 290000원으로 비교. 실제 판매모델 TL-SG2218; 원품 HN1016G과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00961673, 납품요구 R26TB01973465, 라인 1. 공식 fact dl:23809904:R25TA00961673:R26TB01973465:1, 수량 1, 비교금액 620400원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23809904:R25TA00961673:R26TB02056758:1",
+        "benchmark_unit_price_krw": "290000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=75",
+            "quote": "티피링크몰 TL-SG2218 판매가 290,000원. 배송비 무료. 총 상품금액 290,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면 확인. 회원·딜러 할인은 적용하지 않았다.",
+            "observed_price_krw": "290000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 290000원/1개 구성. 공식 비교 단위 1대당 290000원으로 비교. 실제 판매모델 TL-SG2218; 원품 HN1016G과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00961673, 납품요구 R26TB02056758, 라인 1. 공식 fact dl:23809904:R25TA00961673:R26TB02056758:1, 수량 3, 비교금액 1861200원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23809904:R25TA00961673:R26TB02075970:1",
+        "benchmark_unit_price_krw": "290000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=75",
+            "quote": "티피링크몰 TL-SG2218 판매가 290,000원. 배송비 무료. 총 상품금액 290,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면 확인. 회원·딜러 할인은 적용하지 않았다.",
+            "observed_price_krw": "290000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 290000원/1개 구성. 공식 비교 단위 1대당 290000원으로 비교. 실제 판매모델 TL-SG2218; 원품 HN1016G과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00961673, 납품요구 R26TB02075970, 라인 1. 공식 fact dl:23809904:R25TA00961673:R26TB02075970:1, 수량 3, 비교금액 1861200원."
+          }
+        ]
+      }
+    ]
+  }
+}

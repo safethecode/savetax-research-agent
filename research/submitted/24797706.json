@@ -1,0 +1,418 @@
+{
+  "submission": {
+    "submission_id": "048f57df-e9dd-487d-9123-130e89520508",
+    "claim_id": "8cade135-0044-406c-9da7-34d54892505b",
+    "revision": 1,
+    "submission_state": "accepted",
+    "admitted_at": "2026-10-16T04:25:29.075Z",
+    "amount_krw": 25718000,
+    "verification_status": "not_started",
+    "lint_status": "pending",
+    "event_epoch": 1,
+    "ruleset_version": "rules-v1",
+    "public_path": "/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/048f57df-e9dd-487d-9123-130e89520508",
+    "api_path": "/v1/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/048f57df-e9dd-487d-9123-130e89520508",
+    "web_path": "#/submission/048f57df-e9dd-487d-9123-130e89520508"
+  },
+  "body": {
+    "dataset_release_id": "release-live-20261012",
+    "ruleset_version": "rules-v1",
+    "canonical_product_id": "24797706",
+    "title": "NK-G802MT → TL-SG2210P 대체품 189000원 비교",
+    "claim": "조달 NK-G802MT과 실제 판매 TL-SG2210P의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 원품은 미래시그널 NK-G802MT이고, 판매품은 TP-Link TL-SG2210P다. 두 모델은 서로 다르다. 원품의 L2 관리형, 동선 8포트와 SFP 2포트, 20Gbps·14.88Mpps·MAC 8K 사양을 대응시켰다. 원품의 VLAN·STP·ACL·SNMP 세부 구현, 전원·온도·팬·메모리·인증·전용 관리 연동은 확인하지 못했다. 대체품은 Web·CLI·SNMP·Omada 및 VLAN·STP·IGMP·ACL을 명시하지만 모든 운영 기능의 동일성은 주장하지 않는다. 원품의 비PoE 유통 표기와 별도 PoE 모델 NK-PG802MT를 구별했다. 대체품의 판매 표기는 PoE 58W다. 광모듈과 케이블은 별매이며 기존 망과의 상호운용 시험은 하지 않았다.",
+    "comparison_scope": "기가비트 동선 8포트와 SFP 2포트를 갖춘 관리형 스위치 본체의 대체 취득가격 비교. 일반 판매가 189,000원과 무료배송을 적용한다. 설치·설정·하자보수 서비스 비용은 반영하지 않았다. 미확정 도서 운임이 있는 제주·울릉 기관은 제외한다. 원품 NK-G802MT, 대체품 TL-SG2210P. 차이·제한: 원품은 미래시그널 NK-G802MT이고, 판매품은 TP-Link TL-SG2210P다. 두 모델은 서로 다르다. 원품의 L2 관리형, 동선 8포트와 SFP 2포트, 20Gbps·14.88Mpps·MAC 8K 사양을 대응시켰다. 원품의 VLAN·STP·ACL·SNMP 세부 구현, 전원·온도·팬·메모리·인증·전용 관리 연동은 확인하지 못했다. 대체품은 Web·CLI·SNMP·Omada 및 VLAN·STP·IGMP·ACL을 명시하지만 모든 운영 기능의 동일성은 주장하지 않는다. 원품의 비PoE 유통 표기와 별도 PoE 모델 NK-PG802MT를 구별했다. 대체품의 판매 표기는 PoE 58W다. 광모듈과 케이블은 별매이며 기존 망과의 상호운용 시험은 하지 않았다.",
+    "reproduction_notes": "공식 fact별 floor(max(C-B×Q,0))를 합산. 각 라인 근거에 계약·납품요구·라인 번호를 기재. 가격 시점 차이는 사용자 지정 대회 조사 기준에서 제외한다. 사양 대응: 동선포트: 8×10/100/1000M → 8×10/100/1000M; 광업링크: 2×1G SFP → 2×1G SFP; 스위칭/처리율/MAC: 20Gbps/14.88Mpps/8K → 20Gbps/14.88Mpps/8K; 관리레이어: L2Managed/유통웹스마트표기 → L2+Web/CLI관리,SNMP/Omada; 기타관리세부: 원VLAN/STP/ACL/SNMP상세미확인 → VLAN/STP/RSTP/MSTP/IGMP/ACL/SNMP명시. 사양 출처: https://api.savetax.now/v1/items/24797706 https://oemfile.informamarkets-info.com/FileUpload/2025SEC_39523/20250115161514483.pdf https://www.cctv-mstore.com/goods/goods_list.php?cateCd=038003002019 https://www.tp-link.com/kr/business-networking/omada-switch-poe/tl-sg2210p/v5.2/",
+    "lines": [
+      {
+        "fact_id": "dl:24797706:002270042_1:2424404789:1",
+        "benchmark_unit_price_krw": "189000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=90",
+            "quote": "티피링크몰 TL-SG2210P 10포트(8PoE+2SFP) 기가비트 스위치. 판매가 189,000원, 배송비 무료. 총 상품금액 189,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면을 확인했다. 회원 할인판매가 170,600원은 적용하지 않았다.",
+            "observed_price_krw": "189000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 189000원/1개 구성. 공식 비교 단위 1대당 189000원으로 비교. 실제 판매모델 TL-SG2210P; 원품 NK-G802MT과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 2424404789, 라인 1. 공식 fact dl:24797706:002270042_1:2424404789:1, 수량 3, 비교금액 1569000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24797706:002270042_1:R25TB01054247:7",
+        "benchmark_unit_price_krw": "189000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=90",
+            "quote": "티피링크몰 TL-SG2210P 10포트(8PoE+2SFP) 기가비트 스위치. 판매가 189,000원, 배송비 무료. 총 상품금액 189,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면을 확인했다. 회원 할인판매가 170,600원은 적용하지 않았다.",
+            "observed_price_krw": "189000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 189000원/1개 구성. 공식 비교 단위 1대당 189000원으로 비교. 실제 판매모델 TL-SG2210P; 원품 NK-G802MT과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R25TB01054247, 라인 7. 공식 fact dl:24797706:002270042_1:R25TB01054247:7, 수량 2, 비교금액 1046000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24797706:002270042_1:R25TB01056955:11",
+        "benchmark_unit_price_krw": "189000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=90",
+            "quote": "티피링크몰 TL-SG2210P 10포트(8PoE+2SFP) 기가비트 스위치. 판매가 189,000원, 배송비 무료. 총 상품금액 189,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면을 확인했다. 회원 할인판매가 170,600원은 적용하지 않았다.",
+            "observed_price_krw": "189000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 189000원/1개 구성. 공식 비교 단위 1대당 189000원으로 비교. 실제 판매모델 TL-SG2210P; 원품 NK-G802MT과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R25TB01056955, 라인 11. 공식 fact dl:24797706:002270042_1:R25TB01056955:11, 수량 2, 비교금액 1046000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24797706:002270042_1:R25TB01067109:9",
+        "benchmark_unit_price_krw": "189000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=90",
+            "quote": "티피링크몰 TL-SG2210P 10포트(8PoE+2SFP) 기가비트 스위치. 판매가 189,000원, 배송비 무료. 총 상품금액 189,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면을 확인했다. 회원 할인판매가 170,600원은 적용하지 않았다.",
+            "observed_price_krw": "189000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 189000원/1개 구성. 공식 비교 단위 1대당 189000원으로 비교. 실제 판매모델 TL-SG2210P; 원품 NK-G802MT과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R25TB01067109, 라인 9. 공식 fact dl:24797706:002270042_1:R25TB01067109:9, 수량 1, 비교금액 523000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24797706:002270042_1:R25TB01167728:6",
+        "benchmark_unit_price_krw": "189000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=90",
+            "quote": "티피링크몰 TL-SG2210P 10포트(8PoE+2SFP) 기가비트 스위치. 판매가 189,000원, 배송비 무료. 총 상품금액 189,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면을 확인했다. 회원 할인판매가 170,600원은 적용하지 않았다.",
+            "observed_price_krw": "189000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 189000원/1개 구성. 공식 비교 단위 1대당 189000원으로 비교. 실제 판매모델 TL-SG2210P; 원품 NK-G802MT과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R25TB01167728, 라인 6. 공식 fact dl:24797706:002270042_1:R25TB01167728:6, 수량 3, 비교금액 1569000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24797706:002270042_1:R25TB01179054:2",
+        "benchmark_unit_price_krw": "189000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=90",
+            "quote": "티피링크몰 TL-SG2210P 10포트(8PoE+2SFP) 기가비트 스위치. 판매가 189,000원, 배송비 무료. 총 상품금액 189,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면을 확인했다. 회원 할인판매가 170,600원은 적용하지 않았다.",
+            "observed_price_krw": "189000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 189000원/1개 구성. 공식 비교 단위 1대당 189000원으로 비교. 실제 판매모델 TL-SG2210P; 원품 NK-G802MT과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R25TB01179054, 라인 2. 공식 fact dl:24797706:002270042_1:R25TB01179054:2, 수량 2, 비교금액 1046000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24797706:002270042_1:R25TB01217517:7",
+        "benchmark_unit_price_krw": "189000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=90",
+            "quote": "티피링크몰 TL-SG2210P 10포트(8PoE+2SFP) 기가비트 스위치. 판매가 189,000원, 배송비 무료. 총 상품금액 189,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면을 확인했다. 회원 할인판매가 170,600원은 적용하지 않았다.",
+            "observed_price_krw": "189000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 189000원/1개 구성. 공식 비교 단위 1대당 189000원으로 비교. 실제 판매모델 TL-SG2210P; 원품 NK-G802MT과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R25TB01217517, 라인 7. 공식 fact dl:24797706:002270042_1:R25TB01217517:7, 수량 5, 비교금액 2615000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24797706:002270042_1:R25TB01260469:5",
+        "benchmark_unit_price_krw": "189000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=90",
+            "quote": "티피링크몰 TL-SG2210P 10포트(8PoE+2SFP) 기가비트 스위치. 판매가 189,000원, 배송비 무료. 총 상품금액 189,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면을 확인했다. 회원 할인판매가 170,600원은 적용하지 않았다.",
+            "observed_price_krw": "189000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 189000원/1개 구성. 공식 비교 단위 1대당 189000원으로 비교. 실제 판매모델 TL-SG2210P; 원품 NK-G802MT과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R25TB01260469, 라인 5. 공식 fact dl:24797706:002270042_1:R25TB01260469:5, 수량 5, 비교금액 2615000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24797706:002270042_1:R26TB01586295:1",
+        "benchmark_unit_price_krw": "189000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=90",
+            "quote": "티피링크몰 TL-SG2210P 10포트(8PoE+2SFP) 기가비트 스위치. 판매가 189,000원, 배송비 무료. 총 상품금액 189,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면을 확인했다. 회원 할인판매가 170,600원은 적용하지 않았다.",
+            "observed_price_krw": "189000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 189000원/1개 구성. 공식 비교 단위 1대당 189000원으로 비교. 실제 판매모델 TL-SG2210P; 원품 NK-G802MT과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R26TB01586295, 라인 1. 공식 fact dl:24797706:002270042_1:R26TB01586295:1, 수량 1, 비교금액 523000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24797706:002270042_1:R26TB01818130:1",
+        "benchmark_unit_price_krw": "189000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=90",
+            "quote": "티피링크몰 TL-SG2210P 10포트(8PoE+2SFP) 기가비트 스위치. 판매가 189,000원, 배송비 무료. 총 상품금액 189,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면을 확인했다. 회원 할인판매가 170,600원은 적용하지 않았다.",
+            "observed_price_krw": "189000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 189000원/1개 구성. 공식 비교 단위 1대당 189000원으로 비교. 실제 판매모델 TL-SG2210P; 원품 NK-G802MT과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R26TB01818130, 라인 1. 공식 fact dl:24797706:002270042_1:R26TB01818130:1, 수량 1, 비교금액 523000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24797706:002270042_1:R26TB01903606:2",
+        "benchmark_unit_price_krw": "189000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=90",
+            "quote": "티피링크몰 TL-SG2210P 10포트(8PoE+2SFP) 기가비트 스위치. 판매가 189,000원, 배송비 무료. 총 상품금액 189,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면을 확인했다. 회원 할인판매가 170,600원은 적용하지 않았다.",
+            "observed_price_krw": "189000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 189000원/1개 구성. 공식 비교 단위 1대당 189000원으로 비교. 실제 판매모델 TL-SG2210P; 원품 NK-G802MT과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R26TB01903606, 라인 2. 공식 fact dl:24797706:002270042_1:R26TB01903606:2, 수량 1, 비교금액 523000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24797706:002270042_1:R26TB01909835:3",
+        "benchmark_unit_price_krw": "189000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=90",
+            "quote": "티피링크몰 TL-SG2210P 10포트(8PoE+2SFP) 기가비트 스위치. 판매가 189,000원, 배송비 무료. 총 상품금액 189,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면을 확인했다. 회원 할인판매가 170,600원은 적용하지 않았다.",
+            "observed_price_krw": "189000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 189000원/1개 구성. 공식 비교 단위 1대당 189000원으로 비교. 실제 판매모델 TL-SG2210P; 원품 NK-G802MT과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R26TB01909835, 라인 3. 공식 fact dl:24797706:002270042_1:R26TB01909835:3, 수량 2, 비교금액 1046000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24797706:002270042_1:R26TB01975922:4",
+        "benchmark_unit_price_krw": "189000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=90",
+            "quote": "티피링크몰 TL-SG2210P 10포트(8PoE+2SFP) 기가비트 스위치. 판매가 189,000원, 배송비 무료. 총 상품금액 189,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면을 확인했다. 회원 할인판매가 170,600원은 적용하지 않았다.",
+            "observed_price_krw": "189000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 189000원/1개 구성. 공식 비교 단위 1대당 189000원으로 비교. 실제 판매모델 TL-SG2210P; 원품 NK-G802MT과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R26TB01975922, 라인 4. 공식 fact dl:24797706:002270042_1:R26TB01975922:4, 수량 2, 비교금액 1046000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24797706:002270042_1:R26TB01997749:3",
+        "benchmark_unit_price_krw": "189000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=90",
+            "quote": "티피링크몰 TL-SG2210P 10포트(8PoE+2SFP) 기가비트 스위치. 판매가 189,000원, 배송비 무료. 총 상품금액 189,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면을 확인했다. 회원 할인판매가 170,600원은 적용하지 않았다.",
+            "observed_price_krw": "189000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 189000원/1개 구성. 공식 비교 단위 1대당 189000원으로 비교. 실제 판매모델 TL-SG2210P; 원품 NK-G802MT과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R26TB01997749, 라인 3. 공식 fact dl:24797706:002270042_1:R26TB01997749:3, 수량 6, 비교금액 3138000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24797706:002270042_1:R26TB02079833:3",
+        "benchmark_unit_price_krw": "189000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=90",
+            "quote": "티피링크몰 TL-SG2210P 10포트(8PoE+2SFP) 기가비트 스위치. 판매가 189,000원, 배송비 무료. 총 상품금액 189,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면을 확인했다. 회원 할인판매가 170,600원은 적용하지 않았다.",
+            "observed_price_krw": "189000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 189000원/1개 구성. 공식 비교 단위 1대당 189000원으로 비교. 실제 판매모델 TL-SG2210P; 원품 NK-G802MT과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R26TB02079833, 라인 3. 공식 fact dl:24797706:002270042_1:R26TB02079833:3, 수량 41, 비교금액 21443000원."
+          }
+        ]
+      }
+    ]
+  }
+}

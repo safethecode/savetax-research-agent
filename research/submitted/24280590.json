@@ -1,0 +1,80 @@
+{
+  "submission": {
+    "submission_id": "3b0bbfa7-d55a-4bce-b731-0815067bcd9f",
+    "claim_id": "ee64cf93-5db2-407e-ad2b-4ddde7336f92",
+    "revision": 1,
+    "submission_state": "accepted",
+    "admitted_at": "2026-10-16T04:23:40.314Z",
+    "amount_krw": 38160000,
+    "verification_status": "not_started",
+    "lint_status": "pending",
+    "event_epoch": 1,
+    "ruleset_version": "rules-v1",
+    "public_path": "/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/3b0bbfa7-d55a-4bce-b731-0815067bcd9f",
+    "api_path": "/v1/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/3b0bbfa7-d55a-4bce-b731-0815067bcd9f",
+    "web_path": "#/submission/3b0bbfa7-d55a-4bce-b731-0815067bcd9f"
+  },
+  "body": {
+    "dataset_release_id": "release-live-20261012",
+    "ruleset_version": "rules-v1",
+    "canonical_product_id": "24280590",
+    "title": "ASW-2224G → TL-SG3428 대체품 398000원 비교",
+    "claim": "조달 ASW-2224G과 실제 판매 TL-SG3428의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 원에이디엠ASW-2224G와다른제조사TP-LinkTL-SG3428의핵심사양대체비교다. 원광업링크는100Base-FX와1000Base-X로구성가능하지만대체원문은1GbpsSFP만명시한다. 따라서100Mbps광업링크가필수인환경에서동일하게동작한다고주장하지않으며1Gbps광업링크사용범위로비교한다. 원16KMAC대비대체V2이상16K이지만V1은8K이므로판매버전확인전16K동등성이확정되었다고하지않는다. 원DRAM/Flash256MB와대체메모리,기존장비와의구성·관리통합/인증/펌웨어동일성은확인되지않았다. 원STP/LACP/CLI·PoE지원은미확인으로추정하지않는다. SFP광모듈·케이블은별매범위이며현장설정/기존망연동시험은수행하지않았다.",
+    "comparison_scope": "일반 판매가·무료배송 기준 장비 본체의 핵심 통신 기능 대체 비교. 1Gbps SFP 사용 범위다. SFP 모듈·설치·설정·서비스 비용은 별도 반영하지 않았다. 제주·울릉 기관은 제외했다. 원품 ASW-2224G, 대체품 TL-SG3428. 차이·제한: 원에이디엠ASW-2224G와다른제조사TP-LinkTL-SG3428의핵심사양대체비교다. 원광업링크는100Base-FX와1000Base-X로구성가능하지만대체원문은1GbpsSFP만명시한다. 따라서100Mbps광업링크가필수인환경에서동일하게동작한다고주장하지않으며1Gbps광업링크사용범위로비교한다. 원16KMAC대비대체V2이상16K이지만V1은8K이므로판매버전확인전16K동등성이확정되었다고하지않는다. 원DRAM/Flash256MB와대체메모리,기존장비와의구성·관리통합/인증/펌웨어동일성은확인되지않았다. 원STP/LACP/CLI·PoE지원은미확인으로추정하지않는다. SFP광모듈·케이블은별매범위이며현장설정/기존망연동시험은수행하지않았다.",
+    "reproduction_notes": "공식 fact별 floor(max(C-B×Q,0))를 합산. 각 라인 근거에 계약·납품요구·라인 번호를 기재. 가격 시점 차이는 사용자 지정 대회 조사 기준에서 제외한다. 사양 대응: 동선포트: 24×10/100/1000Base-T → 24×10/100/1000Mbps RJ45; 광업링크: 4×100Base-FX/1000Base-X SFP → 4×1000Mbps SFP.100Base-FX는대체품에서미확인; 스위칭/처리율: 56Gbps/41.6Mpps → 56Gbps/41.66Mpps; MAC: 16K → V2이상16K,V1은8K.판매하드웨어버전미확인; VLAN: 4K802.1Q/4KActiveVLAN → 4KVLAN그룹/802.1Q; 관리: SNMPv1/v2/v3,MIBII,RMON MIB,BridgeMIB → SNMPv1/v2c/v3,RMON,Web/CLI,Omada; 전원/PoE: 본체L2Gigabit스위치.제조사별도PoE모델구분 → AC100-240V내장,비PoE. 사양 출처: https://www.admict.co.kr/%EB%B3%B5%EC%A0%9C-%EC%84%A0%EB%B2%88%EA%B4%80%EB%A6%AC-%EC%84%9C%EB%B2%84 https://www.tp-link.com/kr/business-networking/managed-switch/tl-sg3428/v2/ https://www.tp-link.com/kr/business-networking/omada-switch-l3-l2-managed/tl-sg3428/v2.20/",
+    "lines": [
+      {
+        "fact_id": "dl:24280590:002370275_1:R26TB01701231:8",
+        "benchmark_unit_price_krw": "398000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=79",
+            "quote": "티피링크몰 TL-SG3428 판매가 398,000원. 배송비 무료. 총 상품금액 398,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면 확인. 회원·딜러 할인은 적용하지 않았다.",
+            "observed_price_krw": "398000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 398000원/1개 구성. 공식 비교 단위 1대당 398000원으로 비교. 실제 판매모델 TL-SG3428; 원품 ASW-2224G과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370275_1, 납품요구 R26TB01701231, 라인 8. 공식 fact dl:24280590:002370275_1:R26TB01701231:8, 수량 1, 비교금액 4638000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24280590:002370275_1:R26TB01940321:15",
+        "benchmark_unit_price_krw": "398000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://tplinkmall.com/product/detail.html?product_no=79",
+            "quote": "티피링크몰 TL-SG3428 판매가 398,000원. 배송비 무료. 총 상품금액 398,000원(1개). 바로 구매하기 표시. 2026-10-16 실제 상품 화면 확인. 회원·딜러 할인은 적용하지 않았다.",
+            "observed_price_krw": "398000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 398000원/1개 구성. 공식 비교 단위 1대당 398000원으로 비교. 실제 판매모델 TL-SG3428; 원품 ASW-2224G과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370275_1, 납품요구 R26TB01940321, 라인 15. 공식 fact dl:24280590:002370275_1:R26TB01940321:15, 수량 8, 비교금액 37104000원."
+          }
+        ]
+      }
+    ]
+  }
+}

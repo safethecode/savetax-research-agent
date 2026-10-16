@@ -1,10 +1,11 @@
 {
-  "updated_at": "2026-10-16T04:07:12.903248+00:00",
+  "updated_at": "2026-10-16T04:27:00.990751+00:00",
   "target_krw": "60000000000",
-  "accepted_submission_count": 13,
-  "accepted_amount_krw": "413271450",
+  "accepted_submission_count": 31,
+  "accepted_amount_krw": "890253150",
   "review_approved_amount_krw": null,
   "realized_savings_krw": null,
+  "status_note": "접수 예상액이다. 자동 점검 상태는 각 영수증 관측 시점이며 최종 인정·실제 집행 절감액과 다르다.",
   "submissions": [
     {
       "submission_id": "4fe1dc1c-4722-484e-a2d4-0808fec65c0e",
@@ -3587,6 +3588,2284 @@
       "public_url": "https://hackathon.savetax.now/#/submission/793c6ddf-19ce-471a-9443-4a3524be4bff",
       "local_public_body": "research/submitted/25771323.json",
       "admitted_at": "2026-10-16T04:05:13.696Z"
+    },
+    {
+      "submission_id": "f8a15f70-5f9b-44e6-8c85-d8075c44b259",
+      "item_id": "23385308",
+      "title": "HN1010G → TL-SG2210P 대체품 189000원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "43968000",
+      "lint_status": "pending",
+      "lint_status_observed_at": "admission_receipt",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://tplinkmall.com/product/%ED%8B%B0%ED%94%BC%EB%A7%81%ED%81%AC-tl-sg2210p-10%ED%8F%AC%ED%8A%B88poe2sfp-%EA%B8%B0%EA%B0%80%EB%B9%84%ED%8A%B8-%EC%8A%A4%EC%9C%84%EC%B9%98-poe8p-2sfp-58w-omada/90/",
+      "displayed_price_krw": "189000",
+      "benchmark_unit_price_krw": "189000",
+      "quantity": "192",
+      "comparable_amount_krw": "80256000",
+      "fact_count": 27,
+      "distinct_request_count": 27,
+      "claim": "조달 HN1010G과 실제 판매 TL-SG2210P의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 동일모델·동일제조사가 아닌 핵심기능 대응 대체품이다. 원모델 한드림넷 HN1010G에 대해 실제대체품 TP-Link TL-SG2210P를 제시한다. 한드림넷 VNM/VIPM 전용관리연동·Multi OS 및 기존망의설정/운영체계와 TP-Link Omada는동일하지않다. 원장비의국산장비/보안기능확인서인증을 대체품이보유한다고주장하지않는다. 원모델 AC내장전원·콘솔과 소매품 외부어댑터·관리구성은다르다. 소매페이지58WPoE와공식최신V5.2의61W표기는하드웨어버전차이가있을수있다. PoE를사용하지않는원모델범위로만비교한다. 광SFP모듈·케이블은별매범위이며기존트랜시버/기관망설정/현장장착호환시험은수행하지않았다. 실제현장설치·하자보수서비스와본체취득가는구분한다.",
+      "comparison_scope": "동일모델비교가아닌8개기가비트동선포트+2개기가비트광SFP업링크,20Gbps/14.88Mpps/8K MAC,L2관리/VLAN/STP/IGMP/QoS/ACL/SNMP 핵심사양대응대체품가격비교. 한드림넷자체관리/인증과전원·관리방식차이를본문에명시하며기존구성그대로무변경치환으로주장하지않는다. 일반189000원무료배송을사용하고신규회원/딜러/조건할인가170600원·적립금을미차감. 도서추가비미확정범위는제외. 원조달계약의현장설치·운영서비스와장비본체취득가격은구분하며집행된예산절감은주장하지않는다. 원품 HN1010G, 대체품 TL-SG2210P. 차이·제한: 동일모델·동일제조사가 아닌 핵심기능 대응 대체품이다. 원모델 한드림넷 HN1010G에 대해 실제대체품 TP-Link TL-SG2210P를 제시한다. 한드림넷 VNM/VIPM 전용관리연동·Multi OS 및 기존망의설정/운영체계와 TP-Link Omada는동일하지않다. 원장비의국산장비/보안기능확인서인증을 대체품이보유한다고주장하지않는다. 원모델 AC내장전원·콘솔과 소매품 외부어댑터·관리구성은다르다. 소매페이지58WPoE와공식최신V5.2의61W표기는하드웨어버전차이가있을수있다. PoE를사용하지않는원모델범위로만비교한다. 광SFP모듈·케이블은별매범위이며기존트랜시버/기관망설정/현장장착호환시험은수행하지않았다. 실제현장설치·하자보수서비스와본체취득가는구분한다.",
+      "references": [
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R25TB01075312:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R25TB01075312",
+          "line_no": "1",
+          "quantity": "12",
+          "comparable_amount_krw": "5016000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R25TB01186691:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R25TB01186691",
+          "line_no": "1",
+          "quantity": "60",
+          "comparable_amount_krw": "25080000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R25TB01208415:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R25TB01208415",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "418000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R25TB01220680:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R25TB01220680",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "418000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R25TB01226871:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R25TB01226871",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "418000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R25TB01256255:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R25TB01256255",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "418000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R25TB01288144:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R25TB01288144",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "418000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R25TB01324374:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R25TB01324374",
+          "line_no": "1",
+          "quantity": "4",
+          "comparable_amount_krw": "1672000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R25TB01336349:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R25TB01336349",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "836000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R26TB01461270:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01461270",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "836000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R26TB01569899:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01569899",
+          "line_no": "1",
+          "quantity": "18",
+          "comparable_amount_krw": "7524000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R26TB01670024:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01670024",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "836000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R26TB01788850:2",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01788850",
+          "line_no": "2",
+          "quantity": "2",
+          "comparable_amount_krw": "836000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R26TB01806939:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01806939",
+          "line_no": "1",
+          "quantity": "3",
+          "comparable_amount_krw": "1254000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R26TB01870033:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01870033",
+          "line_no": "1",
+          "quantity": "4",
+          "comparable_amount_krw": "1672000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R26TB01964989:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01964989",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "418000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R26TB01998580:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01998580",
+          "line_no": "1",
+          "quantity": "4",
+          "comparable_amount_krw": "1672000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R26TB02118666:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB02118666",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "418000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R26TB02152717:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB02152717",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "418000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R26TB02171972:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB02171972",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "418000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R26TB02278820:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB02278820",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "836000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R26TB02283141:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB02283141",
+          "line_no": "1",
+          "quantity": "4",
+          "comparable_amount_krw": "1672000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R26TB02284575:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB02284575",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "418000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R26TB02288061:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB02288061",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "418000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R26TB02328257:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB02328257",
+          "line_no": "1",
+          "quantity": "3",
+          "comparable_amount_krw": "1254000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R26TB02330300:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB02330300",
+          "line_no": "1",
+          "quantity": "27",
+          "comparable_amount_krw": "11286000"
+        },
+        {
+          "fact_id": "dl:23385308:R25TA00961673:R26TB02332386:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB02332386",
+          "line_no": "1",
+          "quantity": "32",
+          "comparable_amount_krw": "13376000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/f8a15f70-5f9b-44e6-8c85-d8075c44b259",
+      "body_path": "research/submitted/23385308.json",
+      "admitted_at": "2026-10-16T04:13:30.894Z"
+    },
+    {
+      "submission_id": "8fac13fa-d7cc-4222-9ddd-a4fc4dd1036f",
+      "item_id": "23809904",
+      "title": "HN1016G → TL-SG2218 대체품 290000원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "23788800",
+      "lint_status": "pending",
+      "lint_status_observed_at": "admission_receipt",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://tplinkmall.com/product/detail.html?product_no=75",
+      "displayed_price_krw": "290000",
+      "benchmark_unit_price_krw": "290000",
+      "quantity": "72",
+      "comparable_amount_krw": "44668800",
+      "fact_count": 15,
+      "distinct_request_count": 15,
+      "claim": "조달 HN1016G과 실제 판매 TL-SG2218의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 원제조사/모델은한드림넷HN1016G이고실대체판매품은TP-LinkTL-SG2218이다. 동일품이라고하지않는다. 원14개동선포트대비대체16개로2개여유,32Gbps/23.8Mpps대비36Gbps/26.8Mpps이다. 한드림넷VNM/VIPM전용관리연동·Multi OS·국산장비/보안기능확인서인증을TP-Link가동일하게제공한다고주장하지않는다. TP-Link는Omada관리이며설정·운영체계가다르다. 원64MB플래시와대체메모리·세부큐구성의동일성,기관기존망에의연동시험·설정이행은확인하지않았다. SFP광모듈·케이블은별매범위이다.",
+      "comparison_scope": "일반 판매가·무료배송 기준 장비 본체의 핵심 통신 기능 대체 비교. 1Gbps SFP 사용 범위다. SFP 모듈·설치·설정·서비스 비용은 별도 반영하지 않았다. 제주·울릉 기관은 제외했다. 원품 HN1016G, 대체품 TL-SG2218. 차이·제한: 원제조사/모델은한드림넷HN1016G이고실대체판매품은TP-LinkTL-SG2218이다. 동일품이라고하지않는다. 원14개동선포트대비대체16개로2개여유,32Gbps/23.8Mpps대비36Gbps/26.8Mpps이다. 한드림넷VNM/VIPM전용관리연동·Multi OS·국산장비/보안기능확인서인증을TP-Link가동일하게제공한다고주장하지않는다. TP-Link는Omada관리이며설정·운영체계가다르다. 원64MB플래시와대체메모리·세부큐구성의동일성,기관기존망에의연동시험·설정이행은확인하지않았다. SFP광모듈·케이블은별매범위이다.",
+      "references": [
+        {
+          "fact_id": "dl:23809904:R25TA00961673:R25TB01094561:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R25TB01094561",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "620400"
+        },
+        {
+          "fact_id": "dl:23809904:R25TA00961673:R25TB01123517:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R25TB01123517",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "620400"
+        },
+        {
+          "fact_id": "dl:23809904:R25TA00961673:R25TB01180222:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R25TB01180222",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "620400"
+        },
+        {
+          "fact_id": "dl:23809904:R25TA00961673:R25TB01204650:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R25TB01204650",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "620400"
+        },
+        {
+          "fact_id": "dl:23809904:R25TA00961673:R25TB01336349:2",
+          "contract_no": "R25TA00961673",
+          "request_no": "R25TB01336349",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "620400"
+        },
+        {
+          "fact_id": "dl:23809904:R25TA00961673:R25TB01386188:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R25TB01386188",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "620400"
+        },
+        {
+          "fact_id": "dl:23809904:R25TA00961673:R26TB01427087:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01427087",
+          "line_no": "1",
+          "quantity": "4",
+          "comparable_amount_krw": "2481600"
+        },
+        {
+          "fact_id": "dl:23809904:R25TA00961673:R26TB01480955:3",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01480955",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "620400"
+        },
+        {
+          "fact_id": "dl:23809904:R25TA00961673:R26TB01569899:2",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01569899",
+          "line_no": "2",
+          "quantity": "51",
+          "comparable_amount_krw": "31640400"
+        },
+        {
+          "fact_id": "dl:23809904:R25TA00961673:R26TB01705837:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01705837",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "620400"
+        },
+        {
+          "fact_id": "dl:23809904:R25TA00961673:R26TB01781296:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01781296",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "620400"
+        },
+        {
+          "fact_id": "dl:23809904:R25TA00961673:R26TB01788850:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01788850",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "620400"
+        },
+        {
+          "fact_id": "dl:23809904:R25TA00961673:R26TB01973465:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01973465",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "620400"
+        },
+        {
+          "fact_id": "dl:23809904:R25TA00961673:R26TB02056758:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB02056758",
+          "line_no": "1",
+          "quantity": "3",
+          "comparable_amount_krw": "1861200"
+        },
+        {
+          "fact_id": "dl:23809904:R25TA00961673:R26TB02075970:1",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB02075970",
+          "line_no": "1",
+          "quantity": "3",
+          "comparable_amount_krw": "1861200"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/8fac13fa-d7cc-4222-9ddd-a4fc4dd1036f",
+      "body_path": "research/submitted/23809904.json",
+      "admitted_at": "2026-10-16T04:23:40.476Z"
+    },
+    {
+      "submission_id": "3b0bbfa7-d55a-4bce-b731-0815067bcd9f",
+      "item_id": "24280590",
+      "title": "ASW-2224G → TL-SG3428 대체품 398000원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "38160000",
+      "lint_status": "pending",
+      "lint_status_observed_at": "admission_receipt",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://tplinkmall.com/product/detail.html?product_no=79",
+      "displayed_price_krw": "398000",
+      "benchmark_unit_price_krw": "398000",
+      "quantity": "9",
+      "comparable_amount_krw": "41742000",
+      "fact_count": 2,
+      "distinct_request_count": 2,
+      "claim": "조달 ASW-2224G과 실제 판매 TL-SG3428의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 원에이디엠ASW-2224G와다른제조사TP-LinkTL-SG3428의핵심사양대체비교다. 원광업링크는100Base-FX와1000Base-X로구성가능하지만대체원문은1GbpsSFP만명시한다. 따라서100Mbps광업링크가필수인환경에서동일하게동작한다고주장하지않으며1Gbps광업링크사용범위로비교한다. 원16KMAC대비대체V2이상16K이지만V1은8K이므로판매버전확인전16K동등성이확정되었다고하지않는다. 원DRAM/Flash256MB와대체메모리,기존장비와의구성·관리통합/인증/펌웨어동일성은확인되지않았다. 원STP/LACP/CLI·PoE지원은미확인으로추정하지않는다. SFP광모듈·케이블은별매범위이며현장설정/기존망연동시험은수행하지않았다.",
+      "comparison_scope": "일반 판매가·무료배송 기준 장비 본체의 핵심 통신 기능 대체 비교. 1Gbps SFP 사용 범위다. SFP 모듈·설치·설정·서비스 비용은 별도 반영하지 않았다. 제주·울릉 기관은 제외했다. 원품 ASW-2224G, 대체품 TL-SG3428. 차이·제한: 원에이디엠ASW-2224G와다른제조사TP-LinkTL-SG3428의핵심사양대체비교다. 원광업링크는100Base-FX와1000Base-X로구성가능하지만대체원문은1GbpsSFP만명시한다. 따라서100Mbps광업링크가필수인환경에서동일하게동작한다고주장하지않으며1Gbps광업링크사용범위로비교한다. 원16KMAC대비대체V2이상16K이지만V1은8K이므로판매버전확인전16K동등성이확정되었다고하지않는다. 원DRAM/Flash256MB와대체메모리,기존장비와의구성·관리통합/인증/펌웨어동일성은확인되지않았다. 원STP/LACP/CLI·PoE지원은미확인으로추정하지않는다. SFP광모듈·케이블은별매범위이며현장설정/기존망연동시험은수행하지않았다.",
+      "references": [
+        {
+          "fact_id": "dl:24280590:002370275_1:R26TB01701231:8",
+          "contract_no": "002370275_1",
+          "request_no": "R26TB01701231",
+          "line_no": "8",
+          "quantity": "1",
+          "comparable_amount_krw": "4638000"
+        },
+        {
+          "fact_id": "dl:24280590:002370275_1:R26TB01940321:15",
+          "contract_no": "002370275_1",
+          "request_no": "R26TB01940321",
+          "line_no": "15",
+          "quantity": "8",
+          "comparable_amount_krw": "37104000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/3b0bbfa7-d55a-4bce-b731-0815067bcd9f",
+      "body_path": "research/submitted/24280590.json",
+      "admitted_at": "2026-10-16T04:23:40.314Z"
+    },
+    {
+      "submission_id": "048f57df-e9dd-487d-9123-130e89520508",
+      "item_id": "24797706",
+      "title": "NK-G802MT → TL-SG2210P 대체품 189000원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "25718000",
+      "lint_status": "pending",
+      "lint_status_observed_at": "admission_receipt",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://tplinkmall.com/product/detail.html?product_no=90",
+      "displayed_price_krw": "189000",
+      "benchmark_unit_price_krw": "189000",
+      "quantity": "77",
+      "comparable_amount_krw": "40271000",
+      "fact_count": 15,
+      "distinct_request_count": 15,
+      "claim": "조달 NK-G802MT과 실제 판매 TL-SG2210P의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 원품은 미래시그널 NK-G802MT이고, 판매품은 TP-Link TL-SG2210P다. 두 모델은 서로 다르다. 원품의 L2 관리형, 동선 8포트와 SFP 2포트, 20Gbps·14.88Mpps·MAC 8K 사양을 대응시켰다. 원품의 VLAN·STP·ACL·SNMP 세부 구현, 전원·온도·팬·메모리·인증·전용 관리 연동은 확인하지 못했다. 대체품은 Web·CLI·SNMP·Omada 및 VLAN·STP·IGMP·ACL을 명시하지만 모든 운영 기능의 동일성은 주장하지 않는다. 원품의 비PoE 유통 표기와 별도 PoE 모델 NK-PG802MT를 구별했다. 대체품의 판매 표기는 PoE 58W다. 광모듈과 케이블은 별매이며 기존 망과의 상호운용 시험은 하지 않았다.",
+      "comparison_scope": "기가비트 동선 8포트와 SFP 2포트를 갖춘 관리형 스위치 본체의 대체 취득가격 비교. 일반 판매가 189,000원과 무료배송을 적용한다. 설치·설정·하자보수 서비스 비용은 반영하지 않았다. 미확정 도서 운임이 있는 제주·울릉 기관은 제외한다. 원품 NK-G802MT, 대체품 TL-SG2210P. 차이·제한: 원품은 미래시그널 NK-G802MT이고, 판매품은 TP-Link TL-SG2210P다. 두 모델은 서로 다르다. 원품의 L2 관리형, 동선 8포트와 SFP 2포트, 20Gbps·14.88Mpps·MAC 8K 사양을 대응시켰다. 원품의 VLAN·STP·ACL·SNMP 세부 구현, 전원·온도·팬·메모리·인증·전용 관리 연동은 확인하지 못했다. 대체품은 Web·CLI·SNMP·Omada 및 VLAN·STP·IGMP·ACL을 명시하지만 모든 운영 기능의 동일성은 주장하지 않는다. 원품의 비PoE 유통 표기와 별도 PoE 모델 NK-PG802MT를 구별했다. 대체품의 판매 표기는 PoE 58W다. 광모듈과 케이블은 별매이며 기존 망과의 상호운용 시험은 하지 않았다.",
+      "references": [
+        {
+          "fact_id": "dl:24797706:002270042_1:2424404789:1",
+          "contract_no": "002270042_1",
+          "request_no": "2424404789",
+          "line_no": "1",
+          "quantity": "3",
+          "comparable_amount_krw": "1569000"
+        },
+        {
+          "fact_id": "dl:24797706:002270042_1:R25TB01054247:7",
+          "contract_no": "002270042_1",
+          "request_no": "R25TB01054247",
+          "line_no": "7",
+          "quantity": "2",
+          "comparable_amount_krw": "1046000"
+        },
+        {
+          "fact_id": "dl:24797706:002270042_1:R25TB01056955:11",
+          "contract_no": "002270042_1",
+          "request_no": "R25TB01056955",
+          "line_no": "11",
+          "quantity": "2",
+          "comparable_amount_krw": "1046000"
+        },
+        {
+          "fact_id": "dl:24797706:002270042_1:R25TB01067109:9",
+          "contract_no": "002270042_1",
+          "request_no": "R25TB01067109",
+          "line_no": "9",
+          "quantity": "1",
+          "comparable_amount_krw": "523000"
+        },
+        {
+          "fact_id": "dl:24797706:002270042_1:R25TB01167728:6",
+          "contract_no": "002270042_1",
+          "request_no": "R25TB01167728",
+          "line_no": "6",
+          "quantity": "3",
+          "comparable_amount_krw": "1569000"
+        },
+        {
+          "fact_id": "dl:24797706:002270042_1:R25TB01179054:2",
+          "contract_no": "002270042_1",
+          "request_no": "R25TB01179054",
+          "line_no": "2",
+          "quantity": "2",
+          "comparable_amount_krw": "1046000"
+        },
+        {
+          "fact_id": "dl:24797706:002270042_1:R25TB01217517:7",
+          "contract_no": "002270042_1",
+          "request_no": "R25TB01217517",
+          "line_no": "7",
+          "quantity": "5",
+          "comparable_amount_krw": "2615000"
+        },
+        {
+          "fact_id": "dl:24797706:002270042_1:R25TB01260469:5",
+          "contract_no": "002270042_1",
+          "request_no": "R25TB01260469",
+          "line_no": "5",
+          "quantity": "5",
+          "comparable_amount_krw": "2615000"
+        },
+        {
+          "fact_id": "dl:24797706:002270042_1:R26TB01586295:1",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB01586295",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "523000"
+        },
+        {
+          "fact_id": "dl:24797706:002270042_1:R26TB01818130:1",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB01818130",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "523000"
+        },
+        {
+          "fact_id": "dl:24797706:002270042_1:R26TB01903606:2",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB01903606",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "523000"
+        },
+        {
+          "fact_id": "dl:24797706:002270042_1:R26TB01909835:3",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB01909835",
+          "line_no": "3",
+          "quantity": "2",
+          "comparable_amount_krw": "1046000"
+        },
+        {
+          "fact_id": "dl:24797706:002270042_1:R26TB01975922:4",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB01975922",
+          "line_no": "4",
+          "quantity": "2",
+          "comparable_amount_krw": "1046000"
+        },
+        {
+          "fact_id": "dl:24797706:002270042_1:R26TB01997749:3",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB01997749",
+          "line_no": "3",
+          "quantity": "6",
+          "comparable_amount_krw": "3138000"
+        },
+        {
+          "fact_id": "dl:24797706:002270042_1:R26TB02079833:3",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB02079833",
+          "line_no": "3",
+          "quantity": "41",
+          "comparable_amount_krw": "21443000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/048f57df-e9dd-487d-9123-130e89520508",
+      "body_path": "research/submitted/24797706.json",
+      "admitted_at": "2026-10-16T04:25:29.075Z"
+    },
+    {
+      "submission_id": "7cf5013c-476b-430c-90a5-1d862bf6a2b0",
+      "item_id": "24876179",
+      "title": "YES-2116P → NEXT-POE3026SFP-400 대체품 324700원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "32716900",
+      "lint_status": "pending",
+      "lint_status_observed_at": "admission_receipt",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://duhyun.com/mall/shopbrand_view.php?category=NVR_more&company=&page=2&uid=20627",
+      "displayed_price_krw": "324700",
+      "benchmark_unit_price_krw": "327700",
+      "quantity": "53",
+      "comparable_amount_krw": "50085000",
+      "fact_count": 36,
+      "distinct_request_count": 36,
+      "claim": "조달 YES-2116P과 실제 판매 NEXT-POE3026SFP-400의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 동일모델이아닌여의시스템YES-2116P→이지넷유비쿼터스NEXT-POE3026SFP-400의핵심기능대체비교다.원16개동선포트대비대체24개,원2개SFP대비대체2개업링크/SFP선택콤보이다.원PoE285W대비대체판매처표시는최대400W이며24개를동시에30W씩공급한다는주장은하지않는다.원52G/38.6Mpps/8K대비대체제조사공식카탈로그는52G/8K/512KByte버퍼이며패킷처리율은미확인이다.원1~8번250m연장과대체CCTV10Mbps250m는장거리기능을지원하되지원포트구성/케이블조건은다를수있다.원PoERemoteRestart,DIP아이솔레이션/스톰억제와대체의세부자동복구동일성은미확인이다.원팬리스·동작온도-10~50C대비대체는FAN-Less미지원(-)·0~40C로실제차이가있으므로0~40C상온사용범위로대체를제안한다.메모리,기존CCTV/트랜시버와의상호운용시험·KC인증내역의동등성은확인되지않았다.이를동일품또는모든현장무변경치환이라고하지않는다.",
+      "comparison_scope": "16개 기가비트 PoE·광업링크 CCTV 통신에 쓰는 장비 본체의 대체 비교. 동작온도0~40°C 범위로 한정한다. 원품의 현장설치·설정·하자보수 비용은 별도 반영하지 않았다. 본토까지 매대 도서 추가비3,000원을 가산해 B327,700원 적용. 원품 YES-2116P, 대체품 NEXT-POE3026SFP-400. 차이·제한: 동일모델이아닌여의시스템YES-2116P→이지넷유비쿼터스NEXT-POE3026SFP-400의핵심기능대체비교다.원16개동선포트대비대체24개,원2개SFP대비대체2개업링크/SFP선택콤보이다.원PoE285W대비대체판매처표시는최대400W이며24개를동시에30W씩공급한다는주장은하지않는다.원52G/38.6Mpps/8K대비대체제조사공식카탈로그는52G/8K/512KByte버퍼이며패킷처리율은미확인이다.원1~8번250m연장과대체CCTV10Mbps250m는장거리기능을지원하되지원포트구성/케이블조건은다를수있다.원PoERemoteRestart,DIP아이솔레이션/스톰억제와대체의세부자동복구동일성은미확인이다.원팬리스·동작온도-10~50C대비대체는FAN-Less미지원(-)·0~40C로실제차이가있으므로0~40C상온사용범위로대체를제안한다.메모리,기존CCTV/트랜시버와의상호운용시험·KC인증내역의동등성은확인되지않았다.이를동일품또는모든현장무변경치환이라고하지않는다.",
+      "references": [
+        {
+          "fact_id": "dl:24876179:002370069_1:R26TB02267035:5",
+          "contract_no": "002370069_1",
+          "request_no": "R26TB02267035",
+          "line_no": "5",
+          "quantity": "2",
+          "comparable_amount_krw": "1890000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:2224475937:8",
+          "contract_no": "002370098_1",
+          "request_no": "2224475937",
+          "line_no": "8",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R25TB01044056:4",
+          "contract_no": "002370098_1",
+          "request_no": "R25TB01044056",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R25TB01112282:5",
+          "contract_no": "002370098_1",
+          "request_no": "R25TB01112282",
+          "line_no": "5",
+          "quantity": "2",
+          "comparable_amount_krw": "1890000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R25TB01126483:2",
+          "contract_no": "002370098_1",
+          "request_no": "R25TB01126483",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R25TB01150395:2",
+          "contract_no": "002370098_1",
+          "request_no": "R25TB01150395",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R25TB01288039:8",
+          "contract_no": "002370098_1",
+          "request_no": "R25TB01288039",
+          "line_no": "8",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R25TB01288387:5",
+          "contract_no": "002370098_1",
+          "request_no": "R25TB01288387",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R25TB01298492:7",
+          "contract_no": "002370098_1",
+          "request_no": "R25TB01298492",
+          "line_no": "7",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R25TB01306172:2",
+          "contract_no": "002370098_1",
+          "request_no": "R25TB01306172",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R25TB01316404:12",
+          "contract_no": "002370098_1",
+          "request_no": "R25TB01316404",
+          "line_no": "12",
+          "quantity": "2",
+          "comparable_amount_krw": "1890000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R25TB01391619:3",
+          "contract_no": "002370098_1",
+          "request_no": "R25TB01391619",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R26TB01395838:4",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01395838",
+          "line_no": "4",
+          "quantity": "3",
+          "comparable_amount_krw": "2835000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R26TB01406902:4",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01406902",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R26TB01425713:9",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01425713",
+          "line_no": "9",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R26TB01600239:4",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01600239",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R26TB01694605:2",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01694605",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R26TB01756097:8",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01756097",
+          "line_no": "8",
+          "quantity": "5",
+          "comparable_amount_krw": "4725000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R26TB01781272:4",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01781272",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R26TB01875093:5",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01875093",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R26TB01897070:2",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01897070",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R26TB01912805:3",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01912805",
+          "line_no": "3",
+          "quantity": "2",
+          "comparable_amount_krw": "1890000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R26TB01920494:2",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01920494",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R26TB01922133:2",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01922133",
+          "line_no": "2",
+          "quantity": "3",
+          "comparable_amount_krw": "2835000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R26TB01992941:2",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01992941",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R26TB02116107:4",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB02116107",
+          "line_no": "4",
+          "quantity": "4",
+          "comparable_amount_krw": "3780000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R26TB02116186:7",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB02116186",
+          "line_no": "7",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370098_1:R26TB02228347:4",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB02228347",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370124_1:R25TB01123028:5",
+          "contract_no": "002370124_1",
+          "request_no": "R25TB01123028",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370124_1:R25TB01283484:3",
+          "contract_no": "002370124_1",
+          "request_no": "R25TB01283484",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370213_1:R26TB01400727:3",
+          "contract_no": "002370213_1",
+          "request_no": "R26TB01400727",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370213_1:R26TB01469312:10",
+          "contract_no": "002370213_1",
+          "request_no": "R26TB01469312",
+          "line_no": "10",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:002370213_1:R26TB02154962:5",
+          "contract_no": "002370213_1",
+          "request_no": "R26TB02154962",
+          "line_no": "5",
+          "quantity": "2",
+          "comparable_amount_krw": "1890000"
+        },
+        {
+          "fact_id": "dl:24876179:002370213_1:R26TB02296263:4",
+          "contract_no": "002370213_1",
+          "request_no": "R26TB02296263",
+          "line_no": "4",
+          "quantity": "2",
+          "comparable_amount_krw": "1890000"
+        },
+        {
+          "fact_id": "dl:24876179:R25TA00789927:R25TB01056330:4",
+          "contract_no": "R25TA00789927",
+          "request_no": "R25TB01056330",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        },
+        {
+          "fact_id": "dl:24876179:R25TA00789927:R25TB01391321:4",
+          "contract_no": "R25TA00789927",
+          "request_no": "R25TB01391321",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "945000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/7cf5013c-476b-430c-90a5-1d862bf6a2b0",
+      "body_path": "research/submitted/24876179.json",
+      "admitted_at": "2026-10-16T04:24:39.470Z"
+    },
+    {
+      "submission_id": "c3493bc2-7a4a-457e-87a1-f6b62c910c1c",
+      "item_id": "23352284",
+      "title": "ZE-40A-E51 → TG2532PD40A 대체품 28000원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "17432400",
+      "lint_status": "pending",
+      "lint_status_observed_at": "admission_receipt",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://www.mkmall.shop/goods/goods_view.php?goodsNo=1000006534",
+      "displayed_price_krw": "28000",
+      "benchmark_unit_price_krw": "32000",
+      "quantity": "398",
+      "comparable_amount_krw": "30168400",
+      "fact_count": 9,
+      "distinct_request_count": 9,
+      "claim": "조달 ZE-40A-E51과 실제 판매 TG2532PD40A의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 조달 (주)젬 ZE-40A-E51과 실제 판매 태강TG2532PD40A은 제조사·모델이 다르다. 용도: 원품 40W직사각평판등;고정형.추가치수23/21.7의항목매핑은공식synonym만으로구분불가., 대체 40W고정형직사각평판등. 동일범주표준평판등;동일제품주장아님 정격전력/전원: 원품 40W/220V, 대체 40W/AC220V60Hz. 대응.원품주파수는listing미표기 치수: 원품 길이1282×너비318;추가치수23/21.7mm, 대체 1285×320×30mm. 차이명시;기존타공구멍·고정부치수개별검토필요.설치공사를포함한확정대체가능이라확대하지않음 CCT/광속/CRI: 원품 해당공식listing미표기, 대체 5700K/4400lm/Ra80/110lmW. 대체공시값확인.원품동등광속/연색성이라고추정하지않음 수명: 원품 30000h, 대체 30000h. 공시수명30000h대응 제조/인증: 원품 (주)젬;원품별도제조, 대체 주식회사태강/대한민국/KSC7653KIEL2024-0070/고효율99176호. 다른제조사모델.대체실판매상세공시증거확인 원품과태강은다른제조사모델.동일상품표시금지. 전력·전원·평판형용도·근접치수범위에서의대체구매제안.광속·수명·연색성완전동등이라고주장하지않음. 기존타공/고정부호환성개별확인이필요하며하차도제품가격만비교.설치비등미확인액을임의기입하지않음.",
+      "comparison_scope": "동일모델이 아닌40W·국내220V·직사각 평판 조명 본체의 용도·근접 치수 범위에서 대체구매를 제안한다. 공시되지 않은 광속·수명·연색성의 완전동등성과 기존타공·고정부의 즉시호환을 주장하지 않는다. 가격28000+배송4000원을 개마다 적용한32000원을B로 쓴다. 하차도 제품 취득가격만 비교하고 설치공사를 포함한 실제 예산절감으로 확정하지 않는다. 추가배송료가능지역0facts는제외하여9facts/398개/C30168400원 범위다. 원품과태강은다른제조사모델.동일상품표시금지. 전력·전원·평판형용도·근접치수범위에서의대체구매제안.광속·수명·연색성완전동등이라고주장하지않음. 기존타공/고정부호환성개별확인이필요하며하차도제품가격만비교.설치비등미확인액을임의기입하지않음. 원품 ZE-40A-E51, 대체품 TG2532PD40A. 세부 차이·제한은 주장과 재현 방법에 기재했다.",
+      "references": [
+        {
+          "fact_id": "dl:23352284:R26TA01794536:R26TB01949882:2",
+          "contract_no": "R26TA01794536",
+          "request_no": "R26TB01949882",
+          "line_no": "2",
+          "quantity": "10",
+          "comparable_amount_krw": "758000"
+        },
+        {
+          "fact_id": "dl:23352284:R26TA01794536:R26TB01952529:2",
+          "contract_no": "R26TA01794536",
+          "request_no": "R26TB01952529",
+          "line_no": "2",
+          "quantity": "260",
+          "comparable_amount_krw": "19708000"
+        },
+        {
+          "fact_id": "dl:23352284:R26TA01794536:R26TB01975743:1",
+          "contract_no": "R26TA01794536",
+          "request_no": "R26TB01975743",
+          "line_no": "1",
+          "quantity": "5",
+          "comparable_amount_krw": "379000"
+        },
+        {
+          "fact_id": "dl:23352284:R26TA01794536:R26TB01998661:1",
+          "contract_no": "R26TA01794536",
+          "request_no": "R26TB01998661",
+          "line_no": "1",
+          "quantity": "40",
+          "comparable_amount_krw": "3032000"
+        },
+        {
+          "fact_id": "dl:23352284:R26TA01794536:R26TB02037234:4",
+          "contract_no": "R26TA01794536",
+          "request_no": "R26TB02037234",
+          "line_no": "4",
+          "quantity": "38",
+          "comparable_amount_krw": "2880400"
+        },
+        {
+          "fact_id": "dl:23352284:R26TA01794536:R26TB02139977:9",
+          "contract_no": "R26TA01794536",
+          "request_no": "R26TB02139977",
+          "line_no": "9",
+          "quantity": "3",
+          "comparable_amount_krw": "227400"
+        },
+        {
+          "fact_id": "dl:23352284:R26TA01794536:R26TB02225847:2",
+          "contract_no": "R26TA01794536",
+          "request_no": "R26TB02225847",
+          "line_no": "2",
+          "quantity": "9",
+          "comparable_amount_krw": "682200"
+        },
+        {
+          "fact_id": "dl:23352284:R26TA01794536:R26TB02266356:3",
+          "contract_no": "R26TA01794536",
+          "request_no": "R26TB02266356",
+          "line_no": "3",
+          "quantity": "19",
+          "comparable_amount_krw": "1440200"
+        },
+        {
+          "fact_id": "dl:23352284:R26TA01794536:R26TB02319600:2",
+          "contract_no": "R26TA01794536",
+          "request_no": "R26TB02319600",
+          "line_no": "2",
+          "quantity": "14",
+          "comparable_amount_krw": "1061200"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/c3493bc2-7a4a-457e-87a1-f6b62c910c1c",
+      "body_path": "research/submitted/23352284.json",
+      "admitted_at": "2026-10-16T04:16:28.491Z"
+    },
+    {
+      "submission_id": "1ed2efb3-78f4-42fd-9fe0-2cf552bfc191",
+      "item_id": "23607691",
+      "title": "EE1230M7-040ML → TG2532PD40A 대체품 28000원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "17100000",
+      "lint_status": "pending",
+      "lint_status_observed_at": "admission_receipt",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://www.mkmall.shop/goods/goods_view.php?goodsNo=1000006534",
+      "displayed_price_krw": "28000",
+      "benchmark_unit_price_krw": "32000",
+      "quantity": "855",
+      "comparable_amount_krw": "44460000",
+      "fact_count": 4,
+      "distinct_request_count": 4,
+      "claim": "조달 EE1230M7-040ML과 실제 판매 TG2532PD40A의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 조달 에코디바이스코리아 주식회사 EE1230M7-040ML과 실제 판매 태강TG2532PD40A은 제조사·모델이 다르다. 용도: 원품 40W직사각평판등;직부형/매입형/고정형., 대체 40W고정형직사각평판등. 동일범주표준평판등;동일제품주장아님 정격전력/전원: 원품 40W/220V, 대체 40W/AC220V60Hz. 대응.원품주파수는listing미표기 치수: 원품 1280×320×25.5mm, 대체 1285×320×30mm. 차이명시;기존타공구멍·고정부치수개별검토필요.설치공사를포함한확정대체가능이라확대하지않음 CCT/광속/CRI: 원품 해당공식listing미표기, 대체 5700K/4400lm/Ra80/110lmW. 대체공시값확인.원품동등광속/연색성이라고추정하지않음 수명: 원품 해당listing미공개, 대체 30000h. 수명동등성미확인명시 제조/인증: 원품 에코디바이스코리아 주식회사;원품별도제조, 대체 주식회사태강/대한민국/KSC7653KIEL2024-0070/고효율99176호. 다른제조사모델.대체실판매상세공시증거확인 원품과태강은다른제조사모델.동일상품표시금지. 전력·전원·평판형용도·근접치수범위에서의대체구매제안.광속·수명·연색성완전동등이라고주장하지않음. 기존타공/고정부호환성개별확인이필요하며하차도제품가격만비교.설치비등미확인액을임의기입하지않음.",
+      "comparison_scope": "동일모델이 아닌40W·국내220V·직사각 평판 조명 본체의 용도·근접 치수 범위에서 대체구매를 제안한다. 공시되지 않은 광속·수명·연색성의 완전동등성과 기존타공·고정부의 즉시호환을 주장하지 않는다. 가격28000+배송4000원을 개마다 적용한32000원을B로 쓴다. 하차도 제품 취득가격만 비교하고 설치공사를 포함한 실제 예산절감으로 확정하지 않는다. 추가배송료가능지역0facts는제외하여4facts/855개/C44460000원 범위다. 원품과태강은다른제조사모델.동일상품표시금지. 전력·전원·평판형용도·근접치수범위에서의대체구매제안.광속·수명·연색성완전동등이라고주장하지않음. 기존타공/고정부호환성개별확인이필요하며하차도제품가격만비교.설치비등미확인액을임의기입하지않음. 원품 EE1230M7-040ML, 대체품 TG2532PD40A. 세부 차이·제한은 주장과 재현 방법에 기재했다.",
+      "references": [
+        {
+          "fact_id": "dl:23607691:R26TA01820188:R26TB01989986:1",
+          "contract_no": "R26TA01820188",
+          "request_no": "R26TB01989986",
+          "line_no": "1",
+          "quantity": "627",
+          "comparable_amount_krw": "32604000"
+        },
+        {
+          "fact_id": "dl:23607691:R26TA01820188:R26TB01990093:1",
+          "contract_no": "R26TA01820188",
+          "request_no": "R26TB01990093",
+          "line_no": "1",
+          "quantity": "203",
+          "comparable_amount_krw": "10556000"
+        },
+        {
+          "fact_id": "dl:23607691:R26TA01820188:R26TB02130347:2",
+          "contract_no": "R26TA01820188",
+          "request_no": "R26TB02130347",
+          "line_no": "2",
+          "quantity": "5",
+          "comparable_amount_krw": "260000"
+        },
+        {
+          "fact_id": "dl:23607691:R26TA01820188:R26TB02184704:1",
+          "contract_no": "R26TA01820188",
+          "request_no": "R26TB02184704",
+          "line_no": "1",
+          "quantity": "20",
+          "comparable_amount_krw": "1040000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/1ed2efb3-78f4-42fd-9fe0-2cf552bfc191",
+      "body_path": "research/submitted/23607691.json",
+      "admitted_at": "2026-10-16T04:16:28.720Z"
+    },
+    {
+      "submission_id": "6a25d647-a5a7-439b-b81c-a48f5165a70d",
+      "item_id": "23699050",
+      "title": "G-LTF-3012L40 → TG2532PD40A 대체품 28000원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "23521000",
+      "lint_status": "pending",
+      "lint_status_observed_at": "admission_receipt",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://www.mkmall.shop/goods/goods_view.php?goodsNo=1000006534",
+      "displayed_price_krw": "28000",
+      "benchmark_unit_price_krw": "32000",
+      "quantity": "547",
+      "comparable_amount_krw": "41025000",
+      "fact_count": 8,
+      "distinct_request_count": 8,
+      "claim": "조달 G-LTF-3012L40과 실제 판매 TG2532PD40A의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 조달 (주)루텍 G-LTF-3012L40과 실제 판매 태강TG2532PD40A은 제조사·모델이 다르다. 용도: 원품 40W직사각평판등;색온도5700K/플리커프리;원품온도-20~70℃,대체-20~40℃범위차이., 대체 40W고정형직사각평판등. 동일범주표준평판등;동일제품주장아님 정격전력/전원: 원품 40W/220V, 대체 40W/AC220V60Hz. 대응.원품주파수는listing미표기 치수: 원품 1280×320×25.5mm, 대체 1285×320×30mm. 차이명시;기존타공구멍·고정부치수개별검토필요.설치공사를포함한확정대체가능이라확대하지않음 CCT/광속/CRI: 원품 5700K/광속·CRI미공개, 대체 5700K/4400lm/Ra80/110lmW. 대체공시값확인.원품동등광속/연색성이라고추정하지않음 수명: 원품 30000h, 대체 30000h. 공시수명30000h대응 제조/인증: 원품 (주)루텍;원품별도제조, 대체 주식회사태강/대한민국/KSC7653KIEL2024-0070/고효율99176호. 다른제조사모델.대체실판매상세공시증거확인 작동온도·플리커: 원품 -20~70℃/플리커프리, 대체 Ta -20~40℃/플리커수치미공개. 40℃이하실내사용범위만비교.높은온도요구/플리커기능전체동등성주장안함 원품과태강은다른제조사모델.동일상품표시금지. 전력·전원·평판형용도·근접치수범위에서의대체구매제안.광속·수명·연색성완전동등이라고주장하지않음. 기존타공/고정부호환성개별확인이필요하며하차도제품가격만비교.설치비등미확인액을임의기입하지않음. 루텍원품70℃상한대체태강40℃.40℃초과환경대체로쓰지않음.플리커프리동등성은미확인명시.",
+      "comparison_scope": "동일모델이 아닌40W·국내220V·직사각 평판 조명 본체의 용도·근접 치수 범위에서 대체구매를 제안한다. 공시되지 않은 광속·수명·연색성의 완전동등성과 기존타공·고정부의 즉시호환을 주장하지 않는다. 가격28000+배송4000원을 개마다 적용한32000원을B로 쓴다. 하차도 제품 취득가격만 비교하고 설치공사를 포함한 실제 예산절감으로 확정하지 않는다. 추가배송료가능지역0facts는제외하여8facts/547개/C41025000원 범위다. 원품과태강은다른제조사모델.동일상품표시금지. 전력·전원·평판형용도·근접치수범위에서의대체구매제안.광속·수명·연색성완전동등이라고주장하지않음. 기존타공/고정부호환성개별확인이필요하며하차도제품가격만비교.설치비등미확인액을임의기입하지않음. 루텍원품70℃상한대체태강40℃.40℃초과환경대체로쓰지않음.플리커프리동등성은미확인명시. 원품 G-LTF-3012L40, 대체품 TG2532PD40A. 세부 차이·제한은 주장과 재현 방법에 기재했다.",
+      "references": [
+        {
+          "fact_id": "dl:23699050:R26TA02057517:R26TB02131050:3",
+          "contract_no": "R26TA02057517",
+          "request_no": "R26TB02131050",
+          "line_no": "3",
+          "quantity": "62",
+          "comparable_amount_krw": "4650000"
+        },
+        {
+          "fact_id": "dl:23699050:R26TA02057517:R26TB02131354:1",
+          "contract_no": "R26TA02057517",
+          "request_no": "R26TB02131354",
+          "line_no": "1",
+          "quantity": "181",
+          "comparable_amount_krw": "13575000"
+        },
+        {
+          "fact_id": "dl:23699050:R26TA02057517:R26TB02144857:2",
+          "contract_no": "R26TA02057517",
+          "request_no": "R26TB02144857",
+          "line_no": "2",
+          "quantity": "55",
+          "comparable_amount_krw": "4125000"
+        },
+        {
+          "fact_id": "dl:23699050:R26TA02057517:R26TB02160408:2",
+          "contract_no": "R26TA02057517",
+          "request_no": "R26TB02160408",
+          "line_no": "2",
+          "quantity": "24",
+          "comparable_amount_krw": "1800000"
+        },
+        {
+          "fact_id": "dl:23699050:R26TA02057517:R26TB02161668:2",
+          "contract_no": "R26TA02057517",
+          "request_no": "R26TB02161668",
+          "line_no": "2",
+          "quantity": "74",
+          "comparable_amount_krw": "5550000"
+        },
+        {
+          "fact_id": "dl:23699050:R26TA02057517:R26TB02208947:2",
+          "contract_no": "R26TA02057517",
+          "request_no": "R26TB02208947",
+          "line_no": "2",
+          "quantity": "102",
+          "comparable_amount_krw": "7650000"
+        },
+        {
+          "fact_id": "dl:23699050:R26TA02057517:R26TB02262959:2",
+          "contract_no": "R26TA02057517",
+          "request_no": "R26TB02262959",
+          "line_no": "2",
+          "quantity": "24",
+          "comparable_amount_krw": "1800000"
+        },
+        {
+          "fact_id": "dl:23699050:R26TA02057517:R26TB02263437:2",
+          "contract_no": "R26TA02057517",
+          "request_no": "R26TB02263437",
+          "line_no": "2",
+          "quantity": "25",
+          "comparable_amount_krw": "1875000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/6a25d647-a5a7-439b-b81c-a48f5165a70d",
+      "body_path": "research/submitted/23699050.json",
+      "admitted_at": "2026-10-16T04:16:28.298Z"
+    },
+    {
+      "submission_id": "8aa89d96-2f13-4348-ae02-9d9c620edcd0",
+      "item_id": "23990596",
+      "title": "JS-LED-40W(DY312L) → TG2032PB40A 대체품 26500원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "14886200",
+      "lint_status": "pending",
+      "lint_status_observed_at": "admission_receipt",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://www.mkmall.shop/goods/goods_view.php?goodsNo=1000006534",
+      "displayed_price_krw": "26500",
+      "benchmark_unit_price_krw": "30500",
+      "quantity": "686",
+      "comparable_amount_krw": "35809200",
+      "fact_count": 3,
+      "distinct_request_count": 3,
+      "claim": "조달 JS-LED-40W(DY312L)과 실제 판매 TG2032PB40A의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 조달 지심엘앤씨 JS-LED-40W(DY312L)과 실제 판매 태강TG2032PB40A은 제조사·모델이 다르다. 용도: 원품 40W직사각평판등;매입형., 대체 40W매입형직사각평판등. 동일범주표준평판등;동일제품주장아님 정격전력/전원: 원품 40W/220V, 대체 40W/AC220V60Hz. 대응.원품주파수는listing미표기 치수: 원품 1287×318×34mm, 대체 1280×320×30mm. 차이명시;기존타공구멍·고정부치수개별검토필요.설치공사를포함한확정대체가능이라확대하지않음 CCT/광속/CRI: 원품 해당공식listing미표기, 대체 5700K/4400lm/Ra80/110lmW. 대체공시값확인.원품동등광속/연색성이라고추정하지않음 수명: 원품 해당listing미공개, 대체 30000h. 수명동등성미확인명시 제조/인증: 원품 지심엘앤씨;원품별도제조, 대체 주식회사태강/대한민국/KSC7653KIEL2024-0070/고효율98937호. 다른제조사모델.대체실판매상세공시증거확인 원품과태강은다른제조사모델.동일상품표시금지. 전력·전원·평판형용도·근접치수범위에서의대체구매제안.광속·수명·연색성완전동등이라고주장하지않음. 기존타공/고정부호환성개별확인이필요하며하차도제품가격만비교.설치비등미확인액을임의기입하지않음.",
+      "comparison_scope": "동일모델이 아닌40W·국내220V·직사각 평판 조명 본체의 용도·근접 치수 범위에서 대체구매를 제안한다. 공시되지 않은 광속·수명·연색성의 완전동등성과 기존타공·고정부의 즉시호환을 주장하지 않는다. 가격26500+배송4000원을 개마다 적용한30500원을B로 쓴다. 하차도 제품 취득가격만 비교하고 설치공사를 포함한 실제 예산절감으로 확정하지 않는다. 추가배송료가능지역0facts는제외하여3facts/686개/C35809200원 범위다. 원품과태강은다른제조사모델.동일상품표시금지. 전력·전원·평판형용도·근접치수범위에서의대체구매제안.광속·수명·연색성완전동등이라고주장하지않음. 기존타공/고정부호환성개별확인이필요하며하차도제품가격만비교.설치비등미확인액을임의기입하지않음. 원품 JS-LED-40W(DY312L), 대체품 TG2032PB40A. 세부 차이·제한은 주장과 재현 방법에 기재했다.",
+      "references": [
+        {
+          "fact_id": "dl:23990596:R26TA01774815:R26TB01925528:1",
+          "contract_no": "R26TA01774815",
+          "request_no": "R26TB01925528",
+          "line_no": "1",
+          "quantity": "600",
+          "comparable_amount_krw": "31320000"
+        },
+        {
+          "fact_id": "dl:23990596:R26TA01774815:R26TB02154868:1",
+          "contract_no": "R26TA01774815",
+          "request_no": "R26TB02154868",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "52200"
+        },
+        {
+          "fact_id": "dl:23990596:R26TA01774815:R26TB02161400:1",
+          "contract_no": "R26TA01774815",
+          "request_no": "R26TB02161400",
+          "line_no": "1",
+          "quantity": "85",
+          "comparable_amount_krw": "4437000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/8aa89d96-2f13-4348-ae02-9d9c620edcd0",
+      "body_path": "research/submitted/23990596.json",
+      "admitted_at": "2026-10-16T04:16:28.925Z"
+    },
+    {
+      "submission_id": "0c9a4972-5271-40ff-9d87-d4424a0207b1",
+      "item_id": "24112596",
+      "title": "PA12-40 → LDVAL LINEAR1200 BLADE40W865G3 대체품 14000원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "24661500",
+      "lint_status": "pending",
+      "lint_status_observed_at": "admission_receipt",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://www.alllight.co.kr/goods/goods_view.php?goodsNo=4101",
+      "displayed_price_krw": "14000",
+      "benchmark_unit_price_krw": "17500",
+      "quantity": "401",
+      "comparable_amount_krw": "31679000",
+      "fact_count": 7,
+      "distinct_request_count": 7,
+      "claim": "조달 PA12-40과 실제 판매 LDVAL LINEAR1200 BLADE40W865G3의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 조달 주식회사 동영 PA12-40과 실제 레드밴스 LDVAL LINEAR1200 BLADE40W865G3은 제조사·모델이 다르다. 용도:원품 레이스웨이/주차장/펜던트용직부형, 대체 고정형LED주차장/선형실내등기구. 주차장·레이스웨이용선형LED본체범위.원품펜던트취부/단면형상이같다는주장안함 전력/전압:원품 40W/AC220V, 대체 40W/AC220V60Hz. 정격대응 치수:원품 길이1200,폭64,높이60mm;기타치수8/50항목미확정, 대체 1197×55.4×35.6mm. 선형1.2m급근접길이.너비높이·취부구멍/브래킷차이명시 광색:원품 해당공식listing정량색온도미공개, 대체 6500K. 색온도동등성미확인.모델명N57등을근거없이수치로치환하지않음 광속/효율/연색성:원품 해당listing미공개, 대체 4400lm/110lmW이상/CRI80. 대체공시사양만확인.원품과전체광학/배광·눈부심동등주장안함 수명:원품 해당listing미공개, 대체 25000h. 원품과수명동등성미확인명시 제조·인증:원품 주식회사 동영, 대체 레드밴스/베트남/KSC7653 KTC23-0057/R-R-OSR-BTNBLADE40WG3. 서로다른제조사모델.국산동일품이라고하지않음 배송·취부:원품 납품장소 하차도, 대체 본체+직부고정브래킷,택배.파이프펜던트키트미포함. 제품본체범위.펜던트설치부속동등포함주장안함 동일제조사·동일모델아님.고정형선형40W220V본체의대체구매범위. 대체는6500K·25000시간.원품색온도·수명·광속·배광미공개또는공시차이를숨기지않음. 펜던트로사용하려면매달림부속및취부방법은별도이고본대체가격에포함했다고하지않음.기존직부/레이스웨이본체교체범위만비교. 파이프부속등확인된구성차이를동일하게포함한전체최종비용이라고하지않음.",
+      "comparison_scope": "40W·국내220V·1.2m급 고정형선형LED 본체의 주차장/레이스웨이 사용범위 대체구매가격 비교다. 펜던트취부부속·전체광학·수명·기존구멍호환 완전동등성은 주장하지 않는다. 원품공개색온도미확인,대체6500K. 하차도 본체가격 범위만 비교하며 설치공사·필수부속의 추가비용은 본B에 포함했다고 하지 않는다. 14000+배송3500=17500원을 개마다 적용했다. 추가배송 가능지역0facts를 제외한7facts만 선택했다. 원품 PA12-40, 대체품 LDVAL LINEAR1200 BLADE40W865G3. 세부 차이·제한은 주장과 재현 방법에 기재했다.",
+      "references": [
+        {
+          "fact_id": "dl:24112596:R26TA01757553:R26TB01888384:6",
+          "contract_no": "R26TA01757553",
+          "request_no": "R26TB01888384",
+          "line_no": "6",
+          "quantity": "9",
+          "comparable_amount_krw": "711000"
+        },
+        {
+          "fact_id": "dl:24112596:R26TA01757553:R26TB01992059:1",
+          "contract_no": "R26TA01757553",
+          "request_no": "R26TB01992059",
+          "line_no": "1",
+          "quantity": "10",
+          "comparable_amount_krw": "790000"
+        },
+        {
+          "fact_id": "dl:24112596:R26TA01757553:R26TB02118848:1",
+          "contract_no": "R26TA01757553",
+          "request_no": "R26TB02118848",
+          "line_no": "1",
+          "quantity": "24",
+          "comparable_amount_krw": "1896000"
+        },
+        {
+          "fact_id": "dl:24112596:R26TA01757553:R26TB02147242:5",
+          "contract_no": "R26TA01757553",
+          "request_no": "R26TB02147242",
+          "line_no": "5",
+          "quantity": "216",
+          "comparable_amount_krw": "17064000"
+        },
+        {
+          "fact_id": "dl:24112596:R26TA01757553:R26TB02249967:5",
+          "contract_no": "R26TA01757553",
+          "request_no": "R26TB02249967",
+          "line_no": "5",
+          "quantity": "87",
+          "comparable_amount_krw": "6873000"
+        },
+        {
+          "fact_id": "dl:24112596:R26TA01757553:R26TB02296973:1",
+          "contract_no": "R26TA01757553",
+          "request_no": "R26TB02296973",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "158000"
+        },
+        {
+          "fact_id": "dl:24112596:R26TA01757553:R26TB02312622:2",
+          "contract_no": "R26TA01757553",
+          "request_no": "R26TB02312622",
+          "line_no": "2",
+          "quantity": "53",
+          "comparable_amount_krw": "4187000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/0c9a4972-5271-40ff-9d87-d4424a0207b1",
+      "body_path": "research/submitted/24112596.json",
+      "admitted_at": "2026-10-16T04:21:21.466Z"
+    },
+    {
+      "submission_id": "801afa5c-3bc7-41f6-873d-fd3c34c85b98",
+      "item_id": "24624017",
+      "title": "EE1230M9-040GH → TG2532PD40A 대체품 28000원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "23000000",
+      "lint_status": "pending",
+      "lint_status_observed_at": "admission_receipt",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://www.mkmall.shop/goods/goods_view.php?goodsNo=1000006534",
+      "displayed_price_krw": "28000",
+      "benchmark_unit_price_krw": "32000",
+      "quantity": "575",
+      "comparable_amount_krw": "41400000",
+      "fact_count": 5,
+      "distinct_request_count": 5,
+      "claim": "조달 EE1230M9-040GH과 실제 판매 TG2532PD40A의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 조달 에코디바이스코리아 주식회사 EE1230M9-040GH과 실제 판매 태강TG2532PD40A은 제조사·모델이 다르다. 용도: 원품 40W직사각평판등;직부형/M바., 대체 40W고정형직사각평판등. 동일범주표준평판등;동일제품주장아님 정격전력/전원: 원품 40W/220V, 대체 40W/AC220V60Hz. 대응.원품주파수는listing미표기 치수: 원품 1285×320×25mm, 대체 1285×320×30mm. 차이명시;기존타공구멍·고정부치수개별검토필요.설치공사를포함한확정대체가능이라확대하지않음 CCT/광속/CRI: 원품 해당공식listing미표기, 대체 5700K/4400lm/Ra80/110lmW. 대체공시값확인.원품동등광속/연색성이라고추정하지않음 수명: 원품 해당listing미공개, 대체 30000h. 수명동등성미확인명시 제조/인증: 원품 에코디바이스코리아 주식회사;원품별도제조, 대체 주식회사태강/대한민국/KSC7653KIEL2024-0070/고효율99176호. 다른제조사모델.대체실판매상세공시증거확인 원품과태강은다른제조사모델.동일상품표시금지. 전력·전원·평판형용도·근접치수범위에서의대체구매제안.광속·수명·연색성완전동등이라고주장하지않음. 기존타공/고정부호환성개별확인이필요하며하차도제품가격만비교.설치비등미확인액을임의기입하지않음.",
+      "comparison_scope": "동일모델이 아닌40W·국내220V·직사각 평판 조명 본체의 용도·근접 치수 범위에서 대체구매를 제안한다. 공시되지 않은 광속·수명·연색성의 완전동등성과 기존타공·고정부의 즉시호환을 주장하지 않는다. 가격28000+배송4000원을 개마다 적용한32000원을B로 쓴다. 하차도 제품 취득가격만 비교하고 설치공사를 포함한 실제 예산절감으로 확정하지 않는다. 추가배송료가능지역0facts는제외하여5facts/575개/C41400000원 범위다. 원품과태강은다른제조사모델.동일상품표시금지. 전력·전원·평판형용도·근접치수범위에서의대체구매제안.광속·수명·연색성완전동등이라고주장하지않음. 기존타공/고정부호환성개별확인이필요하며하차도제품가격만비교.설치비등미확인액을임의기입하지않음. 원품 EE1230M9-040GH, 대체품 TG2532PD40A. 세부 차이·제한은 주장과 재현 방법에 기재했다.",
+      "references": [
+        {
+          "fact_id": "dl:24624017:R26TA01820188:R26TB01889608:9",
+          "contract_no": "R26TA01820188",
+          "request_no": "R26TB01889608",
+          "line_no": "9",
+          "quantity": "307",
+          "comparable_amount_krw": "22104000"
+        },
+        {
+          "fact_id": "dl:24624017:R26TA01820188:R26TB01929849:5",
+          "contract_no": "R26TA01820188",
+          "request_no": "R26TB01929849",
+          "line_no": "5",
+          "quantity": "95",
+          "comparable_amount_krw": "6840000"
+        },
+        {
+          "fact_id": "dl:24624017:R26TA01820188:R26TB01982392:5",
+          "contract_no": "R26TA01820188",
+          "request_no": "R26TB01982392",
+          "line_no": "5",
+          "quantity": "2",
+          "comparable_amount_krw": "144000"
+        },
+        {
+          "fact_id": "dl:24624017:R26TA01820188:R26TB02048454:6",
+          "contract_no": "R26TA01820188",
+          "request_no": "R26TB02048454",
+          "line_no": "6",
+          "quantity": "117",
+          "comparable_amount_krw": "8424000"
+        },
+        {
+          "fact_id": "dl:24624017:R26TA01820188:R26TB02148645:1",
+          "contract_no": "R26TA01820188",
+          "request_no": "R26TB02148645",
+          "line_no": "1",
+          "quantity": "54",
+          "comparable_amount_krw": "3888000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/801afa5c-3bc7-41f6-873d-fd3c34c85b98",
+      "body_path": "research/submitted/24624017.json",
+      "admitted_at": "2026-10-16T04:16:28.076Z"
+    },
+    {
+      "submission_id": "9c430801-1d65-4867-bc59-e35e73b9f367",
+      "item_id": "24638132",
+      "title": "EST-FMB1200-40E → TG2032PB40A 대체품 26500원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "6955000",
+      "lint_status": "pending",
+      "lint_status_observed_at": "admission_receipt",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://www.mkmall.shop/goods/goods_view.php?goodsNo=1000006534",
+      "displayed_price_krw": "26500",
+      "benchmark_unit_price_krw": "30500",
+      "quantity": "535",
+      "comparable_amount_krw": "23272500",
+      "fact_count": 1,
+      "distinct_request_count": 1,
+      "claim": "조달 EST-FMB1200-40E과 실제 판매 TG2032PB40A의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 조달 이에스텍주식회사 EST-FMB1200-40E과 실제 판매 태강TG2032PB40A은 제조사·모델이 다르다. 용도: 원품 매입형40W평판등, 대체 매입형40W평판등. 동일범주표준평판등;동일제품주장아님 정격전력/전원: 원품 40W/220V, 대체 40W/AC220V60Hz. 대응.원품주파수는listing미표기 치수: 원품 1280×320×33mm, 대체 1280×320×30mm. 차이명시;기존타공구멍·고정부치수개별검토필요.설치공사를포함한확정대체가능이라확대하지않음 CCT/광속/CRI: 원품 해당공식listing미표기, 대체 5700K/4400lm/Ra80/110lmW. 대체공시값확인.원품동등광속/연색성이라고추정하지않음 수명: 원품 해당listing미공개, 대체 30000h. 수명동등성미확인명시 제조/인증: 원품 이에스텍주식회사;원품별도제조, 대체 주식회사태강/대한민국/KSC7653KIEL2024-0070/고효율98937호. 다른제조사모델.대체실판매상세공시증거확인 원품과태강은다른제조사모델.동일상품표시금지. 전력·전원·평판형용도·근접치수범위에서의대체구매제안.광속·수명·연색성완전동등이라고주장하지않음. 기존타공/고정부호환성개별확인이필요하며하차도제품가격만비교.설치비등미확인액을임의기입하지않음.",
+      "comparison_scope": "동일모델이 아닌40W·국내220V·직사각 평판 조명 본체의 용도·근접 치수 범위에서 대체구매를 제안한다. 공시되지 않은 광속·수명·연색성의 완전동등성과 기존타공·고정부의 즉시호환을 주장하지 않는다. 가격26500+배송4000원을 개마다 적용한30500원을B로 쓴다. 하차도 제품 취득가격만 비교하고 설치공사를 포함한 실제 예산절감으로 확정하지 않는다. 추가배송료가능지역0facts는제외하여1facts/535개/C23272500원 범위다. 원품과태강은다른제조사모델.동일상품표시금지. 전력·전원·평판형용도·근접치수범위에서의대체구매제안.광속·수명·연색성완전동등이라고주장하지않음. 기존타공/고정부호환성개별확인이필요하며하차도제품가격만비교.설치비등미확인액을임의기입하지않음. 원품 EST-FMB1200-40E, 대체품 TG2032PB40A. 세부 차이·제한은 주장과 재현 방법에 기재했다.",
+      "references": [
+        {
+          "fact_id": "dl:24638132:R26TA01809004:R26TB02198797:2",
+          "contract_no": "R26TA01809004",
+          "request_no": "R26TB02198797",
+          "line_no": "2",
+          "quantity": "535",
+          "comparable_amount_krw": "23272500"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/9c430801-1d65-4867-bc59-e35e73b9f367",
+      "body_path": "research/submitted/24638132.json",
+      "admitted_at": "2026-10-16T04:16:29.567Z"
+    },
+    {
+      "submission_id": "ad8ea594-36c2-4c1b-9d08-33d66d803604",
+      "item_id": "24961256",
+      "title": "EST-FEB1200-40E → TG2532PD40A 대체품 28000원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "7039500",
+      "lint_status": "pending",
+      "lint_status_observed_at": "admission_receipt",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://www.mkmall.shop/goods/goods_view.php?goodsNo=1000006534",
+      "displayed_price_krw": "28000",
+      "benchmark_unit_price_krw": "32000",
+      "quantity": "361",
+      "comparable_amount_krw": "18591500",
+      "fact_count": 2,
+      "distinct_request_count": 2,
+      "claim": "조달 EST-FEB1200-40E과 실제 판매 TG2532PD40A의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 조달 이에스텍주식회사 EST-FEB1200-40E과 실제 판매 태강TG2532PD40A은 제조사·모델이 다르다. 용도: 원품 고정형40W평판등, 대체 고정형40W평판등. 동일범주표준평판등;동일제품주장아님 정격전력/전원: 원품 40W/220V, 대체 40W/AC220V60Hz. 대응.원품주파수는listing미표기 치수: 원품 1285×320×26.5mm, 대체 1285×320×30mm. 차이명시;기존타공구멍·고정부치수개별검토필요.설치공사를포함한확정대체가능이라확대하지않음 CCT/광속/CRI: 원품 해당공식listing미표기, 대체 5700K/4400lm/Ra80/110lmW. 대체공시값확인.원품동등광속/연색성이라고추정하지않음 수명: 원품 해당listing미공개, 대체 30000h. 수명동등성미확인명시 제조/인증: 원품 이에스텍주식회사;원품별도제조, 대체 주식회사태강/대한민국/KSC7653KIEL2024-0070/고효율99176호. 다른제조사모델.대체실판매상세공시증거확인 원품과태강은다른제조사모델.동일상품표시금지. 전력·전원·평판형용도·근접치수범위에서의대체구매제안.광속·수명·연색성완전동등이라고주장하지않음. 기존타공/고정부호환성개별확인이필요하며하차도제품가격만비교.설치비등미확인액을임의기입하지않음.",
+      "comparison_scope": "동일모델이 아닌40W·국내220V·직사각 평판 조명 본체의 용도·근접 치수 범위에서 대체구매를 제안한다. 공시되지 않은 광속·수명·연색성의 완전동등성과 기존타공·고정부의 즉시호환을 주장하지 않는다. 가격28000+배송4000원을 개마다 적용한32000원을B로 쓴다. 하차도 제품 취득가격만 비교하고 설치공사를 포함한 실제 예산절감으로 확정하지 않는다. 추가배송료가능지역0facts는제외하여2facts/361개/C18591500원 범위다. 원품과태강은다른제조사모델.동일상품표시금지. 전력·전원·평판형용도·근접치수범위에서의대체구매제안.광속·수명·연색성완전동등이라고주장하지않음. 기존타공/고정부호환성개별확인이필요하며하차도제품가격만비교.설치비등미확인액을임의기입하지않음. 원품 EST-FEB1200-40E, 대체품 TG2532PD40A. 세부 차이·제한은 주장과 재현 방법에 기재했다.",
+      "references": [
+        {
+          "fact_id": "dl:24961256:R26TA01809004:R26TB02078901:5",
+          "contract_no": "R26TA01809004",
+          "request_no": "R26TB02078901",
+          "line_no": "5",
+          "quantity": "206",
+          "comparable_amount_krw": "10609000"
+        },
+        {
+          "fact_id": "dl:24961256:R26TA01809004:R26TB02339637:1",
+          "contract_no": "R26TA01809004",
+          "request_no": "R26TB02339637",
+          "line_no": "1",
+          "quantity": "155",
+          "comparable_amount_krw": "7982500"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/ad8ea594-36c2-4c1b-9d08-33d66d803604",
+      "body_path": "research/submitted/24961256.json",
+      "admitted_at": "2026-10-16T04:16:29.362Z"
+    },
+    {
+      "submission_id": "087efe4b-6c5b-4764-a3eb-5bcf4766922e",
+      "item_id": "25331258",
+      "title": "LLP-120140-DR34-N57S → LDVAL LINEAR1200 BLADE40W865G3 대체품 14000원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "47618500",
+      "lint_status": "pending",
+      "lint_status_observed_at": "admission_receipt",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://www.alllight.co.kr/goods/goods_view.php?goodsNo=4101",
+      "displayed_price_krw": "14000",
+      "benchmark_unit_price_krw": "17500",
+      "quantity": "727",
+      "comparable_amount_krw": "60341000",
+      "fact_count": 18,
+      "distinct_request_count": 18,
+      "claim": "조달 LLP-120140-DR34-N57S과 실제 판매 LDVAL LINEAR1200 BLADE40W865G3의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 조달 레이져라이팅 주식회사 LLP-120140-DR34-N57S과 실제 레드밴스 LDVAL LINEAR1200 BLADE40W865G3은 제조사·모델이 다르다. 용도:원품 펜던트용선형LED, 대체 고정형LED주차장/선형실내등기구. 주차장·레이스웨이용선형LED본체범위.원품펜던트취부/단면형상이같다는주장안함 전력/전압:원품 40W/AC220V, 대체 40W/AC220V60Hz. 정격대응 치수:원품 1200×63×46mm, 대체 1197×55.4×35.6mm. 선형1.2m급근접길이.너비높이·취부구멍/브래킷차이명시 광색:원품 해당공식listing정량색온도미공개, 대체 6500K. 색온도동등성미확인.모델명N57등을근거없이수치로치환하지않음 광속/효율/연색성:원품 해당listing미공개, 대체 4400lm/110lmW이상/CRI80. 대체공시사양만확인.원품과전체광학/배광·눈부심동등주장안함 수명:원품 해당listing미공개, 대체 25000h. 원품과수명동등성미확인명시 제조·인증:원품 레이져라이팅 주식회사, 대체 레드밴스/베트남/KSC7653 KTC23-0057/R-R-OSR-BTNBLADE40WG3. 서로다른제조사모델.국산동일품이라고하지않음 배송·취부:원품 납품장소 하차도, 대체 본체+직부고정브래킷,택배.파이프펜던트키트미포함. 제품본체범위.펜던트설치부속동등포함주장안함 동일제조사·동일모델아님.고정형선형40W220V본체의대체구매범위. 대체는6500K·25000시간.원품색온도·수명·광속·배광미공개또는공시차이를숨기지않음. 펜던트로사용하려면매달림부속및취부방법은별도이고본대체가격에포함했다고하지않음.기존직부/레이스웨이본체교체범위만비교. 파이프부속등확인된구성차이를동일하게포함한전체최종비용이라고하지않음.",
+      "comparison_scope": "40W·국내220V·1.2m급 고정형선형LED 본체의 주차장/레이스웨이 사용범위 대체구매가격 비교다. 펜던트취부부속·전체광학·수명·기존구멍호환 완전동등성은 주장하지 않는다. 원품공개색온도미확인,대체6500K. 하차도 본체가격 범위만 비교하며 설치공사·필수부속의 추가비용은 본B에 포함했다고 하지 않는다. 14000+배송3500=17500원을 개마다 적용했다. 추가배송 가능지역1facts를 제외한18facts만 선택했다. 원품 LLP-120140-DR34-N57S, 대체품 LDVAL LINEAR1200 BLADE40W865G3. 세부 차이·제한은 주장과 재현 방법에 기재했다.",
+      "references": [
+        {
+          "fact_id": "dl:25331258:002470244_1:R25TB00564727:3",
+          "contract_no": "002470244_1",
+          "request_no": "R25TB00564727",
+          "line_no": "3",
+          "quantity": "72",
+          "comparable_amount_krw": "5976000"
+        },
+        {
+          "fact_id": "dl:25331258:002470244_1:R25TB01045323:2",
+          "contract_no": "002470244_1",
+          "request_no": "R25TB01045323",
+          "line_no": "2",
+          "quantity": "7",
+          "comparable_amount_krw": "581000"
+        },
+        {
+          "fact_id": "dl:25331258:002470244_1:R25TB01074899:2",
+          "contract_no": "002470244_1",
+          "request_no": "R25TB01074899",
+          "line_no": "2",
+          "quantity": "8",
+          "comparable_amount_krw": "664000"
+        },
+        {
+          "fact_id": "dl:25331258:002470244_1:R25TB01157179:4",
+          "contract_no": "002470244_1",
+          "request_no": "R25TB01157179",
+          "line_no": "4",
+          "quantity": "14",
+          "comparable_amount_krw": "1162000"
+        },
+        {
+          "fact_id": "dl:25331258:002470244_1:R25TB01289979:2",
+          "contract_no": "002470244_1",
+          "request_no": "R25TB01289979",
+          "line_no": "2",
+          "quantity": "4",
+          "comparable_amount_krw": "332000"
+        },
+        {
+          "fact_id": "dl:25331258:002470244_1:R25TB01294416:2",
+          "contract_no": "002470244_1",
+          "request_no": "R25TB01294416",
+          "line_no": "2",
+          "quantity": "10",
+          "comparable_amount_krw": "830000"
+        },
+        {
+          "fact_id": "dl:25331258:002470244_1:R25TB01342378:2",
+          "contract_no": "002470244_1",
+          "request_no": "R25TB01342378",
+          "line_no": "2",
+          "quantity": "21",
+          "comparable_amount_krw": "1743000"
+        },
+        {
+          "fact_id": "dl:25331258:002470244_1:R25TB01345256:3",
+          "contract_no": "002470244_1",
+          "request_no": "R25TB01345256",
+          "line_no": "3",
+          "quantity": "48",
+          "comparable_amount_krw": "3984000"
+        },
+        {
+          "fact_id": "dl:25331258:002470244_1:R26TB01433650:3",
+          "contract_no": "002470244_1",
+          "request_no": "R26TB01433650",
+          "line_no": "3",
+          "quantity": "55",
+          "comparable_amount_krw": "4565000"
+        },
+        {
+          "fact_id": "dl:25331258:002470244_1:R26TB01632425:4",
+          "contract_no": "002470244_1",
+          "request_no": "R26TB01632425",
+          "line_no": "4",
+          "quantity": "92",
+          "comparable_amount_krw": "7636000"
+        },
+        {
+          "fact_id": "dl:25331258:002470244_1:R26TB01672718:2",
+          "contract_no": "002470244_1",
+          "request_no": "R26TB01672718",
+          "line_no": "2",
+          "quantity": "4",
+          "comparable_amount_krw": "332000"
+        },
+        {
+          "fact_id": "dl:25331258:002470244_1:R26TB01751991:2",
+          "contract_no": "002470244_1",
+          "request_no": "R26TB01751991",
+          "line_no": "2",
+          "quantity": "13",
+          "comparable_amount_krw": "1079000"
+        },
+        {
+          "fact_id": "dl:25331258:002470244_1:R26TB01798322:2",
+          "contract_no": "002470244_1",
+          "request_no": "R26TB01798322",
+          "line_no": "2",
+          "quantity": "9",
+          "comparable_amount_krw": "747000"
+        },
+        {
+          "fact_id": "dl:25331258:002470244_1:R26TB01903768:2",
+          "contract_no": "002470244_1",
+          "request_no": "R26TB01903768",
+          "line_no": "2",
+          "quantity": "245",
+          "comparable_amount_krw": "20335000"
+        },
+        {
+          "fact_id": "dl:25331258:002470244_1:R26TB02028778:4",
+          "contract_no": "002470244_1",
+          "request_no": "R26TB02028778",
+          "line_no": "4",
+          "quantity": "20",
+          "comparable_amount_krw": "1660000"
+        },
+        {
+          "fact_id": "dl:25331258:002470244_1:R26TB02029641:5",
+          "contract_no": "002470244_1",
+          "request_no": "R26TB02029641",
+          "line_no": "5",
+          "quantity": "54",
+          "comparable_amount_krw": "4482000"
+        },
+        {
+          "fact_id": "dl:25331258:002470244_1:R26TB02072525:1",
+          "contract_no": "002470244_1",
+          "request_no": "R26TB02072525",
+          "line_no": "1",
+          "quantity": "26",
+          "comparable_amount_krw": "2158000"
+        },
+        {
+          "fact_id": "dl:25331258:002470244_1:R26TB02139843:4",
+          "contract_no": "002470244_1",
+          "request_no": "R26TB02139843",
+          "line_no": "4",
+          "quantity": "25",
+          "comparable_amount_krw": "2075000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/087efe4b-6c5b-4764-a3eb-5bcf4766922e",
+      "body_path": "research/submitted/25331258.json",
+      "admitted_at": "2026-10-16T04:21:08.239Z"
+    },
+    {
+      "submission_id": "9efacba7-d0ae-489f-b105-a100f750fa92",
+      "item_id": "25412914",
+      "title": "STMAS-EF-1250E → 샤인 평판50W 1285X320 (P0000HRE000A) 대체품 25400원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "31068400",
+      "lint_status": "pending",
+      "lint_status_observed_at": "admission_receipt",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://spaceled.co.kr/product/detail.html?cate_no=145&display_group=2&product_no=5178",
+      "displayed_price_krw": "25400",
+      "benchmark_unit_price_krw": "28400",
+      "quantity": "614",
+      "comparable_amount_krw": "48506000",
+      "fact_count": 7,
+      "distinct_request_count": 7,
+      "claim": "조달 STMAS-EF-1250E과 실제 판매 샤인 평판50W 1285X320 (P0000HRE000A)의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 조달 선텍 STMAS-EF-1250E과 실제 장수램프 샤인 평판50W 1285X320 (P0000HRE000A)은 다른 제조사·모델이다. 형태/용도:원품 직사각 평판형 직부 LED실내조명 → 대체 직하 슬림 직사각 평판 LED실내등;본체와브래킷/연결잭/볼트. 실내평판등 본체 대체구매 범위.원품동일제조사제품 주장이아님 정격전력/전원:원품 50W/AC220V → 대체 50W/220V60Hz. 전력·국내220V대응.원품주파수미공시 치수:원품 1280×320×26.7mm → 대체 1285×320×25mm. 길이+5mm/폭동일/높이-1.7mm.기존취부구멍·브래킷의즉시호환은미확인 광색/광속/연색성:원품 공식listing정량사양미공개 → 대체 5700K/4500lm/90lmW/CRI80기준. 대체공시값만확인.원품과광속·배광·눈부심·광색·연색성동등추정안함 수명/플리커:원품 공식listing수명·플리커미공개 → 대체 정격25000h/플리커프리표시. 원품과수명·플리커동등성미확인 제조/인증:원품 (주)선텍/국내조달 원품 → 대체 장수램프,제조Z.Y.I CO.,LTD/중국,판매원우리엔터프라이즈(주);KSC7653 제19-0456호,전자파R-R-ZYL-MQL2007LED5065. 제조사·원산지·모델다름.전자파등록문자열은인증식별로만기재하며정격광색5700K를인증suffix로변경하지않음 하자/검사조건:원품 계약특수조건 하자보수3년,전문기관검사조건부 → 대체 상세 무상AS서비스2년보증 표시;조달전문기관검사 포함여부미확인. 대체보증기간1년짧음.검사조건·이행서비스동등성및추가비용미확인,본체구입가격만비교 납품범위:원품 납품장소하차도 → 대체 택배완제품;현장설치공사미포함. 제품취득가격범위.실제설치·공사포함예산절감확정아님",
+      "comparison_scope": "동일모델이아닌50W·국내220V·1.28m직사각실내직부평판등본체 대체구매의제품취득가격비교다. 원품1280×320×26.7와대체1285×320×25mm의차이,원품광색/광속/수명미공개,대체5700K/4500lm/25000h,하자보수3년대비대체AS2년의단축과전문기관검사포함미확인을명시한다. 기존구멍·브래킷즉시호환·전체광학/서비스동등성은주장하지않는다. 25400+단품운임3000=28400원을개마다반영한다. 하차도본체범위이며전체공사·검사조건을포함한확정예산절감액이아니다.추가배송가능지역0facts제외,선택7facts/614개. 원품 STMAS-EF-1250E, 대체품 샤인 평판50W 1285X320 (P0000HRE000A). 세부 차이·제한은 주장과 재현 방법에 기재했다.",
+      "references": [
+        {
+          "fact_id": "dl:25412914:R26TA01885353:R26TB01977883:7",
+          "contract_no": "R26TA01885353",
+          "request_no": "R26TB01977883",
+          "line_no": "7",
+          "quantity": "489",
+          "comparable_amount_krw": "38631000"
+        },
+        {
+          "fact_id": "dl:25412914:R26TA01885353:R26TB02102254:2",
+          "contract_no": "R26TA01885353",
+          "request_no": "R26TB02102254",
+          "line_no": "2",
+          "quantity": "71",
+          "comparable_amount_krw": "5609000"
+        },
+        {
+          "fact_id": "dl:25412914:R26TA01885353:R26TB02135159:1",
+          "contract_no": "R26TA01885353",
+          "request_no": "R26TB02135159",
+          "line_no": "1",
+          "quantity": "10",
+          "comparable_amount_krw": "790000"
+        },
+        {
+          "fact_id": "dl:25412914:R26TA01885353:R26TB02181250:1",
+          "contract_no": "R26TA01885353",
+          "request_no": "R26TB02181250",
+          "line_no": "1",
+          "quantity": "10",
+          "comparable_amount_krw": "790000"
+        },
+        {
+          "fact_id": "dl:25412914:R26TA01885353:R26TB02236993:1",
+          "contract_no": "R26TA01885353",
+          "request_no": "R26TB02236993",
+          "line_no": "1",
+          "quantity": "5",
+          "comparable_amount_krw": "395000"
+        },
+        {
+          "fact_id": "dl:25412914:R26TA01885353:R26TB02275846:4",
+          "contract_no": "R26TA01885353",
+          "request_no": "R26TB02275846",
+          "line_no": "4",
+          "quantity": "8",
+          "comparable_amount_krw": "632000"
+        },
+        {
+          "fact_id": "dl:25412914:R26TA01885353:R26TB02280060:3",
+          "contract_no": "R26TA01885353",
+          "request_no": "R26TB02280060",
+          "line_no": "3",
+          "quantity": "21",
+          "comparable_amount_krw": "1659000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/9efacba7-d0ae-489f-b105-a100f750fa92",
+      "body_path": "research/submitted/25412914.json",
+      "admitted_at": "2026-10-16T04:24:44.230Z"
+    },
+    {
+      "submission_id": "7497f39e-86eb-4211-b266-01127c671b10",
+      "item_id": "25823003",
+      "title": "LUZ-FU1203-401 → TG2032PB40A 대체품 26500원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "5791500",
+      "lint_status": "pending",
+      "lint_status_observed_at": "admission_receipt",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://www.mkmall.shop/goods/goods_view.php?goodsNo=1000006534",
+      "displayed_price_krw": "26500",
+      "benchmark_unit_price_krw": "30500",
+      "quantity": "297",
+      "comparable_amount_krw": "14850000",
+      "fact_count": 2,
+      "distinct_request_count": 2,
+      "claim": "조달 LUZ-FU1203-401과 실제 판매 TG2032PB40A의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 조달 주식회사 루스테크놀로지 LUZ-FU1203-401과 실제 판매 태강TG2032PB40A은 제조사·모델이 다르다. 용도: 원품 매입형40W평판등, 대체 매입형40W평판등. 동일범주표준평판등;동일제품주장아님 정격전력/전원: 원품 40W/220V, 대체 40W/AC220V60Hz. 대응.원품주파수는listing미표기 치수: 원품 1278×318×49mm, 대체 1280×320×30mm. 차이명시;기존타공구멍·고정부치수개별검토필요.설치공사를포함한확정대체가능이라확대하지않음 CCT/광속/CRI: 원품 5700K; 광속·CRI미공개, 대체 5700K/4400lm/Ra80/110lmW. 대체공시값확인.원품동등광속/연색성이라고추정하지않음 수명: 원품 해당listing미공개, 대체 30000h. 수명동등성미확인명시 제조/인증: 원품 주식회사 루스테크놀로지;원품별도제조, 대체 주식회사태강/대한민국/KSC7653KIEL2024-0070/고효율98937호. 다른제조사모델.대체실판매상세공시증거확인 원품과태강은다른제조사모델.동일상품표시금지. 전력·전원·평판형용도·근접치수범위에서의대체구매제안.광속·수명·연색성완전동등이라고주장하지않음. 기존타공/고정부호환성개별확인이필요하며하차도제품가격만비교.설치비등미확인액을임의기입하지않음.",
+      "comparison_scope": "동일모델이 아닌40W·국내220V·직사각 평판 조명 본체의 용도·근접 치수 범위에서 대체구매를 제안한다. 공시되지 않은 광속·수명·연색성의 완전동등성과 기존타공·고정부의 즉시호환을 주장하지 않는다. 가격26500+배송4000원을 개마다 적용한30500원을B로 쓴다. 하차도 제품 취득가격만 비교하고 설치공사를 포함한 실제 예산절감으로 확정하지 않는다. 추가배송료가능지역0facts는제외하여2facts/297개/C14850000원 범위다. 원품과태강은다른제조사모델.동일상품표시금지. 전력·전원·평판형용도·근접치수범위에서의대체구매제안.광속·수명·연색성완전동등이라고주장하지않음. 기존타공/고정부호환성개별확인이필요하며하차도제품가격만비교.설치비등미확인액을임의기입하지않음. 원품 LUZ-FU1203-401, 대체품 TG2032PB40A. 세부 차이·제한은 주장과 재현 방법에 기재했다.",
+      "references": [
+        {
+          "fact_id": "dl:25823003:R26TA01807980:R26TB01893850:3",
+          "contract_no": "R26TA01807980",
+          "request_no": "R26TB01893850",
+          "line_no": "3",
+          "quantity": "85",
+          "comparable_amount_krw": "4250000"
+        },
+        {
+          "fact_id": "dl:25823003:R26TA01807980:R26TB02164261:1",
+          "contract_no": "R26TA01807980",
+          "request_no": "R26TB02164261",
+          "line_no": "1",
+          "quantity": "212",
+          "comparable_amount_krw": "10600000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/7497f39e-86eb-4211-b266-01127c671b10",
+      "body_path": "research/submitted/25823003.json",
+      "admitted_at": "2026-10-16T04:21:47.319Z"
+    },
+    {
+      "submission_id": "8fa2738f-2c08-42ea-967a-d51275a116cd",
+      "item_id": "26073174",
+      "title": "KLT-EG1232-S40 → TG2532PD40A 대체품 28000원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "10836000",
+      "lint_status": "pending",
+      "lint_status_observed_at": "admission_receipt",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://www.mkmall.shop/goods/goods_view.php?goodsNo=1000006534",
+      "displayed_price_krw": "28000",
+      "benchmark_unit_price_krw": "32000",
+      "quantity": "387",
+      "comparable_amount_krw": "23220000",
+      "fact_count": 2,
+      "distinct_request_count": 2,
+      "claim": "조달 KLT-EG1232-S40과 실제 판매 TG2532PD40A의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 조달 케이엘텍주식회사 (KL TECH. CO., LTD.) KLT-EG1232-S40과 실제 판매 태강TG2532PD40A은 제조사·모델이 다르다. 용도: 원품 고정형40W평판등, 대체 고정형40W평판등. 동일범주표준평판등;동일제품주장아님 정격전력/전원: 원품 40W/220V, 대체 40W/AC220V60Hz. 대응.원품주파수는listing미표기 치수: 원품 1280×320×25mm, 대체 1285×320×30mm. 차이명시;기존타공구멍·고정부치수개별검토필요.설치공사를포함한확정대체가능이라확대하지않음 CCT/광속/CRI: 원품 해당공식listing미표기, 대체 5700K/4400lm/Ra80/110lmW. 대체공시값확인.원품동등광속/연색성이라고추정하지않음 수명: 원품 해당listing미공개, 대체 30000h. 수명동등성미확인명시 제조/인증: 원품 케이엘텍주식회사 (KL TECH. CO., LTD.);원품별도제조, 대체 주식회사태강/대한민국/KSC7653KIEL2024-0070/고효율99176호. 다른제조사모델.대체실판매상세공시증거확인 원품과태강은다른제조사모델.동일상품표시금지. 전력·전원·평판형용도·근접치수범위에서의대체구매제안.광속·수명·연색성완전동등이라고주장하지않음. 기존타공/고정부호환성개별확인이필요하며하차도제품가격만비교.설치비등미확인액을임의기입하지않음.",
+      "comparison_scope": "동일모델이 아닌40W·국내220V·직사각 평판 조명 본체의 용도·근접 치수 범위에서 대체구매를 제안한다. 공시되지 않은 광속·수명·연색성의 완전동등성과 기존타공·고정부의 즉시호환을 주장하지 않는다. 가격28000+배송4000원을 개마다 적용한32000원을B로 쓴다. 하차도 제품 취득가격만 비교하고 설치공사를 포함한 실제 예산절감으로 확정하지 않는다. 추가배송료가능지역0facts는제외하여2facts/387개/C23220000원 범위다. 원품과태강은다른제조사모델.동일상품표시금지. 전력·전원·평판형용도·근접치수범위에서의대체구매제안.광속·수명·연색성완전동등이라고주장하지않음. 기존타공/고정부호환성개별확인이필요하며하차도제품가격만비교.설치비등미확인액을임의기입하지않음. 원품 KLT-EG1232-S40, 대체품 TG2532PD40A. 세부 차이·제한은 주장과 재현 방법에 기재했다.",
+      "references": [
+        {
+          "fact_id": "dl:26073174:R26TA01812963:R26TB02007056:3",
+          "contract_no": "R26TA01812963",
+          "request_no": "R26TB02007056",
+          "line_no": "3",
+          "quantity": "147",
+          "comparable_amount_krw": "8820000"
+        },
+        {
+          "fact_id": "dl:26073174:R26TA01812963:R26TB02107919:4",
+          "contract_no": "R26TA01812963",
+          "request_no": "R26TB02107919",
+          "line_no": "4",
+          "quantity": "240",
+          "comparable_amount_krw": "14400000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/8fa2738f-2c08-42ea-967a-d51275a116cd",
+      "body_path": "research/submitted/26073174.json",
+      "admitted_at": "2026-10-16T04:16:29.120Z"
+    },
+    {
+      "submission_id": "90a5c26d-f1c3-42cc-a4d1-003477993262",
+      "item_id": "23508391",
+      "title": "IM-PSW-0500 → MOGAMI 3082 + NEUTRIK NL2FX 양단, 50M 옵션, 상품5346 대체품 424000원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "82720000",
+      "lint_status": "pending",
+      "lint_status_observed_at": "admission_receipt",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://bkmic.com/goods/goods_view.php?goodsNo=5346",
+      "displayed_price_krw": "424000",
+      "benchmark_unit_price_krw": "424000",
+      "quantity": "160",
+      "comparable_amount_krw": "150560000",
+      "fact_count": 61,
+      "distinct_request_count": 61,
+      "claim": "조달 IM-PSW-0500과 실제 판매 MOGAMI 3082 + NEUTRIK NL2FX 양단, 50M 옵션, 상품5346의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 원품 아이엠피 IM-PSW-0500과 판매품 모가미3082+뉴트릭NL2FX 양단50m는 브랜드·모델이 다르다. 원품은 스피커전용SHIELD LINE·50m±10%·스피콘양단, 대체품은2.03mm² OFC동축차폐·50m·스피콘2극 양단이다. 원품 핀수·심수·도체굵기는 미공개이므로 완전동일한 배선이라고 하지 않는다. 1+/1- 회로용 대체 제안이며 원품에서2+/2-를 사용하는4심회로라면 부적합하다. 원품 중량4.03kg±10%에 대해 대체공시 부품 중량합 약3.814kg을 계산했으나 납품 완제품을 실측한 값은 아니다. 보증·방염·배선 승인 조건의 차이는 금액에 별도 반영하지 않았다.",
+      "comparison_scope": "50m 차폐형 패시브 스피커용 스피콘 양단 완제품 케이블1개, 1+/1- 스피커 회로 범위의 대체구매 가격 비교. 동일품이나4심회로 호환성은 주장하지 않는다. 원품 하차도와 소매완제품 택배무료의 제품 취득가격을 비교한다. 소매50M 옵션424000원을B로 사용하고 설치·현장포설 공사 포함은 주장하지 않는다. 추가운임가능기관0facts는제외했다. 원품 IM-PSW-0500, 대체품 MOGAMI 3082 + NEUTRIK NL2FX 양단, 50M 옵션, 상품5346. 차이·제한: 원품 아이엠피 IM-PSW-0500과 판매품 모가미3082+뉴트릭NL2FX 양단50m는 브랜드·모델이 다르다. 원품은 스피커전용SHIELD LINE·50m±10%·스피콘양단, 대체품은2.03mm² OFC동축차폐·50m·스피콘2극 양단이다. 원품 핀수·심수·도체굵기는 미공개이므로 완전동일한 배선이라고 하지 않는다. 1+/1- 회로용 대체 제안이며 원품에서2+/2-를 사용하는4심회로라면 부적합하다. 원품 중량4.03kg±10%에 대해 대체공시 부품 중량합 약3.814kg을 계산했으나 납품 완제품을 실측한 값은 아니다. 보증·방염·배선 승인 조건의 차이는 금액에 별도 반영하지 않았다.",
+      "references": [
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01726227:2",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01726227",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01734362:2",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01734362",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01735156:1",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01735156",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01753557:15",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01753557",
+          "line_no": "15",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01753810:7",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01753810",
+          "line_no": "7",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01754103:22",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01754103",
+          "line_no": "22",
+          "quantity": "2",
+          "comparable_amount_krw": "1882000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01773813:1",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01773813",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01785019:4",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01785019",
+          "line_no": "4",
+          "quantity": "2",
+          "comparable_amount_krw": "1882000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01785070:12",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01785070",
+          "line_no": "12",
+          "quantity": "2",
+          "comparable_amount_krw": "1882000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01796291:1",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01796291",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "1882000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01808127:2",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01808127",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01812805:8",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01812805",
+          "line_no": "8",
+          "quantity": "2",
+          "comparable_amount_krw": "1882000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01818821:23",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01818821",
+          "line_no": "23",
+          "quantity": "8",
+          "comparable_amount_krw": "7528000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01823265:41",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01823265",
+          "line_no": "41",
+          "quantity": "21",
+          "comparable_amount_krw": "19761000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01845467:3",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01845467",
+          "line_no": "3",
+          "quantity": "2",
+          "comparable_amount_krw": "1882000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01863075:10",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01863075",
+          "line_no": "10",
+          "quantity": "2",
+          "comparable_amount_krw": "1882000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01863477:3",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01863477",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01896607:22",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01896607",
+          "line_no": "22",
+          "quantity": "3",
+          "comparable_amount_krw": "2823000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01918797:3",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01918797",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01951625:1",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01951625",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01953918:7",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01953918",
+          "line_no": "7",
+          "quantity": "3",
+          "comparable_amount_krw": "2823000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01956134:14",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01956134",
+          "line_no": "14",
+          "quantity": "3",
+          "comparable_amount_krw": "2823000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01963232:22",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01963232",
+          "line_no": "22",
+          "quantity": "2",
+          "comparable_amount_krw": "1882000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB01977980:6",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01977980",
+          "line_no": "6",
+          "quantity": "2",
+          "comparable_amount_krw": "1882000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02006508:5",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02006508",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02009339:21",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02009339",
+          "line_no": "21",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02010581:11",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02010581",
+          "line_no": "11",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02025436:14",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02025436",
+          "line_no": "14",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02027460:20",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02027460",
+          "line_no": "20",
+          "quantity": "4",
+          "comparable_amount_krw": "3764000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02035205:2",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02035205",
+          "line_no": "2",
+          "quantity": "7",
+          "comparable_amount_krw": "6587000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02035902:28",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02035902",
+          "line_no": "28",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02048417:27",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02048417",
+          "line_no": "27",
+          "quantity": "2",
+          "comparable_amount_krw": "1882000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02060204:23",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02060204",
+          "line_no": "23",
+          "quantity": "3",
+          "comparable_amount_krw": "2823000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02068677:28",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02068677",
+          "line_no": "28",
+          "quantity": "4",
+          "comparable_amount_krw": "3764000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02070364:27",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02070364",
+          "line_no": "27",
+          "quantity": "3",
+          "comparable_amount_krw": "2823000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02092287:11",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02092287",
+          "line_no": "11",
+          "quantity": "2",
+          "comparable_amount_krw": "1882000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02107366:1",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02107366",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02108439:17",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02108439",
+          "line_no": "17",
+          "quantity": "2",
+          "comparable_amount_krw": "1882000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02114237:20",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02114237",
+          "line_no": "20",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02120857:7",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02120857",
+          "line_no": "7",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02128576:2",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02128576",
+          "line_no": "2",
+          "quantity": "2",
+          "comparable_amount_krw": "1882000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02136431:34",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02136431",
+          "line_no": "34",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02137384:3",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02137384",
+          "line_no": "3",
+          "quantity": "2",
+          "comparable_amount_krw": "1882000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02158702:2",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02158702",
+          "line_no": "2",
+          "quantity": "3",
+          "comparable_amount_krw": "2823000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02163403:28",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02163403",
+          "line_no": "28",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02174909:11",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02174909",
+          "line_no": "11",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02178524:25",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02178524",
+          "line_no": "25",
+          "quantity": "3",
+          "comparable_amount_krw": "2823000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02179118:11",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02179118",
+          "line_no": "11",
+          "quantity": "2",
+          "comparable_amount_krw": "1882000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02188294:1",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02188294",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "1882000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02193211:5",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02193211",
+          "line_no": "5",
+          "quantity": "21",
+          "comparable_amount_krw": "19761000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02219749:24",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02219749",
+          "line_no": "24",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02227737:1",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02227737",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "1882000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02256076:21",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02256076",
+          "line_no": "21",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02259371:21",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02259371",
+          "line_no": "21",
+          "quantity": "4",
+          "comparable_amount_krw": "3764000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02260664:2",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02260664",
+          "line_no": "2",
+          "quantity": "2",
+          "comparable_amount_krw": "1882000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02260684:3",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02260684",
+          "line_no": "3",
+          "quantity": "3",
+          "comparable_amount_krw": "2823000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02271038:1",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02271038",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02273696:3",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02273696",
+          "line_no": "3",
+          "quantity": "3",
+          "comparable_amount_krw": "2823000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02275677:3",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02275677",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02317934:23",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02317934",
+          "line_no": "23",
+          "quantity": "1",
+          "comparable_amount_krw": "941000"
+        },
+        {
+          "fact_id": "dl:23508391:R26TA01632895:R26TB02346369:1",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02346369",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "1882000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/90a5c26d-f1c3-42cc-a4d1-003477993262",
+      "body_path": "research/submitted/23508391.json",
+      "admitted_at": "2026-10-16T04:09:57.697Z"
     }
   ]
 }
