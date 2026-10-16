@@ -1,0 +1,826 @@
+{
+  "created_at_utc": "2026-10-16T13:19:58.048924+00:00",
+  "status": "three_new_high_value_products_checked_no_submission",
+  "all_reference_count": 21,
+  "adopted_saving_krw": "0",
+  "search_process": {
+    "local_selection": 3,
+    "fresh_official_available": 3,
+    "parallel_concurrent_queries": 4,
+    "original_attachment_downloads": 3,
+    "exact_original_documents_read": 4,
+    "verified_new_complete_retail_price_paths": 1,
+    "price_vs_equivalence_note": "가격이 확인된 경로1개와 원품에 대한 동급 적합성 판단은 구분한다."
+  },
+  "items": [
+    {
+      "item_id": "25366238",
+      "model": "eXperDBv15(엑스퍼디비v15)",
+      "name": "데이터베이스관리소프트웨어, 인젠트, eXperDBv15(엑스퍼디비v15), DBMS, 1Core, 영구라이선스",
+      "official_url": "https://hackathon.savetax.now/v1/events/current/items/25366238",
+      "official_status_observed_at_utc": "2026-10-16T13:03:25.446128+00:00",
+      "availability_as_observed": {
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "source_release": "r20261011T012137",
+      "scorable_fact_count": 6,
+      "unique_request_count": 6,
+      "Q": "727",
+      "C_krw": "5597900000",
+      "delivery_terms": "현장설치도",
+      "g2b_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002461327_1070000001",
+      "all_references": [
+        {
+          "fact_id": "dl:25366238:002461327_1:R25TB01277098:1",
+          "listing_id": "002461327_1070000001",
+          "contract_no": "002461327_1",
+          "request_no": "R25TB01277098",
+          "line_no": "1",
+          "request_date": "2025-12-03",
+          "unit": "조",
+          "basis_id": "basis:조:vat_included",
+          "comparison_basis_id": "basis:조:vat_included",
+          "tax_basis": "vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "7700000",
+          "quantity": "15",
+          "comparable_amount_krw": "115500000"
+        },
+        {
+          "fact_id": "dl:25366238:002461327_1:R26TB01987314:1",
+          "listing_id": "002461327_1070000001",
+          "contract_no": "002461327_1",
+          "request_no": "R26TB01987314",
+          "line_no": "1",
+          "request_date": "2026-06-04",
+          "unit": "조",
+          "basis_id": "basis:조:vat_included",
+          "comparison_basis_id": "basis:조:vat_included",
+          "tax_basis": "vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "7700000",
+          "quantity": "32",
+          "comparable_amount_krw": "246400000"
+        },
+        {
+          "fact_id": "dl:25366238:002461327_1:R26TB01987327:1",
+          "listing_id": "002461327_1070000001",
+          "contract_no": "002461327_1",
+          "request_no": "R26TB01987327",
+          "line_no": "1",
+          "request_date": "2026-06-04",
+          "unit": "조",
+          "basis_id": "basis:조:vat_included",
+          "comparison_basis_id": "basis:조:vat_included",
+          "tax_basis": "vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "7700000",
+          "quantity": "68",
+          "comparable_amount_krw": "523600000"
+        },
+        {
+          "fact_id": "dl:25366238:002461327_1:R26TB01989846:1",
+          "listing_id": "002461327_1070000001",
+          "contract_no": "002461327_1",
+          "request_no": "R26TB01989846",
+          "line_no": "1",
+          "request_date": "2026-06-05",
+          "unit": "조",
+          "basis_id": "basis:조:vat_included",
+          "comparison_basis_id": "basis:조:vat_included",
+          "tax_basis": "vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "7700000",
+          "quantity": "572",
+          "comparable_amount_krw": "4404400000"
+        },
+        {
+          "fact_id": "dl:25366238:002461327_1:R26TB02281569:1",
+          "listing_id": "002461327_1070000001",
+          "contract_no": "002461327_1",
+          "request_no": "R26TB02281569",
+          "line_no": "1",
+          "request_date": "2026-09-02",
+          "unit": "조",
+          "basis_id": "basis:조:vat_included",
+          "comparison_basis_id": "basis:조:vat_included",
+          "tax_basis": "vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "7700000",
+          "quantity": "16",
+          "comparable_amount_krw": "123200000"
+        },
+        {
+          "fact_id": "dl:25366238:002461327_1:R26TB02288687:1",
+          "listing_id": "002461327_1070000001",
+          "contract_no": "002461327_1",
+          "request_no": "R26TB02288687",
+          "line_no": "1",
+          "request_date": "2026-09-04",
+          "unit": "조",
+          "basis_id": "basis:조:vat_included",
+          "comparison_basis_id": "basis:조:vat_included",
+          "tax_basis": "vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "7700000",
+          "quantity": "24",
+          "comparable_amount_krw": "184800000"
+        }
+      ],
+      "event_source": {
+        "path": "work/highvalue-hardware/after-linux-three/event-25366238.json",
+        "bytes": 4852,
+        "sha256": "61ef3a887dd94935b8a8333a0b05b05b64b4ef770f941e0db4de78066fa07c89"
+      },
+      "submission_ready": false,
+      "adopted_saving_krw": "0",
+      "score_body_created": false,
+      "preview_called": false,
+      "post_called": false,
+      "status": "paid_perpetual_complete_dbms_public_price_not_found_in_current_search",
+      "original_read": {
+        "format": "HWP",
+        "filename": "00246132700-규격서_eXperDBv15(인젠트).hwp",
+        "bytes": 2473984,
+        "sha256": "ee7cfa088ff51d4973065df990e52046f91b0104c3a7e1da9151688541cb50c1",
+        "basis": "정확 원규격 1.3은 1조=1Core, 사용기간 무제한을 명시한다. 1.4의 Master 2Core+Slave 2Core는 기본 DBMS 4Core 구입 예시다.",
+        "base_features": [
+          "PostgreSQL 기반 RDBMS",
+          "트랜잭션·MVCC·2Phase Commit",
+          "파티셔닝·병렬 쿼리",
+          "공간 데이터/GIS",
+          "Master–Multi Slave·자동 장애복구",
+          "전체/증분/로그 백업·시점복구"
+        ],
+        "not_in_base_model": "성능 모니터링 패키지는 별도 물품25366239다. 해당 패키지의 비용·기능을 원품25366238에 임의로 합치지 않았다.",
+        "installation_and_support": "DBMS·DATA 디렉터리와 HA 구성 설치지원, 도입 후 1년 무상 유지보수. 이후 유지보수는 별도 계약이다.",
+        "limitation": "HWP 문단을 안전 추출해 읽었다. 표 열·도면을 시각 판독한 것으로 주장하지 않는다."
+      },
+      "public_routes_checked": [
+        {
+          "url": "https://www.inzent.com/solution_experdb.php",
+          "reading": "제조사 통합 DBMS·HA·복구 기능과 제품/도입 문의 경로를 실제 읽었다. 이 페이지에서 공개된 유료 영구/Core 실판매가격은 확보하지 못했다."
+        },
+        {
+          "url": "https://www.tibero.com/ko/products/Tibero",
+          "reading": "제조사 DBMS·TAC 및 제품 문의/트라이얼 경로를 읽었으나 비교 가능한 현재 공개 유료 영구/Core 구입 합계는 확보하지 못했다."
+        },
+        {
+          "url": "https://www.enterprisedb.com/legal/EDB-Eula",
+          "reading": "제품·서비스의 주문 권리와 계약기간은 실제 주문 Entitlement와 연결된다. 구체적 영구 사용권·Core 과금·현재 원화 판매가를 이 약관만으로 확정하지 않았다."
+        }
+      ],
+      "excluded_shortcuts": [
+        "무료 PostgreSQL 커뮤니티 엔진을 유료 완제품 가격으로 꾸미지 않았다.",
+        "SQL 편집기/IDE의 영구 라이선스를 서버 DBMS+HA 완제품과 섞지 않았다.",
+        "기간이 다른 클라우드 이용료·지원료를 원품 무제한 사용권의 전체 가격으로 대입하지 않았다."
+      ],
+      "reason_for_moving_on": "현재 탐색에서 권리·단위·기본 HA 기능을 맞춘 유료 완제품의 실제 공개 판매가를 확보하지 못했다. 가격을 임의 생성하지 않고 미완료 경로로 보존한다."
+    },
+    {
+      "item_id": "24684969",
+      "model": "SW-21EUNPA-002",
+      "name": "구급차, 성우모터스, SW-21EUNPA-002, 쏠라티소방음압특수구급차, A/T",
+      "official_url": "https://hackathon.savetax.now/v1/events/current/items/24684969",
+      "official_status_observed_at_utc": "2026-10-16T13:03:25.445125+00:00",
+      "availability_as_observed": {
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "source_release": "r20261011T012137",
+      "scorable_fact_count": 9,
+      "unique_request_count": 9,
+      "Q": "29",
+      "C_krw": "5388200000",
+      "delivery_terms": "생산공장도(상차제외)",
+      "g2b_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA01639058010000002",
+      "all_references": [
+        {
+          "fact_id": "dl:24684969:R26TA01639058:R26TB01738406:1",
+          "listing_id": "R26TA01639058010000002",
+          "contract_no": "R26TA01639058",
+          "request_no": "R26TB01738406",
+          "line_no": "1",
+          "request_date": "2026-03-30",
+          "unit": "대",
+          "basis_id": "basis:대:vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "tax_basis": "vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "185800000",
+          "quantity": "1",
+          "comparable_amount_krw": "185800000"
+        },
+        {
+          "fact_id": "dl:24684969:R26TA01639058:R26TB01758744:1",
+          "listing_id": "R26TA01639058010000002",
+          "contract_no": "R26TA01639058",
+          "request_no": "R26TB01758744",
+          "line_no": "1",
+          "request_date": "2026-04-02",
+          "unit": "대",
+          "basis_id": "basis:대:vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "tax_basis": "vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "185800000",
+          "quantity": "1",
+          "comparable_amount_krw": "185800000"
+        },
+        {
+          "fact_id": "dl:24684969:R26TA01639058:R26TB01814832:1",
+          "listing_id": "R26TA01639058010000002",
+          "contract_no": "R26TA01639058",
+          "request_no": "R26TB01814832",
+          "line_no": "1",
+          "request_date": "2026-04-16",
+          "unit": "대",
+          "basis_id": "basis:대:vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "tax_basis": "vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "185800000",
+          "quantity": "6",
+          "comparable_amount_krw": "1114800000"
+        },
+        {
+          "fact_id": "dl:24684969:R26TA01639058:R26TB01832318:1",
+          "listing_id": "R26TA01639058010000002",
+          "contract_no": "R26TA01639058",
+          "request_no": "R26TB01832318",
+          "line_no": "1",
+          "request_date": "2026-04-21",
+          "unit": "대",
+          "basis_id": "basis:대:vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "tax_basis": "vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "185800000",
+          "quantity": "6",
+          "comparable_amount_krw": "1114800000"
+        },
+        {
+          "fact_id": "dl:24684969:R26TA01639058:R26TB01894175:1",
+          "listing_id": "R26TA01639058010000002",
+          "contract_no": "R26TA01639058",
+          "request_no": "R26TB01894175",
+          "line_no": "1",
+          "request_date": "2026-05-08",
+          "unit": "대",
+          "basis_id": "basis:대:vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "tax_basis": "vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "185800000",
+          "quantity": "1",
+          "comparable_amount_krw": "185800000"
+        },
+        {
+          "fact_id": "dl:24684969:R26TA01639058:R26TB01924978:1",
+          "listing_id": "R26TA01639058010000002",
+          "contract_no": "R26TA01639058",
+          "request_no": "R26TB01924978",
+          "line_no": "1",
+          "request_date": "2026-05-18",
+          "unit": "대",
+          "basis_id": "basis:대:vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "tax_basis": "vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "185800000",
+          "quantity": "10",
+          "comparable_amount_krw": "1858000000"
+        },
+        {
+          "fact_id": "dl:24684969:R26TA01639058:R26TB02039231:1",
+          "listing_id": "R26TA01639058010000002",
+          "contract_no": "R26TA01639058",
+          "request_no": "R26TB02039231",
+          "line_no": "1",
+          "request_date": "2026-06-18",
+          "unit": "대",
+          "basis_id": "basis:대:vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "tax_basis": "vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "185800000",
+          "quantity": "1",
+          "comparable_amount_krw": "185800000"
+        },
+        {
+          "fact_id": "dl:24684969:R26TA01639058:R26TB02154226:1",
+          "listing_id": "R26TA01639058010000002",
+          "contract_no": "R26TA01639058",
+          "request_no": "R26TB02154226",
+          "line_no": "1",
+          "request_date": "2026-07-22",
+          "unit": "대",
+          "basis_id": "basis:대:vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "tax_basis": "vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "185800000",
+          "quantity": "1",
+          "comparable_amount_krw": "185800000"
+        },
+        {
+          "fact_id": "dl:24684969:R26TA01639058:R26TB02213590:1",
+          "listing_id": "R26TA01639058010000002",
+          "contract_no": "R26TA01639058",
+          "request_no": "R26TB02213590",
+          "line_no": "1",
+          "request_date": "2026-08-10",
+          "unit": "대",
+          "basis_id": "basis:대:vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "tax_basis": "vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "185800000",
+          "quantity": "2",
+          "comparable_amount_krw": "371600000"
+        }
+      ],
+      "event_source": {
+        "path": "work/highvalue-hardware/after-linux-three/event-24684969.json",
+        "bytes": 6825,
+        "sha256": "09d44edaca705ed7a48516e757603e60df0fbdb67ba58281eb71cb2ac9791ddc"
+      },
+      "submission_ready": false,
+      "adopted_saving_krw": "0",
+      "score_body_created": false,
+      "preview_called": false,
+      "post_called": false,
+      "status": "new_complete_negative_pressure_ambulance_public_price_not_found_in_current_search",
+      "original_read": {
+        "exact_members": [
+          {
+            "archive": "work/highvalue-hardware/after-linux-three/ambulance-downloads/성우모터스 규격서.Zip",
+            "member": "쏠라티 음압 특수 구급차_규격서_(24684969).hwp",
+            "path": "work/highvalue-hardware/after-linux-three/selected-originals/ambulance-24684969-1.hwp",
+            "bytes": 3174400,
+            "sha256": "249174ce276a24ac8701c38d46d52c28254129814559fec40137e4019bdd4348",
+            "read_method": "safe HWP document-read; no macro execution",
+            "text_chars": 1476
+          },
+          {
+            "archive": "work/highvalue-hardware/after-linux-three/ambulance-downloads/성우모터스 규격서.Zip",
+            "member": "규격서_쏠라티 음압 특수 구급차(24684969).hwp",
+            "path": "work/highvalue-hardware/after-linux-three/selected-originals/ambulance-24684969-2.hwp",
+            "bytes": 531456,
+            "sha256": "11d399c9f2ae9e5d30bc29091c31967e1113c09d2fc3bcb60fe0d43331e1a281",
+            "read_method": "safe HWP document-read; no macro execution",
+            "text_chars": 1476
+          }
+        ],
+        "basis": "정확 24684969가 적힌 두 HWP의 문단을 읽었다. 쏠라티 럭셔리 15인승 기본차량을 개조하는 소방 음압 특수구급차다.",
+        "vehicle_and_patient_room_mm": "차대6195×2040×2790, 환자실3715×1360×1915",
+        "base_equipment_from_exact_hwp": [
+          "경광등·앰프/사이렌",
+          "장의자·의료장비 수납함",
+          "이동조명",
+          "산소탱크",
+          "주들것",
+          "환풍기",
+          "수액병걸이",
+          "전원공급장치"
+        ],
+        "optional_equipment_warning": "G2B 본문에는 심장충격기 등 동시구매 추가품목이 별도로 있다. 모두 본체가격 포함이라고 확대하지 않았다.",
+        "limitation": "HWP의 차량 그림과 별도 소방 공통 PDF를 전부 시각 검증한 것은 아니다. 음압 정격·전체 선택장비 대응은 새 판매 대안이 나왔을 때 추가 대조해야 한다."
+      },
+      "public_routes_checked": [
+        {
+          "url": "https://www.sungwoomotors.co.kr/page/solaty",
+          "reading": "제조사 공개 모델 단서를 찾았으나 직접 HTTP는 SSLError, web.open도 실패했다. 검색 본문 단서를 현재 판매가 검증으로 승격하지 않았다."
+        }
+      ],
+      "excluded_shortcuts": [
+        "기본 쏠라티 밴·일반 구급차·중고 차량 가격을 음압 특수구급차 전체 가격으로 쓰지 않았다.",
+        "공시의 수주/잔액을 현재 주문 가능한 동일 구성 신차 판매가격으로 대입하지 않았다."
+      ],
+      "reason_for_moving_on": "음압·기본 구급설비가 포함된 신차 완제품의 실제 공개 현재 판매가를 확보하지 못했다. 원품 원규격과 전체 관련 번호를 남기고 다음 후보로 이동한다."
+    },
+    {
+      "item_id": "26003126",
+      "model": "EN-YS12",
+      "name": "컨테이너하우스, 이엔후레쉬, EN-YS12, 3.2×9.2×3.2m, 여성편의시설/작전대기실용",
+      "official_url": "https://hackathon.savetax.now/v1/events/current/items/26003126",
+      "official_status_observed_at_utc": "2026-10-16T13:03:25.455781+00:00",
+      "availability_as_observed": {
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "source_release": "r20261011T012137",
+      "scorable_fact_count": 6,
+      "unique_request_count": 6,
+      "Q": "33",
+      "C_krw": "1440450000",
+      "delivery_terms": "납품장소 하차도",
+      "g2b_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002181386_1250000274",
+      "all_references": [
+        {
+          "fact_id": "dl:26003126:002181386_1:R25TB01381584:1",
+          "listing_id": "002181386_1250000274",
+          "contract_no": "002181386_1",
+          "request_no": "R25TB01381584",
+          "line_no": "1",
+          "request_date": "2025-12-29",
+          "unit": "대",
+          "basis_id": "basis:대:vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "tax_basis": "vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "43650000",
+          "quantity": "3",
+          "comparable_amount_krw": "130950000"
+        },
+        {
+          "fact_id": "dl:26003126:002181386_1:R26TB02060489:1",
+          "listing_id": "002181386_1250000274",
+          "contract_no": "002181386_1",
+          "request_no": "R26TB02060489",
+          "line_no": "1",
+          "request_date": "2026-06-24",
+          "unit": "대",
+          "basis_id": "basis:대:vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "tax_basis": "vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "43650000",
+          "quantity": "5",
+          "comparable_amount_krw": "218250000"
+        },
+        {
+          "fact_id": "dl:26003126:002181386_1:R26TB02073320:2",
+          "listing_id": "002181386_1250000274",
+          "contract_no": "002181386_1",
+          "request_no": "R26TB02073320",
+          "line_no": "2",
+          "request_date": "2026-06-29",
+          "unit": "대",
+          "basis_id": "basis:대:vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "tax_basis": "vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "43650000",
+          "quantity": "6",
+          "comparable_amount_krw": "261900000"
+        },
+        {
+          "fact_id": "dl:26003126:002181386_1:R26TB02073322:1",
+          "listing_id": "002181386_1250000274",
+          "contract_no": "002181386_1",
+          "request_no": "R26TB02073322",
+          "line_no": "1",
+          "request_date": "2026-06-29",
+          "unit": "대",
+          "basis_id": "basis:대:vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "tax_basis": "vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "43650000",
+          "quantity": "6",
+          "comparable_amount_krw": "261900000"
+        },
+        {
+          "fact_id": "dl:26003126:002181386_1:R26TB02108995:1",
+          "listing_id": "002181386_1250000274",
+          "contract_no": "002181386_1",
+          "request_no": "R26TB02108995",
+          "line_no": "1",
+          "request_date": "2026-07-09",
+          "unit": "대",
+          "basis_id": "basis:대:vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "tax_basis": "vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "43650000",
+          "quantity": "9",
+          "comparable_amount_krw": "392850000"
+        },
+        {
+          "fact_id": "dl:26003126:002181386_1:R26TB02296970:1",
+          "listing_id": "002181386_1250000274",
+          "contract_no": "002181386_1",
+          "request_no": "R26TB02296970",
+          "line_no": "1",
+          "request_date": "2026-09-08",
+          "unit": "대",
+          "basis_id": "basis:대:vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "tax_basis": "vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "43650000",
+          "quantity": "4",
+          "comparable_amount_krw": "174600000"
+        }
+      ],
+      "event_source": {
+        "path": "work/highvalue-hardware/after-linux-three/event-26003126.json",
+        "bytes": 4793,
+        "sha256": "5b2aae81bfa42e0f1b19909a32de7ec7d8a3b8859371acf5deaf814f305f9f51"
+      },
+      "submission_ready": false,
+      "adopted_saving_krw": "0",
+      "score_body_created": false,
+      "preview_called": false,
+      "post_called": false,
+      "status": "new_finished_modules_price_verified_two_module_scope_under_review",
+      "original_read": {
+        "exact_member": {
+          "archive": "work/highvalue-hardware/after-linux-three/container-downloads/컨테이너하우스규격서_이엔후레쉬.zip",
+          "member": "이엔후레쉬 컨테이너하우스 규격서6.pdf",
+          "path": "work/highvalue-hardware/after-linux-three/selected-originals/container-ENYS12-2.pdf",
+          "bytes": 2297317,
+          "sha256": "cd7719ca912b7f51952bb9792f4062d90c62ebe715063beb022237469bc78dd9",
+          "read_method": "pypdf text extraction; visual verification separately",
+          "hit_pages_1based": [
+            3,
+            17,
+            33,
+            39,
+            42
+          ],
+          "text_chars": 20596
+        },
+        "visually_read_pages_1based": [
+          17,
+          33
+        ],
+        "body": "3.2×9.2×3.2m, 원품 단일동의 도면은 좌우 휴게공간과 중앙 분리 위생공간을 보여준다.",
+        "insulation": "천정140T·벽150T 준불연 우레탄패널, 바닥100T 준불연 우레탄폼",
+        "included_fixtures": [
+          "전기온돌·모노륨/현관 데코타일",
+          "화장실 타일·SMC 돔",
+          "양변기·세면대·샤워겸용 수전",
+          "50L 온수기 표기",
+          "싱크대·상부장",
+          "조명·분전반·콘센트",
+          "환풍기·도어락·방범창 등"
+        ],
+        "quantity_limitation": "욕실 설비는 원품 표에서1SET로 기재된다. 온수기 등 개별 수량을 임의로2개라고 확정하지 않았다."
+      },
+      "retail_evidence": {
+        "url": "https://www.daara.co.kr/sell/s_view.php?no=1181830",
+        "observed_at_utc": "2026-10-16T13:11:18.574302+00:00",
+        "seller": "한결컨테이너",
+        "product_number": "1181830",
+        "actual_product_name": "[판매] 농막,기숙사,원룸3×6 컨테이너",
+        "condition": "신품·주문형, 제조연월2026년9월 표기",
+        "observed_price_krw": "7000000",
+        "vat_included": false,
+        "shipping_included": false,
+        "quote": "7,000,000원(VAT별도). 화장실·싱크대·전기온돌·30L온수기·세면대 포함. 기본단열30T, 제작3주, 상차제공·운송/하차별도.",
+        "native_and_web_body_read": true,
+        "images_directly_viewed": 4,
+        "image_observation": "완성 외벽·문·창, 마감된 방, 독립된 타일 욕실의 양변기·세면대·온수기·샤워호스/수전, 싱크대·수납장을 직접 봤다. 빈 골조나 자재 단가가 아니다.",
+        "sales_channel": "산업재 판매자의 공개 신품 주문제작 매물이다. 현재 웹 본문은 문의 경로이며 온라인 수량선택/결제 합계를 본 것은 아니다.",
+        "purchase_contact_actions": 0
+      },
+      "limited_replacement_plan": {
+        "plan": "완성3×6m 모듈2동을 독립 배치하여2개 휴게·위생 공간을 제공하는 구입계획",
+        "source_units_per_original_unit": 2,
+        "source_unit_price_vat_excluded_krw": "7000000",
+        "tax_budget_rate": "0.10",
+        "tax_multiplier": "1.10",
+        "tax_basis_source_url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7802&mi=2480",
+        "tax_basis_note": "국세청 일반과세10% 기준으로 별도 세금예산을 계산한다. 판매처의 VAT포함 표시가나 실제청구 합계를 관측한 것으로 인용하지 않는다.",
+        "benchmark_tax_basis": "vat_included",
+        "acquisition_cost_before_transport_krw": "15400000",
+        "original_footprint_m2": "29.44",
+        "alternative_total_footprint_m2": "36",
+        "footprint_difference_m2": "6.56",
+        "footprint_increase_ratio": "0.2228260869565217391304347826",
+        "scope_before_site_fit_review_arithmetic_difference_krw": "932250000",
+        "formula": "각 fact의 floor(C−(7000000×2×1.10)×Q) 합산",
+        "adopted_saving_krw": "0"
+      },
+      "comparison_assessment": {
+        "shared_purpose_observation": "난방된 독립 휴게공간과 화장실·세면·샤워·취사 설비라는 공통 기능은 본문·사진에서 확인했다.",
+        "complete_goods_observation": "각3×6 모듈은 제작·마감·위생설비가 있는 신품 완제품이다. 단일 부품가나 임대료가 아니다.",
+        "equivalence_and_scope_status": "원품 단일동에 대한2동 대체 적용범위는 아직 검토 중이다. 실제 기관의 배치·여유부지·필수 성능을 충족했다고 선언하지 않았다."
+      },
+      "material_differences_and_unresolved_costs": [
+        "원품 단일동29.44㎡ 대신 분리된2동36㎡로 부지가6.56㎡ 더 필요하고 동선·배치가 다르다.",
+        "대안 높이가 명시되지 않았고 원품3.2m와 같다고 하지 않는다.",
+        "원품140/150/100T 준불연PU에 비해 대안 기본단열은30T이며 소재·준불연 등급은 미확인이다. 같은 단열/방화 성능을 주장하지 않는다.",
+        "원품50L 온수기 표기와 대안 각동30L 구성이 다르다. 총용량만으로 동등 급탕성능을 확정하지 않는다.",
+        "출입문·창·구조 및 전기설비의 세부 정격, 원품 도어락/방범창/진동패드 등의 대응과 추가 실제 비용은 미확인이다.",
+        "원품은 납품장소 하차도, 대안은 상차 제공·운송 및 하차 별도다. 미확인 운임을 무료나0원으로 계산하지 않는다."
+      ],
+      "reason_for_pending": "확인한 신품 완성 모듈의 구입가격은 유효하나,2동 배치가 원품의 필수 용도·구성을 대응하는 범위를 검토한 뒤 비교가로 채택해야 한다. 운임만을 이유로 자동 폐기한 것은 아니다."
+    }
+  ],
+  "review_only_offer": "work/highvalue-hardware/after-linux-three/offer-review-26003126-two-finished-modules.json",
+  "source_manifest": [
+    {
+      "path": "work/highvalue-hardware/after-linux-three/lookup.json",
+      "bytes": 1839,
+      "sha256": "ec2db2e35e1f3f2926ca43cae3d828101571923f6d1d8fc0abf8862ec55e1466"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/parallel-search.json",
+      "bytes": 22334,
+      "sha256": "e5d905a9ba19378d292f2293696758d9ae871ef8749235eaec272080c8aaa0cd"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/experdb-original-native.json",
+      "bytes": 5443,
+      "sha256": "63425bfb2c05954c91cf0dcc4db627e9e83c47fa2768180aae4aca6065be029d"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/experdb-download-native.json",
+      "bytes": 878,
+      "sha256": "dac953e5839f20d0e20b42b6f06e7b44b3bcc457b9a1c41e8fc002b67bb674d8"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/experdb-original-extracted.json",
+      "bytes": 20427,
+      "sha256": "e655c1a1c38f293668d7ee80c4631708c5a5f4dd38e142a646ad4df851d8e900"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/ambulance-original-native.json",
+      "bytes": 8732,
+      "sha256": "f8497806cfe879c1715ac4b5885710a73430ea5ba1d6b6b3d6818b970b1a3c4e"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/ambulance-download-native.json",
+      "bytes": 814,
+      "sha256": "2c153daefb2081876e188692d3c2df80390800e09bdf57c6a93f17a0a2b18a03"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/container-original-native.json",
+      "bytes": 4812,
+      "sha256": "f01b5995bf38ce8008dc8d8f43005de7a4be566acf9f2f7cbb9d01b26743a8f4"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/container-download-native.json",
+      "bytes": 875,
+      "sha256": "9690d5770b5cbcd9e20b14b3e610f061b286725b54c4de02fc76dc2e4fb71e4a"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/selected-original-manifest.json",
+      "bytes": 1607,
+      "sha256": "7913d00c00fa904bdf152aac38d2c6b91a307e19c78ff04f100dde444a9287b3"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/hangyeol1181830-native.json",
+      "bytes": 7477,
+      "sha256": "3d3846948bf505f589e094785ac9dd953bc48129220eaf6d102cc389535889f7"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/hangyeol1181830-images-native.json",
+      "bytes": 14323,
+      "sha256": "6cee0decbeea54240e8b5ac49abc76b4323642cd340c043fffa19c81f8f4893e"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/hangyeol-image-source-manifest.json",
+      "bytes": 1471,
+      "sha256": "1894bc4d58ce2c7620bbe77d1179060661a0cb02d6323272c583df38f235184e"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/nts-vat-source.json",
+      "bytes": 646,
+      "sha256": "9777bff3b1b3068c03399233cf567c9654bae006aaf4b30696a381ea931ea832"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/offer-review-26003126-two-finished-modules.json",
+      "bytes": 2752,
+      "sha256": "76ae2963a818eaa608475edaca6f25fd3c22e9e248a80dee333f39622404befa"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/public-pages/inzent-experdb.html",
+      "bytes": 60793,
+      "sha256": "4b1d1b1c7f3fbb27e149a5af6a73a02af26337a42e6e3b2aed112ea9bd68d15b"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/public-pages/tibero.html",
+      "bytes": 175006,
+      "sha256": "64b0e3027b96403635e87d0c9dfe57b6d5cf068c2fbcfc7922668e2fe23a868a"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/public-pages/edb-eula.html",
+      "bytes": 279823,
+      "sha256": "4dace41dc0ec672caae1bc5d9214a6112818ee10597b1f3d3a8e6e1da2307df0"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/selected-originals/ambulance-24684969-1.hwp",
+      "bytes": 3174400,
+      "sha256": "249174ce276a24ac8701c38d46d52c28254129814559fec40137e4019bdd4348"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/selected-originals/ambulance-24684969-2.hwp",
+      "bytes": 531456,
+      "sha256": "11d399c9f2ae9e5d30bc29091c31967e1113c09d2fc3bcb60fe0d43331e1a281"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/selected-originals/container-ENYS12-2.pdf",
+      "bytes": 2297317,
+      "sha256": "cd7719ca912b7f51952bb9792f4062d90c62ebe715063beb022237469bc78dd9"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/hangyeol1181830-image1.jpg",
+      "bytes": 291527,
+      "sha256": "eb253f31511c3a789a7c6e469d272c15a613881b850ed4f9bcf3ef699a7a4843"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/hangyeol1181830-image2.jpg",
+      "bytes": 259517,
+      "sha256": "7a9da707054ba939bcad26f6c7f1a293224088d62ee3aa54c4b11af73e7bdd54"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/hangyeol1181830-image3.jpg",
+      "bytes": 299929,
+      "sha256": "fb4567b2b25d03378a4bbfabce9566ca20c663cdee575bb390244599b9b6ed3f"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/hangyeol1181830-image4.jpg",
+      "bytes": 304214,
+      "sha256": "ceea1081a1c2e3f5b919e842d01a3cd65bad674d1a20fc4f1d086d6a52d0050f"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/selected-originals/container-ENYS12-page17.png",
+      "bytes": 230314,
+      "sha256": "3909a940ad4a8ae1ce9f0a9817f280de8ac9269a81a515ae92ffaadbb3f8f245"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/selected-originals/container-ENYS12-page33.png",
+      "bytes": 168689,
+      "sha256": "5963ce1a7b97ba75ac3b7284d4cd65c15f9a6e26d7a46ee26eb9d290d0a5a833"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/public-pages/nts-vat-general.html",
+      "bytes": 221163,
+      "sha256": "6397a5625137764e6452101db2862247ab2698b51627c303f60a1d0634040eed"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/experdb-downloads/00246132700-규격서_eXperDBv15&#40;인젠트&#41;.hwp",
+      "bytes": 2473984,
+      "sha256": "ee7cfa088ff51d4973065df990e52046f91b0104c3a7e1da9151688541cb50c1"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/ambulance-downloads/성우모터스 규격서.Zip",
+      "bytes": 88338218,
+      "sha256": "bba918b41d57ad73a6ca1042c1abe1217c79e57f9de24dbe7c9b7168cc3f6a25"
+    },
+    {
+      "path": "work/highvalue-hardware/after-linux-three/container-downloads/컨테이너하우스규격서_이엔후레쉬.zip",
+      "bytes": 19357427,
+      "sha256": "71e8cec2dca98b38ebbc63352eb35d99f0be5ef7d3d6f9230ec64b32740b25cf"
+    }
+  ],
+  "public_page_attempts": [
+    {
+      "name": "inzent-experdb",
+      "url": "https://www.inzent.com/solution_experdb.php",
+      "final_url": "https://www.inzent.com/solution_experdb.php",
+      "status": 200,
+      "observed_at_utc": "2026-10-16T13:10:20.532149+00:00",
+      "path": "work/highvalue-hardware/after-linux-three/public-pages/inzent-experdb.html",
+      "bytes": 60793,
+      "sha256": "4b1d1b1c7f3fbb27e149a5af6a73a02af26337a42e6e3b2aed112ea9bd68d15b",
+      "title": "eXperDB"
+    },
+    {
+      "name": "tibero",
+      "url": "https://www.tibero.com/ko/products/Tibero",
+      "final_url": "https://www.tibero.com/ko/products/Tibero",
+      "status": 200,
+      "observed_at_utc": "2026-10-16T13:10:21.124020+00:00",
+      "path": "work/highvalue-hardware/after-linux-three/public-pages/tibero.html",
+      "bytes": 175006,
+      "sha256": "64b0e3027b96403635e87d0c9dfe57b6d5cf068c2fbcfc7922668e2fe23a868a",
+      "title": "Tibero | 독자 기술 기반의 엔터프라이즈 DBMS"
+    },
+    {
+      "name": "edb-eula",
+      "url": "https://www.enterprisedb.com/legal/EDB-Eula",
+      "final_url": "https://www.enterprisedb.com/legal/EDB-Eula",
+      "status": 200,
+      "observed_at_utc": "2026-10-16T13:10:22.280668+00:00",
+      "path": "work/highvalue-hardware/after-linux-three/public-pages/edb-eula.html",
+      "bytes": 279823,
+      "sha256": "4dace41dc0ec672caae1bc5d9214a6112818ee10597b1f3d3a8e6e1da2307df0",
+      "title": ""
+    },
+    {
+      "name": "sungwoo-solati",
+      "url": "https://www.sungwoomotors.co.kr/page/solaty",
+      "error_type": "SSLError",
+      "observed_at_utc": "2026-10-16T13:10:20.481425+00:00"
+    },
+    {
+      "name": "dyct-new-3x9",
+      "url": "https://dyct.co.kr/product/%EC%8B%A0%EC%A0%9C%ED%92%88-39-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88/14",
+      "error_type": "HTTPError",
+      "observed_at_utc": "2026-10-16T13:10:20.469465+00:00"
+    },
+    {
+      "name": "gg-new-3x9",
+      "url": "https://nabjarux.cafe24.com/product/%EA%B8%B0%EB%B3%B8%ED%98%95-%EC%8B%A0%ED%92%88-39-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88/13",
+      "error_type": "HTTPError",
+      "observed_at_utc": "2026-10-16T13:10:20.455269+00:00"
+    }
+  ],
+  "posting": "공식 preview·점수접수·제보·판매자 연락·구매를 하지 않았다. 세 원품은 조회시각의 available 상태로만 기록하며 실제 제출 전 재확인한다. 미채택 참고 산술을 접수·심사채택·실제 예산절감 누계에 합산하지 않는다."
+}

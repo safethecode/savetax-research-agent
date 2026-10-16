@@ -56,6 +56,8 @@ python -m savetax market-search --provider daiso --query 복사용지 --limit 5
 
 점수 본문용 입력 JSON은 `{item, offer, event}`다. `item`과 `event`는 공식 API 응답이며 `offer`에는 실제 확인한 `model`, `url`, `quote`, `unit_price`(정수 문자열), `observed_at`, `vat_included`, `shipping_included`, `price_verified: true`, `model_verified: true`를 넣는다. 이 확인값은 실제 상세·선택 옵션을 검토한 뒤에만 쓴다. 필수 비용을 더한 경우 `benchmark_unit_price_krw`와 비교 범위도 적는다.
 
+판매가가 부가세 별도이고 공식 fact가 부가세 포함이면, 원문 가격과 `vat_included: false`를 그대로 둔 채 `benchmark_tax_basis: "vat_included"`, `vat_rate: "0.10"`을 명시한다. 예를 들어 표시가 100,000원은 근거에 그대로 남고 비교 단가 B만 110,000원으로 환산된다. 반대 방향도 같은 방식으로 지원하며 세율은 자동으로 정하지 않는다. 세금 기준이나 세율이 미확인이면 임의로 채우지 않는다. 환산 설명은 가격 근거와 재현 방법에 기록된다. `pack_quantity` 나눗셈과 세금 환산을 모두 마친 뒤 소수 6자리에서 한 번 올림하며, 공통·fact별 비교 단가는 환산한 가격보다 낮출 수 없다. 추가 배송비·설치비는 이 기능이 계산하지 않으므로 같은 세금 기준의 B에 직접 반영하고 근거에 설명한다. 이 옵션은 `build-score`의 본문 생성용이며, 별도의 `evaluate_candidate` 입력은 기존처럼 세금 기준을 맞춘 총비용을 요구한다.
+
 `comparison_kind: equivalent`는 원모델·실제 판매모델·사양 대응·출처·차이 외에 `comparison_assessment`가 필요하다. 핵심 용도와 완제품 구성을 실제 근거로 검토한 뒤 각각 기록한다.
 
 ```json

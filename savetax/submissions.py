@@ -1,6 +1,6 @@
 """공식 fact와 실측 가격으로 점수 본문을 만들고 preview 뒤 제출한다."""
 from datetime import datetime, timezone
-from decimal import Decimal, ROUND_CEILING
+from decimal import Decimal, ROUND_CEILING, localcontext
 import json
 import re
 
@@ -70,11 +70,36 @@ def build_submission(item, offer, event):
         raise ValueError('판매 포장 수량은 양의 정수여야 합니다')
     if pack > 1 and offer.get('pack_quantity_verified') is not True:
         raise ValueError('포장 안의 공식 비교 단위 수량을 실제로 확인해야 합니다')
-    unit_price = (Decimal(price)/pack).quantize(Decimal('0.000001'),rounding=ROUND_CEILING)
+    source_tax_basis = 'vat_included' if offer['vat_included'] else 'vat_excluded'
+    benchmark_tax_basis = offer.get('benchmark_tax_basis',source_tax_basis)
+    if benchmark_tax_basis not in ('vat_included','vat_excluded'):
+        raise ValueError('비교 단가의 세금 기준은 vat_included 또는 vat_excluded여야 합니다')
+    converting_tax = benchmark_tax_basis != source_tax_basis
+    if converting_tax or 'vat_rate' in offer:
+        rate_text = str(offer.get('vat_rate',''))
+        if (not re.fullmatch(r'[0-9]+(?:\.[0-9]{1,6})?',rate_text)
+                or not Decimal(0) <= Decimal(rate_text) <= Decimal(1)):
+            raise ValueError('세금 환산율은 0~1 사이의 소수 6자리 이내 값으로 명시해야 합니다')
+        rate = Decimal(rate_text)
+    with localcontext() as context:
+        context.prec = max(80,len(price)+32)
+        unit_price = Decimal(price)/pack
+        if converting_tax:
+            unit_price = (unit_price*(1+rate) if benchmark_tax_basis == 'vat_included'
+                else unit_price/(1+rate))
+        # Pack and VAT conversion precede the single conservative API rounding.
+        unit_price = unit_price.quantize(Decimal('0.000001'),rounding=ROUND_CEILING)
     normalized = format(unit_price,'f').rstrip('0').rstrip('.')
+    tax_note = ''
+    if converting_tax:
+        source_label = '부가세 포함' if offer['vat_included'] else '부가세 별도'
+        target_label = '부가세 포함' if benchmark_tax_basis == 'vat_included' else '부가세 별도'
+        percent = format((rate*100).normalize(),'f')
+        tax_note = (f' 표시가는 {source_label}이며, 세율 {percent}%로 {target_label} 기준에 환산했다.'
+            f' 포장 환산 기준 단가는 {normalized}원이다.')
     benchmark = str(offer.get('benchmark_unit_price_krw',normalized))
     if not re.fullmatch(r'[0-9]+(?:\.[0-9]{1,6})?',benchmark) or Decimal(benchmark) < unit_price:
-        raise ValueError('비교 단가는 포장 수량으로 환산한 관측가 이상이어야 합니다')
+        raise ValueError('비교 단가는 포장·세금 기준으로 환산한 관측가 이상이어야 합니다')
     fact_benchmarks = offer.get('benchmark_unit_price_by_fact',{})
     scorable_ids = {fact.get('fact_id') for fact in item.get('facts',[]) if fact.get('scorable')}
     if (not isinstance(fact_benchmarks,dict)
@@ -83,7 +108,7 @@ def build_submission(item, offer, event):
     for value in fact_benchmarks.values():
         if (not re.fullmatch(r'[0-9]+(?:\.[0-9]{1,6})?',str(value))
                 or Decimal(str(value)) < unit_price):
-            raise ValueError('개별 비교 단가는 포장 환산 관측가 이상인 소수 6자리 이내 원화여야 합니다')
+            raise ValueError('개별 비교 단가는 포장·세금 환산 관측가 이상인 소수 6자리 이내 원화여야 합니다')
     try:
         observed_at = datetime.fromisoformat(offer['observed_at'].replace('Z','+00:00')).date().isoformat()
     except (ValueError,KeyError,AttributeError):
@@ -97,8 +122,8 @@ def build_submission(item, offer, event):
             continue
         if fact.get('period_kind') not in (None,'none'):
             raise ValueError('기간형 물품은 별도 기간 검증이 필요합니다')
-        if fact.get('tax_basis') != ('vat_included' if offer['vat_included'] else 'vat_excluded'):
-            raise ValueError('공식 fact와 판매가의 세금 기준이 다릅니다')
+        if fact.get('tax_basis') != benchmark_tax_basis:
+            raise ValueError('공식 fact와 비교 단가의 세금 기준이 다릅니다')
         if any(not str(fact.get(key,'')) for key in ('contract_no','request_no','line_no')):
             raise ValueError('계약번호·납품요구번호·라인 번호가 필요합니다')
         seen.add(fact['fact_id'])
@@ -107,7 +132,7 @@ def build_submission(item, offer, event):
             'price_evidence':[{'kind':'price_page','source_url':offer['url'],'quote':offer['quote'],
                 'observed_price_krw':price,'observed_at':observed_at,'vat_included':offer['vat_included'],
                 'shipping_included':offer['shipping_included'],
-                'note':f'표시가 {price}원/공식 비교 단위 {pack}{fact["unit"]} 구성. 공식 비교 단위 1{fact["unit"]}당 {line_benchmark}원으로 비교.'}],
+                'note':f'표시가 {price}원/공식 비교 단위 {pack}{fact["unit"]} 구성. 공식 비교 단위 1{fact["unit"]}당 {line_benchmark}원으로 비교.' + tax_note}],
             'fulfillment_evidence':[{'kind':'text','text':f"계약 {fact['contract_no']}, 납품요구 {fact['request_no']}, 라인 {fact['line_no']}. 공식 fact {fact['fact_id']}, 수량 {fact['quantity']}, 비교금액 {fact['comparable_amount_krw']}원."}]})
     if not lines:
         raise ValueError('양의 절감액이 있는 공식 fact가 없습니다')
@@ -117,6 +142,7 @@ def build_submission(item, offer, event):
         'comparison_scope':offer.get('comparison_scope',f'동일 모델 신품, 한 포장의 공식 비교 단위 수량은 {pack}이며 fact의 단위·세금 기준으로 환산'),
         'reproduction_notes':'공식 fact별 floor(max(C-B×Q,0))를 합산. 각 라인 근거에 계약·납품요구·라인 번호를 기재. 가격 시점 차이는 사용자 지정 대회 조사 기준에서 제외한다.',
         'lines':lines}
+    body['reproduction_notes'] += tax_note
     if equivalent:
         body['title'] = f'{model} → {retail_model} 대체품 {price}원 비교'[:200]
         body['claim'] = f'조달 {model}과 실제 판매 {retail_model}의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. {offer["differences"]}'
