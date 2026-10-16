@@ -14688,5 +14688,42 @@
       "bytes": 97026,
       "sha256": "50493a72e1b23f6a5010fc0a1938befbacf72699b256508cbd4948e9636b318b"
     }
-  ]
+  ],
+  "availability_harness_review": {
+    "reviewed_at_utc": "2026-10-16T12:29:26.454421+00:00",
+    "method": "실제 저장 native 관측값을 새 채널 검증기에 입력. 판매 가능 여부만의 형식·상태 검사이며 VAT·납지·군용공급 조건의 해결을 뜻하지 않는다.",
+    "results": [
+      {
+        "sku": "1059734",
+        "purchase_channel": "parcel_delivery",
+        "purchase_availability": {
+          "channel": "parcel_delivery",
+          "status": "available",
+          "source_kind": "retail_page",
+          "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059734",
+          "quote": "택배배송 10/18(일) 도착예정. 수량1 표시가3000원과 장바구니 담기 표시.",
+          "observed_at": "2026-10-16T12:10:47.807Z"
+        },
+        "availability_validation_reasons": [],
+        "overall_submission_ready": false
+      },
+      {
+        "sku": "1072759",
+        "purchase_channel": "parcel_delivery",
+        "purchase_availability": {
+          "channel": "parcel_delivery",
+          "status": "unavailable",
+          "source_kind": "retail_page",
+          "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072759",
+          "quote": "택배배송 일시품절. 매장픽업·오늘배송·대량주문 예정일은 별도 채널이다.",
+          "observed_at": "2026-10-16T12:10:38.669Z"
+        },
+        "availability_validation_reasons": [
+          "purchase_channel_unavailable_or_unverified"
+        ],
+        "overall_submission_ready": false
+      }
+    ],
+    "POST_calls": 0
+  }
 }
