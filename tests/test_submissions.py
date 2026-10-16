@@ -19,6 +19,9 @@ class ScoreTests(unittest.TestCase):
                       'unit_price': '100000', 'observed_at': '2026-10-16', 'vat_included': True,
                       'shipping_included': True, 'price_verified': True, 'model_verified': True}
         self.event = {'dataset_release_id': 'release', 'ruleset_version': 'rules'}
+        self.assessment = {
+            'core_purpose':{'status':'verified','basis':'두 제품 모두 40W 조명용이다.'},
+            'complete_product':{'status':'verified','basis':'두 가격 모두 완성 등기구 1개에 해당한다.'}}
 
     def test_build_keeps_every_contract_request_and_line_reference(self):
         body = build_submission(self.item,self.offer,self.event)
@@ -58,6 +61,7 @@ class ScoreTests(unittest.TestCase):
 
     def test_equivalent_comparison_preserves_real_retail_model_and_differences(self):
         offer = {**self.offer,'comparison_kind':'equivalent','model':'XYZ',
+            'comparison_assessment':self.assessment,
             'model_verified':False,'retail_model_verified':True,'comparison_reviewed':True,
             'procurement_model':'ABC','spec_mapping':[{'attribute':'출력','original':'40W','alternative':'40W'}],
             'spec_source_urls':['https://maker.example/abc','https://maker.example/xyz'],
@@ -90,6 +94,7 @@ class ScoreTests(unittest.TestCase):
     def test_long_equivalent_differences_stay_in_claim_without_overflowing_scope(self):
         differences = '차이점은 모두 별도로 기록했다. ' * 35
         offer = {**self.offer,'comparison_kind':'equivalent','model':'XYZ',
+            'comparison_assessment':self.assessment,
             'retail_model_verified':True,'comparison_reviewed':True,'procurement_model':'ABC',
             'spec_mapping':[{'attribute':'전력','original':'40W','alternative':'40W'}],
             'spec_source_urls':['https://maker.example/abc'],'differences':differences,

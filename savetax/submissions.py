@@ -43,6 +43,16 @@ def build_submission(item, offer, event):
                 or any(not _source_valid(url) for url in sources)
                 or not isinstance(offer.get('differences'),str) or not offer['differences'].strip()):
             raise ValueError('대체 비교는 원모델·사양 대응·공개 출처·차이와 비교 검토가 필요합니다')
+        assessment = offer.get('comparison_assessment')
+        if not isinstance(assessment,dict):
+            raise ValueError('대체 비교의 핵심 용도·완제품 구성 검토 근거가 필요합니다')
+        assessment_notes = []
+        for key,label in (('core_purpose','핵심 용도'),('complete_product','완제품 구성')):
+            check = assessment.get(key)
+            if (not isinstance(check,dict) or check.get('status') != 'verified'
+                    or not isinstance(check.get('basis'),str) or not check['basis'].strip()):
+                raise ValueError(f'대체 비교의 {label} 대응이 미확인입니다')
+            assessment_notes.append(label + ': ' + check['basis'].strip())
     elif retail_model != model:
         raise ValueError('조달 모델과 실제 판매 모델이 다릅니다')
     if not _source_valid(offer.get('url')) or not isinstance(offer.get('quote'),str) or not 1 <= len(offer['quote']) <= 2000:
@@ -105,7 +115,8 @@ def build_submission(item, offer, event):
             else scope + identity + ' 세부 차이·제한은 주장과 재현 방법에 기재했다.')
         body['reproduction_notes'] += (' 사양 대응: '
             + '; '.join(f'{r["attribute"]}: {r["original"]} → {r["alternative"]}' for r in mapping)
-            + '. 사양 출처: ' + ' '.join(sources))
+            + '. 사양 출처: ' + ' '.join(sources)
+            + '. 비교 검토: ' + '; '.join(assessment_notes))
         for line in lines:
             line['price_evidence'][0]['note'] += f' 실제 판매모델 {retail_model}; 원품 {model}과 다른 대체품 비교.'
     for field, limit in (('title',200),('claim',2000),('comparison_scope',1000),('reproduction_notes',4000)):

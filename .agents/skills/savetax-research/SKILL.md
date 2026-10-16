@@ -78,6 +78,10 @@ description: Use when investigating SaveTax procurement price candidates, checki
 
 `build_submission`은 기본 `identical`에서 기존 모델 검증을 유지한다. `equivalent`는 실제 판매모델을 바꾸어 넣는 우회가 아니라 별도 비교 경로다. `retail_model_verified`, `comparison_reviewed`, 원모델 `procurement_model`, `spec_mapping`의 attribute/original/alternative, 공개 HTTPS `spec_source_urls`, `differences`를 모두 기록한다. 생성된 제목·주장·비교 범위에 두 모델과 차이가 남아야 한다. 기능 손실을 동일성으로 포장하지 않는다.
 
+대체품 본문 생성에는 `comparison_assessment.core_purpose`와 `comparison_assessment.complete_product`도 필요하다. 두 값은 각각 `{ "status": "verified", "basis": "직접 읽은 근거에 따른 설명" }` 형태다. 원규격의 핵심 용도와 선택한 판매가의 완성 구성을 먼저 검토한다. 일반 침입 감시 기능이 수위·침수·화재 감시를 대신한다고 추정하지 않고, 표면판 가격을 프레임·레일 포함 완성 벽체로 확대하지 않으며, 단일 배낭 가격을 주배낭·공격배낭·보조낭·어깨낭 전체 세트와 비교하지 않는다. 미확인은 `unverified`, 필수 구성 누락은 `missing`으로 보존하면 본문 생성이 거절된다. 조사 기록을 통과시키려고 상태만 verified로 바꾸지 않는다. 코드는 연구자가 선언한 상태를 검사할 뿐 실제 기능의 동등성을 자동 판정하지 않는다.
+
+이 두 검토는 모든 보증·인증·미세 사양을 같게 만들라는 요구가 아니다. 핵심 용도와 완제품 범위를 확인한 대체품은 실제 재질·치수·등급 차이를 공개해 검토한다. 기존 가격의 시점 차이는 계속 배제 사유로 쓰지 않는다. 공식 preview가 통과해도 사양 적합성·가격 진위가 검증된 것은 아니다.
+
 전체 인덱스의 `local_delivery_count`는 중복 제거한 dlv_key별 dlv_lines 합이고 `local_quantity`는 실제 수량 합이다. `spend_priority_rank`로 총 납품금액을 먼저, 그다음 건수·수량·등재가를 본다. 담당 owner_slot은 보존한다. 순위 수치를 공식 점수의 C·Q로 대신하지 않는다. 범용 CLI 기본값과 현재 작업의 우선순위를 구별한다. 현재 고액 단계는 `score --min-saving 1000000000`과 `prioritize(..., release_deferred=False, priority_min="1000000000")`로 소액을 대기시킨다.
 
 - `dlv_key`는 납품 집계그룹 식별자이며 그 개수를 납품요구 건수로 읽지 않는다. `local_delivery_count`는 그룹별 `max(dlv_lines)`를 합한 납품라인 수, `local_delivery_group_count`는 고유 집계그룹 수다. 최종 고유 납품요구 건수는 공식 fact의 request_no로 다시 센다.

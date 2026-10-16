@@ -56,6 +56,25 @@ python -m savetax market-search --provider daiso --query 복사용지 --limit 5
 
 점수 본문용 입력 JSON은 `{item, offer, event}`다. `item`과 `event`는 공식 API 응답이며 `offer`에는 실제 확인한 `model`, `url`, `quote`, `unit_price`(정수 문자열), `observed_at`, `vat_included`, `shipping_included`, `price_verified: true`, `model_verified: true`를 넣는다. 이 확인값은 실제 상세·선택 옵션을 검토한 뒤에만 쓴다. 필수 비용을 더한 경우 `benchmark_unit_price_krw`와 비교 범위도 적는다.
 
+`comparison_kind: equivalent`는 원모델·실제 판매모델·사양 대응·출처·차이 외에 `comparison_assessment`가 필요하다. 핵심 용도와 완제품 구성을 실제 근거로 검토한 뒤 각각 기록한다.
+
+```json
+{
+  "comparison_assessment": {
+    "core_purpose": {
+      "status": "verified",
+      "basis": "두 제품 모두 40W 실내 조명용이며 사양 출처에서 용도를 확인했다."
+    },
+    "complete_product": {
+      "status": "verified",
+      "basis": "선택 가격은 컨버터와 본체를 포함하는 완성 등기구 1개다."
+    }
+  }
+}
+```
+
+확인되지 않았으면 `unverified`나 `missing`으로 보존하며 점수 본문을 만들지 않는다. 일반 CCTV 침입 감시를 수위·침수 감시로, 외벽 표면판을 프레임 포함 완성 벽체로, 배낭 하나를 여러 가방의 전체 세트로 바꾸어 계산하지 않기 위한 확인이다. 보증·모든 인증·미세 사양의 완전 일치를 추가 요구하지 않는다. 핵심 용도와 완성 구성이 확인되면 재질·치수·등급 차이를 공개한 대체 비교는 허용한다. 코드는 선언의 형식과 상태를 검사하므로 실제 근거를 읽는 조사자의 판단과 공식 최종 심사를 대신하지 않는다. 기존 대체품 입력도 새 본문 생성 전에 이 두 검토를 보완해야 한다.
+
 ```powershell
 python -m savetax build-score --input work/verified-offer.json --output work/score-body.json
 python -m savetax score --input work/score-body.json --receipt work/score-item.json --min-saving 1000000000
