@@ -946,5 +946,24 @@
     "retail_option_total_status": "백색 옵션을 선택해 화면에 결제금액42,350원이 표시되는 것을 확인했으나 상품수량 행은 나타나지 않았다. 배송·VAT 기준도 본문에서 확인하지 못했다.",
     "decision": "PLC 제어·전원·크기·공식식 단위의 구성 대응이 미완성이다. 판매 가격 차액을 점수나 확정 절감액으로 산정하지 않는다.",
     "submitted": false
+  },
+  "additional_desktop_discovery": {
+    "url": "https://savetax.now/search?type=product&q=%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%86%B1%EC%BB%B4%ED%93%A8%ED%84%B0&scope=flagged&sort=delivery_total",
+    "listing_count": 20,
+    "lookup_states": {
+      "available": 9,
+      "claimed": 10,
+      "on_hold": 1
+    },
+    "decision": "available 9개도 공식 총액이 약 475만~6,350만원으로 낮아 고액 후보 검토 중에는 제출을 보류한다. 검색 결과의 PC 가격을 대응되지 않은 원품에 적용하지 않는다.",
+    "submitted": false
+  },
+  "lift_beacon_review": {
+    "item_id": "25719389",
+    "retailer_url": "https://isafestark05.godomall.com/goods/goods_view.php?goodsNo=1000000007",
+    "observed": "실제 판매 상세는 가격문의·구매불가로 표시됐다.",
+    "benchmark_unit_price_krw": null,
+    "decision": "리프트경광등 외 3종의 전체 구성과 공개 실판매가가 없으므로 차액을 산정하지 않는다.",
+    "submitted": false
   }
 }

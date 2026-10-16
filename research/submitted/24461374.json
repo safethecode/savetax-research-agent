@@ -1,0 +1,106 @@
+{
+  "submission": {
+    "submission_id": "028942e0-06b4-48e8-8052-dc7716e1e8ff",
+    "claim_id": "bd196191-34b7-46c7-92cc-86a6f7320d0c",
+    "revision": 1,
+    "submission_state": "accepted",
+    "admitted_at": "2026-10-16T06:13:00.266Z",
+    "amount_krw": 348329350,
+    "verification_status": "not_started",
+    "lint_status": "pending",
+    "event_epoch": 1,
+    "ruleset_version": "rules-v1",
+    "public_path": "/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/028942e0-06b4-48e8-8052-dc7716e1e8ff",
+    "api_path": "/v1/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/028942e0-06b4-48e8-8052-dc7716e1e8ff",
+    "web_path": "#/submission/028942e0-06b4-48e8-8052-dc7716e1e8ff"
+  },
+  "body": {
+    "dataset_release_id": "release-live-20261012",
+    "ruleset_version": "rules-v1",
+    "canonical_product_id": "24461374",
+    "title": "VD-SD200과 4MP·42배 PTZ 카메라 구성품 취득가격 비교",
+    "claim": "공식 납품 사실 3건의 241대·831,691,000원과 제품 취득 비교 단가 2,005,650원을 대조하면 예상 차액은 348,329,350원이다. 원품 VD-SD200은 2MP·광학 40배·SNR 55dB이고, 판매품 DS-2DF8C442IXS-AELW는 4MP·42배·SNR 52dB 이상으로 SNR 정격이 다르다. 셔터 최고속도는 양쪽 1/30000초다. 제조사와 모델이 다르며 원품 현장설치도와 판매품 택배 공급의 범위도 다르다. 원품 제조사 자료실의 검색 결과에는 VD-SD200(TTA) 펌웨어가 표시되지만 인증번호와 계약 적용 여부는 확정하지 못했다. 대체품의 TTA 동등성 및 원품 시스템의 침수 감시 기능은 확인하지 않았다. 설치 인건비·공사·기존 관제 연동은 금액에 넣지 않았다. 원품의 카메라 단품과 비교하면서 대체품에는 폴 브래킷과 전원을 추가했다.",
+    "comparison_scope": "일반 팬틸트·줌 감시용 제품 취득가격 비교다. 카메라 1대, 폴 브래킷 1개, AC24V 3A 전원 1개, 판매처별 기본 배송과 부품가의 세금 예산을 포함한다. 원품의 현장 설치·공사·기존 관제 연동·보안인증 및 침수 감시 시스템 기능 전체를 대체하는 시공 완료가격은 아니다. 원품 VD-SD200, 대체품 DS-2DF8C442IXS-AELW. 차이·제한: 원품 VD-SD200은 2MP·광학 40배·SNR 55dB이고, 판매품 DS-2DF8C442IXS-AELW는 4MP·42배·SNR 52dB 이상으로 SNR 정격이 다르다. 셔터 최고속도는 양쪽 1/30000초다. 제조사와 모델이 다르며 원품 현장설치도와 판매품 택배 공급의 범위도 다르다. 원품 제조사 자료실의 검색 결과에는 VD-SD200(TTA) 펌웨어가 표시되지만 인증번호와 계약 적용 여부는 확정하지 못했다. 대체품의 TTA 동등성 및 원품 시스템의 침수 감시 기능은 확인하지 않았다. 설치 인건비·공사·기존 관제 연동은 금액에 넣지 않았다. 원품의 카메라 단품과 비교하면서 대체품에는 폴 브래킷과 전원을 추가했다.",
+    "reproduction_notes": "공식 fact별 floor(max(C-B×Q,0))를 합산. 각 라인 근거에 계약·납품요구·라인 번호를 기재. 가격 시점 차이는 사용자 지정 대회 조사 기준에서 제외한다. 사양 대응: 종류·용도: PTZ형 방범 카메라 → IP PTZ 카메라, 일반 팬틸트·줌 감시; 촬영 화소: 200만화소(2MP) → 2560×1440(4MP); 광학 줌: 40배 → 42배, 6~252mm; 최저 조도: 0lux → IR 사용 시0lux, IR 최대400m; 최고 셔터 속도: 1/30000초 → 1/30000초; 신호대잡음비: 55dB → ≥52dB — 정격 차이 공개; 장착·전원 취득 구성: 카메라 단품, 현장설치도 → 카메라+DS-1602ZJ Pole+에이파워 LAP-2430 AC24V3A, 설치 공사 미포함; 체결: 원품 기존 장착 구조를 재사용한다고 주장하지 않음 → 제조사 Quick Start Guide의 포함 G1½ 펜던트 어댑터 및 별도 폴 마운트 구성. 사양 출처: https://api.savetax.now/v1/items/24461374 https://api.savetax.now/v1/listings/002470148_1070000004 https://www.eyesonsol.com/33 https://itncctv.kr/web/upload/NNEditor/20250827/DS-2DF8C442IXS-AELW-2.jpg https://pro-av.hikvision.com/tr/products/IP-Products/PTZ-Cameras/Ultra-Series/ds-2df8c442ixs-aelw-t5-/ https://cdn.connectec.uk/Images/Products/CCTV/Cameras/hikvision/DS-2DF8C442IXS-AELW_Quick_Start_Guide.pdf https://www.hikvisionmall.co.kr/product/detail.html?product_no=132 https://www.hikvisionmall.co.kr/product/detail.html?product_no=424 합산: ITNCCTV 카메라1926200원(VAT포함)+별도하이크스토어DS-1602ZJ Pole35900원+에이파워LAP-2430 AC24V3A29600원+카메라배송4400원+두부품배송3000원=1999100원. 부품두개는VAT별도추가문구를확인하지못해공개가65500원에10%인6550원을세금예산으로더하고2005650원으로비교했다. 이는판매처가VAT별도라고확인한값이아니며추가예산이다. 카메라쇼핑몰100만원이상무료조건도있으나배송4400원을줄이지않았다. 부품은같은판매처합계20만원미만의기본배송3000원적용. 부품출처: https://www.hikvisionmall.co.kr/product/detail.html?product_no=132 https://www.hikvisionmall.co.kr/product/detail.html?product_no=424 . 설치설명서의포함G1½펜던트어댑터와폴마운트표준체결을확인했다. 판매브래킷도면451.3mm·30kg판과제조사2024동명350.8mm·10kg판차이는공개한다. 실제판매상세의판을계산에사용했고원품기존홀을그대로재사용한다고주장하지않는다.",
+    "lines": [
+      {
+        "fact_id": "dl:24461374:002470148_1:2424426263:7",
+        "benchmark_unit_price_krw": "2005650",
+        "comparison_basis_id": "basis:EA:vat_included",
+        "unit": "EA",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://itncctv.kr/product/detail.html?product_no=20295",
+            "quote": "엠스톤경기서부지사 ITNCCTV의 DS-2DF8C442IXS-AELW 판매 상세: 판매가 1,926,200원(부가세포함), 수량 1개 총액 1,926,200원. 필수 옵션 없이 BUY IT NOW가 표시됐다. 카드·쿠폰·포인트 할인은 차감하지 않았다. 브래킷·전원·배송 및 세금 예산을 추가한 비교 단가는 이 페이지의 카메라 표시가와 구별해 재현 방법에 계산했다.",
+            "observed_price_krw": "1926200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "카메라 원문1,926,200원은VAT포함·배송별도다. B2,005,650원은별도브래킷35,900·AC24V전원29,600·배송4,400+3,000·부품세금추가예산6,550원을더한값이다. 원품현장설치와보안인증을충족하는완성공사비가아닌일반PTZ제품취득비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002470148_1, 납품요구 2424426263, 라인 7. 공식 fact dl:24461374:002470148_1:2424426263:7, 수량 185, 비교금액 638435000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24461374:002470148_1:R26TB01702593:2",
+        "benchmark_unit_price_krw": "2005650",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://itncctv.kr/product/detail.html?product_no=20295",
+            "quote": "엠스톤경기서부지사 ITNCCTV의 DS-2DF8C442IXS-AELW 판매 상세: 판매가 1,926,200원(부가세포함), 수량 1개 총액 1,926,200원. 필수 옵션 없이 BUY IT NOW가 표시됐다. 카드·쿠폰·포인트 할인은 차감하지 않았다. 브래킷·전원·배송 및 세금 예산을 추가한 비교 단가는 이 페이지의 카메라 표시가와 구별해 재현 방법에 계산했다.",
+            "observed_price_krw": "1926200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "카메라 원문1,926,200원은VAT포함·배송별도다. B2,005,650원은별도브래킷35,900·AC24V전원29,600·배송4,400+3,000·부품세금추가예산6,550원을더한값이다. 원품현장설치와보안인증을충족하는완성공사비가아닌일반PTZ제품취득비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002470148_1, 납품요구 R26TB01702593, 라인 2. 공식 fact dl:24461374:002470148_1:R26TB01702593:2, 수량 2, 비교금액 6902000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24461374:002470148_1:R26TB01727414:3",
+        "benchmark_unit_price_krw": "2005650",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://itncctv.kr/product/detail.html?product_no=20295",
+            "quote": "엠스톤경기서부지사 ITNCCTV의 DS-2DF8C442IXS-AELW 판매 상세: 판매가 1,926,200원(부가세포함), 수량 1개 총액 1,926,200원. 필수 옵션 없이 BUY IT NOW가 표시됐다. 카드·쿠폰·포인트 할인은 차감하지 않았다. 브래킷·전원·배송 및 세금 예산을 추가한 비교 단가는 이 페이지의 카메라 표시가와 구별해 재현 방법에 계산했다.",
+            "observed_price_krw": "1926200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "카메라 원문1,926,200원은VAT포함·배송별도다. B2,005,650원은별도브래킷35,900·AC24V전원29,600·배송4,400+3,000·부품세금추가예산6,550원을더한값이다. 원품현장설치와보안인증을충족하는완성공사비가아닌일반PTZ제품취득비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002470148_1, 납품요구 R26TB01727414, 라인 3. 공식 fact dl:24461374:002470148_1:R26TB01727414:3, 수량 54, 비교금액 186354000원."
+          }
+        ]
+      }
+    ]
+  }
+}

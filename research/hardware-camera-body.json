@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-16T05:56:03.700328+00:00",
+  "updated_at_utc": "2026-10-16T06:17:55.347593+00:00",
   "availability_observed_at_utc": "2026-10-16T05:45:43.777865+00:00",
   "scope": "사용자 지시에 따라 원 카메라 브래킷 분야에서 카메라 본체·영상저장장치까지 전체 owner 슬롯 예외 확장. 신규 available의 3억원 이상 차액 가능 후보 세 모델 집중 검토.",
   "local_selected_count": 102,
@@ -7,15 +7,15 @@
   "deep_review_item_count": 3,
   "parallel_search_calls": 7,
   "submission_ready_count": 0,
-  "adopted_saving_krw": "0",
-  "public_references_count": 106,
+  "adopted_saving_krw": "348329350",
+  "public_references_count": 109,
   "items": [
     {
       "item_id": "24070988",
       "model": "OW-TP20362K",
       "availability_at_fetch": {
-        "state": "available",
-        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
       },
       "event_api_url": "https://hackathon.savetax.now/v1/events/current/items/24070988",
       "catalog_api_url": "https://api.savetax.now/v1/items/24070988",
@@ -162,7 +162,7 @@
           "line_no": "1"
         }
       ],
-      "research_status": "가격 원문 확인 / 직접 구매 상태·브래킷 구성 확인 대기",
+      "research_status": "최종 조회에서 claimed 전환 / 신규 접수 제외",
       "original_verified_core": {
         "form": "PTZ",
         "resolution_mp": 2,
@@ -190,7 +190,7 @@
         "public_price_krw": "1926200",
         "vat_basis": "판매처 상품 상세에 부가세포함 명시",
         "shipping_krw": null,
-        "purchase_state": "상세에 금액 및 바로구매/SOLD OUT 템플릿이 함께 있어 실제 구매 가능 상태는 직접 브라우저 검증 대기",
+        "purchase_state": "부모의 실제 브라우저에서 수량1 총액1,926,200원, 필수 옵션 없음, 바로구매 표시를 확인했다.",
         "verified_specs": {
           "sensor": "1/1.8 progressive CMOS",
           "resolution_mp": 4,
@@ -209,11 +209,13 @@
           "https://www.hikvision.com/content/dam/hikvision/uk/marketing-portal/catalogues/Core-Solution_H2-2022.pdf"
         ],
         "differences": "해상도 4MP와 광학 42배는 원품 2MP·36배보다 크지만 이것만으로 전체 동등성을 주장하지 않는다. 대체품 최고 셔터속도 1/30000s는 원품 1/100000s와 다르며, 카메라 크기·무게·전원·브래킷도 달라 실제 포함 부품을 맞춰야 한다. 원품·대체품의 TTA 대응은 아직 확인하지 못했다.",
-        "comparison_unit_cost_krw": null
+        "comparison_unit_cost_krw": null,
+        "native_verification_file": "work/browser/jev-itncctv-20295.json"
       },
       "arithmetic_gap_before_mounting_and_shipping_krw": "495385000",
       "arithmetic_gap_is_adopted_saving": false,
-      "next_action": "실제 활성 구매·배송·동봉품 확인 후, 원품에 포함된 브래킷을 대체하는 실제 마운트 가격과 전원 구성을 합산한다. 정확한 원품 보안인증과 특수 기능도 비교 범위에 명시한다."
+      "next_action": "이미 등록된 물품의 신규 중복제출은 하지 않는다. 확보한 실제 판매가·브래킷·전원 근거는 다른 미등록 PTZ 모델에만 재사용한다.",
+      "availability_observed_at_utc": "2026-10-16T06:08:43.437686+00:00"
     },
     {
       "item_id": "25055159",
@@ -967,6 +969,68 @@
       ],
       "comparison_unit_cost_krw": null,
       "next_action": "일반 녹화 목적의 제한 비교인지 원품 전체의 대체인지 구분한다. 저장용량·동시재생·TTA 요구를 원문에서 확인한 범위에만 적용하고 가격 차액을 확정 절감액으로 집계하지 않는다."
+    },
+    {
+      "item_id": "24461374",
+      "model": "VD-SD200",
+      "research_status": "접수 완료 / lint 비동기 검사 결과 미확인",
+      "submission_id": "028942e0-06b4-48e8-8052-dc7716e1e8ff",
+      "submission_state": "submitted",
+      "quantity": "241",
+      "comparable_amount_krw": "831691000",
+      "fact_total": 3,
+      "scorable_facts": 3,
+      "unique_requests": 3,
+      "benchmark_unit_price_krw": "2005650",
+      "preview_score_amount_krw": "348329350",
+      "lint_status": "pending_or_not_observed",
+      "event_api_url": "https://hackathon.savetax.now/v1/events/current/items/24461374",
+      "catalog_api_url": "https://api.savetax.now/v1/items/24461374",
+      "source_release": "r20261011T012137",
+      "references": [
+        {
+          "fact_id": "dl:24461374:002470148_1:2424426263:7",
+          "listing_id": "002470148_1070000004",
+          "contract_no": "002470148_1",
+          "request_no": "2424426263",
+          "line_no": "7"
+        },
+        {
+          "fact_id": "dl:24461374:002470148_1:R26TB01702593:2",
+          "listing_id": "002470148_1070000004",
+          "contract_no": "002470148_1",
+          "request_no": "R26TB01702593",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:24461374:002470148_1:R26TB01727414:3",
+          "listing_id": "002470148_1070000004",
+          "contract_no": "002470148_1",
+          "request_no": "R26TB01727414",
+          "line_no": "3"
+        }
+      ],
+      "actual_alternative_models": [
+        "DS-2DF8C442IXS-AELW",
+        "DS-1602ZJ Pole",
+        "LAP-2430 AC24V3A"
+      ],
+      "price_source_urls": [
+        "https://itncctv.kr/product/detail.html?product_no=20295",
+        "https://www.hikvisionmall.co.kr/product/detail.html?product_no=132",
+        "https://www.hikvisionmall.co.kr/product/detail.html?product_no=424"
+      ],
+      "cost_breakdown_krw": {
+        "camera": "1926200",
+        "pole_bracket": "35900",
+        "power_supply": "29600",
+        "camera_shipping_conservative": "4400",
+        "component_shipping": "3000",
+        "extra_component_tax_budget": "6550"
+      },
+      "tax_basis": "카메라 부가세포함 명시. 두 부품 합65,500원의 VAT 명시문장 미확인 때문에10%6,550원 추가 세금예산을 보수적으로 가산했다.",
+      "superseded_provisional_benchmark_unit_price_krw": "1999100",
+      "differences": "일반 팬틸트 감시용 제품 취득 비교. 원품2MP·40배·SNR55dB와 대체품4MP·42배·SNR≥52dB의 정격 차이를 명시했다. 원품 현장설치와 보안인증·침수 감시 시스템 전체의 동등성은 주장하지 않는다."
     }
   ],
   "closed_prior_paths": {
@@ -978,5 +1042,8 @@
     "report": "research/hardware-pmcfb.json",
     "reference_count": 279
   },
-  "posting": "실 API POST를 호출하지 않았다. 최종 제출은 부모가 현재 guide를 다시 읽고 실제 판매가·범위를 검토한 뒤 담당한다."
+  "posting": "실 API POST를 호출하지 않았다. 최종 제출은 부모가 현재 guide를 다시 읽고 실제 판매가·범위를 검토한 뒤 담당한다.",
+  "accepted_submission_count": 1,
+  "accepted_preview_score_amount_krw": "348329350",
+  "score_status_note": "접수 및 공식 preview 산정액이며 최종 lint 결과와 실제 예산 지급 변화 확인을 뜻하지 않는다."
 }

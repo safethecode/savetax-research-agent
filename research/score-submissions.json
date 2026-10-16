@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-16T06:03:38.063000+00:00",
+  "updated_at": "2026-10-16T06:18:06.730603+00:00",
   "target_krw": "60000000000",
-  "accepted_submission_count": 37,
-  "accepted_amount_krw": "5566564669",
+  "accepted_submission_count": 38,
+  "accepted_amount_krw": "5914894019",
   "review_approved_amount_krw": null,
   "realized_savings_krw": null,
   "status_note": "접수 예상액이다. 자동 점검 상태는 각 영수증 관측 시점이며 최종 인정·실제 집행 절감액과 다르다.",
@@ -15070,6 +15070,66 @@
         }
       ],
       "public_url": "https://hackathon.savetax.now/#/submission/2f077bc7-12b9-4ac5-b491-9862cb954a25"
+    },
+    {
+      "submission_id": "028942e0-06b4-48e8-8052-dc7716e1e8ff",
+      "item_id": "24461374",
+      "title": "VD-SD200과 4MP·42배 PTZ 카메라 구성품 취득가격 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "348329350",
+      "lint_status": "pending",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://itncctv.kr/product/detail.html?product_no=20295",
+      "displayed_price_krw": "1926200",
+      "displayed_price_unit": "대",
+      "displayed_price_tax_basis": "vat_included",
+      "benchmark_unit_price_krw": "2005650",
+      "benchmark_unit": "EA/대 (원 fact 보존)",
+      "quantity": "241",
+      "comparable_amount_krw": "831691000",
+      "fact_count": 3,
+      "request_count": 3,
+      "claim": "공식 납품 사실 3건의 241대·831,691,000원과 제품 취득 비교 단가 2,005,650원을 대조하면 예상 차액은 348,329,350원이다. 원품 VD-SD200은 2MP·광학 40배·SNR 55dB이고, 판매품 DS-2DF8C442IXS-AELW는 4MP·42배·SNR 52dB 이상으로 SNR 정격이 다르다. 셔터 최고속도는 양쪽 1/30000초다. 제조사와 모델이 다르며 원품 현장설치도와 판매품 택배 공급의 범위도 다르다. 원품 제조사 자료실의 검색 결과에는 VD-SD200(TTA) 펌웨어가 표시되지만 인증번호와 계약 적용 여부는 확정하지 못했다. 대체품의 TTA 동등성 및 원품 시스템의 침수 감시 기능은 확인하지 않았다. 설치 인건비·공사·기존 관제 연동은 금액에 넣지 않았다. 원품의 카메라 단품과 비교하면서 대체품에는 폴 브래킷과 전원을 추가했다.",
+      "comparison_scope": "일반 팬틸트·줌 감시용 제품 취득가격 비교다. 카메라 1대, 폴 브래킷 1개, AC24V 3A 전원 1개, 판매처별 기본 배송과 부품가의 세금 예산을 포함한다. 원품의 현장 설치·공사·기존 관제 연동·보안인증 및 침수 감시 시스템 기능 전체를 대체하는 시공 완료가격은 아니다. 원품 VD-SD200, 대체품 DS-2DF8C442IXS-AELW. 차이·제한: 원품 VD-SD200은 2MP·광학 40배·SNR 55dB이고, 판매품 DS-2DF8C442IXS-AELW는 4MP·42배·SNR 52dB 이상으로 SNR 정격이 다르다. 셔터 최고속도는 양쪽 1/30000초다. 제조사와 모델이 다르며 원품 현장설치도와 판매품 택배 공급의 범위도 다르다. 원품 제조사 자료실의 검색 결과에는 VD-SD200(TTA) 펌웨어가 표시되지만 인증번호와 계약 적용 여부는 확정하지 못했다. 대체품의 TTA 동등성 및 원품 시스템의 침수 감시 기능은 확인하지 않았다. 설치 인건비·공사·기존 관제 연동은 금액에 넣지 않았다. 원품의 카메라 단품과 비교하면서 대체품에는 폴 브래킷과 전원을 추가했다.",
+      "references": [
+        {
+          "fact_id": "dl:24461374:002470148_1:2424426263:7",
+          "contract_no": "002470148_1",
+          "request_no": "2424426263",
+          "line_no": "7",
+          "quantity": "185",
+          "comparable_amount_krw": "638435000",
+          "unit": "EA",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:EA:vat_included"
+        },
+        {
+          "fact_id": "dl:24461374:002470148_1:R26TB01702593:2",
+          "contract_no": "002470148_1",
+          "request_no": "R26TB01702593",
+          "line_no": "2",
+          "quantity": "2",
+          "comparable_amount_krw": "6902000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:대:vat_included"
+        },
+        {
+          "fact_id": "dl:24461374:002470148_1:R26TB01727414:3",
+          "contract_no": "002470148_1",
+          "request_no": "R26TB01727414",
+          "line_no": "3",
+          "quantity": "54",
+          "comparable_amount_krw": "186354000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:대:vat_included"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/028942e0-06b4-48e8-8052-dc7716e1e8ff"
     }
   ]
 }
