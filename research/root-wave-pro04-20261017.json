@@ -27,18 +27,20 @@
     "amount_kind": "provisional",
     "current_revision": 1,
     "held": false,
-    "lint_status": "pending",
+    "lint_status": "unreadable",
     "rejected": false,
     "submission_state": "accepted",
     "verification_status": "not_started",
     "visibility_state": "public",
     "withdrawn_amount_krw": 0,
-    "lint": {
-      "checked_at": null,
-      "checked_revision": null,
+    "lint_summary": {
+      "status": "unreadable",
+      "checked_at": "2026-10-16T17:22:59.219Z",
       "hints": [],
-      "lines": [],
-      "status": "pending"
+      "lines_count": 852,
+      "distinct_reasons": [
+        "판정기 오류로 판단 유보 — 근거 파일의 문제가 아니며 사람 검토 대상이다. 재시도(4회)도 실패했다. 운영자가 확인하며, 수정(revision)을 올리면 다시 검사된다"
+      ]
     }
   },
   "retail_observation": {
@@ -49848,5 +49850,6 @@
       "bytes": 1745347,
       "sha256": "09a49b74fd965e0010ced206ac59d33ac28ae87b755063b7a5ad30567a508ffd"
     }
-  ]
+  ],
+  "retail_native_observed_at_utc": "2026-10-16T17:07:16.891361+00:00"
 }
