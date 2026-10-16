@@ -1,7 +1,7 @@
 {
   "observed_at": "2026-10-16T09:12:10.936216+00:00",
   "item_id": "25570042",
-  "research_status": "2026-10-17 재확인 대기. on_hold 해제와 원틀600/원도어580 대 대안 발판590의 설치·성능 차이를 부모가 검토한다.",
+  "research_status": "산식은 검산됨. 핵심 규격·설치부·하중 대응이 미입증되어 검증 완료 또는 제출 확정 후보로 채택하지 않음.",
   "parent_review_ready": true,
   "submission_ready": false,
   "today_date": "2026-10-16",
@@ -1769,5 +1769,34 @@
     "work/concrete-focus/hanbyeol-manhole-catalog-text.json",
     "work/concrete-focus/event-25570042.json",
     "work/concrete-focus/listing-R26TA01441741000000001.json"
-  ]
+  ],
+  "parent_accuracy_audit": {
+    "reviewed_at_utc": "2026-10-16T10:19:16.909425+00:00",
+    "trigger": "사용자가 122.51억 원의 정확성을 질문해 산식과 실제 제품 구성을 재검토했다.",
+    "arithmetic_verified": true,
+    "fact_count": 55,
+    "quantity": "17964",
+    "original_unit_price_krw": "891000",
+    "retail_price_ex_vat_krw": "190000",
+    "retail_price_vat_included_krw": "209000",
+    "arithmetic_difference_krw": "12251448000",
+    "retail_source_rechecked": "https://web.joongna.com/product/230406946",
+    "retail_recheck_result": "현재 판매글의 190,000원·부가세 별도·5개 이상 무료배송·새상품/구성품 전체 포함 표시를 다시 읽었다.",
+    "retail_images_reviewed": [
+      "https://img2.joongna.com/media/original/2026/07/07/1783432255166Y0c_oDraq.jpg?impolicy=resize",
+      "https://img2.joongna.com/media/original/2026/07/07/17834322552770fo_7ExFM.jpg?impolicy=resize",
+      "https://img2.joongna.com/media/original/2026/07/07/1783432255377uMc_rsBqh.jpg?impolicy=resize",
+      "https://img2.joongna.com/media/original/2026/07/07/1783432255465Gkn_kgKAc.jpg?impolicy=resize"
+    ],
+    "comparability_verified": false,
+    "unresolved_core_evidence": [
+      "원품 고정틀600mm·도어580mm·판 두께5mm와 대안 발판590mm의 설치부·지지폭 대응을 입증하지 못했다.",
+      "원품은 고정틀·힌지 도어·슬라이딩 걸쇠·지지대 구조이고 대안은 앙카에 거치해 회전 잠그는 방식이다. 대안의 판 두께와 원품 요구 하중·피로시험 대응은 미확인이다.",
+      "원품 현장설치도와 대안 시공 별도 조건이 다르다. 계산은 자재 취득가격의 차이이며 설치까지 끝낸 총비용 차이는 아니다."
+    ],
+    "decision": "검증 완료 후보와 제출 확정 금액에서 제외한다. 실제 비교 범위와 성능 근거를 보완할 연구 단서로 보존한다.",
+    "availability_requeried": false,
+    "submission_or_revision_POST_sent": false,
+    "note": "122.51억은 산술 시나리오다. 등록 제한 해제나 일일 한도 복구만으로 제출 준비 완료가 되지는 않는다."
+  }
 }
