@@ -1,5 +1,5 @@
 """공식 fact와 실측 가격으로 점수 본문을 만들고 preview 뒤 제출한다."""
-from datetime import datetime
+from datetime import datetime, timezone
 from decimal import Decimal, ROUND_CEILING
 import json
 import re
@@ -7,7 +7,7 @@ import re
 import requests
 
 from .client import SaveTaxClient, SaveTaxError, TOKEN_PATTERN, _redact
-from .evidence import _source_valid
+from .evidence import _source_valid, _purchase_availability_reasons
 
 BASE = 'https://hackathon.savetax.now/v1/events/current'
 
@@ -27,6 +27,9 @@ def build_submission(item, offer, event):
     model_check = 'retail_model_verified' if equivalent else 'model_verified'
     if offer.get('price_verified') is not True or offer.get(model_check) is not True:
         raise ValueError('실측 판매가와 실제 판매 모델 확인이 필요합니다')
+    availability_reasons = _purchase_availability_reasons(offer, datetime.now(timezone.utc))
+    if availability_reasons:
+        raise ValueError('선택한 판매 경로의 실제 구매 가능 근거가 필요합니다: ' + ', '.join(availability_reasons))
     model = canonical_model(item.get('snapshot',{}).get('model',''))
     retail_model = canonical_model(offer.get('model',''))
     if not model or not retail_model:
@@ -129,6 +132,10 @@ def build_submission(item, offer, event):
             + '. 비교 검토: ' + '; '.join(assessment_notes))
         for line in lines:
             line['price_evidence'][0]['note'] += f' 실제 판매모델 {retail_model}; 원품 {model}과 다른 대체품 비교.'
+    if 'purchase_availability' in offer:
+        review = offer['purchase_availability']
+        body['reproduction_notes'] += (f' 판매 경로 {offer["purchase_channel"]}: '
+            f'{review["quote"].strip()} (출처 {review["url"]}, 관측 {review["observed_at"]}).')
     for field, limit in (('title',200),('claim',2000),('comparison_scope',1000),('reproduction_notes',4000)):
         if not isinstance(body[field],str) or not body[field].strip() or len(body[field]) > limit:
             raise ValueError(f'{field}는 비어 있지 않은 {limit}자 이하 문자열이어야 합니다. 근거를 자르지 말고 요약·분리하세요')

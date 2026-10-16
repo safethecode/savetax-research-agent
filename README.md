@@ -77,6 +77,24 @@ python -m savetax market-search --provider daiso --query 복사용지 --limit 5
 
 구매 포장 때문에 납품 건마다 비용이 달라지면 `offer.benchmark_unit_price_by_fact`에 실제 `scorable` fact_id별 비교 단가를 지정한다. 지정하지 않은 행은 공통 단가를 유지한다. 예를 들어 59,840원인 패널 한 장의 유효면적이 2㎡인데 한 fact에 3㎡가 필요하면, 두 장 119,680원을 구입한 뒤 3㎡로 나눈 단가를 소수 6자리에서 올려 `39893.333334`원/㎡로 기록한다. 다른 납품 건의 남는 면적과 합쳐 구매 장수를 줄이지 않는다. 판매 페이지의 관측가는 계속 한 장 전체의 59,840원이다. `pack_quantity: 2`는 공식 비교 단위 2㎡를 뜻하며 물리 패널 2장이라는 뜻이 아니다. 실제 장수·남는 면적·원문 단위는 조사 근거에 따로 보존한다. 개별 단가는 포장 환산 관측가보다 낮출 수 없으며, 모르는 fact ID나 6자리를 넘는 소수는 거절한다.
 
+판매 경로별 상태를 조사했으면 `offer`에 다음 두 필드를 함께 보존한다. 다이소1072759에서 MCP는 재고 있음으로 반환했지만 실제 택배는 품절이었던 사례를 반영했다.
+
+```json
+{
+  "purchase_channel": "parcel_delivery",
+  "purchase_availability": {
+    "channel": "parcel_delivery",
+    "status": "available",
+    "source_kind": "retail_page",
+    "url": "https://shop.example/item",
+    "quote": "택배배송 가능, 3만원 이상 무료배송",
+    "observed_at": "2026-10-16"
+  }
+}
+```
+
+URL은 해당 `offer.url`과 같아야 하며 채널도 일치해야 한다. `unavailable`·`unverified`, 다른 채널, MCP 검색만을 출처로 쓴 기록, 잘못된 관측일·인용은 본문 생성과 가격 평가에서 보류한다. 유효한 판매 경로 근거는 재현 설명에 남는다. 두 필드를 생략한 기존 입력은 기존의 수동 가격·모델 검토 기준을 따르며, 새 필드는 현재 대량 재고나 납기 확약을 요구하지 않는다. 코드는 기록의 형식과 상태를 검사할 뿐 인용의 진실성이나 실제 주문 가능성을 자동 검증하지 않는다.
+
 ```powershell
 python -m savetax build-score --input work/verified-offer.json --output work/score-body.json
 python -m savetax score --input work/score-body.json --receipt work/score-item.json --min-saving 1000000000

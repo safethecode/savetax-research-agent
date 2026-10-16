@@ -92,6 +92,31 @@ def _base_result():
             "caveats": [_CAVEAT], "target_krw": TARGET_KRW}
 
 
+def _purchase_availability_reasons(offer, now):
+    """Respect a channel-specific retail review without inferring bulk stock."""
+    if 'purchase_channel' not in offer and 'purchase_availability' not in offer:
+        return []
+    channel = offer.get('purchase_channel')
+    review = offer.get('purchase_availability')
+    if (not isinstance(channel, str) or not channel.strip() or len(channel) > 80
+            or not isinstance(review, dict)):
+        return ['purchase_channel_review_required']
+    reasons = []
+    if review.get('channel') != channel:
+        reasons.append('purchase_channel_mismatch')
+    if review.get('status') != 'available':
+        reasons.append('purchase_channel_unavailable_or_unverified')
+    if (review.get('source_kind') != 'retail_page'
+            or not _source_valid(review.get('url')) or review.get('url') != offer.get('url')):
+        reasons.append('purchase_channel_retail_page_required')
+    quote = review.get('quote')
+    if not isinstance(quote, str) or not quote.strip() or len(quote) > 2000:
+        reasons.append('purchase_channel_quote_required')
+    if not _observation_valid(review.get('observed_at'), now):
+        reasons.append('purchase_channel_observation_invalid')
+    return reasons
+
+
 def _fact_values(fact):
     reasons = []
     for key in ("item_id", "model", "unit"):
@@ -119,6 +144,7 @@ def _offer_value(fact, offer, quantity, now):
     reasons = []
     if not isinstance(offer, dict):
         return None, ["offer_not_an_object"]
+    reasons.extend(_purchase_availability_reasons(offer, now))
     if not _source_valid(offer.get("url")):
         reasons.append("source_https_public_url_required")
     quote = offer.get("quote")
