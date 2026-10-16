@@ -3,6 +3,7 @@ from contextlib import contextmanager
 from datetime import datetime, timezone
 import json
 import os
+import re
 from pathlib import Path
 import shutil
 import subprocess
@@ -52,6 +53,24 @@ class BrowserRuntime:
             pass
         return None
 
+    def _page_targets(self, env):
+        endpoint = env.get('BU_CDP_URL','')
+        if not re.fullmatch(r'http://127\.0\.0\.1:[0-9]{1,5}',endpoint):
+            raise RuntimeError('작업 전용 Chrome CDP 주소를 확인할 수 없습니다')
+        with build_opener(ProxyHandler({})).open(endpoint+'/json/list',timeout=2) as response:
+            rows = json.load(response)
+        return {row['id'] for row in rows if row.get('type') == 'page'
+                and re.fullmatch(r'[A-Fa-f0-9]{32}',row.get('id',''))}
+
+    def _cleanup_new_tabs(self, env, before):
+        targets = self._page_targets(env)-before
+        if targets:
+            code = '\n'.join(f'cdp("Target.closeTarget", targetId={target!r})' for target in sorted(targets))
+            result = subprocess.run([str(self.cli)],input=code,env=env,cwd=self.root,
+                capture_output=True,text=True,encoding='utf-8',timeout=8)
+            if result.returncode:
+                raise RuntimeError('작업 임시 탭 정리 실패; 기존 탭은 유지했습니다')
+
     def prepare_env(self, start=False):
         env = self._env()
         endpoint = self._endpoint()
@@ -66,7 +85,8 @@ class BrowserRuntime:
             profile.mkdir(parents=True, exist_ok=True)
             child = subprocess.Popen([chrome, '--headless=new', '--no-first-run', '--no-default-browser-check',
                 '--user-data-dir='+str(profile), '--remote-debugging-port=0', 'about:blank'],
-                stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+                stdin=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+                env={k:v for k,v in env.items() if not k.endswith('_API_KEY')},
                 creationflags=getattr(subprocess, 'CREATE_NO_WINDOW', 0))
             (self.work/'browser-chrome-process.json').write_text(json.dumps({'pid':child.pid,'profile':str(profile)}), encoding='utf-8')
             for _ in range(40):
@@ -114,12 +134,17 @@ class BrowserRuntime:
             raise RuntimeError('먼저 requirements-browser.txt를 work/browser-runtime에 설치하세요')
         with self._operation():
             env = self.prepare_env(start=True)
+            before = self._page_targets(env)
             command = [str(self.python), '-c', code] if model else [str(self.cli)]
             try:
-                result = subprocess.run(command, input=None if model else code, env=env, cwd=self.root,
-                    capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=55)
-            except subprocess.TimeoutExpired:
-                raise RuntimeError('브라우저 작업 55초 제한 초과; 키와 원문 오류는 출력하지 않습니다') from None
+                try:
+                    result = subprocess.run(command, input=None if model else code, env=env, cwd=self.root,
+                        capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=55)
+                except subprocess.TimeoutExpired:
+                    raise RuntimeError('브라우저 작업 55초 제한 초과; 키와 원문 오류는 출력하지 않습니다') from None
+            finally:
+                # 전용 프로필·배타 작업 안에서 생긴 탭만 정리한다. 강제 종료에도 실행된다.
+                self._cleanup_new_tabs(env,before)
             if result.returncode:
                 raise RuntimeError(f'브라우저 작업 실패(exit={result.returncode}); 외부 오류 원문은 출력하지 않습니다')
             try:

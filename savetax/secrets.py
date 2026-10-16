@@ -1,4 +1,5 @@
 """사용자가 제공한 키를 메모리에서만 환경변수로 읽는다."""
+from contextlib import contextmanager
 import os
 import re
 from pathlib import Path
@@ -40,6 +41,24 @@ def environment(path='.env.txt'):
         if not result.get(key):
             result[key] = value
     return result
+
+
+@contextmanager
+def activated_environment(path='.env.txt'):
+    """API 클라이언트 실행 동안 환경변수를 채우고 종료·오류 때 복원한다."""
+    previous = {}
+    for key, value in load_env_file(path).items():
+        if not os.environ.get(key):
+            previous[key] = os.environ.get(key)
+            os.environ[key] = value
+    try:
+        yield
+    finally:
+        for key, value in previous.items():
+            if value is None:
+                os.environ.pop(key, None)
+            else:
+                os.environ[key] = value
 
 
 def redact_keys(value, env):

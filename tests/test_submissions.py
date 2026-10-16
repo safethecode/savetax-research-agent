@@ -26,6 +26,26 @@ class ScoreTests(unittest.TestCase):
             self.assertIn(value,text)
         self.assertEqual(line['benchmark_unit_price_krw'],'100000')
 
+    def test_pack_keeps_displayed_price_and_normalizes_benchmark(self):
+        offer = {**self.offer,'unit_price':'18000','pack_quantity':5,'pack_quantity_verified':True,
+                 'quote':'ABC 5개입 판매가 18000원 부가세 포함'}
+        body = build_submission(self.item,offer,self.event)
+        line = body['lines'][0]
+        self.assertEqual(line['benchmark_unit_price_krw'],'3600')
+        self.assertEqual(line['price_evidence'][0]['observed_price_krw'],'18000')
+        self.assertIn('5',body['comparison_scope'])
+
+    def test_unverified_pack_and_benchmark_below_normalized_price_are_rejected(self):
+        for extra in ({'pack_quantity':5},{'pack_quantity':True},
+                      {'pack_quantity':5,'pack_quantity_verified':True,'benchmark_unit_price_krw':'1'}):
+            with self.assertRaises(ValueError):
+                build_submission(self.item,{**self.offer,**extra},self.event)
+
+    def test_fractional_pack_unit_rounds_up_instead_of_overstating_savings(self):
+        body = build_submission(self.item,{**self.offer,'unit_price':'11210',
+            'pack_quantity':3,'pack_quantity_verified':True},self.event)
+        self.assertEqual(body['lines'][0]['benchmark_unit_price_krw'],'3736.666667')
+
     def test_unverified_model_or_claimed_item_cannot_build_score(self):
         for item, offer in (({**self.item,'availability':{'state':'claimed'}},self.offer),
                             (self.item,{**self.offer,'model_verified':False}),

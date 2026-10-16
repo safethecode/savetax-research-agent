@@ -326,8 +326,9 @@ def main(argv=None):
                 print('브라우저 조사 결과 저장: '+str(args.output))
         elif args.command == 'parallel-search':
             from .parallel import ParallelClient
-            from .secrets import environment
-            result = ParallelClient(api_key=environment().get('PARALLEL_API_KEY')).search(args.query,max_results=args.limit)
+            from .secrets import activated_environment
+            with activated_environment():
+                result = ParallelClient().search(args.query,max_results=args.limit)
             write_json(args.output,result)
             print('Parallel 검색 결과 저장: '+str(args.output))
         elif args.command == 'build-score':

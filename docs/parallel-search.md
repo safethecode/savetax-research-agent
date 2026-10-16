@@ -2,7 +2,7 @@
 
 2026-10-16에 공식 [Search API 참조](https://docs.parallel.ai/api-reference/search/search)와 [Quickstart](https://docs.parallel.ai/search/search-quickstart)를 확인했다. 새 연결은 `POST https://api.parallel.ai/v1/search`를 사용한다. `search_queries` 배열은 필수이고 `objective`는 선택이다. 인증은 `x-api-key` 헤더다. Chat/Responses, Task, Extract API는 이 모듈에 포함하지 않는다.
 
-`ParallelClient(api_key=None, timeout=30)`는 명시한 키가 없으면 `PARALLEL_API_KEY` 환경변수만 읽는다. `.env.txt` 파일을 자동으로 읽거나 키를 출력하지 않는다. 공통 비밀 로더로 읽을 때도 Parallel 키 하나만 사용한다.
+`ParallelClient(api_key=None, timeout=30)`는 명시한 키가 없으면 `PARALLEL_API_KEY` 환경변수만 읽는다. 클라이언트 자체는 `.env.txt`를 읽거나 키를 출력하지 않는다. `parallel-search` CLI는 공통 `activated_environment`로 실행 동안 환경변수를 채우고 종료·오류 시 복원한다. API 헤더에는 Parallel 키 하나만 사용한다.
 
 ```python
 import os
