@@ -82,6 +82,8 @@ description: Use when investigating SaveTax procurement price candidates, checki
 
 이 두 검토는 모든 보증·인증·미세 사양을 같게 만들라는 요구가 아니다. 핵심 용도와 완제품 범위를 확인한 대체품은 실제 재질·치수·등급 차이를 공개해 검토한다. 기존 가격의 시점 차이는 계속 배제 사유로 쓰지 않는다. 공식 preview가 통과해도 사양 적합성·가격 진위가 검증된 것은 아니다.
 
+물리 포장과 공식 비교 단위를 나눠 읽는다. 유효폭1m·길이2m 패널1장은 공식 비교 단위2㎡이며, `pack_quantity: 2`가 물리 패널2장이라는 뜻은 아니다. 최소 판매 단위로 생기는 잔여 면적·팩의 남는 개수는 fact마다 구입 수량을 올림해 비용에 포함한다. 서로 다른 납품요구의 수량을 합쳐 잔여량을 없애지 않는다. `benchmark_unit_price_by_fact`에 실제 scorable fact_id별 비용/수량을 소수6자리에서 올린 단가를 넣으면 본문이 각 행에 그 값을 보존한다. 미지정 행은 공통 B를 쓰며 관측가는 원래 판매 포장 전체 가격으로 유지한다. 개별 B와 계산표의 장수·잔여량·관련 번호를 독립 검산한 뒤 preview한다.
+
 전체 인덱스의 `local_delivery_count`는 중복 제거한 dlv_key별 dlv_lines 합이고 `local_quantity`는 실제 수량 합이다. `spend_priority_rank`로 총 납품금액을 먼저, 그다음 건수·수량·등재가를 본다. 담당 owner_slot은 보존한다. 순위 수치를 공식 점수의 C·Q로 대신하지 않는다. 범용 CLI 기본값과 현재 작업의 우선순위를 구별한다. 현재 고액 단계는 `score --min-saving 1000000000`과 `prioritize(..., release_deferred=False, priority_min="1000000000")`로 소액을 대기시킨다.
 
 - `dlv_key`는 납품 집계그룹 식별자이며 그 개수를 납품요구 건수로 읽지 않는다. `local_delivery_count`는 그룹별 `max(dlv_lines)`를 합한 납품라인 수, `local_delivery_group_count`는 고유 집계그룹 수다. 최종 고유 납품요구 건수는 공식 fact의 request_no로 다시 센다.

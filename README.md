@@ -75,6 +75,8 @@ python -m savetax market-search --provider daiso --query 복사용지 --limit 5
 
 확인되지 않았으면 `unverified`나 `missing`으로 보존하며 점수 본문을 만들지 않는다. 일반 CCTV 침입 감시를 수위·침수 감시로, 외벽 표면판을 프레임 포함 완성 벽체로, 배낭 하나를 여러 가방의 전체 세트로 바꾸어 계산하지 않기 위한 확인이다. 보증·모든 인증·미세 사양의 완전 일치를 추가 요구하지 않는다. 핵심 용도와 완성 구성이 확인되면 재질·치수·등급 차이를 공개한 대체 비교는 허용한다. 코드는 선언의 형식과 상태를 검사하므로 실제 근거를 읽는 조사자의 판단과 공식 최종 심사를 대신하지 않는다. 기존 대체품 입력도 새 본문 생성 전에 이 두 검토를 보완해야 한다.
 
+구매 포장 때문에 납품 건마다 비용이 달라지면 `offer.benchmark_unit_price_by_fact`에 실제 `scorable` fact_id별 비교 단가를 지정한다. 지정하지 않은 행은 공통 단가를 유지한다. 예를 들어 59,840원인 패널 한 장의 유효면적이 2㎡인데 한 fact에 3㎡가 필요하면, 두 장 119,680원을 구입한 뒤 3㎡로 나눈 단가를 소수 6자리에서 올려 `39893.333334`원/㎡로 기록한다. 다른 납품 건의 남는 면적과 합쳐 구매 장수를 줄이지 않는다. 판매 페이지의 관측가는 계속 한 장 전체의 59,840원이다. `pack_quantity: 2`는 공식 비교 단위 2㎡를 뜻하며 물리 패널 2장이라는 뜻이 아니다. 실제 장수·남는 면적·원문 단위는 조사 근거에 따로 보존한다. 개별 단가는 포장 환산 관측가보다 낮출 수 없으며, 모르는 fact ID나 6자리를 넘는 소수는 거절한다.
+
 ```powershell
 python -m savetax build-score --input work/verified-offer.json --output work/score-body.json
 python -m savetax score --input work/score-body.json --receipt work/score-item.json --min-saving 1000000000

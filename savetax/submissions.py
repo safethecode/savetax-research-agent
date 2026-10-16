@@ -72,6 +72,15 @@ def build_submission(item, offer, event):
     benchmark = str(offer.get('benchmark_unit_price_krw',normalized))
     if not re.fullmatch(r'[0-9]+(?:\.[0-9]{1,6})?',benchmark) or Decimal(benchmark) < unit_price:
         raise ValueError('비교 단가는 포장 수량으로 환산한 관측가 이상이어야 합니다')
+    fact_benchmarks = offer.get('benchmark_unit_price_by_fact',{})
+    scorable_ids = {fact.get('fact_id') for fact in item.get('facts',[]) if fact.get('scorable')}
+    if (not isinstance(fact_benchmarks,dict)
+            or any(key not in scorable_ids for key in fact_benchmarks)):
+        raise ValueError('개별 비교 단가는 실제 scorable fact_id에만 지정해야 합니다')
+    for value in fact_benchmarks.values():
+        if (not re.fullmatch(r'[0-9]+(?:\.[0-9]{1,6})?',str(value))
+                or Decimal(str(value)) < unit_price):
+            raise ValueError('개별 비교 단가는 포장 환산 관측가 이상인 소수 6자리 이내 원화여야 합니다')
     try:
         observed_at = datetime.fromisoformat(offer['observed_at'].replace('Z','+00:00')).date().isoformat()
     except (ValueError,KeyError,AttributeError):
@@ -80,7 +89,8 @@ def build_submission(item, offer, event):
     for fact in item.get('facts',[]):
         if not fact.get('scorable') or fact['fact_id'] in seen:
             continue
-        if Decimal(fact['comparable_amount_krw']) <= Decimal(benchmark)*Decimal(fact['quantity']):
+        line_benchmark = str(fact_benchmarks.get(fact['fact_id'],benchmark))
+        if Decimal(fact['comparable_amount_krw']) <= Decimal(line_benchmark)*Decimal(fact['quantity']):
             continue
         if fact.get('period_kind') not in (None,'none'):
             raise ValueError('기간형 물품은 별도 기간 검증이 필요합니다')
@@ -89,19 +99,19 @@ def build_submission(item, offer, event):
         if any(not str(fact.get(key,'')) for key in ('contract_no','request_no','line_no')):
             raise ValueError('계약번호·납품요구번호·라인 번호가 필요합니다')
         seen.add(fact['fact_id'])
-        lines.append({'fact_id':fact['fact_id'], 'benchmark_unit_price_krw':benchmark,
+        lines.append({'fact_id':fact['fact_id'], 'benchmark_unit_price_krw':line_benchmark,
             'comparison_basis_id':fact['basis_id'], 'unit':fact['unit'], 'tax_basis':fact['tax_basis'], 'period':None,
             'price_evidence':[{'kind':'price_page','source_url':offer['url'],'quote':offer['quote'],
                 'observed_price_krw':price,'observed_at':observed_at,'vat_included':offer['vat_included'],
                 'shipping_included':offer['shipping_included'],
-                'note':f'표시가 {price}원/{pack}개 구성. 공식 비교 단위 1{fact["unit"]}당 {benchmark}원으로 비교.'}],
+                'note':f'표시가 {price}원/공식 비교 단위 {pack}{fact["unit"]} 구성. 공식 비교 단위 1{fact["unit"]}당 {line_benchmark}원으로 비교.'}],
             'fulfillment_evidence':[{'kind':'text','text':f"계약 {fact['contract_no']}, 납품요구 {fact['request_no']}, 라인 {fact['line_no']}. 공식 fact {fact['fact_id']}, 수량 {fact['quantity']}, 비교금액 {fact['comparable_amount_krw']}원."}]})
     if not lines:
         raise ValueError('양의 절감액이 있는 공식 fact가 없습니다')
     body = {'dataset_release_id':event['dataset_release_id'],'ruleset_version':event['ruleset_version'],
         'canonical_product_id':item['item_id'], 'title':f'{model} 국내 실판매가 {price}원 비교'[:200],
         'claim':'실제 판매 상세의 동일 모델·구성과 일반 구매 가격을 확인했다.',
-        'comparison_scope':offer.get('comparison_scope',f'동일 모델 신품, 판매 포장 {pack}개 구성을 공식 fact 1개 단위·세금 기준으로 환산'),
+        'comparison_scope':offer.get('comparison_scope',f'동일 모델 신품, 한 포장의 공식 비교 단위 수량은 {pack}이며 fact의 단위·세금 기준으로 환산'),
         'reproduction_notes':'공식 fact별 floor(max(C-B×Q,0))를 합산. 각 라인 근거에 계약·납품요구·라인 번호를 기재. 가격 시점 차이는 사용자 지정 대회 조사 기준에서 제외한다.',
         'lines':lines}
     if equivalent:
