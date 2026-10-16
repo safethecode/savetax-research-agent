@@ -868,7 +868,25 @@
         "군용 재귀반사·표장·원단 시험·포장 조건과 모든 호칭의 대체를 입증하지 않는다. 자켓 스토퍼 삭제 후 신구 순차 발송 공지도 있다.",
         "표시 무료배송을 쓰는 가정이며 도서산간 추가요금은 별도 일반 조건이다."
       ],
-      "decision": "일반 운동용 세트의 조건부 비교로 보관한다. 다음 날 가격·available·비교 범위를 다시 확인하고 공식 preview를 거친다."
+      "decision": "일반 운동용 세트의 조건부 비교로 보관한다. 다음 날 가격·available·비교 범위를 다시 확인하고 공식 preview를 거친다.",
+      "latest_native_retail_check": {
+        "observed_at_utc": "2026-10-16T11:20:41.525Z",
+        "source_url": "https://armedes.co.kr/product/ar-7292-%EB%82%A8%EC%84%B1-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%8B%9D%EB%B3%B5%EC%8A%AC%EB%A6%BC%EB%9D%BC%EC%9D%B8-%EC%9E%90%EC%BC%93%ED%8C%AC%EC%B8%A0-%EC%84%B8%ED%8A%B8/110",
+        "selected_color": "네이비",
+        "selected_size": "L",
+        "quantity1_total_krw": "19900",
+        "quantity2_total_krw": "39800",
+        "buy_visible": true,
+        "sold_out_template_visible": false,
+        "separate_option_apply_needed": false,
+        "interaction_note": "색상은 실제 표시된 색상 버튼을 클릭했다. 숨겨진 select 값 변경만으로 선택됐다고 보지 않았으며, 크기 선택·수량 변경 뒤 별도 후속 DOM에서 선택 행과 합계를 읽었다.",
+        "all_original_size_quantities_comparability_verified": false,
+        "remaining_scope": "원품80~150호와 판매 M~2XL 전체 대응·각 fact별 호칭 매칭은 미확인이다. 네이비/L 가격을 전체 군용 호칭에 적합하다고 확대하지 않는다.",
+        "jev_prediction": "SCROLL_DOWN",
+        "jev_model_latency_ms": 204,
+        "jev_is_spec_verification": false,
+        "new_submit_or_revision_calls": 0
+      }
     },
     {
       "item_id": "24531953",
