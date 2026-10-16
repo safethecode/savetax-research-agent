@@ -1,0 +1,132 @@
+{
+ "submission": {
+  "submission_id": "e1e6e4c9-1216-432a-a290-5ab6d4425a17",
+  "claim_id": "bb538448-ca4f-4430-b653-43395f57d4b4",
+  "revision": 1,
+  "submission_state": "accepted",
+  "admitted_at": "2026-10-16T17:40:11.010Z",
+  "amount_krw": 902400000,
+  "verification_status": "not_started",
+  "lint_status": "pending",
+  "event_epoch": 1,
+  "ruleset_version": "rules-v1",
+  "public_path": "/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/e1e6e4c9-1216-432a-a290-5ab6d4425a17",
+  "api_path": "/v1/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/e1e6e4c9-1216-432a-a290-5ab6d4425a17",
+  "web_path": "#/submission/e1e6e4c9-1216-432a-a290-5ab6d4425a17"
+ },
+ "body": {
+  "dataset_release_id": "release-live-20261012",
+  "ruleset_version": "rules-v1",
+  "canonical_product_id": "25217312",
+  "title": "WeGuardia ITU 3000(R2)와 Ubiquiti Enterprise Fortress Gateway 취득가격 비교",
+  "claim": "조달 WeGuardia(TM) ITU 3000(R2)과 실제 판매 EFG의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 동일 제조사·모델이 아닌 대체 비교다. 대체품은 CPU 코어 수(18 대 8), 메모리(16GB 대 8GB), 포트 속도(최대 25G 대 1G 기본), 공시 IPS 처리량(12.5Gbps)에서 원품 공개 사양보다 높고, 전원 이중화는 같다. 반면 물리 포트 수는 6개로 원품 12개보다 적고, 원품의 SSD 128GB+512GB 로그 저장장치에 해당하는 내장 저장 용량은 제조사 사양에 없다. 원품의 모델별 처리량은 미공개라 처리 성능 우위를 확정하지 않는다. ITM 통합관리, SDP 모바일 VPN, 국산 암호·국내 CC/KCMVP, OTP와 기존 정책·터널 호환성은 입증하지 않았다. CyberSecure 유료 구독은 제외했다. 원계약은 현장설치도·하자보수 1년이고 판매처는 국내 AS가 불가한 해외구매대행이다. 미국 제조사 직판 스토어는 관측 시 품절 표시였으며, 판매처도 주문 후 품절·취소 가능성을 안내한다. 설치·이전·유지보수 비용과 전량 동시 재고는 반영하거나 확약하지 않았다.",
+  "comparison_scope": "원품 4개 공식 fact, 32대의 HW 일체형 방화벽·IPsec VPN·IPS 장비 취득가격을 다른 제조사 Ubiquiti EFG 1대 관부가세 포함·무료배송 판매가 3,700,000원과 비교한다. 원품 ITM·SDP·국산 암호·국내 인증과 실제 기관 정책을 모두 충족한다는 주장이 아니며, 설치·국내 유지보수 차이는 금액에 반영하지 않았다. 원품 WeGuardia(TM) ITU 3000(R2), 대체품 EFG. 차이·제한: 동일 제조사·모델이 아닌 대체 비교다. 대체품은 CPU 코어 수(18 대 8), 메모리(16GB 대 8GB), 포트 속도(최대 25G 대 1G 기본), 공시 IPS 처리량(12.5Gbps)에서 원품 공개 사양보다 높고, 전원 이중화는 같다. 반면 물리 포트 수는 6개로 원품 12개보다 적고, 원품의 SSD 128GB+512GB 로그 저장장치에 해당하는 내장 저장 용량은 제조사 사양에 없다. 원품의 모델별 처리량은 미공개라 처리 성능 우위를 확정하지 않는다. ITM 통합관리, SDP 모바일 VPN, 국산 암호·국내 CC/KCMVP, OTP와 기존 정책·터널 호환성은 입증하지 않았다. CyberSecure 유료 구독은 제외했다. 원계약은 현장설치도·하자보수 1년이고 판매처는 국내 AS가 불가한 해외구매대행이다. 미국 제조사 직판 스토어는 관측 시 품절 표시였으며, 판매처도 주문 후 품절·취소 가능성을 안내한다. 설치·이전·유지보수 비용과 전량 동시 재고는 반영하거나 확약하지 않았다.",
+  "reproduction_notes": "공식 fact별 floor(max(C-B×Q,0))를 합산. 각 라인 근거에 계약·납품요구·라인 번호를 기재. 가격 시점 차이는 사용자 지정 대회 조사 기준에서 제외한다. 사양 대응: 제품 유형과 비교 범위: WeGuardia(TM) ITU 3000(R2), HW 일체형 FW+VPN+IPS 등 네트워크 보안 장비, 자체 OS → Ubiquiti EFG(Enterprise Fortress Gateway), HW 일체형 게이트웨이. Stateful·L7 방화벽, IPsec 사이트 간 VPN, IDS/IPS를 기본 제공하는 다른 제조사 대체품; 프로세서와 메모리: 제조사 현행 사양표의 ITU 3000: CPU 8Core, Main Memory 8GB → 18-core ARM v8.2 2GHz, 16GB DDR4. 코어 수와 메모리 용량이 더 크다(아키텍처가 달라 코어당 성능 동일성은 주장하지 않는다); 네트워크 인터페이스: 10/100/1000 BASE-T 8포트, 1G BASE-X 4포트, 10G BASE-X는 옵션, 1U → 2.5GbE RJ45 2포트, 10G SFP+ 2포트, 25G SFP28 2포트. 포트 속도는 높지만 물리 포트 수는 12개 대비 6개로 적다; 전원 이중화: Redundant Dual → Hot-swappable 150W CRPS 전원 2개; 처리 성능: 모델별 방화벽·IPS·VPN 처리량과 세션 수는 제조사 공개 자료에서 확인하지 못했다 → 제조사 IDS/IPS 처리량 12.5Gbps, 신규 세션 71,000/초. 동시 세션은 판매 상세 1 Million, 제조사 techspecs 10 Million으로 표기가 달라 낮은 값을 기준으로 본다; NAT·VPN·관리: SNAT/DNAT/FNAT/TNAT/XNAT, IPSec(RSA·ECC)·SDP 모바일 VPN, ITM 통합콘솔·GUI/SSH CLI/SYSLOG/SNMP, OTP, 알람·SNMP·Syslog·e-mail 경보 → SNAT/DNAT/Masquerade/NAT Pooling/1:1 NAT, IPsec·OpenVPN·WireGuard·L2TP, OSPF/BGP, RADIUS, UniFi Network 관리. ITM·SDP·OTP·국산 암호와의 동일성은 입증하지 않았다; 로그 저장장치: SSD 128GB x 1, SSD 512GB x 1 → 제조사 사양에 내장 로그 저장 용량 표기가 없다. 로컬 장기 로그 보존 능력은 원품보다 부족할 수 있다; 인도·하자보수 조건: 등재 0024C0129_1110000005, 같은 계약 등재의 인도조건 현장설치도·하자보수 1년 → 해외구매대행, 국내 AS 불가 안내. 수량 1 실제 합계 3,700,000원·관부가세 포함·표시 무료배송. 설치·정책 이전·국내 하자보수 비용은 포함하지 않았다. 사양 출처: https://api.savetax.now/v1/items/25217312 https://www.future.co.kr/product/network_view01.php https://techspecs.ui.com/unifi/cloud-gateways/efg https://store.ui.com/us/en/products/efg https://help.ui.com/hc/en-us/articles/360006893234-UniFi-Gateway-Intrusion-Detection-and-Prevention-IDS-IPS https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936. 비교 검토: 핵심 용도: 두 제품 모두 네트워크 경계에 설치하는 HW 일체형 방화벽·IPsec VPN·침입방지 게이트웨이다. 원품 공식 속성은 FW/VPN/IPS 네트워크보안, 대체품 판매 상세와 제조사 사양은 Stateful/L7 방화벽, IPsec, IDS/IPS 12.5Gbps를 명시한다.; 완제품 구성: 판매가는 전원부 2개를 포함한 완성 게이트웨이 1대 가격이며, 방화벽·VPN·IDS/IPS 기능은 별도 라이선스 없이 제공된다. 원품 단가도 장비 1대 기준이다. 유료 CyberSecure 구독과 설치 서비스는 포함하지 않았다.",
+  "lines": [
+   {
+    "fact_id": "dl:25217312:0024C0129_1:R25TB01092011:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:39 KST(2026-10-16 17:39 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 WeGuardia(TM) ITU 3000(R2)과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 0024C0129_1, 납품요구 R25TB01092011, 라인 1. 공식 fact dl:25217312:0024C0129_1:R25TB01092011:1, 수량 1, 비교금액 31900000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25217312:0024C0129_1:R25TB01098546:2",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:39 KST(2026-10-16 17:39 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 WeGuardia(TM) ITU 3000(R2)과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 0024C0129_1, 납품요구 R25TB01098546, 라인 2. 공식 fact dl:25217312:0024C0129_1:R25TB01098546:2, 수량 1, 비교금액 31900000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25217312:0024C0129_1:R26TB01755664:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:39 KST(2026-10-16 17:39 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 WeGuardia(TM) ITU 3000(R2)과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 0024C0129_1, 납품요구 R26TB01755664, 라인 1. 공식 fact dl:25217312:0024C0129_1:R26TB01755664:1, 수량 29, 비교금액 925100000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25217312:0024C0129_1:R26TB01815829:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:39 KST(2026-10-16 17:39 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 WeGuardia(TM) ITU 3000(R2)과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 0024C0129_1, 납품요구 R26TB01815829, 라인 1. 공식 fact dl:25217312:0024C0129_1:R26TB01815829:1, 수량 1, 비교금액 31900000원."
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -27890,5 +27890,42 @@
         "verdict": "negative: Ultra 7 255H 노트북 일반가는 필요가의 약 2배"
       }
     ]
+  },
+  "round5_efg_0_8b": {
+    "observed_kst": "2026-10-17 02:39~03:00",
+    "user_threshold": "0.8B (root relay)",
+    "ready": [
+      {
+        "item_id": "25217312",
+        "model": "WeGuardia ITU 3000(R2)",
+        "facts": 4,
+        "Q": "32",
+        "C": "1020800000",
+        "preview_krw": "902400000",
+        "title": "WeGuardia ITU 3000(R2)와 Ubiquiti Enterprise Fortress Gateway 취득가격 비교",
+        "better": "CPU 18코어 대 8코어, 메모리 16GB 대 8GB, 포트 속도 25G 대 1G, 이중 전원 동일",
+        "worse": "포트 6개 대 12개, 로그 SSD 128GB+512GB 대응 없음, 원품 처리량 미공개"
+      },
+      {
+        "item_id": "25395523",
+        "model": "BLUEMAX NGF 1100",
+        "facts": 34,
+        "Q": "47",
+        "C": "1034000000",
+        "preview_krw": "860100000",
+        "title": "BLUEMAX NGF 1100과 Ubiquiti Enterprise Fortress Gateway 취득가격 비교",
+        "better": "CPU 18코어 대 4코어, 메모리 16GB 대 8GB, 방화벽 23.5Gbps(Ubiquiti 데이터시트) 대 16Gbps, 이중 전원 대 단일, 포트 속도",
+        "worse": "포트 6개 대 12개, 로그 1TB 대응 없음"
+      }
+    ],
+    "skipped": [
+      {
+        "item_id": "23891640",
+        "model": "AXGATE 1300S",
+        "reason": "재판매처 사양표상 4코어·8GB·SSD 250GB·Redundant·F/W 16G·VPN 3.8G. EFG는 VPN이 단일 터널 580Mbps만 공시돼 VPN 우위를 입증할 수 없고, 제조사 현행 페이지에 1300S 사양이 없음"
+      }
+    ],
+    "price_reobserved": "2026-10-16T17:39:06Z usashop EFG 3,700,000원 관부가세 포함·무료배송·수량 1 합계 3,700,000원·바로 구매",
+    "POST_calls": 0
   }
 }
