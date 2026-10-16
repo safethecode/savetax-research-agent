@@ -1,0 +1,16 @@
+{
+  "source": "2026-10-16 사용자의 최신 채팅 지시",
+  "timezone": "Asia/Seoul",
+  "submission_date": "2026-10-16",
+  "remaining_claims_at_instruction": 3,
+  "minimum_savings_per_submission_krw": "600000000",
+  "target_average_savings_krw": "1000000000",
+  "target_total_for_three_submissions_krw": "3000000000",
+  "rank_by": "검증된 예상 절감액 내림차순",
+  "plan_rule": "각 건의 최저 금액과 세 건 합계를 함께 검토한 뒤 순서대로 접수한다. 가격이나 절감액을 임의로 낮추거나 높이지 않는다.",
+  "deferred_submission_date": "2026-10-17",
+  "deferred_rule": "6억 원 미만 신규 후보는 실제 근거·관련 번호·계산·본문을 보존하고 내일 제출 직전에 available 상태, 현재 가격, 규칙과 한도를 다시 확인한다.",
+  "acceptance_rule": "공식 fact의 수량·금액·단위·세금 기준을 쓰고 판매 근거와 사양 대응을 검토한다. 예상액은 최종 인정액이나 실제 예산 절감액이 아니다.",
+  "existing_submissions": "유지",
+  "implementation": "현재 prioritize 함수의 remaining=3, release_deferred=false, priority_min=600000000을 사용하고, 최종 세 건의 합계는 별도 검산한다. 새 자동 제출 기능을 구현했다는 뜻은 아니다."
+}

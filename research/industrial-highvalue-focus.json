@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-16T06:43:42.262863+00:00",
+  "updated_at": "2026-10-16T07:16:37.819763+00:00",
   "focus": "고가 산업장비·전원장비; 부모가 POST·커밋 전담",
-  "lookup_items": 150,
-  "available_at_lookup": 107,
-  "parallel_search_calls": 10,
-  "official_item_details": 13,
+  "lookup_items": 240,
+  "available_at_lookup": 162,
+  "parallel_search_calls": 19,
+  "official_item_details": 40,
   "candidate_count_is_not_submission_count": true,
   "new_submissions_by_this_agent": 0,
   "records": [
@@ -52,19 +52,21 @@
       "all_refs_file": "work\\highvalue-industrial\\all-refs-24392975.json"
     },
     {
-      "item_id": "23232467",
-      "model": "(JP)SRM981",
-      "status": "동일모델 가격 역전 없음; 대체 조사",
-      "comparison_kind": "identical",
-      "facts": 22,
-      "Q": "75",
-      "C_krw": "1027500000",
-      "observed_retail_krw": "18920000",
+      "item_id": "25581489",
+      "procurement_model": "DS-910DA",
+      "retail_model": "WM-5000DS",
+      "comparison_kind": "equivalent",
+      "status": "VAT 미확인; 부모 검토용 기술 비교",
+      "facts": 37,
+      "Q": "652",
+      "C_krw": "613532000",
+      "observed_price_krw": "594000",
+      "vat_included": null,
       "benchmark_krw": null,
       "arithmetic_gap_krw": null,
-      "scope": "신품 동일 Orec 판매가가 조달단가1370만원보다높음. 중고8백만원과잔디전용카스텔품절은비교제외",
-      "source_url": "https://www.dktools.co.kr/store/goods_view.php?category=615&goodsno=11168",
-      "all_refs_file": "work\\highvalue-industrial\\all-refs-23232467.json"
+      "all_refs_file": "work\\highvalue-industrial\\all-refs-25581489.json",
+      "scope": "단일 강의자의 교실용 무선 음성 증폭 시스템 본체 취득가격 비교. 2명 동시 강의·VOX·기존 송신기 재사용이 필요한 용도는 제외하며 현장설치 완료 전체의 확정 실절감액으로 주장하지 않는다.",
+      "review_file": "work\\highvalue-industrial\\review-25581489.json"
     }
   ],
   "private_detail_index": "work\\highvalue-industrial\\details.json",
