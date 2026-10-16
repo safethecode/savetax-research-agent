@@ -37,7 +37,7 @@ def dataset_summary(path):
         listings, items = con.execute("SELECT count(*), count(DISTINCT item_id) FROM listings WHERE item_id IS NOT NULL AND item_id <> ''").fetchone()
         amount, qty, keys = con.execute('''SELECT sum(dlv_amount), sum(dlv_qty), count(*) FROM
             (SELECT dlv_key, max(dlv_amount) dlv_amount, max(dlv_qty) dlv_qty FROM listings
-             WHERE dlv_key IS NOT NULL AND dlv_key <> '' GROUP BY dlv_key)''').fetchone()
+             WHERE dlv_key IS NOT NULL AND CAST(dlv_key AS VARCHAR) <> '' GROUP BY dlv_key)''').fetchone()
         return {'listing_count': listings, 'item_count': items,
                 'delivery_key_count': keys, 'delivery_amount_krw': _number(amount),
                 'delivery_quantity': _number(qty),
@@ -70,7 +70,7 @@ def mine_batch(path, handle, dataset_version, batch_size=500, offset=0):
             SELECT l.item_id, l.dlv_key, max(l.dlv_amount) amount,
                 max(l.dlv_qty) qty, max(l.dlv_lines) lines
             FROM listings l JOIN selected s USING (item_id)
-            WHERE l.dlv_key IS NOT NULL AND l.dlv_key <> '' GROUP BY l.item_id, l.dlv_key
+            WHERE l.dlv_key IS NOT NULL AND CAST(l.dlv_key AS VARCHAR) <> '' GROUP BY l.item_id, l.dlv_key
         ), totals AS (
             SELECT item_id, sum(amount) dlv_amount, sum(qty) dlv_qty, sum(lines) dlv_count
             FROM deliveries GROUP BY item_id

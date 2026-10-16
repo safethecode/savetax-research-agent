@@ -55,6 +55,13 @@ class AnalysisTests(unittest.TestCase):
         with self.assertRaises(DatasetError):
             dataset_summary(empty)
 
+    def test_numeric_delivery_key_matches_official_parquet_schema(self):
+        numeric = Path(self.temp.name) / 'numeric.parquet'
+        con = duckdb.connect()
+        con.read_parquet(str(self.path)).project("* REPLACE(try_cast(replace(dlv_key, 'D', '') AS INTEGER) AS dlv_key)").write_parquet(str(numeric))
+        self.assertEqual(dataset_summary(numeric)['delivery_amount_krw'], '1500')
+        self.assertEqual(len(mine_batch(numeric, 'public', 'v1', 3)), 3)
+
 
 if __name__ == '__main__':
     unittest.main()
