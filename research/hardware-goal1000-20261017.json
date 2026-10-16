@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-16T17:20:16.895480+00:00",
+  "updated_at_utc": "2026-10-16T17:45:00Z",
   "goal_total_expected_score_krw": "100000000000",
   "latest_user_minimum_per_new_submission_krw": "1000000000",
   "required_average_reference_krw": "1780000000",
@@ -27163,7 +27163,7 @@
   "accepted_submission_count": 1,
   "preview_calls": 0,
   "POST_calls": 0,
-  "submission_ready_count": 0,
+  "submission_ready_count": 2,
   "adopted_saving_krw": "4931899814",
   "posting": "제출·커밋·푸시는 부모가 직렬 담당. 신규 근거를 보존하고 조사를 계속한다.",
   "wave_vurix_followup": {
@@ -27568,5 +27568,262 @@
     "remaining_daily_submissions": 48,
     "remaining_cumulative_submissions": 49,
     "reference_required_average_remaining_daily_krw": "1701115438.25"
+  },
+  "round2_20261017": {
+    "observed_kst": "2026-10-17 02:00~02:45",
+    "method": "full-catalog-priority.parquet(20261017) 하드웨어·전자 분류 선별 → 공식 lookup(1.5억 이상 166개, 1.0~1.5억 26+111개, 기타 전자 26개) → available만 상세 확인. Parallel 검색 약 14회, Jev browser-plan 1회, 독립 hardware 세션 browser-read 5회, 사양 수집 서브에이전트 1회.",
+    "ready_packets": [
+      {
+        "item_id": "25358591",
+        "model": "WeGuardia(TM) ITU 1000(R2)",
+        "facts": 12,
+        "Q": "126",
+        "C_krw": "2746800000",
+        "benchmark": "Ubiquiti EFG 3,700,000원(관부가세 포함·무료배송)",
+        "preview_expected_krw": "2280600000",
+        "comparison_kind": "equivalent",
+        "price_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+        "observed_at": "2026-10-16T17:24:22Z",
+        "better": [
+          "CPU 18코어 대 4코어",
+          "메모리 16GB 대 8GB",
+          "포트 속도 25G/10G/2.5G 대 1G(10G 옵션)",
+          "공시 IPS 12.5Gbps(원품 처리량 미공개)",
+          "전원 이중화 동일"
+        ],
+        "worse_or_unproven": [
+          "물리 포트 6개 대 12개",
+          "내장 로그 저장 용량 미표기(원품 SSD 128GB+512GB)",
+          "ITM·SDP·국산 암호·CC/KCMVP·OTP 미입증",
+          "해외구매대행·국내 AS 불가·미국 직판 품절 표시",
+          "현장설치·하자보수 1년 미반영"
+        ],
+        "spec_sources": [
+          "https://www.future.co.kr/product/network_view01.php",
+          "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+        ],
+        "files": [
+          "work/hardware-goal1000/ready/25358591.json",
+          "work/hardware-goal1000/ready/25358591.body.json",
+          "work/hardware-goal1000/ready/25358591.receipt.json"
+        ]
+      },
+      {
+        "item_id": "25395524",
+        "model": "BLUEMAX NGF 510",
+        "facts": 103,
+        "Q": "157",
+        "C_krw": "1727000000",
+        "benchmark": "Ubiquiti EFG 3,700,000원(관부가세 포함·무료배송)",
+        "preview_expected_krw": "1146100000",
+        "comparison_kind": "equivalent",
+        "price_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+        "observed_at": "2026-10-16T17:24:22Z",
+        "better": [
+          "CPU 18코어 대 8코어",
+          "메모리 16GB 대 8GB",
+          "IPS 12.5Gbps 대 원품 방화벽 Throughput 12Gbps(측정 조건 상이)",
+          "포트 속도 25G/10G/2.5G 대 1G",
+          "전원 이중화 대 단일"
+        ],
+        "worse_or_unproven": [
+          "물리 포트 6개 대 12개",
+          "내장 로그 저장 용량 미표기(원품 Log 1TB)",
+          "PQC·국산 암호·SSL VPN·FIDO·가상 시스템·CC 미입증",
+          "해외구매대행·국내 AS 불가·미국 직판 품절 표시",
+          "현장설치·하자보수 1년 미반영"
+        ],
+        "spec_sources": [
+          "https://www.secui.com/uploads/file_url-1767798076411-311203176.pdf",
+          "https://www.secui.com/uploads/file_url-1781229933025-669069893.pdf",
+          "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+        ],
+        "files": [
+          "work/hardware-goal1000/ready/25395524.json",
+          "work/hardware-goal1000/ready/25395524.body.json",
+          "work/hardware-goal1000/ready/25395524.receipt.json"
+        ]
+      }
+    ],
+    "POST_calls": 0,
+    "preview_calls": 2,
+    "firewall_specs_collected": {
+      "SNIPER ONE-i 5300": "60Gbps, 12Core×2, 64GB, HDD 2TB, 이중화 전원 (wins21 라인업 이미지, CC CR-22-41)",
+      "BLUEMAX NGF 5100": "32Core, 64/128GB, 로그 1.92TB RAID, 10GF 10(max26), Redundant, 160Gbps",
+      "BLUEMAX NGF 1510": "10Core, 16GB, 256GB+로그 1TB, 1GF 4(max8)+1GC 8, Redundant, 40Gbps",
+      "BLUEMAX NGF 1100": "4Core, 8GB, 128GB+1TB, 1GF 4(max8)+1GC 8, Single, 16Gbps",
+      "BLUEMAX NGF 510": "8Core, 8GB, 128GB+1TB, 1GF 4+1GC 8, Single, 12Gbps",
+      "ITU 9000": "12Core×2, 32GB, SSD 256GB+2TB×2, 8+8+10G 4, Dual, 2U (현행 제조사 표)",
+      "ITU 1000": "4Core, 8GB, SSD 128GB+512GB, 8+4, 10G 옵션, Dual, 1U (현행 제조사 표)",
+      "AhnLab XTG 5000": "12Core×2, 64GB, 512GB+2TB, FW 180G UDP, VPN 15G, IPS 미공개",
+      "TrusGuard 500C": "6Core, 16GB, 64GB+HDD 2TB, FW 30G, IPS 12G, VPN 6G, CPS 550,000",
+      "EFG": "18-core 2GHz, 16GB, 2.5G×2+10G×2+25G×2, 이중 전원, IPS 12.5Gbps, FW 23.5Gbps(배포처 데이터시트), 신규 세션 71,000, 동시 세션 1M(판매 상세)/10M(techspecs)",
+      "EF-Core": "24-core 2.5GHz, 32GB, 128GB SSD, IPS 79Gbps, 미국 $3,499 — 원화 국내 판매가 미발견"
+    },
+    "queued_below_1b_or_not_better": [
+      {
+        "item_id": "24935005",
+        "model": "TrusGuard 500C",
+        "note": "EFG 대비 예상 1,359,580,000원이지만 FW 30G>23.5G, VPN·CPS 열세로 우위 대체가 아님. 혼합 비교로만 가능"
+      },
+      {
+        "item_id": "25131076",
+        "model": "BLUEMAX NGF 1510",
+        "note": "2026-10-17 03:48 KST 보류 해제 예정. EFG는 40Gbps 대비 열세라 우위 대체 아님. EF-Core 원화 판매가 필요"
+      },
+      {
+        "item_id": "24239989",
+        "model": "SNIPER ONE-i 5300",
+        "note": "60Gbps IPS. EF-Core(79Gbps)만 처리량 우위, 원화 도착가 미확인"
+      },
+      {
+        "item_id": "25131074",
+        "model": "BLUEMAX NGF 5100",
+        "note": "160Gbps. 적합 대체 원화가 미확인"
+      },
+      {
+        "item_id": "24689125",
+        "model": "ITU 9000",
+        "note": "EF-Core가 CPU·메모리 동급 이상이나 원화가 미확인. EFG는 열세"
+      },
+      {
+        "item_id": "25890465",
+        "model": "AhnLab XTG 5000",
+        "note": "64GB·FW 180G. 적합 대체 원화가 미확인"
+      },
+      {
+        "item_id": "25217312",
+        "model": "ITU 3000(R2)",
+        "note": "EFG 대비 예상 약 9.0억 원(<10억)"
+      },
+      {
+        "item_id": "25395523",
+        "model": "BLUEMAX NGF 1100",
+        "note": "EFG 대비 예상 약 8.6억 원(<10억)"
+      },
+      {
+        "item_id": "23891640",
+        "model": "AXGATE 1300S",
+        "note": "EFG 대비 예상 약 8.3억 원(<10억), 사양 미확인"
+      },
+      {
+        "item_id": "25618494",
+        "model": "BMZ-7756HMP 데스크톱",
+        "note": "03:48 KST 보류 해제. 운영진 반려 이력, fact 단가 991,500~1,595,500원 분산, 규격서 xlsx 추출 실패, Ryzen 7 PRO 7745 대체 근거 미확보로 보류"
+      },
+      {
+        "item_id": "25569851",
+        "model": "A4SQ-5NBDF 데스크톱",
+        "note": "03:48 KST 보류 해제. Q670·원격관리·슬림 구성, 반려 이력으로 보류"
+      }
+    ],
+    "negatives": [
+      {
+        "item_id": "26137711",
+        "model": "BKT-AIBOX-1N",
+        "note": "보류 해제 직후 확인 시 claimed"
+      },
+      {
+        "item_id": "25299331",
+        "model": "DC50BDAAA 공기살균기",
+        "note": "동일 모델 일반 판매가 약 232만 원(핫트랙스 검색 단서)으로 차이 없음. 천장매립 83㎡ UV-C 광촉매 동급 대체 미발견"
+      },
+      {
+        "item_id": "23439541",
+        "model": "ECO-SMART",
+        "note": "자동투입 식판세척기(시간당 2,000장) 전용 장비, 소매 대체 없음"
+      },
+      {
+        "item_id": "25043214",
+        "model": "Alpha-I 도청방지기",
+        "note": "상시 25kHz~8GHz 감시 전용 장비, 동급 소매 대체 미확인"
+      },
+      {
+        "item_id": "22644501",
+        "model": "LTD-3300B 연기감지기",
+        "note": "단가 7,950원, 10억 원 차액 불가"
+      },
+      {
+        "item_id": "25939303",
+        "model": "LG B315W11",
+        "note": "단가 51만 원, 차액 10억 원 불가"
+      },
+      {
+        "item_id": "26003766",
+        "model": "SM-X406N",
+        "note": "조달가 52.1만 원이 일반가보다 낮음"
+      },
+      {
+        "item": "EF-Core 국내 원화 판매처",
+        "note": "usashop·컴퓨존·다나와 검색 및 Parallel 2회에서 미발견"
+      },
+      {
+        "item": "데스크톱·노트북 대형 품목",
+        "note": "1.5억 이상 lookup에서 모두 claimed/reform_found/on_hold"
+      }
+    ]
+  },
+  "round3_strict_identical_or_better": {
+    "observed_kst": "2026-10-17 02:30~02:45",
+    "submitted_by_root": [
+      "25358591 (2,280,600,000원 preview)",
+      "25395524 (1,146,100,000원 preview)"
+    ],
+    "verdicts": [
+      {
+        "item_id": "24935005",
+        "model": "TrusGuard 500C",
+        "verdict": "skip",
+        "reason": "EFG: FW 23.5G<30G, VPN·CPS 열세. EF-Core: CPS 120,000<550,000, 원화가 없음"
+      },
+      {
+        "item_id": "25890465",
+        "model": "XTG 5000",
+        "verdict": "skip",
+        "reason": "64GB·FW 180G(UDP), EFG·EF-Core 모두 명확한 우위 아님"
+      },
+      {
+        "item_id": "24291246",
+        "model": "AIPS 5000B",
+        "verdict": "skip",
+        "reason": "제조사 데이터시트 IPS 30G, EFG 12.5G 열세. EF-Core는 원화가 없음"
+      },
+      {
+        "item_id": "25131076",
+        "model": "NGF 1510",
+        "verdict": "blocked_price",
+        "reason": "03:48 KST까지 on_hold. EF-Core(24코어·32GB·IPS 79G·100G)는 10코어·16GB·40Gbps 대비 명확한 우위지만 국내 원화가·도착 총액이 미확인(usashop·컴퓨존·다나와·Parallel 4회)"
+      },
+      {
+        "item_id": "25940541",
+        "model": "BLUEMAX WIPS 714",
+        "verdict": "skip",
+        "reason": "Wi-Fi 7 전용 WIPS 센서, 10억 원에는 B≤약 60만 원 필요. 전용 센서·관리 권리를 갖춘 명확한 우위 소매품 없음"
+      },
+      {
+        "item_id": "24935006",
+        "model": "AIRTMS S800",
+        "verdict": "skip",
+        "reason": "10억 원에는 B≤약 22만 원 필요"
+      },
+      {
+        "item_id": "24863739",
+        "model": "앱코 PB4-S32B",
+        "verdict": "negative",
+        "reason": "동일 모델 언플이 판매가 3,179,000원(조달 등재가와 같음). 큰 라인은 조달 760,000원으로 오히려 낮음"
+      },
+      {
+        "item_id": "25415937/25423179",
+        "model": "올인원 코리아 ASWR 무선단말기",
+        "verdict": "skip",
+        "reason": "전용 무선 방송 단말, 동일 모델 소매 없음"
+      },
+      {
+        "item_id": "25395523/23891640/25217312",
+        "model": "NGF 1100/AXGATE 1300S/ITU 3000(R2)",
+        "verdict": "skip",
+        "reason": "EFG 기준 10억 원 미만"
+      }
+    ]
   }
 }
