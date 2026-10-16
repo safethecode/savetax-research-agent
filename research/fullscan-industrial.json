@@ -9,23 +9,39 @@
     "next_local_batch": null,
     "local_enumerated_rows": 221500,
     "local_batches_enumerated": 443,
-    "local_selected_for_official_lookup": 452,
-    "official_lookup_unique_items": 452,
+    "local_selected_for_official_lookup": 636,
+    "official_lookup_unique_items": 636,
     "availability_counts": {
-      "available": 280,
-      "reform_found": 28,
-      "claimed": 142,
-      "on_hold": 2
+      "available": 354,
+      "reform_found": 32,
+      "claimed": 203,
+      "on_hold": 47
     },
-    "market_search_unique_items": 101,
+    "market_search_unique_items": 124,
     "parallel_search_calls": 32,
-    "official_event_details_saved": 87,
+    "official_event_details_saved": 117,
     "closed_findings": 14,
     "verified_exact_submit_ready": 0,
     "clarification": "배정 owner3 batch203..1971 221500행을 로컬 열거함. 로컬 열거는 실판매 검색 완료가 아니며 표적 조회와 실검색/검증 수는 별도. 브랜드 및 표준 품목 필터에서 놓친 품목은 재선별 가능.",
-    "updated_at": "2026-10-16T04:05:45.927434+00:00",
-    "equivalent_panel_bundles_prepared": 11,
-    "market_count_note": "기존84개 + 신규조명6개 원품검색 + 태강대체와원품11개사양대조=101.검색결과단서/본문검증/전면동등성을구분함."
+    "updated_at": "2026-10-16T05:02:38.799350+00:00",
+    "equivalent_panel_bundles_prepared": 15,
+    "market_count_note": "과거 시장검색 상태 및 이번 명시적 원품·대체품 대조 항목의 합집합을 집계했다. 로컬 열거·공식 조회·판매 검색·접수를 구분한다. 접수는 최종 심사 인정액이나 실제 예산 절감액이 아니다.",
+    "availability_counts_at_last_lookup": {
+      "available": 373,
+      "reform_found": 32,
+      "claimed": 184,
+      "on_hold": 47
+    },
+    "availability_counts_with_accepted_receipts": {
+      "available": 354,
+      "reform_found": 32,
+      "claimed": 203,
+      "on_hold": 47
+    },
+    "equivalent_linear_bundles_prepared": 3,
+    "equivalent_panel50_bundles_prepared": 2,
+    "accepted_submissions_count": 19,
+    "accepted_submissions_amount_krw": 497572500
   },
   "items": [
     {
@@ -3792,7 +3808,8 @@
       "official_event_path": "work\\fullscan\\industrial\\event-24208479.json",
       "official_Q": "5908",
       "official_C_krw": "200872000",
-      "scorable_facts_count": 11
+      "scorable_facts_count": 11,
+      "market_investigated": true
     },
     {
       "item_id": "25321248",
@@ -3856,7 +3873,8 @@
       "official_event_path": "work\\fullscan\\industrial\\event-25345135.json",
       "official_Q": "2444",
       "official_C_krw": "134420000",
-      "scorable_facts_count": 58
+      "scorable_facts_count": 58,
+      "market_investigated": true
     },
     {
       "item_id": "25345144",
@@ -3959,16 +3977,46 @@
       "md5_batch": 1127,
       "local_amount_krw": 84105000.0,
       "local_quantity": 1602.0,
-      "availability": "available",
-      "status": "equivalent_price_spec_prepared_parent_review",
+      "availability": "claimed",
+      "status": "accepted_final_verification_not_complete",
       "market_searched": true,
       "bundle_path": "work\\fullscan\\industrial\\panel-24627368-review-bundle.json",
       "comparison_kind": "equivalent",
       "product_gap_krw": "35244000",
-      "official_event_path": "work\\fullscan\\industrial\\event-24627368.json",
+      "official_event_path": "work/fullscan/industrial/event-24627368-fresh.json",
       "official_Q": "1602",
       "official_C_krw": "84105000",
-      "scorable_facts_count": 2
+      "scorable_facts_count": 2,
+      "submission_id": "f1231b38-ab24-4829-866a-298f5c91654c",
+      "accepted_amount_krw": "35244000",
+      "receipt_path": "work/fullscan/industrial/receipt-24627368.json",
+      "verification_status_at_admission": "not_started",
+      "lint_status_at_admission": "pending",
+      "current_lint_not_refreshed": true,
+      "review_bundle_path": "work/fullscan/industrial/panel-24627368-review-bundle.json",
+      "market_investigated": true,
+      "representative_facts": [
+        {
+          "fact_id": "dl:24627368:R26TA01793289:R26TB01887499:4",
+          "contract_no": "R26TA01793289",
+          "request_no": "R26TB01887499",
+          "line_no": "4",
+          "quantity": "1277",
+          "comparable_amount_krw": "67042500",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:24627368:R26TA01793289:R26TB01899353:2",
+          "contract_no": "R26TA01793289",
+          "request_no": "R26TB01899353",
+          "line_no": "2",
+          "quantity": "325",
+          "comparable_amount_krw": "17062500",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
     },
     {
       "item_id": "25608249",
@@ -3985,16 +4033,56 @@
       "md5_batch": 1327,
       "local_amount_krw": 76881000.0,
       "local_quantity": 1569.0,
-      "availability": "available",
-      "status": "equivalent_price_spec_prepared_parent_review",
+      "availability": "claimed",
+      "status": "accepted_final_verification_not_complete",
       "market_searched": true,
       "bundle_path": "work\\fullscan\\industrial\\panel-24777435-review-bundle.json",
       "comparison_kind": "equivalent",
       "product_gap_krw": "26673000",
-      "official_event_path": "work\\fullscan\\industrial\\event-24777435.json",
+      "official_event_path": "work/fullscan/industrial/event-24777435-fresh.json",
       "official_Q": "1569",
       "official_C_krw": "76881000",
-      "scorable_facts_count": 4
+      "scorable_facts_count": 4,
+      "submission_id": "b5155a84-021d-4992-8ca6-ae5b73353be9",
+      "accepted_amount_krw": "26673000",
+      "receipt_path": "work/fullscan/industrial/receipt-24777435.json",
+      "verification_status_at_admission": "not_started",
+      "lint_status_at_admission": "pending",
+      "current_lint_not_refreshed": true,
+      "review_bundle_path": "work/fullscan/industrial/panel-24777435-review-bundle.json",
+      "market_investigated": true,
+      "representative_facts": [
+        {
+          "fact_id": "dl:24777435:R26TA01491855:R26TB01761043:1",
+          "contract_no": "R26TA01491855",
+          "request_no": "R26TB01761043",
+          "line_no": "1",
+          "quantity": "488",
+          "comparable_amount_krw": "23912000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:24777435:R26TA01491855:R26TB01860284:1",
+          "contract_no": "R26TA01491855",
+          "request_no": "R26TB01860284",
+          "line_no": "1",
+          "quantity": "12",
+          "comparable_amount_krw": "588000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:24777435:R26TA01491855:R26TB02034969:3",
+          "contract_no": "R26TA01491855",
+          "request_no": "R26TB02034969",
+          "line_no": "3",
+          "quantity": "819",
+          "comparable_amount_krw": "40131000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
     },
     {
       "item_id": "24695206",
@@ -4057,7 +4145,8 @@
       "local_amount_krw": 63954000.0,
       "local_quantity": 1254.0,
       "availability": "available",
-      "status": "target_lookup_completed"
+      "status": "target_lookup_completed",
+      "market_investigated": true
     },
     {
       "item_id": "24458954",
@@ -4066,11 +4155,46 @@
       "local_amount_krw": 73834200.0,
       "local_quantity": 1229.0,
       "availability": "available",
-      "status": "target_lookup_completed",
-      "official_event_path": "work\\fullscan\\industrial\\event-24458954.json",
+      "status": "retail_price_and_spec_prepared_parent_rendered_review",
+      "official_event_path": "work/fullscan/industrial/event-24458954.json",
       "official_Q": "1229",
       "official_C_krw": "73834200",
-      "scorable_facts_count": 9
+      "scorable_facts_count": 9,
+      "comparison_kind": "equivalent",
+      "review_bundle_path": "work/fullscan/industrial/linear-24458954-review-bundle.json",
+      "market_investigated": true,
+      "representative_facts": [
+        {
+          "fact_id": "dl:24458954:R26TA01808055:R26TB01904176:12",
+          "contract_no": "R26TA01808055",
+          "request_no": "R26TB01904176",
+          "line_no": "12",
+          "quantity": "4",
+          "comparable_amount_krw": "264000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:24458954:R26TA01808055:R26TB01994990:3",
+          "contract_no": "R26TA01808055",
+          "request_no": "R26TB01994990",
+          "line_no": "3",
+          "quantity": "10",
+          "comparable_amount_krw": "660000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:24458954:R26TA01808055:R26TB01995485:1",
+          "contract_no": "R26TA01808055",
+          "request_no": "R26TB01995485",
+          "line_no": "1",
+          "quantity": "56",
+          "comparable_amount_krw": "3696000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
     },
     {
       "item_id": "25322270",
@@ -4106,7 +4230,8 @@
       "local_amount_krw": 72256000.0,
       "local_quantity": 1129.0,
       "availability": "available",
-      "status": "target_lookup_completed"
+      "status": "target_lookup_completed",
+      "market_investigated": true
     },
     {
       "item_id": "24264820",
@@ -4295,16 +4420,56 @@
       "md5_batch": 935,
       "local_amount_krw": 89845000.0,
       "local_quantity": 1057.0,
-      "availability": "available",
-      "status": "equivalent_price_spec_prepared_parent_review",
+      "availability": "claimed",
+      "status": "accepted_final_verification_not_complete",
       "market_searched": true,
       "bundle_path": "work\\fullscan\\industrial\\panel-25853499-review-bundle.json",
       "comparison_kind": "equivalent",
       "product_gap_krw": "56021000",
-      "official_event_path": "work\\fullscan\\industrial\\event-25853499.json",
+      "official_event_path": "work/fullscan/industrial/event-25853499-fresh.json",
       "official_Q": "1057",
       "official_C_krw": "89845000",
-      "scorable_facts_count": 4
+      "scorable_facts_count": 4,
+      "submission_id": "3816979c-ee0d-4f11-a5cb-1265d37da838",
+      "accepted_amount_krw": "56021000",
+      "receipt_path": "work/fullscan/industrial/receipt-25853499.json",
+      "verification_status_at_admission": "not_started",
+      "lint_status_at_admission": "pending",
+      "current_lint_not_refreshed": true,
+      "review_bundle_path": "work/fullscan/industrial/panel-25853499-review-bundle.json",
+      "market_investigated": true,
+      "representative_facts": [
+        {
+          "fact_id": "dl:25853499:R26TA01795740:R26TB01964566:3",
+          "contract_no": "R26TA01795740",
+          "request_no": "R26TB01964566",
+          "line_no": "3",
+          "quantity": "41",
+          "comparable_amount_krw": "3485000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:25853499:R26TA01795740:R26TB02197507:2",
+          "contract_no": "R26TA01795740",
+          "request_no": "R26TB02197507",
+          "line_no": "2",
+          "quantity": "731",
+          "comparable_amount_krw": "62135000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:25853499:R26TA01795740:R26TB02247657:5",
+          "contract_no": "R26TA01795740",
+          "request_no": "R26TB02247657",
+          "line_no": "5",
+          "quantity": "91",
+          "comparable_amount_krw": "7735000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
     },
     {
       "item_id": "25373131",
@@ -4406,16 +4571,46 @@
       "md5_batch": 275,
       "local_amount_krw": 63437000.0,
       "local_quantity": 869.0,
-      "availability": "available",
-      "status": "equivalent_price_spec_prepared_parent_review",
+      "availability": "claimed",
+      "status": "accepted_final_verification_not_complete",
       "market_searched": true,
       "bundle_path": "work\\fullscan\\industrial\\panel-25607692-review-bundle.json",
       "comparison_kind": "equivalent",
       "product_gap_krw": "35629000",
-      "official_event_path": "work\\fullscan\\industrial\\event-25607692.json",
+      "official_event_path": "work/fullscan/industrial/event-25607692-fresh.json",
       "official_Q": "869",
       "official_C_krw": "63437000",
-      "scorable_facts_count": 2
+      "scorable_facts_count": 2,
+      "submission_id": "655a457e-fe9d-4de7-bc30-444772615be7",
+      "accepted_amount_krw": "35629000",
+      "receipt_path": "work/fullscan/industrial/receipt-25607692.json",
+      "verification_status_at_admission": "not_started",
+      "lint_status_at_admission": "pending",
+      "current_lint_not_refreshed": true,
+      "review_bundle_path": "work/fullscan/industrial/panel-25607692-review-bundle.json",
+      "market_investigated": true,
+      "representative_facts": [
+        {
+          "fact_id": "dl:25607692:R26TA01774815:R26TB01886601:4",
+          "contract_no": "R26TA01774815",
+          "request_no": "R26TB01886601",
+          "line_no": "4",
+          "quantity": "688",
+          "comparable_amount_krw": "50224000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:25607692:R26TA01774815:R26TB02105609:3",
+          "contract_no": "R26TA01774815",
+          "request_no": "R26TB02105609",
+          "line_no": "3",
+          "quantity": "181",
+          "comparable_amount_krw": "13213000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
     },
     {
       "item_id": "23607691",
@@ -4423,16 +4618,56 @@
       "md5_batch": 751,
       "local_amount_krw": 44460000.0,
       "local_quantity": 855.0,
-      "availability": "available",
-      "status": "equivalent_price_spec_prepared_parent_review",
+      "availability": "claimed",
+      "status": "accepted_final_verification_not_complete",
       "market_searched": true,
       "bundle_path": "work\\fullscan\\industrial\\panel-23607691-review-bundle.json",
       "comparison_kind": "equivalent",
       "product_gap_krw": "17100000",
-      "official_event_path": "work\\fullscan\\industrial\\event-23607691.json",
+      "official_event_path": "work/fullscan/industrial/event-23607691-fresh.json",
       "official_Q": "855",
       "official_C_krw": "44460000",
-      "scorable_facts_count": 4
+      "scorable_facts_count": 4,
+      "submission_id": "1ed2efb3-78f4-42fd-9fe0-2cf552bfc191",
+      "accepted_amount_krw": "17100000",
+      "receipt_path": "work/fullscan/industrial/receipt-23607691.json",
+      "verification_status_at_admission": "not_started",
+      "lint_status_at_admission": "pending",
+      "current_lint_not_refreshed": true,
+      "review_bundle_path": "work/fullscan/industrial/panel-23607691-review-bundle.json",
+      "market_investigated": true,
+      "representative_facts": [
+        {
+          "fact_id": "dl:23607691:R26TA01820188:R26TB01989986:1",
+          "contract_no": "R26TA01820188",
+          "request_no": "R26TB01989986",
+          "line_no": "1",
+          "quantity": "627",
+          "comparable_amount_krw": "32604000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23607691:R26TA01820188:R26TB01990093:1",
+          "contract_no": "R26TA01820188",
+          "request_no": "R26TB01990093",
+          "line_no": "1",
+          "quantity": "203",
+          "comparable_amount_krw": "10556000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23607691:R26TA01820188:R26TB02130347:2",
+          "contract_no": "R26TA01820188",
+          "request_no": "R26TB02130347",
+          "line_no": "2",
+          "quantity": "5",
+          "comparable_amount_krw": "260000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
     },
     {
       "item_id": "25186809",
@@ -4458,16 +4693,56 @@
       "md5_batch": 1379,
       "local_amount_krw": 47554000.0,
       "local_quantity": 767.0,
-      "availability": "available",
-      "status": "equivalent_price_spec_prepared_parent_review",
+      "availability": "claimed",
+      "status": "accepted_final_verification_not_complete",
       "market_searched": true,
       "bundle_path": "work\\fullscan\\industrial\\panel-25771323-review-bundle.json",
       "comparison_kind": "equivalent",
       "product_gap_krw": "23010000",
-      "official_event_path": "work\\fullscan\\industrial\\event-25771323.json",
+      "official_event_path": "work/fullscan/industrial/event-25771323-fresh.json",
       "official_Q": "767",
       "official_C_krw": "47554000",
-      "scorable_facts_count": 4
+      "scorable_facts_count": 4,
+      "submission_id": "793c6ddf-19ce-471a-9443-4a3524be4bff",
+      "accepted_amount_krw": "23010000",
+      "receipt_path": "work/fullscan/industrial/receipt-25771323.json",
+      "verification_status_at_admission": "not_started",
+      "lint_status_at_admission": "pending",
+      "current_lint_not_refreshed": true,
+      "review_bundle_path": "work/fullscan/industrial/panel-25771323-review-bundle.json",
+      "market_investigated": true,
+      "representative_facts": [
+        {
+          "fact_id": "dl:25771323:R26TA01768235:R26TB01915264:1",
+          "contract_no": "R26TA01768235",
+          "request_no": "R26TB01915264",
+          "line_no": "1",
+          "quantity": "3",
+          "comparable_amount_krw": "186000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:25771323:R26TA01768235:R26TB01938185:1",
+          "contract_no": "R26TA01768235",
+          "request_no": "R26TB01938185",
+          "line_no": "1",
+          "quantity": "135",
+          "comparable_amount_krw": "8370000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:25771323:R26TA01768235:R26TB01994724:1",
+          "contract_no": "R26TA01768235",
+          "request_no": "R26TB01994724",
+          "line_no": "1",
+          "quantity": "5",
+          "comparable_amount_krw": "310000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
     },
     {
       "item_id": "25331258",
@@ -4475,8 +4750,50 @@
       "md5_batch": 1391,
       "local_amount_krw": 61503000.0,
       "local_quantity": 741.0,
-      "availability": "available",
-      "status": "target_lookup_completed"
+      "availability": "claimed",
+      "status": "accepted_final_verification_not_complete",
+      "submission_id": "087efe4b-6c5b-4764-a3eb-5bcf4766922e",
+      "accepted_amount_krw": "47618500",
+      "receipt_path": "work/fullscan/industrial/receipt-25331258.json",
+      "verification_status_at_admission": "not_started",
+      "lint_status_at_admission": "pending",
+      "current_lint_not_refreshed": true,
+      "comparison_kind": "equivalent",
+      "review_bundle_path": "work/fullscan/industrial/linear-25331258-review-bundle.json",
+      "market_investigated": true,
+      "official_event_path": "work/fullscan/industrial/event-25331258-fresh.json",
+      "representative_facts": [
+        {
+          "fact_id": "dl:25331258:002470244_1:R25TB00564727:3",
+          "contract_no": "002470244_1",
+          "request_no": "R25TB00564727",
+          "line_no": "3",
+          "quantity": "72",
+          "comparable_amount_krw": "5976000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:25331258:002470244_1:R25TB01045323:2",
+          "contract_no": "002470244_1",
+          "request_no": "R25TB01045323",
+          "line_no": "2",
+          "quantity": "7",
+          "comparable_amount_krw": "581000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:25331258:002470244_1:R25TB01074899:2",
+          "contract_no": "002470244_1",
+          "request_no": "R25TB01074899",
+          "line_no": "2",
+          "quantity": "8",
+          "comparable_amount_krw": "664000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
     },
     {
       "item_id": "24678485",
@@ -4493,16 +4810,56 @@
       "md5_batch": 1123,
       "local_amount_krw": 35809200.0,
       "local_quantity": 686.0,
-      "availability": "available",
-      "status": "equivalent_price_spec_prepared_parent_review",
+      "availability": "claimed",
+      "status": "accepted_final_verification_not_complete",
       "market_searched": true,
       "bundle_path": "work\\fullscan\\industrial\\panel-23990596-review-bundle.json",
       "comparison_kind": "equivalent",
       "product_gap_krw": "14886200",
-      "official_event_path": "work\\fullscan\\industrial\\event-23990596.json",
+      "official_event_path": "work/fullscan/industrial/event-23990596-fresh.json",
       "official_Q": "686",
       "official_C_krw": "35809200",
-      "scorable_facts_count": 3
+      "scorable_facts_count": 3,
+      "submission_id": "8aa89d96-2f13-4348-ae02-9d9c620edcd0",
+      "accepted_amount_krw": "14886200",
+      "receipt_path": "work/fullscan/industrial/receipt-23990596.json",
+      "verification_status_at_admission": "not_started",
+      "lint_status_at_admission": "pending",
+      "current_lint_not_refreshed": true,
+      "review_bundle_path": "work/fullscan/industrial/panel-23990596-review-bundle.json",
+      "market_investigated": true,
+      "representative_facts": [
+        {
+          "fact_id": "dl:23990596:R26TA01774815:R26TB01925528:1",
+          "contract_no": "R26TA01774815",
+          "request_no": "R26TB01925528",
+          "line_no": "1",
+          "quantity": "600",
+          "comparable_amount_krw": "31320000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23990596:R26TA01774815:R26TB02154868:1",
+          "contract_no": "R26TA01774815",
+          "request_no": "R26TB02154868",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "52200",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23990596:R26TA01774815:R26TB02161400:1",
+          "contract_no": "R26TA01774815",
+          "request_no": "R26TB02161400",
+          "line_no": "1",
+          "quantity": "85",
+          "comparable_amount_krw": "4437000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
     },
     {
       "item_id": "25149486",
@@ -4567,16 +4924,56 @@
       "md5_batch": 263,
       "local_amount_krw": 41400000.0,
       "local_quantity": 575.0,
-      "availability": "available",
-      "status": "equivalent_price_spec_prepared_parent_review",
+      "availability": "claimed",
+      "status": "accepted_final_verification_not_complete",
       "market_searched": true,
       "bundle_path": "work\\fullscan\\industrial\\panel-24624017-review-bundle.json",
       "comparison_kind": "equivalent",
       "product_gap_krw": "23000000",
-      "official_event_path": "work\\fullscan\\industrial\\event-24624017.json",
+      "official_event_path": "work/fullscan/industrial/event-24624017-fresh.json",
       "official_Q": "575",
       "official_C_krw": "41400000",
-      "scorable_facts_count": 5
+      "scorable_facts_count": 5,
+      "submission_id": "801afa5c-3bc7-41f6-873d-fd3c34c85b98",
+      "accepted_amount_krw": "23000000",
+      "receipt_path": "work/fullscan/industrial/receipt-24624017.json",
+      "verification_status_at_admission": "not_started",
+      "lint_status_at_admission": "pending",
+      "current_lint_not_refreshed": true,
+      "review_bundle_path": "work/fullscan/industrial/panel-24624017-review-bundle.json",
+      "market_investigated": true,
+      "representative_facts": [
+        {
+          "fact_id": "dl:24624017:R26TA01820188:R26TB01889608:9",
+          "contract_no": "R26TA01820188",
+          "request_no": "R26TB01889608",
+          "line_no": "9",
+          "quantity": "307",
+          "comparable_amount_krw": "22104000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:24624017:R26TA01820188:R26TB01929849:5",
+          "contract_no": "R26TA01820188",
+          "request_no": "R26TB01929849",
+          "line_no": "5",
+          "quantity": "95",
+          "comparable_amount_krw": "6840000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:24624017:R26TA01820188:R26TB01982392:5",
+          "contract_no": "R26TA01820188",
+          "request_no": "R26TB01982392",
+          "line_no": "5",
+          "quantity": "2",
+          "comparable_amount_krw": "144000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
     },
     {
       "item_id": "26057626",
@@ -4593,16 +4990,56 @@
       "md5_batch": 671,
       "local_amount_krw": 48953500.0,
       "local_quantity": 570.0,
-      "availability": "available",
-      "status": "equivalent_price_spec_prepared_parent_review",
+      "availability": "claimed",
+      "status": "accepted_final_verification_not_complete",
       "market_searched": true,
       "bundle_path": "work\\fullscan\\industrial\\panel-25333467-review-bundle.json",
       "comparison_kind": "equivalent",
       "product_gap_krw": "30713500",
-      "official_event_path": "work\\fullscan\\industrial\\event-25333467.json",
+      "official_event_path": "work/fullscan/industrial/event-25333467-fresh.json",
       "official_Q": "570",
       "official_C_krw": "48953500",
-      "scorable_facts_count": 5
+      "scorable_facts_count": 5,
+      "submission_id": "b5b21867-68fd-48ac-9a6c-44a723489306",
+      "accepted_amount_krw": "30713500",
+      "receipt_path": "work/fullscan/industrial/receipt-25333467.json",
+      "verification_status_at_admission": "not_started",
+      "lint_status_at_admission": "pending",
+      "current_lint_not_refreshed": true,
+      "review_bundle_path": "work/fullscan/industrial/panel-25333467-review-bundle.json",
+      "market_investigated": true,
+      "representative_facts": [
+        {
+          "fact_id": "dl:25333467:R26TA01856244:R26TB01957689:8",
+          "contract_no": "R26TA01856244",
+          "request_no": "R26TB01957689",
+          "line_no": "8",
+          "quantity": "8",
+          "comparable_amount_krw": "760000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:25333467:R26TA01856244:R26TB01979340:16",
+          "contract_no": "R26TA01856244",
+          "request_no": "R26TB01979340",
+          "line_no": "16",
+          "quantity": "6",
+          "comparable_amount_krw": "570000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:25333467:R26TA01856244:R26TB02080589:3",
+          "contract_no": "R26TA01856244",
+          "request_no": "R26TB02080589",
+          "line_no": "3",
+          "quantity": "8",
+          "comparable_amount_krw": "760000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
     },
     {
       "item_id": "23699050",
@@ -4610,16 +5047,56 @@
       "md5_batch": 1071,
       "local_amount_krw": 41025000.0,
       "local_quantity": 547.0,
-      "availability": "available",
-      "status": "equivalent_price_spec_prepared_parent_review",
+      "availability": "claimed",
+      "status": "accepted_final_verification_not_complete",
       "market_searched": true,
       "bundle_path": "work\\fullscan\\industrial\\panel-23699050-review-bundle.json",
       "comparison_kind": "equivalent",
       "product_gap_krw": "23521000",
-      "official_event_path": "work\\fullscan\\industrial\\event-23699050.json",
+      "official_event_path": "work/fullscan/industrial/event-23699050-fresh.json",
       "official_Q": "547",
       "official_C_krw": "41025000",
-      "scorable_facts_count": 8
+      "scorable_facts_count": 8,
+      "submission_id": "6a25d647-a5a7-439b-b81c-a48f5165a70d",
+      "accepted_amount_krw": "23521000",
+      "receipt_path": "work/fullscan/industrial/receipt-23699050.json",
+      "verification_status_at_admission": "not_started",
+      "lint_status_at_admission": "pending",
+      "current_lint_not_refreshed": true,
+      "review_bundle_path": "work/fullscan/industrial/panel-23699050-review-bundle.json",
+      "market_investigated": true,
+      "representative_facts": [
+        {
+          "fact_id": "dl:23699050:R26TA02057517:R26TB02131050:3",
+          "contract_no": "R26TA02057517",
+          "request_no": "R26TB02131050",
+          "line_no": "3",
+          "quantity": "62",
+          "comparable_amount_krw": "4650000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23699050:R26TA02057517:R26TB02131354:1",
+          "contract_no": "R26TA02057517",
+          "request_no": "R26TB02131354",
+          "line_no": "1",
+          "quantity": "181",
+          "comparable_amount_krw": "13575000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23699050:R26TA02057517:R26TB02144857:2",
+          "contract_no": "R26TA02057517",
+          "request_no": "R26TB02144857",
+          "line_no": "2",
+          "quantity": "55",
+          "comparable_amount_krw": "4125000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
     },
     {
       "item_id": "24638132",
@@ -4627,8 +5104,30 @@
       "md5_batch": 899,
       "local_amount_krw": 23272500.0,
       "local_quantity": 535.0,
-      "availability": "available",
-      "status": "target_lookup_completed"
+      "availability": "claimed",
+      "status": "accepted_final_verification_not_complete",
+      "submission_id": "9c430801-1d65-4867-bc59-e35e73b9f367",
+      "accepted_amount_krw": "6955000",
+      "receipt_path": "work/fullscan/industrial/receipt-24638132.json",
+      "verification_status_at_admission": "not_started",
+      "lint_status_at_admission": "pending",
+      "current_lint_not_refreshed": true,
+      "comparison_kind": "equivalent",
+      "review_bundle_path": "work/fullscan/industrial/panel-24638132-review-bundle.json",
+      "market_investigated": true,
+      "official_event_path": "work/fullscan/industrial/event-24638132-fresh.json",
+      "representative_facts": [
+        {
+          "fact_id": "dl:24638132:R26TA01809004:R26TB02198797:2",
+          "contract_no": "R26TA01809004",
+          "request_no": "R26TB02198797",
+          "line_no": "2",
+          "quantity": "535",
+          "comparable_amount_krw": "23272500",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
     },
     {
       "item_id": "24933792",
@@ -4662,12 +5161,53 @@
       "md5_batch": 1575,
       "local_amount_krw": 31679000.0,
       "local_quantity": 401.0,
-      "availability": "available",
-      "status": "target_lookup_completed",
-      "official_event_path": "work\\fullscan\\industrial\\event-24112596.json",
+      "availability": "claimed",
+      "status": "accepted_final_verification_not_complete",
+      "official_event_path": "work/fullscan/industrial/event-24112596-fresh.json",
       "official_Q": "401",
       "official_C_krw": "31679000",
-      "scorable_facts_count": 7
+      "scorable_facts_count": 7,
+      "submission_id": "0c9a4972-5271-40ff-9d87-d4424a0207b1",
+      "accepted_amount_krw": "24661500",
+      "receipt_path": "work/fullscan/industrial/receipt-24112596.json",
+      "verification_status_at_admission": "not_started",
+      "lint_status_at_admission": "pending",
+      "current_lint_not_refreshed": true,
+      "comparison_kind": "equivalent",
+      "review_bundle_path": "work/fullscan/industrial/linear-24112596-review-bundle.json",
+      "market_investigated": true,
+      "representative_facts": [
+        {
+          "fact_id": "dl:24112596:R26TA01757553:R26TB01888384:6",
+          "contract_no": "R26TA01757553",
+          "request_no": "R26TB01888384",
+          "line_no": "6",
+          "quantity": "9",
+          "comparable_amount_krw": "711000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:24112596:R26TA01757553:R26TB01992059:1",
+          "contract_no": "R26TA01757553",
+          "request_no": "R26TB01992059",
+          "line_no": "1",
+          "quantity": "10",
+          "comparable_amount_krw": "790000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:24112596:R26TA01757553:R26TB02118848:1",
+          "contract_no": "R26TA01757553",
+          "request_no": "R26TB02118848",
+          "line_no": "1",
+          "quantity": "24",
+          "comparable_amount_krw": "1896000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
     },
     {
       "item_id": "23352284",
@@ -4675,16 +5215,56 @@
       "md5_batch": 1767,
       "local_amount_krw": 30168400.0,
       "local_quantity": 398.0,
-      "availability": "available",
-      "status": "equivalent_price_spec_prepared_parent_review",
+      "availability": "claimed",
+      "status": "accepted_final_verification_not_complete",
       "market_searched": true,
       "bundle_path": "work\\fullscan\\industrial\\panel-23352284-review-bundle.json",
       "comparison_kind": "equivalent",
       "product_gap_krw": "17432400",
-      "official_event_path": "work\\fullscan\\industrial\\event-23352284.json",
+      "official_event_path": "work/fullscan/industrial/event-23352284-fresh.json",
       "official_Q": "398",
       "official_C_krw": "30168400",
-      "scorable_facts_count": 9
+      "scorable_facts_count": 9,
+      "submission_id": "c3493bc2-7a4a-457e-87a1-f6b62c910c1c",
+      "accepted_amount_krw": "17432400",
+      "receipt_path": "work/fullscan/industrial/receipt-23352284.json",
+      "verification_status_at_admission": "not_started",
+      "lint_status_at_admission": "pending",
+      "current_lint_not_refreshed": true,
+      "review_bundle_path": "work/fullscan/industrial/panel-23352284-review-bundle.json",
+      "market_investigated": true,
+      "representative_facts": [
+        {
+          "fact_id": "dl:23352284:R26TA01794536:R26TB01949882:2",
+          "contract_no": "R26TA01794536",
+          "request_no": "R26TB01949882",
+          "line_no": "2",
+          "quantity": "10",
+          "comparable_amount_krw": "758000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23352284:R26TA01794536:R26TB01952529:2",
+          "contract_no": "R26TA01794536",
+          "request_no": "R26TB01952529",
+          "line_no": "2",
+          "quantity": "260",
+          "comparable_amount_krw": "19708000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23352284:R26TA01794536:R26TB01975743:1",
+          "contract_no": "R26TA01794536",
+          "request_no": "R26TB01975743",
+          "line_no": "1",
+          "quantity": "5",
+          "comparable_amount_krw": "379000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
     },
     {
       "item_id": "26073174",
@@ -4692,8 +5272,40 @@
       "md5_batch": 1895,
       "local_amount_krw": 23220000.0,
       "local_quantity": 387.0,
-      "availability": "available",
-      "status": "target_lookup_completed"
+      "availability": "claimed",
+      "status": "accepted_final_verification_not_complete",
+      "submission_id": "8fa2738f-2c08-42ea-967a-d51275a116cd",
+      "accepted_amount_krw": "10836000",
+      "receipt_path": "work/fullscan/industrial/receipt-26073174.json",
+      "verification_status_at_admission": "not_started",
+      "lint_status_at_admission": "pending",
+      "current_lint_not_refreshed": true,
+      "comparison_kind": "equivalent",
+      "review_bundle_path": "work/fullscan/industrial/panel-26073174-review-bundle.json",
+      "market_investigated": true,
+      "official_event_path": "work/fullscan/industrial/event-26073174-fresh.json",
+      "representative_facts": [
+        {
+          "fact_id": "dl:26073174:R26TA01812963:R26TB02007056:3",
+          "contract_no": "R26TA01812963",
+          "request_no": "R26TB02007056",
+          "line_no": "3",
+          "quantity": "147",
+          "comparable_amount_krw": "8820000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:26073174:R26TA01812963:R26TB02107919:4",
+          "contract_no": "R26TA01812963",
+          "request_no": "R26TB02107919",
+          "line_no": "4",
+          "quantity": "240",
+          "comparable_amount_krw": "14400000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
     },
     {
       "item_id": "24961256",
@@ -4701,8 +5313,40 @@
       "md5_batch": 1239,
       "local_amount_krw": 18591500.0,
       "local_quantity": 361.0,
-      "availability": "available",
-      "status": "target_lookup_completed"
+      "availability": "claimed",
+      "status": "accepted_final_verification_not_complete",
+      "submission_id": "ad8ea594-36c2-4c1b-9d08-33d66d803604",
+      "accepted_amount_krw": "7039500",
+      "receipt_path": "work/fullscan/industrial/receipt-24961256.json",
+      "verification_status_at_admission": "not_started",
+      "lint_status_at_admission": "pending",
+      "current_lint_not_refreshed": true,
+      "comparison_kind": "equivalent",
+      "review_bundle_path": "work/fullscan/industrial/panel-24961256-review-bundle.json",
+      "market_investigated": true,
+      "official_event_path": "work/fullscan/industrial/event-24961256-fresh.json",
+      "representative_facts": [
+        {
+          "fact_id": "dl:24961256:R26TA01809004:R26TB02078901:5",
+          "contract_no": "R26TA01809004",
+          "request_no": "R26TB02078901",
+          "line_no": "5",
+          "quantity": "206",
+          "comparable_amount_krw": "10609000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:24961256:R26TA01809004:R26TB02339637:1",
+          "contract_no": "R26TA01809004",
+          "request_no": "R26TB02339637",
+          "line_no": "1",
+          "quantity": "155",
+          "comparable_amount_krw": "7982500",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
     },
     {
       "item_id": "25322344",
@@ -4764,8 +5408,2051 @@
       "md5_batch": 815,
       "local_amount_krw": 14850000.0,
       "local_quantity": 297.0,
+      "availability": "claimed",
+      "status": "accepted_final_verification_not_complete",
+      "submission_id": "7497f39e-86eb-4211-b266-01127c671b10",
+      "accepted_amount_krw": "5791500",
+      "receipt_path": "work/fullscan/industrial/receipt-25823003.json",
+      "verification_status_at_admission": "not_started",
+      "lint_status_at_admission": "pending",
+      "current_lint_not_refreshed": true,
+      "comparison_kind": "equivalent",
+      "review_bundle_path": "work/fullscan/industrial/panel-25823003-review-bundle.json",
+      "market_investigated": true,
+      "official_event_path": "work/fullscan/industrial/event-25823003-fresh.json",
+      "representative_facts": [
+        {
+          "fact_id": "dl:25823003:R26TA01807980:R26TB01893850:3",
+          "contract_no": "R26TA01807980",
+          "request_no": "R26TB01893850",
+          "line_no": "3",
+          "quantity": "85",
+          "comparable_amount_krw": "4250000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:25823003:R26TA01807980:R26TB02164261:1",
+          "contract_no": "R26TA01807980",
+          "request_no": "R26TB02164261",
+          "line_no": "1",
+          "quantity": "212",
+          "comparable_amount_krw": "10600000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
+    },
+    {
+      "item_id": "25790575",
+      "status": "accepted_final_verification_not_complete",
+      "model": "EP0050-6464FD",
+      "md5_batch": 319,
+      "local_amount_krw": 89784000.0,
+      "local_quantity": 1032.0,
+      "availability": "claimed",
+      "submission_id": "8d5d213f-dd3b-47d7-804c-3f3ad067e0f1",
+      "accepted_amount_krw": "60372000",
+      "receipt_path": "work/fullscan/industrial/receipt-25790575.json",
+      "verification_status_at_admission": "not_started",
+      "lint_status_at_admission": "pending",
+      "current_lint_not_refreshed": true,
+      "comparison_kind": "equivalent",
+      "review_bundle_path": "work/fullscan/industrial/panel50-25790575-review-bundle.json",
+      "market_investigated": true,
+      "official_event_path": "work/fullscan/industrial/event-25790575-fresh.json",
+      "representative_facts": [
+        {
+          "fact_id": "dl:25790575:R25TA00629733:R25TB01380651:2",
+          "contract_no": "R25TA00629733",
+          "request_no": "R25TB01380651",
+          "line_no": "2",
+          "quantity": "200",
+          "comparable_amount_krw": "17400000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:25790575:R25TA00629733:R26TB01664031:1",
+          "contract_no": "R25TA00629733",
+          "request_no": "R26TB01664031",
+          "line_no": "1",
+          "quantity": "414",
+          "comparable_amount_krw": "36018000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:25790575:R25TA00629733:R26TB01887764:2",
+          "contract_no": "R25TA00629733",
+          "request_no": "R26TB01887764",
+          "line_no": "2",
+          "quantity": "195",
+          "comparable_amount_krw": "16965000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
+    },
+    {
+      "item_id": "25412914",
+      "status": "accepted_final_verification_not_complete",
+      "model": "STMAS-EF-1250E",
+      "md5_batch": 1311,
+      "local_amount_krw": 48506000.0,
+      "local_quantity": 614.0,
+      "availability": "claimed",
+      "submission_id": "9efacba7-d0ae-489f-b105-a100f750fa92",
+      "accepted_amount_krw": "31068400",
+      "receipt_path": "work/fullscan/industrial/receipt-25412914.json",
+      "verification_status_at_admission": "not_started",
+      "lint_status_at_admission": "pending",
+      "current_lint_not_refreshed": true,
+      "comparison_kind": "equivalent",
+      "review_bundle_path": "work/fullscan/industrial/panel50-25412914-review-bundle.json",
+      "market_investigated": true,
+      "official_event_path": "work/fullscan/industrial/event-25412914-fresh.json",
+      "representative_facts": [
+        {
+          "fact_id": "dl:25412914:R26TA01885353:R26TB01977883:7",
+          "contract_no": "R26TA01885353",
+          "request_no": "R26TB01977883",
+          "line_no": "7",
+          "quantity": "489",
+          "comparable_amount_krw": "38631000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:25412914:R26TA01885353:R26TB02102254:2",
+          "contract_no": "R26TA01885353",
+          "request_no": "R26TB02102254",
+          "line_no": "2",
+          "quantity": "71",
+          "comparable_amount_krw": "5609000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:25412914:R26TA01885353:R26TB02135159:1",
+          "contract_no": "R26TA01885353",
+          "request_no": "R26TB02135159",
+          "line_no": "1",
+          "quantity": "10",
+          "comparable_amount_krw": "790000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
+    },
+    {
+      "item_id": "23329765",
+      "status": "target_lookup_completed",
+      "model": "DW-D50WJS1200",
+      "md5_batch": 351,
+      "local_amount_krw": 46015200.0,
+      "local_quantity": 498.0,
       "availability": "available",
-      "status": "target_lookup_completed"
+      "market_investigated": true
+    },
+    {
+      "item_id": "23683493",
+      "status": "target_lookup_completed",
+      "model": "LF950ED13E",
+      "md5_batch": 627,
+      "local_amount_krw": 19968000.0,
+      "local_quantity": 384.0,
+      "availability": "available",
+      "market_investigated": true
+    },
+    {
+      "item_id": "25148158",
+      "status": "target_lookup_completed",
+      "model": "DW-D50W1200EG",
+      "md5_batch": 1827,
+      "local_amount_krw": 33352000.0,
+      "local_quantity": 379.0,
+      "availability": "available",
+      "market_investigated": true
+    },
+    {
+      "item_id": "25321262",
+      "status": "target_lookup_completed",
+      "model": "P-PWL50DM1-S857",
+      "md5_batch": 1787,
+      "local_amount_krw": 65813000.0,
+      "local_quantity": 341.0,
+      "availability": "available",
+      "market_investigated": true
+    },
+    {
+      "item_id": "25896344",
+      "status": "target_lookup_completed",
+      "model": "DO-RO1-50W",
+      "md5_batch": 787,
+      "local_amount_krw": 15510000.0,
+      "local_quantity": 282.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25058173",
+      "status": "target_lookup_completed",
+      "model": "KM-JD-SS12832-50W",
+      "md5_batch": 411,
+      "local_amount_krw": 11567000.0,
+      "local_quantity": 269.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25899430",
+      "status": "target_lookup_completed",
+      "model": "KKL-50KH1230N",
+      "md5_batch": 623,
+      "local_amount_krw": 38376000.0,
+      "local_quantity": 234.0,
+      "availability": "available",
+      "market_investigated": true
+    },
+    {
+      "item_id": "23961758",
+      "status": "target_lookup_completed",
+      "model": "NR-E-30120-50",
+      "md5_batch": 503,
+      "local_amount_krw": 17220000.0,
+      "local_quantity": 210.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "24306099",
+      "status": "target_lookup_completed",
+      "model": "KRY5050-50",
+      "md5_batch": 575,
+      "local_amount_krw": 9408000.0,
+      "local_quantity": 192.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "23108335",
+      "status": "target_lookup_completed",
+      "model": "EP-TC-R60",
+      "md5_batch": 1363,
+      "local_amount_krw": 27720000.0,
+      "local_quantity": 180.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25345935",
+      "status": "target_lookup_completed",
+      "model": "KO-ME606050",
+      "md5_batch": 651,
+      "local_amount_krw": 10140000.0,
+      "local_quantity": 169.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25677642",
+      "status": "target_lookup_completed",
+      "model": "P-EGM50FT8-B857HA",
+      "md5_batch": 1403,
+      "local_amount_krw": 15369000.0,
+      "local_quantity": 141.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25344739",
+      "status": "target_lookup_completed",
+      "model": "DJ-R600-50",
+      "md5_batch": 387,
+      "local_amount_krw": 14630000.0,
+      "local_quantity": 133.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "23653613",
+      "status": "target_lookup_completed",
+      "model": "GE1230-50A",
+      "md5_batch": 1375,
+      "local_amount_krw": 10112000.0,
+      "local_quantity": 128.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "24263928",
+      "status": "target_lookup_completed",
+      "model": "DFE-K0606M50W",
+      "md5_batch": 675,
+      "local_amount_krw": 11990000.0,
+      "local_quantity": 110.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25352860",
+      "status": "target_lookup_completed",
+      "model": "LF950EZ1EWD55",
+      "md5_batch": 1963,
+      "local_amount_krw": 9350000.0,
+      "local_quantity": 110.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "23871905",
+      "status": "target_lookup_completed",
+      "model": "JKE5066",
+      "md5_batch": 1791,
+      "local_amount_krw": 10028000.0,
+      "local_quantity": 109.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "23305564",
+      "status": "target_lookup_completed",
+      "model": "DYDL-50",
+      "md5_batch": 1115,
+      "local_amount_krw": 15370000.0,
+      "local_quantity": 106.0,
+      "availability": "reform_found"
+    },
+    {
+      "item_id": "23881484",
+      "status": "target_lookup_completed",
+      "model": "LTON-GD1Z50",
+      "md5_batch": 207,
+      "local_amount_krw": 9310000.0,
+      "local_quantity": 98.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25538253",
+      "status": "target_lookup_completed",
+      "model": "PEM616150-CA",
+      "md5_batch": 1571,
+      "local_amount_krw": 7189000.0,
+      "local_quantity": 91.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25528235",
+      "status": "target_lookup_completed",
+      "model": "LF950EZ1EWD74",
+      "md5_batch": 1487,
+      "local_amount_krw": 7140000.0,
+      "local_quantity": 84.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "24933780",
+      "status": "target_lookup_completed",
+      "model": "EE1230TN-050DS",
+      "md5_batch": 479,
+      "local_amount_krw": 8160000.0,
+      "local_quantity": 80.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "24598729",
+      "status": "target_lookup_completed",
+      "model": "DLL-DI-EG0650W",
+      "md5_batch": 1763,
+      "local_amount_krw": 4466000.0,
+      "local_quantity": 77.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25658592",
+      "status": "target_lookup_completed",
+      "model": "P-EGL50FM7-B857PA",
+      "md5_batch": 515,
+      "local_amount_krw": 6750000.0,
+      "local_quantity": 75.0,
+      "availability": "reform_found"
+    },
+    {
+      "item_id": "24477393",
+      "status": "target_lookup_completed",
+      "model": "DEL-RL6262TR-50",
+      "md5_batch": 1187,
+      "local_amount_krw": 8140000.0,
+      "local_quantity": 74.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25005584",
+      "status": "target_lookup_completed",
+      "model": "HJIN-NR50",
+      "md5_batch": 1743,
+      "local_amount_krw": 7100000.0,
+      "local_quantity": 71.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "23543781",
+      "status": "target_lookup_completed",
+      "model": "PWL50DM1-S857",
+      "md5_batch": 627,
+      "local_amount_krw": 10050000.0,
+      "local_quantity": 67.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25595398",
+      "status": "target_lookup_completed",
+      "model": "HME-ID50-312E",
+      "md5_batch": 939,
+      "local_amount_krw": 5220000.0,
+      "local_quantity": 60.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "24166622",
+      "status": "target_lookup_completed",
+      "model": "LFE32M-5057",
+      "md5_batch": 1419,
+      "local_amount_krw": 4138200.0,
+      "local_quantity": 57.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "24361785",
+      "status": "target_lookup_completed",
+      "model": "RL-TN3312N50-004",
+      "md5_batch": 843,
+      "local_amount_krw": 6480000.0,
+      "local_quantity": 48.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "26012360",
+      "status": "target_lookup_completed",
+      "model": "HTFP-50WE600HSW",
+      "md5_batch": 1043,
+      "local_amount_krw": 4935000.0,
+      "local_quantity": 47.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "24725825",
+      "status": "target_lookup_completed",
+      "model": "SKRA57D-50",
+      "md5_batch": 211,
+      "local_amount_krw": 2976600.0,
+      "local_quantity": 41.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "23493571",
+      "status": "target_lookup_completed",
+      "model": "KR-LEDF180-50-ED",
+      "md5_batch": 1319,
+      "local_amount_krw": 3080000.0,
+      "local_quantity": 40.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25607699",
+      "status": "target_lookup_completed",
+      "model": "JS-EGC50W(GT66)",
+      "md5_batch": 735,
+      "local_amount_krw": 3200000.0,
+      "local_quantity": 40.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25896334",
+      "status": "target_lookup_completed",
+      "model": "DO-RODIM-50W-R",
+      "md5_batch": 515,
+      "local_amount_krw": 3400000.0,
+      "local_quantity": 40.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "22383825",
+      "status": "target_lookup_completed",
+      "model": "UHFP-L50WA",
+      "md5_batch": 1167,
+      "local_amount_krw": 4180000.0,
+      "local_quantity": 38.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "24859006",
+      "status": "target_lookup_completed",
+      "model": "GDR-EB50D",
+      "md5_batch": 971,
+      "local_amount_krw": 2516000.0,
+      "local_quantity": 37.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "23687335",
+      "status": "target_lookup_completed",
+      "model": "ALPS/L-DB5022lQD",
+      "md5_batch": 327,
+      "local_amount_krw": 2275000.0,
+      "local_quantity": 35.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25613254",
+      "status": "target_lookup_completed",
+      "model": "SYTFL-50B-E01",
+      "md5_batch": 1459,
+      "local_amount_krw": 2516000.0,
+      "local_quantity": 34.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25855108",
+      "status": "target_lookup_completed",
+      "model": "LF950DED66",
+      "md5_batch": 959,
+      "local_amount_krw": 1870000.0,
+      "local_quantity": 34.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "26322835",
+      "status": "target_lookup_completed",
+      "model": "LM-PKL-50",
+      "md5_batch": 515,
+      "local_amount_krw": 6080000.0,
+      "local_quantity": 32.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25234100",
+      "status": "target_lookup_completed",
+      "model": "UBT-TL-50W57KSEMS",
+      "md5_batch": 251,
+      "local_amount_krw": 3750000.0,
+      "local_quantity": 30.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "23734420",
+      "status": "target_lookup_completed",
+      "model": "25-18-80",
+      "md5_batch": 1159,
+      "local_amount_krw": 37792792250.0,
+      "local_quantity": 376872.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "24445466",
+      "status": "target_lookup_completed",
+      "model": "Windows 11 Pro",
+      "md5_batch": 315,
+      "local_amount_krw": 35215763401.0,
+      "local_quantity": 221137.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "25187399",
+      "status": "target_lookup_completed",
+      "model": "한컴오피스 2024",
+      "md5_batch": 1167,
+      "local_amount_krw": 31544515200.0,
+      "local_quantity": 313408.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "24445465",
+      "status": "target_lookup_completed",
+      "model": "Windows 11 Home",
+      "md5_batch": 539,
+      "local_amount_krw": 22737101903.0,
+      "local_quantity": 184076.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "25890761",
+      "status": "target_lookup_completed",
+      "model": "DK-16(SD400)",
+      "md5_batch": 1567,
+      "local_amount_krw": 20161535345.0,
+      "local_quantity": 24447.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "21801663",
+      "status": "target_lookup_completed",
+      "model": "HK-400-13",
+      "md5_batch": 983,
+      "local_amount_krw": 17822256145.0,
+      "local_quantity": 22110.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "26093067",
+      "status": "target_lookup_completed",
+      "model": "타스만 2.2 디젤 4WD 2026년",
+      "md5_batch": 1103,
+      "local_amount_krw": 16594600000.0,
+      "local_quantity": 397.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "25563970",
+      "status": "target_lookup_completed",
+      "model": "DS367A-456520",
+      "md5_batch": 1175,
+      "local_amount_krw": 16298835910.0,
+      "local_quantity": 11611.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "24206902",
+      "status": "target_lookup_completed",
+      "model": "SER-AL-II",
+      "md5_batch": 1375,
+      "local_amount_krw": 13882043570.0,
+      "local_quantity": 68369.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "25935439",
+      "status": "target_lookup_completed",
+      "model": "TU2-RH4-526",
+      "md5_batch": 1283,
+      "local_amount_krw": 13614167000.0,
+      "local_quantity": 9194.0,
+      "availability": "reform_found"
+    },
+    {
+      "item_id": "24322082",
+      "status": "review_body_acquisition_only_special_configuration_unconfirmed",
+      "model": "NN-EMPC01",
+      "md5_batch": 1647,
+      "local_amount_krw": 13050000000.0,
+      "local_quantity": 261.0,
+      "availability": "available",
+      "comparison_kind": "equivalent",
+      "review_bundle_path": "work/fullscan/industrial/vehicle-24322082-ev6-review-bundle.json",
+      "market_investigated": true,
+      "official_event_path": "work\\fullscan\\industrial\\event-24322082.json",
+      "representative_facts": [
+        {
+          "fact_id": "dl:24322082:002150669_1:R25TB01387647:1",
+          "contract_no": "002150669_1",
+          "request_no": "R25TB01387647",
+          "line_no": "1",
+          "quantity": "261",
+          "comparable_amount_krw": "13050000000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        }
+      ],
+      "official_C_krw": "13050000000",
+      "official_Q": "261",
+      "official_facts_count": 1,
+      "official_requests_count": 1,
+      "listing_path": "work\\fullscan\\industrial\\listing-24322082.json"
+    },
+    {
+      "item_id": "24384971",
+      "status": "target_lookup_completed",
+      "model": "MS-A03-01",
+      "md5_batch": 1279,
+      "local_amount_krw": 12834834626.0,
+      "local_quantity": 59438.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "26118210",
+      "status": "target_lookup_completed",
+      "model": "G4FT-6P32WLS-A01b1",
+      "md5_batch": 931,
+      "local_amount_krw": 11635200000.0,
+      "local_quantity": 101.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "24990730",
+      "status": "target_lookup_completed",
+      "model": "JSE-F-508-12",
+      "md5_batch": 1543,
+      "local_amount_krw": 11481930234.0,
+      "local_quantity": 44130.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "25786543",
+      "status": "target_lookup_completed",
+      "model": "YK-500-22",
+      "md5_batch": 1635,
+      "local_amount_krw": 11416049342.0,
+      "local_quantity": 13807.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "24927465",
+      "status": "excluded_no_scorable_facts",
+      "model": "RTS15L3",
+      "md5_batch": 531,
+      "local_amount_krw": 10780000000.0,
+      "local_quantity": null,
+      "availability": "available",
+      "official_C_krw": "0",
+      "official_Q": "0",
+      "official_facts_count": 0,
+      "official_requests_count": 0,
+      "official_event_path": "work\\fullscan\\industrial\\event-24927465.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-24927465.json",
+      "reason": "공식 이벤트 상세의 scorable fact가0건이어서 로컬 납품액으로 점수를 만들지 않는다."
+    },
+    {
+      "item_id": "23734442",
+      "status": "target_lookup_completed",
+      "model": "25-30-120",
+      "md5_batch": 1135,
+      "local_amount_krw": 10719775502.0,
+      "local_quantity": 86772.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "25856708",
+      "status": "target_lookup_completed",
+      "model": "HY-400-16",
+      "md5_batch": 1455,
+      "local_amount_krw": 10525335269.0,
+      "local_quantity": 12779.0,
+      "availability": "available",
+      "market_investigated": true,
+      "official_C_krw": "10511113978",
+      "official_Q": "12779",
+      "official_facts_count": 863,
+      "official_requests_count": 863,
+      "official_event_path": "work\\fullscan\\industrial\\event-25856708.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-25856708.json"
+    },
+    {
+      "item_id": "24385354",
+      "status": "target_lookup_completed",
+      "model": "NSP55",
+      "md5_batch": 883,
+      "local_amount_krw": 9809671600.0,
+      "local_quantity": 173331.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "25890765",
+      "status": "target_lookup_completed",
+      "model": "DK-29(SD400)",
+      "md5_batch": 1395,
+      "local_amount_krw": 9674162163.0,
+      "local_quantity": 11753.0,
+      "availability": "available",
+      "official_C_krw": "9669161936",
+      "official_Q": "11753",
+      "official_facts_count": 133,
+      "official_requests_count": 133,
+      "official_event_path": "work\\fullscan\\industrial\\event-25890765.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-25890765.json"
+    },
+    {
+      "item_id": "21801662",
+      "status": "target_lookup_completed",
+      "model": "HK-400-16",
+      "md5_batch": 207,
+      "local_amount_krw": 9369414341.0,
+      "local_quantity": 11390.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "25954864",
+      "status": "target_lookup_completed",
+      "model": "G4FT-6P32WLS-A01b2",
+      "md5_batch": 1175,
+      "local_amount_krw": 9270888000.0,
+      "local_quantity": 132.0,
+      "availability": "available",
+      "official_C_krw": "9270888000",
+      "official_Q": "132",
+      "official_facts_count": 31,
+      "official_requests_count": 31,
+      "official_event_path": "work\\fullscan\\industrial\\event-25954864.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-25954864.json"
+    },
+    {
+      "item_id": "25856577",
+      "status": "target_lookup_completed",
+      "model": "HKS-24016",
+      "md5_batch": 1455,
+      "local_amount_krw": 9169658254.0,
+      "local_quantity": 11119.0,
+      "availability": "available",
+      "market_investigated": true,
+      "official_C_krw": "9147657360",
+      "official_Q": "11119",
+      "official_facts_count": 897,
+      "official_requests_count": 897,
+      "official_event_path": "work\\fullscan\\industrial\\event-25856577.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-25856577.json"
+    },
+    {
+      "item_id": "25559298",
+      "status": "target_lookup_completed",
+      "model": "GVT-24-DPMA",
+      "md5_batch": 1487,
+      "local_amount_krw": 8694000000.0,
+      "local_quantity": 23.0,
+      "availability": "available",
+      "official_C_krw": "8694000000",
+      "official_Q": "23",
+      "official_facts_count": 6,
+      "official_requests_count": 6,
+      "official_event_path": "work\\fullscan\\industrial\\event-25559298.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-25559298.json"
+    },
+    {
+      "item_id": "23734421",
+      "status": "target_lookup_completed",
+      "model": "25-18-120",
+      "md5_batch": 587,
+      "local_amount_krw": 8485779472.0,
+      "local_quantity": 84985.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "26271992",
+      "status": "target_lookup_completed",
+      "model": "군용 마이티 2.5톤 카고 프리미엄 더블캡 장축고상 2027년",
+      "md5_batch": 551,
+      "local_amount_krw": 7384920000.0,
+      "local_quantity": 114.0,
+      "availability": "available",
+      "market_investigated": true,
+      "official_C_krw": "7384920000",
+      "official_Q": "114",
+      "official_facts_count": 45,
+      "official_requests_count": 9,
+      "official_event_path": "work\\fullscan\\industrial\\event-26271992.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-26271992.json"
+    },
+    {
+      "item_id": "25831871",
+      "status": "target_lookup_completed",
+      "model": "DH-400-29",
+      "md5_batch": 1259,
+      "local_amount_krw": 7160008105.0,
+      "local_quantity": 8723.0,
+      "availability": "available",
+      "official_C_krw": "7154318891",
+      "official_Q": "8723",
+      "official_facts_count": 155,
+      "official_requests_count": 155,
+      "official_event_path": "work\\fullscan\\industrial\\event-25831871.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-25831871.json"
+    },
+    {
+      "item_id": "25888739",
+      "status": "target_lookup_completed",
+      "model": "쏠라티 15인승 럭셔리 2026년",
+      "md5_batch": 971,
+      "local_amount_krw": 7060650000.0,
+      "local_quantity": 103.0,
+      "availability": "available",
+      "market_investigated": true,
+      "official_C_krw": "7060650000",
+      "official_Q": "103",
+      "official_facts_count": 78,
+      "official_requests_count": 78,
+      "official_event_path": "work\\fullscan\\industrial\\event-25888739.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-25888739.json"
+    },
+    {
+      "item_id": "26104659",
+      "status": "target_lookup_completed",
+      "model": "TMB-E219200",
+      "md5_batch": 419,
+      "local_amount_krw": 6849953220.0,
+      "local_quantity": 5374.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "25738687",
+      "status": "target_lookup_completed",
+      "model": "SS-NB-37",
+      "md5_batch": 1143,
+      "local_amount_krw": 6830824200.0,
+      "local_quantity": 56627.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "25427716",
+      "status": "target_lookup_completed",
+      "model": "AhnLab EPP Patch Management 5.0 SP1",
+      "md5_batch": 867,
+      "local_amount_krw": 6677807820.0,
+      "local_quantity": 208796.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "25424928",
+      "status": "target_lookup_completed",
+      "model": "기본설치 작업(환경설정 포함) 및 데이터이관(기존에 사용하던 컴퓨터 데이터를 새 컴퓨터로 이전)",
+      "md5_batch": 1471,
+      "local_amount_krw": 6587244000.0,
+      "local_quantity": 182979.0,
+      "availability": "available",
+      "official_C_krw": "6071580000",
+      "official_Q": "168655",
+      "official_facts_count": 2000,
+      "official_requests_count": 2000,
+      "official_event_path": "work\\fullscan\\industrial\\event-25424928.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-25424928.json"
+    },
+    {
+      "item_id": "23950810",
+      "status": "target_lookup_completed",
+      "model": "STR-GP-10225",
+      "md5_batch": 575,
+      "local_amount_krw": 6581462398.0,
+      "local_quantity": 87118.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "23938319",
+      "status": "target_lookup_completed",
+      "model": "TUCY 2K 040201",
+      "md5_batch": 283,
+      "local_amount_krw": 6449300000.0,
+      "local_quantity": 30.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "22611279",
+      "status": "target_lookup_completed",
+      "model": "25-30-150",
+      "md5_batch": 499,
+      "local_amount_krw": 6404991616.0,
+      "local_quantity": 62681.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "21499997",
+      "status": "target_lookup_completed",
+      "model": "HS-29(SD400)",
+      "md5_batch": 1927,
+      "local_amount_krw": 6315261194.0,
+      "local_quantity": 7953.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "24520228",
+      "status": "target_lookup_completed",
+      "model": "SP-11P",
+      "md5_batch": 1043,
+      "local_amount_krw": 6169800000.0,
+      "local_quantity": 113.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "23772997",
+      "status": "target_lookup_completed",
+      "model": "25-30-150",
+      "md5_batch": 1383,
+      "local_amount_krw": 6071792330.0,
+      "local_quantity": 59805.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "24984984",
+      "status": "deferred_core_structure_and_installed_scope_cost_not_established",
+      "model": "GUNGI-RF-220",
+      "md5_batch": 1591,
+      "local_amount_krw": 5993126000.0,
+      "local_quantity": 30110.0,
+      "availability": "available",
+      "comparison_kind": "equivalent",
+      "review_bundle_path": "work/fullscan/industrial/roof-24984984-review-bundle.json",
+      "market_investigated": true,
+      "official_event_path": "work\\fullscan\\industrial\\event-24984984.json",
+      "representative_facts": [
+        {
+          "fact_id": "dl:24984984:002470240_1:R25TB01022628:1",
+          "contract_no": "002470240_1",
+          "request_no": "R25TB01022628",
+          "line_no": "1",
+          "quantity": "10",
+          "comparable_amount_krw": "2010000",
+          "unit": "㎡",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:24984984:002470240_1:R25TB01066105:1",
+          "contract_no": "002470240_1",
+          "request_no": "R25TB01066105",
+          "line_no": "1",
+          "quantity": "481",
+          "comparable_amount_krw": "96681000",
+          "unit": "㎡",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:24984984:002470240_1:R25TB01105612:1",
+          "contract_no": "002470240_1",
+          "request_no": "R25TB01105612",
+          "line_no": "1",
+          "quantity": "389",
+          "comparable_amount_krw": "78189000",
+          "unit": "㎡",
+          "tax_basis": "vat_included"
+        }
+      ],
+      "official_C_krw": "5993126000",
+      "official_Q": "30110",
+      "official_facts_count": 77,
+      "official_requests_count": 77,
+      "listing_path": "work\\fullscan\\industrial\\listing-24984984.json"
+    },
+    {
+      "item_id": "23734439",
+      "status": "target_lookup_completed",
+      "model": "25-27-120",
+      "md5_batch": 291,
+      "local_amount_krw": 5987917668.0,
+      "local_quantity": 52666.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "24384970",
+      "status": "target_lookup_completed",
+      "model": "MS-A02-03",
+      "md5_batch": 1687,
+      "local_amount_krw": 5961701456.0,
+      "local_quantity": 30356.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "25001285",
+      "status": "target_lookup_completed",
+      "model": "KSWT-ACube01",
+      "md5_batch": 455,
+      "local_amount_krw": 5885320000.0,
+      "local_quantity": 43792.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "24267330",
+      "status": "target_lookup_completed",
+      "model": "SYS-ACP-4F",
+      "md5_batch": 235,
+      "local_amount_krw": 5840049907.0,
+      "local_quantity": 28957.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "23734463",
+      "status": "target_lookup_completed",
+      "model": "WC-3",
+      "md5_batch": 339,
+      "local_amount_krw": 5781800516.0,
+      "local_quantity": 41668.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "26082629",
+      "status": "target_lookup_completed",
+      "model": "스타리아 HEV 투어러 11인승 스마트 2026년",
+      "md5_batch": 1111,
+      "local_amount_krw": 5744200000.0,
+      "local_quantity": 154.0,
+      "availability": "available",
+      "market_investigated": true,
+      "official_C_krw": "5744200000",
+      "official_Q": "154",
+      "official_facts_count": 108,
+      "official_requests_count": 78,
+      "official_event_path": "work\\fullscan\\industrial\\event-26082629.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-26082629.json"
+    },
+    {
+      "item_id": "25468725",
+      "status": "target_lookup_completed",
+      "model": "ECO-ST2(1000)",
+      "md5_batch": 1207,
+      "local_amount_krw": 5642460000.0,
+      "local_quantity": 13122.0,
+      "availability": "available",
+      "market_investigated": true,
+      "official_C_krw": "5642460000",
+      "official_Q": "13122",
+      "official_facts_count": 93,
+      "official_requests_count": 93,
+      "official_event_path": "work\\fullscan\\industrial\\event-25468725.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-25468725.json"
+    },
+    {
+      "item_id": "23750841",
+      "status": "target_lookup_completed",
+      "model": "25-30-150",
+      "md5_batch": 1019,
+      "local_amount_krw": 5583010301.0,
+      "local_quantity": 54958.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25063223",
+      "status": "target_lookup_completed",
+      "model": "SGT55",
+      "md5_batch": 1311,
+      "local_amount_krw": 5514664680.0,
+      "local_quantity": 97260.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "23696987",
+      "status": "target_lookup_completed",
+      "model": "HAT-124W-NLN",
+      "md5_batch": 1951,
+      "local_amount_krw": 5375103250.0,
+      "local_quantity": 57364.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "26097641",
+      "status": "target_lookup_completed",
+      "model": "타스만 더블캡 2026년 군용 민수용짚 탑(캐노피)",
+      "md5_batch": 1023,
+      "local_amount_krw": 5307000000.0,
+      "local_quantity": 300.0,
+      "availability": "reform_found"
+    },
+    {
+      "item_id": "25218506",
+      "status": "target_lookup_completed",
+      "model": "KS-500-19",
+      "md5_batch": 1023,
+      "local_amount_krw": 5189728442.0,
+      "local_quantity": 6178.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "23858913",
+      "status": "target_lookup_completed",
+      "model": "KSC-CPSL-K005",
+      "md5_batch": 1875,
+      "local_amount_krw": 5147724240.0,
+      "local_quantity": 257181.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "25730850",
+      "status": "target_lookup_completed",
+      "model": "codea-25320",
+      "md5_batch": 1863,
+      "local_amount_krw": 5075517530.0,
+      "local_quantity": 124780.0,
+      "availability": "available",
+      "market_investigated": true,
+      "official_C_krw": "5075517530",
+      "official_Q": "124780",
+      "official_facts_count": 92,
+      "official_requests_count": 2,
+      "official_event_path": "work\\fullscan\\industrial\\event-25730850.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-25730850.json"
+    },
+    {
+      "item_id": "25786534",
+      "status": "target_lookup_completed",
+      "model": "YK-400-29",
+      "md5_batch": 1631,
+      "local_amount_krw": 5023456972.0,
+      "local_quantity": 6157.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "24927466",
+      "status": "excluded_no_scorable_facts",
+      "model": "RTS15SL3",
+      "md5_batch": 1775,
+      "local_amount_krw": 5018400000.0,
+      "local_quantity": null,
+      "availability": "available",
+      "official_C_krw": "0",
+      "official_Q": "0",
+      "official_facts_count": 0,
+      "official_requests_count": 0,
+      "official_event_path": "work\\fullscan\\industrial\\event-24927466.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-24927466.json",
+      "reason": "공식 이벤트 상세의 scorable fact가0건이어서 로컬 납품액으로 점수를 만들지 않는다."
+    },
+    {
+      "item_id": "20437555",
+      "status": "target_lookup_completed",
+      "model": "환경부고시",
+      "md5_batch": 1251,
+      "local_amount_krw": 4980274100.0,
+      "local_quantity": 7145300.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "24279226",
+      "status": "target_lookup_completed",
+      "model": "광선로통합관리솔루션 v1.0",
+      "md5_batch": 1119,
+      "local_amount_krw": 4867500000.0,
+      "local_quantity": 295.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "25569943",
+      "status": "target_lookup_completed",
+      "model": "DG481-GC51Q-001",
+      "md5_batch": 583,
+      "local_amount_krw": 4832264120.0,
+      "local_quantity": 3247.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "22604651",
+      "status": "target_lookup_completed",
+      "model": "25-30-150",
+      "md5_batch": 1479,
+      "local_amount_krw": 4793060753.0,
+      "local_quantity": 45997.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "24466035",
+      "status": "target_lookup_completed",
+      "model": "GWC-GA-180CH-119-F24",
+      "md5_batch": 1051,
+      "local_amount_krw": 4764495420.0,
+      "local_quantity": 299654.0,
+      "availability": "available",
+      "market_investigated": true,
+      "official_C_krw": "4764495420",
+      "official_Q": "299654",
+      "official_facts_count": 8,
+      "official_requests_count": 8,
+      "official_event_path": "work\\fullscan\\industrial\\event-24466035.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-24466035.json"
+    },
+    {
+      "item_id": "25445788",
+      "status": "target_lookup_completed",
+      "model": "SRD-Ai02",
+      "md5_batch": 591,
+      "local_amount_krw": 4663724000.0,
+      "local_quantity": 52.0,
+      "availability": "available",
+      "official_C_krw": "4663724000",
+      "official_Q": "52",
+      "official_facts_count": 32,
+      "official_requests_count": 32,
+      "official_event_path": "work\\fullscan\\industrial\\event-25445788.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-25445788.json"
+    },
+    {
+      "item_id": "24207251",
+      "status": "target_lookup_completed",
+      "model": "MT1-02",
+      "md5_batch": 639,
+      "local_amount_krw": 4630743000.0,
+      "local_quantity": 10157.0,
+      "availability": "available",
+      "market_investigated": true,
+      "official_C_krw": "4630743000",
+      "official_Q": "10157",
+      "official_facts_count": 6,
+      "official_requests_count": 6,
+      "official_event_path": "work\\fullscan\\industrial\\event-24207251.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-24207251.json"
+    },
+    {
+      "item_id": "24215457",
+      "status": "target_lookup_completed",
+      "model": "TM-WBCB01",
+      "md5_batch": 1439,
+      "local_amount_krw": 4524575000.0,
+      "local_quantity": 82265.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25786539",
+      "status": "target_lookup_completed",
+      "model": "YK-400-25",
+      "md5_batch": 1631,
+      "local_amount_krw": 4504512418.0,
+      "local_quantity": 5509.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "25424957",
+      "status": "target_lookup_completed",
+      "model": "포장해체",
+      "md5_batch": 1039,
+      "local_amount_krw": 4479018000.0,
+      "local_quantity": 172270.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "26060432",
+      "status": "target_lookup_completed",
+      "model": "A5SC-3NBDF",
+      "md5_batch": 1667,
+      "local_amount_krw": 4454124225.0,
+      "local_quantity": 2911.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "23734433",
+      "status": "target_lookup_completed",
+      "model": "25-24-80",
+      "md5_batch": 715,
+      "local_amount_krw": 4430671319.0,
+      "local_quantity": 39974.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "24708001",
+      "status": "target_lookup_completed",
+      "model": "NEO 55P",
+      "md5_batch": 731,
+      "local_amount_krw": 4414428000.0,
+      "local_quantity": 62616.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "26163687",
+      "status": "target_lookup_completed",
+      "model": "EV3 전기차 어스 롱레인지 2026년(27각자)",
+      "md5_batch": 595,
+      "local_amount_krw": 4404200000.0,
+      "local_quantity": 95.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25569851",
+      "status": "target_lookup_completed",
+      "model": "A4SQ-5NBDF",
+      "md5_batch": 399,
+      "local_amount_krw": 4366966000.0,
+      "local_quantity": 3122.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "24225140",
+      "status": "target_lookup_completed",
+      "model": "KRTTR-CBWB-1",
+      "md5_batch": 1023,
+      "local_amount_krw": 4293016080.0,
+      "local_quantity": 74818.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25016105",
+      "status": "target_lookup_completed",
+      "model": "D'Amo v5.0",
+      "md5_batch": 1643,
+      "local_amount_krw": 4248420000.0,
+      "local_quantity": 123.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "24216835",
+      "status": "target_lookup_completed",
+      "model": "VISTAR 나호 2호",
+      "md5_batch": 511,
+      "local_amount_krw": 4204883328.0,
+      "local_quantity": 18552.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "25470501",
+      "status": "target_lookup_completed",
+      "model": "TX3-RB5-506",
+      "md5_batch": 675,
+      "local_amount_krw": 4097491440.0,
+      "local_quantity": 3799.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "25354022",
+      "status": "target_lookup_completed",
+      "model": "TM-55P",
+      "md5_batch": 343,
+      "local_amount_krw": 4087860000.0,
+      "local_quantity": 58398.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "26316987",
+      "status": "target_lookup_completed",
+      "model": "육군 기능성방한복(레이어링) 상의",
+      "md5_batch": 203,
+      "local_amount_krw": 4074448600.0,
+      "local_quantity": 18673.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "25636434",
+      "status": "target_lookup_completed",
+      "model": "25-35-150",
+      "md5_batch": 407,
+      "local_amount_krw": 4061901576.0,
+      "local_quantity": 35723.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25569863",
+      "status": "target_lookup_completed",
+      "model": "A3TC-5NBDN",
+      "md5_batch": 415,
+      "local_amount_krw": 3981782540.0,
+      "local_quantity": 3652.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "25786555",
+      "status": "target_lookup_completed",
+      "model": "YK-500-16",
+      "md5_batch": 247,
+      "local_amount_krw": 3925054851.0,
+      "local_quantity": 4726.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "23950808",
+      "status": "target_lookup_completed",
+      "model": "STR-GP-10180",
+      "md5_batch": 327,
+      "local_amount_krw": 3912297885.0,
+      "local_quantity": 60778.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "24451434",
+      "status": "target_lookup_completed",
+      "model": "MGH-2021-05",
+      "md5_batch": 1663,
+      "local_amount_krw": 3884017850.0,
+      "local_quantity": 95635.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "26152655",
+      "status": "target_lookup_completed",
+      "model": "DG481-GC31-001",
+      "md5_batch": 1615,
+      "local_amount_krw": 3805314800.0,
+      "local_quantity": 3150.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "24349032",
+      "status": "target_lookup_completed",
+      "model": "GG550",
+      "md5_batch": 807,
+      "local_amount_krw": 3789759000.0,
+      "local_quantity": 66487.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "25257860",
+      "status": "target_lookup_completed",
+      "model": "(MX)Flex 5260 Shelf",
+      "md5_batch": 1943,
+      "local_amount_krw": 3680000000.0,
+      "local_quantity": 40.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "24321177",
+      "status": "target_lookup_completed",
+      "model": "(CN)EVA-63G19",
+      "md5_batch": 683,
+      "local_amount_krw": 3611052000.0,
+      "local_quantity": 666.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "21639795",
+      "status": "target_lookup_completed",
+      "model": "보통포틀랜드시멘트(1종)",
+      "md5_batch": 1295,
+      "local_amount_krw": 3588735823.0,
+      "local_quantity": 685788.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "24735160",
+      "status": "target_lookup_completed",
+      "model": "SMAT-i",
+      "md5_batch": 1319,
+      "local_amount_krw": 3566700000.0,
+      "local_quantity": 80.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "24116223",
+      "status": "target_lookup_completed",
+      "model": "DUBF RMD-02",
+      "md5_batch": 1935,
+      "local_amount_krw": 3549170931.0,
+      "local_quantity": 13005.0,
+      "availability": "available",
+      "market_investigated": true,
+      "official_C_krw": "3549170931",
+      "official_Q": "13005",
+      "official_facts_count": 7,
+      "official_requests_count": 7,
+      "official_event_path": "work\\fullscan\\industrial\\event-24116223.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-24116223.json"
+    },
+    {
+      "item_id": "24634004",
+      "status": "target_lookup_completed",
+      "model": "JIOG-SB4-P",
+      "md5_batch": 563,
+      "local_amount_krw": 3497274000.0,
+      "local_quantity": 11743.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "26316991",
+      "status": "target_lookup_completed",
+      "model": "육군 기능성방한복(레이어링) 상의",
+      "md5_batch": 1607,
+      "local_amount_krw": 3486209100.0,
+      "local_quantity": 16005.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "25563938",
+      "status": "target_lookup_completed",
+      "model": "DS367A-416500",
+      "md5_batch": 1251,
+      "local_amount_krw": 3454918800.0,
+      "local_quantity": 3118.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "21499980",
+      "status": "target_lookup_completed",
+      "model": "HS-16(SD500)",
+      "md5_batch": 1715,
+      "local_amount_krw": 3433804378.0,
+      "local_quantity": 4134.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "25842133",
+      "status": "target_lookup_completed",
+      "model": "HJ400/19",
+      "md5_batch": 831,
+      "local_amount_krw": 3396904445.0,
+      "local_quantity": 3998.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "25208787",
+      "status": "target_lookup_completed",
+      "model": "HDP E86UPCI",
+      "md5_batch": 703,
+      "local_amount_krw": 3366380000.0,
+      "local_quantity": 562.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "25001191",
+      "status": "target_lookup_completed",
+      "model": "KR176-T3516300",
+      "md5_batch": 251,
+      "local_amount_krw": 3354119360.0,
+      "local_quantity": 2803.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "24264200",
+      "status": "target_lookup_completed",
+      "model": "kk2-2520",
+      "md5_batch": 651,
+      "local_amount_krw": 3345354000.0,
+      "local_quantity": 1586.0,
+      "availability": "available",
+      "market_investigated": true,
+      "official_C_krw": "3345354000",
+      "official_Q": "1586",
+      "official_facts_count": 2,
+      "official_requests_count": 2,
+      "official_event_path": "work\\fullscan\\industrial\\event-24264200.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-24264200.json"
+    },
+    {
+      "item_id": "24651482",
+      "status": "target_lookup_completed",
+      "model": "DSM-UAW-CW03-SC",
+      "md5_batch": 479,
+      "local_amount_krw": 3344734016.0,
+      "local_quantity": 194461.0,
+      "availability": "available",
+      "market_investigated": true,
+      "official_C_krw": "3344734016",
+      "official_Q": "194461",
+      "official_facts_count": 55,
+      "official_requests_count": 55,
+      "official_event_path": "work\\fullscan\\industrial\\event-24651482.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-24651482.json"
+    },
+    {
+      "item_id": "25628960",
+      "status": "target_lookup_completed",
+      "model": "M5-X45B-1A0N",
+      "md5_batch": 1675,
+      "local_amount_krw": 3338493900.0,
+      "local_quantity": 2945.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "24712409",
+      "status": "target_lookup_completed",
+      "model": "GL-AP2000",
+      "md5_batch": 911,
+      "local_amount_krw": 3312471727.0,
+      "local_quantity": 65078.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "25786541",
+      "status": "target_lookup_completed",
+      "model": "YK-500S-22",
+      "md5_batch": 1335,
+      "local_amount_krw": 3274856742.0,
+      "local_quantity": 3723.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25890768",
+      "status": "target_lookup_completed",
+      "model": "DK-13(SD500)",
+      "md5_batch": 639,
+      "local_amount_krw": 3273392776.0,
+      "local_quantity": 4024.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25329784",
+      "status": "target_lookup_completed",
+      "model": "KGW-2CW-150",
+      "md5_batch": 1383,
+      "local_amount_krw": 3266667154.0,
+      "local_quantity": 180877.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "24570524",
+      "status": "target_lookup_completed",
+      "model": "PL-TPO150",
+      "md5_batch": 1775,
+      "local_amount_krw": 3190182890.0,
+      "local_quantity": 47616.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "25660804",
+      "status": "target_lookup_completed",
+      "model": "HN25FCP-1",
+      "md5_batch": 451,
+      "local_amount_krw": 3171960000.0,
+      "local_quantity": 4806.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "25469025",
+      "status": "target_lookup_completed",
+      "model": "GL27-PGO",
+      "md5_batch": 747,
+      "local_amount_krw": 2783638560.0,
+      "local_quantity": 1987.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "24246588",
+      "status": "target_lookup_completed",
+      "model": "RAON-P30",
+      "md5_batch": 983,
+      "local_amount_krw": 2413688640.0,
+      "local_quantity": 33762.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "23958715",
+      "status": "target_lookup_completed",
+      "model": "PS-200",
+      "md5_batch": 787,
+      "local_amount_krw": 2413238311.0,
+      "local_quantity": 53509.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "22067194",
+      "status": "target_lookup_completed",
+      "model": null,
+      "md5_batch": 1843,
+      "local_amount_krw": 2412463559.0,
+      "local_quantity": 883792.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "26223815",
+      "status": "target_lookup_completed",
+      "model": "HS500AB-NHE10",
+      "md5_batch": 1151,
+      "local_amount_krw": 2361128000.0,
+      "local_quantity": 15332.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "24969796",
+      "status": "target_lookup_completed",
+      "model": "WEL-3LP-NC900A",
+      "md5_batch": 1555,
+      "local_amount_krw": 2161257120.0,
+      "local_quantity": 4752.0,
+      "availability": "available",
+      "market_investigated": true,
+      "official_C_krw": "2161257120",
+      "official_Q": "4752",
+      "official_facts_count": 2,
+      "official_requests_count": 2,
+      "official_event_path": "work\\fullscan\\industrial\\event-24969796.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-24969796.json"
+    },
+    {
+      "item_id": "24717841",
+      "status": "target_lookup_completed",
+      "model": "NEPV-99K-S",
+      "md5_batch": 1431,
+      "local_amount_krw": 2099111058.0,
+      "local_quantity": 12.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "23471536",
+      "status": "target_lookup_completed",
+      "model": "SHA-AL-CHROMA-4T",
+      "md5_batch": 1679,
+      "local_amount_krw": 2022929990.0,
+      "local_quantity": 28696.0,
+      "availability": "available",
+      "market_investigated": true,
+      "official_C_krw": "2022929990",
+      "official_Q": "28696",
+      "official_facts_count": 29,
+      "official_requests_count": 29,
+      "official_event_path": "work\\fullscan\\industrial\\event-23471536.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-23471536.json"
+    },
+    {
+      "item_id": "24020216",
+      "status": "target_lookup_completed",
+      "model": "ACTVISION P6",
+      "md5_batch": 1319,
+      "local_amount_krw": 1991688600.0,
+      "local_quantity": 659.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "25488090",
+      "status": "target_lookup_completed",
+      "model": "SKF P200",
+      "md5_batch": 1247,
+      "local_amount_krw": 1983315840.0,
+      "local_quantity": 37563.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "24969803",
+      "status": "target_lookup_completed",
+      "model": "WEL-3LP-NC1200B",
+      "md5_batch": 1319,
+      "local_amount_krw": 1887608259.0,
+      "local_quantity": 2904.0,
+      "availability": "available",
+      "official_C_krw": "1887608259",
+      "official_Q": "2904",
+      "official_facts_count": 4,
+      "official_requests_count": 4,
+      "official_event_path": "work\\fullscan\\industrial\\event-24969803.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-24969803.json"
+    },
+    {
+      "item_id": "24867744",
+      "status": "target_lookup_completed",
+      "model": "SPlus-100-S-01",
+      "md5_batch": 1779,
+      "local_amount_krw": 1887000000.0,
+      "local_quantity": 11.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "22067197",
+      "status": "target_lookup_completed",
+      "model": null,
+      "md5_batch": 1799,
+      "local_amount_krw": 1831618645.0,
+      "local_quantity": 1110.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "24020996",
+      "status": "target_lookup_completed",
+      "model": "HW-POSM15tF",
+      "md5_batch": 551,
+      "local_amount_krw": 1824621440.0,
+      "local_quantity": 29223.0,
+      "availability": "available",
+      "official_C_krw": "1824621440",
+      "official_Q": "29223",
+      "official_facts_count": 18,
+      "official_requests_count": 18,
+      "official_event_path": "work\\fullscan\\industrial\\event-24020996.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-24020996.json"
+    },
+    {
+      "item_id": "25548380",
+      "status": "target_lookup_completed",
+      "model": "SES-EW-400B-3LP800",
+      "md5_batch": 1371,
+      "local_amount_krw": 1799308000.0,
+      "local_quantity": 5026.0,
+      "availability": "available",
+      "official_C_krw": "1799308000",
+      "official_Q": "5026",
+      "official_facts_count": 6,
+      "official_requests_count": 6,
+      "official_event_path": "work\\fullscan\\industrial\\event-25548380.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-25548380.json"
+    },
+    {
+      "item_id": "25816073",
+      "status": "target_lookup_completed",
+      "model": "PT-0950D",
+      "md5_batch": 1883,
+      "local_amount_krw": 1798998960.0,
+      "local_quantity": 13629.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "25693352",
+      "status": "target_lookup_completed",
+      "model": "EHPV-MT100K",
+      "md5_batch": 343,
+      "local_amount_krw": 1769280000.0,
+      "local_quantity": 8.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "24191436",
+      "status": "target_lookup_completed",
+      "model": "SJ-CP5-0612",
+      "md5_batch": 467,
+      "local_amount_krw": 1768708883.0,
+      "local_quantity": 9208.0,
+      "availability": "available",
+      "official_C_krw": "1768708883",
+      "official_Q": "9208",
+      "official_facts_count": 8,
+      "official_requests_count": 8,
+      "official_event_path": "work\\fullscan\\industrial\\event-24191436.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-24191436.json"
+    },
+    {
+      "item_id": "25011438",
+      "status": "target_lookup_completed",
+      "model": "EGU-691288",
+      "md5_batch": 515,
+      "local_amount_krw": 1697428440.0,
+      "local_quantity": 14362.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "25619232",
+      "status": "target_lookup_completed",
+      "model": "ABM-BIPV-RF90-220T-1",
+      "md5_batch": 623,
+      "local_amount_krw": 1694485000.0,
+      "local_quantity": 5.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "24394331",
+      "status": "target_lookup_completed",
+      "model": "PEP-PD/WD-1500A-14T(3LC)",
+      "md5_batch": 1175,
+      "local_amount_krw": 1661233200.0,
+      "local_quantity": 242.0,
+      "availability": "available",
+      "official_C_krw": "1661233200",
+      "official_Q": "242",
+      "official_facts_count": 1,
+      "official_requests_count": 1,
+      "official_event_path": "work\\fullscan\\industrial\\event-24394331.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-24394331.json"
+    },
+    {
+      "item_id": "23950803",
+      "status": "target_lookup_completed",
+      "model": "STR-GP-10050",
+      "md5_batch": 411,
+      "local_amount_krw": 1637908510.0,
+      "local_quantity": 32593.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "23836305",
+      "status": "target_lookup_completed",
+      "model": "PA 55",
+      "md5_batch": 327,
+      "local_amount_krw": 1598692800.0,
+      "local_quantity": 28146.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "25016737",
+      "status": "target_lookup_completed",
+      "model": "TSSPT-1200A-2",
+      "md5_batch": 523,
+      "local_amount_krw": 1570829148.0,
+      "local_quantity": 2417.0,
+      "availability": "available",
+      "official_C_krw": "1570829148",
+      "official_Q": "2417",
+      "official_facts_count": 3,
+      "official_requests_count": 3,
+      "official_event_path": "work\\fullscan\\industrial\\event-25016737.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-25016737.json"
+    },
+    {
+      "item_id": "25133670",
+      "status": "target_lookup_completed",
+      "model": "IP PANEL T-S-112",
+      "md5_batch": 1635,
+      "local_amount_krw": 1444306275.0,
+      "local_quantity": 12405.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "24380826",
+      "status": "target_lookup_completed",
+      "model": "SP80N",
+      "md5_batch": 783,
+      "local_amount_krw": 1413957632.0,
+      "local_quantity": 55233.0,
+      "availability": "available",
+      "market_investigated": true,
+      "official_C_krw": "1413957632",
+      "official_Q": "55233",
+      "official_facts_count": 66,
+      "official_requests_count": 66,
+      "official_event_path": "work\\fullscan\\industrial\\event-24380826.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-24380826.json"
+    },
+    {
+      "item_id": "24301620",
+      "status": "target_lookup_completed",
+      "model": "GW_WPC D01N",
+      "md5_batch": 983,
+      "local_amount_krw": 1382050450.0,
+      "local_quantity": 12019.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "23669832",
+      "status": "target_lookup_completed",
+      "model": "JS-ALSP-F01",
+      "md5_batch": 219,
+      "local_amount_krw": 1379153040.0,
+      "local_quantity": 17958.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "25376327",
+      "status": "target_lookup_completed",
+      "model": "SKY-BIPV-BC220-80",
+      "md5_batch": 1795,
+      "local_amount_krw": 1267600000.0,
+      "local_quantity": 4.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "25636330",
+      "status": "target_lookup_completed",
+      "model": "GRS-G01-01",
+      "md5_batch": 707,
+      "local_amount_krw": 1255968000.0,
+      "local_quantity": 7476.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "24246513",
+      "status": "target_lookup_completed",
+      "model": "UBP-T101C",
+      "md5_batch": 847,
+      "local_amount_krw": 1149410460.0,
+      "local_quantity": 9228.0,
+      "availability": "on_hold"
+    },
+    {
+      "item_id": "24527631",
+      "status": "target_lookup_completed",
+      "model": "G2P-075S-N",
+      "md5_batch": 1523,
+      "local_amount_krw": 1141700000.0,
+      "local_quantity": 7.0,
+      "availability": "available"
+    },
+    {
+      "item_id": "24304334",
+      "status": "target_lookup_completed",
+      "model": "ISTapp05_CAT6LED",
+      "md5_batch": 591,
+      "local_amount_krw": 1134010800.0,
+      "local_quantity": 1182.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "25402187",
+      "status": "target_lookup_completed",
+      "model": "OPT-1.5M",
+      "md5_batch": 275,
+      "local_amount_krw": 1127973000.0,
+      "local_quantity": 14649.0,
+      "availability": "claimed"
+    },
+    {
+      "item_id": "24792361",
+      "status": "target_lookup_completed",
+      "model": "ATOP-ALF40tF1",
+      "md5_batch": 1487,
+      "local_amount_krw": 1086262740.0,
+      "local_quantity": 15960.0,
+      "availability": "available",
+      "market_investigated": true,
+      "official_C_krw": "1086262740",
+      "official_Q": "15960",
+      "official_facts_count": 8,
+      "official_requests_count": 8,
+      "official_event_path": "work\\fullscan\\industrial\\event-24792361.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-24792361.json"
+    },
+    {
+      "item_id": "25016739",
+      "status": "target_lookup_completed",
+      "model": "TSSPT-1350A-2",
+      "md5_batch": 1463,
+      "local_amount_krw": 1079122566.0,
+      "local_quantity": 1322.0,
+      "availability": "available",
+      "official_C_krw": "1079122566",
+      "official_Q": "1322",
+      "official_facts_count": 2,
+      "official_requests_count": 2,
+      "official_event_path": "work\\fullscan\\industrial\\event-25016739.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-25016739.json"
     }
   ]
 }

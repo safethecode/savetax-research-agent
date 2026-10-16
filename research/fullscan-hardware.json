@@ -4,11 +4,11 @@
   "owner_slot": 2,
   "start_md5_batch": 200,
   "batch_size": 500,
-  "observed_at": "2026-10-16T04:00:17.152715+00:00",
+  "observed_at": "2026-10-16T04:15:41.631701+00:00",
   "totals": {
-    "local_rows_read": 9500,
-    "local_candidates_selected": 141,
-    "official_available": 113,
+    "local_rows_read": 10000,
+    "local_candidates_selected": 153,
+    "official_available": 124,
     "official_scorable_candidates": 110,
     "actually_web_searched": 109,
     "investigation_closed_with_reason": 112,
@@ -243,9 +243,21 @@
       "direct_price_checks_completed": 0,
       "verified_positive_submission_candidates": 0,
       "stage": "complete"
+    },
+    {
+      "md5_batch": 278,
+      "local_rows_read": 500,
+      "local_candidates_selected": 12,
+      "official_available": 11,
+      "official_scorable_candidates": 0,
+      "actually_web_searched": 0,
+      "investigation_closed_with_reason": 0,
+      "direct_price_checks_completed": 0,
+      "verified_positive_submission_candidates": 0,
+      "stage": "complete"
     }
   ],
-  "next_md5_batch": 278,
+  "next_md5_batch": 282,
   "notes": "500개 전체를 로컬에서 읽어 후보를 선별했다. 로컬 읽기 수, 실제 검색 수, 원문 가격 확인 완료 수를 구분한다. 추가 SFP 표적조회12개는 이 순차묶음 집계와 별도다. 점수 POST는 부모 담당자가 수행한다.",
   "records": [
     {
@@ -263,7 +275,7 @@
       "status": "no_exact_qualifying_price",
       "source_url": null,
       "note": "동일 거봉등심돈까스II 1kg 신품 공개가격 부재. 거봉등심돈까스 일반명 상품은 II 동일성 미확정이며 9900원 단서로 기준6250원도 초과.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25307677",
@@ -280,7 +292,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "씨아이테크 SMD212 600W 정확모델 공개 소매가격 미확인. Parallel의 PC전원600W는 다른제품이라 제외.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "23075312",
@@ -297,7 +309,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "이글벳 헤파니톨액 1L 공개 소매가격을 찾지 못함. 의약품 용법·대체제품 권고를 하지 않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25627049",
@@ -314,7 +326,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://fliphtml5.com/omgli/mgfl/회사소개서_2025/",
       "note": "FDS-PA1004 제조사 카탈로그1450000원과 공식fact단가 동일. 공개 exact 소매가격 미확인.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "26017428",
@@ -331,7 +343,7 @@
       "status": "no_scorable_facts",
       "source_url": null,
       "note": "오쉐프치즈듬뿍함박볼1kg available이나 공식 scorable fact0으로 점수제외.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25588158",
@@ -348,7 +360,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "EL-YU507KU 정확모델 공개소매가 미확인. 일반5000안시나 다른Efun프로젝터를 동일품으로 미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "23246296",
@@ -365,7 +377,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://dpmc.co.kr/gnu/bbs/board.php?bo_table=product_eng&page=1&sca=%EB%B9%84%EB%A3%8C%EC%82%B4%ED%8F%AC%EA%B8%B0&wr_id=17",
       "note": "DPM460H 제조사 모델 계열 발견. H1/H2 및 DP2300H와 혼동없이 exact 모델 실판매가 미확인. 정부 융자한도760000원은 소매가가 아님.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24675530",
@@ -382,7 +394,7 @@
       "status": "unresolved_product_page",
       "source_url": "https://withjini0340.cafe24api.com/product/%EB%85%B8%ED%8A%B8%EB%B6%81%ED%81%AC%EB%A1%AC%EB%B6%81-10%EB%8C%80-%EC%B6%A9%EC%A0%84%EB%B3%B4%EA%B4%80%ED%95%A8/11/display/2",
       "note": "JN-P10S 제조사10대충전보관함 판매페이지 단서 발견. 현재web접속불가, exact모델가격 미확인.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25818435",
@@ -399,7 +411,7 @@
       "status": "direct_price_above_gate",
       "source_url": "https://www.11st.co.kr/products/6331861356",
       "note": "코코브루니 콜드브루 바닐라라떼200mL 24팩 일반가32000원/무료배송 직접열기. 환산1333.34원은 최고fact1221원, 기준1017.5원 초과. 라떼+바닐라 혼합팩의 낮은가격은 동일제품으로 미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "26301052",
@@ -416,7 +428,7 @@
       "status": "direct_price_above_gate",
       "source_url": "https://www.electrolux.co.kr/appliances/vacuum-cleaners/efp72315s/",
       "note": "EFP72315S 제조사직접599000원/구매가능/무료배송, 최고fact518000원 기준431666.67원 초과. OEM제조사만보고브랜드누락하지않도록검색해일렉트로룩스동일모델확인.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "23495804",
@@ -433,7 +445,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://hangukpharm.com/shop/list.php?ca_id=dnzd",
       "note": "버그키퍼알파액100mL exact가격미확인. Parallel의 다른이카리딘브랜드·숙취해소제는 무관상품으로 제외.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24563942",
@@ -450,7 +462,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://www.dkvascom.net/",
       "note": "ERX9252PH 정확 송신기2/수신기2 구성의 공개소매가격 미확인. VRX902PL/VD900등다른제품을동일품으로미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "26010950",
@@ -467,7 +479,7 @@
       "status": "no_qualifying_exact_price",
       "source_url": "https://samdae-ga.com/product/%EC%8B%A0%EC%A0%9C%ED%92%88%EC%B6%9C%EC%8B%9C-%EC%82%BC%EB%8C%80%EA%B0%80-%ED%81%90%EB%B8%8C%ED%98%95-%EC%A1%B1%EB%B0%9C%ED%8E%B8%EC%9C%A1-%EB%8F%88%EC%A0%A4%EB%9D%BC-240g-4%EA%B0%80%EC%A7%80-%EB%A7%9B/201/",
       "note": "삼대가 돈젤라 소매매물은240g 9500원으로 발견. 조달1kg매콤달콤냉동품과 다른보관조건·포장단위여서 동일품가격으로채택하지않았고 단위환산해도 저가근거아님.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25639519",
@@ -484,7 +496,7 @@
       "status": "pending_search",
       "source_url": null,
       "note": "로컬 후보 선별과 공식 facts 확인까지 완료. 실제 웹검색 미완료.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25936809",
@@ -501,7 +513,7 @@
       "status": "lead_above_gate",
       "source_url": "https://price.enuri.com/catalog/1136514",
       "note": "밥이랑야채27g 일반신품1570원+배송3000원 단서로 기준916.67원 초과. 9g낱개를27g대신비교하지않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24592917",
@@ -518,7 +530,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://bseomuk.com/shopinfo/guide.html",
       "note": "부산어묵 게향피쉬볼1kg 정확상품소매가격미확인. 다른브랜드피쉬볼가격미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24803684",
@@ -535,7 +547,7 @@
       "status": "unresolved_product_page",
       "source_url": "https://omsg.co.kr/product/cj%EC%A0%9C%EC%9D%BC%EC%A0%9C%EB%8B%B9-%ED%81%AC%EB%A0%88%EC%9E%87-%EA%B3%A0%EA%B9%83%EC%A7%91%EB%A7%9B%EC%86%8C%EA%B8%88%EA%B5%AC%EC%9D%B4-105kg/196/",
       "note": "CJ크레잇 고깃집맛소금구이1.05kg exact상품검색발견. 현재직접열기404, 실제구매가능가격미확인.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24525366",
@@ -552,7 +564,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "도안파비스 Quantum 8 200W exact 공개 소매가 미확인. 유사이름JBL제품이나다른출력스피커를동일제품으로쓰지않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24402826",
@@ -569,7 +581,7 @@
       "status": "direct_price_above_gate",
       "source_url": "https://item.gmarket.co.kr/Item?goodsCode=4006741092",
       "note": "동원예스 닭강정소스2.1kg 직접일반가8350원+배송3000원(1~8개당). 새상품과세국내배송표시. 최고fact5390/기준4491.67원보다높아미제출. 쿠폰7770원도기준초과.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25643565",
@@ -586,7 +598,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://www.totalfnb.com/default/product/product01.php?sub=01",
       "note": "토탈F&B CM-20ET 제조사 20단 카탈로그 28000000원과 공식단가 동일. 27000000원 이하의 exact 실판매가 미확인. CM-20ET-SD는 다른모델로 미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25199787",
@@ -603,7 +615,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "한일미디어텍 LMS-F1 직선형 마이크스탠드1590mm exact 판매가 미확인. 로데 등 다른제품 미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25833234",
@@ -620,7 +632,7 @@
       "status": "direct_price_above_gate",
       "source_url": "https://www.mrolive.co.kr/goods/goods_view.php?goodsNo=1000000799",
       "note": "유로베이크 모닝빵350g(35g×10) 판매원문 5490원+배송3500원. 공식최고단가2920원/기준2433.33원 초과. 낱개35g을350g 가격으로 쓰지않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25625197",
@@ -637,7 +649,7 @@
       "status": "no_exact_domestic_price",
       "source_url": "https://www.draeger.com/ko_kr/Products/HPS-3500",
       "note": "Drager HPS3500 제조사 국내페이지는 가격문의. 국내판매가격 미확인. 해외 고글제외 232.95유로는 국내 동일구성가격으로 채택하지 않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24468452",
@@ -654,7 +666,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://www.nicemic.co.kr/",
       "note": "나이스음향 VA702 750W는 제조사 조달카탈로그1900000원만 확인. 다른회사 VA702 모니터는 무관상품으로 제외.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24554353",
@@ -671,7 +683,7 @@
       "status": "unavailable_above_gate",
       "source_url": "https://www.gotetramall.com/goods/goods_view.php?goodsNo=1000000162",
       "note": "테트라 TR-KV320A 제조사쇼핑몰 검색단서209000원/배송0원/구매불가. 직접열기는 오류여서 실구매가격확정아님. 기준141666.67원 초과 단서로 미제출.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "21105002",
@@ -688,7 +700,7 @@
       "status": "no_current_retail_price",
       "source_url": "https://prod.danawa.com/info/?pcode=5145937",
       "note": "돌핀 DW3300S 다나와 가격비교중지/판매점0. DW3200·렌탈료·중고품과 구분하고 신품 공개실판매가 미확인.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25640308",
@@ -705,7 +717,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://www.hains.kr/htm/G02_1",
       "note": "하인스 제조사 HGS-SG500 국그릇소독기와 식별번호25640308 확인. 다른 HGS-G500·식판소독기 가격은 미사용. 공개정확모델 소매가 미확인.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "23226795",
@@ -722,7 +734,7 @@
       "status": "no_qualifying_exact_price",
       "source_url": "https://www.gamtanmedi.co.kr/product/list.html?cate_no=26&sort_method=3",
       "note": "셀바스 ACCUNIQ BP251 프린터형 테이블의자포함 세트는 가격문의, 소비자가1900000원. S2B 동일식별번호1860000원 단서도 기준1583333.33원 초과. BP250/BP600 가격을 BP251로 쓰지않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "23014772",
@@ -739,7 +751,7 @@
       "status": "direct_price_above_gate",
       "source_url": "https://daehosports.com/product/lexcolt5xm/3423/",
       "note": "LEXCO LT5xM 직접상품본문 판매가5000000원으로 기준2722500원 초과. LT5/LT5x와 24인치TV포함 LT5xM 구분. 중고 낮은가격 미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "26142708",
@@ -756,7 +768,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "더미트칸 밥시엔돈오향장육1kg 정확상품 공개소매가 미확인. Parallel의 일반불고기·아롱사태·제육볶음은 다른제품으로 제외.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24985684",
@@ -773,7 +785,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://www.inter-mpps.com/mo/product/mas_pdc_detail.php?seq=74",
       "note": "인터엠 PRM086 제조사 정확식별번호24985684와 조달계약가1100000원 확인. 다른 RM01/MA212U를 비교하지 않고 공개exact 소매가 미확인.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "23803815",
@@ -790,7 +802,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://soundpower.co.kr/category/%EC%9E%84%EC%82%B0%EC%97%85leem/1371",
       "note": "LEEM WR08 175W 제조사카탈로그와 브랜드판매목록만 발견. exact 신품 공개판매가격 미확인.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24993002",
@@ -807,7 +819,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "오뗄정통차슈1kg 정확소매가 미확인. 일본식프리미엄바베큐차슈500g×2와 모델동일성 확인없이 가격비교하지 않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24361479",
@@ -824,7 +836,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://tfs.ourhome.co.kr/product/list/display?page=71",
       "note": "아워홈 제조사 장터국5kg 규격 확인되나 가격은 견적문의. 공개소매1kg는 다른포장단위이고5kg보다단가도높은 단서여서 미채택.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25506784",
@@ -841,7 +853,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://m.foodcore.kr/product/list_gallery.html?cate_no=56",
       "note": "조이푸드 스웰리쫀득한딸기마카롱87g 정확소매가 미확인. 유사마카롱/다른제조사 제품은 미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25434915",
@@ -858,7 +870,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "에이치엘텍 HTCL42WU 42W LED램프는 에너지공단동일모델 인증 확인. 공개정확모델 판매가격미확인. 다른브랜드42W나LED등기구를같은제품으로쓰지않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "22866238",
@@ -875,7 +887,7 @@
       "status": "no_scorable_facts",
       "source_url": null,
       "note": "바이오트랩 싸이크론X available이나 공식scorable facts0으로 점수제외.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24255707",
@@ -892,7 +904,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://www.inter-mpps.com/product/mas_main_list.php?RE_SIZE=9&page=20&type=all",
       "note": "인터엠 PSA-WB01 제조사 정확모델 제품목록 발견. 다른브래킷이나RM01마이크를동일품으로쓰지않고 exact 공개판매가미확인.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "23982887",
@@ -909,7 +921,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "도안파비스 DHDC03 3m HDMI 정확모델 공개소매가 미확인. 다른브랜드 일반3m케이블을 같은제품으로 쓰지않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24942283",
@@ -926,7 +938,7 @@
       "status": "lead_above_gate",
       "source_url": "https://www.sempio.com/market",
       "note": "샘표 폰타나프렌치스테이크소스265g 발견단서2개7340원으로 공식2660원/기준2216.67원보다높음. 실제저가직접판매근거미확인.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25795878",
@@ -943,7 +955,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "다이닝푸드 돈마카츠1kg 정확상품 공개소매가미확인. 음식점 돈마카츠메뉴·다른브랜드돈카츠와 구분.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25947969",
@@ -960,7 +972,7 @@
       "status": "lead_above_gate",
       "source_url": "https://m.beamco.co.kr/product/list.html?cate_no=154",
       "note": "SE-U720 정확모델 유통목록가격4950000원(조달전용) 발견하였으나 공식최고단가5720000원 대비 기준4766666.67원 초과. 유사Seemile/Ali모델로 절감과장하지않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25592868",
@@ -977,7 +989,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "에스케이씨바이오텍 R45R 1200L 약품냉장고 공개정확모델가격 미확인. 제이오텍·다른용량·항온항습기를동일품으로쓰지않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "23265511",
@@ -994,7 +1006,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "DRAX WPA103 레그컬 정확모델 신품 공개판매가미확인. TWMA시리즈나중고품미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25712332",
@@ -1011,7 +1023,7 @@
       "status": "lead_above_gate",
       "source_url": "https://qnqmall.com/product/%EC%83%81%EB%8F%84%ED%91%B8%EB%93%9C-%EB%B2%84%ED%8C%94%EB%A1%9C%EB%B4%89-1kg/390/",
       "note": "상도 버팔로봉1kg 판매가격9200원+배송4000원단서로 공식최고8080원/기준6733.33원초과. New동일성 미확정이므로 볼케이노변형도채택안함.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "22731372",
@@ -1028,7 +1040,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://cdn.komachine.com/media/company-catalog/sunkyung-14737_uqmohy.pdf",
       "note": "선경 SK-N71016 제조사카탈로그16켤레1000×600×1900mm/플라즈마+UV 구성 확인. N016등단순열풍제품과구분하였고 정확국내/해외 공개신품가미확인.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25301575",
@@ -1045,7 +1057,7 @@
       "status": "no_qualifying_exact_price",
       "source_url": "https://m.fredit.co.kr/product/detail?prdId=14",
       "note": "hy 윌150mL 공식판매처 확인이나 공식fact단가880원/기준733.33원 이하 일반가미확인. 저당·당밸런스등다른변형이나포인트를비교가격으로쓰지않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "26160931",
@@ -1062,7 +1074,7 @@
       "status": "no_qualifying_exact_price",
       "source_url": "https://www.tngedu.co.kr/osunhitech",
       "note": "오선 OSZ1045TVM 정확식별번호26160931/1600만화소터치영상시스템 판매목록2860000원으로 공식단가와같음. 영상장치없는OSZ1045 단품880000원을동일품으로쓰지않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25345545",
@@ -1079,7 +1091,7 @@
       "status": "direct_price_above_gate",
       "source_url": "https://snet2021.cafe24.com/product/skcb-801/104/category/1/display/2/?icid=MAIN.product_listmain_1",
       "note": "에스넷 SKCB801 직접원문 정확식별번호25345545 8채널콤바이너357000원+배송2500원. 공식단가357000원/기준297500원 초과.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "23923640",
@@ -1096,7 +1108,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://icepipeled.com/",
       "note": "아이스파이프 IB4-120CL-50K 제조사조달카탈로그173000원으로 공식단가와같음. 57K/40K색온도변형과다른제조사120W램프를동일품으로미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "26119195",
@@ -1113,7 +1125,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://minishop.gmarket.co.kr/kwangwon",
       "note": "광원 KW018N 예취폭1200mm 정확모델가격미확인. KW018(1500mm)·KW019·KW025 및융자지원한도를동일품가격으로쓰지않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25214118",
@@ -1130,7 +1142,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "남부식품 얇고쫄깃한꼬치어묵645g 정확제품 일반가 미확인. 다른제조사 꼬치어묵을동일상품으로미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "23805931",
@@ -1147,7 +1159,7 @@
       "status": "no_exact_manufacturer_price",
       "source_url": "https://prod.danawa.com/info?pcode=3056494",
       "note": "씨앤비 재제조MLTD203L은 동일프린터호환 타업체재생토너가다수이나 제조사동일품 가격미확인. 호환규격만같은다른제조사를exact로기록하지않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24638182",
@@ -1164,7 +1176,7 @@
       "status": "quote_only",
       "source_url": "https://shop.itsns.co.kr/collections/piolink-switch/products/piolink-tifront-cs2200-series-cloud-security-switch",
       "note": "TiFRONT-CS2228GXP 포함4모델 판매목록 최저1265000원은 CS2228GX일가능성. 원문이 제시금액나라장터등록금액/견적요청명시. 변형의최저가를 GXP동일품구매가로쓰지않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24799328",
@@ -1181,7 +1193,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "LEEM TMS1 탁상460mm 정확모델가격미확인. LMS726·인터엠TSG1·카멜TMS1과구분.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25943546",
@@ -1198,7 +1210,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "스마트에프앤디 smart09 육군하계운동복 상하의 정확제조사·규격의 공개판매가미확인. 시중유사군복·전투복입찰단가미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24355194",
@@ -1215,7 +1227,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "카스피 CS-M200R 영상음향브래킷 exact공개소매가미확인. 같은이름 M200R전동공구와다른TV거치대미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25901745",
@@ -1232,7 +1244,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "교동BBQ풀드포크1kg 동일제조사 exact제품판매가격미확인. 일반풀드포크·교동갈비·다른제조사미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24204348",
@@ -1249,7 +1261,7 @@
       "status": "no_qualifying_exact_price",
       "source_url": "https://www.thescannershop.com/kodak-alaris-s3100-s3100f-a3-network-scanner/",
       "note": "Kodak S3100f 국내8800000원 단서로 공식5500000원보다높음. 해외원문 S3100은2895파운드이고 S3100f는3199파운드 VAT별도. 다른 S3100의 낮은가격을 f내장평판모델로쓰지않음. 기준4583333.33원 이하총액미확인.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25732394",
@@ -1266,7 +1278,7 @@
       "status": "no_qualifying_exact_price",
       "source_url": "https://manpungmall.com/category/%F0%9F%8D%A1%EC%B0%B9%EC%8C%80%EB%96%A1/26",
       "note": "만풍 제로당현미쑥찹쌀떡60g 기준725원 이하 exact가격미확인. 제로당현미쑥인절미20개24000원 단서는1200원이며 찹쌀떡동일성도미확정. 55g/다른브랜드제품미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "22719358",
@@ -1283,7 +1295,7 @@
       "status": "lead_above_gate",
       "source_url": "https://www.i-nu.co.kr/goods/goods_list.php?cateCd=016",
       "note": "누마스타 ESD202H 제조사판매목록1860000원 단서로 공식1400000원/기준1166666.67원 초과. 직접열기오류여서 구매가능확정아님. ESD202L12는다른모델.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24564249",
@@ -1300,7 +1312,7 @@
       "status": "unit_verification_required",
       "source_url": "https://thechondak.com/category/%C2%B7-%EC%86%8C%EC%8A%A4/60",
       "note": "백호 델링멕시칸소스30g 소매원문은30g×100팩27500원. 공식단가20130원은30g1개가아닌묶음가능성이높아 팩수량확정전275원낱개와잘못비교하지않음. EJ몰은공개가격없음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "23063750",
@@ -1317,7 +1329,7 @@
       "status": "quote_only",
       "source_url": "https://woorisnc.cafe24.com/product/ltd-3200c-%EB%8B%A8%EB%8F%85-%EA%B2%BD%EB%B3%B4%ED%98%95-%EA%B0%90%EC%A7%80%EA%B8%B0-%EC%97%B0%EA%B8%B0%EC%8B%9D-%EA%B4%91%EC%A0%84%EC%8B%9D%EC%97%B0%EB%8F%99%ED%98%95/742/",
       "note": "LTD3200C 광전식연동형 정확모델판매처 제품문의만공개. LTD3300B 비연동형낮은가격을동일모델로쓰지않음. 롯데ON두모델혼합최저12000원도기준9166.67원초과.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "22790122",
@@ -1334,7 +1346,7 @@
       "status": "direct_price_above_gate",
       "source_url": "https://hanbitsc.com/product/%EC%A4%8C%EC%8C%8D%EC%95%88%EC%8B%A4%EC%B2%B4%ED%98%84%EB%AF%B8%EA%B2%BD-dem-7045/1514/",
       "note": "DEM7045 판매원문1350000원/10만원이상무료배송으로 공식최고1210000원/기준1008333.33원초과. 중고700000원은미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24723740",
@@ -1351,7 +1363,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://www.kpi.or.kr/www/price/maker_detail.asp?MAKER_CD=4000000074",
       "note": "한양전자산업 HSM280D 정확구성신품소매가미확인. 소매검색의 다른스탠드유닛을동일품으로쓰지않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25806882",
@@ -1368,7 +1380,7 @@
       "status": "no_scorable_facts",
       "source_url": null,
       "note": "햇살 SFRI600 available이나 scorable facts0으로점수대상제외.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25180707",
@@ -1385,7 +1397,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://www.tngedu.co.kr/dongwon-cns-edu",
       "note": "DEM-RP1000 40~1000배 exact제품 신품 공개가격미확인. DEM7045실체줌·다른RP1000기기와구분.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25207812",
@@ -1402,7 +1414,7 @@
       "status": "no_qualifying_exact_price",
       "source_url": "https://www.ssg.com/item/itemView.ssg?itemId=1000544918166",
       "note": "호만두새우1.02kg 공개소매가미확인. 공식소매450g9980원은포장단위와제조자가다르고고단가로동일품미채택.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "23043636",
@@ -1419,7 +1431,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "이륜코리아 EK230N 문서세단기 exact신품판매가격미확인. Artline EK230N필기구 검색결과는무관상품으로제외.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "26111267",
@@ -1436,7 +1448,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://www.superstore.co.kr/",
       "note": "한성 S15-B851651V0 Ultra5 225 exact 조달구성의소매가격미확인. 다른조립PC/프로세서단품가격을동일제품으로미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25484536",
@@ -1453,7 +1465,7 @@
       "status": "direct_price_above_gate",
       "source_url": "https://www.11st.co.kr/products/7834970396",
       "note": "해담솔 김대감스틱김자반오리지널10g×40봉 소매원문을 확인. 조달10g×15봉과포장수가다르고 원문가격이기준5000원/15봉 이하아님. 다른맛·포인트를비교가격에미반영.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24906131",
@@ -1470,7 +1482,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "참손푸드 참손생선까스600g 정확상품 소매가격미확인. 일반생선까스 타제조사·중량다른상품미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "21974812",
@@ -1487,7 +1499,7 @@
       "status": "lead_above_gate",
       "source_url": "https://m.hkk.co.kr/product/detail.html?product_no=204",
       "note": "HKLK-B 제조사소매목록384000원 VAT포함/5만원이상무료배송으로 공식단가와같음. 기준320000원 이하신품가격미확인.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "23636648",
@@ -1504,7 +1516,7 @@
       "status": "direct_price_above_gate",
       "source_url": "https://item.gmarket.co.kr/Item?goodsCode=3598712918",
       "note": "GWFD650REC1 정확모델 새상품/과세 원문1600000원으로 공식최고1380000원/기준1150000원초과. 서울외배송착불조건도명시. 다른650RE모델로비교하지않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "23905595",
@@ -1521,7 +1533,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://spoflex.co.kr/",
       "note": "스포플렉스 SP8600 트레드밀 exact신품가격미확인. 같은이름 InFocus프로젝터·램프는무관상품으로제외.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24112265",
@@ -1538,7 +1550,7 @@
       "status": "no_qualifying_exact_price",
       "source_url": "https://minishop.gmarket.co.kr/hanilct",
       "note": "한일시티코리아 HM11 1500×2000mm 정확모델/사양의소매가미확인. 제조사 일반담요소매는27900~34900원단서로14900원조달단가보다높음. 타제조사저가담요는exact로미채택.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25693534",
@@ -1555,7 +1567,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://www.sindoh.com/products/gov/digital-copiers/page/2",
       "note": "신도리코 MF4123은 공식최고fact4345000원까지비교했으나 공개본체가격미확인. 125000원토너카트리지 및소모품가격을본체가격으로쓰지않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25855103",
@@ -1572,7 +1584,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "시그마엘이디 LL907DDE 7W 정확모델소매가미확인. 일반7W 다운라이트 다른제조사제품을exact로미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25343137",
@@ -1589,7 +1601,7 @@
       "status": "lead_above_gate",
       "source_url": "https://item.gmarket.co.kr/Item?goodsCode=3101634121",
       "note": "CJ이츠웰 고슬고슬새우볶음밥3kg×3봉 일반가59400원+배송5000원 단서로3kg봉당21466.67원. 공식단가14720원/기준12266.67원초과. 300g옵션6000원을3kg가격으로쓰지않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "23586202",
@@ -1606,7 +1618,7 @@
       "status": "direct_price_above_gate",
       "source_url": "https://m.agriis.co.kr/m/mall/pdisplay_m.php?active=product_m&no=3040&order_m=name&thiscode=3601&updown_m=ASC",
       "note": "부모Jev+실제DOM 검증 work/browser/jev-dr1500an.json: 기본DR950AN6600000원에 DR1500AN옵션+600000원으로농민영세율7200000원/비농민VAT포함7920000원. 공식6300000원보다높아제외. 전국무료배송(도서제외). 융자한도3650000원·적립금차감가격미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25698829",
@@ -1623,7 +1635,7 @@
       "status": "no_qualifying_exact_price",
       "source_url": "https://www.kurly.com/goods/5029746",
       "note": "착한들한우진한사골곰탕500mL 정확제품판매처를찾았으나 공개단서4팩21500원 등으로공식500g3450원/기준2875원초과. 더착한300mL와다른브랜드미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25539823",
@@ -1640,7 +1652,7 @@
       "status": "no_qualifying_exact_price",
       "source_url": "https://jjhoil.com/",
       "note": "정준호양심들기름500mL exact소매가미확인. 제조사현재300mL혼합세트38600원/미슐랭참기름1.75L56900원은종류·포장단위다름. 같은모델인것처럼미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24738232",
@@ -1657,7 +1669,7 @@
       "status": "quote_only",
       "source_url": "https://buykorea.org/ec/prd/selectSvcDetail.do?goodsSn=3730123",
       "note": "RO062RE 정확제조사수출페이지1270×900×1010mm/380V14.5kW 확인했으나 RFQ뿐이고해외판매도Price on Call. 더작은6단RO061RE를12단같은제품으로미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25428006",
@@ -1674,7 +1686,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "코주부씨앤에프 푹고은가마솥한돈돼지국밥2kg 정확모델가격미확인. 일반돼지국밥 다른제조사/용량과구분.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25931210",
@@ -1691,7 +1703,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "대상 쉐프원부드러운청양고추햄달걀말이900g 정확제품가격미확인. 다른맛달걀말이·레시피·다른제조사미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25962448",
@@ -1708,7 +1720,7 @@
       "status": "quote_only",
       "source_url": "https://www.dasannetworks.com/sub/sub02_01_02.php?cat_no=1&idx=135&mode=view",
       "note": "D5632G 제조사정확모델페이지확인되나 가격은세부정보요청. D5632GP(PoE다른모델)와중고장비를동일신품으로미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24592931",
@@ -1725,7 +1737,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://haedofood7322.cafe24.com/",
       "note": "해도식품 자갈치종합어묵1kg 제조사·제품신고번호19710506012-26 확인. 정확제품 소매가격은 미확인.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25594714",
@@ -1742,7 +1754,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "프로엘 SED60 스피커브래킷 정확모델 공개판매가 미확인.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25533026",
@@ -1759,7 +1771,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "참푸드 매실고추장돼지불고기1kg 정확제조사 판매가격 미확인.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "22405819",
@@ -1776,7 +1788,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://www.kukboscience.com/",
       "note": "국보 슈퍼가드마일드에어로솔200mL 제조사 제품 소개 확인. 200mL 실판매가는 미확인.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25541134",
@@ -1793,7 +1805,7 @@
       "status": "identity_and_price_not_qualified",
       "source_url": "https://www.supremainc.com/en/hardware/compact-outdoor-fingerprint-device-biostation-2a.asp",
       "note": "공식 GP-BS2A-010은 BioStation2a 사양과 유사하지만 ODPB/OAPWB와의 정확모델 매핑은 미확인. ODPB 신품1147000원+배송3500원 단서도 기준1135000원보다 높아 비교 근거로 채택하지 않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "23348734",
@@ -1810,7 +1822,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "바스컴 FSW700HK 무선마이크 수신기1/송신기1 정확구성 공개판매가 미확인.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25666134",
@@ -1827,7 +1839,7 @@
       "status": "accepted_pending_lint",
       "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
       "note": "부모Jev+실DOM 확인 후 일반소비자표시가VAT기준채택. 정확 SFP-1G20LX-LC33000원+개당배송3500원. 제주Q2 제외 본토6facts Q48/C3744000/B36500 기준1992000원 접수accepted, 제출ID e4fa9fe2-587f-4db5-a2c7-d5b28cb24cb3. lint미조회. 실제예산절감확정아님. 포함명시문장 관측주장하지않음. 현장설치도 선택부품 취득가 범위.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25652030",
@@ -1844,7 +1856,7 @@
       "status": "no_qualifying_exact_price",
       "source_url": "https://www.galleria.co.kr/goods/initDetailGoods.action?goods_no=2505260399",
       "note": "복음자리 잼다운잼딸기&라즈베리225g 판매단서8200원으로 기준3625원 이하 근거 미확인. 205g·짜먹는100g 변형은 같은포장으로 쓰지 않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25781837",
@@ -1861,7 +1873,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "에스에프에스 풀드포크M 1kg 정확제품 공개판매가 미확인. 식당 메뉴와 타제조사 풀드포크를 구분.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25604051",
@@ -1878,7 +1890,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "롯데웰푸드 육즙듬뿍바삭군만두1008g 정확제품 공개판매가 미확인. Chefood360g×2 등 다른구성 미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "26345638",
@@ -1895,7 +1907,7 @@
       "status": "no_qualifying_exact_price",
       "source_url": "https://www.coupang.com/vp/products/9597763710",
       "note": "현대큐밍 QWFE16TSAT 정확모델 신규판매 단서는372220~384720원 무료배송으로 최고fact390000원/대회기준325000원 초과. 월렌탈15900원·상품권·포인트는 취득가로 미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25669751",
@@ -1912,7 +1924,7 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "해주이엔팜 죽향프리미엄알타리김치5kg 정확제조사·모델의 소매가격 미확인. 타브랜드 알타리김치와 구분.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "22619670",
@@ -1929,7 +1941,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://www.plus.co.kr/63",
       "note": "프러스 P624N 정확모델의 신품 판매가격 미확인. 제조사 P624S와 다른상품 및중고품을 exact로 미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25878001",
@@ -1946,7 +1958,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://ebook.rinnai.co.kr/include/catalistc.asp",
       "note": "린나이 RSBG-200F 제조사 카탈로그·사용설명서 확인. 일반소매 RSB-200F와 모델G suffix가 달라 같은제품으로 쓰지 않았고 공개 정확가격은 미확인.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24909269",
@@ -1963,7 +1975,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://www.hains.kr/htm/G02_3/3",
       "note": "하인스 HGS-B9000N 정확모델 신품 소매가 미확인. 다른하인스 식기소독기·세미기와 구분.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24988263",
@@ -1980,7 +1992,7 @@
       "status": "no_qualifying_exact_price",
       "source_url": "https://www.sodamedia.shop/goods/goods_view.php?goodsNo=1000000216",
       "note": "AVer A30 정확모델 소매단서880000원으로 공식790000원/대회기준658333.33원 초과. 국내에누리는 일시품절. 해외신품 조사로도 낮은총액을 아직 확인하지 못함.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "26158554",
@@ -1997,7 +2009,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://www.kopasinc.co.kr/",
       "note": "코파스 GS-M402S2 정확모델 공개판매가 미확인. CPK-A4120 등다른모델을 같은제품으로 사용하지 않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25862751",
@@ -2014,7 +2026,7 @@
       "status": "equivalent_configuration_research",
       "source_url": "https://prod.danawa.com/info/?pcode=70004297",
       "note": "HAB7-X51P0HW available 재확인. i7-14700/16GB/512SSD+1TBHDD/27FHD/Win11Home/웹캠·복구솔루션. 동급대체 이그닉27Z4700 Win11Home1849000원 단서이나 추가HDD·카드리더·HDMI입력·웹캠/복구구성 차이를 검증 중이며 완전동일구성 가격으로 제출하지 않음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "21160646",
@@ -2031,7 +2043,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://m.hkk.co.kr/product/detail.html?page_6=1&product_no=815",
       "note": "HKOAM-900H 앞치마살균보관고 정확제조사 제품목록을 확인했으나 낮은 공개 실판매가 미확인.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25701610",
@@ -2048,7 +2060,7 @@
       "status": "no_qualifying_exact_price",
       "source_url": "https://www.philips.co.kr/c-p/CHP2164WB_61/power-multiplier",
       "note": "필립스 CHP2164WB/61 6구3m 마스터스위치 정확제조사 규격을 확인. exact 소매단서2만원대이며 최고fact21000원 기준17500원 이하 확인근거 없음. 길이·구수가 다른 낮은옵션가격 미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25115267",
@@ -2065,7 +2077,7 @@
       "status": "quote_only",
       "source_url": "https://www.klenz.co.kr/products.php?p_id=1020&pi_id=10",
       "note": "크렌즈 KNS620 제조사 정확제품 확인. 12켤레 살균건조기 공개 실구매가 미확인.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25700768",
@@ -2082,7 +2094,7 @@
       "status": "no_qualifying_exact_price",
       "source_url": "https://item.cjonstyle.com/nfront/item/2085693492?channelCode=30002002",
       "note": "탐스제로파인애플향355mL 일반소매 단서는24캔15970원 등으로 최고fact517원 대비 기준430.83원/캔 이하 exact 가격 미확인. 혼합맛48캔·600mL페트·적립혜택은 같은상품가격으로 미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25394854",
@@ -2099,7 +2111,7 @@
       "status": "no_qualifying_exact_price",
       "source_url": "https://remishop.co.kr/product/sennheiser-a-1031-u-%ED%8C%A8%EC%8B%9C%EB%B8%8C-%EB%AC%B4%EC%84%A0-%EB%A7%88%EC%9D%B4%ED%81%AC-%EC%95%88%ED%85%8C%EB%82%98/2256/",
       "note": "젠하이저 A1031U 신품 단서376000~408000원으로 최고fact359700원/기준299750원 초과. 중고30만원과 멤버십적립차감 미사용. 해외가격은 세금·배송 포함 조건 확인 전 미채택.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "25348151",
@@ -2116,7 +2128,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://m.sajomall.co.kr/goods/goods_list.php?cateCd=004009",
       "note": "사조 애니쿡교자만두1350g 정확포장 일반판매가 미확인. 타제조사·용량다른 냉동만두 미사용.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24872656",
@@ -2133,7 +2145,7 @@
       "status": "no_exact_retail_price",
       "source_url": "https://www.gv-korea.com/main_kr/main.php?&CatNo=16&Rid=80&ctt=..%2Fcontents_kr%2Fm_3_0&ctt2=view",
       "note": "지브이 GVM100 정확마이크 공개가격 미확인. 외국 GVM영상조명과 구분.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "26129556",
@@ -2150,7 +2162,7 @@
       "status": "no_qualifying_exact_price",
       "source_url": "https://xn--939a80mvmn25p.com/category/%EC%86%8C%EB%8F%85%EC%A0%9C%EC%82%B4%EC%B6%A9%EC%A0%9C%EA%B5%AC%EC%84%9C%EC%A0%9C%EC%99%B8%EB%B6%80%EA%B8%B0%EC%83%9D%EC%B6%A9%EA%B5%AC%EC%A0%9C%EC%A0%9C/78/",
       "note": "버콘S-X1kg 실제 소매목록29900원으로 최고fact29800원/기준24833.33원 초과. 구형VirkonS·아쿠아틱 제품을 리뉴얼 S-X와 동일품으로 미사용. 용법·효능 대체 권고 없음.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     },
     {
       "item_id": "24173136",
@@ -2167,8 +2179,853 @@
       "status": "no_exact_retail_price",
       "source_url": null,
       "note": "젠프로 PGL-S118 800W 정확제품의 공개 실판매가 미확인.",
-      "observed_at": "2026-10-16T04:00:17.152715+00:00"
+      "observed_at": "2026-10-16T04:15:41.631701+00:00"
     }
   ],
-  "private_evidence": "work/fullscan/hardware-* API 전체 facts와 전체 카탈로그는 비공개 작업 경로에만 보존. 공개 분석에 원본 전체를 재배포하지 않음."
+  "private_evidence": "work/fullscan/hardware-* API 전체 facts와 전체 카탈로그는 비공개 작업 경로에만 보존. 공개 분석에 원본 전체를 재배포하지 않음.",
+  "targeted_finished_network_switches": {
+    "scope": "owner_slot2전체 finished network switches; 모델SFP·부품제외; 기존조사물품제외;순차500개읽기와별도표적조사",
+    "source": "work/data/latest-20261016/full-catalog-priority.parquet",
+    "catalog_version": "20261016",
+    "observed_at": "2026-10-16T04:15:41.717103+00:00",
+    "counts": {
+      "official_targeted_lookup": 80,
+      "official_available_at_lookup": 37,
+      "official_facts_recalculated": 20,
+      "actually_web_searched": 17,
+      "direct_price_or_page_checks_completed": 4
+    },
+    "records": [
+      {
+        "item_id": "25413740",
+        "product_name": "네트워크스위치, 비엔에스테크, N8-0802P, 8port",
+        "model": "N8-0802P",
+        "availability_at_observation": "available",
+        "official_item_url": "https://hackathon.savetax.now/v1/events/current/items/25413740",
+        "scorable_fact_count": 35,
+        "quantity_total": "202",
+        "comparable_amount_total_krw": "246642000",
+        "max_fact_unit_price_krw": "1221000",
+        "actually_web_searched": true,
+        "status": "core_specification_or_retail_price_research"
+      },
+      {
+        "item_id": "23641018",
+        "product_name": "네트워크스위치, 엔에스티정보통신, NSH-2108LP, 8port PoE",
+        "model": "NSH-2108LP",
+        "availability_at_observation": "available",
+        "official_item_url": "https://hackathon.savetax.now/v1/events/current/items/23641018",
+        "scorable_fact_count": 67,
+        "quantity_total": "499",
+        "comparable_amount_total_krw": "236376000",
+        "max_fact_unit_price_krw": "504000",
+        "actually_web_searched": true,
+        "status": "accepted",
+        "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+        "retail_model": "NSH-2108LP",
+        "comparison_kind": "exact",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_scope": "동일 전체 모델 NST NSH-2108LP 신품 완제품 네트워크스위치1대 비교.8GbE PoE포트/802.3af·at/총150W/관리형/Long Range PoE 기능의 같은 모델이다. 실제표시347200원·배송0원을B로 쓴다. 판매처의30만원이상무료배송에 해당하며 Jev관측에서도 배송0원이 표시됐다. 조달은 현장설치도이고 소매는 본체 판매이므로 현장장착·설정서비스와 보증차이는 별도로 정산하지 않은 제품 취득가 비교다. 설치까지 포함한 실제지출절감 확정이라고 주장하지 않는다. 소비자 공개표시가를 VAT포함 기준으로 채택하되 별도 VAT포함 문장이 있다고 주장하지 않는다. 제주기관fact는없으며 도서지역추가료가실제로발생하는개별주소까지확정한주장은하지않는다.",
+        "representative_references": [
+          {
+            "fact_id": "dl:23641018:002270051_1:R25TB01008053:8",
+            "listing_id": "002270051_1120000199",
+            "contract_no": "002270051_1",
+            "request_no": "R25TB01008053",
+            "line_no": "8",
+            "quantity": "13",
+            "comparable_amount_krw": "6006000",
+            "agency_name": "경기도 안산시"
+          },
+          {
+            "fact_id": "dl:23641018:002270051_1:R25TB01008956:7",
+            "listing_id": "002270051_1120000199",
+            "contract_no": "002270051_1",
+            "request_no": "R25TB01008956",
+            "line_no": "7",
+            "quantity": "21",
+            "comparable_amount_krw": "9702000",
+            "agency_name": "경기도 수원시 도시안전통합센터"
+          },
+          {
+            "fact_id": "dl:23641018:002270051_1:R25TB01118836:4",
+            "listing_id": "002270051_1120000199",
+            "contract_no": "002270051_1",
+            "request_no": "R25TB01118836",
+            "line_no": "4",
+            "quantity": "3",
+            "comparable_amount_krw": "1386000",
+            "agency_name": "서울특별시 성북구"
+          }
+        ],
+        "potential_saving_krw": "61376700",
+        "submission_id": "3ee841dc-e6ce-4128-98fe-07f8bf0fcc65",
+        "accepted_amount_krw": 63123200,
+        "lint_status_at_receipt": "pending",
+        "verification_status_at_receipt": "not_started"
+      },
+      {
+        "item_id": "25645029",
+        "product_name": "네트워크스위치, 미래시그널, HS-PG2404M, 24port",
+        "model": "HS-PG2404M",
+        "availability_at_observation": "available",
+        "official_item_url": "https://hackathon.savetax.now/v1/events/current/items/25645029",
+        "scorable_fact_count": 51,
+        "quantity_total": "73",
+        "comparable_amount_total_krw": "135123000",
+        "max_fact_unit_price_krw": "1851000",
+        "actually_web_searched": true,
+        "status": "core_specification_or_retail_price_research"
+      },
+      {
+        "item_id": "24516650",
+        "product_name": "네트워크스위치, 여의시스템, YES-1008-PoE, 10port",
+        "model": "YES-1008-PoE",
+        "availability_at_observation": "available",
+        "official_item_url": "https://hackathon.savetax.now/v1/events/current/items/24516650",
+        "scorable_fact_count": 28,
+        "quantity_total": "106",
+        "comparable_amount_total_krw": "105046000",
+        "max_fact_unit_price_krw": "991000",
+        "actually_web_searched": true,
+        "status": "core_specification_or_retail_price_research"
+      },
+      {
+        "item_id": "25708426",
+        "product_name": "네트워크스위치, 다산네트웍스, V2724MP, 24port",
+        "model": "V2724MP",
+        "availability_at_observation": "available",
+        "official_item_url": "https://hackathon.savetax.now/v1/events/current/items/25708426",
+        "scorable_fact_count": 9,
+        "quantity_total": "33",
+        "comparable_amount_total_krw": "103727250",
+        "max_fact_unit_price_krw": "3267000",
+        "actually_web_searched": true,
+        "status": "core_specification_or_retail_price_research"
+      },
+      {
+        "item_id": "25527067",
+        "product_name": "네트워크스위치, 미래시그널, MV-PG2404M, 24port",
+        "model": "MV-PG2404M",
+        "availability_at_observation": "available",
+        "official_item_url": "https://hackathon.savetax.now/v1/events/current/items/25527067",
+        "scorable_fact_count": 23,
+        "quantity_total": "45",
+        "comparable_amount_total_krw": "76084000",
+        "max_fact_unit_price_krw": "1696000",
+        "actually_web_searched": true,
+        "status": "core_specification_or_retail_price_research"
+      },
+      {
+        "item_id": "24101315",
+        "product_name": "네트워크스위치, 엔에스티정보통신, NGI-2208-BP, 8port",
+        "model": "NGI-2208-BP",
+        "availability_at_observation": "available",
+        "official_item_url": "https://hackathon.savetax.now/v1/events/current/items/24101315",
+        "scorable_fact_count": 8,
+        "quantity_total": "48",
+        "comparable_amount_total_krw": "69600000",
+        "max_fact_unit_price_krw": "1450000",
+        "actually_web_searched": true,
+        "status": "core_specification_or_retail_price_research"
+      },
+      {
+        "item_id": "25610187",
+        "product_name": "네트워크스위치, 미래시그널, MV-MPG2404M, 24port",
+        "model": "MV-MPG2404M",
+        "availability_at_observation": "available",
+        "official_item_url": "https://hackathon.savetax.now/v1/events/current/items/25610187",
+        "scorable_fact_count": 18,
+        "quantity_total": "39",
+        "comparable_amount_total_krw": "68250000",
+        "max_fact_unit_price_krw": "1750000",
+        "actually_web_searched": true,
+        "status": "core_specification_or_retail_price_research"
+      },
+      {
+        "item_id": "23606603",
+        "product_name": "네트워크스위치, 다산네트웍스, D3208GP, 8port",
+        "model": "D3208GP",
+        "availability_at_observation": "available",
+        "official_item_url": "https://hackathon.savetax.now/v1/events/current/items/23606603",
+        "scorable_fact_count": 7,
+        "quantity_total": "60",
+        "comparable_amount_total_krw": "67560000",
+        "max_fact_unit_price_krw": "1126000",
+        "actually_web_searched": true,
+        "status": "core_specification_or_retail_price_research"
+      },
+      {
+        "item_id": "25059437",
+        "product_name": "네트워크스위치, 루트브이, RSE-1M28PM, 24port",
+        "model": "RSE-1M28PM",
+        "availability_at_observation": "available",
+        "official_item_url": "https://hackathon.savetax.now/v1/events/current/items/25059437",
+        "scorable_fact_count": 14,
+        "quantity_total": "41",
+        "comparable_amount_total_krw": "57400000",
+        "max_fact_unit_price_krw": "1400000",
+        "actually_web_searched": true,
+        "status": "core_specification_or_retail_price_research"
+      },
+      {
+        "item_id": "25416553",
+        "product_name": "네트워크스위치, 누리아이엔지, SJ-1810PS, 8port",
+        "model": "SJ-1810PS",
+        "availability_at_observation": "available",
+        "official_item_url": "https://hackathon.savetax.now/v1/events/current/items/25416553",
+        "scorable_fact_count": 9,
+        "quantity_total": "32",
+        "comparable_amount_total_krw": "52832000",
+        "max_fact_unit_price_krw": "1651000",
+        "actually_web_searched": false,
+        "status": "core_specification_or_retail_price_research"
+      },
+      {
+        "item_id": "23385308",
+        "product_name": "네트워크스위치, 한드림넷, (CN)HN1010G, 8port",
+        "model": "(CN)HN1010G",
+        "availability_at_observation": "available",
+        "official_item_url": "https://hackathon.savetax.now/v1/events/current/items/23385308",
+        "scorable_fact_count": 27,
+        "quantity_total": "192",
+        "comparable_amount_total_krw": "80256000",
+        "max_fact_unit_price_krw": "418000",
+        "actually_web_searched": true,
+        "status": "accepted",
+        "source_url": "https://tplinkmall.com/product/%ED%8B%B0%ED%94%BC%EB%A7%81%ED%81%AC-tl-sg2210p-10%ED%8F%AC%ED%8A%B88poe2sfp-%EA%B8%B0%EA%B0%80%EB%B9%84%ED%8A%B8-%EC%8A%A4%EC%9C%84%EC%B9%98-poe8p-2sfp-58w-omada/90/",
+        "retail_model": "TL-SG2210P",
+        "comparison_kind": "equivalent",
+        "benchmark_unit_price_krw": "189000",
+        "comparison_scope": "동일모델비교가아닌8개기가비트동선포트+2개기가비트광SFP업링크,20Gbps/14.88Mpps/8K MAC,L2관리/VLAN/STP/IGMP/QoS/ACL/SNMP 핵심사양대응대체품가격비교. 한드림넷자체관리/인증과전원·관리방식차이를본문에명시하며기존구성그대로무변경치환으로주장하지않는다. 일반189000원무료배송을사용하고신규회원/딜러/조건할인가170600원·적립금을미차감. 도서추가비미확정범위는제외. 원조달계약의현장설치·운영서비스와장비본체취득가격은구분하며집행된예산절감은주장하지않는다.",
+        "representative_references": [
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R25TB01075312:1",
+            "listing_id": "R25TA00961673020000001",
+            "contract_no": "R25TA00961673",
+            "request_no": "R25TB01075312",
+            "line_no": "1",
+            "quantity": "12",
+            "comparable_amount_krw": "5016000",
+            "agency_name": "해양경찰청 서해지방해양경찰청 군산해양경찰서"
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R25TB01186691:1",
+            "listing_id": "R25TA00961673020000001",
+            "contract_no": "R25TA00961673",
+            "request_no": "R25TB01186691",
+            "line_no": "1",
+            "quantity": "60",
+            "comparable_amount_krw": "25080000",
+            "agency_name": "한국도로공사서비스(주)"
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R25TB01208415:1",
+            "listing_id": "R25TA00961673020000001",
+            "contract_no": "R25TA00961673",
+            "request_no": "R25TB01208415",
+            "line_no": "1",
+            "quantity": "1",
+            "comparable_amount_krw": "418000",
+            "agency_name": "전남광주통합특별시교육청 전남광주통합특별시고흥교육지원청"
+          }
+        ],
+        "potential_saving_krw": "43968000",
+        "submission_id": "f8a15f70-5f9b-44e6-8c85-d8075c44b259",
+        "accepted_amount_krw": 43968000,
+        "lint_status_at_receipt": "pending",
+        "verification_status_at_receipt": "not_started"
+      },
+      {
+        "item_id": "24680230",
+        "product_name": "네트워크스위치, 한드림넷, ISG2030GXF-A, 30port",
+        "model": "ISG2030GXF-A",
+        "availability_at_observation": "available",
+        "official_item_url": "https://hackathon.savetax.now/v1/events/current/items/24680230",
+        "scorable_fact_count": 16,
+        "quantity_total": "35",
+        "comparable_amount_total_krw": "167475000",
+        "max_fact_unit_price_krw": "4785000",
+        "actually_web_searched": false,
+        "status": "core_specification_or_retail_price_research"
+      },
+      {
+        "item_id": "25648122",
+        "product_name": "네트워크스위치, 한드림넷, SG2456GX2, 48port",
+        "model": "SG2456GX2",
+        "availability_at_observation": "available",
+        "official_item_url": "https://hackathon.savetax.now/v1/events/current/items/25648122",
+        "scorable_fact_count": 5,
+        "quantity_total": "15",
+        "comparable_amount_total_krw": "80850000",
+        "max_fact_unit_price_krw": "5390000",
+        "actually_web_searched": true,
+        "status": "core_specification_or_retail_price_research"
+      },
+      {
+        "item_id": "24516647",
+        "product_name": "네트워크스위치, 엔에스티정보통신, NSH-1624GP, 16port",
+        "model": "NSH-1624GP",
+        "availability_at_observation": "available",
+        "official_item_url": "https://hackathon.savetax.now/v1/events/current/items/24516647",
+        "scorable_fact_count": 2,
+        "quantity_total": "39",
+        "comparable_amount_total_krw": "23322000",
+        "max_fact_unit_price_krw": "598000",
+        "actually_web_searched": true,
+        "status": "core_specification_or_retail_price_research"
+      },
+      {
+        "item_id": "23809904",
+        "product_name": "네트워크스위치, 한드림넷, HN1016G, 14port",
+        "model": "HN1016G",
+        "availability_at_observation": "available",
+        "official_item_url": "https://hackathon.savetax.now/v1/events/current/items/23809904",
+        "scorable_fact_count": 15,
+        "quantity_total": "72",
+        "comparable_amount_total_krw": "44668800",
+        "max_fact_unit_price_krw": "620400",
+        "actually_web_searched": true,
+        "status": "parent_direct_dom_verification_pending",
+        "source_url": "https://tplinkmall.com/product/detail.html?product_no=75",
+        "retail_model": "TL-SG2218",
+        "comparison_kind": "equivalent",
+        "benchmark_unit_price_krw": "290000",
+        "comparison_scope": "원제조사/모델은한드림넷HN1016G이고실대체판매품은TP-LinkTL-SG2218이다. 동일품이라고하지않는다. 원14개동선포트대비대체16개로2개여유,32Gbps/23.8Mpps대비36Gbps/26.8Mpps이다. 한드림넷VNM/VIPM전용관리연동·Multi OS·국산장비/보안기능확인서인증을TP-Link가동일하게제공한다고주장하지않는다. TP-Link는Omada관리이며설정·운영체계가다르다. 원64MB플래시와대체메모리·세부큐구성의동일성,기관기존망에의연동시험·설정이행은확인하지않았다. SFP광모듈·케이블은별매범위이다. 일반판매가290000원무료배송을1대가격으로비교하며적립/조건할인미적용.도서추가운임미확정제주·울릉기관fact는제외.조달현장설치/보수서비스와본체취득가격범위를구분하고,집행된예산절감은주장하지않는다.",
+        "representative_references": [
+          {
+            "fact_id": "dl:23809904:R25TA00961673:R25TB01094561:1",
+            "listing_id": "R25TA00961673020000003",
+            "contract_no": "R25TA00961673",
+            "request_no": "R25TB01094561",
+            "line_no": "1",
+            "quantity": "1",
+            "comparable_amount_krw": "620400",
+            "agency_name": "경기도"
+          },
+          {
+            "fact_id": "dl:23809904:R25TA00961673:R25TB01123517:1",
+            "listing_id": "R25TA00961673020000003",
+            "contract_no": "R25TA00961673",
+            "request_no": "R25TB01123517",
+            "line_no": "1",
+            "quantity": "1",
+            "comparable_amount_krw": "620400",
+            "agency_name": "충청남도 천안시"
+          },
+          {
+            "fact_id": "dl:23809904:R25TA00961673:R25TB01180222:1",
+            "listing_id": "R25TA00961673020000003",
+            "contract_no": "R25TA00961673",
+            "request_no": "R25TB01180222",
+            "line_no": "1",
+            "quantity": "1",
+            "comparable_amount_krw": "620400",
+            "agency_name": "경기도"
+          }
+        ],
+        "potential_saving_krw": "23788800"
+      },
+      {
+        "item_id": "25044535",
+        "product_name": "네트워크스위치, 엔에스티정보통신, NGE-2110, 8port",
+        "model": "NGE-2110",
+        "availability_at_observation": "available",
+        "official_item_url": "https://hackathon.savetax.now/v1/events/current/items/25044535",
+        "scorable_fact_count": 6,
+        "quantity_total": "47",
+        "comparable_amount_total_krw": "23500000",
+        "max_fact_unit_price_krw": "500000",
+        "actually_web_searched": true,
+        "status": "core_specification_or_retail_price_research"
+      },
+      {
+        "item_id": "24876179",
+        "product_name": "네트워크스위치, 여의시스템, YES-2116P, 16port PoE",
+        "model": "YES-2116P",
+        "availability_at_observation": "available",
+        "official_item_url": "https://hackathon.savetax.now/v1/events/current/items/24876179",
+        "scorable_fact_count": 36,
+        "quantity_total": "53",
+        "comparable_amount_total_krw": "50085000",
+        "max_fact_unit_price_krw": "945000",
+        "actually_web_searched": true,
+        "status": "core_specification_or_retail_price_research"
+      },
+      {
+        "item_id": "24280590",
+        "product_name": "네트워크스위치, 에이디엠, ASW-2224G, 24port",
+        "model": "ASW-2224G",
+        "availability_at_observation": "available",
+        "official_item_url": "https://hackathon.savetax.now/v1/events/current/items/24280590",
+        "scorable_fact_count": 2,
+        "quantity_total": "9",
+        "comparable_amount_total_krw": "41742000",
+        "max_fact_unit_price_krw": "4638000",
+        "actually_web_searched": true,
+        "status": "parent_direct_dom_verification_pending",
+        "source_url": "https://tplinkmall.com/product/detail.html?product_no=79",
+        "retail_model": "TL-SG3428",
+        "comparison_kind": "equivalent",
+        "benchmark_unit_price_krw": "398000",
+        "comparison_scope": "원에이디엠ASW-2224G와다른제조사TP-LinkTL-SG3428의핵심사양대체비교다. 원광업링크는100Base-FX와1000Base-X로구성가능하지만대체원문은1GbpsSFP만명시한다. 따라서100Mbps광업링크가필수인환경에서동일하게동작한다고주장하지않으며1Gbps광업링크사용범위로비교한다. 원16KMAC대비대체V2이상16K이지만V1은8K이므로판매버전확인전16K동등성이확정되었다고하지않는다. 원DRAM/Flash256MB와대체메모리,기존장비와의구성·관리통합/인증/펌웨어동일성은확인되지않았다. 원STP/LACP/CLI·PoE지원은미확인으로추정하지않는다. SFP광모듈·케이블은별매범위이며현장설정/기존망연동시험은수행하지않았다. 일반판매가398000원무료배송을1대가격으로비교하며적립/조건할인미적용.도서추가운임미확정제주·울릉기관fact는제외.조달현장설치/보수서비스와본체취득가격범위를구분하고,집행된예산절감은주장하지않는다.",
+        "representative_references": [
+          {
+            "fact_id": "dl:24280590:002370275_1:R26TB01701231:8",
+            "listing_id": "002370275_1040000084",
+            "contract_no": "002370275_1",
+            "request_no": "R26TB01701231",
+            "line_no": "8",
+            "quantity": "1",
+            "comparable_amount_krw": "4638000",
+            "agency_name": "서울특별시 도시기반시설본부"
+          },
+          {
+            "fact_id": "dl:24280590:002370275_1:R26TB01940321:15",
+            "listing_id": "002370275_1040000084",
+            "contract_no": "002370275_1",
+            "request_no": "R26TB01940321",
+            "line_no": "15",
+            "quantity": "8",
+            "comparable_amount_krw": "37104000",
+            "agency_name": "경기도 이천시"
+          }
+        ],
+        "potential_saving_krw": "38160000"
+      },
+      {
+        "item_id": "24680229",
+        "product_name": "네트워크스위치, 한드림넷, ISG2010GAC, 10port",
+        "model": "ISG2010GAC",
+        "availability_at_observation": "available",
+        "official_item_url": "https://hackathon.savetax.now/v1/events/current/items/24680229",
+        "scorable_fact_count": 2,
+        "quantity_total": "29",
+        "comparable_amount_total_krw": "46255000",
+        "max_fact_unit_price_krw": "1595000",
+        "actually_web_searched": false,
+        "status": "core_specification_or_retail_price_research"
+      }
+    ]
+  },
+  "targeted_sfp_result": {
+    "item_id": "24361786",
+    "status": "accepted",
+    "submission_id": "89ed88ca-dab0-485f-bd68-10ef85605971",
+    "accepted_amount_krw": 6500000,
+    "comparison_kind": "equivalent",
+    "included_fact_count": 21,
+    "quantity_total": "200",
+    "comparable_amount_total_krw": "13800000",
+    "benchmark_unit_price_krw": "36500",
+    "note": "누리SFP-I-LX→여의SFP-1G20LX-LC.동일품아님.핵심광전송규격대응과DDM·온도·전기/실장비호환차이명시.제주2건Q14제외.원판매처8500검색캐시미사용."
+  },
+  "camera_bracket_focus": {
+    "observed_at": "2026-10-16T04:57:05.364384+00:00",
+    "source": "2026-10-16 전체 색인, 전 owner 및 MD5 구간. 공식 current items의 scorable facts로 C/Q 재산정.",
+    "counts": {
+      "camera_bracket_catalog_rows": 265,
+      "positive_spend_rows": 193,
+      "top_spend_official_lookups": 100,
+      "available_at_lookup": 88,
+      "official_catalogs_read": 88,
+      "parallel_independent_queries": 14
+    },
+    "registered_example": {
+      "submission_id": "cefecd17-e117-421c-a999-4fb7d3c53013",
+      "item_id": "24816490",
+      "purpose": "GET으로 대체 비교 구조를 학습했다. 이미 접수된 동일 물품은 재제출하지 않음."
+    },
+    "top10_excluding_pm_cfb": [
+      {
+        "item_id": "24657989",
+        "model": "FDC-A1000",
+        "product_name": "카메라브래킷, 포딕스시스템, FDC-A1000, 기둥형",
+        "availability": "available",
+        "C": "206980000",
+        "Q": "262",
+        "fact_count": 62,
+        "unique_request_count": 62,
+        "form": "금속기둥 암대 부착 밴드형",
+        "material": "STS304",
+        "load_kg": "20",
+        "dimensions_mm": {
+          "외형크기(길이)": "1000",
+          "외형크기(높이)": "200",
+          "외형크기(폭)": "76.3"
+        },
+        "source_url": "https://hackathon.savetax.now/v1/events/current/items/24657989"
+      },
+      {
+        "item_id": "24401861",
+        "model": "FDC-CBR140",
+        "product_name": "카메라브래킷, 포딕스시스템, FDC-CBR140, 박스형",
+        "availability": "available",
+        "C": "171213500",
+        "Q": "895",
+        "fact_count": 103,
+        "unique_request_count": 103,
+        "form": "금속기둥 암대 부착형",
+        "material": "STS304",
+        "load_kg": "20",
+        "dimensions_mm": {
+          "외형크기(길이)": "140",
+          "외형크기(높이)": "140",
+          "외형크기(폭)": "140"
+        },
+        "source_url": "https://hackathon.savetax.now/v1/events/current/items/24401861"
+      },
+      {
+        "item_id": "25226149",
+        "model": "SEO-BR 1.5M",
+        "product_name": "카메라브래킷, 세오, SEO-BR 1.5M, 기둥형",
+        "availability": "available",
+        "C": "159327000",
+        "Q": "189",
+        "fact_count": 24,
+        "unique_request_count": 24,
+        "form": "기둥형, 금속기둥 암대 부착 밴드형",
+        "material": "STS304",
+        "load_kg": "22",
+        "dimensions_mm": {
+          "외형크기(길이)": "1500",
+          "외형크기(폭)": "76"
+        },
+        "source_url": "https://hackathon.savetax.now/v1/events/current/items/25226149"
+      },
+      {
+        "item_id": "24639217",
+        "model": "DW-AB0301",
+        "product_name": "카메라브래킷, 두원전자통신, DW-AB0301, 기둥형",
+        "availability": "available",
+        "C": "146328000",
+        "Q": "201",
+        "fact_count": 34,
+        "unique_request_count": 34,
+        "form": "기둥형",
+        "material": "SUS304",
+        "load_kg": "20",
+        "dimensions_mm": {
+          "외형크기(길이)": "1000",
+          "외형크기(폭)": "76.3"
+        },
+        "source_url": "https://hackathon.savetax.now/v1/events/current/items/24639217"
+      },
+      {
+        "item_id": "25277505",
+        "model": "SI-CB1000",
+        "product_name": "카메라브래킷, 시큐인포, SI-CB1000, 기둥형",
+        "availability": "available",
+        "C": "136590000",
+        "Q": "174",
+        "fact_count": 46,
+        "unique_request_count": 46,
+        "form": "기둥형",
+        "material": "STS304",
+        "load_kg": "22",
+        "dimensions_mm": {
+          "외형크기(길이)": "1000",
+          "외형크기(폭)": "76.3"
+        },
+        "source_url": "https://hackathon.savetax.now/v1/events/current/items/25277505"
+      },
+      {
+        "item_id": "24660563",
+        "model": "FDC-A4000",
+        "product_name": "카메라브래킷, 포딕스시스템, FDC-A4000, 기둥형",
+        "availability": "available",
+        "C": "99456000",
+        "Q": "84",
+        "fact_count": 15,
+        "unique_request_count": 15,
+        "form": "금속기둥 암대 부착 밴드형",
+        "material": "STS304",
+        "load_kg": "20",
+        "dimensions_mm": {
+          "외형크기(길이)": "4000",
+          "외형크기(높이)": "200",
+          "외형크기(폭)": "76.3"
+        },
+        "source_url": "https://hackathon.savetax.now/v1/events/current/items/24660563"
+      },
+      {
+        "item_id": "24816489",
+        "model": "BR-BRACKET5",
+        "product_name": "카메라브래킷, 비알인포텍, BR-BRACKET5, 기둥형",
+        "availability": "available",
+        "C": "89997000",
+        "Q": "687",
+        "fact_count": 120,
+        "unique_request_count": 120,
+        "form": "기둥형",
+        "material": "스테인레스 스틸",
+        "load_kg": "MAX7",
+        "dimensions_mm": {
+          "외형크기(길이)": "160",
+          "외형크기(높이)": "160",
+          "외형크기(폭)": "65"
+        },
+        "source_url": "https://hackathon.savetax.now/v1/events/current/items/24816489"
+      },
+      {
+        "item_id": "25391071",
+        "model": "REX-ARM601",
+        "product_name": "카메라브래킷, 렉스젠, REX-ARM601, 기둥형",
+        "availability": "available",
+        "C": "85192000",
+        "Q": "92",
+        "fact_count": 17,
+        "unique_request_count": 17,
+        "form": "기둥형",
+        "material": "STS304",
+        "load_kg": "20",
+        "dimensions_mm": {
+          "외형크기(길이)": "1000",
+          "외형크기(높이)": "200",
+          "외형크기(폭)": "60"
+        },
+        "source_url": "https://hackathon.savetax.now/v1/events/current/items/25391071"
+      },
+      {
+        "item_id": "25642132",
+        "model": "SI-CB02",
+        "product_name": "카메라브래킷, 시큐인포, SI-CB02, 박스형",
+        "availability": "available",
+        "C": "84108000",
+        "Q": "489",
+        "fact_count": 59,
+        "unique_request_count": 59,
+        "form": "박스형",
+        "material": null,
+        "load_kg": "10",
+        "dimensions_mm": {
+          "외형크기(길이)": "150",
+          "외형크기(높이)": "160",
+          "외형크기(폭)": "155"
+        },
+        "source_url": "https://hackathon.savetax.now/v1/events/current/items/25642132"
+      },
+      {
+        "item_id": "24290412",
+        "model": "HS-PLM01",
+        "product_name": "카메라브래킷, 홍석, HS-PLM01, 기둥형",
+        "availability": "available",
+        "C": "75776000",
+        "Q": "592",
+        "fact_count": 101,
+        "unique_request_count": 101,
+        "form": "기둥형",
+        "material": "스테인리스강",
+        "load_kg": "0.2",
+        "dimensions_mm": {
+          "외형크기(길이)": "120",
+          "외형크기(높이)": "120"
+        },
+        "source_url": "https://hackathon.savetax.now/v1/events/current/items/24290412"
+      }
+    ],
+    "deferred_small_drafts": [
+      {
+        "item_id": "24813212",
+        "procurement_model": "FDC-CBR215P",
+        "model": "TR-UP08-A-IN",
+        "url": "https://www.duhyun.com/mall/shopbrand_view.php?uid=24271",
+        "unit_price": "75000",
+        "benchmark_unit_price_krw": "77750",
+        "official_fact_count": 46,
+        "official_Q": "438",
+        "official_C": "68766000",
+        "provisional_component_difference_krw": "34711500",
+        "status": "deferred_under_100m_supply_version_and_parent_dom_review",
+        "differences": "조달품은 포딕스시스템 FDC-CBR215P, 소매품은 유니뷰 TR-UP08-A-IN으로 서로 다른 모델이다. 밴드로 기둥에 고정하는 판형 마운트 구조와 구형 자료의 치수·무게는 대응한다. 다만 조달 속성의 알루미늄과 대체 제조사 표의 Steel이 다르고, 제조사 현재 치수도 구형 자료와 차이가 있어 공급 버전을 확인해야 한다. 원품의 허용 기둥 지름과 실제 카메라 홀 배열은 미확인이다. 임의의 카메라에 완전 호환되거나 현장 가공 없이 교체된다고 주장하지 않는다. 원품은 현장설치도이며 소매가는 부품 가격이다. 현장 공임과 원품 전용 부속의 비용을 포함한 전체 설치 절감액으로 확정하지 않는다.",
+        "spec_mapping": [
+          {
+            "attribute": "용도·체결 구조",
+            "original": "기둥형 카메라브래킷. 공식 상품 이미지에 고정판과 밴드 3개가 보임.",
+            "alternative": "실내외 PTZ 돔 카메라용 폴 마운트. 공식 사양상 폴 지름 67~127mm."
+          },
+          {
+            "attribute": "크기·무게",
+            "original": "215×170×52mm, 1.47kg",
+            "alternative": "구형 제조사 작성 자료 215×170×52mm, 1.47kg. 현재 제조사 웹 표는 215×175×60mm, 1.47kg로 표기하므로 공급 버전 확인 필요."
+          },
+          {
+            "attribute": "재질",
+            "original": "알루미늄",
+            "alternative": "현재 제조사 웹과 제조사 작성 구형 자료는 Steel 표기. 미국 판매점의 Aluminum Alloy 표기와도 충돌함."
+          },
+          {
+            "attribute": "적재 하중",
+            "original": "10kg",
+            "alternative": "현재 제조사 공개 웹 표에는 하중 수치가 없음. 일부 판매처의 20kg 표기를 제조사 정격으로 전용하지 않음."
+          }
+        ],
+        "spec_source_urls": [
+          "https://api.savetax.now/v1/items/24813212",
+          "https://www.uniview.com/us/Products/Accessories/Cameras/Brackets/TR-UP08-A-IN/",
+          "https://www.helptechco.com/files/pdf_files/TR-UP08-A-IN_PDF.pdf"
+        ],
+        "representative_references": [
+          {
+            "fact_id": "dl:24813212:002370307_1:R26TB01475946:5",
+            "listing_id": "002370307_1060000567",
+            "contract_no": "002370307_1",
+            "request_no": "R26TB01475946",
+            "line_no": "5",
+            "quantity": "8",
+            "comparable_amount_krw": "1256000",
+            "unit_price_krw": "157000",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "agency_name": "경기도 광주시 곤지암읍"
+          },
+          {
+            "fact_id": "dl:24813212:002370307_1:R26TB01584368:17",
+            "listing_id": "002370307_1060000567",
+            "contract_no": "002370307_1",
+            "request_no": "R26TB01584368",
+            "line_no": "17",
+            "quantity": "9",
+            "comparable_amount_krw": "1413000",
+            "unit_price_krw": "157000",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "agency_name": "부산광역시교육청"
+          },
+          {
+            "fact_id": "dl:24813212:002370307_1:R26TB01966889:12",
+            "listing_id": "002370307_1060000567",
+            "contract_no": "002370307_1",
+            "request_no": "R26TB01966889",
+            "line_no": "12",
+            "quantity": "26",
+            "comparable_amount_krw": "4082000",
+            "unit_price_krw": "157000",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "agency_name": "인천광역시 서해구"
+          }
+        ]
+      },
+      {
+        "item_id": "24813213",
+        "procurement_model": "FDC-CBR230W",
+        "model": "TR-WE45-IN",
+        "url": "https://highwonsolution.cafe24.com/product/detail.html?cate_no=193&display_group=1&product_no=223",
+        "unit_price": "30000",
+        "benchmark_unit_price_krw": "33000",
+        "official_fact_count": 39,
+        "official_Q": "246",
+        "official_C": "39360000",
+        "provisional_component_difference_krw": "31242000",
+        "status": "deferred_under_100m_load_and_parent_dom_review",
+        "differences": "조달품은 포딕스시스템 FDC-CBR230W, 소매품은 유니뷰 TR-WE45-IN으로 서로 다른 모델이다. 벽부 플랜지와 하향 카메라 체결 구조, 230.3×141×201.5mm, 알루미늄 및 0.79kg가 대응한다. 원품과 대체품의 볼트 홀 간격·카메라 나사산·원품 전용 어댑터는 직접 대조하지 않았으며 모든 카메라에 완전 호환된다고 주장하지 않는다. 제조사 현재 공개 표에 대체 하중 정격이 없어 10kg 동등성을 확정하지 않았다. 원품은 현장설치도이며 소매가는 부품 가격이다. 현장 공임과 추가 어댑터 비용을 포함한 전체 설치 절감액으로 확정하지 않는다.",
+        "spec_mapping": [
+          {
+            "attribute": "용도·체결 구조",
+            "original": "벽부형 고정 카메라브래킷. 공식 사진에서 벽면 플랜지와 하향 카메라 체결부가 보임.",
+            "alternative": "실내외 PTZ 돔 카메라용 벽부 마운트. 벽면 플랜지와 하향 체결부."
+          },
+          {
+            "attribute": "크기",
+            "original": "230.3×141×201.5mm(속성의 길이·폭·높이 순으로 재배열)",
+            "alternative": "230.3×141×201.5mm"
+          },
+          {
+            "attribute": "재질·무게",
+            "original": "알루미늄, 0.79kg",
+            "alternative": "Aluminum alloy, 790g"
+          },
+          {
+            "attribute": "적재 하중",
+            "original": "10kg",
+            "alternative": "현재 제조사 공개 웹 표에는 하중 수치가 없음. 판매처의 10kg 설명을 제조사 정격으로 전용하지 않음."
+          }
+        ],
+        "spec_source_urls": [
+          "https://api.savetax.now/v1/items/24813213",
+          "https://www.uniview.com/Products/Accessories/Cameras/Brackets/TR-WE45-IN/"
+        ],
+        "representative_references": [
+          {
+            "fact_id": "dl:24813213:002370307_1:R25TB01224577:5",
+            "listing_id": "002370307_1060000568",
+            "contract_no": "002370307_1",
+            "request_no": "R25TB01224577",
+            "line_no": "5",
+            "quantity": "2",
+            "comparable_amount_krw": "320000",
+            "unit_price_krw": "160000",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "agency_name": "경기도교육청 안법고등학교"
+          },
+          {
+            "fact_id": "dl:24813213:002370307_1:R26TB02306043:6",
+            "listing_id": "002370307_1060000568",
+            "contract_no": "002370307_1",
+            "request_no": "R26TB02306043",
+            "line_no": "6",
+            "quantity": "10",
+            "comparable_amount_krw": "1600000",
+            "unit_price_krw": "160000",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "agency_name": "경기도교육청 안법고등학교"
+          },
+          {
+            "fact_id": "dl:24813213:002470247_1:R25TB01051738:6",
+            "listing_id": "002470247_1080000321",
+            "contract_no": "002470247_1",
+            "request_no": "R25TB01051738",
+            "line_no": "6",
+            "quantity": "8",
+            "comparable_amount_krw": "1280000",
+            "unit_price_krw": "160000",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:개:vat_included",
+            "agency_name": "경기도 광명시"
+          }
+        ]
+      }
+    ],
+    "large_candidate_findings": [
+      {
+        "item_id": "23938818",
+        "model": "PM-CFB5560501",
+        "C": "306054200",
+        "Q": "1945",
+        "fact_count": 176,
+        "original": "공식 속성 150×160×155mm·10kg. 정부 시방서에 SUS·암대 설치용 검지박스 근거.",
+        "original_source": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01276402&bidPbancOrd=000&fileSeq=3&fileType=&prcmBsneSeCd=07",
+        "alternative_discovery": {
+          "model": "STS-GS 200x300x150",
+          "price": "86500",
+          "seller": "공사맨 VIPCCTV",
+          "url": "https://www.vipcctv.com/goods/goods_view.php?goodsNo=1000001060",
+          "observed_terms": "SUS304, 재고 보유·즉시 출고, 대신화물 착불. 타공·브라켓 추가 작업 가능.",
+          "status": "검지박스용 체결 구조·적재 하중·추가 가공비·화물운임이 미확인이라 동등 완제품 비교가로 채택하지 않음."
+        }
+      },
+      {
+        "item_id": "24657989",
+        "model": "FDC-A1000",
+        "finding": "실제 1m STS304·20kg 기둥 밴드형 암대. 작은 폴 고정판과 천장형 봉을 대체품으로 채택하지 않았다. Altron 1m·25kg 기둥 암대의 제조사 사양은 찾았으나 실제 공개 판매가를 확보하지 못했다. DSP-3M-1000의 415,800원은 3m 지주를 포함한 바닥 앙카형 전체 폴 가격이며 기존 기둥용 밴드 암대와 체결 구조가 달라 채택하지 않았다.",
+        "source_urls": [
+          "https://www.altron.co.uk/pob1-spt1",
+          "https://www.jajae.net/goods/goods_view.php?goodsNo=1000005472"
+        ]
+      }
+    ],
+    "submission_policy": "억단위 조합 우선. 수천만원 초안은 보존·대기. 가격이 있는 부품으로 가격 미확인 완제품 전체를 대체했다고 주장하지 않는다. POST는 root 담당."
+  },
+  "memo_deferred_security_appliance": {
+    "item_id": "25358591",
+    "model": "WeGuardia ITU1000(R2)",
+    "status": "카메라 브래킷 전담 전환으로 보류.",
+    "facts_Q": "126",
+    "facts_C": "2746800000",
+    "comparison_note": "원품 SSD 128+512GB, FW/VPN/IPS 및 SDP·전용 관리 기능과 설치 조건을 보존했다. Bare FortiGate100F는 저장장치·보안 라이선스 구성이 대응하지 않아 확정 대체품으로 채택하지 않았다. FG101F 3년 UTP 해외 신품은 실제 공개가를 찾았지만 한국 배송·수입비용 및 KCMVP·SDP 대응은 미확인이다.",
+    "private_sources": "work/fullscan/hardware-high-item-25358591.json 및 hardware-itu-*"
+  }
 }
