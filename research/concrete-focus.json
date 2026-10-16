@@ -1,10 +1,10 @@
 {
-  "observed_at": "2026-10-16T07:46:06.002587+00:00",
+  "observed_at": "2026-10-16T08:33:27.699419+00:00",
   "scope": "전체 owner의 콘크리트호안및옹벽블록/보차도용콘크리트블록 + 부모 승인 owner1 미조사 일반자재",
   "local_catalog_read_count": 7521,
-  "official_lookup_unique_count": 410,
+  "official_lookup_unique_count": 412,
   "official_lookup_state_counts": {
-    "available": 174,
+    "available": 176,
     "claimed": 159,
     "on_hold": 72,
     "reform_found": 5
@@ -36,6 +36,40 @@
   ],
   "count_note": "전체로컬읽기·표적공식조회·상품명검색·판매처페이지열람·대조착수·완성/제출은각각분리. 전체를웹검토했다고주장하지않는다.",
   "candidates": [
+    {
+      "item_id": "24988800",
+      "product_name": "기타조경시설물, 제이엠에스씨, BDK-SC-002, 1000×1000×71mm",
+      "model": "BDK-SC-002",
+      "manufacturer": "주식회사 제이엠에스씨",
+      "detail_category": "기타조경시설물",
+      "unit": "㎡",
+      "local_amount_krw": 2023051600.0,
+      "local_quantity": 5324.0,
+      "local_delivery_count": 6.0,
+      "max_list_price": 380000.0,
+      "local_unit_price": 379987.1525169046,
+      "availability_at_lookup": "available",
+      "availability": "available",
+      "finding": "BDK-SC-002의 모델별 BOM과 실제 판매 부재가격을 확인했다. 큰 1fact의 Q4,996㎡, C1,898,480,000원에 B150,000원/㎡를 적용한 차액1,149,080,000원은 조건부 산술 시나리오다. 일반 상면 피스 데크의 완성 구성 작동, 목재 길이·성적, 각관 강종과 체결 적합성이 미확인이라 부모 판단으로 보류했다. 확정 준비 후보나 절감 총액으로 합산하지 않는다. 전체 6refs와 선택1·제외5를 보존했으며 설치노무 미확정만을 이유로 차단한 것은 아니다.",
+      "research_status": "held_component_budget_not_confirmed_working_deck_configuration"
+    },
+    {
+      "item_id": "24239839",
+      "product_name": "기타조경시설물, 신화, SAD-D2-2, 1000×1000×170mm",
+      "model": "SAD-D2-2",
+      "manufacturer": "주식회사 신화",
+      "detail_category": "기타조경시설물",
+      "unit": "㎡",
+      "local_amount_krw": 4694436000.0,
+      "local_quantity": 11591.0,
+      "local_delivery_count": 9.0,
+      "max_list_price": 405000.0,
+      "local_unit_price": 405006.98818048486,
+      "availability_at_lookup": "available",
+      "availability": "available",
+      "finding": "SAD-D2-2는 상판만 A6063-T5이고 장선·거더는 SRT275 아연각관이다. 실제 25T 상판, 50각관과 100각관4.0T의 9facts별 구매 끝수 소계3,151,822,850원을 확보했다. 원품 PVC·EVA, 체결·조립성능과 실운송 대조가 끝나지 않아 최종 B와 절감액은 null이다. 자재 취득 범위를 검토했으며 설치 미확인만으로 일괄 차단하지 않았다.",
+      "research_status": "held_component_budget_not_confirmed_working_deck_configuration"
+    },
     {
       "item_id": "20991772",
       "product_name": "파형강관, 대양씨에스피, DY0807, Φ800×t2.7mm, 직관(1RS), 아연도금",
@@ -1310,7 +1344,8 @@
       "local_unit_price": 69500.55823293173,
       "availability_at_lookup": "available",
       "availability": "available",
-      "finding": "POWER COURT306×306×19mm·PP COPOLYMER·310~370g·다목적경기장 바닥. 공식100facts 확보. 제조사FIBA/다방향충격흡수는 기술자료이며 실제소매가격 아님. 이매트 PP코트는 가격문의. 일반 발코니PP타일/14mm고무로드매트를 같은 스포츠성능으로 제출하지 않음."
+      "finding": "창보누리 직판 상품17974의 완성 PP 연결타일 4,900원과 기본 무료배송을 확인했다. 대안은 304.8×304.8×15.5mm, 309±5g으로 원품 306×306×19mm보다 3.5mm 얇다. 스포츠 용도와 쿠션·서스펜션·3D 그립 이미지는 확인했지만 동등 성능 시험은 아니다. VAT 표시가 미확정이라 benchmark와 절감액은 null이다. 표시가의 VAT 포함을 가정하고 예비 타일 5%와 끝수를 반영한 B55,600원/㎡, 차액692,247,800원은 조건부 시나리오다. 전체 100refs는 2026-10-17 재확인 대기이며, 오늘 한도 0으로 추가 POST를 하지 않는다.",
+      "research_status": "conditional_next_day_queue_tax_and_function_review_pending"
     },
     {
       "item_id": "23950708",
@@ -8518,8 +8553,8 @@
     "25492101",
     "24640527"
   ],
-  "search_count_note": "후속 Parallel35쿼리=콘크리트4+옹벽구조3+경계석3+돌망태3+PP스포츠바닥/타일4+알루미늄패널4+목재/파형강관4+지오/야자3+덮개4+데크각관3. 상품명검색·규격검색·판매페이지열람·완성은 서로 다른 지표이며 전체 로컬품목 웹검토를 뜻하지 않음.",
-  "continuation_parallel_queries_count": 35,
+  "search_count_note": "후속 Parallel 45쿼리: 콘크리트4, 옹벽구조3, 경계석3, 돌망태3, PP스포츠바닥·타일4, 알루미늄패널4, 목재·파형강관4, 지오·야자3, 덮개4, 데크각관3, 목재부품3, 25×150 WPC보드4, PP스포츠타일 추가3이다. 상품명 검색, 규격 검색, 판매페이지 열람과 검증 완료는 서로 다른 지표이며 전체 로컬 품목을 웹으로 검토했다는 뜻이 아니다.",
+  "continuation_parallel_queries_count": 45,
   "manufacturer_retail_product_pages_saved_count": 6,
   "ready_for_parent_review_bundle": "work/concrete-focus/review-22364346-kd317-conservative.json",
   "manufacturer_direct_store_findings": "work/concrete-focus/dmcon-findings.json",
@@ -8537,14 +8572,14 @@
     "on_hold": 28,
     "available": 92
   },
-  "adjacent_official_lookup_unique_count": 164,
+  "adjacent_official_lookup_unique_count": 166,
   "adjacent_official_lookup_states": {
-    "available": 82,
+    "available": 84,
     "claimed": 33,
     "on_hold": 44,
     "reform_found": 5
   },
-  "adjacent_local_selected_rows_unique_count": 195,
+  "adjacent_local_selected_rows_unique_count": 202,
   "ready_for_parent_review_bundles": [],
   "public_source_recipe_proposals": [
     "research/concrete-focus-iljo-source-recipe.json",
@@ -8555,6 +8590,14 @@
     "work/concrete-focus/review-24903634-neo338.json",
     "work/concrete-focus/review-25072818-sjt400.json"
   ],
-  "today_target": "현재남은2회각각600000000원 이상,두합계1871530000원 이상 목표. 이하 큐는오늘제출하지 않음.",
-  "reopened_acquisition_component_screen": "work/concrete-focus/review-24239839-deck-acquisition-subtotal.json"
+  "today_target": "2026-10-16 부모 보고: 지정 3건 합계3,125,470,000원, 평균1,041,823,333.33원으로 목표를 충족했다. 오늘 한도는 0이며 추가 POST를 하지 않는다. 전체 47건·11,804,881,979원의 accepted는 부모 원장값이며 심사 확정금액은 아니다.",
+  "reopened_acquisition_component_screen": "work/concrete-focus/review-24239839-deck-acquisition-subtotal.json",
+  "held_component_budget_bundles": [
+    "work/concrete-focus/review-24988800-bdk-acquisition.json",
+    "work/concrete-focus/review-24239839-deck-acquisition-subtotal.json"
+  ],
+  "today_remaining_writes_reported_by_parent": 0,
+  "conditional_next_day_queue_bundles": [
+    "work/concrete-focus/review-22944239-pp-court-acquisition-conditional.json"
+  ]
 }

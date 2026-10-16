@@ -1,7 +1,8 @@
 {
-  "observed_at": "2026-10-16T08:21:28.458968+00:00",
+  "observed_at": "2026-10-16T08:33:27.531275+00:00",
   "task_scope": "MD25S 대체용 완성25×150mm WPC보드의네스트외저가판매원천. 공식MD25S조회/사실·접수는부모및hardware담당으로중복하지않음.",
   "status": "backup_retail_source_only_no_submission",
+  "procurement_delivery_terms_from_parent": "MD25S 원품 하차도 vs 대안착불/운송별도; 미관측운임을0원으로선언하지않음",
   "parallel_queries_count": 4,
   "parallel_search_file": "work/concrete-focus/parallel-wpc25x150-alternatives.json",
   "independent_retail_supplier_groups_checked": [
