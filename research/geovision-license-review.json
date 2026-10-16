@@ -1,7 +1,7 @@
 {
   "observed_at_utc": "2026-10-16T10:11:26.927909+00:00",
   "item_id": "24602353",
-  "status": "conditional_license_package_unresolved",
+  "status": "정확 모델의 재난안전 기능 대응 미입증. 일반 객체·경계 분석 가격만으로 제출 확정 후보로 채택하지 않음.",
   "submission_ready": false,
   "adopted_saving_krw": "0",
   "external_post_calls": 0,
@@ -151,7 +151,8 @@
       "정확 SKU 1개가 Advanced 카메라 1CH 사용에 필요한 AI권리·타사 IP권리·동글을 갖춘 팩이어야 한다.",
       "사용기간은 원품의 무기한 사용권과 비교 가능해야 한다."
     ],
-    "cost_sensitivity_note": "고급 기능의 2AI 소비를 근거 없이 소매 SKU 2개로 환산하지 않는다. 반대로 필요한 추가권리·동글을 무료로 간주하지 않는다. 실제 포함 권리 또는 별도 가격을 확인해야 최종 B를 확정할 수 있다."
+    "cost_sensitivity_note": "고급 기능의 2AI 소비를 근거 없이 소매 SKU 2개로 환산하지 않는다. 반대로 필요한 추가권리·동글을 무료로 간주하지 않는다. 실제 포함 권리 또는 별도 가격을 확인해야 최종 B를 확정할 수 있다.",
+    "core_function_comparison_verified": false
   },
   "comparison_scope": "일반 CCTV 이상상황 인식·저장·검색의 1CH 소프트웨어 취득 범위. 실제 기관의 기존 서버·카메라 적합성·전체 VIXAI 기능·납품 설치 서비스 충족을 입증한 것으로 표시하지 않는다.",
   "differences": [
@@ -190,9 +191,29 @@
     "mcp_shared_browser_used": false
   },
   "next_required_evidence": [
+    "먼저 원품 220S의 재난분석 사용권 범위를 확정하고 판매 대안의 수위·침수·화재 기능이 대응하는지 확인해야 한다. 동글·기간·AI 권리만 해결돼도 제출 준비 완료가 되는 것은 아니다.",
     "정확 판매 SKU 256-AIGA-001의 초기 설치용 패키지 구성: Advanced 카메라1CH에 필요한 2AI 단위와 타사 IP1CH 및 동글 포함 또는 별도 구입비.",
     "해당 SKU의 사용기간·업그레이드 권리. 현재 판매 문서만으로 영구 사용 확정 불가."
   ],
   "scope": "24602353 VIXAI-220S와 GeoVision 정확 SKU의 라이선스 권리 검토. 실제 접수나 최종 적합성 판정이 아니다.",
-  "new_accepted_submissions": 0
+  "new_accepted_submissions": 0,
+  "core_purpose_review": {
+    "reviewed_at_utc": "2026-10-16T11:07:25.518900+00:00",
+    "source_url": "https://oemfile.informamarkets-info.com/FileUpload/2025SEC_39523/20250122150027506.pdf",
+    "source_type": "제조사 SEC2025 출품 카탈로그, 전시회 공개 원문",
+    "physical_page": 3,
+    "document_sha256": "7b5f3136847fdd0dc5fa5485342f4f8df013a17ae2ca41ca2d1bdb510e3fe0be",
+    "image_sha256": "f6c50bd4df0f1a4e7f197dfe31fffc495cfb081c4aadaa1ab326564a206bcbab",
+    "parent_visual_review": true,
+    "exact_model_label": "VIXAI-220S (재난안전 솔루션)",
+    "listed_functions": [
+      "수위분석",
+      "범람·침수 감지 분석",
+      "불꽃·연기분석",
+      "다중화재 분석"
+    ],
+    "different_model": "일반 배회·경계선·쓰러짐 등 대표 이벤트는 같은 쪽의 VIXAI-120B(AI 영상분석 솔루션) 영역이다.",
+    "version_limit": "G2B의 VIXAI-SMART v4.0 규격은 이상상황 인식·저장·검색이라고만 적어 탐지 목록을 생략했다. 2025 카탈로그와 해당 납품 권리가 완전히 같다고 확정하지 않는다. 그러나 정확히 220S로 명시된 재난 기능을 확인하지 않은 일반 객체·경계 AI를 동급으로 제출할 근거는 없다.",
+    "decision": "GeoVision·Agent DVR의 일반 객체/경계 기능 또는 Dahua EI의 경계/SMD 가격만으로 220S의 핵심 목적을 충족했다고 보지 않는다. 해당 산술 시나리오는 보존하되 제출 확정 후보와 유효 절감액 집계에서 제외한다."
+  }
 }

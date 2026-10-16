@@ -1,7 +1,7 @@
 {
   "observed_at_utc": "2026-10-16T10:32:46.587670+00:00",
   "item_id": "24602353",
-  "status": "paid_local_perpetual_alternative_for_review_foreign_price_format_and_tax_unresolved",
+  "status": "정확 모델의 재난안전 기능 대응 미입증. 일반 객체·경계 분석 가격만으로 제출 확정 후보로 채택하지 않음.",
   "submission_ready": false,
   "adopted_saving_krw": "0",
   "external_post_calls": 0,
@@ -187,9 +187,11 @@
     "note": "10%는 민감도 예산 예시일 뿐 이 거래의 실제 세금률/확정 비용이 아님. 결제 수수료·최종 한국 결제 가능·세금 및 필요한 설치/연계 비용이 미확정이므로 제출 단가나 확정 절감액으로 채택하지 않음.",
     "base_fact_floor_sum_difference_krw": "5900634284",
     "ten_percent_budget_fact_floor_sum_difference_krw": "5800897714",
-    "important": "아래 값은 관측된 USD 원가와 공개 공표환율을 대입한 조건부 산술값이다. 실제 표시된 KRW 판매가·최종 세금·접수액이 아니다."
+    "important": "아래 값은 관측된 USD 원가와 공개 공표환율을 대입한 조건부 산술값이다. 실제 표시된 KRW 판매가·최종 세금·접수액이 아니다.",
+    "core_function_comparison_verified": false
   },
   "next_checks": [
+    "원품 220S의 재난안전 기능과 제품판 범위를 먼저 대조한다. 일반 객체·구역 감시 영구권이 수위·침수·화재 감시를 포함한다고 추정하지 않는다.",
     "외화 환산 관측가를 스키마에 기재하는 공식 해석 또는 정식 국내 원화 출처",
     "구매·계정 생성 없이 공개 확인 가능한 한국 세금 안내",
     "일반 로컬 영상감시 취득 범위와 원품의 현장서비스·개별 이상상황 요구를 분리한 최종 비교범위 검토"
@@ -276,5 +278,24 @@
     "select_plan_payment_cart_actions": 0,
     "parallel_queries": 8,
     "primary_http_sources": "공식 가격/약관/제품 문서·공개 결제 안내를 직접 GET. 원문은 작업 자료에만 보관."
+  },
+  "core_purpose_review": {
+    "reviewed_at_utc": "2026-10-16T11:07:25.518900+00:00",
+    "source_url": "https://oemfile.informamarkets-info.com/FileUpload/2025SEC_39523/20250122150027506.pdf",
+    "source_type": "제조사 SEC2025 출품 카탈로그, 전시회 공개 원문",
+    "physical_page": 3,
+    "document_sha256": "7b5f3136847fdd0dc5fa5485342f4f8df013a17ae2ca41ca2d1bdb510e3fe0be",
+    "image_sha256": "f6c50bd4df0f1a4e7f197dfe31fffc495cfb081c4aadaa1ab326564a206bcbab",
+    "parent_visual_review": true,
+    "exact_model_label": "VIXAI-220S (재난안전 솔루션)",
+    "listed_functions": [
+      "수위분석",
+      "범람·침수 감지 분석",
+      "불꽃·연기분석",
+      "다중화재 분석"
+    ],
+    "different_model": "일반 배회·경계선·쓰러짐 등 대표 이벤트는 같은 쪽의 VIXAI-120B(AI 영상분석 솔루션) 영역이다.",
+    "version_limit": "G2B의 VIXAI-SMART v4.0 규격은 이상상황 인식·저장·검색이라고만 적어 탐지 목록을 생략했다. 2025 카탈로그와 해당 납품 권리가 완전히 같다고 확정하지 않는다. 그러나 정확히 220S로 명시된 재난 기능을 확인하지 않은 일반 객체·경계 AI를 동급으로 제출할 근거는 없다.",
+    "decision": "GeoVision·Agent DVR의 일반 객체/경계 기능 또는 Dahua EI의 경계/SMD 가격만으로 220S의 핵심 목적을 충족했다고 보지 않는다. 해당 산술 시나리오는 보존하되 제출 확정 후보와 유효 절감액 집계에서 제외한다."
   }
 }

@@ -1900,12 +1900,32 @@
           "국내 판매 SKU의 Full-Frame1CH 명칭만으로 최신 AI2채널 및 타사 카메라 권한·동글의 포함을 확정하지 않는다. 현재 가격과 실제 판매 권리 구성을 별도로 대조해야 한다."
         ]
       },
-      "comparison_scope": "1CH 이상상황 인식·검색 소프트웨어 취득가격의 조건부 비교다.",
-      "decision": "표시가에 따른 단순 차액20억4525만7천원은 미채택 시나리오다. 현 판매 SKU의 권리·동글·기간과 현재 제품의 라이선스 단위를 확인하기 전 제출 준비 완료로 표시하지 않는다.",
+      "comparison_scope": "일반 객체·경계 분석 SW의 가격 조사는 보존하나 원품 220S의 재난안전 목적 대응은 미입증. 가격 산술을 동급 제품 절감액으로 채택하지 않음.",
+      "decision": "GeoVision·Agent DVR의 일반 객체/경계 기능 또는 Dahua EI의 경계/SMD 가격만으로 220S의 핵심 목적을 충족했다고 보지 않는다. 해당 산술 시나리오는 보존하되 제출 확정 후보와 유효 절감액 집계에서 제외한다.",
       "differences": [
         "다른 제조사·모델이며 원품의 국내 GS 인증, 한글 관제·기존 시스템 연계·현장설치와 정기방문 서비스의 대응을 입증하지 않았다.",
         "장비 본체를 포함한 비교가 아니다. 실제 기관의 기존 서버·카메라 호환성과 필요한 라이선스 구성을 확인하지 않았다."
-      ]
+      ],
+      "core_purpose_review": {
+        "reviewed_at_utc": "2026-10-16T11:07:25.518900+00:00",
+        "source_url": "https://oemfile.informamarkets-info.com/FileUpload/2025SEC_39523/20250122150027506.pdf",
+        "source_type": "제조사 SEC2025 출품 카탈로그, 전시회 공개 원문",
+        "physical_page": 3,
+        "document_sha256": "7b5f3136847fdd0dc5fa5485342f4f8df013a17ae2ca41ca2d1bdb510e3fe0be",
+        "image_sha256": "f6c50bd4df0f1a4e7f197dfe31fffc495cfb081c4aadaa1ab326564a206bcbab",
+        "parent_visual_review": true,
+        "exact_model_label": "VIXAI-220S (재난안전 솔루션)",
+        "listed_functions": [
+          "수위분석",
+          "범람·침수 감지 분석",
+          "불꽃·연기분석",
+          "다중화재 분석"
+        ],
+        "different_model": "일반 배회·경계선·쓰러짐 등 대표 이벤트는 같은 쪽의 VIXAI-120B(AI 영상분석 솔루션) 영역이다.",
+        "version_limit": "G2B의 VIXAI-SMART v4.0 규격은 이상상황 인식·저장·검색이라고만 적어 탐지 목록을 생략했다. 2025 카탈로그와 해당 납품 권리가 완전히 같다고 확정하지 않는다. 그러나 정확히 220S로 명시된 재난 기능을 확인하지 않은 일반 객체·경계 AI를 동급으로 제출할 근거는 없다.",
+        "decision": "GeoVision·Agent DVR의 일반 객체/경계 기능 또는 Dahua EI의 경계/SMD 가격만으로 220S의 핵심 목적을 충족했다고 보지 않는다. 해당 산술 시나리오는 보존하되 제출 확정 후보와 유효 절감액 집계에서 제외한다."
+      },
+      "scenario_is_current_candidate": false
     },
     {
       "item_id": "25740336",
@@ -16825,5 +16845,8 @@
       ]
     }
   ],
-  "next_step": "2026-10-17 제출 전에 최신 available·일반 판매가·옵션·권리와 규칙·한도를 확인하고 로컬 에이전트 지침 전체를 다시 읽는다."
+  "next_step": "2026-10-17 제출 전에 최신 available·일반 판매가·옵션·권리와 규칙·한도를 확인하고 로컬 에이전트 지침 전체를 다시 읽는다.",
+  "historical_scenario_sum_krw": "4016729320",
+  "current_nonvideo_scenario_sum_krw": "1971472320",
+  "scenario_sum_note": "4,016,729,320원은 이전 세 대안의 미채택 산술 합이다. 220S/GeoVision 2,045,257,000원은 핵심 목적 대응이 미입증되어 현재 제출 후보 합산에서 제외한다. 나머지 의류 1,971,472,320원도 미채택·미접수 조건부 시나리오이며 검증 완료나 실제 절감액이 아니다."
 }
