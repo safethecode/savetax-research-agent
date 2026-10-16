@@ -12,5 +12,17 @@
   "deferred_rule": "6억 원 미만 신규 후보는 실제 근거·관련 번호·계산·본문을 보존하고 내일 제출 직전에 available 상태, 현재 가격, 규칙과 한도를 다시 확인한다.",
   "acceptance_rule": "공식 fact의 수량·금액·단위·세금 기준을 쓰고 판매 근거와 사양 대응을 검토한다. 예상액은 최종 인정액이나 실제 예산 절감액이 아니다.",
   "existing_submissions": "유지",
+  "progress": {
+    "accepted_at_utc": "2026-10-16T07:43:38.314Z",
+    "submission_id": "975e811a-4b1e-4c1a-932d-1b1c05330673",
+    "item_id": "25668782",
+    "amount_krw": "1128470000",
+    "remaining_daily_claims": 2,
+    "minimum_each_remaining_krw": "600000000",
+    "target_sum_of_two_remaining_krw": "1871530000",
+    "cumulative_accepted_count": 45,
+    "cumulative_accepted_amount_krw": "9807881979",
+    "status_note": "사용자가 이 11억 2847만 원 건의 우선 제출을 명시했다. 접수 예상액이며 최종 검증 대기다. 다음 제출 직전 공식 한도를 다시 읽는다."
+  },
   "implementation": "현재 prioritize 함수의 remaining=3, release_deferred=false, priority_min=600000000을 사용하고, 최종 세 건의 합계는 별도 검산한다. 새 자동 제출 기능을 구현했다는 뜻은 아니다."
 }
