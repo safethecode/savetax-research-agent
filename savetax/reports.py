@@ -69,3 +69,37 @@ class ReportClient:
 
     def list_reports(self):
         return self.client.get_json(REPORTS_URL)
+
+    def revise(self, current, report, idempotency_key):
+        body = validate_report(report)
+        report_id = current.get('report_id','')
+        if (current.get('review_status') != 'submitted' or type(current.get('revision')) is not int
+                or current['revision'] < 1 or not re.fullmatch(r'[0-9a-fA-F-]{36}',report_id)):
+            raise ValueError('접수 대기 중인 제보의 현재 revision만 정정할 수 있습니다')
+        if not isinstance(idempotency_key,str) or not re.fullmatch(r'[A-Za-z0-9_-]{8,100}',idempotency_key):
+            raise ValueError('정정 멱등 키가 필요합니다')
+        error = None
+        try:
+            response = requests.patch(REPORTS_URL+'/'+report_id,json=body,
+                headers={'Authorization':'Bearer '+self.client._token,'Idempotency-Key':idempotency_key,
+                         'If-Match':str(current['revision']),'User-Agent':'Mozilla/5.0'},
+                timeout=self.client.timeout,allow_redirects=False)
+        except requests.RequestException:
+            error = SaveTaxError('제보 정정 연결 결과 미확인',stage='transport')
+        if error:
+            raise error from None
+        try:
+            if response.status_code != 200:
+                error = SaveTaxError(f'제보 정정 HTTP {response.status_code}',status=response.status_code,stage='http')
+            else:
+                try:
+                    result = response.json()
+                    if not isinstance(result,dict):
+                        error = SaveTaxError('제보 정정 응답 형식 오류',stage='decode')
+                except ValueError:
+                    error = SaveTaxError('제보 정정 응답 해석 실패',stage='decode')
+        finally:
+            response.close()
+        if error:
+            raise error from None
+        return _redact(result,self.client._token)

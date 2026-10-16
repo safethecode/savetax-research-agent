@@ -43,6 +43,17 @@ class ReportTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 validate_report({**self.report, **updates})
 
+    def test_submitted_report_correction_uses_current_revision(self):
+        client = ReportClient(SaveTaxClient(token='savetax_'+'x'*32))
+        current = {'report_id':'37c99372-472d-4921-901b-ba87603f9e63','revision':1,'review_status':'submitted'}
+        response = Mock(status_code=200,headers={})
+        response.json.return_value = {'revision':2}
+        with patch('savetax.reports.requests.patch',return_value=response) as request:
+            client.revise(current,self.report,'correction-key-001')
+        self.assertEqual(request.call_args.kwargs['headers']['If-Match'],'1')
+        with self.assertRaises(ValueError):
+            client.revise({**current,'review_status':'rejected'},self.report,'correction-key-001')
+
 
 if __name__ == '__main__':
     unittest.main()

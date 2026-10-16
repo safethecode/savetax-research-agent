@@ -230,6 +230,20 @@ def main(argv=None):
     reports = sub.add_parser('reports', help='제보 심사 상태와 반려 이력 확인')
     reports.add_argument('--output', default='work/report-status.json')
     reports.add_argument('--guide', default='savetax-agent-guide.md')
+    score_build = sub.add_parser('build-score', help='公式 fact와 확인한 판매가로 점수 본문 생성')
+    score_build.add_argument('--input', required=True)
+    score_build.add_argument('--output', default='work/score-body.json')
+    score = sub.add_parser('score', help='점수 preview 후 억 단위 우선 접수 (--send)')
+    score.add_argument('--input', required=True)
+    score.add_argument('--receipt', required=True)
+    score.add_argument('--guide', default='savetax-agent-guide.md')
+    score.add_argument('--min-saving', default='100000000')
+    score.add_argument('--send', action='store_true')
+    queue = sub.add_parser('queue', help='신규 억 단위 우선·소액 대기 목록 생성')
+    queue.add_argument('--input', required=True)
+    queue.add_argument('--output', default='work/submission-queue.json')
+    queue.add_argument('--remaining', type=int)
+    queue.add_argument('--release-deferred', action='store_true')
     args = parser.parse_args(argv)
     try:
         if args.command == 'download':
@@ -289,6 +303,60 @@ def main(argv=None):
                     histories[report_id] = client.get_json(REPORTS_URL + '/' + str(report_id) + '/history')
             write_json(args.output, {'status': status, 'rejected_histories': histories})
             print('일반 제보 상태 저장: ' + str(args.output))
+        elif args.command == 'build-score':
+            from .submissions import build_submission
+            source = read_json(args.input)
+            write_json(args.output,build_submission(source['item'],source['offer'],source['event']))
+        elif args.command == 'queue':
+            from .queue import prioritize
+            source = read_json(args.input)
+            rows = source['candidates'] if isinstance(source,dict) else source
+            write_json(args.output,prioritize(rows,remaining=args.remaining,release_deferred=args.release_deferred))
+        elif args.command == 'score':
+            from .client import SaveTaxClient
+            from .submissions import ScoreClient
+            body = read_json(args.input)
+            key = 'score-'+hashlib.sha256(json.dumps(body,sort_keys=True,ensure_ascii=False).encode()).hexdigest()
+            saved = read_json(args.receipt) if Path(args.receipt).exists() else None
+            if saved and (saved.get('idempotency_key') != key or saved.get('body') != body):
+                raise ValueError('다른 점수 제출의 영수증입니다. 새 경로를 사용하세요')
+            if saved and saved.get('state') == 'submitted':
+                print('이미 점수 접수한 영수증을 보존합니다: '+str(args.receipt))
+                return 0
+            minimum = Decimal(args.min_saving)
+            if not minimum.is_finite() or minimum < 0:
+                raise ValueError('min-saving은 0 이상의 원화 금액이어야 합니다')
+            client = SaveTaxClient(guide_path=args.guide)
+            scoring = ScoreClient(client)
+            receipt = saved or {'idempotency_key':key,'body':body,'state':'prepared'}
+            if receipt['state'] == 'sending':
+                try:
+                    receipt['response'] = client.get_json(BASE+'/submission-requests/'+key)
+                    receipt['state'] = 'submitted'
+                    write_json(args.receipt,receipt)
+                    return 0
+                except RuntimeError as exc:
+                    if getattr(exc,'status',None) != 404:
+                        raise
+            preview = scoring.preview(body)
+            receipt.update(preview=preview,state='previewed')
+            write_json(args.receipt,receipt)
+            if preview.get('ok') is not True or preview.get('next_action') != 'submit':
+                raise ValueError('점수 preview가 신규 제출을 허용하지 않았습니다')
+            amount = Decimal(preview['total_amount_krw'])
+            if amount < minimum:
+                receipt['state'] = 'deferred_lower_amount'
+                write_json(args.receipt,receipt)
+                print(f'후순위 대기: 예상 {amount:,.0f}원, 우선 기준 {minimum:,.0f}원')
+                return 0
+            print(f'점수 preview 예상액 {amount:,.0f}원')
+            if args.send:
+                receipt['state'] = 'sending'
+                write_json(args.receipt,receipt)
+                receipt['response'] = scoring.submit(body,key,preview)
+                receipt['state'] = 'submitted'
+                write_json(args.receipt,receipt)
+                print('점수 제출 결과: '+json.dumps(receipt['response'],ensure_ascii=False))
     except RuntimeError as exc:
         # SaveTax/market transports expose only sanitized errors.
         print(str(exc), file=sys.stderr)
