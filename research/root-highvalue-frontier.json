@@ -37985,7 +37985,7 @@
       "fact_count": 28,
       "quantity": "35882",
       "comparable_amount_krw": "2543874348",
-      "decision": "J-ALF-4T 알루미늄 금속복합 외벽 평판이다. 명칭의4T와 원시 속성의30mm가 달라 규격서를 더 확인해야 한다. 비드앤비 실제 판매표는 기본폭1020mm에㎡당41,140원이며 폭1250mm는8,350원이 추가된다. 원품1200mm 폭에 기본가를 그대로 적용하지 않았다. VAT와 실제 차량 운임은 미확정이어서 비교 단가와 절감액을 확정하지 않았다.",
+      "decision": "J-ALF-4T 알루미늄 금속복합 외벽 평판이다. 명칭의4T와 원시 속성의30mm가 달라 규격서를 더 확인해야 한다. 비드앤비 실제 판매표는 기본폭1020mm에㎡당41,140원이며 폭1250mm는8,350원이 추가된다. 원품1200mm 폭에 기본가를 그대로 적용하지 않았다. 판매 상세 이미지에서 부가세 포함가를 확인했다. 원품의 완성 구성·두께와 실제 차량 운임이 미확정이어서 비교 단가와 절감액을 확정하지 않았다.",
       "benchmark_unit_price_krw": null,
       "submitted": false,
       "references": [
@@ -38382,10 +38382,15 @@
       "base_width_mm": "1020",
       "base_price_krw": "41140",
       "width_1250_additional_krw": "8350",
-      "vat_included": null,
+      "vat_included": true,
       "shipping_included": false,
       "shipping_note": "착불/지역·차량별 별도",
-      "use": "발견한 판매 가격과 옵션만 보존. 완제품 동등성·규격·세금·운임을 맞추지 못해 점수 단가로 채택하지 않음."
+      "use": "표시 옵션가는 부가세 포함이다. 원품 완성 구성·규격과 착불 운임을 맞추지 못해 점수 단가로 채택하지 않음.",
+      "vat_source_image_url": "https://bidnbee.com/data/editor/2410/4e5ef25ae6921393d829d10c9c067a72_1730262800_0718_1740732037_1740732556_1740732612.jpg",
+      "vat_source_image_quote": "저희 비드앤비샵은 법인사업자로 계산서 발행과 무관하게 현금, 카드 모두 동일하게 부가세포함가로 판매됩니다.",
+      "vat_verification_method": "HTTP 200 image/jpeg 원문과 보존 이미지의 SHA-256 일치 확인 후 이미지 직접 판독",
+      "vat_source_sha256": "dedb4fa360ecf32661b8783a88fe2a2376380dc9053ed456e3ec8f84b206efac"
     }
-  ]
+  ],
+  "vat_observation_updated_at_utc": "2026-10-16T09:03:48.047619+00:00"
 }
