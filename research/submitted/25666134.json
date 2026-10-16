@@ -1,0 +1,184 @@
+{
+  "submission": {
+    "submission_id": "e4fa9fe2-587f-4db5-a2c7-d5b28cb24cb3",
+    "claim_id": "729bf914-58e2-43e4-936a-ba2067c46b74",
+    "revision": 1,
+    "submission_state": "accepted",
+    "admitted_at": "2026-10-16T03:49:58.761Z",
+    "amount_krw": 1992000,
+    "verification_status": "not_started",
+    "lint_status": "pending",
+    "event_epoch": 1,
+    "ruleset_version": "rules-v1",
+    "public_path": "/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/e4fa9fe2-587f-4db5-a2c7-d5b28cb24cb3",
+    "api_path": "/v1/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/e4fa9fe2-587f-4db5-a2c7-d5b28cb24cb3",
+    "web_path": "#/submission/e4fa9fe2-587f-4db5-a2c7-d5b28cb24cb3"
+  },
+  "body": {
+    "dataset_release_id": "release-live-20261012",
+    "ruleset_version": "rules-v1",
+    "canonical_product_id": "25666134",
+    "title": "SFP-1G20LX-LC 국내 실판매가 33000원 비교",
+    "claim": "동일 모델 SFP-1G20LX-LC의 일반 공개판매가33,000원과 구매 버튼을 직접 확인했다. 배송비를 매개3,500원씩 더한36,500원으로 본토6개 납품요구48대의 부품 취득가를 비교한다.",
+    "comparison_scope": "여의시스템 SFP-1G20LX-LC 신품 미개봉 판매 광모듈 1개. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km. 판매처는 조달 SFP/유통 SFPC 매핑을 설명하지만 더 저렴한 SFPC 17000원은 사용하지 않았다. 공식 원산지 접두사 (CN)만 분리한 exact SFP 모델로 비교. 매 개 배송비3500원을 추가해 B36500원으로 계산하며 30만원 무료배송도 미차감. 제주·도서는 추가도선료가 명시되어 제주 R26TB01800426 line6 Q2는 권장 제출범위에서 제외. 공식 납품조건 현장설치도/선택부품/하자보수2년이므로 본 비교는 SFP 부품 취득가 범위이며 현장설치서비스 포함은 소매에서 확인하지 못했다. 별도 설치금액은 공식 근거에서 관측되지 않았다. 실제 지출절감이나 납품완료는 주장하지 않음. 소비자 공개표시가를 VAT포함으로 채택하되 별도 VAT포함 문장 관측을 주장하지 않는다. 직접 DOM에서 판매가33000·구매버튼 활성·최소1개를 확인했고 판매처 미개봉판매 원칙도 읽었다. 일괄50개 재고 확약은 주장하지 않는다.",
+    "reproduction_notes": "공식 fact별 floor(max(C-B×Q,0))를 합산. 각 라인 근거에 계약·납품요구·라인 번호를 기재. 가격 시점 차이는 사용자 지정 대회 조사 기준에서 제외한다.",
+    "lines": [
+      {
+        "fact_id": "dl:25666134:002370098_1:R26TB01931715:5",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 1.25G 광모듈 미니지빅 싱글모드 20KM\n판매가 33,000원\n구매제한 옵션당 최소 1개\n배송비 3,500원 / 주문시결제(선결제)\n[2026-10-16 직접 확인] 바로구매·장바구니 버튼이 표시됨. 소비자 공개표시가를 VAT 포함 비교 기준으로 채택. 배송은 각 개마다 3,500원씩 가산하며 제주·도서 추가료 대상 fact는 제외.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB01931715, 라인 5. 공식 fact dl:25666134:002370098_1:R26TB01931715:5, 수량 2, 비교금액 156000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25666134:002370098_1:R26TB02014183:3",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 1.25G 광모듈 미니지빅 싱글모드 20KM\n판매가 33,000원\n구매제한 옵션당 최소 1개\n배송비 3,500원 / 주문시결제(선결제)\n[2026-10-16 직접 확인] 바로구매·장바구니 버튼이 표시됨. 소비자 공개표시가를 VAT 포함 비교 기준으로 채택. 배송은 각 개마다 3,500원씩 가산하며 제주·도서 추가료 대상 fact는 제외.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB02014183, 라인 3. 공식 fact dl:25666134:002370098_1:R26TB02014183:3, 수량 8, 비교금액 624000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25666134:002370098_1:R26TB02131016:4",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 1.25G 광모듈 미니지빅 싱글모드 20KM\n판매가 33,000원\n구매제한 옵션당 최소 1개\n배송비 3,500원 / 주문시결제(선결제)\n[2026-10-16 직접 확인] 바로구매·장바구니 버튼이 표시됨. 소비자 공개표시가를 VAT 포함 비교 기준으로 채택. 배송은 각 개마다 3,500원씩 가산하며 제주·도서 추가료 대상 fact는 제외.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB02131016, 라인 4. 공식 fact dl:25666134:002370098_1:R26TB02131016:4, 수량 14, 비교금액 1092000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25666134:002370098_1:R26TB02159887:6",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 1.25G 광모듈 미니지빅 싱글모드 20KM\n판매가 33,000원\n구매제한 옵션당 최소 1개\n배송비 3,500원 / 주문시결제(선결제)\n[2026-10-16 직접 확인] 바로구매·장바구니 버튼이 표시됨. 소비자 공개표시가를 VAT 포함 비교 기준으로 채택. 배송은 각 개마다 3,500원씩 가산하며 제주·도서 추가료 대상 fact는 제외.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB02159887, 라인 6. 공식 fact dl:25666134:002370098_1:R26TB02159887:6, 수량 4, 비교금액 312000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25666134:002370098_1:R26TB02194815:2",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 1.25G 광모듈 미니지빅 싱글모드 20KM\n판매가 33,000원\n구매제한 옵션당 최소 1개\n배송비 3,500원 / 주문시결제(선결제)\n[2026-10-16 직접 확인] 바로구매·장바구니 버튼이 표시됨. 소비자 공개표시가를 VAT 포함 비교 기준으로 채택. 배송은 각 개마다 3,500원씩 가산하며 제주·도서 추가료 대상 fact는 제외.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB02194815, 라인 2. 공식 fact dl:25666134:002370098_1:R26TB02194815:2, 수량 16, 비교금액 1248000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25666134:002370098_1:R26TB02312148:7",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 1.25G 광모듈 미니지빅 싱글모드 20KM\n판매가 33,000원\n구매제한 옵션당 최소 1개\n배송비 3,500원 / 주문시결제(선결제)\n[2026-10-16 직접 확인] 바로구매·장바구니 버튼이 표시됨. 소비자 공개표시가를 VAT 포함 비교 기준으로 채택. 배송은 각 개마다 3,500원씩 가산하며 제주·도서 추가료 대상 fact는 제외.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB02312148, 라인 7. 공식 fact dl:25666134:002370098_1:R26TB02312148:7, 수량 4, 비교금액 312000원."
+          }
+        ]
+      }
+    ]
+  }
+}

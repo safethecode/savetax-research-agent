@@ -1,0 +1,101 @@
+{
+  "status": "completed",
+  "runs": [
+    {
+      "run_id": "trun_4e7d15ec29a0477c92aaf6d517b651dd",
+      "processor": "core",
+      "state": "completed",
+      "result": "**공식 모델 매핑:** Canon Korea의 정부조달제품 페이지에서 모델은 **DR-603K**로 표시되고, 그 페이지의 구매 링크는 Canon e스토어의 **DR-603K** 상품으로 연결됩니다. 확인 가능한 매핑은 **조달 DR-603K → 소매 DR-603K**이며, 별도의 상업용 모델명으로 바뀐다는 Canon 문서는 확인되지 않습니다. DR-603K의 ADF·평판 포함 여부와 구성품은 공개된 Canon 상품 텍스트만으로 확정할 수 없습니다. DR-6030C는 별도 모델이며, 그 Canon 자료의 평판 스캐너 유닛은 옵션으로 기재되어 있어 DR-603K와 같은 모델·구성이라고 보지 않았습니다.\n\n**신품·구매 가능 가격:** 조사한 공개 자료에서 **신품임, 현재 재고 있음, 동일 구성임이 함께 확인되는 구매 건은 0건**입니다. Canon e스토어에는 DR-603K가 **1,210,000원**으로 표시되지만 **SOLD OUT**입니다. 디에스토탈시스템 상품 페이지에는 DR-603K **1,280,000원**이, 다나와의 디프라임 판매 목록에는 **1,439,000원**이 표시됩니다. 다나와 목록은 무료배송과 구매 링크를 표시하지만, 두 판매처 자료 모두 이 확인 범위에서는 신품 여부·현재 재고·ADF/평판 구성품을 명시하지 않아 적격 신품 제안으로 확정하지 않았습니다. 따라서 **확인된 최저 신품 구매가를 제시할 수 없습니다.**\n\n**세금·배송 및 조달 상한:** 디프라임 목록의 배송 표시는 **무료배송**이며, 디에스토탈시스템의 배송비는 확인되지 않습니다. Canon e스토어는 3만원 이상 전상품 무료배송이라고 표시하지만 해당 상품은 품절입니다. 해외에서 한국으로 보내는 배송비는 확인된 자료가 없습니다. 위 가격의 **부가세 포함 여부도 명시적으로 확인되지 않았습니다.** 조달 상한 단가는 여기 확인된 자료에 없어 절감액은 계산하지 않았습니다.",
+      "citations": [
+        {
+          "title": "DR-603K - 캐논코리아 주식회사",
+          "url": "https://kr.canon/product/content/detail/288584F75DD7022BCC28CC17F88F713B"
+        },
+        {
+          "title": "DR-603K - 캐논코리아 주식회사",
+          "url": "https://estore.kr.canon/estore/detailview/27616"
+        },
+        {
+          "title": "Fast, Accurate Scans. Immediate Productivity.",
+          "url": "https://evrex.net/wp-content/uploads/2021/12/DR_6030C_Brochure_highres441.pdf"
+        },
+        {
+          "title": "Canon DR-603K : 다나와 가격비교",
+          "url": "https://prod.danawa.com/info?pcode=15303941"
+        },
+        {
+          "title": "Canon DR-603K - 에누리 가격비교",
+          "url": "https://price.enuri.com/catalog/94298507"
+        },
+        {
+          "title": "캐논 양면스캐너 여권스캐너 분당 60매 DR-603K",
+          "url": "https://dstotal.co.kr/39?idx=291"
+        }
+      ]
+    },
+    {
+      "run_id": "trun_4e7d15ec29a0477cae74c84e161d0e4a",
+      "processor": "core",
+      "state": "completed",
+      "result": "**기준:** 국내 조달가 **KRW 38,200,000/대**는 질문에 제시된 기준값이며, 공개 국내 판매가로 독립 확인한 값은 아닙니다.\n\n**국내 우선:** [Soundus의 SD11 제품 페이지](http://soundus.co.kr/SD11)에는 SD11 모델이 소개되어 있지만, 공개 가격과 재고·구매 가능 상태는 확인되지 않아 가격 공개 신품 오퍼로 셀 수 없습니다.\n\n**조건을 확인할 수 있었던 해외 신품 오퍼(1건):**\n- [Forefront Productions(FFP) — DiGiCo SD11 Digital Mixing Console](https://ffp.au/digico-sd11-digital-mixing-console/): 표시 가격 **`$28,396.00` (AUD)**, 표시 정가 **`$34,630.00`**. 상품 페이지는 “Available to order”, 장바구니 추가 가능, 리드타임은 판매처 확인이 필요하다고 표시합니다. 신품·재고 표기도 있으나, 본문상 실제 출고 리드타임은 확정되지 않았습니다. 기본 SD11 콘솔 상품이며, D-Rack이나 플라이트 케이스 패키지는 페이지에 명시되지 않았습니다. 배송비는 체크아웃에서 계산된다고만 안내되어 **한국행 배송 가능 여부와 정확한 배송료는 미확인**입니다. 호주 GST 포함 여부, 한국 수입 VAT·관세·통관 관련 의무 비용도 판매 페이지에 금액이나 포함 여부가 표시되지 않아 **미확인**입니다.\n\n**48채널 Stealth Core2:** DiGiCo 공식 SD11 사양은 48 입력 채널을 기재하지만, 별도의 [SD11 Stealth Core2 업그레이드 페이지](https://digico.biz/shop/software/sd11-stealth-core-2-upgrade/)는 Core2 업그레이드로 48 입력 채널 등을 제공한다고 설명합니다. FFP 판매 페이지는 해당 콘솔의 Core2 버전·라이선스 포함 여부를 명시하지 않습니다. 따라서 **48채널 사양은 확인되지만, 이 매물에 48채널 Stealth Core2가 포함되는지는 확인 불가**이며, 사양만으로 포함을 단정하지 않았습니다.\n\n**제외한 가격 표시:** Braveo의 SD11 Package는 `$9,399.00`이지만 판매 페이지가 “excellent condition” 및 3개월 보증으로 설명해 신품 조건에서 제외했습니다. Braveo의 `$7,499.00` SD11i Core2는 2011·2014년형, 상태 “Good”으로 표시되고 I/O 랙도 포함되지 않아 중고 및 별도 모델(SD11i)로 제외했습니다. [Turramurra Music](https://www.turramusic.com.au/products/digico-sd11-surface)의 `$34,115.00`은 RRP로 표시되지만 실제 가격은 POA/문의로 안내되어 확정 구매가로 보지 않았습니다. Showtechnix도 특별 주문·견적 요청만 표시합니다. PedalDistort 페이지는 `$14,999.99`와 `$145.00`을 함께 표시하고 신품 상태나 재고를 명확히 제시하지 않아 검증된 오퍼로 세지 않았습니다.\n\n따라서 확인된 조건 중 **공개 가격·신품 표기·주문 가능 표시가 함께 있는 최저 오퍼는 FFP의 AUD `$28,396.00`**입니다. 다만 이를 국내 조달가와 총액 기준으로 비교하려면 환율 및 한국행 운송·세금·통관 비용이 필요한데, 해당 금액은 확인되지 않았습니다. 관세 품목분류별 세율·세액 및 환율 환산은 여기서 산출하지 않았습니다.",
+      "citations": [
+        {
+          "title": "DiGiCo",
+          "url": "http://soundus.co.kr/SD11"
+        },
+        {
+          "title": "DiGiCo SD11 Digital Mixing Console",
+          "url": "https://ffp.au/digico-sd11-digital-mixing-console/"
+        },
+        {
+          "title": "SD11",
+          "url": "https://digico.biz/wp-content/uploads/2020/03/DiGiCo-SD11-Data-Sheet.pdf"
+        },
+        {
+          "title": "SD11 Stealth Core 2 Upgrade - DiGiCo",
+          "url": "https://digico.biz/shop/software/sd11-stealth-core-2-upgrade"
+        },
+        {
+          "title": "DiGiCo SD11 Package - Braveo",
+          "url": "https://braveo.net/product/digico-sd11-package/"
+        },
+        {
+          "title": "DiGiCo SD11i Core2 Digital Mixing Console - Braveo",
+          "url": "https://braveo.net/product/digico-sd11i-core2-digital-mixing-console/"
+        },
+        {
+          "title": "DiGiCo SD11 Worksurface | 48 Channel Compact Digital Mixing Console | Turramurra Music",
+          "url": "https://www.turramusic.com.au/products/digico-sd11-surface"
+        },
+        {
+          "title": "DiGiCo SD11 48-Channel 96kHz Digital Mixing Console | SHOWTECHNIX",
+          "url": "https://www.showtechnix.com/DiGiCo-SD11"
+        },
+        {
+          "title": "DiGiCo SD11 Digital Mixing Console w/ Waves Card + Stealth Core 2 - Pro-Level Distortion Effects Pedals for Live and Studio Use",
+          "url": "https://www.pedaldistort.com/product/digico-sd11-digital-mixing-console-w-waves-card-stealth-core-2/"
+        }
+      ]
+    },
+    {
+      "run_id": "trun_4e7d15ec29a0477c9643cc8db51d3c8a",
+      "processor": "core",
+      "state": "completed",
+      "result": "**모델·명칭:** 제조사 공식 자료는 모델 **SPC-LSG10**을 솔레노이드 도어락으로 설명하고, 제조사의 2024년 공공조달 카탈로그는 식별번호 **23450279**와 함께 상업명/유형을 **“Electric Strike”**로 명시합니다. 따라서 공식 자료로 확인되는 대응명은 *Electric Strike*입니다.\n\n**가격 기준:** 요청에 적힌 조달 기준은 **617,000원/개**입니다(요청 입력값으로, 여기서 별도 검증된 가격은 아님). 한편 제조사의 2024년 카탈로그에는 SPC-LSG10이 **634,000원**, 부가세 포함으로 기재되어 있습니다. 이는 공공조달 카탈로그 가격이지 소매 판매가가 아니며, 두 가격의 차이를 현행 가격 변동으로 단정할 수 없습니다.\n\n**한국 신품 소매:** 확인 가능한 공개 자료에서 모델이 정확히 일치하고 정상 구매 가능 여부까지 확인되는 판매처를 찾지 못했습니다. 따라서 검증된 신품 소매 오퍼는 **0건**입니다. 판매자·판매 URL·판매가·포장/선택 옵션·재고/구매 가능 여부는 확인되지 않았고, 소매가의 부가세 포함 여부도 확인할 수 없습니다. 한국 배송비는 해당하는 소매 오퍼가 없어 **미확인**입니다.\n\n**범위:** 유사한 이름·이미지의 다른 잠금장치나 전기정, 조달 카탈로그 가격을 소매 오퍼로 대체하지 않았습니다.",
+      "citations": [
+        {
+          "title": "05.SPC-LSG10_23450279_catalog",
+          "url": "https://www.supremainc.com/ko/excellent/file_download.asp?sTargetName=Excellent&sPHYSICAL_NM=20191029174026775.pdf&sLOGICAL_NM=05.SPC-LSG10_23450279_catalog.pdf"
+        },
+        {
+          "title": "공공기관 우선구매대상 기술개발제품 카탈로그",
+          "url": "https://www.supremainc.com/uploadfiles/Reference/2024%20%EC%8A%88%ED%94%84%EB%A6%AC%EB%A7%88%20%EA%B3%B5%EA%B3%B5%EC%A1%B0%EB%8B%AC%20%EC%B9%B4%EB%8B%AC%EB%A1%9C%EA%B7%B8.pdf"
+        },
+        {
+          "title": "슈프리마 검색결과 - G마켓",
+          "url": "https://www.gmarket.co.kr/n/search?keyword=%EC%8A%88%ED%94%84%EB%A6%AC%EB%A7%88"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1770 @@
+{
+  "submission": {
+    "submission_id": "3ee841dc-e6ce-4128-98fe-07f8bf0fcc65",
+    "claim_id": "d7b9a927-1e29-4823-921c-fb3325e21ddb",
+    "revision": 1,
+    "submission_state": "accepted",
+    "admitted_at": "2026-10-16T04:06:05.713Z",
+    "amount_krw": 63123200,
+    "verification_status": "not_started",
+    "lint_status": "pending",
+    "event_epoch": 1,
+    "ruleset_version": "rules-v1",
+    "public_path": "/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/3ee841dc-e6ce-4128-98fe-07f8bf0fcc65",
+    "api_path": "/v1/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/3ee841dc-e6ce-4128-98fe-07f8bf0fcc65",
+    "web_path": "#/submission/3ee841dc-e6ce-4128-98fe-07f8bf0fcc65"
+  },
+  "body": {
+    "dataset_release_id": "release-live-20261012",
+    "ruleset_version": "rules-v1",
+    "canonical_product_id": "23641018",
+    "title": "NSH-2108LP 국내 실판매가 347200원 비교",
+    "claim": "실제 판매 상세의 동일 모델·구성과 일반 구매 가격을 확인했다.",
+    "comparison_scope": "동일 전체 모델 NST NSH-2108LP 신품 완제품 네트워크스위치1대 비교.8GbE PoE포트/802.3af·at/총150W/관리형/Long Range PoE 기능의 같은 모델이다. 실제표시347200원·배송0원을B로 쓴다. 판매처의30만원이상무료배송에 해당하며 Jev관측에서도 배송0원이 표시됐다. 조달은 현장설치도이고 소매는 본체 판매이므로 현장장착·설정서비스와 보증차이는 별도로 정산하지 않은 제품 취득가 비교다. 설치까지 포함한 실제지출절감 확정이라고 주장하지 않는다. 소비자 공개표시가를 VAT포함 기준으로 채택하되 별도 VAT포함 문장이 있다고 주장하지 않는다. 제주기관fact는없으며 도서지역추가료가실제로발생하는개별주소까지확정한주장은하지않는다.",
+    "reproduction_notes": "공식 fact별 floor(max(C-B×Q,0))를 합산. 각 라인 근거에 계약·납품요구·라인 번호를 기재. 가격 시점 차이는 사용자 지정 대회 조사 기준에서 제외한다.",
+    "lines": [
+      {
+        "fact_id": "dl:23641018:002270051_1:R25TB01008053:8",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R25TB01008053, 라인 8. 공식 fact dl:23641018:002270051_1:R25TB01008053:8, 수량 13, 비교금액 6006000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R25TB01008956:7",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R25TB01008956, 라인 7. 공식 fact dl:23641018:002270051_1:R25TB01008956:7, 수량 21, 비교금액 9702000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R25TB01118836:4",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R25TB01118836, 라인 4. 공식 fact dl:23641018:002270051_1:R25TB01118836:4, 수량 3, 비교금액 1386000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R25TB01123172:1",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R25TB01123172, 라인 1. 공식 fact dl:23641018:002270051_1:R25TB01123172:1, 수량 7, 비교금액 3234000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R25TB01125680:5",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R25TB01125680, 라인 5. 공식 fact dl:23641018:002270051_1:R25TB01125680:5, 수량 18, 비교금액 8316000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R25TB01161642:4",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R25TB01161642, 라인 4. 공식 fact dl:23641018:002270051_1:R25TB01161642:4, 수량 2, 비교금액 924000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R25TB01163372:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R25TB01163372, 라인 2. 공식 fact dl:23641018:002270051_1:R25TB01163372:2, 수량 1, 비교금액 462000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R25TB01166474:3",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R25TB01166474, 라인 3. 공식 fact dl:23641018:002270051_1:R25TB01166474:3, 수량 7, 비교금액 3234000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R25TB01227887:1",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R25TB01227887, 라인 1. 공식 fact dl:23641018:002270051_1:R25TB01227887:1, 수량 1, 비교금액 462000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R25TB01242037:3",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R25TB01242037, 라인 3. 공식 fact dl:23641018:002270051_1:R25TB01242037:3, 수량 7, 비교금액 3234000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R25TB01272397:4",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R25TB01272397, 라인 4. 공식 fact dl:23641018:002270051_1:R25TB01272397:4, 수량 1, 비교금액 462000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R25TB01379540:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R25TB01379540, 라인 2. 공식 fact dl:23641018:002270051_1:R25TB01379540:2, 수량 1, 비교금액 462000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R26TB01476972:11",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R26TB01476972, 라인 11. 공식 fact dl:23641018:002270051_1:R26TB01476972:11, 수량 29, 비교금액 13398000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R26TB01675471:3",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R26TB01675471, 라인 3. 공식 fact dl:23641018:002270051_1:R26TB01675471:3, 수량 4, 비교금액 1848000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R26TB01812959:3",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R26TB01812959, 라인 3. 공식 fact dl:23641018:002270051_1:R26TB01812959:3, 수량 4, 비교금액 1848000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R26TB01881136:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R26TB01881136, 라인 2. 공식 fact dl:23641018:002270051_1:R26TB01881136:2, 수량 3, 비교금액 1386000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R26TB01881273:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R26TB01881273, 라인 2. 공식 fact dl:23641018:002270051_1:R26TB01881273:2, 수량 1, 비교금액 462000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R26TB01903938:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R26TB01903938, 라인 2. 공식 fact dl:23641018:002270051_1:R26TB01903938:2, 수량 5, 비교금액 2310000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R26TB01908648:3",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R26TB01908648, 라인 3. 공식 fact dl:23641018:002270051_1:R26TB01908648:3, 수량 28, 비교금액 12936000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R26TB02009827:3",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R26TB02009827, 라인 3. 공식 fact dl:23641018:002270051_1:R26TB02009827:3, 수량 1, 비교금액 462000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R26TB02023795:4",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R26TB02023795, 라인 4. 공식 fact dl:23641018:002270051_1:R26TB02023795:4, 수량 7, 비교금액 3234000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R26TB02076353:5",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R26TB02076353, 라인 5. 공식 fact dl:23641018:002270051_1:R26TB02076353:5, 수량 6, 비교금액 2772000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R26TB02147880:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R26TB02147880, 라인 2. 공식 fact dl:23641018:002270051_1:R26TB02147880:2, 수량 6, 비교금액 2772000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R26TB02150761:4",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R26TB02150761, 라인 4. 공식 fact dl:23641018:002270051_1:R26TB02150761:4, 수량 2, 비교금액 924000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R26TB02178200:7",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R26TB02178200, 라인 7. 공식 fact dl:23641018:002270051_1:R26TB02178200:7, 수량 1, 비교금액 462000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270051_1:R26TB02233116:5",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270051_1, 납품요구 R26TB02233116, 라인 5. 공식 fact dl:23641018:002270051_1:R26TB02233116:5, 수량 2, 비교금액 924000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270075_1:R25TB01123435:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270075_1, 납품요구 R25TB01123435, 라인 2. 공식 fact dl:23641018:002270075_1:R25TB01123435:2, 수량 2, 비교금액 1008000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270075_1:R25TB01158060:3",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270075_1, 납품요구 R25TB01158060, 라인 3. 공식 fact dl:23641018:002270075_1:R25TB01158060:3, 수량 1, 비교금액 504000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270075_1:R25TB01185669:5",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270075_1, 납품요구 R25TB01185669, 라인 5. 공식 fact dl:23641018:002270075_1:R25TB01185669:5, 수량 55, 비교금액 27720000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270075_1:R25TB01194576:1",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270075_1, 납품요구 R25TB01194576, 라인 1. 공식 fact dl:23641018:002270075_1:R25TB01194576:1, 수량 5, 비교금액 2520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270075_1:R26TB01438478:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270075_1, 납품요구 R26TB01438478, 라인 2. 공식 fact dl:23641018:002270075_1:R26TB01438478:2, 수량 1, 비교금액 504000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270075_1:R26TB01484617:3",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270075_1, 납품요구 R26TB01484617, 라인 3. 공식 fact dl:23641018:002270075_1:R26TB01484617:3, 수량 4, 비교금액 2016000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270075_1:R26TB01507270:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270075_1, 납품요구 R26TB01507270, 라인 2. 공식 fact dl:23641018:002270075_1:R26TB01507270:2, 수량 9, 비교금액 4536000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270075_1:R26TB01713394:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270075_1, 납품요구 R26TB01713394, 라인 2. 공식 fact dl:23641018:002270075_1:R26TB01713394:2, 수량 15, 비교금액 7560000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270075_1:R26TB01809549:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270075_1, 납품요구 R26TB01809549, 라인 2. 공식 fact dl:23641018:002270075_1:R26TB01809549:2, 수량 7, 비교금액 3528000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270075_1:R26TB01811263:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270075_1, 납품요구 R26TB01811263, 라인 2. 공식 fact dl:23641018:002270075_1:R26TB01811263:2, 수량 1, 비교금액 504000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270075_1:R26TB01930415:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270075_1, 납품요구 R26TB01930415, 라인 2. 공식 fact dl:23641018:002270075_1:R26TB01930415:2, 수량 2, 비교금액 1008000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270075_1:R26TB01983854:1",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270075_1, 납품요구 R26TB01983854, 라인 1. 공식 fact dl:23641018:002270075_1:R26TB01983854:1, 수량 8, 비교금액 4032000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270075_1:R26TB02073913:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270075_1, 납품요구 R26TB02073913, 라인 2. 공식 fact dl:23641018:002270075_1:R26TB02073913:2, 수량 17, 비교금액 8568000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270075_1:R26TB02184872:1",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270075_1, 납품요구 R26TB02184872, 라인 1. 공식 fact dl:23641018:002270075_1:R26TB02184872:1, 수량 12, 비교금액 6048000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270134_1:R26TB01787504:3",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270134_1, 납품요구 R26TB01787504, 라인 3. 공식 fact dl:23641018:002270134_1:R26TB01787504:3, 수량 14, 비교금액 6468000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270463_1:R25TB01125394:3",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270463_1, 납품요구 R25TB01125394, 라인 3. 공식 fact dl:23641018:002270463_1:R25TB01125394:3, 수량 5, 비교금액 2310000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270463_1:R25TB01191074:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270463_1, 납품요구 R25TB01191074, 라인 2. 공식 fact dl:23641018:002270463_1:R25TB01191074:2, 수량 2, 비교금액 924000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270463_1:R26TB01397330:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270463_1, 납품요구 R26TB01397330, 라인 2. 공식 fact dl:23641018:002270463_1:R26TB01397330:2, 수량 1, 비교금액 462000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270463_1:R26TB01650028:6",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270463_1, 납품요구 R26TB01650028, 라인 6. 공식 fact dl:23641018:002270463_1:R26TB01650028:6, 수량 14, 비교금액 6468000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270463_1:R26TB01682850:5",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270463_1, 납품요구 R26TB01682850, 라인 5. 공식 fact dl:23641018:002270463_1:R26TB01682850:5, 수량 7, 비교금액 3234000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270463_1:R26TB01726856:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270463_1, 납품요구 R26TB01726856, 라인 2. 공식 fact dl:23641018:002270463_1:R26TB01726856:2, 수량 1, 비교금액 462000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270463_1:R26TB01808956:9",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270463_1, 납품요구 R26TB01808956, 라인 9. 공식 fact dl:23641018:002270463_1:R26TB01808956:9, 수량 46, 비교금액 21252000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270463_1:R26TB02087526:3",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270463_1, 납품요구 R26TB02087526, 라인 3. 공식 fact dl:23641018:002270463_1:R26TB02087526:3, 수량 1, 비교금액 462000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002270463_1:R26TB02096219:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270463_1, 납품요구 R26TB02096219, 라인 2. 공식 fact dl:23641018:002270463_1:R26TB02096219:2, 수량 1, 비교금액 462000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002370211_1:R26TB02037787:7",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370211_1, 납품요구 R26TB02037787, 라인 7. 공식 fact dl:23641018:002370211_1:R26TB02037787:7, 수량 2, 비교금액 924000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002370211_1:R26TB02038864:6",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370211_1, 납품요구 R26TB02038864, 라인 6. 공식 fact dl:23641018:002370211_1:R26TB02038864:6, 수량 1, 비교금액 462000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002370211_1:R26TB02192033:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370211_1, 납품요구 R26TB02192033, 라인 2. 공식 fact dl:23641018:002370211_1:R26TB02192033:2, 수량 1, 비교금액 462000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002370213_1:R25TB01147507:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370213_1, 납품요구 R25TB01147507, 라인 2. 공식 fact dl:23641018:002370213_1:R25TB01147507:2, 수량 1, 비교금액 462000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002370213_1:R26TB01599541:3",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370213_1, 납품요구 R26TB01599541, 라인 3. 공식 fact dl:23641018:002370213_1:R26TB01599541:3, 수량 13, 비교금액 6006000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002370213_1:R26TB01610061:3",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370213_1, 납품요구 R26TB01610061, 라인 3. 공식 fact dl:23641018:002370213_1:R26TB01610061:3, 수량 3, 비교금액 1386000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002370213_1:R26TB01672566:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370213_1, 납품요구 R26TB01672566, 라인 2. 공식 fact dl:23641018:002370213_1:R26TB01672566:2, 수량 1, 비교금액 462000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002370213_1:R26TB01742493:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370213_1, 납품요구 R26TB01742493, 라인 2. 공식 fact dl:23641018:002370213_1:R26TB01742493:2, 수량 3, 비교금액 1386000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002370213_1:R26TB01949112:4",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370213_1, 납품요구 R26TB01949112, 라인 4. 공식 fact dl:23641018:002370213_1:R26TB01949112:4, 수량 11, 비교금액 5082000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002370213_1:R26TB02004309:5",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370213_1, 납품요구 R26TB02004309, 라인 5. 공식 fact dl:23641018:002370213_1:R26TB02004309:5, 수량 1, 비교금액 462000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002370213_1:R26TB02185436:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370213_1, 납품요구 R26TB02185436, 라인 2. 공식 fact dl:23641018:002370213_1:R26TB02185436:2, 수량 20, 비교금액 9240000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002370213_1:R26TB02286876:4",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370213_1, 납품요구 R26TB02286876, 라인 4. 공식 fact dl:23641018:002370213_1:R26TB02286876:4, 수량 3, 비교금액 1386000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002370213_1:R26TB02289462:4",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370213_1, 납품요구 R26TB02289462, 라인 4. 공식 fact dl:23641018:002370213_1:R26TB02289462:4, 수량 1, 비교금액 462000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002470197_1:R26TB01779706:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002470197_1, 납품요구 R26TB01779706, 라인 2. 공식 fact dl:23641018:002470197_1:R26TB01779706:2, 수량 4, 비교금액 1848000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002470197_1:R26TB01967583:4",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002470197_1, 납품요구 R26TB01967583, 라인 4. 공식 fact dl:23641018:002470197_1:R26TB01967583:4, 수량 7, 비교금액 3234000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002470197_1:R26TB01972390:2",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002470197_1, 납품요구 R26TB01972390, 라인 2. 공식 fact dl:23641018:002470197_1:R26TB01972390:2, 수량 6, 비교금액 2772000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:23641018:002470197_1:R26TB02297617:4",
+        "benchmark_unit_price_krw": "347200",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+            "quote": "NST NSH-2108LP POE 8포트 기가비트 POE 스위치 허브. Managed,8ports10/100/1000Base-T PoE802.3af/at,Total150W,Long Range PoE. 판매가347,200원, 구매제한 옵션당최소1개, 배송비0원/주문시결제. 2026-10-16 Jev·실제DOM에서 바로구매·장바구니 표시 확인. 카드·쿠폰·적립 차감 없는 일반 소비자 공개표시가를 VAT포함 기준으로 채택했다.",
+            "observed_price_krw": "347200",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 347200원/1개 구성. 공식 비교 단위 1대당 347200원으로 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002470197_1, 납품요구 R26TB02297617, 라인 4. 공식 fact dl:23641018:002470197_1:R26TB02297617:4, 수량 9, 비교금액 4158000원."
+          }
+        ]
+      }
+    ]
+  }
+}

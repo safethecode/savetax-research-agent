@@ -1,0 +1,574 @@
+{
+  "submission": {
+    "submission_id": "89ed88ca-dab0-485f-bd68-10ef85605971",
+    "claim_id": "764c729f-e867-4f9b-b098-1d1ba8ac749f",
+    "revision": 1,
+    "submission_state": "accepted",
+    "admitted_at": "2026-10-16T03:58:06.981Z",
+    "amount_krw": 6500000,
+    "verification_status": "not_started",
+    "lint_status": "pending",
+    "event_epoch": 1,
+    "ruleset_version": "rules-v1",
+    "public_path": "/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/89ed88ca-dab0-485f-bd68-10ef85605971",
+    "api_path": "/v1/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/89ed88ca-dab0-485f-bd68-10ef85605971",
+    "web_path": "#/submission/89ed88ca-dab0-485f-bd68-10ef85605971"
+  },
+  "body": {
+    "dataset_release_id": "release-live-20261012",
+    "ruleset_version": "rules-v1",
+    "canonical_product_id": "24361786",
+    "title": "SFP-I-LX → SFP-1G20LX-LC 대체품 33000원 비교",
+    "claim": "조달 SFP-I-LX과 실제 판매 SFP-1G20LX-LC의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 제조사·모델다름. 대체품DDM미확인, 조달품Duplex명시/온도/전기조건미확인, 소매가의 설치서비스포함미확인. 실제장비호환미검증.",
+    "comparison_scope": "동일 제조사·동일모델 비교가 아닌 핵심광전송사양 대응 대체품 비교다. 조달 누리아이엔지 SFP-I-LX 대신 여의시스템 SFP-1G20LX-LC 신품 미개봉1개를 제시한다. 판매처 직접원문에서 양쪽 모두1.25Gbps/Single Mode/1310nm/20km/LC를 확인했다. 여의는Duplex LC명시이나 누리원문은LC로만 표기한다. 누리DDM지원 대비 여의DDM은 미확인이며, 양쪽동작온도·전기소비의 동일성 및 실제 CCTV/스위치별EEPROM/펌웨어 호환·벤더승인·장착시험은 검증하지 못했다. 따라서 모든 기존장비에서 즉시동작하는 동일품이라고 주장하지 않고, 이 광전송 핵심사양범위의 대체조달가격으로만 제안한다. 표시가33000원+매개배송3500원으로B36500원, 무료배송/쿠폰/적립미반영. VAT는판매처의일반소비자공개가격과별도VAT추가문구없음·과세HTML설정에근거한부모판단이고 VAT포함명시문장을확인했다고하지않는다. 제주2건Q14는도선료미확정으로제외한본토21건Q200/C13800000만비교한다. 공식현장설치도·하자보수2년이며, 소매가에실제현장장착·설정서비스포함은확인하지못해모듈취득가범위로구분한다. 실제예산지급변화는확인되지않았다. 원품 SFP-I-LX, 대체품 SFP-1G20LX-LC. 차이·제한: 제조사·모델다름. 대체품DDM미확인, 조달품Duplex명시/온도/전기조건미확인, 소매가의 설치서비스포함미확인. 실제장비호환미검증.",
+    "reproduction_notes": "공식 fact별 floor(max(C-B×Q,0))를 합산. 각 라인 근거에 계약·납품요구·라인 번호를 기재. 가격 시점 차이는 사용자 지정 대회 조사 기준에서 제외한다. 사양 대응: 제품 종류: SFP 광송수신모듈 → SFP 광송수신모듈; 명목 전송속도: 1.25Gbps → 1.25Gbps; 광섬유 모드: Single Mode → Single Mode; 광원파장: 1310nm → 1310nm; 전송거리: 20km → 20km on SMF; 광 커넥터: LC → Duplex LC; DDM: 판매처 설명 DDM 지원 → 해당 판매 원문에서는 명시 미확인; 동작온도: 직접 열람 텍스트에서는 미확인 → 0~70℃, -40~85℃ 사용가능 표기; 전기 공급/소비: 미확인 → +3.3V, 1W 미만; 사용장비 호환: 납품된 CCTV/스위치별 펌웨어·EEPROM 요구 미확인 → 실제 납품장비별 장착시험·벤더 승인 미검증. 사양 출처: https://www.mpsmall.co.kr/goods/goods_view.php?goodsNo=17040 https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+    "lines": [
+      {
+        "fact_id": "dl:24361786:002270042_1:R25TB00968206:11",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 판매가33,000원, 배송3,500원. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교. 실제 판매모델 SFP-1G20LX-LC; 원품 SFP-I-LX과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R25TB00968206, 라인 11. 공식 fact dl:24361786:002270042_1:R25TB00968206:11, 수량 14, 비교금액 966000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24361786:002270042_1:R25TB01296541:11",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 판매가33,000원, 배송3,500원. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교. 실제 판매모델 SFP-1G20LX-LC; 원품 SFP-I-LX과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R25TB01296541, 라인 11. 공식 fact dl:24361786:002270042_1:R25TB01296541:11, 수량 2, 비교금액 138000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24361786:002270042_1:R26TB02005583:9",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 판매가33,000원, 배송3,500원. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교. 실제 판매모델 SFP-1G20LX-LC; 원품 SFP-I-LX과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R26TB02005583, 라인 9. 공식 fact dl:24361786:002270042_1:R26TB02005583:9, 수량 54, 비교금액 3726000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24361786:002270042_1:R26TB02034486:5",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 판매가33,000원, 배송3,500원. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교. 실제 판매모델 SFP-1G20LX-LC; 원품 SFP-I-LX과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R26TB02034486, 라인 5. 공식 fact dl:24361786:002270042_1:R26TB02034486:5, 수량 2, 비교금액 138000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24361786:002270042_1:R26TB02195677:7",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 판매가33,000원, 배송3,500원. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교. 실제 판매모델 SFP-1G20LX-LC; 원품 SFP-I-LX과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R26TB02195677, 라인 7. 공식 fact dl:24361786:002270042_1:R26TB02195677:7, 수량 2, 비교금액 138000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24361786:002270042_1:R26TB02242996:3",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 판매가33,000원, 배송3,500원. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교. 실제 판매모델 SFP-1G20LX-LC; 원품 SFP-I-LX과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R26TB02242996, 라인 3. 공식 fact dl:24361786:002270042_1:R26TB02242996:3, 수량 2, 비교금액 138000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24361786:002270042_1:R26TB02298555:6",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 판매가33,000원, 배송3,500원. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교. 실제 판매모델 SFP-1G20LX-LC; 원품 SFP-I-LX과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R26TB02298555, 라인 6. 공식 fact dl:24361786:002270042_1:R26TB02298555:6, 수량 16, 비교금액 1104000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24361786:002270042_1:R26TB02348215:6",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 판매가33,000원, 배송3,500원. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교. 실제 판매모델 SFP-1G20LX-LC; 원품 SFP-I-LX과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R26TB02348215, 라인 6. 공식 fact dl:24361786:002270042_1:R26TB02348215:6, 수량 16, 비교금액 1104000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24361786:002270059_1:R26TB02204773:2",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 판매가33,000원, 배송3,500원. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교. 실제 판매모델 SFP-1G20LX-LC; 원품 SFP-I-LX과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270059_1, 납품요구 R26TB02204773, 라인 2. 공식 fact dl:24361786:002270059_1:R26TB02204773:2, 수량 2, 비교금액 138000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24361786:002270059_1:R26TB02253656:9",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 판매가33,000원, 배송3,500원. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교. 실제 판매모델 SFP-1G20LX-LC; 원품 SFP-I-LX과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270059_1, 납품요구 R26TB02253656, 라인 9. 공식 fact dl:24361786:002270059_1:R26TB02253656:9, 수량 14, 비교금액 966000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24361786:002270059_1:R26TB02263848:7",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 판매가33,000원, 배송3,500원. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교. 실제 판매모델 SFP-1G20LX-LC; 원품 SFP-I-LX과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270059_1, 납품요구 R26TB02263848, 라인 7. 공식 fact dl:24361786:002270059_1:R26TB02263848:7, 수량 2, 비교금액 138000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24361786:002470226_1:R26TB01910804:13",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 판매가33,000원, 배송3,500원. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교. 실제 판매모델 SFP-1G20LX-LC; 원품 SFP-I-LX과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002470226_1, 납품요구 R26TB01910804, 라인 13. 공식 fact dl:24361786:002470226_1:R26TB01910804:13, 수량 4, 비교금액 276000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24361786:R25TA00622517:R26TB01996917:2",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 판매가33,000원, 배송3,500원. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교. 실제 판매모델 SFP-1G20LX-LC; 원품 SFP-I-LX과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00622517, 납품요구 R26TB01996917, 라인 2. 공식 fact dl:24361786:R25TA00622517:R26TB01996917:2, 수량 6, 비교금액 414000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24361786:R25TA00906342:R25TB01133756:7",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 판매가33,000원, 배송3,500원. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교. 실제 판매모델 SFP-1G20LX-LC; 원품 SFP-I-LX과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00906342, 납품요구 R25TB01133756, 라인 7. 공식 fact dl:24361786:R25TA00906342:R25TB01133756:7, 수량 18, 비교금액 1242000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24361786:R25TA00906342:R25TB01186958:19",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 판매가33,000원, 배송3,500원. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교. 실제 판매모델 SFP-1G20LX-LC; 원품 SFP-I-LX과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00906342, 납품요구 R25TB01186958, 라인 19. 공식 fact dl:24361786:R25TA00906342:R25TB01186958:19, 수량 4, 비교금액 276000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24361786:R25TA00906342:R25TB01270036:10",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 판매가33,000원, 배송3,500원. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교. 실제 판매모델 SFP-1G20LX-LC; 원품 SFP-I-LX과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00906342, 납품요구 R25TB01270036, 라인 10. 공식 fact dl:24361786:R25TA00906342:R25TB01270036:10, 수량 4, 비교금액 276000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24361786:R25TA00906342:R25TB01270115:7",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 판매가33,000원, 배송3,500원. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교. 실제 판매모델 SFP-1G20LX-LC; 원품 SFP-I-LX과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00906342, 납품요구 R25TB01270115, 라인 7. 공식 fact dl:24361786:R25TA00906342:R25TB01270115:7, 수량 4, 비교금액 276000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24361786:R25TA00906342:R25TB01290290:10",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 판매가33,000원, 배송3,500원. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교. 실제 판매모델 SFP-1G20LX-LC; 원품 SFP-I-LX과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00906342, 납품요구 R25TB01290290, 라인 10. 공식 fact dl:24361786:R25TA00906342:R25TB01290290:10, 수량 12, 비교금액 828000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24361786:R25TA00906342:R26TB01761061:6",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 판매가33,000원, 배송3,500원. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교. 실제 판매모델 SFP-1G20LX-LC; 원품 SFP-I-LX과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00906342, 납품요구 R26TB01761061, 라인 6. 공식 fact dl:24361786:R25TA00906342:R26TB01761061:6, 수량 2, 비교금액 138000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24361786:R25TA00906342:R26TB01982663:5",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 판매가33,000원, 배송3,500원. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교. 실제 판매모델 SFP-1G20LX-LC; 원품 SFP-I-LX과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00906342, 납품요구 R26TB01982663, 라인 5. 공식 fact dl:24361786:R25TA00906342:R26TB01982663:5, 수량 12, 비교금액 828000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24361786:R25TA00906342:R26TB02144491:8",
+        "benchmark_unit_price_krw": "36500",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+            "quote": "여의시스템 SFP-1G20LX-LC 판매가33,000원, 배송3,500원. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km.",
+            "observed_price_krw": "33000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 33000원/1개 구성. 공식 비교 단위 1대당 36500원으로 비교. 실제 판매모델 SFP-1G20LX-LC; 원품 SFP-I-LX과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00906342, 납품요구 R26TB02144491, 라인 8. 공식 fact dl:24361786:R25TA00906342:R26TB02144491:8, 수량 8, 비교금액 552000원."
+          }
+        ]
+      }
+    ]
+  }
+}

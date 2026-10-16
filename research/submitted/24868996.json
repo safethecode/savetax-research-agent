@@ -1,0 +1,1666 @@
+{
+  "submission": {
+    "submission_id": "62484f75-a06d-4ffa-a05b-34d874f8e5ed",
+    "claim_id": "bd7b9282-e1da-405a-9a20-7d17f47bc646",
+    "revision": 1,
+    "submission_state": "accepted",
+    "admitted_at": "2026-10-16T03:52:04.960Z",
+    "amount_krw": 39675000,
+    "verification_status": "not_started",
+    "lint_status": "pending",
+    "event_epoch": 1,
+    "ruleset_version": "rules-v1",
+    "public_path": "/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/62484f75-a06d-4ffa-a05b-34d874f8e5ed",
+    "api_path": "/v1/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/62484f75-a06d-4ffa-a05b-34d874f8e5ed",
+    "web_path": "#/submission/62484f75-a06d-4ffa-a05b-34d874f8e5ed"
+  },
+  "body": {
+    "dataset_release_id": "release-live-20261012",
+    "ruleset_version": "rules-v1",
+    "canonical_product_id": "24868996",
+    "title": "IMP-MX-1646 믹서, 인터엠 MX-1646 동급 핵심사양 본체 945,000원 비교",
+    "claim": "조달 아이엠피 IMP-MX-1646 단가1,520,000원을, 인터엠 MX-1646 공개판매가945,000원과 비교한다. 동일제조사·동일모델 주장이 아닌 대체품 본체 비교다. 양 제조사 공식 사양표의19개 항목을 대조했다. 입력 모노8+스테레오4, AUX4/GROUP4, 팬텀48V, EQ, 입출력 임피던스·레벨, 주파수응답·왜곡, 전원220V60Hz25W, 482×105×310mm 및5.78kg 등이 대응한다. 69대의 본체가격 기준 예상차액39,675,000원이며 설치비를 별도로 정산하지 않은 비교다.",
+    "comparison_scope": "동등 핵심사양 대체품 본체1대 비교: 조달 아이엠피 IMP-MX-1646 ↔ 시중 인터엠 MX-1646. 제조사·모델명·KC동일성은 주장하지 않는다. 일반지역 배송무료인945,000원을 B로 사용. 조달 현장설치도와 소매 본체 판매의 차이를 밝히며 랙고정·XLR/TRS 연결·레벨설정 설치비와 보증차이는 금액에 별도 반영하지 않았다. 납품·실제지출절감이 확정됐다는 주장이 아니다.",
+    "reproduction_notes": "원품 공식 https://www.impav.com/r2/downloads/IMP-MX-1646/leaf_1.pdf 2쪽과 대체품 공식 https://www.inter-m.com/uploads/20240712/20240712_015749_5894.pdf 2쪽에서19개 정량사양 대조. 2026-10-16 아바비젼 실제 렌더링·Jev로 가격945000·구매버튼·일반지역 무료배송 확인. 공식63개 fact Q69/C104880000, 각 floor(max(C-945000×Q,0)) 합산. 모든 계약·납품요구·라인 번호는 fact별 근거에 기재.",
+    "lines": [
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB01721937:1",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB01721937, 라인 1. 공식 fact dl:24868996:R26TA01632895:R26TB01721937:1, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB01722639:2",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB01722639, 라인 2. 공식 fact dl:24868996:R26TA01632895:R26TB01722639:2, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB01737116:12",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB01737116, 라인 12. 공식 fact dl:24868996:R26TA01632895:R26TB01737116:12, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB01737196:16",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB01737196, 라인 16. 공식 fact dl:24868996:R26TA01632895:R26TB01737196:16, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB01744131:1",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB01744131, 라인 1. 공식 fact dl:24868996:R26TA01632895:R26TB01744131:1, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB01747499:5",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB01747499, 라인 5. 공식 fact dl:24868996:R26TA01632895:R26TB01747499:5, 수량 2, 비교금액 3040000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB01758565:14",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB01758565, 라인 14. 공식 fact dl:24868996:R26TA01632895:R26TB01758565:14, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB01760669:4",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB01760669, 라인 4. 공식 fact dl:24868996:R26TA01632895:R26TB01760669:4, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB01771079:5",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB01771079, 라인 5. 공식 fact dl:24868996:R26TA01632895:R26TB01771079:5, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB01772226:12",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB01772226, 라인 12. 공식 fact dl:24868996:R26TA01632895:R26TB01772226:12, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB01788215:1",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB01788215, 라인 1. 공식 fact dl:24868996:R26TA01632895:R26TB01788215:1, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB01795713:5",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB01795713, 라인 5. 공식 fact dl:24868996:R26TA01632895:R26TB01795713:5, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB01797133:2",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB01797133, 라인 2. 공식 fact dl:24868996:R26TA01632895:R26TB01797133:2, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB01803216:1",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB01803216, 라인 1. 공식 fact dl:24868996:R26TA01632895:R26TB01803216:1, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB01812805:5",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB01812805, 라인 5. 공식 fact dl:24868996:R26TA01632895:R26TB01812805:5, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB01814435:4",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB01814435, 라인 4. 공식 fact dl:24868996:R26TA01632895:R26TB01814435:4, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB01852084:1",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB01852084, 라인 1. 공식 fact dl:24868996:R26TA01632895:R26TB01852084:1, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB01863325:6",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB01863325, 라인 6. 공식 fact dl:24868996:R26TA01632895:R26TB01863325:6, 수량 6, 비교금액 9120000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB01889313:15",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB01889313, 라인 15. 공식 fact dl:24868996:R26TA01632895:R26TB01889313:15, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB01918517:1",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB01918517, 라인 1. 공식 fact dl:24868996:R26TA01632895:R26TB01918517:1, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB01923089:2",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB01923089, 라인 2. 공식 fact dl:24868996:R26TA01632895:R26TB01923089:2, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB01997839:34",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB01997839, 라인 34. 공식 fact dl:24868996:R26TA01632895:R26TB01997839:34, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02008802:17",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02008802, 라인 17. 공식 fact dl:24868996:R26TA01632895:R26TB02008802:17, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02021395:9",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02021395, 라인 9. 공식 fact dl:24868996:R26TA01632895:R26TB02021395:9, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02027224:5",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02027224, 라인 5. 공식 fact dl:24868996:R26TA01632895:R26TB02027224:5, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02035902:21",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02035902, 라인 21. 공식 fact dl:24868996:R26TA01632895:R26TB02035902:21, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02047327:18",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02047327, 라인 18. 공식 fact dl:24868996:R26TA01632895:R26TB02047327:18, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02048417:21",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02048417, 라인 21. 공식 fact dl:24868996:R26TA01632895:R26TB02048417:21, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02060204:19",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02060204, 라인 19. 공식 fact dl:24868996:R26TA01632895:R26TB02060204:19, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02075312:17",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02075312, 라인 17. 공식 fact dl:24868996:R26TA01632895:R26TB02075312:17, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02077284:12",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02077284, 라인 12. 공식 fact dl:24868996:R26TA01632895:R26TB02077284:12, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02108838:15",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02108838, 라인 15. 공식 fact dl:24868996:R26TA01632895:R26TB02108838:15, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02112392:2",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02112392, 라인 2. 공식 fact dl:24868996:R26TA01632895:R26TB02112392:2, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02115494:1",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02115494, 라인 1. 공식 fact dl:24868996:R26TA01632895:R26TB02115494:1, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02124259:5",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02124259, 라인 5. 공식 fact dl:24868996:R26TA01632895:R26TB02124259:5, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02130404:23",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02130404, 라인 23. 공식 fact dl:24868996:R26TA01632895:R26TB02130404:23, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02136431:24",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02136431, 라인 24. 공식 fact dl:24868996:R26TA01632895:R26TB02136431:24, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02148029:3",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02148029, 라인 3. 공식 fact dl:24868996:R26TA01632895:R26TB02148029:3, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02151941:1",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02151941, 라인 1. 공식 fact dl:24868996:R26TA01632895:R26TB02151941:1, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02157962:6",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02157962, 라인 6. 공식 fact dl:24868996:R26TA01632895:R26TB02157962:6, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02163482:15",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02163482, 라인 15. 공식 fact dl:24868996:R26TA01632895:R26TB02163482:15, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02172074:8",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02172074, 라인 8. 공식 fact dl:24868996:R26TA01632895:R26TB02172074:8, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02181109:1",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02181109, 라인 1. 공식 fact dl:24868996:R26TA01632895:R26TB02181109:1, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02185768:16",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02185768, 라인 16. 공식 fact dl:24868996:R26TA01632895:R26TB02185768:16, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02185918:2",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02185918, 라인 2. 공식 fact dl:24868996:R26TA01632895:R26TB02185918:2, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02217137:6",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02217137, 라인 6. 공식 fact dl:24868996:R26TA01632895:R26TB02217137:6, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02219749:19",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02219749, 라인 19. 공식 fact dl:24868996:R26TA01632895:R26TB02219749:19, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02230473:2",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02230473, 라인 2. 공식 fact dl:24868996:R26TA01632895:R26TB02230473:2, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02233078:16",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02233078, 라인 16. 공식 fact dl:24868996:R26TA01632895:R26TB02233078:16, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02238090:14",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02238090, 라인 14. 공식 fact dl:24868996:R26TA01632895:R26TB02238090:14, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02248183:7",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02248183, 라인 7. 공식 fact dl:24868996:R26TA01632895:R26TB02248183:7, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02253392:9",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02253392, 라인 9. 공식 fact dl:24868996:R26TA01632895:R26TB02253392:9, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02280632:10",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02280632, 라인 10. 공식 fact dl:24868996:R26TA01632895:R26TB02280632:10, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02286734:4",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02286734, 라인 4. 공식 fact dl:24868996:R26TA01632895:R26TB02286734:4, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02292848:1",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02292848, 라인 1. 공식 fact dl:24868996:R26TA01632895:R26TB02292848:1, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02306603:18",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02306603, 라인 18. 공식 fact dl:24868996:R26TA01632895:R26TB02306603:18, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02315049:1",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02315049, 라인 1. 공식 fact dl:24868996:R26TA01632895:R26TB02315049:1, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02319188:17",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02319188, 라인 17. 공식 fact dl:24868996:R26TA01632895:R26TB02319188:17, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02323855:11",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02323855, 라인 11. 공식 fact dl:24868996:R26TA01632895:R26TB02323855:11, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02335636:4",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02335636, 라인 4. 공식 fact dl:24868996:R26TA01632895:R26TB02335636:4, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02340625:1",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02340625, 라인 1. 공식 fact dl:24868996:R26TA01632895:R26TB02340625:1, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02342368:2",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02342368, 라인 2. 공식 fact dl:24868996:R26TA01632895:R26TB02342368:2, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24868996:R26TA01632895:R26TB02347969:6",
+        "benchmark_unit_price_krw": "945000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+            "quote": "상품명 MX-1646/MX1646/입력16/출력4CH. 브랜드 인터엠. 판매가 945,000원. DELIVERY INFO: 배송 방법 택배, 배송 비용 무료, 배송 기간3일~7일. 2026-10-16 실제 렌더링에서 BUY IT NOW 표시, SOLD OUT 숨김을 확인했다. 일반 소비자 공개표시가를 VAT포함 비교 기준으로 채택했으며 별도 VAT포함 문장이 있다고 주장하지 않는다.",
+            "observed_price_krw": "945000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "실제 판매모델은 인터엠 MX-1646이며 원품 IMP-MX-1646과 모델·제조사가 다르다. 동등 핵심사양 본체의 대체 비교다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R26TA01632895, 납품요구 R26TB02347969, 라인 6. 공식 fact dl:24868996:R26TA01632895:R26TB02347969:6, 수량 1, 비교금액 1520000원."
+          }
+        ]
+      }
+    ]
+  }
+}

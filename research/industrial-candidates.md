@@ -32,3 +32,11 @@ DPD-628 공식카탈로그와 DPD-6208N 공식매뉴얼에서8채널·채널당2
 광모듈은 새로 조회한 억 단위 15개 모두 기등록으로 제외했다. 1백만원~1억원 구간 50개 중 22개가 미등록이었다. `work/industrial/lowc-optics.json`과 `lookup17.json`에 보존했다. Extreme 1000BASE-SX용 국내 Premium 호환 오퍼는 55,000원이나 배송 운임이 미정이다. 최종 배송 포함 B가 완성되기 전 확정 절감으로 계산하지 않았다.
 
 추가 정확 모델 검토: 캐논 TR160 with Battery는 조달 최고 389,000원, 배터리 포함 제조사 450,000원으로 싼 본체 단독 299,000원과 혼동하지 않았다. G5092는 조달 225,000~250,000원보다 신품 잉크 포함 소매 307,000원이 높아 제외했다.
+
+
+## 2026-10-16 접수 결과
+
+- IMP-MX-1646 → Inter-M MX-1646 동등 핵심사양 본체 비교:39,675,000원, accepted·lint pending. 영수증 `work/industrial/receipt-24868996.json`, submission62484f75-a06d-4ffa-a05b-34d874f8e5ed.
+- DPD-628 → DPD-6208N 순차전원기 본체 비교:79,950,000원, accepted·lint pending. 제주·신안5개 사실5대를 제외한213건325대. 영수증 `work/industrial/receipt-24677197.json`, submission498d3cc0-5d6b-45d7-91d2-659bbfeefbd7.
+
+접수 금액과 최종 심사·실제 예산 절감액을 구별한다. 전체 원시fact·계약/요구/라인은 기존 refs와 제출본문 파일에 남겨 중복 제출하지 않는다.

@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-16T03:18:49.784730+00:00",
+  "updated_at": "2026-10-16T04:07:12.903248+00:00",
   "target_krw": "60000000000",
-  "accepted_submission_count": 1,
-  "accepted_amount_krw": "2640750",
+  "accepted_submission_count": 13,
+  "accepted_amount_krw": "413271450",
   "review_approved_amount_krw": null,
   "realized_savings_krw": null,
   "submissions": [
@@ -51,6 +51,3542 @@
           "reason": "사용자 수정 지시에 따라 공개 HTTPS 페이지를 재열람하고 관측가격 구간을 다시 인용. If-Match:1로 수정 접수."
         }
       ]
+    },
+    {
+      "submission_id": "e4fa9fe2-587f-4db5-a2c7-d5b28cb24cb3",
+      "item_id": "25666134",
+      "title": "SFP-1G20LX-LC 국내 실판매가 33000원 비교",
+      "comparison_kind": "identical",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "1992000",
+      "lint_status": "pending",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+      "displayed_price_krw": "33000",
+      "benchmark_unit_price_krw": "36500",
+      "quantity": "48",
+      "comparable_amount_krw": "3744000",
+      "fact_count": 6,
+      "request_count": 6,
+      "claim": "동일 모델 SFP-1G20LX-LC의 일반 공개판매가33,000원과 구매 버튼을 직접 확인했다. 배송비를 매개3,500원씩 더한36,500원으로 본토6개 납품요구48대의 부품 취득가를 비교한다.",
+      "comparison_scope": "여의시스템 SFP-1G20LX-LC 신품 미개봉 판매 광모듈 1개. Single Mode, Duplex LC, 1310nm, 1.25Gbps, 20km. 판매처는 조달 SFP/유통 SFPC 매핑을 설명하지만 더 저렴한 SFPC 17000원은 사용하지 않았다. 공식 원산지 접두사 (CN)만 분리한 exact SFP 모델로 비교. 매 개 배송비3500원을 추가해 B36500원으로 계산하며 30만원 무료배송도 미차감. 제주·도서는 추가도선료가 명시되어 제주 R26TB01800426 line6 Q2는 권장 제출범위에서 제외. 공식 납품조건 현장설치도/선택부품/하자보수2년이므로 본 비교는 SFP 부품 취득가 범위이며 현장설치서비스 포함은 소매에서 확인하지 못했다. 별도 설치금액은 공식 근거에서 관측되지 않았다. 실제 지출절감이나 납품완료는 주장하지 않음. 소비자 공개표시가를 VAT포함으로 채택하되 별도 VAT포함 문장 관측을 주장하지 않는다. 직접 DOM에서 판매가33000·구매버튼 활성·최소1개를 확인했고 판매처 미개봉판매 원칙도 읽었다. 일괄50개 재고 확약은 주장하지 않는다.",
+      "references": [
+        {
+          "fact_id": "dl:25666134:002370098_1:R26TB01931715:5",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01931715",
+          "line_no": "5",
+          "quantity": "2",
+          "comparable_amount_krw": "156000"
+        },
+        {
+          "fact_id": "dl:25666134:002370098_1:R26TB02014183:3",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB02014183",
+          "line_no": "3",
+          "quantity": "8",
+          "comparable_amount_krw": "624000"
+        },
+        {
+          "fact_id": "dl:25666134:002370098_1:R26TB02131016:4",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB02131016",
+          "line_no": "4",
+          "quantity": "14",
+          "comparable_amount_krw": "1092000"
+        },
+        {
+          "fact_id": "dl:25666134:002370098_1:R26TB02159887:6",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB02159887",
+          "line_no": "6",
+          "quantity": "4",
+          "comparable_amount_krw": "312000"
+        },
+        {
+          "fact_id": "dl:25666134:002370098_1:R26TB02194815:2",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB02194815",
+          "line_no": "2",
+          "quantity": "16",
+          "comparable_amount_krw": "1248000"
+        },
+        {
+          "fact_id": "dl:25666134:002370098_1:R26TB02312148:7",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB02312148",
+          "line_no": "7",
+          "quantity": "4",
+          "comparable_amount_krw": "312000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/e4fa9fe2-587f-4db5-a2c7-d5b28cb24cb3",
+      "local_public_body": "research/submitted/25666134.json",
+      "admitted_at": "2026-10-16T03:49:58.761Z"
+    },
+    {
+      "submission_id": "62484f75-a06d-4ffa-a05b-34d874f8e5ed",
+      "item_id": "24868996",
+      "title": "IMP-MX-1646 믹서, 인터엠 MX-1646 동급 핵심사양 본체 945,000원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "39675000",
+      "lint_status": "pending",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/",
+      "displayed_price_krw": "945000",
+      "benchmark_unit_price_krw": "945000",
+      "quantity": "69",
+      "comparable_amount_krw": "104880000",
+      "fact_count": 63,
+      "request_count": 63,
+      "claim": "조달 아이엠피 IMP-MX-1646 단가1,520,000원을, 인터엠 MX-1646 공개판매가945,000원과 비교한다. 동일제조사·동일모델 주장이 아닌 대체품 본체 비교다. 양 제조사 공식 사양표의19개 항목을 대조했다. 입력 모노8+스테레오4, AUX4/GROUP4, 팬텀48V, EQ, 입출력 임피던스·레벨, 주파수응답·왜곡, 전원220V60Hz25W, 482×105×310mm 및5.78kg 등이 대응한다. 69대의 본체가격 기준 예상차액39,675,000원이며 설치비를 별도로 정산하지 않은 비교다.",
+      "comparison_scope": "동등 핵심사양 대체품 본체1대 비교: 조달 아이엠피 IMP-MX-1646 ↔ 시중 인터엠 MX-1646. 제조사·모델명·KC동일성은 주장하지 않는다. 일반지역 배송무료인945,000원을 B로 사용. 조달 현장설치도와 소매 본체 판매의 차이를 밝히며 랙고정·XLR/TRS 연결·레벨설정 설치비와 보증차이는 금액에 별도 반영하지 않았다. 납품·실제지출절감이 확정됐다는 주장이 아니다.",
+      "references": [
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB01721937:1",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01721937",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB01722639:2",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01722639",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB01737116:12",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01737116",
+          "line_no": "12",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB01737196:16",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01737196",
+          "line_no": "16",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB01744131:1",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01744131",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB01747499:5",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01747499",
+          "line_no": "5",
+          "quantity": "2",
+          "comparable_amount_krw": "3040000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB01758565:14",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01758565",
+          "line_no": "14",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB01760669:4",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01760669",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB01771079:5",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01771079",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB01772226:12",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01772226",
+          "line_no": "12",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB01788215:1",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01788215",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB01795713:5",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01795713",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB01797133:2",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01797133",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB01803216:1",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01803216",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB01812805:5",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01812805",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB01814435:4",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01814435",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB01852084:1",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01852084",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB01863325:6",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01863325",
+          "line_no": "6",
+          "quantity": "6",
+          "comparable_amount_krw": "9120000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB01889313:15",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01889313",
+          "line_no": "15",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB01918517:1",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01918517",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB01923089:2",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01923089",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB01997839:34",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01997839",
+          "line_no": "34",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02008802:17",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02008802",
+          "line_no": "17",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02021395:9",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02021395",
+          "line_no": "9",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02027224:5",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02027224",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02035902:21",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02035902",
+          "line_no": "21",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02047327:18",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02047327",
+          "line_no": "18",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02048417:21",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02048417",
+          "line_no": "21",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02060204:19",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02060204",
+          "line_no": "19",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02075312:17",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02075312",
+          "line_no": "17",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02077284:12",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02077284",
+          "line_no": "12",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02108838:15",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02108838",
+          "line_no": "15",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02112392:2",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02112392",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02115494:1",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02115494",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02124259:5",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02124259",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02130404:23",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02130404",
+          "line_no": "23",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02136431:24",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02136431",
+          "line_no": "24",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02148029:3",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02148029",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02151941:1",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02151941",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02157962:6",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02157962",
+          "line_no": "6",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02163482:15",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02163482",
+          "line_no": "15",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02172074:8",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02172074",
+          "line_no": "8",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02181109:1",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02181109",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02185768:16",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02185768",
+          "line_no": "16",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02185918:2",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02185918",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02217137:6",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02217137",
+          "line_no": "6",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02219749:19",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02219749",
+          "line_no": "19",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02230473:2",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02230473",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02233078:16",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02233078",
+          "line_no": "16",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02238090:14",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02238090",
+          "line_no": "14",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02248183:7",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02248183",
+          "line_no": "7",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02253392:9",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02253392",
+          "line_no": "9",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02280632:10",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02280632",
+          "line_no": "10",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02286734:4",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02286734",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02292848:1",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02292848",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02306603:18",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02306603",
+          "line_no": "18",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02315049:1",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02315049",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02319188:17",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02319188",
+          "line_no": "17",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02323855:11",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02323855",
+          "line_no": "11",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02335636:4",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02335636",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02340625:1",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02340625",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02342368:2",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02342368",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        },
+        {
+          "fact_id": "dl:24868996:R26TA01632895:R26TB02347969:6",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB02347969",
+          "line_no": "6",
+          "quantity": "1",
+          "comparable_amount_krw": "1520000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/62484f75-a06d-4ffa-a05b-34d874f8e5ed",
+      "local_public_body": "research/submitted/24868996.json",
+      "admitted_at": "2026-10-16T03:52:04.960Z"
+    },
+    {
+      "submission_id": "0e45102a-d381-4ad9-8e14-7f4de13dd543",
+      "item_id": "24833002",
+      "title": "QUANTUM-C9-3200 → Z322 WIFI I9-14900KF/RTX3060 대체품 3251000원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "12100000",
+      "lint_status": "pending",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://www.nexpc.co.kr/renewal/goods_main/detail.php?gid=3710151",
+      "displayed_price_krw": "3251000",
+      "benchmark_unit_price_krw": "3251000",
+      "quantity": "17",
+      "comparable_amount_krw": "67367000",
+      "fact_count": 12,
+      "request_count": 12,
+      "claim": "조달 QUANTUM-C9-3200과 실제 판매 Z322 WIFI I9-14900KF/RTX3060의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. CPU i9-13900→i9-14900KF는24코어32스레드·36MB이나 세대/클럭/전력특성이 다르다. 대체품은 내장GPU·Quick Sync가 없어 이를 요구하는 업무에는 부적합하다. 원품 SSD500GB+HDD1TB의2드라이브 구성과 달리 대체품은 NVMe SSD2TB1개이며 HDD가 없다. 총저장용량·일반CPU/외장GPU작업 기준 비교이고2드라이브 필수업무에는 부적합하다. Z790·DDR5 32GB·RTX3060 12GB·수냉은 대응한다. 전원750W→800W, 제조사·케이스·보증·환경인증·세부포트가 다르며 차이의 금전가치는 반영하지 않았다.",
+      "comparison_scope": "본체의 일반 CPU/RTX3060 작업·메모리·저장용량 기준 대체구매 가격 비교. 실제 모든 업무의 완전한 호환성이나 동일성은 주장하지 않는다. 정품Windows11Pro옵션242000원을 B에 포함했으나 조달측 별도OS대금은 C에 더하지 않았다. 설치·주변기기·보증 차이는 별도 정산하지 않았다. 전체28facts73대 중 가격조건을 충족하는12facts17대만 선택하며 나머지56대는 계산에서 제외한다. 원품 QUANTUM-C9-3200, 대체품 Z322 WIFI I9-14900KF/RTX3060. 차이·제한: CPU i9-13900→i9-14900KF는24코어32스레드·36MB이나 세대/클럭/전력특성이 다르다. 대체품은 내장GPU·Quick Sync가 없어 이를 요구하는 업무에는 부적합하다. 원품 SSD500GB+HDD1TB의2드라이브 구성과 달리 대체품은 NVMe SSD2TB1개이며 HDD가 없다. 총저장용량·일반CPU/외장GPU작업 기준 비교이고2드라이브 필수업무에는 부적합하다. Z790·DDR5 32GB·RTX3060 12GB·수냉은 대응한다. 전원750W→800W, 제조사·케이스·보증·환경인증·세부포트가 다르며 차이의 금전가치는 반영하지 않았다.",
+      "references": [
+        {
+          "fact_id": "dl:24833002:R25TA00027199:R26TB01766928:1",
+          "contract_no": "R25TA00027199",
+          "request_no": "R26TB01766928",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "7934000"
+        },
+        {
+          "fact_id": "dl:24833002:R25TA00027199:R26TB01772241:1",
+          "contract_no": "R25TA00027199",
+          "request_no": "R26TB01772241",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "7934000"
+        },
+        {
+          "fact_id": "dl:24833002:R25TA00027199:R26TB01778683:2",
+          "contract_no": "R25TA00027199",
+          "request_no": "R26TB01778683",
+          "line_no": "2",
+          "quantity": "2",
+          "comparable_amount_krw": "7934000"
+        },
+        {
+          "fact_id": "dl:24833002:R25TA00027199:R26TB01784361:1",
+          "contract_no": "R25TA00027199",
+          "request_no": "R26TB01784361",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "3967000"
+        },
+        {
+          "fact_id": "dl:24833002:R25TA00027199:R26TB01828639:2",
+          "contract_no": "R25TA00027199",
+          "request_no": "R26TB01828639",
+          "line_no": "2",
+          "quantity": "2",
+          "comparable_amount_krw": "7934000"
+        },
+        {
+          "fact_id": "dl:24833002:R25TA00027199:R26TB01886471:2",
+          "contract_no": "R25TA00027199",
+          "request_no": "R26TB01886471",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "3967000"
+        },
+        {
+          "fact_id": "dl:24833002:R25TA00027199:R26TB01954508:1",
+          "contract_no": "R25TA00027199",
+          "request_no": "R26TB01954508",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "3967000"
+        },
+        {
+          "fact_id": "dl:24833002:R25TA00027199:R26TB01967032:2",
+          "contract_no": "R25TA00027199",
+          "request_no": "R26TB01967032",
+          "line_no": "2",
+          "quantity": "2",
+          "comparable_amount_krw": "7934000"
+        },
+        {
+          "fact_id": "dl:24833002:R25TA00027199:R26TB01990367:1",
+          "contract_no": "R25TA00027199",
+          "request_no": "R26TB01990367",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "3949000"
+        },
+        {
+          "fact_id": "dl:24833002:R25TA00027199:R26TB02078369:2",
+          "contract_no": "R25TA00027199",
+          "request_no": "R26TB02078369",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "3949000"
+        },
+        {
+          "fact_id": "dl:24833002:R25TA00027199:R26TB02111142:1",
+          "contract_no": "R25TA00027199",
+          "request_no": "R26TB02111142",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "3949000"
+        },
+        {
+          "fact_id": "dl:24833002:R25TA00027199:R26TB02209703:1",
+          "contract_no": "R25TA00027199",
+          "request_no": "R26TB02209703",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "3949000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/0e45102a-d381-4ad9-8e14-7f4de13dd543",
+      "local_public_body": "research/submitted/24833002.json",
+      "admitted_at": "2026-10-16T03:55:52.606Z"
+    },
+    {
+      "submission_id": "498d3cc0-5d6b-45d7-91d2-659bbfeefbd7",
+      "item_id": "24677197",
+      "title": "DPD-628 → DPD-6208N 대체품 600000원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "79950000",
+      "lint_status": "pending",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://sound4u.kr/product/디라직-dpd-6208n-순차전원기-전원공급기-전원분배기/2204/category/150/display/1/",
+      "displayed_price_krw": "600000",
+      "benchmark_unit_price_krw": "600000",
+      "quantity": "325",
+      "comparable_amount_krw": "274950000",
+      "fact_count": 213,
+      "request_count": 212,
+      "claim": "조달 DPD-628과 실제 판매 DPD-6208N의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 원품 DPD-628과 실제 판매 DPD-6208N은 모델이 다르다. 8채널 순차AC출력/채널당2200W/DC24V1.5A/지연0·1·2초/482×88×280mm/5kg이 대응한다. 원품 LOCK은 전원스위치LOCK, 대체품은 선택채널상시전원LOCK으로 세부로직 완전동일성을 확인하지 못했다. 대체품 총동시허용9900W이며 원품 총동시허용은 미확인이다. AC입력단자배선·랙고정·출력연결·순차설정 및 보증의 비용차이는 별도 반영하지 않았다.",
+      "comparison_scope": "8채널 순차전원공급기 본체의 핵심사양 대체구매 가격 비교. 동일모델이나 모든설정 완전호환을 주장하지 않는다. 조달 현장설치도와 소매 본체 가격 차이를 밝힌다. 설치비를 별도 정산하지 않은 본체 기준 예상차액. 전체218facts330대 중 제주·신안기관5facts5대는 추가배송료 미확정으로 제외하고 본토213facts325대만 비교한다. 일반배송은5만원이상무료 조건을 충족한다. 원품 DPD-628, 대체품 DPD-6208N. 차이·제한: 원품 DPD-628과 실제 판매 DPD-6208N은 모델이 다르다. 8채널 순차AC출력/채널당2200W/DC24V1.5A/지연0·1·2초/482×88×280mm/5kg이 대응한다. 원품 LOCK은 전원스위치LOCK, 대체품은 선택채널상시전원LOCK으로 세부로직 완전동일성을 확인하지 못했다. 대체품 총동시허용9900W이며 원품 총동시허용은 미확인이다. AC입력단자배선·랙고정·출력연결·순차설정 및 보증의 비용차이는 별도 반영하지 않았다.",
+      "references": [
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01277540:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01277540",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01277542:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01277542",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01278963:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01278963",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01282439:9",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01282439",
+          "line_no": "9",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01284709:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01284709",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01291201:19",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01291201",
+          "line_no": "19",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01297345:7",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01297345",
+          "line_no": "7",
+          "quantity": "6",
+          "comparable_amount_krw": "5076000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01299704:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01299704",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01310149:13",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01310149",
+          "line_no": "13",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01311003:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01311003",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01316271:5",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01316271",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01318515:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01318515",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01318844:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01318844",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01319663:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01319663",
+          "line_no": "3",
+          "quantity": "12",
+          "comparable_amount_krw": "10152000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01324444:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01324444",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01324823:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01324823",
+          "line_no": "3",
+          "quantity": "2",
+          "comparable_amount_krw": "1692000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01324824:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01324824",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01324825:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01324825",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01324912:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01324912",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01326681:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01326681",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01328691:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01328691",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01340594:5",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01340594",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01380976:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01380976",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01382589:10",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01382589",
+          "line_no": "10",
+          "quantity": "3",
+          "comparable_amount_krw": "2538000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01384817:13",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01384817",
+          "line_no": "13",
+          "quantity": "3",
+          "comparable_amount_krw": "2538000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01388105:5",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01388105",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01388514:11",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01388514",
+          "line_no": "11",
+          "quantity": "2",
+          "comparable_amount_krw": "1692000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01390209:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01390209",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "1692000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01390539:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01390539",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R25TB01392288:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01392288",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01400231:5",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01400231",
+          "line_no": "5",
+          "quantity": "2",
+          "comparable_amount_krw": "1692000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01401037:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01401037",
+          "line_no": "1",
+          "quantity": "5",
+          "comparable_amount_krw": "4230000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01403918:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01403918",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01405711:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01405711",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01408192:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01408192",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01408583:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01408583",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01418888:6",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01418888",
+          "line_no": "6",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01418903:6",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01418903",
+          "line_no": "6",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01419684:17",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01419684",
+          "line_no": "17",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01420214:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01420214",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01421637:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01421637",
+          "line_no": "2",
+          "quantity": "10",
+          "comparable_amount_krw": "8460000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01422340:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01422340",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01436280:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01436280",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01438122:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01438122",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01447022:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01447022",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01455219:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01455219",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01457513:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01457513",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01462995:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01462995",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01466848:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01466848",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01487023:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01487023",
+          "line_no": "4",
+          "quantity": "5",
+          "comparable_amount_krw": "4230000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01487107:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01487107",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01489260:14",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01489260",
+          "line_no": "14",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01489266:14",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01489266",
+          "line_no": "14",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01489509:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01489509",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01496955:8",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01496955",
+          "line_no": "8",
+          "quantity": "3",
+          "comparable_amount_krw": "2538000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01521904:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01521904",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01530225:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01530225",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01535750:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01535750",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01544826:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01544826",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01565650:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01565650",
+          "line_no": "4",
+          "quantity": "2",
+          "comparable_amount_krw": "1692000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01566718:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01566718",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01570697:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01570697",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01574705:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01574705",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01575762:5",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01575762",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01595104:7",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01595104",
+          "line_no": "7",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01612467:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01612467",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01628548:5",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01628548",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01636002:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01636002",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01638484:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01638484",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01638739:6",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01638739",
+          "line_no": "6",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01646073:6",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01646073",
+          "line_no": "6",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01649974:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01649974",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01666366:5",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01666366",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01669920:6",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01669920",
+          "line_no": "6",
+          "quantity": "2",
+          "comparable_amount_krw": "1692000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01678875:12",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01678875",
+          "line_no": "12",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01678875:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01678875",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01689216:7",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01689216",
+          "line_no": "7",
+          "quantity": "5",
+          "comparable_amount_krw": "4230000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01691583:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01691583",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01698795:17",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01698795",
+          "line_no": "17",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01717552:6",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01717552",
+          "line_no": "6",
+          "quantity": "3",
+          "comparable_amount_krw": "2538000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01721424:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01721424",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01722426:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01722426",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01733705:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01733705",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01742490:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01742490",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01750727:13",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01750727",
+          "line_no": "13",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01761814:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01761814",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01765118:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01765118",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01766791:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01766791",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01771322:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01771322",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01775226:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01775226",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01791079:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01791079",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01799093:19",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01799093",
+          "line_no": "19",
+          "quantity": "4",
+          "comparable_amount_krw": "3384000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01824421:5",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01824421",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01827886:5",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01827886",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01832538:6",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01832538",
+          "line_no": "6",
+          "quantity": "4",
+          "comparable_amount_krw": "3384000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01837141:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01837141",
+          "line_no": "4",
+          "quantity": "2",
+          "comparable_amount_krw": "1692000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01841476:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01841476",
+          "line_no": "4",
+          "quantity": "4",
+          "comparable_amount_krw": "3384000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01842340:6",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01842340",
+          "line_no": "6",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01843364:5",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01843364",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01856571:13",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01856571",
+          "line_no": "13",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01862513:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01862513",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01864304:5",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01864304",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01868791:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01868791",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01870924:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01870924",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01872935:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01872935",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01875603:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01875603",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "1692000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01888547:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01888547",
+          "line_no": "4",
+          "quantity": "5",
+          "comparable_amount_krw": "4230000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01894983:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01894983",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01901048:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01901048",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01902474:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01902474",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01903313:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01903313",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01912039:5",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01912039",
+          "line_no": "5",
+          "quantity": "7",
+          "comparable_amount_krw": "5922000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01917573:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01917573",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01920409:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01920409",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01931285:7",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01931285",
+          "line_no": "7",
+          "quantity": "2",
+          "comparable_amount_krw": "1692000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01932303:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01932303",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01939083:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01939083",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01950772:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01950772",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01952611:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01952611",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01959241:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01959241",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01967866:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01967866",
+          "line_no": "2",
+          "quantity": "2",
+          "comparable_amount_krw": "1692000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01975474:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01975474",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01980515:6",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01980515",
+          "line_no": "6",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01982580:7",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01982580",
+          "line_no": "7",
+          "quantity": "3",
+          "comparable_amount_krw": "2538000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01983831:6",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01983831",
+          "line_no": "6",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB01987253:5",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB01987253",
+          "line_no": "5",
+          "quantity": "5",
+          "comparable_amount_krw": "4230000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02003909:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02003909",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02005841:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02005841",
+          "line_no": "4",
+          "quantity": "2",
+          "comparable_amount_krw": "1692000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02009421:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02009421",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02012264:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02012264",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02033732:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02033732",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02035050:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02035050",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02035203:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02035203",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02035981:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02035981",
+          "line_no": "4",
+          "quantity": "3",
+          "comparable_amount_krw": "2538000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02041231:6",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02041231",
+          "line_no": "6",
+          "quantity": "2",
+          "comparable_amount_krw": "1692000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02045265:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02045265",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02045557:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02045557",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02045563:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02045563",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02049125:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02049125",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02052368:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02052368",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02057236:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02057236",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02057247:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02057247",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02061738:5",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02061738",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02079702:8",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02079702",
+          "line_no": "8",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02083107:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02083107",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02083295:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02083295",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02083803:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02083803",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02095249:7",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02095249",
+          "line_no": "7",
+          "quantity": "4",
+          "comparable_amount_krw": "3384000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02096309:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02096309",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02099378:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02099378",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02102128:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02102128",
+          "line_no": "2",
+          "quantity": "4",
+          "comparable_amount_krw": "3384000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02102134:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02102134",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02104054:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02104054",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02113030:7",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02113030",
+          "line_no": "7",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02123383:8",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02123383",
+          "line_no": "8",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02126472:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02126472",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02132026:5",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02132026",
+          "line_no": "5",
+          "quantity": "2",
+          "comparable_amount_krw": "1692000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02134391:10",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02134391",
+          "line_no": "10",
+          "quantity": "2",
+          "comparable_amount_krw": "1692000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02138850:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02138850",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02145991:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02145991",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02146022:5",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02146022",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02153739:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02153739",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02161672:10",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02161672",
+          "line_no": "10",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02161734:6",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02161734",
+          "line_no": "6",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02166196:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02166196",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02170155:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02170155",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02170508:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02170508",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02177205:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02177205",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02191097:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02191097",
+          "line_no": "2",
+          "quantity": "2",
+          "comparable_amount_krw": "1692000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02192709:5",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02192709",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02192747:13",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02192747",
+          "line_no": "13",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02197103:5",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02197103",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02204194:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02204194",
+          "line_no": "4",
+          "quantity": "4",
+          "comparable_amount_krw": "3384000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02214831:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02214831",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02222410:6",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02222410",
+          "line_no": "6",
+          "quantity": "5",
+          "comparable_amount_krw": "4230000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02223564:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02223564",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02230324:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02230324",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02236078:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02236078",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02238903:7",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02238903",
+          "line_no": "7",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02240038:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02240038",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02242163:8",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02242163",
+          "line_no": "8",
+          "quantity": "2",
+          "comparable_amount_krw": "1692000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02245969:5",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02245969",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02250925:10",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02250925",
+          "line_no": "10",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02251823:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02251823",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02257354:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02257354",
+          "line_no": "4",
+          "quantity": "6",
+          "comparable_amount_krw": "5076000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02260660:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02260660",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02260682:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02260682",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02262377:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02262377",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02267399:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02267399",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02268616:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02268616",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02272928:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02272928",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02273559:7",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02273559",
+          "line_no": "7",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02273690:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02273690",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02273756:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02273756",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02275001:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02275001",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02278378:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02278378",
+          "line_no": "4",
+          "quantity": "4",
+          "comparable_amount_krw": "3384000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02279563:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02279563",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02282444:12",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02282444",
+          "line_no": "12",
+          "quantity": "3",
+          "comparable_amount_krw": "2538000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02284863:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02284863",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02285392:7",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02285392",
+          "line_no": "7",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02290046:2",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02290046",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02293710:3",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02293710",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02294405:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02294405",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02304657:14",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02304657",
+          "line_no": "14",
+          "quantity": "2",
+          "comparable_amount_krw": "1692000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02304679:15",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02304679",
+          "line_no": "15",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02307552:5",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02307552",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02316313:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02316313",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02319903:4",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02319903",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02322851:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02322851",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02323108:5",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02323108",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02328104:7",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02328104",
+          "line_no": "7",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02328246:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02328246",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        },
+        {
+          "fact_id": "dl:24677197:R25TA01116300:R26TB02328734:1",
+          "contract_no": "R25TA01116300",
+          "request_no": "R26TB02328734",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "846000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/498d3cc0-5d6b-45d7-91d2-659bbfeefbd7",
+      "local_public_body": "research/submitted/24677197.json",
+      "admitted_at": "2026-10-16T03:57:34.347Z"
+    },
+    {
+      "submission_id": "89ed88ca-dab0-485f-bd68-10ef85605971",
+      "item_id": "24361786",
+      "title": "SFP-I-LX → SFP-1G20LX-LC 대체품 33000원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "6500000",
+      "lint_status": "pending",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+      "displayed_price_krw": "33000",
+      "benchmark_unit_price_krw": "36500",
+      "quantity": "200",
+      "comparable_amount_krw": "13800000",
+      "fact_count": 21,
+      "request_count": 21,
+      "claim": "조달 SFP-I-LX과 실제 판매 SFP-1G20LX-LC의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 제조사·모델다름. 대체품DDM미확인, 조달품Duplex명시/온도/전기조건미확인, 소매가의 설치서비스포함미확인. 실제장비호환미검증.",
+      "comparison_scope": "동일 제조사·동일모델 비교가 아닌 핵심광전송사양 대응 대체품 비교다. 조달 누리아이엔지 SFP-I-LX 대신 여의시스템 SFP-1G20LX-LC 신품 미개봉1개를 제시한다. 판매처 직접원문에서 양쪽 모두1.25Gbps/Single Mode/1310nm/20km/LC를 확인했다. 여의는Duplex LC명시이나 누리원문은LC로만 표기한다. 누리DDM지원 대비 여의DDM은 미확인이며, 양쪽동작온도·전기소비의 동일성 및 실제 CCTV/스위치별EEPROM/펌웨어 호환·벤더승인·장착시험은 검증하지 못했다. 따라서 모든 기존장비에서 즉시동작하는 동일품이라고 주장하지 않고, 이 광전송 핵심사양범위의 대체조달가격으로만 제안한다. 표시가33000원+매개배송3500원으로B36500원, 무료배송/쿠폰/적립미반영. VAT는판매처의일반소비자공개가격과별도VAT추가문구없음·과세HTML설정에근거한부모판단이고 VAT포함명시문장을확인했다고하지않는다. 제주2건Q14는도선료미확정으로제외한본토21건Q200/C13800000만비교한다. 공식현장설치도·하자보수2년이며, 소매가에실제현장장착·설정서비스포함은확인하지못해모듈취득가범위로구분한다. 실제예산지급변화는확인되지않았다. 원품 SFP-I-LX, 대체품 SFP-1G20LX-LC. 차이·제한: 제조사·모델다름. 대체품DDM미확인, 조달품Duplex명시/온도/전기조건미확인, 소매가의 설치서비스포함미확인. 실제장비호환미검증.",
+      "references": [
+        {
+          "fact_id": "dl:24361786:002270042_1:R25TB00968206:11",
+          "contract_no": "002270042_1",
+          "request_no": "R25TB00968206",
+          "line_no": "11",
+          "quantity": "14",
+          "comparable_amount_krw": "966000"
+        },
+        {
+          "fact_id": "dl:24361786:002270042_1:R25TB01296541:11",
+          "contract_no": "002270042_1",
+          "request_no": "R25TB01296541",
+          "line_no": "11",
+          "quantity": "2",
+          "comparable_amount_krw": "138000"
+        },
+        {
+          "fact_id": "dl:24361786:002270042_1:R26TB02005583:9",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB02005583",
+          "line_no": "9",
+          "quantity": "54",
+          "comparable_amount_krw": "3726000"
+        },
+        {
+          "fact_id": "dl:24361786:002270042_1:R26TB02034486:5",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB02034486",
+          "line_no": "5",
+          "quantity": "2",
+          "comparable_amount_krw": "138000"
+        },
+        {
+          "fact_id": "dl:24361786:002270042_1:R26TB02195677:7",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB02195677",
+          "line_no": "7",
+          "quantity": "2",
+          "comparable_amount_krw": "138000"
+        },
+        {
+          "fact_id": "dl:24361786:002270042_1:R26TB02242996:3",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB02242996",
+          "line_no": "3",
+          "quantity": "2",
+          "comparable_amount_krw": "138000"
+        },
+        {
+          "fact_id": "dl:24361786:002270042_1:R26TB02298555:6",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB02298555",
+          "line_no": "6",
+          "quantity": "16",
+          "comparable_amount_krw": "1104000"
+        },
+        {
+          "fact_id": "dl:24361786:002270042_1:R26TB02348215:6",
+          "contract_no": "002270042_1",
+          "request_no": "R26TB02348215",
+          "line_no": "6",
+          "quantity": "16",
+          "comparable_amount_krw": "1104000"
+        },
+        {
+          "fact_id": "dl:24361786:002270059_1:R26TB02204773:2",
+          "contract_no": "002270059_1",
+          "request_no": "R26TB02204773",
+          "line_no": "2",
+          "quantity": "2",
+          "comparable_amount_krw": "138000"
+        },
+        {
+          "fact_id": "dl:24361786:002270059_1:R26TB02253656:9",
+          "contract_no": "002270059_1",
+          "request_no": "R26TB02253656",
+          "line_no": "9",
+          "quantity": "14",
+          "comparable_amount_krw": "966000"
+        },
+        {
+          "fact_id": "dl:24361786:002270059_1:R26TB02263848:7",
+          "contract_no": "002270059_1",
+          "request_no": "R26TB02263848",
+          "line_no": "7",
+          "quantity": "2",
+          "comparable_amount_krw": "138000"
+        },
+        {
+          "fact_id": "dl:24361786:002470226_1:R26TB01910804:13",
+          "contract_no": "002470226_1",
+          "request_no": "R26TB01910804",
+          "line_no": "13",
+          "quantity": "4",
+          "comparable_amount_krw": "276000"
+        },
+        {
+          "fact_id": "dl:24361786:R25TA00622517:R26TB01996917:2",
+          "contract_no": "R25TA00622517",
+          "request_no": "R26TB01996917",
+          "line_no": "2",
+          "quantity": "6",
+          "comparable_amount_krw": "414000"
+        },
+        {
+          "fact_id": "dl:24361786:R25TA00906342:R25TB01133756:7",
+          "contract_no": "R25TA00906342",
+          "request_no": "R25TB01133756",
+          "line_no": "7",
+          "quantity": "18",
+          "comparable_amount_krw": "1242000"
+        },
+        {
+          "fact_id": "dl:24361786:R25TA00906342:R25TB01186958:19",
+          "contract_no": "R25TA00906342",
+          "request_no": "R25TB01186958",
+          "line_no": "19",
+          "quantity": "4",
+          "comparable_amount_krw": "276000"
+        },
+        {
+          "fact_id": "dl:24361786:R25TA00906342:R25TB01270036:10",
+          "contract_no": "R25TA00906342",
+          "request_no": "R25TB01270036",
+          "line_no": "10",
+          "quantity": "4",
+          "comparable_amount_krw": "276000"
+        },
+        {
+          "fact_id": "dl:24361786:R25TA00906342:R25TB01270115:7",
+          "contract_no": "R25TA00906342",
+          "request_no": "R25TB01270115",
+          "line_no": "7",
+          "quantity": "4",
+          "comparable_amount_krw": "276000"
+        },
+        {
+          "fact_id": "dl:24361786:R25TA00906342:R25TB01290290:10",
+          "contract_no": "R25TA00906342",
+          "request_no": "R25TB01290290",
+          "line_no": "10",
+          "quantity": "12",
+          "comparable_amount_krw": "828000"
+        },
+        {
+          "fact_id": "dl:24361786:R25TA00906342:R26TB01761061:6",
+          "contract_no": "R25TA00906342",
+          "request_no": "R26TB01761061",
+          "line_no": "6",
+          "quantity": "2",
+          "comparable_amount_krw": "138000"
+        },
+        {
+          "fact_id": "dl:24361786:R25TA00906342:R26TB01982663:5",
+          "contract_no": "R25TA00906342",
+          "request_no": "R26TB01982663",
+          "line_no": "5",
+          "quantity": "12",
+          "comparable_amount_krw": "828000"
+        },
+        {
+          "fact_id": "dl:24361786:R25TA00906342:R26TB02144491:8",
+          "contract_no": "R25TA00906342",
+          "request_no": "R26TB02144491",
+          "line_no": "8",
+          "quantity": "8",
+          "comparable_amount_krw": "552000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/89ed88ca-dab0-485f-bd68-10ef85605971",
+      "local_public_body": "research/submitted/24361786.json",
+      "admitted_at": "2026-10-16T03:58:06.981Z"
+    },
+    {
+      "submission_id": "3ee841dc-e6ce-4128-98fe-07f8bf0fcc65",
+      "item_id": "23641018",
+      "title": "NSH-2108LP 국내 실판매가 347200원 비교",
+      "comparison_kind": "identical",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "63123200",
+      "lint_status": "pending",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000000494",
+      "displayed_price_krw": "347200",
+      "benchmark_unit_price_krw": "347200",
+      "quantity": "499",
+      "comparable_amount_krw": "236376000",
+      "fact_count": 67,
+      "request_count": 67,
+      "claim": "실제 판매 상세의 동일 모델·구성과 일반 구매 가격을 확인했다.",
+      "comparison_scope": "동일 전체 모델 NST NSH-2108LP 신품 완제품 네트워크스위치1대 비교.8GbE PoE포트/802.3af·at/총150W/관리형/Long Range PoE 기능의 같은 모델이다. 실제표시347200원·배송0원을B로 쓴다. 판매처의30만원이상무료배송에 해당하며 Jev관측에서도 배송0원이 표시됐다. 조달은 현장설치도이고 소매는 본체 판매이므로 현장장착·설정서비스와 보증차이는 별도로 정산하지 않은 제품 취득가 비교다. 설치까지 포함한 실제지출절감 확정이라고 주장하지 않는다. 소비자 공개표시가를 VAT포함 기준으로 채택하되 별도 VAT포함 문장이 있다고 주장하지 않는다. 제주기관fact는없으며 도서지역추가료가실제로발생하는개별주소까지확정한주장은하지않는다.",
+      "references": [
+        {
+          "fact_id": "dl:23641018:002270051_1:R25TB01008053:8",
+          "contract_no": "002270051_1",
+          "request_no": "R25TB01008053",
+          "line_no": "8",
+          "quantity": "13",
+          "comparable_amount_krw": "6006000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R25TB01008956:7",
+          "contract_no": "002270051_1",
+          "request_no": "R25TB01008956",
+          "line_no": "7",
+          "quantity": "21",
+          "comparable_amount_krw": "9702000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R25TB01118836:4",
+          "contract_no": "002270051_1",
+          "request_no": "R25TB01118836",
+          "line_no": "4",
+          "quantity": "3",
+          "comparable_amount_krw": "1386000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R25TB01123172:1",
+          "contract_no": "002270051_1",
+          "request_no": "R25TB01123172",
+          "line_no": "1",
+          "quantity": "7",
+          "comparable_amount_krw": "3234000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R25TB01125680:5",
+          "contract_no": "002270051_1",
+          "request_no": "R25TB01125680",
+          "line_no": "5",
+          "quantity": "18",
+          "comparable_amount_krw": "8316000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R25TB01161642:4",
+          "contract_no": "002270051_1",
+          "request_no": "R25TB01161642",
+          "line_no": "4",
+          "quantity": "2",
+          "comparable_amount_krw": "924000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R25TB01163372:2",
+          "contract_no": "002270051_1",
+          "request_no": "R25TB01163372",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "462000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R25TB01166474:3",
+          "contract_no": "002270051_1",
+          "request_no": "R25TB01166474",
+          "line_no": "3",
+          "quantity": "7",
+          "comparable_amount_krw": "3234000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R25TB01227887:1",
+          "contract_no": "002270051_1",
+          "request_no": "R25TB01227887",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "462000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R25TB01242037:3",
+          "contract_no": "002270051_1",
+          "request_no": "R25TB01242037",
+          "line_no": "3",
+          "quantity": "7",
+          "comparable_amount_krw": "3234000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R25TB01272397:4",
+          "contract_no": "002270051_1",
+          "request_no": "R25TB01272397",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "462000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R25TB01379540:2",
+          "contract_no": "002270051_1",
+          "request_no": "R25TB01379540",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "462000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R26TB01476972:11",
+          "contract_no": "002270051_1",
+          "request_no": "R26TB01476972",
+          "line_no": "11",
+          "quantity": "29",
+          "comparable_amount_krw": "13398000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R26TB01675471:3",
+          "contract_no": "002270051_1",
+          "request_no": "R26TB01675471",
+          "line_no": "3",
+          "quantity": "4",
+          "comparable_amount_krw": "1848000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R26TB01812959:3",
+          "contract_no": "002270051_1",
+          "request_no": "R26TB01812959",
+          "line_no": "3",
+          "quantity": "4",
+          "comparable_amount_krw": "1848000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R26TB01881136:2",
+          "contract_no": "002270051_1",
+          "request_no": "R26TB01881136",
+          "line_no": "2",
+          "quantity": "3",
+          "comparable_amount_krw": "1386000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R26TB01881273:2",
+          "contract_no": "002270051_1",
+          "request_no": "R26TB01881273",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "462000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R26TB01903938:2",
+          "contract_no": "002270051_1",
+          "request_no": "R26TB01903938",
+          "line_no": "2",
+          "quantity": "5",
+          "comparable_amount_krw": "2310000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R26TB01908648:3",
+          "contract_no": "002270051_1",
+          "request_no": "R26TB01908648",
+          "line_no": "3",
+          "quantity": "28",
+          "comparable_amount_krw": "12936000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R26TB02009827:3",
+          "contract_no": "002270051_1",
+          "request_no": "R26TB02009827",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "462000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R26TB02023795:4",
+          "contract_no": "002270051_1",
+          "request_no": "R26TB02023795",
+          "line_no": "4",
+          "quantity": "7",
+          "comparable_amount_krw": "3234000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R26TB02076353:5",
+          "contract_no": "002270051_1",
+          "request_no": "R26TB02076353",
+          "line_no": "5",
+          "quantity": "6",
+          "comparable_amount_krw": "2772000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R26TB02147880:2",
+          "contract_no": "002270051_1",
+          "request_no": "R26TB02147880",
+          "line_no": "2",
+          "quantity": "6",
+          "comparable_amount_krw": "2772000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R26TB02150761:4",
+          "contract_no": "002270051_1",
+          "request_no": "R26TB02150761",
+          "line_no": "4",
+          "quantity": "2",
+          "comparable_amount_krw": "924000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R26TB02178200:7",
+          "contract_no": "002270051_1",
+          "request_no": "R26TB02178200",
+          "line_no": "7",
+          "quantity": "1",
+          "comparable_amount_krw": "462000"
+        },
+        {
+          "fact_id": "dl:23641018:002270051_1:R26TB02233116:5",
+          "contract_no": "002270051_1",
+          "request_no": "R26TB02233116",
+          "line_no": "5",
+          "quantity": "2",
+          "comparable_amount_krw": "924000"
+        },
+        {
+          "fact_id": "dl:23641018:002270075_1:R25TB01123435:2",
+          "contract_no": "002270075_1",
+          "request_no": "R25TB01123435",
+          "line_no": "2",
+          "quantity": "2",
+          "comparable_amount_krw": "1008000"
+        },
+        {
+          "fact_id": "dl:23641018:002270075_1:R25TB01158060:3",
+          "contract_no": "002270075_1",
+          "request_no": "R25TB01158060",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "504000"
+        },
+        {
+          "fact_id": "dl:23641018:002270075_1:R25TB01185669:5",
+          "contract_no": "002270075_1",
+          "request_no": "R25TB01185669",
+          "line_no": "5",
+          "quantity": "55",
+          "comparable_amount_krw": "27720000"
+        },
+        {
+          "fact_id": "dl:23641018:002270075_1:R25TB01194576:1",
+          "contract_no": "002270075_1",
+          "request_no": "R25TB01194576",
+          "line_no": "1",
+          "quantity": "5",
+          "comparable_amount_krw": "2520000"
+        },
+        {
+          "fact_id": "dl:23641018:002270075_1:R26TB01438478:2",
+          "contract_no": "002270075_1",
+          "request_no": "R26TB01438478",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "504000"
+        },
+        {
+          "fact_id": "dl:23641018:002270075_1:R26TB01484617:3",
+          "contract_no": "002270075_1",
+          "request_no": "R26TB01484617",
+          "line_no": "3",
+          "quantity": "4",
+          "comparable_amount_krw": "2016000"
+        },
+        {
+          "fact_id": "dl:23641018:002270075_1:R26TB01507270:2",
+          "contract_no": "002270075_1",
+          "request_no": "R26TB01507270",
+          "line_no": "2",
+          "quantity": "9",
+          "comparable_amount_krw": "4536000"
+        },
+        {
+          "fact_id": "dl:23641018:002270075_1:R26TB01713394:2",
+          "contract_no": "002270075_1",
+          "request_no": "R26TB01713394",
+          "line_no": "2",
+          "quantity": "15",
+          "comparable_amount_krw": "7560000"
+        },
+        {
+          "fact_id": "dl:23641018:002270075_1:R26TB01809549:2",
+          "contract_no": "002270075_1",
+          "request_no": "R26TB01809549",
+          "line_no": "2",
+          "quantity": "7",
+          "comparable_amount_krw": "3528000"
+        },
+        {
+          "fact_id": "dl:23641018:002270075_1:R26TB01811263:2",
+          "contract_no": "002270075_1",
+          "request_no": "R26TB01811263",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "504000"
+        },
+        {
+          "fact_id": "dl:23641018:002270075_1:R26TB01930415:2",
+          "contract_no": "002270075_1",
+          "request_no": "R26TB01930415",
+          "line_no": "2",
+          "quantity": "2",
+          "comparable_amount_krw": "1008000"
+        },
+        {
+          "fact_id": "dl:23641018:002270075_1:R26TB01983854:1",
+          "contract_no": "002270075_1",
+          "request_no": "R26TB01983854",
+          "line_no": "1",
+          "quantity": "8",
+          "comparable_amount_krw": "4032000"
+        },
+        {
+          "fact_id": "dl:23641018:002270075_1:R26TB02073913:2",
+          "contract_no": "002270075_1",
+          "request_no": "R26TB02073913",
+          "line_no": "2",
+          "quantity": "17",
+          "comparable_amount_krw": "8568000"
+        },
+        {
+          "fact_id": "dl:23641018:002270075_1:R26TB02184872:1",
+          "contract_no": "002270075_1",
+          "request_no": "R26TB02184872",
+          "line_no": "1",
+          "quantity": "12",
+          "comparable_amount_krw": "6048000"
+        },
+        {
+          "fact_id": "dl:23641018:002270134_1:R26TB01787504:3",
+          "contract_no": "002270134_1",
+          "request_no": "R26TB01787504",
+          "line_no": "3",
+          "quantity": "14",
+          "comparable_amount_krw": "6468000"
+        },
+        {
+          "fact_id": "dl:23641018:002270463_1:R25TB01125394:3",
+          "contract_no": "002270463_1",
+          "request_no": "R25TB01125394",
+          "line_no": "3",
+          "quantity": "5",
+          "comparable_amount_krw": "2310000"
+        },
+        {
+          "fact_id": "dl:23641018:002270463_1:R25TB01191074:2",
+          "contract_no": "002270463_1",
+          "request_no": "R25TB01191074",
+          "line_no": "2",
+          "quantity": "2",
+          "comparable_amount_krw": "924000"
+        },
+        {
+          "fact_id": "dl:23641018:002270463_1:R26TB01397330:2",
+          "contract_no": "002270463_1",
+          "request_no": "R26TB01397330",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "462000"
+        },
+        {
+          "fact_id": "dl:23641018:002270463_1:R26TB01650028:6",
+          "contract_no": "002270463_1",
+          "request_no": "R26TB01650028",
+          "line_no": "6",
+          "quantity": "14",
+          "comparable_amount_krw": "6468000"
+        },
+        {
+          "fact_id": "dl:23641018:002270463_1:R26TB01682850:5",
+          "contract_no": "002270463_1",
+          "request_no": "R26TB01682850",
+          "line_no": "5",
+          "quantity": "7",
+          "comparable_amount_krw": "3234000"
+        },
+        {
+          "fact_id": "dl:23641018:002270463_1:R26TB01726856:2",
+          "contract_no": "002270463_1",
+          "request_no": "R26TB01726856",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "462000"
+        },
+        {
+          "fact_id": "dl:23641018:002270463_1:R26TB01808956:9",
+          "contract_no": "002270463_1",
+          "request_no": "R26TB01808956",
+          "line_no": "9",
+          "quantity": "46",
+          "comparable_amount_krw": "21252000"
+        },
+        {
+          "fact_id": "dl:23641018:002270463_1:R26TB02087526:3",
+          "contract_no": "002270463_1",
+          "request_no": "R26TB02087526",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "462000"
+        },
+        {
+          "fact_id": "dl:23641018:002270463_1:R26TB02096219:2",
+          "contract_no": "002270463_1",
+          "request_no": "R26TB02096219",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "462000"
+        },
+        {
+          "fact_id": "dl:23641018:002370211_1:R26TB02037787:7",
+          "contract_no": "002370211_1",
+          "request_no": "R26TB02037787",
+          "line_no": "7",
+          "quantity": "2",
+          "comparable_amount_krw": "924000"
+        },
+        {
+          "fact_id": "dl:23641018:002370211_1:R26TB02038864:6",
+          "contract_no": "002370211_1",
+          "request_no": "R26TB02038864",
+          "line_no": "6",
+          "quantity": "1",
+          "comparable_amount_krw": "462000"
+        },
+        {
+          "fact_id": "dl:23641018:002370211_1:R26TB02192033:2",
+          "contract_no": "002370211_1",
+          "request_no": "R26TB02192033",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "462000"
+        },
+        {
+          "fact_id": "dl:23641018:002370213_1:R25TB01147507:2",
+          "contract_no": "002370213_1",
+          "request_no": "R25TB01147507",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "462000"
+        },
+        {
+          "fact_id": "dl:23641018:002370213_1:R26TB01599541:3",
+          "contract_no": "002370213_1",
+          "request_no": "R26TB01599541",
+          "line_no": "3",
+          "quantity": "13",
+          "comparable_amount_krw": "6006000"
+        },
+        {
+          "fact_id": "dl:23641018:002370213_1:R26TB01610061:3",
+          "contract_no": "002370213_1",
+          "request_no": "R26TB01610061",
+          "line_no": "3",
+          "quantity": "3",
+          "comparable_amount_krw": "1386000"
+        },
+        {
+          "fact_id": "dl:23641018:002370213_1:R26TB01672566:2",
+          "contract_no": "002370213_1",
+          "request_no": "R26TB01672566",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "462000"
+        },
+        {
+          "fact_id": "dl:23641018:002370213_1:R26TB01742493:2",
+          "contract_no": "002370213_1",
+          "request_no": "R26TB01742493",
+          "line_no": "2",
+          "quantity": "3",
+          "comparable_amount_krw": "1386000"
+        },
+        {
+          "fact_id": "dl:23641018:002370213_1:R26TB01949112:4",
+          "contract_no": "002370213_1",
+          "request_no": "R26TB01949112",
+          "line_no": "4",
+          "quantity": "11",
+          "comparable_amount_krw": "5082000"
+        },
+        {
+          "fact_id": "dl:23641018:002370213_1:R26TB02004309:5",
+          "contract_no": "002370213_1",
+          "request_no": "R26TB02004309",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "462000"
+        },
+        {
+          "fact_id": "dl:23641018:002370213_1:R26TB02185436:2",
+          "contract_no": "002370213_1",
+          "request_no": "R26TB02185436",
+          "line_no": "2",
+          "quantity": "20",
+          "comparable_amount_krw": "9240000"
+        },
+        {
+          "fact_id": "dl:23641018:002370213_1:R26TB02286876:4",
+          "contract_no": "002370213_1",
+          "request_no": "R26TB02286876",
+          "line_no": "4",
+          "quantity": "3",
+          "comparable_amount_krw": "1386000"
+        },
+        {
+          "fact_id": "dl:23641018:002370213_1:R26TB02289462:4",
+          "contract_no": "002370213_1",
+          "request_no": "R26TB02289462",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "462000"
+        },
+        {
+          "fact_id": "dl:23641018:002470197_1:R26TB01779706:2",
+          "contract_no": "002470197_1",
+          "request_no": "R26TB01779706",
+          "line_no": "2",
+          "quantity": "4",
+          "comparable_amount_krw": "1848000"
+        },
+        {
+          "fact_id": "dl:23641018:002470197_1:R26TB01967583:4",
+          "contract_no": "002470197_1",
+          "request_no": "R26TB01967583",
+          "line_no": "4",
+          "quantity": "7",
+          "comparable_amount_krw": "3234000"
+        },
+        {
+          "fact_id": "dl:23641018:002470197_1:R26TB01972390:2",
+          "contract_no": "002470197_1",
+          "request_no": "R26TB01972390",
+          "line_no": "2",
+          "quantity": "6",
+          "comparable_amount_krw": "2772000"
+        },
+        {
+          "fact_id": "dl:23641018:002470197_1:R26TB02297617:4",
+          "contract_no": "002470197_1",
+          "request_no": "R26TB02297617",
+          "line_no": "4",
+          "quantity": "9",
+          "comparable_amount_krw": "4158000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/3ee841dc-e6ce-4128-98fe-07f8bf0fcc65",
+      "local_public_body": "research/submitted/23641018.json",
+      "admitted_at": "2026-10-16T04:06:05.713Z"
+    },
+    {
+      "submission_id": "3816979c-ee0d-4f11-a5cb-1265d37da838",
+      "item_id": "25853499",
+      "title": "IKELED-RFHPM312-40 → TG2532PD40A 대체품 28000원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "56021000",
+      "lint_status": "pending",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://www.mkmall.shop/goods/goods_view.php?goodsNo=1000006534",
+      "displayed_price_krw": "28000",
+      "benchmark_unit_price_krw": "32000",
+      "quantity": "1057",
+      "comparable_amount_krw": "89845000",
+      "fact_count": 4,
+      "request_count": 4,
+      "claim": "조달 IKELED-RFHPM312-40과 실제 판매 TG2532PD40A의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 원품 제조사는 일광전기 주식회사, 대체품 제조사는 태강으로 서로 다르다. 원품 치수 1300×330×22mm와 대체품 1285×320×30mm에 차이가 있으며 기존 타공·고정부가 그대로 맞는다는 주장은 하지 않는다. 원품은 40W고정형직사각평판등;직부형/엣지.원품수명30000h와대체30000h표시대응.이고 전력40W와 국내220V 사용 범위에서 대체한다. 대체품의 공시값은5700K·4400lm·Ra80·수명30000h이다. 원품 공시 수명은 '30000h'이며 원품에서 확인하지 못한 광속·색온도·연색성·수명 동등성은 주장하지 않는다. 제조·인증·사회적가치 구매 조건과 설치·보증 차이의 금전가치는 별도로 반영하지 않았다.",
+      "comparison_scope": "동일 모델이 아닌 40W·220V·직사각 평판 조명 본체의 용도·근접 치수 기준 대체구매 제안이다. 제품 단품가28000원에 배송비4000원을 각 개마다 더한32000원을 B로 쓴다. 대량 묶음배송 할인을 차감하지 않았다. 납품장소 하차도 범위의 제품 취득가격 비교이며 설치공사 포함이나 모든 현장의 즉시 교체 가능성을 주장하지 않는다. 추가운임 가능 제주·울릉·옹진·신안 기관0facts는 제외했다. 선택 범위는4facts/1057개/C89845000원이다. 원품 IKELED-RFHPM312-40, 대체품 TG2532PD40A. 차이·제한: 원품 제조사는 일광전기 주식회사, 대체품 제조사는 태강으로 서로 다르다. 원품 치수 1300×330×22mm와 대체품 1285×320×30mm에 차이가 있으며 기존 타공·고정부가 그대로 맞는다는 주장은 하지 않는다. 원품은 40W고정형직사각평판등;직부형/엣지.원품수명30000h와대체30000h표시대응.이고 전력40W와 국내220V 사용 범위에서 대체한다. 대체품의 공시값은5700K·4400lm·Ra80·수명30000h이다. 원품 공시 수명은 '30000h'이며 원품에서 확인하지 못한 광속·색온도·연색성·수명 동등성은 주장하지 않는다. 제조·인증·사회적가치 구매 조건과 설치·보증 차이의 금전가치는 별도로 반영하지 않았다.",
+      "references": [
+        {
+          "fact_id": "dl:25853499:R26TA01795740:R26TB01964566:3",
+          "contract_no": "R26TA01795740",
+          "request_no": "R26TB01964566",
+          "line_no": "3",
+          "quantity": "41",
+          "comparable_amount_krw": "3485000"
+        },
+        {
+          "fact_id": "dl:25853499:R26TA01795740:R26TB02197507:2",
+          "contract_no": "R26TA01795740",
+          "request_no": "R26TB02197507",
+          "line_no": "2",
+          "quantity": "731",
+          "comparable_amount_krw": "62135000"
+        },
+        {
+          "fact_id": "dl:25853499:R26TA01795740:R26TB02247657:5",
+          "contract_no": "R26TA01795740",
+          "request_no": "R26TB02247657",
+          "line_no": "5",
+          "quantity": "91",
+          "comparable_amount_krw": "7735000"
+        },
+        {
+          "fact_id": "dl:25853499:R26TA01795740:R26TB02278312:6",
+          "contract_no": "R26TA01795740",
+          "request_no": "R26TB02278312",
+          "line_no": "6",
+          "quantity": "194",
+          "comparable_amount_krw": "16490000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/3816979c-ee0d-4f11-a5cb-1265d37da838",
+      "local_public_body": "research/submitted/25853499.json",
+      "admitted_at": "2026-10-16T04:05:11.639Z"
+    },
+    {
+      "submission_id": "f1231b38-ab24-4829-866a-298f5c91654c",
+      "item_id": "24627368",
+      "title": "WHI-040S-DY312 → TG2032PB40A 대체품 26500원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "35244000",
+      "lint_status": "pending",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://www.mkmall.shop/goods/goods_view.php?goodsNo=1000006534",
+      "displayed_price_krw": "26500",
+      "benchmark_unit_price_krw": "30500",
+      "quantity": "1602",
+      "comparable_amount_krw": "84105000",
+      "fact_count": 2,
+      "request_count": 2,
+      "claim": "조달 WHI-040S-DY312과 실제 판매 TG2032PB40A의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 원품 제조사는 행복일자리 장애인보호작업장, 대체품 제조사는 태강으로 서로 다르다. 원품 치수 1287×318×34mm와 대체품 1280×320×30mm에 차이가 있으며 기존 타공·고정부가 그대로 맞는다는 주장은 하지 않는다. 원품은 매입형40W평판등이고 전력40W와 국내220V 사용 범위에서 대체한다. 대체품의 공시값은5700K·4400lm·Ra80·수명30000h이다. 원품 공시 수명은 '해당listing미공개'이며 원품에서 확인하지 못한 광속·색온도·연색성·수명 동등성은 주장하지 않는다. 제조·인증·사회적가치 구매 조건과 설치·보증 차이의 금전가치는 별도로 반영하지 않았다.",
+      "comparison_scope": "동일 모델이 아닌 40W·220V·직사각 평판 조명 본체의 용도·근접 치수 기준 대체구매 제안이다. 제품 단품가26500원에 배송비4000원을 각 개마다 더한30500원을 B로 쓴다. 대량 묶음배송 할인을 차감하지 않았다. 납품장소 하차도 범위의 제품 취득가격 비교이며 설치공사 포함이나 모든 현장의 즉시 교체 가능성을 주장하지 않는다. 추가운임 가능 제주·울릉·옹진·신안 기관0facts는 제외했다. 선택 범위는2facts/1602개/C84105000원이다. 원품 WHI-040S-DY312, 대체품 TG2032PB40A. 차이·제한: 원품 제조사는 행복일자리 장애인보호작업장, 대체품 제조사는 태강으로 서로 다르다. 원품 치수 1287×318×34mm와 대체품 1280×320×30mm에 차이가 있으며 기존 타공·고정부가 그대로 맞는다는 주장은 하지 않는다. 원품은 매입형40W평판등이고 전력40W와 국내220V 사용 범위에서 대체한다. 대체품의 공시값은5700K·4400lm·Ra80·수명30000h이다. 원품 공시 수명은 '해당listing미공개'이며 원품에서 확인하지 못한 광속·색온도·연색성·수명 동등성은 주장하지 않는다. 제조·인증·사회적가치 구매 조건과 설치·보증 차이의 금전가치는 별도로 반영하지 않았다.",
+      "references": [
+        {
+          "fact_id": "dl:24627368:R26TA01793289:R26TB01887499:4",
+          "contract_no": "R26TA01793289",
+          "request_no": "R26TB01887499",
+          "line_no": "4",
+          "quantity": "1277",
+          "comparable_amount_krw": "67042500"
+        },
+        {
+          "fact_id": "dl:24627368:R26TA01793289:R26TB01899353:2",
+          "contract_no": "R26TA01793289",
+          "request_no": "R26TB01899353",
+          "line_no": "2",
+          "quantity": "325",
+          "comparable_amount_krw": "17062500"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/f1231b38-ab24-4829-866a-298f5c91654c",
+      "local_public_body": "research/submitted/24627368.json",
+      "admitted_at": "2026-10-16T04:05:11.834Z"
+    },
+    {
+      "submission_id": "655a457e-fe9d-4de7-bc30-444772615be7",
+      "item_id": "25607692",
+      "title": "JS-EG40W(GT312) → TG2532PD40A 대체품 28000원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "35629000",
+      "lint_status": "pending",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://www.mkmall.shop/goods/goods_view.php?goodsNo=1000006534",
+      "displayed_price_krw": "28000",
+      "benchmark_unit_price_krw": "32000",
+      "quantity": "869",
+      "comparable_amount_krw": "63437000",
+      "fact_count": 2,
+      "request_count": 2,
+      "claim": "조달 JS-EG40W(GT312)과 실제 판매 TG2532PD40A의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 원품 제조사는 지심엘앤씨, 대체품 제조사는 태강으로 서로 다르다. 원품 치수 1300×330×22mm와 대체품 1285×320×30mm에 차이가 있으며 기존 타공·고정부가 그대로 맞는다는 주장은 하지 않는다. 원품은 40W고정형직사각평판등;직부형/M바/엣지.이고 전력40W와 국내220V 사용 범위에서 대체한다. 대체품의 공시값은5700K·4400lm·Ra80·수명30000h이다. 원품 공시 수명은 '해당listing미공개'이며 원품에서 확인하지 못한 광속·색온도·연색성·수명 동등성은 주장하지 않는다. 제조·인증·사회적가치 구매 조건과 설치·보증 차이의 금전가치는 별도로 반영하지 않았다.",
+      "comparison_scope": "동일 모델이 아닌 40W·220V·직사각 평판 조명 본체의 용도·근접 치수 기준 대체구매 제안이다. 제품 단품가28000원에 배송비4000원을 각 개마다 더한32000원을 B로 쓴다. 대량 묶음배송 할인을 차감하지 않았다. 납품장소 하차도 범위의 제품 취득가격 비교이며 설치공사 포함이나 모든 현장의 즉시 교체 가능성을 주장하지 않는다. 추가운임 가능 제주·울릉·옹진·신안 기관0facts는 제외했다. 선택 범위는2facts/869개/C63437000원이다. 원품 JS-EG40W(GT312), 대체품 TG2532PD40A. 차이·제한: 원품 제조사는 지심엘앤씨, 대체품 제조사는 태강으로 서로 다르다. 원품 치수 1300×330×22mm와 대체품 1285×320×30mm에 차이가 있으며 기존 타공·고정부가 그대로 맞는다는 주장은 하지 않는다. 원품은 40W고정형직사각평판등;직부형/M바/엣지.이고 전력40W와 국내220V 사용 범위에서 대체한다. 대체품의 공시값은5700K·4400lm·Ra80·수명30000h이다. 원품 공시 수명은 '해당listing미공개'이며 원품에서 확인하지 못한 광속·색온도·연색성·수명 동등성은 주장하지 않는다. 제조·인증·사회적가치 구매 조건과 설치·보증 차이의 금전가치는 별도로 반영하지 않았다.",
+      "references": [
+        {
+          "fact_id": "dl:25607692:R26TA01774815:R26TB01886601:4",
+          "contract_no": "R26TA01774815",
+          "request_no": "R26TB01886601",
+          "line_no": "4",
+          "quantity": "688",
+          "comparable_amount_krw": "50224000"
+        },
+        {
+          "fact_id": "dl:25607692:R26TA01774815:R26TB02105609:3",
+          "contract_no": "R26TA01774815",
+          "request_no": "R26TB02105609",
+          "line_no": "3",
+          "quantity": "181",
+          "comparable_amount_krw": "13213000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/655a457e-fe9d-4de7-bc30-444772615be7",
+      "local_public_body": "research/submitted/25607692.json",
+      "admitted_at": "2026-10-16T04:05:12.069Z"
+    },
+    {
+      "submission_id": "b5b21867-68fd-48ac-9a6c-44a723489306",
+      "item_id": "25333467",
+      "title": "SR-MLCA312-40G → TG2532PD40A 대체품 28000원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "30713500",
+      "lint_status": "pending",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://www.mkmall.shop/goods/goods_view.php?goodsNo=1000006534",
+      "displayed_price_krw": "28000",
+      "benchmark_unit_price_krw": "32000",
+      "quantity": "570",
+      "comparable_amount_krw": "48953500",
+      "fact_count": 5,
+      "request_count": 5,
+      "claim": "조달 SR-MLCA312-40G과 실제 판매 TG2532PD40A의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 원품 제조사는 (주)썬래이, 대체품 제조사는 태강으로 서로 다르다. 원품 치수 1272×312×24.5mm와 대체품 1285×320×30mm에 차이가 있으며 기존 타공·고정부가 그대로 맞는다는 주장은 하지 않는다. 원품은 40W고정형직사각평판등;고정형.이고 전력40W와 국내220V 사용 범위에서 대체한다. 대체품의 공시값은5700K·4400lm·Ra80·수명30000h이다. 원품 공시 수명은 '해당listing미공개'이며 원품에서 확인하지 못한 광속·색온도·연색성·수명 동등성은 주장하지 않는다. 제조·인증·사회적가치 구매 조건과 설치·보증 차이의 금전가치는 별도로 반영하지 않았다.",
+      "comparison_scope": "동일 모델이 아닌 40W·220V·직사각 평판 조명 본체의 용도·근접 치수 기준 대체구매 제안이다. 제품 단품가28000원에 배송비4000원을 각 개마다 더한32000원을 B로 쓴다. 대량 묶음배송 할인을 차감하지 않았다. 납품장소 하차도 범위의 제품 취득가격 비교이며 설치공사 포함이나 모든 현장의 즉시 교체 가능성을 주장하지 않는다. 추가운임 가능 제주·울릉·옹진·신안 기관0facts는 제외했다. 선택 범위는5facts/570개/C48953500원이다. 원품 SR-MLCA312-40G, 대체품 TG2532PD40A. 차이·제한: 원품 제조사는 (주)썬래이, 대체품 제조사는 태강으로 서로 다르다. 원품 치수 1272×312×24.5mm와 대체품 1285×320×30mm에 차이가 있으며 기존 타공·고정부가 그대로 맞는다는 주장은 하지 않는다. 원품은 40W고정형직사각평판등;고정형.이고 전력40W와 국내220V 사용 범위에서 대체한다. 대체품의 공시값은5700K·4400lm·Ra80·수명30000h이다. 원품 공시 수명은 '해당listing미공개'이며 원품에서 확인하지 못한 광속·색온도·연색성·수명 동등성은 주장하지 않는다. 제조·인증·사회적가치 구매 조건과 설치·보증 차이의 금전가치는 별도로 반영하지 않았다.",
+      "references": [
+        {
+          "fact_id": "dl:25333467:R26TA01856244:R26TB01957689:8",
+          "contract_no": "R26TA01856244",
+          "request_no": "R26TB01957689",
+          "line_no": "8",
+          "quantity": "8",
+          "comparable_amount_krw": "760000"
+        },
+        {
+          "fact_id": "dl:25333467:R26TA01856244:R26TB01979340:16",
+          "contract_no": "R26TA01856244",
+          "request_no": "R26TB01979340",
+          "line_no": "16",
+          "quantity": "6",
+          "comparable_amount_krw": "570000"
+        },
+        {
+          "fact_id": "dl:25333467:R26TA01856244:R26TB02080589:3",
+          "contract_no": "R26TA01856244",
+          "request_no": "R26TB02080589",
+          "line_no": "3",
+          "quantity": "8",
+          "comparable_amount_krw": "760000"
+        },
+        {
+          "fact_id": "dl:25333467:R26TA01856244:R26TB02080607:4",
+          "contract_no": "R26TA01856244",
+          "request_no": "R26TB02080607",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "95000"
+        },
+        {
+          "fact_id": "dl:25333467:R26TA01856244:R26TB02192922:2",
+          "contract_no": "R26TA01856244",
+          "request_no": "R26TB02192922",
+          "line_no": "2",
+          "quantity": "547",
+          "comparable_amount_krw": "46768500"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/b5b21867-68fd-48ac-9a6c-44a723489306",
+      "local_public_body": "research/submitted/25333467.json",
+      "admitted_at": "2026-10-16T04:05:12.272Z"
+    },
+    {
+      "submission_id": "b5155a84-021d-4992-8ca6-ae5b73353be9",
+      "item_id": "24777435",
+      "title": "KO-ME301240 → TG2532PD40A 대체품 28000원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "26673000",
+      "lint_status": "pending",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://www.mkmall.shop/goods/goods_view.php?goodsNo=1000006534",
+      "displayed_price_krw": "28000",
+      "benchmark_unit_price_krw": "32000",
+      "quantity": "1569",
+      "comparable_amount_krw": "76881000",
+      "fact_count": 4,
+      "request_count": 4,
+      "claim": "조달 KO-ME301240과 실제 판매 TG2532PD40A의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 원품 제조사는 주식회사 광오라이팅, 대체품 제조사는 태강으로 서로 다르다. 원품 치수 1280×320×35mm와 대체품 1285×320×30mm에 차이가 있으며 기존 타공·고정부가 그대로 맞는다는 주장은 하지 않는다. 원품은 고정형40W평판등이고 전력40W와 국내220V 사용 범위에서 대체한다. 대체품의 공시값은5700K·4400lm·Ra80·수명30000h이다. 원품 공시 수명은 '해당listing미공개'이며 원품에서 확인하지 못한 광속·색온도·연색성·수명 동등성은 주장하지 않는다. 제조·인증·사회적가치 구매 조건과 설치·보증 차이의 금전가치는 별도로 반영하지 않았다.",
+      "comparison_scope": "동일 모델이 아닌 40W·220V·직사각 평판 조명 본체의 용도·근접 치수 기준 대체구매 제안이다. 제품 단품가28000원에 배송비4000원을 각 개마다 더한32000원을 B로 쓴다. 대량 묶음배송 할인을 차감하지 않았다. 납품장소 하차도 범위의 제품 취득가격 비교이며 설치공사 포함이나 모든 현장의 즉시 교체 가능성을 주장하지 않는다. 추가운임 가능 제주·울릉·옹진·신안 기관0facts는 제외했다. 선택 범위는4facts/1569개/C76881000원이다. 원품 KO-ME301240, 대체품 TG2532PD40A. 차이·제한: 원품 제조사는 주식회사 광오라이팅, 대체품 제조사는 태강으로 서로 다르다. 원품 치수 1280×320×35mm와 대체품 1285×320×30mm에 차이가 있으며 기존 타공·고정부가 그대로 맞는다는 주장은 하지 않는다. 원품은 고정형40W평판등이고 전력40W와 국내220V 사용 범위에서 대체한다. 대체품의 공시값은5700K·4400lm·Ra80·수명30000h이다. 원품 공시 수명은 '해당listing미공개'이며 원품에서 확인하지 못한 광속·색온도·연색성·수명 동등성은 주장하지 않는다. 제조·인증·사회적가치 구매 조건과 설치·보증 차이의 금전가치는 별도로 반영하지 않았다.",
+      "references": [
+        {
+          "fact_id": "dl:24777435:R26TA01491855:R26TB01761043:1",
+          "contract_no": "R26TA01491855",
+          "request_no": "R26TB01761043",
+          "line_no": "1",
+          "quantity": "488",
+          "comparable_amount_krw": "23912000"
+        },
+        {
+          "fact_id": "dl:24777435:R26TA01491855:R26TB01860284:1",
+          "contract_no": "R26TA01491855",
+          "request_no": "R26TB01860284",
+          "line_no": "1",
+          "quantity": "12",
+          "comparable_amount_krw": "588000"
+        },
+        {
+          "fact_id": "dl:24777435:R26TA01491855:R26TB02034969:3",
+          "contract_no": "R26TA01491855",
+          "request_no": "R26TB02034969",
+          "line_no": "3",
+          "quantity": "819",
+          "comparable_amount_krw": "40131000"
+        },
+        {
+          "fact_id": "dl:24777435:R26TA01491855:R26TB02145687:2",
+          "contract_no": "R26TA01491855",
+          "request_no": "R26TB02145687",
+          "line_no": "2",
+          "quantity": "250",
+          "comparable_amount_krw": "12250000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/b5155a84-021d-4992-8ca6-ae5b73353be9",
+      "local_public_body": "research/submitted/24777435.json",
+      "admitted_at": "2026-10-16T04:05:12.469Z"
+    },
+    {
+      "submission_id": "793c6ddf-19ce-471a-9443-4a3524be4bff",
+      "item_id": "25771323",
+      "title": "IDG-PP1232BB040A → TG2532PD40A 대체품 28000원 비교",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "23010000",
+      "lint_status": "pending",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://www.mkmall.shop/goods/goods_view.php?goodsNo=1000006534",
+      "displayed_price_krw": "28000",
+      "benchmark_unit_price_krw": "32000",
+      "quantity": "767",
+      "comparable_amount_krw": "47554000",
+      "fact_count": 4,
+      "request_count": 4,
+      "claim": "조달 IDG-PP1232BB040A과 실제 판매 TG2532PD40A의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 원품 제조사는 주식회사 파인트리코리아, 대체품 제조사는 태강으로 서로 다르다. 원품 치수 1280×320×21.8mm와 대체품 1285×320×30mm에 차이가 있으며 기존 타공·고정부가 그대로 맞는다는 주장은 하지 않는다. 원품은 40W고정형직사각평판등;무타공/매입형·직부형·M바.원품AC100~220V이므로220V국내사용범위만대응.이고 전력40W와 국내220V 사용 범위에서 대체한다. 대체품의 공시값은5700K·4400lm·Ra80·수명30000h이다. 원품 공시 수명은 '해당listing미공개'이며 원품에서 확인하지 못한 광속·색온도·연색성·수명 동등성은 주장하지 않는다. 제조·인증·사회적가치 구매 조건과 설치·보증 차이의 금전가치는 별도로 반영하지 않았다.",
+      "comparison_scope": "동일 모델이 아닌 40W·220V·직사각 평판 조명 본체의 용도·근접 치수 기준 대체구매 제안이다. 제품 단품가28000원에 배송비4000원을 각 개마다 더한32000원을 B로 쓴다. 대량 묶음배송 할인을 차감하지 않았다. 납품장소 하차도 범위의 제품 취득가격 비교이며 설치공사 포함이나 모든 현장의 즉시 교체 가능성을 주장하지 않는다. 추가운임 가능 제주·울릉·옹진·신안 기관0facts는 제외했다. 선택 범위는4facts/767개/C47554000원이다. 원품 IDG-PP1232BB040A, 대체품 TG2532PD40A. 차이·제한: 원품 제조사는 주식회사 파인트리코리아, 대체품 제조사는 태강으로 서로 다르다. 원품 치수 1280×320×21.8mm와 대체품 1285×320×30mm에 차이가 있으며 기존 타공·고정부가 그대로 맞는다는 주장은 하지 않는다. 원품은 40W고정형직사각평판등;무타공/매입형·직부형·M바.원품AC100~220V이므로220V국내사용범위만대응.이고 전력40W와 국내220V 사용 범위에서 대체한다. 대체품의 공시값은5700K·4400lm·Ra80·수명30000h이다. 원품 공시 수명은 '해당listing미공개'이며 원품에서 확인하지 못한 광속·색온도·연색성·수명 동등성은 주장하지 않는다. 제조·인증·사회적가치 구매 조건과 설치·보증 차이의 금전가치는 별도로 반영하지 않았다.",
+      "references": [
+        {
+          "fact_id": "dl:25771323:R26TA01768235:R26TB01915264:1",
+          "contract_no": "R26TA01768235",
+          "request_no": "R26TB01915264",
+          "line_no": "1",
+          "quantity": "3",
+          "comparable_amount_krw": "186000"
+        },
+        {
+          "fact_id": "dl:25771323:R26TA01768235:R26TB01938185:1",
+          "contract_no": "R26TA01768235",
+          "request_no": "R26TB01938185",
+          "line_no": "1",
+          "quantity": "135",
+          "comparable_amount_krw": "8370000"
+        },
+        {
+          "fact_id": "dl:25771323:R26TA01768235:R26TB01994724:1",
+          "contract_no": "R26TA01768235",
+          "request_no": "R26TB01994724",
+          "line_no": "1",
+          "quantity": "5",
+          "comparable_amount_krw": "310000"
+        },
+        {
+          "fact_id": "dl:25771323:R26TA01768235:R26TB02215459:5",
+          "contract_no": "R26TA01768235",
+          "request_no": "R26TB02215459",
+          "line_no": "5",
+          "quantity": "624",
+          "comparable_amount_krw": "38688000"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/793c6ddf-19ce-471a-9443-4a3524be4bff",
+      "local_public_body": "research/submitted/25771323.json",
+      "admitted_at": "2026-10-16T04:05:13.696Z"
     }
   ]
 }

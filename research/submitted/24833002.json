@@ -1,0 +1,340 @@
+{
+  "submission": {
+    "submission_id": "0e45102a-d381-4ad9-8e14-7f4de13dd543",
+    "claim_id": "187e77f5-9d36-4039-abf9-9daf9463bf2d",
+    "revision": 1,
+    "submission_state": "accepted",
+    "admitted_at": "2026-10-16T03:55:52.606Z",
+    "amount_krw": 12100000,
+    "verification_status": "not_started",
+    "lint_status": "pending",
+    "event_epoch": 1,
+    "ruleset_version": "rules-v1",
+    "public_path": "/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/0e45102a-d381-4ad9-8e14-7f4de13dd543",
+    "api_path": "/v1/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/0e45102a-d381-4ad9-8e14-7f4de13dd543",
+    "web_path": "#/submission/0e45102a-d381-4ad9-8e14-7f4de13dd543"
+  },
+  "body": {
+    "dataset_release_id": "release-live-20261012",
+    "ruleset_version": "rules-v1",
+    "canonical_product_id": "24833002",
+    "title": "QUANTUM-C9-3200 → Z322 WIFI I9-14900KF/RTX3060 대체품 3251000원 비교",
+    "claim": "조달 QUANTUM-C9-3200과 실제 판매 Z322 WIFI I9-14900KF/RTX3060의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. CPU i9-13900→i9-14900KF는24코어32스레드·36MB이나 세대/클럭/전력특성이 다르다. 대체품은 내장GPU·Quick Sync가 없어 이를 요구하는 업무에는 부적합하다. 원품 SSD500GB+HDD1TB의2드라이브 구성과 달리 대체품은 NVMe SSD2TB1개이며 HDD가 없다. 총저장용량·일반CPU/외장GPU작업 기준 비교이고2드라이브 필수업무에는 부적합하다. Z790·DDR5 32GB·RTX3060 12GB·수냉은 대응한다. 전원750W→800W, 제조사·케이스·보증·환경인증·세부포트가 다르며 차이의 금전가치는 반영하지 않았다.",
+    "comparison_scope": "본체의 일반 CPU/RTX3060 작업·메모리·저장용량 기준 대체구매 가격 비교. 실제 모든 업무의 완전한 호환성이나 동일성은 주장하지 않는다. 정품Windows11Pro옵션242000원을 B에 포함했으나 조달측 별도OS대금은 C에 더하지 않았다. 설치·주변기기·보증 차이는 별도 정산하지 않았다. 전체28facts73대 중 가격조건을 충족하는12facts17대만 선택하며 나머지56대는 계산에서 제외한다. 원품 QUANTUM-C9-3200, 대체품 Z322 WIFI I9-14900KF/RTX3060. 차이·제한: CPU i9-13900→i9-14900KF는24코어32스레드·36MB이나 세대/클럭/전력특성이 다르다. 대체품은 내장GPU·Quick Sync가 없어 이를 요구하는 업무에는 부적합하다. 원품 SSD500GB+HDD1TB의2드라이브 구성과 달리 대체품은 NVMe SSD2TB1개이며 HDD가 없다. 총저장용량·일반CPU/외장GPU작업 기준 비교이고2드라이브 필수업무에는 부적합하다. Z790·DDR5 32GB·RTX3060 12GB·수냉은 대응한다. 전원750W→800W, 제조사·케이스·보증·환경인증·세부포트가 다르며 차이의 금전가치는 반영하지 않았다.",
+    "reproduction_notes": "공식 fact별 floor(max(C-B×Q,0))를 합산. 각 라인 근거에 계약·납품요구·라인 번호를 기재. 가격 시점 차이는 사용자 지정 대회 조사 기준에서 제외한다. 사양 대응: 제조사/모델: 다컴시스템 QUANTUM-C9-3200 → 엔피씨코리아 넥스피씨 Z322 WIFI; CPU: Intel Core i9-13900 24코어32스레드, 기본2.0GHz/최대5.6GHz,36MB → Intel Core i9-14900KF 24코어32스레드, 기본3.2GHz/최대6.0GHz,36MB; 내장그래픽·Quick Sync: UHD770 내장그래픽·Intel Quick Sync 지원 → 14900KF 내장그래픽·Quick Sync 미지원; 메인보드: Z790 → ASRock Z790 Steel Legend WiFi DDR5; 메모리: DDR5 32GB → DDR5-5600 32GB(16GB×2); 그래픽카드: GeForce RTX3060 D6 12GB → GeForce RTX3060 D6 12GB LHR; 저장장치: M.2 SSD500GB + HDD1TB = 총1.5TB → M.2 NVMe SSD2TB(공개 무료업그레이드 구성), HDD없음; 전원: 750W → AONE STORM800W 80PLUS BRONZE; 냉각: 수냉(공식20261015 사양가격표) → NZXT KRAKEN360 수냉; 운영체제: 필수 별도옵션 Win11Pro154,000원(해당 desktop fact금액과 분리) → Win11Pro64bit 정품 공개옵션242,000원을 B에 포함; ODD·설치·보증·주변기기: ODD는 선택옵션; 설치는 미설치0원/기본26,000원 별도. 세부 키보드·마우스·보증은 원품페이지추가확인필요 → ODD·모니터 별매; 기본배송무료; 제조사/케이스와 사후서비스는 다름. 사양 출처: https://www.dacomsystem.com/quantum-c9-3200/ https://www.dacomsystem.com/DM/catalogue/dacomsystem_Spec.pdf https://www.nexpc.co.kr/renewal/goods_main/detail.php?gid=3710151",
+    "lines": [
+      {
+        "fact_id": "dl:24833002:R25TA00027199:R26TB01766928:1",
+        "benchmark_unit_price_krw": "3251000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.nexpc.co.kr/renewal/goods_main/detail.php?gid=3710151",
+            "quote": "게이밍프로 Z322 WIFI I9-14900KF/RTX3060. 제품 기본가격3,009,000원. OS [마이크로소프트] 윈도우11 Pro64bit 옵션 +242,000원 선택. 변경·추가금액242,000원 / 구매수량1대 / 합계금액3,251,000원. 택배비 무료. 2026-10-16 실제 브라우저에서 OS만 선택 후 합계 확인, NZXT KRAKEN360 수냉 기본 구성 유지. 카드·쿠폰·포인트 차감 없음. 소비자 공개표시가를 VAT포함 기준으로 채택.",
+            "observed_price_krw": "3251000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 3251000원/1개 구성. 공식 비교 단위 1대당 3251000원으로 비교. 실제 판매모델 Z322 WIFI I9-14900KF/RTX3060; 원품 QUANTUM-C9-3200과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00027199, 납품요구 R26TB01766928, 라인 1. 공식 fact dl:24833002:R25TA00027199:R26TB01766928:1, 수량 2, 비교금액 7934000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24833002:R25TA00027199:R26TB01772241:1",
+        "benchmark_unit_price_krw": "3251000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.nexpc.co.kr/renewal/goods_main/detail.php?gid=3710151",
+            "quote": "게이밍프로 Z322 WIFI I9-14900KF/RTX3060. 제품 기본가격3,009,000원. OS [마이크로소프트] 윈도우11 Pro64bit 옵션 +242,000원 선택. 변경·추가금액242,000원 / 구매수량1대 / 합계금액3,251,000원. 택배비 무료. 2026-10-16 실제 브라우저에서 OS만 선택 후 합계 확인, NZXT KRAKEN360 수냉 기본 구성 유지. 카드·쿠폰·포인트 차감 없음. 소비자 공개표시가를 VAT포함 기준으로 채택.",
+            "observed_price_krw": "3251000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 3251000원/1개 구성. 공식 비교 단위 1대당 3251000원으로 비교. 실제 판매모델 Z322 WIFI I9-14900KF/RTX3060; 원품 QUANTUM-C9-3200과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00027199, 납품요구 R26TB01772241, 라인 1. 공식 fact dl:24833002:R25TA00027199:R26TB01772241:1, 수량 2, 비교금액 7934000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24833002:R25TA00027199:R26TB01778683:2",
+        "benchmark_unit_price_krw": "3251000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.nexpc.co.kr/renewal/goods_main/detail.php?gid=3710151",
+            "quote": "게이밍프로 Z322 WIFI I9-14900KF/RTX3060. 제품 기본가격3,009,000원. OS [마이크로소프트] 윈도우11 Pro64bit 옵션 +242,000원 선택. 변경·추가금액242,000원 / 구매수량1대 / 합계금액3,251,000원. 택배비 무료. 2026-10-16 실제 브라우저에서 OS만 선택 후 합계 확인, NZXT KRAKEN360 수냉 기본 구성 유지. 카드·쿠폰·포인트 차감 없음. 소비자 공개표시가를 VAT포함 기준으로 채택.",
+            "observed_price_krw": "3251000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 3251000원/1개 구성. 공식 비교 단위 1대당 3251000원으로 비교. 실제 판매모델 Z322 WIFI I9-14900KF/RTX3060; 원품 QUANTUM-C9-3200과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00027199, 납품요구 R26TB01778683, 라인 2. 공식 fact dl:24833002:R25TA00027199:R26TB01778683:2, 수량 2, 비교금액 7934000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24833002:R25TA00027199:R26TB01784361:1",
+        "benchmark_unit_price_krw": "3251000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.nexpc.co.kr/renewal/goods_main/detail.php?gid=3710151",
+            "quote": "게이밍프로 Z322 WIFI I9-14900KF/RTX3060. 제품 기본가격3,009,000원. OS [마이크로소프트] 윈도우11 Pro64bit 옵션 +242,000원 선택. 변경·추가금액242,000원 / 구매수량1대 / 합계금액3,251,000원. 택배비 무료. 2026-10-16 실제 브라우저에서 OS만 선택 후 합계 확인, NZXT KRAKEN360 수냉 기본 구성 유지. 카드·쿠폰·포인트 차감 없음. 소비자 공개표시가를 VAT포함 기준으로 채택.",
+            "observed_price_krw": "3251000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 3251000원/1개 구성. 공식 비교 단위 1대당 3251000원으로 비교. 실제 판매모델 Z322 WIFI I9-14900KF/RTX3060; 원품 QUANTUM-C9-3200과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00027199, 납품요구 R26TB01784361, 라인 1. 공식 fact dl:24833002:R25TA00027199:R26TB01784361:1, 수량 1, 비교금액 3967000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24833002:R25TA00027199:R26TB01828639:2",
+        "benchmark_unit_price_krw": "3251000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.nexpc.co.kr/renewal/goods_main/detail.php?gid=3710151",
+            "quote": "게이밍프로 Z322 WIFI I9-14900KF/RTX3060. 제품 기본가격3,009,000원. OS [마이크로소프트] 윈도우11 Pro64bit 옵션 +242,000원 선택. 변경·추가금액242,000원 / 구매수량1대 / 합계금액3,251,000원. 택배비 무료. 2026-10-16 실제 브라우저에서 OS만 선택 후 합계 확인, NZXT KRAKEN360 수냉 기본 구성 유지. 카드·쿠폰·포인트 차감 없음. 소비자 공개표시가를 VAT포함 기준으로 채택.",
+            "observed_price_krw": "3251000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 3251000원/1개 구성. 공식 비교 단위 1대당 3251000원으로 비교. 실제 판매모델 Z322 WIFI I9-14900KF/RTX3060; 원품 QUANTUM-C9-3200과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00027199, 납품요구 R26TB01828639, 라인 2. 공식 fact dl:24833002:R25TA00027199:R26TB01828639:2, 수량 2, 비교금액 7934000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24833002:R25TA00027199:R26TB01886471:2",
+        "benchmark_unit_price_krw": "3251000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.nexpc.co.kr/renewal/goods_main/detail.php?gid=3710151",
+            "quote": "게이밍프로 Z322 WIFI I9-14900KF/RTX3060. 제품 기본가격3,009,000원. OS [마이크로소프트] 윈도우11 Pro64bit 옵션 +242,000원 선택. 변경·추가금액242,000원 / 구매수량1대 / 합계금액3,251,000원. 택배비 무료. 2026-10-16 실제 브라우저에서 OS만 선택 후 합계 확인, NZXT KRAKEN360 수냉 기본 구성 유지. 카드·쿠폰·포인트 차감 없음. 소비자 공개표시가를 VAT포함 기준으로 채택.",
+            "observed_price_krw": "3251000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 3251000원/1개 구성. 공식 비교 단위 1대당 3251000원으로 비교. 실제 판매모델 Z322 WIFI I9-14900KF/RTX3060; 원품 QUANTUM-C9-3200과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00027199, 납품요구 R26TB01886471, 라인 2. 공식 fact dl:24833002:R25TA00027199:R26TB01886471:2, 수량 1, 비교금액 3967000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24833002:R25TA00027199:R26TB01954508:1",
+        "benchmark_unit_price_krw": "3251000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.nexpc.co.kr/renewal/goods_main/detail.php?gid=3710151",
+            "quote": "게이밍프로 Z322 WIFI I9-14900KF/RTX3060. 제품 기본가격3,009,000원. OS [마이크로소프트] 윈도우11 Pro64bit 옵션 +242,000원 선택. 변경·추가금액242,000원 / 구매수량1대 / 합계금액3,251,000원. 택배비 무료. 2026-10-16 실제 브라우저에서 OS만 선택 후 합계 확인, NZXT KRAKEN360 수냉 기본 구성 유지. 카드·쿠폰·포인트 차감 없음. 소비자 공개표시가를 VAT포함 기준으로 채택.",
+            "observed_price_krw": "3251000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 3251000원/1개 구성. 공식 비교 단위 1대당 3251000원으로 비교. 실제 판매모델 Z322 WIFI I9-14900KF/RTX3060; 원품 QUANTUM-C9-3200과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00027199, 납품요구 R26TB01954508, 라인 1. 공식 fact dl:24833002:R25TA00027199:R26TB01954508:1, 수량 1, 비교금액 3967000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24833002:R25TA00027199:R26TB01967032:2",
+        "benchmark_unit_price_krw": "3251000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.nexpc.co.kr/renewal/goods_main/detail.php?gid=3710151",
+            "quote": "게이밍프로 Z322 WIFI I9-14900KF/RTX3060. 제품 기본가격3,009,000원. OS [마이크로소프트] 윈도우11 Pro64bit 옵션 +242,000원 선택. 변경·추가금액242,000원 / 구매수량1대 / 합계금액3,251,000원. 택배비 무료. 2026-10-16 실제 브라우저에서 OS만 선택 후 합계 확인, NZXT KRAKEN360 수냉 기본 구성 유지. 카드·쿠폰·포인트 차감 없음. 소비자 공개표시가를 VAT포함 기준으로 채택.",
+            "observed_price_krw": "3251000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 3251000원/1개 구성. 공식 비교 단위 1대당 3251000원으로 비교. 실제 판매모델 Z322 WIFI I9-14900KF/RTX3060; 원품 QUANTUM-C9-3200과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00027199, 납품요구 R26TB01967032, 라인 2. 공식 fact dl:24833002:R25TA00027199:R26TB01967032:2, 수량 2, 비교금액 7934000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24833002:R25TA00027199:R26TB01990367:1",
+        "benchmark_unit_price_krw": "3251000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.nexpc.co.kr/renewal/goods_main/detail.php?gid=3710151",
+            "quote": "게이밍프로 Z322 WIFI I9-14900KF/RTX3060. 제품 기본가격3,009,000원. OS [마이크로소프트] 윈도우11 Pro64bit 옵션 +242,000원 선택. 변경·추가금액242,000원 / 구매수량1대 / 합계금액3,251,000원. 택배비 무료. 2026-10-16 실제 브라우저에서 OS만 선택 후 합계 확인, NZXT KRAKEN360 수냉 기본 구성 유지. 카드·쿠폰·포인트 차감 없음. 소비자 공개표시가를 VAT포함 기준으로 채택.",
+            "observed_price_krw": "3251000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 3251000원/1개 구성. 공식 비교 단위 1대당 3251000원으로 비교. 실제 판매모델 Z322 WIFI I9-14900KF/RTX3060; 원품 QUANTUM-C9-3200과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00027199, 납품요구 R26TB01990367, 라인 1. 공식 fact dl:24833002:R25TA00027199:R26TB01990367:1, 수량 1, 비교금액 3949000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24833002:R25TA00027199:R26TB02078369:2",
+        "benchmark_unit_price_krw": "3251000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.nexpc.co.kr/renewal/goods_main/detail.php?gid=3710151",
+            "quote": "게이밍프로 Z322 WIFI I9-14900KF/RTX3060. 제품 기본가격3,009,000원. OS [마이크로소프트] 윈도우11 Pro64bit 옵션 +242,000원 선택. 변경·추가금액242,000원 / 구매수량1대 / 합계금액3,251,000원. 택배비 무료. 2026-10-16 실제 브라우저에서 OS만 선택 후 합계 확인, NZXT KRAKEN360 수냉 기본 구성 유지. 카드·쿠폰·포인트 차감 없음. 소비자 공개표시가를 VAT포함 기준으로 채택.",
+            "observed_price_krw": "3251000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 3251000원/1개 구성. 공식 비교 단위 1대당 3251000원으로 비교. 실제 판매모델 Z322 WIFI I9-14900KF/RTX3060; 원품 QUANTUM-C9-3200과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00027199, 납품요구 R26TB02078369, 라인 2. 공식 fact dl:24833002:R25TA00027199:R26TB02078369:2, 수량 1, 비교금액 3949000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24833002:R25TA00027199:R26TB02111142:1",
+        "benchmark_unit_price_krw": "3251000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.nexpc.co.kr/renewal/goods_main/detail.php?gid=3710151",
+            "quote": "게이밍프로 Z322 WIFI I9-14900KF/RTX3060. 제품 기본가격3,009,000원. OS [마이크로소프트] 윈도우11 Pro64bit 옵션 +242,000원 선택. 변경·추가금액242,000원 / 구매수량1대 / 합계금액3,251,000원. 택배비 무료. 2026-10-16 실제 브라우저에서 OS만 선택 후 합계 확인, NZXT KRAKEN360 수냉 기본 구성 유지. 카드·쿠폰·포인트 차감 없음. 소비자 공개표시가를 VAT포함 기준으로 채택.",
+            "observed_price_krw": "3251000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 3251000원/1개 구성. 공식 비교 단위 1대당 3251000원으로 비교. 실제 판매모델 Z322 WIFI I9-14900KF/RTX3060; 원품 QUANTUM-C9-3200과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00027199, 납품요구 R26TB02111142, 라인 1. 공식 fact dl:24833002:R25TA00027199:R26TB02111142:1, 수량 1, 비교금액 3949000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:24833002:R25TA00027199:R26TB02209703:1",
+        "benchmark_unit_price_krw": "3251000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.nexpc.co.kr/renewal/goods_main/detail.php?gid=3710151",
+            "quote": "게이밍프로 Z322 WIFI I9-14900KF/RTX3060. 제품 기본가격3,009,000원. OS [마이크로소프트] 윈도우11 Pro64bit 옵션 +242,000원 선택. 변경·추가금액242,000원 / 구매수량1대 / 합계금액3,251,000원. 택배비 무료. 2026-10-16 실제 브라우저에서 OS만 선택 후 합계 확인, NZXT KRAKEN360 수냉 기본 구성 유지. 카드·쿠폰·포인트 차감 없음. 소비자 공개표시가를 VAT포함 기준으로 채택.",
+            "observed_price_krw": "3251000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "표시가 3251000원/1개 구성. 공식 비교 단위 1대당 3251000원으로 비교. 실제 판매모델 Z322 WIFI I9-14900KF/RTX3060; 원품 QUANTUM-C9-3200과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00027199, 납품요구 R26TB02209703, 라인 1. 공식 fact dl:24833002:R25TA00027199:R26TB02209703:1, 수량 1, 비교금액 3949000원."
+          }
+        ]
+      }
+    ]
+  }
+}

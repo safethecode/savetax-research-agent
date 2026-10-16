@@ -62,8 +62,8 @@
     },
     {
       "item_id": "24677197",
-      "availability": "available",
-      "status": "deferred_installation_scope",
+      "availability": "claimed_by_current_participant_after_acceptance",
+      "status": "submitted_accepted_lint_pending",
       "decision": "DPD-6208N 단품600000원·5만원이상무료 상세페이지확보. BUY/SOLDOUT템플릿혼재로활성재고미확인. 원품DPD-628과동등사양·실제설치비교범위검토대기. 가정공임266639미반영.",
       "source_url": "https://sound4u.kr/product/detail.html?product_no=2204",
       "raw_event_path": "work/industrial/item-24677197.json",
@@ -108,7 +108,20 @@
           "unit": "대",
           "tax_basis": "vat_included"
         }
-      ]
+      ],
+      "submission_result": {
+        "submission_id": "498d3cc0-5d6b-45d7-91d2-659bbfeefbd7",
+        "submission_state": "accepted",
+        "amount_krw": 79950000,
+        "admitted_at": "2026-10-16T03:57:34.347Z",
+        "verification_status": "not_started",
+        "lint_status": "pending",
+        "public_path": "/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/498d3cc0-5d6b-45d7-91d2-659bbfeefbd7",
+        "receipt_path": "work\\industrial\\receipt-24677197.json",
+        "selected_facts": 213,
+        "selected_Q": "325",
+        "excluded_scope": "제주·신안5개사실5대제외,부모통보"
+      }
     },
     {
       "item_id": "23226259",
@@ -343,9 +356,9 @@
     },
     {
       "item_id": "24868996",
-      "availability": "available",
+      "availability": "claimed_by_current_participant_after_acceptance",
       "model": "IMP-MX-1646",
-      "status": "quantified_equivalence_matched_pending_rendered_retail_availability",
+      "status": "submitted_accepted_lint_pending",
       "comparison_kind": "equivalent",
       "submission_ready": false,
       "decision": "인터엠 MX-1646 945000원/무료 공개판매. 제조사정량사양10항목대응. 제품차액39675000. 활성재고·현장설치비교범위최종검토대기.",
@@ -386,12 +399,25 @@
           "unit": "대",
           "tax_basis": "vat_included"
         }
-      ]
+      ],
+      "submission_result": {
+        "submission_id": "62484f75-a06d-4ffa-a05b-34d874f8e5ed",
+        "submission_state": "accepted",
+        "amount_krw": 39675000,
+        "admitted_at": "2026-10-16T03:52:04.960Z",
+        "verification_status": "not_started",
+        "lint_status": "pending",
+        "public_path": "/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/62484f75-a06d-4ffa-a05b-34d874f8e5ed",
+        "receipt_path": "work\\industrial\\receipt-24868996.json"
+      }
     }
   ],
   "raw_comparison_bundles": [
     "work/industrial/psw-mogami-review-bundle.json",
     "work/industrial/fwe667-wf6000-review-bundle.json",
     "work/industrial/imp-mx1646-review-bundle.json"
-  ]
+  ],
+  "accepted_submission_count": 2,
+  "accepted_submission_amount_krw": "119625000",
+  "updated_at": "2026-10-16T04:06:25.133595+00:00"
 }
