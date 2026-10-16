@@ -1,0 +1,141 @@
+{
+  "observed_at": "2026-10-16T05:10:29.508150+00:00",
+  "status_note": "예상 접수액이며 최종 인정·실제 예산 절감액은 미확인",
+  "accepted": [
+    {
+      "item_id": "25051183",
+      "title": "AutoCAD LT 2024 → BricsCAD v25 Lite: 기업용 1년 라이선스 35만 원 비교",
+      "submission_id": "93e5594a-205c-4aad-930d-754f1c2c00e2",
+      "expected_amount_krw": "940289910",
+      "fact_count": 768,
+      "scope": "업무용 단일 사용자 1년 라이선스의 일반적인 DWG 2D 도면 작성·수정·PDF 출력 용도로 한정한 대체 취득가격 비교. 소프트이즈의 부가세 포함 일반가 350,000원을 적용한다. 전자 발송으로 실물 운송료가 없다. 학교·학생용, 무료 체험판, 할인 견적가를 쓰지 않았다. 기관별 실제 도면의 호환성 시험과 전환 교육·맞춤 프로그램 수정 비용은 포함하지 않았다. 원품 AutoCAD LT 2024, 대체품 BricsCAD v25 Lite. 차이·제한: 원품은 Autodesk AutoCAD LT 2024, 판매품은 Bricsys BricsCAD v25 Lite다. 제조사·제품·버전이 다른 대체 소프트웨어다. 원품의 단일 사용자 1년과 판매품의 기업용 싱글 1년 구독을 비교했다. 두 제품은 DWG 2D 도면 작성·편집과 PDF 출력을 지원한다. AutoCAD LT 2024도 AutoLISP를 지원하므로 원품에 LISP가 없다고 주장하지 않는다. BricsCAD V25 문서의 LISP 지원과 별개로 기관별 사용자 코드·폰트·동적 블록·외부 참조·플러그인의 동작을 시험하지 않았다. Autodesk 웹·모바일 편집, Autodesk Docs 연계, 계정 기반 관리·지원과 모든 기능을 대체품이 같은 방식으로 제공한다고 주장하지 않는다. 이 차액은 일반적인 데스크톱 2D 작업을 대체하는 라이선스 취득가격 기준이며, 모든 기관의 기존 업무를 즉시 대체할 수 있거나 실제 예산이 이미 절감됐다는 주장이 아니다. 도입 교육·설정·변환 작업 비용은 산정하지 않았다.",
+      "price_source": "https://softis.co.kr/Products/ProductDetail/50953",
+      "public_url": "https://hackathon.savetax.now/#/submission/93e5594a-205c-4aad-930d-754f1c2c00e2",
+      "evidence_source_file": "research/submitted/25051183.json"
+    },
+    {
+      "item_id": "25590567",
+      "title": "Acrobat Pro DC R24 → ezPDF Editor 4.0: 기본 PDF 편집용 1년 사용권 55,000원 비교",
+      "submission_id": "be7f5dc6-e076-4b6c-a31a-5ab8a96a6390",
+      "expected_amount_krw": "1789326000",
+      "fact_count": 229,
+      "scope": "Windows PC 1인·1대에서 PDF 문서를 작성·편집·주석 처리하는 기본 업무를 대상으로 1년 사용권 취득가격을 비교한다. 부가세 포함 일반가 55,000원과 전자 발송을 적용했다. 원품의 모든 고급 기능과 기관별 문서 호환성이 같은 제품이라는 비교는 아니다. 무료 개인용·체험판·견적 할인·적립금·다른 3.0 버전의 가격은 쓰지 않았다. 원품 Acrobat Pro DC R24, 대체품 ezPDF Editor 4.0. 차이·제한: 원품은 Adobe Acrobat Pro DC R24의 1User·1년 사용권, 대체품은 유니닥스 ezPDF Editor 4.0 상업용 1인·1PC·1년 사용권이다. 제조사와 제품이 다르다. 공식 물품 속성의 PDF 편집 용도와 대체 제조사의 문서 보기·편집, 주석, 민감정보 삭제, 문서 비교 기능을 대응시켰다. Acrobat의 전자 서명 수집·추적, Adobe 클라우드·모바일 연동, 고급 인쇄 사전 검사, XFA 양식, 접근성 검사, 스크립트 및 기관별 기존 연계의 동일성은 검증하지 않았다. 대체품의 디지털 도장 날인을 Acrobat의 인증서 기반 서명이나 클라우드 서명 요청과 같은 기능이라고 주장하지 않는다. 전환 교육·문서 변환·연계 수정 비용은 반영하지 않았다. 공공기관·폐쇄망용 구매 절차는 제조사 안내를 따로 구분했다. 제조사는 기관용 1인·1PC 연간 가격도 55,000원으로 공시하고, 컴퓨존의 기업(기관)용 1년 상품 역시 55,000원·라이선스 이메일 발송을 표시한다. 모든 납품기관의 특수망·업무를 즉시 대체할 수 있거나 실제 예산이 이미 절감됐다는 주장이 아니다.",
+      "price_source": "https://softis.co.kr/Products/ProductDetail/51028",
+      "public_url": "https://hackathon.savetax.now/#/submission/be7f5dc6-e076-4b6c-a31a-5ab8a96a6390",
+      "evidence_source_file": "research/submitted/25590567.json"
+    }
+  ],
+  "candidate_25051185": {
+    "state_at_lookup": "available",
+    "original": "AutoCAD 2024, 복수사용자, 1년",
+    "official_fact_count": 89,
+    "official_quantity": "707",
+    "official_amount_krw": "2286438000",
+    "observed_retail_candidate": {
+      "model": "BricsCAD Mechanical 1년 네트워크",
+      "seller": "디씨앤아이티",
+      "source_url": "https://dcnit.com/product/detail.html?product_no=400",
+      "displayed_price_krw": "1848000",
+      "shipping_text": "무료. 산간·도서는 추가금 가능 안내",
+      "native_price_and_buy_observed": true,
+      "quote": "판매가 1,848,000원. 최소주문수량 1개 이상. 총 상품금액 1,848,000원(1개). 바로 구매하기.",
+      "vat_explicit_text_observed": false,
+      "model_version_explicit": false,
+      "brochure_note": "상세 설명 파일명은 V21을 포함한다. 이것만으로 실제 발급 버전을 확정하지 않았다."
+    },
+    "unadjusted_gap_at_displayed_price_krw": "979902000",
+    "ready_to_submit": false,
+    "remaining": "세금·실제 발급 버전·복수사용권의 범위를 확정한 비교가 필요하다. 일반 단독실행형 가격을 네트워크 가격으로 쓰지 않는다."
+  },
+  "other_findings": [
+    {
+      "model": "SmartCAD Pro WEB",
+      "seller": "진진씨앤씨",
+      "source_url": "https://www.jinjinshop.co.kr/shop_goods/goods_view.htm?category=03020000&goods_idx=27245",
+      "displayed_price_krw": "1485000",
+      "finding": "웹 인증은 동시 접속자 수 기준이며 영구 사용이라고 표시. 상세 이미지의 기능 설명은 2D CAD 중심이다. AutoCAD 3D 기능과 동등하다고 주장하지 않았다. 1+1을 임의로 동시 사용자 2명으로 환산하지 않았다."
+    },
+    {
+      "model": "알PDF 4.0 1년",
+      "source_url": "https://softis.co.kr/Products/ProductDetail/50908",
+      "discovery_price_krw": "40000",
+      "finding": "더 낮은 검색 가격은 발견했으나 제조사는 기업·공공기관용 라이선스를 구분한다. 이 가격의 기관 사용권을 확인하지 않고 소매 최저 비교가로 넣지 않았다."
+    }
+  ],
+  "followup_lookup": [
+    {
+      "input": "25590568",
+      "kind": "item",
+      "item_id": "25590568",
+      "state": "on_hold",
+      "message": "운영진이 반려한 물품이라 2026-10-16 23:39(한국 시각)까지 등록할 수 없습니다 — 그 뒤에 다시 확인하세요",
+      "hold_until": "2026-10-16T14:38:36.012Z"
+    },
+    {
+      "input": "25590571",
+      "kind": "item",
+      "item_id": "25590571",
+      "state": "on_hold",
+      "message": "운영진이 반려한 물품이라 2026-10-17 01:36(한국 시각)까지 등록할 수 없습니다 — 그 뒤에 다시 확인하세요",
+      "hold_until": "2026-10-16T16:35:03.362Z"
+    },
+    {
+      "input": "25590567",
+      "kind": "item",
+      "item_id": "25590567",
+      "state": "available",
+      "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+    },
+    {
+      "input": "25051185",
+      "kind": "item",
+      "item_id": "25051185",
+      "state": "available",
+      "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+    },
+    {
+      "input": "24485653",
+      "kind": "item",
+      "item_id": "24485653",
+      "state": "available",
+      "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+    },
+    {
+      "input": "25056651",
+      "kind": "item",
+      "item_id": "25056651",
+      "state": "available",
+      "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+    },
+    {
+      "input": "25187403",
+      "kind": "item",
+      "item_id": "25187403",
+      "state": "available",
+      "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+    },
+    {
+      "input": "26080143",
+      "kind": "item",
+      "item_id": "26080143",
+      "state": "on_hold",
+      "message": "운영진이 반려한 물품이라 2026-10-16 23:39(한국 시각)까지 등록할 수 없습니다 — 그 뒤에 다시 확인하세요",
+      "hold_until": "2026-10-16T14:38:28.936Z"
+    },
+    {
+      "input": "25744758",
+      "kind": "item",
+      "item_id": "25744758",
+      "state": "on_hold",
+      "message": "운영진이 반려한 물품이라 2026-10-16 23:39(한국 시각)까지 등록할 수 없습니다 — 그 뒤에 다시 확인하세요",
+      "hold_until": "2026-10-16T14:38:21.589Z"
+    },
+    {
+      "input": "25187399",
+      "kind": "item",
+      "item_id": "25187399",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    }
+  ]
+}
