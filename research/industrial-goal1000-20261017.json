@@ -16,9 +16,9 @@
     "stored_available_official_total_over_minimum_rows": 33,
     "fresh_direct_primary_pages_saved": 25,
     "new_confirmed_saving_candidates": 1,
-    "actual_parallel_calls": 131,
-    "fresh_official_item_details": 99,
-    "fresh_official_scorable_facts": 7845,
+    "actual_parallel_calls": 133,
+    "fresh_official_item_details": 101,
+    "fresh_official_scorable_facts": 7906,
     "actual_jev_calls": 14
   },
   "access": {
@@ -1849,6 +1849,20 @@
       "search_id": "search_56af06ddfaf775a65ef8f728c9109c56",
       "observed_at": "2026-10-16T22:15:44.924209+00:00",
       "returned_results": 5
+    },
+    {
+      "file": "work/industrial-goal1000/parallel-pac17-next-exact.json",
+      "query": "금성이엔씨 PAC17 폴리염화알루미늄 17% 탱크로리 톤 판매 가격",
+      "search_id": "search_ebc32a75829ed498663073975fa3b4b5",
+      "observed_at": "2026-10-16T22:25:29.610500+00:00",
+      "returned_results": 6
+    },
+    {
+      "file": "work/industrial-goal1000/parallel-ecodanoga-next-exact.json",
+      "query": "뉴보텍 에코 다노가 제설제 10kg 판매 가격",
+      "search_id": "search_cb717accc8ba052934c510e85ec86c29",
+      "observed_at": "2026-10-16T22:25:30.391926+00:00",
+      "returned_results": 6
     }
   ],
   "jev_actual_call": {
@@ -85264,6 +85278,222 @@
       "action": "기아캐노피는기등록개혁발굴상태라원규격·가격검색없이중단했다. 차량/부품판정이나신규실독완료로세지않는다."
     },
     "decision": "공식수량·단위와실제완성물품범위는보존했으나동일완제품의일반판매가격이없어B·예상액미채택.",
+    "preview_count": 0,
+    "post_count": 0
+  },
+  "pac17_and_eco_danoga_original_bulk_scope_followup": {
+    "observed_at": "2026-10-16T22:29:09.875327+00:00",
+    "official_records": [
+      {
+        "item_id": "22646465",
+        "name": "폴리염화알루미늄, 금성이엔씨, PAC17, 산화알루미늄16~18%",
+        "state": "available",
+        "official_C_krw": "2115397500",
+        "official_Q": "8850",
+        "scorable_fact_count": 7,
+        "total_fact_count": 7,
+        "unique_scorable_request_no_count": 7,
+        "unit_counts": {
+          "톤": 7
+        },
+        "tax_basis_counts": {
+          "vat_included": 7
+        },
+        "event_source_url": "https://hackathon.savetax.now/v1/events/current/items/22646465",
+        "raw_fact_file": "work/industrial-goal1000/pac17-next-event.json",
+        "catalog_file": "work/industrial-goal1000/pac17-next-catalog.json",
+        "listing_file": "work/industrial-goal1000/pac17-next-listing.json",
+        "all_fulfillment_references_format": "contract_no|request_no|line_no",
+        "all_fulfillment_references": [
+          "R25TA01202659|R26TB01936871|1",
+          "R25TA01202659|R26TB01963660|1",
+          "R25TA01202659|R26TB02030220|1",
+          "R25TA01202659|R26TB02127014|1",
+          "R25TA01202659|R26TB02249847|1",
+          "R25TA01202659|R26TB02259682|1",
+          "R25TA01202659|R26TB02311420|1"
+        ],
+        "exploration_B_ceiling_for_10eok": "126033.6158192090395480225989",
+        "ceiling_caveat": "전량의 탐색용 평균 상한으로, 실제 비교단가나 fact별 점수는 아니다.",
+        "adopted_B": null,
+        "expected_saving_krw": null
+      },
+      {
+        "item_id": "24346731",
+        "name": "고상제설제, 뉴보텍, 에코-다노가 10kg, 환경표지2종, 10kg/포",
+        "state": "available",
+        "official_C_krw": "1614331200",
+        "official_Q": "260376",
+        "scorable_fact_count": 54,
+        "total_fact_count": 54,
+        "unique_scorable_request_no_count": 54,
+        "unit_counts": {
+          "포": 54
+        },
+        "tax_basis_counts": {
+          "vat_included": 54
+        },
+        "event_source_url": "https://hackathon.savetax.now/v1/events/current/items/24346731",
+        "raw_fact_file": "work/industrial-goal1000/ecodanoga-next-event.json",
+        "catalog_file": "work/industrial-goal1000/ecodanoga-next-catalog.json",
+        "listing_file": "work/industrial-goal1000/ecodanoga-next-listing.json",
+        "all_fulfillment_references_format": "contract_no|request_no|line_no",
+        "all_fulfillment_references": [
+          "002270421_1|R25TB01043675|1",
+          "002270421_1|R25TB01062060|1",
+          "002270421_1|R25TB01065235|1",
+          "002270421_1|R25TB01084074|1",
+          "002270421_1|R25TB01102393|1",
+          "002270421_1|R25TB01104390|1",
+          "002270421_1|R25TB01111492|1",
+          "002270421_1|R25TB01133327|1",
+          "002270421_1|R25TB01139583|1",
+          "002270421_1|R25TB01142578|1",
+          "002270421_1|R25TB01147616|1",
+          "002270421_1|R25TB01148701|1",
+          "002270421_1|R25TB01155845|1",
+          "002270421_1|R25TB01155879|1",
+          "002270421_1|R25TB01164599|1",
+          "002270421_1|R25TB01168799|1",
+          "002270421_1|R25TB01181042|1",
+          "002270421_1|R25TB01194765|1",
+          "002270421_1|R25TB01197353|1",
+          "002270421_1|R25TB01209254|1",
+          "002270421_1|R25TB01209773|1",
+          "002270421_1|R25TB01218112|1",
+          "002270421_1|R25TB01223331|1",
+          "002270421_1|R25TB01231988|1",
+          "002270421_1|R25TB01233438|1",
+          "002270421_1|R25TB01237155|1",
+          "002270421_1|R25TB01246212|1",
+          "002270421_1|R25TB01272212|1",
+          "002270421_1|R25TB01287368|1",
+          "002270421_1|R25TB01297620|1",
+          "002270421_1|R25TB01304061|1",
+          "002270421_1|R25TB01330625|1",
+          "002270421_1|R25TB01334166|1",
+          "002270421_1|R25TB01341032|1",
+          "002270421_1|R25TB01342277|1",
+          "002270421_1|R26TB01413829|1",
+          "002270421_1|R26TB01424506|1",
+          "002270421_1|R26TB01427919|1",
+          "002270421_1|R26TB01427975|1",
+          "002270421_1|R26TB01434941|1",
+          "002270421_1|R26TB01437349|1",
+          "002270421_1|R26TB01438404|1",
+          "002270421_1|R26TB01487444|1",
+          "002270421_1|R26TB01568055|1",
+          "002270421_1|R26TB01654856|1",
+          "002270421_1|R26TB01679430|1",
+          "002270421_1|R26TB01742200|1",
+          "002270421_1|R26TB02003701|1",
+          "002270421_1|R26TB02034544|2",
+          "002270421_1|R26TB02179972|1",
+          "002270421_1|R26TB02221016|1",
+          "002270421_1|R26TB02298192|1",
+          "002270421_1|R26TB02333800|1",
+          "002270421_1|R26TB02336086|1"
+        ],
+        "exploration_B_ceiling_for_10eok": "2359.400251943343472516668203",
+        "ceiling_caveat": "전량의 탐색용 평균 상한으로, 실제 비교단가나 fact별 점수는 아니다.",
+        "adopted_B": null,
+        "expected_saving_krw": null
+      }
+    ],
+    "PAC17": {
+      "manufacturer": "금성이엔씨(주), 사업자1138136157",
+      "listing_id": "R25TA01202659110000004",
+      "delivery_scope": "액상 산화알루미늄16~18% PAC17을 탱크로리로 수요기관 탱크에 주입한다. 단위톤이며 분말이나10%액상과 같은 질량으로 대입하지 않는다.",
+      "original_document": {
+        "source_archive": "work/industrial-goal1000/complete-next-pac17-spec-download/금성이엔씨&#40;주&#41;-규격서.zip",
+        "source_member_as_stored": "PAC▒╘░▌╝¡_260407.PDF",
+        "decoded_korean_member": "PAC규격서_260407.PDF",
+        "source_file": "work/industrial-goal1000/complete-next-pac17-spec-download/extracted/PAC규격서_260407.PDF",
+        "bytes": 1147450,
+        "sha256": "093b135d3521596ebf0f0353fb71dd574d30f680d5bed0cf10523faa55e74ef4",
+        "observed_at": "2026-10-16T22:26:45.541353+00:00"
+      },
+      "original_read_method": "pdftotext 결과는5쪽 모두 본문이 비었다. PDF5쪽을 PNG로 렌더링해 실제 그림 전체를 읽었다. 별도6,430,423바이트 적격심사서류는 저장만 했고 실독 완료로 세지 않았다.",
+      "visual_pages": [
+        "work/industrial-goal1000/pac17-next-spec-p-1.png",
+        "work/industrial-goal1000/pac17-next-spec-p-2.png",
+        "work/industrial-goal1000/pac17-next-spec-p-3.png",
+        "work/industrial-goal1000/pac17-next-spec-p-4.png",
+        "work/industrial-goal1000/pac17-next-spec-p-5.png"
+      ],
+      "original_read": "1쪽 정확물품22646465/PAC3종/PAC17/16~18%/염기도35%이상/수요기관탱크주입도. 2쪽1톤 제조표는 수산화알루미늄290kg·염산600kg·물110kg이다. 3~4쪽 품질기준의 PAC3종 산화알루미늄은15~18%·pH3.5~5.0·비중1.19이상이다. 1쪽모델표16~18%와 품질표15~18%의 범위 차이를 보존했다. 5쪽 탱크로리 공급·제품종류/농도/제조자/시험성적서 제시를 명시한다.",
+      "manufacturer_source_url": "http://www.ksenc.co.kr/html/product/product_view.php?part_idx=2&idx=14",
+      "manufacturer_source_file": "work/industrial-goal1000/pac17-maker-product17-next.json",
+      "manufacturer_actual_text": "PAC17%·포장말통/드럼/IBC/벌크·Al2O3 15~18%·염기도35이상·비중20℃1.19이상·pH1%Sol3.5~5.0, 사업자1138136157 일치. 숫자 일반판매가는 없다.",
+      "access_limit": "최초 홈페이지는/html/index/로 리다이렉트됐다. 상대 링크를루트/product/로 잘못 해석한404는 따로 보존했고 실제/html/product/를 새로 읽었다. 404를 제조사 전체 실패로 읽지 않는다.",
+      "search_file": "work/industrial-goal1000/parallel-pac17-next-exact.json",
+      "search_id": "search_ebc32a75829ed498663073975fa3b4b5",
+      "search_finding": "동일 제조사의 일반 톤가격을 못 찾았다. 다른 중국 고체PAC·황산알루미늄·지방공기업구입단가·견적문의 가격을 민수B로 쓰지 않았다.",
+      "adopted_B": null,
+      "vat_included": null,
+      "shipping_included": null
+    },
+    "eco_danoga_10kg": {
+      "manufacturer": "(주)뉴보텍, 사업자2248104616",
+      "listing_id": "002270421_1080000001",
+      "delivery_scope": "10kg/포 완성 고상제설제, 환경표지2종, 납품장소차상도.",
+      "original_file": "/Users/aaron-son/Documents/savetax-research-agent/work/industrial-goal1000/complete-next-ecodanoga-spec-download/221104_우수제품 규격서&#40;2022157&#41;_&#40;주&#41;뉴보텍.hwp",
+      "original_bytes": 2703360,
+      "original_sha256": "5d9c9f58b33bdabf6de4f0c04a7de3e067431e9e5be347968969c8927f2cf5da",
+      "original_revision_review": {
+        "status": "not_assessed",
+        "scope": "hwp_not_assessed",
+        "marker_counts": null,
+        "text_policy": "revision_accept_reject_not_applied"
+      },
+      "original_text_file": "work/industrial-goal1000/ecodanoga-next-spec-text.txt",
+      "original_read": "동일 규격서에1000kg24346733·25kg24346732·10kg24346731이 구분돼 있다. 염화나트륨/염화칼슘에 구연산·인산염·글리세린·숯·셀락을 넣는 완성 혼합제이며 융빙 지속성·부식/생태독성·미세오염원저감·고결화방지 목적이다. 10/25kg은 PE비닐포장 후 톤백에 담는다고 명시한다. 일반 염화칼슘이나 다른 경기케미칼 다녹스를 동일모델로 쓰지 않는다.",
+      "manufacturer_source_url": "https://www.nuvotec.co.kr/main/?skin=prod_05.htm",
+      "manufacturer_source_file": "work/industrial-goal1000/ecodanoga-maker-product-next.json",
+      "manufacturer_read": "실제 제조사페이지가 세포장과 정확식별번호, 제설·저부식·고결화방지 기능을 확인한다. 숫자 일반가는 없다. 최초HTTP주소는HTTPS리다이렉트JS만반환했다. gzip바이트와EUC-KR을해석한 최종원문을 저장했고, 앞선 잘못 디코딩한 본문을 실독성공으로 쓰지 않았다.",
+      "retail_paths": [
+        {
+          "url": "https://prod.danawa.com/info/?pcode=18402110",
+          "http_file": "work/industrial-goal1000/ecodanoga-danawa25-next.json",
+          "browser_file": "work/industrial-goal1000/ecodanoga-danawa25-next-browser.json",
+          "actual_observation": "HTTP403후 독립브라우저의 실제25kg상세를 읽었다. 일시품절·가격비교0·연결판매처0이며 다른 제습제 광고가격을 B로 쓰지 않았다.",
+          "verified_current_offer": false
+        },
+        {
+          "url": "https://prod.danawa.com/info/?pcode=30077465",
+          "http_file": "work/industrial-goal1000/ecodanoga-danawa40-next.json",
+          "actual_observation": "25kg40포 탐색주소 HTTP403. 검색단서의 가격비교중지는 독립 판매가가 아니다.",
+          "verified_current_offer": false
+        },
+        {
+          "url": "https://www.coupang.com/vp/products/7172495450",
+          "http_file": "work/industrial-goal1000/ecodanoga-coupang25-next.json",
+          "browser_file": "work/industrial-goal1000/ecodanoga-coupang25-next-browser.json",
+          "actual_observation": "일반HTTP403와독립브라우저AccessDenied를확인했다. 검색에서발견한25kg23000원/40포840000원은실제판매원문을읽지못했으므로가격근거가아니다. 포장도원품10kg와달라그대로같은포가격으로쓰지않는다.",
+          "verified_current_offer": false
+        }
+      ],
+      "search_file": "work/industrial-goal1000/parallel-ecodanoga-next-exact.json",
+      "search_id": "search_cb717accc8ba052934c510e85ec86c29",
+      "adopted_B": null,
+      "vat_included": null,
+      "shipping_included": null
+    },
+    "other_state_only": [
+      {
+        "item_id": "24553596",
+        "model": "SG081BB",
+        "state": "claimed",
+        "file": "work/industrial-goal1000/partition-sg081bb-next-lookup.json"
+      },
+      {
+        "item_id": "24301620",
+        "model": "GW_WPC D01N",
+        "state": "claimed",
+        "file": "work/industrial-goal1000/greenwood-deck-next-lookup.json"
+      }
+    ],
+    "decision": "두 available 후보의 공식 공급범위와61개scorable fact를 새로 확인했으나 동일제품일반가를 못찾아B·예상액·preview·POST없음. 기존의설치포함자동탈락이나모든원품시험동일성문턱을새로추가하지않았다.",
     "preview_count": 0,
     "post_count": 0
   }
