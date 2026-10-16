@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-16T17:45:00Z",
+  "updated_at_utc": "2026-10-16T17:43:26.672323+00:00",
   "goal_total_expected_score_krw": "100000000000",
   "latest_user_minimum_per_new_submission_krw": "1000000000",
   "required_average_reference_krw": "1780000000",
@@ -22,7 +22,7 @@
   },
   "fresh_available_full_fact_items": 13,
   "all_references_count": 1663,
-  "actual_parallel_search_calls": 27,
+  "actual_parallel_search_calls": 39,
   "parallel_evidence_files": [
     "work/hardware-goal1000/parallel-asw2224.json",
     "work/hardware-goal1000/parallel-axxon-deep.json",
@@ -31,6 +31,8 @@
     "work/hardware-goal1000/parallel-axxon-perpetual.json",
     "work/hardware-goal1000/parallel-axxon-professional-delivery.json",
     "work/hardware-goal1000/parallel-c9300-license.json",
+    "work/hardware-goal1000/parallel-dahua-nvr-120b-core.json",
+    "work/hardware-goal1000/parallel-dahua-video-metadata-price.json",
     "work/hardware-goal1000/parallel-dw-spectrum.json",
     "work/hardware-goal1000/parallel-fg401f.json",
     "work/hardware-goal1000/parallel-geovision-license.json",
@@ -41,8 +43,18 @@
     "work/hardware-goal1000/parallel-inex-license.json",
     "work/hardware-goal1000/parallel-inex-price.json",
     "work/hardware-goal1000/parallel-itu1000-exact.json",
+    "work/hardware-goal1000/parallel-ivss-kr-price.json",
+    "work/hardware-goal1000/parallel-ivss7108-kr-price.json",
     "work/hardware-goal1000/parallel-leopard.json",
     "work/hardware-goal1000/parallel-milestone-kr.json",
+    "work/hardware-goal1000/parallel-mps-tax-evidence.json",
+    "work/hardware-goal1000/parallel-nvr-deepinmind-kr.json",
+    "work/hardware-goal1000/parallel-nvr-deepinmind-seller.json",
+    "work/hardware-goal1000/parallel-nvr-metadata-kr.json",
+    "work/hardware-goal1000/parallel-nvr-xi-retail-kr.json",
+    "work/hardware-goal1000/parallel-nvr5208ei2-btob.json",
+    "work/hardware-goal1000/parallel-nvr5208ei2-retail-tax.json",
+    "work/hardware-goal1000/parallel-nvr5208ei2-retail-vat.json",
     "work/hardware-goal1000/parallel-nx-wave-korean.json",
     "work/hardware-goal1000/parallel-pr310-license.json",
     "work/hardware-goal1000/parallel-sniper5300.json",
@@ -28000,5 +28012,290 @@
       ]
     ],
     "ready": 0
+  },
+  "round7_av_video_0_8b": {
+    "observed_kst": "2026-10-17 03:10~03:25",
+    "scanned": 104,
+    "available": 15,
+    "file": "work/hardware-goal1000/frontier/av-0.8b-available.json",
+    "verdicts": [
+      [
+        "25619100 JHDC-4831AI PTZ",
+        "800만 화소·14.11mm CMOS·31배·AI. 동일 모델 소매 없음, 0.8B에 B≤960,583원 필요해 큰 센서 PTZ의 명확한 상위 대체 불가"
+      ],
+      [
+        "24911369 STM-7077",
+        "태양광·15m 기둥·다중 카메라 일체 방범 시스템 세트, 동일·상위 완제품 없음"
+      ],
+      [
+        "24387617 CStDS P08",
+        "필름형 투명 LED 디스플레이 구성 세트, B≤965,990원/조, 규격 불명"
+      ],
+      [
+        "25667929 Prime5G-SYS-L135",
+        "암호화 저장장치+안내전광판 5개 세트, 전용 시스템"
+      ],
+      [
+        "24784883/25161840 AILED",
+        "융복합 안내전광판 세트, 맞춤 제작"
+      ],
+      [
+        "24300336 SMARTVISION ITS",
+        "교통정보전광판 맞춤 제작"
+      ],
+      [
+        "23617728 LDP-1802",
+        "양면 3색 LED 안내전광판 2620×380mm, B≤794,693원, 맞춤 제작"
+      ],
+      [
+        "24820118 DPA-DP-1041",
+        "전관방송 30종 구성 세트, 구성품 가격 대응 불가"
+      ],
+      [
+        "25268559 ICD-1S145",
+        "가상화 서버+C-STREAM 1CH SW 중앙감시 세트"
+      ],
+      [
+        "26161319 TAC-OA6081RG03",
+        "AI 블릿 카메라+PoE 스위치, B≤391,068원 필요, 전용 AI 분석"
+      ],
+      [
+        "25914196/25004877 홍석",
+        "태양광 방범 시스템 세트"
+      ],
+      [
+        "25135764 EGM271FS2",
+        "B≤26,877원 필요"
+      ],
+      [
+        "25206275 SSM-P001",
+        "B≤4,128원 필요"
+      ]
+    ],
+    "ef_core_krw": "Parallel 3회·usashop 재검색에서 국내 원화 판매 페이지 없음",
+    "ready": 0
+  },
+  "ioie_ei2_followup": {
+    "updated_at_utc": "2026-10-16T17:43:26.672323+00:00",
+    "item_id": "24066903",
+    "related_not_equivalent_yet": "24338860",
+    "status": "완성 구성 검증 중·VAT 미확정",
+    "submission_ready": false,
+    "adopted_saving_krw": "0",
+    "original_scope": "IOIE v1.0의 1조는 영상 1CH의 영구 객체 정보 추출·저장·검색 사용권이다. RTSP/H.264 및 웹 클라이언트를 지원한다. 권장 i7/RAM8GB/GPU2080Ti/HDD256GB는 별도 설치 하드웨어다. 기본 커스터마이징·현장 설치·검수·1년 하자보수와 교육 등 서비스가 포함된다.",
+    "original_visual_review": {
+      "path": "work/hardware-goal1000/ioie-images/BIN0001.png",
+      "finding": "원 HWP의 서비스 구성도에서 CCTV·IOIE·VMS가 네트워크로 연결되는 구조를 직접 읽었다. 그림의 서버 외형을 하드웨어 포함 가격으로 해석하지 않았다.",
+      "hwp_revision_review": "not_assessed"
+    },
+    "alternative": {
+      "manufacturer": "Dahua",
+      "model": "DHI-NVR5208-EI2",
+      "analysis_channels_per_recorder": 4,
+      "recording_input_channels": 8,
+      "license_type": "하드웨어에 내장된 로컬 AI 기능. 클라우드 구독·AI 카메라 추가를 전제로 하지 않는다.",
+      "storage_required": "HDD 미포함 판매이므로 실제 HDD 구입비를 별도 합산한다.",
+      "poe": false
+    },
+    "sources": [
+      {
+        "use": "정확한 모델의 제조사 4쪽 데이터시트",
+        "url": "https://materialfile.dahuasecurity.com/uploads/cpq/83540/datasheet/DHI-NVR5208-EI2_S0_datasheet_20260626_English.pdf",
+        "http_status": 200,
+        "bytes": 2246289,
+        "sha256": "c7785ba78f031eb107230d50e6442dd66c3e32c4f6b4aa29300b99da987fe218",
+        "local_path": "work/hardware-goal1000/dahua5208ei2-spec.pdf",
+        "visual_review": "실제 2쪽을 렌더하고 AI by Recorder의 4채널·22속성 표를 직접 대조했다."
+      },
+      {
+        "use": "정확 모델 제품 페이지에서 연결된 현행 범용 매뉴얼",
+        "url": "https://materialfile.dahuasecurity.com/uploads/cpq/88595/user_manual/Dahua_Network_Video_Recorder_User_Manual_V1.1.1.pdf",
+        "http_status": 200,
+        "bytes": 62438193,
+        "sha256": "6af15b1629502e630e448b2c378a7d67ff8be320ff78bb7f8f070d42b107d1f8",
+        "local_path": "work/hardware-goal1000/dahua-nvr-manual.pdf",
+        "visual_review": "PDF78쪽(본문67쪽)의 객체 속성 검색·결과 목록·내보내기를 렌더해 확인했고 PDF271쪽(본문260쪽)의 웹 운영 범위와 범용 매뉴얼 주의문을 확인했다."
+      },
+      {
+        "use": "국내 일반 판매 원문",
+        "url": "https://www.mpsmall.co.kr/goods/goods_view.php?goodsNo=1000001474",
+        "observed_at": "2026-10-16T17:27:13.905011+00:00",
+        "quote": "504,000원 / 배송비 0원 / DHI-NVR5208-EI2",
+        "local_paths": [
+          "work/hardware-goal1000/mps5208ei2.html",
+          "work/hardware-goal1000/mps5208ei2-native.json",
+          "work/hardware-goal1000/mps5208ei2-native-qty.json"
+        ]
+      },
+      {
+        "use": "필수 저장장치의 국내 일반 판매 원문",
+        "url": "https://www.mpsmall.co.kr/goods/goods_view.php?goodsNo=241",
+        "observed_at": "2026-10-16T17:35:55.284439+00:00",
+        "quote": "269,000원 / 배송비 3,500원 / ST1000VX013",
+        "local_paths": [
+          "work/hardware-goal1000/mps-hdd1tb.html",
+          "work/hardware-goal1000/mps-hdd1tb-native.json"
+        ]
+      },
+      {
+        "use": "플랫폼의 공개 데이터 필드 해석에만 사용",
+        "url": "https://devcenter.nhn-commerce.com/godomall5/openapi/specDownload",
+        "local_path": "work/hardware-goal1000/godo-openapi-spec.pdf",
+        "finding": "taxFreeFl=t는 과세, taxPercent는 과세율, goodsPrice는 판매가다. 판매가가 VAT 포함이라는 명문은 아직 찾지 못했다."
+      }
+    ],
+    "function_mapping": [
+      {
+        "purpose": "영상 객체 정보 추출",
+        "original": "IOIE v1.0 1CH",
+        "alternative": "분석기 자체 4CH의 사람·자동차·비자동차 22속성 추출",
+        "status": "제조사 정확 모델 표로 확인",
+        "limit": "원품의 객체 종류 전체·정확도·특수 행동 인식까지 같거나 더 높다고 확정하지 않는다."
+      },
+      {
+        "purpose": "저장 및 검색",
+        "original": "추출 정보 저장·검색",
+        "alternative": "온보드 SATA HDD, 대상 속성별 결과 목록·검색 및 이미지 내보내기",
+        "status": "제조사 표와 해당 제품이 연결한 매뉴얼 대조",
+        "limit": "기존 IOIE MAM/MAS DB의 직접 호환·메타데이터 이관·타 VMS의 기존 연계는 미검증이다."
+      },
+      {
+        "purpose": "웹 접근",
+        "original": "웹 클라이언트",
+        "alternative": "제조사 표의 Web/Local GUI 및 매뉴얼 웹 PLAYBACK/snapshot search",
+        "status": "공개 문서 확인",
+        "limit": "복수 NVR의 수백 채널 단일 통합 검색으로 확대하지 않는다."
+      },
+      {
+        "purpose": "영상 입력",
+        "original": "RTSP를 지원하는 모든 장비·소프트웨어, H.264",
+        "alternative": "RTSP/H.264, ONVIF 및 명시된 타사 카메라 지원",
+        "status": "정확 모델 표 확인",
+        "limit": "모든 RTSP 소프트웨어·임의 URL의 입력과 기존 시스템별 호환까지 보증하지 않는다."
+      },
+      {
+        "purpose": "업무용 설치·지원",
+        "original": "현장 설치·커스터마이징·1년 하자보수·교육 포함",
+        "alternative": "신품 미개봉 장치와 별도 HDD의 취득 가격",
+        "status": "차이 공개",
+        "limit": "현장 구축·연계·교육·보수 서비스를 소매 표시가에 포함한다고 확정하지 않으며 비용은 미산정이다."
+      }
+    ],
+    "price_components": [
+      {
+        "model": "DHI-NVR5208-EI2",
+        "observed_price_krw": "504000",
+        "quantity": 1,
+        "shipping_krw": "0",
+        "tax_basis": null,
+        "visible_quantity1_total_verified": true,
+        "mandatory_product_options": [],
+        "source": "https://www.mpsmall.co.kr/goods/goods_view.php?goodsNo=1000001474"
+      },
+      {
+        "model": "ST1000VX013",
+        "observed_price_krw": "269000",
+        "quantity": 1,
+        "shipping_krw": "3500",
+        "tax_basis": null,
+        "visible_quantity1_total_verified": true,
+        "source": "https://www.mpsmall.co.kr/goods/goods_view.php?goodsNo=241",
+        "difference": "제목은 SATA3/64MB이고 과거 짧은 설명은 SATA2/8MB다. 실제 모델·호환성의 추가 제조사 대조 전 전체 구성을 확정하지 않는다."
+      }
+    ],
+    "vat_review": {
+      "status": "미확정",
+      "public_product_metadata": {
+        "taxFreeFl": "t",
+        "taxPercent": "10.0"
+      },
+      "interpretation": "10% 과세 대상이라는 사실과 표시가에 VAT가 포함됐다는 사실은 구분한다. 포함/별도를 임의 선언하지 않는다.",
+      "checked": [
+        "국내 판매 상세 HTTP",
+        "모바일/PC 실제 DOM",
+        "공통 상세 이미지 6개",
+        "공개 이용안내",
+        "FAQ",
+        "이용약관",
+        "공지 검색",
+        "고도몰 공식 OpenAPI PDF",
+        "고도몰 상품 등록·세금계산서 도움말"
+      ],
+      "next": "판매처의 VAT 포함 안내 또는 동일 필드의 플랫폼 명확한 세금 포함 정의가 필요하다."
+    },
+    "economic_scenarios_only": [
+      {
+        "item_id": "24066903",
+        "scenario_cost_per_4_analysis_ch_krw": "776500",
+        "note": "상품+1TB HDD+HDD 단독 배송비, VAT 미확인",
+        "fact_floor_scenario_difference_krw": "1476281500",
+        "adopted": false
+      },
+      {
+        "item_id": "24066903",
+        "scenario_cost_per_4_analysis_ch_krw": "854150",
+        "note": "위 합계에 10%를 추가한 탐색 상한 시나리오. 실제 VAT 포함 표시가 아님",
+        "fact_floor_scenario_difference_krw": "1349789650",
+        "adopted": false
+      },
+      {
+        "item_id": "24338860",
+        "scenario_cost_per_4_analysis_ch_krw": "776500",
+        "note": "상품+1TB HDD+HDD 단독 배송비, VAT 미확인",
+        "fact_floor_scenario_difference_krw": "2896235500",
+        "adopted": false
+      },
+      {
+        "item_id": "24338860",
+        "scenario_cost_per_4_analysis_ch_krw": "854150",
+        "note": "위 합계에 10%를 추가한 탐색 상한 시나리오. 실제 VAT 포함 표시가 아님",
+        "fact_floor_scenario_difference_krw": "2784963050",
+        "adopted": false
+      }
+    ],
+    "scenario_warning": "공식 fact의 Q를 4분석CH 단위로 행마다 올림한 탐색 계산이다. VAT 미확정·기능/구성 미확인으로 실제 비교 B, 공식 preview, 접수액이 아니다. 8녹화CH를 8분석CH로 대입하지 않았다.",
+    "central_management_limit": {
+      "source": "https://material.dahuasecurity.com/uploads/soft/20230103/DSS-Express_System-Requirements-and-Performance_V8.2.0_20221222.pdf",
+      "finding": "무료 DSS Express의 일반 영상64CH와 메타데이터8CH 한도를 구분했다. 무료64CH를 모두 객체 메타데이터 통합검색이라고 쓰지 않는다.",
+      "adopted": false
+    },
+    "retail_negative": [
+      {
+        "seller": "Techinn",
+        "url": "https://www.tradeinn.com/techinn/ko/dahua-dhi-nvr5208-ei2-비디오-감시-녹화기/143096298/p",
+        "observed_price_krw": "619230",
+        "observed_country": "KR",
+        "status": "미채택",
+        "reason": "완전 로드 후 원화 일반가는 확인했으나 한국 설정에서 초기 HTML의 관부가세 포함/추가 요금 없음 문구가 실제 표시에서 사라졌다. 한국 countryData는 iva_pais=0, actiu_aduana=1이다. 정적 shippingRate4484.18KRW도 한국 배송 확정값으로 쓰지 않는다. 상세의384Mbps/2CH얼굴은 정확 EI2의448Mbps/4CH메타데이터와 불일치한다.",
+        "artifacts": [
+          "work/hardware-goal1000/techinn-ei2.html",
+          "work/hardware-goal1000/techinn-ei2-public-offers.json",
+          "work/hardware-goal1000/techinn-native-controls.json"
+        ]
+      },
+      {
+        "seller": "Coupang 검색",
+        "status": "단서 제외",
+        "reason": "검색 제목은 EI2지만 선택 모델은 NVR5208-8P-EI인 결과여서 같은 4CH 메타데이터 제품으로 채택하지 않았다."
+      }
+    ],
+    "additional_lookup_handoff": {
+      "path": "work/hardware-goal1000/industrial-network-handoff-lookup.json",
+      "claimed_excluded": [
+        "25402187",
+        "24304334",
+        "22067197"
+      ]
+    },
+    "jev": {
+      "url": "https://www.mpsmall.co.kr/goods/goods_view.php?goodsNo=1000001474",
+      "operation": "DONE",
+      "confidence": 0.3,
+      "latency_ms": 313,
+      "model": "jev-1.13.0",
+      "meaning": "일반 판매 화면 읽기의 다음 동작 예측이다. VAT·사양 동등성 또는 대회 인정 완료가 아니다."
+    },
+    "parallel_actual_saved_call_count": 39,
+    "posting": "접수·수정·커밋·푸시는 부모 root가 직렬 담당한다. 기존 제출은 변경하지 않는다."
   }
 }
