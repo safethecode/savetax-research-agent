@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-16T17:52:29.474233+00:00",
+  "observed_at_utc": "2026-10-16T17:57:53.263029+00:00",
   "scope": "보관 콘크리트·대량 자재 후보의 10억 원 문턱 검토 및 상향 패널 대안 조사",
   "minimum_new_submission_savings_krw": "1000000000",
   "important_unit_note": "사용자 현황110억은11,000,000,000원이다. 목표1,000억까지 남은890억/50회=17.8억 원. 현재 사용자 현황은 API 미검증이다.",
@@ -7,7 +7,7 @@
   "submission_ready_count": 0,
   "new_submission_count": 0,
   "preview_count": 0,
-  "parallel_calls": 82,
+  "parallel_calls": 94,
   "jev_calls": 4,
   "environment_limits": [],
   "sources": [
@@ -197,7 +197,6 @@
     }
   ],
   "next_required_evidence": [
-    "젠픽스 상향 내진 DMC 전체 구성: 시험 대상 치수와 일치하는 일반 판매 부속·완제품, VAT·운임, 실제 구매 수량 및 원품 결합 강도 항목 대응",
     "HY-EP01 대안 DA-BAR의 동일 판매 구성에 해당하는 AC156 SDS 원보고서1~4쪽, 강도·처짐·결합력 대응, 틀세트 포함부재 수량·AL몰딩 마감 및 운임 확인",
     "원품23950712와 상향 대안1784600924의 전체 접합 구성·성능 대응",
     "대체품 해당 선택구성의 실제 내화/열전도/내풍압/수밀 자료; 부재두께 상향만으로 전체우수성 선언하지 않음",
@@ -2310,7 +2309,14 @@
     "shipping_observed_krw": 10000,
     "shipping_quote": "착불 1개 주문시 10,000원",
     "result": "32mm 두께만으로 원품 함몰·완충·체결 기능의 우수성을 확정할 수 없고, 대량 운임도 미확정이다. 한설그린 33,000원은 실제 원문이 조달청가라고 명시해 판매 근거에서 제외했다.",
-    "adopted_savings_krw": null
+    "adopted_savings_krw": null,
+    "further_parallel_files": [
+      "work/bulk-goal1000/parallel-live-87.json",
+      "work/bulk-goal1000/parallel-live-88.json",
+      "work/bulk-goal1000/parallel-live-89.json",
+      "work/bulk-goal1000/parallel-live-90.json"
+    ],
+    "further_result": "더 두꺼운32mm 및 실제KG-M500 일반가 검색4회. 원품 돔·완충·체결구조보다 우수함이 입증된 새 저가 완제품 없음. 동일 제조사 사급S-A/S-E도 규격·기능이 달라 관급KG-M500과 구분한다."
   },
   "kaiflex_hiflex_followup": {
     "item_id": "24449671",
@@ -5138,8 +5144,8 @@
       }
     ],
     "zenfix_alternative_followup": {
-      "status": "공식 상향 내진 시험 구성 확인, 일반 판매가의 완성 구성 및 세금·운임 보완 필요",
-      "original_core_comparison": "HY-EP01의 AC156 SDS 최소1.50g 대비 젠픽스의 실제 시험 SDS17.65m/s²는 약1.80g이다. 시험 조건 z/h=1과 전체 지정 구성을 함께 보존한다. 별도의 클립 결합 강도2,500N 및 진동2.5g 항목은 이 AC156 수치만으로 입증했다고 하지 않는다.",
+      "status": "핵심 요구의 우수성 미입증으로 제출 보류. 같은 BOM의 가격 조합 반복을 중단하고 새 원품 조사로 이동",
+      "original_core_comparison": "원품 AC156 SDS1.50g와 대안 AC156 SDS약1.80g의 표기 수치만 확인했다. 원품은 별도2.5g 장시간 진동 및 전후2,500N 결합력을 요구하므로1.80g를 전체 내진·접합 성능이 더 우수하다는 근거로 접수하지 않는다. 서로 다른 진동시험의 가속도 숫자를 직접 크기 비교하지 않는다.",
       "test_summary": {
         "source_url": "https://zenfixdmc.tistory.com/3",
         "report_no": "2021-R-097",
@@ -5380,7 +5386,67 @@
         }
       ],
       "adopted_savings_krw": null,
-      "ready_to_submit": false
+      "ready_to_submit": false,
+      "mandatory_original_clause": "규격서2.2: 제품의 전 모델은 본 규격에 기재한 모든 사항을 만족하며 … 규정을 만족해야 한다. 6.2.1은2.1·2.2 및 인증 시험 기준을 만족하도록 하고6.2.2는 전 항목 합격으로 Lot를 판단한다. 따라서 표의 열저항·휨·접합력을 임의 선택사항으로 제외하지 않는다.",
+      "original_table_structure_file": "work/bulk-goal1000/hyep-original-tables-layout.json",
+      "original_table_structure_note": "HWPX 원문 table2/3의 셀 좌표·행/열 병합을 별도 추출해 시험항목·단위·기준·시험방법의 대응을 대조했다. 원문 페이지를 전체 시각 검토한 것으로 꾸미지 않는다.",
+      "side_by_side_assessment": [
+        {
+          "requirement": "AC156 지진 모사",
+          "original": "규격서2.2: SDS≥1.50g(14.70m/s²), ICC-ES AC156:2010 준용. 6.2.3: ±0.1g 공진검색·다중 주파수 지진 모사·시험 후 육안검사",
+          "alternative": "시방서4쪽·성적서2021-R-097 첫 쪽: SDS17.65m/s²,z/h=1, ICC-ES AC156:2010, 이상 없음",
+          "assessment": "SDS 표기 수치는 더 높지만 원품 z/h·전체 입력 응답 및 부속 성능이 모두 확인된 상태가 아니므로 전체 우수성 미입증"
+        },
+        {
+          "requirement": "별도 장시간 진동",
+          "original": "KTL F100, 6.2.3(3):10~500Hz,1oct/min,12sweep,X·Y축,2.5g,축당 약1시간,이탈·크랙·파손 등 외관 이상 없어야 함",
+          "alternative": "동일 조건의 별도 시험 결과 미확보",
+          "assessment": "AC156 SDS1.8g와 가속도2.5g를 같은 시험으로 직접 비교할 수 없다. 해당 반복 진동 내구성 미입증"
+        },
+        {
+          "requirement": "진동 전후 결합력",
+          "original": "6.2.3(2)(4):분당100mm 인장, 전후 최대하중≥2,500N",
+          "alternative": "동일 조건의 전후 결합력 결과 미확보. 제조사 웹의2.37N 홍보 표기는 단위를 임의로 kN로 수정하지 않음",
+          "assessment": "핵심 이탈 억제 기능과 직접 연결되는 결합력 우수성 미입증"
+        },
+        {
+          "requirement": "바·캐링 재하 및 처짐",
+          "original": "19형 바294.20N·캐링735.50N을5분 가함, 최대/잔류 처짐 기준5/2mm. 위 방향294.20N·5분 최대5mm. 표 원문은 최대 잔류5 이하,잔류2 이하라고 기재됨",
+          "alternative": "KS D3609 사용 설명은 있으나 해당 판매 구성의 같은 하중·처짐 수치/시험표 미확보",
+          "assessment": "부재 치수나 KS 표기 하나로 원품 결과를 대신하지 않음"
+        },
+        {
+          "requirement": "마감판·열저항·휨",
+          "original": "HY-EP01 KCC석고텍스300×600×9.5±0.5mm,함수율≤3%,길이 방향 휨파괴≥360N,열저항≥0.043㎡·K/W,KS F3504",
+          "alternative": "600×600×0.4T 금속 DMC,KS D7081·KS D3862. 같은 열저항과 휨파괴 시험 결과 미확보",
+          "assessment": "고체 금속판과 석고텍스의 다른 열적·기계적 특성,크기와 체결방식을 공개한다. 원품 기준 충족이나 전체 우수성 미입증"
+        },
+        {
+          "requirement": "불연",
+          "original": "KS F ISO1182질량감소≤30%·온도차≤20K 및 KS F2271행동정지≥9분",
+          "alternative": "불연 시방서3쪽에 동일 유형의 기준,공개 제조사 성적 요약 존재",
+          "assessment": "불연 기준 대응은 다른 별도 접합·휨·열저항 조건 충족을 대신하지 않음"
+        },
+        {
+          "requirement": "HY-EP02 추가 성능",
+          "original": "마이텍스12±1mm,휨파괴≥60N,열저항≥0.19㎡·K/W,NRC≥0.41",
+          "alternative": "기본 DMC판은 SDMC흡음판과 다르며,별도 SDMC의NRC0.49홍보를 기본 DMC판에 전용하지 않음",
+          "assessment": "마이텍스 대체의 전체 단열·흡음 대응 역시 미입증"
+        }
+      ],
+      "additional_catalog": {
+        "url": "https://dmcschool.co.kr/files/catalog-full.pdf",
+        "http_status": 200,
+        "bytes": 31344633,
+        "sha256": "05ec05e3574674d8940dabb65875f77e9208e88cf9862a2218ed2a532ba7fd9a",
+        "page_count": 36,
+        "pdf_file": "work/bulk-goal1000/zenfix-catalog-full.pdf",
+        "visual_review_pages": [
+          25
+        ],
+        "finding": "25쪽은 AC156 SDS17.65m/s²,z/h1,시험결과에 한정됨을 다시 확인하며 별도2.5g 장시간 진동이나 전후2,500N을 입증하지 않는다.29쪽 일반 클립바 폭35mm와 시험 시방서32mm가 달라 카탈로그 일반 부속을 임의로 시험 구성으로 확정하지 않는다."
+      },
+      "additional_price_source_result": "ssakda.co.kr·www.ssakda.co.kr 현행 본문 모두 실제HTTP200 확인. VAT·배송 조건 문구 없음. header-vat는 사용되지 않는CSS선택자로 세금 고지로 해석하지 않음. 별도 검색도 대응하는 일반 판매 정책을 찾지 못함."
     },
     "dabar_report_first_page_followup": {
       "source_url": "https://blog.naver.com/baro0904/222925765755",
@@ -5392,7 +5458,8 @@
         "url": "https://blog.naver.com/bmbaekma/223685177809",
         "finding": "경일의 DA-BAR1.0G 및 최대 지반 가속도 설명을 읽었으나 SDS와 PGA를 같다고 하지 않는다. 다른 판매자의 DA-BAR 전체 성적으로 전용하지 않는다."
       }
-    }
+    },
+    "overall_submission_assessment": "ZENFIX 또는 DA-BAR의 전체 핵심 성능 우수성과 완제품 가격이 미확정이다. 현재 제출용 상향 대체품이 아니며 같은 BOM 가격 검색 반복은 중단한다."
   },
   "additional_negative_followups": [
     {
@@ -22149,6 +22216,63 @@
         "state": "claimed",
         "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
       }
+    ],
+    "storage_lookup": [
+      {
+        "input": "23947285",
+        "kind": "item",
+        "item_id": "23947285",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      }
+    ],
+    "whiteboard_lookup": [
+      {
+        "input": "25470307",
+        "kind": "item",
+        "item_id": "25470307",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      {
+        "input": "25214859",
+        "kind": "item",
+        "item_id": "25214859",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      {
+        "input": "25920578",
+        "kind": "item",
+        "item_id": "25920578",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      {
+        "input": "25719383",
+        "kind": "item",
+        "item_id": "25719383",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      {
+        "input": "25717114",
+        "kind": "item",
+        "item_id": "25717114",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      }
     ]
+  },
+  "pp_sports_surface_followup": {
+    "item_id": "22944239",
+    "parallel_files": [
+      "work/bulk-goal1000/parallel-live-83.json",
+      "work/bulk-goal1000/parallel-live-84.json",
+      "work/bulk-goal1000/parallel-live-85.json",
+      "work/bulk-goal1000/parallel-live-86.json"
+    ],
+    "finding": "원품19mm보다 두꺼운20~30mm 스포츠용PP 완성 타일을 검색했다. 국내는 전문 제조사 문의,일반무늬/고무매트/목재타일로 원품 스포츠용을 대신하지 않았다. 해외 표시값은 한국 도착비용이 없어 확정 단가로 쓰지 않았다.",
+    "adopted_savings_krw": null
   }
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-16T17:43:26.672323+00:00",
+  "updated_at_utc": "2026-10-16T18:00:30.839622+00:00",
   "goal_total_expected_score_krw": "100000000000",
   "latest_user_minimum_per_new_submission_krw": "1000000000",
   "required_average_reference_krw": "1780000000",
@@ -22,9 +22,11 @@
   },
   "fresh_available_full_fact_items": 13,
   "all_references_count": 1663,
-  "actual_parallel_search_calls": 39,
+  "actual_parallel_search_calls": 43,
   "parallel_evidence_files": [
     "work/hardware-goal1000/parallel-asw2224.json",
+    "work/hardware-goal1000/parallel-aswr-ea100b.json",
+    "work/hardware-goal1000/parallel-aswr-ef300b.json",
     "work/hardware-goal1000/parallel-axxon-deep.json",
     "work/hardware-goal1000/parallel-axxon-korean-price.json",
     "work/hardware-goal1000/parallel-axxon-krw.json",
@@ -57,7 +59,9 @@
     "work/hardware-goal1000/parallel-nvr5208ei2-retail-vat.json",
     "work/hardware-goal1000/parallel-nx-wave-korean.json",
     "work/hardware-goal1000/parallel-pr310-license.json",
+    "work/hardware-goal1000/parallel-prime5g-l135.json",
     "work/hardware-goal1000/parallel-sniper5300.json",
+    "work/hardware-goal1000/parallel-stm7077-retail.json",
     "work/hardware-goal1000/parallel-vix120alt.json",
     "work/hardware-goal1000/parallel-vms-cctv-price.json",
     "work/hardware-goal1000/parallel-vms-krw.json",
@@ -28114,7 +28118,7 @@
     "updated_at_utc": "2026-10-16T17:43:26.672323+00:00",
     "item_id": "24066903",
     "related_not_equivalent_yet": "24338860",
-    "status": "완성 구성 검증 중·VAT 미확정",
+    "status": "사용자 소프트웨어 중단 지시에 따라 미접수 보존",
     "submission_ready": false,
     "adopted_saving_krw": "0",
     "original_scope": "IOIE v1.0의 1조는 영상 1CH의 영구 객체 정보 추출·저장·검색 사용권이다. RTSP/H.264 및 웹 클라이언트를 지원한다. 권장 i7/RAM8GB/GPU2080Ti/HDD256GB는 별도 설치 하드웨어다. 기본 커스터마이징·현장 설치·검수·1년 하자보수와 교육 등 서비스가 포함된다.",
@@ -28211,7 +28215,7 @@
       {
         "purpose": "업무용 설치·지원",
         "original": "현장 설치·커스터마이징·1년 하자보수·교육 포함",
-        "alternative": "신품 미개봉 장치와 별도 HDD의 취득 가격",
+        "alternative": "일반 판매 장치와 별도 HDD의 취득 가격",
         "status": "차이 공개",
         "limit": "현장 구축·연계·교육·보수 서비스를 소매 표시가에 포함한다고 확정하지 않으며 비용은 미산정이다."
       }
@@ -28331,7 +28335,8 @@
       "meaning": "일반 판매 화면 읽기의 다음 동작 예측이다. VAT·사양 동등성 또는 대회 인정 완료가 아니다."
     },
     "parallel_actual_saved_call_count": 39,
-    "posting": "접수·수정·커밋·푸시는 부모 root가 직렬 담당한다. 기존 제출은 변경하지 않는다."
+    "posting": "접수·수정·커밋·푸시는 부모 root가 직렬 담당한다. 기존 제출은 변경하지 않는다.",
+    "new_retail_hardware_evidence_key": "round10_hardware_transition"
   },
   "round8_enterprise_it_0_8b": {
     "observed_kst": "2026-10-17 03:30~03:40",
@@ -28466,5 +28471,709 @@
         "jev": "not_run: 가격 페이지 없음"
       }
     ]
+  },
+  "round10_hardware_transition": {
+    "updated_at_utc": "2026-10-16T18:00:30.839622+00:00",
+    "latest_direction": "사용자 결정에 따라 소프트웨어 조사를 중단한다. IOIE 대안 접수는 진행하지 않고 NVR와 HDD 일반 판매 근거를 완제품 하드웨어 비교용으로 보존한다. 동일 제조사·모델·구성 가격 우선. 대체품은 핵심 성능이 명확히 더 높을 때만 검토한다.",
+    "software_item_24066903_status": "조사 중단·미접수·채택예상액0. 전체207facts는 기존 공식 원문과 기존 all_references를 보존한다.",
+    "hardware_retail_components": [
+      {
+        "manufacturer": "Dahua",
+        "model": "DHI-NVR5208-EI2",
+        "seller": "팁스몰",
+        "url": "https://tipsmall.co.kr/product/detail.html?product_no=11113&cate_no=6442&display_group=1",
+        "observed_price_krw": "730000",
+        "supply_price_krw": "663636",
+        "vat_krw": "66364",
+        "tax_basis": "vat_included",
+        "tax_evidence": "판매 페이지 공개 단가 분해값 공급가663636+세액66364가 실제 수량1 총730000과 일치한다. 세액을 다시 더하지 않는다.",
+        "shipping_krw": "0",
+        "shipping_scope": "일반 배송 무료, 도서산간 별도 조건",
+        "observed_configuration": "IP 8채널 No-PoE NVR, 하드 별매, 선택옵션 없음, 수량1 합계730000, 실제 구매 버튼 표시",
+        "artifacts": [
+          "work/hardware-goal1000/tips5208ei2-fullquery.html",
+          "work/hardware-goal1000/tips-ei2-native-config.json",
+          "work/hardware-goal1000/tips-nvr-images.json",
+          "work/hardware-goal1000/tips-ei2-qty1to2.json"
+        ],
+        "spec_confirmation": "판매 상세 이미지2·3의 정확 DHI-NVR5208-EI2·분석기 자체4메타데이터채널 확인. 녹화8채널을 AI8채널로 읽지 않는다.",
+        "quantity2_actual_total_krw": "1460000"
+      },
+      {
+        "manufacturer": "Western Digital",
+        "model": "WD10PURZ",
+        "seller": "최저가 CCTV 메이크원몰",
+        "url": "https://hik-vision.com/product/detail.html?product_no=4633",
+        "observed_price_krw": "211000",
+        "supply_price_krw": "191818",
+        "vat_krw": "19182",
+        "tax_basis": "vat_included",
+        "tax_evidence": "상품 기본 정보에 부가세 (부가세포함가) 명시. 공개 공급가191818+세액19182=211000과 일치.",
+        "shipping_krw": "3600",
+        "shipping_scope": "공개 이용안내의 고정배송비. 주문 금액과 관계없이 3600원, 도서산간 추가 가능.",
+        "observed_configuration": "WD Purple1TB WD10PURZ 정확 SKU, 선택옵션 없음, 수량1 합계211000, 실제 구매 버튼 표시. 중고·리퍼·대체발송 표시는 원문에서 찾지 못했다.",
+        "artifacts": [
+          "work/hardware-goal1000/hik-wd10purz.html",
+          "work/hardware-goal1000/hik-wd10purz-native-config.json",
+          "work/hardware-goal1000/hik-guide.html",
+          "work/hardware-goal1000/hik-faq.html",
+          "work/hardware-goal1000/hik-guide-native.json",
+          "work/hardware-goal1000/hik-wd10purz-qty1to2.json"
+        ],
+        "spec_confirmation": "WD 제조사2025년11월 데이터시트3쪽을 렌더·직접 대조해 1TB/3.5인치/SATA6Gbps/CMR/64MB 확인.",
+        "shipping_source": "https://hik-vision.com/shopinfo/guide.html",
+        "shipping_quote": "배송 비용 : 고정배송비 : 주문 금액에 상관없이 배송비는 3,600원입니다.",
+        "quantity2_actual_total_krw": "422000"
+      }
+    ],
+    "sum_of_observed_item_prices_krw": "941000",
+    "sum_limit": "상품가730000+211000과 HDD 고정배송비3600을 별도 출처에서 읽은 뒤 합산한 구성비다. 단일 판매 페이지가 표시한 가격이 아니다. HDD는 각 장치를 별도 주문하는 보수 구성으로3600원씩 포함한다. IOIE에 대한 접수는 소프트웨어 중단 지시로 진행하지 않는다.",
+    "storage_compatibility_sources": [
+      {
+        "url": "https://documents.westerndigital.com/content/dam/doc-library/en_us/assets/public/western-digital/product/internal-drives/wd-purple-hdd/data-sheet-wd-purple-hdd.pdf",
+        "local_path": "work/hardware-goal1000/wd-purple-spec.pdf",
+        "http_status": 200,
+        "bytes": 334696,
+        "sha256": "b87cff8561a35d6ab1fc1aa044c376d81ccefbdccb9b3b49ff143da041c5e855",
+        "visual_review": "3쪽 WD10PURZ 열 직접 대조.",
+        "finding": "1TB,3.5인치,SATA6Gbps,CMR,64MB"
+      },
+      {
+        "url": "https://dahuawiki.com/images/f/f2/HDD-Compatible-list-for-Dahua-Video-Recorder_20180510_En.pdf",
+        "local_path": "work/hardware-goal1000/dahua-hdd-compat2018.pdf",
+        "http_status": 200,
+        "bytes": 455886,
+        "sha256": "30acfa50c97e78546cfbd6b56cfcc859b8a08c74a0a7313ebd9fc3a509c2c262",
+        "visual_review": "1쪽 WD Purple WD10PURZ1T와 환경 열을 렌더·직접 대조.",
+        "finding": "2018년 DVR/NVR8HDD이하·32HD채널이하·비RAID 목록. 현행 EI2 특정모델의 검증 인증으로 확대하지 않는다."
+      },
+      {
+        "url": "https://materialfile.dahuasecurity.com/uploads/cpq/83540/datasheet/DHI-NVR5208-EI2_S0_datasheet_20260626_English.pdf",
+        "local_path": "work/hardware-goal1000/dahua5208ei2-spec.pdf",
+        "finding": "정확 EI2의2SATA·최대26TB/베이. 제조사 인터페이스와 WD 규격의 대응을 확인했으며 실제 조립·통합 시험은 미실시."
+      }
+    ],
+    "targeted_lookup_paths": [
+      "work/hardware-goal1000/hardware-no-software-lookup.json",
+      "work/hardware-goal1000/hardware-8b-followup-lookup.json"
+    ],
+    "new_full_fact_items": [
+      {
+        "item_id": "24911369",
+        "model": "STM-7077",
+        "name": "영상감시장치, 센텍, STM-7077, 방범감시시스템",
+        "state": "available",
+        "official_fact_count": 4,
+        "quantity": "20.0",
+        "comparable_amount_krw": "1683300000",
+        "original_attributes": [
+          {
+            "name": "구성",
+            "unit": null,
+            "value": "박스카메라, 블릿카메라, 적외선카메라, 팬틸트, 네트워크스위치, 서지보호기, 금속기둥, 금속상자, 태양전지모듈, 충방전조절기, 축전지, 전원공급장치, 서멀스타터, 적외선led센서, 조도감지기"
+          },
+          {
+            "name": "용도",
+            "unit": null,
+            "value": "방범감시시스템"
+          },
+          {
+            "name": "옵션/기타",
+            "unit": null,
+            "value": "맵기반통합관제시스템SW 1채널 포함, 박스카메라:200만화소/촬상소자:12.7mmCMOS/광학36배줌, 블릿카메라:200만화소/촬상소자:12.7mmCMOS/광학18배줌, 적외선카메라:640×480pixel, 팬틸트:360˚/듀얼하우징, 네트워크스위치:5port, 서지보호기:통신용, 금속기둥:15m, 금속상자:600×600×600mm, 태양전지모듈:5개/300W, 충방전조절기:60A, 축전지:12개/100Ah, 전원공급장치:DC24V, 서멀스타터:온도제어, 적외선led센서:2개, 조도감지기:2개"
+          }
+        ],
+        "original_source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002270347_1230000463",
+        "catalog_api_url": "https://api.savetax.now/v1/items/24911369",
+        "event_api_url": "https://hackathon.savetax.now/v1/events/current/items/24911369",
+        "status": "동일 모델의 일반 판매가 미확보·미접수",
+        "all_references": [
+          {
+            "fact_id": "dl:24911369:002270347_1:R26TB01809232:1",
+            "listing_id": "002270347_1230000463",
+            "contract_no": "002270347_1",
+            "request_no": "R26TB01809232",
+            "line_no": "1",
+            "request_date": "2026-04-15",
+            "agency_name": "산림청 남부지방산림청 울진국유림관리소",
+            "quantity": "8",
+            "comparable_amount_krw": "673320000",
+            "unit": "조",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:조:vat_included",
+            "basis_id": "basis:조:vat_included",
+            "period_kind": "none"
+          },
+          {
+            "fact_id": "dl:24911369:002270347_1:R26TB02239500:1",
+            "listing_id": "002270347_1230000463",
+            "contract_no": "002270347_1",
+            "request_no": "R26TB02239500",
+            "line_no": "1",
+            "request_date": "2026-08-20",
+            "agency_name": "산림청 남부지방산림청 울진국유림관리소",
+            "quantity": "1",
+            "comparable_amount_krw": "84165000",
+            "unit": "조",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:조:vat_included",
+            "basis_id": "basis:조:vat_included",
+            "period_kind": "none"
+          },
+          {
+            "fact_id": "dl:24911369:002270347_1:R26TB02323014:1",
+            "listing_id": "002270347_1230000463",
+            "contract_no": "002270347_1",
+            "request_no": "R26TB02323014",
+            "line_no": "1",
+            "request_date": "2026-09-16",
+            "agency_name": "산림청 중부지방산림청 부여국유림관리소",
+            "quantity": "9",
+            "comparable_amount_krw": "757485000",
+            "unit": "조",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:조:vat_included",
+            "basis_id": "basis:조:vat_included",
+            "period_kind": "none"
+          },
+          {
+            "fact_id": "dl:24911369:002270347_1:R26TB02329824:1",
+            "listing_id": "002270347_1230000463",
+            "contract_no": "002270347_1",
+            "request_no": "R26TB02329824",
+            "line_no": "1",
+            "request_date": "2026-09-17",
+            "agency_name": "산림청 중부지방산림청 보은국유림관리소",
+            "quantity": "2",
+            "comparable_amount_krw": "168330000",
+            "unit": "조",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:조:vat_included",
+            "basis_id": "basis:조:vat_included",
+            "period_kind": "none"
+          }
+        ]
+      },
+      {
+        "item_id": "25667929",
+        "model": "Prime5G-SYS-L135",
+        "name": "영상감시장치, 포딕스시스템, Prime5G-SYS-L135, 중앙감시시스템",
+        "state": "available",
+        "official_fact_count": 5,
+        "quantity": "58.0",
+        "comparable_amount_krw": "1056992000",
+        "original_attributes": [
+          {
+            "name": "구성",
+            "unit": null,
+            "value": "영상암호화저장장치, 안내전광판"
+          },
+          {
+            "name": "용도",
+            "unit": null,
+            "value": "중앙감시시스템"
+          },
+          {
+            "name": "옵션/기타",
+            "unit": null,
+            "value": "영상암호화저장장치:Intel celeron/RAM:4GB/SSD:64GB/Windows/데이터암호화를통한유출방지및분산저장CCTV시스템 V7.0.1 1CH포함, 안내전광판:5개/실내용/600×337.5mm/384×216pixel"
+          }
+        ],
+        "original_source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R25TA00939812060000520",
+        "catalog_api_url": "https://api.savetax.now/v1/items/25667929",
+        "event_api_url": "https://hackathon.savetax.now/v1/events/current/items/25667929",
+        "status": "동일 모델의 일반 판매가 미확보·미접수",
+        "all_references": [
+          {
+            "fact_id": "dl:25667929:R25TA00939812:R26TB01566376:2",
+            "listing_id": "R25TA00939812060000520",
+            "contract_no": "R25TA00939812",
+            "request_no": "R26TB01566376",
+            "line_no": "2",
+            "request_date": "2026-02-23",
+            "agency_name": "전남광주통합특별시교육청 전남광주통합특별시교육청광양평생교육관",
+            "quantity": "6",
+            "comparable_amount_krw": "109344000",
+            "unit": "조",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:조:vat_included",
+            "basis_id": "basis:조:vat_included",
+            "period_kind": "none"
+          },
+          {
+            "fact_id": "dl:25667929:R25TA00939812:R26TB01737180:2",
+            "listing_id": "R25TA00939812060000520",
+            "contract_no": "R25TA00939812",
+            "request_no": "R26TB01737180",
+            "line_no": "2",
+            "request_date": "2026-03-30",
+            "agency_name": "한국남부발전(주)남제주화력발전소",
+            "quantity": "30",
+            "comparable_amount_krw": "546720000",
+            "unit": "조",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:조:vat_included",
+            "basis_id": "basis:조:vat_included",
+            "period_kind": "none"
+          },
+          {
+            "fact_id": "dl:25667929:R25TA00939812:R26TB01800356:1",
+            "listing_id": "R25TA00939812060000520",
+            "contract_no": "R25TA00939812",
+            "request_no": "R26TB01800356",
+            "line_no": "1",
+            "request_date": "2026-04-13",
+            "agency_name": "한국동서발전주식회사",
+            "quantity": "12",
+            "comparable_amount_krw": "218688000",
+            "unit": "조",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:조:vat_included",
+            "basis_id": "basis:조:vat_included",
+            "period_kind": "none"
+          },
+          {
+            "fact_id": "dl:25667929:R25TA00939812:R26TB02198223:1",
+            "listing_id": "R25TA00939812060000520",
+            "contract_no": "R25TA00939812",
+            "request_no": "R26TB02198223",
+            "line_no": "1",
+            "request_date": "2026-08-04",
+            "agency_name": "전남광주통합특별시교육청 전남광주통합특별시고흥교육지원청",
+            "quantity": "5",
+            "comparable_amount_krw": "91120000",
+            "unit": "조",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:조:vat_included",
+            "basis_id": "basis:조:vat_included",
+            "period_kind": "none"
+          },
+          {
+            "fact_id": "dl:25667929:R25TA00939812:R26TB02206837:1",
+            "listing_id": "R25TA00939812060000520",
+            "contract_no": "R25TA00939812",
+            "request_no": "R26TB02206837",
+            "line_no": "1",
+            "request_date": "2026-08-07",
+            "agency_name": "전라남도교육청 목포여자상업고등학교",
+            "quantity": "5",
+            "comparable_amount_krw": "91120000",
+            "unit": "조",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:조:vat_included",
+            "basis_id": "basis:조:vat_included",
+            "period_kind": "none"
+          }
+        ]
+      },
+      {
+        "item_id": "25423179",
+        "model": "ASWR-EA100B",
+        "name": "무선통신장치, 올인원 코리아, ASWR-EA100B, 무선단말기",
+        "state": "available",
+        "official_fact_count": 4,
+        "quantity": "3128.0",
+        "comparable_amount_krw": "1276224000",
+        "original_attributes": [
+          {
+            "name": "용도",
+            "unit": null,
+            "value": "무선단말기"
+          },
+          {
+            "name": "사용전압",
+            "unit": "V",
+            "value": "DC5"
+          },
+          {
+            "name": "사용주파수범위",
+            "unit": "MHz",
+            "value": "422"
+          },
+          {
+            "name": "외형크기(깊이)",
+            "unit": "mm",
+            "value": "66"
+          },
+          {
+            "name": "외형크기(높이)",
+            "unit": "mm",
+            "value": "139"
+          },
+          {
+            "name": "외형크기(폭)",
+            "unit": "mm",
+            "value": "294"
+          },
+          {
+            "name": "옵션/기타",
+            "unit": null,
+            "value": "수신방식:무선방식, 송신출력:10W, 특수기능:온도, 시간표출, 녹음기능, 표시장치:LCD"
+          }
+        ],
+        "original_source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002470283_1050000008",
+        "catalog_api_url": "https://api.savetax.now/v1/items/25423179",
+        "event_api_url": "https://hackathon.savetax.now/v1/events/current/items/25423179",
+        "status": "동일 모델의 일반 판매가 미확보·미접수",
+        "all_references": [
+          {
+            "fact_id": "dl:25423179:002470283_1:R25TB01305745:2",
+            "listing_id": "002470283_1050000008",
+            "contract_no": "002470283_1",
+            "request_no": "R25TB01305745",
+            "line_no": "2",
+            "request_date": "2025-12-10",
+            "agency_name": "경상북도 청도군",
+            "quantity": "940",
+            "comparable_amount_krw": "383520000",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "basis_id": "basis:대:vat_included",
+            "period_kind": "none"
+          },
+          {
+            "fact_id": "dl:25423179:002470283_1:R25TB01329065:2",
+            "listing_id": "002470283_1050000008",
+            "contract_no": "002470283_1",
+            "request_no": "R25TB01329065",
+            "line_no": "2",
+            "request_date": "2025-12-15",
+            "agency_name": "경상남도 사천시",
+            "quantity": "61",
+            "comparable_amount_krw": "24888000",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "basis_id": "basis:대:vat_included",
+            "period_kind": "none"
+          },
+          {
+            "fact_id": "dl:25423179:002470283_1:R26TB01590574:3",
+            "listing_id": "002470283_1050000008",
+            "contract_no": "002470283_1",
+            "request_no": "R26TB01590574",
+            "line_no": "3",
+            "request_date": "2026-02-26",
+            "agency_name": "경상남도 사천시",
+            "quantity": "439",
+            "comparable_amount_krw": "179112000",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "basis_id": "basis:대:vat_included",
+            "period_kind": "none"
+          },
+          {
+            "fact_id": "dl:25423179:002470283_1:R26TB01908423:2",
+            "listing_id": "002470283_1050000008",
+            "contract_no": "002470283_1",
+            "request_no": "R26TB01908423",
+            "line_no": "2",
+            "request_date": "2026-05-12",
+            "agency_name": "경상북도 청도군",
+            "quantity": "1688",
+            "comparable_amount_krw": "688704000",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "basis_id": "basis:대:vat_included",
+            "period_kind": "none"
+          }
+        ]
+      },
+      {
+        "item_id": "25415937",
+        "model": "ASWR-EF300B",
+        "name": "무선통신장치, 올인원 코리아, ASWR-EF300B, 무선단말기",
+        "state": "available",
+        "official_fact_count": 6,
+        "quantity": "1690.0",
+        "comparable_amount_krw": "1490580000",
+        "original_attributes": [
+          {
+            "name": "용도",
+            "unit": null,
+            "value": "무선단말기"
+          },
+          {
+            "name": "사용전압",
+            "unit": "V",
+            "value": "DC5"
+          },
+          {
+            "name": "사용주파수범위",
+            "unit": "MHz",
+            "value": "917.1~923.3"
+          },
+          {
+            "name": "외형크기(깊이)",
+            "unit": "mm",
+            "value": "66"
+          },
+          {
+            "name": "외형크기(높이)",
+            "unit": "mm",
+            "value": "139"
+          },
+          {
+            "name": "외형크기(폭)",
+            "unit": "mm",
+            "value": "294"
+          },
+          {
+            "name": "옵션/기타",
+            "unit": null,
+            "value": "수신방식:무선방식, 송신출력:10W, 특수기능:1:N통신, 녹음기능, 표시장치:LCD, LED"
+          }
+        ],
+        "original_source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002470283_1050000006",
+        "catalog_api_url": "https://api.savetax.now/v1/items/25415937",
+        "event_api_url": "https://hackathon.savetax.now/v1/events/current/items/25415937",
+        "status": "동일 모델의 일반 판매가 미확보·미접수",
+        "all_references": [
+          {
+            "fact_id": "dl:25415937:002470283_1:R25TB01292790:2",
+            "listing_id": "002470283_1050000006",
+            "contract_no": "002470283_1",
+            "request_no": "R25TB01292790",
+            "line_no": "2",
+            "request_date": "2025-12-08",
+            "agency_name": "전남광주통합특별시 담양군",
+            "quantity": "243",
+            "comparable_amount_krw": "214326000",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "basis_id": "basis:대:vat_included",
+            "period_kind": "none"
+          },
+          {
+            "fact_id": "dl:25415937:002470283_1:R26TB01553378:2",
+            "listing_id": "002470283_1050000006",
+            "contract_no": "002470283_1",
+            "request_no": "R26TB01553378",
+            "line_no": "2",
+            "request_date": "2026-05-18",
+            "agency_name": "전남광주통합특별시 화순군",
+            "quantity": "828",
+            "comparable_amount_krw": "730296000",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "basis_id": "basis:대:vat_included",
+            "period_kind": "none"
+          },
+          {
+            "fact_id": "dl:25415937:002470283_1:R26TB01686907:2",
+            "listing_id": "002470283_1050000006",
+            "contract_no": "002470283_1",
+            "request_no": "R26TB01686907",
+            "line_no": "2",
+            "request_date": "2026-03-19",
+            "agency_name": "전남광주통합특별시 장성군",
+            "quantity": "456",
+            "comparable_amount_krw": "402192000",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "basis_id": "basis:대:vat_included",
+            "period_kind": "none"
+          },
+          {
+            "fact_id": "dl:25415937:002470283_1:R26TB01900925:2",
+            "listing_id": "002470283_1050000006",
+            "contract_no": "002470283_1",
+            "request_no": "R26TB01900925",
+            "line_no": "2",
+            "request_date": "2026-05-11",
+            "agency_name": "경상남도 밀양시",
+            "quantity": "47",
+            "comparable_amount_krw": "41454000",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "basis_id": "basis:대:vat_included",
+            "period_kind": "none"
+          },
+          {
+            "fact_id": "dl:25415937:002470283_1:R26TB01914139:2",
+            "listing_id": "002470283_1050000006",
+            "contract_no": "002470283_1",
+            "request_no": "R26TB01914139",
+            "line_no": "2",
+            "request_date": "2026-05-13",
+            "agency_name": "전남광주통합특별시 장성군",
+            "quantity": "55",
+            "comparable_amount_krw": "48510000",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "basis_id": "basis:대:vat_included",
+            "period_kind": "none"
+          },
+          {
+            "fact_id": "dl:25415937:002470283_1:R26TB01924810:2",
+            "listing_id": "002470283_1050000006",
+            "contract_no": "002470283_1",
+            "request_no": "R26TB01924810",
+            "line_no": "2",
+            "request_date": "2026-05-18",
+            "agency_name": "전남광주통합특별시 장성군",
+            "quantity": "61",
+            "comparable_amount_krw": "53802000",
+            "unit": "대",
+            "tax_basis": "vat_included",
+            "comparison_basis_id": "basis:대:vat_included",
+            "basis_id": "basis:대:vat_included",
+            "period_kind": "none"
+          }
+        ]
+      }
+    ],
+    "negative_scope": [
+      "STM-7077은 열화상·광학줌카메라·듀얼팬틸트·15m기둥·태양전지5장·축전지12개 등을 포함하는 시스템이므로 단순 NVR 취득비와 비교하지 않는다.",
+      "Prime5G-SYS-L135는 영상암호화 분산저장·권리1CH·안내전광판5개 포함이다. 보통 NVR와 동일 완성품으로 취급하지 않는다.",
+      "BKT-AIBOX-1N26137711·VIXAI-SYS-S10225473676는 다른 참가자 등록, EM-36B8V225560065는 기존 내등록이므로 신규 제출하지 않는다.",
+      "정확 ASWR 모델을 넣은 Parallel4호출은 관련 없는 공공조달 결과가 섞였으며 판매가 근거를 얻지 못했다.",
+      "ASWR 제조사 실제 HTTP200은 일반가격 없이 조달제품·견적요청을 제공한다. HTTPS는 인증서 오류."
+    ],
+    "actual_parallel_search_calls": 43,
+    "new_submissions": 0,
+    "adopted_saving_krw": "0",
+    "separate_order_acquisition_krw": "944600",
+    "wireless_manufacturer_primary": {
+      "url": "http://www.allinonekorea.co.kr/page/business2.php",
+      "http_status": 200,
+      "local_path": "work/hardware-goal1000/allinone-wireless-business.html",
+      "finding": "자가통신망 기반 재난·환경정보 방송, 양방향 단말 연결상태 확인, 지도 웹서버·응급신호 확인 기능을 제공한다.",
+      "price_not_adopted": "AK-001 6871000원은 조달우수제품2024019호·식별번호25345226와 함께 표시된 별개 모델의 조달가격이므로 일반 판매가로 채택하지 않는다.",
+      "general_retail_for_exact_models": "ASWR-EA100B/EF300B 동일 모델 공개 일반가를 확보하지 못했다. 일반 스피커/LoRa보드/업무용 무전기의 가격으로 시스템 단말을 대체했다고 주장하지 않는다."
+    }
+  },
+  "round11_reeval_0_6b": {
+    "observed_kst": "2026-10-17 04:20~04:45",
+    "ready": 0,
+    "reevaluated_prior": [
+      {
+        "item": "23891640 AXGATE 1300S",
+        "B_at_0.6b": 7959772,
+        "verdict": "가격상 EFG 가능하나 VPN 3.8G 공시 대비 EFG 우위 입증 불가",
+        "jev": "not_run: 소매 후보 페이지 없음"
+      },
+      {
+        "item": "23891639 AXGATE 300S",
+        "B_at_0.6b": 4436292,
+        "verdict": "EFG 3.7M으로 예상 약 6.6억이나 VPN 3.8G 대비 EFG 우위 입증 불가",
+        "jev": "not_run: 소매 후보 페이지 없음"
+      },
+      {
+        "item": "24604299 BLUEMAX IPS 2000",
+        "B_at_0.6b": 10000000,
+        "verdict": "SECUI 가이드: 10코어·32GB·HDD 2TB. EFG 16GB로 메모리 열세",
+        "jev": "not_run: 소매 후보 페이지 없음"
+      },
+      {
+        "item": "25778511 WAPPLES 2700",
+        "B_at_0.6b": 9671600,
+        "verdict": "웹방화벽(WAF), Ubiquiti 게이트웨이와 용도 다름",
+        "jev": "not_run: 소매 후보 페이지 없음"
+      },
+      {
+        "item": "23606401 BLUEMAX NGF 100",
+        "B_at_0.6b": 535180,
+        "verdict": "UDM-Pro-Max 1.08M 초과. 컴퓨존 UniFi 한국총판 UCG-Ultra 224,120원은 메모리·처리량이 명확히 높지 않음",
+        "jev": "not_run: 소매 후보 페이지 없음"
+      },
+      {
+        "item": "25940541 WIPS 714 / 24935006 AIRTMS S800",
+        "B_at_0.6b": "1,507,011 / 1,209,851",
+        "verdict": "무선보안 전용 센서, 명확한 상위 소매 대체 없음",
+        "jev": "not_run: 소매 후보 페이지 없음"
+      },
+      {
+        "item": "24935005 TrusGuard 500C",
+        "B_at_0.6b": 14708406,
+        "verdict": "EF-Core 원화가 없고 EFG는 열세",
+        "jev": "not_run: 소매 후보 페이지 없음"
+      },
+      {
+        "item": "25937285 XTG 500",
+        "B_at_0.6b": 10216225,
+        "verdict": "FW 40G·VPN 10G, 원화 상위 대체 없음",
+        "jev": "not_run: 소매 후보 페이지 없음"
+      },
+      {
+        "item": "25619100 JHDC-4831AI PTZ",
+        "B_at_0.6b": 2420437,
+        "verdict": "14.11mm 센서·31배 상위 PTZ 소매가 5.29M~7.5M(cctvtech)으로 불가",
+        "jev": "round7 기록 참조"
+      },
+      {
+        "item": "24998491 DV20CB8600BW",
+        "B_at_0.6b": 897286,
+        "verdict": "다나와 최저 1,061,510원 > 조달가",
+        "jev": "round9 기록 참조"
+      },
+      {
+        "item": "25009660 삼성 AP290CSPDHH1PP",
+        "B_at_0.6b": 4751286,
+        "verdict": "조달 인도조건 현장설치도(표준설치시방서 첨부). 다나와 검색에 이 상업용 모델 없음, 설치 포함 공개가 없음",
+        "jev": "not_run: 소매 후보 페이지 없음"
+      },
+      {
+        "item": "26218140 LG SW07GK1WES",
+        "B_at_0.6b": "~258,000",
+        "verdict": "다나와 공식인증 설치 최저 1,476,600원 > 조달 989,702원",
+        "jev": "not_run: 소매 후보 페이지 없음"
+      }
+    ],
+    "new_0_6_to_0_8b": {
+      "file": "work/hardware-goal1000/frontier/hw-0.6to0.8b-available.json",
+      "scanned": 136,
+      "available": 34,
+      "verdicts": [
+        [
+          "23997196 Radware Alteon 4028",
+          "B≤5,875,918원, 동일 ADC 공개 원화가 없음"
+        ],
+        [
+          "24689128 ITU 300",
+          "B≤1,573,448원, UDM-Pro-Max는 CPU·RAM 동급·포트 열세로 명확한 우위 아님"
+        ],
+        [
+          "25540790 ITU 150",
+          "B≤560,273원, UCG-Fiber 572,000원은 초과하고 UCG-Ultra는 메모리 열세"
+        ],
+        [
+          "25890463 XTG 100",
+          "B≤2,181,636원, FW 12G·VPN 1.9G·HDD 2TB, UDM-Pro-Max 우위 불명확"
+        ],
+        [
+          "23409962 AXGATE 200",
+          "B≤941,063원, UDM-Pro(컴퓨존 929,000원) VPN 3.3G 대비 우위 입증 불가"
+        ],
+        [
+          "23891641 AXGATE 2300S / 24097061 TrusGuard 2000B / 25890464 XTG 2000 / 24604300 IPS 4000 / 24243254 DPX 5000B",
+          "상위 성능 또는 필요가 과소"
+        ],
+        [
+          "23491720·25051456 CNE DR4500 48/80TB 20코어 128GB 캐시 NAS",
+          "B≤4.84M/3.35M, 12베이 20코어급 완제품+디스크 소매가 초과"
+        ],
+        [
+          "25700846 PT5860-108Work 워크스테이션(Xeon W3-2423·RTX 2000 Ada·8TB)",
+          "B≤1,205,183원, GPU만으로 초과"
+        ],
+        [
+          "25862924 신도리코 CM4097 A3 컬러 45cpm",
+          "B≤1,482,926원, 동급 복합기 소매가 초과"
+        ],
+        [
+          "영상감시 세트(STM-8310/9332/8330, VIXAI-SYS, PRS-SE, S6-05001B 등)·방송(LB-P067, SAMS-7922, DPA-DA-1047, DN-DS101B)·마이크·마을방송",
+          "전용 세트 또는 필요가 과소"
+        ]
+      ]
+    }
   }
 }
