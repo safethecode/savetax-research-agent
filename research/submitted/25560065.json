@@ -1,0 +1,2030 @@
+{
+  "submission": {
+    "submission_id": "405b28dc-232d-44e0-a9e3-1bf54494efaa",
+    "claim_id": "4a5e78d1-9aa6-4994-bdc4-481845e6db02",
+    "revision": 1,
+    "submission_state": "accepted",
+    "admitted_at": "2026-10-16T07:19:03.288Z",
+    "amount_krw": 570855000,
+    "verification_status": "not_started",
+    "lint_status": "pending",
+    "event_epoch": 1,
+    "ruleset_version": "rules-v1",
+    "public_path": "/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/405b28dc-232d-44e0-a9e3-1bf54494efaa",
+    "api_path": "/v1/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/405b28dc-232d-44e0-a9e3-1bf54494efaa",
+    "web_path": "#/submission/405b28dc-232d-44e0-a9e3-1bf54494efaa"
+  },
+  "body": {
+    "dataset_release_id": "release-live-20261012",
+    "ruleset_version": "rules-v1",
+    "canonical_product_id": "25560065",
+    "title": "EM-36B8V2와 DS-9664NI-M8의 녹화기 본체 취득가격 비교",
+    "claim": "공식 납품 사실 중 제주 기관 3건은 추가운임 미확정으로 제외했다. 나머지 77건의 95대·813,447,000원에 비교 단가 2,553,600원을 적용한 예상 차액은 570,855,000원이다. 부가세 포함 판매가 2,550,000원에 착불 배송 3,600원을 각 대에 더했다.\n\n원품 EM-36B8V2와 판매품 Hikvision DS-9664NI-M8는 다른 제조사와 모델이다. 일반 H.264/H.265 IP 카메라 36채널의 본체 취득 및 최대16채널 동시 재생 범위를 비교한다. 원품8베이의 베이당24TB·총192TB 최대 지원치에 비해 대체품은 베이당16TB·총128TB이다. 두 수치는 실제 포함 HDD량이 아니다. 원품은 제조사 기본장착 HDD없음을 확인했고16GB SSD는 OS/NVR용이다. 대체품 판매가는 용량선택 없는 녹화기 본체 기본상품이다. 판매 원문에 HDD 포함량은 별도 명시되지 않아 녹화 HDD가 포함된 세트나128TB 저장장치로 주장하지 않는다. 원품 FHD36채널 동시 재생에 비해 대체품 동시 재생은16채널이다. 원품2.5GbE2포트는 대체품1GbE2포트로 줄어든다. 원품의 물리적5Gbps를 녹화 처리량으로 옮겨 적지 않았고 제조사 녹화 사양은 최대지원CH×4Mbps, 스토리지 대역폭 이내다. 원품 TTA-IT-V-24-485 공공기관용 NVR 보안성능품질 인증과 엠스톤130여 전용 프로토콜·생체인증·Failover 등의 동등성은 확인하지 않았다. 대체품에도 RAID0/1/5/6/10·N+M hot spare는 있지만 원품 Failover와 동일한 구현·상호 호환이라고 주장하지 않는다. 원품 현장설치도와 판매품 택배 본체 공급을 구분하며 설치·배선·현장시험 비용을 임의 가산하지 않았다. 실제 설치 환경의 모든 요구 충족은 확인하지 않았다.",
+    "comparison_scope": "H.264/H.265 일반 IP 카메라 36채널 녹화, 입력·출력 각 400Mbps 이하, 동시 재생 최대 16채널, HDD 지원 최대 128TB 범위의 녹화기 본체 취득가격을 비교한다. 녹화 HDD·설치·배선·현장시험 비용은 포함하지 않았다. 원품의 192TB·2.5GbE·TTA 인증·전용 프로토콜 및 Failover와 모든 현장 요구의 동등성은 확인하지 않았다. 판매가 2,550,000원은 VAT 포함이며 착불 3,600원을 매대마다 더했다. 추가운임 미확정인 제주 기관 사실은 제외했다. 나머지 기관도 실제 납품 장소를 본토로 확정한 것은 아니다.",
+    "reproduction_notes": "공식 fact별 floor(max(C-B×Q,0))를 합산. 각 라인 근거에 계약·납품요구·라인 번호를 기재. 가격 시점 차이는 사용자 지정 대회 조사 기준에서 제외한다. 사양 대응: 일반 IP 입력: 36채널,최대32MP,ONVIF/RTSP → 64채널 중36채널 일반 IP 범위,최대32MP,ONVIF/RTSP; 녹화 대역폭: 최대지원CH×4Mbps,스토리지 네트워크 대역폭 이내;물리포트 합5Gbps와 구분 → 입력400Mbps·출력400Mbps,실제 현장 비트레이트와 모든 조합의 동등성 미확인; 영상 코덱: H.265/H.264/MJPEG/MPEG4 → H.265+/H.265/H.264+/H.264;MJPEG/MPEG4 동일 지원 미확인; 디코딩·동시 재생: FHD36채널 동시 라이브/재생 → FHD30fps40채널 디코딩 정격,동시 재생16채널;원품36채널 동시 재생은 미대응; HDD 구성·최대 지원: 8베이,녹화 HDD 기본장착 없음,베이당24TB·최대192TB,OS용 SSD16GB → 용량선택 없는 본체 기본상품,8베이·베이당16TB·최대128TB;판매 원문에 HDD 포함량 별도 명시 없음; 네트워크: 2.5GbE2포트 → 1GbE2포트;포트 정격 하향; 보안·고가용성·통합: TTA-IT-V-24-485,130여 전용 프로토콜·Failover 등 → CE/FCC,RAID0/1/5/6/10,N+M hot spare;TTA·전용 통합·동일 Failover 호환 미확인; 장착·전원·공급: 2U8베이,AC100~240V,현장설치도 → 2U8베이,AC100~240V,기본 택배 본체 공급;현장설치 동등성 미확인. 사양 출처: https://api.savetax.now/v1/items/25560065 https://www.emstone.com/ko/products/2ub8v2-tta2.9.24.1.31/ https://www.emstone.com/data/sales/ko/2UB8V2%28TTA%29_CATALOG_KO_20250722.pdf https://hikv.cafe24.com/SPEC/DS-9664NI-M8.jpg 제주 등 기관명상 명백한 도서지역의 3건은 추가운임 미확정으로 제외했다. 제외 사실도 별도 전체 reference 파일에 보존했다. 원품 녹화 HDD 기본장착 없음이 제조사 카탈로그에 명시되어 있으며16GB SSD는 OS용이다. 판매처 본체의 실제 HDD 포함량은 별도 명시되지 않아 HDD 세트가격으로 주장하지 않는다. root가 실제 판매 상세 이미지에서 M8 모델, 400Mbps 입력·출력, 8개 SATA와 베이당 16TB, 동시 재생 16채널, 기가랜 2포트, AC100~240V를 직접 대조했다. 녹화 HDD의 포함 수량을 임의 가정하지 않았다. 화면의 해상도·카메라 수·용량 선택은 하단 녹화시간 계산기이며 상품의 필수 HDD 옵션이 아니었다.",
+    "lines": [
+      {
+        "fact_id": "dl:25560065:002270042_1:R25TB01196541:9",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270042_1, 납품요구 R25TB01196541, 라인 9. 공식 fact dl:25560065:002270042_1:R25TB01196541:9, 수량 1, 비교금액 9078000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270059_1:R26TB01654306:3",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270059_1, 납품요구 R26TB01654306, 라인 3. 공식 fact dl:25560065:002270059_1:R26TB01654306:3, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270059_1:R26TB01944918:14",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270059_1, 납품요구 R26TB01944918, 라인 14. 공식 fact dl:25560065:002270059_1:R26TB01944918:14, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270059_1:R26TB01954559:7",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270059_1, 납품요구 R26TB01954559, 라인 7. 공식 fact dl:25560065:002270059_1:R26TB01954559:7, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270059_1:R26TB02253656:13",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270059_1, 납품요구 R26TB02253656, 라인 13. 공식 fact dl:25560065:002270059_1:R26TB02253656:13, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270075_1:R26TB01570907:4",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270075_1, 납품요구 R26TB01570907, 라인 4. 공식 fact dl:25560065:002270075_1:R26TB01570907:4, 수량 1, 비교금액 9075000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270134_1:R26TB01589647:14",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270134_1, 납품요구 R26TB01589647, 라인 14. 공식 fact dl:25560065:002270134_1:R26TB01589647:14, 수량 1, 비교금액 8486000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270347_1:R25TB01310970:10",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270347_1, 납품요구 R25TB01310970, 라인 10. 공식 fact dl:25560065:002270347_1:R25TB01310970:10, 수량 1, 비교금액 9072000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270347_1:R26TB01480237:10",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270347_1, 납품요구 R26TB01480237, 라인 10. 공식 fact dl:25560065:002270347_1:R26TB01480237:10, 수량 1, 비교금액 9072000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270347_1:R26TB01619643:5",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270347_1, 납품요구 R26TB01619643, 라인 5. 공식 fact dl:25560065:002270347_1:R26TB01619643:5, 수량 1, 비교금액 9072000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270347_1:R26TB01800159:6",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270347_1, 납품요구 R26TB01800159, 라인 6. 공식 fact dl:25560065:002270347_1:R26TB01800159:6, 수량 1, 비교금액 9072000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270347_1:R26TB01911950:6",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270347_1, 납품요구 R26TB01911950, 라인 6. 공식 fact dl:25560065:002270347_1:R26TB01911950:6, 수량 1, 비교금액 9072000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270347_1:R26TB01993912:5",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270347_1, 납품요구 R26TB01993912, 라인 5. 공식 fact dl:25560065:002270347_1:R26TB01993912:5, 수량 1, 비교금액 9072000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270347_1:R26TB02067744:11",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270347_1, 납품요구 R26TB02067744, 라인 11. 공식 fact dl:25560065:002270347_1:R26TB02067744:11, 수량 1, 비교금액 9072000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270347_1:R26TB02095175:8",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270347_1, 납품요구 R26TB02095175, 라인 8. 공식 fact dl:25560065:002270347_1:R26TB02095175:8, 수량 2, 비교금액 18144000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270347_1:R26TB02123816:10",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270347_1, 납품요구 R26TB02123816, 라인 10. 공식 fact dl:25560065:002270347_1:R26TB02123816:10, 수량 4, 비교금액 36288000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270347_1:R26TB02166827:5",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270347_1, 납품요구 R26TB02166827, 라인 5. 공식 fact dl:25560065:002270347_1:R26TB02166827:5, 수량 1, 비교금액 9072000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270347_1:R26TB02225747:6",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270347_1, 납품요구 R26TB02225747, 라인 6. 공식 fact dl:25560065:002270347_1:R26TB02225747:6, 수량 1, 비교금액 9072000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270347_1:R26TB02287889:6",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270347_1, 납품요구 R26TB02287889, 라인 6. 공식 fact dl:25560065:002270347_1:R26TB02287889:6, 수량 1, 비교금액 9072000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270463_1:R25TB01316302:11",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270463_1, 납품요구 R25TB01316302, 라인 11. 공식 fact dl:25560065:002270463_1:R25TB01316302:11, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270463_1:R26TB01432844:11",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270463_1, 납품요구 R26TB01432844, 라인 11. 공식 fact dl:25560065:002270463_1:R26TB01432844:11, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270463_1:R26TB01451937:35",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270463_1, 납품요구 R26TB01451937, 라인 35. 공식 fact dl:25560065:002270463_1:R26TB01451937:35, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270463_1:R26TB01543727:5",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270463_1, 납품요구 R26TB01543727, 라인 5. 공식 fact dl:25560065:002270463_1:R26TB01543727:5, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270463_1:R26TB01799693:8",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270463_1, 납품요구 R26TB01799693, 라인 8. 공식 fact dl:25560065:002270463_1:R26TB01799693:8, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270463_1:R26TB01824682:7",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270463_1, 납품요구 R26TB01824682, 라인 7. 공식 fact dl:25560065:002270463_1:R26TB01824682:7, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270463_1:R26TB02023466:8",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270463_1, 납품요구 R26TB02023466, 라인 8. 공식 fact dl:25560065:002270463_1:R26TB02023466:8, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270463_1:R26TB02070341:11",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270463_1, 납품요구 R26TB02070341, 라인 11. 공식 fact dl:25560065:002270463_1:R26TB02070341:11, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002270463_1:R26TB02348772:1",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002270463_1, 납품요구 R26TB02348772, 라인 1. 공식 fact dl:25560065:002270463_1:R26TB02348772:1, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002370098_1:R26TB01785980:7",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB01785980, 라인 7. 공식 fact dl:25560065:002370098_1:R26TB01785980:7, 수량 1, 비교금액 8347000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002370098_1:R26TB01909946:5",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB01909946, 라인 5. 공식 fact dl:25560065:002370098_1:R26TB01909946:5, 수량 1, 비교금액 8347000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002370098_1:R26TB01923896:3",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB01923896, 라인 3. 공식 fact dl:25560065:002370098_1:R26TB01923896:3, 수량 1, 비교금액 8347000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002370098_1:R26TB01942079:6",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB01942079, 라인 6. 공식 fact dl:25560065:002370098_1:R26TB01942079:6, 수량 8, 비교금액 66776000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002370098_1:R26TB01965734:11",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB01965734, 라인 11. 공식 fact dl:25560065:002370098_1:R26TB01965734:11, 수량 2, 비교금액 16694000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002370098_1:R26TB02157469:2",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB02157469, 라인 2. 공식 fact dl:25560065:002370098_1:R26TB02157469:2, 수량 1, 비교금액 8347000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002370098_1:R26TB02166029:1",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB02166029, 라인 1. 공식 fact dl:25560065:002370098_1:R26TB02166029:1, 수량 1, 비교금액 8347000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002370098_1:R26TB02176824:2",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB02176824, 라인 2. 공식 fact dl:25560065:002370098_1:R26TB02176824:2, 수량 1, 비교금액 8347000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002370098_1:R26TB02180674:2",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB02180674, 라인 2. 공식 fact dl:25560065:002370098_1:R26TB02180674:2, 수량 1, 비교금액 8347000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002370098_1:R26TB02184618:2",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB02184618, 라인 2. 공식 fact dl:25560065:002370098_1:R26TB02184618:2, 수량 1, 비교금액 8347000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002370098_1:R26TB02198516:3",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB02198516, 라인 3. 공식 fact dl:25560065:002370098_1:R26TB02198516:3, 수량 1, 비교금액 8347000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002370098_1:R26TB02201426:2",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB02201426, 라인 2. 공식 fact dl:25560065:002370098_1:R26TB02201426:2, 수량 1, 비교금액 8347000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002370098_1:R26TB02236151:2",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB02236151, 라인 2. 공식 fact dl:25560065:002370098_1:R26TB02236151:2, 수량 1, 비교금액 8347000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002370098_1:R26TB02267777:3",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB02267777, 라인 3. 공식 fact dl:25560065:002370098_1:R26TB02267777:3, 수량 1, 비교금액 8347000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002370098_1:R26TB02306865:6",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370098_1, 납품요구 R26TB02306865, 라인 6. 공식 fact dl:25560065:002370098_1:R26TB02306865:6, 수량 1, 비교금액 8347000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002370171_1:R25TB01176748:13",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370171_1, 납품요구 R25TB01176748, 라인 13. 공식 fact dl:25560065:002370171_1:R25TB01176748:13, 수량 1, 비교금액 9075000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002370171_1:R26TB01674649:7",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370171_1, 납품요구 R26TB01674649, 라인 7. 공식 fact dl:25560065:002370171_1:R26TB01674649:7, 수량 1, 비교금액 9075000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002370213_1:R26TB02154962:7",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370213_1, 납품요구 R26TB02154962, 라인 7. 공식 fact dl:25560065:002370213_1:R26TB02154962:7, 수량 1, 비교금액 8347000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002370273_1:R26TB01937551:5",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370273_1, 납품요구 R26TB01937551, 라인 5. 공식 fact dl:25560065:002370273_1:R26TB01937551:5, 수량 2, 비교금액 16694000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002370307_1:R25TB01223264:3",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370307_1, 납품요구 R25TB01223264, 라인 3. 공식 fact dl:25560065:002370307_1:R25TB01223264:3, 수량 1, 비교금액 9075000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002370307_1:R25TB01224577:12",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002370307_1, 납품요구 R25TB01224577, 라인 12. 공식 fact dl:25560065:002370307_1:R25TB01224577:12, 수량 1, 비교금액 9075000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002470013_1:R25TB01275329:7",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002470013_1, 납품요구 R25TB01275329, 라인 7. 공식 fact dl:25560065:002470013_1:R25TB01275329:7, 수량 1, 비교금액 9072000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002470013_1:R26TB01437848:17",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002470013_1, 납품요구 R26TB01437848, 라인 17. 공식 fact dl:25560065:002470013_1:R26TB01437848:17, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002470013_1:R26TB01521037:4",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002470013_1, 납품요구 R26TB01521037, 라인 4. 공식 fact dl:25560065:002470013_1:R26TB01521037:4, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002470013_1:R26TB02017058:10",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002470013_1, 납품요구 R26TB02017058, 라인 10. 공식 fact dl:25560065:002470013_1:R26TB02017058:10, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002470013_1:R26TB02320599:6",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002470013_1, 납품요구 R26TB02320599, 라인 6. 공식 fact dl:25560065:002470013_1:R26TB02320599:6, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002470275_1:R26TB01427595:4",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002470275_1, 납품요구 R26TB01427595, 라인 4. 공식 fact dl:25560065:002470275_1:R26TB01427595:4, 수량 1, 비교금액 9075000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002470275_1:R26TB01722244:6",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002470275_1, 납품요구 R26TB01722244, 라인 6. 공식 fact dl:25560065:002470275_1:R26TB01722244:6, 수량 1, 비교금액 8347000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002470275_1:R26TB01905162:2",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002470275_1, 납품요구 R26TB01905162, 라인 2. 공식 fact dl:25560065:002470275_1:R26TB01905162:2, 수량 1, 비교금액 8347000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002470275_1:R26TB02214094:4",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002470275_1, 납품요구 R26TB02214094, 라인 4. 공식 fact dl:25560065:002470275_1:R26TB02214094:4, 수량 1, 비교금액 8347000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:002470275_1:R26TB02282337:9",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002470275_1, 납품요구 R26TB02282337, 라인 9. 공식 fact dl:25560065:002470275_1:R26TB02282337:9, 수량 3, 비교금액 25041000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:R25TA00335583:R26TB01697944:8",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:조:vat_included",
+        "unit": "조",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00335583, 납품요구 R26TB01697944, 라인 8. 공식 fact dl:25560065:R25TA00335583:R26TB01697944:8, 수량 1, 비교금액 9075000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:R25TA00380034:R26TB01443298:11",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:조:vat_included",
+        "unit": "조",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00380034, 납품요구 R26TB01443298, 라인 11. 공식 fact dl:25560065:R25TA00380034:R26TB01443298:11, 수량 2, 비교금액 18150000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:R25TA00789927:R26TB02007276:2",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00789927, 납품요구 R26TB02007276, 라인 2. 공식 fact dl:25560065:R25TA00789927:R26TB02007276:2, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:R25TA00789927:R26TB02162067:4",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00789927, 납품요구 R26TB02162067, 라인 4. 공식 fact dl:25560065:R25TA00789927:R26TB02162067:4, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:R25TA00789927:R26TB02257339:4",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00789927, 납품요구 R26TB02257339, 라인 4. 공식 fact dl:25560065:R25TA00789927:R26TB02257339:4, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:R25TA00872718:R26TB01908494:4",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00872718, 납품요구 R26TB01908494, 라인 4. 공식 fact dl:25560065:R25TA00872718:R26TB01908494:4, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:R25TA00872718:R26TB01909547:4",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00872718, 납품요구 R26TB01909547, 라인 4. 공식 fact dl:25560065:R25TA00872718:R26TB01909547:4, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:R25TA00906342:R26TB01485723:6",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA00906342, 납품요구 R26TB01485723, 라인 6. 공식 fact dl:25560065:R25TA00906342:R26TB01485723:6, 수량 2, 비교금액 16736000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:R25TA01047518:R26TB01677488:5",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA01047518, 납품요구 R26TB01677488, 라인 5. 공식 fact dl:25560065:R25TA01047518:R26TB01677488:5, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:R25TA01047518:R26TB01921128:20",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA01047518, 납품요구 R26TB01921128, 라인 20. 공식 fact dl:25560065:R25TA01047518:R26TB01921128:20, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:R25TA01079745:R26TB01621285:4",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA01079745, 납품요구 R26TB01621285, 라인 4. 공식 fact dl:25560065:R25TA01079745:R26TB01621285:4, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:R25TA01079745:R26TB01764904:8",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA01079745, 납품요구 R26TB01764904, 라인 8. 공식 fact dl:25560065:R25TA01079745:R26TB01764904:8, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:R25TA01079745:R26TB01995506:5",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA01079745, 납품요구 R26TB01995506, 라인 5. 공식 fact dl:25560065:R25TA01079745:R26TB01995506:5, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:R25TA01079745:R26TB02312325:3",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA01079745, 납품요구 R26TB02312325, 라인 3. 공식 fact dl:25560065:R25TA01079745:R26TB02312325:3, 수량 2, 비교금액 16736000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:R25TA01200385:R26TB01734427:6",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA01200385, 납품요구 R26TB01734427, 라인 6. 공식 fact dl:25560065:R25TA01200385:R26TB01734427:6, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:R25TA01200385:R26TB01996499:14",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA01200385, 납품요구 R26TB01996499, 라인 14. 공식 fact dl:25560065:R25TA01200385:R26TB01996499:14, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:R25TA01200385:R26TB02076373:5",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA01200385, 납품요구 R26TB02076373, 라인 5. 공식 fact dl:25560065:R25TA01200385:R26TB02076373:5, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25560065:R25TA01200385:R26TB02152678:9",
+        "benchmark_unit_price_krw": "2553600",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://btobcctv.com/product/detail.html?product_no=107441",
+            "quote": "BtoB CCTV DS-9664NI-M8. 판매가 2,550,000원. 부가세포함가. 총 상품금액(수량): 2,550,000원(1개). 배송 비용: 착불 3,600원. 2026-10-16 실제 판매 화면 확인.",
+            "observed_price_krw": "2550000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "부가세 포함 관측가 2,550,000원과 착불 3,600원을 더한 B2,553,600원이다. 본체 기본상품이며 녹화 HDD 포함 세트의 가격으로 주장하지 않는다. 도서산간 추가운임은 미확인이다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 R25TA01200385, 납품요구 R26TB02152678, 라인 9. 공식 fact dl:25560065:R25TA01200385:R26TB02152678:9, 수량 1, 비교금액 8368000원."
+          }
+        ]
+      }
+    ]
+  }
+}
