@@ -3993,5 +3993,68 @@
    "max_benchmark_for_0_8B_krw": 69860,
    "price_gap_max_krw": 200000
   }
+ ],
+ "finishing_materials": [
+  {
+   "item_id": "24578151",
+   "name": "화영 HY-EP01 불연내진천장시스템",
+   "verdict": "no_public_price",
+   "best_price_url": null,
+   "best_price_krw": null,
+   "note": "공식 75 facts 중 65개(Q 127,775㎡, C 6,260,971,570원)의 단가 49,000원과 6개의 45,000원은 현장설치도 등재가(45,000원) 수준이다. 하차도 등재가 29,000원 수준인 fact는 4개(C 1.75억 원)뿐이다. 대부분이 설치 포함이므로 설치비까지 공개된 동등 이상 불연·내진 천장 시스템 가격이 필요하지만 찾지 못했다. 원화로 공개된 설치 단가는 없다. 계약 납품 rows는 등재번호를 구분하지 않아 fact별 인도조건은 단가로만 추정했다.",
+   "state": "available"
+  },
+  {
+   "item_id": "25437768",
+   "name": "화영 HY-EP02 불연내진천장시스템",
+   "verdict": "no_public_price",
+   "best_price_url": null,
+   "best_price_krw": null,
+   "note": "64 facts(Q 81,800㎡)가 현장설치도 등재가 55,000원과 같다. 하차도 33,000원 fact는 1개(431만 원)뿐이다. 설치 포함 공개가를 찾지 못했다.",
+   "state": "available"
+  },
+  {
+   "item_id": "24603206",
+   "name": "제이엔티 4C 36S 천장용내진흡음패널시스템",
+   "verdict": "substitute_not_better",
+   "best_price_url": "https://www.navimro.com/p/K19014209",
+   "best_price_krw": 85789,
+   "note": "규격: 아연도금강판 흡음천장패널 600×300×t0.4, 메인프레임 23×36×t1.0, 내진 TM클립·내진행거, 우수조달 '천장용 내진, 불연, 흡음패널 시스템'. 하차도 단가 37,500~43,300원 fact 162개(Q 61,943㎡, C 2,673,971,679원)만 자재 비교가 가능하다. 0.8억 원에는 ㎡당 30,257원 이하가 필요하다. 후보로 본 KCC 마이톤 MC4412-6D(불연 흡음, 300×600×15T, 18장=3.24㎡)는 나비엠알오에서 VAT 포함 85,789원(㎡당 26,478원)이다. 여기에 바로 내진천장틀 세트(헤베당 4,500원+VAT=4,950원)를 더하면 31,428원으로 한도를 넘는다. 배송비 미반영. 광물섬유 텍스는 강판 타공 패널보다 분명히 낫다고 할 근거가 없다(내습·내구성 열위 가능). 설치 포함 fact(68,500/75,000원, C 39.2억 원)는 설치 공개가가 없다. 젠픽스 SDMC(KS 1급 불연, NRC 0.49, 1.8G 내진)는 공개 원화 판매가를 찾지 못했다.",
+   "jev": [
+    {
+     "file": "work/software-goal1000/jev/24603206-mytone.json",
+     "url": "https://www.navimro.com/p/K19014209/",
+     "operation": "DONE",
+     "confidence": 0.87,
+     "latency_ms": 226
+    },
+    {
+     "file": "work/software-goal1000/jev/24603206-grid.json",
+     "url": "https://baro09.com/category/%EB%82%B4%EC%A7%84%EC%97%A0%EB%B0%94/729",
+     "operation": "BLOCKED",
+     "confidence": 0.49,
+     "latency_ms": 246
+    }
+   ],
+   "state": "available"
+  },
+  {
+   "item_id": "24831420",
+   "name": "석송 스톤네트 SS-6002 2000×2000×300 가공석형",
+   "verdict": "no_public_price",
+   "best_price_url": null,
+   "best_price_krw": null,
+   "note": "인도조건 납품장소차상도(설치 없음), 36 facts, Q 53,581㎡, C 4,072,156,000원, 0.8억 원에는 ㎡당 61,069원 이하가 필요하다. 동일품과 경쟁품(태하 스톤네트 등)의 공개 원화 판매가를 찾지 못했다. 돌망태 매트리스(13~14천 원/㎡)는 가공석 채움이 포함되지 않아 완제품 범위가 달라 제외했다.",
+   "state": "available"
+  },
+  {
+   "item_id": "24902279",
+   "name": "키그린 KG-M500 잔디보호매트 500×500×29",
+   "verdict": "below_1B",
+   "best_price_url": "https://garden24.co.kr/product/%EC%9E%94%EB%94%94%EB%B3%B4%ED%98%B8%EB%A7%A4%ED%8A%B8-%EC%9E%94%EB%94%94%ED%8E%AB%ED%8A%B8-500x500xt32-1m24%EC%9E%A5/4744",
+   "best_price_krw": 35000,
+   "note": "facts 181개(Q 93,956㎡, C 43.4억 원)가 현장설치도 등재가 46,200원과 같아 설치 포함으로 본다. 하차도 38,000·44,000원 fact는 C 5.54억 원으로, 시장가 0원이어도 0.8억 원 미만이다. 설치 포함분에는 설치 공개가가 필요하지만 찾지 못했다. 가든24 잔디펫트 500×500×T32는 35,000원/㎡에 착불 10,000원이다(industrial 기록의 Jev DONE 0.78). 다중 함몰방지 구조의 동등성은 미확인이다.",
+   "state": "available"
+  }
  ]
 }
