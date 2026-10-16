@@ -381,8 +381,10 @@ def main(argv=None):
             if preview.get('ok') is not True or preview.get('next_action') != 'submit':
                 raise ValueError('점수 preview가 신규 제출을 허용하지 않았습니다')
             amount_raw = preview.get('total_amount_krw')
-            if not isinstance(amount_raw,str):
-                raise ValueError('점수 preview 금액은 십진 문자열이어야 합니다')
+            # Live preview uses JSON integers; decimal strings remain supported.
+            # Reject booleans and floats so no rounded value reaches submission.
+            if type(amount_raw) not in (str,int):
+                raise ValueError('점수 preview 금액은 정수 또는 십진 문자열이어야 합니다')
             amount = Decimal(amount_raw)
             if not amount.is_finite() or amount < 0:
                 raise ValueError('점수 preview 금액은 유한한 0 이상의 원화여야 합니다')

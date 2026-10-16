@@ -170,12 +170,17 @@ class ScoreCliTests(unittest.TestCase):
         self.assertEqual(self.receipt.read_bytes(),original)
 
     def test_invalid_preview_amount_never_submits(self):
-        for amount in ('NaN','Infinity','-Infinity','not-money','-1',None,[],{}):
+        for amount in ('NaN','Infinity','-Infinity','not-money','-1',None,[],{},True,False,2640750.0,-1):
             with self.subTest(amount=amount):
                 self.receipt.unlink(missing_ok=True)
                 self.events.clear()
                 self.assertEqual(self.run_score(amount=amount),2)
                 self.assertEqual(self.events,[('preview',None)])
+
+    def test_live_api_integer_amount_can_submit_with_explicit_minimum(self):
+        self.assertEqual(self.run_score(amount=2640750,extra=('--min-saving','0')),0)
+        self.assertEqual(self.saved()['state'],'submitted')
+        self.assertEqual([e[0] for e in self.events],['preview','lookup','submit'])
 
     def test_preview_missing_amount_never_submits_or_crashes(self):
         self.assertEqual(self.run_score(preview={'ok':True,'next_action':'submit'}),2)
