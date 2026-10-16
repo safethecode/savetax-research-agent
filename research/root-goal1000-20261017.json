@@ -391,5 +391,91 @@
       "bytes": 5662,
       "sha256": "a083d6742c42878c8753eb523117bb8f3eadd2ebacedcc1f8734e7bbb9b04370"
     }
+  ],
+  "latest_user_direction": {
+    "keep_existing_submissions_and_prices": true,
+    "focus_new_and_preserved_unsubmitted_candidates": true,
+    "audit_existing_submissions": false,
+    "s2b_number_on_private_retail_page_is_not_automatic_exclusion": true
+  },
+  "root_additional_official_lookups": [
+    {
+      "items": [
+        {
+          "input": "24767199",
+          "kind": "item",
+          "item_id": "24767199",
+          "state": "claimed",
+          "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+        },
+        {
+          "input": "25195754",
+          "kind": "item",
+          "item_id": "25195754",
+          "state": "available",
+          "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+        },
+        {
+          "input": "25267803",
+          "kind": "item",
+          "item_id": "25267803",
+          "state": "available",
+          "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+        },
+        {
+          "input": "24066903",
+          "kind": "item",
+          "item_id": "24066903",
+          "state": "available",
+          "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+        },
+        {
+          "input": "23224766",
+          "kind": "item",
+          "item_id": "23224766",
+          "state": "available",
+          "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+        },
+        {
+          "input": "24271587",
+          "kind": "item",
+          "item_id": "24271587",
+          "state": "reform_found",
+          "message": "개혁신당이 이미 찾은 상품입니다 (등록할 수 없고 제출 횟수에 세지 않습니다)"
+        },
+        {
+          "input": "25427714",
+          "kind": "item",
+          "item_id": "25427714",
+          "state": "available",
+          "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+        },
+        {
+          "input": "24447566",
+          "kind": "item",
+          "item_id": "24447566",
+          "state": "claimed",
+          "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "input": "25427716",
+          "kind": "item",
+          "item_id": "25427716",
+          "state": "claimed",
+          "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+        },
+        {
+          "input": "23831436",
+          "kind": "item",
+          "item_id": "23831436",
+          "state": "claimed",
+          "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+        }
+      ]
+    }
   ]
 }

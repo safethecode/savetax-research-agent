@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-16T16:53:15.278162+00:00",
+  "observed_at_utc": "2026-10-16T17:12:23.105057+00:00",
   "scope": "보관 콘크리트·대량 자재 후보의 10억 원 문턱 검토 및 상향 패널 대안 조사",
   "minimum_new_submission_savings_krw": "1000000000",
   "important_unit_note": "사용자 현황110억은11,000,000,000원이다. 목표1,000억까지 남은890억/50회=17.8억 원. 현재 사용자 현황은 API 미검증이다.",
@@ -7,8 +7,8 @@
   "submission_ready_count": 0,
   "new_submission_count": 0,
   "preview_count": 0,
-  "parallel_calls": 17,
-  "jev_calls": 1,
+  "parallel_calls": 36,
+  "jev_calls": 2,
   "environment_limits": [],
   "sources": [
     {
@@ -2163,5 +2163,1801 @@
       "지진 등 외부환경에서외벽보호 내진설계패널",
       "실제첨부규격서파일명"
     ]
+  },
+  "seral_original_specification_review": {
+    "actual_downloaded_bytes": 2444585,
+    "sha256": "fbc0bfe7ef7214350d03bfbf9000f465696c0f77c75b92daff36116629a7dd07",
+    "format": "hwpx",
+    "revision_review": {
+      "status": "no_known_markers",
+      "scope": "hwpx_section_xml",
+      "marker_counts": {
+        "insertBegin": 0,
+        "insertEnd": 0,
+        "deleteBegin": 0,
+        "deleteEnd": 0
+      },
+      "text_policy": "revision_accept_reject_not_applied"
+    },
+    "source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002370043_1150000005",
+    "source_role": "원품규격전용;조달등재가를외부판매가격으로쓰지않음",
+    "download_observation_file": "work/bulk-goal1000/native-seral-spec-click.json",
+    "text_file": "work/bulk-goal1000/seral-spec-extracted.txt",
+    "zip_inventory": "중복0·총압축해제130291428bytes. 내장BMP3개약123.8MB가대부분이다. 섹션XML합계970716bytes이며기존reader에max_expanded_bytes=150000000을명시하여본문만읽고이미지3개는각2MB미만확인뒤별도읽음. 공통코드변경없음.",
+    "complete_product": "AL2mm평판을안쪽으로ㄷ자절곡해깊이30mm를만들고,슬롯이있는브라켓을리벳으로고정한완성카세트.30T솔리드알루미늄또는허니컴패널이아니다.",
+    "bom_scope": "SER-AL-I 모델·900×1800×30mm 한장에관한원문소요량표. 표전체배치를렌더로확인한것은아니다.",
+    "bom": [
+      {
+        "part": "패널",
+        "material": "AL1050A/3003A KSD6701",
+        "spec": "900×1800×30mm·표면판2mm",
+        "quantity": "1",
+        "unit": "장"
+      },
+      {
+        "part": "브라켓",
+        "material": "AL1050A/3003A KSD6701",
+        "spec": "14×24×53mm",
+        "quantity": "14",
+        "unit": "개"
+      },
+      {
+        "part": "후도장",
+        "material": "PVDF불소수지",
+        "quantity": "0.9",
+        "unit": "L"
+      },
+      {
+        "part": "고정리벳",
+        "material": "AL6063BLINDRIVET",
+        "spec": "4.8×11mm",
+        "quantity": "28",
+        "unit": "개"
+      }
+    ],
+    "visual_review": [
+      "정면완성카세트이미지1.jpg",
+      "배면절곡·슬롯브라켓·리벳이미지2.jpg",
+      "분해/구조그림image3.png"
+    ],
+    "test_basis_text_review": "브라켓변위흡수와탈락방지,동적내진최대±150mm,기밀·수밀·내풍압·전단/부착기준을원문에서읽었다.다른판매품의시험값으로전용하지않는다.",
+    "decision": "표면판과브라켓·절곡·PVDF가모두맞는실제완성카세트판매가가필요하다. 단순평판가격비교는제외.현재새판매가없음."
+  },
+  "sy_original_specification_recovered": {
+    "bytes": 540160,
+    "sha256": "c97e75052650312015a2e4923542314532d07bedc9f39d58c4f24d78a7bea1f1",
+    "format": "hwp",
+    "revision_review": {
+      "status": "not_assessed",
+      "scope": "hwp_not_assessed",
+      "marker_counts": null,
+      "text_policy": "revision_accept_reject_not_applied"
+    },
+    "source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002170367_1120000058",
+    "source_role": "원품규격전용",
+    "text_file": "work/bulk-goal1000/sy-spec-extracted.txt",
+    "new_confirmed_reading": "실링테이프1차차수,부틸고무브래킷/볼트2차차수,강풍에의한접합부찢김·탈락억제,등압공간구조가원문에명시되어있다.두께상향만으로그기능을증명하지않는다.",
+    "limitation": "HWP변경추적은not_assessed,텍스트추출/원문도면과표시각검토는별개. 기존원문과같은SHA확인."
+  },
+  "cassette_retail_followup": {
+    "parallel_queries": "work/bulk-goal1000/parallel-live-18.json~21.json",
+    "domestic_result": "일반상용카세트완제품에대한고정된공개가격확보못함.루버상품/평판원재료/허니컴/견적문의와구분.",
+    "overseas_primary_source": {
+      "seller": "Foshan M-CITY Aluminum Co., Ltd.",
+      "model": "MCT-P02",
+      "url": "https://korean.mcityaluminum.com/sale-11066355-3mm-thick-aluminum-solid-panel-with-pvdf-paint-and-customizable-ral-colors-for-facade-cladding-and-c.html",
+      "direct_http_status": 200,
+      "actual_source_file": "work/bulk-goal1000/mcity-mctp02.html",
+      "displayed_price": "USD30~USD100/Sq.m",
+      "minimum_order_sqm": "80",
+      "advertised_scope": "AL3mm·PVDF·절단/CNC/절곡/도장/조립/검사/포장,주문규격",
+      "reasons_not_adopted": [
+        "900×1800×깊이30mm·브라켓14개/리벳28개의선택구성고정가없음",
+        "가격범위최저30달러를확정단가로선택하지않음",
+        "원품내진/기밀/수밀기능대응미확인",
+        "한국운송/보험/관세/VAT/국내배송총액미확정"
+      ],
+      "adopted_savings_krw": null
+    },
+    "additional_queries": [
+      "work/bulk-goal1000/parallel-live-23.json",
+      "work/bulk-goal1000/parallel-live-24.json",
+      "work/bulk-goal1000/parallel-live-25.json"
+    ],
+    "additional_result": "국내 카세트 완제품 검색 3회 추가. 후레싱 부재, 원판 재단 100원 표시, 견적 문의가 반환돼 실제 완성 카세트 고정가는 확보하지 못했다."
+  },
+  "polyurea_new_followup": {
+    "parallel_file": "work/bulk-goal1000/parallel-live-22.json",
+    "status": "고압분사형400kg드럼완제품의국내실판매가격확보못함",
+    "negative_notes": [
+      "하이브리드Sikalastic8500과순수8850을구분,200kg드럼포장을12kg수작업SUPERMAX와동일모델취급안함",
+      "분사기/노즐가격을도료가격으로채택하지않음",
+      "공급업체규격서와유료가격표를공개판매가격으로채택하지않음"
+    ]
+  },
+  "concrete_djb1_followup": {
+    "item_id": "23251204",
+    "model": "DJ-B1",
+    "current_state": "available",
+    "lookup_source_url": "https://hackathon.savetax.now/v1/events/current/items/lookup?ids=24902279,23251204",
+    "local_discovery_C_krw": "2059354000",
+    "local_discovery_Q": "7722",
+    "original_public_backlog": "research/concrete-focus.md",
+    "searches": [
+      "work/bulk-goal1000/parallel-live-26.json",
+      "work/bulk-goal1000/parallel-live-27.json",
+      "work/bulk-goal1000/parallel-live-28.json"
+    ],
+    "result": "폭 2m×높이1m×깊이850mm 대형 완성 옹벽 중간블록의 신품 일반 실가 미확보. 소형 속빈블록·작은 축조블록, 통계단가·G2B 가격을 옮기지 않았다.",
+    "adopted_savings_krw": null
+  },
+  "grassmat_kgm500_followup": {
+    "item_id": "24902279",
+    "model": "KG-M500",
+    "current_state": "available",
+    "catalog_source_url": "https://api.savetax.now/v1/items/24902279",
+    "original_features": "EVA+UV차단제·산화방지제, 500×500×29mm, 550g/장. 제조사 원문은 탄성 돔의 다중 함몰 방지·완충 날개·열팽창 체결·지면밀착 구조를 설명한다.",
+    "original_manufacturer_url": "https://www.key-green.com/grassmat",
+    "retail_source_url": "https://garden24.co.kr/product/%EC%9E%94%EB%94%94%EB%B3%B4%ED%98%B8%EB%A7%A4%ED%8A%B8-%EC%9E%94%EB%94%94%ED%8E%AB%ED%8A%B8-500x500xt32-1m24%EC%9E%A5/4744",
+    "http_status": 403,
+    "native_read_succeeded": true,
+    "native_file": "work/bulk-goal1000/native-garden24-4744.json",
+    "ordinary_price_krw": 35000,
+    "pack_sqm": "1",
+    "pack_count": 4,
+    "shipping_observed_krw": 10000,
+    "shipping_quote": "착불 1개 주문시 10,000원",
+    "result": "32mm 두께만으로 원품 함몰·완충·체결 기능의 우수성을 확정할 수 없고, 대량 운임도 미확정이다. 한설그린 33,000원은 실제 원문이 조달청가라고 명시해 판매 근거에서 제외했다.",
+    "adopted_savings_krw": null
+  },
+  "kaiflex_hiflex_followup": {
+    "item_id": "24449671",
+    "procurement_model": "KHCS-CB1 A025",
+    "manufacturer": "경향산업 주식회사",
+    "state": "available",
+    "fact_count": 46,
+    "unique_request_count": 46,
+    "quantity": "46180",
+    "comparable_amount_krw": "2654048302",
+    "unit": "m",
+    "unit_note": "공식 단위는 m이며 폭1m 시트 길이이다. 로컬 수치를 처음 ㎡라고 설명했던 부분을 정정한다.",
+    "tax_basis": "vat_included",
+    "listing_id": "002270417_1110000479",
+    "contract_no": "002270417_1",
+    "delivery_terms": "납품장소도",
+    "other_listing_not_in_facts": {
+      "listing_id": "002270417_1110001002",
+      "delivery_terms": "현장설치도"
+    },
+    "official_source_urls": [
+      "https://api.savetax.now/v1/items/24449671",
+      "https://hackathon.savetax.now/v1/events/current/items/24449671",
+      "https://api.savetax.now/v1/listings/002270417_1110000479"
+    ],
+    "original_specification": {
+      "source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002270417_1110000479",
+      "file_name": "221012_우수제품 규격서&#40;2022102&#41;_경향산업&#40;유&#41;.hwp",
+      "bytes": 3588096,
+      "sha256": "de70b30785c5497a9247a76ff4d22f321c76a46febee6c86ffbcafbf07909ccc",
+      "revision_review": {
+        "status": "not_assessed",
+        "scope": "hwp_not_assessed",
+        "marker_counts": null,
+        "text_policy": "revision_accept_reject_not_applied"
+      },
+      "scope": "실제 HWP 본문 추출. 전체 페이지 시각 검토 완료와 구분한다.",
+      "minimum_properties": {
+        "thermal_conductivity_W_mK": "<=0.034",
+        "LOI_percent": ">=33",
+        "CFE_kW_sqm": ">=21",
+        "horizontal_burning": "HF-1",
+        "gas_toxicity_mouse_activity_time": ">=9min30s",
+        "tensile_strength_kPa": ">=130",
+        "bacterial_reduction_percent": ">=98",
+        "mold_log": "<=1.0",
+        "water_vapor_permeability_ng_m2_s_Pa": "<=5",
+        "water_absorption_g_100cm2": "<=0.3",
+        "compression_set_percent": "<=18"
+      }
+    },
+    "retailer": "원캔몰 (주)원캔네트웍스",
+    "retail_source_url": "https://1canmall.com/product/%EA%B3%A0%EB%AC%B4%EB%B0%9C%ED%8F%AC-%EC%8B%9C%ED%8A%B8%EC%A0%90%EC%B0%A9/1059/category/253/display/1/",
+    "retail_model": "하이코리아 HIFLEX SHEET 점착식",
+    "retail_manufacturer_basis": "상품 제조사 행 하이코리아, 판매 상세의 HIFLEX 제조사 문서 이미지. 공통 설명의 다른 제조사 목록과 구분한다.",
+    "ordinary_price_options": [
+      {
+        "option": "25T×1m×10m",
+        "price_krw": 178000,
+        "native_selected": false
+      },
+      {
+        "option": "32T×1m×8m",
+        "price_krw": 196000,
+        "native_selected": true,
+        "native_qty1_total_krw": 196000,
+        "native_qty2_total_krw": 392000
+      },
+      {
+        "option": "40T×1m×7m",
+        "price_krw": 217700,
+        "native_selected": true,
+        "native_qty1_total_krw": 217700
+      }
+    ],
+    "price_basis": "상품 표시 일반 판매가. 5% 기간 할인 안내가 있지만 실제 선택 합계는 할인 전 196,000원이어서 할인·쿠폰을 차감하지 않았다.",
+    "vat_included": true,
+    "shipping_included": false,
+    "shipping_observed": {
+      "display": "착불 1개 주문시 22,000원",
+      "body": "박스당 20,000원, 박스/수량에 따라 상이",
+      "limitations": "롤별 포장과 대량 실제 운임·도서산간 추가비 미확정. 22,000원/롤 또는 VAT 민감도 24,200원/롤은 계산 예산이다."
+    },
+    "native_sources": [
+      "work/bulk-goal1000/native-1canmall-1059.json",
+      "work/bulk-goal1000/native-1canmall-1059-form.json",
+      "work/bulk-goal1000/native-1canmall-1059-32t-selected.json",
+      "work/bulk-goal1000/native-1canmall-1059-40t-selected.json"
+    ],
+    "jev": {
+      "file": "work/bulk-goal1000/jev-1canmall-1059.json",
+      "operation": "SELECT",
+      "latency_ms": 353,
+      "model": "jev-1.13.0"
+    },
+    "seller_document_images": [
+      {
+        "n": 1,
+        "url": "https://1canmall.com/web/upload/NNEditor/20240409/28ECA3BC29ED9598EC9DB4ECBD94EBA6ACEC9584_EC9EA5EC9E85EB9F89ED919C28EC84A4EBB984292028129_1.jpg",
+        "path": "work/bulk-goal1000/hiflex-seller-image-1.jpg",
+        "status": 200,
+        "type": "image/jpeg",
+        "bytes": 190827,
+        "sha256": "d9718b2c65a234b681dd383b08a782d3a12e1b41a0002f48e93813b91686e5c5"
+      },
+      {
+        "n": 2,
+        "url": "https://1canmall.com/web/upload/NNEditor/20220111/ED9598EC9DB4ECBD94EBA6ACEC9584-2019-06-min2028129_1.jpg",
+        "path": "work/bulk-goal1000/hiflex-seller-image-2.jpg",
+        "status": 200,
+        "type": "image/jpeg",
+        "bytes": 424368,
+        "sha256": "54cf64e2175a5e561fa99aad3e6f755f38a6a7783680e38502498b793beab785"
+      },
+      {
+        "n": 3,
+        "url": "https://1canmall.com/web/upload/NNEditor/20220111/ED9598EC9DB4ECBD94EBA6ACEC9584-2019-06-min2028129_2.jpg",
+        "path": "work/bulk-goal1000/hiflex-seller-image-3.jpg",
+        "status": 200,
+        "type": "image/jpeg",
+        "bytes": 404151,
+        "sha256": "001c717a1632b170e3ba1c9af22db98e8f738d84868d7f725b7df0401705ef7c"
+      },
+      {
+        "n": 4,
+        "url": "https://1canmall.com/web/upload/NNEditor/20220111/ED9598EC9DB4ECBD94EBA6ACEC9584-2019-06-min2028129_5.jpg",
+        "path": "work/bulk-goal1000/hiflex-seller-image-4.jpg",
+        "status": 200,
+        "type": "image/jpeg",
+        "bytes": 493067,
+        "sha256": "6d34e4db3b09b6aec63d979d580507413283ecab75f9447dac3eef5e117d63cb"
+      },
+      {
+        "n": 5,
+        "url": "https://1canmall.com/web/upload/NNEditor/20220111/ED9598EC9DB4ECBD94EBA6ACEC9584-2019-06-min2028129_10.jpg",
+        "path": "work/bulk-goal1000/hiflex-seller-image-5.jpg",
+        "status": 200,
+        "type": "image/jpeg",
+        "bytes": 372592,
+        "sha256": "56dd46e12bf0196eb20daff4ebef827f77dd5c2348cd724b1916708f5748eca8"
+      },
+      {
+        "n": 6,
+        "url": "https://1canmall.com/web/upload/NNEditor/20220111/ED9598EC9DB4ECBD94EBA6ACEC9584-2019-06-min2028129_11.jpg",
+        "path": "work/bulk-goal1000/hiflex-seller-image-6.jpg",
+        "status": 200,
+        "type": "image/jpeg",
+        "bytes": 314249,
+        "sha256": "e45c1e7073e2de1d06090af57e41d5dd9bd2b7f1ed33c963266287c46ce3d757"
+      },
+      {
+        "n": 7,
+        "url": "https://1canmall.com/web/upload/NNEditor/20220111/ED9598EC9DB4ECBD94EBA6ACEC9584-2019-06-min2028129_12.jpg",
+        "path": "work/bulk-goal1000/hiflex-seller-image-7.jpg",
+        "status": 200,
+        "type": "image/jpeg",
+        "bytes": 389740,
+        "sha256": "13767a13e12c261cb342c88ab48e12bfe20653484cb44bf6db3d4fab2449adfe"
+      },
+      {
+        "n": 8,
+        "url": "https://1canmall.com/web/upload/NNEditor/20220111/ED9598EC9DB4ECBD94EBA6ACEC9584-2019-06-min2028129_13.jpg",
+        "path": "work/bulk-goal1000/hiflex-seller-image-8.jpg",
+        "status": 200,
+        "type": "image/jpeg",
+        "bytes": 398528,
+        "sha256": "1c3fdc666bccb4b35d00240d42940bec08e8915fd451e8e23532bc582c791465"
+      },
+      {
+        "n": 9,
+        "url": "https://1canmall.com/web/upload/NNEditor/20220111/ED9598EC9DB4ECBD94EBA6ACEC9584-2019-06-min2028129_14.jpg",
+        "path": "work/bulk-goal1000/hiflex-seller-image-9.jpg",
+        "status": 200,
+        "type": "image/jpeg",
+        "bytes": 552815,
+        "sha256": "9682d18393195a85d95c88a24a4dd8878cdfc147b9785267c803c0e9299dfbeb"
+      },
+      {
+        "n": 10,
+        "url": "https://1canmall.com/web/upload/NNEditor/20220111/ED9598EC9DB4ECBD94EBA6ACEC9584-2019-06-min2028129_15.jpg",
+        "path": "work/bulk-goal1000/hiflex-seller-image-10.jpg",
+        "status": 200,
+        "type": "image/jpeg",
+        "bytes": 560324,
+        "sha256": "7110788b08b9d50006a54188006755e61d7a057d8fbeaaefa8d70e415e28023b"
+      },
+      {
+        "n": 11,
+        "url": "https://1canmall.com/web/upload/NNEditor/20220111/ED9598EC9DB4ECBD94EBA6ACEC9584-2019-06-min2028129_16.jpg",
+        "path": "work/bulk-goal1000/hiflex-seller-image-11.jpg",
+        "status": 200,
+        "type": "image/jpeg",
+        "bytes": 470031,
+        "sha256": "78b8b8db0ff9211d134fe669f0a2348f8703a04d3119c20e2c335356b8b35100"
+      },
+      {
+        "n": 12,
+        "url": "https://1canmall.com/web/upload/NNEditor/20220111/ED9598EC9DB4ECBD94EBA6ACEC9584-2019-06-min2028129_17.jpg",
+        "path": "work/bulk-goal1000/hiflex-seller-image-12.jpg",
+        "status": 200,
+        "type": "image/jpeg",
+        "bytes": 564528,
+        "sha256": "d3edf57efab6762145341a3c3e6e66de3f7e089807c3e619a2ec07525b2504ed"
+      },
+      {
+        "n": 13,
+        "url": "https://1canmall.com/web/upload/NNEditor/20220111/ED9598EC9DB4ECBD94EBA6ACEC9584-2019-06-min2028129_18.jpg",
+        "path": "work/bulk-goal1000/hiflex-seller-image-13.jpg",
+        "status": 200,
+        "type": "image/jpeg",
+        "bytes": 511573,
+        "sha256": "4a8ef29321282feb06188f8be807daba53ba745d13b645770d7591cb93e06fbd"
+      }
+    ],
+    "images_visually_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "confirmed_retail_scope": "점착식 독립기포형 고무발포 단열 시트 완제품. 덕트·기기 보온용, 32T 폭1000×길이8m 구성은 제조사 상세 이미지와 선택 옵션이 대응한다. 튜브 단품이나 은박PE판 가격을 쓰지 않았다.",
+    "reviewed_differences": {
+      "core_thermal_purpose": "동일한 덕트 결로 방지·보온 목적과 완성 시트 구성은 확인했다. 원품의 항균·고강도·화재안전 기능까지 대체하는지 검증은 미완료다.",
+      "thermal_conductivity_limits": "원품0.034 이하, 판매 HIFLEX 문서0.035 이하. 상한값으로 계산한 명목 열저항은 25mm/0.034=0.735294, 32mm/0.035=0.914286, 40mm/0.035=1.142857m²K/W다. 각 제품 실측 비교시험으로 우수성을 확정한 값은 아니다.",
+      "thickness_increase": "32T는 원품보다28%,40T는60% 두껍다. 설치 공간 차이를 보존한다.",
+      "fire_and_strength": "판매 문서의 특징 설명은 LOI34 이상을 적지만 표는 KS기준28 이상이다. 실제 선택품의 CFE21·HF-1·가스9:30·인장130kPa·항균98% 대응 성적서는 확보하지 못했다.",
+      "water_and_compression": "판매 자료의 흡수1.0 이하·압축변형30 이하·투습6 이하 표는 KS기준이며 원품0.3·18·5보다 완화돼 있다. 실제 선택품 실측값으로 바꾸지 않았다."
+    },
+    "conditional_scenarios": [
+      {
+        "label": "25T",
+        "pack_length_m": 10,
+        "ordinary_price_vat_included": 178000,
+        "shipping_budget_per_roll_krw": 22000,
+        "shipping_status": "observed22000oneorder;24200isVATuncertaintysensitivity;notverifiedperrollatbulk",
+        "facts": 46,
+        "positive_difference_krw": "1726385463",
+        "threshold_passing_difference_krw": "1726385463",
+        "adopted_savings_krw": null
+      },
+      {
+        "label": "25T",
+        "pack_length_m": 10,
+        "ordinary_price_vat_included": 178000,
+        "shipping_budget_per_roll_krw": 24200,
+        "shipping_status": "observed22000oneorder;24200isVATuncertaintysensitivity;notverifiedperrollatbulk",
+        "facts": 46,
+        "positive_difference_krw": "1716195064",
+        "threshold_passing_difference_krw": "1716195064",
+        "adopted_savings_krw": null
+      },
+      {
+        "label": "32T",
+        "pack_length_m": 8,
+        "ordinary_price_vat_included": 196000,
+        "shipping_budget_per_roll_krw": 22000,
+        "shipping_status": "observed22000oneorder;24200isVATuncertaintysensitivity;notverifiedperrollatbulk",
+        "facts": 46,
+        "positive_difference_krw": "1392091464",
+        "threshold_passing_difference_krw": "1392091464",
+        "adopted_savings_krw": null
+      },
+      {
+        "label": "32T",
+        "pack_length_m": 8,
+        "ordinary_price_vat_included": 196000,
+        "shipping_budget_per_roll_krw": 24200,
+        "shipping_status": "observed22000oneorder;24200isVATuncertaintysensitivity;notverifiedperrollatbulk",
+        "facts": 46,
+        "positive_difference_krw": "1379368867",
+        "threshold_passing_difference_krw": "1379368867",
+        "adopted_savings_krw": null
+      },
+      {
+        "label": "40T",
+        "pack_length_m": 7,
+        "ordinary_price_vat_included": 217700,
+        "shipping_budget_per_roll_krw": 22000,
+        "shipping_status": "observed22000oneorder;24200isVATuncertaintysensitivity;notverifiedperrollatbulk",
+        "facts": 46,
+        "positive_difference_krw": "1069806662",
+        "threshold_passing_difference_krw": "1069806662",
+        "adopted_savings_krw": null
+      },
+      {
+        "label": "40T",
+        "pack_length_m": 7,
+        "ordinary_price_vat_included": 217700,
+        "shipping_budget_per_roll_krw": 24200,
+        "shipping_status": "observed22000oneorder;24200isVATuncertaintysensitivity;notverifiedperrollatbulk",
+        "facts": 46,
+        "positive_difference_krw": "1055277859",
+        "threshold_passing_difference_krw": "1055277859",
+        "adopted_savings_krw": null
+      }
+    ],
+    "calculation_rule": "fact마다 ceil(Q/롤길이)×(일반가+롤당운임예산), 이를 Q로 나누고 소수6자리 올림한 B로 floor(max(C−BQ,0)). 원품과 대안의 성능·실배송이 해결되기 전 미채택.",
+    "independent_calculation_validation": {
+      "fraction_checks": 276,
+      "mismatches": 0
+    },
+    "fact_evidence": [
+      {
+        "fact_id": "dl:24449671:002270417_1:3824306517:1",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "3824306517",
+        "line_no": "1",
+        "request_date": "2026-01-30",
+        "agency_name": "경상남도 진주시",
+        "quantity": "1502",
+        "comparable_amount_krw": "89684420",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "188",
+          "cost": "40984000",
+          "benchmark_B": "27286.284954",
+          "saving": "48700419",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "215",
+          "cost": "52008500",
+          "benchmark_B": "34626.165114",
+          "saving": "37675919",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R25TB00929209:10",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R25TB00929209",
+        "line_no": "10",
+        "request_date": "2025-12-12",
+        "agency_name": "전남광주통합특별시 순천시",
+        "quantity": "1632",
+        "comparable_amount_krw": "97446720",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "204",
+          "cost": "44472000",
+          "benchmark_B": "27250.000000",
+          "saving": "52974720",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "234",
+          "cost": "56604600",
+          "benchmark_B": "34684.191177",
+          "saving": "40842119",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R25TB01079025:17",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R25TB01079025",
+        "line_no": "17",
+        "request_date": "2026-03-25",
+        "agency_name": "충청남도 홍성군",
+        "quantity": "2192",
+        "comparable_amount_krw": "119101270",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "274",
+          "cost": "59732000",
+          "benchmark_B": "27250.000000",
+          "saving": "59369270",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "314",
+          "cost": "75956600",
+          "benchmark_B": "34651.733577",
+          "saving": "43144669",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R25TB01096761:13",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R25TB01096761",
+        "line_no": "13",
+        "request_date": "2025-10-23",
+        "agency_name": "문화체육관광부 국립중앙박물관",
+        "quantity": "2075",
+        "comparable_amount_krw": "112749275",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "260",
+          "cost": "56680000",
+          "benchmark_B": "27315.662651",
+          "saving": "56069274",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "297",
+          "cost": "71844300",
+          "benchmark_B": "34623.759037",
+          "saving": "40904974",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R25TB01103544:10",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R25TB01103544",
+        "line_no": "10",
+        "request_date": "2025-10-24",
+        "agency_name": "한국식품산업클러스터진흥원",
+        "quantity": "469",
+        "comparable_amount_krw": "25484053",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "59",
+          "cost": "12862000",
+          "benchmark_B": "27424.307037",
+          "saving": "12622052",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "67",
+          "cost": "16207300",
+          "benchmark_B": "34557.142858",
+          "saving": "9276752",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R25TB01121185:31",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R25TB01121185",
+        "line_no": "31",
+        "request_date": "2025-10-29",
+        "agency_name": "법무부",
+        "quantity": "4029",
+        "comparable_amount_krw": "218923773",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "504",
+          "cost": "109872000",
+          "benchmark_B": "27270.290395",
+          "saving": "109051772",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "576",
+          "cost": "139334400",
+          "benchmark_B": "34582.874163",
+          "saving": "79589372",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R25TB01240617:19",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R25TB01240617",
+        "line_no": "19",
+        "request_date": "2025-11-25",
+        "agency_name": "한국환경공단",
+        "quantity": "3223",
+        "comparable_amount_krw": "192445330",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "403",
+          "cost": "87854000",
+          "benchmark_B": "27258.454856",
+          "saving": "104591329",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "461",
+          "cost": "111515900",
+          "benchmark_B": "34600.031027",
+          "saving": "80929429",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R25TB01259071:1",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R25TB01259071",
+        "line_no": "1",
+        "request_date": "2025-11-28",
+        "agency_name": "국립경국대학교",
+        "quantity": "484",
+        "comparable_amount_krw": "28899640",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "61",
+          "cost": "13298000",
+          "benchmark_B": "27475.206612",
+          "saving": "15601639",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "70",
+          "cost": "16933000",
+          "benchmark_B": "34985.537191",
+          "saving": "11966639",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R25TB01273727:16",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R25TB01273727",
+        "line_no": "16",
+        "request_date": "2025-12-08",
+        "agency_name": "대전광역시 서구",
+        "quantity": "49",
+        "comparable_amount_krw": "2925790",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "7",
+          "cost": "1526000",
+          "benchmark_B": "31142.857143",
+          "saving": "1399789",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "7",
+          "cost": "1693300",
+          "benchmark_B": "34557.142858",
+          "saving": "1232489",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R25TB01280451:12",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R25TB01280451",
+        "line_no": "12",
+        "request_date": "2025-12-04",
+        "agency_name": "울산광역시 종합건설본부",
+        "quantity": "112",
+        "comparable_amount_krw": "6687520",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "14",
+          "cost": "3052000",
+          "benchmark_B": "27250.000000",
+          "saving": "3635520",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "16",
+          "cost": "3870400",
+          "benchmark_B": "34557.142858",
+          "saving": "2817119",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R25TB01387496:23",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R25TB01387496",
+        "line_no": "23",
+        "request_date": "2025-12-30",
+        "agency_name": "충북대학교",
+        "quantity": "1394",
+        "comparable_amount_krw": "83235740",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "175",
+          "cost": "38150000",
+          "benchmark_B": "27367.288379",
+          "saving": "45085739",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "200",
+          "cost": "48380000",
+          "benchmark_B": "34705.882353",
+          "saving": "34855739",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01431682:17",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01431682",
+        "line_no": "17",
+        "request_date": "2026-01-15",
+        "agency_name": "충청북도 옥천군",
+        "quantity": "1091",
+        "comparable_amount_krw": "65143610",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "137",
+          "cost": "29866000",
+          "benchmark_B": "27374.885427",
+          "saving": "35277609",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "156",
+          "cost": "37736400",
+          "benchmark_B": "34588.817599",
+          "saving": "27407209",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01471131:28",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01471131",
+        "line_no": "28",
+        "request_date": "2026-01-27",
+        "agency_name": "경찰청 강원특별자치도경찰청",
+        "quantity": "75",
+        "comparable_amount_krw": "4478250",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "10",
+          "cost": "2180000",
+          "benchmark_B": "29066.666667",
+          "saving": "2298249",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "11",
+          "cost": "2660900",
+          "benchmark_B": "35478.666667",
+          "saving": "1817349",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01474485:1",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01474485",
+        "line_no": "1",
+        "request_date": "2026-01-28",
+        "agency_name": "대구의료원",
+        "quantity": "2975",
+        "comparable_amount_krw": "177637250",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "372",
+          "cost": "81096000",
+          "benchmark_B": "27259.159664",
+          "saving": "96541249",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "425",
+          "cost": "102807500",
+          "benchmark_B": "34557.142858",
+          "saving": "74829749",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01484806:6",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01484806",
+        "line_no": "6",
+        "request_date": "2026-01-30",
+        "agency_name": "대구광역시 도시건설본부",
+        "quantity": "2819",
+        "comparable_amount_krw": "168322490",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "353",
+          "cost": "76954000",
+          "benchmark_B": "27298.332743",
+          "saving": "91368489",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "403",
+          "cost": "97485700",
+          "benchmark_B": "34581.660164",
+          "saving": "70836789",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01509058:1",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01509058",
+        "line_no": "1",
+        "request_date": "2026-02-05",
+        "agency_name": "제주대학교",
+        "quantity": "300",
+        "comparable_amount_krw": "17913000",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "38",
+          "cost": "8284000",
+          "benchmark_B": "27613.333334",
+          "saving": "9628999",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "43",
+          "cost": "10401700",
+          "benchmark_B": "34672.333334",
+          "saving": "7511299",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01555992:29",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01555992",
+        "line_no": "29",
+        "request_date": "2026-02-19",
+        "agency_name": "전남광주통합특별시 광주청사",
+        "quantity": "118",
+        "comparable_amount_krw": "7045780",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "15",
+          "cost": "3270000",
+          "benchmark_B": "27711.864407",
+          "saving": "3775779",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "17",
+          "cost": "4112300",
+          "benchmark_B": "34850.000000",
+          "saving": "2933480",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01576520:29",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01576520",
+        "line_no": "29",
+        "request_date": "2026-02-24",
+        "agency_name": "대전광역시 서구",
+        "quantity": "398",
+        "comparable_amount_krw": "23764580",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "50",
+          "cost": "10900000",
+          "benchmark_B": "27386.934674",
+          "saving": "12864579",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "57",
+          "cost": "13788300",
+          "benchmark_B": "34643.969850",
+          "saving": "9976279",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01586759:18",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01586759",
+        "line_no": "18",
+        "request_date": "2026-02-26",
+        "agency_name": "충청북도 청주시",
+        "quantity": "91",
+        "comparable_amount_krw": "5433610",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "12",
+          "cost": "2616000",
+          "benchmark_B": "28747.252748",
+          "saving": "2817609",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "13",
+          "cost": "3144700",
+          "benchmark_B": "34557.142858",
+          "saving": "2288909",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01594907:1",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01594907",
+        "line_no": "1",
+        "request_date": "2026-02-27",
+        "agency_name": "문화체육관광부 국립중앙박물관",
+        "quantity": "1720",
+        "comparable_amount_krw": "102701200",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "215",
+          "cost": "46870000",
+          "benchmark_B": "27250.000000",
+          "saving": "55831200",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "246",
+          "cost": "59507400",
+          "benchmark_B": "34597.325582",
+          "saving": "43193799",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01607209:10",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01607209",
+        "line_no": "10",
+        "request_date": "2026-03-04",
+        "agency_name": "전남광주통합특별시 해남군",
+        "quantity": "98",
+        "comparable_amount_krw": "5851580",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "13",
+          "cost": "2834000",
+          "benchmark_B": "28918.367347",
+          "saving": "3017579",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "14",
+          "cost": "3386600",
+          "benchmark_B": "34557.142858",
+          "saving": "2464979",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01659344:7",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01659344",
+        "line_no": "7",
+        "request_date": "2026-03-13",
+        "agency_name": "경기도교육청 안산디자인문화고등학교",
+        "quantity": "153",
+        "comparable_amount_krw": "9135630",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "20",
+          "cost": "4360000",
+          "benchmark_B": "28496.732027",
+          "saving": "4775629",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "22",
+          "cost": "5321800",
+          "benchmark_B": "34783.006536",
+          "saving": "3813829",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01701196:31",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01701196",
+        "line_no": "31",
+        "request_date": "2026-03-23",
+        "agency_name": "대구의료원",
+        "quantity": "4396",
+        "comparable_amount_krw": "262485160",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "550",
+          "cost": "119900000",
+          "benchmark_B": "27274.795269",
+          "saving": "142585159",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "628",
+          "cost": "151913200",
+          "benchmark_B": "34557.142858",
+          "saving": "110571959",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01772920:21",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01772920",
+        "line_no": "21",
+        "request_date": "2026-04-07",
+        "agency_name": "충청북도 청주시",
+        "quantity": "576",
+        "comparable_amount_krw": "34392960",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "72",
+          "cost": "15696000",
+          "benchmark_B": "27250.000000",
+          "saving": "18696960",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "83",
+          "cost": "20077700",
+          "benchmark_B": "34857.118056",
+          "saving": "14315259",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01777563:27",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01777563",
+        "line_no": "27",
+        "request_date": "2026-04-08",
+        "agency_name": "전남광주통합특별시 광주청사",
+        "quantity": "54",
+        "comparable_amount_krw": "3224340",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "7",
+          "cost": "1526000",
+          "benchmark_B": "28259.259260",
+          "saving": "1698339",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "8",
+          "cost": "1935200",
+          "benchmark_B": "35837.037038",
+          "saving": "1289139",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01788988:8",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01788988",
+        "line_no": "8",
+        "request_date": "2026-04-10",
+        "agency_name": "전남광주통합특별시 전남미술관",
+        "quantity": "914",
+        "comparable_amount_krw": "54574940",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "115",
+          "cost": "25070000",
+          "benchmark_B": "27428.884027",
+          "saving": "29504939",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "131",
+          "cost": "31688900",
+          "benchmark_B": "34670.568928",
+          "saving": "22886039",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01815432:11",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01815432",
+        "line_no": "11",
+        "request_date": "2026-04-16",
+        "agency_name": "강원특별자치도교육청",
+        "quantity": "61",
+        "comparable_amount_krw": "3397090",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "8",
+          "cost": "1744000",
+          "benchmark_B": "28590.163935",
+          "saving": "1653089",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "9",
+          "cost": "2177100",
+          "benchmark_B": "35690.163935",
+          "saving": "1219989",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01867850:15",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01867850",
+        "line_no": "15",
+        "request_date": "2026-04-29",
+        "agency_name": "한국해양과학기술원",
+        "quantity": "382",
+        "comparable_amount_krw": "21273580",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "48",
+          "cost": "10464000",
+          "benchmark_B": "27392.670158",
+          "saving": "10809579",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "55",
+          "cost": "13304500",
+          "benchmark_B": "34828.534032",
+          "saving": "7969079",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01880631:10",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01880631",
+        "line_no": "10",
+        "request_date": "2026-05-04",
+        "agency_name": "경상북도 포항시",
+        "quantity": "312",
+        "comparable_amount_krw": "17358573",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "39",
+          "cost": "8502000",
+          "benchmark_B": "27250.000000",
+          "saving": "8856573",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "45",
+          "cost": "10885500",
+          "benchmark_B": "34889.423077",
+          "saving": "6473072",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01901268:11",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01901268",
+        "line_no": "11",
+        "request_date": "2026-05-11",
+        "agency_name": "강원특별자치도 원주시",
+        "quantity": "609",
+        "comparable_amount_krw": "33915210",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "77",
+          "cost": "16786000",
+          "benchmark_B": "27563.218391",
+          "saving": "17129209",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "87",
+          "cost": "21045300",
+          "benchmark_B": "34557.142858",
+          "saving": "12869909",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01950360:33",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01950360",
+        "line_no": "33",
+        "request_date": "2026-05-23",
+        "agency_name": "경기도 화성시",
+        "quantity": "481",
+        "comparable_amount_krw": "26786890",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "61",
+          "cost": "13298000",
+          "benchmark_B": "27646.569647",
+          "saving": "13488889",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "69",
+          "cost": "16691100",
+          "benchmark_B": "34700.831601",
+          "saving": "10095789",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01972698:1",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01972698",
+        "line_no": "1",
+        "request_date": "2026-06-01",
+        "agency_name": "전북대학교병원",
+        "quantity": "3157",
+        "comparable_amount_krw": "175813330",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "395",
+          "cost": "86110000",
+          "benchmark_B": "27275.894837",
+          "saving": "89703329",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "451",
+          "cost": "109096900",
+          "benchmark_B": "34557.142858",
+          "saving": "66716429",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01985844:10",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01985844",
+        "line_no": "10",
+        "request_date": "2026-06-04",
+        "agency_name": "산림청 중부지방산림청",
+        "quantity": "20",
+        "comparable_amount_krw": "1113800",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "3",
+          "cost": "654000",
+          "benchmark_B": "32700.000000",
+          "saving": "459800",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "3",
+          "cost": "725700",
+          "benchmark_B": "36285.000000",
+          "saving": "388100",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01988882:20",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01988882",
+        "line_no": "20",
+        "request_date": "2026-06-05",
+        "agency_name": "인천광역시 경제자유구역청",
+        "quantity": "1242",
+        "comparable_amount_krw": "69166980",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "156",
+          "cost": "34008000",
+          "benchmark_B": "27381.642513",
+          "saving": "35158979",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "178",
+          "cost": "43058200",
+          "benchmark_B": "34668.438004",
+          "saving": "26108779",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB01994524:9",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB01994524",
+        "line_no": "9",
+        "request_date": "2026-06-08",
+        "agency_name": "충청북도 단양군",
+        "quantity": "77",
+        "comparable_amount_krw": "1262800",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "10",
+          "cost": "2180000",
+          "benchmark_B": "28311.688312",
+          "saving": "0",
+          "threshold": false
+        },
+        "conditional_40T_ship24200": {
+          "packs": "11",
+          "cost": "2660900",
+          "benchmark_B": "34557.142858",
+          "saving": "0",
+          "threshold": false
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB02015473:9",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB02015473",
+        "line_no": "9",
+        "request_date": "2026-06-12",
+        "agency_name": "제3보병사단",
+        "quantity": "58",
+        "comparable_amount_krw": "3230020",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "8",
+          "cost": "1744000",
+          "benchmark_B": "30068.965518",
+          "saving": "1486019",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "9",
+          "cost": "2177100",
+          "benchmark_B": "37536.206897",
+          "saving": "1052919",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB02016697:10",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB02016697",
+        "line_no": "10",
+        "request_date": "2026-06-12",
+        "agency_name": "제3보병사단",
+        "quantity": "79",
+        "comparable_amount_krw": "4399510",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "10",
+          "cost": "2180000",
+          "benchmark_B": "27594.936709",
+          "saving": "2219509",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "12",
+          "cost": "2902800",
+          "benchmark_B": "36744.303798",
+          "saving": "1496709",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB02025940:19",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB02025940",
+        "line_no": "19",
+        "request_date": "2026-06-16",
+        "agency_name": "경기도 고양시",
+        "quantity": "270",
+        "comparable_amount_krw": "15036300",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "34",
+          "cost": "7412000",
+          "benchmark_B": "27451.851852",
+          "saving": "7624299",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "39",
+          "cost": "9434100",
+          "benchmark_B": "34941.111112",
+          "saving": "5602199",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB02192018:9",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB02192018",
+        "line_no": "9",
+        "request_date": "2026-08-03",
+        "agency_name": "강원특별자치도 정선군 보건소",
+        "quantity": "142",
+        "comparable_amount_krw": "7907980",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "18",
+          "cost": "3924000",
+          "benchmark_B": "27633.802817",
+          "saving": "3983979",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "21",
+          "cost": "5079900",
+          "benchmark_B": "35773.943662",
+          "saving": "2828079",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB02215606:5",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB02215606",
+        "line_no": "5",
+        "request_date": "2026-09-17",
+        "agency_name": "충청남도 홍성군",
+        "quantity": "43",
+        "comparable_amount_krw": "2394670",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "6",
+          "cost": "1308000",
+          "benchmark_B": "30418.604652",
+          "saving": "1086669",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "7",
+          "cost": "1693300",
+          "benchmark_B": "39379.069768",
+          "saving": "701369",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB02217207:9",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB02217207",
+        "line_no": "9",
+        "request_date": "2026-08-11",
+        "agency_name": "대구광역시 도시건설본부",
+        "quantity": "193",
+        "comparable_amount_krw": "10748170",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "25",
+          "cost": "5450000",
+          "benchmark_B": "28238.341969",
+          "saving": "5298169",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "28",
+          "cost": "6773200",
+          "benchmark_B": "35094.300519",
+          "saving": "3974969",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB02219944:1",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB02219944",
+        "line_no": "1",
+        "request_date": "2026-08-12",
+        "agency_name": "경찰청 강원특별자치도경찰청",
+        "quantity": "90",
+        "comparable_amount_krw": "5012100",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "12",
+          "cost": "2616000",
+          "benchmark_B": "29066.666667",
+          "saving": "2396099",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "13",
+          "cost": "3144700",
+          "benchmark_B": "34941.111112",
+          "saving": "1867399",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB02276443:7",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB02276443",
+        "line_no": "7",
+        "request_date": "2026-09-01",
+        "agency_name": "경기도교육청 영생고등학교",
+        "quantity": "170",
+        "comparable_amount_krw": "9467300",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "22",
+          "cost": "4796000",
+          "benchmark_B": "28211.764706",
+          "saving": "4671299",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "25",
+          "cost": "6047500",
+          "benchmark_B": "35573.529412",
+          "saving": "3419799",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB02334175:1",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB02334175",
+        "line_no": "1",
+        "request_date": "2026-09-18",
+        "agency_name": "농림축산식품부 농림축산검역본부",
+        "quantity": "4033",
+        "comparable_amount_krw": "224597770",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "505",
+          "cost": "110090000",
+          "benchmark_B": "27297.297298",
+          "saving": "114507769",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "577",
+          "cost": "139576300",
+          "benchmark_B": "34608.554426",
+          "saving": "85021469",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB02338599:1",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB02338599",
+        "line_no": "1",
+        "request_date": "2026-09-21",
+        "agency_name": "경상북도",
+        "quantity": "1191",
+        "comparable_amount_krw": "66326790",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "149",
+          "cost": "32482000",
+          "benchmark_B": "27272.879933",
+          "saving": "33844789",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "171",
+          "cost": "41364900",
+          "benchmark_B": "34731.234257",
+          "saving": "24961889",
+          "threshold": true
+        }
+      },
+      {
+        "fact_id": "dl:24449671:002270417_1:R26TB02345595:11",
+        "listing_id": "002270417_1110000479",
+        "contract_no": "002270417_1",
+        "request_no": "R26TB02345595",
+        "line_no": "11",
+        "request_date": "2026-09-22",
+        "agency_name": "강원특별자치도교육청",
+        "quantity": "631",
+        "comparable_amount_krw": "35151528",
+        "comparison_basis_id": "basis:m:vat_included",
+        "basis_id": "basis:m:vat_included",
+        "unit": "m",
+        "tax_basis": "vat_included",
+        "conditional_32T_ship22000": {
+          "packs": "79",
+          "cost": "17222000",
+          "benchmark_B": "27293.185420",
+          "saving": "17929527",
+          "threshold": true
+        },
+        "conditional_40T_ship24200": {
+          "packs": "91",
+          "cost": "22012900",
+          "benchmark_B": "34885.736926",
+          "saving": "13138627",
+          "threshold": true
+        }
+      }
+    ],
+    "ready": false,
+    "adopted_B": null,
+    "adopted_savings_krw": null,
+    "next_evidence": "실제 판매 구성에 적용되는 항균·고강도·난연 시험과 포장별 운임을 보완하거나, 같은 경향산업 KAIFLEX 점착 시트의 독립 판매가를 확보한다. 특허 실시예나 2025 신형 HIFLEX FRMB 규격을 구형 판매 구성에 전용하지 않는다."
   }
 }
