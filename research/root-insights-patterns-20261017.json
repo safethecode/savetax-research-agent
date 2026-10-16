@@ -1,0 +1,22 @@
+{
+ "observed_at": "2026-10-17 KST",
+ "source": "공개 insights API(/v1/events/{id}/insights/products) 6,394건과 참가자 인증 제출 상세",
+ "finding": "다른 참가자의 고액 접수 상당수가 savetax.now 통계 기반 적정가 또는 같은 물품의 다른 기관 납품가(공공조달 가격)를 근거로 사용한다. 이 방식은 AGENTS.md 기준상 판매 근거가 아니므로 따르지 않는다.",
+ "examples": {
+  "24384969": "금속제패널 128.5억, savetax 통계 적정가",
+  "24274967": "낙석방지책, savetax 통계 적정가",
+  "26316987": "군용방한복, savetax 통계 적정가",
+  "21654286": "시멘트, 다른 기관 납품가",
+  "25187410": "한컴 Edu, softwarecatalog.co.kr 32,900원",
+  "24489064": "MS GA Subscription vs Microsoft 365 Apps for business 공식가"
+ },
+ "microsoft_sibling_check": {
+  "items": [
+   "24489065",
+   "25744757"
+  ],
+  "price": "Microsoft 365 Apps for business ₩13,200/사용자/월 연간·부가세 별도(브라우저·Jev DONE 0.86 확인), 최대 300명",
+  "result": "24489065는 23건 중 18건, 25744757은 8건 중 5건이 300대 초과라 요금제 범위를 벗어난다. 300 이하 건만은 약 0.75억 원. Apps for enterprise 원화 공개가 미확인, E3·E5는 더 비싸다. 보류."
+ },
+ "sibling_candidates_file": "work/root-goal1000/insights/sibling-candidates.json"
+}
