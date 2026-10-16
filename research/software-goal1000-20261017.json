@@ -668,7 +668,11 @@
      "tax_basis": "vat_included",
      "basis_id": "basis:조:vat_included"
     }
-   ]
+   ],
+   "jev": {
+    "file": "work/software-goal1000/jev/24830439.json",
+    "note": "같은 판매 페이지(softwares 96)에 Jev를 실행함: SCROLL_DOWN 0.68 282ms"
+   }
   }
  ],
  "queued_below_1b": [

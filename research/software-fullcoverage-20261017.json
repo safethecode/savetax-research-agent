@@ -24,7 +24,17 @@
    "best_price_krw": 1469000,
    "note": "동일 Creative Cloud Pro for teams 1년 기업용이 1,469,000원(소프트웨어즈 1,365,000원)으로 조달 1,320,000원보다 비쌈",
    "local_amount_krw": 9647880000.0,
-   "max_benchmark_for_1B_krw": 1183182
+   "max_benchmark_for_1B_krw": 1183182,
+   "jev": {
+    "file": "work/software-goal1000/jev/25590568.json",
+    "url": "https://softinfo.co.kr/product/detail.html?product_no=72",
+    "operation": "DONE",
+    "confidence": 0.87,
+    "latency_ms": 211,
+    "model": "jev-1.13.0",
+    "status": "predicted",
+    "page_title": "Creative Cloud Pro for teams All Apps 1년 기업용 라이선스"
+   }
   },
   {
    "item_id": "23235820",
@@ -113,7 +123,18 @@
    "best_price_krw": 5360000,
    "note": "SQL Server Standard 2코어 5,360,000원은 24코어·128GB 제한으로 더 낫지 않음; Enterprise는 코어당 더 비쌈",
    "local_amount_krw": 5597900000.0,
-   "max_benchmark_for_1B_krw": 6324484
+   "max_benchmark_for_1B_krw": 6324484,
+   "jev": {
+    "file": "work/software-goal1000/jev/25366238.json",
+    "url": "https://softwares.co.kr/product/detail.html?product_no=97&cate_no=24&display_group=1",
+    "operation": "SCROLL_DOWN",
+    "confidence": 0.72,
+    "latency_ms": 306,
+    "model": "jev-1.13.0",
+    "status": "predicted",
+    "page_title": "SQL Server 2022 Standard Core - 2 Core License Pack [CSP/영구] - 소프트웨어즈",
+    "note": "Jev 스냅샷에는 가격이 없다. ₩5,360,000은 앞서 HTTP로 확인했다."
+   }
   },
   {
    "item_id": "23696987",
@@ -678,7 +699,18 @@
    "best_price_krw": 654840,
    "note": "동일 SM-X406N 소매 약 65~74만 원 > 조달 521,000원; 10억 원에 258,533원 이하 필요",
    "local_amount_krw": 1985010000.0,
-   "max_benchmark_for_1B_krw": 258533
+   "max_benchmark_for_1B_krw": 258533,
+   "jev": {
+    "file": "work/software-goal1000/jev/26003766.json",
+    "url": "https://store.ohou.se/goods/3753175",
+    "operation": "BLOCKED",
+    "confidence": 0.98,
+    "latency_ms": 216,
+    "model": "jev-1.13.0",
+    "status": "predicted",
+    "page_title": "Access Denied",
+    "note": "Jev가 Access Denied를 반환해 ohou.se 가격을 직접 읽지 못했다. 판정은 Parallel 발췌(오늘의집 654,840원, G마켓·롯데온 약 69~74만 원)에 근거하며 미검증 상태로 남긴다."
+   }
   },
   {
    "item_id": "24689125",
@@ -700,7 +732,17 @@
    "best_price_krw": 3179000,
    "note": "동일 PB4-S32B 소매 3,179,000원 = 조달 등재가 3,179,000원",
    "local_amount_krw": 1891602000.0,
-   "max_benchmark_for_1B_krw": 376521
+   "max_benchmark_for_1B_krw": 376521,
+   "jev": {
+    "file": "work/software-goal1000/jev/24863739.json",
+    "url": "https://unple.kr/product/pb4-s32b-%EC%95%B1%EC%BD%94-%ED%8C%A8%EB%93%9C%EB%B1%85%ED%81%AC4-%ED%83%9C%EB%B8%94%EB%A6%BF%ED%81%AC%EB%A1%AC%EB%B6%81-%EC%98%AC%EC%9D%B8%EC%9B%90-%EC%B4%88%EA%B3%A0%EC%86%8D%EC%B6%A9%EC%A0%84-%EB%B3%B4%EA%B4%80%ED%95%A8-32%EB%8C%80%EC%9A%A9/4238",
+    "operation": "DONE",
+    "confidence": 0.81,
+    "latency_ms": 264,
+    "model": "jev-1.13.0",
+    "status": "predicted",
+    "page_title": "[PB4-S32B] 앱코 패드뱅크4 태블릿/크롬북 올인원 초고속충전 보관함 32대용 - 언플이"
+   }
   },
   {
    "item_id": "25440219",
@@ -781,7 +823,18 @@
    "best_price_krw": 5360000,
    "note": "SQL Standard 4코어(SSRS) 비교 시 약 5억 원",
    "local_amount_krw": 1823360000.0,
-   "max_benchmark_for_1B_krw": 7351429
+   "max_benchmark_for_1B_krw": 7351429,
+   "jev": {
+    "file": "work/software-goal1000/jev/24139739.json",
+    "url": "https://softwares.co.kr/product/detail.html?product_no=97&cate_no=24&display_group=1",
+    "operation": "SCROLL_DOWN",
+    "confidence": 0.69,
+    "latency_ms": 226,
+    "model": "jev-1.13.0",
+    "status": "predicted",
+    "page_title": "SQL Server 2022 Standard Core - 2 Core License Pack [CSP/영구] - 소프트웨어즈",
+    "note": "Jev 스냅샷에는 가격이 없다. ₩5,360,000은 앞서 HTTP로 확인했다."
+   }
   },
   {
    "item_id": "24261571",
@@ -827,7 +880,18 @@
    "best_price_krw": 20172500,
    "note": "TAC는 Enterprise 추가 사용권. SQL Enterprise 코어 환산 1,109만 원 > 814만 원",
    "local_amount_krw": 1701260000.0,
-   "max_benchmark_for_1B_krw": 3355311
+   "max_benchmark_for_1B_krw": 3355311,
+   "jev": {
+    "file": "work/software-goal1000/jev/24830439.json",
+    "url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+    "operation": "SCROLL_DOWN",
+    "confidence": 0.68,
+    "latency_ms": 282,
+    "model": "jev-1.13.0",
+    "status": "predicted",
+    "page_title": "SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] - 소프트웨어즈",
+    "note": "Jev 스냅샷은 앞부분 151자만 담는다. 가격 ₩20,172,500은 앞서 HTTP와 browser-read로 확인했다."
+   }
   },
   {
    "item_id": "25342088",
@@ -2265,7 +2329,18 @@
    "best_price_krw": 27929000,
    "note": "hardware 에이전트 담당(방화벽·IPS·스위치). Parallel 1회('안랩(AHNLAB,INC.) AhnLab XTG 500 가격 판매 견적') 결과 8건, 모델명 일치 7건, 원화 판매 페이지 없음. ITSNS 동일 XTG 500 공개가 27,929,000원이 조달 평균 27,863,285원보다 높음 (https://shop.itsns.co.kr/collections/ahnlab-firewall)",
    "local_amount_krw": 947351680.0,
-   "max_benchmark_for_0_8B_krw": 4333873
+   "max_benchmark_for_0_8B_krw": 4333873,
+   "jev": {
+    "file": "work/software-goal1000/jev/25937285.json",
+    "url": "https://shop.itsns.co.kr/collections/ahnlab-firewall",
+    "operation": "TYPE_TEXT",
+    "confidence": 0.87,
+    "latency_ms": 314,
+    "model": "jev-1.13.0",
+    "status": "predicted",
+    "page_title": "안랩 방화벽— ITSNS",
+    "note": "Jev 스냅샷은 목록 앞부분(XTG 40·50)만 담는다. XTG 500 27,929,000원은 앞서 HTTP로 확인했다."
+   }
   },
   {
    "item_id": "24484590",
@@ -2430,7 +2505,17 @@
    "best_price_krw": 567000,
    "note": "Parallel 1회('Adobe (US)Illustrator CC R28 가격 판매 견적') 결과 8건, 모델명 일치 0건, 원화 판매 페이지 없음. 소프트웨어즈·softinfo 검색 결과 해당 제품 없음. 0.8억 원 절감에는 단가 66,868원 이하 필요(조달 단가 약 561,000원). Illustrator 단일앱 1년: 소프트웨어즈 567,000원 > 조달 561,000원",
    "local_amount_krw": 908259000.0,
-   "max_benchmark_for_0_8B_krw": 66868
+   "max_benchmark_for_0_8B_krw": 66868,
+   "jev": {
+    "file": "work/software-goal1000/jev/25590570.json",
+    "url": "https://softwares.co.kr/product/list.html?cate_no=27",
+    "operation": "CLICK",
+    "confidence": 0.58,
+    "latency_ms": 223,
+    "model": "jev-1.13.0",
+    "status": "predicted",
+    "page_title": "디자인 - 소프트웨어즈"
+   }
   },
   {
    "item_id": "25533812",
