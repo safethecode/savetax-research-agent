@@ -1475,8 +1475,8 @@
       },
       {
         "attribute": "내진 설계 스펙트럼 수준",
-        "original": "AC156:2010 준용 SDS≥1.50g",
-        "alternative": "AC156:2020 SDS1.62g, 해당 시험에서 이상 없음. 명목 SDS 수준은 높지만 시험 판본 차이 공개"
+        "original": "요구 최솟값은 AC156:2010 준용 SDS≥1.50g다. 공개 화영 카탈로그와 원규격이 참조한 2020-R-003 표지는 SDS18.43m/s², 약1.879g를 표시한다.",
+        "alternative": "AC156:2020 SDS1.62g, 해당 시험에서 이상 없음. 원품보다 더 높은 내진성능을 입증한 값으로 쓰지 않으며 시험 판본과 구성 차이도 공개한다."
       },
       {
         "attribute": "마감판",
@@ -1496,7 +1496,7 @@
     ],
     "differences": [
       "다른 제조사·모델·금속판 시스템이며 동일품 비교가 아니다.",
-      "원품AC156:2010과대안AC156:2020의시험판본차이가있다. 명목SDS수준이높다는범위를넘어모든성능이우수하다고주장하지않는다.",
+      "원품 AC156:2010과 대안 AC156:2020의 시험 판본이 다르다. 원품의 실제 공개 SDS는 약1.879g이므로 대안1.62g의 성능 우위를 주장하지 않는다.",
       "원품별도KTL F100 2.5g진동·전후2500N결합력·원품하중처짐·열저항결과는대안에서확인하지못했다. 미확인을충족으로바꾸지않는다.",
       "기존젠픽스1.8g600판+50mm캡조합과이번300판·캡없는1.62g조합을섞지않는다.",
       "제조사일위대가표는100㎡이상1Hall기준이고현장별차이·AL몰딩별도다. 직접확인일반판매확정가와구분한다.",
@@ -1506,7 +1506,8 @@
     "spec_source_urls": [
       "https://dmcschool.co.kr/files/design/sub-bul-dmc-std-quake.pdf",
       "https://dmcschool.co.kr/files/design/ilw-ipchal-bul-dmc36-std-quake.xlsx",
-      "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002370195_1060000001"
+      "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002370195_1060000001",
+      "https://www.gachon.ac.kr/bbs/kor/480/122276/download.do"
     ],
     "not_ready": true,
     "benchmark_unit_price_krw": null,
@@ -3154,5 +3155,22 @@
     "post_called": false,
     "registration_opportunities_used": 0,
     "user_permission_pending": false
+  },
+  "higher_sds_retail_followup": {
+    "search_id": "search_04668867e26b2f4a2ee7af112fc1a213",
+    "query": "내진 천장 완성 시스템 AC156 SDS 2.0g 2.5g 판매 가격",
+    "raw_search_file": "work/session-20261017/ceiling-submit-final/parallel-higher-sds-retail.json",
+    "result": "USG 일반 카탈로그, 유료 물가정보 목록, 천장이 아닌 냉동기 시험 문서가 반환됐다. 검색 결과를 실제 판매가나 원품보다 우수한 완성 천장의 근거로 채택하지 않았다.",
+    "new_root_parallel_calls": 1,
+    "additional_jev_calls": 0,
+    "adopted_B_krw": null,
+    "adopted_expected_savings_krw": null,
+    "preview_called": false,
+    "post_called": false,
+    "registration_opportunities_used": 0,
+    "user_permission_pending": false,
+    "latest_official_check_utc": "2026-10-16T21:41:07.338260+00:00",
+    "latest_availability": "available",
+    "75_facts_equal_previous": true
   }
 }
