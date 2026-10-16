@@ -42,6 +42,7 @@
 - 네트워크 실패는 호스트·경로·UTC 시각·DNS·TCP/TLS·HTTP 상태를 구별한다. 429는 `Retry-After`를 따르고 그동안 로컬 분석과 판매가 조사를 진행한다.
 - 재사용 스킬은 `.agents/skills/savetax-research/SKILL.md`, MCP 연결 상태는 `docs/mcp-connections.md`를 읽는다. 새 세션에서도 현재 도구가 실제로 있는지 확인한다.
 - JS 판매 페이지는 `.agents/skills/savetax-browser/SKILL.md`의 Browser Harness·Jev 경로를 쓴다. 작업 전용 Chrome과 공유 세션을 직렬로 사용한다. `.env.txt` 키는 환경변수로만 전달하고 값은 출력·커밋하지 않는다.
+- 독립 CLI 세션은 `--session bulk/hardware/industrial`처럼 본인 이름으로 분리한다. 실제 DOM에서 관측한 일반 상품 옵션·수량 확인은 공개 주소를 `BrowserRuntime._validate_url`로 검사한 뒤 기존 Browser Harness CLI와 `_run`의 환경 분리·잠금·임시 탭 정리를 재사용해 분담할 수 있다. 원문과 선택 전후 합계를 `work/`에 보존하며 구매·장바구니·문의·로그인·캡차 동작은 하지 않는다. 공용 MCP는 계속 root가 직렬로 사용한다. 공개 CLI에 새 범용 스크립트 실행 기능을 추가하지 않는다.
 
 - 물량 우선 인덱스는 `work/data/latest-20261016/full-catalog-priority.parquet`이다. 기존 MD5 담당을 유지하며 `local_delivery_count`는 고유 dlv_key별 dlv_lines 합, `local_quantity`는 그 수량 합, `local_unit_price_krw`는 금액/수량이다. `spend_priority_rank`는 총금액→중복 제거 납품라인 수→수량→최고 등재가 순이다. 로컬 순위는 탐색용이며 점수에는 공식 fact를 쓴다.
 
