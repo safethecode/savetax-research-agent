@@ -1,0 +1,2706 @@
+{
+ "submission": {
+  "submission_id": "4eee0995-9b51-41e2-9253-0986371244e0",
+  "claim_id": "5f075f16-660f-4618-bec7-cb23aba174de",
+  "revision": 1,
+  "submission_state": "accepted",
+  "admitted_at": "2026-10-16T17:26:54.498Z",
+  "amount_krw": 1146100000,
+  "verification_status": "not_started",
+  "lint_status": "pending",
+  "event_epoch": 1,
+  "ruleset_version": "rules-v1",
+  "public_path": "/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/4eee0995-9b51-41e2-9253-0986371244e0",
+  "api_path": "/v1/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/4eee0995-9b51-41e2-9253-0986371244e0",
+  "web_path": "#/submission/4eee0995-9b51-41e2-9253-0986371244e0"
+ },
+ "body": {
+  "dataset_release_id": "release-live-20261012",
+  "ruleset_version": "rules-v1",
+  "canonical_product_id": "25395524",
+  "title": "BLUEMAX NGF 510과 Ubiquiti Enterprise Fortress Gateway 취득가격 비교",
+  "claim": "조달 BLUEMAX NGF 510과 실제 판매 EFG의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. 동일 제조사·모델이 아닌 대체 비교다. 대체품은 CPU 코어 수(18 대 8), 메모리(16GB 대 8GB), 공시 처리량(IPS 12.5Gbps 대 원품 방화벽 12Gbps), 포트 속도(최대 25G 대 1G), 전원 이중화(2개 대 단일)에서 원품 공개 사양보다 높다. 반면 물리 포트 수는 6개로 원품 12개보다 적고, 원품 로그 1TB에 해당하는 내장 저장 용량은 제조사 사양에 없다. 처리량은 측정 조건이 달라 같은 시험의 우위로 확정하지 않는다. PQC·국산 암호·SSL VPN·FIDO/MFA·DLP/AV·가상 시스템·국내 CC/KCMVP와 기존 정책·터널 호환성은 입증하지 않았다. CyberSecure 유료 구독은 제외했다. 원계약은 현장설치도·하자보수 1년이고 판매처는 국내 AS가 불가한 해외구매대행이다. 미국 제조사 직판 스토어는 관측 시 품절 표시였으며, 판매처도 주문 후 품절·취소 가능성을 안내한다. 설치·이전·유지보수 비용과 전량 동시 재고는 반영하거나 확약하지 않았다.",
+  "comparison_scope": "원품 103개 공식 fact, 157대의 HW 차세대 방화벽 장비 취득가격을 다른 제조사 Ubiquiti EFG 1대 관부가세 포함·무료배송 판매가 3,700,000원과 비교한다. 원품의 국산 암호·SSL VPN·국내 인증과 실제 기관 정책을 모두 충족한다는 주장이 아니며, 설치·국내 유지보수 차이는 금액에 반영하지 않았다. 원품 BLUEMAX NGF 510, 대체품 EFG. 차이·제한: 동일 제조사·모델이 아닌 대체 비교다. 대체품은 CPU 코어 수(18 대 8), 메모리(16GB 대 8GB), 공시 처리량(IPS 12.5Gbps 대 원품 방화벽 12Gbps), 포트 속도(최대 25G 대 1G), 전원 이중화(2개 대 단일)에서 원품 공개 사양보다 높다. 반면 물리 포트 수는 6개로 원품 12개보다 적고, 원품 로그 1TB에 해당하는 내장 저장 용량은 제조사 사양에 없다. 처리량은 측정 조건이 달라 같은 시험의 우위로 확정하지 않는다. PQC·국산 암호·SSL VPN·FIDO/MFA·DLP/AV·가상 시스템·국내 CC/KCMVP와 기존 정책·터널 호환성은 입증하지 않았다. CyberSecure 유료 구독은 제외했다. 원계약은 현장설치도·하자보수 1년이고 판매처는 국내 AS가 불가한 해외구매대행이다. 미국 제조사 직판 스토어는 관측 시 품절 표시였으며, 판매처도 주문 후 품절·취소 가능성을 안내한다. 설치·이전·유지보수 비용과 전량 동시 재고는 반영하거나 확약하지 않았다.",
+  "reproduction_notes": "공식 fact별 floor(max(C-B×Q,0))를 합산. 각 라인 근거에 계약·납품요구·라인 번호를 기재. 가격 시점 차이는 사용자 지정 대회 조사 기준에서 제외한다. 사양 대응: 제품 유형과 비교 범위: 시큐아이 BLUEMAX NGF 510, HW 네트워크보안솔루션(차세대 방화벽), 정적/동적 NAT, IPSec·SSL VPN → Ubiquiti EFG(Enterprise Fortress Gateway), HW 일체형 게이트웨이. Stateful·L7 방화벽, IPsec 사이트 간 VPN, IDS/IPS를 기본 제공하는 다른 제조사 대체품; 프로세서와 메모리: 제조사 데이터시트: CPU 8 Core, Memory 8GB → 18-core ARM v8.2 2GHz, 16GB DDR4. 코어 수와 메모리 용량이 더 크다(아키텍처가 달라 코어당 성능 동일성은 주장하지 않는다); 처리 성능: 제조사 데이터시트 Throughput 12Gbps(IPS·VPN 처리량과 세션 수는 미공개) → 제조사 IDS/IPS 처리량 12.5Gbps, 신규 세션 71,000/초. IPS를 켠 처리량이 원품 방화벽 처리량 12Gbps 이상이지만 측정 조건이 달라 동일 시험 결과로 주장하지 않는다. 동시 세션은 판매 상세 1 Million과 제조사 techspecs 10 Million이 달라 낮은 값을 기준으로 본다; 네트워크 인터페이스: 1GF 4포트, 1GC 8포트, 10G 이상 없음 → 2.5GbE RJ45 2포트, 10G SFP+ 2포트, 25G SFP28 2포트. 포트 속도는 높지만 물리 포트 수는 12개 대비 6개로 적다; 전원 이중화: Power Supply Single → Hot-swappable 150W CRPS 전원 2개(이중화); 로그 저장장치: System 128GB, Log 1TB → 제조사 사양에 내장 로그 저장 용량 표기가 없다. 로컬 장기 로그 보존 능력은 원품보다 부족할 수 있다; VPN·암호·고급 보안: PQC·SEED/ARIA/LEA 등 IPsec, SSL VPN·FIDO/MFA·OTP, SSL 복호화, 앱 제어, 가상 시스템, Active-Active HA → IPsec·OpenVPN·WireGuard·L2TP, SSL Inspection, L7 앱 인식, Shadow Mode(VRRP) HA, OSPF/BGP, RADIUS. PQC·국산 암호·SSL VPN·FIDO·가상 시스템·국내 CC 인증의 동일성은 입증하지 않았다; 인도·하자보수 조건: 등재 R25TA01134403040000014, 같은 계약 등재의 인도조건 현장설치도·하자보수 1년 → 해외구매대행, 국내 AS 불가 안내. 수량 1 실제 합계 3,700,000원·관부가세 포함·표시 무료배송. 설치·정책 이전·국내 하자보수 비용은 포함하지 않았다. 사양 출처: https://api.savetax.now/v1/items/25395524 https://www.secui.com/uploads/file_url-1767798076411-311203176.pdf https://www.secui.com/uploads/file_url-1781229933025-669069893.pdf https://techspecs.ui.com/unifi/cloud-gateways/efg https://store.ui.com/us/en/products/efg https://help.ui.com/hc/en-us/articles/360006893234-UniFi-Gateway-Intrusion-Detection-and-Prevention-IDS-IPS https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936. 비교 검토: 핵심 용도: 두 제품 모두 네트워크 경계에 설치하는 HW 일체형 방화벽·VPN·침입방지 게이트웨이다. 원품 공식 속성은 HW·정적/동적 NAT·IPSec/SSL VPN, 대체품 판매 상세와 제조사 사양은 Stateful/L7 방화벽, NAT, IPsec, IDS/IPS 12.5Gbps를 명시한다.; 완제품 구성: 판매가는 전원부 2개를 포함한 완성 게이트웨이 1대 가격이며, 방화벽·VPN·IDS/IPS 기능은 별도 라이선스 없이 제공된다. 원품 단가도 장비 1대 기준이다. 유료 CyberSecure 구독과 설치 서비스는 포함하지 않았다.",
+  "lines": [
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R25TB01248236:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R25TB01248236, 라인 1. 공식 fact dl:25395524:R25TA01134403:R25TB01248236:1, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R25TB01253689:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R25TB01253689, 라인 1. 공식 fact dl:25395524:R25TA01134403:R25TB01253689:1, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R25TB01253982:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R25TB01253982, 라인 1. 공식 fact dl:25395524:R25TA01134403:R25TB01253982:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R25TB01278914:2",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R25TB01278914, 라인 2. 공식 fact dl:25395524:R25TA01134403:R25TB01278914:2, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R25TB01292152:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R25TB01292152, 라인 1. 공식 fact dl:25395524:R25TA01134403:R25TB01292152:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R25TB01294823:2",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R25TB01294823, 라인 2. 공식 fact dl:25395524:R25TA01134403:R25TB01294823:2, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R25TB01302496:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R25TB01302496, 라인 1. 공식 fact dl:25395524:R25TA01134403:R25TB01302496:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R25TB01307479:2",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R25TB01307479, 라인 2. 공식 fact dl:25395524:R25TA01134403:R25TB01307479:2, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R25TB01314765:2",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R25TB01314765, 라인 2. 공식 fact dl:25395524:R25TA01134403:R25TB01314765:2, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R25TB01317439:3",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R25TB01317439, 라인 3. 공식 fact dl:25395524:R25TA01134403:R25TB01317439:3, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R25TB01331845:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R25TB01331845, 라인 1. 공식 fact dl:25395524:R25TA01134403:R25TB01331845:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R25TB01337420:3",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R25TB01337420, 라인 3. 공식 fact dl:25395524:R25TA01134403:R25TB01337420:3, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R25TB01385554:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R25TB01385554, 라인 1. 공식 fact dl:25395524:R25TA01134403:R25TB01385554:1, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01407575:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01407575, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01407575:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01409063:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01409063, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01409063:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01415668:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01415668, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01415668:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01420431:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01420431, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01420431:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01420802:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01420802, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01420802:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01426470:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01426470, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01426470:1, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01428684:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01428684, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01428684:1, 수량 3, 비교금액 33000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01433362:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01433362, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01433362:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01433483:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01433483, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01433483:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01448620:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01448620, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01448620:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01458699:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01458699, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01458699:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01466725:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01466725, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01466725:1, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01473400:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01473400, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01473400:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01482374:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01482374, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01482374:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01492861:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01492861, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01492861:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01493893:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01493893, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01493893:1, 수량 6, 비교금액 66000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01501300:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01501300, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01501300:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01508920:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01508920, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01508920:1, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01512553:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01512553, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01512553:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01527312:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01527312, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01527312:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01533739:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01533739, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01533739:1, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01541985:3",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01541985, 라인 3. 공식 fact dl:25395524:R25TA01134403:R26TB01541985:3, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01548736:2",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01548736, 라인 2. 공식 fact dl:25395524:R25TA01134403:R26TB01548736:2, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01552659:2",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01552659, 라인 2. 공식 fact dl:25395524:R25TA01134403:R26TB01552659:2, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01560594:2",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01560594, 라인 2. 공식 fact dl:25395524:R25TA01134403:R26TB01560594:2, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01563931:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01563931, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01563931:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01568133:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01568133, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01568133:1, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01569709:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01569709, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01569709:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01598034:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01598034, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01598034:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01598171:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01598171, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01598171:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01623002:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01623002, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01623002:1, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01632465:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01632465, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01632465:1, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01662407:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01662407, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01662407:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01667431:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01667431, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01667431:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01682372:2",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01682372, 라인 2. 공식 fact dl:25395524:R25TA01134403:R26TB01682372:2, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01687970:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01687970, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01687970:1, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01691253:2",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01691253, 라인 2. 공식 fact dl:25395524:R25TA01134403:R26TB01691253:2, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01720065:2",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01720065, 라인 2. 공식 fact dl:25395524:R25TA01134403:R26TB01720065:2, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01728950:2",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01728950, 라인 2. 공식 fact dl:25395524:R25TA01134403:R26TB01728950:2, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01741338:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01741338, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01741338:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01743068:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01743068, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01743068:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01753215:2",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01753215, 라인 2. 공식 fact dl:25395524:R25TA01134403:R26TB01753215:2, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01758071:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01758071, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01758071:1, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01769186:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01769186, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01769186:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01788852:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01788852, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01788852:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01789017:2",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01789017, 라인 2. 공식 fact dl:25395524:R25TA01134403:R26TB01789017:2, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01796451:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01796451, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01796451:1, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01802301:4",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01802301, 라인 4. 공식 fact dl:25395524:R25TA01134403:R26TB01802301:4, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01841637:2",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01841637, 라인 2. 공식 fact dl:25395524:R25TA01134403:R26TB01841637:2, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01848112:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01848112, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01848112:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01853023:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01853023, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01853023:1, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01855182:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01855182, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01855182:1, 수량 4, 비교금액 44000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01867858:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01867858, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01867858:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01872739:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01872739, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01872739:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01879210:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01879210, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01879210:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01883807:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01883807, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01883807:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01892669:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01892669, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01892669:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01906626:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01906626, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01906626:1, 수량 3, 비교금액 33000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01910385:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01910385, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01910385:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01924739:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01924739, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01924739:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01942277:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01942277, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01942277:1, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01942788:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01942788, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01942788:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01946598:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01946598, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB01946598:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB01983411:2",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB01983411, 라인 2. 공식 fact dl:25395524:R25TA01134403:R26TB01983411:2, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02030961:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02030961, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB02030961:1, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02033756:2",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02033756, 라인 2. 공식 fact dl:25395524:R25TA01134403:R26TB02033756:2, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02039348:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02039348, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB02039348:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02041130:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02041130, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB02041130:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02066131:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02066131, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB02066131:1, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02075404:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02075404, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB02075404:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02107441:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02107441, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB02107441:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02116925:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02116925, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB02116925:1, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02137145:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02137145, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB02137145:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02142165:2",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02142165, 라인 2. 공식 fact dl:25395524:R25TA01134403:R26TB02142165:2, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02144632:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02144632, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB02144632:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02184708:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02184708, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB02184708:1, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02205304:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02205304, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB02205304:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02206166:2",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02206166, 라인 2. 공식 fact dl:25395524:R25TA01134403:R26TB02206166:2, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02219422:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02219422, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB02219422:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02239913:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02239913, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB02239913:1, 수량 8, 비교금액 88000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02267789:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02267789, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB02267789:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02295197:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02295197, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB02295197:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02297843:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02297843, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB02297843:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02300984:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02300984, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB02300984:1, 수량 8, 비교금액 88000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02304782:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02304782, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB02304782:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02306877:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02306877, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB02306877:1, 수량 3, 비교금액 33000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02330332:2",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02330332, 라인 2. 공식 fact dl:25395524:R25TA01134403:R26TB02330332:2, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02330433:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02330433, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB02330433:1, 수량 2, 비교금액 22000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02333129:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02333129, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB02333129:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   },
+   {
+    "fact_id": "dl:25395524:R25TA01134403:R26TB02342340:1",
+    "benchmark_unit_price_krw": "3700000",
+    "comparison_basis_id": "basis:대:vat_included",
+    "unit": "대",
+    "tax_basis": "vat_included",
+    "period": null,
+    "price_evidence": [
+     {
+      "kind": "price_page",
+      "source_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+      "quote": "미국도매할인샵 상품 상세: \"[관부가세포함] Enterprise Fortress Gateway EFG\", 브랜드·제조사 Ubiquiti Networks, 정가 4,610,000원, 판매가 3,700,000원, 배송비 무료 택배, 구매제한 옵션당 최소 1개. 수량 1 상태에서 총 상품금액 3,700,000원, 총 합계금액 3,700,000원과 바로 구매 버튼이 표시됐다. 같은 상세에 IDS/IPS Throughput 12.5 Gbps, Processor 18-core ARM v8.2 at 2 GHz, 2.5 GbE RJ45 2, 10G SFP+ 2, 25G SFP28 2, (2) Hot-swappable 150W CRPS가 적혀 있다. 2026-10-17 02:24 KST(2026-10-16 17:24 UTC)에 독립 브라우저와 HTTP로 직접 읽었다. 해외구매대행이며 미국 영업일 평균 10~20일, 주문 후 품절·취소 가능성 일반 안내가 있다.",
+      "observed_price_krw": "3700000",
+      "observed_at": "2026-10-17",
+      "vat_included": true,
+      "shipping_included": true,
+      "note": "표시가 3700000원/공식 비교 단위 1대 구성. 공식 비교 단위 1대당 3700000원으로 비교. 실제 판매모델 EFG; 원품 BLUEMAX NGF 510과 다른 대체품 비교."
+     }
+    ],
+    "fulfillment_evidence": [
+     {
+      "kind": "text",
+      "text": "계약 R25TA01134403, 납품요구 R26TB02342340, 라인 1. 공식 fact dl:25395524:R25TA01134403:R26TB02342340:1, 수량 1, 비교금액 11000000원."
+     }
+    ]
+   }
+  ]
+ }
+}
