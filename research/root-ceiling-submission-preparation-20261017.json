@@ -3,7 +3,7 @@
   "observed_at_utc": "2026-10-16T18:21:10.226109+00:00",
   "user_authorized_submission": true,
   "minimum_new_submission_krw": "1000000000",
-  "status": "awaiting_qualified_complete_price",
+  "status": "awaiting_qualified_price_and_superior_performance_evidence",
   "preview_called": false,
   "post_called": false,
   "adopted_expected_savings_krw": null,
@@ -1500,7 +1500,8 @@
       "원품별도KTL F100 2.5g진동·전후2500N결합력·원품하중처짐·열저항결과는대안에서확인하지못했다. 미확인을충족으로바꾸지않는다.",
       "기존젠픽스1.8g600판+50mm캡조합과이번300판·캡없는1.62g조합을섞지않는다.",
       "제조사일위대가표는100㎡이상1Hall기준이고현장별차이·AL몰딩별도다. 직접확인일반판매확정가와구분한다.",
-      "제조사 현재 일위대가표의 마이너 클립은 37×30×10×1.2T, 내진 시험 구성은 21×13×37×1.0T다. 원품의 모든 시험을 같게 요구하는 문제와 별개로, 대안 자체의 시험 구성과 가격표 부속이 완전히 같다고 자동 간주하지 않는다."
+      "제조사 현재 일위대가표의 마이너 클립은 37×30×10×1.2T, 내진 시험 구성은 21×13×37×1.0T다. 원품의 모든 시험을 같게 요구하는 문제와 별개로, 대안 자체의 시험 구성과 가격표 부속이 완전히 같다고 자동 간주하지 않는다.",
+      "공식 규격의 원품 최소 요구 SDS1.5g와 별개로, 공개 화영 카탈로그 및 규격서가 참조한 2020-R-003 시험 표지는 SDS18.43m/s²(약1.879g)를 표시한다. 따라서 대안1.62g가 원품보다 더 높다는 근거로 최소 요구값만 비교하지 않는다. 시험 판본·구성 차이도 공개한다."
     ],
     "spec_source_urls": [
       "https://dmcschool.co.kr/files/design/sub-bul-dmc-std-quake.pdf",
@@ -2449,7 +2450,8 @@
     "공개 일위대가표의 자재비 소계는 설계·산출 자료의 금액이며, 일반 고객에게 그 금액으로 공급한다는 판매 근거가 확인되지 않았다.",
     "실제 싹다 일반가 표에는 전용 내진 DMC 바와 클립이 있으나 시험 구성의 규격 및 VAT 조건을 함께 확인하지 못했다.",
     "아카이브의 실제 DMC판·KS 부속 판매 가격은 확보했지만, 그 가격들을 시험받은 완성 시스템에 맞추는 데 필요한 전용 부속의 판매 근거가 남아 있다.",
-    "제조사 표는 100㎡ 이상 1Hall 기준이다. 공식 fact의 면적만으로 현장별 조건을 확정하지 않았고, 3개 fact는 총면적도 100㎡ 미만이다."
+    "제조사 표는 100㎡ 이상 1Hall 기준이다. 공식 fact의 면적만으로 현장별 조건을 확정하지 않았고, 3개 fact는 총면적도 100㎡ 미만이다.",
+    "원품의 공개 시험 SDS 18.43m/s²(약 1.879g)를 새로 확인했다. 젠픽스 1.62g 또는 별도 구성 1.8g를 원품의 최소 요구 1.5g와만 비교해 성능 상향이라고 선언하지 않는다."
   ],
   "not_mixed": {
     "DA_BAR_conditional_krw": "5181791227",
@@ -3028,9 +3030,9 @@
     "observed_at_note": "출처 자료와 비교 순금액의 조건부 산술이다. 실판매가나 접수 예상액으로 채택하지 않았다."
   },
   "price_document_character_independent_review": "industrial 에이전트가 동일 SHA의 제조사 XLSX와 사이트 설명을 독립 대조했다. 판매가·공급가·공장도가 명시가 없고 설계자료·산출내역서용 엑셀로 분류되어 있다. 체크아웃 부재 자체를 배제 이유로 삼지 않는다.",
-  "availability_checked_again_at_utc": "2026-10-16T20:17:25.577555+00:00",
+  "availability_checked_again_at_utc": "2026-10-16T21:17:13.425417+00:00",
   "remaining_claims_today_at_recheck": 37,
-  "not_submitted_reason_type": "missing_qualified_price_evidence_not_user_approval",
+  "not_submitted_reason_type": "missing_qualified_price_and_superiority_evidence_not_user_approval",
   "final_followup": {
     "observation_directory": "work/session-20261017/ceiling-final-followup",
     "official_fact_rows_unchanged": true,
@@ -3072,6 +3074,85 @@
     "preview_called": false,
     "post_called": false,
     "reason_not_submitted": "시험 구성의 전용 바·클립 일반 판매가와 VAT 연결이 미확인이다. 설계용 단가나 다른 내진틀 가격을 완성 판매가로 바꾸지 않았다.",
+    "user_permission_pending": false
+  },
+  "pre_submission_recheck_20261017": {
+    "official_checked_at_utc": "2026-10-16T21:17:13.425417+00:00",
+    "facts_equal_previous": true,
+    "official_fact_count": 75,
+    "official_C_krw": "6807052520",
+    "official_Q_m2": "141958",
+    "unique_requests": 75,
+    "event_phase": "RUNNING",
+    "admission_state": "open",
+    "dataset_release_id": "release-live-20261012",
+    "ruleset_version": "rules-v1",
+    "price_gap": {
+      "min_ratio": "1.2",
+      "min_unit_krw": "1000000",
+      "rule": "enforce"
+    },
+    "remaining_claims_today": 37,
+    "remaining_claims_total": 38,
+    "original_test_new_primary_document": {
+      "source_url": "https://www.gachon.ac.kr/bbs/kor/480/122276/download.do",
+      "role": "제조사 화영 카탈로그의 공개 대학 배포 사본. 가격 근거로 채택하지 않음.",
+      "download_method": "industrial 에이전트의 정상 Browser Harness 공개 다운로드",
+      "ordinary_http_stage": "TLS handshake failed; HTTP 응답 이전",
+      "bytes": 4631578,
+      "sha256": "c40a2b3b088a5410325471319c685e77c5ae4f432f7633805521559a94d3484b",
+      "root_visually_reviewed_catalog_pages": [
+        5,
+        7
+      ],
+      "root_visually_reviewed_embedded_image": "work/industrial-ceiling/final-offer-recheck/hyep-gachon-report-006.jpg",
+      "original_hwp_reference": "work/bulk-goal1000/hyep-spec-extracted.txt:1018",
+      "original_hwp_report_reference": "SESTEC-2020-R-003 (2020-02-05)",
+      "test_report_no_on_cover": "2020-R-003",
+      "issued_date": "2020-02-05",
+      "test_date": "2020-01-07",
+      "client": "주식회사 화영",
+      "test_object": "S찬넬 시스템이 적용된 천장틀",
+      "standard": "ICC-ES AC156:2010 준용",
+      "SDS_m_per_s2": "18.43",
+      "z_over_h": "1",
+      "standard_gravity_m_per_s2": "9.80665",
+      "calculated_SDS_g": "1.879336980518321751056680926",
+      "catalog_declared_g": "1.88",
+      "result": "주요 손상 없음 (시험결과에 한정됨)",
+      "qualification_limit": "표지는 ISO/IEC17025 및 KOLAS 인정과 관련 없는 성적서임을 명시한다. 원시험 15쪽 전체가 아닌 카탈로그 속 표지를 확보했다.",
+      "decision": "최소 요구1.5g를 원품 실제 성능의 상한으로 읽지 않는다. 1.62g 또는 별도1.8g의 내진성능 우위 주장 미확정."
+    },
+    "manufacturer_live_price_context": {
+      "source_url": "https://www.zenfix.co.kr/81",
+      "native_observed_at_utc": "2026-10-16T21:17:27.355354+00:00",
+      "average_frame_krw_per_m2": "6000",
+      "approx_ceiling_krw_per_m2": "12000",
+      "separate_composite_system_krw_per_m2": "42000",
+      "source_role": "공공현장 평균·홍보 비교표. 특정 시험 구성의 확정 일반 판매가로 채택하지 않음.",
+      "vat_included": null,
+      "shipping_included": null,
+      "adopted_B_krw": null
+    },
+    "new_root_parallel_calls": 2,
+    "root_parallel_search_ids": [
+      "search_fe24ab5f82d25aae8bd70be3ac15008f",
+      "search_65e7a59a572056de3ae591f984571793"
+    ],
+    "new_root_jev_calls": 1,
+    "jev": {
+      "model": "jev-1.13.0",
+      "latency_ms": 317,
+      "operation": "CLICK",
+      "status": "predicted",
+      "evidence_verified": false
+    },
+    "conditional_design_calculation_adopted": false,
+    "adopted_B_krw": null,
+    "adopted_expected_savings_krw": null,
+    "preview_called": false,
+    "post_called": false,
+    "registration_opportunities_used": 0,
     "user_permission_pending": false
   }
 }
