@@ -1,0 +1,279 @@
+{
+  "title": "MSBY120 대비 DF-001 보행 경계 울타리 완성 부재 취득가격 비교",
+  "observed_at": "2026-10-16T12:02:18.148537+00:00",
+  "recheck_date": "2026-10-17",
+  "status": "parent_scope_review_pending",
+  "ready_for_parent_review": true,
+  "ready_for_submission": false,
+  "external_post_actions": 0,
+  "summary": "같은 2m 경간·높이1.2m의 강재 울타리 완성 세트와 마감기둥 판매 옵션을 실제 선택해 읽었다. 비교 목적은 일반 보행 경계용 완성 부재 취득이며 차량 충돌·추락 방호 성능의 동등성이나 원설계 전체의 실제 절감을 주장하지 않는다. VAT를 반영한 경간당89,100원은 각 경간에 추가 마감기둥1개를 모두 구입하는 별도 계산 시나리오다. 운임·현장 설치·기초공사는 미포함이며 0원으로 확인한 것이 아니다.",
+  "official": {
+    "item_id": "23742291",
+    "model": "MSBY120",
+    "manufacturer": "주식회사 엠에스로드",
+    "state_at_read": "available",
+    "facts_total": 3,
+    "unique_request_count": 3,
+    "quantity": "4542",
+    "unit": "경간",
+    "comparable_amount_krw": "916697600",
+    "min_fact_unit_price_krw": "201600",
+    "max_fact_unit_price_krw": "224000",
+    "api_urls": [
+      "https://api.savetax.now/v1/items/23742291",
+      "https://api.savetax.now/v1/listings/332430145_1010000001",
+      "https://hackathon.savetax.now/v1/events/current/items/23742291"
+    ],
+    "detail_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=332430145_1010000001",
+    "delivery_terms": "현장설치도"
+  },
+  "original_evidence": {
+    "archive_file": "work/fullscan/bulk-material-next10/fence-original-download/규격서및도면_주식회사 엠에스로드.zip",
+    "archive_sha256": "80b9ed9414b66ba8377f925dc0cc8466b4d6422f95d39346175aff516226f568",
+    "archive_bytes": 972781,
+    "download_method": "본인 bulk 세션에서 실제 첨부 링크명을 읽고 해당 링크1개를 클릭했다. 다운로드 완료·ZIP 형식·임시 탭 정리를 확인했다.",
+    "hwp_format": "hwp",
+    "hwp_sha256": "a695efc6c5d0a7106abc6d682fb9966d9a4899f6b911644004010b66cfec6d2f",
+    "revision_review": {
+      "status": "not_assessed",
+      "scope": "hwp_not_assessed",
+      "marker_counts": null,
+      "text_policy": "revision_accept_reject_not_applied"
+    },
+    "extraction_evidence_status": "unreviewed_text_extraction",
+    "visual_drawing_file": "work/fullscan/bulk-material-next10/msby120-drawing.png",
+    "visual_drawing_reviewed": true,
+    "drawing_title": "자전거도로난간 MSBY120-H1200×W2000(토공용)",
+    "bom_summary": "원규격은 1경간당 SGT275 지주Φ101.6×2T×2000mm 1본, SGHC레일120×2T×4330mm 1장, SGT275핸드레일Φ60.5×2T×1930mm 1개를 기재한다. 도면은 약770mm 매립, 상부 핸드레일·가로 레일·연결볼트·반사지 등도 표시한다.",
+    "scope_note": "규격서는 MSBY120을 보행자 방호용(도심구간)으로 분류하고 SB1·SB2 보도용 차량 방호 모델과 구분한다. 일반 보행 경계 외 자전거도로·추락 방호 용도에 바로 대체할 수 있다고 확인하지 않았다."
+  },
+  "retail_offer": {
+    "source_url": "https://jikim.co.kr/product/detail.html?product_no=18",
+    "seller": "주식회사 지킴이 공식 온라인 판매처",
+    "manufacturer": "주식회사 지킴이",
+    "model": "DF-001",
+    "condition": "신품 완성 판·지주·부속 세트",
+    "selected_options": "H1200xW2000/블랙/앙카식/원76.3Φ",
+    "observed_price_krw": "70000",
+    "observed_quantity": "1",
+    "observed_total_krw": "70000",
+    "observed_at": "2026-10-16T11:54:26.169208+00:00",
+    "vat_included": false,
+    "vat_source_kind": "상품 상세의 공통 구매 유의사항 이미지 직접 실견",
+    "vat_quote": "본 제품의 가격은 공급가 기준이며, 부가세 별도입니다.",
+    "vat_source_url": "https://ecimg.cafe24img.com/pg1500b55802605019/jkm9722/web/upload/NNEditor/20260609/dee9d5d1a19afdb8f6df5eaf2995de30.jpg",
+    "shipping_included": false,
+    "shipping_price_krw": null,
+    "shipping_note": "착불이며 지역·수량·발송 시점에 따라 달라진다. 휀스는 화물택배 불가, 직접수령 또는 화물용달 조건이다.",
+    "configuration_quote": "1경간 세트(주주1개+판1장) 부속포함",
+    "configuration_source_url": "https://ecimg.cafe24img.com/pg1500b55802605019/jkm9722/web/upload/NNEditor/20260413/c43954d96e0a744c06eb720846e52655.jpg",
+    "configuration_verified": true,
+    "buy_visible": true,
+    "native_option_total_verified": true,
+    "jev_operation": "BLOCKED",
+    "jev_note": "Jev는 초기 화면에서 BLOCKED를 예측했지만 실제 옵션 선택·합계·구매 표시 확인은 본인 bulk native로 성공했다. Jev 예측을 가격 검증으로 쓰지 않는다.",
+    "additional_end_post": {
+      "selected_options": "디자인 울타리 주주 기둥 앙카식/원76.3Φ/H1200x1.4T/블랙",
+      "observed_price_krw": "11000",
+      "observed_quantity": "1",
+      "combined_native_total_krw": "81000",
+      "combined_native_item_count": "2",
+      "observed_at": "2026-10-16T11:58:13.995048+00:00",
+      "tax_note": "공통 공급가·VAT 별도 안내를 적용한 시나리오에서는 표시11,000원에 VAT10%를 별도로 예산화한다. 최초 기본10,000원을 선택가격처럼 쓰지 않는다.",
+      "standalone_detail_url": "https://jikim.co.kr/product/detail.html?product_no=286",
+      "standalone_detail_result": "실제 연결은 error/404.html로 이동했다. 가격 검증은 본체 페이지의 추가 구성 옵션 선택 행11,000원과 합계81,000원으로 한정한다."
+    }
+  },
+  "comparison_assessment": {
+    "core_purpose": {
+      "status": "verified",
+      "basis": "원규격1.1은 지역표시·보차도 구분·경계를 목적으로 하는 디자인형울타리라고 설명한다. 대체 상품은 관공서·학교·공원 등의 보행자 안전 경계용이며 강재 판과지주로 된 고정형 울타리다. 이 기록의 검토 범위를 일반 보행 경계 부재 취득으로 한정한다. 원품 자전거도로·추락 방호 전체 성능의 동등성은 확인하지 않았다."
+    },
+    "complete_product": {
+      "status": "verified",
+      "basis": "실제 제조사 상세표는 1경간 세트에 주주1개+판1장+부속 포함을 명시한다. H1200×W2000 본체1개70,000원과 추가 마감기둥1개11,000원의 실제 선택 행·수량·합계81,000원 및 구매 표시를 읽었다. 망이나 각목만의 가격을 완성 세트로 바꾸지 않았다. 지반 기초·현장 고정 시공은 이 취득 범위 밖이며 별도 반영하지 않았다."
+    }
+  },
+  "spec_mapping": [
+    {
+      "attribute": "기본 재질·경간·높이",
+      "original": "강재, W2000×H1200mm, 1경간",
+      "alternative": "강재, H1200×W2000mm, 1경간 세트"
+    },
+    {
+      "attribute": "지주 단면",
+      "original": "Φ101.6×2T SGT275",
+      "alternative": "Φ76.3×1.4T 강재(강종 미공개)"
+    },
+    {
+      "attribute": "구성·형식",
+      "original": "상부핸드레일과 가로 레일, 지주2000mm·약770mm 매립 토공용",
+      "alternative": "세로창살 판·연결부속·앙카식 지주. 추가 마감기둥을 따로 선택했다."
+    }
+  ],
+  "differences": [
+    "기둥 지름·두께가 줄고 강종·횡하중·강도 시험값은 대응하지 않았다.",
+    "원품은 자전거도로난간 도면과 가로 레일·핸드레일·반사지 등을 포함한다. 대체품은 세로형 경계 울타리이며 동일 디자인·자전거 핸드레일·반사지 구성으로 확인하지 않았다.",
+    "원품은 약770mm 매립 지주를 쓰는 토공용이고 대체 옵션은 앙카식이다. 기존 지반·기초에 바로 체결 가능하다고 검증하지 않았다.",
+    "원품 현장설치도와 달리 판매품은 조립·고정 시공과 기초공사를 포함하지 않는다. 그 비용을0원으로 확인하지 않았으며 이번 금액에 반영하지 않았다.",
+    "판매문구의 부속 포함은 확인했지만 현장 앵커볼트의 정확한 규격·동봉 수량은 별도 명시를 찾지 못했다. 도면의 고정 사례를 해당 현장 설치 적합성 승인으로 읽지 않았다.",
+    "운반비는 별도 착불로 정확한 현장별 비용이 미확인이다. 전국 도착가격이나 총계약 실제 절감액이 아니다."
+  ],
+  "calculation_scenarios": [
+    {
+      "name": "본체 완성 세트 가격만의 단순 참고 비교",
+      "adopted": false,
+      "benchmark_unit_price_krw": "77000",
+      "savings_before_extra_end_posts_freight_installation_krw": "566963600",
+      "note": "주주1개+판1장+부속에 VAT10% 반영. 끝단 추가기둥·운반·현장고정 비용은 미반영이다."
+    },
+    {
+      "name": "각 경간별 독립2기둥 취득 예산",
+      "adopted": false,
+      "formula": "(70000+11000)×1.1=89100원/경간",
+      "benchmark_unit_price_krw": "89100",
+      "main_span_count": "4542",
+      "additional_end_post_count": "4542",
+      "total_material_cost_krw": "404692200",
+      "scenario_savings_krw": "512005400",
+      "eligible_fact_count": 3,
+      "note": "연속 배치의 끝단 수를 임의로1개로 줄이지 않고 모든 경간에 추가 마감기둥1개를 구입한다. 실제 배치에 따른 필요 개수 확정값은 아니며 그보다 적은 추가기둥 수를 가정해 절감액을 키우지 않는다. 운임·앵커의 미확인 포함 범위·기초·설치 비용은 제외한다."
+    }
+  ],
+  "adopted_benchmark_unit_price_krw": null,
+  "adopted_savings_krw": null,
+  "facts": [
+    {
+      "fact_id": "dl:23742291:332430145_1:R25TB00259213:1",
+      "listing_id": "332430145_1010000001",
+      "contract_no": "332430145_1",
+      "request_no": "R25TB00259213",
+      "line_no": "1",
+      "request_date": "2026-08-31",
+      "agency_name": "충청북도 음성군",
+      "unit": "경간",
+      "tax_basis": "vat_included",
+      "basis_id": "basis:경간:vat_included",
+      "comparison_basis_id": "basis:경간:vat_included",
+      "period_kind": "none",
+      "unit_price_krw": "224000",
+      "quantity": "46",
+      "comparable_amount_krw": "10304000",
+      "scorable": true,
+      "exclusion_reasons": [],
+      "scenario_purchase_count_main_spans": "46",
+      "scenario_purchase_count_additional_end_posts": "46",
+      "scenario_material_cost_krw": "4098600",
+      "scenario_benchmark_unit_price_krw": "89100",
+      "passes_price_gap_rule": true,
+      "scenario_savings_krw": "6205400"
+    },
+    {
+      "fact_id": "dl:23742291:332430145_1:R25TB01199923:1",
+      "listing_id": "332430145_1010000001",
+      "contract_no": "332430145_1",
+      "request_no": "R25TB01199923",
+      "line_no": "1",
+      "request_date": "2025-12-15",
+      "agency_name": "기후에너지환경부 원주지방환경청",
+      "unit": "경간",
+      "tax_basis": "vat_included",
+      "basis_id": "basis:경간:vat_included",
+      "comparison_basis_id": "basis:경간:vat_included",
+      "period_kind": "none",
+      "unit_price_krw": "201600",
+      "quantity": "2999",
+      "comparable_amount_krw": "604598400",
+      "scorable": true,
+      "exclusion_reasons": [],
+      "scenario_purchase_count_main_spans": "2999",
+      "scenario_purchase_count_additional_end_posts": "2999",
+      "scenario_material_cost_krw": "267210900",
+      "scenario_benchmark_unit_price_krw": "89100",
+      "passes_price_gap_rule": true,
+      "scenario_savings_krw": "337387500"
+    },
+    {
+      "fact_id": "dl:23742291:332430145_1:R26TB02029636:1",
+      "listing_id": "332430145_1010000001",
+      "contract_no": "332430145_1",
+      "request_no": "R26TB02029636",
+      "line_no": "1",
+      "request_date": "2026-06-16",
+      "agency_name": "국토교통부 부산지방국토관리청",
+      "unit": "경간",
+      "tax_basis": "vat_included",
+      "basis_id": "basis:경간:vat_included",
+      "comparison_basis_id": "basis:경간:vat_included",
+      "period_kind": "none",
+      "unit_price_krw": "201600",
+      "quantity": "1497",
+      "comparable_amount_krw": "301795200",
+      "scorable": true,
+      "exclusion_reasons": [],
+      "scenario_purchase_count_main_spans": "1497",
+      "scenario_purchase_count_additional_end_posts": "1497",
+      "scenario_material_cost_krw": "133382700",
+      "scenario_benchmark_unit_price_krw": "89100",
+      "passes_price_gap_rule": true,
+      "scenario_savings_krw": "168412500"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "work/fullscan/bulk-material-next10/jikim18-selected.json",
+      "bytes": 29119,
+      "sha256": "35ec52150039ff2b63efbca84f1bc59e9e47f0173c7ac51197d9f53067f60c8f"
+    },
+    {
+      "path": "work/fullscan/bulk-material-next10/jikim18-post-final-selected.json",
+      "bytes": 30693,
+      "sha256": "df920675dbb54b807bc763b599c1cbf3e6ec75a791cb61f7522adfe02602dbb4"
+    },
+    {
+      "path": "work/fullscan/bulk-material-next10/jikim18-jev.json",
+      "bytes": 1005,
+      "sha256": "5226d2689854f8bcc5d0a83d2f5989f9d8d14b11bb1c6e668f394ae62020fdec"
+    },
+    {
+      "path": "work/fullscan/bulk-material-next10/fence-image-metadata.json",
+      "bytes": 6513,
+      "sha256": "716e65ff306f9fe5071510aa995feff3d22e450784e9cf133c0dbbc343e88f94"
+    },
+    {
+      "path": "work/fullscan/bulk-material-next10/msby120-document.json",
+      "bytes": 43330,
+      "sha256": "ad68031e3d10bdda19e6a7be284dee4c4d91d437342b64ee0397cd8516b57b39"
+    },
+    {
+      "path": "work/fullscan/bulk-material-next10/msby120-drawing.png",
+      "bytes": 115777,
+      "sha256": "e0c5deb30737278dec381baff37fc6a626946266b454790069c25067ec907e36"
+    },
+    {
+      "path": "work/fullscan/bulk-material-next10/event-23742291.json",
+      "bytes": 2827,
+      "sha256": "2a941e9c526a4b54ff5ebadfee5469d5f1d90d19035776177886106c07cea269"
+    },
+    {
+      "path": "work/fullscan/bulk-material-next10/listing-23742291.json",
+      "bytes": 5610,
+      "sha256": "442cbda81ddd4ab7c2d4278d9d9c7c1e344e8409f6a9f822d422fa9fd7b32593"
+    },
+    {
+      "path": "work/fullscan/bulk-material-next10/wooil-fence-original-download.json",
+      "bytes": 5992,
+      "sha256": "646a80a0a0e917b98d536e44ae71c38bd46259b32b66cb2d4273f862bb7600ed"
+    },
+    {
+      "path": "work/fullscan/bulk-material-next10/fence-original-decoded-files.json",
+      "bytes": 1193,
+      "sha256": "cac8a41288f0c23ebd78b428852d20ceca2b20103780d270d2e967d137367d58"
+    }
+  ],
+  "remaining_review": [
+    "부모가 일반 보행 경계 부재 취득 범위와 사양 차이 공개를 검토한다.",
+    "앵커볼트 등 확인된 필수 구성의 정확한 포함 범위·실제 비용을 추가로 확인할 수 있으면 별도 기록한다.",
+    "제출하는 경우 지역별 운임 또는 출고 취득 범위의 처리, 현재 상태·가격·규칙·한도를 다시 확인한다. 오늘은 제출하지 않는다."
+  ]
+}
