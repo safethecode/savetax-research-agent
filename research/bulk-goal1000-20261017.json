@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-16T18:04:20.808243+00:00",
+  "observed_at_utc": "2026-10-16T18:25:52.597643+00:00",
   "scope": "보관 콘크리트·대량 자재 후보의 10억 원 문턱 검토 및 상향 패널 대안 조사",
   "minimum_new_submission_savings_krw": "1000000000",
   "important_unit_note": "사용자 현황110억은11,000,000,000원이다. 목표1,000억까지 남은890억/50회=17.8억 원. 현재 사용자 현황은 API 미검증이다.",
@@ -7,8 +7,8 @@
   "submission_ready_count": 0,
   "new_submission_count": 0,
   "preview_count": 0,
-  "parallel_calls": 102,
-  "jev_calls": 4,
+  "parallel_calls": 118,
+  "jev_calls": 5,
   "environment_limits": [],
   "sources": [
     {
@@ -5144,8 +5144,8 @@
       }
     ],
     "zenfix_alternative_followup": {
-      "status": "핵심 요구의 우수성 미입증으로 제출 보류. 같은 BOM의 가격 조합 반복을 중단하고 새 원품 조사로 이동",
-      "original_core_comparison": "원품 AC156 SDS1.50g와 대안 AC156 SDS약1.80g의 표기 수치만 확인했다. 원품은 별도2.5g 장시간 진동 및 전후2,500N 결합력을 요구하므로1.80g를 전체 내진·접합 성능이 더 우수하다는 근거로 접수하지 않는다. 서로 다른 진동시험의 가속도 숫자를 직접 크기 비교하지 않는다.",
+      "status": "사용자의 내진 천장 접수 지시로 최우선 재평가 중. 원품 계약 전항목 동일 시험을 대체품 접수 필수로 강제하지 않으며 실제 지정 완성 구성·가격 확인을 진행한다.",
+      "original_core_comparison": "원품 AC156:2010 SDS≥1.50g 대비 젠픽스 같은 기준 SDS17.65m/s²(약1.80g),z/h=1의 공개 이상 없음 결과를 확인했다. 비교 가능한 SDS 수준이 높다는 한정된 우위로 설명하며 전체 강도·반복 진동·열저항의 우수성으로 확대하지 않는다.",
       "test_summary": {
         "source_url": "https://zenfixdmc.tistory.com/3",
         "report_no": "2021-R-097",
@@ -5387,7 +5387,7 @@
       ],
       "adopted_savings_krw": null,
       "ready_to_submit": false,
-      "mandatory_original_clause": "규격서2.2: 제품의 전 모델은 본 규격에 기재한 모든 사항을 만족하며 … 규정을 만족해야 한다. 6.2.1은2.1·2.2 및 인증 시험 기준을 만족하도록 하고6.2.2는 전 항목 합격으로 Lot를 판단한다. 따라서 표의 열저항·휨·접합력을 임의 선택사항으로 제외하지 않는다.",
+      "mandatory_original_clause": "규격서2.2·6.2.1·6.2.2의 모든 품질 항목 합격은 HY-EP01 원품의 계약 납품 기준이다. 대체품이 모든 같은 시험 성적서를 보유해야 한다는 대회 접수 조건으로 확장하지 않는다. 원품 별도2.5g진동·2,500N접합력·처짐·열저항 미확인은 차이로 공개하며 불연·내진 핵심 용도와 지정 완성 구성의 대응을 따로 검토한다.",
       "original_table_structure_file": "work/bulk-goal1000/hyep-original-tables-layout.json",
       "original_table_structure_note": "HWPX 원문 table2/3의 셀 좌표·행/열 병합을 별도 추출해 시험항목·단위·기준·시험방법의 대응을 대조했다. 원문 페이지를 전체 시각 검토한 것으로 꾸미지 않는다.",
       "side_by_side_assessment": [
@@ -5395,7 +5395,7 @@
           "requirement": "AC156 지진 모사",
           "original": "규격서2.2: SDS≥1.50g(14.70m/s²), ICC-ES AC156:2010 준용. 6.2.3: ±0.1g 공진검색·다중 주파수 지진 모사·시험 후 육안검사",
           "alternative": "시방서4쪽·성적서2021-R-097 첫 쪽: SDS17.65m/s²,z/h=1, ICC-ES AC156:2010, 이상 없음",
-          "assessment": "SDS 표기 수치는 더 높지만 원품 z/h·전체 입력 응답 및 부속 성능이 모두 확인된 상태가 아니므로 전체 우수성 미입증"
+          "assessment": "같은AC156:2010의SDS수준은1.50g요구보다약1.80g로높다. 원품z/h·전체입력응답의동일성이나다른모든성능의우수성까지뜻하지않음"
         },
         {
           "requirement": "별도 장시간 진동",
@@ -5419,13 +5419,13 @@
           "requirement": "마감판·열저항·휨",
           "original": "HY-EP01 KCC석고텍스300×600×9.5±0.5mm,함수율≤3%,길이 방향 휨파괴≥360N,열저항≥0.043㎡·K/W,KS F3504",
           "alternative": "600×600×0.4T 금속 DMC,KS D7081·KS D3862. 같은 열저항과 휨파괴 시험 결과 미확보",
-          "assessment": "고체 금속판과 석고텍스의 다른 열적·기계적 특성,크기와 체결방식을 공개한다. 원품 기준 충족이나 전체 우수성 미입증"
+          "assessment": "금속DMC와석고텍스의재질·크기·체결·열적특성차이를공개한다. 원품의모든같은시험성적부재만으로자동배제하지않고불연·내진천장대체범위를검토함"
         },
         {
           "requirement": "불연",
           "original": "KS F ISO1182질량감소≤30%·온도차≤20K 및 KS F2271행동정지≥9분",
           "alternative": "불연 시방서3쪽에 동일 유형의 기준,공개 제조사 성적 요약 존재",
-          "assessment": "불연 기준 대응은 다른 별도 접합·휨·열저항 조건 충족을 대신하지 않음"
+          "assessment": "같은유형의불연기준과KS인증DMC를확인했다. 불연핵심용도대응과별도열저항·접합력미확인을구분함"
         },
         {
           "requirement": "HY-EP02 추가 성능",
@@ -5446,7 +5446,706 @@
         ],
         "finding": "25쪽은 AC156 SDS17.65m/s²,z/h1,시험결과에 한정됨을 다시 확인하며 별도2.5g 장시간 진동이나 전후2,500N을 입증하지 않는다.29쪽 일반 클립바 폭35mm와 시험 시방서32mm가 달라 카탈로그 일반 부속을 임의로 시험 구성으로 확정하지 않는다."
       },
-      "additional_price_source_result": "ssakda.co.kr·www.ssakda.co.kr 현행 본문 모두 실제HTTP200 확인. VAT·배송 조건 문구 없음. header-vat는 사용되지 않는CSS선택자로 세금 고지로 해석하지 않음. 별도 검색도 대응하는 일반 판매 정책을 찾지 못함."
+      "additional_price_source_result": "ssakda.co.kr·www.ssakda.co.kr 현행 본문 모두 실제HTTP200 확인. VAT·배송 조건 문구 없음. header-vat는 사용되지 않는CSS선택자로 세금 고지로 해석하지 않음. 별도 검색도 대응하는 일반 판매 정책을 찾지 못함.",
+      "price_reopen_observation": {
+        "observed_at_utc": "2026-10-16T18:11:46.280249+00:00",
+        "native_file": "work/bulk-goal1000/native-ssakda-reopen.json",
+        "url": "https://ssakdaprice.co.kr/",
+        "actual_dynamic_prices_same_as_previous": true,
+        "important_initial_HTML_note": "초기HTML기본데이터의45×45캡·650원크립바·670원캐링은실제렌더값과다르다. 현재native의캡은원피스300원으로치수미기재,내진DMC-BAR660원/m·KS캐링660원/m·KS마이너440원/m이다.45mm캡이현재판매확정규격이라고보지않음.",
+        "vat_included": null,
+        "shipping_included": null,
+        "popup_images_reviewed": [
+          "https://ssakdaprice.co.kr/images/popup-sugi.png",
+          "https://ssakdaprice.co.kr/images/popup-banner2.png"
+        ],
+        "popup_result": "카드수수료0원과전국빠른공급표현만있고VAT포함·무료배송이라는고지는없음",
+        "seller_identity_url": "https://ssakdaprice.co.kr/company"
+      },
+      "legacy_price_source_followup": {
+        "observed_source_urls": [
+          "https://ssakda.co.kr/shop/1655717795",
+          "https://ssakda.co.kr/data/editor/2401/6fc5a1d22bb00246e60c0092244e8672_1706161341_4756.jpg",
+          "https://ssakda.co.kr/data/editor/2401/6fc5a1d22bb00246e60c0092244e8672_1706161348_6674.jpg"
+        ],
+        "actual_read_result": "세주소모두HTTP200이지만현재새단가표HTML358684bytes를반환했다.이미지읽기실패이며옛검색의VAT별도100원이나옛운임표를현재상품직접확인가로채택하지않음.",
+        "log": "work/bulk-goal1000/ssakda-legacy-check.json"
+      },
+      "manufacturer_standard_BOM_followup": {
+        "url": "https://dmcschool.co.kr/files/design/ilw-ipchal-bul-dmc66-std-quake.xlsx",
+        "source_role": "제조사의 공개 사급 일위대가. BOM·규격·VAT별도 명시와 현장 조건을 확인하는 자료이며 현재 확정된 일반 판매 상세 가격과 구분한다.",
+        "sheet": "내진클립바 시스템,KS DMC불연600×600×0.4T",
+        "BOM_rows": [
+          {
+            "row": 6,
+            "part": "KS DMC 불연 금속천장재",
+            "spec": "600㎜*600㎜*0.4T",
+            "unit": "㎡",
+            "quantity_per_sqm": "1",
+            "unit_price_ex_vat_krw": "18417",
+            "extended_price_ex_vat_krw": "18417"
+          },
+          {
+            "row": 7,
+            "part": "앙  카",
+            "spec": "3/8\"",
+            "unit": "EA",
+            "quantity_per_sqm": "1.2504761904761903",
+            "unit_price_ex_vat_krw": "144",
+            "extended_price_ex_vat_krw": "180.0685714285714"
+          },
+          {
+            "row": 8,
+            "part": "전산볼트",
+            "spec": "1000㎜",
+            "unit": "EA",
+            "quantity_per_sqm": "1.2504761904761903",
+            "unit_price_ex_vat_krw": "1224",
+            "extended_price_ex_vat_krw": "1530.5828571428569"
+          },
+          {
+            "row": 9,
+            "part": "너  트",
+            "spec": "ø9",
+            "unit": "EA",
+            "quantity_per_sqm": "2.5",
+            "unit_price_ex_vat_krw": "36",
+            "extended_price_ex_vat_krw": "90"
+          },
+          {
+            "row": 10,
+            "part": "행거(핀)",
+            "spec": "H=100㎜",
+            "unit": "EA",
+            "quantity_per_sqm": "1.2504761904761903",
+            "unit_price_ex_vat_krw": "255.6",
+            "extended_price_ex_vat_krw": "319.62171428571423"
+          },
+          {
+            "row": 11,
+            "part": "KS 캐링 찬넬",
+            "spec": "38㎜*12㎜*1.2T",
+            "unit": "M",
+            "quantity_per_sqm": "1.2",
+            "unit_price_ex_vat_krw": "1206",
+            "extended_price_ex_vat_krw": "1447.2"
+          },
+          {
+            "row": 12,
+            "part": "캐링 찬넬 조인트",
+            "spec": null,
+            "unit": "EA",
+            "quantity_per_sqm": "0.19523809523809521",
+            "unit_price_ex_vat_krw": "468",
+            "extended_price_ex_vat_krw": "91.371428571428552"
+          },
+          {
+            "row": 13,
+            "part": "KS 마이너 찬넬",
+            "spec": "19㎜*10㎜*1.2T",
+            "unit": "M",
+            "quantity_per_sqm": "0.6",
+            "unit_price_ex_vat_krw": "774",
+            "extended_price_ex_vat_krw": "464.4"
+          },
+          {
+            "row": 14,
+            "part": "마이너 찬넬 클립",
+            "spec": "37*30*10*1.2T",
+            "unit": "EA",
+            "quantity_per_sqm": "0.75047619047619052",
+            "unit_price_ex_vat_krw": "216",
+            "extended_price_ex_vat_krw": "162.10285714285715"
+          },
+          {
+            "row": 15,
+            "part": "내진클립바",
+            "spec": null,
+            "unit": "M",
+            "quantity_per_sqm": "1.5999999999999999",
+            "unit_price_ex_vat_krw": "1170",
+            "extended_price_ex_vat_krw": "1871.9999999999998"
+          },
+          {
+            "row": 16,
+            "part": "클립바 조인트",
+            "spec": null,
+            "unit": "EA",
+            "quantity_per_sqm": "0.6",
+            "unit_price_ex_vat_krw": "171",
+            "extended_price_ex_vat_krw": "102.6"
+          },
+          {
+            "row": 17,
+            "part": "클립바클립",
+            "spec": null,
+            "unit": "EA",
+            "quantity_per_sqm": "2",
+            "unit_price_ex_vat_krw": "306",
+            "extended_price_ex_vat_krw": "612"
+          },
+          {
+            "row": 18,
+            "part": "판스프링",
+            "spec": null,
+            "unit": "EA",
+            "quantity_per_sqm": "1.2504761904761903",
+            "unit_price_ex_vat_krw": "216",
+            "extended_price_ex_vat_krw": "270.10285714285709"
+          },
+          {
+            "row": 19,
+            "part": "AL 몰딩",
+            "spec": "현장실측",
+            "unit": null,
+            "quantity_per_sqm": null,
+            "unit_price_ex_vat_krw": null,
+            "extended_price_ex_vat_krw": "별도확인"
+          }
+        ],
+        "material_subtotal_ex_vat_krw": "25559.050285714286",
+        "installed_total_ex_vat_krw": "49181.870285714285",
+        "VAT_included": false,
+        "scope_conditions": [
+          "100㎡이상1Hall기준",
+          "현장에따라단가차이가있을수있음",
+          "AL몰딩현장실측별도확인",
+          "ㄷ자도장몰딩자재+시공3000원/m"
+        ],
+        "different_from_old_1_8g": "캡·실리콘·MB클립이표에없고볼트길이1000mm,마이너소요량.6m/㎡등이달라기존1.8g조합의BOM으로전용하지않음. root가새내부용1.62g원보고서구성과대응확인중.",
+        "nonadopted_arithmetic": {
+          "B_material_only_vat_included_krw": "28114.955315",
+          "conditional_savings_before_molding_freight_krw": "2815909658",
+          "not_submission_B": true,
+          "incomplete_costs": [
+            "몰딩현장둘레비용",
+            "운임",
+            "포장올림",
+            "100㎡1Hall조건적용여부"
+          ],
+          "under100_facts": [
+            {
+              "fact_id": "dl:24578151:002370195_1:R25TB01217720:1",
+              "request_no": "R25TB01217720",
+              "quantity": "90",
+              "conditional_B_krw": "28114.955315",
+              "conditional_before_molding_freight_savings_krw": "1879654",
+              "under100": true
+            },
+            {
+              "fact_id": "dl:24578151:002370195_1:R26TB01392507:1",
+              "request_no": "R26TB01392507",
+              "quantity": "33",
+              "conditional_B_krw": "28114.955315",
+              "conditional_before_molding_freight_savings_krw": "689206",
+              "under100": true
+            },
+            {
+              "fact_id": "dl:24578151:002370195_1:R26TB02251796:1",
+              "request_no": "R26TB02251796",
+              "quantity": "74",
+              "conditional_B_krw": "28114.955315",
+              "conditional_before_molding_freight_savings_krw": "1227443",
+              "under100": true
+            }
+          ]
+        },
+        "adopted_B": null,
+        "adopted_savings_krw": null
+      },
+      "other_systems_search_files": [
+        "work/bulk-goal1000/parallel-live-111.json",
+        "work/bulk-goal1000/parallel-live-112.json",
+        "work/bulk-goal1000/parallel-live-113.json",
+        "work/bulk-goal1000/parallel-live-114.json"
+      ],
+      "current_300x600_standard_BOM": {
+        "source": {
+          "url": "https://dmcschool.co.kr/files/design/ilw-ipchal-bul-dmc36-std-quake.xlsx",
+          "status": 200,
+          "bytes": 13811,
+          "sha256": "f1924653228dc60ac8f5c4e571e77da9ac51375a84a0e4e9b8f19435b31a9a90",
+          "extraction": "work/bulk-goal1000/dmc36-ilw-cells.json"
+        },
+        "scope": "KS DMC불연300×600×0.4T·내진클립바시스템,100㎡이상1Hall기준·VAT별도·현장단가차이·AL몰딩현장실측별도",
+        "BOM": [
+          {
+            "part": "KS DMC 불연 금속천장재",
+            "spec": "300㎜*600㎜*0.4T",
+            "unit": "㎡",
+            "quantity_per_sqm": "1",
+            "unit_price_ex_vat_krw": "22848",
+            "extended_price_ex_vat_krw": "22848"
+          },
+          {
+            "part": "앙  카",
+            "spec": "3/8\"",
+            "unit": "EA",
+            "quantity_per_sqm": "1.2504761904761903",
+            "unit_price_ex_vat_krw": "144",
+            "extended_price_ex_vat_krw": "180.0685714285714"
+          },
+          {
+            "part": "전산볼트",
+            "spec": "1000㎜",
+            "unit": "EA",
+            "quantity_per_sqm": "1.2504761904761903",
+            "unit_price_ex_vat_krw": "1224",
+            "extended_price_ex_vat_krw": "1530.5828571428569"
+          },
+          {
+            "part": "너  트",
+            "spec": "ø9",
+            "unit": "EA",
+            "quantity_per_sqm": "2.5",
+            "unit_price_ex_vat_krw": "36",
+            "extended_price_ex_vat_krw": "90"
+          },
+          {
+            "part": "행거(핀)",
+            "spec": "H=100㎜",
+            "unit": "EA",
+            "quantity_per_sqm": "1.2504761904761903",
+            "unit_price_ex_vat_krw": "255.6",
+            "extended_price_ex_vat_krw": "319.62171428571423"
+          },
+          {
+            "part": "KS 캐링 찬넬",
+            "spec": "38㎜*12㎜*1.2T",
+            "unit": "M",
+            "quantity_per_sqm": "1.2",
+            "unit_price_ex_vat_krw": "1206",
+            "extended_price_ex_vat_krw": "1447.2"
+          },
+          {
+            "part": "캐링 찬넬 조인트",
+            "spec": null,
+            "unit": "EA",
+            "quantity_per_sqm": "0.19523809523809521",
+            "unit_price_ex_vat_krw": "468",
+            "extended_price_ex_vat_krw": "91.371428571428552"
+          },
+          {
+            "part": "KS 마이너 찬넬",
+            "spec": "19㎜*10㎜*1.2T",
+            "unit": "M",
+            "quantity_per_sqm": "0.6",
+            "unit_price_ex_vat_krw": "774",
+            "extended_price_ex_vat_krw": "464.4"
+          },
+          {
+            "part": "마이너 찬넬 클립",
+            "spec": "37*30*10*1.2T",
+            "unit": "EA",
+            "quantity_per_sqm": "0.75047619047619052",
+            "unit_price_ex_vat_krw": "216",
+            "extended_price_ex_vat_krw": "162.10285714285715"
+          },
+          {
+            "part": "내진클립바",
+            "spec": null,
+            "unit": "M",
+            "quantity_per_sqm": "3.1999999999999997",
+            "unit_price_ex_vat_krw": "1170",
+            "extended_price_ex_vat_krw": "3743.9999999999995"
+          },
+          {
+            "part": "클립바 조인트",
+            "spec": null,
+            "unit": "EA",
+            "quantity_per_sqm": "1.2",
+            "unit_price_ex_vat_krw": "171",
+            "extended_price_ex_vat_krw": "205.2"
+          },
+          {
+            "part": "클립바클립",
+            "spec": null,
+            "unit": "EA",
+            "quantity_per_sqm": "4",
+            "unit_price_ex_vat_krw": "306",
+            "extended_price_ex_vat_krw": "1224"
+          },
+          {
+            "part": "판스프링",
+            "spec": null,
+            "unit": "EA",
+            "quantity_per_sqm": "1.25",
+            "unit_price_ex_vat_krw": "216",
+            "extended_price_ex_vat_krw": "270"
+          },
+          {
+            "part": "AL 몰딩",
+            "spec": "현장실측",
+            "unit": null,
+            "quantity_per_sqm": null,
+            "unit_price_ex_vat_krw": null,
+            "extended_price_ex_vat_krw": "별도확인"
+          }
+        ],
+        "material_subtotal_ex_vat_krw": "32576.54742857143",
+        "installed_total_ex_vat_krw": "59030.917428571433",
+        "source_role": "일위대가설계자료,완제품일반판매확정가로채택하지않음",
+        "test_link_note": "root가공개sub-bul-dmc-std-quake.pdf39~42쪽에서AC156:2020,SDS1.62g이상없음,300×600×.4T판의SDMC(DMC)-RES-36구성을직접검토했다는공유를받았다. bulk가해당PDF를독립시각검토한것으로꾸미지않음.원품2010과버전차이공개필요.",
+        "conditional_material_B_vat_included_krw": "35834.202172",
+        "conditional_before_molding_freight_savings_krw": "1757751313",
+        "positive_fact_count": 71,
+        "not_submission_B": true,
+        "adopted_B": null,
+        "adopted_savings_krw": null,
+        "differences_from_600_BOM": "판가격22848원/㎡,클립바3.2m,조인트1.2개,클립4개,판스프링1.25개로600표와달라600표의조건부28.16억을적용하지않음.",
+        "further_retail_search": {
+          "parallel_files": [
+            "work/bulk-goal1000/parallel-live-115.json",
+            "work/bulk-goal1000/parallel-live-116.json",
+            "work/bulk-goal1000/parallel-live-117.json",
+            "work/bulk-goal1000/parallel-live-118.json"
+          ],
+          "finding": "같은제조사300×600불연DMC·내진DMC바완성구성의실제일반가VAT배송완료근거는추가확보하지못함. 바로WMC준불연2350원/개·배송80000원은다른제조사/재질등급이므로ZENFIX불연및내진성적에전용하지않음.공공조달계약가37000/39000원도판매가로채택하지않음."
+        }
+      },
+      "Jev_latest": {
+        "file": "work/bulk-goal1000/jev-ssakda-tax-shipping.json",
+        "model": "jev-1.13.0",
+        "latency_ms": 305,
+        "operation": "SCROLL_DOWN",
+        "source_facts_added": false
+      },
+      "archived_actual_retail_followup": {
+        "method": "실제InternetArchive보존판매HTML과JPEG직접GET.검색캐시나현재덮인빈경로와구분.현재관측일은2026-10-17KST이며보존시점은각주소의날짜다.가격시점차이를배제하라는사용자지시를적용해사용가능성검토중.",
+        "retailer": "(주)젠픽스 싹다,사업자617-81-76874",
+        "restored_retail_pages": [
+          {
+            "part_name": "anchor",
+            "original_source_url": "https://ssakda.co.kr/shop/1655717786",
+            "archive_source_url": "https://web.archive.org/web/20260212194133id_/https://ssakda.co.kr/shop/1655717786",
+            "archive_capture_date": "20260212",
+            "observed_at_utc": "2026-10-16T18:22:46.362419+00:00",
+            "http_status": 200,
+            "bytes": 83871,
+            "sha256": "f620c7f4bcbec0f97b6893ec1bdb351398b923218a0f1f6a30ea619b40baf52b",
+            "ordinary_price_ex_vat_krw": "75",
+            "vat_included": false,
+            "shipping_included": false,
+            "shipping_basis": "동일원문에연결된실제공개보존구매안내이미지를읽어기본화물용달·운임착불·대량운임별도문의임을확인함.착불은배송0원이아님.",
+            "product_source_file": "work/bulk-goal1000/archive-part-anchor.json",
+            "actual_part_dimensions_complete": false,
+            "price_unit_note": "캐링은본문미터당단가·38×12×1.2T·4m확인.다른일부품목은사진만있어단위·규격추가확인필요."
+          },
+          {
+            "part_name": "c-molding",
+            "original_source_url": "https://ssakda.co.kr/shop/1655717830",
+            "archive_source_url": "https://web.archive.org/web/20260122222408id_/https://ssakda.co.kr/shop/1655717830",
+            "archive_capture_date": "20260122",
+            "observed_at_utc": "2026-10-16T18:22:49.567880+00:00",
+            "http_status": 200,
+            "bytes": 79739,
+            "sha256": "20e6f61caddf0d509b6fb474669d7e36295a4622f3f42772f929bd6a23038f09",
+            "ordinary_price_ex_vat_krw": "900",
+            "vat_included": false,
+            "shipping_included": false,
+            "shipping_basis": "동일원문에연결된실제공개보존구매안내이미지를읽어기본화물용달·운임착불·대량운임별도문의임을확인함.착불은배송0원이아님.",
+            "product_source_file": "work/bulk-goal1000/archive-part-c-molding.json",
+            "actual_part_dimensions_complete": false,
+            "price_unit_note": "캐링은본문미터당단가·38×12×1.2T·4m확인.다른일부품목은사진만있어단위·규격추가확인필요."
+          },
+          {
+            "part_name": "carrying-ks",
+            "original_source_url": "https://ssakda.co.kr/shop/1655717761",
+            "archive_source_url": "https://web.archive.org/web/20251016071646id_/https://ssakda.co.kr/shop/1655717761",
+            "archive_capture_date": "20251016",
+            "observed_at_utc": "2026-10-16T18:22:45.419592+00:00",
+            "http_status": 200,
+            "bytes": 92390,
+            "sha256": "90a776501c2d74aab70406c76a61a2d68b1b5abc76a74adaa62a36ee7a571e52",
+            "ordinary_price_ex_vat_krw": "590",
+            "vat_included": false,
+            "shipping_included": false,
+            "shipping_basis": "동일원문에연결된실제공개보존구매안내이미지를읽어기본화물용달·운임착불·대량운임별도문의임을확인함.착불은배송0원이아님.",
+            "product_source_file": "work/bulk-goal1000/archive-part-carrying-ks.json",
+            "actual_part_dimensions_complete": true,
+            "price_unit_note": "캐링은본문미터당단가·38×12×1.2T·4m확인.다른일부품목은사진만있어단위·규격추가확인필요."
+          },
+          {
+            "part_name": "clipbarjoint",
+            "original_source_url": "https://ssakda.co.kr/shop/1655717793",
+            "archive_source_url": "https://web.archive.org/web/20260212194543id_/https://ssakda.co.kr/shop/1655717793",
+            "archive_capture_date": "20260212",
+            "observed_at_utc": "2026-10-16T18:22:49.542985+00:00",
+            "http_status": 200,
+            "bytes": 89026,
+            "sha256": "c27f6f6257d4bf65e617e751c557b3c5c818339cd8765901bcccf7c978a69d97",
+            "ordinary_price_ex_vat_krw": "80",
+            "vat_included": false,
+            "shipping_included": false,
+            "shipping_basis": "동일원문에연결된실제공개보존구매안내이미지를읽어기본화물용달·운임착불·대량운임별도문의임을확인함.착불은배송0원이아님.",
+            "product_source_file": "work/bulk-goal1000/archive-part-clipbarjoint.json",
+            "actual_part_dimensions_complete": false,
+            "price_unit_note": "캐링은본문미터당단가·38×12×1.2T·4m확인.다른일부품목은사진만있어단위·규격추가확인필요."
+          },
+          {
+            "part_name": "hanger100",
+            "original_source_url": "https://ssakda.co.kr/shop/1655717782",
+            "archive_source_url": "https://web.archive.org/web/20260212200231id_/https://ssakda.co.kr/shop/1655717782",
+            "archive_capture_date": "20260212",
+            "observed_at_utc": "2026-10-16T18:22:47.435532+00:00",
+            "http_status": 200,
+            "bytes": 88353,
+            "sha256": "c0aebee9a284e50674542feb99319a143648c533f2a1471493e89f3efa9736ef",
+            "ordinary_price_ex_vat_krw": "120",
+            "vat_included": false,
+            "shipping_included": false,
+            "shipping_basis": "동일원문에연결된실제공개보존구매안내이미지를읽어기본화물용달·운임착불·대량운임별도문의임을확인함.착불은배송0원이아님.",
+            "product_source_file": "work/bulk-goal1000/archive-part-hanger100.json",
+            "actual_part_dimensions_complete": false,
+            "price_unit_note": "캐링은본문미터당단가·38×12×1.2T·4m확인.다른일부품목은사진만있어단위·규격추가확인필요."
+          },
+          {
+            "part_name": "minor-ks",
+            "original_source_url": "https://ssakda.co.kr/shop/1655717771",
+            "archive_source_url": "https://web.archive.org/web/20260212182043id_/https://ssakda.co.kr/shop/1655717771",
+            "archive_capture_date": "20260212",
+            "observed_at_utc": "2026-10-16T18:22:44.737240+00:00",
+            "http_status": 200,
+            "bytes": 88458,
+            "sha256": "48a608b46921db5bf2994cc88adb49e6c46ee82eab82a6eaff06793a194f294d",
+            "ordinary_price_ex_vat_krw": "380",
+            "vat_included": false,
+            "shipping_included": false,
+            "shipping_basis": "동일원문에연결된실제공개보존구매안내이미지를읽어기본화물용달·운임착불·대량운임별도문의임을확인함.착불은배송0원이아님.",
+            "product_source_file": "work/bulk-goal1000/archive-part-minor-ks.json",
+            "actual_part_dimensions_complete": false,
+            "price_unit_note": "캐링은본문미터당단가·38×12×1.2T·4m확인.다른일부품목은사진만있어단위·규격추가확인필요."
+          },
+          {
+            "part_name": "nut",
+            "original_source_url": "https://ssakda.co.kr/shop/1655717788",
+            "archive_source_url": "https://web.archive.org/web/20260212193156id_/https://ssakda.co.kr/shop/1655717788",
+            "archive_capture_date": "20260212",
+            "observed_at_utc": "2026-10-16T18:22:49.398437+00:00",
+            "http_status": 200,
+            "bytes": 88797,
+            "sha256": "df4a7ece8d5048c6bcc0d2d297fc33c810abd9320e18d45f30c86f367862e621",
+            "ordinary_price_ex_vat_krw": "17",
+            "vat_included": false,
+            "shipping_included": false,
+            "shipping_basis": "동일원문에연결된실제공개보존구매안내이미지를읽어기본화물용달·운임착불·대량운임별도문의임을확인함.착불은배송0원이아님.",
+            "product_source_file": "work/bulk-goal1000/archive-part-nut.json",
+            "actual_part_dimensions_complete": false,
+            "price_unit_note": "캐링은본문미터당단가·38×12×1.2T·4m확인.다른일부품목은사진만있어단위·규격추가확인필요."
+          },
+          {
+            "part_name": "rod",
+            "original_source_url": "https://ssakda.co.kr/shop/1655717769",
+            "archive_source_url": "https://web.archive.org/web/20260212185340id_/https://ssakda.co.kr/shop/1655717769",
+            "archive_capture_date": "20260212",
+            "observed_at_utc": "2026-10-16T18:22:44.906213+00:00",
+            "http_status": 200,
+            "bytes": 87682,
+            "sha256": "e8ce0fc06c4fc0cb573e4180ced48f4fd9488a3856be87085895e1887545ddd5",
+            "ordinary_price_ex_vat_krw": "600",
+            "vat_included": false,
+            "shipping_included": false,
+            "shipping_basis": "동일원문에연결된실제공개보존구매안내이미지를읽어기본화물용달·운임착불·대량운임별도문의임을확인함.착불은배송0원이아님.",
+            "product_source_file": "work/bulk-goal1000/archive-part-rod.json",
+            "actual_part_dimensions_complete": false,
+            "price_unit_note": "캐링은본문미터당단가·38×12×1.2T·4m확인.다른일부품목은사진만있어단위·규격추가확인필요."
+          },
+          {
+            "part_name": "spring",
+            "original_source_url": "https://ssakda.co.kr/shop/1655717791",
+            "archive_source_url": "https://web.archive.org/web/20260212195450id_/https://ssakda.co.kr/shop/1655717791",
+            "archive_capture_date": "20260212",
+            "observed_at_utc": "2026-10-16T18:22:48.072042+00:00",
+            "http_status": 200,
+            "bytes": 88913,
+            "sha256": "342d9c3d2ea60ebab41dd1d2c521a753f6826ffc733b4beb0b56e392c64043f1",
+            "ordinary_price_ex_vat_krw": "100",
+            "vat_included": false,
+            "shipping_included": false,
+            "shipping_basis": "동일원문에연결된실제공개보존구매안내이미지를읽어기본화물용달·운임착불·대량운임별도문의임을확인함.착불은배송0원이아님.",
+            "product_source_file": "work/bulk-goal1000/archive-part-spring.json",
+            "actual_part_dimensions_complete": false,
+            "price_unit_note": "캐링은본문미터당단가·38×12×1.2T·4m확인.다른일부품목은사진만있어단위·규격추가확인필요."
+          },
+          {
+            "part_name": "마이너찬넬클립KS",
+            "original_source_url": "https://ssakda.co.kr/shop/1655717795",
+            "archive_source_url": "https://web.archive.org/web/20260122231844id_/https://ssakda.co.kr/shop/1655717795",
+            "archive_capture_date": "20260122",
+            "ordinary_price_ex_vat_krw": "100",
+            "vat_included": false,
+            "shipping_included": false,
+            "product_source_file": "work/bulk-goal1000/ssakda-archived-20260122-minorclip.json",
+            "actual_part_dimensions_complete": false
+          }
+        ],
+        "restored_shipping_images": [
+          {
+            "url": "https://web.archive.org/web/20250817022503id_/https://ssakda.co.kr/data/editor/2401/6fc5a1d22bb00246e60c0092244e8672_1706161341_4756.jpg",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "bytes": 146303,
+            "path": "work/bulk-goal1000/ssakda-archive-image-0.jpg"
+          },
+          {
+            "url": "https://web.archive.org/web/20250817022503id_/https://ssakda.co.kr/data/editor/2401/6fc5a1d22bb00246e60c0092244e8672_1706161348_6674.jpg",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "bytes": 260288,
+            "path": "work/bulk-goal1000/ssakda-archive-image-1.jpg"
+          }
+        ],
+        "actual_shipping_terms": "기본화물용달·운임착불·대량별도문의·상하차직접·현장대기/하차지연/배차취소별도비용.무료배송이나하차서비스포함이아님.",
+        "freight_table": {
+          "distance_km": [
+            30,
+            50,
+            80,
+            100,
+            150,
+            200,
+            250,
+            300
+          ],
+          "truck_tons": [
+            "1",
+            "2.5",
+            "5",
+            "8",
+            "11"
+          ],
+          "price_krw_by_distance": [
+            [
+              60000,
+              75000,
+              120000,
+              135000,
+              160000
+            ],
+            [
+              75000,
+              150000,
+              150000,
+              165000,
+              190000
+            ],
+            [
+              100000,
+              135000,
+              180000,
+              185000,
+              220000
+            ],
+            [
+              110000,
+              150000,
+              190000,
+              210000,
+              240000
+            ],
+            [
+              130000,
+              180000,
+              230000,
+              250000,
+              280000
+            ],
+            [
+              150000,
+              200000,
+              250000,
+              275000,
+              310000
+            ],
+            [
+              175000,
+              230000,
+              295000,
+              325000,
+              365000
+            ],
+            [
+              195000,
+              255000,
+              325000,
+              370000,
+              405000
+            ]
+          ],
+          "table_note": "원문50km·2.5톤150000원을그대로보존,80km135000원과역전돼도임의정정하지않음.운임표VAT여부는미표시.실제차량·거리·추가비용대응전일률적flat운임으로확정하지않음."
+        },
+        "priority_remaining": [
+          "시험품전용내진DMC바32×29×.5T의실제일반판매원문",
+          "불연DMC300×600×.4T판의실제판매상세와포장단위",
+          "클립34×29×1T·부속규격및판매단위대응",
+          "실제부속구매량과몰딩·운송계산"
+        ],
+        "not_submission_ready": true,
+        "adopted_B": null,
+        "priority_item_recovery": [
+          {
+            "name": "dmc36",
+            "original_url": "https://ssakda.co.kr/shop/0000000009",
+            "archive_url": "https://web.archive.org/web/20241105213312id_/https://ssakda.co.kr/shop/0000000009",
+            "http_status": 200,
+            "bytes": 79732,
+            "sha256": "1318eb9b079316065148aade26c2efb3edae8fc7f8021986bc25b03b0e0e09d6",
+            "source_file": "work/bulk-goal1000/archive-key-dmc36.json"
+          },
+          {
+            "name": "dmc66",
+            "original_url": "https://ssakda.co.kr/shop/0000000010",
+            "archive_url": "https://web.archive.org/web/20260122223139id_/https://ssakda.co.kr/shop/0000000010",
+            "http_status": 200,
+            "bytes": 80339,
+            "sha256": "5254e4e42ce4c11d240ece0f32a6a26929eae04f22725aea12e66ef32f4c1577",
+            "source_file": "work/bulk-goal1000/archive-key-dmc66.json"
+          },
+          {
+            "name": "onepiececap",
+            "original_url": "https://ssakda.co.kr/shop/0000000017",
+            "archive_url": "https://web.archive.org/web/20250806212812id_/https://ssakda.co.kr/shop/0000000017",
+            "http_status": 200,
+            "bytes": 69956,
+            "sha256": "722cf429687c5e4d62b8b1627dde8f2abacbc808069b84e5d9c1230e110e8aa0",
+            "source_file": "work/bulk-goal1000/archive-key-onepiececap.json"
+          },
+          {
+            "name": "clipbar",
+            "original_url": "https://ssakda.co.kr/shop/1662008234",
+            "archive_url": "https://web.archive.org/web/20250316090752id_/https://ssakda.co.kr/shop/1662008234",
+            "http_status": 200,
+            "bytes": 68620,
+            "sha256": "80781f3b4be3377eb2fec398580bfcd5b675c915e5d39816da899bd0018bd8c2",
+            "source_file": "work/bulk-goal1000/archive-key-clipbar.json"
+          }
+        ],
+        "key_facts": {
+          "DMC300x600": "2550원/개VAT별도·최소40개,불연KS및갈바륨명시·무료배송은전화문의조건부",
+          "DMC600x600": "4050원/개VAT별도·최소20개,불연KS및갈바륨명시·무료배송은전화문의조건부",
+          "onepiece_cap": "외부용DMC원피스캡350원VAT별도.실제판매치수·두께는본문미기재,연결이미지는아카이브404이므로50×50×1T로확정하지않음.현재300원가격과구분.",
+          "clipbar": "650원VAT별도·최소30개·4M옵션추가2040원.기본가만4m한본값으로쓰지않음.본문은전용내진DMC바명칭이나32×29×.5T를명시하지않으며사진미보존.",
+          "seismic_category": "2025-08-20실제보존목록은DA-BAR·파워바·테라바6개이며현재내부용내진DMC바를같은물품으로확정하지않음."
+        },
+        "actual_priority_images_result": "DMC300판상세PNG4개및일반클립바·원피스캡상세그림은아카이브HTTP404미보존.판매HTML복구와실제사진규격검토완료를구분함."
+      },
+      "outer_600x600_BOM": {
+        "url": "https://dmcschool.co.kr/files/design/ilw-ipchal-bul-dmc66-std-quakewind.xlsx",
+        "status": 200,
+        "bytes": 14030,
+        "sha256": "53bab725f9ed13ffa50ba8ebc2603c0a0f5f7d07220448b31cae921ad1a9bb77",
+        "extraction": "work/bulk-goal1000/dmc66-outer-ilw-cells.json",
+        "source_role": "내진내풍압600판별도BOM과세금조건을확인하는제조사설계자료,일반판매가로확정하지않음",
+        "core_rows": {
+          "panel": "600×600×.4T·1㎡·18417원",
+          "onepiece_cap_with_screw": "50×50×1T·1SET/㎡·1601원",
+          "material_subtotal_ex_vat_krw": "27160.050285714286",
+          "installed_total_ex_vat_krw": "50782.870285714285",
+          "VAT_included": false,
+          "AL_molding": "현장실측별도"
+        },
+        "difference_caution": "현재일위대가마이너클립37×30×10×1.2T와시험대상21×13×37×1T차이를공개하며자동동일화하지않음"
+      }
     },
     "dabar_report_first_page_followup": {
       "source_url": "https://blog.naver.com/baro0904/222925765755",
@@ -5459,7 +6158,34 @@
         "finding": "경일의 DA-BAR1.0G 및 최대 지반 가속도 설명을 읽었으나 SDS와 PGA를 같다고 하지 않는다. 다른 판매자의 DA-BAR 전체 성적으로 전용하지 않는다."
       }
     },
-    "overall_submission_assessment": "ZENFIX 또는 DA-BAR의 전체 핵심 성능 우수성과 완제품 가격이 미확정이다. 현재 제출용 상향 대체품이 아니며 같은 BOM 가격 검색 반복은 중단한다."
+    "overall_submission_assessment": "원품 전항목 동일 시험 강제는 폐기했다. 젠픽스AC156 SDS1.5→약1.8의한정우위와불연핵심용도및실제차이를공개하여대체경로를검토중이다. 현재실제전체지정구성의일반판매단가·VAT·운임이아직미확정이므로확정B와채택예상액은null이다.",
+    "verified_numeric_table": [
+      {
+        "comparison": "HY-EP01원품",
+        "Q_sqm": "141958",
+        "C_krw": "6807052520",
+        "fact_count": 75,
+        "unique_request_count": 75,
+        "benchmark_B": null,
+        "savings_krw": null
+      },
+      {
+        "comparison": "DA-BARSET+KCC석고텍스+AL몰딩",
+        "conditional_material_only_savings_krw": "5181791227",
+        "vat_included_material_only": true,
+        "freight": null,
+        "full_tested_assembly_confirmed": false,
+        "adopted_savings_krw": null
+      },
+      {
+        "comparison": "젠픽스AC156약1.8g지정완성시스템",
+        "benchmark_B": null,
+        "savings_krw": null,
+        "vat_included": null,
+        "shipping_included": null,
+        "adopted_savings_krw": null
+      }
+    ]
   },
   "additional_negative_followups": [
     {

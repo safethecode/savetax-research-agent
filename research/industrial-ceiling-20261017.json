@@ -1,0 +1,405 @@
+{
+  "owner": "industrial_scores",
+  "updated_at": "2026-10-16T18:25:52.299325+00:00",
+  "scope": "젠픽스 내진 CLIP-BAR/DMC 동일 자재 일반 판매처와 벽산 내진 M바 완성틀 대안의 실제 판매 범위 확인",
+  "status": "price_evidence_preserved_comparison_not_ready",
+  "submissions": 0,
+  "expected_saving_krw": null,
+  "delegation": "root/bulk는 원품 및 대체품 BOM, hardware는 싹다 단가표의 세금·운임, industrial은 별도 일반 온라인 판매처를 확인한다. 기존 점수·반려 건을 수정하지 않는다.",
+  "tools": {
+    "parallel_actual_calls": 5,
+    "parallel_artifacts": [
+      "parallel-byucksan-mbar-test.json",
+      "parallel-dmc-ceiling-private-retail.json",
+      "parallel-zenfix-clipbar-price.json",
+      "parallel-zenfix-dmc-price.json",
+      "parallel-zenfix-retail-exact.json"
+    ],
+    "jev_actual_calls": 3,
+    "jev": [
+      {
+        "status": "predicted",
+        "url": "https://smartstore.naver.com/zenfix_official",
+        "title": "[에러] 에러페이지 - 시스템오류",
+        "operation": "BLOCKED",
+        "latency_ms": 289,
+        "model": "jev-1.13.0"
+      },
+      {
+        "status": "predicted",
+        "url": "https://www.yckk.co.kr/shop/item.php?it_id=30-0017",
+        "title": "DMC 600X600 > 천장금속마감재 | 유창강건",
+        "operation": "SELECT",
+        "latency_ms": 224,
+        "model": "jev-1.13.0"
+      },
+      {
+        "status": "predicted",
+        "url": "https://handman.co.kr/product/detail.html?product_no=32832",
+        "title": "벽산 경량천정틀 내진크립바 시스템(600*600) 1SET | HANDMAN",
+        "operation": "SELECT",
+        "latency_ms": 240,
+        "model": "jev-1.13.0"
+      }
+    ],
+    "browser_session": "industrial",
+    "jev_note": "Jev의 예측을 실제 구매 상태나 사양 적합성으로 대신하지 않았다. 별도 DOM 선택 및 상세 원문을 확인했다."
+  },
+  "sources": {
+    "zenfix-user-spec-page": {
+      "url": "https://www.zenfix.co.kr/35/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=165787860&t=board",
+      "final_url": "https://www.zenfix.co.kr/35/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=165787860&t=board",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 303188,
+      "sha256": "90ec8e80b1a29136dc454712a74fcbe57ca9966163320a34eff8deb43777d184",
+      "observed_at": "2026-10-16T18:09:35.051821+00:00"
+    },
+    "zenfix-dmc-faq": {
+      "url": "https://www.zenfix.co.kr/58",
+      "final_url": "https://www.zenfix.co.kr/58",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 436647,
+      "sha256": "d9f310fa368e91067973846bbac163708976b22355802bf5b677d6ff7832d6e6",
+      "observed_at": "2026-10-16T18:09:35.256065+00:00"
+    },
+    "yckk-dmc600": {
+      "url": "https://www.yckk.co.kr/shop/item.php?it_id=30-0017",
+      "final_url": "https://www.yckk.co.kr/shop/item.php?it_id=30-0017",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 31611,
+      "sha256": "369f6d0a5fa786b186c6f1101ea19828addc4053a3bc6eb54e57f8d28d6b9638",
+      "observed_at": "2026-10-16T18:10:36.306583+00:00"
+    },
+    "handman-seismic-system-current": {
+      "url": "https://handman.co.kr/product/%EA%B2%BD%EB%9F%89%EC%B2%9C%EC%A0%95%ED%8B%80-%EB%82%B4%EC%A7%84-%EC%8B%9C%EC%8A%A4%ED%85%9C-1set-%EA%B7%9C%EA%B2%A9-%EC%84%A0%ED%83%9D/32832/category/156/display/1/",
+      "final_url": "https://handman.co.kr/product/%EA%B2%BD%EB%9F%89%EC%B2%9C%EC%A0%95%ED%8B%80-%EB%82%B4%EC%A7%84-%EC%8B%9C%EC%8A%A4%ED%85%9C-1set-%EA%B7%9C%EA%B2%A9-%EC%84%A0%ED%83%9D/32832/category/156/display/1/",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 747825,
+      "sha256": "88fc4bfb7ff17d19a182c69102a2341e347cc7c9f58df0fc030695bd2bb39672",
+      "observed_at": "2026-10-16T18:15:33.137055+00:00"
+    },
+    "byucksan-astex-catalog": {
+      "url": "https://www.byucksan.com/_upload/board/2009_%EC%95%84%EC%8A%A4%ED%85%8D%EC%8A%A4%20%EC%9B%B9%EC%9A%A9.pdf",
+      "final_url": "https://www.byucksan.com/_upload/board/2009_%EC%95%84%EC%8A%A4%ED%85%8D%EC%8A%A4%20%EC%9B%B9%EC%9A%A9.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 4694524,
+      "sha256": "022057a2de191c445e9a4a72fea96d36fec8fd85ea27f6404e29813e48c88918",
+      "observed_at": "2026-10-16T18:14:25.964586+00:00"
+    },
+    "byucksan-astex-product": {
+      "url": "https://www.byucksan.com/01_product/product.asp?cate=001001003",
+      "http_status": 200,
+      "bytes": 29533,
+      "sha256": "29c5c86d06438e17f8099ae68b3361240d3095fae4d3f0d145712109e28762c7",
+      "observed_at": "2026-10-16T18:16:58.875566+00:00"
+    },
+    "byucksan-astex-tests": {
+      "url": "https://www.byucksan.com/02_customer/data.asp?cate1=001001&cate2=001001003&gubun1=002002002",
+      "http_status": 200,
+      "bytes": 16998,
+      "sha256": "bc66d182cda1330ef60aaa5d42adc620739f2759c5592c1c9abee9e09af0c22b",
+      "observed_at": "2026-10-16T18:16:58.854315+00:00"
+    },
+    "jajeterior-dmc600": {
+      "url": "https://jajeterior1.cafe24.com/product/detail.html?product_no=79&cate_no=69&display_group=1",
+      "final_url": "https://jajeterior1.cafe24.com/product/detail.html?product_no=79&cate_no=69&display_group=1",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 207365,
+      "sha256": "7bae4b2dfa95707efdf46b38d9c24c83baad50191f1c55a68e8e7c35b1eb93fe",
+      "observed_at": "2026-10-16T18:15:33.334512+00:00"
+    },
+    "ktrade-dmc-category": {
+      "url": "https://ktrademall.com/category/%EC%B2%9C%EC%9E%A5%EC%9E%AC/1368/",
+      "final_url": "https://ktrademall.com/category/%EC%B2%9C%EC%9E%A5%EC%9E%AC/1368/",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 210157,
+      "sha256": "c12780c6622b1acebc9f2c7243670d9f72476cf026f6d3cfb2324b87e6769971",
+      "observed_at": "2026-10-16T18:11:37.047907+00:00"
+    },
+    "zenfix-test-system-scope": {
+      "url": "https://www.zenfix.co.kr/80",
+      "http_status": 200,
+      "bytes": 794688,
+      "sha256": "526dd5e555accde1043c871140ca0fb83e9e86a8ce9cdd3aeb79c9fb0f7eab5f",
+      "observed_at": "2026-10-16T18:24:19.651653+00:00"
+    }
+  },
+  "findings": [
+    {
+      "id": "zenfix-brand-system",
+      "status": "same_manufacturer_retail_unverified",
+      "manufacturer": "젠픽스",
+      "source_url": "https://www.zenfix.co.kr/58",
+      "official_store_url": "https://smartstore.naver.com/zenfix_official",
+      "official_store_observation": "실제 Browser Harness와 Jev에서 시스템 오류 페이지였다. 일반 판매가를 확인하지 못했다.",
+      "component_scope": [
+        "불연 DMC 600×600×0.4T",
+        "CLIP-BAR 32×29×0.5T",
+        "원피스캡 50×50×1T"
+      ],
+      "faq_observations": [
+        "600×600 평판은 20장/박스",
+        "자사 보강캡은 자사 DMC 규격에 맞춘 제품으로 다른 회사 제품에 설치할 수 없다고 안내한다.",
+        "1톤 트럭의 600×600 제품 적재는 48박스라고 안내한다."
+      ],
+      "decision": "다른 판매처의 같은 치수 DMC·캡을 젠픽스 시험 시스템으로 선언하지 않는다. 제조사 동일품 판매가와 필수 부속 범위가 아직 필요하다.",
+      "retail_price_krw": null,
+      "vat_included": null,
+      "shipping_included": null,
+      "evidence": [
+        "zenfix-user-spec-page-source.json",
+        "zenfix-dmc-faq-source.json",
+        "jev-zenfix-store-plan.json"
+      ]
+    },
+    {
+      "id": "handman-byucksan-mbar",
+      "status": "normal_retail_price_preserved_not_superior_substitute",
+      "retailer": "HANDMAN",
+      "manufacturer_claim_on_page": "벽산(BYUCKSAN) 정품 공식 유통",
+      "source_url": "https://handman.co.kr/product/detail.html?product_no=32832",
+      "previous_url_product_no": "32830",
+      "previous_url_current_observation": "정적 HTTP404 및 실제 브라우저 카페24 삭제·변경 오류. 현재 카테고리에서 상품32832에 통합된 내진M바 옵션을 발견했다.",
+      "product_title": "경량천정틀 내진 시스템 1SET (규격 선택)",
+      "selected_option": {
+        "label": "내진M바 (+1,300원)",
+        "value": "P000BWOU000C",
+        "quantity": "1"
+      },
+      "observed_general_price_krw": "7700",
+      "price_basis": "화면 TOTAL 7,700원 (1개). VAT 별도이며 운임 미포함.",
+      "vat_included": false,
+      "computed_price_including_vat_krw": "8470.0",
+      "vat_computation_note": "세금포함 값은 판매 페이지의 VAT 별도 안내로 계산한 값이다. 결제 화면의 실제 합계로 관측한 값이 아니다.",
+      "shipping_included": false,
+      "shipping_quote": "착불 (도착 시 결제)",
+      "shipping_details": {
+        "method": "대부분 화물 운송, 지역·수량에 따라 운임 별도",
+        "conditional_free_freight_thresholds_krw": {
+          "수도권·충청·영남": "3000000",
+          "호남·강원": "4000000",
+          "도서·외곽": "6000000"
+        },
+        "unloading": "현장 하차 인력·장비는 구매자 준비",
+        "unknown": "개별 납품 장소·수량에 적용되는 운임 금액. 기본 템플릿 착불0원을 무료로 보지 않았다."
+      },
+      "buying_state": "선택한 내진M바 행 수량1·합계7,700원과 실제 보이는 바로구매 버튼을 DOM에서 확인. 구매 버튼은 누르지 않았다.",
+      "complete_scope_review": {
+        "status": "unverified",
+        "area_per_set_m2": null,
+        "included_parts": null,
+        "basis": "본문은 600×600 크립바의 결속 부속 설명이며 판매 단위1개, 대표사진은 단일 크립이다. 내진M바 옵션의 1SET 면적·캐링/마이너/M바/달대 등 전체 포함량은 공개 원문에 없다. 제목의1SET를1㎡로 환산하지 않았다."
+      },
+      "performance_review": {
+        "status": "verified_test_not_superior",
+        "issuer": "부산대학교 지진방재연구센터",
+        "report_number": "2019-R-032(재발행)",
+        "test_date": "2019-03-29",
+        "issued_date": "2019-05-22",
+        "tested_product": "6T 아스텍스가 적용된 MK-BAR 시스템",
+        "method": "ICC-ES AC156:2010 준용, 의뢰자가 제시한 시험방법",
+        "sds_g": "1.4",
+        "z_over_h": "1",
+        "result": "이상없음(첨부 시험결과 참조)",
+        "primary_official_entry_url": "https://www.byucksan.com/02_customer/data.asp?cate1=001001&cate2=001001003&gubun1=002002002",
+        "public_file_preview_url": "https://app.cloudike.kr/public/9G_cuPV4/2.%20%EC%8B%9C%ED%97%98%EC%84%B1%EC%A0%81%EC%84%9C%2C%20%EC%9D%B8%EC%A6%9D%EC%84%9C(%EC%8A%B9%EC%9D%B8%EC%84%9C%EB%A5%98)/6.%20%EC%B2%9C%EC%9E%A5%EC%9E%AC/%EC%95%84%EC%8A%A4%ED%85%8D%EC%8A%A4/%EC%84%B1%EC%A0%81%EC%84%9C?filePath=%2F2.%20%EC%8B%9C%ED%97%98%EC%84%B1%EC%A0%81%EC%84%9C%2C%20%EC%9D%B8%EC%A6%9D%EC%84%9C%28%EC%8A%B9%EC%9D%B8%EC%84%9C%EB%A5%98%29%2F6.%20%EC%B2%9C%EC%9E%A5%EC%9E%AC%2F%EC%95%84%EC%8A%A4%ED%85%8D%EC%8A%A4%2F%EC%84%B1%EC%A0%81%EC%84%9C%2F%EC%95%84%EC%8A%A4%ED%85%8D%EC%8A%A4%20MK-bar%20%EB%82%B4%EC%A7%84%EC%84%B1%EC%A0%81%EC%84%9C.pdf",
+        "public_folder_path": [
+          "2. 시험성적서, 인증서(승인서류)",
+          "6. 천장재",
+          "아스텍스",
+          "성적서",
+          "아스텍스 MK-bar 내진성적서.pdf"
+        ],
+        "original_file": {
+          "path": "work/industrial-ceiling/downloads/아스텍스 MK-bar 내진성적서.pdf",
+          "bytes": 47452316,
+          "sha256": "84f437f7c6937be7d46df604545dbdb106ddfc76e53f5deab46c134cd2d4f420",
+          "observed_at": "2026-10-16T18:24:18.469137+00:00"
+        },
+        "reading_method": "전체16쪽 스캔PDF를 공개 다운로드.1~3쪽을1800pxPNG로 렌더링하여 시각적으로 직접 읽었다.텍스트추출본은 비어 있어 근거로 쓰지 않았다.",
+        "visually_read_pages": [
+          1,
+          2,
+          3
+        ],
+        "table_1_components": [
+          {
+            "part": "아스텍스",
+            "manufacturer": "(주)벽산",
+            "size": "300(W)×600(L)×6(T)mm"
+          },
+          {
+            "part": "마이너 찬넬",
+            "manufacturer": "(주)금화스틸",
+            "cross_section_mm": "19(W)×10(H)"
+          },
+          {
+            "part": "캐링 찬넬",
+            "manufacturer": "(주)금화스틸",
+            "cross_section_mm": "38(W)×12(H)"
+          },
+          {
+            "part": "M-BAR",
+            "manufacturer": "(주)금화스틸",
+            "cross_section_mm": "50(W)×19(H)"
+          },
+          {
+            "part": "달대볼트",
+            "manufacturer": "N/A",
+            "size": "Φ9×1000(L)mm"
+          },
+          {
+            "part": "행거",
+            "manufacturer": "N/A",
+            "size": "20(W)×100(L)×2(T)mm"
+          },
+          {
+            "part": "ZIP CLIP",
+            "manufacturer": "(주)금화스틸",
+            "size": "57(W)×31(L)mm"
+          }
+        ],
+        "table_2_parameters": {
+          "building_code": "IBC2015/KBC2016",
+          "criteria": "ICC-ES AC156:2010",
+          "SDS_g": "1.40",
+          "z/h": "1.00",
+          "horizontal_AFLX_H_g": "2.24",
+          "horizontal_ARIG_H_g": "1.68",
+          "vertical_AFLX_V_g": "0.94",
+          "vertical_ARIG_V_g": "0.38"
+        },
+        "comparison": {
+          "original_sds_g": "1.5",
+          "alternative_sds_g": "1.4",
+          "superior": false,
+          "basis": "시험 기준SDS를 비교한다. 수평 응답스펙트럼의2.24g 값을SDS2.24g로 옮기지 않는다."
+        },
+        "limitations": [
+          "공개된 성적은 시험체 및 시험명에 한정된다. KCC석고텍스 또는 제조사 미확인 부재 조합으로 전용하지 않는다.",
+          "성적서 표지는ISO/IEC17025및KOLAS인정과 관련 없는 성적서라고 명시한다. KOLAS인증으로 표현하지 않는다.",
+          "해당 성적과HANDMAN내진M바 옵션의 부재 구성 대응도 확인되지 않았다."
+        ],
+        "catalog_review": "공식 바이오아스텍스 PDF 7페이지 중 PDF6쪽(인쇄10~11쪽)에 MK-BAR 내진 SYSTEM 도면. ZIP CLIP PIN/0.8T ZIP CLIP,9mm달대@900,KS캐링38×12×1.2T,마이너19×10×1.2T,KS M-BAR50×19×0.5T,벽산 아스텍스300×600×6T 등을 표기.",
+        "evidence": [
+          "browser-byucksan-cloud-astex-testfiles.json",
+          "browser-byucksan-cloud-mkbar-preview.json",
+          "browser-byucksan-mkbar-download.json",
+          "byucksan-mkbar-page-01.png",
+          "byucksan-mkbar-page-02.png",
+          "byucksan-mkbar-page-03.png"
+        ]
+      },
+      "decision": "공식에서 공개한 MK-BAR 시험은 SDS1.4g로 원품1.5g보다 높지 않다. 상향 대체 후보에서 제외하고 실제 일반판매가만 보존한다. 1SET면적·BOM도 미확인이므로7,700원/㎡ 완성틀로 환산하지 않는다.",
+      "evidence": [
+        "handman-seismic-system-current-source.json",
+        "browser-handman-mbar-selected.json",
+        "jev-handman-system-plan.json",
+        "handman-seismic-system-image-source.json",
+        "byucksan-astex-catalog-source.json",
+        "byucksan-astex-page6.png",
+        "browser-byucksan-cloud-astex-testfiles.json",
+        "browser-byucksan-cloud-mkbar-preview.json",
+        "browser-byucksan-mkbar-download.json",
+        "byucksan-mkbar-page-01.png",
+        "byucksan-mkbar-page-02.png",
+        "byucksan-mkbar-page-03.png"
+      ]
+    },
+    {
+      "id": "yckk-dmc600-noncombustible",
+      "status": "normal_retail_option_confirmed_zenfix_identity_unverified",
+      "retailer": "유창강건",
+      "source_url": "https://www.yckk.co.kr/shop/item.php?it_id=30-0017",
+      "product_title": "DMC 600X600",
+      "selected_options": [
+        "평판/백색",
+        "불연(+600)",
+        "내부용"
+      ],
+      "quantity": "1",
+      "observed_general_price_krw": "4050",
+      "price_basis": "실제 선택된 옵션 행 수량1과 총 합계(공급가)4,050원",
+      "base_price_krw": "3450",
+      "search_cached_price_krw": "3170",
+      "search_cache_note": "검색의3,170원은 현재 일반가가 아니다. 직접 읽은 기본가3,450원과 불연 선택 후4,050원을 사용한다.",
+      "vat_included": false,
+      "computed_price_including_vat_krw": "4455.0",
+      "shipping_included": false,
+      "shipping_details": "착불. 상세 이미지의 부산창고 출고 차량·목적지별 운임표를 별도로 보존했다. 금액은 지역·차량에 따라 다르며 최종 납품 장소에 대한 확정 운임이 아니다. 하차 장비는 구매자 준비.",
+      "pack_scope": "상세 규격 이미지의 단위EA와 수량1. 젠픽스의20장/박스 조건을 이 판매품에 옮기지 않았다.",
+      "unknowns": [
+        "0.4T 두께",
+        "젠픽스 제조 동일성",
+        "젠픽스 보강캡과의 호환",
+        "해당 판매품을 포함한 AC1561.8g 천장 시스템 시험",
+        "최종 비교 수량의 운임"
+      ],
+      "decision": "젠픽스 내진시스템의 동일 자재 가격으로 쓰지 않는다. 유창 일반 불연DMC600×600 판매가로 별도 보존한다.",
+      "evidence": [
+        "yckk-dmc600-source.json",
+        "browser-yckk-dmc-selected-final.json",
+        "jev-yckk-dmc-plan.json",
+        "yckk-dmc-images-source.json",
+        "yckk-dmc-image-0.png",
+        "yckk-dmc-image-2.png",
+        "yckk-dmc-image-3.png",
+        "yckk-dmc-image-4.png"
+      ],
+      "manufacturer": null,
+      "manufacturer_review": {
+        "status": "unverified",
+        "basis": "실제 HTML 상품정보의 제조자는 상품페이지 참고. 상세 이미지0에는DMC/600×600/EA만 표기. 이미지2~4는YOOCHANG 회사 소개이며 이미지3의금속 내외장재 생산 문구는 이 판매 SKU의 원제조사 표시가 아니다. 원제조사명·KS인증번호·포장 인쇄는 해당 이미지에 없다.",
+        "decision": "판매점 이름과 회사소개만으로 이 판매품을YOOCHANG 제조로 확정하거나 젠픽스 제조를 배제하지 않는다."
+      }
+    },
+    {
+      "id": "jajeterior-dmc600",
+      "status": "retail_page_read_identity_fire_class_unverified",
+      "source_url": "https://jajeterior1.cafe24.com/product/detail.html?product_no=79&cate_no=69&display_group=1",
+      "observed_general_price_krw": "3600",
+      "page_tax_label": "부가세포함",
+      "tax_conflict": "상품 옆 세금 라벨은 부가세포함이나 구매 버튼 템플릿에vat별도도 있다. 실제 세금 기준은 확인 필요.",
+      "shipping": "직접배송·착불.0원 템플릿을 무료로 보지 않았다.",
+      "unknowns": [
+        "제조사",
+        "두께",
+        "불연 등급",
+        "젠픽스 규격/시험 적용",
+        "최종 옵션과 일반 구매 합계",
+        "운임"
+      ],
+      "decision": "젠픽스 불연 동일품 가격으로 채택하지 않았다.",
+      "evidence": [
+        "jajeterior-dmc600-source.json"
+      ]
+    },
+    {
+      "id": "ktrade-price-inquiry",
+      "status": "no_numeric_general_retail_price",
+      "source_url": "https://ktrademall.com/category/%EC%B2%9C%EC%9E%A5%EC%9E%AC/1368/",
+      "observed": "1급불연 DMC 평판/사각 등의 실제 카테고리 가격은 가격문의.",
+      "decision": "일반가0원 또는 검색의 추정 가격으로 채택하지 않았다.",
+      "evidence": [
+        "ktrade-dmc-category-source.json"
+      ]
+    }
+  ],
+  "negative_scope_notes": [
+    "HANDMAN CLIP-BAR 대24×35×0.5T는 젠픽스32×29×0.5T와 다르므로 가격을 옮기지 않았다.",
+    "자재테리어 AL600×600 가격은 DMC 금속 소재와 구분했다.",
+    "공공조달 DMC 가격표는 판매가 근거에서 제외했다.",
+    "싹다·젠픽스 표는 hardware/root가 맡아 중복 검증하지 않았다."
+  ],
+  "next_requirements": [
+    "젠픽스 동일 불연DMC·CLIP바·원피스캡 일반 판매가의 세금·운임과 브랜드 확인",
+    "다른 천장판으로 바꾸는 경우 그 판재와 동일 조합의 내진 성능 근거",
+    "벽산 경로는 공개시험SDS1.4g로 상향대체에서 제외했다. 더 높은 별도 최신시험과 동일판매구성이 실제 확인되지 않는 한 재검색하지 않는다."
+  ],
+  "no_external_purchase_contact_login": true
+}

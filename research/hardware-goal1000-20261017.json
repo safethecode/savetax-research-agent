@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-16T18:07:43.569164+00:00",
+  "updated_at_utc": "2026-10-16T18:27:34.924410+00:00",
   "goal_total_expected_score_krw": "100000000000",
   "latest_user_minimum_per_new_submission_krw": "1000000000",
   "required_average_reference_krw": "1780000000",
@@ -22,7 +22,7 @@
   },
   "fresh_available_full_fact_items": 13,
   "all_references_count": 1663,
-  "actual_parallel_search_calls": 56,
+  "actual_parallel_search_calls": 60,
   "parallel_evidence_files": [
     "work/hardware-goal1000/parallel-aips5000b-explicit.json",
     "work/hardware-goal1000/parallel-asw2224.json",
@@ -33,6 +33,9 @@
     "work/hardware-goal1000/parallel-axxon-krw.json",
     "work/hardware-goal1000/parallel-axxon-perpetual.json",
     "work/hardware-goal1000/parallel-axxon-professional-delivery.json",
+    "work/hardware-goal1000/parallel-baro-dabar-terms.json",
+    "work/hardware-goal1000/parallel-baro-dabar-test.json",
+    "work/hardware-goal1000/parallel-baro-full-test.json",
     "work/hardware-goal1000/parallel-c9300-license.json",
     "work/hardware-goal1000/parallel-dahua-nvr-120b-core.json",
     "work/hardware-goal1000/parallel-dahua-video-metadata-price.json",
@@ -73,6 +76,7 @@
     "work/hardware-goal1000/parallel-sniper5300-explicit.json",
     "work/hardware-goal1000/parallel-sniper5300-identical.json",
     "work/hardware-goal1000/parallel-sniper5300.json",
+    "work/hardware-goal1000/parallel-ssakda-vat-freight.json",
     "work/hardware-goal1000/parallel-stm7077-retail.json",
     "work/hardware-goal1000/parallel-tg500c-identical.json",
     "work/hardware-goal1000/parallel-vix120alt.json",
@@ -29553,5 +29557,457 @@
     "submission_ready": false,
     "new_submission_count": 0,
     "adopted_saving_krw": "0"
+  },
+  "round12_ceiling_price_conditions_support": {
+    "observed_at_utc": "2026-10-16T18:10:50.836030+00:00",
+    "seller": "싹다·주식회사 젠픽스",
+    "business_registration": "617-81-76874",
+    "source_url": "https://ssakda.co.kr/shop/list-102040",
+    "status": "일반 단가의 실제 표시 확인·VAT와 배송 조건은 공개 근거 미확인",
+    "vat_basis": null,
+    "shipping_krw": null,
+    "adopted_saving_krw": "0",
+    "retail_rows": [
+      {
+        "item": "금속천장재 불연 DMC",
+        "spec": "600X600",
+        "unit": "EA",
+        "observed_general_price_krw": "4050"
+      },
+      {
+        "item": "크립-BAR",
+        "spec": "－",
+        "unit": "M",
+        "observed_general_price_krw": "660"
+      },
+      {
+        "item": "크립-BAR",
+        "spec": "내진용(DMC-BAR)",
+        "unit": "M",
+        "observed_general_price_krw": "660"
+      },
+      {
+        "item": "캐링찬넬",
+        "spec": "KS",
+        "unit": "M",
+        "observed_general_price_krw": "660"
+      },
+      {
+        "item": "DMC 보강캡",
+        "spec": "원피스",
+        "unit": "EA",
+        "observed_general_price_krw": "300"
+      },
+      {
+        "item": "내진 DMC",
+        "spec": "－",
+        "unit": "－",
+        "observed_general_price_krw": null,
+        "observed_status": "전화문의"
+      }
+    ],
+    "source_interpretation": [
+      "현재 일반가 표의 자재별 가격은 직접 읽었지만, VAT 포함 여부는 명시되지 않는다.",
+      "내진용 DMC-BAR 660원/m와 완성형 내진 DMC 전화문의 행은 서로 다르다. 개별 자재 가격을 완성 내진 시스템의 판매가로 쓰지 않는다.",
+      "header-vat·vat-badge는 CSS 클래스 정의만 있다. 이름만으로 VAT 포함이나 별도라는 문구가 실제 존재한다고 주장하지 않는다.",
+      "회사소개는 카드수수료 2.5%를 판매자가 부담한다고 설명한다. 카드수수료 부담은 VAT 포함 여부나 배송비와 별개다.",
+      "현재 홈과 회사소개에서는 VAT·배송 정책 링크와 상품별 상세 링크를 발견하지 못했다.",
+      "문의·전화·카카오톡·로그인·관리자 편집·저장·발주는 실행하지 않았다."
+    ],
+    "checked_public_urls": [
+      {
+        "url": "https://ssakda.co.kr/shop/list-102040",
+        "http_status": 200,
+        "artifacts": [
+          "work/hardware-goal1000/ssakda-dmc-list.html",
+          "work/hardware-goal1000/ssakda-conditions-native.json"
+        ]
+      },
+      {
+        "url": "https://ssakda.co.kr/",
+        "http_status": 200,
+        "artifact": "work/hardware-goal1000/ssakda-home.html"
+      },
+      {
+        "url": "https://ssakda.co.kr/company",
+        "http_status": 200,
+        "artifact": "work/hardware-goal1000/ssakda-company.html"
+      },
+      {
+        "url": "https://ssakdaprice.co.kr/",
+        "http_status": 200,
+        "artifact": "work/hardware-goal1000/ssakdaprice-home.html"
+      },
+      {
+        "url": "https://ssakdaprice.co.kr/company",
+        "http_status": 200,
+        "artifact": "work/hardware-goal1000/ssakdaprice-company.html"
+      }
+    ],
+    "public_images": [
+      {
+        "url": "https://ssakda.co.kr/images/popup-sugi.png",
+        "status": 200,
+        "bytes": 189076,
+        "content_type": "image/png",
+        "sha256": "e700eca0049dc9334ba4acd1a183252c5a5b364c00a0100a6d64e7fe31359e5c",
+        "path": "work/hardware-goal1000/ssakda-popup-sugi.png",
+        "visual_review": "직접 이미지 열람 완료"
+      },
+      {
+        "url": "https://ssakda.co.kr/images/popup-banner2.png",
+        "status": 200,
+        "bytes": 553443,
+        "content_type": "image/png",
+        "sha256": "04781d5799b63a01ba7e8c731b855ee46e56f4ed98536dfdf0c2f6339679e0cf",
+        "path": "work/hardware-goal1000/ssakda-popup-banner2.png"
+      },
+      {
+        "url": "https://ssakda.co.kr/images/hero-v2.webp?v=1",
+        "status": 200,
+        "bytes": 108380,
+        "content_type": "image/webp",
+        "sha256": "4c6bce07e99b4f99575838639eed2aae995d436a76526a84ecd21b5424ba899a",
+        "path": "work/hardware-goal1000/ssakda-hero.webp"
+      }
+    ],
+    "visual_image_findings": [
+      {
+        "image": "https://ssakda.co.kr/images/popup-sugi.png",
+        "finding": "카드수수료 0원, 회계·세금 처리 간편, 수기 카드결제를 홍보한다. VAT 포함 여부와 운임 금액은 없다."
+      },
+      {
+        "image": "https://ssakda.co.kr/images/popup-banner2.png",
+        "finding": "전국 빠른 공급, 정품·정량, 원스톱 서비스를 홍보한다. 전국 공급을 무료배송으로 해석하지 않는다."
+      },
+      {
+        "image": "https://ssakda.co.kr/images/hero-v2.webp?v=1",
+        "finding": "건축자재 홍보 이미지다. 가격 조건은 없다."
+      }
+    ],
+    "parallel_artifact": "work/hardware-goal1000/parallel-ssakda-vat-freight.json",
+    "parallel_interpretation": "같은 사업자의 ssakdaprice 사이트를 발견했지만 VAT·운임 조건은 찾지 못했다. 다른 판매자 SSENSE와 온세일의 관세 안내는 무관해 제외했다.",
+    "jev": {
+      "operation": "SCROLL_DOWN",
+      "confidence": 0.73,
+      "latency_ms": 343,
+      "model": "jev-1.13.0"
+    },
+    "jev_interpretation": "SCROLL_DOWN은 공개 페이지 열람의 다음 동작 제안이며 VAT 확인 완료가 아니다."
+  },
+  "round13_baro_ceiling_support": {
+    "updated_at_utc": "2026-10-16T18:27:34.924410+00:00",
+    "product": "(주)바로 내진천장틀 DA-BAR SET (몰딩 미포함)",
+    "seller": "주식회사 바로상사",
+    "business_registration": "510-87-01846",
+    "retail_source": "https://baro09.com/product/%EC%A3%BC%EB%B0%94%EB%A1%9C-%EB%82%B4%EC%A7%84%EC%B2%9C%EC%9E%A5%ED%8B%80-%EB%AA%B0%EB%94%A9%EB%AF%B8%ED%8F%AC%ED%95%A8-%EB%82%B4%EC%A7%84%EC%B2%9C%EC%9E%A5-%EC%B2%9C%EC%A0%95%ED%8B%80-%EC%84%B8%ED%8A%B8/10050/",
+    "status": "㎡ 단위·VAT·수량100 합계 검증 완료. 전체 운임 및 특정 시험 구성의 SDS는 미확정.",
+    "submission_ready": false,
+    "adopted_saving_krw": "0",
+    "price": {
+      "observed_general_price_krw": "4500",
+      "unit": "㎡",
+      "tax_basis": "vat_excluded",
+      "tax_source": "https://baro09.com/category/내진클립바/728",
+      "tax_source_quote": "헤베당(2025년) / 4,500원 (부가세별도)",
+      "tax_source_artifacts": [
+        "work/hardware-goal1000/baro-dabar-category728-native.json",
+        "work/hardware-goal1000/baro-category728-ua.html"
+      ],
+      "public_product_tax_variables": {
+        "supply_price_krw": "4500",
+        "vat_krw": "450"
+      },
+      "derived_vat_inclusive_price_krw": "4950",
+      "derived_price_note": "4,950원은 판매가 4,500원과 명시된 별도 VAT 450원을 합한 계산값이다. 화면에 표시된 일반가를 4,950원으로 인용하지 않는다.",
+      "quantity_observation": {
+        "before_quantity": 1,
+        "before_displayed_goods_total_krw": "4500",
+        "input100_quantity": 100,
+        "input100_displayed_goods_total_krw": "450000",
+        "up101_quantity": 101,
+        "up101_displayed_goods_total_krw": "454500",
+        "down100_quantity": 100,
+        "down100_displayed_goods_total_krw": "450000",
+        "derived_goods_total_including_vat_at100_krw": "495000",
+        "artifact": "work/hardware-goal1000/baro10050-qty100-recheck.json",
+        "initial_stale_read": "처음 99를 입력한 직후 증가 버튼을 눌렀을 때 100개와 445,500원이 함께 읽힌 중간값은 채택하지 않았다. keyup·blur·4초 대기와 101→100 재검증 후 450,000원을 확인했다. 이를 대량 할인으로 해석하지 않는다."
+      }
+    },
+    "shipping": {
+      "product_top_observed_krw": "10000",
+      "product_lower_general_shipping_krw": "80000",
+      "public_guide_url": "https://baro09.com/shopinfo/guide.html",
+      "public_guide_quote": "고정배송비 : 주문 금액에 상관없이 배송비는 80,000원입니다.",
+      "additional_conditions": "모든 상품은 용달 차량 배송, 택배 불가, 1층 하차. 지역별 운임표의 차액을 확인·입금한 뒤 출고한다.",
+      "actual_shown_at_quantity100": "상단은 여전히 10,000원이고 하단은 80,000원 및 차액 안내다. 수량 100 입력만으로 지역·차량별 최종 운임은 나오지 않았다.",
+      "delivery_notice_image": "https://baro09.com/web/upload/NNEditor/20260102/EC8381EB8BA85.png",
+      "delivery_notice_artifact": "work/hardware-goal1000/baro10050-image-16.png",
+      "freight_table_image": "https://baro09.com/web/upload/NNEditor/20260102/ED9598EB8BA82.png",
+      "freight_table_artifact": "work/hardware-goal1000/baro10050-image-23.png",
+      "freight_table_scope": "지역별 라보·1t·1.4t·2.5t·3.5t·5t·축차·11t·18t·25t 운임이 다르다. 수량100㎡와4m부재의 실제 적재·차량 배정을 확정하지 못했다.",
+      "final_shipping_krw": null,
+      "decision": "상단 10,000원을 전국·대량 주문의 최종 총운임으로 채택하지 않는다. 80,000원만으로 지역 차액까지 포함됐다고 주장하지 않는다."
+    },
+    "configuration": {
+      "manufacturer_brand_as_named": "(주)바로 / DA-BAR",
+      "variants_described": [
+        "내진 엠바",
+        "내진 클립바"
+      ],
+      "listed_included_component_categories": [
+        "앙카",
+        "전산볼트 및 너트",
+        "내진행거",
+        "마이너찬넬 및 클립",
+        "메인찬넬(캐링)",
+        "내진클립 및 엠바 또는 클립바"
+      ],
+      "molding_included": false,
+      "ceiling_panel_included": false,
+      "panel_note": "상품명은 천장틀 세트이며 본문 포함 구성에 천장 마감판은 없다. DMC 패널이나 석고텍스가 포함된 완성 천장 가격으로 쓰지 않는다.",
+      "component_quantities_per_m2_verified": false,
+      "variant_selection_verified": false,
+      "remaining": "본문은 엠바·클립바 두 구성을 설명하지만 공개 선택창에는 배송 선결제/착불만 있어 실제 구매 수량100에 배정되는 타입·부품별 수량은 확정하지 못했다.",
+      "source_image": "https://baro09.com/web/upload/NNEditor/20260323/EB82B4ECA784EBB094.jpg",
+      "source_artifact": "work/hardware-goal1000/baro10050-image-18.jpg"
+    },
+    "seismic_test": {
+      "retail_report_source": "https://baro09.com/web/upload/NNEditor/20260323/EC84B1ECA081EC849C.jpg",
+      "artifact": "work/hardware-goal1000/baro10050-image-19.jpg",
+      "report_no": "2021-R-004",
+      "visible_pages": "5~15 / 총15쪽",
+      "visible_test_product_name": "KS D3609 제품을 적용한 M-BAR 천장시스템",
+      "visual_review": "실제 JPEG 763×6227을 내려받아 4개 구간으로 나눠 보면서 5~15쪽의 번호·시험 결과·실험체 도면·사진을 직접 확인했다.",
+      "complete_report_recovered": false,
+      "pages1to4_recovered": false,
+      "verified_design_spectral_acceleration_sds_g": null,
+      "limits": [
+        "그래프의 순간 최대 가속도를 AC156 설계 단주기 스펙트럼가속도 SDS로 바꾸지 않는다.",
+        "다른 구조인 젠픽스 ZENFIX-RES의 1.8g/1.62g를 바로 DA-BAR에 전용하지 않는다.",
+        "M-BAR 시험을 DMC/Clip-BAR 완성 조합의 시험 결과라고 확대하지 않는다."
+      ],
+      "additional_thumbnail_note": "기업소개 이미지 14에는 다른 시험성적서 표지의 축소 사진이 있지만 해상도가 낮아 2021-R-004의 앞 4쪽을 복원한 것으로 취급하지 않았다.",
+      "related_components_checked": [
+        "10050DA-BAR SET",
+        "13908내진클립(DA)클립바용",
+        "13909내진행거(DA)100mm"
+      ],
+      "related_scope_finding": "관련 실제 상품 상세도 같은 M-BAR 성적서 이미지를 재사용한다. 전체 PDF나 앞 4쪽 링크는 찾지 못했다.",
+      "manufacturer_site_read_failure": {
+        "url": "https://barocop.mireene.com/barocop.php",
+        "tls_status": "hostname mismatch",
+        "http_status": "connection error",
+        "web_open_status": "timeout",
+        "decision": "검색 단서는 확인했지만 원문 확보로 세지 않는다."
+      }
+    },
+    "historical_supplier_blog_reads": {
+      "urls": [
+        "https://ssakda3482.tistory.com/4",
+        "https://ssakda3482.tistory.com/22",
+        "https://ssakda3482.tistory.com/30",
+        "https://ssakda3482.tistory.com/33",
+        "https://ssakda3482.tistory.com/76",
+        "https://ssakda3482.tistory.com/82"
+      ],
+      "http_status": 200,
+      "finding": "DA 엠바 5,210원/㎡(2023-12-22), 5,060원/㎡(2024-05-03), 82번 글의 사진 특가 4,790원/㎡를 확인했다. 30번 글은 DA 클립바 600×600판 기준 3,900원/㎡(2024-06-21)와 일위대가를 제시하고 마감캡을 포함해 성능을 취득했다고 명시한다. 가격의 시점 차이만으로 배제하지 않지만, 이 별도 판매처의 VAT·운임·바로 10050의 동일 BOM·SDS 입증으로 확대하지 않았다.",
+      "visual_mapping": "30번 글의 이미지는 DA Clip-bar 클립 결착을 직접 보여준다. 76번 글의 1.8g 홍보는 클립바와 클립·실링가드·MB클립 구성이므로 같은 DA 시험으로 단정하지 않는다.",
+      "public_image_manifest": "work/hardware-goal1000/baro-blog-selected-image-sources.json"
+    },
+    "artifacts": [
+      "work/hardware-goal1000/baro10050-native.json",
+      "work/hardware-goal1000/baro10050-qty100-recheck.json",
+      "work/hardware-goal1000/baro-dabar-category728-native.json",
+      "work/hardware-goal1000/baro-guide.html",
+      "work/hardware-goal1000/baro10050-images-ordinary-ua.json",
+      "work/hardware-goal1000/baro-related-public-sources.json"
+    ],
+    "http_read_notes": "기본 HTTP 요청의 403과 실제 브라우저 성공을 구분했다. 관측한 공개 이미지·상품 URL을 통상 User-Agent와 해당 상품 Referer로 요청하자 실제 200 원문을 확보했다. HTML 오류 파일을 그림으로 확정하지 않았다.",
+    "public_image_sources": [
+      {
+        "i": 11,
+        "url": "https://baro09.com/web/upload/NNEditor/20260103/1-1.jpg",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 178829,
+        "sha256": "929141025ed4381590332978ae2f0d431681730b946a3a9c7af0ddaed422e2be",
+        "path": "work/hardware-goal1000/baro10050-image-11.jpg",
+        "dimensions": [
+          1007,
+          1147
+        ]
+      },
+      {
+        "i": 12,
+        "url": "https://baro09.com/web/upload/NNEditor/20260103/copy-1767400104-ECB9B4ED8E9824ECBD9CEB9DBCEBB3B4201.png",
+        "status": 200,
+        "content_type": "image/png",
+        "bytes": 820940,
+        "sha256": "aea6a6e20e2c1f350cb3e5ae1be078cf46571162ca75da35899c4a975c767b81",
+        "path": "work/hardware-goal1000/baro10050-image-12.png",
+        "dimensions": [
+          800,
+          800
+        ]
+      },
+      {
+        "i": 13,
+        "url": "https://baro09.com/web/upload/NNEditor/20260102/EC8381EB8BA83.gif",
+        "status": 200,
+        "content_type": "image/gif",
+        "bytes": 2417033,
+        "sha256": "9d93ba34b364042e00c02822b8daabdc1fc297ff18e97a27906f7fc98e045444",
+        "path": "work/hardware-goal1000/baro10050-image-13.gif",
+        "dimensions": [
+          1024,
+          424
+        ]
+      },
+      {
+        "i": 14,
+        "url": "https://baro09.com/web/upload/NNEditor/20260323/EAB8B0EC9785EC868CEAB09C26EC9DB8ECA69D.jpg",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 761845,
+        "sha256": "bbea08bc5077187eb084e3be697bf4ce44d5170b707b962e7f5f3bb76e5d52b3",
+        "path": "work/hardware-goal1000/baro10050-image-14.jpg",
+        "dimensions": [
+          763,
+          2290
+        ]
+      },
+      {
+        "i": 15,
+        "url": "https://baro09.com/web/upload/NNEditor/20260102/EC8381EB8BA84.png",
+        "status": 200,
+        "content_type": "image/png",
+        "bytes": 4020,
+        "sha256": "e8341c9ed62db474c2d9042eedcd4891d2697852d7771ae0356b29c7c66f10d5",
+        "path": "work/hardware-goal1000/baro10050-image-15.png",
+        "dimensions": [
+          1200,
+          500
+        ]
+      },
+      {
+        "i": 16,
+        "url": "https://baro09.com/web/upload/NNEditor/20260102/EC8381EB8BA85.png",
+        "status": 200,
+        "content_type": "image/png",
+        "bytes": 46695,
+        "sha256": "a11fcb23f27f9501f29212bac4c2198e3733a471a81e78f5bee0131b1def1ae5",
+        "path": "work/hardware-goal1000/baro10050-image-16.png",
+        "dimensions": [
+          1200,
+          800
+        ]
+      },
+      {
+        "i": 17,
+        "url": "https://baro09.com/web/upload/NNEditor/20260102/EC8381EB8BA86.png",
+        "status": 200,
+        "content_type": "image/png",
+        "bytes": 4795,
+        "sha256": "55cfe9c88fa3df4e88ea2b409429db0ac084591361682c3fcf5baffe2218de5b",
+        "path": "work/hardware-goal1000/baro10050-image-17.png",
+        "dimensions": [
+          1200,
+          500
+        ]
+      },
+      {
+        "i": 18,
+        "url": "https://baro09.com/web/upload/NNEditor/20260323/EB82B4ECA784EBB094.jpg",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 214973,
+        "sha256": "77f54f00805a7dac6d898887963e9ca8eee3ec2ef4b6ce9c435b7b2113f48b96",
+        "path": "work/hardware-goal1000/baro10050-image-18.jpg",
+        "dimensions": [
+          763,
+          2895
+        ]
+      },
+      {
+        "i": 19,
+        "url": "https://baro09.com/web/upload/NNEditor/20260323/EC84B1ECA081EC849C.jpg",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 1985579,
+        "sha256": "28a60a850752222e913f3827bbaed0e50ef5a0cd00de1e8dd338f0a379bc613e",
+        "path": "work/hardware-goal1000/baro10050-image-19.jpg",
+        "dimensions": [
+          763,
+          6227
+        ]
+      },
+      {
+        "i": 20,
+        "url": "https://baro09.com/web/upload/NNEditor/20260103/EBA994EC9DB82.png",
+        "status": 200,
+        "content_type": "image/png",
+        "bytes": 1293686,
+        "sha256": "04f47e1f093571cdba75f69f859466b0c13c4cd84d4e7d03c97d11d5a0647f0b",
+        "path": "work/hardware-goal1000/baro10050-image-20.png",
+        "dimensions": [
+          800,
+          800
+        ]
+      },
+      {
+        "i": 21,
+        "url": "https://baro09.com/web/upload/NNEditor/20260103/EBA994EC9DB81.png",
+        "status": 200,
+        "content_type": "image/png",
+        "bytes": 1222804,
+        "sha256": "2dc916a552322e29ca4cf7c0dd51f6c766468a3dd757d00105278e022e8365ac",
+        "path": "work/hardware-goal1000/baro10050-image-21.png",
+        "dimensions": [
+          800,
+          800
+        ]
+      },
+      {
+        "i": 22,
+        "url": "https://baro09.com/web/upload/NNEditor/20260102/ED9598EB8BA81.png",
+        "status": 200,
+        "content_type": "image/png",
+        "bytes": 5014,
+        "sha256": "81f6fcbb15171c6e59a507877f185605307dd410330f88d0541f0c2325dcceba",
+        "path": "work/hardware-goal1000/baro10050-image-22.png",
+        "dimensions": [
+          1200,
+          500
+        ]
+      },
+      {
+        "i": 23,
+        "url": "https://baro09.com/web/upload/NNEditor/20260102/ED9598EB8BA82.png",
+        "status": 200,
+        "content_type": "image/png",
+        "bytes": 420160,
+        "sha256": "3aa0ac55cbadb09afdb372fce143934b39f3e9c39f3b3088f7729dd2ac693e10",
+        "path": "work/hardware-goal1000/baro10050-image-23.png",
+        "dimensions": [
+          944,
+          5528
+        ]
+      }
+    ],
+    "jev": {
+      "operation": "SCROLL_DOWN",
+      "confidence": 0.29,
+      "latency_ms": 262,
+      "model": "jev-1.13.0"
+    },
+    "jev_note": "SCROLL_DOWN은 페이지 열람의 다음 동작 제안이다. 가격·내진성능·접수 확정이 아니다.",
+    "next_required_evidence": [
+      "바로 DA-BAR의 해당 완성 구성과 SDS를 연결하는 공개 제조사·시험원 자료",
+      "엠바/클립바 타입과 ㎡당 실제 BOM",
+      "마감판·몰딩·캡 등 필요한 나머지 구성의 실제 가격",
+      "현장·수량·부재 길이에 맞는 최종 운임"
+    ]
   }
 }
