@@ -1,0 +1,4456 @@
+{
+  "item_id": "23197517",
+  "original_model": "ILT-4",
+  "observed_at": "2026-10-16T05:26:04.371192+00:00",
+  "availability_at_lookup": "available",
+  "status": "evidence_incomplete_not_submitted",
+  "ready": false,
+  "benchmark_unit_price_krw": null,
+  "expected_savings_krw": null,
+  "fact_count": 545,
+  "quantity": "13086",
+  "comparable_amount_krw": "7067835016",
+  "original_attributes": [
+    {
+      "name": "구분",
+      "unit": null,
+      "value": "택코트용"
+    },
+    {
+      "name": "연화점",
+      "unit": "℃",
+      "value": "55~70"
+    },
+    {
+      "name": "침입도",
+      "unit": null,
+      "value": "최대 30"
+    },
+    {
+      "name": "포장단위",
+      "unit": null,
+      "value": "200kg/드럼"
+    },
+    {
+      "name": "증류찌꺼기",
+      "unit": null,
+      "value": "증발잔류분 50%이상"
+    },
+    {
+      "name": "톨루엔가용분",
+      "unit": null,
+      "value": "98% 이상"
+    },
+    {
+      "name": "옵션/기타",
+      "unit": null,
+      "value": "타이어부착율 10% 이하"
+    },
+    {
+      "name": "점도(SFS,엥글러도)",
+      "unit": "cP",
+      "value": "1~15(25℃)"
+    }
+  ],
+  "original_primary_source": "https://www.nepmark.or.kr/sub4/pop_prod_intro.asp?i=7535",
+  "retail_discovery": [
+    {
+      "url": "https://www.coupang.com/vp/products/8607310899",
+      "model": "RSC-4 택코팅용 200L",
+      "search_observed_price_krw": 249000,
+      "search_observed_shipping_krw": 25000,
+      "direct_browser_result": "Access Denied. 검색 가격은 검증 완료 판매가로 사용하지 않았다."
+    },
+    {
+      "url": "https://item.gmarket.co.kr/Item?goodsCode=4329745623",
+      "model": "RSC-4 택코팅용 200L",
+      "web_read_general_price_krw": 276000,
+      "conditional_coupon_price_krw": 266000,
+      "direct_browser_result": "봇 확인 화면. 검색·웹 열람 가격을 현재 브라우저 실측 가격으로 둔갑시키지 않았다."
+    },
+    {
+      "url": "https://item.gmarket.co.kr/Item?goodscode=4329732784",
+      "model": "FRS COAT 급경화 200L",
+      "web_read_general_price_krw": 276000,
+      "direct_browser_result": "봇 확인 화면. 미제출."
+    },
+    {
+      "url": "https://sengchen15.cafe24.com/product/detail.html?cate_no=160&display_group=1&product_no=12401",
+      "model": "한국석유공업 RSC-4 200L",
+      "web_read_price_krw": 350000,
+      "availability": "품절 표시 관측"
+    }
+  ],
+  "unit_supplement": {
+    "url": "https://www.gobizkorea.com/user/goods/frontGoodsDetail.do?ctgryCode=&goods_no=GS2021120311188&upperCode=M1100500000000",
+    "manufacturer": "a-one emulsion co., ltd.",
+    "model": "RSC-4",
+    "published_pack": "1 drum / 200KG",
+    "note": "제조사 수출 상품정보다. 현재 국내 소매 상품의 제조사·포장 대응을 이 자료만으로 확정하지 않는다."
+  },
+  "scope_difference": "ILT-4는 타이어 부착저감 개질 제품이고 일반 RSC-4와 동일하지 않다. 기본 택코트 기능 외 타이어 부착률·연화점·침입도·양생 성능의 차이를 확인해야 한다. 200L를 근거 없이 200kg로 치환하지 않는다.",
+  "parallel_queries": 3,
+  "parallel_outcome": "3개 실제 호출 결과 대부분 관련 없는 드럼통·합성고무가 반환되어 가격 근거로 사용하지 않았다. 짧은 핵심어 및 정확 모델 검색으로 재탐색했다.",
+  "references": [
+    {
+      "fact_id": "dl:23197517:002370282_1:1224119830:2",
+      "contract_no": "002370282_1",
+      "request_no": "1224119830",
+      "line_no": "2",
+      "quantity": "7",
+      "comparable_amount_krw": "3618670"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:2224370179:1",
+      "contract_no": "002370282_1",
+      "request_no": "2224370179",
+      "line_no": "1",
+      "quantity": "39",
+      "comparable_amount_krw": "21063900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:2424433143:2",
+      "contract_no": "002370282_1",
+      "request_no": "2424433143",
+      "line_no": "2",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:2524392074:1",
+      "contract_no": "002370282_1",
+      "request_no": "2524392074",
+      "line_no": "1",
+      "quantity": "38",
+      "comparable_amount_krw": "20523800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:3224355085:2",
+      "contract_no": "002370282_1",
+      "request_no": "3224355085",
+      "line_no": "2",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00255234:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00255234",
+      "line_no": "1",
+      "quantity": "15",
+      "comparable_amount_krw": "8101500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00342616:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00342616",
+      "line_no": "1",
+      "quantity": "179",
+      "comparable_amount_krw": "96677900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00345565:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00345565",
+      "line_no": "1",
+      "quantity": "148",
+      "comparable_amount_krw": "79934800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00369991:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00369991",
+      "line_no": "1",
+      "quantity": "347",
+      "comparable_amount_krw": "187414700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00429191:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00429191",
+      "line_no": "1",
+      "quantity": "71",
+      "comparable_amount_krw": "38347100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00532873:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00532873",
+      "line_no": "1",
+      "quantity": "55",
+      "comparable_amount_krw": "29705500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00562702:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00562702",
+      "line_no": "1",
+      "quantity": "9",
+      "comparable_amount_krw": "4860900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00594277:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00594277",
+      "line_no": "1",
+      "quantity": "20",
+      "comparable_amount_krw": "10802000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00620288:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00620288",
+      "line_no": "2",
+      "quantity": "11",
+      "comparable_amount_krw": "5941100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00636055:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00636055",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00640743:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00640743",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00654283:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00654283",
+      "line_no": "1",
+      "quantity": "26",
+      "comparable_amount_krw": "14042600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00660447:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00660447",
+      "line_no": "2",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00664818:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00664818",
+      "line_no": "1",
+      "quantity": "86",
+      "comparable_amount_krw": "46448600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00666713:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00666713",
+      "line_no": "1",
+      "quantity": "9",
+      "comparable_amount_krw": "4860900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00690881:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00690881",
+      "line_no": "1",
+      "quantity": "124",
+      "comparable_amount_krw": "66972400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00714508:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00714508",
+      "line_no": "2",
+      "quantity": "15",
+      "comparable_amount_krw": "8101500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00733329:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00733329",
+      "line_no": "1",
+      "quantity": "18",
+      "comparable_amount_krw": "9721800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00769068:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00769068",
+      "line_no": "1",
+      "quantity": "48",
+      "comparable_amount_krw": "25924800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00769072:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00769072",
+      "line_no": "1",
+      "quantity": "49",
+      "comparable_amount_krw": "26464900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00769074:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00769074",
+      "line_no": "1",
+      "quantity": "32",
+      "comparable_amount_krw": "17283200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00781175:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00781175",
+      "line_no": "2",
+      "quantity": "293",
+      "comparable_amount_krw": "158249300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00790577:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00790577",
+      "line_no": "1",
+      "quantity": "44",
+      "comparable_amount_krw": "23764400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00801373:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00801373",
+      "line_no": "1",
+      "quantity": "75",
+      "comparable_amount_krw": "40507500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00808892:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00808892",
+      "line_no": "1",
+      "quantity": "51",
+      "comparable_amount_krw": "27545100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00812624:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00812624",
+      "line_no": "1",
+      "quantity": "30",
+      "comparable_amount_krw": "16203000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00839052:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00839052",
+      "line_no": "1",
+      "quantity": "64",
+      "comparable_amount_krw": "34566400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00858140:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00858140",
+      "line_no": "1",
+      "quantity": "86",
+      "comparable_amount_krw": "46448600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00889640:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00889640",
+      "line_no": "1",
+      "quantity": "105",
+      "comparable_amount_krw": "56710500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00895317:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00895317",
+      "line_no": "2",
+      "quantity": "27",
+      "comparable_amount_krw": "14582700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00917335:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00917335",
+      "line_no": "1",
+      "quantity": "16",
+      "comparable_amount_krw": "8641600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00923484:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00923484",
+      "line_no": "1",
+      "quantity": "15",
+      "comparable_amount_krw": "8101500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00924017:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00924017",
+      "line_no": "1",
+      "quantity": "11",
+      "comparable_amount_krw": "5941100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00925500:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00925500",
+      "line_no": "1",
+      "quantity": "13",
+      "comparable_amount_krw": "7021300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00932000:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00932000",
+      "line_no": "1",
+      "quantity": "24",
+      "comparable_amount_krw": "12962400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00943356:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00943356",
+      "line_no": "1",
+      "quantity": "82",
+      "comparable_amount_krw": "44288200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00949075:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00949075",
+      "line_no": "2",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00963473:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00963473",
+      "line_no": "1",
+      "quantity": "276",
+      "comparable_amount_krw": "149067600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00968380:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00968380",
+      "line_no": "1",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB00976761:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB00976761",
+      "line_no": "1",
+      "quantity": "23",
+      "comparable_amount_krw": "12422300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01031613:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01031613",
+      "line_no": "2",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01041785:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01041785",
+      "line_no": "2",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01052058:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01052058",
+      "line_no": "1",
+      "quantity": "20",
+      "comparable_amount_krw": "10802000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01054447:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01054447",
+      "line_no": "1",
+      "quantity": "56",
+      "comparable_amount_krw": "30245600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01056147:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01056147",
+      "line_no": "1",
+      "quantity": "82",
+      "comparable_amount_krw": "44288200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01056874:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01056874",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01059261:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01059261",
+      "line_no": "2",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01059370:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01059370",
+      "line_no": "1",
+      "quantity": "12",
+      "comparable_amount_krw": "6481200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01059451:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01059451",
+      "line_no": "1",
+      "quantity": "12",
+      "comparable_amount_krw": "6481200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01059540:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01059540",
+      "line_no": "1",
+      "quantity": "17",
+      "comparable_amount_krw": "9181700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01062438:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01062438",
+      "line_no": "1",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01071166:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01071166",
+      "line_no": "1",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01075765:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01075765",
+      "line_no": "2",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01080222:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01080222",
+      "line_no": "1",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01081377:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01081377",
+      "line_no": "2",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01083186:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01083186",
+      "line_no": "2",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01083187:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01083187",
+      "line_no": "1",
+      "quantity": "18",
+      "comparable_amount_krw": "9721800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01085176:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01085176",
+      "line_no": "1",
+      "quantity": "21",
+      "comparable_amount_krw": "11342100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01086946:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01086946",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01087480:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01087480",
+      "line_no": "1",
+      "quantity": "12",
+      "comparable_amount_krw": "6481200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01093284:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01093284",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01093732:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01093732",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01094080:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01094080",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01097262:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01097262",
+      "line_no": "1",
+      "quantity": "8",
+      "comparable_amount_krw": "4320800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01098653:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01098653",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01098780:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01098780",
+      "line_no": "1",
+      "quantity": "12",
+      "comparable_amount_krw": "6481200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01104380:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01104380",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1112606"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01105143:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01105143",
+      "line_no": "2",
+      "quantity": "11",
+      "comparable_amount_krw": "5941100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01105930:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01105930",
+      "line_no": "2",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01106039:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01106039",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01106040:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01106040",
+      "line_no": "1",
+      "quantity": "9",
+      "comparable_amount_krw": "4860900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01112784:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01112784",
+      "line_no": "2",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01112792:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01112792",
+      "line_no": "2",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01116866:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01116866",
+      "line_no": "1",
+      "quantity": "11",
+      "comparable_amount_krw": "5941100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01135167:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01135167",
+      "line_no": "2",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01148772:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01148772",
+      "line_no": "1",
+      "quantity": "14",
+      "comparable_amount_krw": "7561400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01150111:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01150111",
+      "line_no": "1",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01156236:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01156236",
+      "line_no": "1",
+      "quantity": "16",
+      "comparable_amount_krw": "8641600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01156264:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01156264",
+      "line_no": "1",
+      "quantity": "29",
+      "comparable_amount_krw": "15662900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01156275:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01156275",
+      "line_no": "1",
+      "quantity": "17",
+      "comparable_amount_krw": "9181700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01159280:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01159280",
+      "line_no": "1",
+      "quantity": "20",
+      "comparable_amount_krw": "10802000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01159534:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01159534",
+      "line_no": "1",
+      "quantity": "13",
+      "comparable_amount_krw": "7021300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01159671:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01159671",
+      "line_no": "1",
+      "quantity": "19",
+      "comparable_amount_krw": "10261900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01159857:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01159857",
+      "line_no": "1",
+      "quantity": "28",
+      "comparable_amount_krw": "15122800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01160121:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01160121",
+      "line_no": "1",
+      "quantity": "36",
+      "comparable_amount_krw": "19443600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01160533:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01160533",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01160549:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01160549",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01161525:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01161525",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01166922:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01166922",
+      "line_no": "2",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01167473:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01167473",
+      "line_no": "1",
+      "quantity": "9",
+      "comparable_amount_krw": "4860900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01167484:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01167484",
+      "line_no": "1",
+      "quantity": "27",
+      "comparable_amount_krw": "14582700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01170239:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01170239",
+      "line_no": "1",
+      "quantity": "40",
+      "comparable_amount_krw": "21604000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01187806:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01187806",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01187988:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01187988",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01190596:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01190596",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01191271:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01191271",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01191274:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01191274",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01191555:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01191555",
+      "line_no": "2",
+      "quantity": "16",
+      "comparable_amount_krw": "8641600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01192990:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01192990",
+      "line_no": "1",
+      "quantity": "35",
+      "comparable_amount_krw": "18903500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01193413:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01193413",
+      "line_no": "2",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01194191:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01194191",
+      "line_no": "2",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01195234:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01195234",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01195254:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01195254",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01197251:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01197251",
+      "line_no": "2",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01197576:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01197576",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01198127:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01198127",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01204295:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01204295",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01204297:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01204297",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01204298:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01204298",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01204299:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01204299",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01206986:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01206986",
+      "line_no": "1",
+      "quantity": "9",
+      "comparable_amount_krw": "4860900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01217928:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01217928",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01221325:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01221325",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01230381:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01230381",
+      "line_no": "1",
+      "quantity": "8",
+      "comparable_amount_krw": "4320800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01231220:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01231220",
+      "line_no": "1",
+      "quantity": "143",
+      "comparable_amount_krw": "77234300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01232067:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01232067",
+      "line_no": "1",
+      "quantity": "18",
+      "comparable_amount_krw": "9721800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01235497:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01235497",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01235499:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01235499",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01236885:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01236885",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01240106:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01240106",
+      "line_no": "2",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01242703:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01242703",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01243503:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01243503",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01252573:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01252573",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01254561:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01254561",
+      "line_no": "1",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01256354:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01256354",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01268997:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01268997",
+      "line_no": "1",
+      "quantity": "12",
+      "comparable_amount_krw": "6481200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01274883:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01274883",
+      "line_no": "1",
+      "quantity": "19",
+      "comparable_amount_krw": "10261900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01282381:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01282381",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01283627:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01283627",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01283662:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01283662",
+      "line_no": "1",
+      "quantity": "8",
+      "comparable_amount_krw": "4320800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01291919:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01291919",
+      "line_no": "2",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01301400:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01301400",
+      "line_no": "1",
+      "quantity": "13",
+      "comparable_amount_krw": "7021300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01315217:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01315217",
+      "line_no": "2",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01324014:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01324014",
+      "line_no": "2",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01324057:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01324057",
+      "line_no": "1",
+      "quantity": "10",
+      "comparable_amount_krw": "5401000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01324079:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01324079",
+      "line_no": "2",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01324503:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01324503",
+      "line_no": "2",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01326321:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01326321",
+      "line_no": "2",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01327016:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01327016",
+      "line_no": "1",
+      "quantity": "24",
+      "comparable_amount_krw": "12962400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01330998:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01330998",
+      "line_no": "2",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01334885:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01334885",
+      "line_no": "1",
+      "quantity": "131",
+      "comparable_amount_krw": "70753100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01337848:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01337848",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01337851:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01337851",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01337853:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01337853",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01337858:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01337858",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01337867:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01337867",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01337868:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01337868",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01340377:2",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01340377",
+      "line_no": "2",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R25TB01384550:1",
+      "contract_no": "002370282_1",
+      "request_no": "R25TB01384550",
+      "line_no": "1",
+      "quantity": "8",
+      "comparable_amount_krw": "4320800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01416627:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01416627",
+      "line_no": "2",
+      "quantity": "18",
+      "comparable_amount_krw": "9721800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01429084:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01429084",
+      "line_no": "1",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01447678:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01447678",
+      "line_no": "2",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01479751:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01479751",
+      "line_no": "1",
+      "quantity": "10",
+      "comparable_amount_krw": "5401000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01482767:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01482767",
+      "line_no": "1",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01507778:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01507778",
+      "line_no": "1",
+      "quantity": "20",
+      "comparable_amount_krw": "10802000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01551602:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01551602",
+      "line_no": "1",
+      "quantity": "11",
+      "comparable_amount_krw": "5941100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01553442:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01553442",
+      "line_no": "1",
+      "quantity": "10",
+      "comparable_amount_krw": "5401000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01556846:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01556846",
+      "line_no": "2",
+      "quantity": "55",
+      "comparable_amount_krw": "29705500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01560581:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01560581",
+      "line_no": "1",
+      "quantity": "12",
+      "comparable_amount_krw": "6481200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01563594:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01563594",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01563602:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01563602",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01569878:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01569878",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01570020:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01570020",
+      "line_no": "2",
+      "quantity": "18",
+      "comparable_amount_krw": "9721800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01570787:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01570787",
+      "line_no": "2",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01572966:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01572966",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01576400:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01576400",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01576984:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01576984",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01584705:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01584705",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01587175:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01587175",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01596337:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01596337",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01596365:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01596365",
+      "line_no": "1",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01598905:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01598905",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01600069:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01600069",
+      "line_no": "2",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01602568:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01602568",
+      "line_no": "1",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01602615:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01602615",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01602619:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01602619",
+      "line_no": "2",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01605878:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01605878",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01608847:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01608847",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01609034:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01609034",
+      "line_no": "1",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01609036:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01609036",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01609048:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01609048",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01617146:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01617146",
+      "line_no": "1",
+      "quantity": "12",
+      "comparable_amount_krw": "6481200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01618679:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01618679",
+      "line_no": "2",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01619164:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01619164",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01622213:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01622213",
+      "line_no": "1",
+      "quantity": "58",
+      "comparable_amount_krw": "31325800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01627259:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01627259",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01631344:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01631344",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01631826:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01631826",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01639681:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01639681",
+      "line_no": "2",
+      "quantity": "152",
+      "comparable_amount_krw": "82095200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01642142:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01642142",
+      "line_no": "1",
+      "quantity": "10",
+      "comparable_amount_krw": "5401000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01642407:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01642407",
+      "line_no": "1",
+      "quantity": "11",
+      "comparable_amount_krw": "5941100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01642566:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01642566",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01644444:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01644444",
+      "line_no": "1",
+      "quantity": "10",
+      "comparable_amount_krw": "5401000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01648211:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01648211",
+      "line_no": "1",
+      "quantity": "9",
+      "comparable_amount_krw": "4860900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01654096:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01654096",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01655883:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01655883",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01668746:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01668746",
+      "line_no": "1",
+      "quantity": "230",
+      "comparable_amount_krw": "124223000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01669605:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01669605",
+      "line_no": "1",
+      "quantity": "32",
+      "comparable_amount_krw": "17283200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01670138:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01670138",
+      "line_no": "2",
+      "quantity": "10",
+      "comparable_amount_krw": "5401000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01670173:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01670173",
+      "line_no": "1",
+      "quantity": "33",
+      "comparable_amount_krw": "17823300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01672277:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01672277",
+      "line_no": "2",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01674887:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01674887",
+      "line_no": "1",
+      "quantity": "21",
+      "comparable_amount_krw": "11342100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01675883:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01675883",
+      "line_no": "1",
+      "quantity": "48",
+      "comparable_amount_krw": "25924800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01676034:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01676034",
+      "line_no": "1",
+      "quantity": "62",
+      "comparable_amount_krw": "33486200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01676101:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01676101",
+      "line_no": "2",
+      "quantity": "140",
+      "comparable_amount_krw": "75614000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01676290:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01676290",
+      "line_no": "1",
+      "quantity": "13",
+      "comparable_amount_krw": "7021300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01676388:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01676388",
+      "line_no": "1",
+      "quantity": "31",
+      "comparable_amount_krw": "16743100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01676453:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01676453",
+      "line_no": "1",
+      "quantity": "14",
+      "comparable_amount_krw": "7561400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01676559:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01676559",
+      "line_no": "1",
+      "quantity": "53",
+      "comparable_amount_krw": "28625300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01677653:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01677653",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01677673:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01677673",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01677683:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01677683",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01685682:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01685682",
+      "line_no": "1",
+      "quantity": "646",
+      "comparable_amount_krw": "348904600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01687325:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01687325",
+      "line_no": "1",
+      "quantity": "24",
+      "comparable_amount_krw": "12962400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01687329:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01687329",
+      "line_no": "1",
+      "quantity": "34",
+      "comparable_amount_krw": "18363400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01687337:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01687337",
+      "line_no": "1",
+      "quantity": "33",
+      "comparable_amount_krw": "17823300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01690344:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01690344",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01691308:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01691308",
+      "line_no": "1",
+      "quantity": "43",
+      "comparable_amount_krw": "23224300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01691395:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01691395",
+      "line_no": "1",
+      "quantity": "52",
+      "comparable_amount_krw": "28085200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01691453:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01691453",
+      "line_no": "1",
+      "quantity": "28",
+      "comparable_amount_krw": "15122800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01691565:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01691565",
+      "line_no": "1",
+      "quantity": "40",
+      "comparable_amount_krw": "21604000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01692119:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01692119",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01692665:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01692665",
+      "line_no": "1",
+      "quantity": "12",
+      "comparable_amount_krw": "6481200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01692672:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01692672",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01693649:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01693649",
+      "line_no": "1",
+      "quantity": "19",
+      "comparable_amount_krw": "10261900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01698481:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01698481",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01698496:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01698496",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01698499:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01698499",
+      "line_no": "1",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01698501:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01698501",
+      "line_no": "1",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01698505:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01698505",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01698509:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01698509",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01698512:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01698512",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01698525:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01698525",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01698537:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01698537",
+      "line_no": "1",
+      "quantity": "8",
+      "comparable_amount_krw": "4320800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01698559:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01698559",
+      "line_no": "1",
+      "quantity": "34",
+      "comparable_amount_krw": "18363400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01699772:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01699772",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01699804:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01699804",
+      "line_no": "2",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01699827:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01699827",
+      "line_no": "2",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01701436:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01701436",
+      "line_no": "2",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01702197:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01702197",
+      "line_no": "1",
+      "quantity": "55",
+      "comparable_amount_krw": "29705500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01702322:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01702322",
+      "line_no": "1",
+      "quantity": "30",
+      "comparable_amount_krw": "16203000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01702370:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01702370",
+      "line_no": "1",
+      "quantity": "40",
+      "comparable_amount_krw": "21604000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01702410:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01702410",
+      "line_no": "1",
+      "quantity": "36",
+      "comparable_amount_krw": "19443600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01702481:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01702481",
+      "line_no": "1",
+      "quantity": "40",
+      "comparable_amount_krw": "21604000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01702522:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01702522",
+      "line_no": "1",
+      "quantity": "27",
+      "comparable_amount_krw": "14582700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01706565:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01706565",
+      "line_no": "1",
+      "quantity": "17",
+      "comparable_amount_krw": "9181700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01706581:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01706581",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01706632:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01706632",
+      "line_no": "1",
+      "quantity": "18",
+      "comparable_amount_krw": "9721800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01706677:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01706677",
+      "line_no": "1",
+      "quantity": "10",
+      "comparable_amount_krw": "5401000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01706698:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01706698",
+      "line_no": "1",
+      "quantity": "18",
+      "comparable_amount_krw": "9721800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01711903:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01711903",
+      "line_no": "1",
+      "quantity": "43",
+      "comparable_amount_krw": "23224300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01712368:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01712368",
+      "line_no": "1",
+      "quantity": "43",
+      "comparable_amount_krw": "23224300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01712701:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01712701",
+      "line_no": "2",
+      "quantity": "30",
+      "comparable_amount_krw": "16203000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01712727:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01712727",
+      "line_no": "1",
+      "quantity": "8",
+      "comparable_amount_krw": "4320800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01713768:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01713768",
+      "line_no": "1",
+      "quantity": "9",
+      "comparable_amount_krw": "4860900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01713798:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01713798",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01713830:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01713830",
+      "line_no": "1",
+      "quantity": "20",
+      "comparable_amount_krw": "10802000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01713910:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01713910",
+      "line_no": "1",
+      "quantity": "21",
+      "comparable_amount_krw": "11342100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01714091:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01714091",
+      "line_no": "1",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01714170:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01714170",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01714205:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01714205",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01714246:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01714246",
+      "line_no": "1",
+      "quantity": "10",
+      "comparable_amount_krw": "5401000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01714272:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01714272",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01714286:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01714286",
+      "line_no": "1",
+      "quantity": "9",
+      "comparable_amount_krw": "4860900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01717922:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01717922",
+      "line_no": "1",
+      "quantity": "12",
+      "comparable_amount_krw": "6481200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01717985:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01717985",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01717994:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01717994",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01717999:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01717999",
+      "line_no": "1",
+      "quantity": "12",
+      "comparable_amount_krw": "6481200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01718003:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01718003",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01718008:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01718008",
+      "line_no": "1",
+      "quantity": "8",
+      "comparable_amount_krw": "4320800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01718011:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01718011",
+      "line_no": "1",
+      "quantity": "24",
+      "comparable_amount_krw": "12962400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01719067:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01719067",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01722668:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01722668",
+      "line_no": "1",
+      "quantity": "8",
+      "comparable_amount_krw": "4320800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01725602:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01725602",
+      "line_no": "1",
+      "quantity": "16",
+      "comparable_amount_krw": "8641600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01725724:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01725724",
+      "line_no": "1",
+      "quantity": "76",
+      "comparable_amount_krw": "41047600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01727781:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01727781",
+      "line_no": "1",
+      "quantity": "22",
+      "comparable_amount_krw": "11882200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01727849:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01727849",
+      "line_no": "1",
+      "quantity": "23",
+      "comparable_amount_krw": "12422300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01730189:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01730189",
+      "line_no": "1",
+      "quantity": "20",
+      "comparable_amount_krw": "10802000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01731567:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01731567",
+      "line_no": "1",
+      "quantity": "19",
+      "comparable_amount_krw": "10261900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01731665:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01731665",
+      "line_no": "1",
+      "quantity": "13",
+      "comparable_amount_krw": "7021300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01731782:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01731782",
+      "line_no": "1",
+      "quantity": "30",
+      "comparable_amount_krw": "16203000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01736603:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01736603",
+      "line_no": "1",
+      "quantity": "10",
+      "comparable_amount_krw": "5401000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01736985:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01736985",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01738704:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01738704",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01739094:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01739094",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01743719:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01743719",
+      "line_no": "2",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01743876:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01743876",
+      "line_no": "1",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01744964:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01744964",
+      "line_no": "1",
+      "quantity": "72",
+      "comparable_amount_krw": "38887200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01745939:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01745939",
+      "line_no": "2",
+      "quantity": "10",
+      "comparable_amount_krw": "5401000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01747527:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01747527",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01748277:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01748277",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01750733:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01750733",
+      "line_no": "1",
+      "quantity": "9",
+      "comparable_amount_krw": "4860900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01753507:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01753507",
+      "line_no": "1",
+      "quantity": "12",
+      "comparable_amount_krw": "6481200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01755605:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01755605",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01757948:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01757948",
+      "line_no": "1",
+      "quantity": "19",
+      "comparable_amount_krw": "10261900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01758555:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01758555",
+      "line_no": "1",
+      "quantity": "12",
+      "comparable_amount_krw": "6481200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01758654:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01758654",
+      "line_no": "1",
+      "quantity": "24",
+      "comparable_amount_krw": "12962400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01758684:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01758684",
+      "line_no": "1",
+      "quantity": "14",
+      "comparable_amount_krw": "7561400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01758731:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01758731",
+      "line_no": "1",
+      "quantity": "12",
+      "comparable_amount_krw": "6481200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01758800:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01758800",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01758802:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01758802",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01758804:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01758804",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01758806:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01758806",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01758809:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01758809",
+      "line_no": "1",
+      "quantity": "14",
+      "comparable_amount_krw": "7561400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01758812:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01758812",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01758813:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01758813",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01758814:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01758814",
+      "line_no": "1",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01758815:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01758815",
+      "line_no": "1",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01758816:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01758816",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01758818:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01758818",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01758819:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01758819",
+      "line_no": "1",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01760698:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01760698",
+      "line_no": "1",
+      "quantity": "154",
+      "comparable_amount_krw": "83175400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01760908:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01760908",
+      "line_no": "1",
+      "quantity": "43",
+      "comparable_amount_krw": "23224300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01763164:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01763164",
+      "line_no": "1",
+      "quantity": "9",
+      "comparable_amount_krw": "4860900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01763191:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01763191",
+      "line_no": "1",
+      "quantity": "13",
+      "comparable_amount_krw": "7021300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01763258:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01763258",
+      "line_no": "1",
+      "quantity": "12",
+      "comparable_amount_krw": "6481200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01763423:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01763423",
+      "line_no": "2",
+      "quantity": "48",
+      "comparable_amount_krw": "25924800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01765354:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01765354",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01765846:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01765846",
+      "line_no": "1",
+      "quantity": "15",
+      "comparable_amount_krw": "8101500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01767315:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01767315",
+      "line_no": "2",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01767607:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01767607",
+      "line_no": "1",
+      "quantity": "10",
+      "comparable_amount_krw": "5401000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01768658:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01768658",
+      "line_no": "1",
+      "quantity": "22",
+      "comparable_amount_krw": "11882200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01770855:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01770855",
+      "line_no": "1",
+      "quantity": "36",
+      "comparable_amount_krw": "19443600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01772278:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01772278",
+      "line_no": "2",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01773757:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01773757",
+      "line_no": "1",
+      "quantity": "19",
+      "comparable_amount_krw": "10261900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01773796:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01773796",
+      "line_no": "1",
+      "quantity": "8",
+      "comparable_amount_krw": "4320800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01773827:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01773827",
+      "line_no": "1",
+      "quantity": "13",
+      "comparable_amount_krw": "7021300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01773945:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01773945",
+      "line_no": "1",
+      "quantity": "15",
+      "comparable_amount_krw": "8101500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01774011:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01774011",
+      "line_no": "1",
+      "quantity": "11",
+      "comparable_amount_krw": "5941100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01774035:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01774035",
+      "line_no": "1",
+      "quantity": "16",
+      "comparable_amount_krw": "8641600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01775117:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01775117",
+      "line_no": "1",
+      "quantity": "17",
+      "comparable_amount_krw": "9181700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01775119:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01775119",
+      "line_no": "1",
+      "quantity": "21",
+      "comparable_amount_krw": "11342100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01797328:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01797328",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01813966:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01813966",
+      "line_no": "2",
+      "quantity": "11",
+      "comparable_amount_krw": "5941100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01819193:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01819193",
+      "line_no": "1",
+      "quantity": "11",
+      "comparable_amount_krw": "5941100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01822477:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01822477",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01822495:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01822495",
+      "line_no": "1",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01822950:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01822950",
+      "line_no": "1",
+      "quantity": "13",
+      "comparable_amount_krw": "7021300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01823618:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01823618",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01823732:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01823732",
+      "line_no": "1",
+      "quantity": "9",
+      "comparable_amount_krw": "4860900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01823781:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01823781",
+      "line_no": "1",
+      "quantity": "12",
+      "comparable_amount_krw": "6481200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01824963:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01824963",
+      "line_no": "1",
+      "quantity": "14",
+      "comparable_amount_krw": "7561400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01825426:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01825426",
+      "line_no": "1",
+      "quantity": "14",
+      "comparable_amount_krw": "7561400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01830114:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01830114",
+      "line_no": "1",
+      "quantity": "9",
+      "comparable_amount_krw": "4860900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01832432:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01832432",
+      "line_no": "1",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01832481:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01832481",
+      "line_no": "1",
+      "quantity": "992",
+      "comparable_amount_krw": "535779200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01836029:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01836029",
+      "line_no": "1",
+      "quantity": "35",
+      "comparable_amount_krw": "18903500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01842222:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01842222",
+      "line_no": "2",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01842478:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01842478",
+      "line_no": "2",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01849104:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01849104",
+      "line_no": "1",
+      "quantity": "24",
+      "comparable_amount_krw": "12962400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01849110:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01849110",
+      "line_no": "1",
+      "quantity": "21",
+      "comparable_amount_krw": "11342100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01856309:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01856309",
+      "line_no": "1",
+      "quantity": "11",
+      "comparable_amount_krw": "5941100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01860055:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01860055",
+      "line_no": "1",
+      "quantity": "34",
+      "comparable_amount_krw": "18363400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01864885:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01864885",
+      "line_no": "1",
+      "quantity": "10",
+      "comparable_amount_krw": "5401000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01866657:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01866657",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01869762:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01869762",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01869926:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01869926",
+      "line_no": "1",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01870003:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01870003",
+      "line_no": "1",
+      "quantity": "177",
+      "comparable_amount_krw": "95597700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01870105:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01870105",
+      "line_no": "1",
+      "quantity": "17",
+      "comparable_amount_krw": "9181700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01874690:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01874690",
+      "line_no": "2",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01874728:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01874728",
+      "line_no": "1",
+      "quantity": "5",
+      "comparable_amount_krw": "2916540"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01875570:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01875570",
+      "line_no": "1",
+      "quantity": "220",
+      "comparable_amount_krw": "118822000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01875621:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01875621",
+      "line_no": "1",
+      "quantity": "9",
+      "comparable_amount_krw": "4860900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01876755:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01876755",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01876923:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01876923",
+      "line_no": "2",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01877037:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01877037",
+      "line_no": "1",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01879175:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01879175",
+      "line_no": "2",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01882922:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01882922",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01889433:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01889433",
+      "line_no": "1",
+      "quantity": "12",
+      "comparable_amount_krw": "6481200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01889498:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01889498",
+      "line_no": "1",
+      "quantity": "10",
+      "comparable_amount_krw": "5401000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01892612:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01892612",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01894659:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01894659",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01895524:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01895524",
+      "line_no": "1",
+      "quantity": "219",
+      "comparable_amount_krw": "118281900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01896024:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01896024",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01897087:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01897087",
+      "line_no": "1",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01897304:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01897304",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01899282:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01899282",
+      "line_no": "1",
+      "quantity": "35",
+      "comparable_amount_krw": "18903500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01902733:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01902733",
+      "line_no": "1",
+      "quantity": "19",
+      "comparable_amount_krw": "10261900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01908600:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01908600",
+      "line_no": "1",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01908606:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01908606",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01908609:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01908609",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01912273:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01912273",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01918611:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01918611",
+      "line_no": "2",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01918843:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01918843",
+      "line_no": "2",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01919090:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01919090",
+      "line_no": "2",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01920487:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01920487",
+      "line_no": "1",
+      "quantity": "61",
+      "comparable_amount_krw": "32946100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01920545:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01920545",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01920979:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01920979",
+      "line_no": "1",
+      "quantity": "61",
+      "comparable_amount_krw": "32946100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01921005:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01921005",
+      "line_no": "1",
+      "quantity": "13",
+      "comparable_amount_krw": "7021300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01921073:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01921073",
+      "line_no": "1",
+      "quantity": "37",
+      "comparable_amount_krw": "19983700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01921818:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01921818",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01922758:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01922758",
+      "line_no": "1",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01922854:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01922854",
+      "line_no": "1",
+      "quantity": "12",
+      "comparable_amount_krw": "6481200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01922961:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01922961",
+      "line_no": "1",
+      "quantity": "15",
+      "comparable_amount_krw": "8101500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01923032:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01923032",
+      "line_no": "1",
+      "quantity": "16",
+      "comparable_amount_krw": "8641600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01923156:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01923156",
+      "line_no": "1",
+      "quantity": "12",
+      "comparable_amount_krw": "6481200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01923321:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01923321",
+      "line_no": "1",
+      "quantity": "14",
+      "comparable_amount_krw": "7561400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01923386:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01923386",
+      "line_no": "1",
+      "quantity": "40",
+      "comparable_amount_krw": "21604000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01923468:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01923468",
+      "line_no": "1",
+      "quantity": "18",
+      "comparable_amount_krw": "9721800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01923538:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01923538",
+      "line_no": "1",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01923634:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01923634",
+      "line_no": "1",
+      "quantity": "33",
+      "comparable_amount_krw": "17823300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01923686:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01923686",
+      "line_no": "1",
+      "quantity": "34",
+      "comparable_amount_krw": "18363400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01924015:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01924015",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01924098:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01924098",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01924113:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01924113",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01924129:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01924129",
+      "line_no": "1",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01927563:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01927563",
+      "line_no": "1",
+      "quantity": "330",
+      "comparable_amount_krw": "178233000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01931953:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01931953",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01932001:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01932001",
+      "line_no": "1",
+      "quantity": "33",
+      "comparable_amount_krw": "17823300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01933708:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01933708",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01933877:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01933877",
+      "line_no": "1",
+      "quantity": "9",
+      "comparable_amount_krw": "4860900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01934024:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01934024",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01935752:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01935752",
+      "line_no": "1",
+      "quantity": "13",
+      "comparable_amount_krw": "7021300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01936801:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01936801",
+      "line_no": "1",
+      "quantity": "31",
+      "comparable_amount_krw": "16743100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01938163:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01938163",
+      "line_no": "1",
+      "quantity": "21",
+      "comparable_amount_krw": "11342100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01938374:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01938374",
+      "line_no": "1",
+      "quantity": "20",
+      "comparable_amount_krw": "10802000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01939603:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01939603",
+      "line_no": "1",
+      "quantity": "31",
+      "comparable_amount_krw": "16743100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01939787:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01939787",
+      "line_no": "1",
+      "quantity": "12",
+      "comparable_amount_krw": "6481200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01939842:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01939842",
+      "line_no": "1",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01939904:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01939904",
+      "line_no": "1",
+      "quantity": "12",
+      "comparable_amount_krw": "6481200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01939943:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01939943",
+      "line_no": "1",
+      "quantity": "17",
+      "comparable_amount_krw": "9181700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01940014:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01940014",
+      "line_no": "1",
+      "quantity": "8",
+      "comparable_amount_krw": "4320800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01950862:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01950862",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01950874:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01950874",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01956179:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01956179",
+      "line_no": "1",
+      "quantity": "13",
+      "comparable_amount_krw": "7021300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01963642:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01963642",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01967406:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01967406",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01967462:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01967462",
+      "line_no": "1",
+      "quantity": "11",
+      "comparable_amount_krw": "5941100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01967700:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01967700",
+      "line_no": "1",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01967758:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01967758",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01967786:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01967786",
+      "line_no": "1",
+      "quantity": "18",
+      "comparable_amount_krw": "9721800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01969427:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01969427",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01972979:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01972979",
+      "line_no": "1",
+      "quantity": "16",
+      "comparable_amount_krw": "8641600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01985785:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01985785",
+      "line_no": "1",
+      "quantity": "21",
+      "comparable_amount_krw": "11342100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01985787:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01985787",
+      "line_no": "1",
+      "quantity": "36",
+      "comparable_amount_krw": "19443600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01988154:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01988154",
+      "line_no": "1",
+      "quantity": "13",
+      "comparable_amount_krw": "7021300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01988190:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01988190",
+      "line_no": "1",
+      "quantity": "12",
+      "comparable_amount_krw": "6481200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01988213:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01988213",
+      "line_no": "2",
+      "quantity": "18",
+      "comparable_amount_krw": "9721800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01988217:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01988217",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01988232:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01988232",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01988239:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01988239",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01988243:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01988243",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01990600:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01990600",
+      "line_no": "1",
+      "quantity": "20",
+      "comparable_amount_krw": "10802000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01992511:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01992511",
+      "line_no": "1",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01993724:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01993724",
+      "line_no": "1",
+      "quantity": "22",
+      "comparable_amount_krw": "11882200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01993730:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01993730",
+      "line_no": "1",
+      "quantity": "9",
+      "comparable_amount_krw": "4860900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01996123:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01996123",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB01998870:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB01998870",
+      "line_no": "1",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02002083:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02002083",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02002835:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02002835",
+      "line_no": "1",
+      "quantity": "36",
+      "comparable_amount_krw": "19443600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02004006:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02004006",
+      "line_no": "1",
+      "quantity": "14",
+      "comparable_amount_krw": "7561400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02006569:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02006569",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02006916:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02006916",
+      "line_no": "1",
+      "quantity": "12",
+      "comparable_amount_krw": "6481200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02006970:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02006970",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02007000:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02007000",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02007011:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02007011",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02007023:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02007023",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02007030:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02007030",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02007839:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02007839",
+      "line_no": "1",
+      "quantity": "35",
+      "comparable_amount_krw": "18903500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02008044:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02008044",
+      "line_no": "1",
+      "quantity": "41",
+      "comparable_amount_krw": "22144100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02008191:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02008191",
+      "line_no": "1",
+      "quantity": "9",
+      "comparable_amount_krw": "4860900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02008351:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02008351",
+      "line_no": "1",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02009100:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02009100",
+      "line_no": "1",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02013498:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02013498",
+      "line_no": "1",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02014352:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02014352",
+      "line_no": "1",
+      "quantity": "13",
+      "comparable_amount_krw": "7021300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02015948:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02015948",
+      "line_no": "1",
+      "quantity": "131",
+      "comparable_amount_krw": "70753100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02018944:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02018944",
+      "line_no": "1",
+      "quantity": "21",
+      "comparable_amount_krw": "11342100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02031624:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02031624",
+      "line_no": "2",
+      "quantity": "46",
+      "comparable_amount_krw": "24844600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02042966:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02042966",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02045292:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02045292",
+      "line_no": "2",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02050944:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02050944",
+      "line_no": "2",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02055015:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02055015",
+      "line_no": "2",
+      "quantity": "38",
+      "comparable_amount_krw": "20523800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02056403:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02056403",
+      "line_no": "2",
+      "quantity": "104",
+      "comparable_amount_krw": "56170400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02060774:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02060774",
+      "line_no": "1",
+      "quantity": "9",
+      "comparable_amount_krw": "4860900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02063552:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02063552",
+      "line_no": "1",
+      "quantity": "27",
+      "comparable_amount_krw": "14582700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02081981:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02081981",
+      "line_no": "1",
+      "quantity": "35",
+      "comparable_amount_krw": "18903500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02082646:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02082646",
+      "line_no": "2",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02083987:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02083987",
+      "line_no": "2",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02090817:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02090817",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02094335:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02094335",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02101092:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02101092",
+      "line_no": "2",
+      "quantity": "176",
+      "comparable_amount_krw": "95057600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02109931:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02109931",
+      "line_no": "1",
+      "quantity": "29",
+      "comparable_amount_krw": "15662900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02124821:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02124821",
+      "line_no": "1",
+      "quantity": "8",
+      "comparable_amount_krw": "4320800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02124854:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02124854",
+      "line_no": "1",
+      "quantity": "27",
+      "comparable_amount_krw": "14582700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02125019:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02125019",
+      "line_no": "1",
+      "quantity": "23",
+      "comparable_amount_krw": "12422300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02125250:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02125250",
+      "line_no": "1",
+      "quantity": "19",
+      "comparable_amount_krw": "10261900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02125292:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02125292",
+      "line_no": "1",
+      "quantity": "18",
+      "comparable_amount_krw": "9721800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02125307:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02125307",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02128864:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02128864",
+      "line_no": "1",
+      "quantity": "29",
+      "comparable_amount_krw": "15662900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02142350:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02142350",
+      "line_no": "1",
+      "quantity": "10",
+      "comparable_amount_krw": "5401000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02145154:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02145154",
+      "line_no": "1",
+      "quantity": "23",
+      "comparable_amount_krw": "12422300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02151313:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02151313",
+      "line_no": "1",
+      "quantity": "10",
+      "comparable_amount_krw": "5401000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02151933:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02151933",
+      "line_no": "1",
+      "quantity": "51",
+      "comparable_amount_krw": "27545100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02151990:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02151990",
+      "line_no": "1",
+      "quantity": "43",
+      "comparable_amount_krw": "23224300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02152037:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02152037",
+      "line_no": "1",
+      "quantity": "49",
+      "comparable_amount_krw": "26464900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02155869:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02155869",
+      "line_no": "2",
+      "quantity": "11",
+      "comparable_amount_krw": "5941100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02171520:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02171520",
+      "line_no": "1",
+      "quantity": "46",
+      "comparable_amount_krw": "24844600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02173413:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02173413",
+      "line_no": "1",
+      "quantity": "35",
+      "comparable_amount_krw": "18903500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02177150:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02177150",
+      "line_no": "2",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02177908:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02177908",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02183262:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02183262",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02183300:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02183300",
+      "line_no": "1",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02189892:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02189892",
+      "line_no": "1",
+      "quantity": "59",
+      "comparable_amount_krw": "31865900"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02189908:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02189908",
+      "line_no": "1",
+      "quantity": "40",
+      "comparable_amount_krw": "21604000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02197778:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02197778",
+      "line_no": "1",
+      "quantity": "96",
+      "comparable_amount_krw": "51849600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02197880:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02197880",
+      "line_no": "1",
+      "quantity": "75",
+      "comparable_amount_krw": "40507500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02197975:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02197975",
+      "line_no": "1",
+      "quantity": "93",
+      "comparable_amount_krw": "50229300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02199014:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02199014",
+      "line_no": "1",
+      "quantity": "11",
+      "comparable_amount_krw": "5941100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02199426:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02199426",
+      "line_no": "1",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02214738:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02214738",
+      "line_no": "1",
+      "quantity": "6",
+      "comparable_amount_krw": "3240600"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02217404:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02217404",
+      "line_no": "1",
+      "quantity": "5",
+      "comparable_amount_krw": "2700500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02217414:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02217414",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02223000:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02223000",
+      "line_no": "1",
+      "quantity": "17",
+      "comparable_amount_krw": "9181700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02229578:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02229578",
+      "line_no": "2",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02229697:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02229697",
+      "line_no": "2",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02234719:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02234719",
+      "line_no": "1",
+      "quantity": "3",
+      "comparable_amount_krw": "1620300"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02253473:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02253473",
+      "line_no": "1",
+      "quantity": "81",
+      "comparable_amount_krw": "43748100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02257403:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02257403",
+      "line_no": "1",
+      "quantity": "48",
+      "comparable_amount_krw": "25924800"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02257406:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02257406",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02257473:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02257473",
+      "line_no": "1",
+      "quantity": "44",
+      "comparable_amount_krw": "23764400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02257535:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02257535",
+      "line_no": "2",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02258892:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02258892",
+      "line_no": "1",
+      "quantity": "2",
+      "comparable_amount_krw": "1080200"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02259011:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02259011",
+      "line_no": "2",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02259412:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02259412",
+      "line_no": "1",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02262987:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02262987",
+      "line_no": "1",
+      "quantity": "10",
+      "comparable_amount_krw": "5401000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02269314:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02269314",
+      "line_no": "1",
+      "quantity": "11",
+      "comparable_amount_krw": "5941100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02291693:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02291693",
+      "line_no": "1",
+      "quantity": "20",
+      "comparable_amount_krw": "10802000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02294178:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02294178",
+      "line_no": "1",
+      "quantity": "14",
+      "comparable_amount_krw": "7561400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02294682:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02294682",
+      "line_no": "1",
+      "quantity": "11",
+      "comparable_amount_krw": "5941100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02300365:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02300365",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02300408:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02300408",
+      "line_no": "1",
+      "quantity": "1",
+      "comparable_amount_krw": "540100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02302879:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02302879",
+      "line_no": "1",
+      "quantity": "11",
+      "comparable_amount_krw": "5941100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02322218:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02322218",
+      "line_no": "1",
+      "quantity": "35",
+      "comparable_amount_krw": "18903500"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02329293:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02329293",
+      "line_no": "1",
+      "quantity": "51",
+      "comparable_amount_krw": "27545100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02329318:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02329318",
+      "line_no": "1",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02334179:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02334179",
+      "line_no": "2",
+      "quantity": "7",
+      "comparable_amount_krw": "3780700"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02339471:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02339471",
+      "line_no": "1",
+      "quantity": "4",
+      "comparable_amount_krw": "2160400"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02340097:2",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02340097",
+      "line_no": "2",
+      "quantity": "10",
+      "comparable_amount_krw": "5401000"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02340159:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02340159",
+      "line_no": "1",
+      "quantity": "21",
+      "comparable_amount_krw": "11342100"
+    },
+    {
+      "fact_id": "dl:23197517:002370282_1:R26TB02350240:1",
+      "contract_no": "002370282_1",
+      "request_no": "R26TB02350240",
+      "line_no": "1",
+      "quantity": "15",
+      "comparable_amount_krw": "8101500"
+    }
+  ]
+}

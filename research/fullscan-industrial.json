@@ -12,18 +12,18 @@
     "local_selected_for_official_lookup": 636,
     "official_lookup_unique_items": 636,
     "availability_counts": {
-      "available": 354,
+      "available": 353,
       "reform_found": 32,
-      "claimed": 203,
+      "claimed": 204,
       "on_hold": 47
     },
     "market_search_unique_items": 124,
     "parallel_search_calls": 32,
-    "official_event_details_saved": 117,
+    "official_event_details_saved": 119,
     "closed_findings": 14,
     "verified_exact_submit_ready": 0,
     "clarification": "배정 owner3 batch203..1971 221500행을 로컬 열거함. 로컬 열거는 실판매 검색 완료가 아니며 표적 조회와 실검색/검증 수는 별도. 브랜드 및 표준 품목 필터에서 놓친 품목은 재선별 가능.",
-    "updated_at": "2026-10-16T05:02:38.799350+00:00",
+    "updated_at": "2026-10-16T05:25:13.406252+00:00",
     "equivalent_panel_bundles_prepared": 15,
     "market_count_note": "과거 시장검색 상태 및 이번 명시적 원품·대체품 대조 항목의 합집합을 집계했다. 로컬 열거·공식 조회·판매 검색·접수를 구분한다. 접수는 최종 심사 인정액이나 실제 예산 절감액이 아니다.",
     "availability_counts_at_last_lookup": {
@@ -33,15 +33,15 @@
       "on_hold": 47
     },
     "availability_counts_with_accepted_receipts": {
-      "available": 354,
+      "available": 353,
       "reform_found": 32,
-      "claimed": 203,
+      "claimed": 204,
       "on_hold": 47
     },
     "equivalent_linear_bundles_prepared": 3,
     "equivalent_panel50_bundles_prepared": 2,
-    "accepted_submissions_count": 19,
-    "accepted_submissions_amount_krw": 497572500
+    "accepted_submissions_count": 20,
+    "accepted_submissions_amount_krw": 1084822500
   },
   "items": [
     {
@@ -6020,12 +6020,12 @@
     },
     {
       "item_id": "24322082",
-      "status": "review_body_acquisition_only_special_configuration_unconfirmed",
+      "status": "accepted_final_verification_not_complete",
       "model": "NN-EMPC01",
       "md5_batch": 1647,
       "local_amount_krw": 13050000000.0,
       "local_quantity": 261.0,
-      "availability": "available",
+      "availability": "claimed",
       "comparison_kind": "equivalent",
       "review_bundle_path": "work/fullscan/industrial/vehicle-24322082-ev6-review-bundle.json",
       "market_investigated": true,
@@ -6046,7 +6046,13 @@
       "official_Q": "261",
       "official_facts_count": 1,
       "official_requests_count": 1,
-      "listing_path": "work\\fullscan\\industrial\\listing-24322082.json"
+      "listing_path": "work\\fullscan\\industrial\\listing-24322082.json",
+      "submission_id": "c5bdb0a0-1fd6-439a-9e1c-57432636f379",
+      "accepted_amount_krw": "587250000",
+      "receipt_path": "work/fullscan/industrial/receipt-24322082.json",
+      "verification_status_at_admission": "not_started",
+      "lint_status_at_admission": "pending",
+      "current_lint_not_refreshed": true
     },
     {
       "item_id": "24384971",
@@ -7128,7 +7134,13 @@
       "md5_batch": 1431,
       "local_amount_krw": 2099111058.0,
       "local_quantity": 12.0,
-      "availability": "available"
+      "availability": "available",
+      "official_C_krw": "2099111058",
+      "official_Q": "12",
+      "official_facts_count": 2,
+      "official_requests_count": 2,
+      "official_event_path": "work\\fullscan\\industrial\\event-24717841.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-24717841.json"
     },
     {
       "item_id": "23471536",
@@ -7403,7 +7415,13 @@
       "md5_batch": 1523,
       "local_amount_krw": 1141700000.0,
       "local_quantity": 7.0,
-      "availability": "available"
+      "availability": "available",
+      "official_C_krw": "1141700000",
+      "official_Q": "7",
+      "official_facts_count": 7,
+      "official_requests_count": 7,
+      "official_event_path": "work\\fullscan\\industrial\\event-24527631.json",
+      "listing_path": "work\\fullscan\\industrial\\listing-24527631.json"
     },
     {
       "item_id": "24304334",

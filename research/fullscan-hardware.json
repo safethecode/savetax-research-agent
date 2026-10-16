@@ -2621,7 +2621,7 @@
     "note": "누리SFP-I-LX→여의SFP-1G20LX-LC.동일품아님.핵심광전송규격대응과DDM·온도·전기/실장비호환차이명시.제주2건Q14제외.원판매처8500검색캐시미사용."
   },
   "camera_bracket_focus": {
-    "observed_at": "2026-10-16T04:57:05.364384+00:00",
+    "observed_at": "2026-10-16T05:12:29.470841+00:00",
     "source": "2026-10-16 전체 색인, 전 owner 및 MD5 구간. 공식 current items의 scorable facts로 C/Q 재산정.",
     "counts": {
       "camera_bracket_catalog_rows": 265,
@@ -2629,7 +2629,7 @@
       "top_spend_official_lookups": 100,
       "available_at_lookup": 88,
       "official_catalogs_read": 88,
-      "parallel_independent_queries": 14
+      "parallel_independent_queries": 18
     },
     "registered_example": {
       "submission_id": "cefecd17-e117-421c-a999-4fb7d3c53013",
@@ -3017,7 +3017,123 @@
         ]
       }
     ],
-    "submission_policy": "억단위 조합 우선. 수천만원 초안은 보존·대기. 가격이 있는 부품으로 가격 미확인 완제품 전체를 대체했다고 주장하지 않는다. POST는 root 담당."
+    "submission_policy": "억단위 조합 우선. 수천만원 초안은 보존·대기. 가격이 있는 부품으로 가격 미확인 완제품 전체를 대체했다고 주장하지 않는다. POST는 root 담당.",
+    "large_comparison_budget_guide": [
+      {
+        "item_id": "24657989",
+        "model": "FDC-A1000",
+        "C": "206980000",
+        "Q": "262",
+        "benchmark_ceiling_for_100m_difference_krw": "408320",
+        "purpose": "우선 탐색용 역산 값이다. 실제 판매가나 검증된 절감액이 아니다."
+      },
+      {
+        "item_id": "24401861",
+        "model": "FDC-CBR140",
+        "C": "171213500",
+        "Q": "895",
+        "benchmark_ceiling_for_100m_difference_krw": "79568",
+        "purpose": "우선 탐색용 역산 값이다. 실제 판매가나 검증된 절감액이 아니다."
+      },
+      {
+        "item_id": "25226149",
+        "model": "SEO-BR 1.5M",
+        "C": "159327000",
+        "Q": "189",
+        "benchmark_ceiling_for_100m_difference_krw": "313899",
+        "purpose": "우선 탐색용 역산 값이다. 실제 판매가나 검증된 절감액이 아니다."
+      },
+      {
+        "item_id": "24639217",
+        "model": "DW-AB0301",
+        "C": "146328000",
+        "Q": "201",
+        "benchmark_ceiling_for_100m_difference_krw": "230487",
+        "purpose": "우선 탐색용 역산 값이다. 실제 판매가나 검증된 절감액이 아니다."
+      },
+      {
+        "item_id": "25277505",
+        "model": "SI-CB1000",
+        "C": "136590000",
+        "Q": "174",
+        "benchmark_ceiling_for_100m_difference_krw": "210287",
+        "purpose": "우선 탐색용 역산 값이다. 실제 판매가나 검증된 절감액이 아니다."
+      }
+    ],
+    "additional_retail_checks": [
+      {
+        "seller": "서진기업",
+        "retail_product": "스텐 CCTV 가로대, 상품번호 2383",
+        "url": "https://sj7.co.kr/product/detail.html?product_no=2383",
+        "observed_at": "2026-10-16T05:09:56.878904+00:00",
+        "selected_option": "50.8파이 1000mm",
+        "base_price_krw": "12000",
+        "required_option_extra_krw": "4000",
+        "observed_total_for_one_krw": "16000",
+        "shipping": "무료. 산간·도서는 추가 비용 가능.",
+        "observation_basis": "root가 실제 브라우저에서 옵션 선택 후 1개 총액과 무료 배송·바로구매 활성 표시를 확인했다. 별도로 HTTP200 원문과 주사진을 보존했다.",
+        "primary_image_finding": "제품 사진은 직선 관이다. 기둥용 분할 클램프·대각 보강대·볼트 등 완성 암대 부속이 포함됐다고 확인하지 못했다.",
+        "spec_gaps": [
+          "재질은 스텐으로만 표기되어 STS304 강종과 2T 두께가 미확인이다.",
+          "1m 상태의 카메라 하중 정격을 확인하지 못했다.",
+          "기존 기둥에 부착하는 밴드 또는 클램프 결합부가 미확인이다."
+        ],
+        "status": "부분 부품의 가격만 확인. FDC-A1000 등 20kg 기둥 암대의 대체 완제품으로 채택하지 않음."
+      },
+      {
+        "seller": "서진기업",
+        "retail_product": "스텐 밴드형, 상품번호 2379",
+        "url": "https://sj7.co.kr/product/detail.html?product_no=2379",
+        "display_price_krw": "24000",
+        "primary_image_finding": "사진상 U자 바닥판과 카메라 상판을 짧은 축으로 연결한 각도 조절 마운트다. 기둥 둘레를 감싸는 암대 고정 밴드라고 해석하지 않았다.",
+        "status": "1m 관의 기둥 체결부로 쓰지 않음."
+      },
+      {
+        "seller": "굿디자인",
+        "retail_product": "스텐 CCTV 폴대 가로대, 상품번호 1306",
+        "url": "https://m.gddesign.co.kr/product/detail.html?product_no=1306",
+        "observed_at": "2026-10-16T05:09:56.878904+00:00",
+        "specification": "상세 원문 50.8Ø×600/800/1000mm, 스텐. 폴대의 추가 구성품이며 본품 없이 구매하면 배송비가 발생한다고 명시한다. 상세 도면에서 별도의 헤드·밴드형 카메라 마운트·베이스 고정판을 구분했다.",
+        "status": "같은 계열의 형태를 대조하는 참고자료다. 서로 다른 판매처의 부품을 검증 없이 동일 제품 조립체로 합산하지 않았다.",
+        "drawing_review": "상세 도면은 스텐 50.8파이 관과 별도 카메라 헤드 W80×D75×H50mm, 밴드형 W85×D48×H100~140mm를 구분한다. 밴드형 사진은 카메라 각도 조절대이며 원기둥에 관을 수평 체결하는 분할 클램프가 아니다. STS304·2T·20kg라는 문구는 이 도면에서 확인하지 못했다.",
+        "private_image_source": "work/fullscan/hardware-bracket-retail-gdarm-1.jpg"
+      },
+      {
+        "seller": "WME",
+        "url": "https://wmestore.co.uk/collections/altron-products",
+        "pages_read": 3,
+        "finding": "공개 가격이 있는 Altron WB2-900은 900mm 벽부형으로 FDC-A1000의 1m 기둥 클램프 암대와 다르다. 규격이 가까운 POB/PMB 1m·25kg 제품의 실제 공개 판매가는 확보하지 못했다.",
+        "status": "미채택"
+      },
+      {
+        "manufacturer": "Altron",
+        "url": "https://www.altron.co.uk/res/Offset%20Bracket%20Datasheet%20v4.3.pdf",
+        "finding": "제조사 PDF 원문을 내려받아 POB/PMB 1000/SPT의 1m·25kg, 기둥 직경별 클램프와 카메라 장착판 구조를 확인했다. 도면이 있다는 이유로 가격을 추정하지 않았다.",
+        "private_evidence": "work/fullscan/hardware-bracket-datasheet-altron-offset.pdf",
+        "status": "구조·정격 참고, 판매가 미확인"
+      }
+    ],
+    "manufacturer_catalog_check": {
+      "retailer_catalog_link": "https://naver.me/FNtn8YSH",
+      "manufacturer": "주식회사 서진기업",
+      "downloaded_public_filename": "서진_카탈로그_내지.pdf",
+      "bytes": 50866383,
+      "sha256": "c05aef8683a2ae7e67516afe5ba750bae93a777db87698ad95aca15b41b3c750",
+      "page_count": 119,
+      "review_method": "119쪽 전체 축소 렌더링을 눈으로 확인하고, 긴 지주가 있는 54쪽은 크게 렌더링해 확인했다. PDF 한글 문자 매핑이 깨져 텍스트 검색 결과만으로 결론 내리지 않았다.",
+      "finding": "자료는 볼라드·표지판 지주·분리수거대·자전거보관소·사다리 등이다. 카메라 1m 암대의 조립도나 20kg 하중 근거는 이 파일에서 찾지 못했다. 54쪽 지주는 장애인 주차표지판 및 어닝용으로 확인됐다.",
+      "comparison_conclusion": "관과 카메라 마운트의 일부 판매가는 확인했으나, 원품처럼 기둥에 붙는 분할 클램프·대각 보강대와 1m 상태의 하중 근거가 없으므로 FDC-A1000 등의 대체 완제품 비교가로 채택하지 않는다.",
+      "private_sources": [
+        "work/fullscan/hardware-downloads/서진_카탈로그_내지.pdf",
+        "work/fullscan/hardware-bracket-sj-catalog-text.json",
+        "work/fullscan/hardware-bracket-sj-contact-1.jpg",
+        "work/fullscan/hardware-bracket-sj-contact-41.jpg",
+        "work/fullscan/hardware-bracket-sj-contact-81.jpg",
+        "work/fullscan/hardware-bracket-sj-catalog-page-54.png"
+      ],
+      "status": "공개 공유 카탈로그 검토 완료. CCTV 암대의 구조·정격 자료는 확보하지 못함."
+    },
+    "review_result": "신규 억단위 비교 조합은 아직 확정하지 못했다. 가격만 확인된 관·일반 방수함을 완성 암대·카메라 지지 검지박스의 가격으로 쓰지 않았다. 수천만 원 두 초안은 접수 대기 상태로 보존했다."
   },
   "memo_deferred_security_appliance": {
     "item_id": "25358591",

@@ -451,24 +451,24 @@
     "local_rows_read": 222000,
     "local_selected": 2626,
     "official_lookup_count": 358,
-    "actual_search_count": 113,
+    "actual_search_count": 127,
     "verified_complete_count": 1,
     "ready_count": 0,
     "last_local_batch": 1973,
-    "updated_at": "2026-10-16T04:58:59.527654+00:00",
+    "updated_at": "2026-10-16T05:38:20.628903+00:00",
     "completed_batches_meaning": "local_batch_read_and_filtered_only; not all items externally searched",
     "local_selection_rule": "per 500-row batch, known previously researched IDs excluded, retail-friendly product categories with local_amount>=10m; lower C retained in all_rows files",
-    "parallel_search_count": 85,
+    "parallel_search_count": 94,
     "extra_selection_rule": "Per batch, added exact consumables/storage/PC peripherals categories C>=3m; all other first-pass category selection retained",
     "actual_search_count_meaning": "unique item IDs with saved Parallel searches or explicit web-search provenance list; local-only selections excluded",
-    "official_lookup_unique_count": 467,
+    "official_lookup_unique_count": 494,
     "accepted_count": 1,
     "pending_option_review_count": 0,
     "priority_dataset": "work/data/latest-20261016/full-catalog-priority.parquet",
     "delivery_count_meaning": "local_delivery_count is sum of deduplicated max(dlv_lines), not unique request_no count; request_no counts must come from official item facts",
     "ready_held_count": 1,
-    "materials_followup_lookup_unique": 111,
-    "materials_followup_parallel_searched_unique": 17,
+    "materials_followup_lookup_unique": 138,
+    "materials_followup_parallel_searched_unique": 26,
     "new_large_ready_count": 0,
     "materials_followup_file": "work/fullscan/bulk-materials-study.json"
   },
@@ -14666,9 +14666,9 @@
       "md5_rank": 698511,
       "md5_batch": 1397,
       "owner_slot": 1,
-      "availability": "not_queried",
+      "availability": "on_hold",
       "searches": [],
-      "finding": "로컬선별후대기"
+      "finding": "공식상태 on_hold; 신규제출대상제외"
     },
     {
       "item_id": "24330670",
@@ -20896,9 +20896,9 @@
       "md5_rank": 774610,
       "md5_batch": 1549,
       "owner_slot": 1,
-      "availability": "not_queried",
+      "availability": "reform_found",
       "searches": [],
-      "finding": "로컬선별후대기"
+      "finding": "공식상태 reform_found; 신규제출대상제외"
     },
     {
       "item_id": "25988625",
@@ -56040,11 +56040,19 @@
     "work/fullscan/bulk-pc-24489404-review-bundle.json"
   ],
   "materials_followup": {
-    "observed_at": "2026-10-16T04:58:58.347235+00:00",
+    "observed_at": "2026-10-16T05:38:19.252433+00:00",
     "scope": "owner_slot1 md5_batch>=200 및 root명시배정24187150",
     "local_only_read_count": 222000,
-    "official_status_unique_in_this_material_followup": 111,
-    "parallel_searched_item_count_in_this_followup": 17,
+    "official_status_unique_in_this_material_followup": 138,
+    "parallel_searched_item_count_in_this_followup": 26,
+    "manual_web_searched_ids": [
+      "24239839",
+      "24035897",
+      "25133933",
+      "24990737",
+      "24513645"
+    ],
+    "actual_searched_unique_including_manual": 31,
     "new_large_ready_count": 0,
     "small_ready_held": "bulk-pc-24489404-review-bundle.json",
     "notes": "로컬읽기·공식상태조회·실검색·완료는별개. 견적문의·동규격미확정은실가완료로계산하지않음. 신규POST없음.",
@@ -56071,6 +56079,25 @@
         "availability": "available",
         "lookup_file": "work/fullscan/bulk-lookup-deicer.json",
         "searches": [
+          {
+            "file": "work/fullscan/bulk-parallel-deicer-substitute-price.json",
+            "query": "친환경 제설제 환경표지 인증 2종 1000kg 톤백 판매가격",
+            "source_urls": [
+              "https://rexseoul.com/category/%EC%A0%80%EB%B6%80%EC%8B%9D-%EC%97%BC%ED%99%94%EC%B9%BC%EC%8A%98/25",
+              "https://www.konetic.or.kr/user/T/TB/TB003_R01.do?cntnsId=TB000003&cntnsSn=1198",
+              "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202602241627090900861",
+              "https://k-mit.com/environmental_label",
+              "https://m.ecomedia.co.kr/news/newsview.php?ncode=1065595604957373"
+            ]
+          },
+          {
+            "file": "work/fullscan/bulk-parallel-deicer-substitute-price.json",
+            "query": "환경표지 친환경 제설제 25kg 40포 톤백 주문 가격",
+            "source_urls": [
+              "https://www.navimro.com/p/K07849510",
+              "https://cacl94.co.kr/"
+            ]
+          },
           {
             "file": "work/fullscan/bulk-parallel-deicer.json",
             "query": "뉴보텍 에코다노가 1000kg 친환경 제설제 톤백 판매 가격",
@@ -57536,7 +57563,7 @@
         "availability": "available",
         "lookup_file": "work/fullscan/bulk-lookup-construction-standard.json",
         "searches": [],
-        "finding": "비드앤비GW64 220T/상부0.8하부0.5/PVDF백색 실선택2m합계146740원 VAT포함. 판매자전용카탈로그지붕3/4골유효폭1000확인. ZBAR·스탠딩심 차이, 운임·시공·부속 미완성으로 완성B 미산정."
+        "finding": "비드앤비GW64 220T/상부0.8하부0.5/PVDF백색 실선택2m합계146740원 VAT포함. 원품지정규격서상부0.8/하부0.6·방수시트1.5T·ZBAR220H/1.6T·클립등8종,전체높이315.1mm와현장설치도확인. 소매하부0.5T미달·특수구조·운임·시공미완성으로완성B미산정."
       },
       {
         "item_id": "24902279",
@@ -57584,6 +57611,17 @@
         "availability": "available",
         "lookup_file": "work/fullscan/bulk-lookup-next-high-volume.json",
         "searches": [
+          {
+            "file": "work/fullscan/bulk-parallel-high-savings-next7.json",
+            "query": "스포츠 조립식 바닥재 19mm 306 306 PP 타일 구매 가격",
+            "source_urls": [
+              "https://totalmna.com/MAT",
+              "https://daelimwood.com/category/%ED%83%80%EC%9D%BC/763",
+              "https://badakjae.com/",
+              "https://hanaro-material.com/category/%ED%83%80%EC%9D%BC-%EB%B0%94%EB%8B%A5%EC%9E%AC/229",
+              "https://www.kseis.co.kr/product/productInfoList.do?prdtdiv=02&prdtnm=%EB%A3%A8%ED%94%84%EB%93%9C%EB%A0%88%EC%9D%B8"
+            ]
+          },
           {
             "file": "work/fullscan/bulk-parallel-materials4.json",
             "query": "조립식 스포츠 바닥재 PP 타일 19mm 판매가격 농구장",
@@ -58218,8 +58256,19 @@
         "owner_slot": 1,
         "availability": "available",
         "lookup_file": "work/fullscan/bulk-lookup-high-savings-next.json",
-        "searches": [],
-        "finding": "공식상태만확인; 실판매원문검증미완성"
+        "searches": [
+          {
+            "file": "work/fullscan/bulk-parallel-materials7.json",
+            "query": "덕타일 주철관 직관 200mm 6m 2종 KP 에폭시 판매 단가표",
+            "source_urls": [
+              "https://www.kcip.co.kr/",
+              "https://dkkb.co.kr/category/17-%EB%8B%A5%ED%8A%B8%EC%9E%90%EC%9E%AC/28",
+              "https://kr.made-in-china.com/co_sx-datong/product_High-Durability-Section-Shape-Round-Flanged-Ductile-Iron-Di-Pipe_uoeuinsuyu.html",
+              "https://www.kjebi.com/search/smart/bid/detail/R26BK01673985-000"
+            ]
+          }
+        ],
+        "finding": "Φ200×6m2종KP/에폭시관. 국내제조사카탈로그는확인됐으나동규격실판매가미확인. 파형강관가격·중국FOB·다른라이닝과구별."
       },
       {
         "item_id": "22839935",
@@ -58242,8 +58291,18 @@
         "owner_slot": 1,
         "availability": "available",
         "lookup_file": "work/fullscan/bulk-lookup-high-savings-next.json",
-        "searches": [],
-        "finding": "공식상태만확인; 실판매원문검증미완성"
+        "searches": [
+          {
+            "file": "work/fullscan/bulk-parallel-materials7.json",
+            "query": "덕타일 주철관 400mm 6m 2종 KP 에폭시 판매 가격",
+            "source_urls": [
+              "https://kr.made-in-china.com/co_sx-datong/product_High-Durability-Section-Shape-Round-Flanged-Ductile-Iron-Di-Pipe_uoeuinsuyu.html",
+              "https://www.kpi.or.kr/www/price/category.asp?CATE_CD=103075",
+              "https://www.kjebi.com/search/smart/bid/detail/R26BK01673985-000"
+            ]
+          }
+        ],
+        "finding": "Φ400×6m2종KP/에폭시관. 국내동규격실판매가미확인. 파형강관·덕트·다른라이닝과구별."
       },
       {
         "item_id": "25448124",
@@ -58312,7 +58371,7 @@
             ]
           }
         ],
-        "finding": "아연도금5종2.2mm 복합매트리스1×1×0.4m. 정원용용접개비온과구별. 공개실가미확인."
+        "finding": "원품철망규격㎡당21825원. 케이토목1×1×0.4m 132000원+VAT+운임은청암석640kg포함담장완제품으로구별. 원품충진석포함여부·대응실가미확인."
       },
       {
         "item_id": "23857507",
@@ -58540,7 +58599,7 @@
         "availability": "available",
         "lookup_file": "work/fullscan/bulk-lookup-high-savings-next2.json",
         "searches": [],
-        "finding": "공식상태만확인; 실판매원문검증미완성"
+        "finding": "지정규격서상170mm=AL상판20mm+SRT275아연각관장선50×50×2.3T 3m/㎡+거더100×100×3.2T 2.7m/㎡. 세이프티상판165000원·무료배송확인. 공식품셈틀설치+목재데크공종AL대응가정+현행노임으로부분비용379482원/㎡,거더재료·패드·운임전에도1.2배기준불통과. 해당산출경로제외,완성B미산정."
       },
       {
         "item_id": "21939136",
@@ -58574,7 +58633,7 @@
             ]
           }
         ],
-        "finding": "익산낭산석R5이상15미만 동규격·운임실가미확인. 소형화산석과구별."
+        "finding": "조달단위톤·평균35256원/t. 석재1개가격과혼용안함. 익산낭산석R5이상15미만 동규격·운임실가미확인."
       },
       {
         "item_id": "23415990",
@@ -58598,7 +58657,7 @@
         "availability": "available",
         "lookup_file": "work/fullscan/bulk-lookup-high-savings-next2.json",
         "searches": [],
-        "finding": "공식상태만확인; 실판매원문검증미완성"
+        "finding": "조달단위톤·평균26813원/t. 석재1개가격과혼용안함. 포천창수포천석동규격·운임실가미확인."
       },
       {
         "item_id": "23056349",
@@ -58621,8 +58680,48 @@
         "owner_slot": 1,
         "availability": "available",
         "lookup_file": "work/fullscan/bulk-lookup-high-savings-next2.json",
-        "searches": [],
-        "finding": "공식상태만확인; 실판매원문검증미완성"
+        "searches": [
+          {
+            "file": "work/fullscan/bulk-parallel-high-savings-next8.json",
+            "query": "폴리우레탄 골재 투수 포장재 50mm 시공 가격",
+            "source_urls": [
+              "https://kpi.or.kr/www/price/category.asp?CATE_CD=101051",
+              "https://www.cmpi.or.kr/main_new/sub.asp?from_main=Y&page=sub_main&part=price",
+              "https://kpi.or.kr/www/price/category.asp?CATE_CD=102041",
+              "https://kprc.or.kr/priceList.do?lcla_cd=11&mcla_cd=51&mode=mcla"
+            ]
+          },
+          {
+            "file": "work/fullscan/bulk-parallel-high-savings-next8.json",
+            "query": "에스비비 SBP-050 투수골재포장재 가격 판매",
+            "source_urls": [
+              "https://www.kpi.or.kr/www/estimate/category.asp?CATE_CD=80107162&STND=Y",
+              "https://www.kpi.or.kr/www/price/category.asp?CATE_CD=101051",
+              "https://www.g2b.go.kr:8092/sm/pp/goods/SMPPGoodsDtlInfo.do?cntrctGoodsMngNo=002170206049&pageTy=P&printTy=P"
+            ]
+          },
+          {
+            "file": "work/fullscan/bulk-parallel-high-savings-next8.json",
+            "query": "투수성 폴리우레탄 골재 바인더 5MPa 50T 보도 가격",
+            "source_urls": [
+              "https://bathm.kr/category/%ED%8F%AC%EC%84%B8%EB%A6%B0%ED%83%80%EC%9D%BC/71",
+              "https://concretekorea.co.kr/",
+              "https://concretekorea.co.kr/category/%EC%A0%9C%ED%8A%B8%EC%BD%98-%EC%BD%94%EB%A6%AC%EC%95%84/49"
+            ]
+          },
+          {
+            "file": "work/fullscan/bulk-parallel-queryonly-targets.json",
+            "query": "\"폴리우레탄\" \"투수\" \"포장재\" 가격 구매",
+            "source_urls": [
+              "https://wjpackage.com/product/tpu%EC%9B%90%EB%8B%A8%ED%8F%B4%EB%A6%AC%EC%9A%B0%EB%A0%88%ED%83%84-%ED%95%84%EB%A6%84-%ED%88%AC%EB%AA%85%EB%B0%98%ED%88%AC%EB%AA%85/523",
+              "https://www.hankyung.com/article/202510147525i",
+              "https://pieweb.plasteurope.com/default.aspx?node=100075&pageid=302",
+              "https://www.hazmasters.com/products/restoration-and-abatement/poly-products-and-bags",
+              "https://plasticker.de/Plastics_News_11706_Dow_Price_Increase_for_Polyols_Isocyanates_and_Polyurethane_Systems_in_Europe?begriff=etr&check&div&seite=39"
+            ]
+          }
+        ],
+        "finding": "PU바인더+골재50mm 투수포장. 투수10mm/s·압축5MPa 사양을 확인했으나 동종 공개실판매가 미확인. 아스팔트·시멘트포장 단가와 혼용하지 않음."
       },
       {
         "item_id": "24687312",
@@ -58669,8 +58768,20 @@
         "owner_slot": 1,
         "availability": "available",
         "lookup_file": "work/fullscan/bulk-lookup-construction-standard3.json",
-        "searches": [],
-        "finding": "공식상태만확인; 실판매원문검증미완성"
+        "searches": [
+          {
+            "file": "work/fullscan/bulk-parallel-materials7.json",
+            "query": "체육관 이중마루틀 장선 바닥틀 gym-md40 마루다움 판매 가격",
+            "source_urls": [
+              "https://strengthwarehouseusa.com/collections/muscle-d-fitness",
+              "https://www.sparksfitness.net/products/marcy-dual-density-fitness-gym-mat-mat-40",
+              "https://www.fitnesssuperstore.com/products/body-solid-exm4000s-selectorized-home-gym-new",
+              "https://www.marfula.net/collections/all",
+              "https://www.marcypro.com/products/dual-density-fitness-gym-mat-mat-40-marcy"
+            ]
+          }
+        ],
+        "finding": "gym-md40 높이52~170mm/장선408mm이중마루틀. 같은완성사양실판매가미확인."
       },
       {
         "item_id": "23164271",
@@ -58885,8 +58996,18 @@
         "owner_slot": 1,
         "availability": "available",
         "lookup_file": "work/fullscan/bulk-lookup-construction-standard3.json",
-        "searches": [],
-        "finding": "공식상태만확인; 실판매원문검증미완성"
+        "searches": [
+          {
+            "file": "work/fullscan/bulk-parallel-materials7.json",
+            "query": "융착식 도로페인트 노란색 20kg 가격 구매 KS6080 4종",
+            "source_urls": [
+              "https://www.11st.co.kr/products/2997767838",
+              "https://spsamhwa.com/paint/3120001",
+              "https://grohome.co.kr/product/%EB%82%B4%EC%99%B8%EB%B6%80-%EA%B2%B8%EC%9A%A9-%EC%99%B8%EB%B2%BD-%EC%9E%AC%EB%8F%84%EC%9E%A5-%EC%88%98%EC%84%B1-%ED%8E%98%EC%9D%B8%ED%8A%B8-pour-%EC%8D%A8%EB%B0%8B%ED%8E%98%EC%9D%B8%ED%8A%B8-%ED%94%8C%EB%9F%AC%EC%8A%A4-20kg/48"
+            ]
+          }
+        ],
+        "finding": "KSM6080 4종P4/R4/RW4노랑20kg. 일반수성방수·희석제·외벽용페인트는다른제품으로제외. 동규격실가미확인."
       },
       {
         "item_id": "24043102",
@@ -58935,10 +59056,726 @@
         "lookup_file": "work/fullscan/bulk-lookup-construction-standard3.json",
         "searches": [],
         "finding": "공식상태로신규접수대상제외"
+      },
+      {
+        "item_id": "24309450",
+        "product_name": "태양광발전장치, 스마트파워, SP-PV-TCS-N-100, 100.17kW, 계통연계형",
+        "model": "SP-PV-TCS-N-100",
+        "manufacturer": "주식회사 스마트파워",
+        "detail_category": "태양광발전장치",
+        "unit": "조",
+        "min_list_price": 224950000.0,
+        "max_list_price": 224950000.0,
+        "listing_count": 1,
+        "local_amount_krw": 4948900000.0,
+        "local_quantity": 22.0,
+        "local_delivery_count": 11.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 224950000.0,
+        "spend_priority_rank": 224,
+        "md5_rank": 580809,
+        "md5_batch": 1161,
+        "owner_slot": 1,
+        "availability": "claimed",
+        "lookup_file": "work/fullscan/bulk-lookup-high-savings-next3.json",
+        "searches": [],
+        "finding": "공식상태로신규접수대상제외"
+      },
+      {
+        "item_id": "24489307",
+        "product_name": "태양광발전장치, 쏠라리버, SSR-PV-100-S, 100.17kW급, 계통연계형/고정형, ㅁ형지지대",
+        "model": "SSR-PV-100-S",
+        "manufacturer": "쏠라리버주식회사",
+        "detail_category": "태양광발전장치",
+        "unit": "조",
+        "min_list_price": 214058000.0,
+        "max_list_price": 214058000.0,
+        "listing_count": 1,
+        "local_amount_krw": 3638986000.0,
+        "local_quantity": 17.0,
+        "local_delivery_count": 10.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 214058000.0,
+        "spend_priority_rank": 345,
+        "md5_rank": 130766,
+        "md5_batch": 261,
+        "owner_slot": 1,
+        "availability": "on_hold",
+        "lookup_file": "work/fullscan/bulk-lookup-high-savings-next3.json",
+        "searches": [],
+        "finding": "공식상태로신규접수대상제외"
+      },
+      {
+        "item_id": "24808090",
+        "product_name": "보안용카메라, 비알인포텍, BRGN-S22036X-T, 12.7mmCMOS",
+        "model": "BRGN-S22036X-T",
+        "manufacturer": "주식회사 비알인포텍",
+        "detail_category": "보안용카메라",
+        "unit": "대",
+        "min_list_price": 3840000.0,
+        "max_list_price": 3840000.0,
+        "listing_count": 1,
+        "local_amount_krw": 3502080000.0,
+        "local_quantity": 912.0,
+        "local_delivery_count": 79.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 3840000.0,
+        "spend_priority_rank": 360,
+        "md5_rank": 950571,
+        "md5_batch": 1901,
+        "owner_slot": 1,
+        "availability": "claimed",
+        "lookup_file": "work/fullscan/bulk-lookup-high-savings-next3.json",
+        "searches": [],
+        "finding": "공식상태로신규접수대상제외"
+      },
+      {
+        "item_id": "25358965",
+        "product_name": "건물일체형태양광발전장치, 에코스, PVQMax-Roof-E Type-BIPV75, 75kW급, 루프형",
+        "model": "PVQMax-Roof-E Type-BIPV75",
+        "manufacturer": "(주)에코스",
+        "detail_category": "건물일체형태양광발전장치",
+        "unit": "조",
+        "min_list_price": 267000000.0,
+        "max_list_price": 267000000.0,
+        "listing_count": 1,
+        "local_amount_krw": 2149350000.0,
+        "local_quantity": 8.0,
+        "local_delivery_count": 4.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 268668750.0,
+        "spend_priority_rank": 713,
+        "md5_rank": 100880,
+        "md5_batch": 201,
+        "owner_slot": 1,
+        "availability": "on_hold",
+        "lookup_file": "work/fullscan/bulk-lookup-high-savings-next3.json",
+        "searches": [],
+        "finding": "공식상태로신규접수대상제외"
+      },
+      {
+        "item_id": "24320037",
+        "product_name": "건물일체형태양광발전장치, 건기, GUNGI-BIPV-ROOF90-220T, 93.6kW, 지붕일체형",
+        "model": "GUNGI-BIPV-ROOF90-220T",
+        "manufacturer": "주식회사건기",
+        "detail_category": "건물일체형태양광발전장치",
+        "unit": "조",
+        "min_list_price": 336026000.0,
+        "max_list_price": 336026000.0,
+        "listing_count": 1,
+        "local_amount_krw": 3360260000.0,
+        "local_quantity": 10.0,
+        "local_delivery_count": 10.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 336026000.0,
+        "spend_priority_rank": 384,
+        "md5_rank": 316907,
+        "md5_batch": 633,
+        "owner_slot": 1,
+        "availability": "on_hold",
+        "lookup_file": "work/fullscan/bulk-lookup-high-savings-next3.json",
+        "searches": [],
+        "finding": "공식상태로신규접수대상제외"
+      },
+      {
+        "item_id": "25437768",
+        "product_name": "융복합불연천장재, 화영, HY-EP02, 불연내진천장시스템",
+        "model": "HY-EP02",
+        "manufacturer": "주식회사 화영",
+        "detail_category": "융복합불연천장재",
+        "unit": "㎡",
+        "min_list_price": 33000.0,
+        "max_list_price": 55000.0,
+        "listing_count": 2,
+        "local_amount_krw": 4503292530.0,
+        "local_quantity": 81931.0,
+        "local_delivery_count": 65.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 54964.45216096471,
+        "spend_priority_rank": 255,
+        "md5_rank": 222558,
+        "md5_batch": 445,
+        "owner_slot": 1,
+        "availability": "on_hold",
+        "lookup_file": "work/fullscan/bulk-lookup-construction-standard4.json",
+        "searches": [],
+        "finding": "공식상태로신규접수대상제외"
+      },
+      {
+        "item_id": "23961959",
+        "product_name": "철제가드레일, 수형산업개발, SHB-RSB-SB2-PCD, W4000×H850mm, 성토부/노측용, SB2등급, 도장",
+        "model": "SHB-RSB-SB2-PCD",
+        "manufacturer": "수형산업개발 주식회사",
+        "detail_category": "철제가드레일",
+        "unit": "경간",
+        "min_list_price": 320000.0,
+        "max_list_price": 320000.0,
+        "listing_count": 1,
+        "local_amount_krw": 3020992000.0,
+        "local_quantity": 9488.0,
+        "local_delivery_count": 185.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 318401.34907251265,
+        "spend_priority_rank": 444,
+        "md5_rank": 578736,
+        "md5_batch": 1157,
+        "owner_slot": 1,
+        "availability": "on_hold",
+        "lookup_file": "work/fullscan/bulk-lookup-construction-standard4.json",
+        "searches": [],
+        "finding": "공식상태로신규접수대상제외"
+      },
+      {
+        "item_id": "24035897",
+        "product_name": "철제가드레일, 인천정공, SW-N08-SB2-03, W4000×H775mm, 성토부/노측용, SB2등급, 도금",
+        "model": "SW-N08-SB2-03",
+        "manufacturer": "인천정공",
+        "detail_category": "철제가드레일",
+        "unit": "경간",
+        "min_list_price": 161500.0,
+        "max_list_price": 161500.0,
+        "listing_count": 1,
+        "local_amount_krw": 2733473162.0,
+        "local_quantity": 17705.0,
+        "local_delivery_count": 31.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 154389.89901157864,
+        "spend_priority_rank": 507,
+        "md5_rank": 482572,
+        "md5_batch": 965,
+        "owner_slot": 1,
+        "availability": "available",
+        "lookup_file": "work/fullscan/bulk-lookup-construction-standard4.json",
+        "searches": [],
+        "finding": "단위는m가아닌경간(4m폭), 평균154390원/경간. 같은SB2·지주/부속포함·운임소매실가미완성. 부품만가격또는제조사MAS조달표를독립소매가로전용안함."
+      },
+      {
+        "item_id": "25133933",
+        "product_name": "철제가드레일, 가스코, GASCO-EX-SB5-02, W2000×H1210mm, 성토부/노측용, SB5등급, 도금",
+        "model": "GASCO-EX-SB5-02",
+        "manufacturer": "가스코 주식회사",
+        "detail_category": "철제가드레일",
+        "unit": "경간",
+        "min_list_price": 221600.0,
+        "max_list_price": 221600.0,
+        "listing_count": 1,
+        "local_amount_krw": 2215392248.0,
+        "local_quantity": 10487.0,
+        "local_delivery_count": 10.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 211251.2871173834,
+        "spend_priority_rank": 682,
+        "md5_rank": 598516,
+        "md5_batch": 1197,
+        "owner_slot": 1,
+        "availability": "available",
+        "lookup_file": "work/fullscan/bulk-lookup-construction-standard4.json",
+        "searches": [],
+        "finding": "단위는m가아닌경간(2m폭), 평균211251원/경간. 같은SB5·지주/부속포함·운임소매실가미완성. 하위충돌등급제품과구별."
+      },
+      {
+        "item_id": "24910925",
+        "product_name": "금속제창, 경원알미늄, KW-CAW-180-HD-24LEAR, 180mm, 히든커튼월/불소수지2회",
+        "model": "KW-CAW-180-HD-24LEAR",
+        "manufacturer": "주식회사 경원알미늄",
+        "detail_category": "금속제창",
+        "unit": "kg",
+        "min_list_price": 17650.0,
+        "max_list_price": 17650.0,
+        "listing_count": 1,
+        "local_amount_krw": 2428277636.0,
+        "local_quantity": 174931.0,
+        "local_delivery_count": 4.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 13881.34542190921,
+        "spend_priority_rank": 594,
+        "md5_rank": 122734,
+        "md5_batch": 245,
+        "owner_slot": 1,
+        "availability": "available",
+        "lookup_file": "work/fullscan/bulk-lookup-construction-standard4.json",
+        "searches": [],
+        "finding": "공식상태만확인; 실판매원문검증미완성"
+      },
+      {
+        "item_id": "25287437",
+        "product_name": "금속제창, 유니크시스템, U-P-CW189-24, 189mm, 커튼월/불소수지2회",
+        "model": "U-P-CW189-24",
+        "manufacturer": "주식회사 유니크시스템",
+        "detail_category": "금속제창",
+        "unit": "kg",
+        "min_list_price": 18400.0,
+        "max_list_price": 18400.0,
+        "listing_count": 1,
+        "local_amount_krw": 2363592608.0,
+        "local_quantity": 128457.0,
+        "local_delivery_count": 25.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 18399.873950037756,
+        "spend_priority_rank": 623,
+        "md5_rank": 900853,
+        "md5_batch": 1801,
+        "owner_slot": 1,
+        "availability": "available",
+        "lookup_file": "work/fullscan/bulk-lookup-construction-standard4.json",
+        "searches": [],
+        "finding": "공식상태만확인; 실판매원문검증미완성"
+      },
+      {
+        "item_id": "24495039",
+        "product_name": "금속제창, 한맥창호, HM-CAW-162F-T24, 162mm, 커튼월/불소수지2회",
+        "model": "HM-CAW-162F-T24",
+        "manufacturer": "(주)한맥창호",
+        "detail_category": "금속제창",
+        "unit": "kg",
+        "min_list_price": 16200.0,
+        "max_list_price": 16200.0,
+        "listing_count": 1,
+        "local_amount_krw": 2027903846.0,
+        "local_quantity": 149483.0,
+        "local_delivery_count": 45.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 13566.11685609735,
+        "spend_priority_rank": 777,
+        "md5_rank": 204726,
+        "md5_batch": 409,
+        "owner_slot": 1,
+        "availability": "available",
+        "lookup_file": "work/fullscan/bulk-lookup-construction-standard4.json",
+        "searches": [],
+        "finding": "공식상태만확인; 실판매원문검증미완성"
+      },
+      {
+        "item_id": "26152668",
+        "product_name": "데스크톱컴퓨터, 삼보컴퓨터, DT281-GC51-003, Intel Core i5 14500(2.6GHz)",
+        "model": "DT281-GC51-003",
+        "manufacturer": "주식회사 삼보컴퓨터",
+        "detail_category": "데스크톱컴퓨터",
+        "unit": "대",
+        "min_list_price": 1659000.0,
+        "max_list_price": 1659000.0,
+        "listing_count": 1,
+        "local_amount_krw": 3936935300.0,
+        "local_quantity": 3039.0,
+        "local_delivery_count": 121.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 1295470.6482395525,
+        "spend_priority_rank": 318,
+        "md5_rank": 286728,
+        "md5_batch": 573,
+        "owner_slot": 1,
+        "availability": "claimed",
+        "lookup_file": "work/fullscan/bulk-lookup-high-savings-next4.json",
+        "searches": [],
+        "finding": "공식상태로신규접수대상제외"
+      },
+      {
+        "item_id": "25691694",
+        "product_name": "전자복사기, (주문자상표부착)신도리코, (MY)CM2077, 흑백/컬러25cpm",
+        "model": "(MY)CM2077",
+        "manufacturer": "(주)신도리코",
+        "detail_category": "전자복사기",
+        "unit": "대",
+        "min_list_price": 4466000.0,
+        "max_list_price": 4466000.0,
+        "listing_count": 1,
+        "local_amount_krw": 2628142000.0,
+        "local_quantity": 589.0,
+        "local_delivery_count": 454.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 4462040.747028862,
+        "spend_priority_rank": 537,
+        "md5_rank": 774610,
+        "md5_batch": 1549,
+        "owner_slot": 1,
+        "availability": "reform_found",
+        "lookup_file": "work/fullscan/bulk-lookup-high-savings-next4.json",
+        "searches": [],
+        "finding": "공식상태로신규접수대상제외"
+      },
+      {
+        "item_id": "25554497",
+        "product_name": "안내전광판, 트리엠, TDGI-G3018, GOB, 1.86mm, 640×480×53.5mm",
+        "model": "TDGI-G3018",
+        "manufacturer": "주식회사 트리엠",
+        "detail_category": "안내전광판",
+        "unit": "대",
+        "min_list_price": 1529000.0,
+        "max_list_price": 1529000.0,
+        "listing_count": 1,
+        "local_amount_krw": 2633377000.0,
+        "local_quantity": 1822.0,
+        "local_delivery_count": 40.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 1445322.1734357849,
+        "spend_priority_rank": 536,
+        "md5_rank": 946719,
+        "md5_batch": 1893,
+        "owner_slot": 1,
+        "availability": "claimed",
+        "lookup_file": "work/fullscan/bulk-lookup-high-savings-next5.json",
+        "searches": [],
+        "finding": "공식상태로신규접수대상제외"
+      },
+      {
+        "item_id": "24990737",
+        "product_name": "강관파일, 주성이엔지, JSE-F-609-12, Φ609.6×12mm",
+        "model": "JSE-F-609-12",
+        "manufacturer": "주성이엔지 주식회사",
+        "detail_category": "강관파일",
+        "unit": "m",
+        "min_list_price": 346566.0,
+        "max_list_price": 346566.0,
+        "listing_count": 1,
+        "local_amount_krw": 2585728926.0,
+        "local_quantity": 7461.0,
+        "local_delivery_count": 4.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 346566.0,
+        "spend_priority_rank": 547,
+        "md5_rank": 864685,
+        "md5_batch": 1729,
+        "owner_slot": 1,
+        "availability": "on_hold",
+        "lookup_file": "work/fullscan/bulk-lookup-high-savings-next6.json",
+        "searches": [],
+        "finding": "공식상태로신규접수대상제외"
+      },
+      {
+        "item_id": "24513645",
+        "product_name": "폴리에틸렌피복강관, 주성이엔지, JS3LP-C700B, Φ700×t6mm, 내부:CNTCOAT RS액상에폭시/외부:PE3층",
+        "model": "JS3LP-C700B",
+        "manufacturer": "주성이엔지 주식회사",
+        "detail_category": "폴리에틸렌피복강관",
+        "unit": "m",
+        "min_list_price": 298200.0,
+        "max_list_price": 298200.0,
+        "listing_count": 1,
+        "local_amount_krw": 2384292000.0,
+        "local_quantity": 7996.0,
+        "local_delivery_count": 5.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 298185.5927963982,
+        "spend_priority_rank": 610,
+        "md5_rank": 182721,
+        "md5_batch": 365,
+        "owner_slot": 1,
+        "availability": "available",
+        "lookup_file": "work/fullscan/bulk-lookup-high-savings-next6.json",
+        "searches": [],
+        "finding": "Φ700×6mm/내부CNTCOAT RS액상에폭시/외부PE3층관. 원재료강관·피복종류다른관·명목지름혼용안함. 같은완성관의공개실가미확인."
+      },
+      {
+        "item_id": "23251204",
+        "product_name": "콘크리트호안및옹벽블록, 대진개발, DJ-B1, 보통옹벽블록(대형), W2000×L1000×H850mm, 중간블록",
+        "model": "DJ-B1",
+        "manufacturer": "(주)대진개발",
+        "detail_category": "콘크리트호안및옹벽블록",
+        "unit": "㎡",
+        "min_list_price": 275000.0,
+        "max_list_price": 275000.0,
+        "listing_count": 1,
+        "local_amount_krw": 2059354000.0,
+        "local_quantity": 7722.0,
+        "local_delivery_count": 26.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 266686.6096866097,
+        "spend_priority_rank": 766,
+        "md5_rank": 214997,
+        "md5_batch": 429,
+        "owner_slot": 1,
+        "availability": "available",
+        "lookup_file": "work/fullscan/bulk-lookup-high-savings-next7.json",
+        "searches": [
+          {
+            "file": "work/fullscan/bulk-parallel-high-savings-next7.json",
+            "query": "대형 옹벽블록 2000 1000 850 중간블록 DJ-B1 가격 판매",
+            "source_urls": [
+              "https://ppi.g2b.go.kr:8914/sm/dm/sch/searchGoodsDetail.do?invGdsIdntNo=00006727",
+              "https://files-scs.pstatic.net/2024/01/29/DPiw3IlM6E/%EC%86%8D%EB%B9%88%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.pdf",
+              "https://ppi.g2b.go.kr:8914/sm/dm/sch/searchGoodsDetail.do?invGdsIdntNo=00053184"
+            ]
+          }
+        ],
+        "finding": "대형옹벽블록2000×1000×850 중간블록. 공개검색은 일반속빈블록·다른규격만 확인되어 완성 동일규격실가 미확인."
+      },
+      {
+        "item_id": "25509095",
+        "product_name": "금속제패널, 조은데코, CM-SA20-C, 1000×1000×35mm",
+        "model": "CM-SA20-C",
+        "manufacturer": "(주)조은데코",
+        "detail_category": "금속제패널",
+        "unit": "㎡",
+        "min_list_price": 240000.0,
+        "max_list_price": 240000.0,
+        "listing_count": 1,
+        "local_amount_krw": 1936316160.0,
+        "local_quantity": 8068.0,
+        "local_delivery_count": 4.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 239999.52404561228,
+        "spend_priority_rank": 828,
+        "md5_rank": 344995,
+        "md5_batch": 689,
+        "owner_slot": 1,
+        "availability": "on_hold",
+        "lookup_file": "work/fullscan/bulk-lookup-high-savings-next7.json",
+        "searches": [],
+        "finding": "공식상태로신규접수대상제외"
+      },
+      {
+        "item_id": "24193343",
+        "product_name": "금속제패널, 디자인기린, DK-AL30, 2000×1000×30mm",
+        "model": "DK-AL30",
+        "manufacturer": "(주)디자인기린",
+        "detail_category": "금속제패널",
+        "unit": "㎡",
+        "min_list_price": 224000.0,
+        "max_list_price": 322000.0,
+        "listing_count": 2,
+        "local_amount_krw": 1932520920.0,
+        "local_quantity": 6550.0,
+        "local_delivery_count": 13.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 295041.3618320611,
+        "spend_priority_rank": 829,
+        "md5_rank": 970529,
+        "md5_batch": 1941,
+        "owner_slot": 1,
+        "availability": "on_hold",
+        "lookup_file": "work/fullscan/bulk-lookup-high-savings-next7.json",
+        "searches": [],
+        "finding": "공식상태로신규접수대상제외"
+      },
+      {
+        "item_id": "24988800",
+        "product_name": "기타조경시설물, 제이엠에스씨, BDK-SC-002, 1000×1000×71mm",
+        "model": "BDK-SC-002",
+        "manufacturer": "주식회사 제이엠에스씨",
+        "detail_category": "기타조경시설물",
+        "unit": "㎡",
+        "min_list_price": 380000.0,
+        "max_list_price": 380000.0,
+        "listing_count": 1,
+        "local_amount_krw": 2023051600.0,
+        "local_quantity": 5324.0,
+        "local_delivery_count": 6.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 379987.1525169046,
+        "spend_priority_rank": 779,
+        "md5_rank": 318649,
+        "md5_batch": 637,
+        "owner_slot": 1,
+        "availability": "available",
+        "lookup_file": "work/fullscan/bulk-lookup-high-savings-next7.json",
+        "searches": [
+          {
+            "file": "work/fullscan/bulk-parallel-high-savings-next7.json",
+            "query": "제이엠에스씨 BDK-SC-002 데크 71mm 판매 가격",
+            "source_urls": [
+              "https://www.kseis.co.kr/product/productInfoChart.do?prdt_div",
+              "https://ppi.g2b.go.kr:8914/sm/dm/sch/searchGoodsDetail.do?invGdsIdntNo=00027063"
+            ]
+          }
+        ],
+        "finding": "BDK-SC-002 높이71mm 데크모듈. 공개검색은 조달자료·다른상품만으로 독립소매실가 미확인."
+      },
+      {
+        "item_id": "25382620",
+        "product_name": "기타조경시설물, 피플로드, PRR1, 1000×1000×80mm",
+        "model": "PRR1",
+        "manufacturer": "주식회사 피플로드",
+        "detail_category": "기타조경시설물",
+        "unit": "㎡",
+        "min_list_price": 611000.0,
+        "max_list_price": 611000.0,
+        "listing_count": 1,
+        "local_amount_krw": 2018927300.0,
+        "local_quantity": 3304.0,
+        "local_delivery_count": 28.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 611055.4782082324,
+        "spend_priority_rank": 781,
+        "md5_rank": 986829,
+        "md5_batch": 1973,
+        "owner_slot": 1,
+        "availability": "on_hold",
+        "lookup_file": "work/fullscan/bulk-lookup-high-savings-next7.json",
+        "searches": [],
+        "finding": "공식상태로신규접수대상제외"
+      },
+      {
+        "item_id": "23307296",
+        "product_name": "기타조경시설물, 케이엘에스, KLSDECK-03-5, 1500×2000×1200mm",
+        "model": "KLSDECK-03-5",
+        "manufacturer": "주식회사 케이엘에스",
+        "detail_category": "기타조경시설물",
+        "unit": "㎡",
+        "min_list_price": 606400.0,
+        "max_list_price": 606400.0,
+        "listing_count": 1,
+        "local_amount_krw": 3114349120.0,
+        "local_quantity": 5136.0,
+        "local_delivery_count": 3.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 606376.3862928349,
+        "spend_priority_rank": 422,
+        "md5_rank": 914574,
+        "md5_batch": 1829,
+        "owner_slot": 1,
+        "availability": "on_hold",
+        "lookup_file": "work/fullscan/bulk-lookup-high-savings-next7.json",
+        "searches": [],
+        "finding": "공식상태로신규접수대상제외"
+      },
+      {
+        "item_id": "21110900",
+        "product_name": "자연석경계석, 후암석재, HA-1005, 200×250×1000mm, 보차도용, 직선, 모따기10R",
+        "model": "HA-1005",
+        "manufacturer": "후암석재(주)",
+        "detail_category": "자연석경계석",
+        "unit": "개",
+        "min_list_price": 32550.0,
+        "max_list_price": 32550.0,
+        "listing_count": 1,
+        "local_amount_krw": 1884006290.0,
+        "local_quantity": 60339.0,
+        "local_delivery_count": 64.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 31223.690979300285,
+        "spend_priority_rank": 860,
+        "md5_rank": 874653,
+        "md5_batch": 1749,
+        "owner_slot": 1,
+        "availability": "available",
+        "lookup_file": "work/fullscan/bulk-lookup-high-savings-next7.json",
+        "searches": [
+          {
+            "file": "work/fullscan/bulk-parallel-high-savings-next7.json",
+            "query": "화강석 보차도 경계석 200 250 1000 10R 가격 운반",
+            "source_urls": [
+              "https://law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000813714",
+              "https://www.thescoop.co.kr/news/articleView.html?idxno=305054",
+              "https://m.blog.naver.com/stone8089/221717677646",
+              "https://ppi.g2b.go.kr:8914/sm/dm/sch/searchGoodsDetail.do?invGdsIdntNo=00029863",
+              "https://gunjajae114.com/product/%EA%B2%BD%EA%B3%84%EC%84%9D/815"
+            ]
+          }
+        ],
+        "finding": "200×250×1000 직선화강경계석. 건자재114 현재28350원+VAT=31185원에 운임착불 별도. 원품평균31223원과 가까워10억차액가능성없음. 2000원중고·판매완료상품 제외."
+      },
+      {
+        "item_id": "21843844",
+        "product_name": "따로분류되지않은대사성의약품, 삼양애니팜, 안티VS-2주, 백신접종스트레스완화제, 10mL/병",
+        "model": "안티VS-2주",
+        "manufacturer": "(주)삼양애니팜",
+        "detail_category": "따로분류되지않은대사성의약품",
+        "unit": "병",
+        "min_list_price": 16280.0,
+        "max_list_price": 16280.0,
+        "listing_count": 1,
+        "local_amount_krw": 2603465040.0,
+        "local_quantity": 159918.0,
+        "local_delivery_count": 218.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 16280.0,
+        "spend_priority_rank": 542,
+        "md5_rank": 120790,
+        "md5_batch": 241,
+        "owner_slot": 1,
+        "availability": "available",
+        "lookup_file": "work/fullscan/bulk-lookup-high-savings-next8.json",
+        "searches": [
+          {
+            "file": "work/fullscan/bulk-parallel-high-savings-next8.json",
+            "query": "안티VS-2주 10ml 삼양애니팜 판매 가격",
+            "source_urls": [
+              "https://healthbible.co.kr/product/%EC%95%A0%EC%82%AC%ED%80%B8%EC%A0%95-%EC%95%A0%ED%94%8C%EC%82%AC%EC%9D%B4%EB%8B%A4%EB%B9%84%EB%8B%88%EA%B1%B0-%EC%82%AC%EA%B3%BC%EC%B4%88%EB%AA%A8%EC%8B%9D%EC%B4%88-%EC%95%8C%EC%95%BD-%EC%95%A0%EC%82%AC%EB%B9%84-%EC%95%A0%EC%82%AC%ED%80%B8/46",
+              "https://www.kpi.or.kr/www/price/category.asp?CATE_CD=102085",
+              "https://baro09.com/category/%EB%8B%A8%EC%97%B4%EC%9E%AC/563",
+              "https://www.nongupin.co.kr/news/articleView.html?idxno=94026"
+            ]
+          },
+          {
+            "file": "work/fullscan/bulk-parallel-queryonly-targets.json",
+            "query": "\"안티VS-2\" \"10ml\" 가격 판매",
+            "source_urls": [
+              "https://aromatica.co/category/%EC%97%90%EC%84%BC%EC%85%9C%EC%98%A4%EC%9D%BC/833",
+              "https://search.11st.co.kr/pc/total-search?kwd=NMN%EC%84%B8%EB%9F%BC"
+            ]
+          }
+        ],
+        "finding": "HS-골드 항원충제10kg. 공개 제조사/사업보고서16,280원은 독립 소매가격으로 확인되지 않아 비교가 채택하지 않음."
+      },
+      {
+        "item_id": "24100066",
+        "product_name": "상업용오븐, 코스티모, HSO-202G4, 가스식, 1232×1016×1900mm",
+        "model": "HSO-202G4",
+        "manufacturer": "주식회사 코스티모",
+        "detail_category": "상업용오븐",
+        "unit": "대",
+        "min_list_price": 43360000.0,
+        "max_list_price": 43360000.0,
+        "listing_count": 1,
+        "local_amount_krw": 2395200000.0,
+        "local_quantity": 56.0,
+        "local_delivery_count": 56.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 42771428.571428575,
+        "spend_priority_rank": 605,
+        "md5_rank": 436841,
+        "md5_batch": 873,
+        "owner_slot": 1,
+        "availability": "claimed",
+        "lookup_file": "work/fullscan/bulk-lookup-high-savings-next8.json",
+        "searches": [],
+        "finding": "공식상태로신규접수대상제외"
+      },
+      {
+        "item_id": "24120309",
+        "product_name": "디자인형울타리, 경동산업, KDAF30U-100B, W1500×H1200mm",
+        "model": "KDAF30U-100B",
+        "manufacturer": "경동산업주식회사",
+        "detail_category": "디자인형울타리",
+        "unit": "경간",
+        "min_list_price": 358000.0,
+        "max_list_price": 358000.0,
+        "listing_count": 1,
+        "local_amount_krw": 2155160000.0,
+        "local_quantity": 6020.0,
+        "local_delivery_count": 12.0,
+        "local_delivery_group_count": 1,
+        "local_unit_price_krw": 358000.0,
+        "spend_priority_rank": 712,
+        "md5_rank": 698511,
+        "md5_batch": 1397,
+        "owner_slot": 1,
+        "availability": "on_hold",
+        "lookup_file": "work/fullscan/bulk-lookup-high-savings-next8.json",
+        "searches": [],
+        "finding": "공식상태로신규접수대상제외"
       }
     ],
     "exception_assigned_24187150": "root 명시이관. 62 facts/62 요청/Q21194/C9208793000, 전부 A434500. 정확25kg×40 공개판매960000원은 조달보다 높음.",
-    "roof_review_file": "work/fullscan/bulk-roof-25087651-review.json"
+    "primary_supplier_discoveries": [
+      {
+        "name": "케이토목",
+        "url": "https://cemp.cafe24.com/shop/list.php?ca_id=46",
+        "scope": "PC수로·암거·그레이팅·경계석·강관·PE/PVC규격단가와예상운임공개. VAT별도. 해당파형강관을덕타일관가격으로전용하지않음."
+      },
+      {
+        "name": "비드앤비",
+        "url": "https://bidnbee.com/shop/1784707318",
+        "scope": "GW64 220T/0.8×0.5/PVDF 2m146740원VAT포함,운임착불미정,특수지붕대체시공범위미완성."
+      },
+      {
+        "name": "세이프티",
+        "url": "https://seifety.co.kr/product/알루미늄-데크1m1m/15/",
+        "scope": "1㎡165000원·무료배송·신품구매가능root실견. 원품 전체170mm는 AL상판20mm+SRT275아연각관장선50mm/거더100mm이다. 공식품셈·노임 가정의 부분B379482원/㎡ 단계에서1.2배규칙을 통과하지 않아 해당산출경로 제외,완성B미정."
+      }
+    ],
+    "roof_review_file": "work/fullscan/bulk-roof-25087651-review.json",
+    "deck_review_file": "work/fullscan/bulk-deck-24239839-review.json"
   },
   "notes": "가격비교·검색결과는발견용. 정확제품원문가격·팩·세금·배송과scorablefacts완성전에는제출가능으로표시하지않음. accepted는공식접수이며최종검증완료를뜻하지않음."
 }
