@@ -1,14 +1,14 @@
 {
-  "updated_at_utc": "2026-10-16T07:21:07.614393+00:00",
+  "updated_at_utc": "2026-10-16T07:45:19.112792+00:00",
   "availability_observed_at_utc": "2026-10-16T05:45:43.777865+00:00",
-  "scope": "원 카메라 브래킷 분야에서 카메라 본체·영상저장장치까지 전체 owner 슬롯 예외를 적용했다. 높은 납품총액과 공급수량의 신규 available 물품에서 국내 판매 제품의 기능 범위와 손실을 공개하여 비교했다.",
+  "scope": "카메라·영상저장장치 검토에서 전체 소유구간의 네트워크스위치·L4/L7·방화벽 장비로 범위를 넓혔다. 높은 납품총액과 공급수량의 신규 available 물품에서 실제 판매 제품의 기능 범위와 손실을 공개하여 비교했다.",
   "local_selected_count": 102,
   "official_lookup_count": 70,
   "deep_review_item_count": 3,
   "parallel_search_calls": 7,
   "submission_ready_count": 0,
-  "adopted_saving_krw": "2763623150",
-  "public_references_count": 270,
+  "adopted_saving_krw": "3892093150",
+  "public_references_count": 329,
   "items": [
     {
       "item_id": "24070988",
@@ -2840,6 +2840,521 @@
           "status": "검색 캐시 가격으로 현재2,550,000원을 확인해 교체"
         }
       ]
+    },
+    {
+      "item_id": "25668782",
+      "model": "WeGuardia(TM) ITU 250(R1)",
+      "research_status": "일반 FW·IPsec·기본 IPS 기능과 신품 장비 취득 범위를 명시하여 accepted 접수",
+      "submission_id": "975e811a-4b1e-4c1a-932d-1b1c05330673",
+      "submission_state": "accepted",
+      "accepted_at_utc": "2026-10-16T07:43:38.314Z",
+      "quantity": "329",
+      "comparable_amount_krw": "1483790000",
+      "fact_total": 59,
+      "scorable_facts": 59,
+      "included_fact_count": 59,
+      "excluded_fact_count": 0,
+      "included_unique_requests": 59,
+      "benchmark_unit_price_krw": "1080000",
+      "preview_score_amount_krw": "1128470000",
+      "lint_status": "pending",
+      "event_api_url": "https://hackathon.savetax.now/v1/events/current/items/25668782",
+      "catalog_api_url": "https://api.savetax.now/v1/items/25668782",
+      "source_release": "r20261011T012137",
+      "references": [
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R25TB01082687:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R25TB01082687",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R25TB01110357:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R25TB01110357",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R25TB01153765:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R25TB01153765",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R25TB01227346:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R25TB01227346",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R25TB01314373:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R25TB01314373",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01414083:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01414083",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01417028:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01417028",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01427799:4",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01427799",
+          "line_no": "4"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01434608:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01434608",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01441435:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01441435",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01446159:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01446159",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01470738:2",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01470738",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01470789:3",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01470789",
+          "line_no": "3"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01471849:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01471849",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01474544:2",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01474544",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01521473:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01521473",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01532394:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01532394",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01544438:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01544438",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01578842:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01578842",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01579499:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01579499",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01593261:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01593261",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01606234:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01606234",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01608025:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01608025",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01609345:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01609345",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01633022:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01633022",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01633108:3",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01633108",
+          "line_no": "3"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01655176:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01655176",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01659249:2",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01659249",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01669502:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01669502",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01720812:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01720812",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01727294:2",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01727294",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01728652:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01728652",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01745920:2",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01745920",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01755664:4",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01755664",
+          "line_no": "4"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01781295:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01781295",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01784261:2",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01784261",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01789837:4",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01789837",
+          "line_no": "4"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01791675:2",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01791675",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01795077:2",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01795077",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01845059:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01845059",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01885960:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01885960",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01942574:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01942574",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01962519:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01962519",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01971736:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01971736",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB01973464:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB01973464",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB02006874:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB02006874",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB02046997:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB02046997",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB02055260:3",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB02055260",
+          "line_no": "3"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB02099668:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB02099668",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB02152716:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB02152716",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB02206640:2",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB02206640",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB02239957:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB02239957",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB02259963:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB02259963",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB02262005:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB02262005",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB02262221:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB02262221",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB02311004:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB02311004",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB02332406:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB02332406",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB02332409:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB02332409",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25668782:0024C0129_1:R26TB02348747:1",
+          "listing_id": "0024C0129_1110000013",
+          "contract_no": "0024C0129_1",
+          "request_no": "R26TB02348747",
+          "line_no": "1"
+        }
+      ],
+      "actual_alternative_models": [
+        "Ubiquiti UDM-Pro-Max"
+      ],
+      "price_source_urls": [
+        "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000265671"
+      ],
+      "cost_breakdown_krw": {
+        "hardware_with_explicit_customs_and_vat_included": "1080000",
+        "displayed_shipping": "0",
+        "benchmark": "1080000"
+      },
+      "tax_basis": "vat_included",
+      "retail_observed_shipping_included": true,
+      "comparison_scope": "원품 59개 공식 fact에서 일반 Stateful/L7 방화벽·IPsec 사이트 간 VPN·기본 IPS를 사용하는 신품 장비의 취득가격 비교다. 원품 ITM·SDP·국내 인증·국산 암호·정책/터널 호환성과 실제 기관 요구를 모두 충족한다고 주장하지 않는다. 현장설치도·하자보수 1년인 원계약과 해외구매대행의 서비스 차이를 공개한다. 표시 무료배송을 적용했으며 전량 동시 재고·동일 운임 공급 확약은 아니다. 원품 WeGuardia(TM) ITU 250(R1), 대체품 UDM-Pro-Max. 차이·제한: 동일 제조사·모델이나 원품의 모든 기능을 충족하는 교체품이라는 주장이 아니다. 일반 Stateful/L7 방화벽·IPsec 사이트 간 VPN·기본 IPS를 사용하는 제품 취득 범위의 비교다. 원품 ITM/SDP 모바일 VPN, SEED/ARIA 및 RSA/ECC 인증 조합, 국내 CC/KCMVP, OTP·경보 전체, 정책·터널 호환성은 대응을 입증하지 못했다. 포트 수는 물리적 연결 규격만 비교하며 내장 LAN 스위치 구조·모든 보안 인터페이스의 독립 성능 동일성은 주장하지 않는다. 원품의 모델별 처리량은 미공개이므로 대체품 IPS 5Gbps만으로 성능 동등·상위를 주장하지 않는다. CyberSecure 고급 시그니처/필터링 유료 구독은 제외한다. 현장 설정·마이그레이션·설치 및 원품 유지보수와 서비스 범위도 미대응이다. 판매는 해외구매대행이며 평균 미국 영업일 10~20일 안내와 주문 후 품절·가격변동 가능성, 초과중량·특대형화물 추가 운임 일반 조건을 공개한다. 원품 등재의 인도조건은 현장설치도, 계약상 하자보수기간은 1년이다. 판매처는 국내 AS 불가인 해외구매대행이므로 설치·하자보수 서비스의 동일성이나 그 서비스 비용을 포함한 절감을 입증한 것이 아니다. 표시가에 모델 특정 추가 운임이 없으며 대량 운임 확약을 주장하지 않는다.",
+      "differences": "동일 제조사·모델이나 원품의 모든 기능을 충족하는 교체품이라는 주장이 아니다. 일반 Stateful/L7 방화벽·IPsec 사이트 간 VPN·기본 IPS를 사용하는 제품 취득 범위의 비교다. 원품 ITM/SDP 모바일 VPN, SEED/ARIA 및 RSA/ECC 인증 조합, 국내 CC/KCMVP, OTP·경보 전체, 정책·터널 호환성은 대응을 입증하지 못했다. 포트 수는 물리적 연결 규격만 비교하며 내장 LAN 스위치 구조·모든 보안 인터페이스의 독립 성능 동일성은 주장하지 않는다. 원품의 모델별 처리량은 미공개이므로 대체품 IPS 5Gbps만으로 성능 동등·상위를 주장하지 않는다. CyberSecure 고급 시그니처/필터링 유료 구독은 제외한다. 현장 설정·마이그레이션·설치 및 원품 유지보수와 서비스 범위도 미대응이다. 판매는 해외구매대행이며 평균 미국 영업일 10~20일 안내와 주문 후 품절·가격변동 가능성, 초과중량·특대형화물 추가 운임 일반 조건을 공개한다. 원품 등재의 인도조건은 현장설치도, 계약상 하자보수기간은 1년이다. 판매처는 국내 AS 불가인 해외구매대행이므로 설치·하자보수 서비스의 동일성이나 그 서비스 비용을 포함한 절감을 입증한 것이 아니다. 표시가에 모델 특정 추가 운임이 없으며 대량 운임 확약을 주장하지 않는다.",
+      "spec_mapping": [
+        {
+          "attribute": "제품 유형과 비교 범위",
+          "original": "WeGuardia(TM) ITU 250(R1), HW 일체형 FW+VPN+IPS",
+          "alternative": "Ubiquiti UDM-Pro-Max, Network 앱 포함 HW 일체형 게이트웨이. 기본 Stateful/L7 방화벽·IPsec VPN·IPS/IDS 기능에 한정한 다른 제조사 대체 비교"
+        },
+        {
+          "attribute": "유선 포트",
+          "original": "ITU 250(R1) 10/100/1000 Base-T 6포트, 1U",
+          "alternative": "1GbE RJ45 8개 LAN 스위치포트, 2.5GbE RJ45 1개, 10G/1G SFP+ 2개, 1U. 내장 스위치와 독립 보안 인터페이스 구조·모든 포트 동시 처리성능의 동일성은 주장하지 않는다"
+        },
+        {
+          "attribute": "방화벽·네트워크 주소 변환",
+          "original": "자체 OS, SNAT/DNAT/FNAT/TNAT/XNAT 지원",
+          "alternative": "Stateful 방화벽, 애플리케이션 인식 L7 방화벽, Zone 정책, SNAT/DNAT/Masquerade/NAT Pooling/1:1 NAT. 원품의 모든 NAT 방식과 정책 의미가 일치한다고 주장하지 않는다"
+        },
+        {
+          "attribute": "IPsec VPN",
+          "original": "IPSec 기반 RSA/ECC 공개키 지원, SDP 모바일 VPN 지원",
+          "alternative": "IPsec 사이트 간 VPN, OpenVPN, WireGuard, L2TP 서버 등. 원품 SDP 모바일 VPN·SEED/ARIA·RSA/ECC 인증 조합 및 기존 터널과의 상호운용은 입증하지 않았다"
+        },
+        {
+          "attribute": "침입 탐지·차단",
+          "original": "공식 상품명의 FW+VPN+IPS 보안 기능",
+          "alternative": "기본 시그니처 기반 IDS/IPS. 제조사 IDS/IPS 처리량 공시 5Gbps. CyberSecure는 선택 유료 구독이며 고급 시그니처 수·유료 필터링·구독은 본 가격에 포함하지 않는다"
+        },
+        {
+          "attribute": "처리량과 로그 저장",
+          "original": "원품 모델별 FW/IPS/VPN 처리량·동시세션 수의 공식 수치는 확보하지 못했다. 4코어 2GHz, RAM 4GB, SSD 64GB",
+          "alternative": "4코어 ARM 2GHz, RAM 8GB, eMMC 32GB/내장 SSD 128GB. 저장장치의 로그 용도·보존 기간과 원품 처리량이 동등하다고 주장하지 않는다"
+        },
+        {
+          "attribute": "관리·인증·서비스 차이",
+          "original": "ITM 자체 통합 콘솔, GUI/SSH CLI/SYSLOG/SNMP, OTP, 경보. WeGuardia 계열의 국내 보안 인증·검증 암호모듈 기능은 별도 특성",
+          "alternative": "UniFi Network 관리, VLAN/서브넷 분리, OSPF/BGP, RADIUS 등. ITM 연동·국내 CC/KCMVP·국산 암호·원품 OTP/알람·현장 구축과 유지보수의 동일성은 입증하지 않았다"
+        },
+        {
+          "attribute": "인도·하자보수 조건",
+          "original": "등재 listing 0024C0129_1110000013: 현장설치도, 계약 특수조건 하자보수기간 1년",
+          "alternative": "해외구매대행, 국내 AS 불가 안내. 수량 1 실제 합계 1,080,000원/관부가세 포함/표시 무료배송. 설치·국내 하자보수 제공과 비용을 대응한 가격은 아니다"
+        }
+      ],
+      "spec_source_urls": [
+        "https://api.savetax.now/v1/items/25668782",
+        "https://www.future.co.kr/product/network_view01.php",
+        "https://opit.co.kr/business/security-products/network/vpn/future-itu-vpn",
+        "https://techspecs.ui.com/unifi/cloud-gateways/udm-pro-max",
+        "https://help.ui.com/hc/en-us/articles/360006893234-UniFi-Gateway-Intrusion-Detection-and-Prevention-IDS-IPS",
+        "https://blog.ui.com/article/unifi-network-9-0-built-to-scale"
+      ],
+      "observed_at_utc": "2026-10-16T07:37:11.018Z",
+      "retail_observations": {
+        "quantity": 1,
+        "total_price_krw": "1080000",
+        "buy_button_visible": true,
+        "required_select_options": false,
+        "overseas_purchase_agency": true,
+        "typical_delivery": "미국 영업일 10~20일",
+        "mass_stock_or_fixed_freight_promise": false,
+        "model_specific_extra_freight_shown": false,
+        "general_weight_surcharge_notice": true
+      },
+      "verbatim_price_excerpt": "[관부가세포함] Ubiquiti Networks UniFi Dream Machine Pro Max UDM-PRO-MAX / 판매가 1,080,000원 / 배송비 무료 / 총 합계금액 1,080,000원",
+      "score_status_note": "공식 preview는 형식·참조·산식을 확인하며 의미상 동등성을 검증하지 않는다. accepted 및 산정액은 최종 근거 심사나 실제 지급 예산의 절감 확정과 구분한다."
     }
   ],
   "closed_prior_paths": {
@@ -2851,8 +3366,16 @@
     "report": "research/hardware-pmcfb.json",
     "reference_count": 279
   },
-  "posting": "조사 담당은 실 API POST를 호출하지 않았다. 총괄 검토 후 이 보고서의 카메라·녹화기6건이 실제 accepted 접수됐다. 접수 및 공식 산정액은 최종 심사 확정 또는 실제 예산 지급 변화 확인을 뜻하지 않는다.",
-  "accepted_submission_count": 6,
-  "accepted_preview_score_amount_krw": "2763623150",
-  "score_status_note": "접수 및 공식 preview 산정액이며 최종 lint 결과와 실제 예산 지급 변화 확인을 뜻하지 않는다."
+  "posting": "조사 담당은 실 API POST를 호출하지 않았다. 총괄 검토 후 이 보고서의 카메라·녹화기 6건과 방화벽 1건이 실제 accepted 접수됐다. accepted 및 공식 산정액은 최종 근거 심사 확정 또는 실제 예산 지급 변화 확인을 뜻하지 않는다.",
+  "accepted_submission_count": 7,
+  "accepted_preview_score_amount_krw": "3892093150",
+  "score_status_note": "접수 및 공식 preview 산정액이며 최종 lint 결과와 실제 예산 지급 변화 확인을 뜻하지 않는다.",
+  "network_research_latest": {
+    "expanded_lookup_observed_at_utc": "2026-10-16T07:41:11.784468+00:00",
+    "new_official_lookup_count": 67,
+    "new_available_count": 26,
+    "note": "추가 발견 대다수는 노드·서버·코어별 보안 소프트웨어 라이선스이다. 저가 하드웨어 대체로 처리하지 않았다. 기존 120개 네트워크 장비 조회와 별개 집계다.",
+    "today_submission_minimum_krw": "600000000",
+    "remaining_two_total_target_krw": "1871530000"
+  }
 }
