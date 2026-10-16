@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-16T19:20:27.593913+00:00",
+  "updated_at_utc": "2026-10-16T19:21:23.452997+00:00",
   "goal_total_expected_score_krw": "100000000000",
   "latest_user_minimum_per_new_submission_krw": "1000000000",
   "required_average_reference_krw": "1780000000",
@@ -37116,7 +37116,7 @@
     }
   },
   "round18_watermeter_complete_products": {
-    "observed_at_utc": "2026-10-16T19:20:27.593913+00:00",
+    "observed_at_utc": "2026-10-16T19:21:23.452997+00:00",
     "scope": "root가 owner0의 계측 완제품 3종을 명시 위임했다. 신선 lookup은 3종 모두 available이며, 기존 범용 기계식 계량기 가격 검색을 반복하지 않고 원품과 같은 모델 제품군을 확인했다.",
     "items": [
       {
@@ -37178,13 +37178,26 @@
             "value": "NB-IoT통신"
           }
         ],
-        "fact_linked_listing_terms": {
+        "fact_linked_current_listing_terms": {
           "001861286_1280000005": {
             "delivery_terms": "현장설치도",
             "current_listing_price": "64900",
             "price_kind": "unknown"
           }
         },
+        "historical_delivery_terms_interpretation": "현재 등재의 인도조건과 fact listing_id 대표 연결을 보존한 것이다. 같은 계약·물품 deliveries가 여러 listing에 같은 행을 반환할 수 있어 이것만으로 과거 개별 납품의 설치 포함을 확정하지 않는다. 현재 등재 단가와 실제 fact 가격을 함께 읽고 혼재 가능성을 유지하며 설치 차이를 자동 전면 제외 조건으로 삼지 않는다.",
+        "fact_price_groups": [
+          {
+            "listing_id": "001861286_1280000005",
+            "fact_count": 2,
+            "quantity": "51250",
+            "comparable_amount_krw": "2716125000",
+            "observed_fact_unit_prices_krw": [
+              "52700",
+              "64900"
+            ]
+          }
+        ],
         "fulfillment_references": [
           {
             "fact_id": "dl:24139602:001861286_1:R26TB01765895:1",
@@ -37236,7 +37249,7 @@
             "Parallel의25000원대원격기계식수도미터·D-Link LTE모듈은NB-IoT완성단말기대응아님."
           ],
           "access": "www.ssmi.co.kr 공개HTTP200/HTTPS자체서명SSL실패,검증끄지않음.",
-          "verdict": "공식 설치도 원품 구성과 현행 제조사 단말기 구조까지 확인. 같은 모델·구성의 일반 신품 판매가 미확보."
+          "verdict": "현재 설치도·납품장소도 등재와 fact의 가격·대표 listing 연결,현행 제조사 단말기 구조를 확인했다. 과거 개별 인도조건은 대표 연결만으로 확정하지 않는다. 같은 모델·구성의 일반 신품 판매가 미확보."
         },
         "adopted_benchmark_price_krw": null,
         "preview_count": 0,
@@ -37306,13 +37319,25 @@
             "value": "IOT이미지검침단말기2.2"
           }
         ],
-        "fact_linked_listing_terms": {
+        "fact_linked_current_listing_terms": {
           "002170374_1050000009": {
             "delivery_terms": "현장설치도",
             "current_listing_price": "170000",
             "price_kind": "unknown"
           }
         },
+        "historical_delivery_terms_interpretation": "현재 등재의 인도조건과 fact listing_id 대표 연결을 보존한 것이다. 같은 계약·물품 deliveries가 여러 listing에 같은 행을 반환할 수 있어 이것만으로 과거 개별 납품의 설치 포함을 확정하지 않는다. 현재 등재 단가와 실제 fact 가격을 함께 읽고 혼재 가능성을 유지하며 설치 차이를 자동 전면 제외 조건으로 삼지 않는다.",
+        "fact_price_groups": [
+          {
+            "listing_id": "002170374_1050000009",
+            "fact_count": 95,
+            "quantity": "12637",
+            "comparable_amount_krw": "2148290000",
+            "observed_fact_unit_prices_krw": [
+              "170000"
+            ]
+          }
+        ],
         "fulfillment_references": [
           {
             "fact_id": "dl:25065625:002170374_1:R25TB00724802:2",
@@ -39219,13 +39244,27 @@
             "value": "84"
           }
         ],
-        "fact_linked_listing_terms": {
+        "fact_linked_current_listing_terms": {
           "001880267_1140000039": {
             "delivery_terms": "납품장소 하차도",
             "current_listing_price": "64000",
             "price_kind": "unknown"
           }
         },
+        "historical_delivery_terms_interpretation": "현재 등재의 인도조건과 fact listing_id 대표 연결을 보존한 것이다. 같은 계약·물품 deliveries가 여러 listing에 같은 행을 반환할 수 있어 이것만으로 과거 개별 납품의 설치 포함을 확정하지 않는다. 현재 등재 단가와 실제 fact 가격을 함께 읽고 혼재 가능성을 유지하며 설치 차이를 자동 전면 제외 조건으로 삼지 않는다.",
+        "fact_price_groups": [
+          {
+            "listing_id": "001880267_1140000039",
+            "fact_count": 132,
+            "quantity": "31122",
+            "comparable_amount_krw": "1949126144",
+            "observed_fact_unit_prices_krw": [
+              "59520",
+              "61952",
+              "64000"
+            ]
+          }
+        ],
         "fulfillment_references": [
           {
             "fact_id": "dl:23774140:001880267_1:R25TB01003583:1",
