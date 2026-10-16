@@ -1,0 +1,80 @@
+{
+  "observed_at_utc": "2026-10-16T09:22:51.988240+00:00",
+  "purpose": "공식 HWPX 변경추적 문구가 최종 규격으로 오인되는 일을 막기 위한 경고 보완 검증",
+  "behavior": "HWPX 본문 네 표식만 검출·계수하며 삽입/삭제를 자동 승인·거부하지 않는다. HWP는 변경추적 검토 미실시다.",
+  "sources": [
+    {
+      "case": "tracked_hwpx",
+      "source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R25TA00478319050000008",
+      "format": "hwpx",
+      "bytes": 769211,
+      "sha256": "f0d588d33f227d1e2073c0015aeb5fa744ed9c8e0f2c3b0defb359061ef3ab4a",
+      "revision_review": {
+        "status": "markers_detected",
+        "scope": "hwpx_section_xml",
+        "marker_counts": {
+          "insertBegin": 156,
+          "insertEnd": 156,
+          "deleteBegin": 83,
+          "deleteEnd": 83
+        },
+        "text_policy": "revision_accept_reject_not_applied"
+      },
+      "evidence_status": "unreviewed_text_extraction"
+    },
+    {
+      "case": "clean_hwpx",
+      "source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002470186_1030000132",
+      "format": "hwpx",
+      "bytes": 5954684,
+      "sha256": "e428e9f15288c3c1e03084c97345377066c1083b8edc9e5caa381d7d4d39d75f",
+      "revision_review": {
+        "status": "no_known_markers",
+        "scope": "hwpx_section_xml",
+        "marker_counts": {
+          "insertBegin": 0,
+          "insertEnd": 0,
+          "deleteBegin": 0,
+          "deleteEnd": 0
+        },
+        "text_policy": "revision_accept_reject_not_applied"
+      },
+      "evidence_status": "unreviewed_text_extraction"
+    },
+    {
+      "case": "hwp",
+      "source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA01441741000000001",
+      "format": "hwp",
+      "bytes": 432640,
+      "sha256": "bbbb890d3d7b445b2cc38c09fb7afef92000b746999b9b767b6016438643f192",
+      "revision_review": {
+        "status": "not_assessed",
+        "scope": "hwp_not_assessed",
+        "marker_counts": null,
+        "text_policy": "revision_accept_reject_not_applied"
+      },
+      "evidence_status": "unreviewed_text_extraction"
+    }
+  ],
+  "raw_XML_marker_counts_independently_matched": {
+    "insertBegin": 156,
+    "insertEnd": 156,
+    "deleteBegin": 83,
+    "deleteEnd": 83
+  },
+  "verification": {
+    "new_regressions": 2,
+    "red": "추적 문구 및 일반 HWPX의 revision_review 필드 누락으로 두 테스트 실패를 확인한 뒤 구현했다.",
+    "document_tests": 14,
+    "full_tests": 138,
+    "full_test_exit_code": 0,
+    "full_test_command": "python -m unittest discover -s tests",
+    "skill_validator": "Skill is valid!",
+    "independent_review": "공유 파일을 수정하지 않은 별도 에이전트가 코드·스킬을 읽고 실제 CLI 3건·원문 해시·XML 표식 수를 대조했다. 이번 범위에서 수정이 필요한 결함을 발견하지 못했다."
+  },
+  "limits": [
+    "변경 이력의 의미·최종본·표의 시각적 열·도면·기능 동등성을 검증하는 렌더러가 아니다.",
+    "알려진 표식 미검출은 최종본 검증이 아니며 HWP는 not_assessed로 남긴다.",
+    "외부 제출·구매·매크로 실행은 없다."
+  ]
+}

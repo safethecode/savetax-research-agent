@@ -60,6 +60,31 @@ class DocumentTests(unittest.TestCase):
         self.assertEqual(result['text'],'둘\n열')
         self.assertEqual(result['section_order'],'numeric_filename_fallback')
 
+    def test_hwpx_revision_history_is_flagged_without_choosing_final_requirements(self):
+        from savetax.documents import read_document
+        changed=section('최소 <hp:deleteBegin Id="1"/>50<hp:deleteEnd Id="1"/> '
+                        '<hp:insertBegin Id="2"/>10<hp:insertEnd Id="2"/>조')
+        with tempfile.TemporaryDirectory() as folder:
+            src=archive(Path(folder)/'revised.hwpx',{'Contents/section0.xml':changed,
+                        'Contents/section1.xml':section('<hp:insertBegin Id="3"/>연간<hp:insertEnd Id="3"/>')})
+            result=read_document(src)
+        self.assertIn('50',result['text'])
+        self.assertIn('10',result['text'])
+        review=result['revision_review']
+        self.assertEqual(review['status'],'markers_detected')
+        self.assertEqual(review['marker_counts'],{'insertBegin':2,'insertEnd':2,'deleteBegin':1,'deleteEnd':1})
+        self.assertEqual(review['text_policy'],'revision_accept_reject_not_applied')
+        self.assertTrue(any('변경추적' in s for s in result['limitations']))
+
+    def test_hwpx_no_known_revision_markers_is_not_a_final_text_claim(self):
+        from savetax.documents import read_document
+        with tempfile.TemporaryDirectory() as folder:
+            src=archive(Path(folder)/'plain.hwpx',{'Contents/section0.xml':section('사양')})
+            result=read_document(src)
+        self.assertEqual(result['revision_review']['status'],'no_known_markers')
+        self.assertEqual(result['revision_review']['text_policy'],'revision_accept_reject_not_applied')
+        self.assertEqual(result['evidence_status'],'unreviewed_text_extraction')
+
     def test_hwpx_malformed_or_unsafe_input_does_not_produce_evidence(self):
         from savetax.documents import read_document
         for entries in [
@@ -99,6 +124,8 @@ class DocumentTests(unittest.TestCase):
                 self.assertEqual(result['format'],'hwp')
                 self.assertEqual(result['text'],'앞뒤')
                 self.assertTrue(result['extension_mismatch'])
+                self.assertEqual(result['revision_review']['status'],'not_assessed')
+                self.assertIsNone(result['revision_review']['marker_counts'])
 
     def test_protected_hwp_is_not_returned_as_readable(self):
         from savetax.documents import read_document
