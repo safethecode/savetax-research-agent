@@ -207,6 +207,14 @@ def main(argv=None):
     market.add_argument('--query', required=True)
     market.add_argument('--limit', type=int, default=5)
     market.add_argument('--output', default='work/market-search.json')
+    report = sub.add_parser('report', help='일반 제보 검토 또는 명시적으로 접수 (--send)')
+    report.add_argument('--input', required=True)
+    report.add_argument('--receipt', default='work/report-receipt.json')
+    report.add_argument('--guide', default='savetax-agent-guide.md')
+    report.add_argument('--send', action='store_true')
+    reports = sub.add_parser('reports', help='제보 심사 상태와 반려 이력 확인')
+    reports.add_argument('--output', default='work/report-status.json')
+    reports.add_argument('--guide', default='savetax-agent-guide.md')
     args = parser.parse_args(argv)
     try:
         if args.command == 'download':
@@ -229,6 +237,36 @@ def main(argv=None):
         elif args.command == 'market-search':
             from .market import MarketClient
             write_json(args.output, MarketClient(args.provider).search(args.query, args.limit))
+        elif args.command == 'report':
+            from .reports import ReportClient, validate_report
+            from .client import SaveTaxClient
+            body = validate_report(read_json(args.input))
+            key = 'research-' + hashlib.sha256(json.dumps(body, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+            receipt = {'idempotency_key': key, 'body': body, 'state': 'prepared'}
+            write_json(args.receipt, receipt)
+            if args.send:
+                receipt['response'] = ReportClient(SaveTaxClient(guide_path=args.guide)).submit(body, key)
+                receipt['state'] = 'submitted'
+                write_json(args.receipt, receipt)
+                print('일반 제보 접수 결과: ' + json.dumps(receipt['response'], ensure_ascii=False))
+            else:
+                print('일반 제보 검토본 저장: ' + str(args.receipt))
+        elif args.command == 'reports':
+            from .reports import ReportClient, REPORTS_URL
+            from .client import SaveTaxClient
+            client = SaveTaxClient(guide_path=args.guide)
+            status = ReportClient(client).list_reports()
+            rows = status.get('reports', status.get('items', []))
+            histories = {}
+            for row in rows:
+                if row.get('status') == 'rejected' and (report_id := row.get('report_id', row.get('id'))):
+                    histories[report_id] = client.get_json(REPORTS_URL + '/' + str(report_id) + '/history')
+            write_json(args.output, {'status': status, 'rejected_histories': histories})
+            print('일반 제보 상태 저장: ' + str(args.output))
+    except RuntimeError as exc:
+        # SaveTax/market transports expose only sanitized errors.
+        print(str(exc), file=sys.stderr)
+        return 2
     except (ValueError, OSError) as exc:
         print(str(exc), file=sys.stderr)
         return 2
