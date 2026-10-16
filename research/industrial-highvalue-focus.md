@@ -9,3 +9,5 @@
 원래 계약·납품요구·라인 번호 전체, 공식 수량·금액과 납품요구별 비교비용은 JSON이 가리키는 `work/highvalue-industrial/all-refs-*.json`·`costs-*.json`에 보존한다. 상세 수량·상태는 같은 이름의 JSON을 따른다.
 
 추가 조사 원문은 `work/highvalue-industrial/new-round-findings-0818.json`에 보존했다. 가드레일은 m가 아닌 2m·3m·4m 경간을 맞췄으며, 현재 제품페이지가 연결한2026 설계서의 제품비191,700원/2m가 과거 브로슈어89,000원/2m와 상충한다. 시점 차이만으로 배제한 것이 아니라 실제 판매가격·세금·구성 대응을 확정하지 못한 상태다.
+
+추가 조사 스냅샷: 공식 표적 조회 374개, 최신 조회 당시 available 205개, 공식 상세 75개, Parallel 검색 72건이다. 이 수치는 판매가·사양 검증 완료 수가 아니다. 새 고액 후보의 전체 refs·직접 판매 원문·부적합 이유와 KJP 원규격 분석은 `work/highvalue-industrial/new-frontier-after-document-review.json`에 보존했다. 이번 확장 조사에서 새 제출 준비 완료 후보는 아직 없다.

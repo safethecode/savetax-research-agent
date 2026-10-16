@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-16T08:32:55.065415+00:00",
+  "updated_at": "2026-10-16T09:11:44.349449+00:00",
   "focus": "고가 산업장비·전원장비; 부모가 POST·커밋 전담",
-  "lookup_items": 317,
-  "available_at_lookup": 197,
-  "parallel_search_calls": 43,
-  "official_item_details": 67,
+  "lookup_items": 374,
+  "available_at_lookup": 205,
+  "parallel_search_calls": 72,
+  "official_item_details": 75,
   "candidate_count_is_not_submission_count": true,
   "new_submissions_by_this_agent": 0,
   "records": [
@@ -139,5 +139,6 @@
   "next_work": "오늘 추가 POST 없음. 10/17 대기열용으로 새 고액 완제품을 계속 검증하고, 상태·가격·규칙·한도는 제출 전 다시 읽는다. 고액통신케이블4종은 claimed/reform_found로 신규대상 제외. 가드레일은 현재 연결된2026 제조사 설계서의 제품비와 과거브로슈어판매가가 상충하여 실제B로 미채택.",
   "parent_submissions_from_this_research": 2,
   "low_value_deferred_note": "WM-5000DS와 TECHPIA 등 6억원 미만 신규는 내일 제출 대기 자료로 work/highvalue-industrial에 보존. WM은 VAT도 미확인이다.",
-  "private_new_findings_file": "work/highvalue-industrial/new-round-findings-0818.json"
+  "private_new_findings_file": "work/highvalue-industrial/new-round-findings-0818.json",
+  "next_frontier_private_file": "work/highvalue-industrial/new-frontier-after-document-review.json"
 }
