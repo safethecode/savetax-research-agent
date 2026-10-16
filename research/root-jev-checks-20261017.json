@@ -1,0 +1,33 @@
+{
+ "observed_at": "2026-10-17 KST",
+ "purpose": "접수한 대체품 비교의 판매 페이지를 Jev로 재확인. Jev 예측은 다음 동작 제안이며 가격 진위·사양 동등성 판정이 아니다.",
+ "checks": [
+  {
+   "url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+   "status": "predicted",
+   "operation": "DONE",
+   "confidence": 0.63,
+   "latency_ms": 228,
+   "model": "jev-1.13.0",
+   "title": "미국도매할인샵"
+  },
+  {
+   "url": "https://www.bitdefendershop.co.kr/product/business.asp?productNo=37",
+   "status": "predicted",
+   "operation": "SCROLL_DOWN",
+   "confidence": 0.42,
+   "latency_ms": 215,
+   "model": "jev-1.13.0",
+   "title": "Product | 비트디펜더 한국 공식 판매점"
+  },
+  {
+   "url": "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+   "status": "predicted",
+   "operation": "SCROLL_DOWN",
+   "confidence": 0.8,
+   "latency_ms": 220,
+   "model": "jev-1.13.0",
+   "title": "SQL Server 2022 Enterprise Core - 2 Core License Pack [CSP/영구] - 소프트웨어즈"
+  }
+ ]
+}
