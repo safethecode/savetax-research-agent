@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-10-16T05:47:40.677845+00:00",
+  "observed_at": "2026-10-16T06:03:42.198664+00:00",
   "scope": "부모명시배정으로전체owner의콘크리트호안및옹벽블록/보차도용콘크리트블록",
   "local_catalog_read_count": 7521,
   "official_lookup_unique_count": 213,
@@ -8,13 +8,16 @@
     "claimed": 110,
     "on_hold": 28
   },
-  "named_item_web_search_unique_count": 4,
-  "retail_spec_price_comparison_started_unique_count": 10,
+  "named_item_web_search_unique_count": 6,
+  "retail_spec_price_comparison_started_unique_count": 12,
   "retail_product_pages_saved_count": 13,
-  "new_submitted_count": 1,
+  "new_submitted_count": 2,
   "fully_equivalent_ready_count": 0,
   "disclosed_difference_parent_review_bundles": [
-    "work/concrete-focus/review-24072887-p200.json"
+    "work/concrete-focus/review-24072887-p200.json",
+    "work/concrete-focus/review-23220245-mh6s.json",
+    "work/concrete-focus/review-22364346-kd317.json",
+    "work/concrete-focus/review-20704042-ssv002.json"
   ],
   "excluded_user_registered_models": [
     "DY-B400A",
@@ -396,7 +399,7 @@
       "owner_slot": 2,
       "local_average_price_krw": 27000.412812476112,
       "availability": "available",
-      "finding": "공식상태만확인; 소매대조미착수"
+      "finding": "kd-317은제조사사양상198×198×60불투수O형·123kg/㎡·25장/㎡. 소매불투수200×200×60T9900원/㎡+모든팔레트15000원·수량/차량끝수·지역한정예상운임·VAT로21facts/Q26021㎡/C702577800/B14842/산술차액316374118원. native수량21.6/216총액미관측을분리."
     },
     {
       "item_id": "24221563",
@@ -1385,7 +1388,7 @@
       "owner_slot": 1,
       "local_average_price_krw": 15500.0,
       "availability": "available",
-      "finding": "공식상태만확인; 소매대조미착수"
+      "finding": "HANS547투수200×200×60,15500원/㎡. 소매9900원/㎡에팔레트·운임·VAT추가시1.2배기준미달가능하여후순위."
     },
     {
       "item_id": "23744401",
@@ -3202,7 +3205,8 @@
       "owner_slot": 2,
       "local_average_price_krw": 138592.62622461558,
       "availability": "available",
-      "finding": "MH-6S-F(L)435×225×150·27.2kg·28N/㎟. 싼일반보강토와형상·색상·강도차이로동일품아님.274facts보존."
+      "finding": "MH-6S-F(L)435×225×150·27.2kg·28N/㎟. 일반옹벽자재취득의다른형상/색상/강도대체비교.114facts/Q12354㎡/C1712279646/B88257/산술차액621952668원.25톤500km이내120만원예산·실경로/공장/하차미확정·도서해운미포함.274facts보존. 부모신규접수accepted·SID2f077bc7-12b9-4ac5-b491-9862cb954a25;심사완료아님.",
+      "research_status": "accepted"
     },
     {
       "item_id": "22062407",
@@ -4937,6 +4941,13 @@
       "submission_id": "9c39d2e4-987a-47a0-98c1-d2b219d277a9",
       "saving_krw": "677120941",
       "receipt_file": "work/concrete-focus/receipt-24072887.json",
+      "review_status": "심사완료아님"
+    },
+    {
+      "item_id": "23220245",
+      "submission_id": "2f077bc7-12b9-4ac5-b491-9862cb954a25",
+      "saving_krw": "621952668",
+      "receipt_file": "work/concrete-focus/receipt-23220245.json",
       "review_status": "심사완료아님"
     }
   ]

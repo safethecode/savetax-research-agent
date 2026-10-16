@@ -5,7 +5,7 @@
   "status": "hold: 카메라 장착함 단품 가격과 제조사 조립도를 확보했으나 원 암대의 카메라 체결 기능을 대응하는 완성 조합은 미확정이다. 이 경로의 반복 탐색을 닫고 본체·저장장치로 이동한다.",
   "submission_ready_count": 0,
   "adopted_saving_krw": "0",
-  "dataset_source": "SaveTax 공개 전체 카탈로그 2026-10-16 다운로드 및 공식 current items GET. 원본 자료와 전체 납품 참조는 work에만 보관한다.",
+  "dataset_source": "SaveTax 공개 전체 카탈로그 2026-10-16 다운로드 및 공식 current items GET. 필요한 관련번호 279개는 공개 references에 모두 보존하며 원본 자료 전체는 work에 보관한다.",
   "items": [
     {
       "item_id": "23938818",

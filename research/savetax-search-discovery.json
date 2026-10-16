@@ -1,0 +1,950 @@
+{
+  "observed_at": "2026-10-16T06:06:44.468187+00:00",
+  "purpose": "최신 사용자 지시로 root가 SaveTax 검색에서 직접 후보 발굴. 실제 판매 근거는 판매처 및 제조사 원문에서 별도 확보.",
+  "pages": [
+    {
+      "url": "https://savetax.now/search?scope=flagged&sort=delta",
+      "status": 200,
+      "listing_ids": [
+        "002470256_1010000005",
+        "002370280_1030000008",
+        "002270326_1010000009",
+        "002270326_1010000003",
+        "R26TA01980892000000001",
+        "R26TA01980322000000001",
+        "R26TA01655302000000001",
+        "R26TA01981068000000001",
+        "R25TA00417108060000059",
+        "002270326_1010000007",
+        "002270326_1010000001",
+        "R26TA01968695000000004",
+        "002370043_1150000008",
+        "002370043_1150000007",
+        "R25TA00206734010000005",
+        "R25TA01134403040000017",
+        "R26TA01981393000000003",
+        "R26TA01644331010000001",
+        "R26TA01981474000000001",
+        "002163017_1170000027"
+      ]
+    },
+    {
+      "url": "https://savetax.now/search?sort=delta&page=2&scope=flagged",
+      "status": 200,
+      "listing_ids": [
+        "R25TA00947451000000005",
+        "002470258_1010000005",
+        "R25TA00786572010000005",
+        "0024B1438_1030000009",
+        "R25TA01185711000000016",
+        "R25TA01223006000000002",
+        "002370120_1100000023",
+        "002370281_1010000002",
+        "R26TA01377965000000060",
+        "R26TA01844395000000006",
+        "R26TA01844395000000025",
+        "002270123_1040000005",
+        "002270123_1040000006",
+        "R26TA01604075010000003",
+        "002162705_1070000013",
+        "002470229_1000000002",
+        "R25TA00781575020000001",
+        "002370043_1150000006",
+        "002370043_1150000005",
+        "R26TA01980892000000003"
+      ]
+    },
+    {
+      "url": "https://savetax.now/search?page=3&sort=delta&scope=flagged",
+      "status": 200,
+      "listing_ids": [
+        "002470045_1010000006",
+        "R25TA01223006000000007",
+        "002470294_1010000073",
+        "002370266_1120000004",
+        "002260069_1060000008",
+        "002370093_1070000043",
+        "002470303_1020000004",
+        "002470280_1000000001",
+        "R26TA01844395000000008",
+        "002470013_1090000740",
+        "002470294_1010000105",
+        "002170372_1160000037",
+        "R25TA00781575020000009",
+        "002370098_1170001082",
+        "R26TA01632374010000029",
+        "R26TA01981393000000001",
+        "R25TA00555781000000001",
+        "R25TA01134403040000018",
+        "002470084_1010000001",
+        "001750922_1090000004"
+      ]
+    },
+    {
+      "url": "https://savetax.now/search?page=4&sort=delta&scope=flagged",
+      "status": 200,
+      "listing_ids": [
+        "002470321_1010000001",
+        "002470064_1020000012",
+        "002270347_1230000463",
+        "002370120_1100000013",
+        "242130571_1120000006",
+        "R25TA00417108060000060",
+        "R26TA01407568000000003",
+        "R26TA01407568000000022",
+        "122010791_1080000007",
+        "002270140_1040000001",
+        "002270140_1040000010",
+        "R25TA01078644000000004",
+        "002162077_1030000001",
+        "002270354_1140000243",
+        "002270108_1100000004",
+        "R26TA01981393000000004",
+        "R26TA01980322000000002",
+        "002470305_1010000005",
+        "R26TA01344287000000001",
+        "R26TA01910521010000013"
+      ]
+    }
+  ],
+  "listing_count": 80,
+  "lookup_states": {
+    "on_hold": 62,
+    "claimed": 11,
+    "available": 7
+  },
+  "unique_available_item_count": 6,
+  "candidates": [
+    {
+      "item_id": "22924491",
+      "snapshot": {
+        "name": "콘크리트호안및옹벽블록, 대창디에스, DC-DCP01, 보통옹벽블록(대형), W1480×L1480×H260mm, DCP패널블록",
+        "model": "DC-DCP01",
+        "manufacturer": "주식회사 대창디에스",
+        "category": "콘크리트호안및옹벽블록",
+        "listings": [
+          {
+            "listing_id": "122010791_1080000007",
+            "vendor": "주식회사 대창디에스",
+            "unit_price_krw": "395000"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-13T04:23:42.958Z",
+        "facts_total": 14,
+        "facts_truncated": false
+      },
+      "discovery_urls": [
+        "https://savetax.now/listing/122010791_1080000007"
+      ],
+      "price_evidence_source": "실제 판매처 원문 필요. SaveTax의 통계 추정가나 분석 글은 사용하지 않는다.",
+      "benchmark_unit_price_krw": null,
+      "submission_ready": false,
+      "fact_count": 14,
+      "quantity": "3579",
+      "comparable_amount_krw": "1355140100",
+      "references": [
+        {
+          "fact_id": "dl:22924491:122010791_1:2123344981:1",
+          "contract_no": "122010791_1",
+          "request_no": "2123344981",
+          "line_no": "1",
+          "quantity": "1120",
+          "comparable_amount_krw": "426944000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:22924491:122010791_1:R25TB00264216:1",
+          "contract_no": "122010791_1",
+          "request_no": "R25TB00264216",
+          "line_no": "1",
+          "quantity": "213",
+          "comparable_amount_krw": "84036250",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:22924491:122010791_1:R25TB01139643:1",
+          "contract_no": "122010791_1",
+          "request_no": "R25TB01139643",
+          "line_no": "1",
+          "quantity": "128",
+          "comparable_amount_krw": "50560000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:22924491:122010791_1:R25TB01269901:1",
+          "contract_no": "122010791_1",
+          "request_no": "R25TB01269901",
+          "line_no": "1",
+          "quantity": "113",
+          "comparable_amount_krw": "44635000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:22924491:122010791_1:R25TB01292041:1",
+          "contract_no": "122010791_1",
+          "request_no": "R25TB01292041",
+          "line_no": "1",
+          "quantity": "97",
+          "comparable_amount_krw": "38315000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:22924491:122010791_1:R26TB01424925:1",
+          "contract_no": "122010791_1",
+          "request_no": "R26TB01424925",
+          "line_no": "1",
+          "quantity": "121",
+          "comparable_amount_krw": "47795000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:22924491:122010791_1:R26TB01557986:1",
+          "contract_no": "122010791_1",
+          "request_no": "R26TB01557986",
+          "line_no": "1",
+          "quantity": "197",
+          "comparable_amount_krw": "77815000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:22924491:122010791_1:R26TB01652648:1",
+          "contract_no": "122010791_1",
+          "request_no": "R26TB01652648",
+          "line_no": "1",
+          "quantity": "260",
+          "comparable_amount_krw": "92430000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:22924491:122010791_1:R26TB01668869:2",
+          "contract_no": "122010791_1",
+          "request_no": "R26TB01668869",
+          "line_no": "2",
+          "quantity": "467",
+          "comparable_amount_krw": "165876300",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:22924491:122010791_1:R26TB01741070:2",
+          "contract_no": "122010791_1",
+          "request_no": "R26TB01741070",
+          "line_no": "2",
+          "quantity": "263",
+          "comparable_amount_krw": "93496500",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:22924491:122010791_1:R26TB01820177:1",
+          "contract_no": "122010791_1",
+          "request_no": "R26TB01820177",
+          "line_no": "1",
+          "quantity": "63",
+          "comparable_amount_krw": "24885000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:22924491:122010791_1:R26TB01884582:1",
+          "contract_no": "122010791_1",
+          "request_no": "R26TB01884582",
+          "line_no": "1",
+          "quantity": "22",
+          "comparable_amount_krw": "8690000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:22924491:122010791_1:R26TB02032743:1",
+          "contract_no": "122010791_1",
+          "request_no": "R26TB02032743",
+          "line_no": "1",
+          "quantity": "192",
+          "comparable_amount_krw": "75840000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:22924491:122010791_1:R26TB02273789:1",
+          "contract_no": "122010791_1",
+          "request_no": "R26TB02273789",
+          "line_no": "1",
+          "quantity": "323",
+          "comparable_amount_krw": "123822050",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
+    },
+    {
+      "item_id": "23433097",
+      "snapshot": {
+        "name": "도로표지병, 미라클산업, MS-125CR, Φ134×82mm, 백색, LED, 점등형",
+        "model": "MS-125CR",
+        "manufacturer": "(주)미라클산업",
+        "category": "도로표지병",
+        "listings": [
+          {
+            "listing_id": "002470084_1010000001",
+            "vendor": "(주)미라클산업",
+            "unit_price_krw": "815000"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-13T07:14:20.543Z",
+        "facts_total": 12,
+        "facts_truncated": false
+      },
+      "discovery_urls": [
+        "https://savetax.now/listing/002470084_1010000001"
+      ],
+      "price_evidence_source": "실제 판매처 원문 필요. SaveTax의 통계 추정가나 분석 글은 사용하지 않는다.",
+      "benchmark_unit_price_krw": null,
+      "submission_ready": false,
+      "fact_count": 12,
+      "quantity": "1399",
+      "comparable_amount_krw": "1140185000",
+      "references": [
+        {
+          "fact_id": "dl:23433097:002470084_1:R25TB00863432:1",
+          "contract_no": "002470084_1",
+          "request_no": "R25TB00863432",
+          "line_no": "1",
+          "quantity": "29",
+          "comparable_amount_krw": "23635000",
+          "unit": "식",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23433097:002470084_1:R25TB01093814:1",
+          "contract_no": "002470084_1",
+          "request_no": "R25TB01093814",
+          "line_no": "1",
+          "quantity": "13",
+          "comparable_amount_krw": "10595000",
+          "unit": "식",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23433097:002470084_1:R25TB01116383:1",
+          "contract_no": "002470084_1",
+          "request_no": "R25TB01116383",
+          "line_no": "1",
+          "quantity": "17",
+          "comparable_amount_krw": "13855000",
+          "unit": "식",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23433097:002470084_1:R25TB01221237:1",
+          "contract_no": "002470084_1",
+          "request_no": "R25TB01221237",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "1630000",
+          "unit": "식",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23433097:002470084_1:R26TB01441491:1",
+          "contract_no": "002470084_1",
+          "request_no": "R26TB01441491",
+          "line_no": "1",
+          "quantity": "70",
+          "comparable_amount_krw": "57050000",
+          "unit": "식",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23433097:002470084_1:R26TB01502262:1",
+          "contract_no": "002470084_1",
+          "request_no": "R26TB01502262",
+          "line_no": "1",
+          "quantity": "69",
+          "comparable_amount_krw": "56235000",
+          "unit": "식",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23433097:002470084_1:R26TB01668894:1",
+          "contract_no": "002470084_1",
+          "request_no": "R26TB01668894",
+          "line_no": "1",
+          "quantity": "365",
+          "comparable_amount_krw": "297475000",
+          "unit": "식",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23433097:002470084_1:R26TB01727619:1",
+          "contract_no": "002470084_1",
+          "request_no": "R26TB01727619",
+          "line_no": "1",
+          "quantity": "244",
+          "comparable_amount_krw": "198860000",
+          "unit": "식",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23433097:002470084_1:R26TB01839756:1",
+          "contract_no": "002470084_1",
+          "request_no": "R26TB01839756",
+          "line_no": "1",
+          "quantity": "396",
+          "comparable_amount_krw": "322740000",
+          "unit": "식",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23433097:002470084_1:R26TB01931663:1",
+          "contract_no": "002470084_1",
+          "request_no": "R26TB01931663",
+          "line_no": "1",
+          "quantity": "110",
+          "comparable_amount_krw": "89650000",
+          "unit": "식",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23433097:002470084_1:R26TB02034552:1",
+          "contract_no": "002470084_1",
+          "request_no": "R26TB02034552",
+          "line_no": "1",
+          "quantity": "74",
+          "comparable_amount_krw": "60310000",
+          "unit": "식",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23433097:002470084_1:R26TB02059423:1",
+          "contract_no": "002470084_1",
+          "request_no": "R26TB02059423",
+          "line_no": "1",
+          "quantity": "10",
+          "comparable_amount_krw": "8150000",
+          "unit": "식",
+          "tax_basis": "vat_included"
+        }
+      ]
+    },
+    {
+      "item_id": "23997196",
+      "snapshot": {
+        "name": "네트워크스위치, Radware, (IL)Alteon 4028, 28port",
+        "model": "(IL)Alteon 4028",
+        "manufacturer": "Radware",
+        "category": "네트워크스위치",
+        "listings": [
+          {
+            "listing_id": "R25TA01078644000000004",
+            "vendor": "(주)아이티윈",
+            "unit_price_krw": "24300000"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-11T22:59:05.331Z",
+        "facts_total": 18,
+        "facts_truncated": false
+      },
+      "discovery_urls": [
+        "https://savetax.now/listing/R25TA01078644000000004"
+      ],
+      "price_evidence_source": "실제 판매처 원문 필요. SaveTax의 통계 추정가나 분석 글은 사용하지 않는다.",
+      "benchmark_unit_price_krw": null,
+      "submission_ready": false,
+      "fact_count": 18,
+      "quantity": "33",
+      "comparable_amount_krw": "793905300",
+      "references": [
+        {
+          "fact_id": "dl:23997196:R25TA01078644:R25TB01247750:1",
+          "contract_no": "R25TA01078644",
+          "request_no": "R25TB01247750",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "24300000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23997196:R25TA01078644:R25TB01254326:1",
+          "contract_no": "R25TA01078644",
+          "request_no": "R25TB01254326",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "48600000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23997196:R25TA01078644:R25TB01255734:1",
+          "contract_no": "R25TA01078644",
+          "request_no": "R25TB01255734",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "48600000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23997196:R25TA01078644:R25TB01282541:1",
+          "contract_no": "R25TA01078644",
+          "request_no": "R25TB01282541",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "48600000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23997196:R25TA01078644:R26TB01409938:1",
+          "contract_no": "R25TA01078644",
+          "request_no": "R26TB01409938",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "48600000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23997196:R25TA01078644:R26TB01429639:1",
+          "contract_no": "R25TA01078644",
+          "request_no": "R26TB01429639",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "24300000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23997196:R25TA01078644:R26TB01474979:1",
+          "contract_no": "R25TA01078644",
+          "request_no": "R26TB01474979",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "24300000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23997196:R25TA01078644:R26TB01493007:1",
+          "contract_no": "R25TA01078644",
+          "request_no": "R26TB01493007",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "48600000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23997196:R25TA01078644:R26TB01513714:1",
+          "contract_no": "R25TA01078644",
+          "request_no": "R26TB01513714",
+          "line_no": "1",
+          "quantity": "3",
+          "comparable_amount_krw": "72900000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23997196:R25TA01078644:R26TB01609215:1",
+          "contract_no": "R25TA01078644",
+          "request_no": "R26TB01609215",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "48600000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23997196:R25TA01078644:R26TB01786146:1",
+          "contract_no": "R25TA01078644",
+          "request_no": "R26TB01786146",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "48600000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23997196:R25TA01078644:R26TB01802653:1",
+          "contract_no": "R25TA01078644",
+          "request_no": "R26TB01802653",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "24300000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23997196:R25TA01078644:R26TB01933787:1",
+          "contract_no": "R25TA01078644",
+          "request_no": "R26TB01933787",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "48600000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23997196:R25TA01078644:R26TB01971806:1",
+          "contract_no": "R25TA01078644",
+          "request_no": "R26TB01971806",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "24300000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23997196:R25TA01078644:R26TB02153048:1",
+          "contract_no": "R25TA01078644",
+          "request_no": "R26TB02153048",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "23157900",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23997196:R25TA01078644:R26TB02158611:1",
+          "contract_no": "R25TA01078644",
+          "request_no": "R26TB02158611",
+          "line_no": "1",
+          "quantity": "6",
+          "comparable_amount_krw": "138947400",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23997196:R25TA01078644:R26TB02322921:1",
+          "contract_no": "R25TA01078644",
+          "request_no": "R26TB02322921",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "24300000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:23997196:R25TA01078644:R26TB02346481:1",
+          "contract_no": "R25TA01078644",
+          "request_no": "R26TB02346481",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "24300000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        }
+      ]
+    },
+    {
+      "item_id": "24911369",
+      "snapshot": {
+        "name": "영상감시장치, 센텍, STM-7077, 방범감시시스템",
+        "model": "STM-7077",
+        "manufacturer": "주식회사센텍",
+        "category": "영상감시장치",
+        "listings": [
+          {
+            "listing_id": "002270347_1230000463",
+            "vendor": "주식회사센텍",
+            "unit_price_krw": "84165000"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-12T14:14:02.818Z",
+        "facts_total": 4,
+        "facts_truncated": false
+      },
+      "discovery_urls": [
+        "https://savetax.now/listing/002270347_1230000463"
+      ],
+      "price_evidence_source": "실제 판매처 원문 필요. SaveTax의 통계 추정가나 분석 글은 사용하지 않는다.",
+      "benchmark_unit_price_krw": null,
+      "submission_ready": false,
+      "fact_count": 4,
+      "quantity": "20",
+      "comparable_amount_krw": "1683300000",
+      "references": [
+        {
+          "fact_id": "dl:24911369:002270347_1:R26TB01809232:1",
+          "contract_no": "002270347_1",
+          "request_no": "R26TB01809232",
+          "line_no": "1",
+          "quantity": "8",
+          "comparable_amount_krw": "673320000",
+          "unit": "조",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:24911369:002270347_1:R26TB02239500:1",
+          "contract_no": "002270347_1",
+          "request_no": "R26TB02239500",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "84165000",
+          "unit": "조",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:24911369:002270347_1:R26TB02323014:1",
+          "contract_no": "002270347_1",
+          "request_no": "R26TB02323014",
+          "line_no": "1",
+          "quantity": "9",
+          "comparable_amount_krw": "757485000",
+          "unit": "조",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:24911369:002270347_1:R26TB02329824:1",
+          "contract_no": "002270347_1",
+          "request_no": "R26TB02329824",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "168330000",
+          "unit": "조",
+          "tax_basis": "vat_included"
+        }
+      ]
+    },
+    {
+      "item_id": "25131074",
+      "snapshot": {
+        "name": "방화벽장치, 시큐아이, BLUEMAX NGF 5100, 네트워크보안솔루션",
+        "model": "BLUEMAX NGF 5100",
+        "manufacturer": "(주)시큐아이",
+        "category": "방화벽장치",
+        "listings": [
+          {
+            "listing_id": "R25TA01134403040000018",
+            "vendor": "주식회사 시스원",
+            "unit_price_krw": "83000000"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-12T12:09:20.763Z",
+        "facts_total": 8,
+        "facts_truncated": false
+      },
+      "discovery_urls": [
+        "https://savetax.now/listing/R25TA01134403040000018"
+      ],
+      "price_evidence_source": "실제 판매처 원문 필요. SaveTax의 통계 추정가나 분석 글은 사용하지 않는다.",
+      "benchmark_unit_price_krw": null,
+      "submission_ready": false,
+      "fact_count": 8,
+      "quantity": "26",
+      "comparable_amount_krw": "2158000000",
+      "references": [
+        {
+          "fact_id": "dl:25131074:R25TA01134403:R25TB01270577:2",
+          "contract_no": "R25TA01134403",
+          "request_no": "R25TB01270577",
+          "line_no": "2",
+          "quantity": "2",
+          "comparable_amount_krw": "166000000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:25131074:R25TA01134403:R26TB01768166:2",
+          "contract_no": "R25TA01134403",
+          "request_no": "R26TB01768166",
+          "line_no": "2",
+          "quantity": "2",
+          "comparable_amount_krw": "166000000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:25131074:R25TA01134403:R26TB01780472:1",
+          "contract_no": "R25TA01134403",
+          "request_no": "R26TB01780472",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "83000000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:25131074:R25TA01134403:R26TB01813612:2",
+          "contract_no": "R25TA01134403",
+          "request_no": "R26TB01813612",
+          "line_no": "2",
+          "quantity": "2",
+          "comparable_amount_krw": "166000000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:25131074:R25TA01134403:R26TB01813621:4",
+          "contract_no": "R25TA01134403",
+          "request_no": "R26TB01813621",
+          "line_no": "4",
+          "quantity": "4",
+          "comparable_amount_krw": "332000000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:25131074:R25TA01134403:R26TB01873381:1",
+          "contract_no": "R25TA01134403",
+          "request_no": "R26TB01873381",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "166000000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:25131074:R25TA01134403:R26TB01888816:1",
+          "contract_no": "R25TA01134403",
+          "request_no": "R26TB01888816",
+          "line_no": "1",
+          "quantity": "4",
+          "comparable_amount_krw": "332000000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:25131074:R25TA01134403:R26TB02300984:2",
+          "contract_no": "R25TA01134403",
+          "request_no": "R26TB02300984",
+          "line_no": "2",
+          "quantity": "9",
+          "comparable_amount_krw": "747000000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        }
+      ]
+    },
+    {
+      "item_id": "25719389",
+      "snapshot": {
+        "name": "패키지용품, 현도산업, 전차종공용, 리프트경광등 외3종",
+        "model": "전차종공용",
+        "manufacturer": "주식회사 현도산업",
+        "category": "패키지용품",
+        "listings": [
+          {
+            "listing_id": "R26TA01844395000000006",
+            "vendor": "주식회사 현도산업",
+            "unit_price_krw": "5800000"
+          },
+          {
+            "listing_id": "R26TA01844395000000025",
+            "vendor": "주식회사 현도산업",
+            "unit_price_krw": "5800000"
+          },
+          {
+            "listing_id": "R25TA00461098010000005",
+            "vendor": "주식회사 현도산업",
+            "unit_price_krw": "5800000"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-13T04:23:27.690Z",
+        "facts_total": 2,
+        "facts_truncated": false
+      },
+      "discovery_urls": [
+        "https://savetax.now/listing/R26TA01844395000000006",
+        "https://savetax.now/listing/R26TA01844395000000025"
+      ],
+      "price_evidence_source": "실제 판매처 원문 필요. SaveTax의 통계 추정가나 분석 글은 사용하지 않는다.",
+      "benchmark_unit_price_krw": null,
+      "submission_ready": false,
+      "fact_count": 2,
+      "quantity": "294",
+      "comparable_amount_krw": "1451193626",
+      "references": [
+        {
+          "fact_id": "dl:25719389:R26TA01844395:R26TB02168164:3",
+          "contract_no": "R26TA01844395",
+          "request_no": "R26TB02168164",
+          "line_no": "3",
+          "quantity": "262",
+          "comparable_amount_krw": "1290599162",
+          "unit": "조",
+          "tax_basis": "vat_included"
+        },
+        {
+          "fact_id": "dl:25719389:R26TA01844395:R26TB02168868:5",
+          "contract_no": "R26TA01844395",
+          "request_no": "R26TB02168868",
+          "line_no": "5",
+          "quantity": "32",
+          "comparable_amount_krw": "160594464",
+          "unit": "조",
+          "tax_basis": "vat_included"
+        }
+      ]
+    }
+  ],
+  "parallel": {
+    "artifact": "work/site-discovery/parallel-four-targets.json",
+    "query_count": 4,
+    "status": "4개 쿼리 실제 호출. 관련 없는 결과도 있었으며 검색 결과 자체를 실측 가격으로 채택하지 않았다.",
+    "retailer_discovered": "https://www.lampcorea.com/shop/list.php?ca_id=20506040"
+  },
+  "jev_runs": [
+    {
+      "artifact": "work/browser/jev-hikvision67-successor.json",
+      "url": "https://www.hikvisionmall.co.kr/product/detail.html?product_no=67",
+      "status": "predicted",
+      "operation": "SELECT",
+      "target": "23:2",
+      "confidence": 0.85,
+      "latency_ms": 220,
+      "model": "jev-1.13.0",
+      "meaning": "다음 동작 예측이며 판매 옵션·사양 동등성의 검증 완료가 아니다."
+    },
+    {
+      "artifact": "work/browser/jev-itncctv-20295.json",
+      "url": "https://itncctv.kr/product/detail.html?product_no=20295",
+      "status": "predicted",
+      "operation": "SCROLL_DOWN",
+      "target": null,
+      "confidence": 0.42,
+      "latency_ms": 269,
+      "model": "jev-1.13.0",
+      "meaning": "다음 동작 예측이며 판매 옵션·사양 동등성의 검증 완료가 아니다."
+    },
+    {
+      "artifact": "work/browser/jev-lampcorea-1766562078.json",
+      "url": "https://www.lampcorea.com/shop/item.php?it_id=1766562078&ca_id=20506040",
+      "status": "predicted",
+      "operation": "SELECT",
+      "target": "47:1",
+      "confidence": 0.38,
+      "latency_ms": 220,
+      "model": "jev-1.13.0",
+      "meaning": "다음 동작 예측이며 판매 옵션·사양 동등성의 검증 완료가 아니다."
+    }
+  ],
+  "road_stud_review": {
+    "item_id": "23433097",
+    "original_spec_source": "https://www.miracleits.co.kr/product/ms125cr.html",
+    "source_access": "웹 도구에서 규격 본문을 읽었다. native Chrome은 NET::ERR_CERT_AUTHORITY_INVALID이므로 인증서 경고를 우회하지 않았다.",
+    "original_core": "DC24V·2W 이하·전원+통신2Line PLC제어·IP68·134×82mm",
+    "retailer_url": "https://www.lampcorea.com/shop/item.php?it_id=1766562078&ca_id=20506040",
+    "actual_displayed_total_krw": "42350",
+    "selected_option": "백색(백색만 가능합니다)",
+    "retail_spec": "130×48mm·875g·NI-MH 태양광 충전·야간 자동 점등/주간 소등",
+    "retail_option_total_status": "백색 옵션을 선택해 화면에 결제금액42,350원이 표시되는 것을 확인했으나 상품수량 행은 나타나지 않았다. 배송·VAT 기준도 본문에서 확인하지 못했다.",
+    "decision": "PLC 제어·전원·크기·공식식 단위의 구성 대응이 미완성이다. 판매 가격 차액을 점수나 확정 절감액으로 산정하지 않는다.",
+    "submitted": false
+  }
+}
