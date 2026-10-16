@@ -5,7 +5,7 @@ description: Use when investigating SaveTax procurement price candidates, checki
 
 # SaveTax 가격 조사
 
-조달 자료에서 후보를 찾고, 실제 판매가와 비교해 신규 고액 점수 제출로 연결한다. 이 저장소에서는 `AGENTS.md`에 정리된 최신 사용자 지시를 먼저 읽는다. 이미 등록된 물품은 제외한다. 조달 단가·실제 총수량·중복 제거 납품라인 수를 함께 보고 총금액이 큰 순서로 먼저 검토한다. 저가 단서가 잡힌 후보의 검증·접수를 우선하고, 완성된 신규 소액 후보도 남은 한도 안에서 즉시 접수한다.
+조달 자료에서 후보를 찾고, 실제 판매가와 비교해 신규 고액 점수 제출로 연결한다. 이 저장소에서는 `AGENTS.md`에 정리된 최신 사용자 지시를 먼저 읽는다. 이미 등록된 물품은 제외한다. 최신 사용자 정정에 따라 제출 한도당 예상액을 높인다. 총 납품액 50억 원 이상인 available 품목에서 예상 차액 10억 원 이상 후보를 먼저 조사한다. 50억 원 미만이어도 10억 원 차액이 가능한 후보는 차순위다. 10억 원은 탐색 목표이며 검증된 억 단위 후보를 버리는 절대 문턱은 아니다. 사용자가 지정한 카메라 브래킷 전담 조사는 담당 구간을 넘어 분야 전체를 검토하며 2억~4억 원 규모도 우선한다. 신규 소액은 근거·번호를 준비해 대기열에 보존하며 고액 조사 중 먼저 접수해 한도를 쓰지 않는다. 이전의 소액 즉시 제출 지시는 대체되었다.
 
 ## 시작과 권한
 
@@ -67,7 +67,7 @@ description: Use when investigating SaveTax procurement price candidates, checki
 - VAT·배송 여부가 미확인이면 제출용 boolean을 임의로 `false`에 맞추지 않는다. 미확인 상태를 유지하고 초안의 제출 준비를 보류한다. 가격 차이 기준을 넘기려고 근거 가격을 낮추지 않는다.
 - 점수 초안의 금액 조건·본문 크기·허용 필드와 현재 이벤트 한도를 확인한다. `preview`는 공개 접수와 구분하며 현재 승인 범위에서 사용한다. 검토본을 완성한 뒤 필요한 외부 접수 승인을 받는다. 접수 즉시 공개되는 내용과 제보/점수 등록의 차이를 설명한다.
 
-검증한 신규 후보는 예상 차액이 큰 순서로 preview·점수 제출한다. 기본 최소액0원이며, 1억 미만이라는 이유만으로 완성된 후보를 미루지 않는다. 사용자에게 점수 제출까지 이미 위임받은 경우 같은 승인을 다시 묻지 않는다.
+검증한 신규 후보는 예상 차액이 큰 순서로 preview·점수 제출한다. 현재 작업은 건당10억원 목표로 고액을 우선한다. 소액은 대기열에 보존한다. 범용 CLI 기본값0원이 현재 작업의 소액 즉시 접수 권한을 뜻하지 않는다. 사용자에게 점수 제출까지 이미 위임받은 경우 같은 승인을 다시 묻지 않는다.
 
 결과는 `후보 → 확인 사실과 출처 → 계약·납품요구·라인 번호 → 비교 단가와 차액 → 제출 결과 또는 대기 이유` 순서로 쓴다. 후보 수를 점수 제출 건수로 바꾸지 않고, 일반 제보 접수를 점수 실적으로 보고하지 않는다.
 
@@ -75,6 +75,6 @@ description: Use when investigating SaveTax procurement price candidates, checki
 
 `build_submission`은 기본 `identical`에서 기존 모델 검증을 유지한다. `equivalent`는 실제 판매모델을 바꾸어 넣는 우회가 아니라 별도 비교 경로다. `retail_model_verified`, `comparison_reviewed`, 원모델 `procurement_model`, `spec_mapping`의 attribute/original/alternative, 공개 HTTPS `spec_source_urls`, `differences`를 모두 기록한다. 생성된 제목·주장·비교 범위에 두 모델과 차이가 남아야 한다. 기능 손실을 동일성으로 포장하지 않는다.
 
-전체 인덱스의 `local_delivery_count`는 중복 제거한 dlv_key별 dlv_lines 합이고 `local_quantity`는 실제 수량 합이다. `spend_priority_rank`로 총 납품금액을 먼저, 그다음 건수·수량·등재가를 본다. 담당 owner_slot은 보존한다. 순위 수치를 공식 점수의 C·Q로 대신하지 않는다. CLI `score` 기본 최소액은0원, `queue`는 검증된 소액도 한도 안에서 제출한다. 사용자가 별도 금액 제한을 요청하면 `--min-saving` 또는 `--defer-small`로 명시한다.
+전체 인덱스의 `local_delivery_count`는 중복 제거한 dlv_key별 dlv_lines 합이고 `local_quantity`는 실제 수량 합이다. `spend_priority_rank`로 총 납품금액을 먼저, 그다음 건수·수량·등재가를 본다. 담당 owner_slot은 보존한다. 순위 수치를 공식 점수의 C·Q로 대신하지 않는다. 범용 CLI 기본값과 현재 작업의 우선순위를 구별한다. 현재 고액 단계는 `score --min-saving 1000000000`과 `prioritize(..., release_deferred=False, priority_min="1000000000")`로 소액을 대기시킨다.
 
 - `dlv_key`는 납품 집계그룹 식별자이며 그 개수를 납품요구 건수로 읽지 않는다. `local_delivery_count`는 그룹별 `max(dlv_lines)`를 합한 납품라인 수, `local_delivery_group_count`는 고유 집계그룹 수다. 최종 고유 납품요구 건수는 공식 fact의 request_no로 다시 센다.
