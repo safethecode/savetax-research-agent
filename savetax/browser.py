@@ -136,21 +136,33 @@ class BrowserRuntime:
             env = self.prepare_env(start=True)
             before = self._page_targets(env)
             command = [str(self.python), '-c', code] if model else [str(self.cli)]
+            operation_error = None
+            cleanup_failed = False
             try:
                 try:
                     result = subprocess.run(command, input=None if model else code, env=env, cwd=self.root,
                         capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=55)
                 except subprocess.TimeoutExpired:
                     raise RuntimeError('브라우저 작업 55초 제한 초과; 키와 원문 오류는 출력하지 않습니다') from None
+                if result.returncode:
+                    raise RuntimeError(f'브라우저 작업 실패(exit={result.returncode}); 외부 오류 원문은 출력하지 않습니다')
+                try:
+                    data = json.loads(result.stdout.strip().splitlines()[-1])
+                except (ValueError, IndexError):
+                    raise RuntimeError('브라우저 JSON 결과를 확인할 수 없습니다') from None
+            except RuntimeError as error:
+                operation_error = error
             finally:
                 # 전용 프로필·배타 작업 안에서 생긴 탭만 정리한다. 강제 종료에도 실행된다.
-                self._cleanup_new_tabs(env,before)
-            if result.returncode:
-                raise RuntimeError(f'브라우저 작업 실패(exit={result.returncode}); 외부 오류 원문은 출력하지 않습니다')
-            try:
-                data = json.loads(result.stdout.strip().splitlines()[-1])
-            except (ValueError, IndexError):
-                raise RuntimeError('브라우저 JSON 결과를 확인할 수 없습니다') from None
+                try:
+                    self._cleanup_new_tabs(env,before)
+                except (RuntimeError, OSError, ValueError, subprocess.SubprocessError):
+                    cleanup_failed = True
+            if operation_error is not None:
+                suffix = '; 작업 임시 탭 정리도 실패했습니다' if cleanup_failed else ''
+                raise RuntimeError(str(operation_error)+suffix) from None
+            if cleanup_failed:
+                raise RuntimeError('브라우저 결과는 생성됐지만 작업 임시 탭 정리 실패; 기존 탭은 유지했습니다')
             return redact_keys(data, env)
 
     def read(self, url):

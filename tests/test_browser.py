@@ -1,3 +1,4 @@
+import json
 import tempfile
 import subprocess
 import unittest
@@ -67,4 +68,68 @@ class BrowserTests(unittest.TestCase):
             cleanup_code = run.call_args.kwargs['input']
             self.assertIn(owned,cleanup_code)
             self.assertNotIn(existing,cleanup_code)
+            self.assertFalse((runtime.work/'browser-operation.lock').exists())
+
+    def test_cleanup_failure_does_not_hide_primary_timeout(self):
+        with tempfile.TemporaryDirectory() as folder:
+            runtime = BrowserRuntime(folder)
+            runtime.python.parent.mkdir(parents=True)
+            runtime.python.touch()
+            with patch.object(runtime, 'prepare_env', return_value={}), \
+                    patch.object(runtime, '_page_targets', side_effect=[{'A'*32}, {'A'*32, 'B'*32}]), \
+                    patch('savetax.browser.subprocess.run', side_effect=[
+                        subprocess.TimeoutExpired('test', 55),
+                        subprocess.CompletedProcess('cleanup', 1, '', 'external-secret-detail')]):
+                with self.assertRaisesRegex(RuntimeError, '55초') as failure:
+                    runtime._run('test')
+            self.assertIn('정리', str(failure.exception))
+            self.assertNotIn('external-secret-detail', str(failure.exception))
+            self.assertFalse((runtime.work/'browser-operation.lock').exists())
+
+    def test_cleanup_failure_does_not_hide_invalid_model_result(self):
+        with tempfile.TemporaryDirectory() as folder:
+            runtime = BrowserRuntime(folder)
+            runtime.python.parent.mkdir(parents=True)
+            runtime.python.touch()
+            with patch.object(runtime, 'prepare_env', return_value={}), \
+                    patch.object(runtime, '_page_targets', side_effect=[set(), {'B'*32}]), \
+                    patch('savetax.browser.subprocess.run', side_effect=[
+                        subprocess.CompletedProcess('model', 0, 'not-json', ''),
+                        subprocess.CompletedProcess('cleanup', 1, '', 'external-secret-detail')]):
+                with self.assertRaisesRegex(RuntimeError, 'JSON') as failure:
+                    runtime._run('test', model=True)
+            self.assertIn('정리', str(failure.exception))
+            self.assertNotIn('external-secret-detail', str(failure.exception))
+            self.assertFalse((runtime.work/'browser-operation.lock').exists())
+
+    def test_cleanup_decode_errors_do_not_hide_primary_timeout(self):
+        errors = [json.JSONDecodeError('external-secret-detail', '', 0),
+                  UnicodeDecodeError('utf-8', b'\xff', 0, 1, 'external-secret-detail')]
+        for error in errors:
+            with self.subTest(error=type(error).__name__), tempfile.TemporaryDirectory() as folder:
+                runtime = BrowserRuntime(folder)
+                runtime.python.parent.mkdir(parents=True)
+                runtime.python.touch()
+                with patch.object(runtime, 'prepare_env', return_value={}), \
+                        patch.object(runtime, '_page_targets', return_value=set()), \
+                        patch.object(runtime, '_cleanup_new_tabs', side_effect=error), \
+                        patch('savetax.browser.subprocess.run', side_effect=subprocess.TimeoutExpired('test', 55)):
+                    with self.assertRaisesRegex(RuntimeError, '55초') as failure:
+                        runtime._run('test')
+                self.assertIn('정리', str(failure.exception))
+                self.assertNotIn('external-secret-detail', str(failure.exception))
+                self.assertFalse((runtime.work/'browser-operation.lock').exists())
+
+    def test_valid_result_with_cleanup_decode_error_is_not_success(self):
+        with tempfile.TemporaryDirectory() as folder:
+            runtime = BrowserRuntime(folder)
+            runtime.python.parent.mkdir(parents=True)
+            runtime.python.touch()
+            with patch.object(runtime, 'prepare_env', return_value={}), \
+                    patch.object(runtime, '_page_targets', return_value=set()), \
+                    patch.object(runtime, '_cleanup_new_tabs', side_effect=json.JSONDecodeError('external-secret-detail', '', 0)), \
+                    patch('savetax.browser.subprocess.run', return_value=subprocess.CompletedProcess('model', 0, '{"ok": true}', '')):
+                with self.assertRaisesRegex(RuntimeError, '결과는 생성됐지만') as failure:
+                    runtime._run('test', model=True)
+            self.assertNotIn('external-secret-detail', str(failure.exception))
             self.assertFalse((runtime.work/'browser-operation.lock').exists())
