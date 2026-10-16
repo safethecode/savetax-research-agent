@@ -16,10 +16,10 @@
     "stored_available_official_total_over_minimum_rows": 33,
     "fresh_direct_primary_pages_saved": 25,
     "new_confirmed_saving_candidates": 1,
-    "actual_parallel_calls": 103,
-    "fresh_official_item_details": 71,
-    "fresh_official_scorable_facts": 6494,
-    "actual_jev_calls": 9
+    "actual_parallel_calls": 108,
+    "fresh_official_item_details": 75,
+    "fresh_official_scorable_facts": 6549,
+    "actual_jev_calls": 10
   },
   "access": {
     "dataset_present": true,
@@ -1653,6 +1653,41 @@
       "search_id": "search_0bd570bb4c29b326a6bdacbf9d2ed3ec",
       "observed_at": "2026-10-16T20:39:09.898452+00:00",
       "returned_results": 6
+    },
+    {
+      "file": "work/industrial-goal1000/parallel-window-next-ksccpslk005.json",
+      "query": "금산씨엔씨 KSC-CPSL-K005 창호 판매 가격",
+      "search_id": "search_11c56d658b6a04c09e258262a9e1f436",
+      "observed_at": "2026-10-16T20:48:27.754921+00:00",
+      "returned_results": 1
+    },
+    {
+      "file": "work/industrial-goal1000/parallel-window-next-gwcga180.json",
+      "query": "글로윈스 GWC-GA-180CH-119-F24 커튼월 판매",
+      "search_id": "search_cb69b159a3c0f85861c340cb5e7e826b",
+      "observed_at": "2026-10-16T20:48:27.845524+00:00",
+      "returned_results": 1
+    },
+    {
+      "file": "work/industrial-goal1000/parallel-polyurea-next-raonp30.json",
+      "query": "라온피플인더스트리 RAON-P30 폴리우레아 판매 가격",
+      "search_id": "search_7ac4cdcf0ea2a1da57bb0f41c8b82bd6",
+      "observed_at": "2026-10-16T20:52:40.200960+00:00",
+      "returned_results": 6
+    },
+    {
+      "file": "work/industrial-goal1000/parallel-polyurea-next-skfp200.json",
+      "query": "케이지플렉스 SKF P200 폴리우레아 판매 가격",
+      "search_id": "search_fb64f30193239e727c1069d0fcb7a4d2",
+      "observed_at": "2026-10-16T20:52:40.202583+00:00",
+      "returned_results": 3
+    },
+    {
+      "file": "work/industrial-goal1000/parallel-polyurea-next-skf-oem.json",
+      "query": "강남화성 SKF100A SKF100B T-44 TC-60A TC-62B 폴리우레아 판매 가격",
+      "search_id": "search_d0a728bbedc5d990cd95bbba7f6c5ab4",
+      "observed_at": "2026-10-16T20:56:53.915699+00:00",
+      "returned_results": 5
     }
   ],
   "jev_actual_call": {
@@ -75410,6 +75445,14 @@
       "latency_ms": 287,
       "status": "predicted",
       "assessment": "이미지맵 카다로그의 BLOCKED 예측과 실제 공개 이미지·링크 읽기를 구별한다."
+    },
+    {
+      "file": "work/industrial-goal1000/jev-polyurea-next-kangnamchem.json",
+      "url": "https://kangnamchem.com/kor/%ec%a0%9c%ed%92%88%ec%86%8c%ea%b0%9c/%ea%b1%b4%ec%b6%95%ec%9a%a9%ec%9e%90%ec%9e%ac/%ed%8f%b4%eb%a6%ac%ec%9a%b0%eb%a0%88%ec%95%84/",
+      "operation": "BLOCKED",
+      "confidence": 0.25,
+      "latency_ms": 210,
+      "model": "jev-1.13.0"
     }
   ],
   "new_industrial_round2": {
@@ -81851,5 +81894,226 @@
       "functional_loss": "핵심은 외벽용 GW 완성패널로 대응하고 실제 기능 손실이 확인된 것은 없다. 원품 특허 이음·구조·수밀 성능 대응은 미입증 차이로 공개한다.",
       "reason_for_deferral": "명목규격20% 증가를 핵심 단열 성능의 분명한 우위로 단정할 근거가 아직 없다. 원제조사 미표시·404시험·참고λ를 구별한다. 제조사 미표시나 별도 설치 그 자체를 자동 차단 사유로 정하지 않는다."
     }
+  },
+  "window_kg_complete_scope_followup": {
+    "observed_at": "2026-10-16T20:52:11.140643+00:00",
+    "records": [
+      {
+        "item_id": "23858913",
+        "name": "금속제창, 금산씨엔씨, KSC-CPSL-K005, 160mm, 단열복합미서기창/불소수지2회",
+        "state": "available",
+        "official_C_krw": "5147724240",
+        "official_Q": "257181",
+        "unit_counts": {
+          "㎏": 7
+        },
+        "scorable_fact_count": 7,
+        "raw_fact_file": "work/industrial-goal1000/window-next-23858913-event.json",
+        "event_source_url": "https://hackathon.savetax.now/v1/events/current/items/23858913",
+        "all_fulfillment_references_format": "contract_no|request_no|line_no",
+        "all_fulfillment_references": [
+          "002370266_1|R25TB01172315|1",
+          "002370266_1|R25TB01263419|1",
+          "002370266_1|R25TB01304636|1",
+          "002370266_1|R25TB01307195|1",
+          "002370266_1|R26TB01944751|2",
+          "002370266_1|R26TB02050639|1",
+          "002370266_1|R26TB02315408|1"
+        ],
+        "adopted_B": null,
+        "adopted_saving_krw": null
+      },
+      {
+        "item_id": "24466035",
+        "name": "금속제창, 글로윈스, GWC-GA-180CH-119-F24, 180mm, 커튼월/불소수지2회",
+        "state": "available",
+        "official_C_krw": "4764495420",
+        "official_Q": "299654",
+        "unit_counts": {
+          "㎏": 8
+        },
+        "scorable_fact_count": 8,
+        "raw_fact_file": "work/industrial-goal1000/window-next-24466035-event.json",
+        "event_source_url": "https://hackathon.savetax.now/v1/events/current/items/24466035",
+        "all_fulfillment_references_format": "contract_no|request_no|line_no",
+        "all_fulfillment_references": [
+          "002370279_1|2224355676|1",
+          "002370279_1|R25TB01081141|2",
+          "002370279_1|R25TB01148479|2",
+          "002370279_1|R25TB01294750|2",
+          "002370279_1|R26TB01602884|4",
+          "002370279_1|R26TB01736443|3",
+          "002370279_1|R26TB01939746|3",
+          "002370279_1|R26TB01948008|4"
+        ],
+        "adopted_B": null,
+        "adopted_saving_krw": null
+      }
+    ],
+    "unit_decision": "두 원품은 공식㎏ 단위이며 ㎡나 개로 바꾸지 않는다. kg가격을 알루미늄 원료가격 또는 유리 포함 가정용 창문 가격과 같은 범위로 계산하지 않는다.",
+    "KSC_CPSL_K005": {
+      "original_spec_file": "work/industrial-goal1000/window-next-kumsan-spec-text.json",
+      "original_bytes": 10390931,
+      "revision_review": "HWPX no_known_markers이며 최종본 확정을 뜻하지 않는다.",
+      "scope": "160mm 알루미늄/발포PS 복합미서기 단창, 폴리아미드 기능성밀폐재와 단열부재·모헤어·스토퍼·가이드·롤러·크리센트가 원BOM에 포함된다. 표의 예시 소요량을 kg당 수량으로 확대하지 않는다.",
+      "test_configuration": "원문과 실제 제조사 exact모델은42mm(6LE+12Ar+6CL+12Ar+6LE)·U.977·기밀.65·2등급을 명시한다. 시험유리 사양을 계약의 유리 포함 여부로 바로 읽지 않는다. 유리중량과 kg 산정·공급 포함은 금산 문서에서 명시를 못 찾았다.",
+      "exclusions": "구조계산비·Mock-up Test·특수 설치 장비/가설재·보강비·사춤/마감 비용 제외를 원문에 명시한다.",
+      "manufacturer_url": "http://kumsanws.com/product/item.php?it_id=1711694470",
+      "manufacturer_file": "work/industrial-goal1000/window-next-kumsan-exact.json",
+      "price_status": "원제조사 exact모델을 실제 읽었으나 일반 판매가격은 없다. 일반제품 메뉴도 다른 식별번호·규격표이며 판매가가 아니다."
+    },
+    "GWC_GA_180CH_119_F24": {
+      "original_spec_file": "work/industrial-goal1000/window-next-glowins-spec-text.json",
+      "original_bytes": 1982755,
+      "revision_review": "HWPX no_known_markers이며 최종본 확정을 뜻하지 않는다.",
+      "scope": "180mm 커튼월 창틀, 불소수지2회. 대표1식1m×1m BOM은 A6063-T5 단열프레임14.2kg·ABS 열교차단재8m·PA가스켓8m이며 실제 현장 규격별로 소요량이 변동한다고 명시한다.",
+      "kg_and_glass": "3.1.2에서 중량kg 환산 적용, 유리공사 및 유리중량은 계약 미포함을 명시한다. 압출형재는 m당 단중을 계근하고 하드웨어를 별도 계근한다. 원품을 유리 포함 전체 창호로 확대하지 않는다.",
+      "installation": "현장설치 및 일반 고정 인력·부자재 포함. 구조계산·Mock-up·구조물 보강·특수 앵커·창주위 사춤·실란트 코킹·특수 장비/가설재는 별도다.",
+      "manufacturer_url": "http://glowins.co.kr/bbs/board.php?bo_table=gallery&wr_id=60",
+      "manufacturer_file": "work/industrial-goal1000/window-next-glowins-exact.json",
+      "price_status": "사업자209-81-20126과 exact모델·창틀구성을 실제 확인했으나 일반 판매가는 없다. 조달/KPRC조달가격·견적요청을 일반가로 쓰지 않았다."
+    },
+    "decision": "전체 창틀 자체 취득가격 비교는 가능하며 설치 포함만으로 배제하지 않았다. 같은 제조사·모델의 실제 kg 일반가 또는 명확히 우수한 완성 공급가격이 없어서 B·예상액은 null이다. raw 압출형재값을 PS/PA·밀폐재·하드웨어가 조립된 창틀 가격으로 확대하지 않는다.",
+    "post_count": 0
+  },
+  "polyurea_next_complete_system_followup": {
+    "observed_at": "2026-10-16T21:00:15.230519+00:00",
+    "records": [
+      {
+        "item_id": "24246588",
+        "name": "폴리우레아수지도막방수재, 라온피플인더스트리, RAON-P30, t3mm, 주차장/옥상",
+        "state": "available",
+        "official_C_krw": "2413688640",
+        "official_Q": "33762",
+        "unit_counts": {
+          "㎡": 26
+        },
+        "scorable_fact_count": 26,
+        "raw_fact_file": "work/industrial-goal1000/polyurea-next-24246588-event.json",
+        "event_source_url": "https://hackathon.savetax.now/v1/events/current/items/24246588",
+        "all_fulfillment_references_format": "contract_no|request_no|line_no",
+        "all_fulfillment_references": [
+          "002270139_1|R25TB00668199|2",
+          "002270139_1|R25TB01042338|1",
+          "002270139_1|R25TB01090623|1",
+          "002270139_1|R25TB01162748|2",
+          "002270139_1|R25TB01168735|2",
+          "002270139_1|R25TB01180203|2",
+          "002270139_1|R25TB01200776|2",
+          "002270139_1|R25TB01242557|2",
+          "002270139_1|R25TB01249738|1",
+          "002270139_1|R25TB01254461|1",
+          "002270139_1|R25TB01290088|2",
+          "002270139_1|R26TB01453167|1",
+          "002270139_1|R26TB01496842|2",
+          "002270139_1|R26TB01507841|2",
+          "002270139_1|R26TB01726640|2",
+          "002270139_1|R26TB01824672|2",
+          "002270139_1|R26TB01849924|1",
+          "002270139_1|R26TB01862664|2",
+          "002270139_1|R26TB01865834|1",
+          "002270139_1|R26TB01919009|1",
+          "002270139_1|R26TB01970599|1",
+          "002270139_1|R26TB01974110|2",
+          "002270139_1|R26TB02026276|1",
+          "002270139_1|R26TB02215213|1",
+          "002270139_1|R26TB02280557|2",
+          "002270139_1|R26TB02337289|2"
+        ],
+        "exploration_B_ceiling_for_10eok": "41872.18292755168532669865529",
+        "ceiling_caveat": "탐색용 전량 상한이며 fact별 바닥처리와 가격차 규칙 적용 전이다. 실제 비교가격이나 절감액이 아니다.",
+        "adopted_B": null,
+        "adopted_saving_krw": null
+      },
+      {
+        "item_id": "25488090",
+        "name": "폴리우레아수지도막방수재, 케이지플렉스, SKF P200, t2mm, 주차장/옥상",
+        "state": "available",
+        "official_C_krw": "1983315840",
+        "official_Q": "37563",
+        "unit_counts": {
+          "㎡": 14
+        },
+        "scorable_fact_count": 14,
+        "raw_fact_file": "work/industrial-goal1000/polyurea-next-25488090-event.json",
+        "event_source_url": "https://hackathon.savetax.now/v1/events/current/items/25488090",
+        "all_fulfillment_references_format": "contract_no|request_no|line_no",
+        "all_fulfillment_references": [
+          "R25TA00406000|R25TB01096651|1",
+          "R25TA00406000|R25TB01124995|1",
+          "R25TA00406000|R25TB01136858|1",
+          "R25TA00406000|R25TB01175401|1",
+          "R25TA00406000|R25TB01179230|1",
+          "R25TA00406000|R25TB01198802|1",
+          "R25TA00406000|R25TB01252442|1",
+          "R25TA00406000|R26TB01492578|1",
+          "R25TA00406000|R26TB01719506|1",
+          "R25TA00406000|R26TB01743610|1",
+          "R25TA00406000|R26TB01857276|1",
+          "R25TA00406000|R26TB01868830|1",
+          "R25TA00406000|R26TB01925651|1",
+          "R25TA00406000|R26TB02173433|1"
+        ],
+        "exploration_B_ceiling_for_10eok": "26177.77706785932965950536432",
+        "ceiling_caveat": "탐색용 전량 상한이며 fact별 바닥처리와 가격차 규칙 적용 전이다. 실제 비교가격이나 절감액이 아니다.",
+        "adopted_B": null,
+        "adopted_saving_krw": null
+      }
+    ],
+    "RAON_P30": {
+      "thickness_mm": 3,
+      "original_spec_file": "work/session-20261017/polyurea-finished-followup/spec-002270139_1120000001.json",
+      "current_attachment_filename": "00227013909-수정규격서(2021194_20240711_주식회사_라온피플인더스트리)(1).hwpx",
+      "attachment_bytes": 1486814,
+      "attachment_reuse_note": "현행 목록의 같은 파일명·크기를 확인하고 root가 실제 내려받아 읽은 제품군 규격서를 재사용했다. 새 바이트 해시를 읽었다고 주장하지 않는다.",
+      "original_BOM_kg_per_m2": {
+        "RP-PU100_primer": "0.25",
+        "RP-PU200A_RP-PU200B_base_preparation": "0.5",
+        "RP-PU300A_RP-PU300B_topcoat": "0.25",
+        "RP-WPP100A_RP-WPP100B_polyurea": "3.114"
+      },
+      "model_text_variant": "한 자재표 상도 B에는 RP-P300B, 품질표에는 RP-PU300B로 적혀 있어 임의로 동일 판매SKU를 만들지 않았다.",
+      "scope": "프라이머·바탕조정재·주재료·상도로 구성한 주차장/옥상용 3mm 시스템. 스테아타이트/리팔디아민 관련 특별 조성과 자기치유 목적을 일반 회색 중도 도료에 자동 전용하지 않는다.",
+      "manufacturer_url": "https://www.raonpeopleindustry.co.kr/products/polyurea",
+      "manufacturer_file": "work/industrial-goal1000/polyurea-next-raon-polyurea.json",
+      "displayed_68000_price_status": "제조사 페이지가 우수제품·MAS·조달수수료·다량납품 계산을 명시하는 조달 제품 가격이다. 일반 판매가 B로 채택하지 않는다."
+    },
+    "SKF_P200": {
+      "thickness_mm": 2,
+      "original_spec_file": "work/industrial-goal1000/polyurea-next-kgflex-spec-text.json",
+      "original_download_directory": "work/industrial-goal1000/complete-next-kgflex-next-spec-download/",
+      "original_bytes": 17303631,
+      "revision_review": "HWPX no_known_markers이며 최종본 확정을 뜻하지 않는다.",
+      "supplier_as_written": "강남화성",
+      "original_BOM_kg_per_m2": {
+        "T-44_primer": "0.3",
+        "TC-60A_TC-62B_topcoat": "0.2",
+        "SKF100A_SKF100B_polyurea": "2.1"
+      },
+      "scope": "주차장/옥상용 2mm 완성 도막 시스템. 규격서는 케이지플렉스 제조 및 코디어라이트·폴리에테르트리아민 조성을 설명하면서 자재표의 세 공급자를 강남화성으로 표시한다.",
+      "core_original_values": "인장강도 19N/㎟ 이상, 신장률350% 이상, 인열75N/mm 이상을 원규격에 명시한다. 모든 시험값의 동일성을 신규 제출 조건으로 추가하지 않았다.",
+      "OEM_identity_limit": "자재표의 SKF100A/B를 강남화성 일반 KA-800/KR-800과 같다고 증명한 원문이 없다. 공통 프라이머·상도 코드만으로 주재료를 바꾸지 않는다.",
+      "manufacturer_access_files": [
+        "work/industrial-goal1000/polyurea-next-kgflex-https.json",
+        "work/industrial-goal1000/polyurea-next-kgflex-http.json"
+      ],
+      "manufacturer_access": "kgflex.com HTTPS 인증서 오류, HTTP403으로 구별해 기록했다. 우회하지 않았다."
+    },
+    "Kangnam_supplier_followup": {
+      "group_url": "http://www.kangnam.co.kr/",
+      "group_file": "work/industrial-goal1000/polyurea-next-kangnam-http.json",
+      "current_manufacturer_url": "https://kangnamchem.com/kor/",
+      "current_manufacturer_file": "work/industrial-goal1000/polyurea-next-kangnamchem-kor.json",
+      "polyurea_url": "https://kangnamchem.com/kor/%ec%a0%9c%ed%92%88%ec%86%8c%ea%b0%9c/%ea%b1%b4%ec%b6%95%ec%9a%a9%ec%9e%90%ec%9e%ac/%ed%8f%b4%eb%a6%ac%ec%9a%b0%eb%a0%88%ec%95%84/",
+      "polyurea_file": "work/industrial-goal1000/polyurea-next-kangnamchem-urea.json",
+      "price_information_file": "work/industrial-goal1000/polyurea-next-kangnamchem-price.json",
+      "dealer_file": "work/industrial-goal1000/polyurea-next-kangnamchem-agents.json",
+      "finding": "옛 주소 HTTP의 실제 강남그룹이 강남화성 현행 도메인을 연결했다. 현행 제품 페이지에는 폴리우레아 종류만 있고 가격은 없다. 물가정보자료 게시판0건과 대리점 목록을 읽었다. 문의를 보내지 않았고 등록 대리점 존재를 일반 판매가로 바꾸지 않았다.",
+      "Jev_file": "work/industrial-goal1000/jev-polyurea-next-kangnamchem.json",
+      "Jev_result": "실제 jev-1.13.0 호출 BLOCKED0.25·210ms. 예측은 가격이나 기술 검증 성공을 뜻하지 않는다.",
+      "additional_search_leads": "다나와 T-44 17kg는 가격비교 중지, 쿠팡 T-44 3kg 검색에는 품절로 표시된다. 직접 현재 판매를 검증한 비교가가 아니며 원품 전체 세트 가격도 아니어서 B로 쓰지 않는다."
+    },
+    "decision": "같은 공급 자재의 전체 취득가격 비교는 가능하며 설치 포함 자체로 배제하지 않는다. 현재는 exact RAON 전체 자재 또는 SKF100A/B·필요 하도/상도의 일반 신품 판매가가 없어 B·예상액을 확정하지 않는다. 다른 회사 중도 한 통 가격을 완성 시스템으로 확대하지 않았다.",
+    "post_count": 0
   }
 }
