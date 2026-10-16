@@ -1,14 +1,14 @@
 {
-  "updated_at_utc": "2026-10-16T06:37:30.493846+00:00",
+  "updated_at_utc": "2026-10-16T07:10:43.607512+00:00",
   "availability_observed_at_utc": "2026-10-16T05:45:43.777865+00:00",
-  "scope": "사용자 지시에 따라 원 카메라 브래킷 분야에서 카메라 본체·영상저장장치까지 전체 owner 슬롯 예외 확장. 신규 available의 3억원 이상 차액 가능 후보 세 모델 집중 검토.",
+  "scope": "원 카메라 브래킷 분야에서 카메라 본체·영상저장장치까지 전체 owner 슬롯 예외를 적용했다. 높은 납품총액과 공급수량의 신규 available 물품에서 국내 판매 제품의 기능 범위와 손실을 공개하여 비교했다.",
   "local_selected_count": 102,
   "official_lookup_count": 70,
   "deep_review_item_count": 3,
   "parallel_search_calls": 7,
   "submission_ready_count": 0,
-  "adopted_saving_krw": "857054150",
-  "public_references_count": 171,
+  "adopted_saving_krw": "1793252750",
+  "public_references_count": 177,
   "items": [
     {
       "item_id": "24070988",
@@ -216,104 +216,6 @@
       "arithmetic_gap_is_adopted_saving": false,
       "next_action": "이미 등록된 물품의 신규 중복제출은 하지 않는다. 확보한 실제 판매가·브래킷·전원 근거는 다른 미등록 PTZ 모델에만 재사용한다.",
       "availability_observed_at_utc": "2026-10-16T06:08:43.437686+00:00"
-    },
-    {
-      "item_id": "25055159",
-      "model": "BRGT-B08040RAI",
-      "availability_at_fetch": {
-        "state": "available",
-        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
-      },
-      "event_api_url": "https://hackathon.savetax.now/v1/events/current/items/25055159",
-      "catalog_api_url": "https://api.savetax.now/v1/items/25055159",
-      "source_release": "r20261011T012137",
-      "fact_total": 7,
-      "scorable_facts": 7,
-      "quantity": "489",
-      "comparable_amount_krw": "884112000",
-      "min_unit_krw": "1808000",
-      "max_unit_krw": "1808000",
-      "unique_requests": 7,
-      "references": [
-        {
-          "fact_id": "dl:25055159:002370098_1:R25TB01082105:2",
-          "listing_id": "002370098_1170001077",
-          "contract_no": "002370098_1",
-          "request_no": "R25TB01082105",
-          "line_no": "2"
-        },
-        {
-          "fact_id": "dl:25055159:002370098_1:R26TB01529768:3",
-          "listing_id": "002370098_1170001077",
-          "contract_no": "002370098_1",
-          "request_no": "R26TB01529768",
-          "line_no": "3"
-        },
-        {
-          "fact_id": "dl:25055159:002370098_1:R26TB01755971:4",
-          "listing_id": "002370098_1170001077",
-          "contract_no": "002370098_1",
-          "request_no": "R26TB01755971",
-          "line_no": "4"
-        },
-        {
-          "fact_id": "dl:25055159:002370098_1:R26TB01897977:2",
-          "listing_id": "002370098_1170001077",
-          "contract_no": "002370098_1",
-          "request_no": "R26TB01897977",
-          "line_no": "2"
-        },
-        {
-          "fact_id": "dl:25055159:002370098_1:R26TB02250836:2",
-          "listing_id": "002370098_1170001077",
-          "contract_no": "002370098_1",
-          "request_no": "R26TB02250836",
-          "line_no": "2"
-        },
-        {
-          "fact_id": "dl:25055159:002370098_1:R26TB02251694:2",
-          "listing_id": "002370098_1170001077",
-          "contract_no": "002370098_1",
-          "request_no": "R26TB02251694",
-          "line_no": "2"
-        },
-        {
-          "fact_id": "dl:25055159:002370098_1:R26TB02298338:4",
-          "listing_id": "002370098_1170001077",
-          "contract_no": "002370098_1",
-          "request_no": "R26TB02298338",
-          "line_no": "4"
-        }
-      ],
-      "research_status": "원품 상세 사양 확보 / 발견된 구형 대체품 품절 및 주요 사양 차이로 현재 조합 보류",
-      "original_verified_core": {
-        "form": "불릿",
-        "sensor": "1/1.8 CMOS",
-        "resolution": "3840×2160 최대30fps",
-        "optical_zoom": "4x",
-        "focal_length_mm": "4.1~16.4",
-        "fov_horizontal_deg": "103.9~26",
-        "ai": "사람·자동차·오토바이·자전거·번호판 등 객체 감지 및 속성값 제공",
-        "interface": "10/100/1000 Ethernet",
-        "certification": "KC/IP67/IK10/TTA/녹색인증",
-        "ir_range": "공식 item 50m, 제조사 현행 카탈로그 30m — 출처 차이를 보존"
-      },
-      "original_spec_source": {
-        "url": "http://www.brinfo.co.kr/assets/cat-p2.pdf",
-        "pdf_page": 3,
-        "printed_page": 33,
-        "verification": "PDF 페이지 직접 실견 및 공식 catalog-data.js 교차 확인"
-      },
-      "original_data_url": "http://www.brinfo.co.kr/catalog-data.js",
-      "excluded_offer": {
-        "actual_model": "DS-2CD2686G2-IZS",
-        "source_url": "https://www.hikvisionmall.co.kr/product/detail.html?product_no=67",
-        "display_price_krw": "314500",
-        "reason": "필수 제품선택에서 구형2686은 품절이며 후속2683 선택이 별도로 있다. 314,500원을 구형 모델의 구매 가능한 단가로 채택하지 않는다. 제조사2686은2.8~12mm·8MP24fps로 원품4.1~16.4mm·30fps와도 다르다.",
-        "observed_at_utc": "2026-10-16T05:47:51+00:00"
-      },
-      "comparison_unit_cost_krw": null,
-      "next_action": "긴 초점거리·30fps·AI 속성 및 보안인증을 포함하는 모델의 실제 판매가가 발견되면 재검토한다. 줌 배율만 같은 범용 모델의 가격을 절감액으로 쓰지 않는다."
     },
     {
       "item_id": "25560065",
@@ -1503,6 +1405,307 @@
         "https://assets.hikvision.com/prd/public/all/doc/m000060963/Datasheet-of-DS-7608NI-M2_V4.63.010_20240606.pdf",
         "https://itncctv.kr/web/upload/NNEditor/20260306/copy-1772774467-860_002.jpg"
       ]
+    },
+    {
+      "item_id": "25055159",
+      "model": "BRGT-B08040RAI",
+      "research_status": "접수 완료 / lint 비동기 검사 결과 미확인",
+      "submission_id": "41a5fe44-f0b9-4983-82e1-09bd3297c176",
+      "submission_state": "accepted",
+      "accepted_at_utc": "2026-10-16T07:08:55.454Z",
+      "quantity": "489",
+      "comparable_amount_krw": "884112000",
+      "fact_total": 7,
+      "scorable_facts": 7,
+      "unique_requests": 7,
+      "benchmark_unit_price_krw": "568600",
+      "preview_score_amount_krw": "606066600",
+      "lint_status": "pending",
+      "event_api_url": "https://hackathon.savetax.now/v1/events/current/items/25055159",
+      "catalog_api_url": "https://api.savetax.now/v1/items/25055159",
+      "source_release": "r20261011T012137",
+      "references": [
+        {
+          "fact_id": "dl:25055159:002370098_1:R25TB01082105:2",
+          "listing_id": "002370098_1170001077",
+          "contract_no": "002370098_1",
+          "request_no": "R25TB01082105",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:25055159:002370098_1:R26TB01529768:3",
+          "listing_id": "002370098_1170001077",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01529768",
+          "line_no": "3"
+        },
+        {
+          "fact_id": "dl:25055159:002370098_1:R26TB01755971:4",
+          "listing_id": "002370098_1170001077",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01755971",
+          "line_no": "4"
+        },
+        {
+          "fact_id": "dl:25055159:002370098_1:R26TB01897977:2",
+          "listing_id": "002370098_1170001077",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01897977",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:25055159:002370098_1:R26TB02250836:2",
+          "listing_id": "002370098_1170001077",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB02250836",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:25055159:002370098_1:R26TB02251694:2",
+          "listing_id": "002370098_1170001077",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB02251694",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:25055159:002370098_1:R26TB02298338:4",
+          "listing_id": "002370098_1170001077",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB02298338",
+          "line_no": "4"
+        }
+      ],
+      "actual_alternative_models": [
+        "DS-2CD2686G2-IZS"
+      ],
+      "price_source_urls": [
+        "https://btobcctv.com/product/detail.html?product_no=85663"
+      ],
+      "cost_breakdown_krw": {
+        "camera_vat_included": "565000",
+        "basic_shipping_per_unit": "3600"
+      },
+      "retail_observed_shipping_included": false,
+      "vat_basis": "실제 판매 화면의 부가세 포함가 문장 확인. 표시가565,000원에 착불3,600원을 가산했다. 추가 세금예산 없음.",
+      "observed_at_utc": "2026-10-16T07:07:00+00:00",
+      "comparison_scope": "1/1.8형 8MP 야간 IP 불릿 카메라와 사람·차량 분류 기능의 본체 취득가격 비교다. 최대 24fps와 수평 망원 화각 46도, IP66을 허용하는 용도로 한정한다. 원품의 30fps·26도 망원·IP67·4스트림·기가랜·512GB 저장·전용 보안 및 연동·TTA 인증을 요구하는 용도의 동등성은 확인하지 않았다. 원품은 현장설치도이며 본 비교에는 설치·배선·시험·2년 보증을 별도 금액으로 반영하지 않았다. 기본 택배 3,600원을 매대마다 더했으며 도서산간 추가운임은 미확인이다. 기관명만으로 실제 납품 장소를 확정하지 않는다.",
+      "differences": "원품 BRGT-B08040RAI와 판매품 Hikvision DS-2CD2686G2-IZS는 다른 제조사와 모델이다. 실제 판매 상세 이미지의 1/1.8형·8MP 60Hz 24fps·2.8~12mm·IR60m·IP66 사양을 적용했다. 구형20fps 또는 다른 후속 G2H의 사양을 섞지 않았다. 원품8MP 30fps에 비해 대체품8MP는24fps이며, 대체품30fps는3200×1800 이하에서만 된다. 원품4.1~16.4mm·수평103.9~26도에 비해 대체품2.8~12mm·108~46도로 망원 범위가 줄어든다. 원품IP67에 비해 대체품IP66이므로 침수 정격 동등성을 주장하지 않는다. IK10은 양쪽에서 확인했다. 원품4스트림·기가랜·SD최대512GB가 대체품3스트림·100Mbps LAN·SD최대256GB로 줄어든다. 원품의 사람·자동차·오토바이·자전거·번호판 감지/속성 출력과 달리 대체품은 사람/차량 분류, 얼굴캡처, 선침범·침입·영역출입 감지를 확인했다. 원품의 모든 분석 속성과 동등하다고 주장하지 않는다. 대체품은 HTTPS 암호화를 명시하지만 원품의 전용 CCTV 영상암호화 시스템·특허·TTA·녹색인증 및 전용 연동을 충족한다고 주장하지 않는다. 원품 현장설치도·하자2년과 판매품 카메라 본체 택배 공급을 구분하며 설치 및 보증 동등성은 확인하지 않았다. 대체품은12VDC 최대13W 또는802.3at PoE 최대15W이며 원품12VDC/PoE 최대15W와 비교했다. 기존 PoE 장비·체결홀·녹화기의 개별 현장 호환은 확인하지 않았다.",
+      "spec_mapping": [
+        {
+          "attribute": "영상·센서",
+          "original": "1/1.8형 CMOS,3840×2160 최대30fps,공식 SNR50dB",
+          "alternative": "실제 판매 상세1/1.8형 CMOS,8MP 60Hz24fps,3200×1800 이하30fps,SNR≥52dB;8MP 프레임 손실"
+        },
+        {
+          "attribute": "전동 렌즈·화각",
+          "original": "4.1~16.4mm,수평103.9~26도",
+          "alternative": "2.8~12mm,수평108~46도;26도 망원 용도 미대응"
+        },
+        {
+          "attribute": "야간",
+          "original": "공식 item IR50m / 제조사 카탈로그30m로 자료 차이 보존",
+          "alternative": "판매 표제50m,실제 상세 규격 이미지 IR60m;실제 현장 식별거리 동등성은 미확인"
+        },
+        {
+          "attribute": "영상 처리",
+          "original": "H.264/H.265/MJPEG,4스트림",
+          "alternative": "H.264/H.265/MJPEG,3스트림;서드스트림은 특정 설정에서 지원"
+        },
+        {
+          "attribute": "감지·분석",
+          "original": "사람·자동차·오토바이·자전거·번호판 감지/속성",
+          "alternative": "사람/차량 분류,얼굴캡처,선침범·침입·영역출입;원품 모든 객체/속성 출력 미대응"
+        },
+        {
+          "attribute": "보호·보안",
+          "original": "IP67/IK10,TTA·녹색인증,전용 영상암호화 시스템",
+          "alternative": "IP66/IK10,HTTPS 암호화;침수등급 하향,TTA·녹색·전용 암호 호환 미확인"
+        },
+        {
+          "attribute": "저장·네트워크",
+          "original": "기가랜,SD최대512GB",
+          "alternative": "100Mbps LAN,SD최대256GB,ONVIF S/G/T"
+        },
+        {
+          "attribute": "전원·장착",
+          "original": "12VDC/PoE,최대15W,일체형 장착발",
+          "alternative": "12VDC 최대13W/802.3at PoE 최대15W,일체형 장착발;기존 전원·체결홀의 현장 호환 미확인"
+        },
+        {
+          "attribute": "공급·보증",
+          "original": "현장설치도,하자보수2년",
+          "alternative": "카메라 본체 택배 공급,현장설치 및2년보증 동등성 미확인"
+        }
+      ],
+      "spec_source_urls": [
+        "https://api.savetax.now/v1/items/25055159",
+        "https://hikv.cafe24.com/SPEC/DS-2CD2686G2-IZS.jpg",
+        "http://www.brinfo.co.kr/assets/cat-p2.pdf"
+      ],
+      "superseded_sources": [
+        {
+          "url": "https://www.mpsmall.co.kr/goods/goods_view.php?goodsNo=25313",
+          "price": "820000",
+          "status": "표시가의 VAT 미확인으로 보류. 실제 채택가격 아님"
+        },
+        {
+          "url": "https://item.gmarket.co.kr/Item?goodsCode=2675495736",
+          "price": "469000",
+          "status": "기본 모델명 판매가 원문은 확인됐으나 실제 공급 세대 및 VAT 포함 원문 미확정. 이 접수 가격으로 사용하지 않음"
+        },
+        {
+          "url": "https://btobcctv.com/product/detail.html?product_no=85663",
+          "price": "282000",
+          "status": "검색/웹에 남은 과거 숫자. 실제565000원으로 대체"
+        }
+      ]
+    },
+    {
+      "item_id": "25063931",
+      "model": "BRLT-B08040RAI",
+      "research_status": "접수 완료 / lint 비동기 검사 결과 미확인",
+      "submission_id": "32fc75ec-2ed1-4576-a9ec-dc74d20c0f92",
+      "submission_state": "accepted",
+      "accepted_at_utc": "2026-10-16T07:09:11.446Z",
+      "quantity": "205",
+      "comparable_amount_krw": "446695000",
+      "fact_total": 6,
+      "scorable_facts": 6,
+      "unique_requests": 6,
+      "benchmark_unit_price_krw": "568600",
+      "preview_score_amount_krw": "330132000",
+      "lint_status": "pending",
+      "event_api_url": "https://hackathon.savetax.now/v1/events/current/items/25063931",
+      "catalog_api_url": "https://api.savetax.now/v1/items/25063931",
+      "source_release": "r20261011T012137",
+      "references": [
+        {
+          "fact_id": "dl:25063931:002370098_1:R25TB00869311:10",
+          "listing_id": "002370098_1170001078",
+          "contract_no": "002370098_1",
+          "request_no": "R25TB00869311",
+          "line_no": "10"
+        },
+        {
+          "fact_id": "dl:25063931:002370098_1:R25TB01044236:4",
+          "listing_id": "002370098_1170001078",
+          "contract_no": "002370098_1",
+          "request_no": "R25TB01044236",
+          "line_no": "4"
+        },
+        {
+          "fact_id": "dl:25063931:002370098_1:R26TB01543401:2",
+          "listing_id": "002370098_1170001078",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01543401",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:25063931:002370098_1:R26TB01841982:4",
+          "listing_id": "002370098_1170001078",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01841982",
+          "line_no": "4"
+        },
+        {
+          "fact_id": "dl:25063931:002370098_1:R26TB01998479:2",
+          "listing_id": "002370098_1170001078",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB01998479",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:25063931:002370098_1:R26TB02134523:3",
+          "listing_id": "002370098_1170001078",
+          "contract_no": "002370098_1",
+          "request_no": "R26TB02134523",
+          "line_no": "3"
+        }
+      ],
+      "actual_alternative_models": [
+        "DS-2CD2686G2-IZS"
+      ],
+      "price_source_urls": [
+        "https://btobcctv.com/product/detail.html?product_no=85663"
+      ],
+      "cost_breakdown_krw": {
+        "camera_vat_included": "565000",
+        "basic_shipping_per_unit": "3600"
+      },
+      "retail_observed_shipping_included": false,
+      "vat_basis": "실제 판매 화면의 부가세 포함가 문장 확인. 표시가565,000원에 착불3,600원을 가산했다. 추가 세금예산 없음.",
+      "observed_at_utc": "2026-10-16T07:07:00+00:00",
+      "comparison_scope": "1/1.8형 8MP 야간 IP 불릿 카메라와 사람·차량 분류 기능의 본체 취득가격 비교다. 최대 24fps와 수평 망원 화각 46도, IP66을 허용하는 용도로 한정한다. 원품의 30fps·26도 망원·IP67·4스트림·기가랜·512GB 저장·전용 보안 및 연동·TTA 인증을 요구하는 용도의 동등성은 확인하지 않았다. 원품은 현장설치도이며 본 비교에는 설치·배선·시험·2년 보증을 별도 금액으로 반영하지 않았다. 기본 택배 3,600원을 매대마다 더했으며 도서산간 추가운임은 미확인이다. 기관명만으로 실제 납품 장소를 확정하지 않는다.",
+      "differences": "원품 BRLT-B08040RAI와 판매품 Hikvision DS-2CD2686G2-IZS는 다른 제조사와 모델이다. 실제 판매 상세 이미지의 1/1.8형·8MP 60Hz 24fps·2.8~12mm·IR60m·IP66 사양을 적용했다. 구형20fps 또는 다른 후속 G2H의 사양을 섞지 않았다. 원품8MP 30fps에 비해 대체품8MP는24fps이며, 대체품30fps는3200×1800 이하에서만 된다. 원품4.1~16.4mm·수평103.9~26도에 비해 대체품2.8~12mm·108~46도로 망원 범위가 줄어든다. 원품IP67에 비해 대체품IP66이므로 침수 정격 동등성을 주장하지 않는다. IK10은 양쪽에서 확인했다. 원품4스트림·기가랜·SD최대512GB가 대체품3스트림·100Mbps LAN·SD최대256GB로 줄어든다. 원품의 사람·자동차·오토바이·자전거·번호판 감지/속성 출력과 달리 대체품은 사람/차량 분류, 얼굴캡처, 선침범·침입·영역출입 감지를 확인했다. 원품의 모든 분석 속성과 동등하다고 주장하지 않는다. 대체품은 HTTPS 암호화를 명시하지만 원품의 전용 CCTV 영상암호화 시스템·특허·TTA·녹색인증 및 전용 연동을 충족한다고 주장하지 않는다. 원품 현장설치도·하자2년과 판매품 카메라 본체 택배 공급을 구분하며 설치 및 보증 동등성은 확인하지 않았다. 대체품은12VDC 최대13W 또는802.3at PoE 최대15W이며 원품12VDC/PoE 최대15W와 비교했다. 기존 PoE 장비·체결홀·녹화기의 개별 현장 호환은 확인하지 않았다.",
+      "spec_mapping": [
+        {
+          "attribute": "영상·센서",
+          "original": "1/1.8형 CMOS,3840×2160 최대30fps,공식 SNR50dB",
+          "alternative": "실제 판매 상세1/1.8형 CMOS,8MP 60Hz24fps,3200×1800 이하30fps,SNR≥52dB;8MP 프레임 손실"
+        },
+        {
+          "attribute": "전동 렌즈·화각",
+          "original": "4.1~16.4mm,수평103.9~26도",
+          "alternative": "2.8~12mm,수평108~46도;26도 망원 용도 미대응"
+        },
+        {
+          "attribute": "야간",
+          "original": "공식 item IR50m / 제조사 카탈로그30m로 자료 차이 보존",
+          "alternative": "판매 표제50m,실제 상세 규격 이미지 IR60m;실제 현장 식별거리 동등성은 미확인"
+        },
+        {
+          "attribute": "영상 처리",
+          "original": "H.264/H.265/MJPEG,4스트림",
+          "alternative": "H.264/H.265/MJPEG,3스트림;서드스트림은 특정 설정에서 지원"
+        },
+        {
+          "attribute": "감지·분석",
+          "original": "사람·자동차·오토바이·자전거·번호판 감지/속성",
+          "alternative": "사람/차량 분류,얼굴캡처,선침범·침입·영역출입;원품 모든 객체/속성 출력 미대응"
+        },
+        {
+          "attribute": "보호·보안",
+          "original": "IP67/IK10,TTA·녹색인증,전용 영상암호화 시스템",
+          "alternative": "IP66/IK10,HTTPS 암호화;침수등급 하향,TTA·녹색·전용 암호 호환 미확인"
+        },
+        {
+          "attribute": "저장·네트워크",
+          "original": "기가랜,SD최대512GB",
+          "alternative": "100Mbps LAN,SD최대256GB,ONVIF S/G/T"
+        },
+        {
+          "attribute": "전원·장착",
+          "original": "12VDC/PoE,최대15W,일체형 장착발",
+          "alternative": "12VDC 최대13W/802.3at PoE 최대15W,일체형 장착발;기존 전원·체결홀의 현장 호환 미확인"
+        },
+        {
+          "attribute": "공급·보증",
+          "original": "현장설치도,하자보수2년",
+          "alternative": "카메라 본체 택배 공급,현장설치 및2년보증 동등성 미확인"
+        }
+      ],
+      "spec_source_urls": [
+        "https://api.savetax.now/v1/items/25063931",
+        "https://hikv.cafe24.com/SPEC/DS-2CD2686G2-IZS.jpg",
+        "http://www.brinfo.co.kr/assets/cat-p2.pdf"
+      ],
+      "superseded_sources": [
+        {
+          "url": "https://www.mpsmall.co.kr/goods/goods_view.php?goodsNo=25313",
+          "price": "820000",
+          "status": "표시가의 VAT 미확인으로 보류. 실제 채택가격 아님"
+        },
+        {
+          "url": "https://item.gmarket.co.kr/Item?goodsCode=2675495736",
+          "price": "469000",
+          "status": "기본 모델명 판매가 원문은 확인됐으나 실제 공급 세대 및 VAT 포함 원문 미확정. 이 접수 가격으로 사용하지 않음"
+        },
+        {
+          "url": "https://btobcctv.com/product/detail.html?product_no=85663",
+          "price": "282000",
+          "status": "검색/웹에 남은 과거 숫자. 실제565000원으로 대체"
+        }
+      ]
     }
   ],
   "closed_prior_paths": {
@@ -1514,8 +1717,8 @@
     "report": "research/hardware-pmcfb.json",
     "reference_count": 279
   },
-  "posting": "조사 담당은 실 API POST를 호출하지 않았다. 총괄 검토 후 이 보고서의 VD-SD200과 EM-04B2-T 2건이 실제 accepted 접수됐다. 접수 및 공식 preview 산정액은 최종 심사 확정과 실제 예산 지급 변화 확인을 뜻하지 않는다.",
-  "accepted_submission_count": 2,
-  "accepted_preview_score_amount_krw": "857054150",
+  "posting": "조사 담당은 실 API POST를 호출하지 않았다. 총괄 검토 후 이 보고서의 VD-SD200, EM-04B2-T, BRGT-B08040RAI, BRLT-B08040RAI 4건이 실제 accepted 접수됐다. 접수와 공식 산정액은 최종 심사 확정 또는 실제 예산 지급 변화 확인을 뜻하지 않는다.",
+  "accepted_submission_count": 4,
+  "accepted_preview_score_amount_krw": "1793252750",
   "score_status_note": "접수 및 공식 preview 산정액이며 최종 lint 결과와 실제 예산 지급 변화 확인을 뜻하지 않는다."
 }
