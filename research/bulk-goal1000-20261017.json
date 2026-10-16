@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-16T19:39:45.034921+00:00",
+  "observed_at_utc": "2026-10-16T19:43:06.691682+00:00",
   "scope": "보관 콘크리트·대량 자재 후보의 10억 원 문턱 검토 및 상향 패널 대안 조사",
   "minimum_new_submission_savings_krw": "1000000000",
   "important_unit_note": "사용자 현황110억은11,000,000,000원이다. 목표1,000억까지 남은890억/50회=17.8억 원. 현재 사용자 현황은 API 미검증이다.",
@@ -7,7 +7,7 @@
   "submission_ready_count": 0,
   "new_submission_count": 0,
   "preview_count": 0,
-  "parallel_calls": 176,
+  "parallel_calls": 177,
   "jev_calls": 9,
   "environment_limits": [],
   "sources": [
@@ -40109,5 +40109,564 @@
         "comparable_amount_krw": "1242368"
       }
     ]
+  },
+  "taeil_combat_pants_followup": {
+    "observed_at_utc": "2026-10-16T19:43:06.691682+00:00",
+    "item_id": "26262520",
+    "model": "육군 사계용 하의(남군)",
+    "manufacturer": "태일비즈",
+    "business_no": "744-88-01349",
+    "state": "available",
+    "fact_count": 23,
+    "unique_request_count": 11,
+    "Q": "89077",
+    "C_krw": "3234385870",
+    "unit": "매",
+    "tax_basis": "vat_included",
+    "event_source_url": "https://hackathon.savetax.now/v1/events/current/items/26262520",
+    "catalog_source_url": "https://api.savetax.now/v1/items/26262520",
+    "listing_source_url": "https://api.savetax.now/v1/listings/R26TA01886743000000002",
+    "delivery_terms": "납품장소 하차도",
+    "original_archive": {
+      "source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA01886743000000002",
+      "name": "육군 전투복 규격서 등.zip",
+      "bytes": 6921722,
+      "sha256": "47590d30ccb06e2a4852054f153f800cdd3ad300ed1d4167e37fad940a7d6f24",
+      "actual_inventory": [
+        {
+          "name": "조달청 군수품 구매(제조)계약 추가특수조건_전투복.hwp",
+          "bytes": 112640,
+          "compressed": 96841,
+          "zip_name": "조달청 군수품 구매(제조)계약 추가특수조건_전투복.hwp"
+        },
+        {
+          "name": "KDS 8305-3012-3(원단,위장무늬형).hwpx",
+          "bytes": 91409,
+          "compressed": 82338,
+          "zip_name": "KDS 8305-3012-3(원단,위장무늬형).hwpx"
+        },
+        {
+          "name": "전투복 국방규격(KDS 8415-4011-11).hwpx",
+          "bytes": 7086500,
+          "compressed": 6741861,
+          "zip_name": "전투복 국방규격(KDS 8415-4011-11).hwpx"
+        }
+      ],
+      "read_documents": [
+        {
+          "i": 1,
+          "path": "work/bulk-goal1000/taeil-pants-original/unpacked/KDS 8305-3012-3(원단,위장무늬형).hwpx",
+          "bytes": 91409,
+          "sha256": "13ae2246485bfc3413f1551ca9559b9506ea59ccd7c244b138ac1a46126ebe25",
+          "format": "hwpx",
+          "revision_review": {
+            "status": "no_known_markers",
+            "scope": "hwpx_section_xml",
+            "marker_counts": {
+              "insertBegin": 0,
+              "insertEnd": 0,
+              "deleteBegin": 0,
+              "deleteEnd": 0
+            },
+            "text_policy": "revision_accept_reject_not_applied"
+          },
+          "text_chars": 12764,
+          "reader_expanded_limit_bytes": 100000000
+        },
+        {
+          "i": 2,
+          "path": "work/bulk-goal1000/taeil-pants-original/unpacked/전투복 국방규격(KDS 8415-4011-11).hwpx",
+          "bytes": 7086500,
+          "sha256": "e64ba3b9fc4f507847df92b2412ff513445e3bfc0ad33583d7df3f093d5720b3",
+          "format": "hwpx",
+          "revision_review": {
+            "status": "markers_detected",
+            "scope": "hwpx_section_xml",
+            "marker_counts": {
+              "insertBegin": 1612,
+              "insertEnd": 1612,
+              "deleteBegin": 171,
+              "deleteEnd": 171
+            },
+            "text_policy": "revision_accept_reject_not_applied"
+          },
+          "text_chars": 70372,
+          "reader_expanded_limit_bytes": 250000000
+        },
+        {
+          "i": 3,
+          "path": "work/bulk-goal1000/taeil-pants-original/unpacked/조달청 군수품 구매(제조)계약 추가특수조건_전투복.hwp",
+          "bytes": 112640,
+          "sha256": "be73a0cbf016da1a776bd3e428bd9ed48fbd7707edd08c0a162aba2ee30a0d35",
+          "format": "hwp",
+          "revision_review": {
+            "status": "not_assessed",
+            "scope": "hwp_not_assessed",
+            "marker_counts": null,
+            "text_policy": "revision_accept_reject_not_applied"
+          },
+          "text_chars": 9420,
+          "reader_expanded_limit_bytes": 100000000
+        }
+      ],
+      "read_safety_note": "원단 HWPX는 기본한도로 읽었다. 완성복 HWPX는 중복 항목이 없으며 펼친 총용량199,812,711bytes 대부분이BMP임을 검사한 뒤 기존 리더의 명시적 max_expanded_bytes=250,000,000으로 본문을 읽었다. 공통코드·보호검사를 수정하거나 매크로를 실행하지 않았다."
+    },
+    "original_scope_review": {
+      "product_kind": "신품 남군 사계용 전투복 하의1매. 상하 세트·하계용·중고복과 구별한다.",
+      "cloth_standard": "KDS8305-3012-3 원단,위장무늬형",
+      "cloth_revision_review": {
+        "status": "no_known_markers",
+        "scope": "hwpx_section_xml",
+        "marker_counts": {
+          "insertBegin": 0,
+          "insertEnd": 0,
+          "deleteBegin": 0,
+          "deleteEnd": 0
+        },
+        "text_policy": "revision_accept_reject_not_applied"
+      },
+      "all_season_fabric": "폴리에스터73±5%·레이온27±5%,1/2능직,경사 일반PET/레이온 혼방,위사 기능성PET/레이온 혼방+고신축PET 교대",
+      "selected_all_season_fabric_criteria": {
+        "mass_g_per_m2_max": "236",
+        "tensile_warp_N_min": "730",
+        "tensile_weft_N_min": "540",
+        "tear_N_min_both": "30",
+        "elongation_weft_percent_min": "10",
+        "recovery_percent_min": "65",
+        "antibacterial_after_3_washes_percent_min": "99",
+        "OMMC_grade_min": "2",
+        "drying_minutes_max": "55"
+      },
+      "camouflage_core": "육·해·공군용5도색 디지털 위장무늬이며 SPS-DTAQ T0010에 따른 색상별 근적외선 반사율 기준을 별도 명시한다.",
+      "summer_fabric_not_mixed": "하계용은70±5%PET/30±5%레이온·변화평직RIPSTOP·200g/㎡ 이하로 구분된다. 하계값을 사계용에 옮기지 않는다.",
+      "finished_uniform_standard": "KDS8415-4011-11",
+      "finished_uniform_revision_review": {
+        "status": "markers_detected",
+        "scope": "hwpx_section_xml",
+        "marker_counts": {
+          "insertBegin": 1612,
+          "insertEnd": 1612,
+          "deleteBegin": 171,
+          "deleteEnd": 171
+        },
+        "text_policy": "revision_accept_reject_not_applied"
+      },
+      "revision_limitation": "완성복 HWPX에 삽입1,612쌍·삭제171쌍이 있어 추출에는 변경 전후 문구가 함께 나올 수 있다. 봉제·호수별 치수·부자재의 최종판을 임의 선택하거나 변경추적 표시를 시각 검증했다고 주장하지 않는다. 별도 원단규격의 no_known_markers와 구별한다.",
+      "comparison_policy": "모든 납품검사를 같은 성적서로 충족하라는 접수조건으로 확대하지 않는다. 다만 위장·흡한속건·신축·내구를 갖춘 완성 하의의 실제 판매모델이 필요하며, 디지털무늬 일반 작업복이 원품보다 낫다고 제목만으로 선언하지 않는다."
+    },
+    "price_search": {
+      "new_parallel_call_ids": [
+        177
+      ],
+      "same_manufacturer_finding": "태일비즈·정확 사계용 하의·사업자 검색에서 실제 일반 신품 판매처를 확인하지 못했다. 검색의 입찰·계약 단가와 공공 실적 소개를 소매 일반가로 쓰지 않았다.",
+      "alternative_finding": "새품/중고와 하의/상하세트가 섞인 일반 검색 목록만으로 더 좋은 완성 대안을 확정하지 않았다. 확인되지 않은 검색 노출가격은 B로 사용하지 않았다.",
+      "retail_price_verified": false,
+      "higher_performance_complete_alternative_verified": false
+    },
+    "conclusion": "원품의 신품 사계용 남군 하의 범위와 별도 원단 기능, 실제 원ZIP과 완성복 변경추적 문제를 보존했다. 적격 일반 판매가와 더 나은 완성 대안이 없어 B·예상액은 미확정이다.",
+    "benchmark_B_krw": null,
+    "adopted_savings_krw": null,
+    "ready": false,
+    "preview_count": 0,
+    "post_count": 0,
+    "fact_references": [
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02051403:1",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02051403",
+        "line_no": "1",
+        "request_date": "2026-06-23",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "3865",
+        "comparable_amount_krw": "140338150"
+      },
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02051403:2",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02051403",
+        "line_no": "2",
+        "request_date": "2026-06-23",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "3866",
+        "comparable_amount_krw": "140374460"
+      },
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02051403:3",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02051403",
+        "line_no": "3",
+        "request_date": "2026-06-23",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "3866",
+        "comparable_amount_krw": "140374460"
+      },
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02051407:1",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02051407",
+        "line_no": "1",
+        "request_date": "2026-06-23",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "4865",
+        "comparable_amount_krw": "176648150"
+      },
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02051407:2",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02051407",
+        "line_no": "2",
+        "request_date": "2026-06-23",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "4865",
+        "comparable_amount_krw": "176648150"
+      },
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02051407:3",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02051407",
+        "line_no": "3",
+        "request_date": "2026-06-23",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "4865",
+        "comparable_amount_krw": "176648150"
+      },
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02051504:1",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02051504",
+        "line_no": "1",
+        "request_date": "2026-06-23",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "150",
+        "comparable_amount_krw": "5446500"
+      },
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02051516:1",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02051516",
+        "line_no": "1",
+        "request_date": "2026-06-23",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "2700",
+        "comparable_amount_krw": "98037000"
+      },
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02051625:1",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02051625",
+        "line_no": "1",
+        "request_date": "2026-06-23",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "150",
+        "comparable_amount_krw": "5446500"
+      },
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02051634:1",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02051634",
+        "line_no": "1",
+        "request_date": "2026-06-23",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "140",
+        "comparable_amount_krw": "5083400"
+      },
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02051639:1",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02051639",
+        "line_no": "1",
+        "request_date": "2026-06-23",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "300",
+        "comparable_amount_krw": "10893000"
+      },
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02055844:1",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02055844",
+        "line_no": "1",
+        "request_date": "2026-06-23",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "4865",
+        "comparable_amount_krw": "176648150"
+      },
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02055844:2",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02055844",
+        "line_no": "2",
+        "request_date": "2026-06-23",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "4865",
+        "comparable_amount_krw": "176648150"
+      },
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02055844:3",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02055844",
+        "line_no": "3",
+        "request_date": "2026-06-23",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "4865",
+        "comparable_amount_krw": "176648150"
+      },
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02316912:1",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02316912",
+        "line_no": "1",
+        "request_date": "2026-09-15",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "4933",
+        "comparable_amount_krw": "179117230"
+      },
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02316912:2",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02316912",
+        "line_no": "2",
+        "request_date": "2026-09-15",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "4933",
+        "comparable_amount_krw": "179117230"
+      },
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02316912:3",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02316912",
+        "line_no": "3",
+        "request_date": "2026-09-15",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "4934",
+        "comparable_amount_krw": "179153540"
+      },
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02316915:1",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02316915",
+        "line_no": "1",
+        "request_date": "2026-09-15",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "5083",
+        "comparable_amount_krw": "184563730"
+      },
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02316915:2",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02316915",
+        "line_no": "2",
+        "request_date": "2026-09-15",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "5083",
+        "comparable_amount_krw": "184563730"
+      },
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02316915:3",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02316915",
+        "line_no": "3",
+        "request_date": "2026-09-15",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "5084",
+        "comparable_amount_krw": "184600040"
+      },
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02316922:1",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02316922",
+        "line_no": "1",
+        "request_date": "2026-09-15",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "4933",
+        "comparable_amount_krw": "179117230"
+      },
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02316922:2",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02316922",
+        "line_no": "2",
+        "request_date": "2026-09-15",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "4933",
+        "comparable_amount_krw": "179117230"
+      },
+      {
+        "fact_id": "dl:26262520:R26TA01886743:R26TB02316922:3",
+        "listing_id": "R26TA01886743000000002",
+        "contract_no": "R26TA01886743",
+        "request_no": "R26TB02316922",
+        "line_no": "3",
+        "request_date": "2026-09-15",
+        "unit_price_krw": "36310",
+        "comparison_basis_id": "basis:매:vat_included",
+        "basis_id": "basis:매:vat_included",
+        "unit": "매",
+        "tax_basis": "vat_included",
+        "quantity": "4934",
+        "comparable_amount_krw": "179153540"
+      }
+    ]
+  },
+  "old_hold_targeted_refresh_20261017": {
+    "observed_at_utc": "2026-10-16T19:44:14.746016+00:00",
+    "reason": "옛 on_hold의 해제시각 원본은 이 Mac에 복원되지 않았다. 큰 품목9개에만 표적 신선 조회를 했고 모두 claimed여서 판매 조사는 하지 않았다.",
+    "items": [
+      {
+        "item_id": "23697637",
+        "state": "claimed",
+        "source_file": "work/bulk-goal1000/lookup-turf-old-holds-refresh.json"
+      },
+      {
+        "item_id": "23729676",
+        "state": "claimed",
+        "source_file": "work/bulk-goal1000/lookup-turf-old-holds-refresh.json"
+      },
+      {
+        "item_id": "25446059",
+        "state": "claimed",
+        "source_file": "work/bulk-goal1000/lookup-turf-old-holds-refresh.json"
+      },
+      {
+        "item_id": "24928172",
+        "state": "claimed",
+        "source_file": "work/bulk-goal1000/lookup-turf-old-holds-refresh.json"
+      },
+      {
+        "item_id": "24224185",
+        "state": "claimed",
+        "source_file": "work/bulk-goal1000/lookup-turf-old-holds-refresh.json"
+      },
+      {
+        "item_id": "24523459",
+        "state": "claimed",
+        "source_file": "work/bulk-goal1000/lookup-turf-old-holds-refresh.json"
+      },
+      {
+        "item_id": "25300656",
+        "state": "claimed",
+        "source_file": "work/bulk-goal1000/lookup-turf-old-holds-refresh.json"
+      },
+      {
+        "item_id": "23947285",
+        "state": "claimed",
+        "source_file": "work/bulk-goal1000/lookup-dell-hdd-old-holds-refresh.json"
+      },
+      {
+        "item_id": "25525113",
+        "state": "claimed",
+        "source_file": "work/bulk-goal1000/lookup-dell-hdd-old-holds-refresh.json"
+      }
+    ],
+    "new_qualified_candidate_count": 0
   }
 }
