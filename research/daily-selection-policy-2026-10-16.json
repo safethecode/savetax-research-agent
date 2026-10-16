@@ -13,16 +13,26 @@
   "acceptance_rule": "공식 fact의 수량·금액·단위·세금 기준을 쓰고 판매 근거와 사양 대응을 검토한다. 예상액은 최종 인정액이나 실제 예산 절감액이 아니다.",
   "existing_submissions": "유지",
   "progress": {
-    "accepted_at_utc": "2026-10-16T07:43:38.314Z",
-    "submission_id": "975e811a-4b1e-4c1a-932d-1b1c05330673",
-    "item_id": "25668782",
-    "amount_krw": "1128470000",
-    "remaining_daily_claims": 2,
+    "submissions": [
+      {
+        "submission_id": "975e811a-4b1e-4c1a-932d-1b1c05330673",
+        "item_id": "25668782",
+        "amount_krw": "1128470000",
+        "accepted_at_utc": "2026-10-16T07:43:38.314Z"
+      },
+      {
+        "submission_id": "17221199-9df4-4c24-babc-cf9501785d3b",
+        "item_id": "25451683",
+        "amount_krw": "803600000",
+        "accepted_at_utc": "2026-10-16T08:16:12.079Z"
+      }
+    ],
+    "remaining_daily_claims": 1,
     "minimum_each_remaining_krw": "600000000",
-    "target_sum_of_two_remaining_krw": "1871530000",
-    "cumulative_accepted_count": 45,
-    "cumulative_accepted_amount_krw": "9807881979",
-    "status_note": "사용자가 이 11억 2847만 원 건의 우선 제출을 명시했다. 접수 예상액이며 최종 검증 대기다. 다음 제출 직전 공식 한도를 다시 읽는다."
+    "target_last_submission_krw": "1067930000",
+    "cumulative_accepted_count": 46,
+    "cumulative_accepted_amount_krw": "10611481979",
+    "status_note": "오늘 세 번 중 두 건이 접수됐고 한 번이 남았다. 세 건 합계 30억 원 목표를 맞추려면 남은 한 건의 예상액은 1,067,930,000원 이상이어야 한다. 실제 가격과 비용을 임의로 조정하지 않는다. 다음 접수 직전에 공식 한도를 다시 확인한다."
   },
   "implementation": "현재 prioritize 함수의 remaining=3, release_deferred=false, priority_min=600000000을 사용하고, 최종 세 건의 합계는 별도 검산한다. 새 자동 제출 기능을 구현했다는 뜻은 아니다."
 }

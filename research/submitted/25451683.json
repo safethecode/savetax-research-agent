@@ -1,0 +1,1042 @@
+{
+  "submission": {
+    "submission_id": "17221199-9df4-4c24-babc-cf9501785d3b",
+    "claim_id": "3e08481b-2614-4545-a34f-652dffab3d93",
+    "revision": 1,
+    "submission_state": "accepted",
+    "admitted_at": "2026-10-16T08:16:12.079Z",
+    "amount_krw": 803600000,
+    "verification_status": "not_started",
+    "lint_status": "pending",
+    "event_epoch": 1,
+    "ruleset_version": "rules-v1",
+    "public_path": "/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/17221199-9df4-4c24-babc-cf9501785d3b",
+    "api_path": "/v1/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/17221199-9df4-4c24-babc-cf9501785d3b",
+    "web_path": "#/submission/17221199-9df4-4c24-babc-cf9501785d3b"
+  },
+  "body": {
+    "dataset_release_id": "release-live-20261012",
+    "ruleset_version": "rules-v1",
+    "canonical_product_id": "25451683",
+    "title": "SSH-MPA500J와 AM-GBG500-NT의 500인용 인덕션 교반볶음솥 취득가격 비교",
+    "claim": "공식 납품 사실 39건의 41대·1,209,500,000원을, 현재 공개된 아미쿡 AM-GBG500-NT 완제품 및 직배송 가격 9,900,000원과 비교했다. 예상 차액은 803,600,000원이다. S2B 공급업체 공식 매뉴얼의 제시금액은 VAT 포함 판매가이며, 실제 견적 상세의 유효기간은 2026-11-15다.\n\n양쪽 모두 500인용 인덕션 가열·3날 자동 교반·볶음 조리 기능을 갖췄다. 원품 최대 110kg/회와 대체품 240L를 같은 회당 작업량으로 환산하지 않았다. 대체품 제조사는 볶음·대용량 소스·조청·팥소를 명시한다. 원품의 AI 제어·재료보호 저속모드·전동 기울임·높이 조절 후드는 같은 기능이 확인되지 않았다. 대체품은 수동 회전 핸들 구성이다. 이 자동화와 정량 작업능력이 필수인 용도를 제외한 완제품 취득가격 비교다.\n\n원품의 FDA 인증 특수 소재 주걱날과 대체품의 STS304 설명·5T CLAD 내피는 같은 소재나 인증으로 주장하지 않는다. 전력은 25.4kW와 25.5kW, 치수는 1650×1195×1415mm와 1575×1170×1050mm로 다르다. 원품의 현장설치도에 포함된 설치·전기 증설·후드·시운전·현장 서비스·보증 차이는 금액에 별도로 반영하지 않았다. 설치 완료 계약 전체의 실제 절감액을 확정하는 비교는 아니다.",
+    "comparison_scope": "500인용 인덕션 가열·3날 자동 교반·볶음 조리라는 공통 기능을 갖춘 완제품의 취득가격 비교다. 제조사와 모델이 다르다. 최대 110kg/회 정량 작업능력, AI·재료보호 저속모드, 전동 기울임, 높이 조절 후드와 동일 소재·인증까지 요구하는 용도는 포함하지 않는다. 원품의 현장설치도와 대체품의 완제품·직배송 가격을 대조했고, 설치·전기 증설·후드·시운전·서비스 차이는 별도 금액으로 산정하지 않았다. S2B 제시금액 9,900,000원은 공식 공급업체 매뉴얼의 VAT 포함 등록 기준을 적용했다. 제주 추가운임은 500,000원이며 현재 39개 기관명에는 제주 표기가 없지만, 기관명이 실제 모든 하차지를 확정하는 것은 아니다.",
+    "reproduction_notes": "공식 fact별 floor(max(C-B×Q,0))를 합산. 각 라인 근거에 계약·납품요구·라인 번호를 기재. 가격 시점 차이는 사용자 지정 대회 조사 기준에서 제외한다. 사양 대응: 제조사·모델: 신성하인스 SSH-MPA500J → 아미인터내셔널(브랜드 아미쿡) AM-GBG500-NT; 제조사와 모델이 다름; 공통 용도: 인덕션 교반볶음솥, 제조사 하부 국솥500인용 → 인덕션 자동 교반·볶음·회전 국솥500인용; 국·볶음·튀김 전용 온도 버튼; 최대 조리량: 500인용, 최대110kg/회 → 500인용,240L. 최대110kg/회 동일 성능은 미확인, L를 kg으로 환산하지 않음; 전원: 380V,60Hz,3상+N → 380V,60Hz,3상+N; 최대 전력: 25.4kW → 25.5kW,45A,차단기60A; 화력 단계: 1~8단계 → 1~8단계; 온도 조절: 공개 제조사 페이지에 수치 범위 미표기 → 60~250℃; 교반 날·궤적: 3날로 눌어붙지 않도록 골고루 교반 → 3날 틸팅형·특허 교반 궤적, 판매 상세에 볶음·건더기 요리 사진과 용례; 점성 음식 용례: 닭볶음탕 저속모드 설명 → 볶음·대용량 소스·조청·팥소 조리 명시; 원품 최대 중량 성능 동일 주장은 아님; 교반 제어: AI 모드·일반 수동 속도조절·재료보호 저속모드 → 교반 속도 조절과 국·볶음·튀김 선택. AI 적응제어·같은 재료보호 모드는 미확인; 조작부: 올인원 스마트 디스플레이 → 현재 온도·조리시간·화력·오류코드 표시, 방수 설계; 주걱 세척: 주걱 탈부착 세척·소독 → 손잡이 레버로 원터치 분리·고정; 재질: STS304·FDA 인증 특수 소재 주걱날 → 제조사 전체STS304 설명과5T CLAD 내피. 같은 FDA 소재·인증은 미확인; 국솥 기울임: 전동 자동 회전으로 소분·세척 → 회전 국솥이며 판매 사진은 수동 핸들 구성. 같은 전동 자동 기울임은 미확인; 안전: 공개 제조사 페이지의 세부 안전 목록 미확인 → 핸들 잠금·과열 센서·비상정지·뚜껑 실린더; 치수: 1650×1195×1415mm,최대높이2010mm,후드높이 조절 → 1575×1170×1050mm,후드 포함·높이 조절 미확인; 공급 범위: 공식 listing 현장설치도 → S2B 직배송 무료·30영업일 이내. 설치·전기 증설·후드·시운전 포함 여부 미확인. 사양 출처: https://ssung.kr/portfolio/ssh-mpa-500j/ https://amicook.co.kr/sub2_3_5.html https://www.s2b.kr/S2BNfiledata/remu_product/rema/2026/03/12/20260312_07211bc9-2faf-4c8a-ba40-03635fe69288.png https://www.goods.go.kr/file/readDownloadFile.do?fileId=PPMS_202605120413362990 가격·세금: 제조사 공표 S2B 물품번호와 같은 현재 견적 상세를 HTTP·native/Jev로 직접 확인했다. 세금 기준은 상품 자체 화면의 VAT 문구가 아니라 한국장애인개발원이2026-05-12배포한 S2B 공급업체 이용자 매뉴얼 PDF19p/인쇄13p 제시금액 입력란의 부가세 포함 판매금액 안내다. 제주 기관명은 공시 추가운임500000원을 매대 가산하고 다른 도서 표기는 운임 미확정 시 제외한다. 현재39개 기관명에는 해당 지역표기가 없어 전39개 B9900000원이지만 기관명 분류는 하차지 전체 지오코딩이 아니다. 수량1/필수옵션없음/990만원/견적접수버튼 활성은 부모native/Jev 확인. 실제접수·계약·구매버튼을 누르지 않았다.",
+    "lines": [
+      {
+        "fact_id": "dl:25451683:222030052_1:R25TB01057224:1",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R25TB01057224, 라인 1. 공식 fact dl:25451683:222030052_1:R25TB01057224:1, 수량 2, 비교금액 59000000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R25TB01077634:3",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R25TB01077634, 라인 3. 공식 fact dl:25451683:222030052_1:R25TB01077634:3, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R25TB01098127:1",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R25TB01098127, 라인 1. 공식 fact dl:25451683:222030052_1:R25TB01098127:1, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R25TB01115936:4",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R25TB01115936, 라인 4. 공식 fact dl:25451683:222030052_1:R25TB01115936:4, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R25TB01126873:1",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R25TB01126873, 라인 1. 공식 fact dl:25451683:222030052_1:R25TB01126873:1, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R25TB01158626:1",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R25TB01158626, 라인 1. 공식 fact dl:25451683:222030052_1:R25TB01158626:1, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R25TB01173824:3",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R25TB01173824, 라인 3. 공식 fact dl:25451683:222030052_1:R25TB01173824:3, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R25TB01206838:4",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R25TB01206838, 라인 4. 공식 fact dl:25451683:222030052_1:R25TB01206838:4, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R25TB01210808:3",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R25TB01210808, 라인 3. 공식 fact dl:25451683:222030052_1:R25TB01210808:3, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R25TB01261155:3",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R25TB01261155, 라인 3. 공식 fact dl:25451683:222030052_1:R25TB01261155:3, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R25TB01275104:1",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R25TB01275104, 라인 1. 공식 fact dl:25451683:222030052_1:R25TB01275104:1, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R25TB01285329:4",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R25TB01285329, 라인 4. 공식 fact dl:25451683:222030052_1:R25TB01285329:4, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R25TB01287880:1",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R25TB01287880, 라인 1. 공식 fact dl:25451683:222030052_1:R25TB01287880:1, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R25TB01338615:1",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R25TB01338615, 라인 1. 공식 fact dl:25451683:222030052_1:R25TB01338615:1, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R25TB01389636:1",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R25TB01389636, 라인 1. 공식 fact dl:25451683:222030052_1:R25TB01389636:1, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB01399724:2",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB01399724, 라인 2. 공식 fact dl:25451683:222030052_1:R26TB01399724:2, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB01402846:3",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB01402846, 라인 3. 공식 fact dl:25451683:222030052_1:R26TB01402846:3, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB01420487:1",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB01420487, 라인 1. 공식 fact dl:25451683:222030052_1:R26TB01420487:1, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB01536128:1",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB01536128, 라인 1. 공식 fact dl:25451683:222030052_1:R26TB01536128:1, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB01613762:2",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB01613762, 라인 2. 공식 fact dl:25451683:222030052_1:R26TB01613762:2, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB01855745:4",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB01855745, 라인 4. 공식 fact dl:25451683:222030052_1:R26TB01855745:4, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB01884559:1",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB01884559, 라인 1. 공식 fact dl:25451683:222030052_1:R26TB01884559:1, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB01928787:3",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB01928787, 라인 3. 공식 fact dl:25451683:222030052_1:R26TB01928787:3, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB01956449:1",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB01956449, 라인 1. 공식 fact dl:25451683:222030052_1:R26TB01956449:1, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB01966132:2",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB01966132, 라인 2. 공식 fact dl:25451683:222030052_1:R26TB01966132:2, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB01982353:2",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB01982353, 라인 2. 공식 fact dl:25451683:222030052_1:R26TB01982353:2, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB01996101:3",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB01996101, 라인 3. 공식 fact dl:25451683:222030052_1:R26TB01996101:3, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB02021199:1",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB02021199, 라인 1. 공식 fact dl:25451683:222030052_1:R26TB02021199:1, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB02025942:2",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB02025942, 라인 2. 공식 fact dl:25451683:222030052_1:R26TB02025942:2, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB02039412:4",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB02039412, 라인 4. 공식 fact dl:25451683:222030052_1:R26TB02039412:4, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB02044490:1",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB02044490, 라인 1. 공식 fact dl:25451683:222030052_1:R26TB02044490:1, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB02070588:2",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB02070588, 라인 2. 공식 fact dl:25451683:222030052_1:R26TB02070588:2, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB02084609:1",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB02084609, 라인 1. 공식 fact dl:25451683:222030052_1:R26TB02084609:1, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB02096602:1",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB02096602, 라인 1. 공식 fact dl:25451683:222030052_1:R26TB02096602:1, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB02106354:1",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB02106354, 라인 1. 공식 fact dl:25451683:222030052_1:R26TB02106354:1, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB02106411:3",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB02106411, 라인 3. 공식 fact dl:25451683:222030052_1:R26TB02106411:3, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB02117007:2",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB02117007, 라인 2. 공식 fact dl:25451683:222030052_1:R26TB02117007:2, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB02141700:1",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB02141700, 라인 1. 공식 fact dl:25451683:222030052_1:R26TB02141700:1, 수량 1, 비교금액 29500000원."
+          }
+        ]
+      },
+      {
+        "fact_id": "dl:25451683:222030052_1:R26TB02195392:3",
+        "benchmark_unit_price_krw": "9900000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+            "quote": "S2B 물품목록번호 202603127292398. 인덕션 교반기 자동 볶음 교반 회전식 국솥 500인용. AM-GBG500-NT / 240L / 25.5kW / 3상+N / 380V. 9,900,000원. 배송비 무료, 직배송, 제주 추가 배송비 500,000원. 견적서 유효기간 2026-11-15. 2026-10-16 실제 공개 견적 상세 확인. VAT는 상품 화면의 별도 문구가 아닌 S2B 공식 공급업체 이용자 매뉴얼 PDF 19쪽(인쇄 13쪽)의 제시금액 등록 안내를 따른다.",
+            "observed_price_krw": "9900000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": true,
+            "note": "S2B 제시금액은 공식 공급업체 매뉴얼 기준 VAT 포함이다. 본체와 표시 무료 직배송을 적용했다. 제주 추가운임은 500,000원이다. 설치·후드·전기 증설·시운전과 기존 서비스 차이를 별도 금액으로 산정하지 않았다."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 222030052_1, 납품요구 R26TB02195392, 라인 3. 공식 fact dl:25451683:222030052_1:R26TB02195392:3, 수량 2, 비교금액 59000000원."
+          }
+        ]
+      }
+    ]
+  }
+}
