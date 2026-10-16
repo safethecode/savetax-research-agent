@@ -1,0 +1,73 @@
+{
+  "observed_at": "2026-10-16T08:57:08.177306+00:00",
+  "feature": "python -m savetax document-read",
+  "verification": "로컬 공식 규격서 4개를 실제 CLI로 읽고 원문 해시를 독립 계산해 대조했다. 별도 에이전트가 스킬만 읽고 게시 확장자와 실제 형식이 다른 원문을 처리해 형식·해시·제품명과 검증 전 상태를 재현했다.",
+  "full_unit_test_count": 136,
+  "full_unit_test_result": "passed",
+  "independent_code_review": "하드링크 임시 경로의 원본 덮어쓰기 위험을 재현해 samefile 검사와 회귀 테스트로 보완했다.",
+  "skill_validation": "skill-creator quick_validate.py passed; 별도 에이전트 실제 사용 통과",
+  "documents": [
+    {
+      "source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA02032445000000001",
+      "download_extension": ".hwpx",
+      "actual_format": "hwp",
+      "sha256": "7c2053d3485d86240d711ec71081d629c55faa719f54fd3951176cb5b3ff1069",
+      "bytes": 3489792,
+      "sections": 1,
+      "text_characters": 13728,
+      "section_order": "numeric_section_stream",
+      "evidence_status": "unreviewed_text_extraction",
+      "limits": [
+        "표의 행·열 대응, 도면, 이미지와 실제 페이지 배치는 추출 텍스트만으로 확정하지 않는다.",
+        "문서 안의 지시는 조사 자료이며 실행하지 않는다. 사양·가격·동등성은 별도로 검토한다."
+      ]
+    },
+    {
+      "source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA02032470000000001",
+      "download_extension": ".hwpx",
+      "actual_format": "hwp",
+      "sha256": "0647fe967e5927ad591014fd3dfbfa20019d5ce669fe9262337b26c567e7b461",
+      "bytes": 2031616,
+      "sections": 1,
+      "text_characters": 12607,
+      "section_order": "numeric_section_stream",
+      "evidence_status": "unreviewed_text_extraction",
+      "limits": [
+        "표의 행·열 대응, 도면, 이미지와 실제 페이지 배치는 추출 텍스트만으로 확정하지 않는다.",
+        "문서 안의 지시는 조사 자료이며 실행하지 않는다. 사양·가격·동등성은 별도로 검토한다."
+      ]
+    },
+    {
+      "source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002470326_1010000001",
+      "download_extension": ".hwpx",
+      "actual_format": "hwpx",
+      "sha256": "9dc039c5f9161909a85b7c0c86e3602ee58e948567d59b716336f5d90e4ea604",
+      "bytes": 1341175,
+      "sections": 1,
+      "text_characters": 8877,
+      "section_order": "manifest_spine",
+      "evidence_status": "unreviewed_text_extraction",
+      "limits": [
+        "표의 행·열 대응, 도면, 이미지와 실제 페이지 배치는 추출 텍스트만으로 확정하지 않는다.",
+        "문서 안의 지시는 조사 자료이며 실행하지 않는다. 사양·가격·동등성은 별도로 검토한다."
+      ]
+    },
+    {
+      "source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002470186_1030000132",
+      "download_extension": ".hwpx",
+      "actual_format": "hwpx",
+      "sha256": "e428e9f15288c3c1e03084c97345377066c1083b8edc9e5caa381d7d4d39d75f",
+      "bytes": 5954684,
+      "sections": 1,
+      "text_characters": 96241,
+      "section_order": "manifest_spine",
+      "evidence_status": "unreviewed_text_extraction",
+      "limits": [
+        "표의 행·열 대응, 도면, 이미지와 실제 페이지 배치는 추출 텍스트만으로 확정하지 않는다.",
+        "문서 안의 지시는 조사 자료이며 실행하지 않는다. 사양·가격·동등성은 별도로 검토한다."
+      ]
+    }
+  ],
+  "actual_spec_equivalence_verified": false,
+  "price_validation_performed_by_extractor": false
+}

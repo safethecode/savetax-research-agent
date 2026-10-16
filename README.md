@@ -13,6 +13,7 @@
 | 다이소·다나와 원격 MCP 검색 | `savetax/market.py` |
 | JS 판매 페이지·격리 Chrome·Jev 동작 제안 | `savetax/browser.py`, `scripts/browser_mcp.py` |
 | Parallel 판매 페이지 검색 | `savetax/parallel.py` |
+| 공식 규격서의 HWP/HWPX 형식 판별·원문 해시·본문 추출 | `savetax/documents.py` |
 | 점수 본문·계약/납품요구/라인 자동 기록 | `savetax/submissions.py` |
 | 억 단위 우선·소액 후순위 대기열 | `savetax/queue.py` |
 | 제보·상태·정정과 영수증 보존 | `savetax/reports.py`, `savetax/cli.py` |
@@ -26,6 +27,8 @@ python -m savetax browser-status
 python -m savetax parallel-search --query '정확한 모델 국내 판매가' --output work/search.json
 python -m savetax browser-read --url 'https://판매처/상품' --output work/browser/product.json
 ```
+
+내려받은 한글 규격서는 `python -m savetax document-read --input work/spec.hwpx --output work/spec-text.json`으로 읽는다. 확장자 대신 실제 파일 형식을 판별하며 표·도면·사양 검증 전 상태를 보존한다. HWP 선택 의존성과 사용 범위는 [규격서 읽기](docs/document-reading.md)에 있다.
 
 ## 실행
 
@@ -55,11 +58,11 @@ python -m savetax market-search --provider daiso --query 복사용지 --limit 5
 
 ```powershell
 python -m savetax build-score --input work/verified-offer.json --output work/score-body.json
-python -m savetax score --input work/score-body.json --receipt work/score-item.json
-python -m savetax score --input work/score-body.json --receipt work/score-item.json --send
+python -m savetax score --input work/score-body.json --receipt work/score-item.json --min-saving 1000000000
+python -m savetax score --input work/score-body.json --receipt work/score-item.json --min-saving 1000000000 --send
 ```
 
-`score`는 preview의 실제 서버 예상액이 기본 1억 원 미만이면 접수하지 않고 후순위로 기록한다. preview가 신규 등록을 허용해야 하고 제출 직전 중복을 다시 조회한다. 성공한 영수증은 재실행해도 덮어쓰거나 재접수하지 않는다. 접수 결과가 불명확하면 같은 멱등 키로 결과부터 확인한다.
+`score`는 preview의 실제 서버 예상액이 `--min-saving`보다 작으면 접수하지 않고 후순위로 기록한다. 범용 명령의 기본값은 0이며 이 작업의 제출 기준을 뜻하지 않는다. 현재 작업은 `AGENTS.md`와 날짜별 선별 기록의 금액·한도를 따르며, 위 예시는 10억 원 우선 검토다. preview가 신규 등록을 허용해야 하고 제출 직전 중복을 다시 조회한다. 성공한 영수증은 재실행해도 덮어쓰거나 재접수하지 않는다. 접수 결과가 불명확하면 같은 멱등 키로 결과부터 확인한다.
 
 `queue` 입력은 `item_id`, `state`, `verified`, `eligible_for_preview`, `potential_savings_krw`를 가진 물품별 후보 목록이다.
 

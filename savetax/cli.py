@@ -238,6 +238,9 @@ def main(argv=None):
     browser_plan.add_argument('--url', required=True)
     browser_plan.add_argument('--goal', required=True)
     browser_plan.add_argument('--output', required=True)
+    document = sub.add_parser('document-read', help='로컬 HWP/HWPX 실제 형식 판별·본문 추출 (사양 검증 전)')
+    document.add_argument('--input', required=True)
+    document.add_argument('--output', required=True)
     parallel = sub.add_parser('parallel-search', help='Parallel API로 국내 판매가 검색 단서 수집')
     parallel.add_argument('--query', required=True)
     parallel.add_argument('--limit', type=int, default=5)
@@ -325,6 +328,16 @@ def main(argv=None):
                 result = runtime.read(args.url) if args.command == 'browser-read' else runtime.plan(args.url,args.goal)
                 write_json(args.output,result)
                 print('브라우저 조사 결과 저장: '+str(args.output))
+        elif args.command == 'document-read':
+            from .documents import read_document
+            source = Path(args.input)
+            output = Path(args.output)
+            targets = (output, output.with_suffix(output.suffix + '.tmp'))
+            if any(source.resolve() == target.resolve() or (target.exists() and source.samefile(target)) for target in targets):
+                raise ValueError('추출 출력 경로가 원본 문서와 겹칩니다')
+            result = read_document(args.input)
+            write_json(args.output, result)
+            print('문서 본문 추출 저장: '+str(args.output)+' (사양·표 대조 전)')
         elif args.command == 'parallel-search':
             from .parallel import ParallelClient
             from .secrets import activated_environment
