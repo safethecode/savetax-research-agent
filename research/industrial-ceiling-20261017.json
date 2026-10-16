@@ -1,13 +1,13 @@
 {
   "owner": "industrial_scores",
-  "updated_at": "2026-10-16T18:37:27.608586+00:00",
+  "updated_at": "2026-10-16T21:21:58.351252+00:00",
   "scope": "젠픽스 내진 CLIP-BAR/DMC 동일 자재 일반 판매처와 벽산 내진 M바 완성틀 대안의 실제 판매 범위 확인",
   "status": "price_evidence_preserved_comparison_not_ready",
   "submissions": 0,
   "expected_saving_krw": null,
   "delegation": "root/bulk는 원품 및 대체품 BOM, hardware는 싹다 단가표의 세금·운임, industrial은 별도 일반 온라인 판매처를 확인한다. 기존 점수·반려 건을 수정하지 않는다.",
   "tools": {
-    "parallel_actual_calls": 9,
+    "parallel_actual_calls": 10,
     "parallel_artifacts": [
       "parallel-byucksan-mbar-test.json",
       "parallel-dmc-ceiling-private-retail.json",
@@ -17,7 +17,8 @@
       "parallel-zenfix-dmc-price.json",
       "parallel-zenfix-retail-exact.json",
       "parallel-terabar-manufacturer-seismic.json",
-      "parallel-terabar-kwangdong-primary.json"
+      "parallel-terabar-kwangdong-primary.json",
+      "final-offer-recheck/parallel-offer-current.json"
     ],
     "jev_actual_calls": 4,
     "jev": [
@@ -1676,6 +1677,109 @@
     "ready": false,
     "adopted_B": null,
     "expected_saving_krw": null,
+    "post_count": 0
+  },
+  "final_offer_and_original_test_recheck": {
+    "observed_at": "2026-10-16T21:21:58.351252+00:00",
+    "scope": "사용자의 내진 천장 접수 요청에 대한 독립 최종 근거 재검토. 신규 공개 원문만 좁게 확인.",
+    "original_item_id": "24578151",
+    "original_model": "HY-EP01",
+    "original_scorable_facts_reference": "research/industrial-ceiling-20261017.json의 기존 공식75fact·전체계약/납품요구/라인번호를 재사용. 이번 분기에서 API를 재호출했다고 표시하지 않는다.",
+    "new_original_test_evidence": {
+      "url": "https://www.gachon.ac.kr/bbs/kor/480/122276/download.do",
+      "observed_at": "2026-10-16T21:17:09.150362+00:00",
+      "metadata_recorded_at": "2026-10-16T21:21:58.351252+00:00",
+      "method": "정상 BrowserRuntime industrial 세션의 브라우저 다운로드. TLS 인증 우회 없음.",
+      "browser_observation_file": "work/industrial-ceiling/final-offer-recheck/gachon-browser.json",
+      "requests_transport_observation": "별도 requests GET은 TLS 협상 실패. 이 성공 메타데이터는 브라우저로 받은 실제 파일을 검증한 것이며 requests 성공이나 HTTP200을 주장하지 않는다.",
+      "requests_failure_file": "work/industrial-ceiling/final-offer-recheck/hyep-gachon-catalog.source.json",
+      "download_file": "work/industrial-ceiling/final-offer-recheck/gachon-download/내진형 불연천장판넬 시스템 카다로그 _ 조달청 우수제품 (주)화영.pdf",
+      "bytes": 4631578,
+      "sha256": "c40a2b3b088a5410325471319c685e77c5ae4f432f7633805521559a94d3484b",
+      "pdf_pages": 8,
+      "independently_viewed": [
+        {
+          "pdf_page": 5,
+          "file": "work/industrial-ceiling/final-offer-recheck/hyep-gachon-p5.png",
+          "finding": "HY-EP01/HY-EP02, 내진성능1.88g, ICC-ES AC156:2010 및 지진방재연구센터 표기."
+        },
+        {
+          "pdf_page": 7,
+          "file": "work/industrial-ceiling/final-offer-recheck/hyep-gachon-p7.png",
+          "finding": "여러 시험 표지 가운데 내진 시험성적서2020-R-003 표지가 삽입됨."
+        },
+        {
+          "pdf_page": 7,
+          "embedded_image": "work/industrial-ceiling/final-offer-recheck/hyep-gachon-report-006.jpg",
+          "finding": "확대 원본 표지에서 아래 시험 조건·시료·결과·제한을 판독함."
+        }
+      ],
+      "embedded_test_cover": {
+        "report_no": "2020-R-003",
+        "client": "주식회사 화영",
+        "sample": "S-찬넬 시스템이 적용된 천장틀",
+        "sample_name_qualification": "시료명은 의뢰자 제시",
+        "standard": "ICC-ES AC156:2010 준용",
+        "SDS_m_per_s2": 18.43,
+        "z_over_h": 1,
+        "SDS_g_using_9_80665": 1.8793369805183218,
+        "test_date": "2020-01-07",
+        "issued_date": "2020-02-05",
+        "result": "주요 손상 없음 (시험결과에 한정함)",
+        "recognition_limit": "ISO/IEC17025 및 KOLAS인정과 관련 없는 성적서라고 표지에 명시.",
+        "full_report_pages_stated": 15,
+        "pages_obtained": "카탈로그에 삽입된 원시험 표지만 확보. 원시험15쪽 전체를 확보·판독하지 않았다."
+      },
+      "official_original_spec_cross_reference": {
+        "file": "work/bulk-goal1000/hyep-spec-extracted.txt",
+        "line_1_based": 1018,
+        "text": "내진성능 시험성적서 SESTEC-2020-R-003 (‘20.02.05)",
+        "interpretation": "원품 규격서가 같은 번호와 발급일의 시험을 참조한다. 별도 카탈로그라는 이유만으로 무관한 모델 시험으로 취급하지 않는다."
+      },
+      "interpretation": "원규격의 최소SDS1.5g는 원품 실제 시험 성능의 상한이 아니다. 새로 연결된 SDS약1.879g를 무시하고 젠픽스1.62g 또는 다른구성1.8g가 원품보다 더 높다고 주장할 수 없다. AC1562010/2020 판본·시험체 구성의 차이도 공개하며 모든 원품 시험 동일성을 새 필수 관문으로 만들지 않는다."
+    },
+    "alternative_current_test_document": {
+      "url": "https://dmcschool.co.kr/files/design/sub-bul-dmc-std-quake.pdf",
+      "file": "work/industrial-ceiling/final-offer-recheck/zenfix-res36-current.pdf",
+      "http_status": 200,
+      "bytes": 13312530,
+      "sha256": "744b6db0cd837945727b24f26b237df7a9f3d0b1ea19019618b8461c717f9052",
+      "same_hash_as_parent_prior_copy": true,
+      "visual_read_reference": [
+        "work/session-20261017/ceiling-manufacturer/quake-scan-39.png",
+        "work/session-20261017/ceiling-manufacturer/quake-scan-41.png",
+        "work/session-20261017/ceiling-manufacturer/quake-scan-42.png"
+      ],
+      "actual_test": "CT25-092332K_M1,2026-01-29,SDMC(DMC)-RES-36,AC156:2020,SDS1.62g. 지정300×600×0.4T판과32×29×0.5T바 등 시험체 조합.",
+      "interpretation": "이 성능을 다른틀이나 일반 DMC 판에 옮기지 않는다. 위 원품 시험보다 높은 내진성능의 근거로 채택하지 않는다."
+    },
+    "current_price_evidence": {
+      "home_url": "https://dmcschool.co.kr/",
+      "home_file": "work/industrial-ceiling/final-offer-recheck/dmcschool-home.html",
+      "home_observation": "HTTP200,235995bytes. 설계에맞춘 물량산출·일위대가·도면 지원과 산출내역서에 붙이는 엑셀로 설명.",
+      "xlsx_url": "https://dmcschool.co.kr/files/design/ilw-ipchal-bul-dmc36-std-quake.xlsx",
+      "xlsx_file": "work/industrial-ceiling/final-offer-recheck/zenfix-price36-current.xlsx",
+      "http_status": 200,
+      "bytes": 13811,
+      "sha256": "f1924653228dc60ac8f5c4e571e77da9ac51375a84a0e4e9b8f19435b31a9a90",
+      "same_hash_as_previously_reviewed": true,
+      "price_character": "현행 제조사 공개 설계 단가. 자재 소계로 일반 고객에게 실제 공급한다는 판매 제안 연결은 이번 원문에서도 미확보. 체크아웃 부재만으로 배제한 것이 아니며 제조원가/조달견적이라고 단정하지도 않는다.",
+      "adopted_B": null,
+      "tax_included": null,
+      "shipping_included": null
+    },
+    "additional_search": {
+      "provider": "parallel",
+      "search_id": "search_cf925bee3f62fe2a6ac63de5a5917aa1",
+      "file": "work/industrial-ceiling/final-offer-recheck/parallel-offer-current.json",
+      "result": "설계 엑셀을 실제 일반 공급가로 연결하는 새 판매 원문을 반환하지 않았다. 검색 발췌·조달가격을 판매가로 채택하지 않았다."
+    },
+    "faq_access": "이번 직접GET은HTTP403 접근제한. 우회하지 않음. 기존 독립 판독과 이번 접근 실패를 구분.",
+    "decision": "실제 일반 판매가 미확보 및 기존1.62g>원품최소1.5g 상향 주장을 무효화하는 새 원품시험 근거로 현재 제출 불가. 모든 원품 시험 동일 요구나 개인적 운임확약을 새 조건으로 추가한 판단이 아니다.",
+    "ready": false,
+    "adopted_B": null,
+    "expected_saving_krw": null,
+    "preview_count": 0,
     "post_count": 0
   }
 }
