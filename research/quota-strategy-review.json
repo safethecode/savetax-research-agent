@@ -1,16 +1,16 @@
 {
-  "observed_at": "2026-10-16T05:24:34.176891+00:00",
-  "scored_claims_used": 35,
-  "accepted_amount_krw": 4267491060,
+  "observed_at": "2026-10-16T05:47:38.486226+00:00",
+  "scored_claims_used": 36,
+  "accepted_amount_krw": 4944612001,
   "remaining": {
-    "claims_per_day": 12,
-    "claims_total": 62,
+    "claims_per_day": 11,
+    "claims_total": 61,
     "counterevidence": null,
     "revisions": null,
     "upload_bytes": 20971520
   },
-  "shortfall_krw": 55732508940,
-  "required_average_per_remaining_submission_krw": "898911435",
+  "shortfall_krw": 55055387999,
+  "required_average_per_remaining_submission_krw": "902547345",
   "target_krw": 60000000000,
   "policy": "고액 우선. 10억원은 탐색 목표이며 검증된 억 단위 후보를 버리는 절대 문턱은 아니다. 신규 소액은 근거를 보존하고 대기한다.",
   "global_target_per_submission_krw": 1000000000,
@@ -22,5 +22,10 @@
       400000000
     ]
   },
-  "data_note": "로컬 후보 수·API 상태 확인 수는 실제 판매처 검증 수와 다르다."
+  "data_note": "로컬 후보 수·API 상태 확인 수는 실제 판매처 검증 수와 다르다.",
+  "concrete_focus": {
+    "bulk": "옹벽·호안·보도블록",
+    "industrial": "콘크리트관·수로관·암거·맨홀",
+    "note": "사용자 지정 억 단위 집중 분야. 총액·수량 순이며 10억원 미달만으로 제외하지 않는다."
+  }
 }

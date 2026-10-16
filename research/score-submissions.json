@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-16T05:24:34.176891+00:00",
+  "updated_at": "2026-10-16T05:47:38.486226+00:00",
   "target_krw": "60000000000",
-  "accepted_submission_count": 35,
-  "accepted_amount_krw": "4267491060",
+  "accepted_submission_count": 36,
+  "accepted_amount_krw": "4944612001",
   "review_approved_amount_krw": null,
   "realized_savings_krw": null,
   "status_note": "접수 예상액이다. 자동 점검 상태는 각 영수증 관측 시점이며 최종 인정·실제 집행 절감액과 다르다.",
@@ -13978,6 +13978,159 @@
         }
       ],
       "public_url": "https://hackathon.savetax.now/#/submission/c5bdb0a0-1fd6-439a-9e1c-57432636f379"
+    },
+    {
+      "submission_id": "9c39d2e4-987a-47a0-98c1-d2b219d277a9",
+      "item_id": "24072887",
+      "title": "P200 옹벽블록과 회색 B형 취득가격 비교 — 강도·깊이 차이 공개",
+      "comparison_kind": "equivalent",
+      "revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": "677120941",
+      "lint_status": "pending",
+      "verification_status": "not_started",
+      "held": null,
+      "source_url": "https://ktomok.com/shop/item.php?it_id=1581999956",
+      "displayed_price_krw": "2900",
+      "displayed_price_tax_basis": "vat_excluded",
+      "benchmark_unit_price_krw": "4290",
+      "quantity": "312423",
+      "comparable_amount_krw": "2017415611",
+      "fact_count": 16,
+      "request_count": 16,
+      "claim": "공식 납품 사실16건의312,423개·2,017,415,611원에 대체품 비교 단가4,290원을 적용하면 예상 차액은677,120,941원이다. 원품은 지성코퍼레이션 P200이고 판매품은 제조사 미공개의 케이토목 회색 B형이다. 원품 W450×깊이340×H200mm·44kg에 대해 판매 도면은 W498×깊이330×H200mm·45kg(상품명 폭500mm)다. 압축강도는 원품 28N/㎟에서 판매처 표기 약25N/㎟로 낮아진다. 깊이도10mm 짧다. 폭이 넓다는 이유로 강도·깊이 차이가 상쇄된다고 주장하지 않는다. 원품 흡수율7% 이하와 대체품의 흡수율·체결·마찰·구조설계 적합성은 대응을 확인하지 못했다. 같은 사양이나 구조안전 승인을 받은 대체품이라는 주장이 아니다. 각 현장의 설계·기초·뒤채움·보강재·시공비는 비교하지 않는다.",
+      "comparison_scope": "일반적인 옹벽자재 취득가격의 대체상품 비교다. P200 1개에 회색 B형1개를 대응하며 넓은 전면적을 이유로 수량을 줄이지 않는다. 상품·팔레트 비용과 판매처의 25톤 예상운임 및 VAT를 반영한 비교 단가는4,290원/개다. 전국 모든 현장의 확정 운임 또는 원설계를 유지한 시공 완료가격은 아니다. 압축강도·깊이가 낮은 제품이므로 현장별 설계 적합성이나 동일 성능을 보증하는 비교가 아니다. 원품 P200, 대체품 회색 B형 500×200×330. 차이·제한: 원품은 지성코퍼레이션 P200이고 판매품은 제조사 미공개의 케이토목 회색 B형이다. 원품 W450×깊이340×H200mm·44kg에 대해 판매 도면은 W498×깊이330×H200mm·45kg(상품명 폭500mm)다. 압축강도는 원품 28N/㎟에서 판매처 표기 약25N/㎟로 낮아진다. 깊이도10mm 짧다. 폭이 넓다는 이유로 강도·깊이 차이가 상쇄된다고 주장하지 않는다. 원품 흡수율7% 이하와 대체품의 흡수율·체결·마찰·구조설계 적합성은 대응을 확인하지 못했다. 같은 사양이나 구조안전 승인을 받은 대체품이라는 주장이 아니다. 각 현장의 설계·기초·뒤채움·보강재·시공비는 비교하지 않는다.",
+      "references": [
+        {
+          "fact_id": "dl:24072887:332031222_1:2223459509:1",
+          "contract_no": "332031222_1",
+          "request_no": "2223459509",
+          "line_no": "1",
+          "quantity": "900",
+          "comparable_amount_krw": "6309000"
+        },
+        {
+          "fact_id": "dl:24072887:332031222_1:2523356966:1",
+          "contract_no": "332031222_1",
+          "request_no": "2523356966",
+          "line_no": "1",
+          "quantity": "246319",
+          "comparable_amount_krw": "1554026571"
+        },
+        {
+          "fact_id": "dl:24072887:332031222_1:R25TB00574322:1",
+          "contract_no": "332031222_1",
+          "request_no": "R25TB00574322",
+          "line_no": "1",
+          "quantity": "7830",
+          "comparable_amount_krw": "54888300"
+        },
+        {
+          "fact_id": "dl:24072887:332031222_1:R25TB01045625:1",
+          "contract_no": "332031222_1",
+          "request_no": "R25TB01045625",
+          "line_no": "1",
+          "quantity": "7261",
+          "comparable_amount_krw": "50899610"
+        },
+        {
+          "fact_id": "dl:24072887:332031222_1:R25TB01048478:1",
+          "contract_no": "332031222_1",
+          "request_no": "R25TB01048478",
+          "line_no": "1",
+          "quantity": "4208",
+          "comparable_amount_krw": "29498080"
+        },
+        {
+          "fact_id": "dl:24072887:332031222_1:R25TB01125865:1",
+          "contract_no": "332031222_1",
+          "request_no": "R25TB01125865",
+          "line_no": "1",
+          "quantity": "1019",
+          "comparable_amount_krw": "7143190"
+        },
+        {
+          "fact_id": "dl:24072887:332031222_1:R25TB01210197:1",
+          "contract_no": "332031222_1",
+          "request_no": "R25TB01210197",
+          "line_no": "1",
+          "quantity": "9269",
+          "comparable_amount_krw": "64975690"
+        },
+        {
+          "fact_id": "dl:24072887:332031222_1:R25TB01259477:1",
+          "contract_no": "332031222_1",
+          "request_no": "R25TB01259477",
+          "line_no": "1",
+          "quantity": "2678",
+          "comparable_amount_krw": "18772780"
+        },
+        {
+          "fact_id": "dl:24072887:332031222_1:R25TB01379701:1",
+          "contract_no": "332031222_1",
+          "request_no": "R25TB01379701",
+          "line_no": "1",
+          "quantity": "3364",
+          "comparable_amount_krw": "23581640"
+        },
+        {
+          "fact_id": "dl:24072887:332031222_1:R26TB01581743:1",
+          "contract_no": "332031222_1",
+          "request_no": "R26TB01581743",
+          "line_no": "1",
+          "quantity": "938",
+          "comparable_amount_krw": "6575380"
+        },
+        {
+          "fact_id": "dl:24072887:332031222_1:R26TB01665045:1",
+          "contract_no": "332031222_1",
+          "request_no": "R26TB01665045",
+          "line_no": "1",
+          "quantity": "4772",
+          "comparable_amount_krw": "33451720"
+        },
+        {
+          "fact_id": "dl:24072887:332031222_1:R26TB01884278:1",
+          "contract_no": "332031222_1",
+          "request_no": "R26TB01884278",
+          "line_no": "1",
+          "quantity": "5900",
+          "comparable_amount_krw": "41359000"
+        },
+        {
+          "fact_id": "dl:24072887:332031222_1:R26TB01929636:1",
+          "contract_no": "332031222_1",
+          "request_no": "R26TB01929636",
+          "line_no": "1",
+          "quantity": "1065",
+          "comparable_amount_krw": "7465650"
+        },
+        {
+          "fact_id": "dl:24072887:332031222_1:R26TB01980179:1",
+          "contract_no": "332031222_1",
+          "request_no": "R26TB01980179",
+          "line_no": "1",
+          "quantity": "5537",
+          "comparable_amount_krw": "38814370"
+        },
+        {
+          "fact_id": "dl:24072887:332031222_1:R26TB02184908:1",
+          "contract_no": "332031222_1",
+          "request_no": "R26TB02184908",
+          "line_no": "1",
+          "quantity": "5544",
+          "comparable_amount_krw": "38863440"
+        },
+        {
+          "fact_id": "dl:24072887:332031222_1:R26TB02276674:1",
+          "contract_no": "332031222_1",
+          "request_no": "R26TB02276674",
+          "line_no": "1",
+          "quantity": "5819",
+          "comparable_amount_krw": "40791190"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/9c39d2e4-987a-47a0-98c1-d2b219d277a9"
     }
   ]
 }
