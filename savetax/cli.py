@@ -230,7 +230,7 @@ def main(argv=None):
     reports = sub.add_parser('reports', help='제보 심사 상태와 반려 이력 확인')
     reports.add_argument('--output', default='work/report-status.json')
     reports.add_argument('--guide', default='savetax-agent-guide.md')
-    score_build = sub.add_parser('build-score', help='公式 fact와 확인한 판매가로 점수 본문 생성')
+    score_build = sub.add_parser('build-score', help='공식 fact와 확인한 판매가로 점수 본문 생성')
     score_build.add_argument('--input', required=True)
     score_build.add_argument('--output', default='work/score-body.json')
     score = sub.add_parser('score', help='점수 preview 후 억 단위 우선 접수 (--send)')
