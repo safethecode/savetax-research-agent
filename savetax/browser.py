@@ -61,8 +61,13 @@ class BrowserRuntime:
 
     @staticmethod
     def _validate_url(url):
-        if not _source_valid(url) or urlsplit(url).hostname in {
-            'api.savetax.now', 'hackathon.savetax.now', 'savetax.now'}:
+        if not _source_valid(url):
+            raise ValueError('공개 HTTPS 판매 페이지 URL만 브라우저 조사에 사용합니다')
+        parsed = urlsplit(url)
+        # 사용자 지정 후보 탐색 예외. 인증 API·계정 화면에는 확장하지 않는다.
+        if parsed.hostname == 'savetax.now' and parsed.path == '/search':
+            return
+        if parsed.hostname in {'api.savetax.now', 'hackathon.savetax.now', 'savetax.now'}:
             raise ValueError('공개 HTTPS 판매 페이지 URL만 브라우저 조사에 사용합니다')
 
     def _endpoint(self):

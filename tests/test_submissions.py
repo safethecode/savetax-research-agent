@@ -32,6 +32,17 @@ class ScoreTests(unittest.TestCase):
             self.assertIn(value,text)
         self.assertEqual(line['benchmark_unit_price_krw'],'100000')
 
+    def test_observation_calendar_date_uses_kst(self):
+        for source, expected in (
+                ('2026-10-16T17:12:00+00:00','2026-10-17'),
+                ('2026-10-16T17:12:00Z','2026-10-17'),
+                ('2026-10-16T08:00:00-07:00','2026-10-17'),
+                ('2026-10-16T14:59:59+00:00','2026-10-16'),
+                ('2026-10-17','2026-10-17')):
+            with self.subTest(source=source):
+                body = build_submission(self.item,{**self.offer,'observed_at':source},self.event)
+                self.assertEqual(body['lines'][0]['price_evidence'][0]['observed_at'],expected)
+
     def test_procurement_estimate_is_blocked_as_price_before_any_post(self):
         client = ScoreClient(SaveTaxClient(token='savetax_'+'x'*32))
         body = build_submission(self.item,self.offer,self.event)

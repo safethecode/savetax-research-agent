@@ -9,6 +9,15 @@ from savetax.browser import BrowserRuntime
 
 
 class BrowserTests(unittest.TestCase):
+    def test_user_authorized_search_exception_does_not_allow_account_or_api(self):
+        BrowserRuntime._validate_url('https://savetax.now/search')
+        BrowserRuntime._validate_url('https://savetax.now/search?q=software')
+        for url in ('https://savetax.now/account', 'https://savetax.now/search/else',
+                    'https://api.savetax.now/search', 'https://hackathon.savetax.now/search',
+                    'http://savetax.now/search', 'https://u:p@savetax.now/search'):
+            with self.subTest(url=url), self.assertRaises(ValueError):
+                BrowserRuntime._validate_url(url)
+
     def test_invalid_or_authenticated_url_never_launches(self):
         with tempfile.TemporaryDirectory() as folder:
             runtime = BrowserRuntime(folder)

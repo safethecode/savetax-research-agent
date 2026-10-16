@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-16T17:13:02.353438+00:00",
+  "updated_at_utc": "2026-10-16T17:20:16.895480+00:00",
   "goal_total_expected_score_krw": "100000000000",
   "latest_user_minimum_per_new_submission_krw": "1000000000",
   "required_average_reference_krw": "1780000000",
@@ -15,14 +15,14 @@
   "new_official_targeted_lookup_11": {
     "count": 11,
     "states": {
-      "on_hold": 1,
       "available": 2,
-      "claimed": 8
+      "claimed": 8,
+      "on_hold": 1
     }
   },
   "fresh_available_full_fact_items": 13,
   "all_references_count": 1663,
-  "actual_parallel_search_calls": 26,
+  "actual_parallel_search_calls": 27,
   "parallel_evidence_files": [
     "work/hardware-goal1000/parallel-asw2224.json",
     "work/hardware-goal1000/parallel-axxon-deep.json",
@@ -49,7 +49,8 @@
     "work/hardware-goal1000/parallel-vix120alt.json",
     "work/hardware-goal1000/parallel-vms-cctv-price.json",
     "work/hardware-goal1000/parallel-vms-krw.json",
-    "work/hardware-goal1000/parallel-vurix-spec.json"
+    "work/hardware-goal1000/parallel-vurix-spec.json",
+    "work/hardware-goal1000/parallel-wave-region.json"
   ],
   "jev": {
     "model": "jev-1.13.0",
@@ -77,7 +78,7 @@
       "comparable_amount_krw": "8866880000",
       "source_release": "r20261011T012137",
       "facts_truncated": false,
-      "status": "WAVE 4CH 영구권 대안 최종 대조 중",
+      "status": "신규 접수 완료·심사 전",
       "finding": "계약 HWP의 1조는 영구 카메라 1채널이고 기본 관리·저장분배·이중화·모니터링은 별도 물품이다. 부모가 찾은 USASHOP WAVE-PRO-04 일반가 735,000원과 제조사 사양 재수록 PDF의 4 IP stream 권리를 독립 대조했다. License Model의 영구 로컬 녹화 범위이며 Organization 전환·클라우드 구독·설치 교육·38종 POS 등의 동일 지원을 확정하지 않았다.",
       "reference_linear_max_B_for_1b_krw": "390377.133783",
       "reference_linear_max_B_for_1_78b_krw": "351671.298134",
@@ -14725,7 +14726,23 @@
         }
       ],
       "submission_ready": false,
-      "adopted_saving_krw": "0"
+      "adopted_saving_krw": "4931899814",
+      "submission_receipt": {
+        "submission_id": "97e5c590-6729-4e8b-aab8-15270cbb1c27",
+        "claim_id": "e83feb29-0bbb-41cd-a451-1e00695bf2aa",
+        "revision": 1,
+        "submission_state": "accepted",
+        "admitted_at": "2026-10-16T17:18:58.154Z",
+        "amount_krw": 4931899814,
+        "verification_status": "not_started",
+        "lint_status": "pending",
+        "event_epoch": 1,
+        "ruleset_version": "rules-v1",
+        "public_path": "/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/97e5c590-6729-4e8b-aab8-15270cbb1c27",
+        "api_path": "/v1/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/97e5c590-6729-4e8b-aab8-15270cbb1c27",
+        "web_path": "#/submission/97e5c590-6729-4e8b-aab8-15270cbb1c27"
+      },
+      "availability_note": "이 available 값은 접수 전 상세 관측값이다. 접수 후 동일 물품을 신규 재접수하지 않는다."
     },
     {
       "item_id": "24602353",
@@ -27143,10 +27160,413 @@
     "finding": "1.3의 23235820 행은 1조=카메라1채널·사용기간 제한 없음. 1.5 기본 커스터마이징(기관·납품업체 협의), 현장설치·검수·1년 하자보수·4시간 응답·분기 방문·이전1회·교육을 포함한다.",
     "remaining": "HWP 표 시각 대조와 판매 대안의 권리·구성·원화 일반가 검증"
   },
-  "accepted_submission_count": 0,
+  "accepted_submission_count": 1,
   "preview_calls": 0,
   "POST_calls": 0,
   "submission_ready_count": 0,
-  "adopted_saving_krw": "0",
-  "posting": "제출·커밋·푸시는 부모가 직렬 담당. 신규 근거를 보존하고 조사를 계속한다."
+  "adopted_saving_krw": "4931899814",
+  "posting": "제출·커밋·푸시는 부모가 직렬 담당. 신규 근거를 보존하고 조사를 계속한다.",
+  "wave_vurix_followup": {
+    "retail_source_owner": "부모 root가 실제 HTTP·독립 브라우저 옵션·총액을 검증, hardware가 원품·대안 권리와 사양을 독립 대조",
+    "retail_url": "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000214541",
+    "retail_model": "Hanwha Techwin WAVE-PRO-04",
+    "retail_pack_price_krw": "735000",
+    "pack_channels": "4",
+    "vat_included": true,
+    "shipping_included": true,
+    "retail_scope": "관부가세 포함·배송 무료로 표시한 구매대행 일반 판매가. 하드웨어 서버·설치·교육·국내 현장지원 비용을 포함한다고 확인하지 않음.",
+    "manufacturer_license_table": {
+      "source_url": "https://media2store2.blob.core.windows.net/storage/item_spec/24/245130.pdf",
+      "host_kind": "공급사에 재수록된 제조사 사양표",
+      "source_use": "모델별 권리·기능 확인만. 가격표의 금액은 소매가로 채택하지 않음.",
+      "http_status": 200,
+      "bytes": 221747,
+      "sha256": "cf77e7fec92e5c5ba4707f062088b187ffa8766c808761eb8f0f5551107ea8d1",
+      "page": 6,
+      "visual_review": "4,500px로 렌더해 WAVE-PRO-04=4 IP stream 녹화·평생 소프트웨어 업그레이드·연 유지비 없음과 WAVE-EMB-04의 별도 행을 시각 대조함."
+    },
+    "current_manufacturer_product_url": "https://www.hanwhavision.com/us/products/product-details/Wisenet-WAVE",
+    "current_manufacturer_brochure": {
+      "title": "WAVE Specifications",
+      "source_url": "https://upload.hanwhavision.com/hanwha-global/media-file-library/2026/6/BR_36_Wisenet_WAVE_Brochure_v16_Hanwha_Vision.pdf",
+      "status": 200,
+      "bytes": 3614976,
+      "sha256": "0a5ff23ed11421198ee425c579ed498f37eb16062b049f0d9065ed9f3b276816",
+      "type": "application/pdf"
+    },
+    "eula_review": {
+      "title": "License Agreements_Wisenet WAVE_261015_EN_6-1-2.pdf",
+      "source_url": "https://hvsgmpprdstorage.blob.core.windows.net/pim/Wisenet%20WAVE/License%20Agreements_Wisenet%20WAVE_261015_EN_6-1-2.pdf",
+      "status": 200,
+      "bytes": 3297011,
+      "sha256": "401c4f986b24babfed8d53bc4e283a58af46650c59e3f0f565f28e152a7b2166",
+      "type": "application/octet-stream",
+      "review": "4페이지 모두 실제 렌더로 읽음. 1항 자기 사용권·양도 제한, 6항 유료기능 활성화, 8항 일반약관만으로 현장지원·유지보수 권리 보장 없음, 14항 수출통제 준수. 남한을 발급·활성화 금지하는 명문은 이 4페이지에서 찾지 못했지만 이를 무제한 발급 보장으로 확대하지 않음."
+    },
+    "license_scope": {
+      "included": "License Model에서 Professional 영구 로컬 녹화권 4개",
+      "excluded": "Organization 연결에 따른 24개월 Local Recording Service 전환·별도 클라우드 서비스·영상분석 AI 권리·하드웨어",
+      "sources": [
+        "https://wavevms.com/data/help/obtaining_and_activating_vms_licenses.html",
+        "https://wavevms.com/data/help/services-and-licenses.html",
+        "https://wavevms.com/data/help/connecting_system_to_org.html",
+        "https://wavevms.com/data/help/activating_licenses.html"
+      ],
+      "hardware_id": "활성화 서버의 마더보드·MAC 기반 HWID에 귀속, 서버/하드웨어 변경과 재활성화 정책을 준수해야 함."
+    },
+    "spec_mapping": [
+      {
+        "attribute": "원품 비교 단위",
+        "original": "23235820 한 조는 이기종 카메라 1채널을 VURIX 저장분배 프로그램에 연결하는 영구 활성화권",
+        "alternative": "WAVE-PRO-04 한 팩은 IP stream 4개를 WAVE에서 녹화하는 Professional 권리",
+        "assessment": "핵심 연결·녹화 목적의 대체 비교. VURIX 안에서 사용할 호환 키가 아니므로 WAVE로 전환하는 범위.",
+        "source_urls": [
+          "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002461659_1010000005",
+          "https://media2store2.blob.core.windows.net/storage/item_spec/24/245130.pdf"
+        ]
+      },
+      {
+        "attribute": "서버·기본권",
+        "original": "영상관리·저장분배·이중화·모니터링 물품이 별도이며 이 1CH에 서버 하드웨어가 포함되지 않음",
+        "alternative": "서버·클라이언트 프로그램과 연결 녹화권을 쓰는 VMS이며 하드웨어는 별도",
+        "assessment": "라이선스 취득가격 비교. 기존 서버 운영체제·성능·카메라 호환을 실제 이전 검증한 것은 아님.",
+        "source_urls": [
+          "https://wavevms.com/data/help/index.html"
+        ]
+      },
+      {
+        "attribute": "영상 코덱",
+        "original": "H.264·MPEG4·MJPEG",
+        "alternative": "H.265·H.264·MJPEG 및 WAVE5.1에서 MPEG4 RTSP 영상 추가",
+        "assessment": "MPEG4는 RTSP 영상 범위에서 직접 제조사 PDF로 확인. H.265는 추가 지원.",
+        "source_urls": [
+          "https://www.hanwhavision.com/products/product-details/Wisenet-WAVE-VMS",
+          "https://wavevms.com/wp-content/uploads/2023/07/WAVE_5.1_Feature_Overview_v5.pdf"
+        ]
+      },
+      {
+        "attribute": "양방향 오디오",
+        "original": "2-Way 오디오",
+        "alternative": "ONVIF 및 문서에 열거된 호환 장치의 양방향 오디오",
+        "assessment": "호환 카메라 조건이 있는 대응",
+        "source_urls": [
+          "https://wavevms.com/data/help/using_2-way_audio.html"
+        ]
+      },
+      {
+        "attribute": "PTZ·프리셋·투어·자동 복귀",
+        "original": "PTZ·프리셋·투어링·자동 리턴",
+        "alternative": "ONVIF Absolute Move 호환 카메라의 프리셋·투어 및 비활성 시 home tour",
+        "assessment": "장치 지원 조건이 있는 대응",
+        "source_urls": [
+          "https://wavevms.com/data/help/ptz-controls.html",
+          "https://wavevms.com/data/help/setting_up_ptz_tours.html"
+        ]
+      },
+      {
+        "attribute": "정지화면·녹화 내보내기",
+        "original": "JPG 캡처·AVI 녹화",
+        "alternative": "JPG/PNG 스크린샷·AVI/MP4/MKV 및 다중영상 내보내기",
+        "assessment": "공식 사용자 설명서에서 대응 확인",
+        "source_urls": [
+          "https://www.wavevms.com/data/help/taking_a_screenshot.html",
+          "https://wavevms.com/data/help/exporting.html"
+        ]
+      },
+      {
+        "attribute": "복수창·이벤트 알림",
+        "original": "복수 영상창·이벤트 영상/소리 자동 팝업",
+        "alternative": "맞춤 레이아웃·알림 표시·소리/TTS·alarm layout 동작",
+        "assessment": "공식 도움말·기능 설명에서 대응",
+        "source_urls": [
+          "https://wavevms.com/wavefeatures/eventsrulesengine/",
+          "https://wavevms.com/data/help/index.html"
+        ]
+      },
+      {
+        "attribute": "POS·사용자 권한 스케줄링",
+        "original": "38종 POS·권한별 사용자와 권한 스케줄",
+        "alternative": "일반 사용자·그룹별 권한은 확인했으나 38종 POS와 같은 권한 스케줄은 미확인",
+        "assessment": "동일 지원을 주장하지 않는 공개 차이",
+        "source_urls": [
+          "https://wavevms.com/data/help/built-in-groups.html"
+        ]
+      }
+    ],
+    "original_included_services": {
+      "1.2": "23235820 행 인도조건 현장설치도",
+      "1.5": "기본 커스터마이징 포함이며 구체 범위는 기관·납품업체 협의",
+      "6": "1ch 장비활성화 행은 카메라 추가 및 라이브 영상 확인, 구매한 수량만큼 설치 지원",
+      "8": "기관 담당자 입회 검수·설치 후 기능별 작동 여부 검사·규격 및 테스트 확인 뒤 설치 완료",
+      "9": "구매 후1년 하자보수,4시간 응답,분기1회 방문,전화/e-mail,이전1회,패치·마이너업그레이드,운영자·사용자 교육 각1회",
+      "retail_difference": "소프트웨어 권리 가격에 원품의 설치·커스터마이징·국내 현장SLA·교육이 포함됐다고 확인하지 못함. 실제 서비스비 근거가 없어 임의 금액으로 더하거나 0으로 확정하지 않음. 전체 계약의 실제 예산절감으로 주장하지 않는 범위."
+    },
+    "independent_arithmetic": {
+      "rule": "각 scorable fact마다 ceil(Q/4)팩을 구매하고 floor(max(C−735000×팩수,0))를 합산",
+      "original_facts": 915,
+      "positive_facts": 852,
+      "zero_saving_facts": 63,
+      "purchased_packs": 5379,
+      "purchased_channels": 21516,
+      "unused_channels": 1364,
+      "total_pack_acquisition_krw": "3953565000",
+      "independent_saving_before_unit_rounding_krw": "4931900000",
+      "parent_saving_with_per_fact_B_rounded_up_6_decimals_krw": "4931899814",
+      "status": "공식 preview와 접수 영수증이 아닌 계산 검산. 부모가 제출 직전 상태·가격·규칙 확인 담당."
+    },
+    "submission_ready": false,
+    "adopted_saving_krw": "4931899814",
+    "submission_receipt": {
+      "submission_id": "97e5c590-6729-4e8b-aab8-15270cbb1c27",
+      "claim_id": "e83feb29-0bbb-41cd-a451-1e00695bf2aa",
+      "revision": 1,
+      "submission_state": "accepted",
+      "admitted_at": "2026-10-16T17:18:58.154Z",
+      "amount_krw": 4931899814,
+      "verification_status": "not_started",
+      "lint_status": "pending",
+      "event_epoch": 1,
+      "ruleset_version": "rules-v1",
+      "public_path": "/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/97e5c590-6729-4e8b-aab8-15270cbb1c27",
+      "api_path": "/v1/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/97e5c590-6729-4e8b-aab8-15270cbb1c27",
+      "web_path": "#/submission/97e5c590-6729-4e8b-aab8-15270cbb1c27"
+    }
+  },
+  "nas_cms_fallback": {
+    "retail_sources": [
+      {
+        "manufacturer": "Synology",
+        "model": "VIRTUAL DEVICE LICENSE PACK (X 1)",
+        "seller": "디알소프트",
+        "source_url": "https://drsoft.co.kr/sub/synology-product?model=VIRTUAL%20DEVICE%20LICENSE%20PACK%20%28X%201%29",
+        "http_status": 200,
+        "observed_price_krw": "88000",
+        "vat_included": true,
+        "shipping_included": true,
+        "scope": "일반 소비자가 바로 결제 가능. 별도 이메일 견적가와 구분하며 설치 인건비는 별도.",
+        "observed_at_utc": "2026-10-16T17:17:25.293793+00:00"
+      },
+      {
+        "manufacturer": "Synology",
+        "model": "DS225+",
+        "seller": "디알소프트",
+        "source_url": "https://drsoft.co.kr/sub/synology-product?model=DS225%2B",
+        "http_status": 200,
+        "observed_price_krw": "519000",
+        "vat_included": true,
+        "shipping_included": true,
+        "scope": "일반 소비자가 바로 결제 가능. 별도 이메일 견적가와 구분하며 설치 인건비는 별도.",
+        "observed_at_utc": "2026-10-16T17:17:25.298071+00:00"
+      },
+      {
+        "manufacturer": "Synology",
+        "model": "HAT3300-4T",
+        "seller": "디알소프트",
+        "source_url": "https://drsoft.co.kr/sub/synology-product?model=HAT3300-4T",
+        "http_status": 200,
+        "observed_price_krw": "344000",
+        "vat_included": true,
+        "shipping_included": true,
+        "scope": "일반 소비자가 바로 결제 가능. 별도 이메일 견적가와 구분하며 설치 인건비는 별도.",
+        "observed_at_utc": "2026-10-16T17:17:25.301848+00:00"
+      },
+      {
+        "manufacturer": "Synology",
+        "model": "DS725+",
+        "seller": "디알소프트",
+        "source_url": "https://drsoft.co.kr/sub/synology-product?model=DS725%2B",
+        "http_status": 200,
+        "observed_price_krw": "1212000",
+        "vat_included": true,
+        "shipping_included": true,
+        "scope": "일반 소비자가 바로 결제 가능. 별도 이메일 견적가와 구분하며 설치 인건비는 별도.",
+        "observed_at_utc": "2026-10-16T17:17:25.305609+00:00"
+      },
+      {
+        "manufacturer": "Synology",
+        "model": "DS1525+",
+        "seller": "디알소프트",
+        "source_url": "https://drsoft.co.kr/sub/synology-product?model=DS1525%2B",
+        "http_status": 200,
+        "observed_price_krw": "1905000",
+        "vat_included": true,
+        "shipping_included": true,
+        "scope": "일반 소비자가 바로 결제 가능. 별도 이메일 견적가와 구분하며 설치 인건비는 별도.",
+        "observed_at_utc": "2026-10-16T17:17:25.309429+00:00"
+      }
+    ],
+    "primary_sources": [
+      "https://www.synology.com/en-global/products/Device_License_Pack",
+      "https://www.synology.com/en-global/products/DS225%2B",
+      "https://kb.synology.com/Surveillance/tutorial/How_to_select_a_Synology_product_as_the_host_server_for_Surveillance_Station_CMS_structure"
+    ],
+    "findings": "정식 1CH 영구권 가격·VAT·배송을 읽었다. DS225+에는 기본2권, 최대25대이며 H.264 5MP 총280FPS/H.265 5MP 총480FPS 등 제한이 있다. CMS 중앙관리는 호스트 모델별 규모 제한이 있다.",
+    "remaining": "NAS·HDD·정식 채널권·CMS 호스트를 fact별로 모두 포함하는 설계와 성능 대조가 필요. 일반NAS를 기존 VURIX의 호환 활성화권이라고 주장하지 않음. WAVE 경로를 우선해 이 경로의 채택 절감액은0.",
+    "adopted_saving_krw": "0"
+  },
+  "secondary_targeted_lookup": {
+    "items": [
+      {
+        "input": "25395524",
+        "kind": "item",
+        "item_id": "25395524",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      {
+        "input": "24935005",
+        "kind": "item",
+        "item_id": "24935005",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      {
+        "input": "25055163",
+        "kind": "item",
+        "item_id": "25055163",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      {
+        "input": "23579286",
+        "kind": "item",
+        "item_id": "23579286",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      {
+        "input": "24835047",
+        "kind": "item",
+        "item_id": "24835047",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      {
+        "input": "24732514",
+        "kind": "item",
+        "item_id": "24732514",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      {
+        "input": "24808086",
+        "kind": "item",
+        "item_id": "24808086",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      {
+        "input": "23907054",
+        "kind": "item",
+        "item_id": "23907054",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      {
+        "input": "24035371",
+        "kind": "item",
+        "item_id": "24035371",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      {
+        "input": "25254930",
+        "kind": "item",
+        "item_id": "25254930",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      {
+        "input": "25395523",
+        "kind": "item",
+        "item_id": "25395523",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      {
+        "input": "24638187",
+        "kind": "item",
+        "item_id": "24638187",
+        "state": "reform_found",
+        "message": "개혁신당이 이미 찾은 상품입니다 (등록할 수 없고 제출 횟수에 세지 않습니다)"
+      },
+      {
+        "input": "25200430",
+        "kind": "item",
+        "item_id": "25200430",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      {
+        "input": "24035372",
+        "kind": "item",
+        "item_id": "24035372",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      {
+        "input": "23826068",
+        "kind": "item",
+        "item_id": "23826068",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      {
+        "input": "24070988",
+        "kind": "item",
+        "item_id": "24070988",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      {
+        "input": "25395521",
+        "kind": "item",
+        "item_id": "25395521",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      }
+    ]
+  },
+  "ioie_original_document": {
+    "sha256": "3bbb919850f8ba64d3ccadc10220c0e64b8b90237bc2642dc9a2fdb28b4ad9b1",
+    "bytes": 330752,
+    "format": "hwp",
+    "observed_at": "2026-10-16T17:03:23.730727+00:00",
+    "evidence_status": "unreviewed_text_extraction",
+    "revision_review": {
+      "status": "not_assessed",
+      "scope": "hwp_not_assessed",
+      "marker_counts": null,
+      "text_policy": "revision_accept_reject_not_applied"
+    }
+  },
+  "accepted_expected_amount_krw": "4931899814",
+  "adopted_amount_meaning": "접수 영수증의 대회 예상액이며 심사 인정액·실제 예산절감이 아님.",
+  "parent_submission_receipt": {
+    "submission_id": "97e5c590-6729-4e8b-aab8-15270cbb1c27",
+    "claim_id": "e83feb29-0bbb-41cd-a451-1e00695bf2aa",
+    "revision": 1,
+    "submission_state": "accepted",
+    "admitted_at": "2026-10-16T17:18:58.154Z",
+    "amount_krw": 4931899814,
+    "verification_status": "not_started",
+    "lint_status": "pending",
+    "event_epoch": 1,
+    "ruleset_version": "rules-v1",
+    "public_path": "/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/97e5c590-6729-4e8b-aab8-15270cbb1c27",
+    "api_path": "/v1/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/97e5c590-6729-4e8b-aab8-15270cbb1c27",
+    "web_path": "#/submission/97e5c590-6729-4e8b-aab8-15270cbb1c27"
+  },
+  "agent_preview_calls": 0,
+  "agent_POST_calls": 0,
+  "parent_preview_calls_for_reported_item": 1,
+  "parent_POST_calls_for_reported_item": 1,
+  "latest_parent_official_me_observation": {
+    "observed_date_kst": "2026-10-17",
+    "source": "부모 root의 current me 조회",
+    "total_expected_amount_krw": "18346458964",
+    "remaining_daily_submissions": 48,
+    "remaining_cumulative_submissions": 49,
+    "reference_required_average_remaining_daily_krw": "1701115438.25"
+  }
 }

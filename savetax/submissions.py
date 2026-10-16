@@ -1,5 +1,5 @@
 """공식 fact와 실측 가격으로 점수 본문을 만들고 preview 뒤 제출한다."""
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from decimal import Decimal, ROUND_CEILING, localcontext
 import json
 import re
@@ -112,7 +112,10 @@ def build_submission(item, offer, event):
                 or Decimal(str(value)) < unit_price):
             raise ValueError('개별 비교 단가는 포장·세금 환산 관측가 이상인 소수 6자리 이내 원화여야 합니다')
     try:
-        observed_at = datetime.fromisoformat(offer['observed_at'].replace('Z','+00:00')).date().isoformat()
+        observed = datetime.fromisoformat(offer['observed_at'].replace('Z','+00:00'))
+        kst = timezone(timedelta(hours=9))
+        # API 관측일은 KST다. UTC의 자정 전 관측도 한국 날짜로 보존한다.
+        observed_at = observed.replace(tzinfo=kst).date().isoformat() if observed.tzinfo is None else observed.astimezone(kst).date().isoformat()
     except (ValueError,KeyError,AttributeError):
         raise ValueError('가격 관측일이 필요합니다') from None
     lines, seen = [], set()
