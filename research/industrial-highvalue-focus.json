@@ -1,0 +1,81 @@
+{
+  "updated_at": "2026-10-16T06:43:42.262863+00:00",
+  "focus": "고가 산업장비·전원장비; 부모가 POST·커밋 전담",
+  "lookup_items": 150,
+  "available_at_lookup": 107,
+  "parallel_search_calls": 10,
+  "official_item_details": 13,
+  "candidate_count_is_not_submission_count": true,
+  "new_submissions_by_this_agent": 0,
+  "records": [
+    {
+      "item_id": "24804791",
+      "model": "CPC-6008",
+      "status": "accepted; 최종 근거검증 결과 미정",
+      "comparison_kind": "equivalent",
+      "alternative_model": "SC-APC08",
+      "facts": 985,
+      "Q": "1232",
+      "C_krw": "668152000",
+      "observed_retail_krw": "255270",
+      "benchmark_krw": "258870",
+      "arithmetic_gap_krw": "349224160",
+      "actual_complete_contract_saving_verified": false,
+      "scope": "8채널 CCTV 전원제어기 취득가격 비교,채널5A→4A·전체10A→9A 감소와전압미세조정미확인·설치비미반영 명시",
+      "review_file": "work\\highvalue-industrial\\review-24804791.json",
+      "all_refs_file": "work\\highvalue-industrial\\all-refs-24804791-fresh.json",
+      "submission_id": "8c34050d-b3f4-4073-9f26-a8671d7f7f25",
+      "accepted_at": "2026-10-16T06:43:06.218Z",
+      "investigated_facts": 1017,
+      "investigated_Q": "1271",
+      "investigated_C_krw": "689324000",
+      "excluded_facts": 32,
+      "excluded_Q": "39",
+      "excluded_C_krw": "21172000",
+      "excluded_reason": "제주·울릉·신안·옹진 기관의 도서 추가운임 미확정",
+      "accepted_refs_file": "work\\highvalue-industrial\\all-refs-24804791-accepted.json",
+      "excluded_refs_file": "work\\highvalue-industrial\\all-refs-24804791-excluded.json",
+      "receipt_file": "work\\highvalue-industrial\\receipt-24804791.json",
+      "submitted_body_file": "work\\highvalue-industrial\\score-24804791.json"
+    },
+    {
+      "item_id": "24392975",
+      "model": "BLUPS-R3400-N-30MSBS",
+      "status": "계속 조사",
+      "comparison_kind": null,
+      "facts": 2,
+      "Q": "4",
+      "C_krw": "1052184000",
+      "benchmark_krw": null,
+      "arithmetic_gap_krw": null,
+      "scope": "400kVA30분,장수명2V밀폐축전지·현장설치 포함. 국내공개고정가는견적문의이며해외45분값은반부하조건이라동일시간으로대입하지않음",
+      "all_refs_file": "work\\highvalue-industrial\\all-refs-24392975.json"
+    },
+    {
+      "item_id": "23232467",
+      "model": "(JP)SRM981",
+      "status": "동일모델 가격 역전 없음; 대체 조사",
+      "comparison_kind": "identical",
+      "facts": 22,
+      "Q": "75",
+      "C_krw": "1027500000",
+      "observed_retail_krw": "18920000",
+      "benchmark_krw": null,
+      "arithmetic_gap_krw": null,
+      "scope": "신품 동일 Orec 판매가가 조달단가1370만원보다높음. 중고8백만원과잔디전용카스텔품절은비교제외",
+      "source_url": "https://www.dktools.co.kr/store/goods_view.php?category=615&goodsno=11168",
+      "all_refs_file": "work\\highvalue-industrial\\all-refs-23232467.json"
+    }
+  ],
+  "private_detail_index": "work\\highvalue-industrial\\details.json",
+  "private_lookup_files": [
+    "work\\highvalue-industrial\\lookup-0.json",
+    "work\\highvalue-industrial\\lookup-power-0.json"
+  ],
+  "known_nonavailable_examples": [
+    "24392958:BLUPS-R3300-N-30MSBS claimed",
+    "23811856:HTI-R950-4WD claimed"
+  ],
+  "next_work": "고액 공개 가격이 있는 발전기·충전기와 UPS 하위 고액구간 추가 탐색. 기존 drainage 결과는 보존.",
+  "parent_submissions_from_this_research": 1
+}
