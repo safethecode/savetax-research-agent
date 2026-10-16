@@ -28019,58 +28019,93 @@
     "available": 15,
     "file": "work/hardware-goal1000/frontier/av-0.8b-available.json",
     "verdicts": [
-      [
-        "25619100 JHDC-4831AI PTZ",
-        "800만 화소·14.11mm CMOS·31배·AI. 동일 모델 소매 없음, 0.8B에 B≤960,583원 필요해 큰 센서 PTZ의 명확한 상위 대체 불가"
-      ],
-      [
-        "24911369 STM-7077",
-        "태양광·15m 기둥·다중 카메라 일체 방범 시스템 세트, 동일·상위 완제품 없음"
-      ],
-      [
-        "24387617 CStDS P08",
-        "필름형 투명 LED 디스플레이 구성 세트, B≤965,990원/조, 규격 불명"
-      ],
-      [
-        "25667929 Prime5G-SYS-L135",
-        "암호화 저장장치+안내전광판 5개 세트, 전용 시스템"
-      ],
-      [
-        "24784883/25161840 AILED",
-        "융복합 안내전광판 세트, 맞춤 제작"
-      ],
-      [
-        "24300336 SMARTVISION ITS",
-        "교통정보전광판 맞춤 제작"
-      ],
-      [
-        "23617728 LDP-1802",
-        "양면 3색 LED 안내전광판 2620×380mm, B≤794,693원, 맞춤 제작"
-      ],
-      [
-        "24820118 DPA-DP-1041",
-        "전관방송 30종 구성 세트, 구성품 가격 대응 불가"
-      ],
-      [
-        "25268559 ICD-1S145",
-        "가상화 서버+C-STREAM 1CH SW 중앙감시 세트"
-      ],
-      [
-        "26161319 TAC-OA6081RG03",
-        "AI 블릿 카메라+PoE 스위치, B≤391,068원 필요, 전용 AI 분석"
-      ],
-      [
-        "25914196/25004877 홍석",
-        "태양광 방범 시스템 세트"
-      ],
-      [
-        "25135764 EGM271FS2",
-        "B≤26,877원 필요"
-      ],
-      [
-        "25206275 SSM-P001",
-        "B≤4,128원 필요"
-      ]
+      {
+        "item": "25619100 JHDC-4831AI PTZ",
+        "verdict": "800만 화소·14.11mm CMOS·31배·AI. 동일 모델 소매 없음, 0.8B에 B≤960,583원 필요해 큰 센서 PTZ의 명확한 상위 대체 불가. 독립 브라우저로 읽은 cctvtech 목록: 아이디스 DC-S6882WRT 8MP 31배 AI IR PTZ 7,500,000원, NC-S6882WR 8MP 31배 5,290,000원 — 조달가 680만 원 대비 0.8B 기준(≤960,583원)과 거리가 멂",
+        "jev": [
+          {
+            "url": "https://cctvtech.co.kr/category/ptz%ED%9A%8C%EC%A0%84%ED%98%95%EC%B9%B4%EB%A9%94%EB%9D%BC/94",
+            "operation": "CLICK",
+            "confidence": 0.43,
+            "latency_ms": 261,
+            "file": "work/hardware-goal1000/jev/25619100-1.json"
+          },
+          {
+            "url": "https://tipsmall.co.kr/category/%EB%B0%95%EC%8A%A4%EC%A4%8C%EC%9D%BC%EC%B2%B4%ED%98%95%EC%B9%B4%EB%A9%94%EB%9D%BC/6434",
+            "operation": "CLICK",
+            "confidence": 0.5,
+            "latency_ms": 230,
+            "file": "work/hardware-goal1000/jev/25619100-2.json"
+          },
+          {
+            "url": "https://videomart.kr/category/ptz-%EC%B9%B4%EB%A9%94%EB%9D%BC/1772",
+            "operation": "TYPE_TEXT",
+            "confidence": 0.57,
+            "latency_ms": 259,
+            "file": "work/hardware-goal1000/jev/25619100-3.json"
+          }
+        ]
+      },
+      {
+        "item": "24911369 STM-7077",
+        "verdict": "태양광·15m 기둥·다중 카메라 일체 방범 시스템 세트, 동일·상위 완제품 없음",
+        "jev": "not_run: Parallel 단계에서 소매 후보 페이지가 없었음(전용 세트·맞춤 제작)"
+      },
+      {
+        "item": "24387617 CStDS P08",
+        "verdict": "필름형 투명 LED 디스플레이 구성 세트, B≤965,990원/조, 규격 불명",
+        "jev": "not_run: Parallel 단계에서 소매 후보 페이지가 없었음(전용 세트·맞춤 제작)"
+      },
+      {
+        "item": "25667929 Prime5G-SYS-L135",
+        "verdict": "암호화 저장장치+안내전광판 5개 세트, 전용 시스템",
+        "jev": "not_run: Parallel 단계에서 소매 후보 페이지가 없었음(전용 세트·맞춤 제작)"
+      },
+      {
+        "item": "24784883/25161840 AILED",
+        "verdict": "융복합 안내전광판 세트, 맞춤 제작",
+        "jev": "not_run: Parallel 단계에서 소매 후보 페이지가 없었음(전용 세트·맞춤 제작)"
+      },
+      {
+        "item": "24300336 SMARTVISION ITS",
+        "verdict": "교통정보전광판 맞춤 제작",
+        "jev": "not_run: Parallel 단계에서 소매 후보 페이지가 없었음(전용 세트·맞춤 제작)"
+      },
+      {
+        "item": "23617728 LDP-1802",
+        "verdict": "양면 3색 LED 안내전광판 2620×380mm, B≤794,693원, 맞춤 제작",
+        "jev": "not_run: Parallel 단계에서 소매 후보 페이지가 없었음(전용 세트·맞춤 제작)"
+      },
+      {
+        "item": "24820118 DPA-DP-1041",
+        "verdict": "전관방송 30종 구성 세트, 구성품 가격 대응 불가",
+        "jev": "not_run: Parallel 단계에서 소매 후보 페이지가 없었음(전용 세트·맞춤 제작)"
+      },
+      {
+        "item": "25268559 ICD-1S145",
+        "verdict": "가상화 서버+C-STREAM 1CH SW 중앙감시 세트",
+        "jev": "not_run: Parallel 단계에서 소매 후보 페이지가 없었음(전용 세트·맞춤 제작)"
+      },
+      {
+        "item": "26161319 TAC-OA6081RG03",
+        "verdict": "AI 블릿 카메라+PoE 스위치, B≤391,068원 필요, 전용 AI 분석",
+        "jev": "not_run: Parallel 단계에서 소매 후보 페이지가 없었음(전용 세트·맞춤 제작)"
+      },
+      {
+        "item": "25914196/25004877 홍석",
+        "verdict": "태양광 방범 시스템 세트",
+        "jev": "not_run: Parallel 단계에서 소매 후보 페이지가 없었음(전용 세트·맞춤 제작)"
+      },
+      {
+        "item": "25135764 EGM271FS2",
+        "verdict": "B≤26,877원 필요",
+        "jev": "not_run: Parallel 단계에서 소매 후보 페이지가 없었음(전용 세트·맞춤 제작)"
+      },
+      {
+        "item": "25206275 SSM-P001",
+        "verdict": "B≤4,128원 필요",
+        "jev": "not_run: Parallel 단계에서 소매 후보 페이지가 없었음(전용 세트·맞춤 제작)"
+      }
     ],
     "ef_core_krw": "Parallel 3회·usashop 재검색에서 국내 원화 판매 페이지 없음",
     "ready": 0
