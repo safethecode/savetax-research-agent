@@ -25,14 +25,22 @@
         "item_id": "25451683",
         "amount_krw": "803600000",
         "accepted_at_utc": "2026-10-16T08:16:12.079Z"
+      },
+      {
+        "submission_id": "14da6e95-ab5f-4e66-bffe-1deb898f3940",
+        "item_id": "25395525",
+        "amount_krw": "1193400000",
+        "accepted_at_utc": "2026-10-16T08:31:47.292Z"
       }
     ],
-    "remaining_daily_claims": 1,
-    "minimum_each_remaining_krw": "600000000",
-    "target_last_submission_krw": "1067930000",
-    "cumulative_accepted_count": 46,
-    "cumulative_accepted_amount_krw": "10611481979",
-    "status_note": "오늘 세 번 중 두 건이 접수됐고 한 번이 남았다. 세 건 합계 30억 원 목표를 맞추려면 남은 한 건의 예상액은 1,067,930,000원 이상이어야 한다. 실제 가격과 비용을 임의로 조정하지 않는다. 다음 접수 직전에 공식 한도를 다시 확인한다."
+    "remaining_daily_claims": 0,
+    "cumulative_accepted_count": 47,
+    "cumulative_accepted_amount_krw": "11804881979",
+    "three_submission_total_krw": "3125470000",
+    "average_per_submission_krw": "1041823333.333333333333333333",
+    "each_minimum_met": true,
+    "target_average_met": true,
+    "status_note": "오늘 남은 세 번의 접수가 완료됐다. 합계 3,125,470,000원으로 건당 6억 원 이상·평균 10억 원 이상 목표를 충족했다. 모두 최종 검증 대기다. 오늘 추가 신규 점수 접수는 하지 않는다. 조사와 근거 보완은 계속하며 다른 후보는 2026-10-17에 available 상태·가격·규칙·한도를 다시 확인한 뒤 큰 예상액부터 선별한다."
   },
   "implementation": "현재 prioritize 함수의 remaining=3, release_deferred=false, priority_min=600000000을 사용하고, 최종 세 건의 합계는 별도 검산한다. 새 자동 제출 기능을 구현했다는 뜻은 아니다."
 }
