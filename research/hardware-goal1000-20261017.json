@@ -28332,5 +28332,40 @@
     },
     "parallel_actual_saved_call_count": 39,
     "posting": "접수·수정·커밋·푸시는 부모 root가 직렬 담당한다. 기존 제출은 변경하지 않는다."
+  },
+  "round8_enterprise_it_0_8b": {
+    "observed_kst": "2026-10-17 03:30~03:40",
+    "scanned": 52,
+    "available": 7,
+    "file": "work/hardware-goal1000/frontier/it-0.8b-available.json",
+    "verdicts": [
+      {
+        "item": "25415937/25423179 올인원 코리아 ASWR-EF300B/EA100B",
+        "verdict": "917MHz·422MHz 전용 무선 방송 단말(10W 송신·녹음·LCD). Wi-Fi AP 대체 대상 아님, 동일 모델 소매 없음",
+        "jev": "not_run: 소매 후보 페이지 없음"
+      },
+      {
+        "item": "24392975 BLUPS-R3400 UPS",
+        "verdict": "263M원×4 대형 UPS, industrial 담당 분야·설치 포함 대형 설비라 제외",
+        "jev": "not_run"
+      },
+      {
+        "item": "25717747/25717740 BESS",
+        "verdict": "에너지저장장치, industrial 분야",
+        "jev": "not_run"
+      },
+      {
+        "item": "24680233 SG9806",
+        "verdict": "6슬롯 L3 섀시, 납품 라인카드 구성 미확인",
+        "jev": "not_run"
+      },
+      {
+        "item": "23929718 VURIX-DEEP16S",
+        "verdict": "i9-9900K·32GB·250GB·Windows 랙 서버에 16채널 딥러닝 영상분석 권리 포함으로 보임. B≤1,998,428원 필요, 서버 하드웨어만으로는 분석 권리 포함 완제품 범위를 충족할 수 없음",
+        "jev": "not_run: 소매 후보 페이지 없음"
+      }
+    ],
+    "note": "스토리지·디스크어레이·서버·스위치·화상회의 분류의 8억 원 이상 품목은 나머지가 모두 claimed/reform_found/on_hold",
+    "ready": 0
   }
 }
