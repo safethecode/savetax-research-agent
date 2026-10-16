@@ -2,14 +2,14 @@
   "observed_at_utc": "2026-10-16T02:01:52.707374+00:00",
   "selection": "unique item MD5(삼손:20261010-r5:||item_id) rank300001..987050, 500-item batches. Each batch candidates selected by retail-comparable categories; no global top50.",
   "source_dataset": "work/data/savetax-products-20261010-r5/listings.parquet",
-  "local_candidates": 307,
-  "targeted_lookup_count": 68,
+  "local_candidates": 332,
+  "targeted_lookup_count": 93,
   "availability_counts": {
-    "available": 57,
+    "available": 80,
     "claimed": 9,
-    "on_hold": 2
+    "on_hold": 4
   },
-  "api_calls": "1 lookup request of68 IDs + 3 available item detail requests; >=1.1s between detail requests, no429 encountered.",
+  "api_calls": "2 lookup requests covering93 unique IDs + 3 available item detail requests; >=1.1s between detail requests, no429 encountered. Parallel search8calls separate.",
   "valid_new_savings_ge_100m": [],
   "verified_potential_savings_krw": "0",
   "external_submission_performed": false,
@@ -2995,7 +2995,7 @@
       "batch": 1243,
       "availability": "available",
       "C_label": "dlv_key별 max(dlv_amount) 합계, 탐색용 B=0 절감 상한. 실제지급액 아님.",
-      "decision": "보류: 사조1.88kg 현재다나와상품13650+배송3000=16650원. 조달16280보다높음. 배송제외13650도16280/13650=1.19267로1.2배미달. 쿠팡2개27070 검색단서는개당13535로약1.066억원잠재차액이나 직접페이지403으로미채택.",
+      "decision": "보류: 사조 1.88kg: 식봄 직접 페이지 일반가19900원, 최대혜택13930원은 첫구매쿠폰5970원/할인한도30000원. 캐시 쿠폰12943원을 일반가로 쓰지 않음. 배민6개 일반가116300원(개당19383.33원); 쿠팡2개27070원 원문은 브라우저도 Access Denied라 미검증 유지.",
       "followup_screening": [
         {
           "observed_at_utc": "2026-10-16T02:13:23.965491+00:00",
@@ -3011,6 +3011,17 @@
             8,
             9
           ]
+        },
+        {
+          "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+          "note": "사조 1.88kg: 식봄 직접 페이지 일반가19900원, 최대혜택13930원은 첫구매쿠폰5970원/할인한도30000원. 캐시 쿠폰12943원을 일반가로 쓰지 않음. 배민6개 일반가116300원(개당19383.33원); 쿠팡2개27070원 원문은 브라우저도 Access Denied라 미검증 유지.",
+          "price_lead_krw": 19900,
+          "pack_count": 1,
+          "source_url": "https://www.foodspring.co.kr/goods/detail/611384",
+          "raw_search_files": [
+            37
+          ],
+          "verification": "direct_page_negative"
         }
       ]
     },
@@ -5559,7 +5570,7 @@
       "batch": 1688,
       "availability": "available",
       "C_label": "dlv_key별 max(dlv_amount) 합계, 탐색용 B=0 절감 상한. 실제지급액 아님.",
-      "decision": "보류: 청정원천일염가는소금1kg5개18000원=3600원단서. 전체Q44911이면배송/세금미조정단순차액40419900원이라1억우선범위아래queue. 단품컬리7640원은조달4500보다높음.",
+      "decision": "미채택: 5개18000원·3개11210원은검색캐시뿐이며직접원문에서재현못함. G마켓3개4726466128품절·면세상품, 현재다나와3개13910원무료. API139facts 모두4500원vat_included로확인.",
       "followup_screening": [
         {
           "observed_at_utc": "2026-10-16T02:13:23.965491+00:00",
@@ -5571,6 +5582,19 @@
           "raw_search_files": [
             11
           ]
+        },
+        {
+          "observed_at_utc": "2026-10-16T02:59:14.071329+00:00",
+          "verification": "direct_page_not_qualifying",
+          "note": "미채택: 5개18000원·3개11210원은검색캐시뿐이며직접원문에서재현못함. G마켓3개4726466128품절·면세상품, 현재다나와3개13910원무료. API139facts 모두4500원vat_included로확인.",
+          "source_url": "https://item.gmarket.co.kr/Item?goodsCode=4726466128",
+          "related_current_comparison": "https://prod.danawa.com/info/?pcode=41541521",
+          "raw_files": [
+            "work/bulk/salt-web-1.json",
+            "work/bulk/salt-web-2.json",
+            "work/bulk/salt-web-3.json"
+          ],
+          "facts_file": "work/kitchen-lab-bulk/item-25019307.json"
         }
       ]
     },
@@ -7027,7 +7051,20 @@
       "batch": 1917,
       "availability": null,
       "C_label": "dlv_key별 max(dlv_amount) 합계, 탐색용 B=0 절감 상한. 실제지급액 아님.",
-      "decision": "미조회: 동일제조사모델/등급/포장 소매 직접 비교 가능성이 낮은 범용·공사용자재 또는 업무범위밖"
+      "decision": "보류: 오쉐프우리쌀소불고기주먹밥1kg 공개판매가 미발견. 공식B2B카탈로그에제품군만 확인, 다른김치치즈주먹밥과 비교 안 함.",
+      "followup_screening": [
+        {
+          "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+          "note": "오쉐프우리쌀소불고기주먹밥1kg 공개판매가 미발견. 공식B2B카탈로그에제품군만 확인, 다른김치치즈주먹밥과 비교 안 함.",
+          "price_lead_krw": null,
+          "pack_count": null,
+          "source_url": "https://www.otoki.com/pdf/OTOKI_B2B_New_Product_Catalog%28Jan.-Dec.%C2%A02025%29.pdf",
+          "raw_search_files": [
+            50
+          ],
+          "verification": "screened_not_verified"
+        }
+      ]
     },
     {
       "item_id": "23792427",
@@ -7877,7 +7914,7 @@
       "dlv_keys": 1,
       "batch": 1087,
       "availability": "available",
-      "decision": "보류: 코다노DMC1kg7930+배송3500단서. 조달모델코다노슈레드모짜렐라피자치즈와DMC동일성이미확정. 배송포함11430은조달10230보다높음.",
+      "decision": "제외: DMC-F 7930원 단서는 자연치즈50%+모조치즈50% 제품. 조달 자연치즈 코다노슈레드모짜렐라와 원재료형태가 달라 동일가격으로 사용안함. EF/E 100%자연치즈는11000원대이상.",
       "selection_note": "기존배정MD5구간 내부 햄/치즈/냉동식품 키워드 추가. 전체 local-expanded 후보를 묶음별 선별 후 C 큰 동일유통모델25개 상세검색.",
       "followup_screening": [
         {
@@ -8039,8 +8076,8 @@
     }
   ],
   "followup": {
-    "observed_at_utc": "2026-10-16T02:19:23.187399+00:00",
-    "raw_search_file_pattern": "work/bulk/web-followup-{1..36}.json",
+    "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+    "raw_search_file_pattern": "work/bulk/web-followup-{1..50}.json",
     "total_targeted_lookup_ids": 93,
     "lookup_counts": {
       "available": 80,
@@ -8138,7 +8175,18 @@
           35
         ]
       }
-    ]
+    ],
+    "parallel_search_files": [
+      "work/bulk/parallel-followup-1.json",
+      "work/bulk/parallel-followup-2.json"
+    ],
+    "latest_new_food_screens": 22,
+    "verified_new_ge_100m": 0,
+    "medical_mining": {
+      "source": "work/bulk/local-medical.json",
+      "new_keyword_matches": 24,
+      "conclusion": "실제 의료소모품 고액 신규품은 로타텍백신뿐이고 나머지 대부분 구급차/밴드 오탐. 일반 소매가격에 적합한 신규 후보 없음. API조회 안 함."
+    }
   },
   "additional_unlooked_screening": [
     {
@@ -8196,7 +8244,18 @@
       "dlv_keys": 1,
       "batch": 692,
       "availability": null,
-      "decision": "미조회: 동일소매 역전가격 선행확인 전 APIlookup안함"
+      "decision": "미조회보류: 이과수1L 공식증권신고서 의약품판매가격11750원/L로 조달11750원과 같음. 소매판매페이지는 미발견.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "이과수1L 공식증권신고서 의약품판매가격11750원/L로 조달11750원과 같음. 소매판매페이지는 미발견.",
+        "price_lead_krw": 11750,
+        "source_url": "https://kind.krx.co.kr/external/2025/02/27/000545/20250227001574/10001.htm",
+        "raw_search_files": [
+          47,
+          48
+        ],
+        "verification": "screened_not_verified"
+      }
     },
     {
       "item_id": "25775725",
@@ -8529,7 +8588,18 @@
       "dlv_keys": 1,
       "batch": 1137,
       "availability": null,
-      "decision": "미조회: 동일소매 역전가격 선행확인 전 APIlookup안함"
+      "decision": "미조회보류: 바이킹1L 공식증권신고서 의약품판매가격11500원/L로 조달11500원과 같음.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "바이킹1L 공식증권신고서 의약품판매가격11500원/L로 조달11500원과 같음.",
+        "price_lead_krw": 11500,
+        "source_url": "https://kind.krx.co.kr/external/2025/02/27/000545/20250227001574/10001.htm",
+        "raw_search_files": [
+          47,
+          48
+        ],
+        "verification": "screened_not_verified"
+      }
     },
     {
       "item_id": "23177339",
@@ -8548,7 +8618,18 @@
       "dlv_keys": 1,
       "batch": 1174,
       "availability": null,
-      "decision": "미조회: 동일소매 역전가격 선행확인 전 APIlookup안함"
+      "decision": "미조회보류: 포인트100 공식증권신고서 의약품판매가격12500원/L로 조달12500원과 같음.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "포인트100 공식증권신고서 의약품판매가격12500원/L로 조달12500원과 같음.",
+        "price_lead_krw": 12500,
+        "source_url": "https://kind.krx.co.kr/external/2025/02/27/000545/20250227001574/10001.htm",
+        "raw_search_files": [
+          47,
+          48
+        ],
+        "verification": "screened_not_verified"
+      }
     },
     {
       "item_id": "22428186",
@@ -8794,7 +8875,18 @@
       "dlv_keys": 1,
       "batch": 1561,
       "availability": null,
-      "decision": "미조회: 동일소매 역전가격 선행확인 전 APIlookup안함"
+      "decision": "미조회보류: 애드졸플러스20L 정확소매/공식가격표 미발견.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "애드졸플러스20L 정확소매/공식가격표 미발견.",
+        "price_lead_krw": null,
+        "source_url": null,
+        "raw_search_files": [
+          47,
+          48
+        ],
+        "verification": "screened_not_verified"
+      }
     },
     {
       "item_id": "24803866",
@@ -9003,7 +9095,18 @@
       "dlv_keys": 1,
       "batch": 1797,
       "availability": null,
-      "decision": "미조회: 동일소매 역전가격 선행확인 전 APIlookup안함"
+      "decision": "미조회보류: 클린업플러스 공식1L/5L포장 확인. 공개판매가격표 없음. 다른크린플러스75/해썹소독제와 비교 안 함.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "클린업플러스 공식1L/5L포장 확인. 공개판매가격표 없음. 다른크린플러스75/해썹소독제와 비교 안 함.",
+        "price_lead_krw": null,
+        "source_url": "https://www.gcvp.co.kr/cleanup-plus",
+        "raw_search_files": [
+          47,
+          48
+        ],
+        "verification": "screened_not_verified"
+      }
     },
     {
       "item_id": "23640719",
@@ -9041,18 +9144,986 @@
       "dlv_keys": 1,
       "batch": 1946,
       "availability": null,
-      "decision": "미조회보류: 참신홀딩스에코팜1L 소매가격미발견. 특허희석정보나기관계약25000원은소매가아님.",
+      "decision": "미조회보류: 에코팜 공식증권신고서 의약품판매가격25000원/L로 조달25000원과 같음.",
       "screening": {
-        "observed_at_utc": "2026-10-16T02:19:23.187399+00:00",
-        "note": "참신홀딩스에코팜1L 소매가격미발견. 특허희석정보나기관계약25000원은소매가아님.",
-        "price_lead_krw": null,
-        "source_url": null,
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "에코팜 공식증권신고서 의약품판매가격25000원/L로 조달25000원과 같음.",
+        "price_lead_krw": 25000,
+        "source_url": "https://kind.krx.co.kr/external/2025/02/27/000545/20250227001574/10001.htm",
         "raw_search_files": [
-          30,
-          32,
-          33
-        ]
+          47,
+          48
+        ],
+        "verification": "screened_not_verified"
       }
     }
-  ]
+  ],
+  "additional_food_screening": [
+    {
+      "item_id": "24823490",
+      "rn": 981432,
+      "product_name": "알가공품, 아워홈, 행복한맛남계란후라이(냉동), 500g, 알가열제품",
+      "model": "행복한맛남계란후라이(냉동)",
+      "spec": "500g, 알가열제품",
+      "manufacturer": "(주)아워홈",
+      "unit": "개",
+      "category": "알가공품",
+      "listing_id": "0024A0200_1020000002",
+      "min_price": "7249.000",
+      "max_price": "7249.000",
+      "C": 602970086,
+      "Q": 84218,
+      "dlv_keys": 1,
+      "batch": 1962,
+      "availability": null,
+      "decision": "미조회보류: 아워홈 행복한맛남 계란후라이500g: 실제11번가 일반판매가8450원/할인가7210원, 배송비1개당4000원. 합11210원으로 조달7249원보다 높음. 다나와 하단3210원은 실제상품가격 아님. root 브라우저 work/browser/ourhome-11st.json 확인.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "아워홈 행복한맛남 계란후라이500g: 실제11번가 일반판매가8450원/할인가7210원, 배송비1개당4000원. 합11210원으로 조달7249원보다 높음. 다나와 하단3210원은 실제상품가격 아님. root 브라우저 work/browser/ourhome-11st.json 확인.",
+        "price_lead_krw": 7210,
+        "pack_count": 1,
+        "source_url": "https://www.11st.co.kr/products/3050492742",
+        "raw_search_files": [
+          37,
+          38,
+          39,
+          40
+        ],
+        "verification": "browser_verified_negative"
+      }
+    },
+    {
+      "item_id": "25316245",
+      "rn": 887268,
+      "product_name": "알가공품, 아워홈, 행복한맛남계란지단채(냉동), 700g, 알가열제품",
+      "model": "행복한맛남계란지단채(냉동)",
+      "spec": "700g, 알가열제품",
+      "manufacturer": "(주)아워홈",
+      "unit": "개",
+      "category": "알가공품",
+      "listing_id": "0024A0200_1020000003",
+      "min_price": "7249.000",
+      "max_price": "7249.000",
+      "C": 467785219,
+      "Q": 64531,
+      "dlv_keys": 1,
+      "batch": 1774,
+      "availability": null,
+      "decision": "미조회보류: 아워홈 계란지단채700g: 공식몰 검색가격9280원+배송3000원, 3만원이상무료, 일시품절. 조달7249원보다 높음. 공식direct InternalError로 검색자료를 점수근거로 쓰지 않음.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "아워홈 계란지단채700g: 공식몰 검색가격9280원+배송3000원, 3만원이상무료, 일시품절. 조달7249원보다 높음. 공식direct InternalError로 검색자료를 점수근거로 쓰지 않음.",
+        "price_lead_krw": 9280,
+        "pack_count": 1,
+        "source_url": "https://jirisansoo.ourhome.co.kr/mall/product/detail.do?goods_id=S000000001227&md=MA_GO_05",
+        "raw_search_files": [
+          37,
+          49
+        ],
+        "verification": "screened_not_verified"
+      }
+    },
+    {
+      "item_id": "24551515",
+      "rn": 378174,
+      "product_name": "토마토케첩, 오뚜기, 토마토케챂, 1kg",
+      "model": "토마토케챂",
+      "spec": "1kg",
+      "manufacturer": "(주)오뚜기",
+      "unit": "개",
+      "category": "토마토케첩",
+      "listing_id": "0021A0462_1050000025",
+      "min_price": "3630.000",
+      "max_price": "3630.000",
+      "C": 503455590,
+      "Q": 138693,
+      "dlv_keys": 1,
+      "batch": 756,
+      "availability": null,
+      "decision": "미조회보류: 오뚜기 토마토케챂1kg: 진보람몰 직접상품페이지5100원+배송3000원(10만원이상무료), 오뚜기/1kg 명시. 조달3630원보다 높음. 델리1kg은 다른제품명이므로 교체비교 안 함.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "오뚜기 토마토케챂1kg: 진보람몰 직접상품페이지5100원+배송3000원(10만원이상무료), 오뚜기/1kg 명시. 조달3630원보다 높음. 델리1kg은 다른제품명이므로 교체비교 안 함.",
+        "price_lead_krw": 5100,
+        "pack_count": 1,
+        "source_url": "https://www.jbrmall.co.kr/shop/view.php?index_no=12559",
+        "raw_search_files": [
+          41,
+          49
+        ],
+        "verification": "direct_page_negative"
+      }
+    },
+    {
+      "item_id": "24705218",
+      "rn": 699046,
+      "product_name": "카레, 오뚜기, 3분쇠고기카레, 200g",
+      "model": "3분쇠고기카레",
+      "spec": "200g",
+      "manufacturer": "(주)오뚜기",
+      "unit": "개",
+      "category": "카레",
+      "listing_id": "0022A0376_1100000011",
+      "min_price": "1155.000",
+      "max_price": "1155.000",
+      "C": 324459135,
+      "Q": 280917,
+      "dlv_keys": 1,
+      "batch": 1398,
+      "availability": null,
+      "decision": "미조회보류: 오뚜기3분쇠고기카레200g: 에누리24개24720원+배송3000원=개당1155원으로 조달1155원과 같음. 검색16170원 단서는 옵션/구성이 불명확하여 점수값으로 쓰지 않음.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "오뚜기3분쇠고기카레200g: 에누리24개24720원+배송3000원=개당1155원으로 조달1155원과 같음. 검색16170원 단서는 옵션/구성이 불명확하여 점수값으로 쓰지 않음.",
+        "price_lead_krw": 24720,
+        "pack_count": 24,
+        "source_url": "https://price.enuri.com/catalog/1186521",
+        "raw_search_files": [
+          41
+        ],
+        "verification": "comparison_negative"
+      }
+    },
+    {
+      "item_id": "25490588",
+      "rn": 787905,
+      "product_name": "알가공품, (주문자상표부착)통영해인, 계란후라이(비살균제품), 900g, 알가열제품",
+      "model": "계란후라이(비살균제품)",
+      "spec": "900g, 알가열제품",
+      "manufacturer": "주식회사 통영해인",
+      "unit": "개",
+      "category": "알가공품",
+      "listing_id": "0024A1045_1050000004",
+      "min_price": "6750.000",
+      "max_price": "6750.000",
+      "C": 635715150,
+      "Q": 94920,
+      "dlv_keys": 1,
+      "batch": 1575,
+      "availability": null,
+      "decision": "미조회보류: 통영해인 계란후라이900g 정확제품 소매페이지 미발견. 다른제조사 풍림/쉐프원900g은 채택 안 함.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "통영해인 계란후라이900g 정확제품 소매페이지 미발견. 다른제조사 풍림/쉐프원900g은 채택 안 함.",
+        "price_lead_krw": null,
+        "pack_count": null,
+        "source_url": null,
+        "raw_search_files": [
+          37
+        ],
+        "verification": "screened_not_verified"
+      }
+    },
+    {
+      "item_id": "25080953",
+      "rn": 398310,
+      "product_name": "양념육류, 아워홈, 간장소스우불고기, 3kg, 양념육",
+      "model": "간장소스우불고기",
+      "spec": "3kg, 양념육",
+      "manufacturer": "(주)아워홈",
+      "unit": "개",
+      "category": "양념육류",
+      "listing_id": "0023A0749_1080000005",
+      "min_price": "43700.000",
+      "max_price": "43700.000",
+      "C": 442414100,
+      "Q": 9861,
+      "dlv_keys": 1,
+      "batch": 796,
+      "availability": null,
+      "decision": "미조회보류: 아워홈 간장소스우불고기3kg 소매판매가 미발견. 제조사공식은1kg/5kg만 확인되어3kg으로 환산 안 함.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "아워홈 간장소스우불고기3kg 소매판매가 미발견. 제조사공식은1kg/5kg만 확인되어3kg으로 환산 안 함.",
+        "price_lead_krw": null,
+        "pack_count": null,
+        "source_url": "https://tfs.ourhome.co.kr/menu/recommend/detail/203",
+        "raw_search_files": [
+          42,
+          43
+        ],
+        "verification": "screened_not_verified"
+      }
+    },
+    {
+      "item_id": "24531000",
+      "rn": 782930,
+      "product_name": "양념육류, 씨제이제일제당, 크레잇간장소불고기, 3kg, 양념육",
+      "model": "크레잇간장소불고기",
+      "spec": "3kg, 양념육",
+      "manufacturer": "씨제이제일제당주식회사",
+      "unit": "개",
+      "category": "양념육류",
+      "listing_id": "0022A0352_1160000008",
+      "min_price": "42850.000",
+      "max_price": "42850.000",
+      "C": 406912220,
+      "Q": 9406,
+      "dlv_keys": 1,
+      "batch": 1565,
+      "availability": null,
+      "decision": "미조회보류: CJ크레잇 간장소불고기3kg 소매판매가 미발견. CJ프레시웨이 이츠웰은 제조사/모델이 달라 교체비교 안 함.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "CJ크레잇 간장소불고기3kg 소매판매가 미발견. CJ프레시웨이 이츠웰은 제조사/모델이 달라 교체비교 안 함.",
+        "price_lead_krw": null,
+        "pack_count": null,
+        "source_url": null,
+        "raw_search_files": [
+          42,
+          43
+        ],
+        "verification": "screened_not_verified"
+      }
+    },
+    {
+      "item_id": "25194737",
+      "rn": 561755,
+      "product_name": "양념육류, 정다운, 영양만점고추장오리주물럭, 1kg, 양념육",
+      "model": "영양만점고추장오리주물럭",
+      "spec": "1kg, 양념육",
+      "manufacturer": "주식회사 정다운",
+      "unit": "kg",
+      "category": "양념육류",
+      "listing_id": "0023A0111_1080000018",
+      "min_price": "13500.000",
+      "max_price": "13500.000",
+      "C": 432918000,
+      "Q": 32068,
+      "dlv_keys": 1,
+      "batch": 1123,
+      "availability": null,
+      "decision": "미조회보류: 정다운 영양만점고추장오리주물럭1kg 정확소매 없음. 다른 더얇아서맛있는400g과 환산 안 함.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "정다운 영양만점고추장오리주물럭1kg 정확소매 없음. 다른 더얇아서맛있는400g과 환산 안 함.",
+        "price_lead_krw": null,
+        "pack_count": null,
+        "source_url": null,
+        "raw_search_files": [
+          42,
+          43
+        ],
+        "verification": "screened_not_verified"
+      }
+    },
+    {
+      "item_id": "25609208",
+      "rn": 394871,
+      "product_name": "햄류, (주문자상표부착)연석, 마미홈오곡블루베리훈제오리, 1kg",
+      "model": "마미홈오곡블루베리훈제오리",
+      "spec": "1kg",
+      "manufacturer": "주식회사 연석",
+      "unit": "개",
+      "category": "햄류",
+      "listing_id": "R25TA00039828040000004",
+      "min_price": "15600.000",
+      "max_price": "15600.000",
+      "C": 406348800,
+      "Q": 26048,
+      "dlv_keys": 1,
+      "batch": 789,
+      "availability": null,
+      "decision": "미조회보류: 연석 마미홈 오곡블루베리훈제오리1kg 정확소매 없음. CJ튼튼스쿨 블루베리훈제오리는 다른제품.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "연석 마미홈 오곡블루베리훈제오리1kg 정확소매 없음. CJ튼튼스쿨 블루베리훈제오리는 다른제품.",
+        "price_lead_krw": null,
+        "pack_count": null,
+        "source_url": null,
+        "raw_search_files": [
+          42,
+          43
+        ],
+        "verification": "screened_not_verified"
+      }
+    },
+    {
+      "item_id": "25524350",
+      "rn": 787334,
+      "product_name": "냉동감자, (주문자상표부착)조흥, 코다노회오리감자, 700g",
+      "model": "코다노회오리감자",
+      "spec": "700g",
+      "manufacturer": "(주)조흥",
+      "unit": "개",
+      "category": "냉동감자",
+      "listing_id": "0023A0667_1050000011",
+      "min_price": "10340.000",
+      "max_price": "10340.000",
+      "C": 281634620,
+      "Q": 27265,
+      "dlv_keys": 1,
+      "batch": 1574,
+      "availability": null,
+      "decision": "미조회보류: 코다노 회오리감자700g(70g10개) G마켓20900원 무료배송 검색가격으로 조달10340원보다 높음. 2봉35900원도 개당17950원.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "코다노 회오리감자700g(70g10개) G마켓20900원 무료배송 검색가격으로 조달10340원보다 높음. 2봉35900원도 개당17950원.",
+        "price_lead_krw": 20900,
+        "pack_count": 1,
+        "source_url": "https://www.gmarket.co.kr/n/search?keyword=회오리감자",
+        "raw_search_files": [
+          44
+        ],
+        "verification": "screened_not_verified"
+      }
+    },
+    {
+      "item_id": "24619843",
+      "rn": 498144,
+      "product_name": "가공치즈, 남양유업, 자연방목치즈로채운체다슬라이스, 255g",
+      "model": "자연방목치즈로채운체다슬라이스",
+      "spec": "255g",
+      "manufacturer": "남양유업(주)",
+      "unit": "개",
+      "category": "가공치즈",
+      "listing_id": "R25TA01034794000000001",
+      "min_price": "3960.000",
+      "max_price": "3960.000",
+      "C": 303799320,
+      "Q": 76717,
+      "dlv_keys": 1,
+      "batch": 996,
+      "availability": null,
+      "decision": "미조회보류: 남양 자연방목치즈로채운체다슬라이스255g 정확 판매페이지 미발견.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "남양 자연방목치즈로채운체다슬라이스255g 정확 판매페이지 미발견.",
+        "price_lead_krw": null,
+        "pack_count": null,
+        "source_url": null,
+        "raw_search_files": [
+          44
+        ],
+        "verification": "screened_not_verified"
+      }
+    },
+    {
+      "item_id": "25457599",
+      "rn": 592250,
+      "product_name": "햄류, 농협목우촌, 주부9단훈제치킨닭다리, 120g",
+      "model": "주부9단훈제치킨닭다리",
+      "spec": "120g",
+      "manufacturer": "(주)농협목우촌",
+      "unit": "봉",
+      "category": "햄류",
+      "listing_id": "0022A0424_1070000011",
+      "min_price": "1490.000",
+      "max_price": "1490.000",
+      "C": 310794630,
+      "Q": 208587,
+      "dlv_keys": 1,
+      "batch": 1184,
+      "availability": null,
+      "decision": "미조회보류: 목우촌 주부9단훈제치킨닭다리120g 공식직접페이지3500원+배송3000원/4만원이상무료, 조달1490원보다 높음. 다른동일URL형식 검색2900원도 높음.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "목우촌 주부9단훈제치킨닭다리120g 공식직접페이지3500원+배송3000원/4만원이상무료, 조달1490원보다 높음. 다른동일URL형식 검색2900원도 높음.",
+        "price_lead_krw": 3500,
+        "pack_count": 1,
+        "source_url": "https://m.moguchonmall.com/product/detail.html?product_no=728",
+        "raw_search_files": [
+          44,
+          49
+        ],
+        "verification": "direct_page_negative"
+      }
+    },
+    {
+      "item_id": "25192062",
+      "rn": 608945,
+      "product_name": "냉동빵, 명랑시대공장, 명랑시대모짜렐라 in the 핫도그M, 850g(85gx10개)/봉",
+      "model": "명랑시대모짜렐라 in the 핫도그M",
+      "spec": "850g(85gx10개)/봉",
+      "manufacturer": "명랑시대협동조합공장",
+      "unit": "개",
+      "category": "냉동빵",
+      "listing_id": "0024A0705_1010000001",
+      "min_price": "10890.000",
+      "max_price": "10890.000",
+      "C": 387640440,
+      "Q": 35596,
+      "dlv_keys": 1,
+      "batch": 1217,
+      "availability": null,
+      "decision": "미조회보류: 명랑시대 모짜렐라 in the 핫도그M850g: 같은85g10개 유통단서15110원/16300원으로 조달10890원보다 높음. Costco직접본문은 빈값이라 동일M모델 확정/점수제출 안 함.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "명랑시대 모짜렐라 in the 핫도그M850g: 같은85g10개 유통단서15110원/16300원으로 조달10890원보다 높음. Costco직접본문은 빈값이라 동일M모델 확정/점수제출 안 함.",
+        "price_lead_krw": 15110,
+        "pack_count": 1,
+        "source_url": "https://prod.danawa.com/info/?pcode=33360890",
+        "raw_search_files": [
+          44,
+          49
+        ],
+        "verification": "screened_not_verified"
+      }
+    },
+    {
+      "item_id": "24815480",
+      "rn": 952115,
+      "product_name": "양념육류, 정다운, 더얇아서맛있는오리간장불고기, 1kg, 양념육",
+      "model": "더얇아서맛있는오리간장불고기",
+      "spec": "1kg, 양념육",
+      "manufacturer": "주식회사 정다운",
+      "unit": "개",
+      "category": "양념육류",
+      "listing_id": "0023A0111_1080000003",
+      "min_price": "12100.000",
+      "max_price": "12100.000",
+      "C": 343724700,
+      "Q": 28407,
+      "dlv_keys": 1,
+      "batch": 1904,
+      "availability": null,
+      "decision": "미조회보류: 정다운 더얇아서맛있는오리간장불고기1kg 정확판매페이지 미발견. 공식7500원은400g으로 보여1kg과 비교 안 함.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "정다운 더얇아서맛있는오리간장불고기1kg 정확판매페이지 미발견. 공식7500원은400g으로 보여1kg과 비교 안 함.",
+        "price_lead_krw": null,
+        "pack_count": null,
+        "source_url": "https://www.jungdawnmall.com/goods/goods_main.php?sno=8",
+        "raw_search_files": [
+          45,
+          46
+        ],
+        "verification": "screened_not_verified"
+      }
+    },
+    {
+      "item_id": "24822194",
+      "rn": 822489,
+      "product_name": "소시지류, 태림에프웰, 랑쿡그릴비엔나, 1kg",
+      "model": "랑쿡그릴비엔나",
+      "spec": "1kg",
+      "manufacturer": "(주)태림에프웰",
+      "unit": "개",
+      "category": "소시지류",
+      "listing_id": "0022A0318_1110000010",
+      "min_price": "8250.000",
+      "max_price": "8250.000",
+      "C": 397996500,
+      "Q": 48242,
+      "dlv_keys": 1,
+      "batch": 1644,
+      "availability": null,
+      "decision": "미조회보류: 태림에프웰 랑쿡그릴비엔나1kg 정확소매 미발견. 랑쿡돈까스/너비아니와 비교 안 함.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "태림에프웰 랑쿡그릴비엔나1kg 정확소매 미발견. 랑쿡돈까스/너비아니와 비교 안 함.",
+        "price_lead_krw": null,
+        "pack_count": null,
+        "source_url": null,
+        "raw_search_files": [
+          45,
+          46
+        ],
+        "verification": "screened_not_verified"
+      }
+    },
+    {
+      "item_id": "24917253",
+      "rn": 733515,
+      "product_name": "식육함유가공품, 한양제너럴푸드, 웰쉐프명품소고기장조림, 1kg",
+      "model": "웰쉐프명품소고기장조림",
+      "spec": "1kg",
+      "manufacturer": "한양제너럴푸드",
+      "unit": "개",
+      "category": "식육함유가공품",
+      "listing_id": "0024A0843_1010000001",
+      "min_price": "15950.000",
+      "max_price": "15950.000",
+      "C": 423702180,
+      "Q": 26884,
+      "dlv_keys": 1,
+      "batch": 1467,
+      "availability": null,
+      "decision": "미조회보류: 웰쉐프 명품소고기장조림1kg 정확소매 미발견. CJ이츠웰1kg19390원은 다른제조사라 미채택.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "웰쉐프 명품소고기장조림1kg 정확소매 미발견. CJ이츠웰1kg19390원은 다른제조사라 미채택.",
+        "price_lead_krw": null,
+        "pack_count": null,
+        "source_url": null,
+        "raw_search_files": [
+          45,
+          46
+        ],
+        "verification": "screened_not_verified"
+      }
+    },
+    {
+      "item_id": "25790424",
+      "rn": 641782,
+      "product_name": "양념육류, (주문자상표부착)연석, 마미홈고추장오리주물럭, 1kg, 양념육",
+      "model": "마미홈고추장오리주물럭",
+      "spec": "1kg, 양념육",
+      "manufacturer": "주식회사 연석",
+      "unit": "개",
+      "category": "양념육류",
+      "listing_id": "R25TA00039828040000006",
+      "min_price": "13400.000",
+      "max_price": "13400.000",
+      "C": 283101800,
+      "Q": 21127,
+      "dlv_keys": 1,
+      "batch": 1283,
+      "availability": null,
+      "decision": "미조회보류: 연석 마미홈고추장오리주물럭1kg 정확소매 미발견. 다른제조사 일반오리주물럭 채택 안 함.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "연석 마미홈고추장오리주물럭1kg 정확소매 미발견. 다른제조사 일반오리주물럭 채택 안 함.",
+        "price_lead_krw": null,
+        "pack_count": null,
+        "source_url": null,
+        "raw_search_files": [
+          45,
+          46
+        ],
+        "verification": "screened_not_verified"
+      }
+    },
+    {
+      "item_id": "24802047",
+      "rn": 347103,
+      "product_name": "양념육류, (주문자상표부착)씨제이제일제당, 크리스피스팸튀김, 1kg, 분쇄가공육",
+      "model": "크리스피스팸튀김",
+      "spec": "1kg, 분쇄가공육",
+      "manufacturer": "씨제이제일제당주식회사",
+      "unit": "개",
+      "category": "양념육류",
+      "listing_id": "0022A0352_1160000021",
+      "min_price": "15000.000",
+      "max_price": "15000.000",
+      "C": 215415000,
+      "Q": 14361,
+      "dlv_keys": 1,
+      "batch": 694,
+      "availability": null,
+      "decision": "미조회보류: CJ크리스피스팸튀김1kg: CJ공식 검색21980원/에스플러스마켓20500원, 조달15000원보다 높음. 큐브형 상세동일성 추가확정 전 점수안함.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "CJ크리스피스팸튀김1kg: CJ공식 검색21980원/에스플러스마켓20500원, 조달15000원보다 높음. 큐브형 상세동일성 추가확정 전 점수안함.",
+        "price_lead_krw": 20500,
+        "pack_count": 1,
+        "source_url": "https://m.splusmarket.com/product/cj-크레잇-크리스피-스팸튀김-1kg-x-1개/11314/category/80/display/1/",
+        "raw_search_files": [
+          50
+        ],
+        "verification": "screened_not_verified"
+      }
+    },
+    {
+      "item_id": "25140142",
+      "rn": 344552,
+      "product_name": "소시지류, 농협목우촌, 알뜨레비엔나소시지, 1kg",
+      "model": "알뜨레비엔나소시지",
+      "spec": "1kg",
+      "manufacturer": "(주)농협목우촌",
+      "unit": "개",
+      "category": "소시지류",
+      "listing_id": "0022A0424_1070000006",
+      "min_price": "7390.000",
+      "max_price": "7390.000",
+      "C": 337427400,
+      "Q": 45660,
+      "dlv_keys": 1,
+      "batch": 689,
+      "availability": null,
+      "decision": "미조회보류: 목우촌 알뜨레비엔나소시지1kg은 제조사공식제품 존재하나 공개판매가 없음. 주부9단/프라임/칼집비엔나와 비교 안 함.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "목우촌 알뜨레비엔나소시지1kg은 제조사공식제품 존재하나 공개판매가 없음. 주부9단/프라임/칼집비엔나와 비교 안 함.",
+        "price_lead_krw": null,
+        "pack_count": null,
+        "source_url": "https://moguchon.co.kr/wn/products/products_view.php?pseq=201",
+        "raw_search_files": [
+          50
+        ],
+        "verification": "screened_not_verified"
+      }
+    },
+    {
+      "item_id": "24597137",
+      "rn": 531579,
+      "product_name": "냉동만두, (주문자상표부착)오뚜기, 오쉐프정성가득왕만두고기, 1300g",
+      "model": "오쉐프정성가득왕만두고기",
+      "spec": "1300g",
+      "manufacturer": "(주)오뚜기",
+      "unit": "개",
+      "category": "냉동만두",
+      "listing_id": "0021A0528_1130000012",
+      "min_price": "7150.000",
+      "max_price": "7150.000",
+      "C": 335485150,
+      "Q": 46921,
+      "dlv_keys": 1,
+      "batch": 1063,
+      "availability": null,
+      "decision": "미조회보류: 오쉐프 정성가득왕만두고기1.3kg: 정확YES24판매링크 발견, 아직 가격미확인. 군만두6190원은 다른모델이며 그 가격으로도 최대단순절감4500만원 수준이라 우선순위 낮음.",
+      "screening": {
+        "observed_at_utc": "2026-10-16T02:34:56.575813+00:00",
+        "note": "오쉐프 정성가득왕만두고기1.3kg: 정확YES24판매링크 발견, 아직 가격미확인. 군만두6190원은 다른모델이며 그 가격으로도 최대단순절감4500만원 수준이라 우선순위 낮음.",
+        "price_lead_krw": null,
+        "pack_count": null,
+        "source_url": "https://www.yes24.com/Product/Goods/110049242",
+        "raw_search_files": [
+          50
+        ],
+        "verification": "screened_not_verified"
+      }
+    }
+  ],
+  "initial_snapshot": {
+    "targeted_lookup_count": 68,
+    "availability_counts": {
+      "available": 57,
+      "claimed": 9,
+      "on_hold": 2
+    },
+    "api_calls": "1 lookup request of68 IDs + 3 available item detail requests; >=1.1s between detail requests, no429 encountered.",
+    "local_candidates": 307
+  },
+  "low_C_food_followup": {
+    "selection": "동일MD5배정500개묶음,dlv_key중복제거,C>=5000만원,기존연구ID제외47개중소매가능12개검색. 기준미달은추가API조회하지않음.",
+    "observed_at_utc": "2026-10-16T03:12:27.620387+00:00",
+    "pool_file": "work/bulk/local-low-food.json",
+    "screened": [
+      {
+        "item_id": "25700771",
+        "rn": 320328,
+        "product_name": "청량음료, 롯데칠성음료, 핫식스, 250mL/캔",
+        "model": "핫식스",
+        "spec": "250mL/캔",
+        "manufacturer": "롯데칠성음료(주)",
+        "unit": "개",
+        "category": "청량음료",
+        "listing_id": "0024A0923_1030000008",
+        "min_price": "638.000",
+        "max_price": "638.000",
+        "C": 104403596,
+        "Q": 163642,
+        "dlv_keys": 1,
+        "batch": 640,
+        "availability": null,
+        "screening": {
+          "status": "retail_higher",
+          "note": "핫식스250ml30캔 공식26700원(캔당890원), 조달638원보다 높음.",
+          "source_url": "https://mall.lottechilsung.co.kr/product-detail?productNo=124102262",
+          "observed_pack_price_krw": 26700,
+          "pack_quantity": 30,
+          "observed_at_utc": "2026-10-16T03:12:27.620387+00:00",
+          "api_lookup_performed": false
+        }
+      },
+      {
+        "item_id": "25277243",
+        "rn": 337548,
+        "product_name": "청량음료, (주문자상표부착)농심, 웰치제로그레이프맛, 355mL/캔",
+        "model": "웰치제로그레이프맛",
+        "spec": "355mL/캔",
+        "manufacturer": "주식회사 농심",
+        "unit": "개",
+        "category": "청량음료",
+        "listing_id": "R25TA00722120000000001",
+        "min_price": "565.000",
+        "max_price": "565.000",
+        "C": 140570305,
+        "Q": 248797,
+        "dlv_keys": 1,
+        "batch": 675,
+        "availability": null,
+        "screening": {
+          "status": "retail_higher",
+          "note": "웰치제로 그레이프355ml24개 다나와14900원+3900원부터. 조달565원보다 높아 API후속 없음.",
+          "source_url": "https://prod.danawa.com/info/?pcode=16889648",
+          "observed_pack_price_krw": 18800,
+          "pack_quantity": 24,
+          "observed_at_utc": "2026-10-16T03:12:27.620387+00:00",
+          "api_lookup_performed": false
+        }
+      },
+      {
+        "item_id": "25427943",
+        "rn": 388200,
+        "product_name": "즉석건조식품, 동원에프앤비, 참치죽, 420g/개",
+        "model": "참치죽",
+        "spec": "420g/개",
+        "manufacturer": "(주)동원에프앤비",
+        "unit": "개",
+        "category": "즉석건조식품",
+        "listing_id": "0024A0823_1040000003",
+        "min_price": "2300.000",
+        "max_price": "2300.000",
+        "C": 134046300,
+        "Q": 58281,
+        "dlv_keys": 1,
+        "batch": 776,
+        "availability": null,
+        "screening": {
+          "status": "retail_higher",
+          "note": "동원공식 양반참치죽420g 비회원3480원, 배송3000(3만원이상무료), 조달2300원보다 높음.",
+          "source_url": "https://www.dongwonmall.com/product/detail.do?productId=001332334",
+          "observed_pack_price_krw": 3480,
+          "pack_quantity": 1,
+          "observed_at_utc": "2026-10-16T03:12:27.620387+00:00",
+          "api_lookup_performed": false
+        }
+      },
+      {
+        "item_id": "25141572",
+        "rn": 440512,
+        "product_name": "청량음료, (주문자상표부착)해태에이치티비, 갈배사이다제로, 355mL/캔",
+        "model": "갈배사이다제로",
+        "spec": "355mL/캔",
+        "manufacturer": "해태에이치티비 주식회사",
+        "unit": "개",
+        "category": "청량음료",
+        "listing_id": "0024A0089_1010000004",
+        "min_price": "440.000",
+        "max_price": "440.000",
+        "C": 175622920,
+        "Q": 399143,
+        "dlv_keys": 1,
+        "batch": 881,
+        "availability": null,
+        "screening": {
+          "status": "retail_higher",
+          "note": "갈배사이다제로355ml24개 다나와12950배송포함, 조달440원보다 높음.",
+          "source_url": "https://prod.danawa.com/info/?pcode=20534048",
+          "observed_pack_price_krw": 12950,
+          "pack_quantity": 24,
+          "observed_at_utc": "2026-10-16T03:12:27.620387+00:00",
+          "api_lookup_performed": false
+        }
+      },
+      {
+        "item_id": "25371033",
+        "rn": 563300,
+        "product_name": "즉석건조식품, 오뚜기, 오뚜기옥수수스프, 1kg/개",
+        "model": "오뚜기옥수수스프",
+        "spec": "1kg/개",
+        "manufacturer": "(주)오뚜기",
+        "unit": "개",
+        "category": "즉석건조식품",
+        "listing_id": "0023A0218_1040000021",
+        "min_price": "5940.000",
+        "max_price": "5940.000",
+        "C": 125221140,
+        "Q": 21081,
+        "dlv_keys": 1,
+        "batch": 1126,
+        "availability": null,
+        "screening": {
+          "status": "retail_higher",
+          "note": "오뚜기옥수수스프1kg2개 다나와14600원부터, 조달5940원보다 높음.",
+          "source_url": "https://prod.danawa.com/info/?cate=16246036&pcode=5736570",
+          "observed_pack_price_krw": 14600,
+          "pack_quantity": 2,
+          "observed_at_utc": "2026-10-16T03:12:27.620387+00:00",
+          "api_lookup_performed": false
+        }
+      },
+      {
+        "item_id": "25810303",
+        "rn": 575877,
+        "product_name": "즉석건조식품, 씨제이제일제당, 햇반컵반철판제육덮밥, 256g",
+        "model": "햇반컵반철판제육덮밥",
+        "spec": "256g",
+        "manufacturer": "씨제이제일제당주식회사",
+        "unit": "개",
+        "category": "즉석건조식품",
+        "listing_id": "0022A0534_1080000040",
+        "min_price": "2420.000",
+        "max_price": "2420.000",
+        "C": 352770660,
+        "Q": 145773,
+        "dlv_keys": 1,
+        "batch": 1151,
+        "availability": null,
+        "screening": {
+          "status": "not_qualifying_current_comparison",
+          "note": "철판제육256g24개40530원은검색단서뿐. 직접다나와54820원무료(2284.1667원/개), 조달2420원 대비1.2배미달.",
+          "source_url": "https://prod.danawa.com/info/?pcode=64347320",
+          "observed_pack_price_krw": 54820,
+          "pack_quantity": 24,
+          "observed_at_utc": "2026-10-16T03:12:27.620387+00:00",
+          "api_lookup_performed": false
+        }
+      },
+      {
+        "item_id": "25314306",
+        "rn": 590439,
+        "product_name": "즉석건조식품, 오뚜기, 제육덮밥, 315g/개",
+        "model": "제육덮밥",
+        "spec": "315g/개",
+        "manufacturer": "(주)오뚜기",
+        "unit": "개",
+        "category": "즉석건조식품",
+        "listing_id": "0023A0218_1040000009",
+        "min_price": "2310.000",
+        "max_price": "2310.000",
+        "C": 189445410,
+        "Q": 82011,
+        "dlv_keys": 1,
+        "batch": 1180,
+        "availability": null,
+        "screening": {
+          "status": "retail_higher",
+          "note": "오뚜기 제육덮밥315g12개 34970원검색단서(2914.17원/개), 조달2310원보다 높음.",
+          "source_url": "https://catalog.11st.co.kr/pc/435522472?poc=pc&sortCds=DLV_INCLUDE",
+          "observed_pack_price_krw": 34970,
+          "pack_quantity": 12,
+          "observed_at_utc": "2026-10-16T03:12:27.620387+00:00",
+          "api_lookup_performed": false
+        }
+      },
+      {
+        "item_id": "25314295",
+        "rn": 658928,
+        "product_name": "즉석건조식품, 오뚜기, 오뚜기밥, 210g/개",
+        "model": "오뚜기밥",
+        "spec": "210g/개",
+        "manufacturer": "(주)오뚜기",
+        "unit": "개",
+        "category": "즉석건조식품",
+        "listing_id": "0023A0218_1040000007",
+        "min_price": "880.000",
+        "max_price": "880.000",
+        "C": 148625840,
+        "Q": 168893,
+        "dlv_keys": 1,
+        "batch": 1317,
+        "availability": null,
+        "screening": {
+          "status": "pending_exact_option_price",
+          "note": "오뚜기밥210g24개16900원은에누리/GS모음딜 단서. 직접다나와18020원배송포함(750.8333원/개)으로880원 대비1.2배미달. GS선택별가격 미확인; 오늘의집직접31900원무료.",
+          "source_url": "https://tv.gsshop.com/deal/deal.gs?dealNo=1137224135&lseq=421980",
+          "observed_pack_price_krw": null,
+          "pack_quantity": 24,
+          "observed_at_utc": "2026-10-16T03:12:27.620387+00:00",
+          "api_lookup_performed": false
+        }
+      },
+      {
+        "item_id": "24969658",
+        "rn": 730706,
+        "product_name": "즉석건조식품, 씨제이제일제당, 햇반, 300g",
+        "model": "햇반",
+        "spec": "300g",
+        "manufacturer": "씨제이제일제당주식회사",
+        "unit": "개",
+        "category": "즉석건조식품",
+        "listing_id": "0022A0534_1080000009",
+        "min_price": "1300.000",
+        "max_price": "1300.000",
+        "C": 222483300,
+        "Q": 171141,
+        "dlv_keys": 1,
+        "batch": 1461,
+        "availability": null,
+        "screening": {
+          "status": "retail_higher",
+          "note": "햇반300g36개 다나와53280원무료(1480원/개), 조달1300원보다 높음.",
+          "source_url": "https://prod.danawa.com/info/?pcode=12962045",
+          "observed_pack_price_krw": 53280,
+          "pack_quantity": 36,
+          "observed_at_utc": "2026-10-16T03:12:27.620387+00:00",
+          "api_lookup_performed": false
+        }
+      },
+      {
+        "item_id": "25821876",
+        "rn": 753349,
+        "product_name": "즉석건조식품, 씨제이제일제당, 햇반통단팥죽, 420g",
+        "model": "햇반통단팥죽",
+        "spec": "420g",
+        "manufacturer": "씨제이제일제당주식회사",
+        "unit": "개",
+        "category": "즉석건조식품",
+        "listing_id": "0022A0534_1080000038",
+        "min_price": "2970.000",
+        "max_price": "2970.000",
+        "C": 136008180,
+        "Q": 45794,
+        "dlv_keys": 1,
+        "batch": 1506,
+        "availability": null,
+        "screening": {
+          "status": "ratio_below_threshold",
+          "note": "CJ공식 햇반통단팥죽420g2888원(배송3000,3만원이상무료), 조달2970원대비1.2배미달.",
+          "source_url": "https://m.cjthemarket.com/the/product/product-main?prdCd=40152184",
+          "observed_pack_price_krw": 2888,
+          "pack_quantity": 1,
+          "observed_at_utc": "2026-10-16T03:12:27.620387+00:00",
+          "api_lookup_performed": false
+        }
+      },
+      {
+        "item_id": "25417231",
+        "rn": 768715,
+        "product_name": "청량음료, 롯데칠성음료, 펩시, 355mL/캔",
+        "model": "펩시",
+        "spec": "355mL/캔",
+        "manufacturer": "롯데칠성음료(주)",
+        "unit": "개",
+        "category": "청량음료",
+        "listing_id": "0024A0923_1030000003",
+        "min_price": "583.000",
+        "max_price": "583.000",
+        "C": 59342404,
+        "Q": 101788,
+        "dlv_keys": 1,
+        "batch": 1537,
+        "availability": null,
+        "screening": {
+          "status": "retail_higher",
+          "note": "펩시355ml24개 쿠팡검색16600배송포함, 조달583원보다 높음.",
+          "source_url": "https://www.coupang.com/vp/products/9412352368?itemId=18055774783&vendorItemId=3000848437",
+          "observed_pack_price_krw": 16600,
+          "pack_quantity": 24,
+          "observed_at_utc": "2026-10-16T03:12:27.620387+00:00",
+          "api_lookup_performed": false
+        }
+      },
+      {
+        "item_id": "25219809",
+        "rn": 956638,
+        "product_name": "청량음료, (주문자상표부착)코카콜라음료, 스프라이트제로, 350mL/캔",
+        "model": "스프라이트제로",
+        "spec": "350mL/캔",
+        "manufacturer": "코카콜라음료주식회사",
+        "unit": "개",
+        "category": "청량음료",
+        "listing_id": "0024A0151_1050000006",
+        "min_price": "560.000",
+        "max_price": "560.000",
+        "C": 167475840,
+        "Q": 299064,
+        "dlv_keys": 1,
+        "batch": 1913,
+        "availability": null,
+        "screening": {
+          "status": "retail_higher",
+          "note": "스프라이트제로350ml24개 발견가15170+3000, 조달560원보다 높음. 비교사이트만으로 제출안함.",
+          "source_url": "https://catalog.11st.co.kr/pc/449198909?poc=pc&sortCds=DLV_INCLUDE",
+          "observed_pack_price_krw": 18170,
+          "pack_quantity": 24,
+          "observed_at_utc": "2026-10-16T03:12:27.620387+00:00",
+          "api_lookup_performed": false
+        }
+      }
+    ],
+    "ready_to_submit": [],
+    "raw_files": [
+      "work\\bulk\\web-low-food-1.json",
+      "work\\bulk\\web-low-food-2.json",
+      "work\\bulk\\web-low-food-3.json",
+      "work\\bulk\\web-low-food-4.json",
+      "work\\bulk\\web-low-food-5.json",
+      "work\\bulk\\web-low-food-6.json",
+      "work\\bulk\\web-low-food-7.json"
+    ]
+  }
 }

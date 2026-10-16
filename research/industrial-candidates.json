@@ -1,0 +1,397 @@
+{
+  "scope": "새MD5표본300000..987050 산업/표준기기 및 사양단순품 심층조사. event facts 기준만 사용.",
+  "looked_up_unique_items": 492,
+  "availability_counts": {
+    "reform_found": 66,
+    "claimed": 200,
+    "available": 216,
+    "on_hold": 10
+  },
+  "confirmed_billion_candidates": 0,
+  "research_bundle": "work/industrial/psw-mogami-review-bundle.json",
+  "items": [
+    {
+      "item_id": "23508391",
+      "availability": "available",
+      "status": "deferred_equivalent_review",
+      "decision": "모가미3082 양단스피콘50M 424000원; 차액82720000. 원품핀수/선재굵기미공개·실측중량미확인.",
+      "source_url": "https://bkmic.com/goods/goods_view.php?goodsNo=5346",
+      "raw_event_path": "work/industrial/item-23508391.json",
+      "model": "IM-PSW-0500",
+      "C_krw": "150560000",
+      "Q": "160",
+      "facts_total": 61,
+      "representative_facts": [
+        {
+          "item_id": null,
+          "listing_id": "R26TA01632895020000491",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01726227",
+          "line_no": "2",
+          "quantity": "1",
+          "unit_price_krw": "941000",
+          "comparable_amount_krw": "941000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "item_id": null,
+          "listing_id": "R26TA01632895020000491",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01734362",
+          "line_no": "2",
+          "quantity": "1",
+          "unit_price_krw": "941000",
+          "comparable_amount_krw": "941000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        },
+        {
+          "item_id": null,
+          "listing_id": "R26TA01632895020000491",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01735156",
+          "line_no": "1",
+          "quantity": "1",
+          "unit_price_krw": "941000",
+          "comparable_amount_krw": "941000",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
+    },
+    {
+      "item_id": "24677197",
+      "availability": "available",
+      "status": "deferred_installation_scope",
+      "decision": "DPD-6208N 단품600000원·5만원이상무료 상세페이지확보. BUY/SOLDOUT템플릿혼재로활성재고미확인. 원품DPD-628과동등사양·실제설치비교범위검토대기. 가정공임266639미반영.",
+      "source_url": "https://sound4u.kr/product/detail.html?product_no=2204",
+      "raw_event_path": "work/industrial/item-24677197.json",
+      "model": "DPD-628",
+      "C_krw": "279180000",
+      "Q": "330",
+      "facts_total": 218,
+      "representative_facts": [
+        {
+          "item_id": null,
+          "listing_id": "R25TA01116300050000081",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01277540",
+          "line_no": "2",
+          "quantity": "1",
+          "unit_price_krw": "846000",
+          "comparable_amount_krw": "846000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "item_id": null,
+          "listing_id": "R25TA01116300050000081",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01277542",
+          "line_no": "1",
+          "quantity": "1",
+          "unit_price_krw": "846000",
+          "comparable_amount_krw": "846000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "item_id": null,
+          "listing_id": "R25TA01116300050000081",
+          "contract_no": "R25TA01116300",
+          "request_no": "R25TB01278963",
+          "line_no": "1",
+          "quantity": "1",
+          "unit_price_krw": "846000",
+          "comparable_amount_krw": "846000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        }
+      ]
+    },
+    {
+      "item_id": "23226259",
+      "availability": "available",
+      "status": "no_exact_price_gap",
+      "decision": "GuardWear4500 원피스동일모델311300원/25벌=12452원이조달7700원보다높음.",
+      "source_url": "https://prod.danawa.com/info/?pcode=98779853",
+      "raw_event_path": "work/industrial/item-23226259.json",
+      "model": "GuardWear 4500",
+      "C_krw": "1971923800",
+      "Q": "256094",
+      "facts_total": 21,
+      "representative_facts": [
+        {
+          "item_id": null,
+          "listing_id": "002170313_1080000002",
+          "contract_no": "002170313_1",
+          "request_no": "R25TB01065267",
+          "line_no": "1",
+          "quantity": "25",
+          "unit_price_krw": "7700",
+          "comparable_amount_krw": "192500",
+          "unit": "벌",
+          "tax_basis": "vat_included"
+        },
+        {
+          "item_id": null,
+          "listing_id": "002170313_1080000002",
+          "contract_no": "002170313_1",
+          "request_no": "R25TB01206593",
+          "line_no": "1",
+          "quantity": "800",
+          "unit_price_krw": "7700",
+          "comparable_amount_krw": "6160000",
+          "unit": "벌",
+          "tax_basis": "vat_included"
+        },
+        {
+          "item_id": null,
+          "listing_id": "002170313_1080000002",
+          "contract_no": "002170313_1",
+          "request_no": "R25TB01250012",
+          "line_no": "1",
+          "quantity": "2950",
+          "unit_price_krw": "7700",
+          "comparable_amount_krw": "22715000",
+          "unit": "벌",
+          "tax_basis": "vat_included"
+        }
+      ]
+    },
+    {
+      "item_id": "24449946",
+      "availability": "available",
+      "status": "no_verified_offer",
+      "decision": "BPGM-40 정확모델공개실판매가미발견; 추정대체차액계산없음.",
+      "source_url": "",
+      "raw_event_path": "work/industrial/item-24449946.json",
+      "model": "BPGM-40",
+      "C_krw": "1801718800",
+      "Q": "27977",
+      "facts_total": 75,
+      "representative_facts": [
+        {
+          "item_id": null,
+          "listing_id": "002370033_1050000001",
+          "contract_no": "002370033_1",
+          "request_no": "R25TB01160033",
+          "line_no": "1",
+          "quantity": "6",
+          "unit_price_krw": "64400",
+          "comparable_amount_krw": "386400",
+          "unit": "벌",
+          "tax_basis": "vat_included"
+        },
+        {
+          "item_id": null,
+          "listing_id": "002370033_1050000001",
+          "contract_no": "002370033_1",
+          "request_no": "R26TB01486901",
+          "line_no": "1",
+          "quantity": "494",
+          "unit_price_krw": "64400",
+          "comparable_amount_krw": "31813600",
+          "unit": "벌",
+          "tax_basis": "vat_included"
+        },
+        {
+          "item_id": null,
+          "listing_id": "002370033_1050000001",
+          "contract_no": "002370033_1",
+          "request_no": "R26TB01489562",
+          "line_no": "1",
+          "quantity": "228",
+          "unit_price_krw": "64400",
+          "comparable_amount_krw": "14683200",
+          "unit": "벌",
+          "tax_basis": "vat_included"
+        }
+      ]
+    },
+    {
+      "item_id": "24158157",
+      "availability": "available",
+      "status": "option_limited_retail",
+      "decision": "PremiumTouch10켤레/묶음.11번가S만1210원/켤레,M/L품절.배송120켤레마다2800;size별원품facts미공개라전체조달규격동일로확정불가.",
+      "source_url": "https://www.11st.co.kr/products/3183732256",
+      "raw_event_path": "work/industrial/item-24158157.json",
+      "model": "Premium Touch",
+      "C_krw": "195840000",
+      "Q": "13061",
+      "facts_total": 27,
+      "representative_facts": [
+        {
+          "item_id": null,
+          "listing_id": "002130578_1050000001",
+          "contract_no": "002130578_1",
+          "request_no": "R25TB01070350",
+          "line_no": "1",
+          "quantity": "10",
+          "unit_price_krw": "15000",
+          "comparable_amount_krw": "150000",
+          "unit": "묶음",
+          "tax_basis": "vat_included"
+        },
+        {
+          "item_id": null,
+          "listing_id": "002130578_1050000001",
+          "contract_no": "002130578_1",
+          "request_no": "R25TB01157169",
+          "line_no": "1",
+          "quantity": "100",
+          "unit_price_krw": "14250",
+          "comparable_amount_krw": "1425000",
+          "unit": "묶음",
+          "tax_basis": "vat_included"
+        },
+        {
+          "item_id": null,
+          "listing_id": "002130578_1050000001",
+          "contract_no": "002130578_1",
+          "request_no": "R25TB01231410",
+          "line_no": "1",
+          "quantity": "90",
+          "unit_price_krw": "15000",
+          "comparable_amount_krw": "1350000",
+          "unit": "묶음",
+          "tax_basis": "vat_included"
+        }
+      ]
+    },
+    {
+      "item_id": "24767306",
+      "availability": "available",
+      "status": "no_verified_offer",
+      "decision": "DL-ELB4PC는전선없는4구,누전차단메인+2극개별스위치;일반과부하멀티탭을동등품으로비교하지않음.",
+      "source_url": "https://dy7356.mycafe24.com/",
+      "raw_event_path": "work/industrial/item-24767306.json",
+      "model": "DL-ELB4PC",
+      "C_krw": "202249500",
+      "Q": "6185",
+      "facts_total": 1,
+      "representative_facts": [
+        {
+          "item_id": null,
+          "listing_id": "002470139_1010000067",
+          "contract_no": "002470139_1",
+          "request_no": "R25TB01302096",
+          "line_no": "1",
+          "quantity": "6185",
+          "unit_price_krw": "32700",
+          "comparable_amount_krw": "202249500",
+          "unit": "개",
+          "tax_basis": "vat_included"
+        }
+      ]
+    },
+    {
+      "item_id": "25109076",
+      "availability": "available",
+      "status": "no_exact_price_gap",
+      "decision": "VS15A6031N5 신품소매258010~460000원으로조달265000보다1.2배가격차미충족.렌탈/필터/중고제외.",
+      "source_url": "https://prod.danawa.com/info/?pcode=18376757",
+      "raw_event_path": null
+    },
+    {
+      "item_id": "25324655",
+      "availability": "available",
+      "model": "FW-E667",
+      "status": "review_required_power_and_dimensions_differ",
+      "comparison_kind": "equivalent",
+      "submission_ready": false,
+      "decision": "윈드피아 WF-6000R 공식판매29900원/무료. 소비전력55W와외형·중량차이명시. 제품차액14582400, 동등성최종검토대기.",
+      "source_url": "https://item.gmarket.co.kr/Item?goodsCode=730743081",
+      "raw_bundle": "work/industrial/fwe667-wf6000-review-bundle.json",
+      "facts_total": 56,
+      "representative_facts": [
+        {
+          "listing_id": "0024C0515_1040000003",
+          "contract_no": "0024C0515_1",
+          "request_no": "R26TB01554774",
+          "line_no": "1",
+          "quantity": "6",
+          "unit_price_krw": "49500",
+          "comparable_amount_krw": "297000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "listing_id": "0024C0515_1040000003",
+          "contract_no": "0024C0515_1",
+          "request_no": "R26TB01559347",
+          "line_no": "1",
+          "quantity": "1",
+          "unit_price_krw": "49500",
+          "comparable_amount_krw": "49500",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "listing_id": "0024C0515_1040000003",
+          "contract_no": "0024C0515_1",
+          "request_no": "R26TB01572306",
+          "line_no": "1",
+          "quantity": "7",
+          "unit_price_krw": "49500",
+          "comparable_amount_krw": "346500",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        }
+      ]
+    },
+    {
+      "item_id": "24868996",
+      "availability": "available",
+      "model": "IMP-MX-1646",
+      "status": "quantified_equivalence_matched_pending_rendered_retail_availability",
+      "comparison_kind": "equivalent",
+      "submission_ready": false,
+      "decision": "인터엠 MX-1646 945000원/무료 공개판매. 제조사정량사양10항목대응. 제품차액39675000. 활성재고·현장설치비교범위최종검토대기.",
+      "source_url": "https://abbasound.co.kr/product/mx-1646mx1646입력16출력4ch/24044/category/4/display/1/",
+      "raw_bundle": "work/industrial/imp-mx1646-review-bundle.json",
+      "facts_total": 63,
+      "representative_facts": [
+        {
+          "listing_id": "R26TA01632895020000386",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01721937",
+          "line_no": "1",
+          "quantity": "1",
+          "unit_price_krw": "1520000",
+          "comparable_amount_krw": "1520000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "listing_id": "R26TA01632895020000386",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01722639",
+          "line_no": "2",
+          "quantity": "1",
+          "unit_price_krw": "1520000",
+          "comparable_amount_krw": "1520000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        },
+        {
+          "listing_id": "R26TA01632895020000386",
+          "contract_no": "R26TA01632895",
+          "request_no": "R26TB01737116",
+          "line_no": "12",
+          "quantity": "1",
+          "unit_price_krw": "1520000",
+          "comparable_amount_krw": "1520000",
+          "unit": "대",
+          "tax_basis": "vat_included"
+        }
+      ]
+    }
+  ],
+  "raw_comparison_bundles": [
+    "work/industrial/psw-mogami-review-bundle.json",
+    "work/industrial/fwe667-wf6000-review-bundle.json",
+    "work/industrial/imp-mx1646-review-bundle.json"
+  ]
+}

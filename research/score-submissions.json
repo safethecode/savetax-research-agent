@@ -1,0 +1,56 @@
+{
+  "updated_at": "2026-10-16T03:18:49.784730+00:00",
+  "target_krw": "60000000000",
+  "accepted_submission_count": 1,
+  "accepted_amount_krw": "2640750",
+  "review_approved_amount_krw": null,
+  "realized_savings_krw": null,
+  "submissions": [
+    {
+      "submission_id": "4fe1dc1c-4722-484e-a2d4-0808fec65c0e",
+      "item_id": "25937069",
+      "model": "WUH722020CLE6L4",
+      "revision": 2,
+      "submission_state": "accepted",
+      "amount_krw": "2640750",
+      "lint_status": "pending",
+      "held": false,
+      "source_url": "https://prod.danawa.com/info/?pcode=94815101",
+      "seller": "메모리올",
+      "displayed_price_krw": "1456000",
+      "shipping_per_drive_krw": "2750",
+      "benchmark_unit_price_krw": "1458750",
+      "quantity": "7",
+      "comparable_amount_krw": "12852000",
+      "comparison_scope": "동일 전체 모델 WUH722020CLE6L4 신품 HDD 1대(20TB/SATA3/7200rpm/512MB) 기준. 소비자 표시가 1,456,000원에 배송비 2,750원을 매 대당 더해 1,458,750원으로 비교했다. 판매 상세의 3년 AS 표기를 확인했다. 조달은 현장설치도 선택부품으로, 이 비교는 동일 HDD 취득금액 범위다. 장착·설정 서비스가 판매가에 포함된다고 주장하지 않는다. 별도 설치금액은 자료에서 확인되지 않았다.",
+      "vat_basis_note": "일반 소비자 대상 판매 상세의 최종 표시가를 부가세 포함 구매가격으로 채택했다. 판매처가 부가세 포함을 별도 문장으로 명시했다고 주장하지 않는다. 상품 상세·이용안내·약관에서 부가세 별도 추가 표시는 관측되지 않았다. 다나와의 공개 입점기준 검색자료에는 일반 쇼핑몰의 전 상품 부가세 포함가 판매가 명시되어 있으나, 현재 안내 페이지는 개편되어 이 정책 문구는 보조 근거로만 쓴다.",
+      "references": [
+        {
+          "fact_id": "dl:25937069:R25TA01230201:R26TB01972248:3",
+          "contract_no": "R25TA01230201",
+          "request_no": "R26TB01972248",
+          "line_no": "3"
+        },
+        {
+          "fact_id": "dl:25937069:R25TA01230201:R26TB02220434:5",
+          "contract_no": "R25TA01230201",
+          "request_no": "R26TB02220434",
+          "line_no": "5"
+        }
+      ],
+      "public_url": "https://hackathon.savetax.now/#/submission/4fe1dc1c-4722-484e-a2d4-0808fec65c0e",
+      "revision_history": [
+        {
+          "revision": 1,
+          "lint_status": "unreadable",
+          "reason": "판정기 오류로 4회 재시도 실패. held=false. 근거 파일 문제라는 판정은 아님."
+        },
+        {
+          "revision": 2,
+          "lint_status": "pending",
+          "reason": "사용자 수정 지시에 따라 공개 HTTPS 페이지를 재열람하고 관측가격 구간을 다시 인용. If-Match:1로 수정 접수."
+        }
+      ]
+    }
+  ]
+}
