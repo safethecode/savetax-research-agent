@@ -1,5 +1,8 @@
+import json
 import unittest
 from unittest.mock import Mock, patch
+
+import requests
 
 from savetax.client import SaveTaxClient, SaveTaxError
 from savetax.submissions import ScoreClient, build_submission
@@ -112,6 +115,23 @@ class ScoreTests(unittest.TestCase):
         self.assertTrue(post.call_args.args[0].endswith('/submissions'))
         self.assertEqual(post.call_args.kwargs['headers']['Idempotency-Key'],'research-key-123')
         self.assertFalse(post.call_args.kwargs['allow_redirects'])
+
+    def test_korean_evidence_wire_body_stays_within_validated_byte_limit(self):
+        item = {**self.item, 'facts': [{**self.item['facts'][0],
+            'fact_id': f'dl:001:C1:R{i}:1', 'request_no': f'R{i}'} for i in range(500)]}
+        offer = {**self.offer, 'quote': '한글 판매 근거 ' * 40}
+        body = build_submission(item, offer, self.event)
+        self.assertLess(len(json.dumps(body, ensure_ascii=False).encode('utf-8')), 1048576)
+        self.assertGreater(len(requests.Request('POST', 'https://example.invalid', json=body).prepare().body), 1048576)
+        response = Mock(status_code=200, headers={})
+        response.json.return_value = {'ok': True}
+        with patch('savetax.submissions.requests.post', return_value=response) as post:
+            ScoreClient(SaveTaxClient(token='savetax_'+'x'*32)).preview(body)
+        prepared = requests.Request('POST', *post.call_args.args, **{
+            k: v for k, v in post.call_args.kwargs.items() if k in ('headers', 'json', 'data')}).prepare()
+        self.assertLessEqual(len(prepared.body), 1048576)
+        self.assertEqual(json.loads(prepared.body), body)
+        self.assertEqual(prepared.headers['Content-Type'], 'application/json')
 
     def test_success_http_with_unreadable_json_remains_an_unconfirmed_result(self):
         raw = SaveTaxClient(token='savetax_'+'x'*32)

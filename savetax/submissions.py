@@ -165,9 +165,14 @@ class ScoreClient:
     def _post(self, suffix, body, key=None):
         if suffix not in ('/submissions/preview','/submissions'):
             raise ValueError('허용되지 않은 점수 경로')
-        if TOKEN_PATTERN.search(json.dumps(body,ensure_ascii=False)):
+        serialized = json.dumps(body,ensure_ascii=False,allow_nan=False,separators=(',',':'))
+        if TOKEN_PATTERN.search(serialized):
             raise ValueError('본문에 비밀 문자열을 넣을 수 없습니다')
-        headers = {'Authorization':'Bearer '+self.client._token,'User-Agent':'Mozilla/5.0','Accept':'application/json'}
+        payload = serialized.encode('utf-8')
+        if len(payload) > 1048576:
+            raise ValueError('점수 전송 본문 1MiB 초과; 명시적 fact 범위 분리가 필요합니다')
+        headers = {'Authorization':'Bearer '+self.client._token,'User-Agent':'Mozilla/5.0',
+                   'Accept':'application/json','Content-Type':'application/json'}
         if key is not None:
             self._validate_key(key)
             headers['Idempotency-Key'] = key
@@ -175,7 +180,7 @@ class ScoreClient:
             self._validate_key(key)
         response,error = None,None
         try:
-            response = requests.post(BASE+suffix,json=body,headers=headers,
+            response = requests.post(BASE+suffix,data=payload,headers=headers,
                 timeout=self.client.timeout,allow_redirects=False)
         except requests.RequestException:
             error = SaveTaxError('점수 요청 연결 결과 미확인; 같은 멱등 키로 결과를 확인하세요',stage='transport')
