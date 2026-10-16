@@ -3172,5 +3172,67 @@
     "latest_official_check_utc": "2026-10-16T21:41:07.338260+00:00",
     "latest_availability": "available",
     "75_facts_equal_previous": true
+  },
+  "new_manufacturer_superior_performance_followup": {
+    "observed_at_utc": "2026-10-16T22:16:42.795889+00:00",
+    "scope": "원품 실제 약1.879g 확인 후 다른 완성 천장 시스템의 상향 내진 성능·일반 판매가를 추가 탐색",
+    "parallel_actual_search_count": 4,
+    "parallel_search_ids": [
+      "search_0565205a3e53a17c29693ff738128321",
+      "search_0c09f853c2fcce752f71b2d641365276",
+      "search_e91f6dc9e19523d8e1739785a102bd8f",
+      "search_6eebedfec28c7dff7df19ac1b20f4437"
+    ],
+    "result_limit": "조달 가격 목록·물가정보·냉동기와 다른 설비의 AC156 성적은 완성 금속 천장 근거로 채택하지 않는다. USG 자료의 최솟값 대비 초과 비율을 원품과 직접 비교하지 않는다.",
+    "new_manufacturer": "제이엔티(주)",
+    "manufacturer_business_no": "6688100727",
+    "system": "JNT/TM-BAR 천장 시스템",
+    "manufacturer_system_url": "http://jntkorea.co.kr/?page_id=1140",
+    "manufacturer_system_actual_http_status": 200,
+    "manufacturer_system_claimed_seismic_g": "1.62",
+    "manufacturer_cert_url": "http://jntkorea.co.kr/?page_id=16",
+    "manufacturer_cert_claimed_seismic_g": "1.6",
+    "catalog": {
+      "source_url": "https://d35156dk3hq0x4.cloudfront.net/uploads/company/d39f034a95d83309525597ce9368c4fa.pdf",
+      "actual_url": "https://d35156dk3hq0x4.cloudfront.net/uploads/company/d39f034a95d83309525597ce9368c4fa.pdf",
+      "http_status": 200,
+      "bytes": 9447268,
+      "sha256": "847cf4b44cba2f05fcc58ffa6824a03ba159e210346a0c83439b2e465d3640f5",
+      "content_type": "application/pdf",
+      "format_by_magic": "pdf",
+      "observed_at_utc": "2026-10-16T22:15:28.939746+00:00"
+    },
+    "catalog_actual_pdf_page_count": 28,
+    "actual_visual_review_pages": [
+      4
+    ],
+    "actual_text_read_pages": [
+      4,
+      22
+    ],
+    "catalog_performance_g": "1.62",
+    "catalog_page22_price_role": "조달등록현황의 우수제품/MAS 계약 단가이며 일반 판매가가 아니다.",
+    "certificate_thumbnail": {
+      "source_url": "https://d35156dk3hq0x4.cloudfront.net/uploads/company/thum_4f0475fe0e8ba43d5db4d7b9d42b5b5d.PNG",
+      "actual_visual_review": true,
+      "read_scope": "2020-CONF-011 시험실행 확인서 1쪽 썸네일. 원시험 전체나 원품보다 높은 SDS를 확인한 자료로 쓰지 않는다."
+    },
+    "network_note": "제조사 HTTPS는 TLS 검증 단계에서 실패했다. 공개 판매자 페이지가 연결한 HTTP 제조사 원문은 정상 HTTP200이었다. 인증서 검증을 끄거나 보안 경고를 넘기지 않았다.",
+    "new_superior_performance_confirmed": false,
+    "new_complete_ordinary_retail_price_confirmed": false,
+    "adopted_B": null,
+    "adopted_expected_krw": null,
+    "preview_count": 0,
+    "post_count": 0
+  },
+  "original_model_new_retail_search_followup": {
+    "parallel_actual_search_count": 1,
+    "search_id": "search_311dd7dd958e8bb4d4144c5e94340572",
+    "model": "HY-EP01",
+    "result": "새 일반 판매 원문을 얻지 못했다. 물가협회 자료·다른 회사 쇼핑몰 템플릿·야쿠르트 뉴스 등은 원품 판매 근거로 채택하지 않는다.",
+    "benchmark_B": null,
+    "adopted_expected_krw": null,
+    "preview_count": 0,
+    "post_count": 0
   }
 }

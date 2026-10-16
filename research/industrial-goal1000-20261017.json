@@ -16,9 +16,9 @@
     "stored_available_official_total_over_minimum_rows": 33,
     "fresh_direct_primary_pages_saved": 25,
     "new_confirmed_saving_candidates": 1,
-    "actual_parallel_calls": 128,
-    "fresh_official_item_details": 96,
-    "fresh_official_scorable_facts": 7791,
+    "actual_parallel_calls": 131,
+    "fresh_official_item_details": 99,
+    "fresh_official_scorable_facts": 7845,
     "actual_jev_calls": 14
   },
   "access": {
@@ -1828,6 +1828,27 @@
       "search_id": "search_e24a9625d008368f912ab636661a4f45",
       "observed_at": "2026-10-16T22:05:14.752754+00:00",
       "returned_results": 3
+    },
+    {
+      "file": "work/industrial-goal1000/parallel-glpolyurea-next-yb-main.json",
+      "query": "\"와이비케미칼\" \"GL-300\" 폴리우레아 가격",
+      "search_id": "search_06da41c9dc90f41679bc4d57fe5b0a9f",
+      "observed_at": "2026-10-16T22:08:39.630913+00:00",
+      "returned_results": 4
+    },
+    {
+      "file": "work/industrial-goal1000/parallel-legacy-shinwoo-rmc-next-exact.json",
+      "query": "\"신우레미콘\" \"25-30-150\" 가격",
+      "search_id": "search_963d3addd9388cfbef7ae5b1ea42e89b",
+      "observed_at": "2026-10-16T22:14:31.200217+00:00",
+      "returned_results": 7
+    },
+    {
+      "file": "work/industrial-goal1000/parallel-legacy-hs09-stone-next-exact.json",
+      "query": "\"한성산업\" \"HS-09\" \"조경석\" 가격",
+      "search_id": "search_56af06ddfaf775a65ef8f728c9109c56",
+      "observed_at": "2026-10-16T22:15:44.924209+00:00",
+      "returned_results": 5
     }
   ],
   "jev_actual_call": {
@@ -84979,6 +85000,270 @@
     "vat_included": null,
     "shipping_included": null,
     "expected_saving_krw": null,
+    "preview_count": 0,
+    "post_count": 0
+  },
+  "gl_ap2000_original_supplier_and_actual_catalog_followup": {
+    "observed_at": "2026-10-16T22:11:11.738480+00:00",
+    "item_id": "24712409",
+    "model": "GL-AP2000",
+    "manufacturer": "지엘기술 주식회사4128116024",
+    "availability_at_read": "available",
+    "official_C_krw": "3312471727",
+    "official_Q": "65078",
+    "scorable_fact_count": 30,
+    "total_fact_count": 30,
+    "unit_counts": {
+      "㎡": 30
+    },
+    "tax_basis_counts": {
+      "vat_included": 30
+    },
+    "raw_fact_file": "work/industrial-goal1000/glpolyurea-next-24712409-event.json",
+    "event_source_url": "https://hackathon.savetax.now/v1/events/current/items/24712409",
+    "all_fulfillment_references_format": "contract_no|request_no|line_no",
+    "all_fulfillment_references": [
+      "002470230_1|R25TB01038996|1",
+      "002470230_1|R25TB01091059|1",
+      "002470230_1|R25TB01135253|1",
+      "002470230_1|R25TB01275590|1",
+      "002470230_1|R25TB01311400|1",
+      "002470230_1|R26TB01531504|1",
+      "002470230_1|R26TB01540093|1",
+      "002470230_1|R26TB01565747|1",
+      "002470230_1|R26TB01570481|1",
+      "002470230_1|R26TB01688717|1",
+      "002470230_1|R26TB01732631|1",
+      "002470230_1|R26TB01751183|1",
+      "002470230_1|R26TB01756944|1",
+      "002470230_1|R26TB01786838|1",
+      "002470230_1|R26TB01814254|1",
+      "002470230_1|R26TB01828840|1",
+      "002470230_1|R26TB01837138|1",
+      "002470230_1|R26TB01842666|1",
+      "002470230_1|R26TB01931195|1",
+      "002470230_1|R26TB01976261|1",
+      "002470230_1|R26TB02029567|1",
+      "002470230_1|R26TB02034543|1",
+      "002470230_1|R26TB02061746|1",
+      "002470230_1|R26TB02064469|1",
+      "002470230_1|R26TB02142238|1",
+      "002470230_1|R26TB02151448|1",
+      "002470230_1|R26TB02222930|1",
+      "002470230_1|R26TB02269026|1",
+      "002470230_1|R26TB02290534|1",
+      "002470230_1|R26TB02323408|1"
+    ],
+    "exploration_B_ceiling_for_10eok": "35533.84749070346353606441501",
+    "ceiling_caveat": "탐색용 평균상한이며 실제B나fact별가격차기준적용액이 아니다.",
+    "listing_file": "work/industrial-goal1000/glpolyurea-next-listing-002470230_1030000001.json",
+    "delivery": "현장설치도. 조달단가50900원은 일반판매가가 아니다.",
+    "original_spec": {
+      "file": "/Users/aaron-son/Documents/savetax-research-agent/work/industrial-goal1000/complete-next-glpolyurea-spec-download/★240724&#40;1&#41;_우수제품 규격서&#40;2024088&#41;_지엘기술 주식회사.hwpx",
+      "bytes": 10802961,
+      "sha256": "428eadf0e3a488bdeb979771f3f55d64a84eecb89467349955f8903d018b320f",
+      "revision_review": {
+        "status": "no_known_markers",
+        "scope": "hwpx_section_xml",
+        "marker_counts": {
+          "insertBegin": 0,
+          "insertEnd": 0,
+          "deleteBegin": 0,
+          "deleteEnd": 0
+        },
+        "text_policy": "revision_accept_reject_not_applied"
+      },
+      "text_file": "work/industrial-goal1000/glpolyurea-next-spec-text.txt",
+      "scope": "2mm 주차장/옥상용 완성 도막 시스템. 열안정성·차열·부착 특성을 위해 산화그래핀과 ATO 무기소재를 표면개질해 폴리우레아에 결합한 주재료다.",
+      "patent_as_written": "제10-2414238호. 다른 공공공고의 실리카·흑연 준불연 특허10-2569653과 혼동해 원품을 준불연이라고 바꾸지 않는다.",
+      "per_m2_BOM_kg": {
+        "강남화성_T44_하도": ".2",
+        "강남화성_TC60A_TC62B_상도": ".2",
+        "와이비케미칼_GL300A_GL300B_주재료": "2.2"
+      },
+      "mixing_limit": "2.2kg은 원문 표의 주재료 합계이며 확인하지 않은 A/B별구매비율·팩단위를 창작하지 않는다.",
+      "main_formulation": "주제 HDI7.60·TDI1.97·폴리에테르아민84.10·카보네이트디올6.33중량부, 경화제 폴리에테르아민67.8·폴리아스파틱아민16.95·표면개질산화그래핀3.39·표면개질ATO10.17·산화방지제.85·UV안정제.85. 조성의 기능을 일반 중도도료에 자동전용하지 않는다.",
+      "core_reference_requirements": "원문은 근적외선 반사율80%이상·태양방사반사율50%이상을 명시한다. 이는 요구값이며 실제모든색상·형상의 실측상한이나 다른대안의 실측우위를 뜻하지 않는다.",
+      "comparison_policy": "설치포함만으로 취득가격 비교를 배제하지 않는다. 같은 공급업체 주재료·하도·상도의 전체 취득가격은 비교가능하나 실제판매가가 필요하다. 모든원품시험동일성을 신규요건으로 만들지 않는다."
+    },
+    "actual_manufacturer": {
+      "home": "http://www.gltech.co.kr/",
+      "product": "http://www.gltech.co.kr/bbs/board.php?bo_table=biz03&wr_id=4",
+      "files": [
+        "work/industrial-goal1000/glpolyurea-next-mfg-home.json",
+        "work/industrial-goal1000/glpolyurea-next-mfg-research.json",
+        "work/industrial-goal1000/glpolyurea-next-mfg-methods.json",
+        "work/industrial-goal1000/glpolyurea-next-mfg-product.json"
+      ],
+      "finding": "공식으로 연결된 제조사 홈·연구·보유공법·폴리우레아 제품을 실제HTTP200으로 읽었다. 제품본문은 이미지 카탈로그이며 일반가격표는 없다.",
+      "actual_image_manifest": "work/industrial-goal1000/glpolyurea-next-mfg-catalog-images.json",
+      "visual_read_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "visual_read_finding": "공법개요·우수조달구매안내·인증서·시험축소이미지·KS비교표·시공절차·장비제원을 실제그림으로 읽었다. 어느쪽에도 숫자 일반판매가격은 없다. 작은 시험서본문 전체를 고해상도시험원문으로 판독했다고 주장하지 않는다.",
+      "catalog_download_failure_file": "work/industrial-goal1000/glpolyurea-next-mfg-catalog-source.json",
+      "catalog_download_failure": "관측된PDF다운로드링크 실제GET은7205바이트HTML오류 잘못된접근이며PDF가 아니다. 이를 성공한PDF다운로드로세지않고 공개페이지에 이미 연결된10개PNG를 읽었다.",
+      "installation_scope_images": "공개 카탈로그12~13쪽은프라이머·바탕조정/전용보수·고압스프레이·탑코트 절차를 설명한다. 원문의 단순재료표만으로 모든 현장바탕보수 비용을0원으로확정하지않으며 모르는설치비를창작하지않는다."
+    },
+    "actual_general_service_reference": {
+      "url": "https://coking79.com/shfile2/cost/1.html",
+      "file": "work/industrial-goal1000/glpolyurea-next-coking79-price.json",
+      "finding": "실제HTTP200의2022년시공일반가격표·VAT별도를 읽었다. 시점차 때문에배제하지않았다.",
+      "configuration_difference": "표의2미리 방수는 우레탄0.7mm+폴리우레아1.3mm로 원품의2mm주재료전체와다르다. 3미리는 우레탄1mm+폴리우레아2mm+상도이나 exactGL300주재료/차열·열안정성우위가확인되지않아 상향대안으로확정하지않는다.",
+      "ordinary_offer_limits": "표는바닥파손·자재상승·특정자재추가비와상시침수30%추가를명시한다. 특정GL재료를추가비없는기본시공에포함됐다고하지않는다.",
+      "adopted_B": null
+    },
+    "parallel_file": "work/industrial-goal1000/parallel-glpolyurea-next-yb-main.json",
+    "search_id": "search_06da41c9dc90f41679bc4d57fe5b0a9f",
+    "search_result": "원래와이비케미칼 GL300A/B의 일반판매가격·팩·VAT·운임을 확보하지 못했다. 중국YH방수재·일본동명GL300A랜턴·자동화카탈로그는 다른제품이며 일반시공가격을동일품으로옮기지않음.",
+    "old_summary_correction": "industrial-fullcoverage의 설치포함자체로자재비교불가라는자동메모를최종판정으로사용하지않는다. 현재보류사유는정확주재료전체실판매가부재와대안상향핵심근거미확보다.",
+    "adopted_B": null,
+    "vat_included": null,
+    "shipping_included": null,
+    "expected_saving_krw": null,
+    "preview_count": 0,
+    "post_count": 0,
+    "public_report_status": "부모의6214d57커밋·push완료후 본인공개보고서에추가했다."
+  },
+  "shinwoo_rmc_and_hansung_hs09_original_unit_followup": {
+    "observed_at": "2026-10-16T22:17:11.182933+00:00",
+    "official_records": [
+      {
+        "item_id": "22607112",
+        "name": "신우레미콘25-30-150",
+        "state": "available",
+        "official_C_krw": "2454838764",
+        "official_Q": "22792",
+        "scorable_fact_count": 4,
+        "total_fact_count": 4,
+        "unit_counts": {
+          "㎥": 4
+        },
+        "tax_basis_counts": {
+          "vat_included": 4
+        },
+        "event_source_url": "https://hackathon.savetax.now/v1/events/current/items/22607112",
+        "raw_fact_file": "work/industrial-goal1000/legacy-shinwoo-rmc-next-22607112-event.json",
+        "all_fulfillment_references_format": "contract_no|request_no|line_no",
+        "all_fulfillment_references": [
+          "R26TA01914589|R26TB02208640|13",
+          "R26TA01943259|R26TB02013238|7",
+          "R26TA01943259|R26TB02076036|5",
+          "R26TA01943259|R26TB02209521|4"
+        ],
+        "exploration_B_ceiling_for_10eok": "63831.11460161460161460161460",
+        "ceiling_caveat": "탐색용평균상한으로실제B가아니며fact별가격차조건·바닥처리전이다.",
+        "adopted_B": null,
+        "expected_saving_krw": null
+      },
+      {
+        "item_id": "25900586",
+        "name": "한성산업HS09",
+        "state": "available",
+        "official_C_krw": "2250075980",
+        "official_Q": "64584",
+        "scorable_fact_count": 20,
+        "total_fact_count": 20,
+        "unit_counts": {
+          "톤": 20
+        },
+        "tax_basis_counts": {
+          "vat_included": 20
+        },
+        "event_source_url": "https://hackathon.savetax.now/v1/events/current/items/25900586",
+        "raw_fact_file": "work/industrial-goal1000/legacy-hs09-stone-next-event.json",
+        "all_fulfillment_references_format": "contract_no|request_no|line_no",
+        "all_fulfillment_references": [
+          "R25TA00804926|R26TB01649176|1",
+          "R25TA00804926|R26TB01705905|1",
+          "R25TA00804926|R26TB01757381|1",
+          "R25TA00804926|R26TB01791804|1",
+          "R25TA00804926|R26TB01852074|1",
+          "R25TA00804926|R26TB01944357|1",
+          "R25TA00804926|R26TB01944365|1",
+          "R25TA00804926|R26TB01944724|1",
+          "R25TA00804926|R26TB01971522|1",
+          "R25TA00804926|R26TB01971597|1",
+          "R25TA00804926|R26TB01972391|1",
+          "R25TA00804926|R26TB01979810|1",
+          "R25TA00804926|R26TB01987710|1",
+          "R25TA00804926|R26TB02008080|1",
+          "R25TA00804926|R26TB02008084|1",
+          "R25TA00804926|R26TB02013631|1",
+          "R25TA00804926|R26TB02037167|2",
+          "R25TA00804926|R26TB02087235|1",
+          "R25TA00804926|R26TB02223448|1",
+          "R25TA00804926|R26TB02348345|1"
+        ],
+        "exploration_B_ceiling_for_10eok": "19355.81537222841570667657624",
+        "ceiling_caveat": "탐색용평균상한으로실제B가아니며fact별가격차조건·바닥처리전이다.",
+        "adopted_B": null,
+        "expected_saving_krw": null
+      }
+    ],
+    "shinwoo_ready_mixed_concrete": {
+      "manufacturer": "신우레미콘 주식회사5058126635 경주",
+      "catalog_file": "work/industrial-goal1000/legacy-shinwoo-rmc-next-catalog.json",
+      "listing_ids": [
+        "R26TA01914589030001326",
+        "R26TA01943259020000015"
+      ],
+      "listing_files": [
+        "work/industrial-goal1000/legacy-shinwoo-rmc-next-listing-R26TA01914589030001326.json",
+        "work/industrial-goal1000/legacy-shinwoo-rmc-next-listing-R26TA01943259020000015.json"
+      ],
+      "scope": "골재최대25mm·압축30N/㎟·슬럼프150mm·공기4.5±1.5%·단위무게2.3t/㎥·염화물≤.3kg/㎥를 공식 속성에서 직접 읽었다. 현장하차도, 단위㎥이며 마른 모르타르 포대나 제조용 배치플랜트1식과다르다.",
+      "primary_read_limit": "이번에는공식REST의정확제품속성과인도조건을읽었으며17,203,663B KS F4009스캔PDF는내려받거나읽지않았다. 원표준전체실독완료로세지않는다.",
+      "existing_team_reference": "work/bulk-goal1000/rmc252180-followup-final.json은다른25-21-80/120와협상공지범위로같은신우25-30-150민수B가아니다. 같은협상표를다시다운로드하지않았고그단가를소매실가로쓰지않았다.",
+      "actual_search_file": "work/industrial-goal1000/parallel-legacy-shinwoo-rmc-next-exact.json",
+      "search_id": "search_963d3addd9388cfbef7ae5b1ea42e89b",
+      "finding": "동일신우공장 일반가를확보하지못했다. 성신·캐나다RMC표·중국제조플랜트·지역단가협상기사·AI회사요약을동일제품판매B로쓰지않는다.",
+      "adopted_B": null,
+      "vat_included": null,
+      "shipping_included": null
+    },
+    "hansung_HS09": {
+      "manufacturer": "주식회사한성산업2128803291",
+      "catalog_file": "work/industrial-goal1000/legacy-hs09-stone-next-catalog.json",
+      "listing_file": "work/industrial-goal1000/legacy-hs09-stone-next-listing-R25TA00804926020000009.json",
+      "original_file": "/Users/aaron-son/Documents/savetax-research-agent/work/industrial-goal1000/complete-next-hs09stone-spec-download/조경석규격서 &#40;4&#41;.hwp",
+      "original_bytes": 2505728,
+      "sha256": "8575d4f15dbbc68e3ec1c487d58c3a44ea64402efdba0af3c2d3244d7e1981f3",
+      "revision_review": {
+        "status": "not_assessed",
+        "scope": "hwp_not_assessed",
+        "marker_counts": null,
+        "text_policy": "revision_accept_reject_not_applied"
+      },
+      "text_file": "work/industrial-goal1000/legacy-hs09-stone-next-spec-text.txt",
+      "scope": "충주소태석500×600×700mm,굴림곡률반지름R15이상30미만의 가공조경석 완제품이다. 공식톤단위이며 원석을굴려모서리를다듬는가공·검사선별·상차를거친다. 자연상태의미가공산석·하천석·해석은원문범위에서제외된다.",
+      "source_quarry_address": "충북충주시소태면구룡로1298",
+      "original_core_requirements": "압축강도80MPa이상·흡수3%미만·비중2.50이상·석면불검출·R15~30. R5~15의하천하부/사면보호용과달리하천상부·아파트·공원용등급으로구분한다. 모든시험동일성관문은추가하지않는다.",
+      "unit_and_tolerance": "치수허용차±20%와비정형석재이므로500×600×700직육면체부피×비중으로실제한돌중량·개수를확정하지않는다.",
+      "delivery_minimum": "1회100톤이상은25톤대운반기준납품장소차상도,100톤미만은직접생산현장상차도로전환한다. 모든소량배송을납품지운임포함으로보지않는다.",
+      "actual_search_file": "work/industrial-goal1000/parallel-legacy-hs09-stone-next-exact.json",
+      "search_id": "search_56af06ddfaf775a65ef8f728c9109c56",
+      "finding": "정확원산지·가공등급·제조사의 민수톤단가를못찾았다. 검색의중고나라1004원은유동적물량매각호가이며확정톤가격이아니다. 어항5kg·호주작은쇄석·물가정보·타조달가격을대입하지않았다.",
+      "adopted_B": null,
+      "vat_included": null,
+      "shipping_included": null
+    },
+    "other_status_only": {
+      "file": "work/industrial-goal1000/canopy-next-lookup.json",
+      "item_id": "26097641",
+      "state": "reform_found",
+      "action": "기아캐노피는기등록개혁발굴상태라원규격·가격검색없이중단했다. 차량/부품판정이나신규실독완료로세지않는다."
+    },
+    "decision": "공식수량·단위와실제완성물품범위는보존했으나동일완제품의일반판매가격이없어B·예상액미채택.",
     "preview_count": 0,
     "post_count": 0
   }
