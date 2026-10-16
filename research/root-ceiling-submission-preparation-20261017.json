@@ -1460,7 +1460,7 @@
     "comparison_assessment": {
       "core_purpose": {
         "status": "verified",
-        "basis": "원품은 불연 마감과 지진 때 천장 이탈·낙하 억제용이다. 제조사 공개 설계자료의 KCL CT25-092332K_M1은 2026-01-29 발행, SDMC(DMC)-RES-36 300×600판 조합에 AC156:2020 SDS1.62g 이상 없음을 표시하며 root가 실제39~42쪽을 직접 읽었다. 같은 원문 불연 시험 품명과 해당 판의 대응을 root가 최종 확인한다."
+        "basis": "원품의 핵심 용도는 내부 천장의 불연 마감과 지진 때 이탈·낙하 억제다. 제조사 공개 페이지는 대안 DMC의 공통 불연 기능과 내부용 내진 구조를 설명한다. KCL CT25-092332K_M1의 실제 39~42쪽은 SDMC(DMC)-RES-36, 300×600×0.4T 조합, AC156:2020, SDS1.62g에서 이상 없음을 표시한다. 이는 공개 자료상의 핵심 용도 검토이며 원품의 모든 검사 항목 충족이나 계약상 무조건 대체 가능하다는 판정이 아니다. 불연 성적서의 NF-DMC-66 모델 범위도 별도로 보존한다."
       },
       "complete_product": {
         "status": "unverified",
@@ -1499,7 +1499,8 @@
       "원품AC156:2010과대안AC156:2020의시험판본차이가있다. 명목SDS수준이높다는범위를넘어모든성능이우수하다고주장하지않는다.",
       "원품별도KTL F100 2.5g진동·전후2500N결합력·원품하중처짐·열저항결과는대안에서확인하지못했다. 미확인을충족으로바꾸지않는다.",
       "기존젠픽스1.8g600판+50mm캡조합과이번300판·캡없는1.62g조합을섞지않는다.",
-      "제조사일위대가표는100㎡이상1Hall기준이고현장별차이·AL몰딩별도다. 직접확인일반판매확정가와구분한다."
+      "제조사일위대가표는100㎡이상1Hall기준이고현장별차이·AL몰딩별도다. 직접확인일반판매확정가와구분한다.",
+      "제조사 현재 일위대가표의 마이너 클립은 37×30×10×1.2T, 내진 시험 구성은 21×13×37×1.0T다. 원품의 모든 시험을 같게 요구하는 문제와 별개로, 대안 자체의 시험 구성과 가격표 부속이 완전히 같다고 자동 간주하지 않는다."
     ],
     "spec_source_urls": [
       "https://dmcschool.co.kr/files/design/sub-bul-dmc-std-quake.pdf",
@@ -2417,6 +2418,13 @@
     "test_model": "SDMC(DMC)-RES-36",
     "panel": "300×600×0.4T",
     "viewed_pdf_pages": [
+      5,
+      7,
+      9,
+      10,
+      14,
+      15,
+      16,
       20,
       39,
       40,
@@ -2424,13 +2432,24 @@
       42
     ],
     "difference_from_original": "원품SDS최소1.50g·AC156:2010과판본이다르며별도2.5g진동및2500N결합시험과직접비교하지않음",
-    "scope_limit": "53쪽전체중대상페이지를읽었으며모든페이지를시각검토했다고주장하지않음"
+    "scope_limit": "53쪽전체중대상페이지를읽었으며모든페이지를시각검토했다고주장하지않음",
+    "fire_test_scope": {
+      "report_no": "25-016846-01-2",
+      "model_as_written": "NF-DMC-66",
+      "pdf_pages_viewed": [
+        15,
+        16,
+        20
+      ],
+      "measured_sample_thickness_mm": "0.5",
+      "limits": "불연 시험 모델은 NF-DMC-66이며 내진 시험의 300×600판과 제품명·실측 두께가 완전히 같다고 단정하지 않는다. 제조사는 DMC 공통 불연 성능을 설명하지만 이 성적서가 모든 판 규격에 자동 적용된다고 확대하지 않는다."
+    }
   },
   "why_not_submitted": [
-    "젠픽스일반단가표는세금·배송·시험대상구성과의정확한연결이확인되지않음",
-    "제조사사급일위대가표는설계산출자료이며완성형일반판매확정가로검증되지않음",
-    "100㎡이상1Hall기준은공식fact만으로확인할수없고3개fact는총면적도100㎡미만",
-    "몰딩은현장실측별도이며전체취득단가에필요한물량·운임을확정하지못함"
+    "공개 일위대가표의 자재비 소계는 설계·산출 자료의 금액이며, 일반 고객에게 그 금액으로 공급한다는 판매 근거가 확인되지 않았다.",
+    "실제 싹다 일반가 표에는 전용 내진 DMC 바와 클립이 있으나 시험 구성의 규격 및 VAT 조건을 함께 확인하지 못했다.",
+    "아카이브의 실제 DMC판·KS 부속 판매 가격은 확보했지만, 그 가격들을 시험받은 완성 시스템에 맞추는 데 필요한 전용 부속의 판매 근거가 남아 있다.",
+    "제조사 표는 100㎡ 이상 1Hall 기준이다. 공식 fact의 면적만으로 현장별 조건을 확정하지 않았고, 3개 fact는 총면적도 100㎡ 미만이다."
   ],
   "not_mixed": {
     "DA_BAR_conditional_krw": "5181791227",
@@ -2438,5 +2457,578 @@
     "ZENFIX_300_material_only_krw": "1757751313",
     "none_adopted": true
   },
-  "pending_user_information": "공개판매URL또는보관견적의일반가/VAT/운임정보질문제시;없다는답변이나허가로간주하지않음"
+  "pending_user_information": "공개판매URL또는보관견적의일반가/VAT/운임정보질문제시;없다는답변이나허가로간주하지않음",
+  "known_shipping_scope": "공개 아카이브의 운임 안내는 착불·용달·구매자 하차를 명시한다. 이 출처는 배송 미포함이라고 기록할 수 있다. 실제 착불 안내가 있는 경우까지 무료/유료 여부 미확인으로 혼동하지 않는다. 개별 75건의 최종 운임은 미산정이며 실제 예산 절감액으로 확정하지 않는다.",
+  "archive_price_evidence_summary": {
+    "300_panel": {
+      "source_url": "https://web.archive.org/web/20241105213312id_/https://ssakda.co.kr/shop/0000000009",
+      "price_ex_vat_krw": "2550",
+      "minimum_quantity": 40,
+      "title": "DMC 불연 300×600(KS)"
+    },
+    "600_panel": {
+      "price_ex_vat_krw": "4050",
+      "minimum_quantity": 20,
+      "title": "DMC 불연 600×600(KS)",
+      "role": "별도 1.8g 외부용 경로의 판 가격"
+    },
+    "one_piece_cap": {
+      "price_ex_vat_krw": "350",
+      "vat_included": false,
+      "limits": "50×50×1T 치수·피스 포함 여부 미확인"
+    },
+    "minor_clip": {
+      "source_url": "https://web.archive.org/web/20260122231844id_/https://ssakda.co.kr/shop/1655717795",
+      "price_ex_vat_krw": "100",
+      "limits": "현재 140원 가격으로 바꾸어 기록하지 않는다."
+    },
+    "not_mapped_to_test": "일반 클립바 기본 650원에 4m 옵션 +2,040원이 붙는 상세는 전용 내진바 가격이 아니다. 기본값만 4m 한 본 가격으로 채택하지 않는다.",
+    "full_handoff": "work/bulk-goal1000/archive-retail-root-handoff.json"
+  },
+  "conditional_material_plus_molding_calculation": {
+    "status": "conditional_not_sale_price_or_submission_amount",
+    "calculation": "manufacturer material subtotal + molding material and installation at original procurement molding length1m/m2, all VAT10%, freight excluded",
+    "B_krw": "39134.202172",
+    "sum_all_75": "1308905113",
+    "sum_excluding_under100": "1307279602",
+    "limitations": [
+      "manufacturer design cost table is not yet verified general sale offer",
+      "1Hall minimum condition not verified per delivery",
+      "molding original allowance1m/m2 is not each site as-built perimeter",
+      "freight excluded; no assertion free shipping",
+      "spec differences do not establish full contractual substitution"
+    ],
+    "rows": [
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB00354436:1",
+        "request_no": "R25TB00354436",
+        "quantity": "1518",
+        "conditional_krw": "14976281",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB00510535:1",
+        "request_no": "R25TB00510535",
+        "quantity": "1367",
+        "conditional_krw": "0",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB00825123:1",
+        "request_no": "R25TB00825123",
+        "quantity": "2564",
+        "conditional_krw": "25315505",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB00987105:1",
+        "request_no": "R25TB00987105",
+        "quantity": "7457",
+        "conditional_krw": "73569254",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01089235:1",
+        "request_no": "R25TB01089235",
+        "quantity": "220",
+        "conditional_krw": "2170475",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01151621:1",
+        "request_no": "R25TB01151621",
+        "quantity": "153",
+        "conditional_krw": "1509467",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01165357:1",
+        "request_no": "R25TB01165357",
+        "quantity": "462",
+        "conditional_krw": "4557998",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01199236:1",
+        "request_no": "R25TB01199236",
+        "quantity": "155",
+        "conditional_krw": "1529198",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01217720:1",
+        "request_no": "R25TB01217720",
+        "quantity": "90",
+        "conditional_krw": "887921",
+        "under100m2": true
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01218830:1",
+        "request_no": "R25TB01218830",
+        "quantity": "1087",
+        "conditional_krw": "10724122",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01226983:1",
+        "request_no": "R25TB01226983",
+        "quantity": "3972",
+        "conditional_krw": "39163428",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01230174:1",
+        "request_no": "R25TB01230174",
+        "quantity": "251",
+        "conditional_krw": "2476315",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01261240:1",
+        "request_no": "R25TB01261240",
+        "quantity": "2647",
+        "conditional_krw": "26114766",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01268842:1",
+        "request_no": "R25TB01268842",
+        "quantity": "220",
+        "conditional_krw": "2170475",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01301660:1",
+        "request_no": "R25TB01301660",
+        "quantity": "2824",
+        "conditional_krw": "27861013",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01309158:1",
+        "request_no": "R25TB01309158",
+        "quantity": "6783",
+        "conditional_krw": "66919706",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01310905:1",
+        "request_no": "R25TB01310905",
+        "quantity": "3410",
+        "conditional_krw": "33642370",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01313640:1",
+        "request_no": "R25TB01313640",
+        "quantity": "151",
+        "conditional_krw": "1489735",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01321516:1",
+        "request_no": "R25TB01321516",
+        "quantity": "4209",
+        "conditional_krw": "41525143",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01329670:1",
+        "request_no": "R25TB01329670",
+        "quantity": "501",
+        "conditional_krw": "4932964",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01332185:1",
+        "request_no": "R25TB01332185",
+        "quantity": "251",
+        "conditional_krw": "2481215",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01333656:1",
+        "request_no": "R25TB01333656",
+        "quantity": "540",
+        "conditional_krw": "5332430",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01334200:1",
+        "request_no": "R25TB01334200",
+        "quantity": "2490",
+        "conditional_krw": "24565836",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01335277:1",
+        "request_no": "R25TB01335277",
+        "quantity": "1089",
+        "conditional_krw": "10743853",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01337039:1",
+        "request_no": "R25TB01337039",
+        "quantity": "1678",
+        "conditional_krw": "0",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01337068:1",
+        "request_no": "R25TB01337068",
+        "quantity": "2092",
+        "conditional_krw": "0",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01379434:1",
+        "request_no": "R25TB01379434",
+        "quantity": "2122",
+        "conditional_krw": "20935222",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01379456:1",
+        "request_no": "R25TB01379456",
+        "quantity": "6032",
+        "conditional_krw": "59510492",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01380027:1",
+        "request_no": "R25TB01380027",
+        "quantity": "11302",
+        "conditional_krw": "111503247",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01380092:1",
+        "request_no": "R25TB01380092",
+        "quantity": "1857",
+        "conditional_krw": "18320786",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01384998:1",
+        "request_no": "R25TB01384998",
+        "quantity": "846",
+        "conditional_krw": "8346464",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01387160:1",
+        "request_no": "R25TB01387160",
+        "quantity": "964",
+        "conditional_krw": "9510629",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01388712:1",
+        "request_no": "R25TB01388712",
+        "quantity": "664",
+        "conditional_krw": "6550889",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R25TB01391157:1",
+        "request_no": "R25TB01391157",
+        "quantity": "509",
+        "conditional_krw": "5021691",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01392507:1",
+        "request_no": "R26TB01392507",
+        "quantity": "33",
+        "conditional_krw": "325571",
+        "under100m2": true
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01396786:1",
+        "request_no": "R26TB01396786",
+        "quantity": "3378",
+        "conditional_krw": "33326665",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01408704:1",
+        "request_no": "R26TB01408704",
+        "quantity": "263",
+        "conditional_krw": "2594704",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01424585:1",
+        "request_no": "R26TB01424585",
+        "quantity": "267",
+        "conditional_krw": "2634168",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01445311:1",
+        "request_no": "R26TB01445311",
+        "quantity": "257",
+        "conditional_krw": "2535510",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01462696:1",
+        "request_no": "R26TB01462696",
+        "quantity": "3367",
+        "conditional_krw": "33218141",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01528238:1",
+        "request_no": "R26TB01528238",
+        "quantity": "1374",
+        "conditional_krw": "13555606",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01561219:1",
+        "request_no": "R26TB01561219",
+        "quantity": "1557",
+        "conditional_krw": "15361047",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01598115:1",
+        "request_no": "R26TB01598115",
+        "quantity": "13070",
+        "conditional_krw": "128945977",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01614198:1",
+        "request_no": "R26TB01614198",
+        "quantity": "591",
+        "conditional_krw": "5830686",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01628126:1",
+        "request_no": "R26TB01628126",
+        "quantity": "836",
+        "conditional_krw": "8228206",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01668555:1",
+        "request_no": "R26TB01668555",
+        "quantity": "797",
+        "conditional_krw": "7863040",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01670023:1",
+        "request_no": "R26TB01670023",
+        "quantity": "987",
+        "conditional_krw": "9737542",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01676566:1",
+        "request_no": "R26TB01676566",
+        "quantity": "363",
+        "conditional_krw": "3581284",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01696017:1",
+        "request_no": "R26TB01696017",
+        "quantity": "284",
+        "conditional_krw": "2821486",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01734085:1",
+        "request_no": "R26TB01734085",
+        "quantity": "4152",
+        "conditional_krw": "40962792",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01783939:1",
+        "request_no": "R26TB01783939",
+        "quantity": "807",
+        "conditional_krw": "0",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01836409:1",
+        "request_no": "R26TB01836409",
+        "quantity": "969",
+        "conditional_krw": "9559958",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01843453:1",
+        "request_no": "R26TB01843453",
+        "quantity": "6632",
+        "conditional_krw": "65429971",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01873145:1",
+        "request_no": "R26TB01873145",
+        "quantity": "432",
+        "conditional_krw": "4257124",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01876880:1",
+        "request_no": "R26TB01876880",
+        "quantity": "915",
+        "conditional_krw": "9027205",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01924972:1",
+        "request_no": "R26TB01924972",
+        "quantity": "791",
+        "conditional_krw": "7803846",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01933419:1",
+        "request_no": "R26TB01933419",
+        "quantity": "181",
+        "conditional_krw": "1779829",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01944087:1",
+        "request_no": "R26TB01944087",
+        "quantity": "7463",
+        "conditional_krw": "73628449",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01954875:1",
+        "request_no": "R26TB01954875",
+        "quantity": "2706",
+        "conditional_krw": "26696848",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01980416:1",
+        "request_no": "R26TB01980416",
+        "quantity": "348",
+        "conditional_krw": "3433297",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB01998151:1",
+        "request_no": "R26TB01998151",
+        "quantity": "177",
+        "conditional_krw": "1746246",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB02011068:1",
+        "request_no": "R26TB02011068",
+        "quantity": "793",
+        "conditional_krw": "7823577",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB02040971:1",
+        "request_no": "R26TB02040971",
+        "quantity": "586",
+        "conditional_krw": "5781357",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB02045738:1",
+        "request_no": "R26TB02045738",
+        "quantity": "3772",
+        "conditional_krw": "37213789",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB02059797:1",
+        "request_no": "R26TB02059797",
+        "quantity": "987",
+        "conditional_krw": "9737542",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB02061519:1",
+        "request_no": "R26TB02061519",
+        "quantity": "219",
+        "conditional_krw": "2171879",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB02063382:1",
+        "request_no": "R26TB02063382",
+        "quantity": "1124",
+        "conditional_krw": "11089156",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB02069286:1",
+        "request_no": "R26TB02069286",
+        "quantity": "551",
+        "conditional_krw": "5436054",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB02081978:1",
+        "request_no": "R26TB02081978",
+        "quantity": "213",
+        "conditional_krw": "2101414",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB02137571:1",
+        "request_no": "R26TB02137571",
+        "quantity": "587",
+        "conditional_krw": "3443223",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB02157504:1",
+        "request_no": "R26TB02157504",
+        "quantity": "469",
+        "conditional_krw": "2751059",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB02251796:1",
+        "request_no": "R26TB02251796",
+        "quantity": "74",
+        "conditional_krw": "412019",
+        "under100m2": true
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB02281384:1",
+        "request_no": "R26TB02281384",
+        "quantity": "6850",
+        "conditional_krw": "40180715",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB02295132:1",
+        "request_no": "R26TB02295132",
+        "quantity": "123",
+        "conditional_krw": "721493",
+        "under100m2": false
+      },
+      {
+        "fact_id": "dl:24578151:002370195_1:R26TB02344619:1",
+        "request_no": "R26TB02344619",
+        "quantity": "136",
+        "conditional_krw": "797748",
+        "under100m2": false
+      }
+    ],
+    "observed_at_note": "출처 자료와 비교 순금액의 조건부 산술이다. 실판매가나 접수 예상액으로 채택하지 않았다."
+  },
+  "price_document_character_independent_review": "industrial 에이전트가 동일 SHA의 제조사 XLSX와 사이트 설명을 독립 대조했다. 판매가·공급가·공장도가 명시가 없고 설계자료·산출내역서용 엑셀로 분류되어 있다. 체크아웃 부재 자체를 배제 이유로 삼지 않는다.",
+  "availability_checked_again_at_utc": "2026-10-16T18:34:57.654629+00:00",
+  "remaining_claims_today_at_recheck": 38,
+  "not_submitted_reason_type": "missing_qualified_price_evidence_not_user_approval"
 }

@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-16T18:25:52.597643+00:00",
+  "observed_at_utc": "2026-10-16T18:35:45.257903+00:00",
   "scope": "보관 콘크리트·대량 자재 후보의 10억 원 문턱 검토 및 상향 패널 대안 조사",
   "minimum_new_submission_savings_krw": "1000000000",
   "important_unit_note": "사용자 현황110억은11,000,000,000원이다. 목표1,000억까지 남은890억/50회=17.8억 원. 현재 사용자 현황은 API 미검증이다.",
@@ -4144,7 +4144,7 @@
       "report_no": "2021-R-004",
       "specimen_name": "KS D3609제품을 적용한 M-BAR 천장시스템",
       "disclosed_pages": "15쪽 중5~15쪽",
-      "confirmed_result": "UUT-01 시험 전후 구조·기능 이상없음 표를 읽음",
+      "confirmed_result": "UUT-01 p7의시험전후Structural은이상없음,Functional은해당없음이다.기능시험합격이라고확대하지않음.기존합본2400px검토그림을다시읽어정정함.",
       "not_confirmed": "AC156 수치 조건을 담는1~4쪽이 합본에 없고 SDS는 그래프만으로 확정하지 않았다. 2500N 접합력·진동후강도·원품 대비 우수성은 미확인.",
       "different_system_not_transferred": "젠픽스 CLIP-BAR+KS DMC 금속천장재1.8g, BAFFLE SQ-BAR 루버1.6g는 다른 틀과 마감의 조합이므로 DA-BAR+KCC텍스에 전용하지 않음."
     },
@@ -5144,7 +5144,7 @@
       }
     ],
     "zenfix_alternative_followup": {
-      "status": "사용자의 내진 천장 접수 지시로 최우선 재평가 중. 원품 계약 전항목 동일 시험을 대체품 접수 필수로 강제하지 않으며 실제 지정 완성 구성·가격 확인을 진행한다.",
+      "status": "사용자 내진 천장 접수 지시에 따라 성능·판매 근거를 재검토했다. 원품 모든 동일 시험 성적 강제는 폐기했으며 남은 장애는 전용 바·클립/캡의 실제 판매 규격·VAT 및 완성 비용이다. 현재 확정 B 없음.",
       "original_core_comparison": "원품 AC156:2010 SDS≥1.50g 대비 젠픽스 같은 기준 SDS17.65m/s²(약1.80g),z/h=1의 공개 이상 없음 결과를 확인했다. 비교 가능한 SDS 수준이 높다는 한정된 우위로 설명하며 전체 강도·반복 진동·열저항의 우수성으로 확대하지 않는다.",
       "test_summary": {
         "source_url": "https://zenfixdmc.tistory.com/3",
@@ -6145,6 +6145,32 @@
           "AL_molding": "현장실측별도"
         },
         "difference_caution": "현재일위대가마이너클립37×30×10×1.2T와시험대상21×13×37×1T차이를공개하며자동동일화하지않음"
+      },
+      "final_price_gap_summary": {
+        "as_of_utc": "2026-10-16T18:35:45.257681+00:00",
+        "reason_for_nonadoption": "원품 계약의 모든 시험 성적을 대체품에도 요구해서가 아니라, 지정 내진 시스템의 실제 일반 판매 완성 단가와 세금·운임 범위를 아직 닫지 못했기 때문이다.",
+        "internal_1_62g": {
+          "dedicated_bar": "현재660원/m의내진용DMC-BAR일반가는있으나32×29×.5T전용규격과VAT의연결미확정.옛일반클립바650원·4m옵션2040원은전용바의가격으로확정하지않음.",
+          "clip": "현재클립바클립200원/개는있으나34×29×1T와VAT기준을함께확인한일반판매상세미확보.",
+          "DMC_panel_price": "옛실제불연300×600KS판매상세2550원VAT별도·최소40개를확보했으며현재단가표에도같은품명·규격·가격이존재함.제조사기본판규격·성적과대응은root가검토중."
+        },
+        "external_1_8g": {
+          "onepiece_cap_with_screw": "옛DMC외부용원피스캡350원VAT별도실제판매원문을확보했으나50×50×1T와피스포함은본문미명시·상세사진미보존.현재300원과섞지않음.",
+          "ordinary_clipbar": "실제옛일반클립바가격·4m옵션은있으나32×29×.5T와시험지정구성대응미확정.",
+          "DMC_panel_price": "옛실제불연600×600KS4050원VAT별도·최소20개를확보.현재같은규격일반가존재."
+        },
+        "other_components": "10개옛일반판매상세에VAT별도는확인.캐링38×12×1.2T·4m·미터당590원은본문대응했으며볼트·몰딩등일부단위·규격은더확인필요.",
+        "freight": "옛실제연결구매안내의용달착불·직접상하차및거리/톤별운임표를확보.배송미포함사실은확인됐지만75fact별실제차량·거리·수량비용은미확정.",
+        "design_estimate_price": "현재제조사XLSX는설계자료/산출내역서용으로일반판매확정가채택안함.단순자재·몰딩산술을제출용B로채택하지않음.",
+        "adopted_B": null,
+        "adopted_savings_krw": null,
+        "ready_to_submit": false
+      },
+      "retail_bar_photograph_review": {
+        "archived_photo": "work/bulk-goal1000/archive-key-clipbar-photo.img",
+        "archived_photo_source": "https://web.archive.org/web/20250821182226id_/https://www.ssakda.co.kr/data/item/1662008234/thumb-7YG066a967CUremovebgpreview_540x540.png",
+        "current_manufacturer_photo_url": "https://dmcschool.co.kr/assets/sys-bar.webp",
+        "finding": "옛일반클립바상품사진과현재제조사내진DMC바사진을실제그림으로읽었다.사진에규격문자가없어외관만으로32×29×.5T전용바의동일SKU나같은사진원본이라고확정하지않음."
       }
     },
     "dabar_report_first_page_followup": {

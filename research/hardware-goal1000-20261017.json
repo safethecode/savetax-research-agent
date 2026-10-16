@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-16T18:27:34.924410+00:00",
+  "updated_at_utc": "2026-10-16T18:37:44.097160+00:00",
   "goal_total_expected_score_krw": "100000000000",
   "latest_user_minimum_per_new_submission_krw": "1000000000",
   "required_average_reference_krw": "1780000000",
@@ -30009,5 +30009,193 @@
       "마감판·몰딩·캡 등 필요한 나머지 구성의 실제 가격",
       "현장·수량·부재 길이에 맞는 최종 운임"
     ]
+  },
+  "round14_dabar_core_reassessment": {
+    "updated_at_utc": "2026-10-16T18:37:44.097160+00:00",
+    "scope": "HY-EP01에 대한 DA-BAR M-BAR 틀 + KCC 석고텍스 PLUS + AL 몰딩의 기술된 대체 비교 재평가. ZENFIX와 섞지 않음.",
+    "item_id": "24578151",
+    "original_model": "주식회사 화영 HY-EP01",
+    "official_fact_summary": {
+      "fact_count": 75,
+      "unique_request_count": 75,
+      "quantity_sqm": "141958",
+      "comparable_amount_krw": "6807052520",
+      "all_contract_request_line_references": "work/bulk-goal1000/hyep-provisional-material-scenario.json"
+    },
+    "conclusion": {
+      "qualitative_core_purpose": "내진 틀의 구조 보강 + 불연 천장 마감이라는 핵심 목적에 관한 기술된 대체 비교는 근거가 있다. SDS 숫자 미확보 하나만으로 내진 제품이 아니라고 판단하지 않는다.",
+      "performance_advantage": "판매자의 향상 설명은 기존 일반 엠바/클립바·행거 대비다. HY-EP01 자체보다 더 우수한 내진 성능을 입증하지 않는다.",
+      "complete_acquisition_price": "세 상품의 실제 민수 판매가와 세금 및 수량 합계를 확인했다. 엠바 타입의 실제 세트 배정·세부 구성과 현장 최종 운임은 미확정으로 보존한다.",
+      "all_original_test_gate_rejected": true,
+      "submission_ready": false,
+      "preview_calls": 0,
+      "POST_calls": 0,
+      "adopted_savings_krw": null
+    },
+    "da_bar_primary_sources": {
+      "retail_url": "https://baro09.com/product/detail.html?product_no=10050&cate_no=728&display_group=1",
+      "native_artifact": "work/hardware-goal1000/baro10050-native.json",
+      "short_quotes": [
+        "내진행거, 내진클립 부분교체 및 마이너찬넬 보강만으로 내진천장 업그레이드",
+        "원터치 양방향 클립 사용으로 결합력 강화 및 시공성 증가"
+      ],
+      "manufacturer_seller_claims_paraphrased": [
+        "일반 기존 행거보다 두꺼운 내진 행거",
+        "행거와 핀의 결합력을 높여 내구성 강화",
+        "간편한 설치와 구조 일원화에 따른 공기·재료비 감소"
+      ],
+      "claim_comparator": "기존 일반 천장틀이며 화영 HY-EP01과의 직접 비교가 아님",
+      "construction_image_url": "https://baro09.com/web/upload/NNEditor/20260323/EB82B4ECA784EBB094.jpg",
+      "construction_image_artifact": "work/hardware-goal1000/baro10050-image-18.jpg",
+      "listed_set_categories": [
+        "앙카",
+        "전산볼트 및 너트",
+        "내진행거",
+        "마이너찬넬 및 클립",
+        "메인찬넬(캐링)",
+        "내진클립 및 엠바 또는 클립바"
+      ],
+      "differences": [
+        "판매 도면 M바 0.45T×50×19, 캐링 1.2T×38×18, 행거100mm. 원품은 M바0.5T, S내진채널1.2T×38×12, 무핀행거150mm.",
+        "원품은 무핀행거·S채널·4개 결합홈의 HY내진클립으로 핀 이탈 방지와 결합력을 설명한다. DA-BAR의 핀 구조를 더 우수하다고 바꾸어 쓰지 않는다.",
+        "KCC 석고텍스는 M-BAR 피스 고정 방식이므로 비교 범위는 M-BAR이며 Clip-BAR 세트와 혼합하지 않는다."
+      ]
+    },
+    "da_bar_test": {
+      "result_image_url": "https://baro09.com/web/upload/NNEditor/20260323/EC84B1ECA081EC849C.jpg",
+      "report_no": "2021-R-004",
+      "specimen": "KS D3609 제품을 적용한 M-BAR 천장시스템",
+      "directly_viewed_result": "p7 UUT-01 시험 전후 Structural 이상없음, Functional 해당없음",
+      "inspection_crop": "work/hardware-goal1000/baro-test2021-post-inspection-crop.png",
+      "correction": "이전의 구조·기능 모두 이상없음이라는 표현을 사용하지 않음",
+      "cover_recovered": true,
+      "cover_source_url": "https://blog.naver.com/baro0904/222925765755",
+      "cover_observation": "bulk가 실제 공개 사진 미리보기로 확보한 2021-R-004 M-BAR 및 별도2021-R-005 Clipbar 표지를 독립 시각 확인. SDS 숫자 위치는 연락처 워터마크로 가려져 확정하지 않음.",
+      "cover_artifact": "work/bulk-goal1000/baro2022-test-summary-full.img",
+      "cover_sha256": "586bd39777f01649c719092e9653d652a40cc68344955ecfb4665d01414e4d0d",
+      "sds_g": null,
+      "not_transferred": [
+        "ZENFIX SDS1.8g",
+        "ZENFIX SDMC(DMC)-RES-36 SDS1.62g",
+        "다른 업체 DA1.0G/PGA"
+      ],
+      "limits": [
+        "구조 이상없음은 공개된 시험체와 조건에 관한 결과다.",
+        "SDS1.50g 이상이나 원품 대비 정량 우수성을 주장하지 않는다.",
+        "KCC 현재 판매판을 이 시험의 모든 부재와 동일한 구성이라고 단정하지 않는다."
+      ]
+    },
+    "retail_components": [
+      {
+        "part": "DA-BAR SET (몰딩 미포함)",
+        "url": "https://baro09.com/product/detail.html?product_no=10050&cate_no=728&display_group=1",
+        "unit": "㎡",
+        "displayed_general_price_krw": "4500",
+        "vat_excluded": true,
+        "vat_krw": "450",
+        "derived_vat_inclusive_krw": "4950",
+        "tax_url": "https://baro09.com/category/내진클립바/728",
+        "quantity_observation": "수량100 상품 합계450000원",
+        "artifact": "work/hardware-goal1000/baro10050-qty100-recheck.json"
+      },
+      {
+        "part": "KCC 석고텍스 PLUS 9.5T×300×600",
+        "url": "https://baro09.com/product/detail.html?product_no=10842&cate_no=598&display_group=1",
+        "unit": "BOX(18매)",
+        "displayed_general_price_krw": "16200",
+        "vat_excluded": true,
+        "vat_krw": "1620",
+        "derived_vat_inclusive_krw": "17820",
+        "tax_url": "https://baro09.com/category/%EC%84%9D%EA%B3%A0%ED%85%8D%EC%8A%A4/598/",
+        "tax_quote": "16,200원 (부가세별도)",
+        "quantity_observation": "수량1=16200원;32박스=518400원",
+        "artifact": "work/hardware-goal1000/baro-kcc10842-quantity-current.json",
+        "title_detail_difference": "제목9T, 실제 본문 규격표9.5T·300×600·18ea/box"
+      },
+      {
+        "part": "화이트 AL 앵글몰딩19×19×3000mm",
+        "url": "https://baro09.com/product/%ED%99%94%EC%9D%B4%ED%8A%B8-al%EC%95%B5%EA%B8%80%EB%AA%B0%EB%94%A9-1919-3000/13989/",
+        "unit": "EA(3m)",
+        "displayed_general_price_krw": "2590",
+        "vat_excluded": true,
+        "vat_krw": "259",
+        "derived_vat_inclusive_krw": "2849",
+        "tax_url": "https://baro09.com/product/list.html?cate_no=390",
+        "tax_quote": "2,590원 (부가세별도)",
+        "quantity_observation": "수량1=2590원;34본=88060원",
+        "artifact": "work/hardware-goal1000/baro-molding13989-quantity-current.json",
+        "unverified": "AL6063 합금·분체도장 방식 미표시"
+      }
+    ],
+    "kcc_official_material_evidence": {
+      "url": "https://www.kccworld.co.kr/techdoc/b05/cvt/B05F202111037840998kor.pdf",
+      "status": 200,
+      "bytes": 3844434,
+      "sha256": "5f82f2af601cf513f1f5f0b9530eecf329bc82bae2158b3a9ceaf99982b7435a",
+      "file": "work/hardware-goal1000/kcc-plus-approval.pdf",
+      "visually_viewed_pdf_pages": [
+        12,
+        13,
+        14
+      ],
+      "KS_report": {
+        "report_no": "TAK-2020-150336",
+        "completed": "2021-02-10",
+        "sample": "치장석고보드(석고텍스 Plus, GB-D)",
+        "method": "KS F3504:2018",
+        "thickness_mm": "9.6",
+        "moisture_percent": "1.0",
+        "lengthwise_bending_failure_N": "460",
+        "thermal_resistance_m2K_W": "0.070",
+        "combustion_field": "준불연재료"
+      },
+      "noncombustibility_report": {
+        "report_no": "TAK-2020-150337",
+        "completed": "2021-02-10",
+        "sample_thickness_mm": "9.5",
+        "method": "국토교통부고시2020-263(2020)",
+        "mass_loss_percent": [
+          "26.9",
+          "26.5",
+          "26.8"
+        ],
+        "temperature_difference_K": [
+          "8.0",
+          "7.6",
+          "1.8"
+        ],
+        "gas_test_min_sec": [
+          "14:57",
+          "14:37"
+        ],
+        "stated_result": "불연재료 적합"
+      },
+      "scope_note": "KS표의 준불연 항목을 불연으로 고쳐 쓰지 않고 별도 불연 시험을 구분한다. 원품2022-84와 시험기준 판본 차이를 공개한다. 표본 결과는 전체 제품 품질 보증이 아니며 보고서 p14는 KOLAS 인정 관련 없음이라고 명시한다.",
+      "comparison_note": "휨460N·열저항0.070은 원품의 최소 규격360N·0.043보다 높은 표본 수치다. 같은 KCC 제품을 쓰는 원품의 실제 성능보다 우수함을 뜻하지 않는다."
+    },
+    "cost_scope": {
+      "formula_before_freight": "4950×Q + 17820×ceil(5.6×Q/18) + 2849×ceil(Q/3)",
+      "consumption_basis": "원품 공개 규격서의 판5.6매/㎡·몰딩1m/㎡를 비교 가정으로 사용하며 실제 각 현장 둘레를 확정한 값은 아님",
+      "example_100sqm": {
+        "frame_including_vat_krw": "495000",
+        "kcc_boxes": 32,
+        "kcc_including_vat_krw": "570240",
+        "molding_pieces_3m": 34,
+        "molding_including_vat_krw": "96866",
+        "derived_material_subtotal_including_vat_krw": "1162106"
+      },
+      "all75_facts_conditional_material_savings_krw": "5181791227",
+      "independent_recalculation_all75_rows_passed": true,
+      "not_adopted_submission_B": true,
+      "shipping_included": false,
+      "shipping_evidence": "판과 몰딩 실제 배송80,000원, 공통 안내는 용달만 가능·1층 하차·지역별 추가운임. 틀 상단10,000원과 공통80,000원이 함께 표시됨.",
+      "shipping_final_cost_krw": null,
+      "consolidation_assumption": "세 상품을 하나의80,000원 운임으로 합배송한다고 가정하지 않음",
+      "remaining_scope": [
+        "판매세트 엠바 타입과 정확한 부재 배정",
+        "실제 체결·연결 부속 포함 범위",
+        "현장별 도착 운임"
+      ]
+    }
   }
 }
