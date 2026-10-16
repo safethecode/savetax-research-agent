@@ -1,0 +1,35 @@
+# Browser Harness와 Jev
+
+2026-10-16 사용자 요청으로 `browser-harness[mcp]==0.1.13`, Jev commit `1231850a0bf1a0c0341fe408ef1668dbbfdfac46`을 별도 Python 3.12 환경에 설치했다. 재설치 목록은 `requirements-browser.txt`다.
+
+```powershell
+python -m venv work/browser-runtime
+work/browser-runtime/Scripts/python.exe -m pip install -r requirements-browser.txt
+python -m savetax browser-status
+python -m savetax browser-read --url 'https://판매처/상품' --output work/browser/product.json
+python -m savetax browser-plan --url 'https://판매처/상품' --goal '모델과 일반 판매가 열람' --output work/browser/plan.json
+```
+
+Windows Chrome은 headless로 실행한다. 프로필은 `work/browser-chrome`, 하네스 상태는 `work/browser-state`다. 기존 작업 CDP를 재사용하며 사용자 기본 프로필에 원격 디버깅을 켤 필요가 없다. 세션은 하나이므로 브라우저 작업을 직렬 처리한다.
+
+MCP `browser_harness`는 Codex에 등록했다. 실행 파일은 `work/browser-runtime/Scripts/python.exe`, 인자는 `scripts/browser_mcp.py`의 절대 경로다. 스크립트가 작업 CDP를 설정하고 공식 MCP 진입점을 호출한다. `work/browser-runtime`을 지우면 재설치가 필요하다.
+
+## 키 처리
+
+`.env.txt`는 `.gitignore`의 `.env.*`로 제외한다. 허용된 이름만 셸 평가 없이 읽고 프로세스 환경변수로 전달한다. 기존 환경변수가 우선한다. 레지스트리·셸 프로필·MCP 설정에 키 값을 복사하지 않는다. 상태 출력은 존재 여부만 표시하며 수집 결과에서는 받은 키 값을 제거한다. SaveTax 인증 환경변수는 브라우저 자식 프로세스에 전달하지 않는다.
+
+TypeSafe는 Jev의 동작 선택에 사용한다. `TEXT_MODEL_API_KEY`가 없어 upstream Jev의 자유 입력 생성은 준비되지 않았다. `browser-plan`은 실제 페이지를 읽고 TypeSafe에 다음 동작을 묻는다. 동작은 검토 후 MCP로 실행한다. Parallel 검색은 별도 클라이언트로 연결한다. 현재 Parallel 공식 Chat 문서는 Responses API로 이동하므로 Chat Completions 전용 입력 생성기에 임의 연결하지 않는다.
+
+## 실제 검증
+
+| 항목 | 결과 |
+|---|---|
+| doctor | 0.1.13, daemon alive, browser_ready=true |
+| Chrome 이동 | IANA 공개 페이지 제목·URL 읽기 성공 |
+| 네이티브 MCP | `browser_page_info`로 같은 작업 탭 확인 성공 |
+| Jev + TypeSafe | F19WDLPR 다나와 페이지 읽기·다음 동작 판단 성공. 모델 `jev-1.13.0`, 모델 응답 258ms (1회) |
+| G마켓 EWI | headless 접근은 '잠시만 기다리십시오…' 챌린지. 이 수집물을 가격 검증으로 채택하지 않음 |
+
+258ms는 한 번의 모델 응답 시간이며 전체 조사 속도를 뜻하지 않는다. 수집 JSON의 `evidence_status=unreviewed`는 조사자가 모델·옵션·가격을 대조하기 전까지 유지한다. Jev의 DONE은 제출 자격 판정이 아니다. 공개 HTTP와 검색으로 읽을 수 있는 페이지는 그 경로도 계속 쓴다.
+
+[Browser Harness](https://github.com/browser-use/browser-harness), [Jev](https://github.com/browser-use/jev-ultrafast), [Parallel Responses](https://docs.parallel.ai/responses-api/responses-quickstart)의 공식 문서를 확인했다. 재사용 절차는 `.agents/skills/savetax-browser/SKILL.md`다.

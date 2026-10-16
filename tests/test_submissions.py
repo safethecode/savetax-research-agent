@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import Mock, patch
 
-from savetax.client import SaveTaxClient
+from savetax.client import SaveTaxClient, SaveTaxError
 from savetax.submissions import ScoreClient, build_submission
 
 
@@ -45,7 +45,7 @@ class ScoreTests(unittest.TestCase):
         raw = SaveTaxClient(token='savetax_'+'x'*32)
         response = Mock(status_code=201,headers={})
         response.json.return_value = {'submission_id':'S1','amount_krw':'200000000'}
-        with patch.object(raw,'get_json',return_value={'items':[{'state':'available'}]}), \
+        with patch.object(raw,'get_json',return_value={'items':[{'item_id':'001','state':'available'}]}), \
                 patch('savetax.submissions.requests.post',return_value=response) as post:
             result = ScoreClient(raw).submit(build_submission(self.item,self.offer,self.event),
                     'research-key-123',{'ok':True,'next_action':'submit'})
@@ -53,6 +53,104 @@ class ScoreTests(unittest.TestCase):
         self.assertTrue(post.call_args.args[0].endswith('/submissions'))
         self.assertEqual(post.call_args.kwargs['headers']['Idempotency-Key'],'research-key-123')
         self.assertFalse(post.call_args.kwargs['allow_redirects'])
+
+    def test_success_http_with_unreadable_json_remains_an_unconfirmed_result(self):
+        raw = SaveTaxClient(token='savetax_'+'x'*32)
+        response = Mock(status_code=201, headers={})
+        response.json.side_effect = ValueError('untrusted response contents')
+        with patch.object(raw, 'get_json', return_value={'items':[{'item_id':'001','state':'available'}]}), \
+                patch('savetax.submissions.requests.post', return_value=response):
+            with self.assertRaises(SaveTaxError) as error:
+                ScoreClient(raw).submit(build_submission(self.item,self.offer,self.event),
+                    'research-key-123', {'ok':True,'next_action':'submit'})
+        self.assertEqual(error.exception.stage, 'decode')
+        self.assertNotIn('untrusted', str(error.exception))
+        response.close.assert_called_once()
+
+    def test_success_without_submission_id_is_not_a_receipt(self):
+        raw = SaveTaxClient(token='savetax_'+'x'*32)
+        for payload in ({}, [], {'submission_id':None}, {'submission_id':''}, {'submission_id':True}):
+            with self.subTest(payload=payload):
+                response = Mock(status_code=201, headers={})
+                response.json.return_value = payload
+                with patch.object(raw,'get_json',return_value={'items':[{'item_id':'001','state':'available'}]}), \
+                        patch('savetax.submissions.requests.post',return_value=response):
+                    with self.assertRaises(SaveTaxError):
+                        ScoreClient(raw).submit(build_submission(self.item,self.offer,self.event),
+                            'research-key-123', {'ok':True,'next_action':'submit'})
+
+    def test_lookup_must_match_requested_product_instead_of_first_available_row(self):
+        raw = SaveTaxClient(token='savetax_'+'x'*32)
+        rows = [{'item_id':'other','state':'available'}, {'item_id':'001','state':'claimed'}]
+        response = Mock(status_code=201,headers={})
+        response.json.return_value = {'submission_id':'S1'}
+        with patch.object(raw,'get_json',return_value={'items':rows}), \
+                patch('savetax.submissions.requests.post',return_value=response) as post:
+            with self.assertRaises(ValueError):
+                ScoreClient(raw).submit(build_submission(self.item,self.offer,self.event),
+                    'research-key-123', {'ok':True,'next_action':'submit'})
+        post.assert_not_called()
+
+    def test_no_lookup_match_never_sends_submission(self):
+        raw = SaveTaxClient(token='savetax_'+'x'*32)
+        response = Mock(status_code=201,headers={})
+        response.json.return_value = {'submission_id':'S1'}
+        with patch.object(raw,'get_json',return_value={'items':[{'item_id':'other','state':'available'}]}), \
+                patch('savetax.submissions.requests.post',return_value=response) as post:
+            with self.assertRaises(ValueError):
+                ScoreClient(raw).submit(build_submission(self.item,self.offer,self.event),
+                    'research-key-123', {'ok':True,'next_action':'submit'})
+        post.assert_not_called()
+
+    def test_submission_requires_key_before_any_network_call(self):
+        raw = SaveTaxClient(token='savetax_'+'x'*32)
+        response = Mock(status_code=201,headers={})
+        response.json.return_value = {'submission_id':'S1'}
+        with patch.object(raw,'get_json',return_value={'items':[{'item_id':'001','state':'available'}]}) as lookup, \
+                patch('savetax.submissions.requests.post',return_value=response) as post:
+            with self.assertRaises(ValueError):
+                ScoreClient(raw).submit(build_submission(self.item,self.offer,self.event),
+                    None, {'ok':True,'next_action':'submit'})
+        lookup.assert_not_called()
+        post.assert_not_called()
+
+    def test_recovery_distinguishes_pending_from_committed_receipt(self):
+        raw = SaveTaxClient(token='savetax_'+'x'*32)
+        for status, payload, expected in (
+                (202, {'state':'pending'}, {'state':'pending'}),
+                (200, {'submission_id':'S1'}, {'state':'submitted','response':{'submission_id':'S1'}})):
+            with self.subTest(status=status):
+                response = Mock(status_code=status, headers={})
+                response.json.return_value = payload
+                with patch('savetax.client.requests.get',return_value=response), \
+                        patch('savetax.submissions.requests.post') as post:
+                    self.assertEqual(ScoreClient(raw).recover_request('research-key-123'),expected)
+                response.close.assert_called_once()
+                post.assert_not_called()
+
+    def test_recovery_404_is_not_found_but_invalid_200_remains_unresolved(self):
+        raw = SaveTaxClient(token='savetax_'+'x'*32)
+        response = Mock(status_code=404, headers={})
+        response.json.return_value = {'code':'NOT_FOUND'}
+        with patch('savetax.client.requests.get',return_value=response):
+            self.assertEqual(ScoreClient(raw).recover_request('research-key-123'),{'state':'not_found'})
+        response = Mock(status_code=200, headers={})
+        response.json.return_value = {'state':'pending'}
+        with patch('savetax.client.requests.get',return_value=response):
+            with self.assertRaises(SaveTaxError) as error:
+                ScoreClient(raw).recover_request('research-key-123')
+        self.assertEqual(error.exception.stage,'decode')
+
+    def test_nested_api_error_preserves_safe_status_and_code(self):
+        raw = SaveTaxClient(token='savetax_'+'x'*32)
+        response = Mock(status_code=422,headers={})
+        response.json.return_value = {'error':{'code':'PRICE_GAP_TOO_SMALL','message':raw._token}}
+        with patch('savetax.submissions.requests.post',return_value=response):
+            with self.assertRaises(SaveTaxError) as error:
+                ScoreClient(raw).preview({})
+        self.assertEqual(error.exception.status,422)
+        self.assertEqual(error.exception.code,'PRICE_GAP_TOO_SMALL')
+        self.assertNotIn(raw._token,str(error.exception))
 
 
 if __name__ == '__main__':

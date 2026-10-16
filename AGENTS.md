@@ -37,3 +37,4 @@
 - 비밀은 환경변수 또는 기존 로컬 개인 지침에서 메모리로만 읽는다. 개인 지침을 통째로 출력하지 않는다. 토큰을 명령문·URL·로그·코드·커밋에 넣지 않는다. `SaveTaxClient`의 허용된 공식 HTTPS Authorization 경로만 쓴다.
 - 네트워크 실패는 호스트·경로·UTC 시각·DNS·TCP/TLS·HTTP 상태를 구별한다. 429는 `Retry-After`를 따르고 그동안 로컬 분석과 판매가 조사를 진행한다.
 - 재사용 스킬은 `.agents/skills/savetax-research/SKILL.md`, MCP 연결 상태는 `docs/mcp-connections.md`를 읽는다. 새 세션에서도 현재 도구가 실제로 있는지 확인한다.
+- JS 판매 페이지는 `.agents/skills/savetax-browser/SKILL.md`의 Browser Harness·Jev 경로를 쓴다. 작업 전용 Chrome과 공유 세션을 직렬로 사용한다. `.env.txt` 키는 환경변수로만 전달하고 값은 출력·커밋하지 않는다.

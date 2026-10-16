@@ -11,11 +11,21 @@
 | 선언형 JSON DSL·반려 피드백 개선 제안 | `savetax/rules.py`, `strategies/` |
 | 실측 가격·단위·세금·필수 비용 검증 | `savetax/evidence.py` |
 | 다이소·다나와 원격 MCP 검색 | `savetax/market.py` |
+| JS 판매 페이지·격리 Chrome·Jev 동작 제안 | `savetax/browser.py`, `scripts/browser_mcp.py` |
+| Parallel 판매 페이지 검색 | `savetax/parallel.py` |
 | 점수 본문·계약/납품요구/라인 자동 기록 | `savetax/submissions.py` |
 | 억 단위 우선·소액 후순위 대기열 | `savetax/queue.py` |
 | 제보·상태·정정과 영수증 보존 | `savetax/reports.py`, `savetax/cli.py` |
 
 다이소와 PC 가격검색 MCP는 실제 호출을 확인했다. 다른 연결의 제약은 [MCP 상태](docs/mcp-connections.md)를 참고한다. 유료 가입이나 사용자의 구매 계정 변경은 하지 않는다.
+
+사용자가 요청한 [Browser Harness·Jev](docs/browser-research.md)와 [Parallel 검색](docs/parallel-search.md)도 연결했다. `.env.txt`의 키는 허용된 이름만 읽어 프로세스 환경변수로 전달하며 출력·커밋하지 않는다.
+
+```powershell
+python -m savetax browser-status
+python -m savetax parallel-search --query '정확한 모델 국내 판매가' --output work/search.json
+python -m savetax browser-read --url 'https://판매처/상품' --output work/browser/product.json
+```
 
 ## 실행
 

@@ -75,6 +75,46 @@ class ScoreClient:
     def __init__(self, client: SaveTaxClient):
         self.client = client
 
+    @staticmethod
+    def _validate_key(key):
+        if not isinstance(key,str) or not re.fullmatch(r'[A-Za-z0-9_-]{8,100}',key):
+            raise ValueError('안정된 멱등 키가 필요합니다')
+
+    @staticmethod
+    def _require_receipt(result):
+        submission_id = result.get('submission_id') if isinstance(result,dict) else None
+        if (not isinstance(submission_id,str)
+                or not re.fullmatch(r'[A-Za-z0-9_-]{1,200}',submission_id)
+                or TOKEN_PATTERN.search(submission_id)):
+            raise SaveTaxError('점수 접수 영수증 미확인; 같은 멱등 키로 결과를 확인하세요',stage='decode')
+        return result
+
+    def recover_request(self, idempotency_key):
+        """HTTP 202는 접수 성공이 아니다. 같은 요청의 최종 결과만 복구한다."""
+        self._validate_key(idempotency_key)
+        try:
+            response = self.client._get(BASE+'/submission-requests/'+idempotency_key)
+        except SaveTaxError as error:
+            if error.status == 404:
+                return {'state':'not_found'}
+            raise
+        error, result = None, None
+        try:
+            if response.status_code == 202:
+                return {'state':'pending'}
+            if response.status_code != 200:
+                error = SaveTaxError('점수 접수 결과 상태 미확인',status=response.status_code,stage='http')
+            else:
+                try:
+                    result = self._require_receipt(response.json())
+                except (ValueError,TypeError):
+                    error = SaveTaxError('점수 접수 결과 해석 실패',stage='decode')
+        finally:
+            response.close()
+        if error:
+            raise error from None
+        return {'state':'submitted','response':_redact(result,self.client._token)}
+
     def _post(self, suffix, body, key=None):
         if suffix not in ('/submissions/preview','/submissions'):
             raise ValueError('허용되지 않은 점수 경로')
@@ -82,9 +122,10 @@ class ScoreClient:
             raise ValueError('본문에 비밀 문자열을 넣을 수 없습니다')
         headers = {'Authorization':'Bearer '+self.client._token,'User-Agent':'Mozilla/5.0','Accept':'application/json'}
         if key is not None:
-            if not re.fullmatch(r'[A-Za-z0-9_-]{8,100}',key):
-                raise ValueError('안정된 멱등 키가 필요합니다')
+            self._validate_key(key)
             headers['Idempotency-Key'] = key
+        elif suffix == '/submissions':
+            self._validate_key(key)
         response,error = None,None
         try:
             response = requests.post(BASE+suffix,json=body,headers=headers,
@@ -96,15 +137,18 @@ class ScoreClient:
         try:
             try:
                 result = response.json()
-            except ValueError:
-                result = {}
-            if not isinstance(result,dict):
-                result = {}
+            except (ValueError,TypeError):
+                result = None
             if response.status_code not in (200,201):
-                code = result.get('code','http_error')
+                detail = result.get('error',result) if isinstance(result,dict) else {}
+                code = detail.get('code','http_error') if isinstance(detail,dict) else 'http_error'
                 if not isinstance(code,str) or not re.fullmatch(r'[A-Za-z][A-Za-z0-9_]{0,79}',code) or TOKEN_PATTERN.search(code):
                     code = 'http_error'
                 error = SaveTaxError(f'점수 요청 HTTP {response.status_code} ({code})',status=response.status_code,code=code,stage='http')
+            elif not isinstance(result,dict):
+                error = SaveTaxError('점수 요청 응답 해석 실패; 같은 멱등 키로 결과를 확인하세요',stage='decode')
+            elif suffix == '/submissions':
+                self._require_receipt(result)
         finally:
             response.close()
         if error:
@@ -115,9 +159,13 @@ class ScoreClient:
         return self._post('/submissions/preview',body)
 
     def submit(self, body, idempotency_key, preview):
-        if preview.get('ok') is not True or preview.get('next_action') != 'submit':
+        self._validate_key(idempotency_key)
+        if not isinstance(preview,dict) or preview.get('ok') is not True or preview.get('next_action') != 'submit':
             raise ValueError('점수 제출 가능한 preview 결과가 필요합니다')
         lookup = self.client.get_json(BASE+'/items/lookup',params={'ids':body['canonical_product_id']})
-        if not lookup.get('items') or lookup['items'][0].get('state') != 'available':
+        rows = lookup.get('items',[])
+        matching = [row for row in rows if isinstance(row,dict)
+                    and row.get('item_id') == body['canonical_product_id']] if isinstance(rows,list) else []
+        if len(matching) != 1 or matching[0].get('state') != 'available':
             raise ValueError('물품이 이미 등록되었거나 현재 등록할 수 없습니다')
         return self._post('/submissions',body,idempotency_key)

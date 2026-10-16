@@ -7,7 +7,7 @@ import sys
 import time
 import zipfile
 from datetime import datetime, timezone
-from decimal import Decimal
+from decimal import Decimal, InvalidOperation
 from pathlib import Path
 
 from .analysis import dataset_summary, mine_batch
@@ -230,6 +230,18 @@ def main(argv=None):
     reports = sub.add_parser('reports', help='제보 심사 상태와 반려 이력 확인')
     reports.add_argument('--output', default='work/report-status.json')
     reports.add_argument('--guide', default='savetax-agent-guide.md')
+    browser_status = sub.add_parser('browser-status', help='격리 Chrome·하네스·키 준비 상태 확인 (키 값 출력 없음)')
+    browser_read = sub.add_parser('browser-read', help='JS 판매 페이지 텍스트와 상세 iframe 주소 수집')
+    browser_read.add_argument('--url', required=True)
+    browser_read.add_argument('--output', required=True)
+    browser_plan = sub.add_parser('browser-plan', help='Jev·TypeSafe의 다음 동작 제안 (실행 전 검토)')
+    browser_plan.add_argument('--url', required=True)
+    browser_plan.add_argument('--goal', required=True)
+    browser_plan.add_argument('--output', required=True)
+    parallel = sub.add_parser('parallel-search', help='Parallel API로 국내 판매가 검색 단서 수집')
+    parallel.add_argument('--query', required=True)
+    parallel.add_argument('--limit', type=int, default=5)
+    parallel.add_argument('--output', required=True)
     score_build = sub.add_parser('build-score', help='공식 fact와 확인한 판매가로 점수 본문 생성')
     score_build.add_argument('--input', required=True)
     score_build.add_argument('--output', default='work/score-body.json')
@@ -303,6 +315,21 @@ def main(argv=None):
                     histories[report_id] = client.get_json(REPORTS_URL + '/' + str(report_id) + '/history')
             write_json(args.output, {'status': status, 'rejected_histories': histories})
             print('일반 제보 상태 저장: ' + str(args.output))
+        elif args.command in ('browser-status','browser-read','browser-plan'):
+            from .browser import BrowserRuntime
+            runtime = BrowserRuntime()
+            if args.command == 'browser-status':
+                print(json.dumps(runtime.status(),ensure_ascii=False,indent=2))
+            else:
+                result = runtime.read(args.url) if args.command == 'browser-read' else runtime.plan(args.url,args.goal)
+                write_json(args.output,result)
+                print('브라우저 조사 결과 저장: '+str(args.output))
+        elif args.command == 'parallel-search':
+            from .parallel import ParallelClient
+            from .secrets import environment
+            result = ParallelClient(api_key=environment().get('PARALLEL_API_KEY')).search(args.query,max_results=args.limit)
+            write_json(args.output,result)
+            print('Parallel 검색 결과 저장: '+str(args.output))
         elif args.command == 'build-score':
             from .submissions import build_submission
             source = read_json(args.input)
@@ -321,8 +348,14 @@ def main(argv=None):
             if saved and (saved.get('idempotency_key') != key or saved.get('body') != body):
                 raise ValueError('다른 점수 제출의 영수증입니다. 새 경로를 사용하세요')
             if saved and saved.get('state') == 'submitted':
-                print('이미 점수 접수한 영수증을 보존합니다: '+str(args.receipt))
-                return 0
+                try:
+                    ScoreClient._require_receipt(saved.get('response'))
+                except RuntimeError:
+                    saved['state'] = 'sending'
+                    write_json(args.receipt,saved)
+                else:
+                    print('이미 점수 접수한 영수증을 보존합니다: '+str(args.receipt))
+                    return 0
             minimum = Decimal(args.min_saving)
             if not minimum.is_finite() or minimum < 0:
                 raise ValueError('min-saving은 0 이상의 원화 금액이어야 합니다')
@@ -330,20 +363,28 @@ def main(argv=None):
             scoring = ScoreClient(client)
             receipt = saved or {'idempotency_key':key,'body':body,'state':'prepared'}
             if receipt['state'] == 'sending':
-                try:
-                    receipt['response'] = client.get_json(BASE+'/submission-requests/'+key)
+                recovery = scoring.recover_request(key)
+                if recovery['state'] == 'submitted':
+                    receipt['response'] = recovery['response']
                     receipt['state'] = 'submitted'
                     write_json(args.receipt,receipt)
                     return 0
-                except RuntimeError as exc:
-                    if getattr(exc,'status',None) != 404:
-                        raise
+                if recovery['state'] == 'pending':
+                    print('점수 접수가 아직 확정되지 않았습니다. 같은 영수증을 유지합니다')
+                    return 0
+                if recovery['state'] != 'not_found':
+                    raise ValueError('접수 조회 상태를 확인할 수 없습니다')
             preview = scoring.preview(body)
             receipt.update(preview=preview,state='previewed')
             write_json(args.receipt,receipt)
             if preview.get('ok') is not True or preview.get('next_action') != 'submit':
                 raise ValueError('점수 preview가 신규 제출을 허용하지 않았습니다')
-            amount = Decimal(preview['total_amount_krw'])
+            amount_raw = preview.get('total_amount_krw')
+            if not isinstance(amount_raw,str):
+                raise ValueError('점수 preview 금액은 십진 문자열이어야 합니다')
+            amount = Decimal(amount_raw)
+            if not amount.is_finite() or amount < 0:
+                raise ValueError('점수 preview 금액은 유한한 0 이상의 원화여야 합니다')
             if amount < minimum:
                 receipt['state'] = 'deferred_lower_amount'
                 write_json(args.receipt,receipt)
@@ -360,6 +401,9 @@ def main(argv=None):
     except RuntimeError as exc:
         # SaveTax/market transports expose only sanitized errors.
         print(str(exc), file=sys.stderr)
+        return 2
+    except InvalidOperation:
+        print('원화 금액 형식이 잘못되었습니다', file=sys.stderr)
         return 2
     except (ValueError, OSError) as exc:
         print(str(exc), file=sys.stderr)
