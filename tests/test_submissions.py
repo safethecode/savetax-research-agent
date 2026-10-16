@@ -84,6 +84,22 @@ class ScoreTests(unittest.TestCase):
                     client.submit(build_submission(self.item,self.offer,self.event),'research-key-123',preview)
         post.assert_not_called()
 
+    def test_long_equivalent_differences_stay_in_claim_without_overflowing_scope(self):
+        differences = '차이점은 모두 별도로 기록했다. ' * 35
+        offer = {**self.offer,'comparison_kind':'equivalent','model':'XYZ',
+            'retail_model_verified':True,'comparison_reviewed':True,'procurement_model':'ABC',
+            'spec_mapping':[{'attribute':'전력','original':'40W','alternative':'40W'}],
+            'spec_source_urls':['https://maker.example/abc'],'differences':differences,
+            'comparison_scope':'제품 본체의 가격 비교다. ' * 35}
+        body = build_submission(self.item,offer,self.event)
+        self.assertLessEqual(len(body['comparison_scope']),1000)
+        self.assertIn(differences,body['claim'])
+        self.assertIn('XYZ',body['comparison_scope'])
+        for extra in ({'comparison_scope':'가'*1001},{'differences':'나'*2001}):
+            with self.subTest(extra=next(iter(extra))):
+                with self.assertRaises(ValueError):
+                    build_submission(self.item,{**offer,**extra},self.event)
+
     def test_score_http_destination_and_idempotency_are_fixed(self):
         raw = SaveTaxClient(token='savetax_'+'x'*32)
         response = Mock(status_code=201,headers={})

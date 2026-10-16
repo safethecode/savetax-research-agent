@@ -97,13 +97,22 @@ def build_submission(item, offer, event):
     if equivalent:
         body['title'] = f'{model} → {retail_model} 대체품 {price}원 비교'[:200]
         body['claim'] = f'조달 {model}과 실제 판매 {retail_model}의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. {offer["differences"]}'
-        body['comparison_scope'] = (offer.get('comparison_scope','핵심사양 대체품의 제품 취득가격 비교')
-            + f' 원품 {model}, 대체품 {retail_model}. 차이·제한: {offer["differences"]}')
+        scope = offer.get('comparison_scope','핵심사양 대체품의 제품 취득가격 비교')
+        identity = f' 원품 {model}, 대체품 {retail_model}.'
+        detailed = scope + identity + f' 차이·제한: {offer["differences"]}'
+        # 차이를 자르지 않는다. 긴 설명은 claim에 온전히 보존하고 짧은 범위와 분리한다.
+        body['comparison_scope'] = (detailed if len(detailed) <= 1000
+            else scope + identity + ' 세부 차이·제한은 주장과 재현 방법에 기재했다.')
         body['reproduction_notes'] += (' 사양 대응: '
             + '; '.join(f'{r["attribute"]}: {r["original"]} → {r["alternative"]}' for r in mapping)
             + '. 사양 출처: ' + ' '.join(sources))
         for line in lines:
             line['price_evidence'][0]['note'] += f' 실제 판매모델 {retail_model}; 원품 {model}과 다른 대체품 비교.'
+    for field, limit in (('title',200),('claim',2000),('comparison_scope',1000),('reproduction_notes',4000)):
+        if not isinstance(body[field],str) or not body[field].strip() or len(body[field]) > limit:
+            raise ValueError(f'{field}는 비어 있지 않은 {limit}자 이하 문자열이어야 합니다. 근거를 자르지 말고 요약·분리하세요')
+    if any(len(e['note']) > 500 for line in lines for e in line['price_evidence']):
+        raise ValueError('가격 근거 note는 500자 이하로 요약해야 합니다')
     if len(json.dumps(body,ensure_ascii=False).encode()) > 1048576:
         raise ValueError('점수 본문 1MiB 초과; 명시적 fact 범위 분리가 필요합니다')
     return body
