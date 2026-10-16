@@ -28435,5 +28435,36 @@
         "jev": "not_run: 소매 후보 페이지 없음"
       }
     ]
+  },
+  "round10_low_ratio_pipe_lining": {
+    "observed_kst": "2026-10-17 04:00~04:20",
+    "ready": 0,
+    "verdicts": [
+      {
+        "item": "22839940/22839939/22839937/22839941/22839942 수도용덕타일주철관 KS D 4311 2종 KP메커니컬·에폭시 Φ80~300×6m",
+        "verdict": "blocked_no_public_retail_price",
+        "detail": "Parallel 5회: 제조사(한국주철관 kcip.co.kr)는 사양만 공개. 공개 단가 자료(블로그 상수도공 자재 단가 2023.03, Φ80 177,820원)는 조달·공사 단가 출처라 사용 불가. 한주철관이 배관 800종 가격 공개 쇼핑몰을 운영한다는 2021년 기사는 있으나 현재 쇼핑몰 주소를 찾지 못함(도메인 추정 접속 실패). 배관 쇼핑몰 원캔몰 검색 \"덕타일\" 0건. 조달 인도조건은 기타사항참조/공사현장하차도로 운임 포함 가능성이 커서, 공개가가 있어도 현장 운임을 맞춰야 함. 필요 시중가: Φ150 ≤277,558, Φ200 ≤367,416, Φ300 ≤604,555, Φ100 ≤173,324, Φ80 ≤141,887원/본",
+        "jev": {
+          "url": "https://1canmall.com/product/search.html?keyword=%EB%8D%95%ED%83%80%EC%9D%BC",
+          "operation": "CLICK",
+          "confidence": 0.41,
+          "latency_ms": 247,
+          "file": "work/hardware-goal1000/jev/22839940-1canmall.json",
+          "page_result": "총 0개"
+        }
+      },
+      {
+        "item": "22840286 덕타일주철 이형관 BPF Φ80~600 (3,630원/kg)",
+        "verdict": "blocked_no_public_retail_price",
+        "detail": "kg 단가 이형관 공개 소매가 없음, 필요 ≤3,025원/kg",
+        "jev": "not_run: 소매 후보 페이지 없음"
+      },
+      {
+        "item": "25311066 문창 MCLD-1 물탱크 라이닝패널 STS329LD 1.5mm",
+        "verdict": "blocked_installed_price",
+        "detail": "조달 단가가 현장설치도 조건(269,003원/㎡). 제조사 moonwt.com 원문에 가격 없음. 자재만의 소매가와 설치 포함 단가를 같은 조건으로 비교할 수 없고, 설치비를 더한 공개 총액 근거도 없음",
+        "jev": "not_run: 가격 페이지 없음"
+      }
+    ]
   }
 }
