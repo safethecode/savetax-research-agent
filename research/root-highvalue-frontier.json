@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-10-16T07:47:03.247840+00:00",
+  "observed_at": "2026-10-16T08:28:24.573612+00:00",
   "purpose": "root가 맡은 새 고액・대량 품목과 미검증 후보의 중복 조사 방지 기록",
   "batch_basis": "owner_slot0・실제 로컬 납품집계 총액순. 로컬 값은 후보발굴용이고 점수는 공식fact만 쓴다.",
   "batches": [
@@ -37763,6 +37763,541 @@
           "basis_id": "basis:㎡:vat_included"
         }
       ]
+    },
+    {
+      "item_id": "25045342",
+      "snapshot": {
+        "name": "태양광발전장치, 스마트파워, SP-PV-TCS-S-050, 50kW, 계통연계형/고정형",
+        "model": "SP-PV-TCS-S-050",
+        "manufacturer": "주식회사 스마트파워",
+        "category": "태양광발전장치",
+        "listings": [
+          {
+            "listing_id": "002370018_1140000070",
+            "vendor": "주식회사 스마트파워",
+            "unit_price_krw": "142500000"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-12T18:19:28.135Z",
+        "facts_total": 8,
+        "facts_truncated": false
+      },
+      "fact_count": 8,
+      "quantity": "12",
+      "comparable_amount_krw": "1710000000",
+      "decision": "SP-PV-TCS-S-050은 50kW 태양광발전장치다. 원품에는 모듈·접속함·인버터·지지대·스트링 옵티마이저가 포함되므로 모듈 한 장 가격을 완성 설비 단가로 적용하지 않았다. 국내 완성 패키지 실제 판매가 탐색을 이어가며 아직 비교 단가를 정하지 않았다.",
+      "benchmark_unit_price_krw": null,
+      "submitted": false,
+      "references": [
+        {
+          "fact_id": "dl:25045342:002370018_1:R25TB01298833:3",
+          "contract_no": "002370018_1",
+          "request_no": "R25TB01298833",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "142500000",
+          "unit": "조",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:조:vat_included"
+        },
+        {
+          "fact_id": "dl:25045342:002370018_1:R25TB01314948:4",
+          "contract_no": "002370018_1",
+          "request_no": "R25TB01314948",
+          "line_no": "4",
+          "quantity": "3",
+          "comparable_amount_krw": "427500000",
+          "unit": "조",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:조:vat_included"
+        },
+        {
+          "fact_id": "dl:25045342:002370018_1:R25TB01380683:4",
+          "contract_no": "002370018_1",
+          "request_no": "R25TB01380683",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "142500000",
+          "unit": "조",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:조:vat_included"
+        },
+        {
+          "fact_id": "dl:25045342:002370018_1:R26TB01812882:4",
+          "contract_no": "002370018_1",
+          "request_no": "R26TB01812882",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "142500000",
+          "unit": "조",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:조:vat_included"
+        },
+        {
+          "fact_id": "dl:25045342:002370018_1:R26TB02048090:2",
+          "contract_no": "002370018_1",
+          "request_no": "R26TB02048090",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "142500000",
+          "unit": "조",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:조:vat_included"
+        },
+        {
+          "fact_id": "dl:25045342:002370018_1:R26TB02049381:1",
+          "contract_no": "002370018_1",
+          "request_no": "R26TB02049381",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "285000000",
+          "unit": "조",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:조:vat_included"
+        },
+        {
+          "fact_id": "dl:25045342:002370018_1:R26TB02221330:2",
+          "contract_no": "002370018_1",
+          "request_no": "R26TB02221330",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "142500000",
+          "unit": "조",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:조:vat_included"
+        },
+        {
+          "fact_id": "dl:25045342:002370018_1:R26TB02258439:5",
+          "contract_no": "002370018_1",
+          "request_no": "R26TB02258439",
+          "line_no": "5",
+          "quantity": "2",
+          "comparable_amount_krw": "285000000",
+          "unit": "조",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:조:vat_included"
+        }
+      ]
+    },
+    {
+      "item_id": "25045341",
+      "snapshot": {
+        "name": "태양광발전장치, 스마트파워, SP-PV-TCS-S-100, 100kW, 계통연계형/고정형",
+        "model": "SP-PV-TCS-S-100",
+        "manufacturer": "주식회사 스마트파워",
+        "category": "태양광발전장치",
+        "listings": [
+          {
+            "listing_id": "002370018_1140000071",
+            "vendor": "주식회사 스마트파워",
+            "unit_price_krw": "285000000"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-12T18:21:15.360Z",
+        "facts_total": 5,
+        "facts_truncated": false
+      },
+      "fact_count": 5,
+      "quantity": "5",
+      "comparable_amount_krw": "1425000000",
+      "decision": "SP-PV-TCS-S-100은 100kW 태양광발전장치다. 50kW와 별도 모델로 분리했다. 태양광 대출·수익 계산기·상담 문구를 실제 완성 설비 판매가로 채택하지 않았다.",
+      "benchmark_unit_price_krw": null,
+      "submitted": false,
+      "references": [
+        {
+          "fact_id": "dl:25045341:002370018_1:R25TB01071090:2",
+          "contract_no": "002370018_1",
+          "request_no": "R25TB01071090",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "285000000",
+          "unit": "조",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:조:vat_included"
+        },
+        {
+          "fact_id": "dl:25045341:002370018_1:R25TB01298833:4",
+          "contract_no": "002370018_1",
+          "request_no": "R25TB01298833",
+          "line_no": "4",
+          "quantity": "1",
+          "comparable_amount_krw": "285000000",
+          "unit": "조",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:조:vat_included"
+        },
+        {
+          "fact_id": "dl:25045341:002370018_1:R25TB01314948:5",
+          "contract_no": "002370018_1",
+          "request_no": "R25TB01314948",
+          "line_no": "5",
+          "quantity": "1",
+          "comparable_amount_krw": "285000000",
+          "unit": "조",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:조:vat_included"
+        },
+        {
+          "fact_id": "dl:25045341:002370018_1:R26TB01449105:3",
+          "contract_no": "002370018_1",
+          "request_no": "R26TB01449105",
+          "line_no": "3",
+          "quantity": "1",
+          "comparable_amount_krw": "285000000",
+          "unit": "조",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:조:vat_included"
+        },
+        {
+          "fact_id": "dl:25045341:002370018_1:R26TB02041280:2",
+          "contract_no": "002370018_1",
+          "request_no": "R26TB02041280",
+          "line_no": "2",
+          "quantity": "1",
+          "comparable_amount_krw": "285000000",
+          "unit": "조",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:조:vat_included"
+        }
+      ]
+    },
+    {
+      "item_id": "24838799",
+      "snapshot": {
+        "name": "금속제패널, 주성, J-ALF-4T, 금속복합, KSF4737, 불소수지, 4mm, 평판",
+        "model": "J-ALF-4T",
+        "manufacturer": "주식회사 주성",
+        "category": "금속제패널",
+        "listings": [
+          {
+            "listing_id": "002160298_1100000007",
+            "vendor": "주식회사 주성",
+            "unit_price_krw": "82900"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-12T15:17:51.683Z",
+        "facts_total": 28,
+        "facts_truncated": false
+      },
+      "fact_count": 28,
+      "quantity": "35882",
+      "comparable_amount_krw": "2543874348",
+      "decision": "J-ALF-4T 알루미늄 금속복합 외벽 평판이다. 명칭의4T와 원시 속성의30mm가 달라 규격서를 더 확인해야 한다. 비드앤비 실제 판매표는 기본폭1020mm에㎡당41,140원이며 폭1250mm는8,350원이 추가된다. 원품1200mm 폭에 기본가를 그대로 적용하지 않았다. VAT와 실제 차량 운임은 미확정이어서 비교 단가와 절감액을 확정하지 않았다.",
+      "benchmark_unit_price_krw": null,
+      "submitted": false,
+      "references": [
+        {
+          "fact_id": "dl:24838799:002160298_1:R25TB00521305:1",
+          "contract_no": "002160298_1",
+          "request_no": "R25TB00521305",
+          "line_no": "1",
+          "quantity": "867",
+          "comparable_amount_krw": "63291000",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R25TB00787751:1",
+          "contract_no": "002160298_1",
+          "request_no": "R25TB00787751",
+          "line_no": "1",
+          "quantity": "761",
+          "comparable_amount_krw": "55553000",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R25TB00813249:1",
+          "contract_no": "002160298_1",
+          "request_no": "R25TB00813249",
+          "line_no": "1",
+          "quantity": "1421",
+          "comparable_amount_krw": "103733000",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R25TB00819380:1",
+          "contract_no": "002160298_1",
+          "request_no": "R25TB00819380",
+          "line_no": "1",
+          "quantity": "1205",
+          "comparable_amount_krw": "87965000",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R25TB00841969:1",
+          "contract_no": "002160298_1",
+          "request_no": "R25TB00841969",
+          "line_no": "1",
+          "quantity": "3733",
+          "comparable_amount_krw": "257912970",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R25TB00849783:1",
+          "contract_no": "002160298_1",
+          "request_no": "R25TB00849783",
+          "line_no": "1",
+          "quantity": "2268",
+          "comparable_amount_krw": "156774528",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R25TB00903923:1",
+          "contract_no": "002160298_1",
+          "request_no": "R25TB00903923",
+          "line_no": "1",
+          "quantity": "1807",
+          "comparable_amount_krw": "124881770",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R25TB01036460:1",
+          "contract_no": "002160298_1",
+          "request_no": "R25TB01036460",
+          "line_no": "1",
+          "quantity": "993",
+          "comparable_amount_krw": "72489000",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R25TB01134173:1",
+          "contract_no": "002160298_1",
+          "request_no": "R25TB01134173",
+          "line_no": "1",
+          "quantity": "281",
+          "comparable_amount_krw": "20513000",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R25TB01150663:1",
+          "contract_no": "002160298_1",
+          "request_no": "R25TB01150663",
+          "line_no": "1",
+          "quantity": "87",
+          "comparable_amount_krw": "6351000",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R25TB01222796:1",
+          "contract_no": "002160298_1",
+          "request_no": "R25TB01222796",
+          "line_no": "1",
+          "quantity": "1812",
+          "comparable_amount_krw": "125227320",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R25TB01305673:1",
+          "contract_no": "002160298_1",
+          "request_no": "R25TB01305673",
+          "line_no": "1",
+          "quantity": "215",
+          "comparable_amount_krw": "15695000",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R25TB01312181:1",
+          "contract_no": "002160298_1",
+          "request_no": "R25TB01312181",
+          "line_no": "1",
+          "quantity": "382",
+          "comparable_amount_krw": "27886000",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R25TB01373400:1",
+          "contract_no": "002160298_1",
+          "request_no": "R25TB01373400",
+          "line_no": "1",
+          "quantity": "1449",
+          "comparable_amount_krw": "100140390",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R26TB01469688:1",
+          "contract_no": "002160298_1",
+          "request_no": "R26TB01469688",
+          "line_no": "1",
+          "quantity": "1173",
+          "comparable_amount_krw": "85629000",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R26TB01662589:1",
+          "contract_no": "002160298_1",
+          "request_no": "R26TB01662589",
+          "line_no": "1",
+          "quantity": "42",
+          "comparable_amount_krw": "3066000",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R26TB01719527:1",
+          "contract_no": "002160298_1",
+          "request_no": "R26TB01719527",
+          "line_no": "1",
+          "quantity": "580",
+          "comparable_amount_krw": "42340000",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R26TB01820222:1",
+          "contract_no": "002160298_1",
+          "request_no": "R26TB01820222",
+          "line_no": "1",
+          "quantity": "3922",
+          "comparable_amount_krw": "271245520",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R26TB01881638:1",
+          "contract_no": "002160298_1",
+          "request_no": "R26TB01881638",
+          "line_no": "1",
+          "quantity": "62",
+          "comparable_amount_krw": "4526000",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R26TB01889590:1",
+          "contract_no": "002160298_1",
+          "request_no": "R26TB01889590",
+          "line_no": "1",
+          "quantity": "601",
+          "comparable_amount_krw": "43873000",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R26TB01919285:1",
+          "contract_no": "002160298_1",
+          "request_no": "R26TB01919285",
+          "line_no": "1",
+          "quantity": "3898",
+          "comparable_amount_krw": "273327760",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R26TB01938436:1",
+          "contract_no": "002160298_1",
+          "request_no": "R26TB01938436",
+          "line_no": "1",
+          "quantity": "221",
+          "comparable_amount_krw": "16133000",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R26TB01984961:1",
+          "contract_no": "002160298_1",
+          "request_no": "R26TB01984961",
+          "line_no": "1",
+          "quantity": "932",
+          "comparable_amount_krw": "68036000",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R26TB02104217:1",
+          "contract_no": "002160298_1",
+          "request_no": "R26TB02104217",
+          "line_no": "1",
+          "quantity": "2309",
+          "comparable_amount_krw": "160891120",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R26TB02104220:1",
+          "contract_no": "002160298_1",
+          "request_no": "R26TB02104220",
+          "line_no": "1",
+          "quantity": "2419",
+          "comparable_amount_krw": "168434970",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R26TB02117243:1",
+          "contract_no": "002160298_1",
+          "request_no": "R26TB02117243",
+          "line_no": "1",
+          "quantity": "816",
+          "comparable_amount_krw": "59568000",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R26TB02218497:1",
+          "contract_no": "002160298_1",
+          "request_no": "R26TB02218497",
+          "line_no": "1",
+          "quantity": "440",
+          "comparable_amount_krw": "36476000",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        },
+        {
+          "fact_id": "dl:24838799:002160298_1:R26TB02335607:1",
+          "contract_no": "002160298_1",
+          "request_no": "R26TB02335607",
+          "line_no": "1",
+          "quantity": "1186",
+          "comparable_amount_krw": "91915000",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included"
+        }
+      ]
     }
   ],
   "parallel": {
@@ -37784,8 +38319,8 @@
     ]
   },
   "lookup_count": 422,
-  "detailed_candidate_count": 29,
-  "preserved_reference_count": 3023,
+  "detailed_candidate_count": 32,
+  "preserved_reference_count": 3064,
   "additional_parallel": {
     "actual_search_calls": 16,
     "artifacts": [
@@ -37808,6 +38343,16 @@
         "artifact": "work/highvalue-root/parallel-fg-newer.json",
         "actual_search_calls": 4
       }
+    ],
+    "solar_and_pvdf": [
+      {
+        "artifact": "work/highvalue-root/parallel-solar-systems.json",
+        "actual_search_calls": 2
+      },
+      {
+        "artifact": "work/highvalue-root/parallel-pvdf-panels.json",
+        "actual_search_calls": 3
+      }
     ]
   },
   "retail_source_checks": [
@@ -37826,6 +38371,21 @@
     {
       "url": "https://dy6313069.cafe24.com/web/upload/NNEditor/20260626/45929a292eed110d375b7bb09e2503d0.jpg",
       "finding": "HTTP200 image/jpeg 원문을 읽어165mm 깊이·알루미늄 몸통/캡·PVC단열재를 확인했다. 가격이나 가공·도장 범위를 이미지에서 추정하지 않았다."
+    }
+  ],
+  "actual_retail_observations": [
+    {
+      "source_url": "https://bidnbee.com/shop/1740732556",
+      "seller": "비드앤비",
+      "method": "공개 판매 상세 직접 열람",
+      "displayed_unit": "㎡",
+      "base_width_mm": "1020",
+      "base_price_krw": "41140",
+      "width_1250_additional_krw": "8350",
+      "vat_included": null,
+      "shipping_included": false,
+      "shipping_note": "착불/지역·차량별 별도",
+      "use": "발견한 판매 가격과 옵션만 보존. 완제품 동등성·규격·세금·운임을 맞추지 못해 점수 단가로 채택하지 않음."
     }
   ]
 }
