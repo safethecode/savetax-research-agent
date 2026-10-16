@@ -1,0 +1,54 @@
+{
+  "submission": {
+    "submission_id": "c5bdb0a0-1fd6-439a-9e1c-57432636f379",
+    "claim_id": "04cdf461-0894-4b1e-892d-1a49b14d9b4a",
+    "revision": 1,
+    "submission_state": "accepted",
+    "admitted_at": "2026-10-16T05:23:02.998Z",
+    "amount_krw": 587250000,
+    "verification_status": "not_started",
+    "lint_status": "pending",
+    "event_epoch": 1,
+    "ruleset_version": "rules-v1",
+    "public_path": "/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/c5bdb0a0-1fd6-439a-9e1c-57432636f379",
+    "api_path": "/v1/events/8ac918b1-94cd-4d7d-a85d-46f86bf96b87/submissions/c5bdb0a0-1fd6-439a-9e1c-57432636f379",
+    "web_path": "#/submission/c5bdb0a0-1fd6-439a-9e1c-57432636f379"
+  },
+  "body": {
+    "dataset_release_id": "release-live-20261012",
+    "ruleset_version": "rules-v1",
+    "canonical_product_id": "24322082",
+    "title": "NN-EMPC01 차량 취득가격과 EV6 편의 옵션 포함 4,775만 원 비교",
+    "claim": "공식 납품 사실의 261대·130억 5,000만 원을 기준으로, 기아 EV6 편의 옵션 포함 차량 취득가격과 비교했다. 대당 차액 225만 원, 합계 5억 8,725만 원이다. 원품은 아이오닉5 익스클루시브 기반 순찰차이고 대체품은 일반 신차다. 경광등·사이렌·군경 도장은 원품 규격서와 나라장터에서 별도 선택품목으로 확인했으나, 제작검사·경찰청 순찰차 사양 적합이나 추가 개조 비용은 검증하지 않았다. EV6 외형은 4695×1880×1550mm로 원품 4635×1890×1605mm와 다르고 축간거리는 100mm 짧다. 특장 설치 공간·추격·적재 성능의 동등성은 미확인이다. 원품 G2B의 연식 2022·523V/111.2Ah·336km·160ps와 갱신 규격서의 63kWh·124.9kW가 혼재해 같은 배터리라고 확정하지 않는다. EV6는 62.9kWh·125kW/350Nm·공시 395km다. 선택한 편의 옵션은 포함했지만 실외 V2L·동승석 통풍·1열 및 2열 이중접합 유리·2열 슬라이딩 등은 대응하지 않는다.",
+    "comparison_scope": "나눔컴퍼니 NN-EMPC01과 기아 EV6의 공장 인수 시 차량 취득가격을 비교한다. 원품 1대 5,000만 원에 대해 EV6 라이트 스탠다드 2WD에 흰색·컨비니언스 I·II·스마트 파워테일게이트를 더한 VAT 포함 4,775만 원을 적용했다. 5인승 전기 SUV·후륜·출력과 토크 및 주요 편의 기능의 대체 범위다. 일반 EV6가 순찰 특장 완성차를 바로 대체한다는 주장은 아니다. 별도 장비·검사·개조와 탁송·등록·취득세·보험은 이번 비교에 포함하지 않았다. 차이와 미대응 기능은 주장에 기재했다. 원품 NN-EMPC01, 대체품 The 2027 EV6 라이트 스탠다드 2WD. 차이·제한: 원품은 아이오닉5 익스클루시브 기반 순찰차이고 대체품은 일반 신차다. 경광등·사이렌·군경 도장은 원품 규격서와 나라장터에서 별도 선택품목으로 확인했으나, 제작검사·경찰청 순찰차 사양 적합이나 추가 개조 비용은 검증하지 않았다. EV6 외형은 4695×1880×1550mm로 원품 4635×1890×1605mm와 다르고 축간거리는 100mm 짧다. 특장 설치 공간·추격·적재 성능의 동등성은 미확인이다. 원품 G2B의 연식 2022·523V/111.2Ah·336km·160ps와 갱신 규격서의 63kWh·124.9kW가 혼재해 같은 배터리라고 확정하지 않는다. EV6는 62.9kWh·125kW/350Nm·공시 395km다. 선택한 편의 옵션은 포함했지만 실외 V2L·동승석 통풍·1열 및 2열 이중접합 유리·2열 슬라이딩 등은 대응하지 않는다.",
+    "reproduction_notes": "공식 fact별 floor(max(C-B×Q,0))를 합산. 각 라인 근거에 계약·납품요구·라인 번호를 기재. 가격 시점 차이는 사용자 지정 대회 조사 기준에서 제외한다. 사양 대응: 제조사·모델: 나눔컴퍼니 NN-EMPC01, 아이오닉5 익스클루시브 기반 → 기아 The 2027 EV6 라이트 스탠다드 2WD; 용도·구성 범위: 순찰차. HWP에는 기본 특장 장착 항목이 없고 경광등·사이렌·도장은 별도 패키지옵션 문서로 분리 → 일반 신차 차체. 별도 순찰 장비는 포함하지 않음; 승차 인원: HWP §4.1.1 5인승 → EV6 5인승; 구동·연료: 후륜, 전기, HWP Standard 2WD → 후륜 기반 전기 2WD; 배터리: G2B 연식2022,523V/111.2Ah,SK온 리튬이온폴리머. HWP의63kWh 표와 혼재 → 한국 공식 제원62.9kWh, 가격표63.0kWh, SKON NCM 파우치; 전압: HWP §3.4 523V → 523V; 모터 출력: G2B 속성 최고출력/엔진회전속도160/4400ps/rpm. HWP Standard124.9kW 표와 상이 → 125kW/170ps; 토크: HWP §3.4 350Nm → 350Nm; 전장·전폭·전고: HWP §4.1.1 4635×1890×1605mm → 4695×1880×1550mm; 축간거리: HWP §4.1.1 3000mm → 2900mm; 차량중량: HWP §4.1.1 1950kg, 옵션 선택 시 변경 → 한국 19인치 Standard 2WD 제원1885kg; 공인 주행거리: G2B 필드 1회충전시주행거리336km → 한국 공식 Standard 2WD 19인치 복합395km; 색상: HWP 형상 이미지 흰색, 색상코드 미공개 → 스노우 화이트 펄(SWP), 80000원 추가; 기본 안전·주행 보조: HWP는 익스클루시브 일반 사양 준용. 연식별 세부 품목은 다름 → 10에어백, 전후방 주차경고, 전방충돌방지, 차로 유지, 스마트크루즈, HDA, 히트펌프 기본; 기본 편의 기능 차이: 현대 공식2022/2025 익스클루시브 표에는 전동·열선·통풍 시트, 열선 핸들, ECM/하이패스/레인센서, 파워테일게이트 등 → EV6 라이트 기본은 해당 일부 기능 미포함. 실제 옵션 I50만/II90만/테일게이트40만으로 일부 보완 가능; 미대응 기능: 익스클루시브 실외V2L, 1열 동승석 통풍, 1·2열 이중접합 유리, 2열 슬라이딩 등은 연식에 따라 제공 → 라이트 기본 및 선택 I·II·테일게이트만으로 모두 제공되지 않음; 가격·인도 기준: 1 fact Q261/C13050000000원, 50000000원/대, VAT포함, 생산공장도 → 세제혜택 전 공식가격에 흰색 및 명시 선택옵션을 합산, VAT포함, 본인출고. 사양 출처: https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002150669_1140000001 https://www.kia.com/kr/vehicles/ev6/price https://www.kia.com/content/dam/kwp/kr/ko/vehicles/pdf/price/price_ev6.pdf https://www.kia.com/kr/vehicles/ev6/specification https://www.kia.com/kr/customer-service/purchase-guide/tax https://www.kia.com/kr/customer-service/purchase-guide/delivery https://www.hyundai.com/contents/repn-car/catalog/ioniq5-price.pdf https://www.hyundai.com/contents/repn-car/catalog/ioniq-5-2025-price.pdf",
+    "lines": [
+      {
+        "fact_id": "dl:24322082:002150669_1:R25TB01387647:1",
+        "benchmark_unit_price_krw": "47750000",
+        "comparison_basis_id": "basis:대:vat_included",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "period": null,
+        "price_evidence": [
+          {
+            "kind": "price_page",
+            "source_url": "https://www.kia.com/kr/vehicles/ev6/price",
+            "quote": "기아 공식 EV6 가격표의 세제혜택 전 가격과 선택품목을 확인했다. 라이트 스탠다드 45,870,000원 + 스노우 화이트 펄 80,000원 + 컨비니언스 I 500,000원 + 컨비니언스 II 900,000원 + 스마트 파워테일게이트 400,000원 = 47,750,000원/대. VAT는 판매가에 포함되며 출하사무소 직접 인수가 가능하다. 보조금·세제혜택 후 가격·쿠폰은 차감하지 않았다. 공식 가격표와 구매 가이드에서 확인한 내용을 합산한 금액이다.",
+            "observed_price_krw": "47750000",
+            "observed_at": "2026-10-16",
+            "vat_included": true,
+            "shipping_included": false,
+            "note": "표시가 47750000원/1개 구성. 공식 비교 단위 1대당 47750000원으로 비교. 실제 판매모델 The 2027 EV6 라이트 스탠다드 2WD; 원품 NN-EMPC01과 다른 대체품 비교."
+          }
+        ],
+        "fulfillment_evidence": [
+          {
+            "kind": "text",
+            "text": "계약 002150669_1, 납품요구 R25TB01387647, 라인 1. 공식 fact dl:24322082:002150669_1:R25TB01387647:1, 수량 261, 비교금액 13050000000원."
+          }
+        ]
+      }
+    ]
+  }
+}
