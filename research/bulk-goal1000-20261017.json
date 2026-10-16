@@ -3958,6 +3958,19 @@
     "ready": false,
     "adopted_B": null,
     "adopted_savings_krw": null,
-    "next_evidence": "실제 판매 구성에 적용되는 항균·고강도·난연 시험과 포장별 운임을 보완하거나, 같은 경향산업 KAIFLEX 점착 시트의 독립 판매가를 확보한다. 특허 실시예나 2025 신형 HIFLEX FRMB 규격을 구형 판매 구성에 전용하지 않는다."
+    "next_evidence": "실제 판매 구성에 적용되는 항균·고강도·난연 시험과 포장별 운임을 보완하거나, 같은 경향산업 KAIFLEX 점착 시트의 독립 판매가를 확보한다. 특허 실시예나 2025 신형 HIFLEX FRMB 규격을 구형 판매 구성에 전용하지 않는다.",
+    "installation_price_finding_20261017": {
+      "deliveries_api": "https://api.savetax.now/v1/listings/002270417_1110000479/deliveries",
+      "listing_0479": {
+        "terms": "납품장소도",
+        "current_price": "16400"
+      },
+      "listing_1002": {
+        "terms": "현장설치도",
+        "current_price": "55690"
+      },
+      "finding": "두 등재가 같은 계약 납품 행을 공유하고 최종 51행 계약 단가가 현장설치도 단가와 같다. 자재 판매가 비교는 설치비 차이가 빠지므로 채택하지 않는다.",
+      "ready": false
+    }
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "owner": "industrial_scores",
-  "observed_at": "2026-10-16T17:12:11.126516+00:00",
+  "observed_at": "2026-10-17",
   "user_target_krw": "100000000000",
   "user_reported_current_krw": "11000000000",
   "user_reported_chances": 50,
@@ -11898,5 +11898,173 @@
       "24603207": "available"
     },
     "bulk_handoff": "bulk가 SYS-ACP-4F·GL-AP2000·4C600S를 직접 다루지 않았음을 확인했다. SER-AL-I의 절곡 카세트·브라켓·리벳 및 SJ-CP04 전용 프레임·레일 결과를 반영해 평판만의 가격표를 반복하지 않는다."
+  },
+  "afternoon_combined_sweep_20261017": {
+    "scope": "bulk+industrial 통합. IT·소프트웨어·연료·철근·레미콘 제외, 로컬 납품금액 15억 원 이상",
+    "lookup": {
+      "pool": 727,
+      "available": 515,
+      "claimed": 185,
+      "on_hold": 21,
+      "claimed_by_me": 3,
+      "reform_found": 3,
+      "files": [
+        "work/industrial-goal1000/sweep/pool-lookup.json",
+        "work/industrial-goal1000/sweep/brand-lookup.json"
+      ]
+    },
+    "ready_count": 0,
+    "preview_count": 0,
+    "submitted_count": 0,
+    "adopted_saving_krw": "0",
+    "parallel_calls": 16,
+    "tasman_26093067": {
+      "state_at_packet_time": "claimed",
+      "official_C_krw": "16594600000",
+      "official_Q": "397",
+      "facts": 105,
+      "unique_requests": 14,
+      "procurement_delivery_terms": "생산공장도(상차제외) — 규격서_화물트럭_26MY.xlsx",
+      "retail_sources": [
+        "https://www.kia.com/kr/vehicles/tasman/price",
+        "https://auto.danawa.com/auto/?Work=model&Model=4686&Tab=price",
+        "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/pdf/price/price_tasman.pdf"
+      ],
+      "retail_price_krw": "37650000",
+      "retail_config": "2027 다이내믹 + 전자식 4WD (35,000,000 + 2,650,000)",
+      "price_pdf_sha256": "fc24383959c69be590598d441e6e11f3b98bb66123f228215d56ac7c912d14cd",
+      "arithmetic_saving_krw": "1647550000",
+      "adopted": false,
+      "risks": [
+        "디젤 2.2 210ps 대 가솔린 2.5T 281ps",
+        "토크 441Nm(원시 API) 대 43.0kgf·m",
+        "복합연비 9.8 대 8.1km/L",
+        "군 연료 체계 차이"
+      ],
+      "local_files": [
+        "work/industrial-goal1000/tasman/"
+      ]
+    },
+    "vehicles_procurement_below_retail": [
+      {
+        "item_id": "26271992",
+        "procurement": "64780000",
+        "retail": "67130000",
+        "retail_source": "https://auto.danawa.com/auto/?Work=model&Model=4804&Tab=price"
+      },
+      {
+        "item_id": "26272005",
+        "procurement": "95860000",
+        "retail": "99340000",
+        "retail_source": "https://auto.danawa.com/auto/?Work=model&Model=4805&Tab=price"
+      },
+      {
+        "item_id": "25888739",
+        "procurement": "68550000",
+        "retail": "71040000",
+        "retail_source": "https://auto.danawa.com/auto/?Work=model&Model=3297&Tab=price"
+      },
+      {
+        "item_id": "26082630",
+        "procurement": "38550000",
+        "retail": "39990000",
+        "retail_source": "https://auto.danawa.com/auto/?Work=model&Model=4765&Tab=price"
+      },
+      {
+        "item_id": "26025574",
+        "procurement": "24250000",
+        "retail": "25130000",
+        "retail_source": "https://auto.danawa.com/auto/?Work=model&Model=1901&Tab=price"
+      },
+      {
+        "item_id": "26187743",
+        "procurement": "27875934",
+        "retail": "30270000(세제혜택 전)",
+        "retail_source": "https://auto.danawa.com/auto/?Work=model&Model=4775&Tab=price"
+      },
+      {
+        "item_id": "25818851",
+        "procurement": "43720000",
+        "retail": "48990000(세제혜택 전)",
+        "retail_source": "https://auto.danawa.com/auto/?Work=model&Model=4510&Tab=price"
+      }
+    ],
+    "nbr_24449671_installation_finding": {
+      "listings": {
+        "002270417_1110000479": {
+          "terms": "납품장소도",
+          "price": "16400"
+        },
+        "002270417_1110001002": {
+          "terms": "현장설치도",
+          "price": "55690"
+        }
+      },
+      "deliveries_api": "https://api.savetax.now/v1/listings/002270417_1110000479/deliveries",
+      "finding": "두 등재가 같은 계약 납품 행을 공유하며 최종 51행의 contractUnitPrice가 현장설치도 단가 55,690원 등과 같다. 설치 포함 단가로 보고 자재 판매가 비교를 채택하지 않는다.",
+      "ready": false
+    },
+    "negatives": [
+      {
+        "item_id": "24125544",
+        "model": "SCF500",
+        "reason": "케이토목 500g 2m×50m 110,000원(VAT 별도) 기준 차액 상한 약 5억 원. 장섬유·운임 미확인",
+        "queue": true
+      },
+      {
+        "item_id": "24125542",
+        "model": "SCF350",
+        "reason": "차액 10억 원 미달"
+      },
+      {
+        "item_id": "24998491",
+        "model": "DV20CB8600BW",
+        "reason": "다나와 최저 1,148,000원 > 조달 927,947원"
+      },
+      {
+        "item_id": "25740336",
+        "model": "HiS-T500NR-ES",
+        "reason": "sunscostore 167,500원 > 조달 160,050원"
+      },
+      {
+        "item_ids": [
+          "24346733",
+          "24187150"
+        ],
+        "reason": "친환경 제설제 1톤 공개가 585,000원·1,070,000원 > 조달 약 43만 원"
+      },
+      {
+        "item_id": "24072962",
+        "model": "솔키퍼 4L",
+        "reason": "농약 온라인 판매 제한, 공개 판매가 없음"
+      },
+      {
+        "item_id": "24902279",
+        "model": "KG-M500",
+        "reason": "35,000원/㎡ + 착불 10,000원으로 차액 소멸"
+      },
+      {
+        "item_ids": [
+          "22944239",
+          "25503290"
+        ],
+        "reason": "우수제품·현장설치도 스포츠 바닥재, 자재가 단순 비교 불가"
+      },
+      {
+        "item_id": "25299331",
+        "reason": "천장매립 UV-C 광촉매+인버터 제습 복합기, 대응 판매가 없음"
+      },
+      {
+        "item_id": "25817222",
+        "reason": "배관 20m 포함 노즐 설비"
+      },
+      {
+        "item_ids": [
+          "25010691",
+          "24357803"
+        ],
+        "reason": "공개 판매 15mm 계량기는 습식·R40 중심, R100 디지털 원품과 불일치(기존 결과 유지)"
+      }
+    ]
   }
 }
