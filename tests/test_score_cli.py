@@ -76,8 +76,13 @@ class ScoreCliTests(unittest.TestCase):
         self.assertEqual(self.events,[])
         self.assertEqual(self.receipt.read_bytes(),original)
 
+    def test_verified_small_amount_can_submit_by_default(self):
+        self.assertEqual(self.run_score(amount='1992000'),0)
+        self.assertEqual(self.saved()['state'],'submitted')
+        self.assertEqual([e[0] for e in self.events],['preview','lookup','submit'])
+
     def test_less_than_100m_is_deferred_without_submission(self):
-        self.assertEqual(self.run_score(amount='99999999'),0)
+        self.assertEqual(self.run_score(amount='99999999',extra=('--min-saving','100000000')),0)
         self.assertEqual(self.saved()['state'],'deferred_lower_amount')
         self.assertEqual(self.events,[('preview',None)])
 
@@ -87,10 +92,10 @@ class ScoreCliTests(unittest.TestCase):
         self.assertEqual(self.events,[('preview',None)])
 
     def test_deferred_rerun_keeps_same_key_without_submitting(self):
-        self.assertEqual(self.run_score(amount='99999999'),0)
+        self.assertEqual(self.run_score(amount='99999999',extra=('--min-saving','100000000')),0)
         key = self.saved()['idempotency_key']
         self.events.clear()
-        self.assertEqual(self.run_score(amount='99999999'),0)
+        self.assertEqual(self.run_score(amount='99999999',extra=('--min-saving','100000000')),0)
         self.assertEqual(self.saved()['state'],'deferred_lower_amount')
         self.assertEqual(self.saved()['idempotency_key'],key)
         self.assertEqual(self.events,[('preview',None)])

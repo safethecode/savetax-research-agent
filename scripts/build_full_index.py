@@ -25,14 +25,19 @@ def build_index(source, output):
                     count(*) listing_count
                 FROM listings WHERE item_id IS NOT NULL AND item_id <> '' GROUP BY item_id
             ), deliveries AS (
-                SELECT item_id, dlv_key, max(dlv_amount) amount, max(dlv_qty) quantity
+                SELECT item_id, dlv_key, max(dlv_amount) amount, max(dlv_qty) quantity, max(dlv_lines) delivery_lines
                 FROM listings WHERE dlv_key IS NOT NULL AND CAST(dlv_key AS VARCHAR) <> ''
                 GROUP BY item_id, dlv_key
             ), totals AS (
-                SELECT item_id, sum(amount) local_amount_krw, sum(quantity) local_quantity
+                SELECT item_id, sum(amount) local_amount_krw, sum(quantity) local_quantity,
+                    sum(delivery_lines) local_delivery_count, count(*) local_delivery_group_count
                 FROM deliveries GROUP BY item_id
             ), ranked AS (
-                SELECT p.*, t.local_amount_krw, t.local_quantity,
+                SELECT p.*, t.local_amount_krw, t.local_quantity, t.local_delivery_count, t.local_delivery_group_count,
+                    CASE WHEN t.local_quantity > 0 THEN t.local_amount_krw/t.local_quantity END local_unit_price_krw,
+                    row_number() OVER (ORDER BY t.local_amount_krw DESC NULLS LAST,
+                        t.local_delivery_count DESC NULLS LAST, t.local_quantity DESC NULLS LAST,
+                        p.max_list_price DESC NULLS LAST, p.item_id)-1 spend_priority_rank,
                     row_number() OVER (ORDER BY md5('삼손:20261010-r5:' || p.item_id),p.item_id)-1 md5_rank
                 FROM products p LEFT JOIN totals t USING (item_id)
             ) SELECT *, CAST(floor(md5_rank/500) AS BIGINT) md5_batch,

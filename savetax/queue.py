@@ -1,9 +1,9 @@
-"""검증된 신규 억 단위 물품을 우선하고 작은 절감은 한도 대기열에 둔다."""
+"""검증된 신규 물품을 예상 차액순으로 정렬하고 남은 한도 안에서 제출한다."""
 from copy import deepcopy
 from decimal import Decimal, InvalidOperation
 
 
-def prioritize(candidates, *, remaining=None, release_deferred=False, priority_min='100000000'):
+def prioritize(candidates, *, remaining=None, release_deferred=True, priority_min='100000000'):
     if remaining is not None and (type(remaining) is not int or remaining < 0):
         raise ValueError('remaining은 0 이상 정수 또는 무제한 null이어야 합니다')
     minimum = Decimal(priority_min)

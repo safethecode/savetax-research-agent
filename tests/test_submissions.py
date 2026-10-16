@@ -53,6 +53,29 @@ class ScoreTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 build_submission(item,offer,self.event)
 
+    def test_equivalent_comparison_preserves_real_retail_model_and_differences(self):
+        offer = {**self.offer,'comparison_kind':'equivalent','model':'XYZ',
+            'model_verified':False,'retail_model_verified':True,'comparison_reviewed':True,
+            'procurement_model':'ABC','spec_mapping':[{'attribute':'출력','original':'40W','alternative':'40W'}],
+            'spec_source_urls':['https://maker.example/abc','https://maker.example/xyz'],
+            'differences':'제조사·모델이 다르며 방수등급 IP67 대 IP66이다.'}
+        body = build_submission(self.item,offer,self.event)
+        self.assertIn('XYZ',body['title'])
+        self.assertIn('대체',body['claim'])
+        self.assertIn('IP67 대 IP66',body['comparison_scope'])
+        self.assertIn('https://maker.example/abc',body['reproduction_notes'])
+        self.assertNotIn('동일 모델·구성',body['claim'])
+        for key in ('comparison_reviewed','procurement_model','spec_mapping','spec_source_urls','differences'):
+            with self.subTest(key=key):
+                invalid = {**offer};invalid.pop(key)
+                with self.assertRaises(ValueError):
+                    build_submission(self.item,invalid,self.event)
+        for extra in ({'procurement_model':'OTHER'},{'comparison_kind':'unknown'},
+                      {'spec_mapping':[{}]},{'spec_source_urls':['http://maker.example/abc']}):
+            with self.subTest(extra=extra):
+                with self.assertRaises(ValueError):
+                    build_submission(self.item,{**offer,**extra},self.event)
+
     def test_submit_requires_successful_submit_preview(self):
         client = ScoreClient(SaveTaxClient(token='savetax_'+'x'*32))
         with patch('savetax.submissions.requests.post') as post:

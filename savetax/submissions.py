@@ -20,10 +20,30 @@ def canonical_model(value):
 def build_submission(item, offer, event):
     if item.get('availability',{}).get('state') != 'available':
         raise ValueError('미등록 available 물품만 신규 점수 대상입니다')
-    if offer.get('price_verified') is not True or offer.get('model_verified') is not True:
-        raise ValueError('실측 판매가와 실제 발송 모델 확인이 필요합니다')
+    kind = offer.get('comparison_kind','identical')
+    if kind not in ('identical','equivalent'):
+        raise ValueError('비교 유형은 identical 또는 equivalent여야 합니다')
+    equivalent = kind == 'equivalent'
+    model_check = 'retail_model_verified' if equivalent else 'model_verified'
+    if offer.get('price_verified') is not True or offer.get(model_check) is not True:
+        raise ValueError('실측 판매가와 실제 판매 모델 확인이 필요합니다')
     model = canonical_model(item.get('snapshot',{}).get('model',''))
-    if not model or canonical_model(offer.get('model','')) != model:
+    retail_model = canonical_model(offer.get('model',''))
+    if not model or not retail_model:
+        raise ValueError('조달 모델과 실제 판매 모델이 필요합니다')
+    if equivalent:
+        mapping = offer.get('spec_mapping')
+        sources = offer.get('spec_source_urls')
+        if (offer.get('comparison_reviewed') is not True
+                or canonical_model(offer.get('procurement_model','')) != model
+                or not isinstance(mapping,list) or not 1 <= len(mapping) <= 30
+                or any(not isinstance(row,dict) or any(not isinstance(row.get(k),str)
+                    or not row[k].strip() for k in ('attribute','original','alternative')) for row in mapping)
+                or not isinstance(sources,list) or not 1 <= len(sources) <= 20
+                or any(not _source_valid(url) for url in sources)
+                or not isinstance(offer.get('differences'),str) or not offer['differences'].strip()):
+            raise ValueError('대체 비교는 원모델·사양 대응·공개 출처·차이와 비교 검토가 필요합니다')
+    elif retail_model != model:
         raise ValueError('조달 모델과 실제 판매 모델이 다릅니다')
     if not _source_valid(offer.get('url')) or not isinstance(offer.get('quote'),str) or not 1 <= len(offer['quote']) <= 2000:
         raise ValueError('공개 HTTPS 판매 페이지와 직접 확인한 인용이 필요합니다')
@@ -74,6 +94,16 @@ def build_submission(item, offer, event):
         'comparison_scope':offer.get('comparison_scope',f'동일 모델 신품, 판매 포장 {pack}개 구성을 공식 fact 1개 단위·세금 기준으로 환산'),
         'reproduction_notes':'공식 fact별 floor(max(C-B×Q,0))를 합산. 각 라인 근거에 계약·납품요구·라인 번호를 기재. 가격 시점 차이는 사용자 지정 대회 조사 기준에서 제외한다.',
         'lines':lines}
+    if equivalent:
+        body['title'] = f'{model} → {retail_model} 대체품 {price}원 비교'[:200]
+        body['claim'] = f'조달 {model}과 실제 판매 {retail_model}의 핵심사양 대체 비교다. 제조사·모델 동일성을 주장하지 않는다. {offer["differences"]}'
+        body['comparison_scope'] = (offer.get('comparison_scope','핵심사양 대체품의 제품 취득가격 비교')
+            + f' 원품 {model}, 대체품 {retail_model}. 차이·제한: {offer["differences"]}')
+        body['reproduction_notes'] += (' 사양 대응: '
+            + '; '.join(f'{r["attribute"]}: {r["original"]} → {r["alternative"]}' for r in mapping)
+            + '. 사양 출처: ' + ' '.join(sources))
+        for line in lines:
+            line['price_evidence'][0]['note'] += f' 실제 판매모델 {retail_model}; 원품 {model}과 다른 대체품 비교.'
     if len(json.dumps(body,ensure_ascii=False).encode()) > 1048576:
         raise ValueError('점수 본문 1MiB 초과; 명시적 fact 범위 분리가 필요합니다')
     return body
