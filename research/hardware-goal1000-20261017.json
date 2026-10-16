@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-16T18:00:30.839622+00:00",
+  "updated_at_utc": "2026-10-16T18:07:43.569164+00:00",
   "goal_total_expected_score_krw": "100000000000",
   "latest_user_minimum_per_new_submission_krw": "1000000000",
   "required_average_reference_krw": "1780000000",
@@ -22,8 +22,9 @@
   },
   "fresh_available_full_fact_items": 13,
   "all_references_count": 1663,
-  "actual_parallel_search_calls": 43,
+  "actual_parallel_search_calls": 56,
   "parallel_evidence_files": [
+    "work/hardware-goal1000/parallel-aips5000b-explicit.json",
     "work/hardware-goal1000/parallel-asw2224.json",
     "work/hardware-goal1000/parallel-aswr-ea100b.json",
     "work/hardware-goal1000/parallel-aswr-ef300b.json",
@@ -45,11 +46,18 @@
     "work/hardware-goal1000/parallel-inex-license.json",
     "work/hardware-goal1000/parallel-inex-price.json",
     "work/hardware-goal1000/parallel-itu1000-exact.json",
+    "work/hardware-goal1000/parallel-itu1000-explicit.json",
+    "work/hardware-goal1000/parallel-itu1000r2-identical.json",
+    "work/hardware-goal1000/parallel-itu9000-explicit.json",
+    "work/hardware-goal1000/parallel-itu9000-identical.json",
     "work/hardware-goal1000/parallel-ivss-kr-price.json",
     "work/hardware-goal1000/parallel-ivss7108-kr-price.json",
     "work/hardware-goal1000/parallel-leopard.json",
     "work/hardware-goal1000/parallel-milestone-kr.json",
     "work/hardware-goal1000/parallel-mps-tax-evidence.json",
+    "work/hardware-goal1000/parallel-ngf1510-explicit.json",
+    "work/hardware-goal1000/parallel-ngf510-identical.json",
+    "work/hardware-goal1000/parallel-ngf5100-explicit.json",
     "work/hardware-goal1000/parallel-nvr-deepinmind-kr.json",
     "work/hardware-goal1000/parallel-nvr-deepinmind-seller.json",
     "work/hardware-goal1000/parallel-nvr-metadata-kr.json",
@@ -60,8 +68,13 @@
     "work/hardware-goal1000/parallel-nx-wave-korean.json",
     "work/hardware-goal1000/parallel-pr310-license.json",
     "work/hardware-goal1000/parallel-prime5g-l135.json",
+    "work/hardware-goal1000/parallel-sg9806-explicit.json",
+    "work/hardware-goal1000/parallel-sg9806-general-retail.json",
+    "work/hardware-goal1000/parallel-sniper5300-explicit.json",
+    "work/hardware-goal1000/parallel-sniper5300-identical.json",
     "work/hardware-goal1000/parallel-sniper5300.json",
     "work/hardware-goal1000/parallel-stm7077-retail.json",
+    "work/hardware-goal1000/parallel-tg500c-identical.json",
     "work/hardware-goal1000/parallel-vix120alt.json",
     "work/hardware-goal1000/parallel-vms-cctv-price.json",
     "work/hardware-goal1000/parallel-vms-krw.json",
@@ -29175,5 +29188,370 @@
         ]
       ]
     }
+  },
+  "round12_equipment_0_6to0_8b": {
+    "observed_kst": "2026-10-17 04:45~05:10",
+    "source": "work/root-goal1000/assign/non-it-06to08.json",
+    "selected": 80,
+    "available": 80,
+    "file": "work/hardware-goal1000/frontier/equip-0.6to0.8b.json",
+    "ready": 0,
+    "verdicts": [
+      {
+        "item": "23778937 신성하인스 SGS-ER 9803 / 24717961 선경인케이 SKK-CB3150 (150인 인덕션 3단 취반기, 현장설치도)",
+        "required": "≤1,354,545 / ≤827,586원",
+        "verdict": "동급 소매가 화신 150인 인덕션 3단 5,820,000원, 디포 헤비듀티 150인 6,800,000원(ckjb). 린나이 가스 3단 3,200,000원은 가스식이라 명확한 상위 아님",
+        "jev": {
+          "url": "https://ckjb.co.kr/shop/list-518010",
+          "operation": "CLICK",
+          "confidence": 0.46,
+          "latency_ms": 318
+        }
+      },
+      {
+        "item": "23852932 Orec RM982F 승용 예취기 (납품장소 하차도)",
+        "required": "≤3,500,000원",
+        "verdict": "동일 모델 미국 딜러 $15,100.99(ralphhelminc) 등 조달가 1,600만 원 이상",
+        "jev": {
+          "url": "https://www.ralphhelminc.com/inventory/orec-of-america-rm982f-4wd-rover-brush-mower-elgin-il-60123-12236340i",
+          "operation": "BLOCKED",
+          "confidence": 0.48,
+          "latency_ms": 208
+        }
+      },
+      {
+        "item": "24756274 A-PLUS CWN060 / 24684192 DYST-RF2DG-E / 24684593 DYST-OSMART 식기세척기 (현장설치도)",
+        "required": "≤1,104,615 / ≤6,210,000 / ≤18,367원",
+        "verdict": "동일 모델 공개 소매가 미발견(Parallel), 단체급식 전용·컨베이어형",
+        "jev": "not_run: 소매 후보 페이지 없음(전용·현장설치 설비)"
+      },
+      {
+        "item": "24883583 디포 DIK-300G 300인 전기 회전 국솥 (현장설치도)",
+        "required": "≤1,264,285원",
+        "verdict": "동급 소매 회전식 국솥이 필요가 초과",
+        "jev": "not_run: 소매 후보 페이지 없음(전용·현장설치 설비)"
+      },
+      {
+        "item": "24960273 DPO-040G2 / 24100064 HSO-122G4 상업용 오븐",
+        "required": "≤10.4M / ≤7.9M",
+        "verdict": "동일 모델 소매 없음, 수입 콤비오븐 소매가 초과",
+        "jev": "not_run: 소매 후보 페이지 없음(전용·현장설치 설비)"
+      },
+      {
+        "item": "24775518 대동 LK2805 트랙터 / 25887830·24677743 TYM 콤바인",
+        "required": "≤2.57M / ≤3.4M / ≤1.44M",
+        "verdict": "필요가가 일반 판매가의 일부에 불과",
+        "jev": "not_run: 소매 후보 페이지 없음(전용·현장설치 설비)"
+      },
+      {
+        "item": "23957824 MSL M10X 공기호흡기 충전기",
+        "required": "≤4,845,161원",
+        "verdict": "동급 호흡용 고압 압축기 소매가 초과",
+        "jev": "not_run: 소매 후보 페이지 없음(전용·현장설치 설비)"
+      },
+      {
+        "item": "24398831 두크 부스터펌프 3.7kW×3 (현장설치도)",
+        "required": "≤2,222,853원",
+        "verdict": "설치 포함 부스터 세트, 필요가 과소",
+        "jev": "not_run: 소매 후보 페이지 없음(전용·현장설치 설비)"
+      },
+      {
+        "item": "공기조화기 7건(서번 SAH), 송풍기 2건, 보일러 2건, 입축사류펌프 3건, 디젤발전기 2건, 배전·분전·전동기제어반 16건, 조명제어·자동승강조명 3건, 정수처리 산기장치, 승강기, 태양광·BIPV 29건",
+        "required": "항목별 계산(JSON 파일)",
+        "verdict": "현장 설계·설치 포함 맞춤 설비로 동일 모델 소매·완제품 상위 대체 비교 불가",
+        "jev": "not_run: 소매 후보 페이지 없음(전용·현장설치 설비)"
+      }
+    ]
+  },
+  "round11_network_identical_followup": {
+    "updated_at_utc": "2026-10-16T18:07:43.569164+00:00",
+    "status": "신규 등록 가능한 동일 완제품 일반가 미확보·추가 접수0",
+    "cisco_recheck": {
+      "source": "work/hardware-goal1000/cisco-owner0-recheck.json",
+      "items": [
+        {
+          "item_id": "25468343",
+          "model": "C9407R",
+          "state": "claimed"
+        },
+        {
+          "item_id": "23688821",
+          "model": "C9200L-24P-4G-E",
+          "state": "claimed"
+        },
+        {
+          "item_id": "23689969",
+          "model": "C9200L-24T-4G-E",
+          "state": "claimed"
+        }
+      ],
+      "decision": "최신 공식 상태도 세 품목 모두 기등록이다. 일반 가격 재검색·신규 제보를 하지 않는다."
+    },
+    "sg9806": {
+      "item_id": "24680233",
+      "state_at_fact_fetch": "available",
+      "official_fact_count": 12,
+      "official_unique_request_count": 12,
+      "quantity": "25",
+      "comparable_amount_krw": "989296000",
+      "original_scope_resolution": "모듈 불명으로 남긴 이전 기록을 실제 원 계약 규격서로 보완했다. bare 섀시가 아니라 기본 모듈·전원이 포함된 패키지다.",
+      "original_package": [
+        "관리모듈1개",
+        "24port GbE(RJ45) &24port GbE(SFP) 인터페이스모듈1개",
+        "550W AC 전원모듈2개",
+        "현장설치도48시간",
+        "보안기능확인서 보유 제품"
+      ],
+      "original_source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R25TA00961673020000033",
+      "source_notes": "실제 상품 페이지는 계약해지상품으로 표시한다. 대회 available 상태와 구분한다. 규격·구성 확인용으로만 읽었으며 해당 가격을 소매 근거로 사용하지 않는다.",
+      "attachment": {
+        "filename": "HDN_조달등록 규격서_PDF.zip",
+        "bytes": 5079570,
+        "manifest": "work/hardware-goal1000/sg9806-attachments/zip-manifest.json",
+        "pdf_path": "work/hardware-goal1000/sg9806-attachments/extracted/33-SG9806-표준규격서_조달.pdf",
+        "pdf_bytes": 108383,
+        "pdf_sha256": "d7b529e2c11bf68bd3de10a362e8caeebf75da0daf0b7f17e940748b3a149187",
+        "visual_review": "4쪽 제공내역 표와6.2.2보안기능확인서 문구를 렌더해 직접 대조했다. work/hardware-goal1000/sg9806-package-p4.png",
+        "related_line_card_spec": "work/hardware-goal1000/sg9806-attachments/extracted/39-백본모듈(SG9800 5종)_표준규격서-조달.pdf 3쪽 SG9800-24F24T(24675873) 24SFP+24UTP를 확인했다."
+      },
+      "arithmetic_limit": "총 C가9.89296억이라 절감액10억은 산술적으로 불가능하다. 8억 차액이 되려면 VAT·설치·모듈·전원 포함 대당 취득비가7,571,840원 이하인 동일 완제품 또는 명확한 상향 대체가 필요하다. 실제 일반가 B는 확보하지 못했다.",
+      "retail_checks": [
+        "정확 SG9806 일반가 검색은 제조사·사양표만 발견했다.",
+        "ITSNS 실제 SG시리즈 컬렉션은 SG2128G/GX두 모델의0원·견적문의만 있으며 SG9806은 없다."
+      ],
+      "all_references": [
+        {
+          "fact_id": "dl:24680233:R25TA00961673:R25TB01119726:2",
+          "listing_id": "R25TA00961673020000033",
+          "contract_no": "R25TA00961673",
+          "request_no": "R25TB01119726",
+          "line_no": "2",
+          "request_date": "2025-10-29",
+          "agency_name": "경기도 화성시",
+          "quantity": "5",
+          "comparable_amount_krw": "200750000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "basis_id": "basis:대:vat_included",
+          "period_kind": "none"
+        },
+        {
+          "fact_id": "dl:24680233:R25TA00961673:R26TB01410853:1",
+          "listing_id": "R25TA00961673020000033",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01410853",
+          "line_no": "1",
+          "request_date": "2026-01-09",
+          "agency_name": "전남광주통합특별시 무안군",
+          "quantity": "1",
+          "comparable_amount_krw": "40150000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "basis_id": "basis:대:vat_included",
+          "period_kind": "none"
+        },
+        {
+          "fact_id": "dl:24680233:R25TA00961673:R26TB01441143:1",
+          "listing_id": "R25TA00961673020000033",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01441143",
+          "line_no": "1",
+          "request_date": "2026-01-19",
+          "agency_name": "전남광주통합특별시 함평군",
+          "quantity": "1",
+          "comparable_amount_krw": "40150000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "basis_id": "basis:대:vat_included",
+          "period_kind": "none"
+        },
+        {
+          "fact_id": "dl:24680233:R25TA00961673:R26TB01475590:1",
+          "listing_id": "R25TA00961673020000033",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01475590",
+          "line_no": "1",
+          "request_date": "2026-01-28",
+          "agency_name": "전남광주통합특별시 영암군",
+          "quantity": "1",
+          "comparable_amount_krw": "40150000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "basis_id": "basis:대:vat_included",
+          "period_kind": "none"
+        },
+        {
+          "fact_id": "dl:24680233:R25TA00961673:R26TB01511058:1",
+          "listing_id": "R25TA00961673020000033",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01511058",
+          "line_no": "1",
+          "request_date": "2026-02-06",
+          "agency_name": "전남광주통합특별시 장흥군",
+          "quantity": "1",
+          "comparable_amount_krw": "40150000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "basis_id": "basis:대:vat_included",
+          "period_kind": "none"
+        },
+        {
+          "fact_id": "dl:24680233:R25TA00961673:R26TB01589682:7",
+          "listing_id": "R25TA00961673020000033",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01589682",
+          "line_no": "7",
+          "request_date": "2026-02-26",
+          "agency_name": "경기도 파주시",
+          "quantity": "2",
+          "comparable_amount_krw": "80300000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "basis_id": "basis:대:vat_included",
+          "period_kind": "none"
+        },
+        {
+          "fact_id": "dl:24680233:R25TA00961673:R26TB01598688:1",
+          "listing_id": "R25TA00961673020000033",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01598688",
+          "line_no": "1",
+          "request_date": "2026-03-03",
+          "agency_name": "경기도 화성시",
+          "quantity": "3",
+          "comparable_amount_krw": "120450000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "basis_id": "basis:대:vat_included",
+          "period_kind": "none"
+        },
+        {
+          "fact_id": "dl:24680233:R25TA00961673:R26TB01654646:2",
+          "listing_id": "R25TA00961673020000033",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01654646",
+          "line_no": "2",
+          "request_date": "2026-03-12",
+          "agency_name": "울산광역시",
+          "quantity": "2",
+          "comparable_amount_krw": "80300000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "basis_id": "basis:대:vat_included",
+          "period_kind": "none"
+        },
+        {
+          "fact_id": "dl:24680233:R25TA00961673:R26TB01664779:4",
+          "listing_id": "R25TA00961673020000033",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01664779",
+          "line_no": "4",
+          "request_date": "2026-03-16",
+          "agency_name": "서울특별시 서울식물원",
+          "quantity": "4",
+          "comparable_amount_krw": "147752000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "basis_id": "basis:대:vat_included",
+          "period_kind": "none"
+        },
+        {
+          "fact_id": "dl:24680233:R25TA00961673:R26TB01772600:1",
+          "listing_id": "R25TA00961673020000033",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01772600",
+          "line_no": "1",
+          "request_date": "2026-04-07",
+          "agency_name": "경기도 안산시 단원구",
+          "quantity": "2",
+          "comparable_amount_krw": "78694000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "basis_id": "basis:대:vat_included",
+          "period_kind": "none"
+        },
+        {
+          "fact_id": "dl:24680233:R25TA00961673:R26TB01898276:1",
+          "listing_id": "R25TA00961673020000033",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB01898276",
+          "line_no": "1",
+          "request_date": "2026-05-11",
+          "agency_name": "사단법인 한국발전인재개발원",
+          "quantity": "2",
+          "comparable_amount_krw": "80300000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "basis_id": "basis:대:vat_included",
+          "period_kind": "none"
+        },
+        {
+          "fact_id": "dl:24680233:R25TA00961673:R26TB02255419:1",
+          "listing_id": "R25TA00961673020000033",
+          "contract_no": "R25TA00961673",
+          "request_no": "R26TB02255419",
+          "line_no": "1",
+          "request_date": "2026-08-25",
+          "agency_name": "국가유산청 궁능유적본부 종묘관리소",
+          "quantity": "1",
+          "comparable_amount_krw": "40150000",
+          "unit": "대",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:대:vat_included",
+          "basis_id": "basis:대:vat_included",
+          "period_kind": "none"
+        }
+      ],
+      "ready": false
+    },
+    "firewall_identical_retail": {
+      "TrusGuard500C": {
+        "url": "https://shop.itsns.co.kr/collections/firewall/products/ahnlab-tg-500c-trusguard-500c",
+        "http_status": 200,
+        "artifacts": [
+          "work/hardware-goal1000/itsns-tg500c-product.html",
+          "work/hardware-goal1000/itsns-tg500c-product.txt"
+        ],
+        "observation": "단종·후속XTG500·소비자가0원·견적문의. 상기 금액은 예산 책정용도로 참고하고 구매 시 견적 요청하라는 문구가 있으며 라이선스 종류·설치지원/지역을 별도 견적사항으로 명시.",
+        "adopted_price_krw": null
+      },
+      "NGF5100": {
+        "url": "https://ursi.co.kr/security/secui/bluemax-ngf-5100/",
+        "http_status": 200,
+        "artifact": "work/hardware-goal1000/ursi-ngf5100.html",
+        "observation": "해당 모델 실제 제품 소개와 기능은 있으나 숫자 일반판매가 없이B2B견적제안·상담 안내만 제공한다.",
+        "adopted_price_krw": null
+      },
+      "WeGuardia_ITU": {
+        "url": "https://www.irenotech.com/%ED%93%A8%EC%B3%90%EC%8B%9C%EC%8A%A4%ED%85%9C",
+        "http_status": 403,
+        "artifact": "work/hardware-goal1000/irenotech-futuresystems.html",
+        "observation": "공급사 검색 결과는 단서이며 실제HTTP403. 검색본문에 일반가도 없어 가격 채택하지 않는다."
+      }
+    },
+    "parallel_method_improvement": "희소 모델은 objective에도 실제 제조사·모델명을 적는다. 일반적인 objective만 썼을 때는 정확 query가 있어도 무관한 소매 결과가 섞였다. 모델을 명시한 후 제조사/해당공급사 결과로 개선했으나 숫자 일반가는 찾지 못했다. 공통 어댑터 코드는 변경하지 않았다.",
+    "parallel_actual_saved_call_count": 56,
+    "jev": {
+      "url": "https://shop.itsns.co.kr/collections/firewall/products/ahnlab-tg-500c-trusguard-500c",
+      "operation": "DONE",
+      "confidence": 0.84,
+      "latency_ms": 220,
+      "model": "jev-1.13.0"
+    },
+    "jev_note": "DONE은 페이지 읽기 제안이며 가격 확정·동등성·접수 승인으로 해석하지 않는다.",
+    "submission_ready": false,
+    "new_submission_count": 0,
+    "adopted_saving_krw": "0"
   }
 }
