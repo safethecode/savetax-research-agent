@@ -1,0 +1,1093 @@
+{
+ "observed_at": "2026-10-17 KST",
+ "method": "로컬 인덱스에서 같은 세부품명·단위(8개 이상) 중앙값보다 단가가 1.5배 이상이고, 총액 6억 원 이상·available·비차량·비소프트웨어인 물품. 잠재액=로컬 총액−중앙값×1.2×수량(탐색용, 점수 아님).",
+ "count": 213,
+ "checked": {
+  "24252442": "현대농기계 HD-OS2000 농기계 보관용 선반. 원규격(단수·하중·깊이) 확인 필요, nonit 에이전트에 우선 과제로 이관. 단서: dodis 선반형 파렛트랙 2단 352,000원+착불 50,000원",
+  "24581605": "제이디솔루션 AU360-S01은 집중지향성 스피커로 일반 PA 스피커와 다르고 공개가 없음",
+  "22959184": "켐포트 낫또그로 보조사료 공개 판매가 없음",
+  "24793024": "Kodak S3140 Max 해외 판매가와 비슷"
+ },
+ "top": [
+  {
+   "item_id": "24346733",
+   "category": "고상제설제",
+   "name": "고상제설제, 뉴보텍, 에코-다노가 1000kg, 환경표지2종, 1000kg/포",
+   "unit_price": 438900.0,
+   "category_median": 11100.0,
+   "ratio": 39.54054054054054,
+   "potential_krw": 9733440180.0
+  },
+  {
+   "item_id": "24187150",
+   "category": "고상제설제",
+   "name": "고상제설제, 하얀소금, 눈길파워Z-1000, 환경표지2종, 1000kg/포",
+   "unit_price": 434500.0,
+   "category_median": 11100.0,
+   "ratio": 39.14414414414414,
+   "potential_krw": 8926488920.0
+  },
+  {
+   "item_id": "24595298",
+   "category": "금속제패널",
+   "name": "금속제패널, 세종산업, SJ-CP04-0612, 금속복합, KSF4737, 불소수지, 4mm, 평판",
+   "unit_price": 218293.7115051482,
+   "category_median": 74457.06120504883,
+   "ratio": 2.9318067080835313,
+   "potential_krw": 6624819495.7618475
+  },
+  {
+   "item_id": "24380430",
+   "category": "금속제패널",
+   "name": "금속제패널, 덕인금속, MS-G01-01, 금속시트, KS D 3528, 초내후성분체, 1.6mm, 평판",
+   "unit_price": 161110.6204530524,
+   "category_median": 74457.06120504883,
+   "ratio": 2.1638057941793667,
+   "potential_krw": 5898704959.680876
+  },
+  {
+   "item_id": "25468725",
+   "category": "고상제설제",
+   "name": "고상제설제, 스타스테크, ECO-ST2(1000), 환경표지2종, 1000kg/포",
+   "unit_price": 430000.0,
+   "category_median": 11100.0,
+   "ratio": 38.73873873873874,
+   "potential_krw": 5467674960.0
+  },
+  {
+   "item_id": "23788538",
+   "category": "고상제설제",
+   "name": "고상제설제, 파인젠, Roadgen 1000, 환경표지2종, 1000kg/포",
+   "unit_price": 435600.0,
+   "category_median": 11100.0,
+   "ratio": 39.24324324324324,
+   "potential_krw": 5332551840.0
+  },
+  {
+   "item_id": "25738687",
+   "category": "낙석방지책",
+   "name": "낙석방지책, 상신, SS-NB-37, W1500×H1500mm, 낙석방지망, 비포켓식",
+   "unit_price": 120628.39634803186,
+   "category_median": 40585.862646566165,
+   "ratio": 2.9721777112020513,
+   "potential_krw": 4072917427.095477
+  },
+  {
+   "item_id": "24300530",
+   "category": "승객용엘리베이터",
+   "name": "승객용엘리베이터, (부품)15~18인승/1개층추가",
+   "unit_price": 3201716.3381618382,
+   "category_median": 1081758.5345058383,
+   "ratio": 2.959732912691486,
+   "potential_krw": 3811019405.7031746
+  },
+  {
+   "item_id": "25824503",
+   "category": "승객용엘리베이터",
+   "name": "승객용엘리베이터, (부품)12~15인승/1개층추가",
+   "unit_price": 3023362.8958237725,
+   "category_median": 1081758.5345058383,
+   "ratio": 2.794859295660547,
+   "potential_krw": 3759325533.9741344
+  },
+  {
+   "item_id": "24654402",
+   "category": "금속제패널",
+   "name": "금속제패널, 세종산업, SJ-SHAL2-1224, 금속시트, KSD6701, 불소수지, 2mm, 평판",
+   "unit_price": 230592.09740233343,
+   "category_median": 74457.06120504883,
+   "ratio": 3.096980913164181,
+   "potential_krw": 3474451905.7004046
+  },
+  {
+   "item_id": "24267330",
+   "category": "금속제패널",
+   "name": "금속제패널, 에스와이테크, SYS-ACP-4F, 금속복합, KSF4737, 불소수지, 4mm, 평판",
+   "unit_price": 201680.07414442103,
+   "category_median": 74457.06120504883,
+   "ratio": 2.7086762609258797,
+   "potential_krw": 3252786161.4224815
+  },
+  {
+   "item_id": "24249763",
+   "category": "금속제패널",
+   "name": "금속제패널, 에스와이테크, SYS-ASP-3F, 금속시트, 알루미늄, 불소수지, 3mm, 평판",
+   "unit_price": 248001.42299007508,
+   "category_median": 74457.06120504883,
+   "ratio": 3.3307978984974826,
+   "potential_krw": 3021228118.166706
+  },
+  {
+   "item_id": "25568367",
+   "category": "낙석방지책",
+   "name": "낙석방지책, 지강산업, JK-78, W3000×H3000mm, 낙석방지망, 비포켓식",
+   "unit_price": 89099.38750257785,
+   "category_median": 40585.862646566165,
+   "ratio": 2.195330632207623,
+   "potential_krw": 2938228686.482412
+  },
+  {
+   "item_id": "24527632",
+   "category": "태양광발전장치",
+   "name": "태양광발전장치, 지투파워, G2P-100S-N, 99.9kW, 계통연계형",
+   "unit_price": 207900800.0,
+   "category_median": 51408000.0,
+   "ratio": 4.044133208839091,
+   "potential_krw": 2924224000.0
+  },
+  {
+   "item_id": "25297982",
+   "category": "금속제패널",
+   "name": "금속제패널, 덕인금속, MS-A02-06, 2000×1000×30mm",
+   "unit_price": 208612.2324257312,
+   "category_median": 74457.06120504883,
+   "ratio": 2.8017790260514004,
+   "potential_krw": 2597445406.8182898
+  },
+  {
+   "item_id": "24489307",
+   "category": "태양광발전장치",
+   "name": "태양광발전장치, 쏠라리버, SSR-PV-100-S, 100.17kW급, 계통연계형/고정형, ㅁ형지지대",
+   "unit_price": 214058000.0,
+   "category_median": 61003000.0,
+   "ratio": 3.508974968444175,
+   "potential_krw": 2394524800.0
+  },
+  {
+   "item_id": "24196869",
+   "category": "금속제패널",
+   "name": "금속제패널, 디자인기린, DK-GI16, 2000×1000×30mm",
+   "unit_price": 243687.85732916015,
+   "category_median": 74457.06120504883,
+   "ratio": 3.2728642976931788,
+   "potential_krw": 2366948791.2312455
+  },
+  {
+   "item_id": "26153983",
+   "category": "폐쇄형배전반",
+   "name": "폐쇄형배전반, 일산전기, ISC-일반형-S",
+   "unit_price": 2396336400.0,
+   "category_median": 30801050.0,
+   "ratio": 77.80047758112143,
+   "potential_krw": 2359375140.0
+  },
+  {
+   "item_id": "23015035",
+   "category": "폐쇄형배전반",
+   "name": "폐쇄형배전반, 벽진테크, BJ-HV-LV-01",
+   "unit_price": 429248933.3333333,
+   "category_median": 30801050.0,
+   "ratio": 13.936178582656543,
+   "potential_krw": 2353726040.0
+  },
+  {
+   "item_id": "24520228",
+   "category": "모래살포기",
+   "name": "모래살포기, 자동기, SP-11P, 15톤트럭, 11㎥",
+   "unit_price": 54600000.0,
+   "category_median": 28900000.0,
+   "ratio": 1.8892733564013842,
+   "potential_krw": 2250960000.0
+  },
+  {
+   "item_id": "24206906",
+   "category": "금속제패널",
+   "name": "금속제패널, 스마일테크, SER-GST-I, 금속시트, KSD3030, 무기질실리카, 1.5mm, 평판",
+   "unit_price": 183331.84096508368,
+   "category_median": 74457.06120504883,
+   "ratio": 2.462249221201497,
+   "potential_krw": 2212556438.132889
+  },
+  {
+   "item_id": "24543264",
+   "category": "폐쇄형배전반",
+   "name": "폐쇄형배전반, 한양기전공업, HYHV-LV-열반형-S",
+   "unit_price": 248920280.0,
+   "category_median": 30801050.0,
+   "ratio": 8.081551765280729,
+   "potential_krw": 2119590200.0
+  },
+  {
+   "item_id": "22872083",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 유성콘크리트, YS2-4020, 4000×2000mm(B×H), 2련, 표준형",
+   "unit_price": 3382485.760663507,
+   "category_median": 865302.5123966942,
+   "ratio": 3.9090210789921076,
+   "potential_krw": 1978439597.4446282
+  },
+  {
+   "item_id": "22839982",
+   "category": "수도용덕타일주철관",
+   "name": "수도용덕타일주철관, Φ600mm×6m, 2종, KP메커니컬/에폭시",
+   "unit_price": 1975790.0,
+   "category_median": 706010.0,
+   "ratio": 2.798529765867339,
+   "potential_krw": 1977268656.0
+  },
+  {
+   "item_id": "25533755",
+   "category": "금속제패널",
+   "name": "금속제패널, 덕인금속, MS-C04-04, 금속복합, KSF4737, 불소수지, 4mm, 평판",
+   "unit_price": 187758.80475168768,
+   "category_median": 74457.06120504883,
+   "ratio": 2.521705822294206,
+   "potential_krw": 1880523020.9192665
+  },
+  {
+   "item_id": "24489271",
+   "category": "태양광발전장치",
+   "name": "태양광발전장치, 쏠라리버, SSR-PV-100-R, 100.17kW급, 계통연계형/고정형, ㅇ형지지대",
+   "unit_price": 250988000.0,
+   "category_median": 61003000.0,
+   "ratio": 4.114355031719752,
+   "potential_krw": 1777844000.0
+  },
+  {
+   "item_id": "24595300",
+   "category": "금속제패널",
+   "name": "금속제패널, 세종산업, SJ-FP4-0612, 금속복합, KSF4737, 불소수지, 4mm, 평판",
+   "unit_price": 218188.40891356542,
+   "category_median": 74457.06120504883,
+   "ratio": 2.9303924353486352,
+   "potential_krw": 1717178659.910931
+  },
+  {
+   "item_id": "24215740",
+   "category": "금속제패널",
+   "name": "금속제패널, 스마일테크, SER-ST-I, 금속시트, KSD3528, 불소수지, 1.2mm, 평판",
+   "unit_price": 160303.467099243,
+   "category_median": 74457.06120504883,
+   "ratio": 2.1529652729346918,
+   "potential_krw": 1705899957.4098592
+  },
+  {
+   "item_id": "24264200",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 금강피씨, kk2-2520, 2500×2000mm(B×H), 2련, 표준형",
+   "unit_price": 2109302.648171501,
+   "category_median": 865302.5123966942,
+   "ratio": 2.4376476642015112,
+   "potential_krw": 1698510258.4066117
+  },
+  {
+   "item_id": "24911369",
+   "category": "영상감시장치",
+   "name": "영상감시장치, 센텍, STM-7077, 방범감시시스템",
+   "unit_price": 84165000.0,
+   "category_median": 3400000.0,
+   "ratio": 24.754411764705882,
+   "potential_krw": 1601700000.0
+  },
+  {
+   "item_id": "22839933",
+   "category": "수도용덕타일주철관",
+   "name": "수도용덕타일주철관, Φ500mm×6m, 2종, KP메커니컬/에폭시",
+   "unit_price": 1468170.0,
+   "category_median": 706010.0,
+   "ratio": 2.0795314513958725,
+   "potential_krw": 1570402782.0
+  },
+  {
+   "item_id": "22839981",
+   "category": "수도용덕타일주철관",
+   "name": "수도용덕타일주철관, Φ700mm×6m, 2종, KP메커니컬/에폭시",
+   "unit_price": 2542700.0,
+   "category_median": 706010.0,
+   "ratio": 3.601507060806504,
+   "potential_krw": 1561544448.0
+  },
+  {
+   "item_id": "25051365",
+   "category": "알루미늄제교량난간",
+   "name": "알루미늄제교량난간, 예건, YRF3-01, (부품)W2000×H810mm",
+   "unit_price": 1397000.0,
+   "category_median": 628500.0,
+   "ratio": 2.222752585521082,
+   "potential_krw": 1547862400.0
+  },
+  {
+   "item_id": "24447239",
+   "category": "잔교",
+   "name": "잔교, 블루오션테크, BOC15040030, 15×3×40m",
+   "unit_price": 830900000.0,
+   "category_median": 60300000.0,
+   "ratio": 13.779436152570481,
+   "potential_krw": 1517080000.0
+  },
+  {
+   "item_id": "26076051",
+   "category": "폐쇄형배전반",
+   "name": "폐쇄형배전반, 신명전력, SM-일반형-S",
+   "unit_price": 773093700.0,
+   "category_median": 30801050.0,
+   "ratio": 25.099589137383305,
+   "potential_krw": 1472264880.0
+  },
+  {
+   "item_id": "25411209",
+   "category": "태양광발전장치",
+   "name": "태양광발전장치, 백현이앤에스, BH-CS-RSD-100-O, 100kW급, 계통연계형, ㅇ형지지대",
+   "unit_price": 249000000.0,
+   "category_median": 61003000.0,
+   "ratio": 4.081766470501451,
+   "potential_krw": 1406371200.0
+  },
+  {
+   "item_id": "22344809",
+   "category": "폐쇄형배전반",
+   "name": "폐쇄형배전반, IS산전, IS-열반형-S",
+   "unit_price": 316129020.0,
+   "category_median": 30801050.0,
+   "ratio": 10.26357932602947,
+   "potential_krw": 1395838800.0
+  },
+  {
+   "item_id": "25131074",
+   "category": "방화벽장치",
+   "name": "방화벽장치, 시큐아이, BLUEMAX NGF 5100, 네트워크보안솔루션",
+   "unit_price": 83000000.0,
+   "category_median": 25256000.0,
+   "ratio": 3.2863477985429204,
+   "potential_krw": 1370012800.0
+  },
+  {
+   "item_id": "23737271",
+   "category": "제수밸브",
+   "name": "제수밸브, 대풍건설, SGⅢ-300, Φ300mm×1.0MPa, 수동식/수직형/소프트실부단수(유지보수용보조밸브내장형), GCD450-10",
+   "unit_price": 8886000.0,
+   "category_median": 2056675.3246753246,
+   "ratio": 4.320565279987876,
+   "potential_krw": 1341359828.5714288
+  },
+  {
+   "item_id": "23251204",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 대진개발, DJ-B1, 보통옹벽블록(대형), W2000×L1000×H850mm, 중간블록",
+   "unit_price": 266686.6096866097,
+   "category_median": 79665.0,
+   "ratio": 3.3476006990097247,
+   "potential_krw": 1321146244.0
+  },
+  {
+   "item_id": "24113178",
+   "category": "분전반",
+   "name": "분전반, 동구, Donggu-DIST-S",
+   "unit_price": 37996800.0,
+   "category_median": 4145000.0,
+   "ratio": 9.166899879372739,
+   "potential_krw": 1320912000.0
+  },
+  {
+   "item_id": "25547942",
+   "category": "빗물저장탱크",
+   "name": "빗물저장탱크, 피앤아이휴먼코리아, HCP-1500, 1500톤, PVC/사각형",
+   "unit_price": 1637280000.0,
+   "category_median": 264960000.0,
+   "ratio": 6.179347826086956,
+   "potential_krw": 1319328000.0
+  },
+  {
+   "item_id": "24252442",
+   "category": "보관용선반",
+   "name": "보관용선반, 현대농기계, HD-OS2000, 3000×2000×2000mm",
+   "unit_price": 2200000.0,
+   "category_median": 297000.0,
+   "ratio": 7.407407407407407,
+   "potential_krw": 1296050800.0
+  },
+  {
+   "item_id": "23574877",
+   "category": "폴리에틸렌피복강관",
+   "name": "폴리에틸렌피복강관, 현대특수강, HD3LP-C2400A, Φ2400×t22mm, 내부:탄화섬유소강화폴리우레탄/외부:PE3층",
+   "unit_price": 2922750.0,
+   "category_median": 565955.9677852349,
+   "ratio": 5.1642710146473885,
+   "potential_krw": 1283340823.7122147
+  },
+  {
+   "item_id": "23737269",
+   "category": "제수밸브",
+   "name": "제수밸브, 대풍건설, SGⅢ-200, Φ200mm×1.0MPa, 수동식/수직형/소프트실부단수(유지보수용보조밸브내장형), GCD450-10",
+   "unit_price": 5800000.0,
+   "category_median": 2056675.3246753246,
+   "ratio": 2.820085372938294,
+   "potential_krw": 1279484010.3896105
+  },
+  {
+   "item_id": "25507259",
+   "category": "폐쇄형배전반",
+   "name": "폐쇄형배전반, 디에이치파워, DHP-열반형-S",
+   "unit_price": 177185877.7777778,
+   "category_median": 30801050.0,
+   "ratio": 5.752592128442952,
+   "potential_krw": 1262021560.0
+  },
+  {
+   "item_id": "24394331",
+   "category": "폴리에틸렌피복강관",
+   "name": "폴리에틸렌피복강관, 위스코, PEP-PD/WD-1500A-14T(3LC), Φ1500×t14mm, 내부:액상에폭시/외부:PE3층",
+   "unit_price": 6864600.0,
+   "category_median": 1392860.0,
+   "ratio": 4.9284206596499285,
+   "potential_krw": 1256746656.0
+  },
+  {
+   "item_id": "21944699",
+   "category": "폐쇄형배전반",
+   "name": "폐쇄형배전반, 대경산전, DGSJ-EHV-HV-LV, 일반형폐쇄형배전반 AISS-MOF-VCB-TR-ACB-ATS-MCCB 25.8KV~380/220V",
+   "unit_price": 243064466.66666666,
+   "category_median": 30801050.0,
+   "ratio": 7.891434437029473,
+   "potential_krw": 1236619240.0
+  },
+  {
+   "item_id": "25655320",
+   "category": "분전반",
+   "name": "분전반, 태인산전, TI-DIST-S",
+   "unit_price": 69395700.0,
+   "category_median": 4145000.0,
+   "ratio": 16.74202653799759,
+   "potential_krw": 1224012300.0
+  },
+  {
+   "item_id": "25337235",
+   "category": "태양광발전장치",
+   "name": "태양광발전장치, 에코스, DPVQMax-EK100, 100kW급, 계통연계형, ㅁ형지지대",
+   "unit_price": 208840060.0,
+   "category_median": 61003000.0,
+   "ratio": 3.423439175122535,
+   "potential_krw": 1220728140.0
+  },
+  {
+   "item_id": "24717841",
+   "category": "태양광발전장치",
+   "name": "태양광발전장치, 나눔에너지, NEPV-99K-S, 99kW, 고정형",
+   "unit_price": 174925921.5,
+   "category_median": 61003000.0,
+   "ratio": 2.8674970329328064,
+   "potential_krw": 1220667858.0
+  },
+  {
+   "item_id": "22924491",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 대창디에스, DC-DCP01, 보통옹벽블록(대형), W1480×L1480×H260mm, DCP패널블록",
+   "unit_price": 378636.5185806091,
+   "category_median": 32100.0,
+   "ratio": 11.795530173850752,
+   "potential_krw": 1217277020.0
+  },
+  {
+   "item_id": "24264207",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 금강피씨, kk2-3525, 3500×2500mm(B×H), 2련, 표준형",
+   "unit_price": 3284000.0,
+   "category_median": 865302.5123966942,
+   "ratio": 3.795204512817206,
+   "potential_krw": 1185696328.1454546
+  },
+  {
+   "item_id": "25165836",
+   "category": "건물일체형태양광발전장치",
+   "name": "건물일체형태양광발전장치, 에이비엠, ABM-BIPV-RF151-180T-CW, 151.2kW, 지붕일체형",
+   "unit_price": 529200000.0,
+   "category_median": 114098000.0,
+   "ratio": 4.638118108994023,
+   "potential_krw": 1176847200.0
+  },
+  {
+   "item_id": "22959733",
+   "category": "폐쇄형배전반",
+   "name": "폐쇄형배전반, 선덕베스텍, SD-열반형-S",
+   "unit_price": 232198016.66666666,
+   "category_median": 30801050.0,
+   "ratio": 7.538639645942806,
+   "potential_krw": 1171420540.0
+  },
+  {
+   "item_id": "25520158",
+   "category": "낙석방지책",
+   "name": "낙석방지책, 상신, SS-NB-35, W1500×H1500mm, 낙석방지망, 비포켓식",
+   "unit_price": 89100.0,
+   "category_median": 40585.862646566165,
+   "ratio": 2.1953457236060117,
+   "potential_krw": 1157777011.8592963
+  },
+  {
+   "item_id": "24447237",
+   "category": "잔교",
+   "name": "잔교, 블루오션테크, BOC15030030, 15×3×30m",
+   "unit_price": 650500000.0,
+   "category_median": 60300000.0,
+   "ratio": 10.787728026533996,
+   "potential_krw": 1156280000.0
+  },
+  {
+   "item_id": "24262753",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 금강피씨, kk1-6025, 6000×2500mm(B×H), 1련, 표준형",
+   "unit_price": 4815000.0,
+   "category_median": 865302.5123966942,
+   "ratio": 5.564527932160428,
+   "potential_krw": 1148097643.477686
+  },
+  {
+   "item_id": "25648384",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 청호산업, CH2501-02, 4000×3000mm(B×H), 2련, 상하분리형",
+   "unit_price": 3653100.0,
+   "category_median": 865302.5123966942,
+   "ratio": 4.221760537689566,
+   "potential_krw": 1132181114.5586777
+  },
+  {
+   "item_id": "25719389",
+   "category": "패키지용품",
+   "name": "패키지용품, 현도산업, 전차종공용, 리프트경광등 외3종",
+   "unit_price": 4936032.741496598,
+   "category_median": 910000.0,
+   "ratio": 5.424211803842415,
+   "potential_krw": 1130145626.0
+  },
+  {
+   "item_id": "23931507",
+   "category": "수중펌프",
+   "name": "수중펌프, 대한중전기, S-DSMFS-1350-410, 410kW, 사류형",
+   "unit_price": 398200000.0,
+   "category_median": 22195500.0,
+   "ratio": 17.940573539681466,
+   "potential_krw": 1114696200.0
+  },
+  {
+   "item_id": "25050793",
+   "category": "수중펌프",
+   "name": "수중펌프, 한성산기, 1200-HSI-HISMPMF360, 360kW, 사류형",
+   "unit_price": 396000000.0,
+   "category_median": 22195500.0,
+   "ratio": 17.841454348854498,
+   "potential_krw": 1108096200.0
+  },
+  {
+   "item_id": "25104899",
+   "category": "태양광발전장치",
+   "name": "태양광발전장치, 에너솔라, ES-NRT2-099, 99kW, 계통연계형",
+   "unit_price": 165442251.66666666,
+   "category_median": 61003000.0,
+   "ratio": 2.712034681354469,
+   "potential_krw": 1106863820.0
+  },
+  {
+   "item_id": "25045341",
+   "category": "태양광발전장치",
+   "name": "태양광발전장치, 스마트파워, SP-PV-TCS-S-100, 100kW, 계통연계형/고정형",
+   "unit_price": 285000000.0,
+   "category_median": 61003000.0,
+   "ratio": 4.671901381899251,
+   "potential_krw": 1058982000.0
+  },
+  {
+   "item_id": "24010798",
+   "category": "제수밸브",
+   "name": "제수밸브, 신진정공, BSRS-200, Φ200mm×1.0MPa, 수동식/수직형/부단수/소프트실/탄력시트, GCD450",
+   "unit_price": 5800215.189873418,
+   "category_median": 2056675.3246753246,
+   "ratio": 2.8201900029062994,
+   "potential_krw": 1052976716.883117
+  },
+  {
+   "item_id": "23568963",
+   "category": "폐쇄형배전반",
+   "name": "폐쇄형배전반, 스페이스파워, SP-일반형-S",
+   "unit_price": 124099250.0,
+   "category_median": 30801050.0,
+   "ratio": 4.029059074284805,
+   "potential_krw": 1045655880.0
+  },
+  {
+   "item_id": "25297983",
+   "category": "금속제패널",
+   "name": "금속제패널, 덕인금속, MS-A03-06, 2000×1000×30mm",
+   "unit_price": 227500.0,
+   "category_median": 74457.06120504883,
+   "ratio": 3.055452314636527,
+   "potential_krw": 1044011086.1681353
+  },
+  {
+   "item_id": "23350759",
+   "category": "폐쇄형배전반",
+   "name": "폐쇄형배전반, 행복드림복지회두리E.N.G, HDWS-열반형-S",
+   "unit_price": 110853935.71428572,
+   "category_median": 30801050.0,
+   "ratio": 3.599031062716554,
+   "potential_krw": 1034497460.0
+  },
+  {
+   "item_id": "24887469",
+   "category": "태양광발전장치",
+   "name": "태양광발전장치, 정우엔지니어링, JWEN3-100KP, 100kW, 계통연계형",
+   "unit_price": 174597000.0,
+   "category_median": 51408000.0,
+   "ratio": 3.3963001867413634,
+   "potential_krw": 1016166600.0
+  },
+  {
+   "item_id": "23924043",
+   "category": "전투복",
+   "name": "전투복, 동계함상복, 상의",
+   "unit_price": 98918.79005383234,
+   "category_median": 39220.0,
+   "ratio": 2.5221517096846595,
+   "potential_krw": 1011427680.0
+  },
+  {
+   "item_id": "25104991",
+   "category": "태양광발전장치",
+   "name": "태양광발전장치, 에너솔라, ES-HRT2-100, 100.1kW, 계통연계형",
+   "unit_price": 216981000.0,
+   "category_median": 61003000.0,
+   "ratio": 3.5568906447223907,
+   "potential_krw": 1006441800.0
+  },
+  {
+   "item_id": "24045429",
+   "category": "백신",
+   "name": "백신, 고려비엔피, 힘백돈호방-E2(돼지열병마커)불활화백신, 동물용, 20두분/병",
+   "unit_price": 55000.0,
+   "category_median": 20000.0,
+   "ratio": 2.75,
+   "potential_krw": 1005485000.0
+  },
+  {
+   "item_id": "24392975",
+   "category": "무정전전원장치",
+   "name": "무정전전원장치, 성신전기공업, BLUPS-R3400-N-30MSBS, 3상, 400kVA, 30분",
+   "unit_price": 263046000.0,
+   "category_median": 9745500.0,
+   "ratio": 26.99153455440973,
+   "potential_krw": 1005405600.0
+  },
+  {
+   "item_id": "24309449",
+   "category": "태양광발전장치",
+   "name": "태양광발전장치, 스마트파워, SP-PV-TCS-N-075, 75.285kW, 계통연계형",
+   "unit_price": 172096000.0,
+   "category_median": 61003000.0,
+   "ratio": 2.821107158664328,
+   "potential_krw": 988924000.0
+  },
+  {
+   "item_id": "24977412",
+   "category": "식물성기름",
+   "name": "식물성기름, 오뚜기, 오쉐프식용유, 18L",
+   "unit_price": 41800.0,
+   "category_median": 18265.0,
+   "ratio": 2.2885299753627155,
+   "potential_krw": 983622186.0
+  },
+  {
+   "item_id": "25997140",
+   "category": "폐쇄형배전반",
+   "name": "폐쇄형배전반, 우강, WG-일반형-S",
+   "unit_price": 233548000.0,
+   "category_median": 30801050.0,
+   "ratio": 7.582468779473427,
+   "potential_krw": 982933700.0
+  },
+  {
+   "item_id": "24239989",
+   "category": "방화벽장치",
+   "name": "방화벽장치, 윈스테크넷, SNIPER ONE-i 5300, 침입방지",
+   "unit_price": 48766279.24528302,
+   "category_median": 25256000.0,
+   "ratio": 1.9308789691670503,
+   "potential_krw": 978331200.0
+  },
+  {
+   "item_id": "22909140",
+   "category": "분전반",
+   "name": "분전반, 대한기전, DH-DIS-20",
+   "unit_price": 42465836.538461536,
+   "category_median": 4145000.0,
+   "ratio": 10.245075160063097,
+   "potential_krw": 974787750.0
+  },
+  {
+   "item_id": "24349563",
+   "category": "금속기둥",
+   "name": "금속기둥, 씨엔에스, CNS-GH-350, 350×350×12×19mm, 방음벽지주용",
+   "unit_price": 270896.0,
+   "category_median": 105750.0,
+   "ratio": 2.5616643026004726,
+   "potential_krw": 964773200.0
+  },
+  {
+   "item_id": "23574870",
+   "category": "폴리에틸렌피복강관",
+   "name": "폴리에틸렌피복강관, 현대특수강, HD3LP-C2000B, Φ2000×t15mm, 내부:탄화섬유소강화폴리우레탄/외부:PE3층",
+   "unit_price": 1680000.0,
+   "category_median": 565955.9677852349,
+   "ratio": 2.9684288100616247,
+   "potential_krw": 961819577.9500672
+  },
+  {
+   "item_id": "25106007",
+   "category": "폐쇄형배전반",
+   "name": "폐쇄형배전반, 우리아리, WOORIARI-열반형-S",
+   "unit_price": 517439000.0,
+   "category_median": 30801050.0,
+   "ratio": 16.799394825825743,
+   "potential_krw": 960955480.0
+  },
+  {
+   "item_id": "24543262",
+   "category": "분전반",
+   "name": "분전반, 한양기전공업, HYPD-DIST-S",
+   "unit_price": 37961244.827586204,
+   "category_median": 4145000.0,
+   "ratio": 9.158322033193294,
+   "potential_krw": 956630100.0
+  },
+  {
+   "item_id": "24191436",
+   "category": "금속제패널",
+   "name": "금속제패널, 세종산업, SJ-CP5-0612, 금속복합, KSF4737, 불소수지, 5mm, 평판",
+   "unit_price": 192083.93603388357,
+   "category_median": 74457.06120504883,
+   "ratio": 2.5797947558647216,
+   "potential_krw": 945988139.5086925
+  },
+  {
+   "item_id": "24680233",
+   "category": "네트워크스위치",
+   "name": "네트워크스위치, 한드림넷, SG9806, 6slot",
+   "unit_price": 39571840.0,
+   "category_median": 1567500.0,
+   "ratio": 25.24519298245614,
+   "potential_krw": 942271000.0
+  },
+  {
+   "item_id": "25376318",
+   "category": "건물일체형태양광발전장치",
+   "name": "건물일체형태양광발전장치, 스카이패널, SKY-BIPV-BC180-100, 99.9kW급, 지붕일체형",
+   "unit_price": 368800000.0,
+   "category_median": 114098000.0,
+   "ratio": 3.232309067643605,
+   "potential_krw": 927529600.0
+  },
+  {
+   "item_id": "23924045",
+   "category": "전투복",
+   "name": "전투복, 하계함상복, 상의",
+   "unit_price": 96273.74566782192,
+   "category_median": 39220.0,
+   "ratio": 2.4547104963748576,
+   "potential_krw": 922928780.0
+  },
+  {
+   "item_id": "24501423",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 구마에스앤씨(S&C), GMP01, 보통옹벽블록(대형), W2500×L2500×H440mm, GMP-WALL(A형)",
+   "unit_price": 1486625.3607594937,
+   "category_median": 32100.0,
+   "ratio": 46.312316534563664,
+   "potential_krw": 915202588.0
+  },
+  {
+   "item_id": "25376337",
+   "category": "건물일체형태양광발전장치",
+   "name": "건물일체형태양광발전장치, 스카이패널, SKY-BIPV-BC220-75, 74.52kW급, 지붕일체형",
+   "unit_price": 289400000.0,
+   "category_median": 114098000.0,
+   "ratio": 2.536416063384108,
+   "potential_krw": 914894400.0
+  },
+  {
+   "item_id": "24489308",
+   "category": "태양광발전장치",
+   "name": "태양광발전장치, 쏠라리버, SSR-PV-075-S, 75.285kW급, 계통연계형/고정형, ㅁ형지지대",
+   "unit_price": 163977000.0,
+   "category_median": 61003000.0,
+   "ratio": 2.6880153435076966,
+   "potential_krw": 907734000.0
+  },
+  {
+   "item_id": "23067399",
+   "category": "폐쇄형배전반",
+   "name": "폐쇄형배전반, 신한중전기, SH-열반형-S",
+   "unit_price": 338093433.3333333,
+   "category_median": 30801050.0,
+   "ratio": 10.976685318628206,
+   "potential_krw": 903396520.0
+  },
+  {
+   "item_id": "25376330",
+   "category": "건물일체형태양광발전장치",
+   "name": "건물일체형태양광발전장치, 스카이패널, SKY-BIPV-BC220-95, 94.5kW급, 지붕일체형",
+   "unit_price": 361200000.0,
+   "category_median": 114098000.0,
+   "ratio": 3.165699661694333,
+   "potential_krw": 897129600.0
+  },
+  {
+   "item_id": "24598815",
+   "category": "군용전투조끼",
+   "name": "군용전투조끼, 우일무역, WT-VEST, 전술조끼(육군/A타입/기본형), 봄/여름/가을/겨울",
+   "unit_price": 85500.0,
+   "category_median": 8900.0,
+   "ratio": 9.606741573033707,
+   "potential_krw": 894622740.0
+  },
+  {
+   "item_id": "24274977",
+   "category": "낙석방지책",
+   "name": "낙석방지책, 창광이앤씨, CK4000-1, W500×H4000mm, 단부구간",
+   "unit_price": 5304345.0,
+   "category_median": 40585.862646566165,
+   "ratio": 130.69440081123378,
+   "potential_krw": 893459134.0201005
+  },
+  {
+   "item_id": "25458063",
+   "category": "수중펌프",
+   "name": "수중펌프, 한성산기, 1000-HSI-HISMPMF180, 180kW, 사류형",
+   "unit_price": 247000000.0,
+   "category_median": 22195500.0,
+   "ratio": 11.12838187920975,
+   "potential_krw": 881461600.0
+  },
+  {
+   "item_id": "25111678",
+   "category": "금속기둥",
+   "name": "금속기둥, 태창, TC-H23-06, 350×350×12×19mm, 방음벽지주용",
+   "unit_price": 273500.0,
+   "category_median": 105750.0,
+   "ratio": 2.58628841607565,
+   "potential_krw": 881212600.0
+  },
+  {
+   "item_id": "24718973",
+   "category": "태양광발전장치",
+   "name": "태양광발전장치, 나눔에너지, NEPV-99K-I, 99kW, 지붕부착형",
+   "unit_price": 160573400.0,
+   "category_median": 61003000.0,
+   "ratio": 2.63222136616232,
+   "potential_krw": 873698000.0
+  },
+  {
+   "item_id": "25165858",
+   "category": "건물일체형태양광발전장치",
+   "name": "건물일체형태양광발전장치, 에이비엠, ABM-BIPV-RF100-220T-CW, 100.8kW, 지붕일체형",
+   "unit_price": 354718000.0,
+   "category_median": 114098000.0,
+   "ratio": 3.10888884993602,
+   "potential_krw": 871201600.0
+  },
+  {
+   "item_id": "24320033",
+   "category": "건물일체형태양광발전장치",
+   "name": "건물일체형태양광발전장치, 건기, GUNGI-BIPV-ROOF50-220T, 50.4kW, 지붕일체형",
+   "unit_price": 194585000.0,
+   "category_median": 114098000.0,
+   "ratio": 1.705419902189346,
+   "potential_krw": 865011000.0
+  },
+  {
+   "item_id": "21257191",
+   "category": "일반용유리섬유강화플라스틱관",
+   "name": "일반용유리섬유강화플라스틱관, 스페이스프로, SGRP-011-1650, Φ1650mm, 1bar, 하수용",
+   "unit_price": 664779.7586206896,
+   "category_median": 143702.39126869588,
+   "ratio": 4.6260869617519385,
+   "potential_krw": 856666187.0309631
+  },
+  {
+   "item_id": "24529886",
+   "category": "수중펌프",
+   "name": "수중펌프, 제이에스엔지니어링, JS-SP-900-270M, 270kW, 사류형",
+   "unit_price": 240000000.0,
+   "category_median": 22195500.0,
+   "ratio": 10.813002635669392,
+   "potential_krw": 853461600.0
+  },
+  {
+   "item_id": "22959184",
+   "category": "보조사료",
+   "name": "보조사료, 켐포트, 낫또그로, 아미노산제, 5kg/포",
+   "unit_price": 240000.0,
+   "category_median": 50000.0,
+   "ratio": 4.8,
+   "potential_krw": 846360000.0
+  },
+  {
+   "item_id": "23831123",
+   "category": "분전반",
+   "name": "분전반, 윈텍스, WINTEX-DB01",
+   "unit_price": 43375277.27272727,
+   "category_median": 4145000.0,
+   "ratio": 10.464481851080162,
+   "potential_krw": 844828100.0
+  },
+  {
+   "item_id": "25333666",
+   "category": "중력식여과장치",
+   "name": "중력식여과장치, 피앤아이휴먼코리아, CW-A-36, 10300×6200mm, 750㎥/h",
+   "unit_price": 695000000.0,
+   "category_median": 230000000.0,
+   "ratio": 3.0217391304347827,
+   "potential_krw": 838000000.0
+  },
+  {
+   "item_id": "24793024",
+   "category": "스캐너",
+   "name": "스캐너, Kodak, (CN)S3140 Max, 600dpi",
+   "unit_price": 7679341.26984127,
+   "category_median": 883850.0,
+   "ratio": 8.688511930577892,
+   "potential_krw": 833958880.0
+  },
+  {
+   "item_id": "25045342",
+   "category": "태양광발전장치",
+   "name": "태양광발전장치, 스마트파워, SP-PV-TCS-S-050, 50kW, 계통연계형/고정형",
+   "unit_price": 142500000.0,
+   "category_median": 61003000.0,
+   "ratio": 2.3359506909496255,
+   "potential_krw": 831556800.0
+  },
+  {
+   "item_id": "23737275",
+   "category": "제수밸브",
+   "name": "제수밸브, 대풍건설, SGⅢ-500, Φ500mm×1.0MPa, 수동식/수직형/소프트실부단수(유지보수용보조밸브내장형), GCD450-10",
+   "unit_price": 18998000.0,
+   "category_median": 2056675.3246753246,
+   "ratio": 9.237238261220984,
+   "potential_krw": 826499480.5194806
+  },
+  {
+   "item_id": "24090324",
+   "category": "금속제창",
+   "name": "금속제창, 인익스, IN-DADPM-01, 44mm, 방진방충망/불소수지2회",
+   "unit_price": 48500.0,
+   "category_median": 14591.461988304094,
+   "ratio": 3.323861586924982,
+   "potential_krw": 823007952.7719297
+  },
+  {
+   "item_id": "26316952",
+   "category": "우의",
+   "name": "우의, 진화퍼시픽, 육군 기능성전투우의(레이어링) 상의, 국방규격",
+   "unit_price": 242930.0,
+   "category_median": 59000.0,
+   "ratio": 4.117457627118644,
+   "potential_krw": 821060100.0
+  },
+  {
+   "item_id": "25667929",
+   "category": "영상감시장치",
+   "name": "영상감시장치, 포딕스시스템, Prime5G-SYS-L135, 중앙감시시스템",
+   "unit_price": 18224000.0,
+   "category_median": 3400000.0,
+   "ratio": 5.36,
+   "potential_krw": 820352000.0
+  },
+  {
+   "item_id": "23494850",
+   "category": "도막형바닥재",
+   "name": "도막형바닥재, 동양후로아, FR-5, t5mm, 열경화성수지/MMA",
+   "unit_price": 144988.0750449756,
+   "category_median": 33500.0,
+   "ratio": 4.328002240148525,
+   "potential_krw": 815460800.0
+  },
+  {
+   "item_id": "22551640",
+   "category": "폐쇄형배전반",
+   "name": "폐쇄형배전반, 신정보개발, SJB-열반형-S, 600kVA",
+   "unit_price": 848290500.0,
+   "category_median": 30801050.0,
+   "ratio": 27.540960454270227,
+   "potential_krw": 811329240.0
+  },
+  {
+   "item_id": "24052228",
+   "category": "수도용폴리에틸렌관",
+   "name": "수도용폴리에틸렌관, 동원프라스틱, DWGIS-8-450, 단층, Φ450mm, PE100/SDR17/PN10, 관로탐지(동선)",
+   "unit_price": 106461.67270094134,
+   "category_median": 7290.0,
+   "ratio": 14.603795980924739,
+   "potential_krw": 809655492.0
+  },
+  {
+   "item_id": "24834148",
+   "category": "원격자동검침시스템",
+   "name": "원격자동검침시스템, 유솔, USH-A001-01, 원격검침단말기/LTE-Cat.M1",
+   "unit_price": 2843006.711409396,
+   "category_median": 106087.71929824562,
+   "ratio": 26.798641070007534,
+   "potential_krw": 809279031.5789474
+  },
+  {
+   "item_id": "24513659",
+   "category": "폴리에틸렌피복강관",
+   "name": "폴리에틸렌피복강관, 주성이엔지, JS3LP-C1500B, Φ1500×t11mm, 내부:CNTCOAT RS액상에폭시/외부:PE3층",
+   "unit_price": 976250.5808922938,
+   "category_median": 511419.5775,
+   "ratio": 1.9089034206796547,
+   "potential_krw": 804491988.033
+  },
+  {
+   "item_id": "23307779",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 상일실업, SIC-22, 4000×2000mm(B×H), 1련, 1m미만및3~6m",
+   "unit_price": 2270655.0,
+   "category_median": 865302.5123966942,
+   "ratio": 2.6241169619521783,
+   "potential_krw": 803454374.3008265
+  },
+  {
+   "item_id": "24751750",
+   "category": "분전반",
+   "name": "분전반, 에이치엔테크, HTECH-DIST-S",
+   "unit_price": 38448916.666666664,
+   "category_median": 4145000.0,
+   "ratio": 9.275975070365902,
+   "potential_krw": 803398000.0
+  },
+  {
+   "item_id": "22083659",
+   "category": "폐쇄형배전반",
+   "name": "폐쇄형배전반, 한국이엔씨, HKEC-EHV01, 일반형",
+   "unit_price": 126171911.1111111,
+   "category_median": 30801050.0,
+   "ratio": 4.096350972162024,
+   "potential_krw": 802895860.0
+  },
+  {
+   "item_id": "23924044",
+   "category": "전투복",
+   "name": "전투복, 동계함상복, 하의",
+   "unit_price": 87444.50910023072,
+   "category_median": 39220.0,
+   "ratio": 2.2295897271858927,
+   "potential_krw": 787621830.0
+  },
+  {
+   "item_id": "25268559",
+   "category": "영상감시장치",
+   "name": "영상감시장치, 이노뎁, ICD-1S145, 중앙감시시스템",
+   "unit_price": 45257000.0,
+   "category_median": 3400000.0,
+   "ratio": 13.310882352941176,
+   "potential_krw": 782363000.0
+  },
+  {
+   "item_id": "22839980",
+   "category": "수도용덕타일주철관",
+   "name": "수도용덕타일주철관, Φ800mm×6m, 2종, KP메커니컬/에폭시",
+   "unit_price": 3136010.0,
+   "category_median": 706010.0,
+   "ratio": 4.441877593801787,
+   "potential_krw": 780480118.0
+  }
+ ]
+}
