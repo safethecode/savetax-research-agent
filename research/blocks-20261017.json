@@ -1,0 +1,2854 @@
+{
+ "owner": "blocks",
+ "date": "2026-10-17",
+ "threshold_krw": 600000000,
+ "scope": "full-catalog-priority.parquet(latest-20261017) local_amount_krw≥6e8, 콘크리트호안및옹벽블록·보차도용콘크리트블록·조립식철근콘크리트암거블록·콘크리트벽돌·속빈콘크리트블록·특수블록. lookup 2026-10-17 재조회.",
+ "counts": {
+  "identical_retail_higher": 61,
+  "not_available": 154,
+  "substitute_not_better": 55,
+  "below_threshold": 17,
+  "installed_price": 1,
+  "no_public_price": 1
+ },
+ "state_counts": {
+  "available": 135,
+  "on_hold": 14,
+  "claimed": 138,
+  "claimed_by_me": 2
+ },
+ "ready_packets": [],
+ "preview_calls": 0,
+ "submissions": 0,
+ "tools": {
+  "parallel_search_queries": 11,
+  "jev_browser_plan": 0,
+  "browser_read": 0,
+  "http_reads": "ktomok 목록 19개 카테고리·상세 60개, baucrit, totalblock, 공식 API items 6건"
+ },
+ "sources": {
+  "ktomok_lists": "https://ktomok.com/shop/list.php?ca_id=1010 (1020,1040,1050,5310,5025,5210,5230,5010,5011,5012,5020,5610,5620,6020,6030)",
+  "ktomok_heavy_block": "https://ktomok.com/shop/item.php?it_id=1581999922",
+  "ktomok_chukjo": "https://ktomok.com/shop/item.php?it_id=1581994980",
+  "ktomok_redirock": "https://ktomok.com/shop/item.php?it_id=1582003817",
+  "bau_wall": "https://baucrit.com/products/wall/large",
+  "dj_block": "https://totalblock.co.kr/",
+  "gunjajae_brick": "https://gunjajae114.com/product/%EC%8B%9C%EB%A9%98%ED%8A%B8%EB%B2%BD%EB%8F%8C-%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8%EB%B2%BD%EB%8F%8C/337"
+ },
+ "rows": [
+  {
+   "item_id": "24264200",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 금강피씨, kk2-2520, 2500×2000mm(B×H), 2련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 3345354000,
+   "local_quantity": 1586,
+   "local_unit_price_krw": 2109302,
+   "bmax_for_6e8_krw": 1730992,
+   "required_ratio": 1.22,
+   "verdict": "identical_retail_higher",
+   "note": "2련 2500×2000 동일 규격 케이토목 220T×200T 4,540,000원/2m(VAT 별도)=2,270,000원/m로 공식 평균 2,109,303원/m(VAT 포함, 2 facts·Q1,586m·C3,345,354,000원)보다 높다."
+  },
+  {
+   "item_id": "24889205",
+   "state": "on_hold",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22872083",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 유성콘크리트, YS2-4020, 4000×2000mm(B×H), 2련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 2854817982,
+   "local_quantity": 844,
+   "local_unit_price_krw": 3382485,
+   "bmax_for_6e8_krw": 2671585,
+   "required_ratio": 1.27,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "26119264",
+   "state": "available",
+   "category": "콘크리트벽돌",
+   "name": "콘크리트벽돌, 동원콘크리트, DW-2102, 190×90×57mm, 기본2종",
+   "unit": "매",
+   "local_amount_krw": 2791738523,
+   "local_quantity": 37311652,
+   "local_unit_price_krw": 74,
+   "bmax_for_6e8_krw": 58,
+   "required_ratio": 1.27,
+   "verdict": "identical_retail_higher",
+   "note": "190×90×57 콘크리트벽돌 공개가: 케이토목 52,800원/960장 파렛트(VAT 별도, 55원/장)+25톤 운반비 예상 18,800원/파렛트 → VAT 포함 약 82원/장; 건자재114 125,000원/960장(130원/장, VAT 별도). 조달 평균 70~76원/장(납품장소 차상도)보다 높다."
+  },
+  {
+   "item_id": "23815709",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24060552",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "21084986",
+   "state": "available",
+   "category": "콘크리트벽돌",
+   "name": "콘크리트벽돌, 승일콘크리트, 승일-1, 190×90×57mm, 기본2종",
+   "unit": "장",
+   "local_amount_krw": 2666938829,
+   "local_quantity": 35958247,
+   "local_unit_price_krw": 74,
+   "bmax_for_6e8_krw": 57,
+   "required_ratio": 1.29,
+   "verdict": "identical_retail_higher",
+   "note": "190×90×57 콘크리트벽돌 공개가: 케이토목 52,800원/960장 파렛트(VAT 별도, 55원/장)+25톤 운반비 예상 18,800원/파렛트 → VAT 포함 약 82원/장; 건자재114 125,000원/960장(130원/장, VAT 별도). 조달 평균 70~76원/장(납품장소 차상도)보다 높다."
+  },
+  {
+   "item_id": "22209531",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23220245",
+   "state": "claimed_by_me",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22062407",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23711874",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23251204",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 대진개발, DJ-B1, 보통옹벽블록(대형), W2000×L1000×H850mm, 중간블록",
+   "unit": "㎡",
+   "local_amount_krw": 2059354000,
+   "local_quantity": 7722,
+   "local_unit_price_krw": 266686,
+   "bmax_for_6e8_krw": 188986,
+   "required_ratio": 1.41,
+   "verdict": "substitute_not_better",
+   "note": "DJ-B1은 W2000×깊이1000×H850 시스템 블록이다(전단키·연결키, 6m 간격 철근 기둥체, 기초블록 콘크리트 채움; totalblock.co.kr 제품소개). 공개가가 확인된 무거운 대안 케이토목 조립식옹벽블록 1200×600×600(850kg, 28N/㎟, 42,000원/개 VAT·운임 별도)은 깊이가 600mm로 40% 짧고 일체화 구조도 없다. fact별 산술 상한은 14.49억 원이지만 \"명확히 우수한 대체품\" 조건을 충족하지 않아 후보가 아니다."
+  },
+  {
+   "item_id": "20880416",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24072887",
+   "state": "claimed_by_me",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "25481853",
+   "state": "on_hold",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23413054",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23188568",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23544141",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22475551",
+   "state": "available",
+   "category": "콘크리트벽돌",
+   "name": "콘크리트벽돌, 현대기업사, HD-1, 190×90×57mm, 기본2종",
+   "unit": "개",
+   "local_amount_krw": 1839264343,
+   "local_quantity": 24205805,
+   "local_unit_price_krw": 75,
+   "bmax_for_6e8_krw": 51,
+   "required_ratio": 1.48,
+   "verdict": "identical_retail_higher",
+   "note": "190×90×57 콘크리트벽돌 공개가: 케이토목 52,800원/960장 파렛트(VAT 별도, 55원/장)+25톤 운반비 예상 18,800원/파렛트 → VAT 포함 약 82원/장; 건자재114 125,000원/960장(130원/장, VAT 별도). 조달 평균 70~76원/장(납품장소 차상도)보다 높다."
+  },
+  {
+   "item_id": "24919346",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22500014",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22452292",
+   "state": "available",
+   "category": "콘크리트벽돌",
+   "name": "콘크리트벽돌, 신흥콘크리트산업, SH1, 190×90×57mm, 기본2종",
+   "unit": "개",
+   "local_amount_krw": 1746421253,
+   "local_quantity": 23237820,
+   "local_unit_price_krw": 75,
+   "bmax_for_6e8_krw": 49,
+   "required_ratio": 1.52,
+   "verdict": "identical_retail_higher",
+   "note": "190×90×57 콘크리트벽돌 공개가: 케이토목 52,800원/960장 파렛트(VAT 별도, 55원/장)+25톤 운반비 예상 18,800원/파렛트 → VAT 포함 약 82원/장; 건자재114 125,000원/960장(130원/장, VAT 별도). 조달 평균 70~76원/장(납품장소 차상도)보다 높다."
+  },
+  {
+   "item_id": "24264207",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 금강피씨, kk2-3525, 3500×2500mm(B×H), 2련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 1733952000,
+   "local_quantity": 528,
+   "local_unit_price_krw": 3284000,
+   "bmax_for_6e8_krw": 2147636,
+   "required_ratio": 1.53,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "24905385",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "21508809",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23534084",
+   "state": "available",
+   "category": "보차도용콘크리트블록",
+   "name": "보차도용콘크리트블록, 홍우비앤티, PBN-20206G, 200×200×60mm, 싸인블록, 고반사민무늬형, 불투수",
+   "unit": "개",
+   "local_amount_krw": 1718552000,
+   "local_quantity": 51920,
+   "local_unit_price_krw": 33100,
+   "bmax_for_6e8_krw": 21543,
+   "required_ratio": 1.54,
+   "verdict": "substitute_not_better",
+   "note": "고반사 싸인블록. 반사 기능 없는 일반 블록으로 대체할 수 없음(기존 concrete-focus 기록 재사용)."
+  },
+  {
+   "item_id": "23113728",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23815682",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24105495",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "25543893",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22091464",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 신광콘크리트, KJC-250A, 보통호안블록(대형), W1000×L1000×H250mm, 자연형호안블록",
+   "unit": "개",
+   "local_amount_krw": 1634046610,
+   "local_quantity": 65966,
+   "local_unit_price_krw": 24771,
+   "bmax_for_6e8_krw": 15675,
+   "required_ratio": 1.58,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 15,675원도 넘는다."
+  },
+  {
+   "item_id": "22468773",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "21051126",
+   "state": "available",
+   "category": "콘크리트벽돌",
+   "name": "콘크리트벽돌, 제일산업, je-1, 190×90×57mm, 기본2종",
+   "unit": "개",
+   "local_amount_krw": 1588648978,
+   "local_quantity": 20809375,
+   "local_unit_price_krw": 76,
+   "bmax_for_6e8_krw": 47,
+   "required_ratio": 1.61,
+   "verdict": "identical_retail_higher",
+   "note": "190×90×57 콘크리트벽돌 공개가: 케이토목 52,800원/960장 파렛트(VAT 별도, 55원/장)+25톤 운반비 예상 18,800원/파렛트 → VAT 포함 약 82원/장; 건자재114 125,000원/960장(130원/장, VAT 별도). 조달 평균 70~76원/장(납품장소 차상도)보다 높다."
+  },
+  {
+   "item_id": "23629272",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 신광콘크리트, SK-AD, 보통옹벽블록(대형), W1000×L750×H500mm, 축조500",
+   "unit": "개",
+   "local_amount_krw": 1584871595,
+   "local_quantity": 51813,
+   "local_unit_price_krw": 30588,
+   "bmax_for_6e8_krw": 19008,
+   "required_ratio": 1.61,
+   "verdict": "substitute_not_better",
+   "note": "대형 축조·식생 옹벽블록(개, 전면 0.5㎡급). 유일한 공개 저가 대안 케이토목 축조블록 1000×500×700(21,500원/개 VAT·운임 별도)은 290~330kg·압축강도 25N/㎟ 내외로, 같은 급 대형블록(bau b750 1000×725×500 750kg)보다 가볍고 강도도 우수하지 않다. 무거운 28N/㎟ 조립식옹벽블록 1200×600×600은 0.5㎡당 약 39,264원(VAT·운임 포함)이라 깊이 600mm로 짧고 차액도 6억 원 미달. 6억 원 상한 B 19,008원/개."
+  },
+  {
+   "item_id": "25648384",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 청호산업, CH2501-02, 4000×3000mm(B×H), 2련, 상하분리형",
+   "unit": "m",
+   "local_amount_krw": 1581792300,
+   "local_quantity": 433,
+   "local_unit_price_krw": 3653100,
+   "bmax_for_6e8_krw": 2267418,
+   "required_ratio": 1.61,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "22319778",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22821953",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24087494",
+   "state": "on_hold",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23035364",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23349420",
+   "state": "available",
+   "category": "콘크리트벽돌",
+   "name": "콘크리트벽돌, 라미그린텍, rami-100, 190×90×57mm, 기본2종",
+   "unit": "개",
+   "local_amount_krw": 1520243120,
+   "local_quantity": 21499646,
+   "local_unit_price_krw": 70,
+   "bmax_for_6e8_krw": 42,
+   "required_ratio": 1.65,
+   "verdict": "identical_retail_higher",
+   "note": "190×90×57 콘크리트벽돌 공개가: 케이토목 52,800원/960장 파렛트(VAT 별도, 55원/장)+25톤 운반비 예상 18,800원/파렛트 → VAT 포함 약 82원/장; 건자재114 125,000원/960장(130원/장, VAT 별도). 조달 평균 70~76원/장(납품장소 차상도)보다 높다."
+  },
+  {
+   "item_id": "23865966",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23535524",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23307779",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 상일실업, SIC-22, 4000×2000mm(B×H), 1련, 1m미만및3~6m",
+   "unit": "m",
+   "local_amount_krw": 1480467060,
+   "local_quantity": 652,
+   "local_unit_price_krw": 2270655,
+   "bmax_for_6e8_krw": 1350409,
+   "required_ratio": 1.68,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "24433139",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24262753",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 금강피씨, kk1-6025, 6000×2500mm(B×H), 1련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 1463760000,
+   "local_quantity": 304,
+   "local_unit_price_krw": 4815000,
+   "bmax_for_6e8_krw": 2841315,
+   "required_ratio": 1.69,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "21818210",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24267392",
+   "state": "on_hold",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "21711313",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 동양건재산업, FPDY-700, 보통옹벽블록(대형), W1000×L700×H500mm, FP볼트체결식환경블록",
+   "unit": "개",
+   "local_amount_krw": 1407041370,
+   "local_quantity": 33274,
+   "local_unit_price_krw": 42286,
+   "bmax_for_6e8_krw": 24254,
+   "required_ratio": 1.74,
+   "verdict": "substitute_not_better",
+   "note": "대형 축조·식생 옹벽블록(개, 전면 0.5㎡급). 유일한 공개 저가 대안 케이토목 축조블록 1000×500×700(21,500원/개 VAT·운임 별도)은 290~330kg·압축강도 25N/㎟ 내외로, 같은 급 대형블록(bau b750 1000×725×500 750kg)보다 가볍고 강도도 우수하지 않다. 무거운 28N/㎟ 조립식옹벽블록 1200×600×600은 0.5㎡당 약 39,264원(VAT·운임 포함)이라 깊이 600mm로 짧고 차액도 6억 원 미달. 6억 원 상한 B 24,254원/개."
+  },
+  {
+   "item_id": "22480760",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 예공, YG1-2020, 2000×2000mm(B×H), 1련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 1380943242,
+   "local_quantity": 1883,
+   "local_unit_price_krw": 733374,
+   "bmax_for_6e8_krw": 414733,
+   "required_ratio": 1.77,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "22535322",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 부흥콘크리트, BH-28, 3000×1500mm(B×H), 1련, 1m미만및3~6m",
+   "unit": "m",
+   "local_amount_krw": 1370302934,
+   "local_quantity": 862,
+   "local_unit_price_krw": 1589678,
+   "bmax_for_6e8_krw": 893622,
+   "required_ratio": 1.78,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "22977711",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "20704042",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 세영, SS-V002, 보통옹벽블록(대형), W1000×L700×H1000mm, 산수뷰(무색), 환경옹벽블록",
+   "unit": "㎡",
+   "local_amount_krw": 1360885640,
+   "local_quantity": 11962,
+   "local_unit_price_krw": 113767,
+   "bmax_for_6e8_krw": 63608,
+   "required_ratio": 1.79,
+   "verdict": "below_threshold",
+   "note": "공식 25 facts·Q11,962㎡·C1,360,885,640원. 28N/㎟·850kg 조립식옹벽블록(0.72㎡/개, 42,000원+운임 9,400원/개 예상, VAT 10%)을 fact별 개수·차량 올림으로 적용해도 차액 상한 417,580,640원으로 6억 원 미달. 원품 자중과 깊이(700mm 대비 600mm) 우위도 미확인."
+  },
+  {
+   "item_id": "22924491",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 대창디에스, DC-DCP01, 보통옹벽블록(대형), W1480×L1480×H260mm, DCP패널블록",
+   "unit": "개",
+   "local_amount_krw": 1355140100,
+   "local_quantity": 3579,
+   "local_unit_price_krw": 378636,
+   "bmax_for_6e8_krw": 210991,
+   "required_ratio": 1.79,
+   "verdict": "substitute_not_better",
+   "note": "케이토목 PC판넬옹벽 1500×1500×200mm·1400kg 308,000원/개(VAT·운임 별도, VAT 포함 338,800원)는 원품 DCP 1480×1480×260mm보다 얇고, 가격도 6억 원 기준 상한 B 210,991원보다 높다(기존 bulk 기록 재사용)."
+  },
+  {
+   "item_id": "24846848",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "21743345",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22764814",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 한일에코산업, HEB-63, 보통옹벽블록(대형), W1000×L750×H500mm, 축조블록",
+   "unit": "㎡",
+   "local_amount_krw": 1314011160,
+   "local_quantity": 15331,
+   "local_unit_price_krw": 85709,
+   "bmax_for_6e8_krw": 46573,
+   "required_ratio": 1.84,
+   "verdict": "below_threshold",
+   "note": "공식 93 facts·Q15,331㎡·C1,314,011,160원. 조립식옹벽블록 조건에서 1.2배 가격차 통과 fact 0건."
+  },
+  {
+   "item_id": "23708651",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23003056",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22793015",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "21277103",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 유수산업, SMG1-3020, 3000×2000mm(B×H), 1련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 1305001584,
+   "local_quantity": 1084,
+   "local_unit_price_krw": 1203876,
+   "bmax_for_6e8_krw": 650370,
+   "required_ratio": 1.85,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "22375444",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 상원그린콘, SW-004, 보통호안블록(대형), W1000×L1000×H250mm, 식생블록",
+   "unit": "개",
+   "local_amount_krw": 1283555610,
+   "local_quantity": 62768,
+   "local_unit_price_krw": 20449,
+   "bmax_for_6e8_krw": 10890,
+   "required_ratio": 1.88,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 10,890원도 넘는다."
+  },
+  {
+   "item_id": "21842559",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 삼호콘크리트, SH40301, 4000×3000mm(B×H), 1련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 1275689898,
+   "local_quantity": 597,
+   "local_unit_price_krw": 2136834,
+   "bmax_for_6e8_krw": 1131808,
+   "required_ratio": 1.89,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "23467102",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22775133",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 덕산콘크리트, DSBOX1a2020-01, 2000×2000mm(B×H), 1련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 1268857788,
+   "local_quantity": 1568,
+   "local_unit_price_krw": 809220,
+   "bmax_for_6e8_krw": 426567,
+   "required_ratio": 1.9,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "22549029",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 한양산업개발, HYDB2-2020, 2000×2000mm(B×H), 2련, 1m미만및3~6m",
+   "unit": "m",
+   "local_amount_krw": 1268344332,
+   "local_quantity": 766,
+   "local_unit_price_krw": 1655802,
+   "bmax_for_6e8_krw": 872512,
+   "required_ratio": 1.9,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "24437458",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 상원그린콘, SW-089, 보통옹벽블록(대형), W1000×L750×H500mm, 축조블록",
+   "unit": "개",
+   "local_amount_krw": 1266631310,
+   "local_quantity": 49269,
+   "local_unit_price_krw": 25708,
+   "bmax_for_6e8_krw": 13530,
+   "required_ratio": 1.9,
+   "verdict": "substitute_not_better",
+   "note": "대형 축조·식생 옹벽블록(개, 전면 0.5㎡급). 유일한 공개 저가 대안 케이토목 축조블록 1000×500×700(21,500원/개 VAT·운임 별도)은 290~330kg·압축강도 25N/㎟ 내외로, 같은 급 대형블록(bau b750 1000×725×500 750kg)보다 가볍고 강도도 우수하지 않다. 무거운 28N/㎟ 조립식옹벽블록 1200×600×600은 0.5㎡당 약 39,264원(VAT·운임 포함)이라 깊이 600mm로 짧고 차액도 6억 원 미달. 6억 원 상한 B 13,530원/개."
+  },
+  {
+   "item_id": "21793776",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24363602",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 대흥콘크리트, DH3026, 보통옹벽블록(대형), W1000×L600×H500mm, DH자연생태블록500A형",
+   "unit": "㎡",
+   "local_amount_krw": 1255846110,
+   "local_quantity": 10316,
+   "local_unit_price_krw": 121737,
+   "bmax_for_6e8_krw": 63575,
+   "required_ratio": 1.91,
+   "verdict": "below_threshold",
+   "note": "공식 51 facts·Q10,316㎡·C1,255,846,110원. 같은 조립식옹벽블록 조건의 차액 상한 436,718,510원(gap 통과 50 facts)으로 6억 원 미달. 원품 W1000×L600×H500과 깊이 동일, 우수성 근거 없음."
+  },
+  {
+   "item_id": "23303026",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 서호에코탑, SH-W0050, 보통옹벽블록(중소형), W230×L250×H150mm, 크레타, 컬러",
+   "unit": "㎡",
+   "local_amount_krw": 1255478400,
+   "local_quantity": 10470,
+   "local_unit_price_krw": 119911,
+   "bmax_for_6e8_krw": 62605,
+   "required_ratio": 1.92,
+   "verdict": "substitute_not_better",
+   "note": "중소형 조경 옹벽블록(㎡). 공개 저가 대안인 케이토목 보강토블록은 압축강도 24~25N/㎟ 내외로 명확히 우수하지 않다. 동일 모델 공개가 없음. 6억 원 상한 B 62,605원/㎡."
+  },
+  {
+   "item_id": "22879681",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 우미산업, WMPC2-3020, 3000×2000mm(B×H), 2련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 1252199147,
+   "local_quantity": 559,
+   "local_unit_price_krw": 2240070,
+   "bmax_for_6e8_krw": 1166724,
+   "required_ratio": 1.92,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "23993443",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24633307",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24258696",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "25295245",
+   "state": "available",
+   "category": "특수블록",
+   "name": "특수블록, 유풍산업, YP-WB-A01, 1000×1000×150mm, 우드식생블록",
+   "unit": "조",
+   "local_amount_krw": 1215840000,
+   "local_quantity": 3576,
+   "local_unit_price_krw": 340000,
+   "bmax_for_6e8_krw": 172214,
+   "required_ratio": 1.97,
+   "verdict": "installed_price",
+   "note": "인도조건 현장설치도(설치 포함 등재가). 공개 설치 포함 가격 없음(industrial 기록 재사용)."
+  },
+  {
+   "item_id": "24408178",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22435301",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24179846",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22692311",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 토지, TJPB250-1, 보통호안블록(대형), W1000×L1000×H250mm, 녹색블록",
+   "unit": "개",
+   "local_amount_krw": 1180627170,
+   "local_quantity": 51816,
+   "local_unit_price_krw": 22784,
+   "bmax_for_6e8_krw": 11205,
+   "required_ratio": 2.03,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 11,205원도 넘는다."
+  },
+  {
+   "item_id": "20976556",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 삼호콘크리트, SH40201, 4000×2000mm(B×H), 1련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 1177836912,
+   "local_quantity": 632,
+   "local_unit_price_krw": 1863666,
+   "bmax_for_6e8_krw": 914298,
+   "required_ratio": 2.04,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "23367286",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "25279502",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 창대산업, CDR-12, 보통호안블록(대형), W1000×L1000×H200mm, 식생블록",
+   "unit": "개",
+   "local_amount_krw": 1167495580,
+   "local_quantity": 49256,
+   "local_unit_price_krw": 23702,
+   "bmax_for_6e8_krw": 11521,
+   "required_ratio": 2.06,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 11,521원도 넘는다."
+  },
+  {
+   "item_id": "23353583",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22698744",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 디와이산업, DY-H250A-1, 보통호안블록(대형), W1000×L1000×H250mm",
+   "unit": "개",
+   "local_amount_krw": 1161164550,
+   "local_quantity": 46562,
+   "local_unit_price_krw": 24938,
+   "bmax_for_6e8_krw": 12051,
+   "required_ratio": 2.07,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 12,051원도 넘는다."
+  },
+  {
+   "item_id": "22913285",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23601900",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23676490",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 이노블록, 60M, 보통옹벽블록(대형), W1220×L610×H410mm, 리콘월",
+   "unit": "㎡",
+   "local_amount_krw": 1135331110,
+   "local_quantity": 4250,
+   "local_unit_price_krw": 267136,
+   "bmax_for_6e8_krw": 125960,
+   "required_ratio": 2.12,
+   "verdict": "below_threshold",
+   "note": "대형 옹벽블록(㎡). 28N/㎟·850kg 조립식옹벽블록 기준 VAT·운임 포함 약 78,528원/㎡가 6억 원 상한 B 125,960원/㎡ 이하가 아니거나 깊이·자중 우위 미확인. 동일 모델 공개가 없음."
+  },
+  {
+   "item_id": "22521232",
+   "state": "available",
+   "category": "콘크리트벽돌",
+   "name": "콘크리트벽돌, 양주산업, YJS-01, 190×90×57mm, 기본2종",
+   "unit": "개",
+   "local_amount_krw": 1126667553,
+   "local_quantity": 15031054,
+   "local_unit_price_krw": 74,
+   "bmax_for_6e8_krw": 35,
+   "required_ratio": 2.14,
+   "verdict": "identical_retail_higher",
+   "note": "190×90×57 콘크리트벽돌 공개가: 케이토목 52,800원/960장 파렛트(VAT 별도, 55원/장)+25톤 운반비 예상 18,800원/파렛트 → VAT 포함 약 82원/장; 건자재114 125,000원/960장(130원/장, VAT 별도). 조달 평균 70~76원/장(납품장소 차상도)보다 높다."
+  },
+  {
+   "item_id": "23176908",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 신성콘크리트, SS101, 보통호안블록(대형), W1000×L1000×H250mm, 생태블록250",
+   "unit": "개",
+   "local_amount_krw": 1123890178,
+   "local_quantity": 28550,
+   "local_unit_price_krw": 39365,
+   "bmax_for_6e8_krw": 18349,
+   "required_ratio": 2.15,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 18,349원도 넘는다."
+  },
+  {
+   "item_id": "23352009",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24416284",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "25129739",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24827918",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "25492101",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "21943851",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23376542",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22952074",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 오성그린콘크리트, OSH200E1, 보통호안블록(대형), W1000×L1000×H200mm, 자연형/E1형",
+   "unit": "개",
+   "local_amount_krw": 1085918400,
+   "local_quantity": 32232,
+   "local_unit_price_krw": 33690,
+   "bmax_for_6e8_krw": 15075,
+   "required_ratio": 2.23,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 15,075원도 넘는다."
+  },
+  {
+   "item_id": "21668014",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 덕산엠앤씨, DSB10-03, 보통옹벽블록(대형), W1000×L750×H500mm, 식생축조블록",
+   "unit": "개",
+   "local_amount_krw": 1084630900,
+   "local_quantity": 21457,
+   "local_unit_price_krw": 50549,
+   "bmax_for_6e8_krw": 22586,
+   "required_ratio": 2.24,
+   "verdict": "substitute_not_better",
+   "note": "대형 축조·식생 옹벽블록(개, 전면 0.5㎡급). 유일한 공개 저가 대안 케이토목 축조블록 1000×500×700(21,500원/개 VAT·운임 별도)은 290~330kg·압축강도 25N/㎟ 내외로, 같은 급 대형블록(bau b750 1000×725×500 750kg)보다 가볍고 강도도 우수하지 않다. 무거운 28N/㎟ 조립식옹벽블록 1200×600×600은 0.5㎡당 약 39,264원(VAT·운임 포함)이라 깊이 600mm로 짧고 차액도 6억 원 미달. 6억 원 상한 B 22,586원/개."
+  },
+  {
+   "item_id": "22902561",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 제일산업, jeil-1, 보통옹벽블록(대형), W1000×L670×H500mm, 축조블록, 무색",
+   "unit": "개",
+   "local_amount_krw": 1083931254,
+   "local_quantity": 22953,
+   "local_unit_price_krw": 47223,
+   "bmax_for_6e8_krw": 21083,
+   "required_ratio": 2.24,
+   "verdict": "substitute_not_better",
+   "note": "대형 축조·식생 옹벽블록(개, 전면 0.5㎡급). 유일한 공개 저가 대안 케이토목 축조블록 1000×500×700(21,500원/개 VAT·운임 별도)은 290~330kg·압축강도 25N/㎟ 내외로, 같은 급 대형블록(bau b750 1000×725×500 750kg)보다 가볍고 강도도 우수하지 않다. 무거운 28N/㎟ 조립식옹벽블록 1200×600×600은 0.5㎡당 약 39,264원(VAT·운임 포함)이라 깊이 600mm로 짧고 차액도 6억 원 미달. 6억 원 상한 B 21,083원/개."
+  },
+  {
+   "item_id": "22533116",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22177448",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 부영, BYB-750, 보통옹벽블록(대형), W1000×L750×H500mm, 식생축조블록",
+   "unit": "개",
+   "local_amount_krw": 1062574120,
+   "local_quantity": 21659,
+   "local_unit_price_krw": 49059,
+   "bmax_for_6e8_krw": 21357,
+   "required_ratio": 2.3,
+   "verdict": "substitute_not_better",
+   "note": "대형 축조·식생 옹벽블록(개, 전면 0.5㎡급). 유일한 공개 저가 대안 케이토목 축조블록 1000×500×700(21,500원/개 VAT·운임 별도)은 290~330kg·압축강도 25N/㎟ 내외로, 같은 급 대형블록(bau b750 1000×725×500 750kg)보다 가볍고 강도도 우수하지 않다. 무거운 28N/㎟ 조립식옹벽블록 1200×600×600은 0.5㎡당 약 39,264원(VAT·운임 포함)이라 깊이 600mm로 짧고 차액도 6억 원 미달. 6억 원 상한 B 21,357원/개."
+  },
+  {
+   "item_id": "22468772",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24264211",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 금강피씨, kk2-4025, 4000×2500mm(B×H), 2련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 1045688000,
+   "local_quantity": 284,
+   "local_unit_price_krw": 3682000,
+   "bmax_for_6e8_krw": 1569323,
+   "required_ratio": 2.35,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "21713507",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 태성콘크리트, TC-H05, 보통옹벽블록(대형), W1000×L750×H500mm, 대형식생축조블록",
+   "unit": "개",
+   "local_amount_krw": 1045157520,
+   "local_quantity": 21902,
+   "local_unit_price_krw": 47719,
+   "bmax_for_6e8_krw": 20324,
+   "required_ratio": 2.35,
+   "verdict": "substitute_not_better",
+   "note": "대형 축조·식생 옹벽블록(개, 전면 0.5㎡급). 유일한 공개 저가 대안 케이토목 축조블록 1000×500×700(21,500원/개 VAT·운임 별도)은 290~330kg·압축강도 25N/㎟ 내외로, 같은 급 대형블록(bau b750 1000×725×500 750kg)보다 가볍고 강도도 우수하지 않다. 무거운 28N/㎟ 조립식옹벽블록 1200×600×600은 0.5㎡당 약 39,264원(VAT·운임 포함)이라 깊이 600mm로 짧고 차액도 6억 원 미달. 6억 원 상한 B 20,324원/개."
+  },
+  {
+   "item_id": "23543252",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24262715",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 금강피씨, kk1-2518, 2500×1800mm(B×H), 1련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 1039959000,
+   "local_quantity": 1041,
+   "local_unit_price_krw": 999000,
+   "bmax_for_6e8_krw": 422631,
+   "required_ratio": 2.36,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "23688774",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "21838254",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 다성기업, NB-G200, 보통호안블록(대형), W1000×L1000×H200mm, 그린홀식생블록",
+   "unit": "개",
+   "local_amount_krw": 1025032020,
+   "local_quantity": 34831,
+   "local_unit_price_krw": 29428,
+   "bmax_for_6e8_krw": 12202,
+   "required_ratio": 2.41,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 12,202원도 넘는다."
+  },
+  {
+   "item_id": "23145682",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22558143",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 삼호콘크리트, SH40202-E1, 4000×2000mm(B×H), 2련, 1m미만및3~6m",
+   "unit": "m",
+   "local_amount_krw": 1016506908,
+   "local_quantity": 306,
+   "local_unit_price_krw": 3321918,
+   "bmax_for_6e8_krw": 1361133,
+   "required_ratio": 2.44,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "20964106",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 지구코퍼레이션, JG1-2020, 2000×2000mm(B×H), 1련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 1015560018,
+   "local_quantity": 1373,
+   "local_unit_price_krw": 739664,
+   "bmax_for_6e8_krw": 302665,
+   "required_ratio": 2.44,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "23640601",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "25505014",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 대흥콘크리트, DH3045, 보통옹벽블록(중소형), W408×L260×H150mm, 컨츄리네이처",
+   "unit": "㎡",
+   "local_amount_krw": 1005947695,
+   "local_quantity": 6696,
+   "local_unit_price_krw": 150231,
+   "bmax_for_6e8_krw": 60625,
+   "required_ratio": 2.48,
+   "verdict": "substitute_not_better",
+   "note": "중소형 조경 옹벽블록(㎡). 공개 저가 대안인 케이토목 보강토블록은 압축강도 24~25N/㎟ 내외로 명확히 우수하지 않다. 동일 모델 공개가 없음. 6억 원 상한 B 60,625원/㎡."
+  },
+  {
+   "item_id": "23269527",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 영등산업, YD-CM2, 보통옹벽블록(중소형), W260×L410×H150mm, 매너본체블록",
+   "unit": "㎡",
+   "local_amount_krw": 1005071210,
+   "local_quantity": 7099,
+   "local_unit_price_krw": 141579,
+   "bmax_for_6e8_krw": 57060,
+   "required_ratio": 2.48,
+   "verdict": "substitute_not_better",
+   "note": "중소형 조경 옹벽블록(㎡). 공개 저가 대안인 케이토목 보강토블록은 압축강도 24~25N/㎟ 내외로 명확히 우수하지 않다. 동일 모델 공개가 없음. 6억 원 상한 B 57,060원/㎡."
+  },
+  {
+   "item_id": "22138834",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 우리콘크리트, WRCN121, 보통옹벽블록(중소형), W500×L500×H250mm, 생태견치블록, 스크래치형",
+   "unit": "개",
+   "local_amount_krw": 1003563550,
+   "local_quantity": 118021,
+   "local_unit_price_krw": 8503,
+   "bmax_for_6e8_krw": 3419,
+   "required_ratio": 2.49,
+   "verdict": "substitute_not_better",
+   "note": "중소형 조경 옹벽블록(㎡). 공개 저가 대안인 케이토목 보강토블록은 압축강도 24~25N/㎟ 내외로 명확히 우수하지 않다. 동일 모델 공개가 없음. 6억 원 상한 B 3,419원/개."
+  },
+  {
+   "item_id": "23835911",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 태성, TS-750, 보통옹벽블록(대형), W1000×L750×H500mm, 축조블록",
+   "unit": "개",
+   "local_amount_krw": 993109850,
+   "local_quantity": 23366,
+   "local_unit_price_krw": 42502,
+   "bmax_for_6e8_krw": 16824,
+   "required_ratio": 2.53,
+   "verdict": "substitute_not_better",
+   "note": "대형 축조·식생 옹벽블록(개, 전면 0.5㎡급). 유일한 공개 저가 대안 케이토목 축조블록 1000×500×700(21,500원/개 VAT·운임 별도)은 290~330kg·압축강도 25N/㎟ 내외로, 같은 급 대형블록(bau b750 1000×725×500 750kg)보다 가볍고 강도도 우수하지 않다. 무거운 28N/㎟ 조립식옹벽블록 1200×600×600은 0.5㎡당 약 39,264원(VAT·운임 포함)이라 깊이 600mm로 짧고 차액도 6억 원 미달. 6억 원 상한 B 16,824원/개."
+  },
+  {
+   "item_id": "23101366",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 지랜드피씨, GD04-3020, 3000×2000mm(B×H), 2련, 1m미만및3~6m",
+   "unit": "m",
+   "local_amount_krw": 991485000,
+   "local_quantity": 333,
+   "local_unit_price_krw": 2977432,
+   "bmax_for_6e8_krw": 1175630,
+   "required_ratio": 2.53,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "22163216",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 일신콘크리트, IS-250, 보통호안블록(대형), W1000×L1000×H250mm, 환경식생블록",
+   "unit": "㎡",
+   "local_amount_krw": 987014820,
+   "local_quantity": 26197,
+   "local_unit_price_krw": 37676,
+   "bmax_for_6e8_krw": 14773,
+   "required_ratio": 2.55,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 14,773원도 넘는다."
+  },
+  {
+   "item_id": "20976534",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 삼호콘크리트, SH20201, 2000×2000mm(B×H), 1련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 982749135,
+   "local_quantity": 1342,
+   "local_unit_price_krw": 732301,
+   "bmax_for_6e8_krw": 285207,
+   "required_ratio": 2.57,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "24695465",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23220249",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 이노블록, MH-6S-R(L), 보통옹벽블록(중소형), W435×L250×H150mm, 멀티하이트스톤",
+   "unit": "㎡",
+   "local_amount_krw": 977409972,
+   "local_quantity": 7053,
+   "local_unit_price_krw": 138580,
+   "bmax_for_6e8_krw": 53510,
+   "required_ratio": 2.59,
+   "verdict": "substitute_not_better",
+   "note": "중소형 조경 옹벽블록(㎡). 공개 저가 대안인 케이토목 보강토블록은 압축강도 24~25N/㎟ 내외로 명확히 우수하지 않다. 동일 모델 공개가 없음. 6억 원 상한 B 53,510원/㎡."
+  },
+  {
+   "item_id": "23658615",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23522721",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22480802",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 예공, YG2-3525, 3500×2500mm(B×H), 2련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 967991778,
+   "local_quantity": 338,
+   "local_unit_price_krw": 2863881,
+   "bmax_for_6e8_krw": 1088733,
+   "required_ratio": 2.63,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "25074125",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23267821",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22985499",
+   "state": "on_hold",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24480469",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "21800370",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 유수산업, SMG2-3525, 3500×2500mm(B×H), 2련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 954676863,
+   "local_quantity": 371,
+   "local_unit_price_krw": 2573253,
+   "bmax_for_6e8_krw": 956002,
+   "required_ratio": 2.69,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "22906203",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 동산콘크리트산업, EMECO-SA25, 보통호안블록(대형), W1000×L1000×H250mm, 이엠블록/유용미생물첨가",
+   "unit": "㎡",
+   "local_amount_krw": 942234720,
+   "local_quantity": 29443,
+   "local_unit_price_krw": 32001,
+   "bmax_for_6e8_krw": 11623,
+   "required_ratio": 2.75,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 11,623원도 넘는다."
+  },
+  {
+   "item_id": "24501423",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 구마에스앤씨(S&C), GMP01, 보통옹벽블록(대형), W2500×L2500×H440mm, GMP-WALL(A형)",
+   "unit": "개",
+   "local_amount_krw": 939547228,
+   "local_quantity": 632,
+   "local_unit_price_krw": 1486625,
+   "bmax_for_6e8_krw": 537258,
+   "required_ratio": 2.77,
+   "verdict": "substitute_not_better",
+   "note": "대형 축조·식생 옹벽블록(개, 전면 0.5㎡급). 유일한 공개 저가 대안 케이토목 축조블록 1000×500×700(21,500원/개 VAT·운임 별도)은 290~330kg·압축강도 25N/㎟ 내외로, 같은 급 대형블록(bau b750 1000×725×500 750kg)보다 가볍고 강도도 우수하지 않다. 무거운 28N/㎟ 조립식옹벽블록 1200×600×600은 0.5㎡당 약 39,264원(VAT·운임 포함)이라 깊이 600mm로 짧고 차액도 6억 원 미달. 6억 원 상한 B 537,258원/개."
+  },
+  {
+   "item_id": "23640598",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22539195",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23426660",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "25345192",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23691249",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22148751",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23500891",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23198947",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23807875",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 에코이노텍, EPCS2-2020, 2000×2000mm(B×H), 2련, 1m미만및3~6m",
+   "unit": "m",
+   "local_amount_krw": 904886848,
+   "local_quantity": 509,
+   "local_unit_price_krw": 1777773,
+   "bmax_for_6e8_krw": 598991,
+   "required_ratio": 2.97,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "25485476",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "21276680",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 청호산업, KC1121, 2000×2000mm(B×H), 1련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 902147148,
+   "local_quantity": 1231,
+   "local_unit_price_krw": 732857,
+   "bmax_for_6e8_krw": 245448,
+   "required_ratio": 2.99,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "25249873",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 토지, TJ-260A, 보통호안블록(대형), W1000×L1000×H260mm, 녹색블록",
+   "unit": "개",
+   "local_amount_krw": 898097060,
+   "local_quantity": 29506,
+   "local_unit_price_krw": 30437,
+   "bmax_for_6e8_krw": 10102,
+   "required_ratio": 3.01,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 10,102원도 넘는다."
+  },
+  {
+   "item_id": "22773213",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 덕산콘크리트, DSBOX1a2020-02, 2000×2000mm(B×H), 1련, 1m미만및3~6m",
+   "unit": "m",
+   "local_amount_krw": 893747520,
+   "local_quantity": 858,
+   "local_unit_price_krw": 1041663,
+   "bmax_for_6e8_krw": 342363,
+   "required_ratio": 3.04,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "23587227",
+   "state": "on_hold",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22937687",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 주원산업, JW-14, 보통호안블록(대형), W1000×L1000×H200mm, 환경블록",
+   "unit": "개",
+   "local_amount_krw": 892879810,
+   "local_quantity": 43026,
+   "local_unit_price_krw": 20752,
+   "bmax_for_6e8_krw": 6807,
+   "required_ratio": 3.05,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 6,807원도 넘는다."
+  },
+  {
+   "item_id": "22335767",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 이노블록, OC-SET, 보통옹벽블록(대형), W1520×L470×H305mm, 아웃크라핑",
+   "unit": "㎡",
+   "local_amount_krw": 891966190,
+   "local_quantity": 2723,
+   "local_unit_price_krw": 327567,
+   "bmax_for_6e8_krw": 107222,
+   "required_ratio": 3.06,
+   "verdict": "below_threshold",
+   "note": "대형 옹벽블록(㎡). 28N/㎟·850kg 조립식옹벽블록 기준 VAT·운임 포함 약 78,528원/㎡가 6억 원 상한 B 107,222원/㎡ 이하가 아니거나 깊이·자중 우위 미확인. 동일 모델 공개가 없음."
+  },
+  {
+   "item_id": "23945111",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24000940",
+   "state": "on_hold",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24695464",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "25631418",
+   "state": "on_hold",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24098161",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24827922",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23071307",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23263328",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "20880030",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 신화콘크리트, SW250, 보통호안블록(대형), W1000×L1000×H250mm, 환경식생블록",
+   "unit": "개",
+   "local_amount_krw": 869861390,
+   "local_quantity": 22926,
+   "local_unit_price_krw": 37942,
+   "bmax_for_6e8_krw": 11770,
+   "required_ratio": 3.22,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 11,770원도 넘는다."
+  },
+  {
+   "item_id": "23808473",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "21733826",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22535016",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 지구코퍼레이션, JG10-2020, 2000×2000mm(B×H), 1련, 1m미만및3~6m",
+   "unit": "m",
+   "local_amount_krw": 861029192,
+   "local_quantity": 899,
+   "local_unit_price_krw": 957763,
+   "bmax_for_6e8_krw": 290355,
+   "required_ratio": 3.3,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "25241049",
+   "state": "on_hold",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22540518",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24261956",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 금강피씨, kk1-2015, 2000×1500mm(B×H), 1련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 855777000,
+   "local_quantity": 1118,
+   "local_unit_price_krw": 765453,
+   "bmax_for_6e8_krw": 228780,
+   "required_ratio": 3.35,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "23998771",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "21839497",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "20976549",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 삼호콘크리트, SH30201, 3000×2000mm(B×H), 1련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 851201491,
+   "local_quantity": 683,
+   "local_unit_price_krw": 1246268,
+   "bmax_for_6e8_krw": 367791,
+   "required_ratio": 3.39,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "22152922",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "21157217",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 금성콘크리트, KM-4, 보통옹벽블록(대형), W1000×L800×H500mm, 축조어소형블록",
+   "unit": "㎡",
+   "local_amount_krw": 849817500,
+   "local_quantity": 10216,
+   "local_unit_price_krw": 83184,
+   "bmax_for_6e8_krw": 24453,
+   "required_ratio": 3.4,
+   "verdict": "below_threshold",
+   "note": "대형 옹벽블록(㎡). 28N/㎟·850kg 조립식옹벽블록 기준 VAT·운임 포함 약 78,528원/㎡가 6억 원 상한 B 24,453원/㎡ 이하가 아니거나 깊이·자중 우위 미확인. 동일 모델 공개가 없음."
+  },
+  {
+   "item_id": "21279565",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 유수산업, SMG2-3025, 3000×2500mm(B×H), 2련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 849068424,
+   "local_quantity": 394,
+   "local_unit_price_krw": 2154996,
+   "bmax_for_6e8_krw": 632153,
+   "required_ratio": 3.41,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "22921005",
+   "state": "on_hold",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24633312",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 케이피씨, SMGR-K01, 보통옹벽블록(대형), W1000×L700×H500mm, 그래비락본체",
+   "unit": "개",
+   "local_amount_krw": 843520975,
+   "local_quantity": 8227,
+   "local_unit_price_krw": 102530,
+   "bmax_for_6e8_krw": 29600,
+   "required_ratio": 3.46,
+   "verdict": "substitute_not_better",
+   "note": "대형 축조·식생 옹벽블록(개, 전면 0.5㎡급). 유일한 공개 저가 대안 케이토목 축조블록 1000×500×700(21,500원/개 VAT·운임 별도)은 290~330kg·압축강도 25N/㎟ 내외로, 같은 급 대형블록(bau b750 1000×725×500 750kg)보다 가볍고 강도도 우수하지 않다. 무거운 28N/㎟ 조립식옹벽블록 1200×600×600은 0.5㎡당 약 39,264원(VAT·운임 포함)이라 깊이 600mm로 짧고 차액도 6억 원 미달. 6억 원 상한 B 29,600원/개."
+  },
+  {
+   "item_id": "22534188",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 예공, YG10-2020, 2000×2000mm(B×H), 1련, 1m미만및3~6m",
+   "unit": "m",
+   "local_amount_krw": 841352319,
+   "local_quantity": 883,
+   "local_unit_price_krw": 952833,
+   "bmax_for_6e8_krw": 273332,
+   "required_ratio": 3.49,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "22722738",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 오성그린콘크리트, OSH200D1, 보통호안블록(대형), W1000×L1000×H200mm, 자연형/D1형",
+   "unit": "개",
+   "local_amount_krw": 838048500,
+   "local_quantity": 26230,
+   "local_unit_price_krw": 31950,
+   "bmax_for_6e8_krw": 9075,
+   "required_ratio": 3.52,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 9,075원도 넘는다."
+  },
+  {
+   "item_id": "20620820",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23110750",
+   "state": "on_hold",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23149098",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23617171",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "25192690",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "21581729",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "25189519",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24985867",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 디케이로드, DK-V-200, 보통호안블록(대형), W1000×L1000×H200mm, 식생블록",
+   "unit": "개",
+   "local_amount_krw": 814386300,
+   "local_quantity": 21387,
+   "local_unit_price_krw": 38078,
+   "bmax_for_6e8_krw": 10024,
+   "required_ratio": 3.8,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 10,024원도 넘는다."
+  },
+  {
+   "item_id": "20976572",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 삼호콘크리트, SH40202, 4000×2000mm(B×H), 2련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 814277160,
+   "local_quantity": 265,
+   "local_unit_price_krw": 3072744,
+   "bmax_for_6e8_krw": 808593,
+   "required_ratio": 3.8,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "22674910",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 성동기업, SDP-02, 보통호안블록(대형), W1000×L1000×H200mm",
+   "unit": "개",
+   "local_amount_krw": 812183930,
+   "local_quantity": 39391,
+   "local_unit_price_krw": 20618,
+   "bmax_for_6e8_krw": 5386,
+   "required_ratio": 3.83,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 5,386원도 넘는다."
+  },
+  {
+   "item_id": "24411348",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23813076",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 주인산업, JI-5513, 보통옹벽블록(대형), W1000×L750×H500mm, 자연석형",
+   "unit": "㎡",
+   "local_amount_krw": 807482145,
+   "local_quantity": 8232,
+   "local_unit_price_krw": 98090,
+   "bmax_for_6e8_krw": 25204,
+   "required_ratio": 3.89,
+   "verdict": "below_threshold",
+   "note": "대형 옹벽블록(㎡). 28N/㎟·850kg 조립식옹벽블록 기준 VAT·운임 포함 약 78,528원/㎡가 6억 원 상한 B 25,204원/㎡ 이하가 아니거나 깊이·자중 우위 미확인. 동일 모델 공개가 없음."
+  },
+  {
+   "item_id": "24872064",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 지평산업, JPV200, 보통호안블록(대형), W1000×L1000×H200mm",
+   "unit": "개",
+   "local_amount_krw": 799177260,
+   "local_quantity": 29881,
+   "local_unit_price_krw": 26745,
+   "bmax_for_6e8_krw": 6665,
+   "required_ratio": 4.01,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 6,665원도 넘는다."
+  },
+  {
+   "item_id": "24073286",
+   "state": "on_hold",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23591829",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 부촌, OTCM-500A, 보통옹벽블록(대형), W1000×L750×H500mm, 축조블록",
+   "unit": "㎡",
+   "local_amount_krw": 793458630,
+   "local_quantity": 7933,
+   "local_unit_price_krw": 100019,
+   "bmax_for_6e8_krw": 24386,
+   "required_ratio": 4.1,
+   "verdict": "below_threshold",
+   "note": "대형 옹벽블록(㎡). 28N/㎟·850kg 조립식옹벽블록 기준 VAT·운임 포함 약 78,528원/㎡가 6억 원 상한 B 24,386원/㎡ 이하가 아니거나 깊이·자중 우위 미확인. 동일 모델 공개가 없음."
+  },
+  {
+   "item_id": "23449444",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 라미그린텍, rami-4H500, 보통옹벽블록(대형), W1000×L750×H500mm, 축조블록, 회색",
+   "unit": "개",
+   "local_amount_krw": 789248225,
+   "local_quantity": 18125,
+   "local_unit_price_krw": 43544,
+   "bmax_for_6e8_krw": 10441,
+   "required_ratio": 4.17,
+   "verdict": "substitute_not_better",
+   "note": "대형 축조·식생 옹벽블록(개, 전면 0.5㎡급). 유일한 공개 저가 대안 케이토목 축조블록 1000×500×700(21,500원/개 VAT·운임 별도)은 290~330kg·압축강도 25N/㎟ 내외로, 같은 급 대형블록(bau b750 1000×725×500 750kg)보다 가볍고 강도도 우수하지 않다. 무거운 28N/㎟ 조립식옹벽블록 1200×600×600은 0.5㎡당 약 39,264원(VAT·운임 포함)이라 깊이 600mm로 짧고 차액도 6억 원 미달. 6억 원 상한 B 10,441원/개."
+  },
+  {
+   "item_id": "25124242",
+   "state": "on_hold",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23609599",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23587226",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "21935884",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 우리콘크리트, WRC0131, 보통옹벽블록(대형), W1000×L800×H500mm, 생태견치블록",
+   "unit": "개",
+   "local_amount_krw": 775328400,
+   "local_quantity": 15554,
+   "local_unit_price_krw": 49847,
+   "bmax_for_6e8_krw": 11272,
+   "required_ratio": 4.42,
+   "verdict": "substitute_not_better",
+   "note": "대형 축조·식생 옹벽블록(개, 전면 0.5㎡급). 유일한 공개 저가 대안 케이토목 축조블록 1000×500×700(21,500원/개 VAT·운임 별도)은 290~330kg·압축강도 25N/㎟ 내외로, 같은 급 대형블록(bau b750 1000×725×500 750kg)보다 가볍고 강도도 우수하지 않다. 무거운 28N/㎟ 조립식옹벽블록 1200×600×600은 0.5㎡당 약 39,264원(VAT·운임 포함)이라 깊이 600mm로 짧고 차액도 6억 원 미달. 6억 원 상한 B 11,272원/개."
+  },
+  {
+   "item_id": "23852370",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24623309",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 구마에스앤씨(S&C), GMB08, (부품)W800×L1040×H500mm, 쿼터락익스텐더",
+   "unit": "개",
+   "local_amount_krw": 772123440,
+   "local_quantity": 16105,
+   "local_unit_price_krw": 47943,
+   "bmax_for_6e8_krw": 10687,
+   "required_ratio": 4.49,
+   "verdict": "no_public_price",
+   "note": "쿼터락 익스텐더 부품. 동일 모델 공개 판매가 없고, 6억 원 상한 B 10,687원/개(필요 배율 4.49)는 어떤 공개 대형 블록 가격으로도 도달 불가."
+  },
+  {
+   "item_id": "22899413",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 유성콘데크, ys-small 1, 보통옹벽블록(대형), W1000×L730×H500mm",
+   "unit": "개",
+   "local_amount_krw": 769915350,
+   "local_quantity": 15635,
+   "local_unit_price_krw": 49243,
+   "bmax_for_6e8_krw": 10867,
+   "required_ratio": 4.53,
+   "verdict": "substitute_not_better",
+   "note": "대형 축조·식생 옹벽블록(개, 전면 0.5㎡급). 유일한 공개 저가 대안 케이토목 축조블록 1000×500×700(21,500원/개 VAT·운임 별도)은 290~330kg·압축강도 25N/㎟ 내외로, 같은 급 대형블록(bau b750 1000×725×500 750kg)보다 가볍고 강도도 우수하지 않다. 무거운 28N/㎟ 조립식옹벽블록 1200×600×600은 0.5㎡당 약 39,264원(VAT·운임 포함)이라 깊이 600mm로 짧고 차액도 6억 원 미달. 6억 원 상한 B 10,867원/개."
+  },
+  {
+   "item_id": "24363599",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "25036092",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22812951",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24090727",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "21807439",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 영흥피시산업, YP1-1518, 1500×1800mm(B×H), 1련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 751283568,
+   "local_quantity": 1336,
+   "local_unit_price_krw": 562338,
+   "bmax_for_6e8_krw": 113236,
+   "required_ratio": 4.97,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "23367285",
+   "state": "available",
+   "category": "보차도용콘크리트블록",
+   "name": "보차도용콘크리트블록, 데코페이브, de-AC-60, t60mm, 공기정화블록, 불투수",
+   "unit": "㎡",
+   "local_amount_krw": 750344232,
+   "local_quantity": 28422,
+   "local_unit_price_krw": 26400,
+   "bmax_for_6e8_krw": 5289,
+   "required_ratio": 4.99,
+   "verdict": "substitute_not_better",
+   "note": "공기정화(광촉매) 블록. 기능 없는 일반 블록으로 대체 불가, 6억 원 상한 B도 비현실적."
+  },
+  {
+   "item_id": "22151889",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 그린테크원, GTB10-2, 보통호안블록(대형), W1000×L1000×H250mm, 회색",
+   "unit": "㎡",
+   "local_amount_krw": 750145880,
+   "local_quantity": 19897,
+   "local_unit_price_krw": 37701,
+   "bmax_for_6e8_krw": 7546,
+   "required_ratio": 5.0,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 7,546원도 넘는다."
+  },
+  {
+   "item_id": "24640517",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22130948",
+   "state": "available",
+   "category": "보차도용콘크리트블록",
+   "name": "보차도용콘크리트블록, 주주콘크리트, JJS-09, 200×200×60mm, 보도용, 투수, 컬러",
+   "unit": "㎡",
+   "local_amount_krw": 736607250,
+   "local_quantity": 60272,
+   "local_unit_price_krw": 12221,
+   "bmax_for_6e8_krw": 2266,
+   "required_ratio": 5.39,
+   "verdict": "below_threshold",
+   "note": "200×200/200×100×60 일반 보도블록. 6억 원 상한 B가 2,266원/㎡로 공개 판매가(케이토목 인터로킹 8,500원~, 인조화강 투수 9,900원~/㎡ VAT 별도)로 도달 불가."
+  },
+  {
+   "item_id": "21279149",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 유수산업, SMG1-4015, 4000×1500mm(B×H), 1련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 735731424,
+   "local_quantity": 474,
+   "local_unit_price_krw": 1552176,
+   "bmax_for_6e8_krw": 286353,
+   "required_ratio": 5.42,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "21957314",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 케이씨씨, KCC-17, 보통옹벽블록(대형), W1000×L750×H500mm, 대형식생축조블록",
+   "unit": "개",
+   "local_amount_krw": 735174200,
+   "local_quantity": 15424,
+   "local_unit_price_krw": 47664,
+   "bmax_for_6e8_krw": 8763,
+   "required_ratio": 5.44,
+   "verdict": "substitute_not_better",
+   "note": "대형 축조·식생 옹벽블록(개, 전면 0.5㎡급). 유일한 공개 저가 대안 케이토목 축조블록 1000×500×700(21,500원/개 VAT·운임 별도)은 290~330kg·압축강도 25N/㎟ 내외로, 같은 급 대형블록(bau b750 1000×725×500 750kg)보다 가볍고 강도도 우수하지 않다. 무거운 28N/㎟ 조립식옹벽블록 1200×600×600은 0.5㎡당 약 39,264원(VAT·운임 포함)이라 깊이 600mm로 짧고 차액도 6억 원 미달. 6억 원 상한 B 8,763원/개."
+  },
+  {
+   "item_id": "23512857",
+   "state": "available",
+   "category": "보차도용콘크리트블록",
+   "name": "보차도용콘크리트블록, 홍우비앤티, PBT-20206, 200×200×60mm, 싸인블록, 디자인형, 불투수",
+   "unit": "개",
+   "local_amount_krw": 734055300,
+   "local_quantity": 15389,
+   "local_unit_price_krw": 47700,
+   "bmax_for_6e8_krw": 8711,
+   "required_ratio": 5.48,
+   "verdict": "substitute_not_better",
+   "note": "디자인형 싸인블록. 동일 기능 공개가 없음. 6억 원 상한 B도 비현실적."
+  },
+  {
+   "item_id": "22151785",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23676491",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 이노블록, 100M, 보통옹벽블록(대형), W1220×L990×H410mm, 리콘월",
+   "unit": "㎡",
+   "local_amount_krw": 727105550,
+   "local_quantity": 2282,
+   "local_unit_price_krw": 318626,
+   "bmax_for_6e8_krw": 55699,
+   "required_ratio": 5.72,
+   "verdict": "below_threshold",
+   "note": "대형 옹벽블록(㎡). 28N/㎟·850kg 조립식옹벽블록 기준 VAT·운임 포함 약 78,528원/㎡가 6억 원 상한 B 55,699원/㎡ 이하가 아니거나 깊이·자중 우위 미확인. 동일 모델 공개가 없음."
+  },
+  {
+   "item_id": "25200863",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 해리콘크리트, H-56, 보통호안블록(대형), W1000×L1000×H200mm",
+   "unit": "㎡",
+   "local_amount_krw": 724619960,
+   "local_quantity": 22223,
+   "local_unit_price_krw": 32606,
+   "bmax_for_6e8_krw": 5607,
+   "required_ratio": 5.81,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 5,607원도 넘는다."
+  },
+  {
+   "item_id": "25118637",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24531434",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 에코산업, MRS-017, 보통옹벽블록(대형), W1000×L750×H500mm, B형",
+   "unit": "㎡",
+   "local_amount_krw": 720410500,
+   "local_quantity": 7407,
+   "local_unit_price_krw": 97260,
+   "bmax_for_6e8_krw": 16256,
+   "required_ratio": 5.98,
+   "verdict": "below_threshold",
+   "note": "대형 옹벽블록(㎡). 28N/㎟·850kg 조립식옹벽블록 기준 VAT·운임 포함 약 78,528원/㎡가 6억 원 상한 B 16,256원/㎡ 이하가 아니거나 깊이·자중 우위 미확인. 동일 모델 공개가 없음."
+  },
+  {
+   "item_id": "25530164",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23813075",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24477457",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24263059",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 금강피씨, kk7-6020, 6000×2000mm(B×H), 1련, 1m미만및3~6m",
+   "unit": "m",
+   "local_amount_krw": 712912000,
+   "local_quantity": 130,
+   "local_unit_price_krw": 5483938,
+   "bmax_for_6e8_krw": 868553,
+   "required_ratio": 6.31,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "23149735",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "25032017",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "20964115",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 지구코퍼레이션, JG1-3025, 3000×2500mm(B×H), 1련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 709805061,
+   "local_quantity": 511,
+   "local_unit_price_krw": 1389051,
+   "bmax_for_6e8_krw": 214882,
+   "required_ratio": 6.46,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "23434110",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22364346",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24221563",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22879658",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 우미산업, WMPC2520, 2500×2000mm(B×H), 1련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 704567059,
+   "local_quantity": 699,
+   "local_unit_price_krw": 1007964,
+   "bmax_for_6e8_krw": 149595,
+   "required_ratio": 6.74,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "21799575",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 오성그린콘크리트, OS-A-25, 보통호안블록(대형), W1000×L1000×H250mm, 자연형호안블록250A형",
+   "unit": "개",
+   "local_amount_krw": 700472250,
+   "local_quantity": 18313,
+   "local_unit_price_krw": 38250,
+   "bmax_for_6e8_krw": 5486,
+   "required_ratio": 6.97,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 5,486원도 넘는다."
+  },
+  {
+   "item_id": "22546002",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 한일후형, HANILH-25, 2000×2000mm(B×H), 1련, 1m미만및3~6m",
+   "unit": "m",
+   "local_amount_krw": 699706082,
+   "local_quantity": 632,
+   "local_unit_price_krw": 1107129,
+   "bmax_for_6e8_krw": 157762,
+   "required_ratio": 7.02,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "22873848",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24076224",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22965330",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22563379",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 봉견, wp-k-21, 보통옹벽블록(대형), W1000×L600×H330mm, 우포견치블록",
+   "unit": "개",
+   "local_amount_krw": 697027750,
+   "local_quantity": 27721,
+   "local_unit_price_krw": 25144,
+   "bmax_for_6e8_krw": 3500,
+   "required_ratio": 7.18,
+   "verdict": "substitute_not_better",
+   "note": "대형 축조·식생 옹벽블록(개, 전면 0.5㎡급). 유일한 공개 저가 대안 케이토목 축조블록 1000×500×700(21,500원/개 VAT·운임 별도)은 290~330kg·압축강도 25N/㎟ 내외로, 같은 급 대형블록(bau b750 1000×725×500 750kg)보다 가볍고 강도도 우수하지 않다. 무거운 28N/㎟ 조립식옹벽블록 1200×600×600은 0.5㎡당 약 39,264원(VAT·운임 포함)이라 깊이 600mm로 짧고 차액도 6억 원 미달. 6억 원 상한 B 3,500원/개."
+  },
+  {
+   "item_id": "22505323",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 금강피씨, KKPC204-2520, 2500×2000mm(B×H), 2련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 696551492,
+   "local_quantity": 364,
+   "local_unit_price_krw": 1913603,
+   "bmax_for_6e8_krw": 265251,
+   "required_ratio": 7.21,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "23262986",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24417190",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22423685",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 한일콘크리트, hanil-76, 보통옹벽블록(대형), W1000×L800×H500mm, 생태블록",
+   "unit": "㎡",
+   "local_amount_krw": 693666534,
+   "local_quantity": 7457,
+   "local_unit_price_krw": 93022,
+   "bmax_for_6e8_krw": 12560,
+   "required_ratio": 7.41,
+   "verdict": "below_threshold",
+   "note": "대형 옹벽블록(㎡). 28N/㎟·850kg 조립식옹벽블록 기준 VAT·운임 포함 약 78,528원/㎡가 6억 원 상한 B 12,560원/㎡ 이하가 아니거나 깊이·자중 우위 미확인. 동일 모델 공개가 없음."
+  },
+  {
+   "item_id": "21558682",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23215549",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "25929662",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "21086921",
+   "state": "available",
+   "category": "속빈콘크리트블록",
+   "name": "속빈콘크리트블록, 승일콘크리트, SB-6, 390×190×150mm, 기본C종보통",
+   "unit": "개",
+   "local_amount_krw": 681779464,
+   "local_quantity": 720654,
+   "local_unit_price_krw": 946,
+   "bmax_for_6e8_krw": 113,
+   "required_ratio": 8.34,
+   "verdict": "identical_retail_higher",
+   "note": "케이토목 6인치 111,000원/144개 파렛트(771원/개 VAT 별도)+운반 21,400원/파렛트 → VAT 포함 약 1,011원/개로 조달 1,000원/개 이상. 건자재114 속빈블록 1,700원/개."
+  },
+  {
+   "item_id": "24370579",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23543350",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23219335",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 에코이노텍, ECOS1-2520, 2500×2000mm(B×H), 1련, 1m미만및3~6m",
+   "unit": "m",
+   "local_amount_krw": 675226970,
+   "local_quantity": 494,
+   "local_unit_price_krw": 1366856,
+   "bmax_for_6e8_krw": 152281,
+   "required_ratio": 8.98,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "22118269",
+   "state": "on_hold",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22568137",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "25118519",
+   "state": "available",
+   "category": "보차도용콘크리트블록",
+   "name": "보차도용콘크리트블록, 두성에코, DSE-DAON-6T-03, 200×200×60mm, 인조화강블록, 불투수",
+   "unit": "㎡",
+   "local_amount_krw": 672037020,
+   "local_quantity": 54634,
+   "local_unit_price_krw": 12300,
+   "bmax_for_6e8_krw": 1318,
+   "required_ratio": 9.33,
+   "verdict": "below_threshold",
+   "note": "200×200/200×100×60 일반 보도블록. 6억 원 상한 B가 1,318원/㎡로 공개 판매가(케이토목 인터로킹 8,500원~, 인조화강 투수 9,900원~/㎡ VAT 별도)로 도달 불가."
+  },
+  {
+   "item_id": "25213831",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22535034",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 지구코퍼레이션, JG10-3025, 3000×2500mm(B×H), 1련, 1m미만및3~6m",
+   "unit": "m",
+   "local_amount_krw": 669100338,
+   "local_quantity": 366,
+   "local_unit_price_krw": 1828143,
+   "bmax_for_6e8_krw": 188798,
+   "required_ratio": 9.68,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "22957330",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 토지, TJPB200A, 보통호안블록(대형), W1000×L1000×H200mm, 녹색블록",
+   "unit": "개",
+   "local_amount_krw": 668968020,
+   "local_quantity": 31231,
+   "local_unit_price_krw": 21420,
+   "bmax_for_6e8_krw": 2208,
+   "required_ratio": 9.7,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 2,208원도 넘는다."
+  },
+  {
+   "item_id": "23372679",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 콘스텍코리아, DE-150, 보통옹벽블록(중소형), W450×L225×H150mm, 도담블록",
+   "unit": "㎡",
+   "local_amount_krw": 665820100,
+   "local_quantity": 5504,
+   "local_unit_price_krw": 120970,
+   "bmax_for_6e8_krw": 11958,
+   "required_ratio": 10.12,
+   "verdict": "substitute_not_better",
+   "note": "중소형 조경 옹벽블록(㎡). 공개 저가 대안인 케이토목 보강토블록은 압축강도 24~25N/㎟ 내외로 명확히 우수하지 않다. 동일 모델 공개가 없음. 6억 원 상한 B 11,958원/㎡."
+  },
+  {
+   "item_id": "23176577",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 대한콘크리트, DAEHAN-089, 2500×1500mm(B×H), 1련, 1m미만및3~6m",
+   "unit": "m",
+   "local_amount_krw": 664538700,
+   "local_quantity": 497,
+   "local_unit_price_krw": 1337100,
+   "bmax_for_6e8_krw": 129856,
+   "required_ratio": 10.3,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "24501425",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "20946814",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 영흥피시산업, YP1-1010, 1000×1000mm(B×H), 1련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 660781728,
+   "local_quantity": 1897,
+   "local_unit_price_krw": 348329,
+   "bmax_for_6e8_krw": 32040,
+   "required_ratio": 10.87,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "24257638",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 대양콘크리트산업사, DY-EGEM20, 보통호안블록(대형), W1000×L1000×H200mm, 환경생태블록",
+   "unit": "㎡",
+   "local_amount_krw": 659530000,
+   "local_quantity": 28368,
+   "local_unit_price_krw": 23249,
+   "bmax_for_6e8_krw": 2098,
+   "required_ratio": 11.08,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 2,098원도 넘는다."
+  },
+  {
+   "item_id": "24351393",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22468845",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22586555",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 이수산업, IS-VWB02, 보통옹벽블록(대형), W1000×L750×H500mm",
+   "unit": "개",
+   "local_amount_krw": 654779520,
+   "local_quantity": 13438,
+   "local_unit_price_krw": 48725,
+   "bmax_for_6e8_krw": 4076,
+   "required_ratio": 11.95,
+   "verdict": "substitute_not_better",
+   "note": "대형 축조·식생 옹벽블록(개, 전면 0.5㎡급). 유일한 공개 저가 대안 케이토목 축조블록 1000×500×700(21,500원/개 VAT·운임 별도)은 290~330kg·압축강도 25N/㎟ 내외로, 같은 급 대형블록(bau b750 1000×725×500 750kg)보다 가볍고 강도도 우수하지 않다. 무거운 28N/㎟ 조립식옹벽블록 1200×600×600은 0.5㎡당 약 39,264원(VAT·운임 포함)이라 깊이 600mm로 짧고 차액도 6억 원 미달. 6억 원 상한 B 4,076원/개."
+  },
+  {
+   "item_id": "24119702",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 미성산업, MSI-20-12-750, 보통옹벽블록(대형), W1000×L750×H500mm, 축조블록",
+   "unit": "개",
+   "local_amount_krw": 654405480,
+   "local_quantity": 15706,
+   "local_unit_price_krw": 41665,
+   "bmax_for_6e8_krw": 3463,
+   "required_ratio": 12.03,
+   "verdict": "substitute_not_better",
+   "note": "대형 축조·식생 옹벽블록(개, 전면 0.5㎡급). 유일한 공개 저가 대안 케이토목 축조블록 1000×500×700(21,500원/개 VAT·운임 별도)은 290~330kg·압축강도 25N/㎟ 내외로, 같은 급 대형블록(bau b750 1000×725×500 750kg)보다 가볍고 강도도 우수하지 않다. 무거운 28N/㎟ 조립식옹벽블록 1200×600×600은 0.5㎡당 약 39,264원(VAT·운임 포함)이라 깊이 600mm로 짧고 차액도 6억 원 미달. 6억 원 상한 B 3,463원/개."
+  },
+  {
+   "item_id": "25235058",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23539637",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 대왕콘, DWSB-330-2, 보통옹벽블록(대형), W1000×L600×H330mm, 파워옹벽블록, 핀형",
+   "unit": "개",
+   "local_amount_krw": 650319970,
+   "local_quantity": 23267,
+   "local_unit_price_krw": 27950,
+   "bmax_for_6e8_krw": 2162,
+   "required_ratio": 12.92,
+   "verdict": "substitute_not_better",
+   "note": "대형 축조·식생 옹벽블록(개, 전면 0.5㎡급). 유일한 공개 저가 대안 케이토목 축조블록 1000×500×700(21,500원/개 VAT·운임 별도)은 290~330kg·압축강도 25N/㎟ 내외로, 같은 급 대형블록(bau b750 1000×725×500 750kg)보다 가볍고 강도도 우수하지 않다. 무거운 28N/㎟ 조립식옹벽블록 1200×600×600은 0.5㎡당 약 39,264원(VAT·운임 포함)이라 깊이 600mm로 짧고 차액도 6억 원 미달. 6억 원 상한 B 2,162원/개."
+  },
+  {
+   "item_id": "20976541",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 삼호콘크리트, SH25201, 2500×2000mm(B×H), 1련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 649357125,
+   "local_quantity": 678,
+   "local_unit_price_krw": 957753,
+   "bmax_for_6e8_krw": 72798,
+   "required_ratio": 13.16,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "21952496",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 부흥콘크리트, BHC-18, 보통옹벽블록(대형), W1000×L750×H500mm, 식생축조블록",
+   "unit": "개",
+   "local_amount_krw": 648288700,
+   "local_quantity": 12791,
+   "local_unit_price_krw": 50683,
+   "bmax_for_6e8_krw": 3775,
+   "required_ratio": 13.43,
+   "verdict": "substitute_not_better",
+   "note": "대형 축조·식생 옹벽블록(개, 전면 0.5㎡급). 유일한 공개 저가 대안 케이토목 축조블록 1000×500×700(21,500원/개 VAT·운임 별도)은 290~330kg·압축강도 25N/㎟ 내외로, 같은 급 대형블록(bau b750 1000×725×500 750kg)보다 가볍고 강도도 우수하지 않다. 무거운 28N/㎟ 조립식옹벽블록 1200×600×600은 0.5㎡당 약 39,264원(VAT·운임 포함)이라 깊이 600mm로 짧고 차액도 6억 원 미달. 6억 원 상한 B 3,775원/개."
+  },
+  {
+   "item_id": "22343080",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 장성산업, JSL-R-200, 보통호안블록(대형), W1000×L1000×H200mm",
+   "unit": "㎡",
+   "local_amount_krw": 647730000,
+   "local_quantity": 23491,
+   "local_unit_price_krw": 27573,
+   "bmax_for_6e8_krw": 2031,
+   "required_ratio": 13.57,
+   "verdict": "substitute_not_better",
+   "note": "1000×1000×200/250 호안·식생블록. 케이토목 식생호안블록 25,300~28,600원/㎡(VAT·운임 별도, 체인 1,000원/개 별도)은 압축강도 20~21N/㎟ 내외로 원품(24N/㎟급)보다 낮고, 운임·VAT 포함 시 6억 원 상한 B 2,031원도 넘는다."
+  },
+  {
+   "item_id": "24416280",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "25161018",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22537416",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 청호산업, KC1355, 3000×2000mm(B×H), 2련, 1m미만및3~6m",
+   "unit": "m",
+   "local_amount_krw": 642044781,
+   "local_quantity": 229,
+   "local_unit_price_krw": 2803689,
+   "bmax_for_6e8_krw": 183601,
+   "required_ratio": 15.27,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "22861969",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24458209",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "21821262",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23737892",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24257564",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 경남, kn-021-2015, 2000×1500mm(B×H), 1련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 634012720,
+   "local_quantity": 936,
+   "local_unit_price_krw": 677364,
+   "bmax_for_6e8_krw": 36338,
+   "required_ratio": 18.64,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "23026236",
+   "state": "available",
+   "category": "보차도용콘크리트블록",
+   "name": "보차도용콘크리트블록, 세영, SY-I102, 200×100×60mm, I형, 불투수, 컬러",
+   "unit": "㎡",
+   "local_amount_krw": 628075184,
+   "local_quantity": 69142,
+   "local_unit_price_krw": 9083,
+   "bmax_for_6e8_krw": 406,
+   "required_ratio": 22.37,
+   "verdict": "below_threshold",
+   "note": "200×200/200×100×60 일반 보도블록. 6억 원 상한 B가 406원/㎡로 공개 판매가(케이토목 인터로킹 8,500원~, 인조화강 투수 9,900원~/㎡ VAT 별도)로 도달 불가."
+  },
+  {
+   "item_id": "22538132",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 신한산업, SH1-2015, 2000×1500mm(B×H), 1련, 1m미만및3~6m",
+   "unit": "m",
+   "local_amount_krw": 626679565,
+   "local_quantity": 672,
+   "local_unit_price_krw": 932558,
+   "bmax_for_6e8_krw": 39701,
+   "required_ratio": 23.49,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "22501817",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "23237609",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "26172733",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24121186",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 강한콘크리트, ik-43, 보통옹벽블록(대형), W1000×L1000×H500mm, 자중식블록",
+   "unit": "개",
+   "local_amount_krw": 623337750,
+   "local_quantity": 4574,
+   "local_unit_price_krw": 136278,
+   "bmax_for_6e8_krw": 5102,
+   "required_ratio": 26.71,
+   "verdict": "substitute_not_better",
+   "note": "대형 축조·식생 옹벽블록(개, 전면 0.5㎡급). 유일한 공개 저가 대안 케이토목 축조블록 1000×500×700(21,500원/개 VAT·운임 별도)은 290~330kg·압축강도 25N/㎟ 내외로, 같은 급 대형블록(bau b750 1000×725×500 750kg)보다 가볍고 강도도 우수하지 않다. 무거운 28N/㎟ 조립식옹벽블록 1200×600×600은 0.5㎡당 약 39,264원(VAT·운임 포함)이라 깊이 600mm로 짧고 차액도 6억 원 미달. 6억 원 상한 B 5,102원/개."
+  },
+  {
+   "item_id": "22913295",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "22639524",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 제일콘크리트, ji14, 보통옹벽블록(대형), W1000×L750×H500mm",
+   "unit": "㎡",
+   "local_amount_krw": 621093072,
+   "local_quantity": 6320,
+   "local_unit_price_krw": 98274,
+   "bmax_for_6e8_krw": 3337,
+   "required_ratio": 29.45,
+   "verdict": "below_threshold",
+   "note": "대형 옹벽블록(㎡). 28N/㎟·850kg 조립식옹벽블록 기준 VAT·운임 포함 약 78,528원/㎡가 6억 원 상한 B 3,337원/㎡ 이하가 아니거나 깊이·자중 우위 미확인. 동일 모델 공개가 없음."
+  },
+  {
+   "item_id": "22424730",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "21642018",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "24093929",
+   "state": "available",
+   "category": "보차도용콘크리트블록",
+   "name": "보차도용콘크리트블록, 나대영, NDY-I113, 200×200×60mm, 인조화강블록, 투수",
+   "unit": "㎡",
+   "local_amount_krw": 616938960,
+   "local_quantity": 53964,
+   "local_unit_price_krw": 11432,
+   "bmax_for_6e8_krw": 313,
+   "required_ratio": 36.42,
+   "verdict": "below_threshold",
+   "note": "200×200/200×100×60 일반 보도블록. 6억 원 상한 B가 313원/㎡로 공개 판매가(케이토목 인터로킹 8,500원~, 인조화강 투수 9,900원~/㎡ VAT 별도)로 도달 불가."
+  },
+  {
+   "item_id": "23251193",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 대진개발, DJ-A1, 보통옹벽블록(대형), W2000×L1000×H850mm, 기초블록",
+   "unit": "㎡",
+   "local_amount_krw": 616082500,
+   "local_quantity": 2274,
+   "local_unit_price_krw": 270924,
+   "bmax_for_6e8_krw": 7072,
+   "required_ratio": 38.31,
+   "verdict": "below_threshold",
+   "note": "대형 옹벽블록(㎡). 28N/㎟·850kg 조립식옹벽블록 기준 VAT·운임 포함 약 78,528원/㎡가 6억 원 상한 B 7,072원/㎡ 이하가 아니거나 깊이·자중 우위 미확인. 동일 모델 공개가 없음."
+  },
+  {
+   "item_id": "22925345",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 에코이노텍, EPCS2-3020, 3000×2000mm(B×H), 2련, 1m미만및3~6m",
+   "unit": "m",
+   "local_amount_krw": 610891260,
+   "local_quantity": 210,
+   "local_unit_price_krw": 2909006,
+   "bmax_for_6e8_krw": 51863,
+   "required_ratio": 56.09,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "22637792",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  },
+  {
+   "item_id": "20987040",
+   "state": "available",
+   "category": "속빈콘크리트블록",
+   "name": "속빈콘크리트블록, 동원콘크리트, DW-3221, 390×190×150mm, 기본C종",
+   "unit": "개",
+   "local_amount_krw": 609715662,
+   "local_quantity": 645141,
+   "local_unit_price_krw": 945,
+   "bmax_for_6e8_krw": 15,
+   "required_ratio": 62.76,
+   "verdict": "identical_retail_higher",
+   "note": "케이토목 6인치 111,000원/144개 파렛트(771원/개 VAT 별도)+운반 21,400원/파렛트 → VAT 포함 약 1,011원/개로 조달 1,000원/개 이상. 건자재114 속빈블록 1,700원/개."
+  },
+  {
+   "item_id": "22535323",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 부흥콘크리트, BH-29, 3000×2000mm(B×H), 1련, 1m미만및3~6m",
+   "unit": "m",
+   "local_amount_krw": 607308448,
+   "local_quantity": 346,
+   "local_unit_price_krw": 1755226,
+   "bmax_for_6e8_krw": 21122,
+   "required_ratio": 83.1,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "24263013",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 금강피씨, kk7-1815, 1800×1500mm(B×H), 1련, 1m미만및3~6m",
+   "unit": "m",
+   "local_amount_krw": 606918000,
+   "local_quantity": 753,
+   "local_unit_price_krw": 806000,
+   "bmax_for_6e8_krw": 9187,
+   "required_ratio": 87.73,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "24261957",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 금강피씨, kk1-2018, 2000×1800mm(B×H), 1련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 602610500,
+   "local_quantity": 771,
+   "local_unit_price_krw": 781595,
+   "bmax_for_6e8_krw": 3385,
+   "required_ratio": 230.84,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "25219695",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 세코락, REDI-ROCK RD41, 보통옹벽블록(대형), W1172×L915×H457mm, 레디락블록(41)",
+   "unit": "㎡",
+   "local_amount_krw": 602591000,
+   "local_quantity": 1999,
+   "local_unit_price_krw": 301446,
+   "bmax_for_6e8_krw": 1296,
+   "required_ratio": 232.57,
+   "verdict": "identical_retail_higher",
+   "note": "케이토목 레디락 중단기본 1172×457×1030(1,920kg/㎡, 28N/㎟ 내외) 264,000원/㎡ VAT·운임 별도 → VAT 포함 290,400원/㎡. 원품 RD41 평균 301,446원/㎡ 대비 1.2배 가격차 미달(운임 전에도 1.04배)."
+  },
+  {
+   "item_id": "21349747",
+   "state": "available",
+   "category": "콘크리트호안및옹벽블록",
+   "name": "콘크리트호안및옹벽블록, 대명산업, SSGEAR, 보통옹벽블록(중소형), W450×L420×H220mm, 기어형보강토블록, 무색",
+   "unit": "개",
+   "local_amount_krw": 602334525,
+   "local_quantity": 96302,
+   "local_unit_price_krw": 6254,
+   "bmax_for_6e8_krw": 24,
+   "required_ratio": 258.01,
+   "verdict": "substitute_not_better",
+   "note": "중소형 조경 옹벽블록(㎡). 공개 저가 대안인 케이토목 보강토블록은 압축강도 24~25N/㎟ 내외로 명확히 우수하지 않다. 동일 모델 공개가 없음. 6억 원 상한 B 24원/개."
+  },
+  {
+   "item_id": "22775142",
+   "state": "available",
+   "category": "조립식철근콘크리트암거블록",
+   "name": "조립식철근콘크리트암거블록, 덕산콘크리트, DSBOX1a2520-01, 2500×2000mm(B×H), 1련, 표준형",
+   "unit": "m",
+   "local_amount_krw": 602206803,
+   "local_quantity": 577,
+   "local_unit_price_krw": 1043685,
+   "bmax_for_6e8_krw": 3824,
+   "required_ratio": 272.89,
+   "verdict": "identical_retail_higher",
+   "note": "공개 판매가는 케이토목 PC암거 목록뿐이며 같은 내경 규격가가 조달가보다 높거나 같다(예: 1련 2.0×2.0 1,640,000원/2m=820,000원/m VAT 별도 vs 조달 733~815천원/m; 1련 3.0×1.5 1,425,000원/m; 1련 4.0×2.0 2,226,667원/m; 2련 2.5×2.0 2,270,000원/m). 4m 이상 2련·6m 1련 등은 공개 판매 규격 없음. 인도조건 생산공장 상차도."
+  },
+  {
+   "item_id": "23126304",
+   "state": "claimed",
+   "verdict": "not_available",
+   "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
+  }
+ ]
+}
