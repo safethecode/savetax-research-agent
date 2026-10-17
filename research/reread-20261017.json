@@ -1,0 +1,431 @@
+{
+ "owner": "reread",
+ "date": "2026-10-17",
+ "scope": "research/industrial-fullcoverage-20261017.json의 no_public_price·installed_price 행 중 범주 템플릿 메모로만 판정된 available 품목을 원규격·실제 판매 원문으로 다시 읽은 결과",
+ "threshold_krw": 500000000,
+ "price_rules": "공공조달 가격·savetax 통계·타 참가자 접수는 시중가 근거로 쓰지 않음. 동일품 우선, 대체품은 핵심 사양이 분명히 우수하고 완성 구성일 때만.",
+ "rows": [
+  {
+   "item_id": "24807170",
+   "name": "농업용굴착기, Kubota, (JP)U10-5, 0.017㎥",
+   "state": "available",
+   "official_C_krw": "4682331500",
+   "official_Q": "173",
+   "unit_price_krw": "27065500",
+   "delivery_terms": "납품장소 하차도(설치 없음, 공급형)",
+   "original_spec": "listing synonyms: 자체중량 986kg·전폭 750mm·버킷 0.017㎥; 규격서 U-10-5농업용굴착기규격서.hwp 첨부(본문 미열람)",
+   "B_max_for_600M": "23597293",
+   "searches": [
+    "work/reread-20261017/ps-24807170-a.json",
+    "work/reread-20261017/ps-24807170-b.json",
+    "work/reread-20261017/ps-24807170c-a.json"
+   ],
+   "pages_read": [
+    {
+     "url": "https://orangerental.co.kr/",
+     "file": "work/reread-20261017/br-orange.json",
+     "result": "한국구보다 공식대리점. U-008-5/U-10-5 신차는 견적 요청만 있고 숫자 가격 없음. 중고 매물가만 표시."
+    },
+    {
+     "url": "https://www.ezcons.co.kr/newexca",
+     "file": "work/reread-20261017/br-ezcons.json",
+     "result": "구보다 U10 신차 가격문의"
+    }
+   ],
+   "verdict": "no_public_price_verified",
+   "note": "설치 없는 공급형이지만 정확 모델 신차의 공개 숫자 판매가가 대리점 두 곳 모두 견적 문의뿐이다. 중고 매물가는 신품 일반가로 쓰지 않는다.",
+   "recorded_at": "2026-10-17T02:17:02+00:00"
+  },
+  {
+   "item_id": "25009660",
+   "name": "냉난방기, 삼성전자, AP290CSPDHH1PP, 냉방29/난방33kW, 직립형",
+   "state": "available",
+   "official_C_krw": "1356537000",
+   "official_Q": "273",
+   "unit_price_krw": "4969000",
+   "B_max_for_600M": "2771198",
+   "searches": [
+    "work/reread-20261017/ps-25009660-a.json",
+    "work/reread-20261017/ps-25009660-b.json"
+   ],
+   "retail_leads": [
+    {
+     "url": "https://prod.danawa.com/info?pcode=76387829",
+     "model": "AP290CSPDHH1 (기본설치비 별도)",
+     "price_krw": "4672600",
+     "note": "검색 발췌, suffix PP 없음, 설치비 별도"
+    },
+    {
+     "url": "https://www.coupang.com/vp/products/9742347325",
+     "model": "AP290CAPDHH1",
+     "price_krw": "3980000",
+     "note": "다른 suffix"
+    }
+   ],
+   "verdict": "identical_retail_higher",
+   "note": "동일·유사 모델 시중가가 397만~480만 원으로 6억 원에 필요한 277만 원보다 높다. 쿠팡 398만 원도 다른 suffix이며 적용해도 약 2.7억 원이다.",
+   "recorded_at": "2026-10-17T02:17:34+00:00"
+  },
+  {
+   "item_id": "22863904",
+   "name": "트레드밀, 디랙스, SF3000, 1630×785×1700mm",
+   "state": "available",
+   "official_C_krw": "1327768000",
+   "official_Q": "304",
+   "unit_prices_krw": [
+    "4420000",
+    "3978000"
+   ],
+   "delivery_terms": "현장설치도",
+   "original_spec": "listing 속성: 무동력 트레드밀·LCD·785×1630×1700mm·432mm 벨트폭 추정 값 포함, 규격서 디랙스_트레드밀_규격서.pdf 첨부",
+   "B_max_for_600M": "2394632",
+   "searches": [
+    "work/reread-20261017/ps-22863904-a.json",
+    "work/reread-20261017/ps-22863904-b.json",
+    "work/reread-20261017/ps-22863904x-a.json",
+    "work/reread-20261017/ps-22863904x-b.json"
+   ],
+   "pages_read": [
+    {
+     "url": "https://repswell.com/category/%EB%94%94%EB%9E%99%EC%8A%A4/73",
+     "file": "work/reread-20261017/br-repswell.json",
+     "result": "디랙스 판매점 34개 상품 전체(2쪽)에 SF3000 없음. NR20 3,550,000원·NR25 4,950,000원·마이마운틴 2,884,000원은 다른 모델(동력형·경사 트레이너)."
+    },
+    {
+     "url": "https://www.draxfit.com/ko/treadmills",
+     "file": "work/reread-20261017/br-drax.json",
+     "result": "제조사 무동력 트레드밀 라인 설명만 있고 가격 없음."
+    }
+   ],
+   "verdict": "no_public_price_verified",
+   "note": "SF3000 무동력 커브형의 공개 신품 가격을 찾지 못했다. 다른 회사 무동력 트레드밀 184만~239만 원 단서는 원품보다 우수하다는 근거가 없어 대체 근거로 쓰지 않는다. 미래스포츠 디랙스 SPT-1000C는 470만 원으로 오히려 높다.",
+   "recorded_at": "2026-10-17T02:20:44+00:00"
+  },
+  {
+   "item_id": "25468727",
+   "name": "고상제설제, 스타스테크, ECO-ST2(25), 환경표지2종, 25kg/포",
+   "state": "available",
+   "official_C_krw": "1801701000",
+   "official_Q": "163791",
+   "unit_price_krw": "11000",
+   "delivery_terms": "납품장소차상도",
+   "B_max_for_600M": "7336",
+   "searches": [
+    "work/reread-20261017/ps-25468727-a.json",
+    "work/reread-20261017/ps-25468727-b.json"
+   ],
+   "retail_leads": [
+    {
+     "url": "https://m.gmarket.co.kr/n/minishop/toyoumm",
+     "text": "경기케미칼 스타스테크 국산 친환경 제설제 제설용 염화칼슘 25kg 1포 무료배송 8,600원(검색 발췌, ECO-ST2 여부 미확인)"
+    },
+    {
+     "url": "https://xn--z69azfl4br08b28au7o.com/product/.../3931",
+     "text": "스타스테크 ECO-ST1 25kg 19,900원, 배송비 9,000원(다른 모델)"
+    }
+   ],
+   "verdict": "below_threshold",
+   "note": "동일 제조사 25kg 최저 단서 8,600원이 ECO-ST2라 해도 (11,000-8,600)×163,791≈3.93억 원으로 6억 원 미만이다. 6억 원에는 7,336원 이하가 필요하다.",
+   "recorded_at": "2026-10-17T02:20:44+00:00"
+  },
+  {
+   "item_id": "24449946",
+   "name": "농약안전보호복및액세서리, 비에스지, BPGM-40",
+   "state": "available",
+   "official_unit_price_krw": "64400",
+   "official_local_Q": "27977",
+   "searches": [
+    "work/reread-20261017/ps-24449946-a.json",
+    "work/reread-20261017/ps-24449946-b.json"
+   ],
+   "retail_leads": [
+    {
+     "url": "https://www.meditex.co.kr/s2/m_view.html?S_index=23",
+     "text": "비에스지:BPGM-40 영농작업복 65,000원(검색 발췌)"
+    }
+   ],
+   "verdict": "identical_retail_higher",
+   "note": "정확 모델 일반 판매 단서 65,000원이 조달 64,400원보다 높다. 2만 원대 일반 방제복은 구성(장갑·마스크·장화 등 세트 여부)이 확인되지 않았고 우수 근거가 없다.",
+   "recorded_at": "2026-10-17T02:20:44+00:00"
+  },
+  {
+   "item_id": "23883052",
+   "name": "논슬립, 영화테크, YH-2000, 1000×72×t2.5mm, 앞발길이25mm",
+   "state": "available",
+   "official_C_krw": "1018846140",
+   "official_Q": "26125",
+   "unit": "m",
+   "unit_price_krw": "39000",
+   "delivery_terms": "현장설치도",
+   "original_spec": "알루미늄/세라믹, 폭72mm·두께2.5mm·앞발25mm (listing 속성), 규격서 논슬립규격서(영화테크) 수정.hwp",
+   "B_max_for_600M": "16032",
+   "searches": [
+    "work/reread-20261017/ps-23883052-a.json",
+    "work/reread-20261017/ps-23883052-b.json"
+   ],
+   "verdict": "installed_price_verified",
+   "note": "조달 단가가 현장설치도(시공 포함)다. 정확 모델 판매가는 없고, 일반 알루미늄 논슬립 단서(폭36mm 1만 원/2.4~3m 등)는 폭·세라믹 인서트가 다르며 시공비가 빠져 같은 조건이 아니다.",
+   "recorded_at": "2026-10-17T02:20:44+00:00"
+  },
+  {
+   "item_id": "24219827",
+   "name": "비압력용경질폴리염화비닐관, 뉴보텍, DBNV200, Φ200mm×6m, 이중벽관, TS관",
+   "state": "available",
+   "official_C_krw": "1878219100",
+   "official_Q": "16864",
+   "unit_prices_krw": [
+    "108100",
+    "123200"
+   ],
+   "delivery_terms": "납품장소 하차도",
+   "B_max_for_600M": "75803",
+   "searches": [
+    "work/reread-20261017/ps-24219827-a.json",
+    "work/reread-20261017/ps-24219827-b.json"
+   ],
+   "verdict": "no_public_price_verified",
+   "note": "설치 없는 공급형이지만 DBNV200 정확 모델 공개가가 없다. HDPE 이중벽관(케이토목 D100 22,600원)은 재질·구경이 달라 PVC 이중벽 TS관보다 우수하다는 근거가 없다.",
+   "recorded_at": "2026-10-17T02:20:44+00:00"
+  },
+  {
+   "item_id": "22839940",
+   "name": "수도용덕타일주철관, Φ150mm×6m, 2종, KP메커니컬/에폭시",
+   "state": "available",
+   "related_items": [
+    "22839939",
+    "22839937",
+    "22839941",
+    "22839942",
+    "22839933",
+    "22839982",
+    "22839935",
+    "22839938",
+    "22839981",
+    "22840286",
+    "22840287"
+   ],
+   "unit_price_krw": "333070",
+   "searches": [
+    "work/reread-20261017/ps-22839940-a.json",
+    "work/reread-20261017/ps-22839940-b.json"
+   ],
+   "verdict": "no_public_price_verified",
+   "note": "검색 결과는 연간 단가계약 입찰(공공조달)·한국주철관 제품 소개·물가정보 유료 자료뿐이다. 공공조달 가격은 시중가 근거로 쓰지 않는다는 규칙에 따라 같은 계열 11개 품목도 일반 판매 원문이 없는 상태로 보존한다.",
+   "recorded_at": "2026-10-17T02:20:45+00:00"
+  },
+  {
+   "item_id": "25260578",
+   "name": "일반용경질폴리염화비닐제부속품, 삼정디씨피, HIBT300-B, 오수받이, Φ300mm",
+   "state": "available",
+   "unit_price_krw": "215000",
+   "local_Q": "11610",
+   "B_max_for_600M_local": "163320",
+   "searches": [
+    "work/reread-20261017/ps-25260578-a.json",
+    "work/reread-20261017/ps-25260578-b.json",
+    "work/reread-20261017/ps-25260578x-a.json",
+    "work/reread-20261017/ps-25260578x-b.json"
+   ],
+   "verdict": "no_public_price_verified",
+   "note": "정확 모델 판매 원문이 없다(검색은 제조사 정보·우수조달물품 목록만). 쿠팡 PVC 오수받이 전용 주철 뚜껑 등은 다른 부품이며 원품(고강도 오수받이 본체)과 같은 구성이 아니다.",
+   "recorded_at": "2026-10-17T02:23:23+00:00"
+  },
+  {
+   "item_id": "23647795",
+   "name": "사무실칸막이, 뷰로맥스, MPBS1082, 800×62×1154mm",
+   "state": "available",
+   "unit_price_krw": "168000",
+   "local_Q": "6837",
+   "B_max_for_600M_local": "80241",
+   "searches": [
+    "work/reread-20261017/ps-23647795-a.json",
+    "work/reread-20261017/ps-23647795-b.json"
+   ],
+   "retail_leads": [
+    {
+     "url": "https://www.neooffice.co.kr/shop/1479803876",
+     "text": "62T RP 블럭 파티션 H1154 111,000원(부가세 별도), 폭 미확인·다른 제조사"
+    }
+   ],
+   "verdict": "below_threshold",
+   "note": "정확 모델 판매가 없음. 같은 두께·높이의 타사 파티션 단서도 VAT 포함 약 122,100원으로 6억 원에 필요한 80,241원보다 높다.",
+   "recorded_at": "2026-10-17T02:23:23+00:00"
+  },
+  {
+   "item_id": "24238018",
+   "name": "기타도막방수재, 유인, YOOIN-310-30N, 3kg+7.5kg+10.5kg/조",
+   "related_items": [
+    "23913546",
+    "24238022"
+   ],
+   "state": "available",
+   "searches": [
+    "work/reread-20261017/ps-24238018-a.json",
+    "work/reread-20261017/ps-24238018-b.json"
+   ],
+   "verdict": "no_public_price_verified",
+   "note": "유인 YOOIN-310 계열의 공개 판매 원문이 없다. 마페이 아쿠아디펜스 등 다른 도막방수재는 성분·구성(3액형 3kg+7.5kg+10.5kg)이 달라 우수 근거가 없다. 공식 단위가 ㎡이고 시공 포함 여부는 별도 확인 대상이다.",
+   "recorded_at": "2026-10-17T02:23:23+00:00"
+  },
+  {
+   "item_id": "25145792",
+   "name": "합성고분자방수시트, 피엘테크코리아, PLPE-4T, 1000×2050×t4mm",
+   "state": "available",
+   "searches": [
+    "work/reread-20261017/ps-25145792-a.json",
+    "work/reread-20261017/ps-25145792-b.json"
+   ],
+   "verdict": "no_public_price_verified",
+   "note": "정확 모델 판매 원문이 없다. 검색 결과는 다른 용도의 PE 방수포·TPE 매트로 원품 방수시트와 같은 제품이 아니다.",
+   "recorded_at": "2026-10-17T02:23:23+00:00"
+  },
+  {
+   "item_id": "24100065",
+   "name": "상업용오븐, 코스티모, HSO-202E4, 전기식, 1232×1016×1900mm",
+   "state": "available",
+   "official_C_krw": "1662080000",
+   "official_Q": "42",
+   "original_scope_reused": "research/root-wall-and-oven-followup-20261017.json: 40단(20×GN2/1)·54kW·3N4P380V·훈연·슬라이딩문·자동세척, 현장설치형",
+   "pages_read": [
+    {
+     "url": "https://sjhicool.cafe24.com/product/list.html?cate_no=824",
+     "file": "work/reread-20261017/br-sjhicool-elec.json",
+     "result": "린나이 RCO-400CE 40단 스팀컨벡션(트롤리 포함) 22,200,000원, RCO-400AE 40단 고급형 34,680,000원, 엘로마 MM20-21 20단40매 전기 37,730,000원, GMT20-21 45,430,000원"
+    }
+   ],
+   "arithmetic_if_substitute": {
+    "RCO-400CE": "(39,573,333-22,200,000)×42 ≈ 7.29억(산술)",
+    "RCO-400AE": "≈2.05억",
+    "MM20-21": "≈0.77억"
+   },
+   "verdict": "substitute_not_better",
+   "note": "6억 원을 넘는 산술은 린나이 RCO-400CE(기본 스팀컨벡션)뿐인데, 원품의 자동세척·훈연 등 기능이 확인되지 않아 원품보다 핵심 사양이 분명히 우수하다고 할 수 없다. 고급형 RCO-400AE는 2.05억 원으로 기준 미달이다. 원품은 현장설치형이고 판매가는 설치 별도이다.",
+   "recorded_at": "2026-10-17T02:24:37+00:00"
+  },
+  {
+   "item_id": "24100074",
+   "name": "상업용오븐, 코스티모, HSO-202G4N, 가스식, 1151×1016×1900mm",
+   "state": "available",
+   "local_C_krw": "1216730000",
+   "local_Q": "31",
+   "unit_price_krw": "39249355",
+   "searches": [
+    "work/reread-20261017/ps-24100074-a.json",
+    "work/reread-20261017/ps-24100074-b.json"
+   ],
+   "pages_read": [
+    {
+     "url": "https://sjhicool.cafe24.com/product/list.html?cate_no=904",
+     "file": "work/reread-20261017/br-sjhicool.json",
+     "result": "린나이 RCO-400CG 40단 가스 스팀컨벡션(트롤리 포함) 28,800,000원, 엘로마 MM20-21 20단40매 가스 42,350,000원"
+    }
+   ],
+   "verdict": "below_threshold",
+   "note": "정확 모델 공개가 없음. 같은 40단 가스형 린나이 RCO-400CG로 산술해도 (39.25M-28.8M)×31≈3.24억 원으로 6억 원 미만이며 우수성도 입증되지 않았다.",
+   "recorded_at": "2026-10-17T02:24:37+00:00"
+  },
+  {
+   "item_id": "24738240",
+   "name": "상업용오븐, 리나스대성, RO-202RG, 스팀컨벡션/가스식, 1270×900×1950mm",
+   "state": "available",
+   "local_C_krw": "1318600000",
+   "local_Q": "37",
+   "unit_price_krw": "35637838",
+   "searches": [
+    "work/reread-20261017/ps-24738240-a.json",
+    "work/reread-20261017/ps-24738240-b.json"
+   ],
+   "pages_read": [
+    {
+     "url": "https://sjhicool.cafe24.com/product/list.html?cate_no=904",
+     "file": "work/reread-20261017/br-sjhicool.json",
+     "result": "린나이 RCO-400CG 28,800,000원"
+    }
+   ],
+   "verdict": "below_threshold",
+   "note": "정확 모델 공개가 없음(제조사 블로그 소개만). 린나이 RCO-400CG로 산술해도 약 2.53억 원으로 6억 원 미만이다.",
+   "recorded_at": "2026-10-17T02:24:37+00:00"
+  },
+  {
+   "item_id": "21568714",
+   "name": "조경석, 온양조경석, oys-06, 500×600×700mm, R5이상~15미만, 온양염치석",
+   "state": "available",
+   "delivery_terms": "납품장소차상도(공급형)",
+   "local_unit_price_krw_per_ton": "26529",
+   "searches": [
+    "work/reread-20261017/ps-22993792-a.json",
+    "work/reread-20261017/ps-22993792-b.json"
+   ],
+   "retail_leads": [
+    {
+     "url": "https://gunjajae114.com/product/.../392",
+     "text": "자연석 조경석 온양석 판매가 28,500원(검색 발췌, 단위 미확인)"
+    }
+   ],
+   "verdict": "identical_retail_higher",
+   "note": "같은 산지 온양석 일반 판매 단서 28,500원이 조달 톤당 26,529원보다 높다. 5억 원에는 톤당 약 22,700원 이하가 필요하다.",
+   "recorded_at": "2026-10-17T02:25:35+00:00"
+  },
+  {
+   "item_id": "22993792",
+   "name": "조경석, 주상기업, JS-3, 500×600×700mm, R5이상~15미만, 거창주상석",
+   "related_items": [
+    "22993793",
+    "21939136",
+    "25900577",
+    "25564370",
+    "23415990",
+    "25900586",
+    "23104557",
+    "21939137",
+    "24194155",
+    "21149201",
+    "21756243"
+   ],
+   "state": "available",
+   "delivery_terms": "납품장소차상도(공급형)",
+   "local_unit_price_krw_per_ton": "25889",
+   "searches": [
+    "work/reread-20261017/ps-22993792-a.json",
+    "work/reread-20261017/ps-22993792-b.json"
+   ],
+   "verdict": "no_public_price_verified",
+   "note": "산지 상차도 톤당 2.5만~3.5만 원 수준이다. 공개 단서는 운반비 포함 굴림석 70만~100만 원, 인공화산석 1㎥ 171,600원 등 범위·단위가 다르고 같은 산지석의 더 싼 톤당 공개가는 없다. 대한건설협회 가격표는 공공 기준 자료라 시중가로 쓰지 않는다.",
+   "recorded_at": "2026-10-17T02:25:35+00:00"
+  }
+ ],
+ "verdict_counts": {
+  "no_public_price_verified": 8,
+  "identical_retail_higher": 3,
+  "below_threshold": 4,
+  "installed_price_verified": 1,
+  "substitute_not_better": 1
+ },
+ "threshold_note": "2026-10-17 사용자 하향으로 검증 예상액 5억 원 이상(이전 6억 원). 6억 기준으로 기록한 B_max 값은 참고용이다.",
+ "excluded_by_assignment": {
+  "blocks": [
+   "24349563",
+   "25111678",
+   "24052228",
+   "24052217",
+   "21257191",
+   "21257163",
+   "21554362",
+   "21705904",
+   "24537979",
+   "25598677",
+   "26003126",
+   "23232509",
+   "26143075",
+   "24170332",
+   "24022922",
+   "23494850",
+   "25004661",
+   "22813774",
+   "25214604"
+  ],
+  "nonit": [
+   "24252442"
+  ]
+ }
+}
