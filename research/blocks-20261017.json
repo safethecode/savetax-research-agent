@@ -2850,5 +2850,153 @@
    "verdict": "not_available",
    "note": "lookup 2026-10-17 기준 신규 점수 대상 아님"
   }
- ]
+ ],
+ "civil_outliers": {
+  "date": "2026-10-17",
+  "threshold_krw": 600000000,
+  "source": "research/root-category-outliers-20261017.json 및 root 지정 목록",
+  "lookup": "2026-10-17 19개 모두 available, 공식 fact 전수 조회(work/blocks-20261017/item-*.json)",
+  "tools": {
+   "parallel_search_queries": 8,
+   "browser_read_g2b_originals": 5,
+   "jev": 0
+  },
+  "ready_packets": [],
+  "preview_calls": 0,
+  "rows": [
+   {
+    "item_id": "24349563",
+    "state": "available",
+    "name": "금속기둥, 씨엔에스, CNS-GH-350, 350×350×12×19mm, 방음벽지주용",
+    "verdict": "no_public_price",
+    "note": "원규격(나라장터 상세 속성): SS275 H형 350×350×12×19, 용융아연도금, 방음벽지주용(규격서 첨부). 1 fact·Q6,700m·C1,815,003,200원. 6억 원 상한 B 181,344원/m(VAT 포함, 납품장소 하차도). 소재 H형강만 137kg/m이라 원자재가만으로 상한에 근접하고 아연도금·가공을 더하면 초과한다. 도금·가공 완성품 공개가 없음."
+   },
+   {
+    "item_id": "25111678",
+    "state": "available",
+    "name": "금속기둥, 태창, TC-H23-06, 350×350×12×19mm, 방음벽지주용",
+    "verdict": "no_public_price",
+    "note": "원규격: SS275 H형 350×350×12×19 용융아연도금, 브래킷·베이스·리브·캡플레이트 포함(나라장터 상품 특성). 1 fact·Q6,011m·C1,644,008,500원, 6억 원 상한 B 173,683원/m. 같은 이유로 완성 지주 공개가 없음."
+   },
+   {
+    "item_id": "24052228",
+    "state": "available",
+    "name": "수도용폴리에틸렌관, 동원프라스틱, DWGIS-8-450, 단층, Φ450mm, PE100/SDR17/PN10, 관로탐지(동선)",
+    "verdict": "below_threshold",
+    "note": "PE100 SDR17 Φ450 동선 내장관. 5 facts·Q8,286m·C882,141,420원. 6억 원 상한 B 34,050원/m(필요 배율 3.13)로 관 원료 가격 수준에도 못 미쳐 도달 불가."
+   },
+   {
+    "item_id": "24052217",
+    "state": "available",
+    "name": "수도용폴리에틸렌관, 동원프라스틱, DWGIS-7-710, 단층, Φ710mm, PE100/SDR13.6/PN12.5, 관로탐지(동선)",
+    "verdict": "below_threshold",
+    "note": "PE100 SDR13.6 Φ710. 3 facts·Q1,970m·C636,310,000원. 6억 원 상한 B 18,431원/m(필요 배율 17.5)로 도달 불가."
+   },
+   {
+    "item_id": "21257191",
+    "state": "available",
+    "name": "일반용유리섬유강화플라스틱관, 스페이스프로, SGRP-011-1650, Φ1650mm, 1bar, 하수용",
+    "verdict": "no_public_price",
+    "note": "GRP관 Φ1650 1bar 하수용. 5 facts·Q1,740m·C1,156,716,780원, 6억 원 상한 B 319,952원/m(필요 배율 2.08). 국내 공개 판매가가 없고 검색 결과는 중국 제조사 MOQ·FOB 목록뿐이라 도착 원가가 미확인."
+   },
+   {
+    "item_id": "21257163",
+    "state": "available",
+    "name": "일반용유리섬유강화플라스틱관, 스페이스프로, SGRP-012-0900, Φ900mm, 1bar, SN20000, 하수용",
+    "verdict": "no_public_price",
+    "note": "GRP관 Φ900 SN20000. 9 facts·C920,620,330원, 6억 원 상한 B 86,936원/m(필요 배율 2.87). nonit 기록 재사용, 공개가 없음."
+   },
+   {
+    "item_id": "21554362",
+    "state": "available",
+    "name": "플라스틱계맨홀, 화인텍콤포지트, FC1호200, Φ900×H1350mm, GRP맨홀, 원형, II형, 접속구경Φ200mm",
+    "verdict": "no_public_price",
+    "note": "GRP맨홀 Φ900×H1350 II형. 25 facts·C976,405,484원, 6억 원 상한 B 380,208원/개(필요 배율 2.59). nonit 기록 재사용."
+   },
+   {
+    "item_id": "21705904",
+    "state": "available",
+    "name": "플라스틱계맨홀, 스페이스프로, GMH-09-0300C, Φ900×H1350mm, GRP맨홀, 원형, C형, 접속구경Φ300mm",
+    "verdict": "no_public_price",
+    "note": "GRP맨홀 Φ900×H1350 C형. 57 facts·C860,818,840원, 6억 원 상한 B 325,617원/개(필요 배율 3.30). nonit 기록 재사용."
+   },
+   {
+    "item_id": "24537979",
+    "state": "available",
+    "name": "체육시설탄성포장재, 신창우레탄, POTEN-P04, t15mm, 2종, 트랙용",
+    "verdict": "installed_price",
+    "note": "트랙용 탄성포장 t15 2종. 인도조건 현장설치도(industrial 기록). 15 facts·C2,415,778,200원, 6억 원 상한 B 74,411원/㎡. 공개된 설치 포함 판매가가 없음."
+   },
+   {
+    "item_id": "25598677",
+    "state": "available",
+    "name": "체육시설코르크바닥포장재, 스플랜트, SFC1-75, t75mm",
+    "verdict": "installed_price",
+    "note": "코르크 탄성포장 t75. 현장설치도. 15 facts·C1,231,414,000원, 6억 원 상한 B 88,707원/㎡. 공개 설치 포함 판매가 없음."
+   },
+   {
+    "item_id": "23494850",
+    "state": "available",
+    "name": "도막형바닥재, 동양후로아, FR-5, t5mm, 열경화성수지/MMA",
+    "verdict": "installed_price",
+    "note": "MMA 도막형 바닥재 t5. 현장설치도. 49 facts·C1,128,297,200원, 6억 원 상한 B 67,887원/㎡. 공개 설치 포함 판매가 없음."
+   },
+   {
+    "item_id": "25214604",
+    "state": "available",
+    "name": "폴리우레아수지도막방수재, 새론테크, SRM-750, t3mm, 수조/콘크리트구조물",
+    "verdict": "installed_price",
+    "note": "폴리우레아 방수 t3. 현장설치도. 13 facts·C1,857,982,000원, 6억 원 상한 B 66,353원/㎡. 재료 단가를 설치 포함 등재가와 비교하지 않음."
+   },
+   {
+    "item_id": "26003126",
+    "state": "available",
+    "name": "컨테이너하우스, 이엔후레쉬, EN-YS12, 3.2×9.2×3.2m, 여성편의시설/작전대기실용",
+    "verdict": "substitute_not_better",
+    "note": "원규격: 3.2×9.2×3.2m 단일동, 휴게·위생 공간 분리, 온돌·싱크·욕실·온수기, 천정 140T·벽 150T·바닥 100T 준불연 우레탄(기존 원문 검토). 6 facts·Q33·C1,440,450,000원, 6억 원 상한 B 25,468,182원/대(하차도). 공개가가 있는 한결 3×6m 모듈(7,000,000원 VAT 별도)은 단열 30T로 열등하고, 가나·제안 컨테이너는 가격협의라 동급 이상 완성 모듈의 공개가가 없음."
+   },
+   {
+    "item_id": "23232509",
+    "state": "available",
+    "name": "야외운동기구, 오리온햄프로, HB-4400W, 8840×6000×2830mm, 온몸근육풀기외7종",
+    "verdict": "below_threshold",
+    "note": "8종 일체형 야외운동기구 8840×6000×2830. 28 facts·Q35·C788,900,000원. 6억 원 상한 B 5,397,143원/조(필요 배율 4.18)로 동일 구성 대체 불가."
+   },
+   {
+    "item_id": "26143075",
+    "state": "available",
+    "name": "금속제기타울타리, 성일테크, S-GATE-EE, W4000×H1100mm",
+    "verdict": "no_public_price",
+    "note": "S-GATE-EE W4000×H1100. 1 fact·Q358경간·C869,940,000원, 6억 원 상한 B 754,022원(필요 배율 3.22). 공개 판매가 없음."
+   },
+   {
+    "item_id": "24170332",
+    "state": "available",
+    "name": "교통안전표지, 에이엘테크, AF-TE-742, 1500×1000×70mm, 어린이보호구역표시/태양광광섬유발광형",
+    "verdict": "identical_retail_higher",
+    "note": "원규격: 1500×1000×70 알루미늄, 재귀반사지, 태양광 광섬유 발광, DC12V. 36 facts·Q408·C1,334,160,000원, 6억 원 상한 B 1,799,412원/개. Parallel에서 찾은 takeup.kr 발광형 광섬유 표지판 1000×1500 2,750,000원(검색 발췌, 태양광 전원 구성 미확인)은 상한을 넘고 1.2배 가격차에도 미달. 일반 LED 표지판은 발광 방식이 달라 우수성 근거가 없음."
+   },
+   {
+    "item_id": "24022922",
+    "state": "available",
+    "name": "미장벽돌, 삼한씨원, BSH-15, 290×90×57mm, 점토, 실버블랙, 전벽돌",
+    "verdict": "below_threshold",
+    "note": "점토 전벽돌 290×90×57 실버블랙. 24 facts·Q506,203매·C961,785,700원. 6억 원 상한 B 715원/매(필요 배율 2.66). 동일 모델 공개가가 없고, 같은 색·크기 점토 전벽돌을 이 단가로 파는 공개 판매처도 찾지 못함."
+   },
+   {
+    "item_id": "25004661",
+    "state": "available",
+    "name": "기타화초, 왕지원, POR23-EJ001, 일년초, 웨이브페튜니아, 초장10~50cm, 그루백100×500x200mm",
+    "verdict": "no_public_price",
+    "note": "웨이브페튜니아 그루백 100×500×200(규격서 첨부). 15 facts·Q29,356장·C1,241,609,080원, 6억 원 상한 B 21,856원/장(필요 배율 1.94). 같은 그루백 완성품의 공개 판매가가 없음. 낱개 포트를 그루백 완성품 가격으로 바꿔 쓰지 않음."
+   },
+   {
+    "item_id": "22813774",
+    "state": "available",
+    "name": "기타화초, 자연과사람들, NP-P-01, 일년초, 웨이브페츄니아외2종, 초장5~35cm, 포트575×223×220mm",
+    "verdict": "below_threshold",
+    "note": "웨이브페튜니아 외 2종 포트 575×223×220. 40 facts·Q17,721·C833,480,470원. 6억 원 상한 B 13,175원(필요 배율 3.57)으로 도달 불가."
+   }
+  ]
+ }
 }
