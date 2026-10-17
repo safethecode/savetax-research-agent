@@ -15,6 +15,9 @@ from urllib.request import build_opener, ProxyHandler
 from .evidence import _source_valid
 from .secrets import environment, redact_keys
 
+# Jev 실행 루프가 누르지 않을 대상: 구매·장바구니·결제·주문·로그인·가입·문의·업로드.
+JEV_GUARD_PATTERN = r'구매|장바구니|결제|주문|로그인|회원가입|가입|문의|업로드|buy|cart|checkout|order|login|log in|sign ?in|sign ?up|register|upload'
+
 
 class BrowserRuntime:
     def __init__(self, root='.', env_file='.env.txt', session_name=None):
@@ -164,7 +167,7 @@ class BrowserRuntime:
         return {'installed':True, 'browser_ready':bool(health.get('healthy')), 'health':health,
             'keys':{name:bool(env.get(name)) for name in ('TYPESAFE_API_KEY','PARALLEL_API_KEY','TEXT_MODEL_API_KEY')}}
 
-    def _run(self, code, *, model=False):
+    def _run(self, code, *, model=False, timeout=55):
         if not self.python.exists():
             raise RuntimeError('먼저 requirements-browser.txt를 work/browser-runtime에 설치하세요')
         with self._operation():
@@ -176,9 +179,9 @@ class BrowserRuntime:
             try:
                 try:
                     result = subprocess.run(command, input=None if model else code, env=env, cwd=self.root,
-                        capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=55)
+                        capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=timeout)
                 except subprocess.TimeoutExpired:
-                    raise RuntimeError('브라우저 작업 55초 제한 초과; 키와 원문 오류는 출력하지 않습니다') from None
+                    raise RuntimeError(f'브라우저 작업 {timeout}초 제한 초과; 키와 원문 오류는 출력하지 않습니다') from None
                 if result.returncode:
                     raise RuntimeError(f'브라우저 작업 실패(exit={result.returncode}); 외부 오류 원문은 출력하지 않습니다')
                 try:
@@ -229,3 +232,44 @@ class BrowserRuntime:
             '    decision = state["decision"]\n'
             '    print(json.dumps({"status":state["status"],"url":state["page"]["url"],"title":state["page"]["title"],"text":state["page"]["text"],"operation":decision["operation"],"target":decision["target"],"confidence":decision["confidence"],"latency_ms":decision["latency_ms"],"model":decision["model"]}, ensure_ascii=False))\n')
         return self._run(code, model=True)
+
+    def run_jev(self, url, goal, max_steps=8, fills=None):
+        """Jev 실행 루프로 공개 판매 페이지를 직접 조작한다. 구매·로그인 계열 동작은 실행하지 않는다."""
+        self._validate_url(url)
+        if not isinstance(goal,str) or not 1 <= len(goal) <= 2000:
+            raise ValueError('1~2000자의 조사 목표가 필요합니다')
+        if type(max_steps) is not int or not 1 <= max_steps <= 20:
+            raise ValueError('max_steps는 1~20이어야 합니다')
+        fills = dict(fills or {})
+        if any(not isinstance(k,str) or not isinstance(v,str) or not k.strip() or len(k)>100 or len(v)>100 for k,v in fills.items()):
+            raise ValueError('입력값은 100자 이하의 라벨=값 쌍이어야 합니다')
+        if not self._env().get('TYPESAFE_API_KEY'):
+            raise ValueError('TYPESAFE_API_KEY 환경변수가 필요합니다')
+        code = ('import json, re\nfrom jev_ultrafast import Agent\nfrom jev_ultrafast.model import field_context\n'
+            f'FILLS = {fills!r}\n'
+            f'GUARD = re.compile({JEV_GUARD_PATTERN!r}, re.I)\n'
+            'steps = []\nstopped = None\n'
+            f'with Agent({url!r}, {goal!r}, screenshots=False) as agent:\n'
+            f'    for _ in range({max_steps}):\n'
+            '        state = agent.command("predict")\n'
+            '        d = state["decision"]\n'
+            '        action = next((a for a in state["page"]["actions"] if a["id"] == d["choice"]), None)\n'
+            '        label = (action or {}).get("label", d["choice"])\n'
+            '        steps.append({"operation": d["operation"], "label": label[:200], "confidence": d["confidence"], "latency_ms": d["latency_ms"]})\n'
+            '        if d["operation"] in ("DONE", "BLOCKED"):\n'
+            '            agent.command("act", {"fingerprint": state["page"]["fingerprint"]})\n'
+            '            stopped = d["operation"].lower(); break\n'
+            '        if GUARD.search(label):\n'
+            '            stopped = "guarded"; break\n'
+            '        if d["operation"] == "TYPE_TEXT":\n'
+            '            value = next((v for k, v in FILLS.items() if k in label), None)\n'
+            '            if value is None:\n'
+            '                stopped = "guarded"; break\n'
+            '            agent.pending_text = (field_context(agent.state["goal"], action, state["page"], agent.state["history"]), value, None)\n'
+            '            steps[-1]["text"] = value\n'
+            '        agent.command("act", {"fingerprint": state["page"]["fingerprint"]})\n'
+            '    page = agent.browser.observe(screenshot=False)\n'
+            '    print(json.dumps({"stopped": stopped or "step_limit", "steps": steps, "url": page["url"], "title": page["title"], "text": page["text"][:40000], "model": (agent.state["decisions"] or [{}])[-1].get("model")}, ensure_ascii=False))\n')
+        result = self._run(code, model=True, timeout=180)
+        result.update(observed_at=datetime.now(timezone.utc).isoformat(), engine='jev_ultrafast', evidence_status='unreviewed')
+        return result

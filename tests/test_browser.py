@@ -142,3 +142,19 @@ class BrowserTests(unittest.TestCase):
                     runtime._run('test', model=True)
             self.assertNotIn('external-secret-detail', str(failure.exception))
             self.assertFalse((runtime.work/'browser-operation.lock').exists())
+
+
+class JevGuardTest(unittest.TestCase):
+    def test_guard_blocks_purchase_and_login_labels(self):
+        import re
+        from savetax.browser import JEV_GUARD_PATTERN
+        guard = re.compile(JEV_GUARD_PATTERN, re.I)
+        for label in ('바로구매', '장바구니 담기', '결제하기', '로그인', '회원가입', 'Add to Cart', 'Checkout', 'Sign in'):
+            self.assertTrue(guard.search(label), label)
+        for label in ('판넬두께 150T', '코일두께 0.5T x 0.6T', '수량 증가', '상품 상세정보'):
+            self.assertFalse(guard.search(label), label)
+
+    def test_run_jev_rejects_bad_steps(self):
+        from savetax.browser import BrowserRuntime
+        with self.assertRaises(ValueError):
+            BrowserRuntime().run_jev('https://example.com/p', '가격 확인', max_steps=0)

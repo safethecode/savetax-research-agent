@@ -238,7 +238,13 @@ def main(argv=None):
     browser_plan.add_argument('--url', required=True)
     browser_plan.add_argument('--goal', required=True)
     browser_plan.add_argument('--output', required=True)
-    for browser_command in (browser_status, browser_read, browser_plan):
+    browser_jev = sub.add_parser('browser-jev', help='Jev 실행 루프로 공개 판매 페이지 조작·읽기 (구매·로그인 동작 차단)')
+    browser_jev.add_argument('--url', required=True)
+    browser_jev.add_argument('--goal', required=True)
+    browser_jev.add_argument('--output', required=True)
+    browser_jev.add_argument('--max-steps', type=int, default=8)
+    browser_jev.add_argument('--fill', action='append', default=[], help='TYPE_TEXT 대상 라벨=값 (조사자가 정한 값만 입력)')
+    for browser_command in (browser_status, browser_read, browser_plan, browser_jev):
         browser_command.add_argument('--session', help='독립 CLI 브라우저 세션 이름 (생략하면 기존 공유 경로)')
     document = sub.add_parser('document-read', help='로컬 HWP/HWPX 실제 형식 판별·본문 추출 (사양 검증 전)')
     document.add_argument('--input', required=True)
@@ -321,13 +327,19 @@ def main(argv=None):
                     histories[report_id] = client.get_json(REPORTS_URL + '/' + str(report_id) + '/history')
             write_json(args.output, {'status': status, 'rejected_histories': histories})
             print('일반 제보 상태 저장: ' + str(args.output))
-        elif args.command in ('browser-status','browser-read','browser-plan'):
+        elif args.command in ('browser-status','browser-read','browser-plan','browser-jev'):
             from .browser import BrowserRuntime
             runtime = BrowserRuntime(session_name=args.session)
             if args.command == 'browser-status':
                 print(json.dumps(runtime.status(),ensure_ascii=False,indent=2))
             else:
-                result = runtime.read(args.url) if args.command == 'browser-read' else runtime.plan(args.url,args.goal)
+                if args.command == 'browser-read':
+                    result = runtime.read(args.url)
+                elif args.command == 'browser-jev':
+                    fills = dict(item.split('=',1) for item in args.fill if '=' in item)
+                    result = runtime.run_jev(args.url,args.goal,args.max_steps,fills)
+                else:
+                    result = runtime.plan(args.url,args.goal)
                 write_json(args.output,result)
                 print('브라우저 조사 결과 저장: '+str(args.output))
         elif args.command == 'document-read':
