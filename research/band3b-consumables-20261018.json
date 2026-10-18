@@ -2,7 +2,7 @@
  "agent": "band3b-consumables",
  "date": "2026-10-18",
  "threshold_krw": 300000000,
- "method": "로컬 우선 인덱스 C·Q로 필요 단가를 근사하고 Parallel 검색 170건 이상으로 판매가 단서를 확인했다. 단서가 가까운 설비 6건만 공식 fact를 조회했다. 공공조달 가격은 근거로 쓰지 않았다.",
+ "method": "로컬 우선 인덱스 C·Q로 필요 단가를 근사하고 Parallel 검색 170건 이상으로 판매가 단서를 확인했다. 단서가 가까운 설비 6건만 공식 fact를 조회했다. 공공조달 가격은 근거로 쓰지 않았다. 후속 정정에 따라 204개 전체의 공식 fact를 조회해 C·Q·필요 단가를 다시 계산했다(429 발생 없음). 모두 available이고 공식 필요 단가는 로컬 근사와 5% 이내로 같아 판정은 바뀌지 않았다.",
  "counts": {
   "retail_higher": 16,
   "no_qualifying_price": 145,
@@ -32,7 +32,11 @@
    "Q_official": "34693",
    "required_B_official": "10073.00",
    "verdict": "retail_higher",
-   "note": "다올 공식몰 포기김치 5kg 36,300원 단서(https://www.daol-inc.com/shop/shopdetail.html?branduid=2286230). 필요 단가 10,073원/5kg보다 훨씬 높다."
+   "note": "다올 공식몰 포기김치 5kg 36,300원 단서(https://www.daol-inc.com/shop/shopdetail.html?branduid=2286230). 필요 단가 10,073원/5kg보다 훨씬 높다.",
+   "state_official": "available",
+   "unit_official": "봉지",
+   "tax_basis": "vat_included",
+   "fact_count": 128
   },
   {
    "item_id": "25367899",
@@ -50,7 +54,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25367899.json)으로 찾았으나 필요 단가 약 4,706원(조달 단가의 53%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25367899.json)으로 찾았으나 필요 단가 약 4,706원(조달 단가의 53%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "646263200",
+   "Q_official": "73439",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "4714.98",
+   "fact_count": 199
   },
   {
    "item_id": "22491416",
@@ -68,7 +79,14 @@
     "below_1B"
    ],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-22491416.json)에서 필요 단가 약 5,824원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-22491416.json)에서 필요 단가 약 5,824원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "644873130",
+   "Q_official": "59217",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "5823.89",
+   "fact_count": 43
   },
   {
    "item_id": "25185634",
@@ -86,7 +104,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25185634.json)으로 찾았으나 필요 단가 약 12,287원(조달 단가의 53%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25185634.json)으로 찾았으나 필요 단가 약 12,287원(조달 단가의 53%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "641741100",
+   "Q_official": "27781",
+   "unit_official": "봉",
+   "tax_basis": "vat_included",
+   "required_B_official": "12301.25",
+   "fact_count": 48
   },
   {
    "item_id": "23803116",
@@ -104,7 +129,14 @@
     "below_1B"
    ],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-23803116.json)에서 필요 단가 약 37,566원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-23803116.json)에서 필요 단가 약 37,566원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "637722000",
+   "Q_official": "8982",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "37599.86",
+   "fact_count": 62
   },
   {
    "item_id": "25490588",
@@ -124,7 +156,14 @@
     "미조회보류: 통영해인 계란후라이900g 정확제품 소매페이지 미발견. 다른제조사 풍림/쉐프원900g은 채택 안 함."
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25490588.json)으로 찾았으나 필요 단가 약 3,544원(조달 단가의 53%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25490588.json)으로 찾았으나 필요 단가 약 3,544원(조달 단가의 53%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "635715150",
+   "Q_official": "94920",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "3536.82",
+   "fact_count": 177
   },
   {
    "item_id": "25417229",
@@ -142,7 +181,14 @@
     "below_1B"
    ],
    "verdict": "retail_higher",
-   "note": "펩시 제로슈거 라임 355mL 24캔 핫딜 13,700원(캔당 약 571원), 다나와 32,900원. 필요 단가 약 301원/캔에 못 미친다."
+   "note": "펩시 제로슈거 라임 355mL 24캔 핫딜 13,700원(캔당 약 571원), 다나와 32,900원. 필요 단가 약 301원/캔에 못 미친다.",
+   "state_official": "available",
+   "C_official": "633157668",
+   "Q_official": "1106919",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "300.98",
+   "fact_count": 146
   },
   {
    "item_id": "23844328",
@@ -160,7 +206,14 @@
     "math_infeasible"
    ],
    "verdict": "no_retail",
-   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다."
+   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다.",
+   "state_official": "available",
+   "C_official": "632942910",
+   "Q_official": "19055",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "17472.73",
+   "fact_count": 59
   },
   {
    "item_id": "22844628",
@@ -178,7 +231,14 @@
     "math_infeasible"
    ],
    "verdict": "no_retail",
-   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다."
+   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다.",
+   "state_official": "available",
+   "C_official": "631523720",
+   "Q_official": "22060",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "15028.27",
+   "fact_count": 68
   },
   {
    "item_id": "25166551",
@@ -196,7 +256,14 @@
     "below_1B"
    ],
    "verdict": "retail_higher",
-   "note": "교동식품 공식몰 국탕류 가격대 9,900~14,200원. 필요 단가 약 5,707원/kg."
+   "note": "교동식품 공식몰 국탕류 가격대 9,900~14,200원. 필요 단가 약 5,707원/kg.",
+   "state_official": "available",
+   "C_official": "630357900",
+   "Q_official": "57831",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "5712.47",
+   "fact_count": 54
   },
   {
    "item_id": "25383636",
@@ -214,7 +281,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25383636.json)으로 찾았으나 필요 단가 약 4,031원(조달 단가의 52%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25383636.json)으로 찾았으나 필요 단가 약 4,031원(조달 단가의 52%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "629883100",
+   "Q_official": "81803",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "4032.65",
+   "fact_count": 183
   },
   {
    "item_id": "20983588",
@@ -232,7 +306,14 @@
     "math_infeasible"
    ],
    "verdict": "excluded_designated",
-   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다."
+   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다.",
+   "state_official": "available",
+   "C_official": "625980000",
+   "Q_official": "9200000",
+   "unit_official": "매",
+   "tax_basis": "vat_included",
+   "required_B_official": "35.43",
+   "fact_count": 4
   },
   {
    "item_id": "24936226",
@@ -250,7 +331,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24936226.json)으로 찾았으나 필요 단가 약 9,585원(조달 단가의 52%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24936226.json)으로 찾았으나 필요 단가 약 9,585원(조달 단가의 52%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "623394500",
+   "Q_official": "33697",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "9597.13",
+   "fact_count": 19
   },
   {
    "item_id": "22962486",
@@ -268,7 +356,14 @@
     "math_infeasible"
    ],
    "verdict": "no_retail",
-   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다."
+   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다.",
+   "state_official": "available",
+   "C_official": "620986080",
+   "Q_official": "11336",
+   "unit_official": "통",
+   "tax_basis": "vat_included",
+   "required_B_official": "28315.64",
+   "fact_count": 36
   },
   {
    "item_id": "25287303",
@@ -286,7 +381,14 @@
     "below_1B"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25287303.json)으로 찾았으나 필요 단가 약 2,077원(조달 단가의 51%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25287303.json)으로 찾았으나 필요 단가 약 2,077원(조달 단가의 51%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "617167350",
+   "Q_official": "152387",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "2081.33",
+   "fact_count": 78
   },
   {
    "item_id": "21915988",
@@ -304,7 +406,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-21915988.json)에서 필요 단가 약 60,000원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-21915988.json)에서 필요 단가 약 60,000원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "616707000",
+   "Q_official": "5271",
+   "unit_official": "통",
+   "tax_basis": "vat_included",
+   "required_B_official": "60084.80",
+   "fact_count": 28
   },
   {
    "item_id": "24655710",
@@ -322,7 +431,14 @@
     "below_1B"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24655710.json)으로 찾았으나 필요 단가 약 10,714원(조달 단가의 51%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24655710.json)으로 찾았으나 필요 단가 약 10,714원(조달 단가의 51%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "612675000",
+   "Q_official": "29175",
+   "unit_official": "봉지",
+   "tax_basis": "vat_included",
+   "required_B_official": "10717.22",
+   "fact_count": 60
   },
   {
    "item_id": "24187152",
@@ -340,7 +456,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24187152.json)에서 필요 단가 약 3,655원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24187152.json)에서 필요 단가 약 3,655원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "609876000",
+   "Q_official": "84705",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "3658.30",
+   "fact_count": 26
   },
   {
    "item_id": "24815477",
@@ -359,7 +482,14 @@
     "보류: 정다운동일브랜드1kg공식23000원이나3kg정확포장판매가없음. 1kg를3배하여제출안함."
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24815477.json)으로 찾았으나 필요 단가 약 22,055원(조달 단가의 50%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24815477.json)으로 찾았으나 필요 단가 약 22,055원(조달 단가의 50%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "603882510",
+   "Q_official": "13759",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "22086.09",
+   "fact_count": 46
   },
   {
    "item_id": "24823490",
@@ -378,7 +508,14 @@
     "미조회보류: 아워홈 행복한맛남 계란후라이500g: 실제11번가 일반판매가8450원/할인가7210원, 배송비1개당4000원. 합11210원으로 조달7249원보다 높음. 다나와 하단3210원은 실제상품가격 아님. root 브라우저 work/browser/ourhome-11st.json 확인."
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24823490.json)으로 찾았으나 필요 단가 약 3,598원(조달 단가의 50%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24823490.json)으로 찾았으나 필요 단가 약 3,598원(조달 단가의 50%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "602970086",
+   "Q_official": "84218",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "3597.45",
+   "fact_count": 155
   },
   {
    "item_id": "24020916",
@@ -397,7 +534,14 @@
     "negative_thin_plain_bag_scope"
    ],
    "verdict": "excluded_designated",
-   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다."
+   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다.",
+   "state_official": "available",
+   "C_official": "601770000",
+   "Q_official": "3236000",
+   "unit_official": "매",
+   "tax_basis": "vat_included",
+   "required_B_official": "93.25",
+   "fact_count": 9
   },
   {
    "item_id": "25025582",
@@ -415,7 +559,14 @@
     "below_06B"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25025582.json)으로 찾았으나 필요 단가 약 8,234원(조달 단가의 50%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25025582.json)으로 찾았으나 필요 단가 약 8,234원(조달 단가의 50%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "600030000",
+   "Q_official": "36438",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "8233.99",
+   "fact_count": 35
   },
   {
    "item_id": "22456897",
@@ -433,7 +584,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-22456897.json)에서 필요 단가 약 8,800원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-22456897.json)에서 필요 단가 약 8,800원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "598734400",
+   "Q_official": "34019",
+   "unit_official": "병",
+   "tax_basis": "vat_included",
+   "required_B_official": "8781.40",
+   "fact_count": 37
   },
   {
    "item_id": "24466882",
@@ -451,7 +609,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24466882.json)에서 필요 단가 약 1,990원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24466882.json)에서 필요 단가 약 1,990원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "597652000",
+   "Q_official": "149413",
+   "unit_official": "병",
+   "tax_basis": "vat_included",
+   "required_B_official": "1992.14",
+   "fact_count": 26
   },
   {
    "item_id": "22737634",
@@ -469,7 +634,14 @@
     "math_infeasible"
    ],
    "verdict": "excluded_designated",
-   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다."
+   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다.",
+   "state_official": "available",
+   "C_official": "585557600",
+   "Q_official": "4458000",
+   "unit_official": "매",
+   "tax_basis": "vat_included",
+   "required_B_official": "64.06",
+   "fact_count": 9
   },
   {
    "item_id": "26129556",
@@ -488,7 +660,14 @@
     "math_infeasible"
    ],
    "verdict": "retail_higher",
-   "note": "쿠팡 버콘S 1kg 27,160원 단서. 버콘S-X 원품 기준 필요 단가 약 14,466원보다 높다."
+   "note": "쿠팡 버콘S 1kg 27,160원 단서. 버콘S-X 원품 기준 필요 단가 약 14,466원보다 높다.",
+   "state_official": "available",
+   "C_official": "583782000",
+   "Q_official": "19590",
+   "unit_official": "kg",
+   "tax_basis": "vat_included",
+   "required_B_official": "14486.06",
+   "fact_count": 39
   },
   {
    "item_id": "21186789",
@@ -506,7 +685,14 @@
     "math_infeasible"
    ],
    "verdict": "excluded_designated",
-   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다."
+   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다.",
+   "state_official": "available",
+   "C_official": "583684160",
+   "Q_official": "4881600",
+   "unit_official": "매",
+   "tax_basis": "vat_included",
+   "required_B_official": "58.11",
+   "fact_count": 41
   },
   {
    "item_id": "24815500",
@@ -524,7 +710,14 @@
     "math_infeasible"
    ],
    "verdict": "retail_higher",
-   "note": "마니커에프앤지 버팔로윙 1kg+버팔로봉 1kg 묶음 판매가 단서가 필요 단가(1kg 약 6,087원)보다 높다."
+   "note": "마니커에프앤지 버팔로윙 1kg+버팔로봉 1kg 묶음 판매가 단서가 필요 단가(1kg 약 6,087원)보다 높다.",
+   "state_official": "available",
+   "C_official": "583661760",
+   "Q_official": "46544",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "6094.49",
+   "fact_count": 48
   },
   {
    "item_id": "25166553",
@@ -543,7 +736,14 @@
     "보류: 교동장조림/파슬리갈릭연어/랑쿡훈제삼겹/명품버팔로윙/베이컨스타일슬라이스/비타민훈제돈육/하이푸드텍샌드위치햄/랑쿡훈제오리 정확상품가격없음."
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25166553.json)으로 찾았으나 필요 단가 약 4,118원(조달 단가의 48%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25166553.json)으로 찾았으나 필요 단가 약 4,118원(조달 단가의 48%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "576966510",
+   "Q_official": "67359",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "4111.80",
+   "fact_count": 121
   },
   {
    "item_id": "22844638",
@@ -561,7 +761,14 @@
     "math_infeasible"
    ],
    "verdict": "no_retail",
-   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다."
+   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다.",
+   "state_official": "available",
+   "C_official": "576749400",
+   "Q_official": "16596",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "16675.67",
+   "fact_count": 73
   },
   {
    "item_id": "22844634",
@@ -579,7 +786,14 @@
     "math_infeasible"
    ],
    "verdict": "no_retail",
-   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다."
+   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다.",
+   "state_official": "available",
+   "C_official": "575633549",
+   "Q_official": "20937",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "13164.90",
+   "fact_count": 71
   },
   {
    "item_id": "25166554",
@@ -597,7 +811,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25166554.json)으로 찾았으나 필요 단가 약 5,751원(조달 단가의 48%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25166554.json)으로 찾았으나 필요 단가 약 5,751원(조달 단가의 48%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "575610210",
+   "Q_official": "47887",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "5755.43",
+   "fact_count": 104
   },
   {
    "item_id": "25600515",
@@ -616,7 +837,14 @@
     "보류: 교동장조림/파슬리갈릭연어/랑쿡훈제삼겹/명품버팔로윙/베이컨스타일슬라이스/비타민훈제돈육/하이푸드텍샌드위치햄/랑쿡훈제오리 정확상품가격없음."
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25600515.json)으로 찾았으나 필요 단가 약 11,497원(조달 단가의 48%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25600515.json)으로 찾았으나 필요 단가 약 11,497원(조달 단가의 48%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "574288740",
+   "Q_official": "23900",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "11476.52",
+   "fact_count": 32
   },
   {
    "item_id": "24895990",
@@ -635,7 +863,14 @@
     "보류: 교동장조림/파슬리갈릭연어/랑쿡훈제삼겹/명품버팔로윙/베이컨스타일슬라이스/비타민훈제돈육/하이푸드텍샌드위치햄/랑쿡훈제오리 정확상품가격없음."
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24895990.json)으로 찾았으나 필요 단가 약 7,533원(조달 단가의 48%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24895990.json)으로 찾았으나 필요 단가 약 7,533원(조달 단가의 48%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "573886320",
+   "Q_official": "36276",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "7550.07",
+   "fact_count": 37
   },
   {
    "item_id": "24906133",
@@ -653,7 +888,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24906133.json)으로 찾았으나 필요 단가 약 3,981원(조달 단가의 48%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24906133.json)으로 찾았으나 필요 단가 약 3,981원(조달 단가의 48%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "572384120",
+   "Q_official": "68467",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "3978.33",
+   "fact_count": 107
   },
   {
    "item_id": "20985724",
@@ -671,7 +913,14 @@
     "math_infeasible"
    ],
    "verdict": "excluded_designated",
-   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다."
+   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다.",
+   "state_official": "available",
+   "C_official": "571904000",
+   "Q_official": "10263000",
+   "unit_official": "매",
+   "tax_basis": "vat_included",
+   "required_B_official": "26.49",
+   "fact_count": 12
   },
   {
    "item_id": "25316260",
@@ -689,7 +938,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25316260.json)으로 찾았으나 필요 단가 약 6,256원(조달 단가의 47%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25316260.json)으로 찾았으나 필요 단가 약 6,256원(조달 단가의 47%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "569566800",
+   "Q_official": "43149",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "6247.35",
+   "fact_count": 33
   },
   {
    "item_id": "20985505",
@@ -707,7 +963,14 @@
     "math_infeasible"
    ],
    "verdict": "excluded_designated",
-   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다."
+   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다.",
+   "state_official": "available",
+   "C_official": "569502730",
+   "Q_official": "2650600",
+   "unit_official": "매",
+   "tax_basis": "vat_included",
+   "required_B_official": "101.68",
+   "fact_count": 6
   },
   {
    "item_id": "24906916",
@@ -725,7 +988,14 @@
     "math_infeasible"
    ],
    "verdict": "no_retail",
-   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다."
+   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다.",
+   "state_official": "available",
+   "C_official": "569076280",
+   "Q_official": "9942",
+   "unit_official": "통",
+   "tax_basis": "vat_included",
+   "required_B_official": "27064.60",
+   "fact_count": 77
   },
   {
    "item_id": "24569498",
@@ -743,7 +1013,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24569498.json)으로 찾았으나 필요 단가 약 7,746원(조달 단가의 47%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24569498.json)으로 찾았으나 필요 단가 약 7,746원(조달 단가의 47%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "565735500",
+   "Q_official": "34287",
+   "unit_official": "봉지",
+   "tax_basis": "vat_included",
+   "required_B_official": "7750.33",
+   "fact_count": 105
   },
   {
    "item_id": "25705220",
@@ -762,7 +1039,14 @@
     "보류: 사옹원소고기육전1kg판매34000원 단서는조달23500보다높음. 부쳐나온명칭동일성미확정."
    ],
    "verdict": "retail_higher",
-   "note": "사옹원 소고기육전 1kg 오아시스 25,870원 이상. 필요 단가 약 11,033원."
+   "note": "사옹원 소고기육전 1kg 오아시스 25,870원 이상. 필요 단가 약 11,033원.",
+   "state_official": "available",
+   "C_official": "565081000",
+   "Q_official": "24046",
+   "unit_official": "봉",
+   "tax_basis": "vat_included",
+   "required_B_official": "11023.91",
+   "fact_count": 36
   },
   {
    "item_id": "24917260",
@@ -781,7 +1065,14 @@
     "보류: 제조사한양제너럴푸드웰쉐프공식300g3팩18300원(품절). 1kg정확순살슬라이스가격없음."
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24917260.json)으로 찾았으나 필요 단가 약 7,341원(조달 단가의 47%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24917260.json)으로 찾았으나 필요 단가 약 7,341원(조달 단가의 47%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "562364352",
+   "Q_official": "35797",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "7329.23",
+   "fact_count": 28
   },
   {
    "item_id": "25566914",
@@ -799,7 +1090,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25566914.json)으로 찾았으나 필요 단가 약 10,648원(조달 단가의 46%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25566914.json)으로 찾았으나 필요 단가 약 10,648원(조달 단가의 46%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "557543000",
+   "Q_official": "24241",
+   "unit_official": "봉",
+   "tax_basis": "vat_included",
+   "required_B_official": "10624.27",
+   "fact_count": 36
   },
   {
    "item_id": "25431819",
@@ -817,7 +1115,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25431819.json)으로 찾았으나 필요 단가 약 6,466원(조달 단가의 46%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25431819.json)으로 찾았으나 필요 단가 약 6,466원(조달 단가의 46%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "552296640",
+   "Q_official": "39004",
+   "unit_official": "kg",
+   "tax_basis": "vat_included",
+   "required_B_official": "6468.48",
+   "fact_count": 29
   },
   {
    "item_id": "22959185",
@@ -835,7 +1140,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-22959185.json)에서 필요 단가 약 111,364원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-22959185.json)에서 필요 단가 약 111,364원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "550515000",
+   "Q_official": "2247",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "111488.64",
+   "fact_count": 43
   },
   {
    "item_id": "24188078",
@@ -851,7 +1163,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24188078.json)에서 필요 단가 약 230,669원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24188078.json)에서 필요 단가 약 230,669원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "548520600",
+   "Q_official": "1076",
+   "unit_official": "키트",
+   "tax_basis": "vat_included",
+   "required_B_official": "233333.33",
+   "fact_count": 17
   },
   {
    "item_id": "24806212",
@@ -869,7 +1188,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24806212.json)으로 찾았으나 필요 단가 약 8,371원(조달 단가의 45%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24806212.json)으로 찾았으나 필요 단가 약 8,371원(조달 단가의 45%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "547045000",
+   "Q_official": "29570",
+   "unit_official": "봉지",
+   "tax_basis": "vat_included",
+   "required_B_official": "8354.58",
+   "fact_count": 74
   },
   {
    "item_id": "23246747",
@@ -891,7 +1217,11 @@
    "Q_official": "91",
    "required_B_official": "2703296.00",
    "verdict": "installed_unique",
-   "note": "에프에프엔이 SSG-1600(26L/min) 현장설치도. 제조사 회사 소개만 있고 공개 판매가 없음. 필요 단가 2,703,296원 이하의 우월 대체품 근거 없음."
+   "note": "에프에프엔이 SSG-1600(26L/min) 현장설치도. 제조사 회사 소개만 있고 공개 판매가 없음. 필요 단가 2,703,296원 이하의 우월 대체품 근거 없음.",
+   "state_official": "available",
+   "unit_official": "대",
+   "tax_basis": "vat_included",
+   "fact_count": 90
   },
   {
    "item_id": "25739073",
@@ -909,7 +1239,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25739073.json)으로 찾았으나 필요 단가 약 3,279원(조달 단가의 45%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25739073.json)으로 찾았으나 필요 단가 약 3,279원(조달 단가의 45%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "542641630",
+   "Q_official": "73881",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "3284.22",
+   "fact_count": 161
   },
   {
    "item_id": "25210353",
@@ -927,7 +1264,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-25210353.json)에서 필요 단가 약 7,054원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-25210353.json)에서 필요 단가 약 7,054원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "541908400",
+   "Q_official": "34298",
+   "unit_official": "병",
+   "tax_basis": "vat_included",
+   "required_B_official": "7053.13",
+   "fact_count": 13
   },
   {
    "item_id": "24498753",
@@ -945,7 +1289,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24498753.json)에서 필요 단가 약 1,778원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24498753.json)에서 필요 단가 약 1,778원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "539096000",
+   "Q_official": "134774",
+   "unit_official": "병",
+   "tax_basis": "vat_included",
+   "required_B_official": "1774.05",
+   "fact_count": 26
   },
   {
    "item_id": "22282874",
@@ -964,7 +1315,14 @@
     "미조회보류: 2025축산대리버카탈로그 하나텐파워1L11750원=조달11750원."
    ],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-22282874.json)에서 필요 단가 약 5,199원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-22282874.json)에서 필요 단가 약 5,199원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "538173500",
+   "Q_official": "45802",
+   "unit_official": "통",
+   "tax_basis": "vat_included",
+   "required_B_official": "5200.07",
+   "fact_count": 42
   },
   {
    "item_id": "24513131",
@@ -982,7 +1340,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24513131.json)으로 찾았으나 필요 단가 약 4,273원(조달 단가의 44%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24513131.json)으로 찾았으나 필요 단가 약 4,273원(조달 단가의 44%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "536749500",
+   "Q_official": "55335",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "4278.48",
+   "fact_count": 78
   },
   {
    "item_id": "25594991",
@@ -1000,7 +1365,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25594991.json)으로 찾았으나 필요 단가 약 10,088원(조달 단가의 44%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25594991.json)으로 찾았으나 필요 단가 약 10,088원(조달 단가의 44%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "535003000",
+   "Q_official": "23261",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "10102.88",
+   "fact_count": 28
   },
   {
    "item_id": "23054636",
@@ -1018,7 +1390,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-23054636.json)에서 필요 단가 약 41,485원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-23054636.json)에서 필요 단가 약 41,485원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "533235000",
+   "Q_official": "5613",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "41552.64",
+   "fact_count": 35
   },
   {
    "item_id": "24021444",
@@ -1036,7 +1415,14 @@
     "math_infeasible"
    ],
    "verdict": "excluded_designated",
-   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다."
+   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다.",
+   "state_official": "available",
+   "C_official": "532882800",
+   "Q_official": "10659000",
+   "unit_official": "매",
+   "tax_basis": "vat_included",
+   "required_B_official": "21.85",
+   "fact_count": 13
   },
   {
    "item_id": "25412702",
@@ -1054,7 +1440,14 @@
     "math_infeasible"
    ],
    "verdict": "excluded_designated",
-   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다."
+   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다.",
+   "state_official": "available",
+   "C_official": "532512600",
+   "Q_official": "8932000",
+   "unit_official": "매",
+   "tax_basis": "vat_included",
+   "required_B_official": "26.03",
+   "fact_count": 13
   },
   {
    "item_id": "22367620",
@@ -1072,7 +1465,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-22367620.json)에서 필요 단가 약 28,428원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-22367620.json)에서 필요 단가 약 28,428원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "531801900",
+   "Q_official": "8169",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "28375.80",
+   "fact_count": 58
   },
   {
    "item_id": "20675327",
@@ -1091,7 +1491,14 @@
     "미조회보류: 판킬1kg소매가미발견. 검색결과기관계약18150원만있어조달가격을소매가로쓰지않음."
    ],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-20675327.json)에서 필요 단가 약 7,891원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-20675327.json)에서 필요 단가 약 7,891원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "531159750",
+   "Q_official": "29265",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "7898.85",
+   "fact_count": 22
   },
   {
    "item_id": "25817481",
@@ -1109,7 +1516,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25817481.json)으로 찾았으나 필요 단가 약 5,905원(조달 단가의 43%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25817481.json)으로 찾았으나 필요 단가 약 5,905원(조달 단가의 43%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "528135000",
+   "Q_official": "38550",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "5917.90",
+   "fact_count": 67
   },
   {
    "item_id": "25322411",
@@ -1127,7 +1541,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25322411.json)으로 찾았으나 필요 단가 약 5,974원(조달 단가의 43%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25322411.json)으로 찾았으나 필요 단가 약 5,974원(조달 단가의 43%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "528038280",
+   "Q_official": "38098",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "5985.57",
+   "fact_count": 37
   },
   {
    "item_id": "24118506",
@@ -1143,7 +1564,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24118506.json)에서 필요 단가 약 74,463원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24118506.json)에서 필요 단가 약 74,463원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "526554000",
+   "Q_official": "3048",
+   "unit_official": "통",
+   "tax_basis": "vat_included",
+   "required_B_official": "74328.74",
+   "fact_count": 7
   },
   {
    "item_id": "24519770",
@@ -1161,7 +1589,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24519770.json)으로 찾았으나 필요 단가 약 2,974원(조달 단가의 43%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24519770.json)으로 찾았으나 필요 단가 약 2,974원(조달 단가의 43%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "525155400",
+   "Q_official": "75780",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "2971.17",
+   "fact_count": 111
   },
   {
    "item_id": "23788088",
@@ -1179,7 +1614,14 @@
     "math_infeasible"
    ],
    "verdict": "no_retail",
-   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다."
+   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다.",
+   "state_official": "available",
+   "C_official": "521713120",
+   "Q_official": "15760",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "14068.09",
+   "fact_count": 69
   },
   {
    "item_id": "25618403",
@@ -1197,7 +1639,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25618403.json)으로 찾았으나 필요 단가 약 835원(조달 단가의 42%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25618403.json)으로 찾았으나 필요 단가 약 835원(조달 단가의 42%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "518187780",
+   "Q_official": "261711",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "833.70",
+   "fact_count": 201
   },
   {
    "item_id": "24519714",
@@ -1215,7 +1664,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24519714.json)으로 찾았으나 필요 단가 약 2,920원(조달 단가의 42%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24519714.json)으로 찾았으나 필요 단가 약 2,920원(조달 단가의 42%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "517962650",
+   "Q_official": "74527",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "2924.61",
+   "fact_count": 106
   },
   {
    "item_id": "25262930",
@@ -1233,7 +1689,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25262930.json)으로 찾았으나 필요 단가 약 6,213원(조달 단가의 42%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25262930.json)으로 찾았으나 필요 단가 약 6,213원(조달 단가의 42%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "515101950",
+   "Q_official": "34687",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "6201.23",
+   "fact_count": 57
   },
   {
    "item_id": "24741243",
@@ -1254,7 +1717,11 @@
    "Q_official": "77",
    "required_B_official": "2789267.50",
    "verdict": "installed_unique",
-   "note": "에스엠엔테크 AIRJOY80(광촉매·UV LED, 264㎡). 제조사 사이트에 가격 없음. 필요 단가 2,789,267원 이하에서 살균 성능이 분명히 더 좋다는 독립 근거를 갖춘 대체품 없음."
+   "note": "에스엠엔테크 AIRJOY80(광촉매·UV LED, 264㎡). 제조사 사이트에 가격 없음. 필요 단가 2,789,267원 이하에서 살균 성능이 분명히 더 좋다는 독립 근거를 갖춘 대체품 없음.",
+   "state_official": "available",
+   "unit_official": "대",
+   "tax_basis": "vat_included",
+   "fact_count": 15
   },
   {
    "item_id": "25381239",
@@ -1273,7 +1740,14 @@
     "보류: 리챔동원스페셜1.81kg소매19950원검색단서, 조달17000보다높음."
    ],
    "verdict": "retail_higher",
-   "note": "기존 확인: 리챔 스페셜 1.81kg 소매 19,950원 단서로 조달 17,000원보다 높다."
+   "note": "기존 확인: 리챔 스페셜 1.81kg 소매 19,950원 단서로 조달 17,000원보다 높다.",
+   "state_official": "available",
+   "C_official": "513825000",
+   "Q_official": "30225",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "7074.44",
+   "fact_count": 43
   },
   {
    "item_id": "25214941",
@@ -1291,7 +1765,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25214941.json)으로 찾았으나 필요 단가 약 4,033원(조달 단가의 42%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25214941.json)으로 찾았으나 필요 단가 약 4,033원(조달 단가의 42%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "513766000",
+   "Q_official": "53075",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "4027.62",
+   "fact_count": 37
   },
   {
    "item_id": "20949448",
@@ -1310,7 +1791,14 @@
     "미조회보류: 아비타500020kg소매가격비교16230원무료배송. 조달아비타20kg10670보다높음. 농도/모델suffix추가확인전동일품확정안함."
    ],
    "verdict": "retail_higher",
-   "note": "기존 확인: 아비타 5000 20kg 소매 16,230원으로 조달 9,984원보다 높다."
+   "note": "기존 확인: 아비타 5000 20kg 소매 16,230원으로 조달 9,984원보다 높다.",
+   "state_official": "available",
+   "C_official": "512959480",
+   "Q_official": "51376",
+   "unit_official": "통",
+   "tax_basis": "vat_included",
+   "required_B_official": "4145.11",
+   "fact_count": 142
   },
   {
    "item_id": "24374612",
@@ -1328,7 +1816,14 @@
     "math_infeasible"
    ],
    "verdict": "no_retail",
-   "note": "청수산업 CS150-A 분기관연결구의 공개 판매가를 찾지 못했다."
+   "note": "청수산업 CS150-A 분기관연결구의 공개 판매가를 찾지 못했다.",
+   "state_official": "available",
+   "C_official": "510995100",
+   "Q_official": "14077",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "14988.64",
+   "fact_count": 100
   },
   {
    "item_id": "24560154",
@@ -1344,7 +1839,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24560154.json)으로 찾았으나 필요 단가 약 1,095원(조달 단가의 41%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24560154.json)으로 찾았으나 필요 단가 약 1,095원(조달 단가의 41%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "510824600",
+   "Q_official": "192764",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "1093.69",
+   "fact_count": 160
   },
   {
    "item_id": "25495230",
@@ -1363,7 +1865,14 @@
     "보류: 교동장조림/파슬리갈릭연어/랑쿡훈제삼겹/명품버팔로윙/베이컨스타일슬라이스/비타민훈제돈육/하이푸드텍샌드위치햄/랑쿡훈제오리 정확상품가격없음."
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25495230.json)으로 찾았으나 필요 단가 약 5,136원(조달 단가의 41%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25495230.json)으로 찾았으나 필요 단가 약 5,136원(조달 단가의 41%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "510624400",
+   "Q_official": "41080",
+   "unit_official": "봉",
+   "tax_basis": "vat_included",
+   "required_B_official": "5127.18",
+   "fact_count": 48
   },
   {
    "item_id": "22959186",
@@ -1381,7 +1890,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-22959186.json)에서 필요 단가 약 98,765원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-22959186.json)에서 필요 단가 약 98,765원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "510000000",
+   "Q_official": "2125",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "98823.52",
+   "fact_count": 31
   },
   {
    "item_id": "24527662",
@@ -1399,7 +1915,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24527662.json)에서 필요 단가 약 8,197원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24527662.json)에서 필요 단가 약 8,197원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "508480000",
+   "Q_official": "25424",
+   "unit_official": "병",
+   "tax_basis": "vat_included",
+   "required_B_official": "8200.13",
+   "fact_count": 13
   },
   {
    "item_id": "23588012",
@@ -1417,7 +1940,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-23588012.json)에서 필요 단가 약 875원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-23588012.json)에서 필요 단가 약 875원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "508365250",
+   "Q_official": "238018",
+   "unit_official": "통",
+   "tax_basis": "vat_included",
+   "required_B_official": "875.42",
+   "fact_count": 30
   },
   {
    "item_id": "25277204",
@@ -1435,7 +1965,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25277204.json)으로 찾았으나 필요 단가 약 808원(조달 단가의 41%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25277204.json)으로 찾았으나 필요 단가 약 808원(조달 단가의 41%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "506929500",
+   "Q_official": "256025",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "808.24",
+   "fact_count": 42
   },
   {
    "item_id": "25049211",
@@ -1453,7 +1990,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25049211.json)으로 찾았으나 필요 단가 약 246원(조달 단가의 41%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25049211.json)으로 찾았으나 필요 단가 약 246원(조달 단가의 41%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "505135675",
+   "Q_official": "834935",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "245.69",
+   "fact_count": 103
   },
   {
    "item_id": "22364773",
@@ -1469,7 +2013,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-22364773.json)에서 필요 단가 약 23,684원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-22364773.json)에서 필요 단가 약 23,684원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "503509500",
+   "Q_official": "8607",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "23644.65",
+   "fact_count": 57
   },
   {
    "item_id": "25732615",
@@ -1487,7 +2038,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25732615.json)으로 찾았으나 필요 단가 약 15,484원(조달 단가의 40%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25732615.json)으로 찾았으나 필요 단가 약 15,484원(조달 단가의 40%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "503155200",
+   "Q_official": "13103",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "15504.48",
+   "fact_count": 37
   },
   {
    "item_id": "24769279",
@@ -1505,7 +2063,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24769279.json)으로 찾았으나 필요 단가 약 3,790원(조달 단가의 40%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24769279.json)으로 찾았으나 필요 단가 약 3,790원(조달 단가의 40%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "502336000",
+   "Q_official": "53440",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "3786.23",
+   "fact_count": 62
   },
   {
    "item_id": "23988446",
@@ -1523,7 +2088,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-23988446.json)에서 필요 단가 약 40,161원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-23988446.json)에서 필요 단가 약 40,161원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "501700000",
+   "Q_official": "5017",
+   "unit_official": "통",
+   "tax_basis": "vat_included",
+   "required_B_official": "40203.31",
+   "fact_count": 22
   },
   {
    "item_id": "24989064",
@@ -1541,7 +2113,14 @@
     "math_infeasible"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24989064.json)으로 찾았으나 필요 단가 약 2,490원(조달 단가의 40%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24989064.json)으로 찾았으나 필요 단가 약 2,490원(조달 단가의 40%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "501666800",
+   "Q_official": "80914",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "2492.36",
+   "fact_count": 58
   },
   {
    "item_id": "25194534",
@@ -1560,7 +2139,14 @@
     "보류: 마니커참나무훈제닭다리170g상품2950원(배송3500, 내부상품가음수오류). 조달2310보다높은총액이며가격정보모순으로안씀."
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25194534.json)으로 찾았으나 필요 단가 약 928원(조달 단가의 40%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25194534.json)으로 찾았으나 필요 단가 약 928원(조달 단가의 40%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "501521790",
+   "Q_official": "217109",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "928.21",
+   "fact_count": 89
   },
   {
    "item_id": "24538306",
@@ -1576,7 +2162,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24538306.json)으로 찾았으나 필요 단가 약 191원(조달 단가의 40%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24538306.json)으로 찾았으나 필요 단가 약 191원(조달 단가의 40%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "499750912",
+   "Q_official": "1045504",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "191.06",
+   "fact_count": 174
   },
   {
    "item_id": "24668464",
@@ -1592,7 +2185,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24668464.json)에서 필요 단가 약 2,410원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24668464.json)에서 필요 단가 약 2,410원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "498259850",
+   "Q_official": "82357",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "2407.32",
+   "fact_count": 21
   },
   {
    "item_id": "25116652",
@@ -1608,7 +2208,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25116652.json)으로 찾았으나 필요 단가 약 13,056원(조달 단가의 40%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25116652.json)으로 찾았으나 필요 단가 약 13,056원(조달 단가의 40%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "497151900",
+   "Q_official": "15111",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "13046.91",
+   "fact_count": 9
   },
   {
    "item_id": "21046886",
@@ -1624,7 +2231,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "excluded_designated",
-   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다."
+   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다.",
+   "state_official": "available",
+   "C_official": "495290000",
+   "Q_official": "7330000",
+   "unit_official": "매",
+   "tax_basis": "vat_included",
+   "required_B_official": "26.64",
+   "fact_count": 14
   },
   {
    "item_id": "23394153",
@@ -1640,7 +2254,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_retail",
-   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다."
+   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다.",
+   "state_official": "available",
+   "C_official": "495244960",
+   "Q_official": "17101",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "11417.16",
+   "fact_count": 154
   },
   {
    "item_id": "25643331",
@@ -1656,7 +2277,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25643331.json)으로 찾았으나 필요 단가 약 8,210원(조달 단가의 39%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25643331.json)으로 찾았으나 필요 단가 약 8,210원(조달 단가의 39%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "494378500",
+   "Q_official": "23708",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "8198.86",
+   "fact_count": 30
   },
   {
    "item_id": "25199283",
@@ -1672,7 +2300,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-25199283.json)에서 필요 단가 약 21,654원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-25199283.json)에서 필요 단가 약 21,654원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "494285000",
+   "Q_official": "8987",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "21618.45",
+   "fact_count": 30
   },
   {
    "item_id": "24538416",
@@ -1688,7 +2323,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24538416.json)으로 찾았으나 필요 단가 약 6,739원(조달 단가의 39%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24538416.json)으로 찾았으나 필요 단가 약 6,739원(조달 단가의 39%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "491091280",
+   "Q_official": "28354",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "6739.48",
+   "fact_count": 73
   },
   {
    "item_id": "25382264",
@@ -1704,7 +2346,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_retail",
-   "note": "폴리우레아 도막방수 t2~3mm ㎡ 단가는 시공 포함 성격이고 동일 제품의 공개 소매 ㎡ 단가가 없다."
+   "note": "폴리우레아 도막방수 t2~3mm ㎡ 단가는 시공 포함 성격이고 동일 제품의 공개 소매 ㎡ 단가가 없다.",
+   "state_official": "available",
+   "C_official": "489472350",
+   "Q_official": "8450",
+   "unit_official": "㎡",
+   "tax_basis": "vat_included",
+   "required_B_official": "22422.76",
+   "fact_count": 5
   },
   {
    "item_id": "25316263",
@@ -1720,7 +2369,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25316263.json)으로 찾았으나 필요 단가 약 6,371원(조달 단가의 39%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25316263.json)으로 찾았으나 필요 단가 약 6,371원(조달 단가의 39%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "488779500",
+   "Q_official": "29623",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "6372.73",
+   "fact_count": 54
   },
   {
    "item_id": "25090203",
@@ -1738,7 +2394,14 @@
     "보류: 교동장조림/파슬리갈릭연어/랑쿡훈제삼겹/명품버팔로윙/베이컨스타일슬라이스/비타민훈제돈육/하이푸드텍샌드위치햄/랑쿡훈제오리 정확상품가격없음."
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25090203.json)으로 찾았으나 필요 단가 약 3,362원(조달 단가의 38%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25090203.json)으로 찾았으나 필요 단가 약 3,362원(조달 단가의 38%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "487534680",
+   "Q_official": "55782",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "3361.92",
+   "fact_count": 172
   },
   {
    "item_id": "25567261",
@@ -1754,7 +2417,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25567261.json)으로 찾았으나 필요 단가 약 3,558원(조달 단가의 38%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25567261.json)으로 찾았으나 필요 단가 약 3,558원(조달 단가의 38%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "487271500",
+   "Q_official": "52678",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "3555.02",
+   "fact_count": 144
   },
   {
    "item_id": "25391725",
@@ -1770,7 +2440,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25391725.json)으로 찾았으나 필요 단가 약 6,897원(조달 단가의 38%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25391725.json)으로 찾았으나 필요 단가 약 6,897원(조달 단가의 38%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "486576000",
+   "Q_official": "27032",
+   "unit_official": "봉지",
+   "tax_basis": "vat_included",
+   "required_B_official": "6902.04",
+   "fact_count": 50
   },
   {
    "item_id": "24993003",
@@ -1786,7 +2463,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24993003.json)으로 찾았으나 필요 단가 약 3,594원(조달 단가의 38%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24993003.json)으로 찾았으나 필요 단가 약 3,594원(조달 단가의 38%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "486418660",
+   "Q_official": "51857",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "3594.86",
+   "fact_count": 146
   },
   {
    "item_id": "25448120",
@@ -1802,7 +2486,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_retail",
-   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다."
+   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다.",
+   "state_official": "available",
+   "C_official": "486353780",
+   "Q_official": "15877",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "11737.34",
+   "fact_count": 30
   },
   {
    "item_id": "24611065",
@@ -1818,7 +2509,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24611065.json)으로 찾았으나 필요 단가 약 4,237원(조달 단가의 38%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24611065.json)으로 찾았으나 필요 단가 약 4,237원(조달 단가의 38%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "485181000",
+   "Q_official": "43710",
+   "unit_official": "봉지",
+   "tax_basis": "vat_included",
+   "required_B_official": "4236.58",
+   "fact_count": 124
   },
   {
    "item_id": "24742843",
@@ -1837,7 +2535,11 @@
    "Q_official": "70",
    "required_B_official": "2644285.50",
    "verdict": "installed_unique",
-   "note": "동양정수산업 A-PLUS는 자동 컵 세척·살균 정수기 계열의 현장 설치 제품이다(deliveryTerms 현장설치도). 공개 소매가가 없고 필요 단가 2,644,285원 이하에서 핵심 성능이 분명히 더 좋은 완성 대체품 근거가 없다."
+   "note": "동양정수산업 A-PLUS는 자동 컵 세척·살균 정수기 계열의 현장 설치 제품이다(deliveryTerms 현장설치도). 공개 소매가가 없고 필요 단가 2,644,285원 이하에서 핵심 성능이 분명히 더 좋은 완성 대체품 근거가 없다.",
+   "state_official": "available",
+   "unit_official": "대",
+   "tax_basis": "vat_included",
+   "fact_count": 47
   },
   {
    "item_id": "24654246",
@@ -1853,7 +2555,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24654246.json)으로 찾았으나 필요 단가 약 3,779원(조달 단가의 38%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24654246.json)으로 찾았으나 필요 단가 약 3,779원(조달 단가의 38%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "484862400",
+   "Q_official": "48976",
+   "unit_official": "봉",
+   "tax_basis": "vat_included",
+   "required_B_official": "3774.55",
+   "fact_count": 102
   },
   {
    "item_id": "24478732",
@@ -1869,7 +2578,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24478732.json)에서 필요 단가 약 28,327원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24478732.json)에서 필요 단가 약 28,327원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "484250000",
+   "Q_official": "6500",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "28346.15",
+   "fact_count": 38
   },
   {
    "item_id": "25424319",
@@ -1885,7 +2601,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25424319.json)으로 찾았으나 필요 단가 약 4,375원(조달 단가의 38%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25424319.json)으로 찾았으나 필요 단가 약 4,375원(조달 단가의 38%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "482674500",
+   "Q_official": "41790",
+   "unit_official": "봉지",
+   "tax_basis": "vat_included",
+   "required_B_official": "4371.25",
+   "fact_count": 76
   },
   {
    "item_id": "23353534",
@@ -1901,7 +2624,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_retail",
-   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다."
+   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다.",
+   "state_official": "available",
+   "C_official": "481271000",
+   "Q_official": "13790",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "13145.10",
+   "fact_count": 104
   },
   {
    "item_id": "25529138",
@@ -1917,7 +2647,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25529138.json)으로 찾았으나 필요 단가 약 2,451원(조달 단가의 38%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25529138.json)으로 찾았으나 필요 단가 약 2,451원(조달 단가의 38%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "480471600",
+   "Q_official": "73706",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "2448.53",
+   "fact_count": 267
   },
   {
    "item_id": "25025583",
@@ -1933,7 +2670,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25025583.json)으로 찾았으나 필요 단가 약 6,203원(조달 단가의 38%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25025583.json)으로 찾았으나 필요 단가 약 6,203원(조달 단가의 38%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "480331500",
+   "Q_official": "29111",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "6194.62",
+   "fact_count": 27
   },
   {
    "item_id": "25463839",
@@ -1951,7 +2695,14 @@
     "보류: 정확HM-SPR-S003 판매가38000원무료배송으로조달37000보다높음."
    ],
    "verdict": "retail_higher",
-   "note": "기존 확인: HM-SPR-S003 정확 판매가 38,000원 무료배송으로 조달 37,000원보다 높다."
+   "note": "기존 확인: HM-SPR-S003 정확 판매가 38,000원 무료배송으로 조달 37,000원보다 높다.",
+   "state_official": "available",
+   "C_official": "479667500",
+   "Q_official": "14726",
+   "unit_official": "상자",
+   "tax_basis": "vat_included",
+   "required_B_official": "12200.69",
+   "fact_count": 228
   },
   {
    "item_id": "21602714",
@@ -1967,7 +2718,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "excluded_designated",
-   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다."
+   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다.",
+   "state_official": "available",
+   "C_official": "478834560",
+   "Q_official": "8162000",
+   "unit_official": "매",
+   "tax_basis": "vat_included",
+   "required_B_official": "21.91",
+   "fact_count": 7
   },
   {
    "item_id": "25391686",
@@ -1985,7 +2743,14 @@
     "보류: 쿠키앤크림에몽200ml 실제판매가없음. 250ml제품/영양정보만발견."
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25391686.json)으로 찾았으나 필요 단가 약 216원(조달 단가의 37%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25391686.json)으로 찾았으나 필요 단가 약 216원(조달 단가의 37%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "478492460",
+   "Q_official": "824987",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "216.36",
+   "fact_count": 102
   },
   {
    "item_id": "24214699",
@@ -2001,7 +2766,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24214699.json)에서 필요 단가 약 4,907원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24214699.json)에서 필요 단가 약 4,907원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "477430800",
+   "Q_official": "36169",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "4905.60",
+   "fact_count": 8
   },
   {
    "item_id": "25219807",
@@ -2019,7 +2791,14 @@
     "보류: 스프라이트킨사이다250ml30캔19180원 단서. 조달스프라이트와킨사이다라벨일치미확정, 가격도개당639.33원으로조달480보다높음."
    ],
    "verdict": "retail_higher",
-   "note": "스프라이트 250mL 30캔 다나와 17,230원(캔당 574원). 필요 단가 약 178원/캔."
+   "note": "스프라이트 250mL 30캔 다나와 17,230원(캔당 574원). 필요 단가 약 178원/캔.",
+   "state_official": "available",
+   "C_official": "476692800",
+   "Q_official": "993110",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "177.92",
+   "fact_count": 187
   },
   {
    "item_id": "24055722",
@@ -2035,7 +2814,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24055722.json)에서 필요 단가 약 1,481원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24055722.json)에서 필요 단가 약 1,481원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "476336000",
+   "Q_official": "119084",
+   "unit_official": "병",
+   "tax_basis": "vat_included",
+   "required_B_official": "1480.77",
+   "fact_count": 20
   },
   {
    "item_id": "21915989",
@@ -2053,7 +2839,14 @@
     "미조회보류: 에코팜 공식증권신고서 의약품판매가격25000원/L로 조달25000원과 같음."
    ],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-21915989.json)에서 필요 단가 약 9,259원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-21915989.json)에서 필요 단가 약 9,259원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "476100000",
+   "Q_official": "19044",
+   "unit_official": "통",
+   "tax_basis": "vat_included",
+   "required_B_official": "9247.01",
+   "fact_count": 30
   },
   {
    "item_id": "23673344",
@@ -2071,7 +2864,14 @@
     "미조회: 동일소매 역전가격 선행확인 전 APIlookup안함"
    ],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-23673344.json)에서 필요 단가 약 35,000원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-23673344.json)에서 필요 단가 약 35,000원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "476091000",
+   "Q_official": "5038",
+   "unit_official": "통",
+   "tax_basis": "vat_included",
+   "required_B_official": "34952.56",
+   "fact_count": 30
   },
   {
    "item_id": "25447781",
@@ -2087,7 +2887,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25447781.json)으로 찾았으나 필요 단가 약 3,091원(조달 단가의 36%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25447781.json)으로 찾았으나 필요 단가 약 3,091원(조달 단가의 36%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "471333500",
+   "Q_official": "55451",
+   "unit_official": "봉",
+   "tax_basis": "vat_included",
+   "required_B_official": "3089.82",
+   "fact_count": 45
   },
   {
    "item_id": "25241931",
@@ -2105,7 +2912,14 @@
     "보류: 교동장조림/파슬리갈릭연어/랑쿡훈제삼겹/명품버팔로윙/베이컨스타일슬라이스/비타민훈제돈육/하이푸드텍샌드위치햄/랑쿡훈제오리 정확상품가격없음."
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25241931.json)으로 찾았으나 필요 단가 약 4,601원(조달 단가의 36%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25241931.json)으로 찾았으나 필요 단가 약 4,601원(조달 단가의 36%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "470369900",
+   "Q_official": "37037",
+   "unit_official": "kg",
+   "tax_basis": "vat_included",
+   "required_B_official": "4599.99",
+   "fact_count": 29
   },
   {
    "item_id": "25804892",
@@ -2121,7 +2935,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25804892.json)으로 찾았으나 필요 단가 약 2,444원(조달 단가의 36%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25804892.json)으로 찾았으나 필요 단가 약 2,444원(조달 단가의 36%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "469777070",
+   "Q_official": "69391",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "2446.67",
+   "fact_count": 170
   },
   {
    "item_id": "21614241",
@@ -2137,7 +2958,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "excluded_designated",
-   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다."
+   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다.",
+   "state_official": "available",
+   "C_official": "468080000",
+   "Q_official": "7510000",
+   "unit_official": "매",
+   "tax_basis": "vat_included",
+   "required_B_official": "22.38",
+   "fact_count": 13
   },
   {
    "item_id": "25316245",
@@ -2155,7 +2983,14 @@
     "미조회보류: 아워홈 계란지단채700g: 공식몰 검색가격9280원+배송3000원, 3만원이상무료, 일시품절. 조달7249원보다 높음. 공식direct InternalError로 검색자료를 점수근거로 쓰지 않음."
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25316245.json)으로 찾았으나 필요 단가 약 2,598원(조달 단가의 36%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25316245.json)으로 찾았으나 필요 단가 약 2,598원(조달 단가의 36%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "467785219",
+   "Q_official": "64531",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "2600.07",
+   "fact_count": 484
   },
   {
    "item_id": "23220091",
@@ -2173,7 +3008,14 @@
     "no_exact_retail_price"
    ],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-23220091.json)에서 필요 단가 약 3,763원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-23220091.json)에서 필요 단가 약 3,763원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "467523000",
+   "Q_official": "44526",
+   "unit_official": "통",
+   "tax_basis": "vat_included",
+   "required_B_official": "3762.36",
+   "fact_count": 34
   },
   {
    "item_id": "25673127",
@@ -2189,7 +3031,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25673127.json)으로 찾았으나 필요 단가 약 5,305원(조달 단가의 36%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25673127.json)으로 찾았으나 필요 단가 약 5,305원(조달 단가의 36%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "467384000",
+   "Q_official": "31580",
+   "unit_official": "kg",
+   "tax_basis": "vat_included",
+   "required_B_official": "5300.32",
+   "fact_count": 22
   },
   {
    "item_id": "23147033",
@@ -2205,7 +3054,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "installed_unique",
-   "note": "햄프로 HB-4000A 10종 일체형 구조물(현장 설치). 공개 판매가가 없고 10종 완성 구성을 필요 단가 이하로 갖춘 우월 대체품 근거가 없다."
+   "note": "햄프로 HB-4000A 10종 일체형 구조물(현장 설치). 공개 판매가가 없고 10종 완성 구성을 필요 단가 이하로 갖춘 우월 대체품 근거가 없다.",
+   "state_official": "available",
+   "C_official": "466900000",
+   "Q_official": "21",
+   "unit_official": "대",
+   "tax_basis": "vat_included",
+   "required_B_official": "7947619.00",
+   "fact_count": 15
   },
   {
    "item_id": "25118252",
@@ -2221,7 +3077,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25118252.json)으로 찾았으나 필요 단가 약 6,560원(조달 단가의 35%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25118252.json)으로 찾았으나 필요 단가 약 6,560원(조달 단가의 35%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "465219500",
+   "Q_official": "25147",
+   "unit_official": "봉지",
+   "tax_basis": "vat_included",
+   "required_B_official": "6570.14",
+   "fact_count": 200
   },
   {
    "item_id": "24580782",
@@ -2237,7 +3100,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24580782.json)으로 찾았으나 필요 단가 약 5,654원(조달 단가의 35%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24580782.json)으로 찾았으나 필요 단가 약 5,654원(조달 단가의 35%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "463776000",
+   "Q_official": "28986",
+   "unit_official": "봉지",
+   "tax_basis": "vat_included",
+   "required_B_official": "5650.17",
+   "fact_count": 142
   },
   {
    "item_id": "21186798",
@@ -2253,7 +3123,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "excluded_designated",
-   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다."
+   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다.",
+   "state_official": "available",
+   "C_official": "463519380",
+   "Q_official": "2357600",
+   "unit_official": "매",
+   "tax_basis": "vat_included",
+   "required_B_official": "69.36",
+   "fact_count": 10
   },
   {
    "item_id": "25845981",
@@ -2271,7 +3148,14 @@
     "보류: 제일트레이딩공식 제일3+ 소개는있지만1000kg가격표없음."
    ],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-25845981.json)에서 필요 단가 약 150,000원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-25845981.json)에서 필요 단가 약 150,000원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "463062000",
+   "Q_official": "1087",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "150011.04",
+   "fact_count": 6
   },
   {
    "item_id": "25795879",
@@ -2287,7 +3171,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25795879.json)으로 찾았으나 필요 단가 약 2,373원(조달 단가의 35%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25795879.json)으로 찾았으나 필요 단가 약 2,373원(조달 단가의 35%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "460864220",
+   "Q_official": "67898",
+   "unit_official": "봉",
+   "tax_basis": "vat_included",
+   "required_B_official": "2369.20",
+   "fact_count": 57
   },
   {
    "item_id": "25770290",
@@ -2303,7 +3194,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25770290.json)으로 찾았으나 필요 단가 약 958원(조달 단가의 35%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25770290.json)으로 찾았으나 필요 단가 약 958원(조달 단가의 35%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "460201500",
+   "Q_official": "167346",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "957.31",
+   "fact_count": 184
   },
   {
    "item_id": "25383632",
@@ -2319,7 +3217,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25383632.json)으로 찾았으나 필요 단가 약 10,690원(조달 단가의 34%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25383632.json)으로 찾았으나 필요 단가 약 10,690원(조달 단가의 34%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "458056000",
+   "Q_official": "14776",
+   "unit_official": "kg",
+   "tax_basis": "vat_included",
+   "required_B_official": "10696.81",
+   "fact_count": 21
   },
   {
    "item_id": "25094006",
@@ -2337,7 +3242,14 @@
     "보류: 커피에몽200ml6개6480원=1080원. 조달605보다높음."
    ],
    "verdict": "retail_higher",
-   "note": "기존 확인: 커피에몽 200mL 6개 6,480원(개당 1,080원). 필요 단가 약 209원."
+   "note": "기존 확인: 커피에몽 200mL 6개 6,480원(개당 1,080원). 필요 단가 약 209원.",
+   "state_official": "available",
+   "C_official": "457926920",
+   "Q_official": "756904",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "208.65",
+   "fact_count": 103
   },
   {
    "item_id": "20958695",
@@ -2353,7 +3265,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "excluded_designated",
-   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다."
+   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다.",
+   "state_official": "available",
+   "C_official": "455720000",
+   "Q_official": "6680000",
+   "unit_official": "매",
+   "tax_basis": "vat_included",
+   "required_B_official": "23.31",
+   "fact_count": 11
   },
   {
    "item_id": "24756275",
@@ -2372,7 +3291,11 @@
    "Q_official": "91",
    "required_B_official": "1708296.00",
    "verdict": "installed_unique",
-   "note": "동양정수산업 A-PLUS CSN060 현장설치도 제품. 공개 소매가 없음. 필요 단가 1,708,296원 이하의 분명히 우월한 완성 대체품 근거 없음."
+   "note": "동양정수산업 A-PLUS CSN060 현장설치도 제품. 공개 소매가 없음. 필요 단가 1,708,296원 이하의 분명히 우월한 완성 대체품 근거 없음.",
+   "state_official": "available",
+   "unit_official": "대",
+   "tax_basis": "vat_included",
+   "fact_count": 74
   },
   {
    "item_id": "24532692",
@@ -2388,7 +3311,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24532692.json)으로 찾았으나 필요 단가 약 4,694원(조달 단가의 34%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24532692.json)으로 찾았으나 필요 단가 약 4,694원(조달 단가의 34%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "454613400",
+   "Q_official": "32943",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "4693.36",
+   "fact_count": 58
   },
   {
    "item_id": "24869882",
@@ -2404,7 +3334,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24869882.json)으로 찾았으나 필요 단가 약 5,102원(조달 단가의 34%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24869882.json)으로 찾았으나 필요 단가 약 5,102원(조달 단가의 34%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "454365000",
+   "Q_official": "30291",
+   "unit_official": "봉지",
+   "tax_basis": "vat_included",
+   "required_B_official": "5096.07",
+   "fact_count": 180
   },
   {
    "item_id": "24531001",
@@ -2422,7 +3359,14 @@
     "보류: 크레잇간장돼지불고기3kg30300원, 조달22320보다높음."
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24531001.json)으로 찾았으나 필요 단가 약 7,566원(조달 단가의 34%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24531001.json)으로 찾았으나 필요 단가 약 7,566원(조달 단가의 34%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "454078080",
+   "Q_official": "20344",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "7573.64",
+   "fact_count": 55
   },
   {
    "item_id": "24769278",
@@ -2438,7 +3382,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24769278.json)으로 찾았으나 필요 단가 약 2,983원(조달 단가의 34%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24769278.json)으로 찾았으나 필요 단가 약 2,983원(조달 단가의 34%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "454071200",
+   "Q_official": "51599",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "2985.93",
+   "fact_count": 109
   },
   {
    "item_id": "24553710",
@@ -2456,7 +3407,14 @@
     "보류: 교동장조림/파슬리갈릭연어/랑쿡훈제삼겹/명품버팔로윙/베이컨스타일슬라이스/비타민훈제돈육/하이푸드텍샌드위치햄/랑쿡훈제오리 정확상품가격없음."
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24553710.json)으로 찾았으나 필요 단가 약 1,749원(조달 단가의 34%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24553710.json)으로 찾았으나 필요 단가 약 1,749원(조달 단가의 34%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "453512400",
+   "Q_official": "87890",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "1746.64",
+   "fact_count": 282
   },
   {
    "item_id": "22364326",
@@ -2472,7 +3430,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-22364326.json)에서 필요 단가 약 3,716원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-22364326.json)에서 필요 단가 약 3,716원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "453189000",
+   "Q_official": "41199",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "3718.27",
+   "fact_count": 27
   },
   {
    "item_id": "24895991",
@@ -2490,7 +3455,14 @@
     "보류: 교동장조림/파슬리갈릭연어/랑쿡훈제삼겹/명품버팔로윙/베이컨스타일슬라이스/비타민훈제돈육/하이푸드텍샌드위치햄/랑쿡훈제오리 정확상품가격없음."
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24895991.json)으로 찾았으나 필요 단가 약 5,525원(조달 단가의 34%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24895991.json)으로 찾았으나 필요 단가 약 5,525원(조달 단가의 34%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "452951400",
+   "Q_official": "27696",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "5522.51",
+   "fact_count": 24
   },
   {
    "item_id": "25495231",
@@ -2506,7 +3478,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25495231.json)으로 찾았으나 필요 단가 약 5,946원(조달 단가의 34%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25495231.json)으로 찾았으나 필요 단가 약 5,946원(조달 단가의 34%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "452848000",
+   "Q_official": "25730",
+   "unit_official": "봉",
+   "tax_basis": "vat_included",
+   "required_B_official": "5940.46",
+   "fact_count": 16
   },
   {
    "item_id": "21522271",
@@ -2522,7 +3501,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-21522271.json)에서 필요 단가 약 788원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-21522271.json)에서 필요 단가 약 788원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "452723602",
+   "Q_official": "193975",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "787.34",
+   "fact_count": 53
   },
   {
    "item_id": "24731006",
@@ -2538,7 +3524,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24731006.json)으로 찾았으나 필요 단가 약 3,772원(조달 단가의 34%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24731006.json)으로 찾았으나 필요 단가 약 3,772원(조달 단가의 34%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "452294128",
+   "Q_official": "40369",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "3772.55",
+   "fact_count": 42
   },
   {
    "item_id": "25788269",
@@ -2554,7 +3547,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-25788269.json)에서 필요 단가 약 13,257원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-25788269.json)에서 필요 단가 약 13,257원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "449355900",
+   "Q_official": "11261",
+   "unit_official": "묶음",
+   "tax_basis": "vat_included",
+   "required_B_official": "13263.10",
+   "fact_count": 204
   },
   {
    "item_id": "25412684",
@@ -2570,7 +3570,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "excluded_designated",
-   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다."
+   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다.",
+   "state_official": "available",
+   "C_official": "448958000",
+   "Q_official": "2695000",
+   "unit_official": "매",
+   "tax_basis": "vat_included",
+   "required_B_official": "55.27",
+   "fact_count": 9
   },
   {
    "item_id": "25118599",
@@ -2586,7 +3593,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_retail",
-   "note": "폴리우레아 도막방수 t2~3mm ㎡ 단가는 시공 포함 성격이고 동일 제품의 공개 소매 ㎡ 단가가 없다."
+   "note": "폴리우레아 도막방수 t2~3mm ㎡ 단가는 시공 포함 성격이고 동일 제품의 공개 소매 ㎡ 단가가 없다.",
+   "state_official": "available",
+   "C_official": "447049052",
+   "Q_official": "9243",
+   "unit_official": "㎡",
+   "tax_basis": "vat_included",
+   "required_B_official": "15909.23",
+   "fact_count": 3
   },
   {
    "item_id": "21277104",
@@ -2602,7 +3616,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "out_of_scope",
-   "note": "콘크리트 암거는 industrial_scores 담당 분야라 중복 조사하지 않았다."
+   "note": "콘크리트 암거는 industrial_scores 담당 분야라 중복 조사하지 않았다.",
+   "state_official": "available",
+   "C_official": "446874120",
+   "Q_official": "343",
+   "unit_official": "m",
+   "tax_basis": "vat_included",
+   "required_B_official": "428204.43",
+   "fact_count": 1
   },
   {
    "item_id": "24541646",
@@ -2618,7 +3639,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24541646.json)으로 찾았으나 필요 단가 약 3,587원(조달 단가의 32%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24541646.json)으로 찾았으나 필요 단가 약 3,587원(조달 단가의 32%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "443076400",
+   "Q_official": "39845",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "3590.82",
+   "fact_count": 84
   },
   {
    "item_id": "20946058",
@@ -2634,7 +3662,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "excluded_designated",
-   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다."
+   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다.",
+   "state_official": "available",
+   "C_official": "442740000",
+   "Q_official": "6300000",
+   "unit_official": "매",
+   "tax_basis": "vat_included",
+   "required_B_official": "22.66",
+   "fact_count": 4
   },
   {
    "item_id": "25080953",
@@ -2652,7 +3687,14 @@
     "미조회보류: 아워홈 간장소스우불고기3kg 소매판매가 미발견. 제조사공식은1kg/5kg만 확인되어3kg으로 환산 안 함."
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25080953.json)으로 찾았으나 필요 단가 약 14,426원(조달 단가의 32%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25080953.json)으로 찾았으나 필요 단가 약 14,426원(조달 단가의 32%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "442414100",
+   "Q_official": "9861",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "14442.15",
+   "fact_count": 20
   },
   {
    "item_id": "25668068",
@@ -2668,7 +3710,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_retail",
-   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다."
+   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다.",
+   "state_official": "available",
+   "C_official": "441947516",
+   "Q_official": "15902",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "8926.39",
+   "fact_count": 59
   },
   {
    "item_id": "24264511",
@@ -2684,7 +3733,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24264511.json)에서 필요 단가 약 11,859원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24264511.json)에서 필요 단가 약 11,859원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "441521000",
+   "Q_official": "11933",
+   "unit_official": "통",
+   "tax_basis": "vat_included",
+   "required_B_official": "11859.63",
+   "fact_count": 65
   },
   {
    "item_id": "25192064",
@@ -2702,7 +3758,14 @@
     "미조회: 동일제조사모델/등급/포장 소매 직접 비교 가능성이 낮은 범용·공사용자재 또는 업무범위밖"
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25192064.json)으로 찾았으나 필요 단가 약 2,959원(조달 단가의 32%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25192064.json)으로 찾았으나 필요 단가 약 2,959원(조달 단가의 32%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "438664600",
+   "Q_official": "46916",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "2955.59",
+   "fact_count": 69
   },
   {
    "item_id": "22619218",
@@ -2718,7 +3781,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "excluded_designated",
-   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다."
+   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다.",
+   "state_official": "available",
+   "C_official": "438640000",
+   "Q_official": "8800000",
+   "unit_official": "매",
+   "tax_basis": "vat_included",
+   "required_B_official": "15.75",
+   "fact_count": 7
   },
   {
    "item_id": "24960173",
@@ -2736,7 +3806,14 @@
     "보류: 빙그레바나나맛우유240ml24개 동일제품가격비교는발견. 저렴한정확판매가미확인."
    ],
    "verdict": "retail_higher",
-   "note": "빙그레 바나나맛우유 240mL 20개 다나와 23,410원(개당 1,170원). 필요 단가 약 313원."
+   "note": "빙그레 바나나맛우유 240mL 20개 다나와 23,410원(개당 1,170원). 필요 단가 약 313원.",
+   "state_official": "available",
+   "C_official": "438630390",
+   "Q_official": "443061",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "312.89",
+   "fact_count": 58
   },
   {
    "item_id": "25595390",
@@ -2752,7 +3829,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "retail_higher",
-   "note": "롯데 로스팜 라이트 200g 60개 147,160원(200g당 2,453원 = 1.8kg 환산 약 22,000원). 필요 단가 약 5,344원/1.8kg."
+   "note": "롯데 로스팜 라이트 200g 60개 147,160원(200g당 2,453원 = 1.8kg 환산 약 22,000원). 필요 단가 약 5,344원/1.8kg.",
+   "state_official": "available",
+   "C_official": "438474960",
+   "Q_official": "25884",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "5349.83",
+   "fact_count": 26
   },
   {
    "item_id": "23303934",
@@ -2768,7 +3852,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-23303934.json)에서 필요 단가 약 989원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-23303934.json)에서 필요 단가 약 989원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "436211600",
+   "Q_official": "137852",
+   "unit_official": "병",
+   "tax_basis": "vat_included",
+   "required_B_official": "988.10",
+   "fact_count": 65
   },
   {
    "item_id": "21277105",
@@ -2784,7 +3875,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "out_of_scope",
-   "note": "콘크리트 암거는 industrial_scores 담당 분야라 중복 조사하지 않았다."
+   "note": "콘크리트 암거는 industrial_scores 담당 분야라 중복 조사하지 않았다.",
+   "state_official": "available",
+   "C_official": "435142080",
+   "Q_official": "320",
+   "unit_official": "m",
+   "tax_basis": "vat_included",
+   "required_B_official": "422319.00",
+   "fact_count": 1
   },
   {
    "item_id": "25858560",
@@ -2800,7 +3898,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "excluded_designated",
-   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다."
+   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다.",
+   "state_official": "available",
+   "C_official": "434220000",
+   "Q_official": "6120000",
+   "unit_official": "매",
+   "tax_basis": "vat_included",
+   "required_B_official": "21.93",
+   "fact_count": 7
   },
   {
    "item_id": "22793813",
@@ -2816,7 +3921,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-22793813.json)에서 필요 단가 약 8,800원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-22793813.json)에서 필요 단가 약 8,800원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "433261400",
+   "Q_official": "15149",
+   "unit_official": "60㎖/통",
+   "tax_basis": "vat_included",
+   "required_B_official": "8796.71",
+   "fact_count": 3
   },
   {
    "item_id": "25194737",
@@ -2834,7 +3946,14 @@
     "미조회보류: 정다운 영양만점고추장오리주물럭1kg 정확소매 없음. 다른 더얇아서맛있는400g과 환산 안 함."
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25194737.json)으로 찾았으나 필요 단가 약 4,141원(조달 단가의 31%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25194737.json)으로 찾았으나 필요 단가 약 4,141원(조달 단가의 31%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "432918000",
+   "Q_official": "32068",
+   "unit_official": "kg",
+   "tax_basis": "vat_included",
+   "required_B_official": "4144.88",
+   "fact_count": 22
   },
   {
    "item_id": "24586732",
@@ -2850,7 +3969,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24586732.json)으로 찾았으나 필요 단가 약 881원(조달 단가의 31%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24586732.json)으로 찾았으나 필요 단가 약 881원(조달 단가의 31%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "432826218",
+   "Q_official": "150758",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "881.06",
+   "fact_count": 165
   },
   {
    "item_id": "25263001",
@@ -2866,7 +3992,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_retail",
-   "note": "폴리우레아 도막방수 t2~3mm ㎡ 단가는 시공 포함 성격이고 동일 제품의 공개 소매 ㎡ 단가가 없다."
+   "note": "폴리우레아 도막방수 t2~3mm ㎡ 단가는 시공 포함 성격이고 동일 제품의 공개 소매 ㎡ 단가가 없다.",
+   "state_official": "available",
+   "C_official": "432472800",
+   "Q_official": "9212",
+   "unit_official": "㎡",
+   "tax_basis": "vat_included",
+   "required_B_official": "14380.46",
+   "fact_count": 5
   },
   {
    "item_id": "24519765",
@@ -2882,7 +4015,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24519765.json)으로 찾았으나 필요 단가 약 3,009원(조달 단가의 30%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24519765.json)으로 찾았으나 필요 단가 약 3,009원(조달 단가의 30%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "430947000",
+   "Q_official": "43530",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "3008.20",
+   "fact_count": 115
   },
   {
    "item_id": "25549413",
@@ -2898,7 +4038,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25549413.json)으로 찾았으나 필요 단가 약 4,848원(조달 단가의 30%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25549413.json)으로 찾았으나 필요 단가 약 4,848원(조달 단가의 30%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "430656000",
+   "Q_official": "26916",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "4854.21",
+   "fact_count": 28
   },
   {
    "item_id": "24346732",
@@ -2914,7 +4061,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "retail_higher",
-   "note": "에코-다노가 25kg×40포 880,000원(포당 22,000원) 단서. 필요 단가 약 3,578원."
+   "note": "에코-다노가 25kg×40포 880,000원(포당 22,000원) 단서. 필요 단가 약 3,578원.",
+   "state_official": "available",
+   "C_official": "429295680",
+   "Q_official": "36136",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "3578.03",
+   "fact_count": 28
   },
   {
    "item_id": "25417232",
@@ -2930,7 +4084,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "retail_higher",
-   "note": "칠성사이다 제로 355mL 24캔 공식몰·CJ더마켓 18,532~23,000원대(캔당 770원 이상). 필요 단가 약 178원/캔."
+   "note": "칠성사이다 제로 355mL 24캔 공식몰·CJ더마켓 18,532~23,000원대(캔당 770원 이상). 필요 단가 약 178원/캔.",
+   "state_official": "available",
+   "C_official": "425636860",
+   "Q_official": "703532",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "178.58",
+   "fact_count": 103
   },
   {
    "item_id": "24917253",
@@ -2948,7 +4109,14 @@
     "미조회보류: 웰쉐프 명품소고기장조림1kg 정확소매 미발견. CJ이츠웰1kg19390원은 다른제조사라 미채택."
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24917253.json)으로 찾았으나 필요 단가 약 4,595원(조달 단가의 29%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24917253.json)으로 찾았으나 필요 단가 약 4,595원(조달 단가의 29%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "423702180",
+   "Q_official": "26884",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "4601.33",
+   "fact_count": 40
   },
   {
    "item_id": "25316243",
@@ -2964,7 +4132,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25316243.json)으로 찾았으나 필요 단가 약 5,598원(조달 단가의 29%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25316243.json)으로 찾았으나 필요 단가 약 5,598원(조달 단가의 29%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "423667200",
+   "Q_official": "22066",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "5604.42",
+   "fact_count": 18
   },
   {
    "item_id": "24538404",
@@ -2980,7 +4155,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24538404.json)으로 찾았으나 필요 단가 약 1,036원(조달 단가의 29%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24538404.json)으로 찾았으나 필요 단가 약 1,036원(조달 단가의 29%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "423257100",
+   "Q_official": "119100",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "1034.90",
+   "fact_count": 203
   },
   {
    "item_id": "24059403",
@@ -2996,7 +4178,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_retail",
-   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다."
+   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다.",
+   "state_official": "available",
+   "C_official": "422547870",
+   "Q_official": "9753",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "12565.14",
+   "fact_count": 71
   },
   {
    "item_id": "22133733",
@@ -3012,7 +4201,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "excluded_designated",
-   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다."
+   "note": "지자체 종량제·재사용 지정 봉투로 동일품 일반 판매가 없다. 일반 HDPE 봉투는 지정 인쇄·규격을 대신하지 못해 분명히 더 나은 대체품이 아니다.",
+   "state_official": "available",
+   "C_official": "418473325",
+   "Q_official": "3302000",
+   "unit_official": "매",
+   "tax_basis": "vat_included",
+   "required_B_official": "35.88",
+   "fact_count": 7
   },
   {
    "item_id": "25184853",
@@ -3028,7 +4224,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25184853.json)으로 찾았으나 필요 단가 약 3,164원(조달 단가의 28%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25184853.json)으로 찾았으나 필요 단가 약 3,164원(조달 단가의 28%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "418118400",
+   "Q_official": "37332",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "3164.00",
+   "fact_count": 46
   },
   {
    "item_id": "25193126",
@@ -3044,7 +4247,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25193126.json)으로 찾았으나 필요 단가 약 3,680원(조달 단가의 28%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25193126.json)으로 찾았으나 필요 단가 약 3,680원(조달 단가의 28%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "417405300",
+   "Q_official": "31863",
+   "unit_official": "kg",
+   "tax_basis": "vat_included",
+   "required_B_official": "3684.69",
+   "fact_count": 19
   },
   {
    "item_id": "24960001",
@@ -3060,7 +4270,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24960001.json)으로 찾았으나 필요 단가 약 7,306원(조달 단가의 28%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24960001.json)으로 찾았으나 필요 단가 약 7,306원(조달 단가의 28%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "417044340",
+   "Q_official": "16034",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "7299.76",
+   "fact_count": 22
   },
   {
    "item_id": "24132152",
@@ -3076,7 +4293,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24132152.json)에서 필요 단가 약 3,641원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24132152.json)에서 필요 단가 약 3,641원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "416871000",
+   "Q_official": "32067",
+   "unit_official": "통",
+   "tax_basis": "vat_included",
+   "required_B_official": "3644.59",
+   "fact_count": 38
   },
   {
    "item_id": "25884723",
@@ -3092,7 +4316,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-25884723.json)에서 필요 단가 약 5,462원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-25884723.json)에서 필요 단가 약 5,462원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "416520000",
+   "Q_official": "21360",
+   "unit_official": "병",
+   "tax_basis": "vat_included",
+   "required_B_official": "5455.06",
+   "fact_count": 11
   },
   {
    "item_id": "25396061",
@@ -3108,7 +4339,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25396061.json)으로 찾았으나 필요 단가 약 5,726원(조달 단가의 28%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25396061.json)으로 찾았으나 필요 단가 약 5,726원(조달 단가의 28%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "416088500",
+   "Q_official": "20297",
+   "unit_official": "kg",
+   "tax_basis": "vat_included",
+   "required_B_official": "5719.49",
+   "fact_count": 32
   },
   {
    "item_id": "25347297",
@@ -3124,7 +4362,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25347297.json)으로 찾았으나 필요 단가 약 5,766원(조달 단가의 28%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25347297.json)으로 찾았으나 필요 단가 약 5,766원(조달 단가의 28%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "415904400",
+   "Q_official": "20092",
+   "unit_official": "봉",
+   "tax_basis": "vat_included",
+   "required_B_official": "5768.68",
+   "fact_count": 81
   },
   {
    "item_id": "21495446",
@@ -3140,7 +4385,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-21495446.json)에서 필요 단가 약 16,156원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-21495446.json)에서 필요 단가 약 16,156원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "415686000",
+   "Q_official": "7167",
+   "unit_official": "상자",
+   "tax_basis": "vat_included",
+   "required_B_official": "16141.48",
+   "fact_count": 21
   },
   {
    "item_id": "23332761",
@@ -3156,7 +4408,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-23332761.json)에서 필요 단가 약 13,774원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-23332761.json)에서 필요 단가 약 13,774원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "413900000",
+   "Q_official": "8278",
+   "unit_official": "병",
+   "tax_basis": "vat_included",
+   "required_B_official": "13759.36",
+   "fact_count": 19
   },
   {
    "item_id": "25495229",
@@ -3172,7 +4431,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25495229.json)으로 찾았으나 필요 단가 약 2,727원(조달 단가의 28%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25495229.json)으로 찾았으나 필요 단가 약 2,727원(조달 단가의 28%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "413889300",
+   "Q_official": "41807",
+   "unit_official": "봉",
+   "tax_basis": "vat_included",
+   "required_B_official": "2724.17",
+   "fact_count": 48
   },
   {
    "item_id": "24796140",
@@ -3188,7 +4454,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24796140.json)으로 찾았으나 필요 단가 약 7,568원(조달 단가의 27%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24796140.json)으로 찾았으나 필요 단가 약 7,568원(조달 단가의 27%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "412979300",
+   "Q_official": "14909",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "7577.93",
+   "fact_count": 25
   },
   {
    "item_id": "25853428",
@@ -3204,7 +4477,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25853428.json)으로 찾았으나 필요 단가 약 2,361원(조달 단가의 27%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25853428.json)으로 찾았으나 필요 단가 약 2,361원(조달 단가의 27%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "411836480",
+   "Q_official": "47392",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "2359.82",
+   "fact_count": 89
   },
   {
    "item_id": "24600779",
@@ -3220,7 +4500,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24600779.json)으로 찾았으나 필요 단가 약 4,439원(조달 단가의 27%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24600779.json)으로 찾았으나 필요 단가 약 4,439원(조달 단가의 27%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "409588400",
+   "Q_official": "24674",
+   "unit_official": "봉",
+   "tax_basis": "vat_included",
+   "required_B_official": "4441.45",
+   "fact_count": 30
   },
   {
    "item_id": "24668465",
@@ -3238,7 +4525,14 @@
     "보류: Roadgen 동일1000/20/5kg 가격공개소매 미발견. Roadgen25kg13750VAT포함은 포장불일치이며 비교단가로 안 씀."
    ],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24668465.json)에서 필요 단가 약 2,640원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-24668465.json)에서 필요 단가 약 2,640원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "408899700",
+   "Q_official": "41303",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "2636.60",
+   "fact_count": 17
   },
   {
    "item_id": "22517838",
@@ -3254,7 +4548,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "retail_higher",
-   "note": "농심몰 육개장사발면 86g 24개 25,190원(개당 1,050원). 필요 단가 약 137원."
+   "note": "농심몰 육개장사발면 86g 24개 25,190원(개당 1,050원). 필요 단가 약 137원.",
+   "state_official": "available",
+   "C_official": "407701112",
+   "Q_official": "787058",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "136.84",
+   "fact_count": 174
   },
   {
    "item_id": "25448126",
@@ -3270,7 +4571,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_retail",
-   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다."
+   "note": "KS 노면표지 도료(융착식·수용성) 20kg/18L 단위의 공개 소매가가 없다. 필요 단가가 조달가의 절반 수준이라 동일·우월 대체 근거가 없다.",
+   "state_official": "available",
+   "C_official": "407508220",
+   "Q_official": "14627",
+   "unit_official": "포",
+   "tax_basis": "vat_included",
+   "required_B_official": "7349.98",
+   "fact_count": 52
   },
   {
    "item_id": "24531000",
@@ -3288,7 +4596,14 @@
     "미조회보류: CJ크레잇 간장소불고기3kg 소매판매가 미발견. CJ프레시웨이 이츠웰은 제조사/모델이 달라 교체비교 안 함."
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24531000.json)으로 찾았으나 필요 단가 약 11,355원(조달 단가의 26%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24531000.json)으로 찾았으나 필요 단가 약 11,355원(조달 단가의 26%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "406912220",
+   "Q_official": "9406",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "11366.38",
+   "fact_count": 21
   },
   {
    "item_id": "25609208",
@@ -3306,7 +4621,14 @@
     "미조회보류: 연석 마미홈 오곡블루베리훈제오리1kg 정확소매 없음. CJ튼튼스쿨 블루베리훈제오리는 다른제품."
    ],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25609208.json)으로 찾았으나 필요 단가 약 4,084원(조달 단가의 26%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25609208.json)으로 찾았으나 필요 단가 약 4,084원(조달 단가의 26%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "406348800",
+   "Q_official": "26048",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "4082.80",
+   "fact_count": 21
   },
   {
    "item_id": "25661959",
@@ -3322,7 +4644,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25661959.json)으로 찾았으나 필요 단가 약 9,608원(조달 단가의 26%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25661959.json)으로 찾았으나 필요 단가 약 9,608원(조달 단가의 26%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "406014400",
+   "Q_official": "11033",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "9608.84",
+   "fact_count": 25
   },
   {
    "item_id": "25613570",
@@ -3338,7 +4667,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25613570.json)으로 찾았으나 필요 단가 약 6,855원(조달 단가의 26%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25613570.json)으로 찾았으나 필요 단가 약 6,855원(조달 단가의 26%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "405049680",
+   "Q_official": "15308",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "6862.40",
+   "fact_count": 38
   },
   {
    "item_id": "25369211",
@@ -3354,7 +4690,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25369211.json)으로 찾았으나 필요 단가 약 2,021원(조달 단가의 26%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25369211.json)으로 찾았으나 필요 단가 약 2,021원(조달 단가의 26%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "405038400",
+   "Q_official": "51928",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "2022.77",
+   "fact_count": 42
   },
   {
    "item_id": "24569560",
@@ -3370,7 +4713,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24569560.json)으로 찾았으나 필요 단가 약 3,088원(조달 단가의 26%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24569560.json)으로 찾았으나 필요 단가 약 3,088원(조달 단가의 26%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "404803200",
+   "Q_official": "33960",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "3086.08",
+   "fact_count": 33
   },
   {
    "item_id": "21809244",
@@ -3386,7 +4736,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-21809244.json)에서 필요 단가 약 1,015원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-21809244.json)에서 필요 단가 약 1,015원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "403421040",
+   "Q_official": "101874",
+   "unit_official": "병",
+   "tax_basis": "vat_included",
+   "required_B_official": "1015.19",
+   "fact_count": 32
   },
   {
    "item_id": "25635502",
@@ -3402,7 +4759,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25635502.json)으로 찾았으나 필요 단가 약 4,082원(조달 단가의 26%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25635502.json)으로 찾았으나 필요 단가 약 4,082원(조달 단가의 26%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "402624000",
+   "Q_official": "25164",
+   "unit_official": "봉",
+   "tax_basis": "vat_included",
+   "required_B_official": "4078.21",
+   "fact_count": 13
   },
   {
    "item_id": "25613569",
@@ -3418,7 +4782,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25613569.json)으로 찾았으나 필요 단가 약 2,618원(조달 단가의 25%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25613569.json)으로 찾았으나 필요 단가 약 2,618원(조달 단가의 25%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "402544800",
+   "Q_official": "39120",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "2621.29",
+   "fact_count": 68
   },
   {
    "item_id": "24525606",
@@ -3434,7 +4805,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24525606.json)으로 찾았으나 필요 단가 약 2,435원(조달 단가의 25%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24525606.json)으로 찾았으나 필요 단가 약 2,435원(조달 단가의 25%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "402495060",
+   "Q_official": "42058",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "2436.99",
+   "fact_count": 57
   },
   {
    "item_id": "25639631",
@@ -3455,7 +4833,11 @@
    "Q_official": "67",
    "required_B_official": "1522388.00",
    "verdict": "installed_unique",
-   "note": "디엔디전자 DES-10K-S 현장설치도. 링크온비즈 소개에 가격 비공개. 필요 단가 1,522,388원 이하의 우월 대체품 근거 없음."
+   "note": "디엔디전자 DES-10K-S 현장설치도. 링크온비즈 소개에 가격 비공개. 필요 단가 1,522,388원 이하의 우월 대체품 근거 없음.",
+   "state_official": "available",
+   "unit_official": "대",
+   "tax_basis": "vat_included",
+   "fact_count": 63
   },
   {
    "item_id": "22393372",
@@ -3471,7 +4853,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-22393372.json)에서 필요 단가 약 8,136원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다."
+   "note": "동물용 의약품·보조사료·살충제·소독제·제설제·생활용품 등 제조사 유통 품목이다. Parallel 검색(ps-22393372.json)에서 필요 단가 약 8,136원 이하인 동일 제품 공개 판매가를 찾지 못했고, 분명히 우월한 완성 대체품 근거도 없다.",
+   "state_official": "available",
+   "C_official": "401069100",
+   "Q_official": "12417",
+   "unit_official": "병",
+   "tax_basis": "vat_included",
+   "required_B_official": "8139.57",
+   "fact_count": 38
   },
   {
    "item_id": "24686428",
@@ -3487,7 +4876,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24686428.json)으로 찾았으나 필요 단가 약 7,407원(조달 단가의 25%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-24686428.json)으로 찾았으나 필요 단가 약 7,407원(조달 단가의 25%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "400810080",
+   "Q_official": "13596",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "7414.69",
+   "fact_count": 28
   },
   {
    "item_id": "25688864",
@@ -3503,7 +4899,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25688864.json)으로 찾았으나 필요 단가 약 4,246원(조달 단가의 25%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25688864.json)으로 찾았으나 필요 단가 약 4,246원(조달 단가의 25%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "400766600",
+   "Q_official": "23714",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "4249.24",
+   "fact_count": 17
   },
   {
    "item_id": "25277815",
@@ -3519,7 +4922,14 @@
    "best_price_note": null,
    "prior": [],
    "verdict": "no_qualifying_price",
-   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25277815.json)으로 찾았으나 필요 단가 약 4,317원(조달 단가의 25%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다."
+   "note": "같은 제조사·제품·중량의 공개 판매가를 Parallel 검색(ps-25277815.json)으로 찾았으나 필요 단가 약 4,317원(조달 단가의 25%) 이하인 정확 제품 판매가가 없다. 식품은 동일 브랜드·중량만 동일품이며, 객관적 규격이 분명히 더 좋은 대체품을 절반 가격에 찾을 근거도 없다.",
+   "state_official": "available",
+   "C_official": "400201300",
+   "Q_official": "23233",
+   "unit_official": "개",
+   "tax_basis": "vat_included",
+   "required_B_official": "4312.89",
+   "fact_count": 22
   }
  ]
 }
