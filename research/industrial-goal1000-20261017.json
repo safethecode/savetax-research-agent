@@ -16,9 +16,9 @@
     "stored_available_official_total_over_minimum_rows": 33,
     "fresh_direct_primary_pages_saved": 25,
     "new_confirmed_saving_candidates": 1,
-    "actual_parallel_calls": 136,
-    "fresh_official_item_details": 107,
-    "fresh_official_scorable_facts": 10692,
+    "actual_parallel_calls": 137,
+    "fresh_official_item_details": 108,
+    "fresh_official_scorable_facts": 10697,
     "actual_jev_calls": 14
   },
   "access": {
@@ -1884,6 +1884,13 @@
       "search_id": "search_5e2a3470b470eb228efe9549b6dfede5",
       "observed_at": "2026-10-16T22:41:27.873146+00:00",
       "returned_results": 6
+    },
+    {
+      "file": "work/industrial-goal1000/parallel-mtech-mt4-next-exact.json",
+      "query": "\"MT4-02\" \"엠테크\" 판매 가격",
+      "search_id": "search_bb584c2b73e4fc517c60a33b6796f664",
+      "observed_at": "2026-10-16T22:54:52.310311+00:00",
+      "returned_results": 3
     }
   ],
   "jev_actual_call": {
@@ -88668,5 +88675,126 @@
     "sha256": "c935235a0c7fa41c53357976053e87afa3380529c80c2fca8be3fb47a555a635",
     "correction": "hardware가 새로 읽은 SCF500 원품은 실리콘 코팅 PET 단섬유 70~95%와 PP 5~30% 혼용이다. 발수·투수 제어로 일반 부직포보다 물 통과량을 30% 이상 줄여 들뜸·세굴을 방지한다. 제 기존 장섬유 여부 미확인 메모는 원문 미실독 당시 한계이며, 일반 단섬유 500gsm의 동일성이나 가격을 검증한 뜻이 아니다.",
     "limits": "해당 HWP는 hardware의 실제 판독 결과로 참조했으며 industrial의 신규 원규격 다운로드·실독 수로 더하지 않는다. 같은 케이토목 가격표도 재조회하지 않았다."
+  },
+  "mtech_mt4_02_membrane_area_and_complete_structure_followup": {
+    "observed_at": "2026-10-16T22:56:27.522099+00:00",
+    "item_id": "24207246",
+    "model": "MT4-02",
+    "manufacturer": "주식회사 엠테크, 사업자 7268101696",
+    "state": "available",
+    "official_C_krw": "2811900000",
+    "official_Q": "7210",
+    "scorable_fact_count": 5,
+    "total_fact_count": 5,
+    "unit_counts": {
+      "㎡": 5
+    },
+    "tax_basis_counts": {
+      "vat_included": 5
+    },
+    "event_source_url": "https://hackathon.savetax.now/v1/events/current/items/24207246",
+    "raw_fact_file": "work/industrial-goal1000/mtech-mt4-next-event.json",
+    "catalog_file": "work/industrial-goal1000/mtech-mt4-next-catalog.json",
+    "listing_file": "work/industrial-goal1000/mtech-mt4-next-listing.json",
+    "all_fulfillment_references_format": "contract_no|request_no|line_no",
+    "all_fulfillment_references": [
+      "002270427_1|R25TB01196611|1",
+      "002270427_1|R25TB01206116|1",
+      "002270427_1|R26TB01676219|1",
+      "002270427_1|R26TB01942493|1",
+      "002270427_1|R26TB02213254|1"
+    ],
+    "original_scope": {
+      "source_owner": "root",
+      "source_file": "/Users/aaron-son/Documents/savetax-research-agent/work/session-20261017/root-broad-complete-goods/24207249-original/00227042703-우수제품_지정규격서_2022111_&#40;22.9.22_주식회사엠테크&#41;.hwp",
+      "source_bytes": 961024,
+      "sha256": "138d6228b0bd8def61bf6467f9c6adcbe6e34d23227adab6981678f12fb9675e",
+      "text_file": "work/session-20261017/root-broad-complete-goods/24207249-original-text.txt",
+      "metadata_file": "work/session-20261017/root-broad-complete-goods/24207249-original-extracted.json",
+      "reuse_limit": "root가 실제 내려받은 공통 HWP의 MT4-02 개별 모델행과 BOM을 industrial이 새로 읽었다. 공식 해당 등재의 첨부 이름·크기 961024바이트 일치를 확인했지만 동일 파일을 새로 다운로드하거나 새 해시를 비교한 것으로 세지 않는다. HWP revision_review는 not_assessed다.",
+      "model_row": "50,000×40,000×15,000mm, 4변 지지·반아치형·PVF·12폴.",
+      "core_purpose": "경기장·시장·공연장·야외무대 등의 지붕 구조물이며 스마트 재인장 장치가 장력을 회복해 처짐과 바람에 의한 막재 부상을 방지한다. 단순 PVF 원단이나 소형 가든 천막과 완성 용도를 혼동하지 않는다.",
+      "nominal_BOM": [
+        {
+          "part": "막재",
+          "spec": "PVF, 재료표 두께0.6mm 이상",
+          "quantity": "2600",
+          "unit": "㎡",
+          "supplier": "희성"
+        },
+        {
+          "part": "탄소강관",
+          "spec": "SGT275 P457.2×16.0T",
+          "quantity": "90",
+          "unit": "m"
+        },
+        {
+          "part": "탄소강관",
+          "spec": "SGT275 P318.5×6.0T",
+          "quantity": "125",
+          "unit": "m"
+        },
+        {
+          "part": "탄소강관",
+          "spec": "SGT275 P267.4×6.0T",
+          "quantity": "598",
+          "unit": "m"
+        },
+        {
+          "part": "탄소강관",
+          "spec": "SGT275 P165.2×6.0T",
+          "quantity": "455",
+          "unit": "m"
+        },
+        {
+          "part": "재인장 시스템",
+          "spec": "케이블 D12 IWRC6×Fi(25)",
+          "quantity": "2",
+          "unit": "SET"
+        }
+      ],
+      "BOM_text_line_start": 1635,
+      "quality_requirement": "공통 품질표의 PVF/PVDF/ECM은 중량800g/㎡ 이상·두께0.65mm 이상·인장2500N/50mm 이상·인열200N 이상이다. 재료표의0.6mm와 공통 품질표의0.65mm를 구별하고 후자를 임의로 낮추지 않는다. 다른 원단의 시험결과나 동명 반도체 회사를 이 물품 근거로 쓰지 않는다.",
+      "measurement_rule_line": 2206,
+      "measurement_rule_quote": "※막구조물의 수량산정 기준은 막재를 평면상에 펼칠 경우 실제 소요되는 수량으로 하며, 수평투영면적에 보정계수를 곱하여 산정한다. 단, 기초공사는 포함되지 않고, 섬/도서 지역에 대한 운반비 및 소요경비는 별도로 한다.",
+      "measurement_interpretation": "공식 수량은 막재를 평면에 펼쳤을 때 실제 소요되는 막 면적이다. 수평투영면적에 보정계수를 적용해 산정하므로 공식Q7210㎡를 바닥면적으로 보고 다시1.3배 늘리지 않는다. 표준도면50×40m의 바닥2000㎡와 막2600㎡는 같은 면적이 아니다.",
+      "installation_and_exclusions": "현장설치도이며 기초공사는 포함하지 않는다. 섬·도서의 운반비와 소요경비는 별도다. 설치 포함만으로 물품 취득가격 비교를 자동 금지하지 않지만 실제 완성 지지 구조와 재인장 장치의 공급 범위를 유지한다.",
+      "scope_excerpt_file": "work/industrial-goal1000/mtech-mt4-next-original-scope-excerpts.txt"
+    },
+    "actual_search": {
+      "file": "work/industrial-goal1000/parallel-mtech-mt4-next-exact.json",
+      "search_id": "search_bb584c2b73e4fc517c60a33b6796f664",
+      "finding": "정확한 MT4-02 일반 판매 가격을 확보하지 못했다. 다른 엠티엘, TPU 원단 재단 상품, 혁신장터의 교량 신축 이음장치를 원품 판매가로 쓰지 않았다.",
+      "parent_prior_primary_search_reuse": "work/session-20261017/root-broad-complete-goods/parallel-mtech-primary.json의 제조사 탐색을 재사용했고, 같은 동명 업체 홈페이지를 다시 읽지 않았다.",
+      "primary_source_url_for_original": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002270427_1060000022"
+    },
+    "retail_B": null,
+    "vat_included": null,
+    "shipping_included": null,
+    "expected_saving_krw": null,
+    "preview_count": 0,
+    "post_count": 0,
+    "decision": "원규격과 5개 공식 fact를 확인했지만 완성 구조물의 일반 판매가가 없어 B·예상액을 채택하지 않았다. 원단 단품이나 설계 원가로 전체 가격을 만들지 않았다.",
+    "other_status_only": [
+      {
+        "item_id": "22067194",
+        "model": "CAT.5E/CM4P",
+        "state": "claimed",
+        "file": "work/industrial-goal1000/generic-utp5e-next-lookup.json",
+        "action": "새 상태 조회 후 원규격·가격 검색 없이 중단했다."
+      },
+      {
+        "item_id": "26316954",
+        "state": "claimed",
+        "file": "work/industrial-goal1000/sweep/pool-lookup.json",
+        "action": "기존 저장 상태를 재사용했으며 새 상태조회·원규격·가격 조사를 하지 않았다."
+      },
+      {
+        "item_id": "26316956",
+        "state": "claimed",
+        "file": "work/industrial-goal1000/sweep/pool-lookup.json",
+        "action": "기존 저장 상태를 재사용했으며 새 상태조회·원규격·가격 조사를 하지 않았다."
+      }
+    ]
   }
 }

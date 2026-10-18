@@ -714,3 +714,12 @@ BSH-05(24023087)는 새 조회에서 claimed라 추가 가격 검색 없이 중�
 SCF500(24125544)의 과거 메모도 새 팀 원문과 구별한다. hardware가 읽은 실제 원품은 실리콘 코팅 PET/PP 단섬유 혼용이며 발수·투수를 제어하는 부직포다. 일반 500gsm과 동일한 가격 비교가 검증됐다는 뜻이 아니다. 해당 원문 경로와 기존 메모의 한계는 JSON `scf500_team_original_correction_reference`에 참조했다.
 
 이번 6품목의 **반환 2,786개 fact 전체 관련 번호**와 범위·가격 한계는 JSON `diverse_guardrail_rmc_and_complete_pipes_followup`, `cocodoc_same_manufacturer_retail_pack_followup`에 있다. 실제 Parallel 누적 136회·Jev 14회, 공식 상세 107개·반환 scorable fact 10,692개다. 이번 B·예상액·preview·POST는 없다. SM13085(24211420)는 반려 보류 상태여서 원문·가격 검색과 수정·재접수 없이 중단했다.
+
+
+## MT4-02 막구조물의 실제 면적과 완성 지지 구조
+
+엠테크 MT4-02(24207246)는 새 available **5개 fact·7,210㎡·28.119억 원**이다. parent가 실제 내려받은 961,024바이트 공통 HWP를 재사용해 제가 맡은 개별 모델행과 BOM을 새로 읽었다. 기준 형상은 50×40×15m·4변 지지·반아치·12폴이며 PVF막 2,600㎡, 네 규격의 SGT275 강관 합계 1,268m, D12 재인장 시스템 2세트로 구성된다. 공통 품질표는 PVF 두께 0.65mm 이상·800g/㎡ 이상이며 원단 가격을 완성 구조물 전체 가격으로 확대하지 않는다.
+
+특히 **원문 2206행은 막재를 평면에 펼친 실제 소요 면적으로 수량을 산정**하고, 수평투영면적에는 보정계수를 적용한다고 명시한다. 따라서 공식 Q 7,210㎡를 바닥 면적으로 보고 다시 1.3배 보정하지 않는다. 기초공사는 제외되고 섬·도서 운임과 소요경비도 별도다. 현장설치도라는 이유만으로 취득가격 비교를 자동 금지하지 않았고, 지지 강관과 스마트 재인장·부상 방지 기능의 범위를 보존했다.
+
+[공식 원품 등재](https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002270427_1060000022)의 정확한 첨부 이름·크기는 공통 HWP와 일치하지만 제가 새로 다운로드해 해시를 비교했다고 세지 않았다. exact MT4-02의 일반 판매가는 확보하지 못했다. 전체 5개 계약·납품요구·라인 번호와 인용 구간은 JSON `mtech_mt4_02_membrane_area_and_complete_structure_followup` 및 `work/industrial-goal1000/mtech-mt4-next-original-scope-excerpts.txt`에 보존했다. B·예상액·preview·POST는 없고 실제 Parallel 누적 137회·Jev 14회, 공식 상세 108개·반환 scorable fact 10,697개다. 별도 UTP 케이블 22067194는 새 claimed, 두 군용 우의 26316954·26316956은 기존 claimed 기록을 재사용해 가격 검색을 하지 않았다.
