@@ -1,0 +1,1828 @@
+{
+ "owner": "recheck1",
+ "date": "2026-10-18",
+ "assignment": "work/root-goal1000/assign/unjudged-ge6.json",
+ "threshold_krw": 500000000,
+ "method": "공식 lookup·item fact로 C·Q와 5억 원 필요 단가(가격차 규칙 포함)를 계산하고 listings deliveryTerms를 확인했다. 설치 조건이 아닌 일반 판매 가능 품목은 Parallel 검색으로 동일 모델 판매가를 대조했다.",
+ "verdict_counts": {
+  "installed_price": 85,
+  "market_price_too_high": 6,
+  "no_public_price": 13,
+  "no_identical_or_better": 2
+ },
+ "ready_packets": [],
+ "rows": [
+  {
+   "item_id": "24489307",
+   "name": "태양광발전장치, 쏠라리버, SSR-PV-100-S, 100.17kW급, 계통연계형/고정형, ㅁ형지지대",
+   "state": "available",
+   "C_krw": "3638986000",
+   "Q": "17",
+   "scorable_facts": 10,
+   "avg_unit_krw": "214058000",
+   "required_B_for_5e8_krw": "184646235",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 184,646,235원 이하여야 한다(조달 평균 214,058,000원)."
+  },
+  {
+   "item_id": "23469948",
+   "name": "전시용방독면, 도부라이프텍, CM-7, 일반방독면, 두건형/1안식, 정화통교환가능, 화생방용",
+   "state": "available",
+   "C_krw": "2392217700",
+   "Q": "83132",
+   "scorable_facts": 131,
+   "avg_unit_krw": "28776",
+   "required_B_for_5e8_krw": "23132",
+   "delivery_terms": [
+    "납품장소도"
+   ],
+   "best_retail_url": "https://m.gmarket.co.kr/vi/product/2644577366",
+   "best_retail_price_krw": 56500,
+   "verdict": "market_price_too_high",
+   "note": "도부라이프텍 CM-7 동일 모델의 공개 판매가는 G마켓·11번가 56,500원, 준투푸드 59,800원으로 조달 평균보다 오히려 높다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 23,132원 이하여야 한다(조달 평균 28,776원)."
+  },
+  {
+   "item_id": "24473791",
+   "name": "금속제창, 경원알미늄, KW-CAW-160-HD-24LEAR-11, 160mm, 히든커튼월/불소수지2회",
+   "state": "available",
+   "C_krw": "2099708634",
+   "Q": "120674",
+   "scorable_facts": 24,
+   "avg_unit_krw": "17400",
+   "required_B_for_5e8_krw": "13256",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 13,256원 이하여야 한다(조달 평균 17,400원)."
+  },
+  {
+   "item_id": "23858914",
+   "name": "금속제창, 금산씨엔씨, KSC-CPSL-K004-2, 230mm, 단열복합미서기이중창/불소수지2회",
+   "state": "available",
+   "C_krw": "1884211659",
+   "Q": "105276",
+   "scorable_facts": 12,
+   "avg_unit_krw": "17898",
+   "required_B_for_5e8_krw": "13148",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 13,148원 이하여야 한다(조달 평균 17,898원)."
+  },
+  {
+   "item_id": "25296084",
+   "name": "광수신기, 에이디엠, AFO5008XG-R, SC/PC",
+   "state": "available",
+   "C_krw": "1767195000",
+   "Q": "681",
+   "scorable_facts": 15,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 여러 비교 기준이 섞여 있거나 5억 원 산술이 불가능하다."
+  },
+  {
+   "item_id": "25045214",
+   "name": "금속제창, 유니크시스템, U-P-SM160, 160mm, 미서기창/불소수지2회",
+   "state": "available",
+   "C_krw": "1518811778",
+   "Q": "84852",
+   "scorable_facts": 56,
+   "avg_unit_krw": "17900",
+   "required_B_for_5e8_krw": "12007",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 12,007원 이하여야 한다(조달 평균 17,900원)."
+  },
+  {
+   "item_id": "25043748",
+   "name": "금속제창, 지엘아이, GLI-E-CW150-2, 150mm, 노출커튼월/불소수지2회",
+   "state": "available",
+   "C_krw": "1430830840",
+   "Q": "84168",
+   "scorable_facts": 26,
+   "avg_unit_krw": "17000",
+   "required_B_for_5e8_krw": "11059",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 11,059원 이하여야 한다(조달 평균 17,000원)."
+  },
+  {
+   "item_id": "25722420",
+   "name": "버스승강장, 삼디, SD6240-Gsh, 6240×2240×2900mm",
+   "state": "available",
+   "C_krw": "1331100000",
+   "Q": "34",
+   "scorable_facts": 2,
+   "avg_unit_krw": "39150000",
+   "required_B_for_5e8_krw": "24444118",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 24,444,118원 이하여야 한다(조달 평균 39,150,000원)."
+  },
+  {
+   "item_id": "25399274",
+   "name": "태양광발전장치, 레이져라이팅, L24-100K-SQ, 100kW급, 계통연계형, ㅁ형지지대",
+   "state": "available",
+   "C_krw": "1222992000",
+   "Q": "8",
+   "scorable_facts": 5,
+   "avg_unit_krw": "152874000",
+   "required_B_for_5e8_krw": "90374000",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 90,374,000원 이하여야 한다(조달 평균 152,874,000원)."
+  },
+  {
+   "item_id": "23860341",
+   "name": "버스승강장, 엔담, EB-32, 5010×2000×2850mm",
+   "state": "available",
+   "C_krw": "1144800000",
+   "Q": "69",
+   "scorable_facts": 11,
+   "avg_unit_krw": "16591304",
+   "required_B_for_5e8_krw": "9344927",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 9,344,927원 이하여야 한다(조달 평균 16,591,304원)."
+  },
+  {
+   "item_id": "23795001",
+   "name": "공기조화기, 휴먼에어텍, Aspoh-0650LST, 650㎥/min, 냉방273.4/난방407.8kW, 수평형/환기팬내장",
+   "state": "available",
+   "C_krw": "1133470000",
+   "Q": "13",
+   "scorable_facts": 2,
+   "avg_unit_krw": "87190000",
+   "required_B_for_5e8_krw": "48728461",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 48,728,461원 이하여야 한다(조달 평균 87,190,000원)."
+  },
+  {
+   "item_id": "25839571",
+   "name": "무인교통감시장치, 아프로시스템즈, APR-4K202M, 신호위반/불법주정차단속",
+   "state": "available",
+   "C_krw": "1127100000",
+   "Q": "39",
+   "scorable_facts": 21,
+   "avg_unit_krw": "28900000",
+   "required_B_for_5e8_krw": "16079487",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 16,079,487원 이하여야 한다(조달 평균 28,900,000원)."
+  },
+  {
+   "item_id": "24458247",
+   "name": "금속제창, 윈도우코리아, WK-SL225-B, 225mm, 미서기중연이중창/불소수지2회",
+   "state": "available",
+   "C_krw": "1105072037",
+   "Q": "83403",
+   "scorable_facts": 28,
+   "avg_unit_krw": "13250",
+   "required_B_for_5e8_krw": "7255",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 7,255원 이하여야 한다(조달 평균 13,250원)."
+  },
+  {
+   "item_id": "24910922",
+   "name": "일반용경질폴리염화비닐제부속품, 뉴보텍, NV300AS, 오수받이, Φ300mm",
+   "state": "available",
+   "C_krw": "1103566300",
+   "Q": "5516",
+   "scorable_facts": 32,
+   "avg_unit_krw": "200066",
+   "required_B_for_5e8_krw": "109421",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "오수받이 동일 모델의 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 109,421원 이하여야 한다(조달 평균 200,066원)."
+  },
+  {
+   "item_id": "25387888",
+   "name": "태양광발전장치, 사회적기업유비에코, UBEC-TQ050, 50kW급, 계통연계형, ㅁ형지지대",
+   "state": "available",
+   "C_krw": "1093950000",
+   "Q": "11",
+   "scorable_facts": 11,
+   "avg_unit_krw": "99450000",
+   "required_B_for_5e8_krw": "53995454",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 53,995,454원 이하여야 한다(조달 평균 99,450,000원)."
+  },
+  {
+   "item_id": "24059400",
+   "name": "노면표지용페인트, 에코리치, ER4W-P6-R5-RW4, 20kg/포, 흰색, 융착식",
+   "state": "available",
+   "C_krw": "1078685150",
+   "Q": "28214",
+   "scorable_facts": 79,
+   "avg_unit_krw": "38232",
+   "required_B_for_5e8_krw": "20511",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "ER4W-P6-R5-RW4 융착식 흰색 노면표지 페인트의 일반 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 20,511원 이하여야 한다(조달 평균 38,232원)."
+  },
+  {
+   "item_id": "23795018",
+   "name": "공기조화기, 휴먼에어텍, Aspoh-0750PST, 750㎥/min, 냉방328/난방550.3kW, 수평형/환기팬내장",
+   "state": "available",
+   "C_krw": "1067880000",
+   "Q": "11",
+   "scorable_facts": 1,
+   "avg_unit_krw": "97080000",
+   "required_B_for_5e8_krw": "51625455",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 51,625,455원 이하여야 한다(조달 평균 97,080,000원)."
+  },
+  {
+   "item_id": "23139472",
+   "name": "용접철망, 삼영스틸, sam-wm105, 5mm, #6-100×100mm, 원형철선",
+   "state": "available",
+   "C_krw": "1050001940",
+   "Q": "212551",
+   "scorable_facts": 323,
+   "avg_unit_krw": "4940",
+   "required_B_for_5e8_krw": "2588",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "market_price_too_high",
+   "note": "5mm #6 100×100 용접철망의 공개 판매가를 ㎡로 환산해도 필요한 단가(철선 원가 수준)보다 높다. 검색된 블록용 철망 10장 41,600원은 선경·크기가 달라 대체 근거로 쓰지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 2,588원 이하여야 한다(조달 평균 4,940원)."
+  },
+  {
+   "item_id": "25411238",
+   "name": "태양광발전장치, 백현이앤에스, BH-CS-RSD-50-SQ, 50kW급, 계통연계형, ㅁ형지지대",
+   "state": "available",
+   "C_krw": "1026000000",
+   "Q": "9",
+   "scorable_facts": 8,
+   "avg_unit_krw": "114000000",
+   "required_B_for_5e8_krw": "58444444",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 58,444,444원 이하여야 한다(조달 평균 114,000,000원)."
+  },
+  {
+   "item_id": "24470131",
+   "name": "바닥형보행신호등, 경동이앤에스, KD-2020-04, (부품)제어부",
+   "state": "available",
+   "C_krw": "1013960000",
+   "Q": "744",
+   "scorable_facts": 36,
+   "avg_unit_krw": "1362849",
+   "required_B_for_5e8_krw": "690806",
+   "delivery_terms": [
+    "납품장소 하차도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 690,806원 이하여야 한다(조달 평균 1,362,849원)."
+  },
+  {
+   "item_id": "25358964",
+   "name": "건물일체형태양광발전장치, 에코스, PVQMax-Roof-E Type-BIPV100, 100kW급, 루프형",
+   "state": "available",
+   "C_krw": "1006800000",
+   "Q": "3",
+   "scorable_facts": 2,
+   "avg_unit_krw": "335600000",
+   "required_B_for_5e8_krw": "168933333",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 168,933,333원 이하여야 한다(조달 평균 335,600,000원)."
+  },
+  {
+   "item_id": "25752451",
+   "name": "금속제기타울타리, 태평양, TPY-B-008, W3000×H1500mm",
+   "state": "available",
+   "C_krw": "999623700",
+   "Q": "47955",
+   "scorable_facts": 3,
+   "avg_unit_krw": "20845",
+   "required_B_for_5e8_krw": "10419",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "디자인 고유 울타리로 외관이 같은 대체품의 공개가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 10,419원 이하여야 한다(조달 평균 20,845원)."
+  },
+  {
+   "item_id": "25401164",
+   "name": "건물일체형태양광발전장치, 건기, GUNGI-BIPV-ROOF63-220T, 63kW급, 지붕일체형",
+   "state": "available",
+   "C_krw": "993736000",
+   "Q": "4",
+   "scorable_facts": 4,
+   "avg_unit_krw": "248434000",
+   "required_B_for_5e8_krw": "123434000",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 123,434,000원 이하여야 한다(조달 평균 248,434,000원)."
+  },
+  {
+   "item_id": "20865351",
+   "name": "쓰레기봉투, 한영공업사, HYREC020, 2종, 20L, 재사용, HDPE",
+   "state": "available",
+   "C_krw": "980587900",
+   "Q": "15482000",
+   "scorable_facts": 23,
+   "avg_unit_krw": "63",
+   "required_B_for_5e8_krw": "31",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "market_price_too_high",
+   "note": "지자체 재사용 종량제 봉투는 일반 판매 대상이 아니고, 일반 20L 봉투도 필요한 31원/장 이하로 팔지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 31원 이하여야 한다(조달 평균 63원)."
+  },
+  {
+   "item_id": "23825487",
+   "name": "하이브리드가로등, 미래테크, MW-500, 50W, 6m",
+   "state": "available",
+   "C_krw": "971100000",
+   "Q": "39",
+   "scorable_facts": 13,
+   "avg_unit_krw": "24900000",
+   "required_B_for_5e8_krw": "12079487",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 12,079,487원 이하여야 한다(조달 평균 24,900,000원)."
+  },
+  {
+   "item_id": "25376326",
+   "name": "건물일체형태양광발전장치, 스카이패널, SKY-BIPV-BC220-45, 44.82kW급, 지붕일체형",
+   "state": "available",
+   "C_krw": "932000000",
+   "Q": "5",
+   "scorable_facts": 5,
+   "avg_unit_krw": "186400000",
+   "required_B_for_5e8_krw": "86400000",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 86,400,000원 이하여야 한다(조달 평균 186,400,000원)."
+  },
+  {
+   "item_id": "24661185",
+   "name": "유입변압기, 에너테크, HTOS-22H-2300, 3상, 22900/(6600/3300)V, 2300kVA",
+   "state": "available",
+   "C_krw": "930600000",
+   "Q": "6",
+   "scorable_facts": 1,
+   "avg_unit_krw": "155100000",
+   "required_B_for_5e8_krw": "71766667",
+   "delivery_terms": [
+    "납품장소차상도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 71,766,667원 이하여야 한다(조달 평균 155,100,000원)."
+  },
+  {
+   "item_id": "25817634",
+   "name": "쓰레기봉투, 크린산업, CLT75L, 75L, 분리수거용, LLDPE",
+   "state": "available",
+   "C_krw": "921176100",
+   "Q": "3789400",
+   "scorable_facts": 9,
+   "avg_unit_krw": "243",
+   "required_B_for_5e8_krw": "111",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "market_price_too_high",
+   "note": "75L 분리수거용 봉투를 필요한 111원/장 이하로 파는 공개 판매처가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 111원 이하여야 한다(조달 평균 243원)."
+  },
+  {
+   "item_id": "23795017",
+   "name": "공기조화기, 휴먼에어텍, Aspoh-0650PST, 650㎥/min, 냉방273.4/난방407.8kW, 수평형/환기팬내장",
+   "state": "available",
+   "C_krw": "899910000",
+   "Q": "11",
+   "scorable_facts": 1,
+   "avg_unit_krw": "81810000",
+   "required_B_for_5e8_krw": "36355455",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 36,355,455원 이하여야 한다(조달 평균 81,810,000원)."
+  },
+  {
+   "item_id": "25411242",
+   "name": "태양광발전장치, 백현이앤에스, BH-CS-RSD-30-SQ, 30kW급, 계통연계형, ㅁ형지지대",
+   "state": "available",
+   "C_krw": "890500000",
+   "Q": "13",
+   "scorable_facts": 10,
+   "avg_unit_krw": "68500000",
+   "required_B_for_5e8_krw": "30038461",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 30,038,461원 이하여야 한다(조달 평균 68,500,000원)."
+  },
+  {
+   "item_id": "25829484",
+   "name": "노트북컴퓨터, 삼성전자, (VN)NT960XHA-KG73G, Intel Core Ultra 7 258V(2.2GHz)",
+   "state": "available",
+   "C_krw": "880055000",
+   "Q": "303",
+   "scorable_facts": 119,
+   "avg_unit_krw": "2904472",
+   "required_B_for_5e8_krw": "1254307",
+   "delivery_terms": [
+    "납품장소도"
+   ],
+   "best_retail_url": "https://acroxar.com/product/samsung-%EA%B0%A4%EB%9F%AD%EC%8B%9C%EB%B6%815-%ED%94%84%EB%A1%9C-nt960xha-k52ag-%EA%B8%B0%EB",
+   "best_retail_price_krw": 2049000,
+   "verdict": "market_price_too_high",
+   "note": "NT960XHA 갤럭시북5 프로 계열은 하위 구성(K52AG)도 2,049,000원이다. KG73G(Ultra 7 258V)를 필요한 단가 이하로 파는 공개 판매처가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 1,254,307원 이하여야 한다(조달 평균 2,904,472원)."
+  },
+  {
+   "item_id": "24819955",
+   "name": "칠판보조장, 샵플러스, s1103, 6600×420×2600mm",
+   "state": "available",
+   "C_krw": "861350000",
+   "Q": "161",
+   "scorable_facts": 48,
+   "avg_unit_krw": "5350000",
+   "required_B_for_5e8_krw": "2244410",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 2,244,410원 이하여야 한다(조달 평균 5,350,000원)."
+  },
+  {
+   "item_id": "25651875",
+   "name": "캐비닛, 우드메탈, TWC-722SD-1N, 800×500×720mm",
+   "state": "available",
+   "C_krw": "856492000",
+   "Q": "2366",
+   "scorable_facts": 1,
+   "avg_unit_krw": "362000",
+   "required_B_for_5e8_krw": "150673",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 150,673원 이하여야 한다(조달 평균 362,000원)."
+  },
+  {
+   "item_id": "25856060",
+   "name": "멀티미디어학습장치, 에스엠테크원, AI SM-119, AI문해력 진단/트레이닝 학습시스템",
+   "state": "available",
+   "C_krw": "844900000",
+   "Q": "34",
+   "scorable_facts": 9,
+   "avg_unit_krw": "24850000",
+   "required_B_for_5e8_krw": "10144117",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 10,144,117원 이하여야 한다(조달 평균 24,850,000원)."
+  },
+  {
+   "item_id": "25412234",
+   "name": "체지방측정기, 인바디, InBody650, 임피던스",
+   "state": "available",
+   "C_krw": "840950000",
+   "Q": "121",
+   "scorable_facts": 104,
+   "avg_unit_krw": "6950000",
+   "required_B_for_5e8_krw": "2817768",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 2,817,768원 이하여야 한다(조달 평균 6,950,000원)."
+  },
+  {
+   "item_id": "25839920",
+   "name": "폴리우레아수지도막방수재, 지엘기술, GL-AW2000, t2mm, 저수조",
+   "state": "available",
+   "C_krw": "827718000",
+   "Q": "14271",
+   "scorable_facts": 2,
+   "avg_unit_krw": "58000",
+   "required_B_for_5e8_krw": "22964",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 22,964원 이하여야 한다(조달 평균 58,000원)."
+  },
+  {
+   "item_id": "25249395",
+   "name": "무정전전원장치, 국제통신공업, UNIPOS-3000S-200K-B30G, 3상, 200kVA, 30분",
+   "state": "available",
+   "C_krw": "819480000",
+   "Q": "6",
+   "scorable_facts": 2,
+   "avg_unit_krw": "136580000",
+   "required_B_for_5e8_krw": "53246666",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 53,246,666원 이하여야 한다(조달 평균 136,580,000원)."
+  },
+  {
+   "item_id": "25358971",
+   "name": "건물일체형태양광발전장치, 에코스, PVQMax-Roof-E Type-BIPV20, 20kW급, 루프형",
+   "state": "available",
+   "C_krw": "819000000",
+   "Q": "9",
+   "scorable_facts": 7,
+   "avg_unit_krw": "91000000",
+   "required_B_for_5e8_krw": "35444444",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 35,444,444원 이하여야 한다(조달 평균 91,000,000원)."
+  },
+  {
+   "item_id": "26243467",
+   "name": "근무복, 미도물산, MIDO-B10, 경찰외근하계용(하의)",
+   "state": "available",
+   "C_krw": "803766000",
+   "Q": "14748",
+   "scorable_facts": 193,
+   "avg_unit_krw": "54500",
+   "required_B_for_5e8_krw": "20597",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "경찰 외근 하계 근무복은 지정 규격 피복으로 일반 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 20,597원 이하여야 한다(조달 평균 54,500원)."
+  },
+  {
+   "item_id": "22310128",
+   "name": "덱플레이트, 윈하이텍, EXR 1008-5, 600×90~150×0.5mm, 상부근1-D10/하부근2-D8/래티스Φ5",
+   "state": "available",
+   "C_krw": "796538125",
+   "Q": "29844",
+   "scorable_facts": 22,
+   "avg_unit_krw": "26690",
+   "required_B_for_5e8_krw": "9936",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "주문 생산 덱플레이트로 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 9,936원 이하여야 한다(조달 평균 26,690원)."
+  },
+  {
+   "item_id": "23997196",
+   "name": "네트워크스위치, Radware, (IL)Alteon 4028, 28port",
+   "state": "available",
+   "C_krw": "793905300",
+   "Q": "33",
+   "scorable_facts": 18,
+   "avg_unit_krw": "24057736",
+   "required_B_for_5e8_krw": "8906221",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 8,906,221원 이하여야 한다(조달 평균 24,057,736원)."
+  },
+  {
+   "item_id": "24652086",
+   "name": "원격자동검침시스템, 케이스마트피아, KSWTNB078WS5-CS1, 원격검침자동단말기/NB-IoT",
+   "state": "available",
+   "C_krw": "792644500",
+   "Q": "6762",
+   "scorable_facts": 16,
+   "avg_unit_krw": "117220",
+   "required_B_for_5e8_krw": "43278",
+   "delivery_terms": [
+    "납품장소도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 43,278원 이하여야 한다(조달 평균 117,220원)."
+  },
+  {
+   "item_id": "24392994",
+   "name": "무정전전원장치, 성신전기공업, BLUPS-R3500-N-120MSBS, 3상, 500kVA, 120분",
+   "state": "available",
+   "C_krw": "786240000",
+   "Q": "1",
+   "scorable_facts": 1,
+   "avg_unit_krw": "786240000",
+   "required_B_for_5e8_krw": "286240000",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 286,240,000원 이하여야 한다(조달 평균 786,240,000원)."
+  },
+  {
+   "item_id": "25345944",
+   "name": "저출력심장충격기, 리젠메디칼, K100, 50~150J",
+   "state": "available",
+   "C_krw": "779110000",
+   "Q": "762",
+   "scorable_facts": 114,
+   "avg_unit_krw": "1022454",
+   "required_B_for_5e8_krw": "366286",
+   "delivery_terms": [
+    "생산공장도(상차제외)",
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "market_price_too_high",
+   "note": "리젠메디칼 K100 AED는 공개 소매가가 조달 평균 수준 이상이다. 필요한 단가는 판매가의 약 3분의 1이라 불가능하다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 366,286원 이하여야 한다(조달 평균 1,022,454원)."
+  },
+  {
+   "item_id": "23195721",
+   "name": "구조물용충격완충장치, 우신그린산업, CC2G-WS2016B-A, 4150×680×900mm, CC2등급",
+   "state": "available",
+   "C_krw": "779036400",
+   "Q": "153",
+   "scorable_facts": 37,
+   "avg_unit_krw": "5091741",
+   "required_B_for_5e8_krw": "1823767",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 1,823,767원 이하여야 한다(조달 평균 5,091,741원)."
+  },
+  {
+   "item_id": "25702936",
+   "name": "영상감시장치, 센텍, STM-8310, 방범감시시스템",
+   "state": "available",
+   "C_krw": "770325000",
+   "Q": "15",
+   "scorable_facts": 8,
+   "avg_unit_krw": "51355000",
+   "required_B_for_5e8_krw": "18021666",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 18,021,666원 이하여야 한다(조달 평균 51,355,000원)."
+  },
+  {
+   "item_id": "21017044",
+   "name": "가로등자동점멸기, 서일이앤씨, PCU-4R-8C, 양방향감시점멸기, 4회로",
+   "state": "available",
+   "C_krw": "769870000",
+   "Q": "461",
+   "scorable_facts": 41,
+   "avg_unit_krw": "1670000",
+   "required_B_for_5e8_krw": "585401",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "양방향 감시 점멸기 등 지자체 규격 장치로 동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 585,401원 이하여야 한다(조달 평균 1,670,000원)."
+  },
+  {
+   "item_id": "25473735",
+   "name": "영상감시장치, 인텔리빅스, VIXAI-SYS-S114, 중앙감시시스템",
+   "state": "available",
+   "C_krw": "756000000",
+   "Q": "21",
+   "scorable_facts": 16,
+   "avg_unit_krw": "36000000",
+   "required_B_for_5e8_krw": "12190476",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 12,190,476원 이하여야 한다(조달 평균 36,000,000원)."
+  },
+  {
+   "item_id": "24502305",
+   "name": "덱플레이트, 에스와이스틸텍, TG86, 600×1200~4880×90~270mm, 상부근1-Φ12/하부근2-Φ8/래티스Φ6",
+   "state": "available",
+   "C_krw": "750027300",
+   "Q": "24467",
+   "scorable_facts": 4,
+   "avg_unit_krw": "30655",
+   "required_B_for_5e8_krw": "10219",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "주문 생산 덱플레이트로 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 10,219원 이하여야 한다(조달 평균 30,655원)."
+  },
+  {
+   "item_id": "24168529",
+   "name": "원격자동검침시스템, 한진테크, H-DWM-NBN-U, NB-IoT통신",
+   "state": "available",
+   "C_krw": "747720000",
+   "Q": "6700",
+   "scorable_facts": 1,
+   "avg_unit_krw": "111600",
+   "required_B_for_5e8_krw": "36973",
+   "delivery_terms": [
+    "납품장소도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 36,973원 이하여야 한다(조달 평균 111,600원)."
+  },
+  {
+   "item_id": "25686931",
+   "name": "금속제단열패널, 광스틸, KSMP150GF1, L1000×W1000×t150mm",
+   "state": "available",
+   "C_krw": "747618000",
+   "Q": "4662",
+   "scorable_facts": 3,
+   "avg_unit_krw": "160364",
+   "required_B_for_5e8_krw": "53114",
+   "delivery_terms": [
+    "납품장소차상도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 53,114원 이하여야 한다(조달 평균 160,364원)."
+  },
+  {
+   "item_id": "24393008",
+   "name": "무정전전원장치, 성신전기공업, BLUPS-R3600-N-10MSBS, 3상, 600kVA, 10분",
+   "state": "available",
+   "C_krw": "746220000",
+   "Q": "3",
+   "scorable_facts": 1,
+   "avg_unit_krw": "248740000",
+   "required_B_for_5e8_krw": "82073333",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 82,073,333원 이하여야 한다(조달 평균 248,740,000원)."
+  },
+  {
+   "item_id": "25478681",
+   "name": "융복합영상감시장치, 센텍, STM-9332, 맵기반지능형영상통합감시시스템",
+   "state": "available",
+   "C_krw": "745548000",
+   "Q": "12",
+   "scorable_facts": 4,
+   "avg_unit_krw": "62129000",
+   "required_B_for_5e8_krw": "20462333",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 20,462,333원 이하여야 한다(조달 평균 62,129,000원)."
+  },
+  {
+   "item_id": "23890294",
+   "name": "폐쇄형배전반, 탑정보통신, T2-LVC-10-ACB-5000(D), 저압반",
+   "state": "available",
+   "C_krw": "745484000",
+   "Q": "17",
+   "scorable_facts": 6,
+   "avg_unit_krw": "43852000",
+   "required_B_for_5e8_krw": "14440235",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 14,440,235원 이하여야 한다(조달 평균 43,852,000원)."
+  },
+  {
+   "item_id": "25196837",
+   "name": "영상감시장치, 홍석, HS-CP23A, 방범감시시스템",
+   "state": "available",
+   "C_krw": "745472000",
+   "Q": "512",
+   "scorable_facts": 71,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 여러 비교 기준이 섞여 있거나 5억 원 산술이 불가능하다."
+  },
+  {
+   "item_id": "25700846",
+   "name": "컴퓨터서버, 에이아이에스테크놀러지, PT5860-108Work, Intel Xeon W3-2423(2.1GHz/6Core)",
+   "state": "available",
+   "C_krw": "743416800",
+   "Q": "119",
+   "scorable_facts": 18,
+   "avg_unit_krw": "6247200",
+   "required_B_for_5e8_krw": "2045519",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 2,045,519원 이하여야 한다(조달 평균 6,247,200원)."
+  },
+  {
+   "item_id": "24581605",
+   "name": "PA용스피커, 제이디솔루션, AU360-S01, 100W",
+   "state": "available",
+   "C_krw": "742184000",
+   "Q": "565",
+   "scorable_facts": 50,
+   "avg_unit_krw": "1313600",
+   "required_B_for_5e8_krw": "428644",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 428,644원 이하여야 한다(조달 평균 1,313,600원)."
+  },
+  {
+   "item_id": "25644256",
+   "name": "영상감시장치, 파로스, PRS-SE-MN001, 옥외감시시스템",
+   "state": "available",
+   "C_krw": "740750000",
+   "Q": "25",
+   "scorable_facts": 4,
+   "avg_unit_krw": "29630000",
+   "required_B_for_5e8_krw": "9630000",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 9,630,000원 이하여야 한다(조달 평균 29,630,000원)."
+  },
+  {
+   "item_id": "24689128",
+   "name": "방화벽장치, 퓨쳐시스템, WeGuardia(TM) ITU 300, FW/VPN/IPS 네트워크보안",
+   "state": "available",
+   "C_krw": "736890000",
+   "Q": "87",
+   "scorable_facts": 27,
+   "avg_unit_krw": "8470000",
+   "required_B_for_5e8_krw": "2722873",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 2,722,873원 이하여야 한다(조달 평균 8,470,000원)."
+  },
+  {
+   "item_id": "25540790",
+   "name": "방화벽장치, 퓨쳐시스템, WeGuardia(TM) ITU 150, FW+VPN+IPS 네트워크보안",
+   "state": "available",
+   "C_krw": "722700000",
+   "Q": "219",
+   "scorable_facts": 60,
+   "avg_unit_krw": "3300000",
+   "required_B_for_5e8_krw": "1016895",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 1,016,895원 이하여야 한다(조달 평균 3,300,000원)."
+  },
+  {
+   "item_id": "25744878",
+   "name": "원격자동검침시스템, 한영계기, HYNB-N01, 원격검침단말기/NB-IoT",
+   "state": "available",
+   "C_krw": "720847600",
+   "Q": "4373",
+   "scorable_facts": 17,
+   "avg_unit_krw": "164841",
+   "required_B_for_5e8_krw": "50503",
+   "delivery_terms": [
+    "납품장소도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 50,503원 이하여야 한다(조달 평균 164,841원)."
+  },
+  {
+   "item_id": "25432770",
+   "name": "무인교통감시장치, 렉스젠, REX-NEH9 BS9, 과속위반단속",
+   "state": "available",
+   "C_krw": "720000000",
+   "Q": "24",
+   "scorable_facts": 19,
+   "avg_unit_krw": "30000000",
+   "required_B_for_5e8_krw": "9166666",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 9,166,666원 이하여야 한다(조달 평균 30,000,000원)."
+  },
+  {
+   "item_id": "25916480",
+   "name": "바닥형보행신호등, 디오전자, DO2-BS, 표출부",
+   "state": "available",
+   "C_krw": "714500000",
+   "Q": "2176",
+   "scorable_facts": 27,
+   "avg_unit_krw": "328355",
+   "required_B_for_5e8_krw": "98575",
+   "delivery_terms": [
+    "납품장소 하차도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 98,575원 이하여야 한다(조달 평균 328,355원)."
+  },
+  {
+   "item_id": "25310576",
+   "name": "원격자동검침시스템, 그렉터, GRM1S-EAT4, 원격검침단말기/LTE-Cat.M1",
+   "state": "available",
+   "C_krw": "713230000",
+   "Q": "5170",
+   "scorable_facts": 14,
+   "avg_unit_krw": "137956",
+   "required_B_for_5e8_krw": "41244",
+   "delivery_terms": [
+    "납품장소도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 41,244원 이하여야 한다(조달 평균 137,956원)."
+  },
+  {
+   "item_id": "25408207",
+   "name": "태양광발전장치, 레이져라이팅, L24-50K-SQ, 50kW급, 계통연계형, ㅁ형지지대",
+   "state": "available",
+   "C_krw": "710800000",
+   "Q": "8",
+   "scorable_facts": 6,
+   "avg_unit_krw": "88850000",
+   "required_B_for_5e8_krw": "26350000",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 26,350,000원 이하여야 한다(조달 평균 88,850,000원)."
+  },
+  {
+   "item_id": "23413327",
+   "name": "가로등자동점멸기, 가보테크, BMC-300S, 무선식양방향, 보안등",
+   "state": "available",
+   "C_krw": "709464000",
+   "Q": "4223",
+   "scorable_facts": 71,
+   "avg_unit_krw": "168000",
+   "required_B_for_5e8_krw": "49601",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "양방향 감시 점멸기 등 지자체 규격 장치로 동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 49,601원 이하여야 한다(조달 평균 168,000원)."
+  },
+  {
+   "item_id": "25615721",
+   "name": "구내방송장치, 원캐스트, SAMS-7922, 네트워크 전관방송용, 0.8kW",
+   "state": "available",
+   "C_krw": "702400000",
+   "Q": "32",
+   "scorable_facts": 1,
+   "avg_unit_krw": "21950000",
+   "required_B_for_5e8_krw": "6325000",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 6,325,000원 이하여야 한다(조달 평균 21,950,000원)."
+  },
+  {
+   "item_id": "25890463",
+   "name": "방화벽장치, 안랩, AhnLab XTG 100, 차세대통합보안방화벽",
+   "state": "available",
+   "C_krw": "695992000",
+   "Q": "44",
+   "scorable_facts": 21,
+   "avg_unit_krw": "15818000",
+   "required_B_for_5e8_krw": "4454363",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 4,454,363원 이하여야 한다(조달 평균 15,818,000원)."
+  },
+  {
+   "item_id": "25776394",
+   "name": "무인교통감시장치, 두원전자통신, DS-PE-L2-S205H, 불법주정차단속",
+   "state": "available",
+   "C_krw": "695310000",
+   "Q": "35",
+   "scorable_facts": 5,
+   "avg_unit_krw": "19866000",
+   "required_B_for_5e8_krw": "5580286",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 5,580,286원 이하여야 한다(조달 평균 19,866,000원)."
+  },
+  {
+   "item_id": "25619973",
+   "name": "버스승강장, 메소플래닝, MP059-S1(10.0), 10000×2000×2700mm",
+   "state": "available",
+   "C_krw": "692572000",
+   "Q": "9",
+   "scorable_facts": 3,
+   "avg_unit_krw": "76952444",
+   "required_B_for_5e8_krw": "21396889",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 21,396,889원 이하여야 한다(조달 평균 76,952,444원)."
+  },
+  {
+   "item_id": "24315759",
+   "name": "폐쇄형배전반, 비케이산업전기, BKE-열반형-S",
+   "state": "available",
+   "C_krw": "691740900",
+   "Q": "8",
+   "scorable_facts": 8,
+   "avg_unit_krw": "86467612",
+   "required_B_for_5e8_krw": "23967612",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 23,967,612원 이하여야 한다(조달 평균 86,467,612원)."
+  },
+  {
+   "item_id": "22195410",
+   "name": "교통신호제어기, 서돌전자통신, SEC-N9400, 600×450×1000mm",
+   "state": "available",
+   "C_krw": "688428000",
+   "Q": "151",
+   "scorable_facts": 24,
+   "avg_unit_krw": "4559126",
+   "required_B_for_5e8_krw": "1247867",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "경찰청 규격 교통신호제어기로 공개 일반가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 1,247,867원 이하여야 한다(조달 평균 4,559,126원)."
+  },
+  {
+   "item_id": "26156250",
+   "name": "영상감시장치, 세오, S6-05001B, 중앙감시시스템",
+   "state": "available",
+   "C_krw": "685000000",
+   "Q": "10",
+   "scorable_facts": 1,
+   "avg_unit_krw": "68500000",
+   "required_B_for_5e8_krw": "18500000",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 18,500,000원 이하여야 한다(조달 평균 68,500,000원)."
+  },
+  {
+   "item_id": "24097061",
+   "name": "방화벽장치, 안랩, TrusGuard 2000B, 차세대통합보안방화벽",
+   "state": "available",
+   "C_krw": "684416480",
+   "Q": "16",
+   "scorable_facts": 10,
+   "avg_unit_krw": "42776030",
+   "required_B_for_5e8_krw": "11526030",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 11,526,030원 이하여야 한다(조달 평균 42,776,030원)."
+  },
+  {
+   "item_id": "21848275",
+   "name": "가로등자동점멸기, 한국제어기술, LCU-101, 가로등양방향감시점멸기",
+   "state": "available",
+   "C_krw": "681065000",
+   "Q": "427",
+   "scorable_facts": 89,
+   "avg_unit_krw": "1595000",
+   "required_B_for_5e8_krw": "424040",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "양방향 감시 점멸기 등 지자체 규격 장치로 동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 424,040원 이하여야 한다(조달 평균 1,595,000원)."
+  },
+  {
+   "item_id": "24630634",
+   "name": "무인교통감시장치, 렉스젠, REX-NEH5 S1, 속도위반단속",
+   "state": "available",
+   "C_krw": "680036000",
+   "Q": "28",
+   "scorable_facts": 20,
+   "avg_unit_krw": "24287000",
+   "required_B_for_5e8_krw": "6429857",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 6,429,857원 이하여야 한다(조달 평균 24,287,000원)."
+  },
+  {
+   "item_id": "23891641",
+   "name": "방화벽장치, 엑스게이트, AXGATE 2300S, 네트워크보안솔루션",
+   "state": "available",
+   "C_krw": "678260220",
+   "Q": "24",
+   "scorable_facts": 15,
+   "avg_unit_krw": "28260842",
+   "required_B_for_5e8_krw": "7427509",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 7,427,509원 이하여야 한다(조달 평균 28,260,842원)."
+  },
+  {
+   "item_id": "24820279",
+   "name": "구내방송장치, 디라직, DPA-DA-1047, 다목적실SR방송용, 4340W",
+   "state": "available",
+   "C_krw": "676050000",
+   "Q": "10",
+   "scorable_facts": 10,
+   "avg_unit_krw": "67605000",
+   "required_B_for_5e8_krw": "17605000",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 17,605,000원 이하여야 한다(조달 평균 67,605,000원)."
+  },
+  {
+   "item_id": "22050938",
+   "name": "흙콘크리트, 아름다운길, BSR1521W, t150mm, 습식, 18MPa, 주차장용",
+   "state": "available",
+   "C_krw": "675524250",
+   "Q": "15368",
+   "scorable_facts": 21,
+   "avg_unit_krw": "43957",
+   "required_B_for_5e8_krw": "11421",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 11,421원 이하여야 한다(조달 평균 43,957원)."
+  },
+  {
+   "item_id": "25331587",
+   "name": "기상전광판, 에스티엔컴퍼니, ST-IOT-1050, 750×1050×143mm",
+   "state": "available",
+   "C_krw": "674700000",
+   "Q": "37",
+   "scorable_facts": 9,
+   "avg_unit_krw": "18235135",
+   "required_B_for_5e8_krw": "4721621",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 4,721,621원 이하여야 한다(조달 평균 18,235,135원)."
+  },
+  {
+   "item_id": "23409962",
+   "name": "방화벽장치, 엑스게이트, AXGATE 200",
+   "state": "available",
+   "C_krw": "674344000",
+   "Q": "79",
+   "scorable_facts": 48,
+   "avg_unit_krw": "8536000",
+   "required_B_for_5e8_krw": "2206886",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 2,206,886원 이하여야 한다(조달 평균 8,536,000원)."
+  },
+  {
+   "item_id": "23286976",
+   "name": "마을무선방송장치, 세기미래기술, SGA-AH60DM, 수신기",
+   "state": "available",
+   "C_krw": "674122400",
+   "Q": "2372",
+   "scorable_facts": 13,
+   "avg_unit_krw": "284200",
+   "required_B_for_5e8_krw": "73407",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 73,407원 이하여야 한다(조달 평균 284,200원)."
+  },
+  {
+   "item_id": "22532809",
+   "name": "교통신호제어기, 한국전기교통, UKET-2100, 588×458×1000mm",
+   "state": "available",
+   "C_krw": "664700000",
+   "Q": "151",
+   "scorable_facts": 22,
+   "avg_unit_krw": "4401987",
+   "required_B_for_5e8_krw": "1090728",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "경찰청 규격 교통신호제어기로 공개 일반가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 1,090,728원 이하여야 한다(조달 평균 4,401,987원)."
+  },
+  {
+   "item_id": "24243254",
+   "name": "방화벽장치, 안랩, AhnLab DPX 5000B, 지능형DDoS대응솔루션",
+   "state": "available",
+   "C_krw": "663520000",
+   "Q": "16",
+   "scorable_facts": 15,
+   "avg_unit_krw": "41470000",
+   "required_B_for_5e8_krw": "10220000",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 10,220,000원 이하여야 한다(조달 평균 41,470,000원)."
+  },
+  {
+   "item_id": "25484656",
+   "name": "버스승강장, 세규후렘, SG-B-071-I, 5000×2160×2815mm",
+   "state": "available",
+   "C_krw": "663480000",
+   "Q": "19",
+   "scorable_facts": 3,
+   "avg_unit_krw": "34920000",
+   "required_B_for_5e8_krw": "8604210",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 8,604,210원 이하여야 한다(조달 평균 34,920,000원)."
+  },
+  {
+   "item_id": "25813257",
+   "name": "버스승강장, 새움, SW-SHELTER-B6024, 6000×2400×2800mm",
+   "state": "available",
+   "C_krw": "662400000",
+   "Q": "16",
+   "scorable_facts": 3,
+   "avg_unit_krw": "41400000",
+   "required_B_for_5e8_krw": "10150000",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 10,150,000원 이하여야 한다(조달 평균 41,400,000원)."
+  },
+  {
+   "item_id": "23945963",
+   "name": "교통신호제어기, 진우전자, JW-7000A3, 588×460×1000mm",
+   "state": "available",
+   "C_krw": "660000000",
+   "Q": "120",
+   "scorable_facts": 38,
+   "avg_unit_krw": "5500000",
+   "required_B_for_5e8_krw": "1333333",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "경찰청 규격 교통신호제어기로 공개 일반가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 1,333,333원 이하여야 한다(조달 평균 5,500,000원)."
+  },
+  {
+   "item_id": "25647304",
+   "name": "융복합안내전광판, 에이아이네트웍, AILED-C2503N, AI혁신제품/도시안전",
+   "state": "available",
+   "C_krw": "656257000",
+   "Q": "14",
+   "scorable_facts": 3,
+   "avg_unit_krw": "46875500",
+   "required_B_for_5e8_krw": "11161214",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 11,161,214원 이하여야 한다(조달 평균 46,875,500원)."
+  },
+  {
+   "item_id": "23865543",
+   "name": "기타조경시설물, 백향우드, HSSD-15LLFT, 1000×1500×1275mm",
+   "state": "available",
+   "C_krw": "655578000",
+   "Q": "774",
+   "scorable_facts": 1,
+   "avg_unit_krw": "847000",
+   "required_B_for_5e8_krw": "201005",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 201,005원 이하여야 한다(조달 평균 847,000원)."
+  },
+  {
+   "item_id": "23424014",
+   "name": "출입통제시스템, 티앤에이치시스템, TNH-8000A, 출입통제게이트",
+   "state": "available",
+   "C_krw": "653780000",
+   "Q": "70",
+   "scorable_facts": 11,
+   "avg_unit_krw": "9339714",
+   "required_B_for_5e8_krw": "2196857",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 2,196,857원 이하여야 한다(조달 평균 9,339,714원)."
+  },
+  {
+   "item_id": "25559230",
+   "name": "마을무선방송장치, 디나텍, DNT370-1, 무선수신장치",
+   "state": "available",
+   "C_krw": "649275000",
+   "Q": "2455",
+   "scorable_facts": 15,
+   "avg_unit_krw": "264470",
+   "required_B_for_5e8_krw": "60804",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 60,804원 이하여야 한다(조달 평균 264,470원)."
+  },
+  {
+   "item_id": "25675239",
+   "name": "폴리우레아수지도막방수재, 삼화페인트공업, YH-0P3, t3mm, 주차장/옥상",
+   "state": "available",
+   "C_krw": "640343636",
+   "Q": "9799",
+   "scorable_facts": 8,
+   "avg_unit_krw": "65348",
+   "required_B_for_5e8_krw": "14322",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 14,322원 이하여야 한다(조달 평균 65,348원)."
+  },
+  {
+   "item_id": "24776369",
+   "name": "일반구조용압연강판, 대도테크, DAEDOE-60112, 1078×6×5233.8mm, 초대골형/파형강판",
+   "state": "available",
+   "C_krw": "637798800",
+   "Q": "311",
+   "scorable_facts": 1,
+   "avg_unit_krw": "2050800",
+   "required_B_for_5e8_krw": "443083",
+   "delivery_terms": [
+    "납품장소 하차도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 443,083원 이하여야 한다(조달 평균 2,050,800원)."
+  },
+  {
+   "item_id": "24089737",
+   "name": "무선마이크장치, 한양전자산업, REX-580D, 송신기",
+   "state": "available",
+   "C_krw": "631050000",
+   "Q": "601",
+   "scorable_facts": 41,
+   "avg_unit_krw": "1050000",
+   "required_B_for_5e8_krw": "218053",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 218,053원 이하여야 한다(조달 평균 1,050,000원)."
+  },
+  {
+   "item_id": "25034246",
+   "name": "무인교통감시장치, 하나씨엔에스, HANA-231B, 불법주정차단속",
+   "state": "available",
+   "C_krw": "624000000",
+   "Q": "26",
+   "scorable_facts": 11,
+   "avg_unit_krw": "24000000",
+   "required_B_for_5e8_krw": "4769230",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 4,769,230원 이하여야 한다(조달 평균 24,000,000원)."
+  },
+  {
+   "item_id": "25182130",
+   "name": "흡음용마감재, 안정개발, AG-MG-01, 1200×600×t8mm, 벽천장용",
+   "state": "available",
+   "C_krw": "623122600",
+   "Q": "6648",
+   "scorable_facts": 13,
+   "avg_unit_krw": "93731",
+   "required_B_for_5e8_krw": "18520",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 18,520원 이하여야 한다(조달 평균 93,731원)."
+  },
+  {
+   "item_id": "24402894",
+   "name": "무인교통감시장치, 하나씨엔에스, HANA-231, 불법주정차단속",
+   "state": "available",
+   "C_krw": "622572000",
+   "Q": "29",
+   "scorable_facts": 2,
+   "avg_unit_krw": "21468000",
+   "required_B_for_5e8_krw": "4226621",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 4,226,621원 이하여야 한다(조달 평균 21,468,000원)."
+  },
+  {
+   "item_id": "24542851",
+   "name": "버스승강장, 메소플래닝, DS018-A1(4.1), 4100×2030×2850mm",
+   "state": "available",
+   "C_krw": "620095000",
+   "Q": "56",
+   "scorable_facts": 17,
+   "avg_unit_krw": "11073125",
+   "required_B_for_5e8_krw": "2144553",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 2,144,553원 이하여야 한다(조달 평균 11,073,125원)."
+  },
+  {
+   "item_id": "24937039",
+   "name": "무인교통감시장치, 서광시스템, ULEYE-X40-2-08-0P0, 불법주정차단속",
+   "state": "available",
+   "C_krw": "617936000",
+   "Q": "44",
+   "scorable_facts": 14,
+   "avg_unit_krw": "14044000",
+   "required_B_for_5e8_krw": "2680363",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 2,680,363원 이하여야 한다(조달 평균 14,044,000원)."
+  },
+  {
+   "item_id": "25702956",
+   "name": "영상감시장치, 센텍, STM-8330, 방범감시시스템",
+   "state": "available",
+   "C_krw": "615590000",
+   "Q": "10",
+   "scorable_facts": 3,
+   "avg_unit_krw": "61559000",
+   "required_B_for_5e8_krw": "11559000",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 11,559,000원 이하여야 한다(조달 평균 61,559,000원)."
+  },
+  {
+   "item_id": "22582067",
+   "name": "가로등자동점멸기, 가보테크, NBTC-300G, 보안등전자식/GPS식",
+   "state": "available",
+   "C_krw": "609620000",
+   "Q": "8965",
+   "scorable_facts": 163,
+   "avg_unit_krw": "68000",
+   "required_B_for_5e8_krw": "12228",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "양방향 감시 점멸기 등 지자체 규격 장치로 동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 12,228원 이하여야 한다(조달 평균 68,000원)."
+  },
+  {
+   "item_id": "25594345",
+   "name": "건물일체형태양광발전장치, 에이비엠, ABM-BIPV-MON, (부품)모니터링 시스템",
+   "state": "available",
+   "C_krw": "607500000",
+   "Q": "135",
+   "scorable_facts": 135,
+   "avg_unit_krw": "4500000",
+   "required_B_for_5e8_krw": "796296",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 796,296원 이하여야 한다(조달 평균 4,500,000원)."
+  },
+  {
+   "item_id": "24570383",
+   "name": "제본천공기, 가평테크, G8000LT, 800매, 80mm",
+   "state": "available",
+   "C_krw": "606622500",
+   "Q": "123",
+   "scorable_facts": 123,
+   "avg_unit_krw": "4931890",
+   "required_B_for_5e8_krw": "866849",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 866,849원 이하여야 한다(조달 평균 4,931,890원)."
+  },
+  {
+   "item_id": "25890464",
+   "name": "방화벽장치, 안랩, AhnLab XTG 2000, 차세대통합보안방화벽",
+   "state": "available",
+   "C_krw": "605102080",
+   "Q": "13",
+   "scorable_facts": 6,
+   "avg_unit_krw": "46546314",
+   "required_B_for_5e8_krw": "8084775",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 8,084,775원 이하여야 한다(조달 평균 46,546,314원)."
+  },
+  {
+   "item_id": "24100071",
+   "name": "상업용오븐, 코스티모, HSO-122E4N, 전기식, 1151×1016×1483mm",
+   "state": "available",
+   "C_krw": "603780000",
+   "Q": "21",
+   "scorable_facts": 21,
+   "avg_unit_krw": "28751429",
+   "required_B_for_5e8_krw": "4941904",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 동일 모델 일반 판매가가 없어 장비·자재 단독가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 4,941,904원 이하여야 한다(조달 평균 28,751,429원)."
+  },
+  {
+   "item_id": "25968059",
+   "name": "영상감시장치, 텔레비트, T-CL-01F-360(TB4010), 옥외(방범)감시시스템",
+   "state": "available",
+   "C_krw": "602600000",
+   "Q": "524",
+   "scorable_facts": 131,
+   "avg_unit_krw": "1150000",
+   "required_B_for_5e8_krw": "195801",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "지자체 납품용 감시 시스템으로 동일 구성의 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 195,801원 이하여야 한다(조달 평균 1,150,000원)."
+  }
+ ]
+}
