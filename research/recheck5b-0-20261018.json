@@ -1,0 +1,2990 @@
+{
+ "assignment": "work/root-goal1000/assign/recheck5b-0.json",
+ "threshold_krw": 500000000,
+ "recorded_at": "2026-10-18T11:58:15+00:00",
+ "method": "공식 lookup·event facts·listing deliveryTerms를 2026-10-18에 다시 읽었다. fact별 가격차 규칙(1.2배 또는 100만 원)을 지키며 5억 원을 만드는 최대 B를 계산했다. 시중 판매가가 나올 수 있는 품목만 Parallel 검색으로 대조했다.",
+ "counts": {
+  "prior_negative_reused": 32,
+  "no_better_substitute": 1,
+  "no_retail_custom": 86,
+  "price_checked_no_gap": 12,
+  "not_available": 17,
+  "math_infeasible": 3
+ },
+ "ready_packets": [],
+ "items": [
+  {
+   "item_id": "24902279",
+   "name": "잔디보호매트, 키그린, KG-M500, 500×500×29mm",
+   "state": "available",
+   "official_C_krw": 4895110380,
+   "official_Q": "108182",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 38499,
+   "required_ratio_median_fact": 1.2,
+   "delivery_terms": [
+    "납품장소 하차도",
+    "현장설치도"
+   ],
+   "best_retail_url": "https://garden24.co.kr/product/%EC%9E%94%EB%94%94%EB%B3%B4%ED%98%B8%EB%A7%A4%ED%8A%B8-%EC%9E%94%EB%94%94%ED%8E%AB%ED%8A%B8-500x500xt32-1m24%EC%9E%A5/4744",
+   "best_retail_price_krw": 45000,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24902279",
+   "verdict": "prior_negative_reused",
+   "note": "설치 포함 등재가(현장설치도) fact가 대부분이고 하차도 fact만으로는 5억 원에 못 미친다. 가든24 잔디펫트 32mm 35,000원에 착불 10,000원/㎡을 더하면 45,000원으로 필요 단가 38,499원을 넘고, 함몰 방지 구조의 우수성 근거도 없다(software·bulk 기존 실독)."
+  },
+  {
+   "item_id": "24125544",
+   "name": "토목용부직포, 길한산업, SCF500, 50×2×t4~9mm",
+   "state": "available",
+   "official_C_krw": 2179623150,
+   "official_Q": "1388295",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 1209,
+   "required_ratio_median_fact": 1.3,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24125544",
+   "verdict": "prior_negative_reused",
+   "note": "5억 원에는 ㎡당 1,209원 이하가 필요하다. 케이토목 500g 2m×50m 110,000원(VAT 별도)은 1,210원/㎡(VAT 포함)으로 기준에 닿지 않고, 원품은 실리콘 코팅 PET 단섬유로 물 통과량을 줄이는 기능 제품이라 일반 500g 부직포는 우수품이 아니다(hardware 원문 실독)."
+  },
+  {
+   "item_id": "23226259",
+   "name": "화학물질보호복, 엠텍에스티에스, GuardWear 4500",
+   "state": "available",
+   "official_C_krw": 1971923800,
+   "official_Q": "256094",
+   "units": [
+    "벌"
+   ],
+   "max_B_for_500M_krw": 5747,
+   "required_ratio_median_fact": 1.34,
+   "delivery_terms": [
+    "납품장소도"
+   ],
+   "best_retail_url": "https://prod.danawa.com/info/?pcode=98779853",
+   "best_retail_price_krw": 12452,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23226259",
+   "verdict": "no_better_substitute",
+   "searches": "work/recheck5b-0/ps-23226259-a.json, -b.json, -c.json",
+   "note": "원품은 SF 55g 스펀본드와 통기성 필름, 5·6형식, 바운드 솔기, 이중 지퍼 덮개, 실링 테이프를 갖춘 보호복이다(단디몰 원문, industrial 기존 실독). 5억 원에는 벌당 5,747원 이하가 필요하다. 3M 4510은 그린세이프티 5,400원이지만(industrial 기존 실독) 같은 5·6형식이고 솔기·지퍼 구성이 더 낫다는 근거가 없어 동등 이하로 본다. 3M 4500(세건세이프티 3,600원 검색 단서)은 45g 폴리프로필렌 SMS 원단으로 필름 차단 성능이 더 낮다. 3M 4520은 상위 제품이지만 5,747원 이하 판매가를 찾지 못했다. 같은 GuardWear 4500은 다나와 25벌 311,300원(12,452원/벌), 단디몰 16,000원으로 조달가보다 비싸다."
+  },
+  {
+   "item_id": "24211420",
+   "name": "덱플레이트, 신한씨에스, SM13085, 600×1200~4880×90~300mm, 상부근1-D13/하부근2-D8/래티스Φ5",
+   "state": "available",
+   "official_C_krw": 1807272156,
+   "official_Q": "73464",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 17346,
+   "required_ratio_median_fact": 1.38,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24211420",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 17,346원 이하가 필요하다."
+  },
+  {
+   "item_id": "24346158",
+   "name": "수도미터, 대한계전, IMWCni-15, 15mm, 복갑습식/무연황동/니켈상부/역류방지/투명렌즈뚜껑, 100배율/1.6배수",
+   "state": "available",
+   "official_C_krw": 1753846400,
+   "official_Q": "62700",
+   "units": [
+    "대"
+   ],
+   "max_B_for_500M_krw": 19997,
+   "required_ratio_median_fact": 1.42,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24346158",
+   "verdict": "price_checked_no_gap",
+   "searches": "work/recheck5b-0/ps-24346158-a.json",
+   "note": "5억 원에는 대당 19,997원 이하가 필요하다. 공개 15mm 습식 계량기는 유성몰 34,000원, 펌프샵 38,000원, 빌더스디포 건식 29,900원이고 신화공영 MW15 복갑 습식 24,000원은 품절이며 니켈 상부·역류방지·100배율 사양 대응도 확인되지 않는다. 필요한 단가 이하의 동일·우수품이 없다."
+  },
+  {
+   "item_id": "24125542",
+   "name": "토목용부직포, 길한산업, SCF350, 50×2×t2~7mm",
+   "state": "available",
+   "official_C_krw": 1594437200,
+   "official_Q": "1428428",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 766,
+   "required_ratio_median_fact": 1.46,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24125542",
+   "verdict": "prior_negative_reused",
+   "note": "5억 원에는 ㎡당 766원 이하가 필요하다. 350g 2m×50m 77,000원(VAT 별도, 847원/㎡ VAT 포함) 단서도 기준에 못 미치고 원품 기능(발수·투수 제어)과 같지 않다."
+  },
+  {
+   "item_id": "23582389",
+   "name": "금속제패널, 가경이앤씨, GG-AL30tF1, 금속시트, KSD6701, 불소수지, 3mm, 평판",
+   "state": "available",
+   "official_C_krw": 1584296350,
+   "official_Q": "18248",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 59420,
+   "required_ratio_median_fact": 1.49,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23582389",
+   "verdict": "prior_negative_reused",
+   "note": "600×900×30mm 외장 패널 완성품의 일반가가 없다. 무도장 판재 가격을 쓰지 않았다(bulk 기존)."
+  },
+  {
+   "item_id": "24211408",
+   "name": "덱플레이트, 신한씨에스, SM10085, 600×1200~4880×90~300mm, 상부근1-D10/하부근2-D8/래티스Φ5",
+   "state": "available",
+   "official_C_krw": 1566456313,
+   "official_Q": "65659",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 15944,
+   "required_ratio_median_fact": 1.48,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24211408",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 15,944원 이하가 필요하다."
+  },
+  {
+   "item_id": "24035898",
+   "name": "철제가드레일, 신우정공, SW-N08-SB2-03, W4000×H775mm, 성토부/노측용, SB2등급, 도금",
+   "state": "available",
+   "official_C_krw": 1549641408,
+   "official_Q": "9868",
+   "units": [
+    "경간"
+   ],
+   "max_B_for_500M_krw": 106368,
+   "required_ratio_median_fact": 1.52,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24035898",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 106,368원 이하가 필요하다."
+  },
+  {
+   "item_id": "23186530",
+   "name": "철제가드레일, 가스코, DA-GSS-SB4S, W4000×H860mm, 3W, 노측용/성토부, SB4등급, 도금",
+   "state": "claimed",
+   "official_C_krw": null,
+   "official_Q": null,
+   "units": null,
+   "max_B_for_500M_krw": null,
+   "required_ratio_median_fact": null,
+   "delivery_terms": [],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23186530",
+   "verdict": "not_available",
+   "note": "2026-10-18 lookup 상태 claimed로 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "22712505",
+   "name": "조경석, 토금산업, HS-061, 500×600×700mm, R5이상~15미만, 홍성갈산석",
+   "state": "available",
+   "official_C_krw": 1459067050,
+   "official_Q": "49363",
+   "units": [
+    "톤"
+   ],
+   "max_B_for_500M_krw": 19428,
+   "required_ratio_median_fact": 1.52,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22712505",
+   "verdict": "price_checked_no_gap",
+   "searches": "work/recheck5b-0/ps-22712505-a.json",
+   "note": "홍성 갈산석 조경석은 석산 특정 자연석이다. 5억 원에는 톤당 19,428원 이하가 필요하지만 같은 석종의 공개 판매가를 찾지 못했다. 경관 동일성 때문에 다른 석종으로 대체하지 않는다."
+  },
+  {
+   "item_id": "23920546",
+   "name": "폴리에틸렌피복강관, 광성이엔지, GSSP-1350A-2, Φ1350×t10mm, 내부:에코세라폭시골드/외부:PE3층",
+   "state": "available",
+   "official_C_krw": 1443344790,
+   "official_Q": "1770",
+   "units": [
+    "m"
+   ],
+   "max_B_for_500M_krw": 532963,
+   "required_ratio_median_fact": 1.53,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23920546",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 532,963원 이하가 필요하다."
+  },
+  {
+   "item_id": "25297981",
+   "name": "금속제패널, 덕인금속, MS-G01-06, 2000×1000×30mm",
+   "state": "available",
+   "official_C_krw": 1433652360,
+   "official_Q": "7573",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 123286,
+   "required_ratio_median_fact": 1.53,
+   "delivery_terms": [
+    "납품장소 하차도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25297981",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 123,286원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "24380826",
+   "name": "폴리에틸렌피복스테인리스강관, 금강, SP80N, Φ75×t0.5mm, STS304",
+   "state": "available",
+   "official_C_krw": 1413957632,
+   "official_Q": "55233",
+   "units": [
+    "m"
+   ],
+   "max_B_for_500M_krw": 16547,
+   "required_ratio_median_fact": 1.55,
+   "delivery_terms": [
+    "공장상차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24380826",
+   "verdict": "price_checked_no_gap",
+   "searches": "work/recheck5b-0/ps-24380826-a.json",
+   "note": "5억 원에는 m당 16,547원 이하가 필요하다. 검색 결과는 물가정보 유료 자료와 중국 시세뿐이며 같은 PE피복 STS304 Φ75×t0.5 관의 공개 판매 원문이 없다."
+  },
+  {
+   "item_id": "22740595",
+   "name": "폴리염화알루미늄, 유니테크, UPAC-217, 산화알루미늄15~18%",
+   "state": "available",
+   "official_C_krw": 1403047500,
+   "official_Q": "5730",
+   "units": [
+    "톤"
+   ],
+   "max_B_for_500M_krw": 157599,
+   "required_ratio_median_fact": 1.61,
+   "delivery_terms": [
+    "수요기관 탱크주입도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22740595",
+   "verdict": "prior_negative_reused",
+   "note": "탱크로리 주입도 정수약품이라 같은 포장·인도 조건의 공개 판매가가 없다."
+  },
+  {
+   "item_id": "22082750",
+   "name": "하수도용덕타일주철관, Φ80mm×6m, 2종, KP메커니컬/시멘트라이닝",
+   "state": "available",
+   "official_C_krw": 1387973120,
+   "official_Q": "10112",
+   "units": [
+    "본"
+   ],
+   "max_B_for_500M_krw": 87813,
+   "required_ratio_median_fact": 1.56,
+   "delivery_terms": [
+    "기타사항참조"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22082750",
+   "verdict": "price_checked_no_gap",
+   "searches": "work/recheck5b-0/ps-22082750-a.json",
+   "note": "5억 원에는 본당 87,813원 이하가 필요하다. 같은 하수도용 KP메커니컬 80mm 6m 관의 국내 공개 판매가가 없다(제조사 소개와 물가정보만 있음). 말레이시아 K9 관 가격은 규격·접합·운임이 달라 쓰지 않았다."
+  },
+  {
+   "item_id": "24505670",
+   "name": "융복합비상벨, 에이치케이시스템, HKS-EBV5GA, 버튼형비상벨시스템",
+   "state": "available",
+   "official_C_krw": 1363040000,
+   "official_Q": "727",
+   "units": [
+    "조"
+   ],
+   "max_B_for_500M_krw": 1186518,
+   "required_ratio_median_fact": 1.58,
+   "delivery_terms": [
+    "납품장소도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24505670",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 1,186,518원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "22874932",
+   "name": "자연석판석, 정림, JL-2, 포천석(회백색류), 연마, 건축용, t30mm",
+   "state": "available",
+   "official_C_krw": 1346210938,
+   "official_Q": "41275",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 20501,
+   "required_ratio_median_fact": 1.65,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22874932",
+   "verdict": "price_checked_no_gap",
+   "searches": "work/recheck5b-0/ps-22874932-a.json",
+   "note": "5억 원에는 ㎡당 20,501원 이하가 필요하다. 포천석 300×300×30t 21,500원(부가세·운송비 별도, 2017년 블로그)은 판매 상세가 아니고 연마 마감 여부도 불명이다. 부가세를 더하면 이미 필요 단가를 넘는다. 현무암·버너 판석은 원품과 석종·마감이 달라 쓰지 않았다."
+  },
+  {
+   "item_id": "22839936",
+   "name": "수도용덕타일주철관, Φ350mm×6m, 2종, KP메커니컬/에폭시",
+   "state": "available",
+   "official_C_krw": 1339855530,
+   "official_Q": "1473",
+   "units": [
+    "본"
+   ],
+   "max_B_for_500M_krw": 570166,
+   "required_ratio_median_fact": 1.6,
+   "delivery_terms": [
+    "기타사항참조"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22839936",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 570,166원 이하가 필요하다."
+  },
+  {
+   "item_id": "23164266",
+   "name": "노면표지용페인트, 대한도로페인트, DRP-2W-P4-R5-RW4, 18L/통, 흰색, 수용성형",
+   "state": "available",
+   "official_C_krw": 1326700386,
+   "official_Q": "24229",
+   "units": [
+    "통"
+   ],
+   "max_B_for_500M_krw": 34120,
+   "required_ratio_median_fact": 1.61,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23164266",
+   "verdict": "price_checked_no_gap",
+   "searches": "work/recheck5b-0/ps-23164266-a.json, -b.json, -c.json",
+   "note": "5억 원에는 18L 통당 34,120원 이하가 필요하다. 같은 모델과 KSM6080 2종 수용성 노면표지 도료 18L의 공개 판매가를 찾지 못했다. 제조사 소개(정석케미칼, 에스피삼화)만 있고 가격 원문이 없다."
+  },
+  {
+   "item_id": "24438510",
+   "name": "비압력용경질폴리염화비닐관, 에스아이피산업, SIP-DC-300, Φ300mm×6m, 이중벽관, 직관",
+   "state": "available",
+   "official_C_krw": 1318250532,
+   "official_Q": "8923",
+   "units": [
+    "본"
+   ],
+   "max_B_for_500M_krw": 91701,
+   "required_ratio_median_fact": 1.71,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24438510",
+   "verdict": "prior_negative_reused",
+   "note": "일조 6m 본관 소재가 181,027원(VAT 포함)으로 조달 최고 단가보다 높다(concrete-focus 기존)."
+  },
+  {
+   "item_id": "22764814",
+   "name": "콘크리트호안및옹벽블록, 한일에코산업, HEB-63, 보통옹벽블록(대형), W1000×L750×H500mm, 축조블록",
+   "state": "available",
+   "official_C_krw": 1314011160,
+   "official_Q": "15331",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 53095,
+   "required_ratio_median_fact": 1.68,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22764814",
+   "verdict": "prior_negative_reused",
+   "note": "조립식 옹벽블록 조건에서 1.2배 가격차를 통과하는 fact가 0건이다(blocks 기존)."
+  },
+  {
+   "item_id": "24447237",
+   "name": "잔교, 블루오션테크, BOC15030030, 15×3×30m",
+   "state": "available",
+   "official_C_krw": 1301000000,
+   "official_Q": "2",
+   "units": [
+    "식"
+   ],
+   "max_B_for_500M_krw": 400499999,
+   "required_ratio_median_fact": 1.62,
+   "delivery_terms": [
+    "생산공장 상차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24447237",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 400,499,999원 이하가 필요하다."
+  },
+  {
+   "item_id": "25842269",
+   "name": "YL형울타리, 인천정공, 3024GY2-EX63DZZ76-A-H-N, W3000×H2265mm",
+   "state": "available",
+   "official_C_krw": 1284894864,
+   "official_Q": "4427",
+   "units": [
+    "경간"
+   ],
+   "max_B_for_500M_krw": 177297,
+   "required_ratio_median_fact": 1.73,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25842269",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 177,297원 이하가 필요하다."
+  },
+  {
+   "item_id": "20949330",
+   "name": "자연석경계석, 정일, JI-J014, 200×250×1000mm, 보차도용, 직선, 모따기10R",
+   "state": "claimed",
+   "official_C_krw": null,
+   "official_Q": null,
+   "units": null,
+   "max_B_for_500M_krw": null,
+   "required_ratio_median_fact": null,
+   "delivery_terms": [],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/20949330",
+   "verdict": "not_available",
+   "note": "2026-10-18 lookup 상태 claimed로 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "25702060",
+   "name": "화장실용화장지, 강원복지회(태백장애인근로사업장), 코코독, 3겹, 35m×10롤×10속/묶음",
+   "state": "available",
+   "official_C_krw": 1267258560,
+   "official_Q": "33795",
+   "units": [
+    "묶음"
+   ],
+   "max_B_for_500M_krw": 22703,
+   "required_ratio_median_fact": 1.65,
+   "delivery_terms": [
+    "납품장소 입고도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25702060",
+   "verdict": "prior_negative_reused",
+   "note": "5억 원에는 묶음(3겹 35m×100롤)당 22,703원 이하가 필요하다. 이마트 3겹 33m×30롤 10,580원을 3,500m로 환산하면 약 37,450원으로 조달가와 같다(reread 기존)."
+  },
+  {
+   "item_id": "24612757",
+   "name": "비압력용경질폴리염화비닐관, 뉴보텍, NVHG2B150, Φ150mm×6m, HIVG2/단층, 편수칼라관",
+   "state": "available",
+   "official_C_krw": 1261442450,
+   "official_Q": "14572",
+   "units": [
+    "본"
+   ],
+   "max_B_for_500M_krw": 52253,
+   "required_ratio_median_fact": 1.66,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24612757",
+   "verdict": "prior_negative_reused",
+   "note": "정확 모델과 HI-VG2 150mm 6m 직관의 공개 판매가가 없다. 일반 VG2는 내충격 원품보다 우수하지 않다(reread 기존)."
+  },
+  {
+   "item_id": "23993443",
+   "name": "콘크리트호안및옹벽블록, 장성산업, JS-CASTLE2, 보통옹벽블록(대형), W1200×L1000×H500mm, 그랜드락(노멀)",
+   "state": "claimed",
+   "official_C_krw": null,
+   "official_Q": null,
+   "units": null,
+   "max_B_for_500M_krw": null,
+   "required_ratio_median_fact": null,
+   "delivery_terms": [],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23993443",
+   "verdict": "not_available",
+   "note": "2026-10-18 lookup 상태 claimed로 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "24377110",
+   "name": "압력용경질폴리염화비닐관, 고리, HI-3JP75A, Φ75mm×6m, HIVP(삼중벽), 편수칼라관, SDR17/PN12.5",
+   "state": "available",
+   "official_C_krw": 1234156680,
+   "official_Q": "20583",
+   "units": [
+    "본"
+   ],
+   "max_B_for_500M_krw": 35668,
+   "required_ratio_median_fact": 1.68,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24377110",
+   "verdict": "prior_negative_reused",
+   "note": "삼중벽 HIVP 75mm 6m의 일반 판매 원문이 없다(reread 기존)."
+  },
+  {
+   "item_id": "25612937",
+   "name": "금속제패널, 가경이앤씨, GG-ALCO40tF1, 금속복합, KSF4737, 불소수지, 4mm, 평판",
+   "state": "available",
+   "official_C_krw": 1217471980,
+   "official_Q": "21761",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 32970,
+   "required_ratio_median_fact": 1.85,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25612937",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 32,970원 이하가 필요하다."
+  },
+  {
+   "item_id": "25490746",
+   "name": "컨테이너하우스, 온 컨테이너, ONC-6, 3×9×2.6m, 생활관용",
+   "state": "claimed",
+   "official_C_krw": null,
+   "official_Q": null,
+   "units": null,
+   "max_B_for_500M_krw": null,
+   "required_ratio_median_fact": null,
+   "delivery_terms": [],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25490746",
+   "verdict": "not_available",
+   "note": "2026-10-18 lookup 상태 claimed로 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "25058473",
+   "name": "제수밸브보호통, 삼진이앤아이, GVCAR, Φ620×1720mm, 재생PE",
+   "state": "available",
+   "official_C_krw": 1191164940,
+   "official_Q": "3907",
+   "units": [
+    "조"
+   ],
+   "max_B_for_500M_krw": 175949,
+   "required_ratio_median_fact": 1.76,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25058473",
+   "verdict": "prior_negative_reused",
+   "note": "정확 모델 판매가가 없고 검색 제품은 재질·규격이 다르다(reread 기존)."
+  },
+  {
+   "item_id": "25025132",
+   "name": "폴리에틸렌피복강관, 건일스틸, GIJPL-400B-800, Φ800×t7mm, 내부:저온경화형에폭시/외부PE3층",
+   "state": "available",
+   "official_C_krw": 1186305246,
+   "official_Q": "3294",
+   "units": [
+    "m"
+   ],
+   "max_B_for_500M_krw": 208350,
+   "required_ratio_median_fact": 1.72,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25025132",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 208,350원 이하가 필요하다."
+  },
+  {
+   "item_id": "25563524",
+   "name": "폴리염화알루미늄, 제이씨앤엠, JPAC017, 산화알루미늄15~18%",
+   "state": "available",
+   "official_C_krw": 1164070600,
+   "official_Q": "4281",
+   "units": [
+    "톤"
+   ],
+   "max_B_for_500M_krw": 155120,
+   "required_ratio_median_fact": 1.81,
+   "delivery_terms": [
+    "수요기관 탱크주입도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25563524",
+   "verdict": "prior_negative_reused",
+   "note": "탱크로리 주입도 정수약품이라 같은 포장·인도 조건의 공개 판매가가 없다."
+  },
+  {
+   "item_id": "24190637",
+   "name": "이동식서가, 피아산업, PBHM-6DS6, 1130×650×2275mm, 이동기본형/복식",
+   "state": "available",
+   "official_C_krw": 0,
+   "official_Q": "0",
+   "units": [],
+   "max_B_for_500M_krw": null,
+   "required_ratio_median_fact": null,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24190637",
+   "verdict": "math_infeasible",
+   "note": "공식 scorable fact 합계가 5억 원에 못 미치거나 단위·수량이 결측이라 시중가 0원이어도 5억 원 기준을 채울 수 없다."
+  },
+  {
+   "item_id": "25485195",
+   "name": "철제가드레일, 가스코, GAS-3W-SB2, W4000×H810mm, 성토부/노측용, SB2등급, 아연용융도금",
+   "state": "available",
+   "official_C_krw": 1153277364,
+   "official_Q": "5627",
+   "units": [
+    "경간"
+   ],
+   "max_B_for_500M_krw": 116096,
+   "required_ratio_median_fact": 1.79,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25485195",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 116,096원 이하가 필요하다."
+  },
+  {
+   "item_id": "25454447",
+   "name": "원격자동검침시스템, 삼원미터텍, SWED-360, 원격검침단말기",
+   "state": "available",
+   "official_C_krw": 1146977560,
+   "official_Q": "19619",
+   "units": [
+    "대"
+   ],
+   "max_B_for_500M_krw": 32977,
+   "required_ratio_median_fact": 1.82,
+   "delivery_terms": [
+    "납품장소도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25454447",
+   "verdict": "prior_negative_reused",
+   "note": "원격검침 단말기 SWED-360의 공개 판매가가 없다(software 기존)."
+  },
+  {
+   "item_id": "23462006",
+   "name": "철제가드레일, 신우정공, SW-EX-SB5, W2000×H1210mm, 2W+3W노측용/성토부, SB5등급, 도금",
+   "state": "available",
+   "official_C_krw": 1135717644,
+   "official_Q": "5351",
+   "units": [
+    "경간"
+   ],
+   "max_B_for_500M_krw": 118803,
+   "required_ratio_median_fact": 1.79,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23462006",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 118,803원 이하가 필요하다."
+  },
+  {
+   "item_id": "22840121",
+   "name": "수도용덕타일주철관, Φ150mm×6m, 3종, 타이튼/에폭시",
+   "state": "available",
+   "official_C_krw": 1132231950,
+   "official_Q": "3555",
+   "units": [
+    "본"
+   ],
+   "max_B_for_500M_krw": 177843,
+   "required_ratio_median_fact": 1.79,
+   "delivery_terms": [
+    "기타사항참조"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22840121",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 177,843원 이하가 필요하다."
+  },
+  {
+   "item_id": "22959184",
+   "name": "보조사료, 켐포트, 낫또그로, 아미노산제, 5kg/포",
+   "state": "available",
+   "official_C_krw": 1128480000,
+   "official_Q": "4702",
+   "units": [
+    "포"
+   ],
+   "max_B_for_500M_krw": 133662,
+   "required_ratio_median_fact": 1.8,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22959184",
+   "verdict": "prior_negative_reused",
+   "note": "정확 제품의 공개 판매 원문이 없고 다른 보조사료는 성분·용도가 다르다(reread 기존)."
+  },
+  {
+   "item_id": "24684091",
+   "name": "수도미터, 한진테크, H-MW15fARN, 15mm, 복갑습식/무연황동/니켈상부/역류방지/투명렌즈, 100배율/1.6배수",
+   "state": "available",
+   "official_C_krw": 1118250000,
+   "official_Q": "35000",
+   "units": [
+    "대"
+   ],
+   "max_B_for_500M_krw": 17664,
+   "required_ratio_median_fact": 1.81,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24684091",
+   "verdict": "price_checked_no_gap",
+   "searches": "work/recheck5b-0/ps-24684091-a.json, ps-24346158-a.json",
+   "note": "5억 원에는 대당 17,664원 이하가 필요하다. 같은 15mm 복갑 습식 계량기의 공개가는 24,000~38,000원으로 필요 단가보다 높다."
+  },
+  {
+   "item_id": "22519864",
+   "name": "미장벽돌, 현대씨엠, HDCM2100, 190×90×57mm, 고령토, 레드, 소나타골드",
+   "state": "available",
+   "official_C_krw": 1113803172,
+   "official_Q": "3323606",
+   "units": [
+    "매"
+   ],
+   "max_B_for_500M_krw": 184,
+   "required_ratio_median_fact": 1.96,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22519864",
+   "verdict": "no_retail_custom",
+   "note": "5억 원에는 매당 184원 이하가 필요하다(조달 약 360원). 고령토 미장벽돌 소나타골드의 공개 판매가가 조달가의 절반에 이르는 경로가 없다."
+  },
+  {
+   "item_id": "25492101",
+   "name": "콘크리트호안및옹벽블록, 이레콘텍, ERAE223, 보통옹벽블록(대형), W1000×L900×H500mm, 포스웰",
+   "state": "claimed",
+   "official_C_krw": null,
+   "official_Q": null,
+   "units": null,
+   "max_B_for_500M_krw": null,
+   "required_ratio_median_fact": null,
+   "delivery_terms": [],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25492101",
+   "verdict": "not_available",
+   "note": "2026-10-18 lookup 상태 claimed로 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "24198965",
+   "name": "철제가드레일, 인천정공, SW-N19-SB4-01, W2000×H900mm, 성토부/노측용, SB4등급, 도금",
+   "state": "available",
+   "official_C_krw": 1102779710,
+   "official_Q": "8997",
+   "units": [
+    "경간"
+   ],
+   "max_B_for_500M_krw": 66997,
+   "required_ratio_median_fact": 1.93,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24198965",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 66,997원 이하가 필요하다."
+  },
+  {
+   "item_id": "24543262",
+   "name": "분전반, 한양기전공업, HYPD-DIST-S",
+   "state": "available",
+   "official_C_krw": 1100876100,
+   "official_Q": "29",
+   "units": [
+    "면"
+   ],
+   "max_B_for_500M_krw": 29173841,
+   "required_ratio_median_fact": 0.9,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24543262",
+   "verdict": "no_retail_custom",
+   "note": "분전반 fact 단가가 1면당 수백만~1억7천만 원으로 현장별 주문 제작이다. 같은 모델명이라도 구성이 달라 일반 판매가를 대응할 수 없다."
+  },
+  {
+   "item_id": "24022927",
+   "name": "미장벽돌, 삼한씨원, BSH-12, 290×90×57mm, 고령토, 핑크아이보리, 숙성벽돌",
+   "state": "available",
+   "official_C_krw": 1090768350,
+   "official_Q": "1038827",
+   "units": [
+    "매"
+   ],
+   "max_B_for_500M_krw": 568,
+   "required_ratio_median_fact": 1.85,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24022927",
+   "verdict": "no_retail_custom",
+   "note": "5억 원에는 매당 568원 이하가 필요하다(조달 1,050원). 같은 숙성벽돌의 공개 판매가가 없고 일반 벽돌은 고령토·색상·숙성 사양이 다르다."
+  },
+  {
+   "item_id": "25548392",
+   "name": "폴리에틸렌피복강관, 성은종합철강, SES-EW-400B-3LP1500, Φ1500×t11mm, 내부:수성에폭시/외부:PE",
+   "state": "available",
+   "official_C_krw": 1090018539,
+   "official_Q": "1134",
+   "units": [
+    "M"
+   ],
+   "max_B_for_500M_krw": 520298,
+   "required_ratio_median_fact": 1.85,
+   "delivery_terms": [
+    "납품장소 상차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25548392",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 520,298원 이하가 필요하다."
+  },
+  {
+   "item_id": "24792361",
+   "name": "금속제패널, 에이탑이엔지, ATOP-ALF40tF1, 금속복합, KSF4737, 불소수지, 4mm, 평판",
+   "state": "available",
+   "official_C_krw": 1086262740,
+   "official_Q": "15960",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 36733,
+   "required_ratio_median_fact": 1.91,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24792361",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 36,733원 이하가 필요하다."
+  },
+  {
+   "item_id": "23466731",
+   "name": "철제가드레일, 인천정공, ICJK-EX-SB5, W2000×H1210mm, 2W+3W노측용/성토부, SB5등급, 도금",
+   "state": "available",
+   "official_C_krw": 1079268415,
+   "official_Q": "5315",
+   "units": [
+    "경간"
+   ],
+   "max_B_for_500M_krw": 108987,
+   "required_ratio_median_fact": 1.87,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23466731",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 108,987원 이하가 필요하다."
+  },
+  {
+   "item_id": "24010795",
+   "name": "제수밸브, 신진정공, BSRS-80, Φ80mm×1.0MPa, 수동식/수직형/부단수/소프트실/탄력시트, GCD450",
+   "state": "claimed",
+   "official_C_krw": null,
+   "official_Q": null,
+   "units": null,
+   "max_B_for_500M_krw": null,
+   "required_ratio_median_fact": null,
+   "delivery_terms": [],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24010795",
+   "verdict": "not_available",
+   "note": "2026-10-18 lookup 상태 claimed로 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "23708443",
+   "name": "디지털인쇄기, Riso kagaku, (TH)SF9250EIIAKj, B4",
+   "state": "available",
+   "official_C_krw": 1070498000,
+   "official_Q": "197",
+   "units": [
+    "대"
+   ],
+   "max_B_for_500M_krw": 2895928,
+   "required_ratio_median_fact": 1.88,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23708443",
+   "verdict": "price_checked_no_gap",
+   "searches": "work/recheck5b-0/ps-23708443-a.json",
+   "note": "5억 원에는 대당 2,895,928원 이하가 필요하다(조달 5,434,000원). RISO 제조사 사양 페이지만 있고 SF9250 신품의 공개 원화 판매가가 없다. 딜러 견적 제품이라 절반 수준 판매가 경로가 없다."
+  },
+  {
+   "item_id": "23460760",
+   "name": "자연석판석, 케이스톤, KSTP-30, 포천석(회백색류), 연마, 건축용, t30mm",
+   "state": "available",
+   "official_C_krw": 1069741297,
+   "official_Q": "33477",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 17018,
+   "required_ratio_median_fact": 1.95,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23460760",
+   "verdict": "price_checked_no_gap",
+   "searches": "work/recheck5b-0/ps-22874932-a.json",
+   "note": "같은 포천석 연마 30t 판석이며 5억 원에는 ㎡당 17,018원 이하가 필요하다. 확인한 단서(21,500원 부가세·운송비 별도)보다 낮은 공개가가 없다."
+  },
+  {
+   "item_id": "23950809",
+   "name": "샌드위치패널, 에스와이테크, STR-GP-10200, 1000×1000×200mm",
+   "state": "available",
+   "official_C_krw": 1068680950,
+   "official_Q": "14186",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 40087,
+   "required_ratio_median_fact": 1.97,
+   "delivery_terms": [
+    "납품장소차상도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23950809",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 40,087원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "22067182",
+   "name": "서지흡수기, 전원용",
+   "state": "available",
+   "official_C_krw": 231374727,
+   "official_Q": "864",
+   "units": [
+    "개",
+    "대",
+    "조"
+   ],
+   "max_B_for_500M_krw": null,
+   "required_ratio_median_fact": null,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22067182",
+   "verdict": "math_infeasible",
+   "note": "공식 scorable fact 합계가 5억 원에 못 미치거나 단위·수량이 결측이라 시중가 0원이어도 5억 원 기준을 채울 수 없다."
+  },
+  {
+   "item_id": "24375484",
+   "name": "흡음형방음벽및방음판, 에이치엔테크, HN-1A3C, 1960×500×t95mm, 갤러리형, 양면컬러",
+   "state": "available",
+   "official_C_krw": 1063395938,
+   "official_Q": "12664",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 44487,
+   "required_ratio_median_fact": 2.01,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24375484",
+   "verdict": "prior_negative_reused",
+   "note": "완성 도로용 갤러리형 방음판의 공개 실판매가가 없다. 실내 흡음재는 구성·용도가 다르다(bulk 기존)."
+  },
+  {
+   "item_id": "25431271",
+   "name": "금속제패널, 선진디엔씨, SJ-C-FLUX-4T, 금속복합, KSF4737, 불소수지, 4mm, 평판",
+   "state": "available",
+   "official_C_krw": 1055792122,
+   "official_Q": "15083",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 36848,
+   "required_ratio_median_fact": 1.93,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25431271",
+   "verdict": "prior_negative_reused",
+   "note": "공식 크기가 1,000×1,000×30mm인 가공 외장 패널이라 4mm 평판 판매가로 비교할 수 없다(concrete-focus 기존)."
+  },
+  {
+   "item_id": "21584862",
+   "name": "졸업앨범, 철제밴드형3단, 250×315mm(충북)",
+   "state": "available",
+   "official_C_krw": 1052683590,
+   "official_Q": "68",
+   "units": [
+    "부"
+   ],
+   "max_B_for_500M_krw": 8644722,
+   "required_ratio_median_fact": 1.81,
+   "delivery_terms": [
+    "납품장소도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/21584862",
+   "verdict": "no_retail_custom",
+   "note": "학교별 맞춤 제작 졸업앨범이라 같은 구성의 일반 판매가가 없다."
+  },
+  {
+   "item_id": "25468454",
+   "name": "금속제패널, 삼호건설, SH-ALAP-4T, 금속복합, KSF4737, 불소수지, 4mm, 평판",
+   "state": "available",
+   "official_C_krw": 1047191940,
+   "official_Q": "14622",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 37422,
+   "required_ratio_median_fact": 1.95,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25468454",
+   "verdict": "prior_negative_reused",
+   "note": "원품 1,800×1,800×4mm 알루미늄 성형 코어 패널이다. 판매품은 최대 폭 1,575mm로 한 장 대체가 되지 않는다(concrete-focus 기존)."
+  },
+  {
+   "item_id": "22496255",
+   "name": "조경석, 봉황산업개발, BH-06-15, 500×600×700mm, R15이상~30미만, 나주봉황석",
+   "state": "available",
+   "official_C_krw": 1043569720,
+   "official_Q": "25912",
+   "units": [
+    "톤"
+   ],
+   "max_B_for_500M_krw": 20977,
+   "required_ratio_median_fact": 1.95,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22496255",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 20,977원 이하가 필요하다."
+  },
+  {
+   "item_id": "25135764",
+   "name": "액정모니터, (주문자상표부착)포유디지탈, (CN)EGM271FS2, 68.6cm",
+   "state": "available",
+   "official_C_krw": 1036279000,
+   "official_Q": "8791",
+   "units": [
+    "대"
+   ],
+   "max_B_for_500M_krw": 61003,
+   "required_ratio_median_fact": 5.08,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25135764",
+   "verdict": "prior_negative_reused",
+   "note": "117,000원 fact가 수량 대부분이며 5억 원에는 대당 61,003원 이하가 필요하다. 68.6cm 모니터 신품으로 그 가격의 동일·우수품이 없다(software 기존 계산을 5억 기준으로 갱신)."
+  },
+  {
+   "item_id": "24300336",
+   "name": "교통정보전광판, 싸인텔레콤, SMARTVISION-PLUS-ITS-P18.75-03, 6400×1600×300mm",
+   "state": "claimed",
+   "official_C_krw": null,
+   "official_Q": null,
+   "units": null,
+   "max_B_for_500M_krw": null,
+   "required_ratio_median_fact": null,
+   "delivery_terms": [],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24300336",
+   "verdict": "not_available",
+   "note": "2026-10-18 lookup 상태 claimed로 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "23232467",
+   "name": "동력예취기, Orec, (JP)SRM981, 예취폭980mm",
+   "state": "available",
+   "official_C_krw": 1027500000,
+   "official_Q": "75",
+   "units": [
+    "대"
+   ],
+   "max_B_for_500M_krw": 7033333,
+   "required_ratio_median_fact": 1.95,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23232467",
+   "verdict": "price_checked_no_gap",
+   "searches": "work/recheck5b-0/ps-23232467-a.json, work/reread-20261017/ps-23232467-a.json, -b.json",
+   "note": "5억 원에는 대당 7,033,333원 이하가 필요하다. 국내 신품 공개가가 없고 일본 OREC 가격표는 엔화 표시가라 운임·관세·부가세를 더한 도착 원가가 확정되지 않는다. 중고 가격은 쓰지 않는다."
+  },
+  {
+   "item_id": "21025540",
+   "name": "자연석경계석, 운암산업, UN-A03, 200×250×1000mm, 보차도용, 직선, 모따기10R",
+   "state": "claimed",
+   "official_C_krw": null,
+   "official_Q": null,
+   "units": null,
+   "max_B_for_500M_krw": null,
+   "required_ratio_median_fact": null,
+   "delivery_terms": [],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/21025540",
+   "verdict": "not_available",
+   "note": "2026-10-18 lookup 상태 claimed로 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "23808497",
+   "name": "조경석, 삼일산업, SMI-1, 300×400×500mm, R5이상~15미만, 영주안정석",
+   "state": "available",
+   "official_C_krw": 1016069190,
+   "official_Q": "40169",
+   "units": [
+    "톤"
+   ],
+   "max_B_for_500M_krw": 12847,
+   "required_ratio_median_fact": 2.05,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23808497",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 12,847원 이하가 필요하다."
+  },
+  {
+   "item_id": "20990323",
+   "name": "금속돌망태, 형남, HNHMG-0030, H300mm, 아연도금철선5종Φ2.7mm, 육각매트리스형",
+   "state": "available",
+   "official_C_krw": 1014951880,
+   "official_Q": "70505",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 7303,
+   "required_ratio_median_fact": 2.16,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/20990323",
+   "verdict": "prior_negative_reused",
+   "note": "국내 동일 2.7mm 육각 매트리스형 돌망태의 판매가를 확보하지 못했다(concrete-focus 기존)."
+  },
+  {
+   "item_id": "23167471",
+   "name": "농작물살충제, Hebei veyong bio-chemical, (CN)에마멕틴벤조에이트 유제, 4L/통",
+   "state": "available",
+   "official_C_krw": 999616556,
+   "official_Q": "27717",
+   "units": [
+    "4ℓ/통"
+   ],
+   "max_B_for_500M_krw": 18025,
+   "required_ratio_median_fact": 1.99,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23167471",
+   "verdict": "no_retail_custom",
+   "note": "등록 농약이라 같은 제조사 제품으로만 비교할 수 있다. 5억 원에는 4L 통당 18,025원 이하가 필요한데, 같은 성분 유제의 소용량 소매가를 4L로 환산하면 조달가보다 높다."
+  },
+  {
+   "item_id": "25512834",
+   "name": "흙콘크리트, 용용건설, YYD-150-18, t150mm, 건식, 18MPa, 주차장용",
+   "state": "available",
+   "official_C_krw": 998322016,
+   "official_Q": "21955",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 22697,
+   "required_ratio_median_fact": 2.19,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25512834",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 22,697원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "22874938",
+   "name": "자연석판석, 정림, JL-8, 포천석(회백색류), 버너, 건축용, t30mm",
+   "state": "available",
+   "official_C_krw": 997558665,
+   "official_Q": "32342",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 15384,
+   "required_ratio_median_fact": 2.09,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22874938",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 15,384원 이하가 필요하다."
+  },
+  {
+   "item_id": "22067191",
+   "name": "난연전력케이블, F-CV 3C×6㎟",
+   "state": "available",
+   "official_C_krw": 103214648,
+   "official_Q": "18702",
+   "units": [
+    "m"
+   ],
+   "max_B_for_500M_krw": null,
+   "required_ratio_median_fact": null,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22067191",
+   "verdict": "math_infeasible",
+   "note": "공식 scorable fact 합계가 5억 원에 못 미치거나 단위·수량이 결측이라 시중가 0원이어도 5억 원 기준을 채울 수 없다."
+  },
+  {
+   "item_id": "24324674",
+   "name": "금속제창, 반석, BS-AW193.FIX&PJ, 193mm, 단열커튼월+프로젝트창/불소수지2회",
+   "state": "available",
+   "official_C_krw": 992251186,
+   "official_Q": "67963",
+   "units": [
+    "kg"
+   ],
+   "max_B_for_500M_krw": 7242,
+   "required_ratio_median_fact": 2.02,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24324674",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 7,242원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "23975253",
+   "name": "철제가드레일, 해솔, HS-OGS-SB2-W-1, W4000×H850mm, 성토부/노측용, SB2등급, 상단도장",
+   "state": "claimed",
+   "official_C_krw": null,
+   "official_Q": null,
+   "units": null,
+   "max_B_for_500M_krw": null,
+   "required_ratio_median_fact": null,
+   "delivery_terms": [],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23975253",
+   "verdict": "not_available",
+   "note": "2026-10-18 lookup 상태 claimed로 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "23894931",
+   "name": "발포폴리스티렌단열재, 스타빌엔지니어링, NF W150-A1, 1000×200×80mm",
+   "state": "available",
+   "official_C_krw": 988899484,
+   "official_Q": "48955",
+   "units": [
+    "개"
+   ],
+   "max_B_for_500M_krw": 9986,
+   "required_ratio_median_fact": 2.02,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23894931",
+   "verdict": "prior_negative_reused",
+   "note": "창호 주위 준불연 열교차단재다. 제조사 PDF 20,200원은 단가계약의 현장도착도 가격이라 일반가가 아니고 단순 EPS 평판은 용도가 다르다(bulk 기존)."
+  },
+  {
+   "item_id": "25458063",
+   "name": "수중펌프, 한성산기, 1000-HSI-HISMPMF180, 180kW, 사류형",
+   "state": "available",
+   "official_C_krw": 988000000,
+   "official_Q": "4",
+   "units": [
+    "대"
+   ],
+   "max_B_for_500M_krw": 121999999,
+   "required_ratio_median_fact": 2.02,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25458063",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 121,999,999원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "25287438",
+   "name": "금속제창, 유니크시스템, U-P-CW163H-24, 163mm, 히든커튼월/불소수지2회",
+   "state": "available",
+   "official_C_krw": 986865393,
+   "official_Q": "50095",
+   "units": [
+    "kg"
+   ],
+   "max_B_for_500M_krw": 9718,
+   "required_ratio_median_fact": 2.03,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25287438",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 9,718원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "23325718",
+   "name": "교통신호제어기, 필립트론, PTR-9000A, 600×450×1000mm, 경찰청표준형",
+   "state": "available",
+   "official_C_krw": 983364000,
+   "official_Q": "238",
+   "units": [
+    "대"
+   ],
+   "max_B_for_500M_krw": 2030941,
+   "required_ratio_median_fact": 2.24,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23325718",
+   "verdict": "prior_negative_reused",
+   "note": "경찰청 표준형 신호제어기의 원화 판매 페이지가 없다(software 기존)."
+  },
+  {
+   "item_id": "24611880",
+   "name": "폴리에틸렌피복강관, 코팅코리아, PFP-DHPJ 80A, Φ80×t4.05mm, 내부:PE/외부:PE",
+   "state": "available",
+   "official_C_krw": 978123200,
+   "official_Q": "3790",
+   "units": [
+    "본"
+   ],
+   "max_B_for_500M_krw": 126153,
+   "required_ratio_median_fact": 2.05,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24611880",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 126,153원 이하가 필요하다."
+  },
+  {
+   "item_id": "24362575",
+   "name": "기타조경시설물, 해인실업, HSDECK-204, 1000×1000×83mm",
+   "state": "available",
+   "official_C_krw": 976343520,
+   "official_Q": "2988",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 159418,
+   "required_ratio_median_fact": 2.05,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24362575",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 159,418원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "23574853",
+   "name": "폴리에틸렌피복강관, 현대특수강, HD3LP-C1800B, Φ1800×t13mm, 내부:탄화섬유소강화폴리우레탄/외부:PE3층",
+   "state": "available",
+   "official_C_krw": 971272988,
+   "official_Q": "708",
+   "units": [
+    "M"
+   ],
+   "max_B_for_500M_krw": 665639,
+   "required_ratio_median_fact": 2.06,
+   "delivery_terms": [
+    "납품장소 상차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23574853",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 665,639원 이하가 필요하다."
+  },
+  {
+   "item_id": "25510153",
+   "name": "도서관리시스템, 비블리오티카, selfCheck3000-K-BF, 도서대출반납시스템",
+   "state": "available",
+   "official_C_krw": 969150000,
+   "official_Q": "39",
+   "units": [
+    "대"
+   ],
+   "max_B_for_500M_krw": 12029487,
+   "required_ratio_median_fact": 2.07,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25510153",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 12,029,487원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "22654185",
+   "name": "자연석판석, 옥산석물, OSSA-077, 포천석(회백색류), 버너, 건축용, t30mm",
+   "state": "available",
+   "official_C_krw": 967340918,
+   "official_Q": "27243",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 17154,
+   "required_ratio_median_fact": 2.16,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22654185",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 17,154원 이하가 필요하다."
+  },
+  {
+   "item_id": "24207239",
+   "name": "PTFE막구조물, 엠테크, MT4-03, 50×40×15m, 4변지지",
+   "state": "available",
+   "official_C_krw": 964013000,
+   "official_Q": "2357",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 196865,
+   "required_ratio_median_fact": 2.08,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24207239",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 196,865원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "22119816",
+   "name": "비압력용경질폴리염화비닐관, 티지에프, TGF-HIVG1-200SR, Φ200mm×6m, HIVG1/단층, 편수칼라관",
+   "state": "available",
+   "official_C_krw": 962178750,
+   "official_Q": "4601",
+   "units": [
+    "본"
+   ],
+   "max_B_for_500M_krw": 100451,
+   "required_ratio_median_fact": 2.18,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22119816",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 100,451원 이하가 필요하다."
+  },
+  {
+   "item_id": "22385925",
+   "name": "철근콘크리트용배수로관, 동양건재산업, DYPC1500-1, 680×1500×2000mm, 이형수로관, PC침수옹벽",
+   "state": "available",
+   "official_C_krw": 960902320,
+   "official_Q": "3180",
+   "units": [
+    "개"
+   ],
+   "max_B_for_500M_krw": 144937,
+   "required_ratio_median_fact": 2.28,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22385925",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 144,937원 이하가 필요하다."
+  },
+  {
+   "item_id": "24089086",
+   "name": "주차주제어장치, 넥스파시스템, NPJ-P001, 주차관제시스템",
+   "state": "available",
+   "official_C_krw": 959606200,
+   "official_Q": "49",
+   "units": [
+    "식",
+    "조"
+   ],
+   "max_B_for_500M_krw": 9379718,
+   "required_ratio_median_fact": 2.09,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24089086",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 9,379,718원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "23463230",
+   "name": "자연석판석, 케이스톤, KSTP-J301, 포천석(회백색류), 잔(도두락)다듬, 건축용, t30mm",
+   "state": "available",
+   "official_C_krw": 954538216,
+   "official_Q": "29429",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 15445,
+   "required_ratio_median_fact": 2.24,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23463230",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 15,445원 이하가 필요하다."
+  },
+  {
+   "item_id": "25261468",
+   "name": "낙석방지책, 뉴그린창신, NRFNET-3030BMA, W3000×H3000mm, 낙석방지망, 비포켓식",
+   "state": "available",
+   "official_C_krw": 953820000,
+   "official_Q": "11355",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 39966,
+   "required_ratio_median_fact": 2.1,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25261468",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 39,966원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "25558673",
+   "name": "빌딩자동제어장치, 한국디지탈콘트롤, SCAFA-BAS(500)-6",
+   "state": "available",
+   "official_C_krw": 951854640,
+   "official_Q": "6",
+   "units": [
+    "식"
+   ],
+   "max_B_for_500M_krw": 75309106,
+   "required_ratio_median_fact": 2.11,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25558673",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 75,309,106원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "24820118",
+   "name": "구내방송장치, 디라직, DPA-DP-1041, 전관방송용, 270W",
+   "state": "available",
+   "official_C_krw": 949663000,
+   "official_Q": "13",
+   "units": [
+    "SET"
+   ],
+   "max_B_for_500M_krw": 34589461,
+   "required_ratio_median_fact": 2.11,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24820118",
+   "verdict": "prior_negative_reused",
+   "note": "디라직 DPA-DP-1041 전관방송 세트의 원화 판매 페이지가 없다(software 기존)."
+  },
+  {
+   "item_id": "25779595",
+   "name": "자연석경계석, 신영산업, SYSDCS-015, 200×250×1000mm, 보차도용, 직선, 모따기10R",
+   "state": "claimed",
+   "official_C_krw": null,
+   "official_Q": null,
+   "units": null,
+   "max_B_for_500M_krw": null,
+   "required_ratio_median_fact": null,
+   "delivery_terms": [],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25779595",
+   "verdict": "not_available",
+   "note": "2026-10-18 lookup 상태 claimed로 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "25195069",
+   "name": "상업용식기세척기, 프라임, PSF-NS1, 4450×1120×1450mm",
+   "state": "available",
+   "official_C_krw": 947520000,
+   "official_Q": "28",
+   "units": [
+    "대"
+   ],
+   "max_B_for_500M_krw": 15982857,
+   "required_ratio_median_fact": 2.12,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25195069",
+   "verdict": "price_checked_no_gap",
+   "searches": "work/recheck5b-0/ps-25195069-a.json",
+   "note": "5억 원에는 대당 15,982,857원 이하가 필요하다. 프라임 제조사 페이지는 가격을 공개하지 않고, 확인된 공개가는 다른 소형 모델(PSD-1200EM 300만 원, 지자체 기업정보)뿐이다. 4,450mm 컨베이어형 PSF-NS1의 일반 판매가가 없다."
+  },
+  {
+   "item_id": "23733439",
+   "name": "실내공간분할패널, 케이에스씨산업, KSCP 76T A-TYPE, 2700×900×t76mm, 전체철제칸막이",
+   "state": "available",
+   "official_C_krw": 944500313,
+   "official_Q": "10016",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 44379,
+   "required_ratio_median_fact": 2.12,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23733439",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 44,379원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "25298967",
+   "name": "양념육류, 장충동왕족발, 장충동수육보쌈, 1kg, 양념육",
+   "state": "available",
+   "official_C_krw": 940084000,
+   "official_Q": "47720",
+   "units": [
+    "개"
+   ],
+   "max_B_for_500M_krw": 9222,
+   "required_ratio_median_fact": 2.14,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25298967",
+   "verdict": "prior_negative_reused",
+   "note": "같은 1kg 양념육의 소매가로 필요 단가 9,222원에 닿지 않는다(software 기존)."
+  },
+  {
+   "item_id": "23941611",
+   "name": "금속제패널, 태라, TR100-4T, 금속복합, KSF4737, 불소수지, 4mm, 평판",
+   "state": "available",
+   "official_C_krw": 938822400,
+   "official_Q": "14082",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 31161,
+   "required_ratio_median_fact": 2.31,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23941611",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 31,161원 이하가 필요하다."
+  },
+  {
+   "item_id": "24286524",
+   "name": "버터플라이밸브, 현대밸브, HDAM0800D4AH3E, Φ800mm×0.98MPa, 전동식/수평형/금속시트/디스크위치제어형, GCD450",
+   "state": "claimed",
+   "official_C_krw": null,
+   "official_Q": null,
+   "units": null,
+   "max_B_for_500M_krw": null,
+   "required_ratio_median_fact": null,
+   "delivery_terms": [],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24286524",
+   "verdict": "not_available",
+   "note": "2026-10-18 lookup 상태 claimed로 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "25619100",
+   "name": "보안용카메라, 진명아이앤씨, JHDC-4831AI, 14.11mmCMOS",
+   "state": "available",
+   "official_C_krw": 931600000,
+   "official_Q": "137",
+   "units": [
+    "대"
+   ],
+   "max_B_for_500M_krw": 3150364,
+   "required_ratio_median_fact": 2.16,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25619100",
+   "verdict": "prior_negative_reused",
+   "note": "진명아이앤씨 JHDC-4831AI의 원화 판매 페이지가 없다(software 기존). hardware 카메라 담당 범위다."
+  },
+  {
+   "item_id": "24630649",
+   "name": "무인교통감시장치, 렉스젠, REX-NEH9 BST1, 속도/신호위반단속",
+   "state": "available",
+   "official_C_krw": 930000000,
+   "official_Q": "30",
+   "units": [
+    "조"
+   ],
+   "max_B_for_500M_krw": 14333333,
+   "required_ratio_median_fact": 2.16,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24630649",
+   "verdict": "prior_negative_reused",
+   "note": "단속 장비 판매 페이지가 없다(software 기존)."
+  },
+  {
+   "item_id": "25309797",
+   "name": "금속제패널, 화인, FI-ALC40TF1, 금속복합, KSF4737, 불소수지, 4mm, 평판",
+   "state": "available",
+   "official_C_krw": 928194700,
+   "official_Q": "15418",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 27772,
+   "required_ratio_median_fact": 2.2,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25309797",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 27,772원 이하가 필요하다."
+  },
+  {
+   "item_id": "25017082",
+   "name": "PTFE막구조물, 에이맥스, AXS-A02-T, 20×24×10m, 4변지지",
+   "state": "available",
+   "official_C_krw": 926918280,
+   "official_Q": "2204",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 193701,
+   "required_ratio_median_fact": 2.17,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25017082",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 193,701원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "24798893",
+   "name": "금속제창, 동성기업, DSM-UAW-4CSL27b, 258mm, 미서기중연창/불소수지2회",
+   "state": "available",
+   "official_C_krw": 925517060,
+   "official_Q": "54442",
+   "units": [
+    "KG"
+   ],
+   "max_B_for_500M_krw": 7815,
+   "required_ratio_median_fact": 2.18,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24798893",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 7,815원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "24927820",
+   "name": "YL형울타리, 인천정공, 3024GY1Z-EX63DZZ76-A-S, W3000×H2265mm",
+   "state": "available",
+   "official_C_krw": 921761340,
+   "official_Q": "2114",
+   "units": [
+    "경간"
+   ],
+   "max_B_for_500M_krw": 199508,
+   "required_ratio_median_fact": 2.36,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24927820",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 199,508원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "25779583",
+   "name": "자연석경계석, 신영산업, SYSDCS-003, 150×150×1000mm, 도로용, 직선, 모따기없음",
+   "state": "available",
+   "official_C_krw": 917354336,
+   "official_Q": "70620",
+   "units": [
+    "개"
+   ],
+   "max_B_for_500M_krw": 5909,
+   "required_ratio_median_fact": 2.27,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25779583",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 5,909원 이하가 필요하다."
+  },
+  {
+   "item_id": "23742291",
+   "name": "디자인형울타리, 엠에스로드, MSBY120, W2000×H1200mm, 보행자방호/도심구간",
+   "state": "available",
+   "official_C_krw": 916697600,
+   "official_Q": "4542",
+   "units": [
+    "경간"
+   ],
+   "max_B_for_500M_krw": 91743,
+   "required_ratio_median_fact": 2.2,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23742291",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 91,743원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "25738113",
+   "name": "무인교통감시장치, 렉스젠, RHL-NEH9 BST1, 과속/신호위반후면단속",
+   "state": "available",
+   "official_C_krw": 915000000,
+   "official_Q": "30",
+   "units": [
+    "조"
+   ],
+   "max_B_for_500M_krw": 13833333,
+   "required_ratio_median_fact": 2.2,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25738113",
+   "verdict": "prior_negative_reused",
+   "note": "단속 장비 판매 페이지가 없다(software 기존)."
+  },
+  {
+   "item_id": "24611885",
+   "name": "폴리에틸렌피복강관, 코팅코리아, PFP-DHPJ 300A, Φ300×t7mm, 내부:PE/외부:PE",
+   "state": "available",
+   "official_C_krw": 912621600,
+   "official_Q": "720",
+   "units": [
+    "본"
+   ],
+   "max_B_for_500M_krw": 573085,
+   "required_ratio_median_fact": 2.21,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24611885",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 573,085원 이하가 필요하다."
+  },
+  {
+   "item_id": "23643734",
+   "name": "제수밸브보호통, 서우실업, SW-05, 318×318×800mm",
+   "state": "available",
+   "official_C_krw": 910068500,
+   "official_Q": "3041",
+   "units": [
+    "조"
+   ],
+   "max_B_for_500M_krw": 134846,
+   "required_ratio_median_fact": 2.26,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23643734",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 134,846원 이하가 필요하다."
+  },
+  {
+   "item_id": "25548393",
+   "name": "폴리에틸렌피복강관, 성은종합철강, SES-EW-400A-3LP1600, Φ1600×t15mm, 내부:수성에폭시/외부:PE",
+   "state": "available",
+   "official_C_krw": 907075800,
+   "official_Q": "697",
+   "units": [
+    "M"
+   ],
+   "max_B_for_500M_krw": 584039,
+   "required_ratio_median_fact": 2.23,
+   "delivery_terms": [
+    "납품장소 상차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25548393",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 584,039원 이하가 필요하다."
+  },
+  {
+   "item_id": "23204106",
+   "name": "미끄럼방지포장재, 성광산업개발, TOP SKID BLOCK-2, t3.0mm, 2종",
+   "state": "available",
+   "official_C_krw": 906715200,
+   "official_Q": "24639",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 16506,
+   "required_ratio_median_fact": 2.23,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23204106",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 16,506원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "25392549",
+   "name": "양념육류, 사옹원, 사옹원한돈육전, 1kg, 분쇄가공육",
+   "state": "available",
+   "official_C_krw": 904558500,
+   "official_Q": "51105",
+   "units": [
+    "kg"
+   ],
+   "max_B_for_500M_krw": 7916,
+   "required_ratio_median_fact": 2.24,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25392549",
+   "verdict": "prior_negative_reused",
+   "note": "같은 1kg 분쇄가공육의 소매가로 필요 단가 7,916원에 닿지 않는다(software 기존)."
+  },
+  {
+   "item_id": "22854787",
+   "name": "파형강관, 영남산업, YNPEH-05, Φ350×t1.6mm, 유공관, PE양면피복",
+   "state": "available",
+   "official_C_krw": 902074734,
+   "official_Q": "14113",
+   "units": [
+    "m"
+   ],
+   "max_B_for_500M_krw": 28489,
+   "required_ratio_median_fact": 2.24,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22854787",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 28,489원 이하가 필요하다."
+  },
+  {
+   "item_id": "24274977",
+   "name": "낙석방지책, 창광이앤씨, CK4000-1, W500×H4000mm, 단부구간",
+   "state": "available",
+   "official_C_krw": 901738650,
+   "official_Q": "170",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 2363168,
+   "required_ratio_median_fact": 2.26,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24274977",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 2,363,168원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "24267334",
+   "name": "특수지붕재, 라인강건산업, LRS21-01, t0.6mm, 단열재225mm",
+   "state": "available",
+   "official_C_krw": 899708880,
+   "official_Q": "5423",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 73706,
+   "required_ratio_median_fact": 2.25,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24267334",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 73,706원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "26236629",
+   "name": "폐쇄형배전반, 한양기전, HYE-일반형-S",
+   "state": "available",
+   "official_C_krw": 897405700,
+   "official_Q": "5",
+   "units": [
+    "면"
+   ],
+   "max_B_for_500M_krw": 93975174,
+   "required_ratio_median_fact": 2.44,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/26236629",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 93,975,174원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "25295985",
+   "name": "납골안치단, 참아름, CSS300, 개인단/실내용/옥외용/밀폐형, 300×300×300mm",
+   "state": "available",
+   "official_C_krw": 894774400,
+   "official_Q": "10735",
+   "units": [
+    "기"
+   ],
+   "max_B_for_500M_krw": 36774,
+   "required_ratio_median_fact": 2.18,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25295985",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 36,774원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "22335767",
+   "name": "콘크리트호안및옹벽블록, 이노블록, OC-SET, 보통옹벽블록(대형), W1520×L470×H305mm, 아웃크라핑",
+   "state": "claimed_by_me",
+   "official_C_krw": null,
+   "official_Q": null,
+   "units": null,
+   "max_B_for_500M_krw": null,
+   "required_ratio_median_fact": null,
+   "delivery_terms": [],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22335767",
+   "verdict": "not_available",
+   "note": "2026-10-18 lookup 상태 claimed_by_me로 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "24513642",
+   "name": "폴리에틸렌피복강관, 주성이엔지, JS3LP-C500A, Φ500×t6mm, 내부:CNTCOAT RS액상에폭시/외부:PE3층",
+   "state": "available",
+   "official_C_krw": 885095650,
+   "official_Q": "4139",
+   "units": [
+    "m"
+   ],
+   "max_B_for_500M_krw": 93040,
+   "required_ratio_median_fact": 2.29,
+   "delivery_terms": [
+    "납품장소 상차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24513642",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 93,040원 이하가 필요하다."
+  },
+  {
+   "item_id": "23201462",
+   "name": "목제문세트, 우드코리아, HKD-B04, 2100×2600×240mm, 양개미닫이",
+   "state": "available",
+   "official_C_krw": 884520240,
+   "official_Q": "4580",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 83956,
+   "required_ratio_median_fact": 2.38,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23201462",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 83,956원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "22457201",
+   "name": "금속돌망태, 효진산업, HJC-0001, H300mm, 아연도금철선5종Φ2.7mm, 육각매트리스형",
+   "state": "available",
+   "official_C_krw": 883827000,
+   "official_Q": "62520",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 6139,
+   "required_ratio_median_fact": 2.44,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22457201",
+   "verdict": "prior_negative_reused",
+   "note": "국내 동일 2.7mm 육각 매트리스형 돌망태의 판매가를 확보하지 못했다(concrete-focus 기존)."
+  },
+  {
+   "item_id": "24010799",
+   "name": "제수밸브, 신진정공, BSRS-250, Φ250mm×1.0MPa, 수동식/수직형/부단수/소프트실/탄력시트, GCD450",
+   "state": "available",
+   "official_C_krw": 882695000,
+   "official_Q": "121",
+   "units": [
+    "개"
+   ],
+   "max_B_for_500M_krw": 3162768,
+   "required_ratio_median_fact": 2.31,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24010799",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 3,162,768원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "25839679",
+   "name": "자연석경계석, 다산, DSCS-017, 180×200×1000mm, 보차도용, 직선, 모따기10R",
+   "state": "claimed",
+   "official_C_krw": null,
+   "official_Q": null,
+   "units": null,
+   "max_B_for_500M_krw": null,
+   "required_ratio_median_fact": null,
+   "delivery_terms": [],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25839679",
+   "verdict": "not_available",
+   "note": "2026-10-18 lookup 상태 claimed로 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "25647914",
+   "name": "금속제패널, 그린윈텍, GRS-A01-02, 2000×1000×30mm",
+   "state": "available",
+   "official_C_krw": 880640000,
+   "official_Q": "4096",
+   "units": [
+    "식"
+   ],
+   "max_B_for_500M_krw": 92929,
+   "required_ratio_median_fact": 2.31,
+   "delivery_terms": [
+    "납품장소 하차도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25647914",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 92,929원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "25358981",
+   "name": "건물일체형태양광발전장치, 에코스, PVQMax-Roof Type-BIPV40, 40kW급, 루프형",
+   "state": "available",
+   "official_C_krw": 879930000,
+   "official_Q": "9",
+   "units": [
+    "조"
+   ],
+   "max_B_for_500M_krw": 42214444,
+   "required_ratio_median_fact": 2.32,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25358981",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 42,214,444원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "23877437",
+   "name": "현광방지장치, 태평양, TB-REF01A, 290×650×t70mm",
+   "state": "available",
+   "official_C_krw": 876567000,
+   "official_Q": "23691",
+   "units": [
+    "개"
+   ],
+   "max_B_for_500M_krw": 15894,
+   "required_ratio_median_fact": 2.33,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23877437",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 15,894원 이하가 필요하다."
+  },
+  {
+   "item_id": "25475590",
+   "name": "석제단열패널, 동일교역, DI-CP-55100-80, 1000×550×80mm",
+   "state": "available",
+   "official_C_krw": 874231470,
+   "official_Q": "7382",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 50695,
+   "required_ratio_median_fact": 2.49,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25475590",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 50,695원 이하가 필요하다."
+  },
+  {
+   "item_id": "23262968",
+   "name": "금속제창, 신성기업, SS-AW-CTW01, 150mm, 커튼월고정창/불소수지2회",
+   "state": "available",
+   "official_C_krw": 871875190,
+   "official_Q": "51870",
+   "units": [
+    "kg"
+   ],
+   "max_B_for_500M_krw": 7169,
+   "required_ratio_median_fact": 2.42,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23262968",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 7,169원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "24489309",
+   "name": "태양광발전장치, 쏠라리버, SSR-PV-050-S, 50.085kW급, 계통연계형/고정형, ㅁ형지지대",
+   "state": "available",
+   "official_C_krw": 870736000,
+   "official_Q": "8",
+   "units": [
+    "조"
+   ],
+   "max_B_for_500M_krw": 46341999,
+   "required_ratio_median_fact": 2.35,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24489309",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 46,341,999원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "22840288",
+   "name": "수도용덕타일주철이형관, 에폭시분체도장용(BPF), Φ900~1000mm, 접합부속제외",
+   "state": "available",
+   "official_C_krw": 866845940,
+   "official_Q": "190098",
+   "units": [
+    "kg"
+   ],
+   "max_B_for_500M_krw": 1929,
+   "required_ratio_median_fact": 2.36,
+   "delivery_terms": [
+    "기타사항참조"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22840288",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 1,929원 이하가 필요하다."
+  },
+  {
+   "item_id": "24266655",
+   "name": "인조잔디, 폴리그라스코리아, PGU-AT55-SEBS, t55mm, 충전재",
+   "state": "available",
+   "official_C_krw": 865394660,
+   "official_Q": "36016",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 10145,
+   "required_ratio_median_fact": 2.38,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24266655",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 10,145원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "24085920",
+   "name": "침대, 아모스아인스가구, AMCB-20S, 1040×2050×1944mm, 2인용",
+   "state": "available",
+   "official_C_krw": 863132000,
+   "official_Q": "1108",
+   "units": [
+    "개"
+   ],
+   "max_B_for_500M_krw": 327736,
+   "required_ratio_median_fact": 2.38,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24085920",
+   "verdict": "prior_negative_reused",
+   "note": "2층 침대 AMCB-20S의 현장설치도 조건을 bulk가 검토했다. 필요 단가 327,736원 이하의 동일·우수 완성 침대를 찾지 못했다(bulk-bunkbed 기존)."
+  },
+  {
+   "item_id": "24685231",
+   "name": "낙석방지책, 미래이에스씨, MRNH22-3000EX-S50kJ, W3000×H2500mm, 표준구간, 관통형",
+   "state": "available",
+   "official_C_krw": 862182000,
+   "official_Q": "2391",
+   "units": [
+    "경간"
+   ],
+   "max_B_for_500M_krw": 151477,
+   "required_ratio_median_fact": 2.26,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24685231",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 151,477원 이하가 필요하다."
+  },
+  {
+   "item_id": "24934226",
+   "name": "투수골재포장재, 에이치티씨시스템, HTC-100P, t100mm",
+   "state": "available",
+   "official_C_krw": 860088700,
+   "official_Q": "6876",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 52368,
+   "required_ratio_median_fact": 2.4,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24934226",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 52,368원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "22654188",
+   "name": "자연석판석, 옥산석물, OSSA-080, 포천석(회백색류), 연마, 건축용, t30mm",
+   "state": "available",
+   "official_C_krw": 858860309,
+   "official_Q": "23336",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 15377,
+   "required_ratio_median_fact": 2.47,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22654188",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 15,377원 이하가 필요하다."
+  },
+  {
+   "item_id": "22562948",
+   "name": "조경석, 신아에이치에스, SAHS06, 500×600×700mm, R5이상~15미만, 춘양가봉석",
+   "state": "available",
+   "official_C_krw": 856225500,
+   "official_Q": "26629",
+   "units": [
+    "톤"
+   ],
+   "max_B_for_500M_krw": 13377,
+   "required_ratio_median_fact": 2.43,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22562948",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 13,377원 이하가 필요하다."
+  },
+  {
+   "item_id": "25089921",
+   "name": "금속제창, 경연, KY-CW-150, 150mm, 커튼월/불소수지2회",
+   "state": "available",
+   "official_C_krw": 854257418,
+   "official_Q": "60936",
+   "units": [
+    "kg"
+   ],
+   "max_B_for_500M_krw": 5813,
+   "required_ratio_median_fact": 2.59,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25089921",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 5,813원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "22146135",
+   "name": "무기응집제, 폴리테츠-코리아, POLYTETSU-S, T-Fe11%",
+   "state": "available",
+   "official_C_krw": 852508500,
+   "official_Q": "5263",
+   "units": [
+    "톤"
+   ],
+   "max_B_for_500M_krw": 66978,
+   "required_ratio_median_fact": 2.94,
+   "delivery_terms": [
+    "수요기관 탱크주입도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22146135",
+   "verdict": "prior_negative_reused",
+   "note": "탱크로리 공급 정수약품이라 공개 판매가가 없다."
+  },
+  {
+   "item_id": "25417302",
+   "name": "눈및얼음융해장치, 명성기업, MSAS010-400, 2900×5700×2600mm",
+   "state": "available",
+   "official_C_krw": 852000000,
+   "official_Q": "6",
+   "units": [
+    "조"
+   ],
+   "max_B_for_500M_krw": 58666666,
+   "required_ratio_median_fact": 2.42,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25417302",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 58,666,666원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "23822147",
+   "name": "철제가드레일, 국제에스티, KJ-GOD200-1, W4000×H850mm, 성토부/노측용, SB2등급, 도장도금",
+   "state": "claimed",
+   "official_C_krw": null,
+   "official_Q": null,
+   "units": null,
+   "max_B_for_500M_krw": null,
+   "required_ratio_median_fact": null,
+   "delivery_terms": [],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23822147",
+   "verdict": "not_available",
+   "note": "2026-10-18 lookup 상태 claimed로 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "21157217",
+   "name": "콘크리트호안및옹벽블록, 금성콘크리트, KM-4, 보통옹벽블록(대형), W1000×L800×H500mm, 축조어소형블록",
+   "state": "available",
+   "official_C_krw": 849817500,
+   "official_Q": "10216",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 34242,
+   "required_ratio_median_fact": 2.56,
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/21157217",
+   "verdict": "prior_negative_reused",
+   "note": "28N/㎟ 조립식 옹벽블록이 VAT·운임 포함 약 78,528원/㎡로 필요 단가 34,242원보다 높고 깊이·자중 우위도 미확인이다(blocks 기존)."
+  },
+  {
+   "item_id": "22619628",
+   "name": "자연석경계석, 서광석재산업, SKSJtone-47, 150×150×1000mm, 도로용, 직선, 모따기10R",
+   "state": "claimed",
+   "official_C_krw": null,
+   "official_Q": null,
+   "units": null,
+   "max_B_for_500M_krw": null,
+   "required_ratio_median_fact": null,
+   "delivery_terms": [],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22619628",
+   "verdict": "not_available",
+   "note": "2026-10-18 lookup 상태 claimed로 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "24113541",
+   "name": "금속제창, 윈도우코리아, WK-CAW01-H150, 150mm, 단열히든커튼월/불소수지2회",
+   "state": "available",
+   "official_C_krw": 848643042,
+   "official_Q": "61492",
+   "units": [
+    "kg"
+   ],
+   "max_B_for_500M_krw": 5669,
+   "required_ratio_median_fact": 2.59,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24113541",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 5,669원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "24075250",
+   "name": "전동기제어반, 태일전기, TE-MCC-HS100-MC31, 고정형, 직입기동, 3.7kW",
+   "state": "available",
+   "official_C_krw": 847420000,
+   "official_Q": "28",
+   "units": [
+    "면"
+   ],
+   "max_B_for_500M_krw": 12407857,
+   "required_ratio_median_fact": 2.44,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24075250",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 12,407,857원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "24363470",
+   "name": "PVF막구조물, 지엔피, GNP-PV04, 27.28×19×7.8m, 4변지지",
+   "state": "available",
+   "official_C_krw": 846824000,
+   "official_Q": "2302",
+   "units": [
+    "㎡"
+   ],
+   "max_B_for_500M_krw": 150662,
+   "required_ratio_median_fact": 2.5,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24363470",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 150,662원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "25071794",
+   "name": "세탁물건조기, 엘지전자, RG19KN, 19kg",
+   "state": "available",
+   "official_C_krw": 845250000,
+   "official_Q": "735",
+   "units": [
+    "대"
+   ],
+   "max_B_for_500M_krw": 469727,
+   "required_ratio_median_fact": 2.45,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25071794",
+   "verdict": "no_retail_custom",
+   "note": "LG 상업용 건조기 RG19KN의 현장설치도 등재가다. 5억 원에는 대당 469,727원 이하가 필요해 같은 19kg 상업용 건조기로 불가능하다."
+  },
+  {
+   "item_id": "24374614",
+   "name": "일반용폴리에틸렌이음관, 청수산업, CS250-A, 분기관연결구, Φ250mm",
+   "state": "available",
+   "official_C_krw": 842976400,
+   "official_Q": "10490",
+   "units": [
+    "개"
+   ],
+   "max_B_for_500M_krw": 32695,
+   "required_ratio_median_fact": 2.46,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24374614",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 32,695원 이하가 필요하다."
+  },
+  {
+   "item_id": "24300537",
+   "name": "승객용엘리베이터, (부품)20~24인승/방화도어",
+   "state": "claimed",
+   "official_C_krw": null,
+   "official_Q": null,
+   "units": null,
+   "max_B_for_500M_krw": null,
+   "required_ratio_median_fact": null,
+   "delivery_terms": [],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24300537",
+   "verdict": "not_available",
+   "note": "2026-10-18 lookup 상태 claimed로 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "24394381",
+   "name": "금속제창, 비제이, BJ-CAW-04-01, 150mm, 커튼월/불소수지2회",
+   "state": "available",
+   "official_C_krw": 841132989,
+   "official_Q": "68151",
+   "units": [
+    "kg"
+   ],
+   "max_B_for_500M_krw": 5005,
+   "required_ratio_median_fact": 2.62,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24394381",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 5,005원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "23552379",
+   "name": "금속제창, 유건알미늄, YG-AW-SL235, 235mm, 미서기이중창/불소수지2회",
+   "state": "available",
+   "official_C_krw": 840292583,
+   "official_Q": "58993",
+   "units": [
+    "Kg"
+   ],
+   "max_B_for_500M_krw": 5768,
+   "required_ratio_median_fact": 2.61,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23552379",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 5,768원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "23336920",
+   "name": "살균수제조장치, 디엔디전자, DES-10K-W, 차아염소산나트륨수, 20L/min",
+   "state": "available",
+   "official_C_krw": 837200000,
+   "official_Q": "140",
+   "units": [
+    "대"
+   ],
+   "max_B_for_500M_krw": 2408571,
+   "required_ratio_median_fact": 2.48,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23336920",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 2,408,571원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "24010802",
+   "name": "제수밸브, 신진정공, BSRS-400, Φ400mm×1.0MPa, 수동식/수직형/부단수/소프트실/탄력시트, GCD450",
+   "state": "claimed",
+   "official_C_krw": null,
+   "official_Q": null,
+   "units": null,
+   "max_B_for_500M_krw": null,
+   "required_ratio_median_fact": null,
+   "delivery_terms": [],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24010802",
+   "verdict": "not_available",
+   "note": "2026-10-18 lookup 상태 claimed로 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "22813774",
+   "name": "기타화초, 자연과사람들, NP-P-01, 일년초, 웨이브페츄니아외2종, 초장5~35cm, 포트575×223×220mm",
+   "state": "available",
+   "official_C_krw": 833480470,
+   "official_Q": "17721",
+   "units": [
+    "분"
+   ],
+   "max_B_for_500M_krw": 18818,
+   "required_ratio_median_fact": 2.52,
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/22813774",
+   "verdict": "prior_negative_reused",
+   "note": "포트 575×223×220mm에 3종 화초를 심은 완성품이다. 필요 배율 2.5 이상으로 동일 구성 소매가 경로가 없다(blocks 기존)."
+  },
+  {
+   "item_id": "24661185",
+   "name": "유입변압기, 에너테크, HTOS-22H-2300, 2300kVA",
+   "state": "available",
+   "official_C_krw": 930600000,
+   "official_Q": "6",
+   "units": [
+    "대"
+   ],
+   "max_B_for_500M_krw": 71766666,
+   "required_ratio_median_fact": 2.16,
+   "delivery_terms": [
+    "납품장소차상도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24661185",
+   "verdict": "no_retail_custom",
+   "note": "주문 제작·현장 시공형 공사 자재 또는 설비로 같은 모델의 일반 판매 원문이 없다. 필요한 시중가 배율이 높아 동일·우수품 경로가 없다. 5억 원에는 단위당 71,766,666원 이하가 필요하다. 현장설치도 등재가라 설치를 포함하지 않은 자재 판매가와 비교할 수 없다."
+  },
+  {
+   "item_id": "23997196",
+   "name": "네트워크스위치, Radware, (IL)Alteon 4028, 28port",
+   "state": "available",
+   "official_C_krw": 793905300,
+   "official_Q": "33",
+   "units": [
+    "대"
+   ],
+   "max_B_for_500M_krw": 8906221,
+   "required_ratio_median_fact": 2.73,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/23997196",
+   "verdict": "price_checked_no_gap",
+   "searches": "work/recheck5b-0/ps-23997196-a.json",
+   "note": "5억 원에는 대당 8,906,221원 이하가 필요하다(조달 24,300,000원). Alteon 4028의 신품 공개 판매가가 없고, CDW의 상위 D-5424S는 23,863.99달러다. hardware_prices의 L4/L7 담당 범위다."
+  }
+ ]
+}
