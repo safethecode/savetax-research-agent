@@ -1,0 +1,2499 @@
+{
+ "owner": "recheck1",
+ "date": "2026-10-18",
+ "assignment": "work/root-goal1000/assign/recheck5b-1.json",
+ "threshold_krw": 500000000,
+ "method": "공식 lookup·item fact로 C·Q와 5억 원 필요 단가(가격차 1.2배 또는 100만 원 규칙 포함)를 계산하고, listings deliveryTerms를 확인한 뒤 판매 가능성이 있는 품목은 Parallel 검색과 기존 조사 기록을 대조했다.",
+ "verdict_counts": {
+  "no_scorable_fact": 1,
+  "no_identical_or_better": 23,
+  "installed_price": 49,
+  "no_public_price": 34,
+  "market_price_too_high": 19,
+  "not_available": 22
+ },
+ "ready_packets": [],
+ "rows": [
+  {
+   "item_id": "25795474",
+   "name": "태양광발전장치, 나눔에너지, NEPV-500KH-I, 480kW급, 계통연계형/지붕부착형, 지붕부착형 지지대",
+   "state": "available",
+   "C_krw": "0",
+   "Q": "0",
+   "scorable_facts": 0,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_scorable_fact",
+   "note": "scorable fact가 없다(fact 1건, unit_missing으로 제외). 현장설치도 태양광 설비이기도 하다."
+  },
+  {
+   "item_id": "25010691",
+   "name": "수도미터, 메타플로우, M-DMD15fBR, 15mm, 복갑건식/무연황동/디지털/역류방지, 100배율/1.6배수",
+   "state": "available",
+   "C_krw": "2063246328",
+   "Q": "45609",
+   "scorable_facts": 9,
+   "avg_unit_krw": "45238",
+   "required_B_for_5e8_krw": "34275",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": "https://ascam.co.kr/product/%EC%9C%84%EC%A7%80%ED%8A%B8-%EC%98%B4%EB%8B%88-%ED%94%BC%EC%97%90%EC%8A%A4%ED%85%8D-%EB%94%94%EC%A7%80%ED%84%B8-%EC%88%98%EB%8F%84-%EC%98%A8%EC%88%98-%EB%82%9C%EB%B0%A9%EA%B3%84%EB%9F%89%EA%B8%B0-1525mm/71",
+   "best_retail_price_krw": 55000,
+   "verdict": "no_identical_or_better",
+   "note": "M-DMD15fBR(디지털·복갑건식·무연황동·R100) 동일품 판매가가 없다. 위지트 디지털 계량기 55,000원은 필요한 34,275원보다 비싸고, 34,000원대 기계식 제품은 하위 사양이다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 34,275원 이하여야 한다(조달 평균 45,238원)."
+  },
+  {
+   "item_id": "23774140",
+   "name": "수도미터, 신동아전자, SFM-1500WE, 15mm, 전자식/폴리케톤/디지털, 200배율",
+   "state": "available",
+   "C_krw": "1949126144",
+   "Q": "31122",
+   "scorable_facts": 132,
+   "avg_unit_krw": "62629",
+   "required_B_for_5e8_krw": "46563",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "신동아전자 SFM-1500WE(유체진동 전자식·폴리케톤·R200)의 일반 판매가가 없다. 공개 판매품은 34,000~38,000원대 기계식 습식·건식 15mm 계량기로 원품보다 낮은 사양이라 대체품이 될 수 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 46,563원 이하여야 한다(조달 평균 62,629원)."
+  },
+  {
+   "item_id": "24357803",
+   "name": "수도미터, 한영계기, HYDWS15C, 15mm, 복갑건식/스테인리스/역류방지/디지털, 100배율",
+   "state": "available",
+   "C_krw": "1782348300",
+   "Q": "20277",
+   "scorable_facts": 98,
+   "avg_unit_krw": "87900",
+   "required_B_for_5e8_krw": "63242",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "기존 산업 조사 결과를 재사용했다. HYDWS15C(스테인리스·R100·환경C) 동일품 판매가가 없고, 싼 R40·환경B 제품은 하위 사양이다. 필요한 단가는 63,242원 이하다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 63,242원 이하여야 한다(조달 평균 87,900원)."
+  },
+  {
+   "item_id": "24010796",
+   "name": "제수밸브, 신진정공, BSRS-100, Φ100mm×1.0MPa, 수동식/수직형/부단수/소프트실/탄력시트, GCD450",
+   "state": "available",
+   "C_krw": "1619940000",
+   "Q": "551",
+   "scorable_facts": 219,
+   "avg_unit_krw": "2940000",
+   "required_B_for_5e8_krw": "2032559",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 2,032,559원 이하여야 한다(조달 평균 2,940,000원)."
+  },
+  {
+   "item_id": "25146298",
+   "name": "철제가드레일, 가스코, GASCO-EX-SB5-B-02, W2000×H1210mm, 성토부/노측용, SB5-B등급, 도금",
+   "state": "available",
+   "C_krw": "1586791514",
+   "Q": "7525",
+   "scorable_facts": 4,
+   "avg_unit_krw": "210869",
+   "required_B_for_5e8_krw": "144424",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "등급 인증 방호울타리로 동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 144,424원 이하여야 한다(조달 평균 210,869원)."
+  },
+  {
+   "item_id": "24099987",
+   "name": "조경석, 대술석산, DT-06, 500×600×700mm, R5이상~15미만, 예산대술석",
+   "state": "available",
+   "C_krw": "1578466560",
+   "Q": "57420",
+   "scorable_facts": 60,
+   "avg_unit_krw": "27490",
+   "required_B_for_5e8_krw": "18782",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "채석장·산지별 조경석으로 외관이 핵심인 품목이다. 같은 산지 석재의 공개 일반가가 없고, 다른 산지 석재는 외관이 달라 대체품으로 쓰지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 18,782원 이하여야 한다(조달 평균 27,490원)."
+  },
+  {
+   "item_id": "25820414",
+   "name": "화장실용화장지, 대왕, 럭플러스, 3겹, 35m×100롤/상자",
+   "state": "available",
+   "C_krw": "1565558250",
+   "Q": "44309",
+   "scorable_facts": 136,
+   "avg_unit_krw": "35333",
+   "required_B_for_5e8_krw": "24048",
+   "delivery_terms": [
+    "납품장소 입고도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "기존 조사 재사용: 럭플러스 35m×100롤 동일 구성이 없고, 3겹 화장지 소매 롤당 가격을 100롤로 환산하면 필요한 24,048원/상자보다 높다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 24,048원 이하여야 한다(조달 평균 35,333원)."
+  },
+  {
+   "item_id": "20923192",
+   "name": "비압력용경질폴리염화비닐관, 신우산업, SWD-300, Φ300mm×6m, 이중벽관, 직관",
+   "state": "available",
+   "C_krw": "1540135855",
+   "Q": "10076",
+   "scorable_facts": 102,
+   "avg_unit_krw": "152852",
+   "required_B_for_5e8_krw": "103229",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "market_price_too_high",
+   "note": "기존 조사 재사용: 같은 규격 이중벽관의 소재가가 181,027원(VAT 포함)으로 조달 단가보다 높다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 103,229원 이하여야 한다(조달 평균 152,852원)."
+  },
+  {
+   "item_id": "25448123",
+   "name": "노면표지용페인트, 대동안전, DDS-6080-4YP4-R4/RW4, 20kg/포, 노란색, 융착식",
+   "state": "available",
+   "C_krw": "1480395180",
+   "Q": "44869",
+   "scorable_facts": 114,
+   "avg_unit_krw": "32994",
+   "required_B_for_5e8_krw": "21850",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "DDS-6080-4YP4-R4/RW4 융착식 노면표지 페인트의 일반 판매가가 없다. 검색에는 성격이 다른 논슬립 페인트(20kg 240,000원)만 나왔다. 필요한 단가는 21,850원/포 이하다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 21,850원 이하여야 한다(조달 평균 32,994원)."
+  },
+  {
+   "item_id": "25468726",
+   "name": "고상제설제, 스타스테크, ECO-ST2(15), 환경표지2종, 15kg/포",
+   "state": "available",
+   "C_krw": "1446845400",
+   "Q": "199290",
+   "scorable_facts": 163,
+   "avg_unit_krw": "7260",
+   "required_B_for_5e8_krw": "4751",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "기존 조사 재사용: ECO-ST2 소매 동일품이 없다. 혁신장터 가격은 공공조달 가격이라 근거로 쓰지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 4,751원 이하여야 한다(조달 평균 7,260원)."
+  },
+  {
+   "item_id": "23510811",
+   "name": "금속제패널, 호산, HS200-4T, 금속복합, KSF4737, 불소수지, 4mm, 평판",
+   "state": "available",
+   "C_krw": "1440997252",
+   "Q": "20571",
+   "scorable_facts": 25,
+   "avg_unit_krw": "70050",
+   "required_B_for_5e8_krw": "45744",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": "https://bidnbee.com/shop/1740732556",
+   "best_retail_price_krw": 49490,
+   "verdict": "market_price_too_high",
+   "note": "HS200-4T(1200×3000×4mm, 불소수지)와 비교 가능한 비드앤비 4T 알루미늄복합판넬 폭 1,250mm 옵션이 49,490원/㎡로, 필요한 45,744원보다 비싸다. 운임은 착불이고 심재도 다르다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 45,744원 이하여야 한다(조달 평균 70,050원)."
+  },
+  {
+   "item_id": "23798869",
+   "name": "자연석경계석, 화성석재, HSS-2020009, 200×250×1000mm, 보차도용, 직선, 모따기10R",
+   "state": "claimed",
+   "C_krw": null,
+   "Q": null,
+   "scorable_facts": null,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": null,
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "not_available",
+   "note": "lookup 상태가 claimed이라 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "22101371",
+   "name": "자연석경계석, 서광석재산업, sksj-111, 180×200×1000mm, 보차도용, 직선, 모따기10R",
+   "state": "claimed",
+   "C_krw": null,
+   "Q": null,
+   "scorable_facts": null,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": null,
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "not_available",
+   "note": "lookup 상태가 claimed이라 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "23808499",
+   "name": "조경석, 삼일산업, SMI-3, 500×600×700mm, R5이상~15미만, 영주안정석",
+   "state": "available",
+   "C_krw": "1395295650",
+   "Q": "52473",
+   "scorable_facts": 102,
+   "avg_unit_krw": "26591",
+   "required_B_for_5e8_krw": "17062",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "채석장·산지별 조경석으로 외관이 핵심인 품목이다. 같은 산지 석재의 공개 일반가가 없고, 다른 산지 석재는 외관이 달라 대체품으로 쓰지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 17,062원 이하여야 한다(조달 평균 26,591원)."
+  },
+  {
+   "item_id": "24336846",
+   "name": "조경석, 금산석산, ksan-3, 500×600×700mm, R5이상~15미만, 보령웅천석",
+   "state": "available",
+   "C_krw": "1377908792",
+   "Q": "42438",
+   "scorable_facts": 82,
+   "avg_unit_krw": "32469",
+   "required_B_for_5e8_krw": "20687",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "채석장·산지별 조경석으로 외관이 핵심인 품목이다. 같은 산지 석재의 공개 일반가가 없고, 다른 산지 석재는 외관이 달라 대체품으로 쓰지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 20,687원 이하여야 한다(조달 평균 32,469원)."
+  },
+  {
+   "item_id": "23574833",
+   "name": "폴리에틸렌피복강관, 현대특수강, HD3LP-C700B, Φ700×t6.0mm, 내부:탄화섬유소강화폴리우레탄/외부:PE3층",
+   "state": "available",
+   "C_krw": "1361521560",
+   "Q": "4566",
+   "scorable_facts": 4,
+   "avg_unit_krw": "298187",
+   "required_B_for_5e8_krw": "188682",
+   "delivery_terms": [
+    "납품장소 상차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "발주처 규격의 주문 제작 피복강관으로 동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 188,682원 이하여야 한다(조달 평균 298,187원)."
+  },
+  {
+   "item_id": "24846848",
+   "name": "보차도용콘크리트블록, 원전기업, WJ-BASIC-02, t60mm, 인조화강베이직블록, 투수",
+   "state": "claimed",
+   "C_krw": null,
+   "Q": null,
+   "scorable_facts": null,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": null,
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "not_available",
+   "note": "lookup 상태가 claimed이라 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "24206905",
+   "name": "금속제패널, 스마일테크, SERALI030, 금속시트, KSD6701, 무기질실리카, 3mm, 평판",
+   "state": "available",
+   "C_krw": "1330508620",
+   "Q": "6217",
+   "scorable_facts": 6,
+   "avg_unit_krw": "214011",
+   "required_B_for_5e8_krw": "133587",
+   "delivery_terms": [
+    "납품장소 하차도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "등재 인도조건에 현장설치도가 포함돼 있고, 설치를 포함한 동일 모델 일반 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 133,587원 이하여야 한다(조달 평균 214,011원)."
+  },
+  {
+   "item_id": "24384972",
+   "name": "금속제패널, 덕인금속, MS-A03-03, 2000×1000×30mm",
+   "state": "claimed",
+   "C_krw": null,
+   "Q": null,
+   "scorable_facts": null,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": null,
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "not_available",
+   "note": "lookup 상태가 claimed이라 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "24969793",
+   "name": "폴리에틸렌피복강관, 웰텍, WEL-3LP-NC700B, Φ700×t6mm, 내부:나노구리융합에폭시/외부:PE3층",
+   "state": "available",
+   "C_krw": "1316803488",
+   "Q": "4417",
+   "scorable_facts": 8,
+   "avg_unit_krw": "298122",
+   "required_B_for_5e8_krw": "184923",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "발주처 규격의 주문 제작 피복강관으로 동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 184,923원 이하여야 한다(조달 평균 298,122원)."
+  },
+  {
+   "item_id": "25669747",
+   "name": "배추김치, 해주이엔팜, 죽향프리미엄맛김치, 5kg/봉지",
+   "state": "available",
+   "C_krw": "1302054000",
+   "Q": "66772",
+   "scorable_facts": 238,
+   "avg_unit_krw": "19500",
+   "required_B_for_5e8_krw": "12012",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "market_price_too_high",
+   "note": "죽향 맛김치는 제조사 쇼핑몰(농민의 광장) 외 동일 5kg 일반가를 찾지 못했다. 국산 맛김치·포기김치 5kg 소매가는 약 22,000~44,000원으로 필요한 12,012원보다 높고, 다른 브랜드는 동등 이하 대체품이다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 12,012원 이하여야 한다(조달 평균 19,500원)."
+  },
+  {
+   "item_id": "24343722",
+   "name": "주차주제어장치, 모바일파킹, MP-VCRS, 주차관제시스템",
+   "state": "available",
+   "C_krw": "1296000000",
+   "Q": "144",
+   "scorable_facts": 135,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다."
+  },
+  {
+   "item_id": "25237879",
+   "name": "낙석방지책, 수형산업개발, SH-NC-2025-10H, W2000×H2500mm, 표준구간, 관통형",
+   "state": "available",
+   "C_krw": "1278038260",
+   "Q": "3596",
+   "scorable_facts": 50,
+   "avg_unit_krw": "355406",
+   "required_B_for_5e8_krw": "216362",
+   "delivery_terms": [
+    "납품장소 하차도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "등재 인도조건에 현장설치도가 포함돼 있고, 설치를 포함한 동일 모델 일반 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 216,362원 이하여야 한다(조달 평균 355,406원)."
+  },
+  {
+   "item_id": "25722870",
+   "name": "철제가드레일, 신우정공, SW-N11-SB5-02P, W2000×H1000mm, 성토부/노측용, SB5등급, 상단도장",
+   "state": "available",
+   "C_krw": "1271089800",
+   "Q": "6015",
+   "scorable_facts": 1,
+   "avg_unit_krw": "211320",
+   "required_B_for_5e8_krw": "128194",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "등급 인증 방호울타리로 동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 128,194원 이하여야 한다(조달 평균 211,320원)."
+  },
+  {
+   "item_id": "23920536",
+   "name": "폴리에틸렌피복강관, 광성이엔지, GSSP-800A-2, Φ800×t7mm, 내부:에코세라폭시골드/외부:PE3층",
+   "state": "available",
+   "C_krw": "1264123800",
+   "Q": "3515",
+   "scorable_facts": 20,
+   "avg_unit_krw": "359637",
+   "required_B_for_5e8_krw": "217389",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "발주처 규격의 주문 제작 피복강관으로 동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 217,389원 이하여야 한다(조달 평균 359,637원)."
+  },
+  {
+   "item_id": "25636330",
+   "name": "금속제패널, 그린윈텍, GRS-G01-01, 2000×1000×30mm",
+   "state": "available",
+   "C_krw": "1255968000",
+   "Q": "7476",
+   "scorable_facts": 2,
+   "avg_unit_krw": "168000",
+   "required_B_for_5e8_krw": "101119",
+   "delivery_terms": [
+    "납품장소 하차도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "등재 인도조건에 현장설치도가 포함돼 있고, 설치를 포함한 동일 모델 일반 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 101,119원 이하여야 한다(조달 평균 168,000원)."
+  },
+  {
+   "item_id": "23116914",
+   "name": "조경석, 형제석재, HJ-04, 600×700×850mm, R5이상~R15미만, 거창화강석",
+   "state": "available",
+   "C_krw": "1247782296",
+   "Q": "45549",
+   "scorable_facts": 26,
+   "avg_unit_krw": "27394",
+   "required_B_for_5e8_krw": "16417",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "채석장·산지별 조경석으로 외관이 핵심인 품목이다. 같은 산지 석재의 공개 일반가가 없고, 다른 산지 석재는 외관이 달라 대체품으로 쓰지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 16,417원 이하여야 한다(조달 평균 27,394원)."
+  },
+  {
+   "item_id": "25184452",
+   "name": "금속제패널, 대진산업건설, DJ-ALC40F1, 금속복합, KSF4737, 불소수지, 4mm, 평판",
+   "state": "available",
+   "C_krw": "1232050950",
+   "Q": "19045",
+   "scorable_facts": 8,
+   "avg_unit_krw": "64692",
+   "required_B_for_5e8_krw": "38438",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": "https://bidnbee.com/shop/1740732556",
+   "best_retail_price_krw": 41140,
+   "verdict": "market_price_too_high",
+   "note": "기존 조사 재사용: 4T 복합판 폭 1,020mm 41,140원/㎡가 필요한 38,438원보다 비싸고, 원품의 알루미늄 심재·가공과도 다르다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 38,438원 이하여야 한다(조달 평균 64,692원)."
+  },
+  {
+   "item_id": "24043102",
+   "name": "바닥형보행신호등, 성풍솔레드, SP-CB 400, (부품)제어부",
+   "state": "available",
+   "C_krw": "1209977000",
+   "Q": "1267",
+   "scorable_facts": 89,
+   "avg_unit_krw": "954994",
+   "required_B_for_5e8_krw": "560361",
+   "delivery_terms": [
+    "납품장소 하차도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "등재 인도조건에 현장설치도가 포함돼 있고, 설치를 포함한 동일 모델 일반 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 560,361원 이하여야 한다(조달 평균 954,994원)."
+  },
+  {
+   "item_id": "21082207",
+   "name": "무기응집제, 케이지케미칼, PACS 2호., 산화알루미늄10~12% 폴리수산화염화규산알루미늄",
+   "state": "available",
+   "C_krw": "1200453422",
+   "Q": "5841",
+   "scorable_facts": 15,
+   "avg_unit_krw": "205522",
+   "required_B_for_5e8_krw": "119920",
+   "delivery_terms": [
+    "수요기관 탱크주입도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "탱크로리 주입 조건의 PACS 응집제로 공개 소매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 119,920원 이하여야 한다(조달 평균 205,522원)."
+  },
+  {
+   "item_id": "22504333",
+   "name": "졸업앨범, 일반형, 250×250mm(대전충남)",
+   "state": "available",
+   "C_krw": "1190009700",
+   "Q": "86",
+   "scorable_facts": 86,
+   "avg_unit_krw": "13837322",
+   "required_B_for_5e8_krw": "9182099",
+   "delivery_terms": [
+    "납품장소도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "학교별 맞춤 제작물로 공개 일반가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 9,182,099원 이하여야 한다(조달 평균 13,837,322원)."
+  },
+  {
+   "item_id": "23827553",
+   "name": "휴대전화기, 사이버텔브릿지, VM65PS",
+   "state": "available",
+   "C_krw": "1186138800",
+   "Q": "1203",
+   "scorable_facts": 79,
+   "avg_unit_krw": "985984",
+   "required_B_for_5e8_krw": "570356",
+   "delivery_terms": [
+    "납품장소도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "기존 조사 재사용: 재난안전통신망(PS-LTE) 단말 VM65PS의 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 570,356원 이하여야 한다(조달 평균 985,984원)."
+  },
+  {
+   "item_id": "23567501",
+   "name": "해상부유구조물, 지엔씨, GNCPE-A6303850130A, 3.8×50×1.3m, 마감캡형",
+   "state": "available",
+   "C_krw": "1159440000",
+   "Q": "8",
+   "scorable_facts": 1,
+   "avg_unit_krw": "144930000",
+   "required_B_for_5e8_krw": "82430000",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "주문 제작 해상 구조물로 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 82,430,000원 이하여야 한다(조달 평균 144,930,000원)."
+  },
+  {
+   "item_id": "25839671",
+   "name": "자연석경계석, 다산, DSCS-009, 200×250×1000mm, 보차도용, 직선, 모따기10R",
+   "state": "claimed",
+   "C_krw": null,
+   "Q": null,
+   "scorable_facts": null,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": null,
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "not_available",
+   "note": "lookup 상태가 claimed이라 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "22840118",
+   "name": "수도용덕타일주철관, Φ300mm×6m, 3종, 타이튼/에폭시",
+   "state": "available",
+   "C_krw": "1152208320",
+   "Q": "1632",
+   "scorable_facts": 9,
+   "avg_unit_krw": "706010",
+   "required_B_for_5e8_krw": "399637",
+   "delivery_terms": [
+    "기타사항참조"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "수도용 덕타일 주철관은 공개 소매 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 399,637원 이하여야 한다(조달 평균 706,010원)."
+  },
+  {
+   "item_id": "23211183",
+   "name": "철근콘크리트용배수로관, 태원콘크리트, twB-600C, 600×600×2000mm, 보강수로관",
+   "state": "claimed",
+   "C_krw": null,
+   "Q": null,
+   "scorable_facts": null,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": null,
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "not_available",
+   "note": "lookup 상태가 claimed이라 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "24776624",
+   "name": "원격자동검침시스템, 레오테크, LT-NLSU, NB-IoT/보안/원격수집기/비표시형",
+   "state": "available",
+   "C_krw": "1135400000",
+   "Q": "8100",
+   "scorable_facts": 4,
+   "avg_unit_krw": "140173",
+   "required_B_for_5e8_krw": "78444",
+   "delivery_terms": [
+    "납품장소도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "등재 인도조건에 현장설치도가 포함돼 있고, 설치를 포함한 동일 모델 일반 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 78,444원 이하여야 한다(조달 평균 140,173원)."
+  },
+  {
+   "item_id": "21149199",
+   "name": "조경석, 보창산업, BC-12, 600×700×850mm, R5이상~15미만, 보령성주석",
+   "state": "available",
+   "C_krw": "1131866265",
+   "Q": "33701",
+   "scorable_facts": 189,
+   "avg_unit_krw": "33586",
+   "required_B_for_5e8_krw": "18749",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "채석장·산지별 조경석으로 외관이 핵심인 품목이다. 같은 산지 석재의 공개 일반가가 없고, 다른 산지 석재는 외관이 달라 대체품으로 쓰지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 18,749원 이하여야 한다(조달 평균 33,586원)."
+  },
+  {
+   "item_id": "21226149",
+   "name": "비압력용경질폴리염화비닐관, 용전, YJDC-300, Φ300mm×6m, 이중벽관, 직관",
+   "state": "available",
+   "C_krw": "1126415112",
+   "Q": "7575",
+   "scorable_facts": 32,
+   "avg_unit_krw": "148702",
+   "required_B_for_5e8_krw": "82695",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "market_price_too_high",
+   "note": "동일 구경 이중벽관 소재가(약 18만 원)가 필요한 82,695원보다 높다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 82,695원 이하여야 한다(조달 평균 148,702원)."
+  },
+  {
+   "item_id": "24741721",
+   "name": "저출력심장충격기, 나눔테크, NT-381.B, 50~150J",
+   "state": "claimed",
+   "C_krw": null,
+   "Q": null,
+   "scorable_facts": null,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": null,
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "not_available",
+   "note": "lookup 상태가 claimed이라 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "22926661",
+   "name": "흡음형방음벽및방음판, 에이치엔테크, HN-1A3A, 1960×500×t95mm, 갤러리형, 양면컬러",
+   "state": "available",
+   "C_krw": "1109219078",
+   "Q": "16423",
+   "scorable_facts": 8,
+   "avg_unit_krw": "67541",
+   "required_B_for_5e8_krw": "37095",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "발주 규격 방음판으로 동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 37,095원 이하여야 한다(조달 평균 67,541원)."
+  },
+  {
+   "item_id": "23686077",
+   "name": "조경석, 듀네스, DW-009, 500×600×700mm, R15이상~30미만, 원주귀래석",
+   "state": "available",
+   "C_krw": "1105063740",
+   "Q": "33487",
+   "scorable_facts": 103,
+   "avg_unit_krw": "33000",
+   "required_B_for_5e8_krw": "18069",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "채석장·산지별 조경석으로 외관이 핵심인 품목이다. 같은 산지 석재의 공개 일반가가 없고, 다른 산지 석재는 외관이 달라 대체품으로 쓰지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 18,069원 이하여야 한다(조달 평균 33,000원)."
+  },
+  {
+   "item_id": "25195025",
+   "name": "양념육류, 마니커에프앤지, 닭다리후라이드치킨, 1kg, 양념육",
+   "state": "available",
+   "C_krw": "1102077900",
+   "Q": "95418",
+   "scorable_facts": 66,
+   "avg_unit_krw": "11550",
+   "required_B_for_5e8_krw": "6310",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "기존 조사 재사용: 정확 제품의 공개가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 6,310원 이하여야 한다(조달 평균 11,550원)."
+  },
+  {
+   "item_id": "21583481",
+   "name": "졸업앨범, 소형일반형, 220×297mm(서울)",
+   "state": "available",
+   "C_krw": "1100130370",
+   "Q": "81",
+   "scorable_facts": 81,
+   "avg_unit_krw": "13581856",
+   "required_B_for_5e8_krw": "7910292",
+   "delivery_terms": [
+    "납품장소도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "학교별 맞춤 제작물로 공개 일반가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 7,910,292원 이하여야 한다(조달 평균 13,581,856원)."
+  },
+  {
+   "item_id": "22918520",
+   "name": "폐쇄형배전반, 베스텍, BESTECH-일반형-S",
+   "state": "available",
+   "C_krw": "1090278000",
+   "Q": "5",
+   "scorable_facts": 5,
+   "avg_unit_krw": "218055600",
+   "required_B_for_5e8_krw": "118055600",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 118,055,600원 이하여야 한다(조달 평균 218,055,600원)."
+  },
+  {
+   "item_id": "21111077",
+   "name": "자연석경계석, 후암석재, HA-1035, 150×150×1000mm, 도로용, 직선, 모따기없음",
+   "state": "claimed",
+   "C_krw": null,
+   "Q": null,
+   "scorable_facts": null,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": null,
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "not_available",
+   "note": "lookup 상태가 claimed이라 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "24273536",
+   "name": "폴리에틸렌피복강관, 세인스틸, SIPSP-P250, Φ250×t6.6mm, 내부:PE2층/외부:PE3층",
+   "state": "available",
+   "C_krw": "1085663600",
+   "Q": "7913",
+   "scorable_facts": 3,
+   "avg_unit_krw": "137200",
+   "required_B_for_5e8_krw": "74013",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "발주처 규격의 주문 제작 피복강관으로 동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 74,013원 이하여야 한다(조달 평균 137,200원)."
+  },
+  {
+   "item_id": "25016739",
+   "name": "폴리에틸렌피복강관, 태성스틸, TSSPT-1350A-2, Φ1350×t10mm, 내부:일라이트에폭시/외부:PE3층",
+   "state": "available",
+   "C_krw": "1079122566",
+   "Q": "1322",
+   "scorable_facts": 2,
+   "avg_unit_krw": "816280",
+   "required_B_for_5e8_krw": "438065",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "발주처 규격의 주문 제작 피복강관으로 동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 438,065원 이하여야 한다(조달 평균 816,280원)."
+  },
+  {
+   "item_id": "25005528",
+   "name": "철제가드레일, 현대스틸, HD-EX-SB3, W2000×H810mm, 성토부/노측용, SB3등급, 도금",
+   "state": "available",
+   "C_krw": "1075095000",
+   "Q": "5410",
+   "scorable_facts": 14,
+   "avg_unit_krw": "198724",
+   "required_B_for_5e8_krw": "106302",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "등급 인증 방호울타리로 동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 106,302원 이하여야 한다(조달 평균 198,724원)."
+  },
+  {
+   "item_id": "25612848",
+   "name": "폴리에틸렌피복강관, 주성이엔지, JS3LP1-C1350B, Φ1350×t10mm, 내부:CNTCOAT RS액상에폭시/외부:PE3층",
+   "state": "available",
+   "C_krw": "1070065965",
+   "Q": "1312",
+   "scorable_facts": 1,
+   "avg_unit_krw": "815599",
+   "required_B_for_5e8_krw": "434501",
+   "delivery_terms": [
+    "납품장소 상차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "발주처 규격의 주문 제작 피복강관으로 동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 434,501원 이하여야 한다(조달 평균 815,599원)."
+  },
+  {
+   "item_id": "22839980",
+   "name": "수도용덕타일주철관, Φ800mm×6m, 2종, KP메커니컬/에폭시",
+   "state": "available",
+   "C_krw": "1069379410",
+   "Q": "341",
+   "scorable_facts": 17,
+   "avg_unit_krw": "3136010",
+   "required_B_for_5e8_krw": "1669734",
+   "delivery_terms": [
+    "기타사항참조"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "수도용 덕타일 주철관은 공개 소매 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 1,669,734원 이하여야 한다(조달 평균 3,136,010원)."
+  },
+  {
+   "item_id": "25010655",
+   "name": "수도미터, 메타플로우, M-MW15fBR, 15mm, 복갑습식/무연황동/역류방지/투명렌즈, 100배율/1.6배수",
+   "state": "available",
+   "C_krw": "1068655992",
+   "Q": "42427",
+   "scorable_facts": 12,
+   "avg_unit_krw": "25188",
+   "required_B_for_5e8_krw": "13403",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "M-MW15fBR 동일품 판매가가 없다. 공개 습식 15mm 계량기는 34,000~38,000원으로 필요한 13,403원보다 비싸다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 13,403원 이하여야 한다(조달 평균 25,188원)."
+  },
+  {
+   "item_id": "20998080",
+   "name": "자연석경계석, 강원사랑, KW-004, 200×250×1000mm, 보차도용, 직선, 모따기10R",
+   "state": "claimed",
+   "C_krw": null,
+   "Q": null,
+   "scorable_facts": null,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": null,
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "not_available",
+   "note": "lookup 상태가 claimed이라 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "25063282",
+   "name": "금속제패널, 가경이앤씨, GG-ALC40tAL1, 금속복합, KSF4737, 불소수지, 4mm, 평판",
+   "state": "available",
+   "C_krw": "1061074760",
+   "Q": "15907",
+   "scorable_facts": 10,
+   "avg_unit_krw": "66705",
+   "required_B_for_5e8_krw": "35272",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": "https://bidnbee.com/shop/1740732556",
+   "best_retail_price_krw": 41140,
+   "verdict": "market_price_too_high",
+   "note": "공개 4T 복합판 최저 41,140원/㎡가 필요한 35,272원보다 비싸다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 35,272원 이하여야 한다(조달 평균 66,705원)."
+  },
+  {
+   "item_id": "22156337",
+   "name": "비압력용경질폴리염화비닐관, 뉴보텍, CPN200, Φ200mm×6m, 이중벽관, 확관형, CPVC첨가",
+   "state": "available",
+   "C_krw": "1054527715",
+   "Q": "10560",
+   "scorable_facts": 62,
+   "avg_unit_krw": "99861",
+   "required_B_for_5e8_krw": "52512",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "market_price_too_high",
+   "note": "기존 조사 재사용: 같은 규격 소재가가 96,547원으로 필요한 52,512원보다 높다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 52,512원 이하여야 한다(조달 평균 99,861원)."
+  },
+  {
+   "item_id": "20945672",
+   "name": "금속돌망태, 에스원스틸, SHK-085, H300mm, 아연도금철선5종Φ2.7mm, 육각매트리스형",
+   "state": "available",
+   "C_krw": "1051084512",
+   "Q": "78486",
+   "scorable_facts": 3,
+   "avg_unit_krw": "13392",
+   "required_B_for_5e8_krw": "7021",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "완성 돌망태 매트리스의 동일 사양 공개 판매가를 찾지 못했다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 7,021원 이하여야 한다(조달 평균 13,392원)."
+  },
+  {
+   "item_id": "24226575",
+   "name": "수도미터, 경성제닉스, KSJ-MD15DRC, 15mm, 복갑건식/무연황동/디지털/역류방지, 100배율/1.6배수",
+   "state": "available",
+   "C_krw": "1045645360",
+   "Q": "20424",
+   "scorable_facts": 62,
+   "avg_unit_krw": "51197",
+   "required_B_for_5e8_krw": "26716",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "KSJ-MD15DRC 동일품 판매가가 없다. 필요한 26,716원 이하로 파는 디지털·복갑건식·무연황동 15mm 계량기도 찾지 못했다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 26,716원 이하여야 한다(조달 평균 51,197원)."
+  },
+  {
+   "item_id": "25670626",
+   "name": "디자인형울타리, 도시숲길, UF-5515D, W1500×H1140mm",
+   "state": "available",
+   "C_krw": "1043365000",
+   "Q": "2869",
+   "scorable_facts": 17,
+   "avg_unit_krw": "363669",
+   "required_B_for_5e8_krw": "189392",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "디자인 고유 제품으로 외관이 같은 대체품의 공개가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 189,392원 이하여야 한다(조달 평균 363,669원)."
+  },
+  {
+   "item_id": "23510743",
+   "name": "석제단열패널, 세정에이텍, USP-T107B, 800×400×107mm",
+   "state": "available",
+   "C_krw": "1035998717",
+   "Q": "8056",
+   "scorable_facts": 15,
+   "avg_unit_krw": "128600",
+   "required_B_for_5e8_krw": "66534",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "제조사 전용 제품으로 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 66,534원 이하여야 한다(조달 평균 128,600원)."
+  },
+  {
+   "item_id": "23673601",
+   "name": "철제가드레일, 인천정공, ICJK-EX-SB1, W4000×H810mm, 성토부/노측용, SB1등급, 도금",
+   "state": "available",
+   "C_krw": "1032562167",
+   "Q": "5574",
+   "scorable_facts": 8,
+   "avg_unit_krw": "185246",
+   "required_B_for_5e8_krw": "95544",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "등급 인증 방호울타리로 동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 95,544원 이하여야 한다(조달 평균 185,246원)."
+  },
+  {
+   "item_id": "25004319",
+   "name": "가공우유, 남양유업, 우유듬뿍초코에몽, 200mL",
+   "state": "available",
+   "C_krw": "1025979400",
+   "Q": "1768930",
+   "scorable_facts": 227,
+   "avg_unit_krw": "580",
+   "required_B_for_5e8_krw": "297",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "market_price_too_high",
+   "note": "기존 조사 재사용: 초코에몽 소매가는 개당 약 867원 이상으로 조달 580원보다 높다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 297원 이하여야 한다(조달 평균 580원)."
+  },
+  {
+   "item_id": "25217312",
+   "name": "방화벽장치, 퓨쳐시스템, WeGuardia(TM) ITU 3000(R2), 네트워크보안",
+   "state": "claimed_by_me",
+   "C_krw": null,
+   "Q": null,
+   "scorable_facts": null,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": null,
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "not_available",
+   "note": "lookup 상태가 claimed_by_me이라 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "23659591",
+   "name": "인조잔디충전재, 웰니스, HWG, t1.4~3.35mm",
+   "state": "available",
+   "C_krw": "1015644600",
+   "Q": "331399",
+   "scorable_facts": 26,
+   "avg_unit_krw": "3065",
+   "required_B_for_5e8_krw": "1556",
+   "delivery_terms": [
+    "납품장소 하차도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "등재 인도조건에 현장설치도가 포함돼 있고, 설치를 포함한 동일 모델 일반 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 1,556원 이하여야 한다(조달 평균 3,065원)."
+  },
+  {
+   "item_id": "21113806",
+   "name": "자연석경계석, 바위산업, BW-0018, 180×200×1000mm, 보차도용, 직선, 모따기10R",
+   "state": "claimed",
+   "C_krw": null,
+   "Q": null,
+   "scorable_facts": null,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": null,
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "not_available",
+   "note": "lookup 상태가 claimed이라 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "23378627",
+   "name": "목재덱, 나무들, NMD-MBU-30, 1800×120×t30mm, 멀바우",
+   "state": "available",
+   "C_krw": "999585840",
+   "Q": "12152",
+   "scorable_facts": 29,
+   "avg_unit_krw": "82257",
+   "required_B_for_5e8_krw": "41111",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": "https://bestwoodis.com/m/shop/shop_mobile.php?cat_no=44&g_code=20170823182748384&goPage=GoodDetail&offset=",
+   "best_retail_price_krw": 160000,
+   "verdict": "market_price_too_high",
+   "note": "멀바우 데크재는 21T×90 규격도 160,000원/3.24㎡(약 49,383원/㎡)로 필요한 41,111원/㎡보다 비싸고, 원품은 30T×120으로 더 두껍다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 41,111원 이하여야 한다(조달 평균 82,257원)."
+  },
+  {
+   "item_id": "24425478",
+   "name": "금속제창, 부성창호, BS-CW150, 150mm, 커튼월/불소수지2회",
+   "state": "available",
+   "C_krw": "998110402",
+   "Q": "80860",
+   "scorable_facts": 16,
+   "avg_unit_krw": "12344",
+   "required_B_for_5e8_krw": "6160",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 6,160원 이하여야 한다(조달 평균 12,344원)."
+  },
+  {
+   "item_id": "25784926",
+   "name": "국솥, 선경인케이, SKK-PRO5105HAT, 전자유도가열방식/인덕션회전식국솥",
+   "state": "claimed",
+   "C_krw": null,
+   "Q": null,
+   "scorable_facts": null,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": null,
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "not_available",
+   "note": "lookup 상태가 claimed이라 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "23617728",
+   "name": "안내전광판, 두원전자통신, LDP-1802, 2620×380×150mm",
+   "state": "available",
+   "C_krw": "994700000",
+   "Q": "245",
+   "scorable_facts": 31,
+   "avg_unit_krw": "4060000",
+   "required_B_for_5e8_krw": "2019184",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 2,019,184원 이하여야 한다(조달 평균 4,060,000원)."
+  },
+  {
+   "item_id": "24876025",
+   "name": "차양, 예일금속산업, RT-C06, 1000×1000mm",
+   "state": "available",
+   "C_krw": "992160000",
+   "Q": "2544",
+   "scorable_facts": 17,
+   "avg_unit_krw": "390000",
+   "required_B_for_5e8_krw": "193459",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 193,459원 이하여야 한다(조달 평균 390,000원)."
+  },
+  {
+   "item_id": "23889653",
+   "name": "PVF막구조물, 엠엠스페이스, MMS-VF-02, 61.2×33×10m, 2변지지",
+   "state": "available",
+   "C_krw": "989160761",
+   "Q": "2427",
+   "scorable_facts": 4,
+   "avg_unit_krw": "407565",
+   "required_B_for_5e8_krw": "201550",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 201,550원 이하여야 한다(조달 평균 407,565원)."
+  },
+  {
+   "item_id": "24022941",
+   "name": "점토바닥벽돌, 삼한씨원, PSH-21, 230×114×60mm, 점토, 다채색, 플러스돌기벽돌",
+   "state": "available",
+   "C_krw": "988816140",
+   "Q": "1267713",
+   "scorable_facts": 37,
+   "avg_unit_krw": "780",
+   "required_B_for_5e8_krw": "386",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "market_price_too_high",
+   "note": "점토 바닥벽돌을 필요한 386원/개 이하로 파는 공개 판매처를 찾지 못했다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 386원 이하여야 한다(조달 평균 780원)."
+  },
+  {
+   "item_id": "23402804",
+   "name": "미끄럼방지포장재, 화랑안전, HRS-NSPM300, t3mm, 1종",
+   "state": "available",
+   "C_krw": "987530240",
+   "Q": "31285",
+   "scorable_facts": 13,
+   "avg_unit_krw": "31566",
+   "required_B_for_5e8_krw": "15584",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 15,584원 이하여야 한다(조달 평균 31,566원)."
+  },
+  {
+   "item_id": "25283541",
+   "name": "투수골재포장재, 경진테크, KJC-200, t200mm",
+   "state": "available",
+   "C_krw": "985552000",
+   "Q": "3974",
+   "scorable_facts": 1,
+   "avg_unit_krw": "248000",
+   "required_B_for_5e8_krw": "122182",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 122,182원 이하여야 한다(조달 평균 248,000원)."
+  },
+  {
+   "item_id": "23929118",
+   "name": "졸업앨범, 제주사진앨범사업, 철재밴드형3단앨범, 315×250mm",
+   "state": "available",
+   "C_krw": "978543470",
+   "Q": "87",
+   "scorable_facts": 87,
+   "avg_unit_krw": "11247626",
+   "required_B_for_5e8_krw": "5670925",
+   "delivery_terms": [
+    "납품장소도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "학교별 맞춤 제작물로 공개 일반가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 5,670,925원 이하여야 한다(조달 평균 11,247,626원)."
+  },
+  {
+   "item_id": "24952311",
+   "name": "레이저프린터, (주문자상표부착)삼성전자, (CN)SL-C2420DW, A4, 24ppm/24ppm",
+   "state": "available",
+   "C_krw": "977900000",
+   "Q": "1778",
+   "scorable_facts": 1360,
+   "avg_unit_krw": "550000",
+   "required_B_for_5e8_krw": "268785",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": "https://www.samsungsmb.co.kr/goods/view?no=73",
+   "best_retail_price_krw": 739000,
+   "verdict": "market_price_too_high",
+   "note": "같은 시리즈 SL-C2410ND도 유니씨앤씨 상세에서 739,000원(정가 820,000원)으로 읽혔고, SL-C2420DW는 정부 전용(GOV) 모델이다. 5억 원에 필요한 268,785원 이하와 거리가 멀다. 인도조건도 현장설치도다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 268,785원 이하여야 한다(조달 평균 550,000원)."
+  },
+  {
+   "item_id": "25161840",
+   "name": "융복합안내전광판, 에이아이네트웍, AILED-C2412N, AI혁신제품/재난안전",
+   "state": "available",
+   "C_krw": "974220900",
+   "Q": "43",
+   "scorable_facts": 5,
+   "avg_unit_krw": "22656300",
+   "required_B_for_5e8_krw": "11028393",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 11,028,393원 이하여야 한다(조달 평균 22,656,300원)."
+  },
+  {
+   "item_id": "24606838",
+   "name": "금속돌망태, 리버앤텍, RnT-SM-일반형, H300mm, 아연도금철선5종Φ4mm, 스톤매트리스",
+   "state": "available",
+   "C_krw": "970860480",
+   "Q": "50321",
+   "scorable_facts": 4,
+   "avg_unit_krw": "19293",
+   "required_B_for_5e8_krw": "9357",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "완성 돌망태 매트리스의 동일 사양 공개 판매가를 찾지 못했다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 9,357원 이하여야 한다(조달 평균 19,293원)."
+  },
+  {
+   "item_id": "24580866",
+   "name": "알가공품, 성산식품, 마미찜한식계란말이(냉동), 900g, 알가열제품",
+   "state": "available",
+   "C_krw": "967936200",
+   "Q": "125706",
+   "scorable_facts": 181,
+   "avg_unit_krw": "7700",
+   "required_B_for_5e8_krw": "3722",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "market_price_too_high",
+   "note": "냉동 계란말이 900g 소매가는 필요한 3,722원보다 높다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 3,722원 이하여야 한다(조달 평균 7,700원)."
+  },
+  {
+   "item_id": "24773430",
+   "name": "조경석, 일등석, IDS-03-5R, 500×600×700mm, R5이상~15미만, 남원산동석",
+   "state": "available",
+   "C_krw": "966922422",
+   "Q": "26347",
+   "scorable_facts": 34,
+   "avg_unit_krw": "36700",
+   "required_B_for_5e8_krw": "17722",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "채석장·산지별 조경석으로 외관이 핵심인 품목이다. 같은 산지 석재의 공개 일반가가 없고, 다른 산지 석재는 외관이 달라 대체품으로 쓰지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 17,722원 이하여야 한다(조달 평균 36,700원)."
+  },
+  {
+   "item_id": "25576876",
+   "name": "금속제창, 세웅건업, SW-CW-03-R, 170mm, 커튼월/초내후성파우더코팅",
+   "state": "available",
+   "C_krw": "962691961",
+   "Q": "60058",
+   "scorable_facts": 51,
+   "avg_unit_krw": "16029",
+   "required_B_for_5e8_krw": "7704",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 7,704원 이하여야 한다(조달 평균 16,029원)."
+  },
+  {
+   "item_id": "24022922",
+   "name": "미장벽돌, 삼한씨원, BSH-15, 290×90×57mm, 점토, 실버블랙, 전벽돌",
+   "state": "available",
+   "C_krw": "961785700",
+   "Q": "506203",
+   "scorable_facts": 24,
+   "avg_unit_krw": "1900",
+   "required_B_for_5e8_krw": "912",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "기존 조사 재사용: 같은 색·크기 점토 전벽돌을 필요한 단가로 파는 판매처가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 912원 이하여야 한다(조달 평균 1,900원)."
+  },
+  {
+   "item_id": "24377113",
+   "name": "압력용경질폴리염화비닐관, 고리, HI-3JP150A, Φ150mm×6m, HIVP(삼중벽), 편수칼라관, SDR17/PN16",
+   "state": "available",
+   "C_krw": "960251100",
+   "Q": "5318",
+   "scorable_facts": 36,
+   "avg_unit_krw": "180566",
+   "required_B_for_5e8_krw": "86546",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "고리 HI-3JP150A 편수칼라관의 공개 판매가를 찾지 못했다(제조사 규격 페이지만 확인). 필요한 단가는 86,546원/본 이하다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 86,546원 이하여야 한다(조달 평균 180,566원)."
+  },
+  {
+   "item_id": "24611889",
+   "name": "폴리에틸렌피복강관, 코팅코리아, PFP-DHPJ 600A, Φ600×t6mm, 내부:PE/외부:PE",
+   "state": "available",
+   "C_krw": "955491600",
+   "Q": "420",
+   "scorable_facts": 5,
+   "avg_unit_krw": "2274980",
+   "required_B_for_5e8_krw": "1084504",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "발주처 규격의 주문 제작 피복강관으로 동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 1,084,504원 이하여야 한다(조달 평균 2,274,980원)."
+  },
+  {
+   "item_id": "23831123",
+   "name": "분전반, 윈텍스, WINTEX-DB01",
+   "state": "available",
+   "C_krw": "954256100",
+   "Q": "22",
+   "scorable_facts": 22,
+   "avg_unit_krw": "43375277",
+   "required_B_for_5e8_krw": "27129110",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "주문 제작 분전반으로 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 27,129,110원 이하여야 한다(조달 평균 43,375,277원)."
+  },
+  {
+   "item_id": "25650934",
+   "name": "폴리우레탄기포단열재, 정우산업, JYGB-110GT, 1000×1000×110mm, PUR-Ⅰ-D",
+   "state": "available",
+   "C_krw": "953008329",
+   "Q": "24884",
+   "scorable_facts": 21,
+   "avg_unit_krw": "38298",
+   "required_B_for_5e8_krw": "18205",
+   "delivery_terms": [
+    "현장도착도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "JYGB-110GT 동일품 판매가가 없다. 110mm PUR 보드를 필요한 18,205원/㎡ 이하로 파는 공개 판매처를 찾지 못했다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 18,205원 이하여야 한다(조달 평균 38,298원)."
+  },
+  {
+   "item_id": "23737275",
+   "name": "제수밸브, 대풍건설, SGⅢ-500, Φ500mm×1.0MPa, 수동식/수직형/소프트실부단수(유지보수용보조밸브내장형), GCD450-10",
+   "state": "available",
+   "C_krw": "949900000",
+   "Q": "50",
+   "scorable_facts": 19,
+   "avg_unit_krw": "18998000",
+   "required_B_for_5e8_krw": "8998000",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 8,998,000원 이하여야 한다(조달 평균 18,998,000원)."
+  },
+  {
+   "item_id": "24527988",
+   "name": "태양광발전장치, 지투파워, G2P-100S-C, 99.9kW, 계통연계형",
+   "state": "available",
+   "C_krw": "949050000",
+   "Q": "5",
+   "scorable_facts": 2,
+   "avg_unit_krw": "189810000",
+   "required_B_for_5e8_krw": "89810000",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 89,810,000원 이하여야 한다(조달 평균 189,810,000원)."
+  },
+  {
+   "item_id": "24385605",
+   "name": "금속제패널, 엠에스건설, CMS-CBPH-4T, 금속복합, KSF4737, 불소수지, 4mm, 평판",
+   "state": "available",
+   "C_krw": "948454190",
+   "Q": "13287",
+   "scorable_facts": 17,
+   "avg_unit_krw": "71382",
+   "required_B_for_5e8_krw": "33751",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": "https://bidnbee.com/shop/1740732556",
+   "best_retail_price_krw": 41140,
+   "verdict": "market_price_too_high",
+   "note": "공개 4T 복합판 최저 41,140원/㎡가 필요한 33,751원보다 비싸다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 33,751원 이하여야 한다(조달 평균 71,382원)."
+  },
+  {
+   "item_id": "23739518",
+   "name": "목제창, 씨·티, CT-DSW-02, 1700×1500×240mm, 중연창",
+   "state": "available",
+   "C_krw": "947494665",
+   "Q": "7077",
+   "scorable_facts": 41,
+   "avg_unit_krw": "133884",
+   "required_B_for_5e8_krw": "63232",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 63,232원 이하여야 한다(조달 평균 133,884원)."
+  },
+  {
+   "item_id": "24256460",
+   "name": "인조잔디, 이원, EM20A, t20mm",
+   "state": "claimed",
+   "C_krw": null,
+   "Q": null,
+   "scorable_facts": null,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": null,
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "not_available",
+   "note": "lookup 상태가 claimed이라 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "23929718",
+   "name": "컴퓨터서버, 이노뎁, VURIX-DEEP16S, Intel Core i9 9900K(3.6GHz)",
+   "state": "available",
+   "C_krw": "939890000",
+   "Q": "70",
+   "scorable_facts": 25,
+   "avg_unit_krw": "13427000",
+   "required_B_for_5e8_krw": "6284143",
+   "delivery_terms": [
+    "현장설치도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 6,284,143원 이하여야 한다(조달 평균 13,427,000원)."
+  },
+  {
+   "item_id": "25619234",
+   "name": "건물일체형태양광발전장치, 에이비엠, ABM-BIPV-RF120-220T-1, 126kW급, 지붕일체형",
+   "state": "available",
+   "C_krw": "936838000",
+   "Q": "2",
+   "scorable_facts": 2,
+   "avg_unit_krw": "468419000",
+   "required_B_for_5e8_krw": "218419000",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 218,419,000원 이하여야 한다(조달 평균 468,419,000원)."
+  },
+  {
+   "item_id": "24612608",
+   "name": "원심농축기, 로얄정공, ROWATS-720T, 50~65㎥/h",
+   "state": "available",
+   "C_krw": "933140000",
+   "Q": "2",
+   "scorable_facts": 2,
+   "avg_unit_krw": "466570000",
+   "required_B_for_5e8_krw": "216570000",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 216,570,000원 이하여야 한다(조달 평균 466,570,000원)."
+  },
+  {
+   "item_id": "22115062",
+   "name": "자연석경계석, 한영대리석, HYC-009, 200×250×1000mm, 보차도용, 직선, 모따기10R",
+   "state": "claimed",
+   "C_krw": null,
+   "Q": null,
+   "scorable_facts": null,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": null,
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "not_available",
+   "note": "lookup 상태가 claimed이라 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "25585633",
+   "name": "디칸터형원심탈수기, 무한기술, MIC-500, 20~30㎥/h",
+   "state": "available",
+   "C_krw": "930000000",
+   "Q": "3",
+   "scorable_facts": 2,
+   "avg_unit_krw": "310000000",
+   "required_B_for_5e8_krw": "143333333",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 143,333,333원 이하여야 한다(조달 평균 310,000,000원)."
+  },
+  {
+   "item_id": "25432766",
+   "name": "무인교통감시장치, 렉스젠, REX-NEH9 BS5, 과속/신호위반단속",
+   "state": "available",
+   "C_krw": "928000000",
+   "Q": "29",
+   "scorable_facts": 19,
+   "avg_unit_krw": "32000000",
+   "required_B_for_5e8_krw": "14758620",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 14,758,620원 이하여야 한다(조달 평균 32,000,000원)."
+  },
+  {
+   "item_id": "23796596",
+   "name": "금속돌망태, 청원선재, CWB-01, H300mm, 아연도금철선5종Φ2.7mm, 중첩형육각매트리스형",
+   "state": "available",
+   "C_krw": "926668242",
+   "Q": "66280",
+   "scorable_facts": 8,
+   "avg_unit_krw": "13981",
+   "required_B_for_5e8_krw": "6437",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "완성 돌망태 매트리스의 동일 사양 공개 판매가를 찾지 못했다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 6,437원 이하여야 한다(조달 평균 13,981원)."
+  },
+  {
+   "item_id": "23288842",
+   "name": "조경석, 계룡석재산업, krs-R15-06, 500×600×700mm, R5이상~15미만, 상주화서석",
+   "state": "available",
+   "C_krw": "924444450",
+   "Q": "32689",
+   "scorable_facts": 34,
+   "avg_unit_krw": "28280",
+   "required_B_for_5e8_krw": "12984",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "채석장·산지별 조경석으로 외관이 핵심인 품목이다. 같은 산지 석재의 공개 일반가가 없고, 다른 산지 석재는 외관이 달라 대체품으로 쓰지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 12,984원 이하여야 한다(조달 평균 28,280원)."
+  },
+  {
+   "item_id": "24394302",
+   "name": "폴리에틸렌피복강관, 위스코, PEP-PD/LJ-300A(3LC), Φ300×t6.9mm, 내부:액상에폭시/외부:PE3층",
+   "state": "available",
+   "C_krw": "919213200",
+   "Q": "740",
+   "scorable_facts": 4,
+   "avg_unit_krw": "1242180",
+   "required_B_for_5e8_krw": "566504",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "발주처 규격의 주문 제작 피복강관으로 동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 566,504원 이하여야 한다(조달 평균 1,242,180원)."
+  },
+  {
+   "item_id": "24194156",
+   "name": "조경석, 태우, TW-12, 600×700×850mm, R5이상~15미만, 부여장암석",
+   "state": "available",
+   "C_krw": "917317856",
+   "Q": "33620",
+   "scorable_facts": 47,
+   "avg_unit_krw": "27285",
+   "required_B_for_5e8_krw": "12413",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "채석장·산지별 조경석으로 외관이 핵심인 품목이다. 같은 산지 석재의 공개 일반가가 없고, 다른 산지 석재는 외관이 달라 대체품으로 쓰지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 12,413원 이하여야 한다(조달 평균 27,285원)."
+  },
+  {
+   "item_id": "25031128",
+   "name": "금속제창, TKR, TKR-CAW-004, 150mm, 커튼월/불소수지2회",
+   "state": "available",
+   "C_krw": "916348808",
+   "Q": "60905",
+   "scorable_facts": 29,
+   "avg_unit_krw": "15046",
+   "required_B_for_5e8_krw": "6836",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 6,836원 이하여야 한다(조달 평균 15,046원)."
+  },
+  {
+   "item_id": "24320036",
+   "name": "건물일체형태양광발전장치, 건기, GUNGI-BIPV-ROOF80-220T, 81.9kW, 지붕일체형",
+   "state": "available",
+   "C_krw": "914796000",
+   "Q": "3",
+   "scorable_facts": 3,
+   "avg_unit_krw": "304932000",
+   "required_B_for_5e8_krw": "138265333",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 138,265,333원 이하여야 한다(조달 평균 304,932,000원)."
+  },
+  {
+   "item_id": "24379215",
+   "name": "기타조경시설물, 아키페이스, AP1-ST1000-WP, 1000×1000×76mm",
+   "state": "claimed",
+   "C_krw": null,
+   "Q": null,
+   "scorable_facts": null,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": null,
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "not_available",
+   "note": "lookup 상태가 claimed이라 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "25661586",
+   "name": "폴리우레아수지도막방수재, 목림건설, ML-P300, t3mm, 주차장/옥상",
+   "state": "available",
+   "C_krw": "908707946",
+   "Q": "13188",
+   "scorable_facts": 5,
+   "avg_unit_krw": "68904",
+   "required_B_for_5e8_krw": "30991",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 30,991원 이하여야 한다(조달 평균 68,904원)."
+  },
+  {
+   "item_id": "22800405",
+   "name": "자연석경계석, 거기석재, sj-009, 200×250×1000mm, 보차도용, 직선, 모따기10R",
+   "state": "claimed",
+   "C_krw": null,
+   "Q": null,
+   "scorable_facts": null,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": null,
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "not_available",
+   "note": "lookup 상태가 claimed이라 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "26029563",
+   "name": "폴리우레아수지도막방수재, 다온엔지니어링, DA-P02-02, t2mm, 주차장/옥상",
+   "state": "available",
+   "C_krw": "906037500",
+   "Q": "16325",
+   "scorable_facts": 12,
+   "avg_unit_krw": "55500",
+   "required_B_for_5e8_krw": "24872",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 24,872원 이하여야 한다(조달 평균 55,500원)."
+  },
+  {
+   "item_id": "24548014",
+   "name": "PVF막구조물, 현대엠앤에스, MNSV-402, 42×27×12m, 4변지지",
+   "state": "available",
+   "C_krw": "903924000",
+   "Q": "2142",
+   "scorable_facts": 1,
+   "avg_unit_krw": "422000",
+   "required_B_for_5e8_krw": "188573",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 188,573원 이하여야 한다(조달 평균 422,000원)."
+  },
+  {
+   "item_id": "24988804",
+   "name": "기타조경시설물, 제이엠에스씨, BDK-SC-006, 1000×1000×80mm",
+   "state": "available",
+   "C_krw": "902010074",
+   "Q": "2431",
+   "scorable_facts": 17,
+   "avg_unit_krw": "371045",
+   "required_B_for_5e8_krw": "165368",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 165,368원 이하여야 한다(조달 평균 371,045원)."
+  },
+  {
+   "item_id": "25104081",
+   "name": "승객용엘리베이터, 에스엠엘리베이터, SM90N1-P2CO13, 90m/min, 13인승/2층/일반형",
+   "state": "available",
+   "C_krw": "901130000",
+   "Q": "21",
+   "scorable_facts": 2,
+   "avg_unit_krw": "42910952",
+   "required_B_for_5e8_krw": "19101429",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 19,101,429원 이하여야 한다(조달 평균 42,910,952원)."
+  },
+  {
+   "item_id": "25413151",
+   "name": "금속제패널, 대훈에이씨, DH-ALC40F1, 금속복합, KSF4737, 불소수지, 4mm, 평판",
+   "state": "available",
+   "C_krw": "898170100",
+   "Q": "16081",
+   "scorable_facts": 3,
+   "avg_unit_krw": "55853",
+   "required_B_for_5e8_krw": "24760",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": "https://bidnbee.com/shop/1740732556",
+   "best_retail_price_krw": 41140,
+   "verdict": "market_price_too_high",
+   "note": "공개 4T 복합판 최저 41,140원/㎡가 필요한 24,760원보다 비싸다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 24,760원 이하여야 한다(조달 평균 55,853원)."
+  },
+  {
+   "item_id": "21025458",
+   "name": "자연석경계석, 운암산업, UN-A29, 200×250×1000mm, 보차도용, 직선, 모따기30R",
+   "state": "claimed",
+   "C_krw": null,
+   "Q": null,
+   "scorable_facts": null,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": null,
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "not_available",
+   "note": "lookup 상태가 claimed이라 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "24275656",
+   "name": "디젤발전기, 보국전기공업, BBA2000H-A, 3상4선, 3300/6600V, 2000kW, 운전반별치형",
+   "state": "available",
+   "C_krw": "894000000",
+   "Q": "2",
+   "scorable_facts": 1,
+   "avg_unit_krw": "447000000",
+   "required_B_for_5e8_krw": "197000000",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 197,000,000원 이하여야 한다(조달 평균 447,000,000원)."
+  },
+  {
+   "item_id": "22926662",
+   "name": "흡음형방음벽및방음판, 에이치엔테크, HN-1A3B, 3960×500×t95mm, 갤러리형, 양면컬러",
+   "state": "available",
+   "C_krw": "891504069",
+   "Q": "12120",
+   "scorable_facts": 5,
+   "avg_unit_krw": "73556",
+   "required_B_for_5e8_krw": "32302",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "발주 규격 방음판으로 동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 32,302원 이하여야 한다(조달 평균 73,556원)."
+  },
+  {
+   "item_id": "24602706",
+   "name": "대문, 디앤에스테크놀로지, DSG-7000S, 7000×2700mm",
+   "state": "available",
+   "C_krw": "885072000",
+   "Q": "8",
+   "scorable_facts": 1,
+   "avg_unit_krw": "110634000",
+   "required_B_for_5e8_krw": "48134000",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 48,134,000원 이하여야 한다(조달 평균 110,634,000원)."
+  },
+  {
+   "item_id": "24177038",
+   "name": "YL형울타리, 미래이에스씨, MI-I2018Zn605G, W2000×H1800mm",
+   "state": "available",
+   "C_krw": "884466522",
+   "Q": "15126",
+   "scorable_facts": 3,
+   "avg_unit_krw": "58473",
+   "required_B_for_5e8_krw": "25418",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 25,418원 이하여야 한다(조달 평균 58,473원)."
+  },
+  {
+   "item_id": "25427986",
+   "name": "양념육류, (주문자상표부착)신세계푸드, 쉐프컬렉션옛날통닭, 860g, 양념육",
+   "state": "available",
+   "C_krw": "883569750",
+   "Q": "81435",
+   "scorable_facts": 39,
+   "avg_unit_krw": "10850",
+   "required_B_for_5e8_krw": "4710",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "market_price_too_high",
+   "note": "옛날통닭 860g의 소매가는 필요한 4,710원보다 높다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 4,710원 이하여야 한다(조달 평균 10,850원)."
+  },
+  {
+   "item_id": "24513676",
+   "name": "폴리에틸렌피복강관, 주성이엔지, JS3LP-C2400A, Φ2400×t22mm, 내부:CNTCOAT RS액상에폭시/외부:PE3층",
+   "state": "available",
+   "C_krw": "882670500",
+   "Q": "302",
+   "scorable_facts": 1,
+   "avg_unit_krw": "2922750",
+   "required_B_for_5e8_krw": "1267121",
+   "delivery_terms": [
+    "납품장소 상차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "발주처 규격의 주문 제작 피복강관으로 동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 1,267,121원 이하여야 한다(조달 평균 2,922,750원)."
+  },
+  {
+   "item_id": "23775341",
+   "name": "이동식서가, 금강모빌랙, SF-1MD61, 1090×650×2275mm, 이동기본형/복식",
+   "state": "available",
+   "C_krw": "881328000",
+   "Q": "854",
+   "scorable_facts": 113,
+   "avg_unit_krw": "1032000",
+   "required_B_for_5e8_krw": "446520",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 446,520원 이하여야 한다(조달 평균 1,032,000원)."
+  },
+  {
+   "item_id": "20925454",
+   "name": "폴리염화알루미늄, 이영화학, APAC10-50, 산화알루미늄10~12%, Tank Lorry",
+   "state": "available",
+   "C_krw": "880526400",
+   "Q": "4551",
+   "scorable_facts": 16,
+   "avg_unit_krw": "193480",
+   "required_B_for_5e8_krw": "83614",
+   "delivery_terms": [
+    "수요기관 탱크주입도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "탱크로리 주입 조건의 PAC 응집제로 공개 소매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 83,614원 이하여야 한다(조달 평균 193,480원)."
+  },
+  {
+   "item_id": "23078706",
+   "name": "철근콘크리트용배수로관, 한산콘크리트, HS-L-1800-1, 850×1800×2000mm, 이형수로관, L형측벽",
+   "state": "available",
+   "C_krw": "878273760",
+   "Q": "2229",
+   "scorable_facts": 3,
+   "avg_unit_krw": "394021",
+   "required_B_for_5e8_krw": "169706",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "제조사 주문 생산품으로 동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 169,706원 이하여야 한다(조달 평균 394,021원)."
+  },
+  {
+   "item_id": "24914631",
+   "name": "금속제창, 경원알미늄, KW-AL-220-TM-24LEAR-11, 220mm, 미서기중중연이중창/불소수지2회",
+   "state": "available",
+   "C_krw": "876215000",
+   "Q": "56530",
+   "scorable_facts": 6,
+   "avg_unit_krw": "15500",
+   "required_B_for_5e8_krw": "6655",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 6,655원 이하여야 한다(조달 평균 15,500원)."
+  },
+  {
+   "item_id": "25202906",
+   "name": "청량음료, 코카콜라음료, 코카콜라, 250mL/캔",
+   "state": "available",
+   "C_krw": "873781120",
+   "Q": "1365283",
+   "scorable_facts": 235,
+   "avg_unit_krw": "640",
+   "required_B_for_5e8_krw": "274",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "market_price_too_high",
+   "note": "코카콜라 250mL 캔은 필요한 274원 이하 일반 판매가가 없다(소매는 캔당 500원 이상). 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 274원 이하여야 한다(조달 평균 640원)."
+  },
+  {
+   "item_id": "22865367",
+   "name": "덱플레이트, 다스코, F12085, 600×90~270×0.5mm, 상부근1-HD12/하부근2-HD8/래티스Φ5",
+   "state": "available",
+   "C_krw": "871557618",
+   "Q": "40986",
+   "scorable_facts": 15,
+   "avg_unit_krw": "21265",
+   "required_B_for_5e8_krw": "9065",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "주문 생산 덱플레이트로 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 9,065원 이하여야 한다(조달 평균 21,265원)."
+  },
+  {
+   "item_id": "24561036",
+   "name": "금속제창, 위드플러스에스, WPS-AF160H-D01, 160mm, 히든커튼월/불소수지2회",
+   "state": "available",
+   "C_krw": "868586257",
+   "Q": "61804",
+   "scorable_facts": 10,
+   "avg_unit_krw": "14054",
+   "required_B_for_5e8_krw": "5964",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 5,964원 이하여야 한다(조달 평균 14,054원)."
+  },
+  {
+   "item_id": "25942807",
+   "name": "바닥형보행신호등, 이티엑스, ITS-FTSD1, 표출부",
+   "state": "available",
+   "C_krw": "866810000",
+   "Q": "2627",
+   "scorable_facts": 5,
+   "avg_unit_krw": "329962",
+   "required_B_for_5e8_krw": "139631",
+   "delivery_terms": [
+    "납품장소 하차도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "등재 인도조건에 현장설치도가 포함돼 있고, 설치를 포함한 동일 모델 일반 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 139,631원 이하여야 한다(조달 평균 329,962원)."
+  },
+  {
+   "item_id": "25252391",
+   "name": "알가공품, 조인, 조인깐메추리알, 1kg, 알가열제품",
+   "state": "available",
+   "C_krw": "865185200",
+   "Q": "126860",
+   "scorable_facts": 322,
+   "avg_unit_krw": "6820",
+   "required_B_for_5e8_krw": "2879",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "market_price_too_high",
+   "note": "깐메추리알 1kg의 소매가는 필요한 2,879원보다 높다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 2,879원 이하여야 한다(조달 평균 6,820원)."
+  },
+  {
+   "item_id": "23978254",
+   "name": "인조잔디, 에코그라운드, EG20, t20mm",
+   "state": "claimed",
+   "C_krw": null,
+   "Q": null,
+   "scorable_facts": null,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": null,
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "not_available",
+   "note": "lookup 상태가 claimed이라 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "24100063",
+   "name": "상업용오븐, 코스티모, HSO-122E4, 전기식, 1232×1016×1483mm",
+   "state": "claimed",
+   "C_krw": null,
+   "Q": null,
+   "scorable_facts": null,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": null,
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "not_available",
+   "note": "lookup 상태가 claimed이라 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "25268559",
+   "name": "영상감시장치, 이노뎁, ICD-1S145, 중앙감시시스템",
+   "state": "available",
+   "C_krw": "859883000",
+   "Q": "19",
+   "scorable_facts": 13,
+   "avg_unit_krw": "45257000",
+   "required_B_for_5e8_krw": "18941210",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 18,941,210원 이하여야 한다(조달 평균 45,257,000원)."
+  },
+  {
+   "item_id": "21738212",
+   "name": "가로등 자동점멸기, 가보테크, NAGP-400SMP, 이미지형, 양방향, 주물지주",
+   "state": "claimed",
+   "C_krw": null,
+   "Q": null,
+   "scorable_facts": null,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": null,
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "not_available",
+   "note": "lookup 상태가 claimed이라 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "24207244",
+   "name": "PTFE막구조물, 엠테크, MT1-03, 20×5×4m, 1변지지",
+   "state": "available",
+   "C_krw": "855570000",
+   "Q": "1805",
+   "scorable_facts": 2,
+   "avg_unit_krw": "474000",
+   "required_B_for_5e8_krw": "196992",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 196,992원 이하여야 한다(조달 평균 474,000원)."
+  },
+  {
+   "item_id": "25270990",
+   "name": "낙석방지책, 유일산업, YI-NS-3030NX, W3000×H3000mm, 낙석방지망, 비포켓식",
+   "state": "claimed",
+   "C_krw": null,
+   "Q": null,
+   "scorable_facts": null,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": null,
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "not_available",
+   "note": "lookup 상태가 claimed이라 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "26161319",
+   "name": "영상감시장치, 탄탄코어, TAC-OA6081RG03(TAC-OA6081RG), 옥외(방법)감시시스템",
+   "state": "available",
+   "C_krw": "852403200",
+   "Q": "134",
+   "scorable_facts": 2,
+   "avg_unit_krw": "6361218",
+   "required_B_for_5e8_krw": "2629875",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 2,629,875원 이하여야 한다(조달 평균 6,361,218원)."
+  },
+  {
+   "item_id": "25814064",
+   "name": "무기응집제, 고도화학, KDPACS1060, 산화알루미늄10~12% 폴리수산화염화규산알루미늄",
+   "state": "available",
+   "C_krw": "851568300",
+   "Q": "4537",
+   "scorable_facts": 2,
+   "avg_unit_krw": "187694",
+   "required_B_for_5e8_krw": "77489",
+   "delivery_terms": [
+    "수요기관 탱크주입도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "탱크로리 주입 조건의 PACS 응집제로 공개 소매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 77,489원 이하여야 한다(조달 평균 187,694원)."
+  },
+  {
+   "item_id": "24530994",
+   "name": "햄류, 코주부비앤에프, 코주부슬라이스햄, 500g",
+   "state": "available",
+   "C_krw": "850639180",
+   "Q": "174923",
+   "scorable_facts": 249,
+   "avg_unit_krw": "4863",
+   "required_B_for_5e8_krw": "2005",
+   "delivery_terms": [
+    "납품장소차상도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_identical_or_better",
+   "note": "기존 조사 재사용: 500g 정확 포장이 없고, 1kg 제품 가격도 필요한 2,005원/500g보다 높다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 2,005원 이하여야 한다(조달 평균 4,863원)."
+  },
+  {
+   "item_id": "23487601",
+   "name": "금속기둥, 가스코, GAS-PO350, 350×350×12×19mm, 방음벽지주용",
+   "state": "available",
+   "C_krw": "849816500",
+   "Q": "2938",
+   "scorable_facts": 1,
+   "avg_unit_krw": "289250",
+   "required_B_for_5e8_krw": "119066",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "market_price_too_high",
+   "note": "H형강 350×350×12×19(약 137kg/m)는 일반 강재 시세로도 필요한 119,066원/m를 넘고, 원품은 방음벽 지주용 가공품이다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 119,066원 이하여야 한다(조달 평균 289,250원)."
+  },
+  {
+   "item_id": "25636193",
+   "name": "금속제창, 경화창호산업, AL-KH150-43T, 150mm, 커튼월/불소수지 2회",
+   "state": "available",
+   "C_krw": "849137789",
+   "Q": "56435",
+   "scorable_facts": 17,
+   "avg_unit_krw": "15046",
+   "required_B_for_5e8_krw": "6187",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 6,187원 이하여야 한다(조달 평균 15,046원)."
+  },
+  {
+   "item_id": "25063224",
+   "name": "인조잔디, 스포테크, SGT35, t35mm, 충전재",
+   "state": "claimed",
+   "C_krw": null,
+   "Q": null,
+   "scorable_facts": null,
+   "avg_unit_krw": null,
+   "required_B_for_5e8_krw": null,
+   "delivery_terms": null,
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "not_available",
+   "note": "lookup 상태가 claimed이라 신규 점수 대상이 아니다."
+  },
+  {
+   "item_id": "24834148",
+   "name": "원격자동검침시스템, 유솔, USH-A001-01, 원격검침단말기/LTE-Cat.M1",
+   "state": "available",
+   "C_krw": "847216000",
+   "Q": "298",
+   "scorable_facts": 36,
+   "avg_unit_krw": "2843007",
+   "required_B_for_5e8_krw": "1165154",
+   "delivery_terms": [
+    "납품장소도",
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "등재 인도조건에 현장설치도가 포함돼 있고, 설치를 포함한 동일 모델 일반 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 1,165,154원 이하여야 한다(조달 평균 2,843,007원)."
+  },
+  {
+   "item_id": "24030825",
+   "name": "철제도로중앙분리대, 가스코, DA-BR-SB4M, W2000×H625mm, SB4등급, 도금",
+   "state": "available",
+   "C_krw": "846228900",
+   "Q": "5240",
+   "scorable_facts": 7,
+   "avg_unit_krw": "161494",
+   "required_B_for_5e8_krw": "66074",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "no_public_price",
+   "note": "등급 인증 방호시설로 동일 모델 공개 판매가가 없다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 66,074원 이하여야 한다(조달 평균 161,494원)."
+  },
+  {
+   "item_id": "24827859",
+   "name": "PVF막구조물, 동아스트, DAM-08P, 5×5×5m, 1변지지",
+   "state": "available",
+   "C_krw": "844696000",
+   "Q": "2252",
+   "scorable_facts": 7,
+   "avg_unit_krw": "375087",
+   "required_B_for_5e8_krw": "153062",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 153,062원 이하여야 한다(조달 평균 375,087원)."
+  },
+  {
+   "item_id": "23175892",
+   "name": "금속제창, 한빛글로벌, DOW150-CAW+PJ, 150mm, 단열커튼월+단열프로젝트/불소수지2회",
+   "state": "available",
+   "C_krw": "842450267",
+   "Q": "63576",
+   "scorable_facts": 2,
+   "avg_unit_krw": "13251",
+   "required_B_for_5e8_krw": "5386",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 5,386원 이하여야 한다(조달 평균 13,251원)."
+  },
+  {
+   "item_id": "25717740",
+   "name": "전지형에너지저장장치(BESS), 이앤에이치, EH-ESS-P200-Liq800(OD), 200kW",
+   "state": "available",
+   "C_krw": "842136000",
+   "Q": "1",
+   "scorable_facts": 1,
+   "avg_unit_krw": "842136000",
+   "required_B_for_5e8_krw": "342136000",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 342,136,000원 이하여야 한다(조달 평균 842,136,000원)."
+  },
+  {
+   "item_id": "24998754",
+   "name": "개인용온열기, 세라젬, CGM MB-2301, 724×2044×431mm",
+   "state": "available",
+   "C_krw": "841050000",
+   "Q": "184",
+   "scorable_facts": 132,
+   "avg_unit_krw": "4570924",
+   "required_B_for_5e8_krw": "1853532",
+   "delivery_terms": [
+    "납품장소 하차도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "market_price_too_high",
+   "note": "CGM MB-2301은 세라젬 마스터 V7이다. 공개 단서는 렌탈 월 74,900원과 당근 중고 2,600,000원뿐이며, 신품 일반가는 필요한 1,853,532원보다 훨씬 높다. 중고가는 근거로 쓰지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 1,853,532원 이하여야 한다(조달 평균 4,570,924원)."
+  },
+  {
+   "item_id": "23679591",
+   "name": "기타막구조물, 더블앤, TA-ECM2, 15.36×12.4×9.2m, 2변지지",
+   "state": "available",
+   "C_krw": "839736000",
+   "Q": "1926",
+   "scorable_facts": 1,
+   "avg_unit_krw": "436000",
+   "required_B_for_5e8_krw": "176395",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 176,395원 이하여야 한다(조달 평균 436,000원)."
+  },
+  {
+   "item_id": "25208320",
+   "name": "금속제창, 일광, IG-SL-227D-4V, 227mm, 미서기중중연이중창/불소수지2회",
+   "state": "available",
+   "C_krw": "836800077",
+   "Q": "58264",
+   "scorable_facts": 4,
+   "avg_unit_krw": "14362",
+   "required_B_for_5e8_krw": "5781",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 5,781원 이하여야 한다(조달 평균 14,362원)."
+  },
+  {
+   "item_id": "25914196",
+   "name": "영상감시장치, 홍석, HS-CGSB05, 방범감시시스템",
+   "state": "available",
+   "C_krw": "835170000",
+   "Q": "21",
+   "scorable_facts": 13,
+   "avg_unit_krw": "39770000",
+   "required_B_for_5e8_krw": "15960476",
+   "delivery_terms": [
+    "현장설치도"
+   ],
+   "best_retail_url": null,
+   "best_retail_price_krw": null,
+   "verdict": "installed_price",
+   "note": "조달 단가가 현장설치도 조건이다. 설치를 포함한 일반 판매가가 없어 자재·장비 단독 판매가와 비교하지 않는다. 5억 원과 가격차 기준을 함께 넘으려면 시중 단가가 15,960,476원 이하여야 한다(조달 평균 39,770,000원)."
+  }
+ ]
+}
