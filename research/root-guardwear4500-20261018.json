@@ -1,0 +1,34 @@
+{
+ "item_id": "23226259",
+ "name": "화학물질보호복, 엠텍에스티에스, GuardWear 4500",
+ "date": "2026-10-18",
+ "owner": "root",
+ "official": {
+  "C_krw": 1971923800,
+  "Q": 256094,
+  "unit": "벌",
+  "unit_price_krw": 7700,
+  "tax_basis": "vat_included",
+  "listing_id": "002170313_1080000002",
+  "delivery_terms": "납품장소도",
+  "certifications": [
+   "우수조달물품",
+   "국민안전물품"
+  ],
+  "max_B_for_500M_krw": 5747
+ },
+ "original_spec": {
+  "source": "https://i-dandi.co.kr/goods/goods_view.php?goodsNo=1000000595 (browser-read work/guardwear/dandi-gw4500.json)",
+  "fabric": "SF 55g 스펀본드 + 통기성필름(투습방수 기능층)",
+  "cert": "산업안전공단 전신보호복 5형식·6형식(인증번호 15-AV2CX-0140)",
+  "features": "투웨이 지퍼, 바운드 솔기, 손목 시보리, 이중 지퍼 덮개, 실링 테이프",
+  "retail_same_model": "단디몰 16,000원/벌, 다나와 25벌 311,300원(12,452원/벌) — 조달가 7,700원보다 높음"
+ },
+ "substitute_scan": {
+  "source": "다나와 낮은가격순 검색 '보호복 4형식', '레벨D 보호복 KCs', '3형식 보호복' (work/guardwear/dsearch-*.json)",
+  "type4_or_higher_cheapest": "애니가드 J530 4형식 18,900원, 켐맥스 3·4형식 28,000원+배송, 크린가드 A72 4형식 32,990원+배송, 타이켐C 33,520원+배송 — 모두 5,747원 상한의 3배 이상",
+  "type56_under_cap": "크린가드 A40 4,740원(1개, 배송 별도), 안셀 MG1500 5,860원+3,000원, 애니가드 J200 SMS 5,030원+3,000원, 3M 4510 5,400원 — 같은 5·6형식이며 바운드 솔기·실링 테이프가 없거나 미확인이고 SMS 제품은 필름 차단층이 없어 원품보다 분명히 우수하지 않음"
+ },
+ "verdict": "no_better_substitute",
+ "decision": "원품보다 형식 범위가 넓은(4형식 이상) KCs 보호복의 최저 판매가가 18,900원으로 상한 5,747원의 3배를 넘는다. 상한 이하 제품은 모두 같은 5·6형식이며 솔기·지퍼 구성이 원품보다 낮거나 같아 사용자 기준(대체품은 분명히 우수)에 맞지 않는다. 동일 모델은 시중가가 조달가보다 비싸다. 접수하지 않는다."
+}
