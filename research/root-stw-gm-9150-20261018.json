@@ -1,0 +1,33 @@
+{
+ "item_id": "23950703",
+ "name": "샌드위치패널, 에스와이테크, STW-GM-9150, 1000×900×150mm",
+ "date": "2026-10-18",
+ "owner": "root",
+ "official": {
+  "C_krw": 1080584988,
+  "Q": 8923,
+  "unit": "㎡",
+  "unit_price_krw": 121100,
+  "delivery_terms": "납품장소차상도",
+  "max_B_for_500M_krw": 65066
+ },
+ "original": "우수조달물품 2021088 메탈패널(평판 외장, 미관 용도 명시): 외판 0.8T·내판 0.5T 아연도금강판, 글라스울 45~52K 150T, 특허 브래킷(10-2060317)·부틸고무·실링테이프 이음, ASTM E331 수밀 720Pa, K마크 PF12020-143.",
+ "options": [
+  {
+   "url": "https://bidnbee.com/shop/1712625434",
+   "product": "그라스울 48K 불연 메탈판넬(가공) 150T 0.8T×0.5T",
+   "price_krw_per_m": 54250,
+   "saving_if_used_krw": 596512238,
+   "assessment": "원품과 동등 규격(더 좋지 않음). 이음 수밀 성능 미입증."
+  },
+  {
+   "url": "https://bidnbee.com/shop/1675903985",
+   "product": "GW48 내화1시간 외벽 500골웨이브 판넬 200T 0.8T×0.5T",
+   "price_krw_per_m": 51370,
+   "saving_if_used_krw": 622210478,
+   "assessment": "단열 두께·내화 표시는 우수하나 평판이 아닌 웨이브 형상(외관 상이), 특허 이음·수밀 시험 없음 → 분명히 우수하다고 볼 수 없음."
+  }
+ ],
+ "verdict": "no_clearly_better_substitute",
+ "decision": "사용자 확인(2026-10-18): 외벽 마감재의 핵심인 이음 방수 성능과 외관이 원품보다 못하거나 달라 접수하지 않는다."
+}
