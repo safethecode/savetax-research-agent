@@ -1,0 +1,738 @@
+{
+  "created_at_utc": "2026-10-19T20:36:18.907098+00:00",
+  "scope": "현재 채팅의600억 원 신규 고액 탐색과 기존 접수 유지. 날짜가 지난Oct16 세 번의 한도를 현재로 넘기지 않는다. 공유 다른 채팅의감사/revision·1000억 목표·하한 완화 권한을 이관하지 않았다.",
+  "manifest_version": "a2edc57482d9cee1f04e",
+  "account_snapshot": {
+    "accepted_count": 62,
+    "accepted_expected_competition_saving_krw": 33249617344,
+    "goal_krw": 60000000000,
+    "remaining_goal_krw": 26750382656,
+    "claims_today": 0,
+    "remaining": {
+      "claims_per_day": 50,
+      "claims_total": 35,
+      "counterevidence": null,
+      "revisions": null,
+      "upload_bytes": 20971520
+    },
+    "adjudicated_saving_krw": null,
+    "actual_budget_saving_krw": null
+  },
+  "lookup_observations": [
+    {
+      "input": "242130571_1120000006",
+      "kind": "listing",
+      "item_id": "24258696",
+      "state": "claimed",
+      "message": "등재번호 242130571_1120000006는 물품번호 24258696로 바뀌어 판단합니다 — 다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)",
+      "observed_at_utc": "2026-10-19T20:31:27.720042+00:00",
+      "source_file": "lookup-total10.json"
+    },
+    {
+      "input": "R26TA01981393000000004",
+      "kind": "listing",
+      "item_id": "26316955",
+      "state": "available",
+      "message": "등재번호 R26TA01981393000000004는 물품번호 26316955로 바뀌어 판단합니다 — 등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)",
+      "observed_at_utc": "2026-10-19T20:31:27.720042+00:00",
+      "source_file": "lookup-total10.json"
+    },
+    {
+      "input": "002270354_1140000243",
+      "kind": "listing",
+      "item_id": "24867744",
+      "state": "claimed",
+      "message": "등재번호 002270354_1140000243는 물품번호 24867744로 바뀌어 판단합니다 — 다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)",
+      "observed_at_utc": "2026-10-19T20:31:27.720042+00:00",
+      "source_file": "lookup-total10.json"
+    },
+    {
+      "input": "002162705_1070000013",
+      "kind": "listing",
+      "item_id": "25427651",
+      "state": "available",
+      "message": "등재번호 002162705_1070000013는 물품번호 25427651로 바뀌어 판단합니다 — 등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)",
+      "observed_at_utc": "2026-10-19T20:31:27.720042+00:00",
+      "source_file": "lookup-total10.json"
+    },
+    {
+      "input": "0024C0146_1010000001",
+      "kind": "listing",
+      "item_id": "22772690",
+      "state": "available",
+      "message": "등재번호 0024C0146_1010000001는 물품번호 22772690로 바뀌어 판단합니다 — 등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)",
+      "observed_at_utc": "2026-10-19T20:31:27.720042+00:00",
+      "source_file": "lookup-total10.json"
+    },
+    {
+      "input": "0024E0224_1020000037",
+      "kind": "listing",
+      "item_id": "24200335",
+      "state": "on_hold",
+      "message": "등재번호 0024E0224_1020000037는 물품번호 24200335로 바뀌어 판단합니다 — 운영진이 반려한 물품이라 2026-10-20 16:19(한국 시각)까지 등록할 수 없습니다 — 그 뒤에 다시 확인하세요",
+      "hold_until": "2026-10-20T07:18:11.146Z",
+      "observed_at_utc": "2026-10-19T20:31:27.720042+00:00",
+      "source_file": "lookup-total10.json"
+    },
+    {
+      "input": "R26TA01981393000000001",
+      "kind": "listing",
+      "item_id": "26316952",
+      "state": "available",
+      "message": "등재번호 R26TA01981393000000001는 물품번호 26316952로 바뀌어 판단합니다 — 등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)",
+      "observed_at_utc": "2026-10-19T20:31:27.720042+00:00",
+      "source_file": "lookup-total10.json"
+    },
+    {
+      "input": "R25TA01128093010000062",
+      "kind": "listing",
+      "item_id": "25376337",
+      "state": "available",
+      "message": "등재번호 R25TA01128093010000062는 물품번호 25376337로 바뀌어 판단합니다 — 등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)",
+      "observed_at_utc": "2026-10-19T20:31:27.720042+00:00",
+      "source_file": "lookup-total10.json"
+    },
+    {
+      "input": "R26TA01981474000000002",
+      "kind": "listing",
+      "item_id": "26316957",
+      "state": "available",
+      "message": "등재번호 R26TA01981474000000002는 물품번호 26316957로 바뀌어 판단합니다 — 등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)",
+      "observed_at_utc": "2026-10-19T20:31:27.720042+00:00",
+      "source_file": "lookup-total10.json"
+    },
+    {
+      "input": "002270140_1040000001",
+      "kind": "listing",
+      "item_id": "24196869",
+      "state": "on_hold",
+      "message": "등재번호 002270140_1040000001는 물품번호 24196869로 바뀌어 판단합니다 — 운영진이 반려한 물품이라 2026-10-21 01:19(한국 시각)까지 등록할 수 없습니다 — 그 뒤에 다시 확인하세요",
+      "hold_until": "2026-10-20T16:18:23.898Z",
+      "observed_at_utc": "2026-10-19T20:31:27.720042+00:00",
+      "source_file": "lookup-total10.json"
+    },
+    {
+      "input": "002270140_1040000010",
+      "kind": "listing",
+      "item_id": "24196869",
+      "state": "on_hold",
+      "message": "등재번호 002270140_1040000010는 물품번호 24196869로 바뀌어 판단합니다 — 운영진이 반려한 물품이라 2026-10-21 01:19(한국 시각)까지 등록할 수 없습니다 — 그 뒤에 다시 확인하세요",
+      "hold_until": "2026-10-20T16:18:23.898Z",
+      "observed_at_utc": "2026-10-19T20:31:27.720042+00:00",
+      "source_file": "lookup-total10.json"
+    },
+    {
+      "input": "002370088_1050000002",
+      "kind": "listing",
+      "item_id": "23938319",
+      "state": "on_hold",
+      "message": "등재번호 002370088_1050000002는 물품번호 23938319로 바뀌어 판단합니다 — 운영진이 반려한 물품이라 2026-10-20 22:18(한국 시각)까지 등록할 수 없습니다 — 그 뒤에 다시 확인하세요",
+      "hold_until": "2026-10-20T13:17:51.885Z",
+      "observed_at_utc": "2026-10-19T20:31:27.720042+00:00",
+      "source_file": "lookup-total10.json"
+    },
+    {
+      "input": "R26TA01914794010001383",
+      "kind": "listing",
+      "item_id": "24653638",
+      "state": "available",
+      "message": "등재번호 R26TA01914794010001383는 물품번호 24653638로 바뀌어 판단합니다 — 등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)",
+      "observed_at_utc": "2026-10-19T20:31:27.720042+00:00",
+      "source_file": "lookup-total10.json"
+    },
+    {
+      "input": "R26TA02111010010000016",
+      "kind": "listing",
+      "item_id": "23734462",
+      "state": "on_hold",
+      "message": "등재번호 R26TA02111010010000016는 물품번호 23734462로 바뀌어 판단합니다 — 운영진이 반려한 물품이라 2026-10-20 07:24(한국 시각)까지 등록할 수 없습니다 — 그 뒤에 다시 확인하세요",
+      "hold_until": "2026-10-19T22:23:27.922Z",
+      "observed_at_utc": "2026-10-19T20:31:27.720042+00:00",
+      "source_file": "lookup-total10.json"
+    },
+    {
+      "input": "002370252_1010000001",
+      "kind": "listing",
+      "item_id": "24301620",
+      "state": "claimed",
+      "message": "등재번호 002370252_1010000001는 물품번호 24301620로 바뀌어 판단합니다 — 다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)",
+      "observed_at_utc": "2026-10-19T20:31:27.720042+00:00",
+      "source_file": "lookup-total10.json"
+    }
+  ],
+  "direct_discovery": {
+    "url": "https://savetax.now/search?page=10&sort=delivery_total&scope=flagged",
+    "observed_listing_links": 20,
+    "lookup_listing_inputs": 15,
+    "unique_item_ids": 14,
+    "input_states": {
+      "claimed": 3,
+      "available": 7,
+      "on_hold": 5
+    },
+    "owner_handoffs": {
+      "owner1": [
+        "26316952",
+        "22772690"
+      ],
+      "owner3": [
+        "26316957",
+        "26316955",
+        "24653638"
+      ],
+      "existing_SKY_evidence_preserved": "25376337"
+    },
+    "not_retail_verification": "상태 조회·SaveTax 통계 추정·로컬 금액 순위는 실제 판매가 검증과 구별한다. claimed는 새 판매조사를 중단하고 on_hold는기한 전 재조회·접수하지 않는다.",
+    "excluded_before_lookup": [
+      "소프트웨어",
+      "차량·전차종 공용 패키지",
+      "차량 부착 모래살포기"
+    ]
+  },
+  "records": [
+    {
+      "item_id": "25427651",
+      "owner_slot": 0,
+      "model": "캐니샷광견병미끼백신",
+      "manufacturer": "(주)중앙백신연구소",
+      "state_at_observation": "available",
+      "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25427651",
+      "stage": "manufacturer_exact_item_mapping_and_120_unit_box_verified_general_retail_price_unverified",
+      "official_C_krw": "1410045120",
+      "official_Q": "3788",
+      "scorable_fact_count": 27,
+      "unique_request_count": 27,
+      "related_references": [
+        {
+          "fact_id": "dl:25427651:002162705_1:R25TB01038689:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R25TB01038689",
+          "line_no": "1",
+          "quantity": "2",
+          "comparable_amount_krw": "744480",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R25TB01049465:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R25TB01049465",
+          "line_no": "1",
+          "quantity": "135",
+          "comparable_amount_krw": "50252400",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R25TB01072356:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R25TB01072356",
+          "line_no": "1",
+          "quantity": "38",
+          "comparable_amount_krw": "14145120",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R25TB01094388:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R25TB01094388",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "372240",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R25TB01096299:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R25TB01096299",
+          "line_no": "1",
+          "quantity": "444",
+          "comparable_amount_krw": "165274560",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R25TB01274388:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R25TB01274388",
+          "line_no": "1",
+          "quantity": "3",
+          "comparable_amount_krw": "1116720",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R25TB01326428:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R25TB01326428",
+          "line_no": "1",
+          "quantity": "3",
+          "comparable_amount_krw": "1116720",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R26TB01464299:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R26TB01464299",
+          "line_no": "1",
+          "quantity": "150",
+          "comparable_amount_krw": "55836000",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R26TB01590267:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R26TB01590267",
+          "line_no": "1",
+          "quantity": "444",
+          "comparable_amount_krw": "165274560",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R26TB01596727:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R26TB01596727",
+          "line_no": "1",
+          "quantity": "20",
+          "comparable_amount_krw": "7444800",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R26TB01619446:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R26TB01619446",
+          "line_no": "1",
+          "quantity": "330",
+          "comparable_amount_krw": "122839200",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R26TB01667132:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R26TB01667132",
+          "line_no": "1",
+          "quantity": "150",
+          "comparable_amount_krw": "55836000",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R26TB01680285:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R26TB01680285",
+          "line_no": "1",
+          "quantity": "75",
+          "comparable_amount_krw": "27918000",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R26TB01701801:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R26TB01701801",
+          "line_no": "1",
+          "quantity": "30",
+          "comparable_amount_krw": "11167200",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R26TB01719073:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R26TB01719073",
+          "line_no": "1",
+          "quantity": "444",
+          "comparable_amount_krw": "165274560",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R26TB01737992:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R26TB01737992",
+          "line_no": "1",
+          "quantity": "33",
+          "comparable_amount_krw": "12283920",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R26TB01738103:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R26TB01738103",
+          "line_no": "1",
+          "quantity": "135",
+          "comparable_amount_krw": "50252400",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R26TB01762558:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R26TB01762558",
+          "line_no": "1",
+          "quantity": "75",
+          "comparable_amount_krw": "27918000",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R26TB01798338:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R26TB01798338",
+          "line_no": "1",
+          "quantity": "12",
+          "comparable_amount_krw": "4466880",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R26TB01821294:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R26TB01821294",
+          "line_no": "1",
+          "quantity": "252",
+          "comparable_amount_krw": "93804480",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R26TB01904786:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R26TB01904786",
+          "line_no": "1",
+          "quantity": "36",
+          "comparable_amount_krw": "13400640",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R26TB02103964:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R26TB02103964",
+          "line_no": "1",
+          "quantity": "1",
+          "comparable_amount_krw": "372240",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R26TB02246757:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R26TB02246757",
+          "line_no": "1",
+          "quantity": "330",
+          "comparable_amount_krw": "122839200",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R26TB02264502:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R26TB02264502",
+          "line_no": "1",
+          "quantity": "12",
+          "comparable_amount_krw": "4466880",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R26TB02298392:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R26TB02298392",
+          "line_no": "1",
+          "quantity": "162",
+          "comparable_amount_krw": "60302880",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R26TB02324764:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R26TB02324764",
+          "line_no": "1",
+          "quantity": "27",
+          "comparable_amount_krw": "10050480",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        },
+        {
+          "fact_id": "dl:25427651:002162705_1:R26TB02331332:1",
+          "listing_id": "002162705_1070000013",
+          "contract_no": "002162705_1",
+          "request_no": "R26TB02331332",
+          "line_no": "1",
+          "quantity": "444",
+          "comparable_amount_krw": "165274560",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "comparison_basis_id": "basis:개:vat_included"
+        }
+      ],
+      "original_catalog": {
+        "listing_id": "002162705_1070000013",
+        "supplier": {
+          "id": "CN0100000715070",
+          "name": "주식회사 씨에이파마",
+          "type": "중소기업",
+          "businessNo": "1378702204"
+        },
+        "model": "캐니샷광견병미끼백신",
+        "spec": "120두분/상자",
+        "unit": "개",
+        "delivery_terms": "납품장소 입고도",
+        "synonyms": "120개||제조 후 냉동(-20±5℃) 보관/출하 후 유통시 냉장(5±3℃) 보관||접종대상:모든일령의 야생너구리||유효기간: 제조 후 냉동보관시 제조일로부터 15개월||출하 후 냉장보관시 유통개시일부터 2개월||저장방법:제조 후 냉동보관||출하 후 냉장보관||접종대상:모든일령의 야생너구리||유효기간: 제조 후 냉동보관시 제조일로부터 15개월||출하 후 냉장보관시 유통개시일부터 2개월||저장방법:제조 후 ||야생너구리에 광견병 중화항체가 형성을 통한 광견병바이러스 감염 저감||생물학적제제||살포||백신||중앙백신연구소||캐니샷광견병미끼백신||120두분/상자||백신||동물용의약품||동물 1마리 당 백신 1개 이상 섭취하면 유효하다||노란백색의 액상제제이며 이물 및 이취가 없고 소분된 내용물의 성상이 균일하다||광견병바이러스(RV) ERAGS주(사독)-----10^5.0 TCID50 이상||L-아스파라긴 등||120두분/상자",
+        "catalog_price_not_general_price_krw": "372240",
+        "attachments_read_this_pass": false
+      },
+      "actual_manufacturer_detail": {
+        "url": "https://www.cavaclab.com/kor/Products/product-view.html?id=44&top=industry",
+        "model": "캐니샷 광견병 미끼백신",
+        "English_model_from_visual_license": "CaniShot RV-B",
+        "purpose": "야생너구리용 광견병 미끼백신",
+        "physical_pack_quantity": 120,
+        "physical_pack_unit": "개/박스",
+        "maker_storage_statement": "제조 후 냉동 -20±5℃, 유통 시 냉장 5±3℃",
+        "general_price_krw": null,
+        "VAT": null,
+        "shipping": null,
+        "purchase_availability": null
+      },
+      "visual_primary_mapping": {
+        "license": "제013-238호 / CaniShot RV-B / 최초허가2023-11-21",
+        "pamphlet_cover_item_id": "25427651",
+        "pages_read": [
+          "부표1·2쪽",
+          "품목허가증1쪽",
+          "팜플렛1쪽"
+        ],
+        "unread_pages": 5,
+        "full_visual_validation": false
+      },
+      "physical_unit_note": "공식 fact 단위 개는 그대로 보존한다. 조달 규격120두분/상자와 제조사120개/박스가 대응하며, 낱개1두분의 판매가가 발견되어도 상자 가격처럼 쓰지 않는다. 현재는 판매가가 없어 어떤 B 환산도 채택하지 않았다.",
+      "spec_conflict": "API synonyms는 ERAGS주(사독)로 기록하지만 현행 제조사 원문·부표1쪽은 ERAGS-GFP/생독, 팜플렛 표지도 생독백신이다. 이 불일치를 임의로 수정하지 않는다. 같은 물품번호는 팜플렛에서 확인했으나 역사적 계약 규격의 사독/생독 원문까지 새로 검증한 상태는 아니다.",
+      "nonidentical_distributor_read": {
+        "url": "https://www.kvma.or.kr/hansu/goods06",
+        "actual_model": "캐니샷 RV-K",
+        "pack": "1두분×10병",
+        "purpose_difference": "개·고양이·소용 불활화 주사형 백신으로 야생너구리 미끼백신과 다르다.",
+        "general_price_krw": null,
+        "adopted": false
+      },
+      "finding": "제조사 제품 상세·품목허가증·팜플렛에서 정확 물품번호와 RV-B·120개 박스를 새 확인했다. 일반 구매 가격과 세금·배송을 확보하지 못했다. 주사형 RV-K/RV-F, 부문 매출액·수출액·정부 계약가나 SaveTax 통계 추정가를 동일품 판매가로 대입하지 않았다. B와 검증액은 null이다.",
+      "benchmark_unit_price_krw": null,
+      "verified_saving_krw": null,
+      "ready_for_submission": false
+    }
+  ],
+  "actual_work": {
+    "root_local_over_50eok_rows": 55,
+    "prior_actual_results_reused": true,
+    "Parallel_queries": 1,
+    "general_web_queries": 9,
+    "Jev_attempts": 1,
+    "Jev_successes": 0,
+    "independent_MCP_pages_read": 5,
+    "manufacturer_PDF_downloads": 3,
+    "PDF_total_pages": 9,
+    "PDF_text_extracted_pages": 0,
+    "PDF_pages_visually_read": 4,
+    "scorable_facts": 27,
+    "verified_general_retail_prices": 0,
+    "preview_count": 0,
+    "submission_count": 0,
+    "root_owned_MCP_tabs_closed": 4
+  },
+  "source_files": [
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/bait-license-page1.png",
+      "bytes": 235419,
+      "sha256": "f59f36d4b8235041b3df96c16a20a18584d639d5e73dd5f41d488642d3d4190c"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/bait-license-read.json",
+      "bytes": 398,
+      "sha256": "325ed1c7526ed63e595abe2e9b2551806c12b7e739cf2cc84ab2bd65718d02db"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/bait-license.pdf",
+      "bytes": 2132242,
+      "sha256": "5f0a5eaa0e6e1a679ea88eaf7171f7f6dfb0958f942ccd9bcfe012a3a70d4ff5"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/bait-pamphlet-page1.png",
+      "bytes": 1247317,
+      "sha256": "801bc9b2ce2a139a629b8aa6a0c06035fdaf73d6ed79588b2459ef0578d21772"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/bait-pamphlet-read.json",
+      "bytes": 552,
+      "sha256": "3a7ba7c4577bbeb8f7a6a4efe5cace5d1cd26a44bddf1be166b4b50d5d45c829"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/bait-pamphlet.pdf",
+      "bytes": 20011714,
+      "sha256": "2f2472a6167da6235b5b0747976aac9423aa3d623f3269c8465136a01221c025"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/bait-spec-page1.png",
+      "bytes": 175970,
+      "sha256": "bb4c0d6fceab49192a23999aad02c1e78af052910dfe05e3883bc236dd40c17f"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/bait-spec-page2.png",
+      "bytes": 166407,
+      "sha256": "7706eb09f664163b6592aef6a62629986648f371f715eb27168631569531567a"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/bait-spec-read.json",
+      "bytes": 551,
+      "sha256": "69aaa1c64c34ef11c08f30e1c896ff25f218d78f3df91060662d5625fa6a760b"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/bait-spec.pdf",
+      "bytes": 5916373,
+      "sha256": "b85941c4ea2bbec09be1f39b24ec917bf77d54f85f71b7caed63fc2bee653449"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/catalog-25427651-002162705_1070000013.json",
+      "bytes": 6984,
+      "sha256": "f92bb2b6d208a1170afc1c5d2ce2caffaf9650688b9a7c9f84e5c19868b72508"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/cavac-bait-native.json",
+      "bytes": 5290,
+      "sha256": "2c84984f4d8dc5126884974446688689ffc9d4b67a14970eadc06632cc12c7df"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/cavac-home-native.json",
+      "bytes": 2893,
+      "sha256": "2eae910f4e64779b80cb43cda006c7bdbaeab71e946d16e208b3d65cbf6fae98"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/cavac-products-native.json",
+      "bytes": 27848,
+      "sha256": "df142788da450c9120d31ebca8408d466254e7b40c29ea8e111fe1091abadef4"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/data-current.md",
+      "bytes": 8740,
+      "sha256": "f8739b88eeab7833ab566f8892b764a55120ba220e00642cab659afda00a79f7"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/event-25427651.json",
+      "bytes": 18849,
+      "sha256": "d1f704df9460ea43680fc32af3d286dfca1d00eafab59e3d0ab1cc361ff59925"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/event-current.json",
+      "bytes": 930,
+      "sha256": "b9f8700e7e46187040bbfa7c85b4ad918c93776ba1c4492eee7d1ffcc1fd0f42"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/hansu-rvk-native.json",
+      "bytes": 2646,
+      "sha256": "284ffbb45b1dc53a81defffd2e5508c343f1a0559b801ac8b773c2b385c8144a"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/lookup-total10.json",
+      "bytes": 6148,
+      "sha256": "bdfa83bb8916a4d3877993fa4990e8096af3c90a676e40f60c1234ce2cb17b68"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/parallel-vaccine.json",
+      "bytes": 1673,
+      "sha256": "5a8edbea4e48576ab094f54eaa2e7e68a3701e8107b49bfaba1d49669d42abdd"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/prior-root-highvalue.json",
+      "bytes": 6265,
+      "sha256": "3b4f855cf9bf1fa6ecf12fdd5b244f71e0ead4587754d3ba967c1fb0bc31c079"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/root-highvalue-local.json",
+      "bytes": 15661,
+      "sha256": "90c0e5a4e01ec41d0446ae5f3ab256d01093dfd12909b99df6a8813de4aceb9b"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/rules-current.md",
+      "bytes": 14182,
+      "sha256": "86089be76bfe296fdf38505a2146e5e0453e4966937327c4e4c55b626f644c43"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/savetax-total10-native.json",
+      "bytes": 9795,
+      "sha256": "b26295d7f9ecc0a4f70a3a818156756e9529ca5c9f86e9baf449b061cdd338ee"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/total10-owner.json",
+      "bytes": 2259,
+      "sha256": "56d7ac39af82b1c92977ed6ec1025b8d2f220dca1135af02172166d5c75d16a1"
+    },
+    {
+      "path": "C:/Users/컴퓨터/Documents/savetax-research-agent/work/highvalue-root/resume-20261020-pass10/visual-and-execution-notes.json",
+      "bytes": 3188,
+      "sha256": "f4ee4767c4d3295a8694ce38dad7f580edd9a5b7834e135d61a6e6fc9e4f89bf"
+    }
+  ],
+  "conclusion": "정확 제품 연결과 포장·백신 유형을 새 확인했지만 일반 판매가를 확보하지 못해 신규 한도를 사용하지 않았다. 목표600억 원은 아직 달성하지 않았다."
+}
