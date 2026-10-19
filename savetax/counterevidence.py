@@ -40,9 +40,11 @@ def validate_counterevidence(body):
         raise ValueError('반증 본문은 비밀 없는 4000자 이하 문자열이어야 합니다')
     refs = body['evidence_refs']
     if (not isinstance(refs, list) or len(refs) > 8
-            or any(not isinstance(ref, str) or not ref.strip() or len(ref) > 200
-                   or TOKEN_PATTERN.search(ref) for ref in refs)):
-        raise ValueError('반증 첨부 ID는 최대 8개입니다')
+            or any(not isinstance(ref, str)
+                   or not re.fullmatch(r'[0-9a-fA-F]{8}(?:-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12}', ref)
+                   for ref in refs)
+            or len({ref.lower() for ref in refs}) != len(refs)):
+        raise ValueError('반증 첨부는 중복 없는 자산 UUID 최대 8개입니다. 출처 URL은 본문에 적습니다')
     return {'revision_no': body['revision_no'], 'body': text, 'evidence_refs': list(refs)}
 
 

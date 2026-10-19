@@ -18,6 +18,8 @@ class CounterevidenceTests(unittest.TestCase):
         for update in ({'benchmark_unit_price_krw': '1'}, {'revision_no': True},
                        {'revision_no': 0}, {'body': ' '}, {'body': '가' * 4001},
                        {'body': self.token}, {'evidence_refs': [self.token]},
+                       {'evidence_refs': ['https://example.com/source']},
+                       {'evidence_refs': ['49ad55cb-732e-4c68-92bc-a9b9c7cb8f6d'] * 2},
                        {'evidence_refs': ['asset'] * 9}):
             with self.subTest(update=update), self.assertRaises(ValueError):
                 validate_counterevidence({**self.body, **update})
