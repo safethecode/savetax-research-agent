@@ -1,0 +1,621 @@
+{
+  "title": "AOP 8T 공식 직판가격 확인 — 판재 취득비 비교 검토",
+  "prepared_at_utc": "2026-10-19T13:44:23.390749+00:00",
+  "status": "positive_product_price_evidence_scope_and_freight_review_pending",
+  "submission_ready": false,
+  "ready_for_parent_review": true,
+  "verified_expected_saving_krw": null,
+  "counts": {
+    "owner1_local_rows_at_least_5b_krw": 54,
+    "owner1_local_rows_at_least_400m_krw": 1745,
+    "new_lookup_ids": 8,
+    "new_lookup_states": {
+      "claimed": 6,
+      "available": 2
+    },
+    "parallel_queries": 5,
+    "actual_http_html_pages": 7,
+    "new_fact_references_preserved": 6,
+    "savetax_preview_calls": 0,
+    "savetax_post_calls": 0
+  },
+  "original": {
+    "item_id": "24298217",
+    "manufacturer": "주식회사 서한안타민",
+    "model": "AOP",
+    "spec": "2440×1220×8mm, HPL 표면·화이바글라스 심재·UV 필름",
+    "event_url": "https://hackathon.savetax.now/v1/events/current/items/24298217",
+    "state": "available",
+    "state_observed_at_utc": "2026-10-19T13:32:22.946715+00:00",
+    "official_quantity": "1933",
+    "unit": "㎡",
+    "tax_basis": "vat_included",
+    "official_amount_krw": "626373000",
+    "original_delivery_scope": "원규격 2.1 제원표의 현장 설치도",
+    "original_spec_sha256": "56a2095c80538390d2a79aff4eae1ba3f15936db6ebae850a36b57dbe116c1a0",
+    "revision_review": {
+      "status": "no_known_markers",
+      "scope": "hwpx_section_xml",
+      "marker_counts": {
+        "insertBegin": 0,
+        "insertEnd": 0,
+        "deleteBegin": 0,
+        "deleteEnd": 0
+      },
+      "text_policy": "revision_accept_reject_not_applied"
+    },
+    "document_review_limit": "CLI 본문 추출과 제품 단면 이미지13·14를 확인했다. no_known_markers는 최종본 승인이나 모든 도면의 시각 검토를 뜻하지 않는다.",
+    "original_component_scope": "규격서 3.1·3.2·4.2는 화이바글라스 함침 심재, 모양지/HPL 표면, UV 필름으로 된 8mm 완성 패널을 명시한다. 하부 프레임·브라켓 가격표나 현장별 시공량은 확보하지 못했다."
+  },
+  "retail_offer": {
+    "source_url": "https://antamin.shop/product/aop-exterior-panel/17/category/47/display/1/",
+    "seller": "주식회사 서한안타민 공식 쇼핑몰 안타민샵",
+    "actual_title": "AOP : 준불연 환기형 파사드 클래딩 시스템",
+    "actual_spec": "1220 X 2440 X 8T(mm), 준불연",
+    "displayed_normal_product_price_krw": 560000,
+    "physical_sale_unit": "개",
+    "pack_normalization": {
+      "physical_panels_per_sale_unit": 1,
+      "nominal_area_per_panel_sqm": "3721/1250",
+      "basis": "동일 상품 행에 1220×2440×8T와 수량 1개가 표시된다. 장당 명목 면적을 1.22m×2.44m=2.9768㎡로 계산했다. 별도 낱장/㎡ 판매 옵션은 관측하지 않았다."
+    },
+    "tax_basis": "vat_included",
+    "tax_evidence": "공개 상품 HTML의 _iPrdtPriceOrg=509091, _iPrdtPriceTax=50909 합계가 표시가 560000원과 일치한다. 화면의 VAT 포함 문구를 직접 읽었다는 뜻은 아니다.",
+    "normal_price_conditions": "카드 할인·쿠폰·포인트를 적용하지 않은 상품 판매가다.",
+    "purchase_channel": "official_online_shop",
+    "purchase_availability": {
+      "status": "available",
+      "channel": "official_online_shop",
+      "observed_at_utc": "2026-10-19T13:36:50.039423+00:00",
+      "source_url": "https://antamin.shop/product/aop-exterior-panel/17/category/47/display/1/",
+      "quote": "총 상품금액(수량) : 1,120,000원 (2개) / 바로 구매하기",
+      "basis": "같은 판매 페이지에서 실제 수량 1→2를 바꿔 합계 560000→1120000원, BUY 표시와 SOLD OUT 숨김을 확인했다. 대량 재고 확약을 의미하지 않는다."
+    },
+    "shipping": {
+      "status": "unpriced_phone_inquiry",
+      "displayed_method": "전화문의",
+      "payment_options": [
+        "주문시 결제(선결제)",
+        "수령시 결제(착불)"
+      ],
+      "guide_quote": "구매 금액별 차등 배송료 적용시 : 주문금액에 따라 배송비가 다르게 책정됩니다.",
+      "region": "전국지역(제주도 제외), 산간·도서 추가비 가능",
+      "amount_krw": null,
+      "factory_pickup_price_confirmed": false,
+      "note": "상품 합계에 운임이 포함됐다고 보지 않았다. 공장 직접 수령이나 다른 운송사의 운임을 확정 조건으로 만들지 않았다."
+    },
+    "mandatory_components_assessment": "보이는 판매품은 8T 공장 완성 AOP 판재다. 설치 하부틀·부속·시공이 560000원에 들어 있다고 주장하지 않는다. 별도 팔레트·포장비의 실제 금액은 확인되지 않아 0원으로 확정하지 않았다.",
+    "appearance_note": "공식 등록 사진은 밝은 목무늬, 판매 기본 사진은 붉은 목무늬다. 원규격은 지정된 색상이라고 하며 판매 화면에 색상 선택은 없어서 각 계약의 지정 색상 일치는 확인되지 않았다."
+  },
+  "comparison_assessment": {
+    "comparison_kind": "identical_model_and_nominal_spec_factory_panel_acquisition",
+    "manufacturer_model_size_match": {
+      "status": "verified",
+      "basis": "원규격 AOP 1220×2440×8mm, 동일 제조사 홈페이지의 SHOP 링크, 공식 몰 상품17의 AOP 및 동일 치수가 직접 연결된다."
+    },
+    "core_purpose": {
+      "status": "verified",
+      "basis": "원품과 공식 제조사 AOP 원문은 건축물 외벽 마감용 준불연 패널이라고 한다. 실내 7T·상판12T 가격을 사용하지 않았다."
+    },
+    "complete_product": {
+      "status": "verified",
+      "scope": "공장 완성 8T 패널 단품의 취득",
+      "basis": "원규격의 심재·양면 표면재·UV 필름은 완성 판재 자체의 구조이며 판매품도 동일 제조사 완성 AOP 외장패널이다. 원재료를 합산한 자작 패널 가격이 아니다."
+    },
+    "installed_scope_complete": {
+      "status": "unverified",
+      "basis": "원품은 현장 설치도이나 판매 가격의 하부 프레임·체결부·현장 가공·설치 범위와 비용은 확인되지 않았다."
+    },
+    "final_delivered_comparison": {
+      "status": "unverified",
+      "basis": "배송 금액과 설치·지정 색상·현장 재단 범위를 아직 닫지 못했으므로 전체 납품 대체비나 검증된 최종 절감액으로 채택하지 않았다."
+    }
+  },
+  "product_only_arithmetic": {
+    "status": "not_final_saving",
+    "panel_area_sqm": "3721/1250",
+    "total_panels": 651,
+    "total_purchased_nominal_area_sqm": "2422371/1250",
+    "total_product_cost_krw": 364560000,
+    "difference_before_shipping_site_work_krw": 261813000,
+    "difference_using_upward_6decimal_benchmark_krw": 261812994,
+    "rule_eligible_fact_count_before_nonproduct_costs": 6,
+    "formula": "각 fact마다 ceil(Q/2.9768)장 × 560000원. 원래 C는 comparable_amount_krw를 쓰며 unit_price×Q로 재작성하지 않는다.",
+    "limits": [
+      "현장 재단 배치와 손실은 면적 올림 외에 계산하지 않았다. 각 fact의 남는 판재를 다른 현장과 합쳐 없애지 않았다.",
+      "운임·하부 프레임·체결·가공·설치를 0원으로 확인한 계산이 아니다. 이 소계는 최종 절감액이나 심사 인정액이 아니다."
+    ]
+  },
+  "fact_references_and_calculations": [
+    {
+      "fact_id": "dl:24298217:002470219_1:R25TB01129914:1",
+      "listing_id": "002470219_1000000001",
+      "contract_no": "002470219_1",
+      "request_no": "R25TB01129914",
+      "line_no": "1",
+      "request_date": "2026-08-14",
+      "agency_name": "경상북도 구미시 선산출장소",
+      "unit": "㎡",
+      "tax_basis": "vat_included",
+      "basis_id": "basis:㎡:vat_included",
+      "comparison_basis_id": "basis:㎡:vat_included",
+      "period_kind": "none",
+      "unit_price_krw": "324000",
+      "quantity": "404",
+      "comparable_amount_krw": "130977000",
+      "scorable": true,
+      "exclusion_reasons": [],
+      "note": "요구 단가×수량(130896000)과 금액(130977000)이 다르다 — 비교 순금액은 금액 기준이다",
+      "scenario": "완성 판재 순면적 취득; 운송·현장설치·현장 재단은 미산정",
+      "physical_panels": 136,
+      "purchased_nominal_area_sqm": "253028/625",
+      "leftover_nominal_area_sqm": "528/625",
+      "product_cost_vat_included_krw": 76160000,
+      "product_cost_per_sqm_exact": "19040000/101",
+      "product_cost_per_sqm_ceil6": "188514.851486",
+      "product_only_price_gap_rule_pass": true,
+      "product_only_difference_krw": 54817000,
+      "product_only_difference_using_ceil6_krw": 54816999,
+      "unverified_nonproduct_cost_ceiling_to_keep_1_2_rule_krw": 32987500
+    },
+    {
+      "fact_id": "dl:24298217:002470219_1:R25TB01250802:1",
+      "listing_id": "002470219_1000000001",
+      "contract_no": "002470219_1",
+      "request_no": "R25TB01250802",
+      "line_no": "1",
+      "request_date": "2025-11-27",
+      "agency_name": "충청북도 괴산군",
+      "unit": "㎡",
+      "tax_basis": "vat_included",
+      "basis_id": "basis:㎡:vat_included",
+      "comparison_basis_id": "basis:㎡:vat_included",
+      "period_kind": "none",
+      "unit_price_krw": "324000",
+      "quantity": "695",
+      "comparable_amount_krw": "225180000",
+      "scorable": true,
+      "exclusion_reasons": [],
+      "scenario": "완성 판재 순면적 취득; 운송·현장설치·현장 재단은 미산정",
+      "physical_panels": 234,
+      "purchased_nominal_area_sqm": "435357/625",
+      "leftover_nominal_area_sqm": "982/625",
+      "product_cost_vat_included_krw": 131040000,
+      "product_cost_per_sqm_exact": "26208000/139",
+      "product_cost_per_sqm_ceil6": "188546.762590",
+      "product_only_price_gap_rule_pass": true,
+      "product_only_difference_krw": 94140000,
+      "product_only_difference_using_ceil6_krw": 94139999,
+      "unverified_nonproduct_cost_ceiling_to_keep_1_2_rule_krw": 56610000
+    },
+    {
+      "fact_id": "dl:24298217:002470219_1:R25TB01267865:1",
+      "listing_id": "002470219_1000000001",
+      "contract_no": "002470219_1",
+      "request_no": "R25TB01267865",
+      "line_no": "1",
+      "request_date": "2025-12-02",
+      "agency_name": "경기도 안성시",
+      "unit": "㎡",
+      "tax_basis": "vat_included",
+      "basis_id": "basis:㎡:vat_included",
+      "comparison_basis_id": "basis:㎡:vat_included",
+      "period_kind": "none",
+      "unit_price_krw": "324000",
+      "quantity": "232",
+      "comparable_amount_krw": "75168000",
+      "scorable": true,
+      "exclusion_reasons": [],
+      "scenario": "완성 판재 순면적 취득; 운송·현장설치·현장 재단은 미산정",
+      "physical_panels": 78,
+      "purchased_nominal_area_sqm": "145119/625",
+      "leftover_nominal_area_sqm": "119/625",
+      "product_cost_vat_included_krw": 43680000,
+      "product_cost_per_sqm_exact": "5460000/29",
+      "product_cost_per_sqm_ceil6": "188275.862069",
+      "product_only_price_gap_rule_pass": true,
+      "product_only_difference_krw": 31488000,
+      "product_only_difference_using_ceil6_krw": 31487999,
+      "unverified_nonproduct_cost_ceiling_to_keep_1_2_rule_krw": 18960000
+    },
+    {
+      "fact_id": "dl:24298217:002470219_1:R25TB01321223:1",
+      "listing_id": "002470219_1000000001",
+      "contract_no": "002470219_1",
+      "request_no": "R25TB01321223",
+      "line_no": "1",
+      "request_date": "2025-12-12",
+      "agency_name": "서울특별시교육청 서울특별시서부교육지원청",
+      "unit": "㎡",
+      "tax_basis": "vat_included",
+      "basis_id": "basis:㎡:vat_included",
+      "comparison_basis_id": "basis:㎡:vat_included",
+      "period_kind": "none",
+      "unit_price_krw": "324000",
+      "quantity": "374",
+      "comparable_amount_krw": "121176000",
+      "scorable": true,
+      "exclusion_reasons": [],
+      "scenario": "완성 판재 순면적 취득; 운송·현장설치·현장 재단은 미산정",
+      "physical_panels": 126,
+      "purchased_nominal_area_sqm": "234423/625",
+      "leftover_nominal_area_sqm": "673/625",
+      "product_cost_vat_included_krw": 70560000,
+      "product_cost_per_sqm_exact": "35280000/187",
+      "product_cost_per_sqm_ceil6": "188663.101605",
+      "product_only_price_gap_rule_pass": true,
+      "product_only_difference_krw": 50616000,
+      "product_only_difference_using_ceil6_krw": 50615999,
+      "unverified_nonproduct_cost_ceiling_to_keep_1_2_rule_krw": 30420000
+    },
+    {
+      "fact_id": "dl:24298217:002470219_1:R26TB02034276:1",
+      "listing_id": "002470219_1000000001",
+      "contract_no": "002470219_1",
+      "request_no": "R26TB02034276",
+      "line_no": "1",
+      "request_date": "2026-06-17",
+      "agency_name": "충청북도 옥천군",
+      "unit": "㎡",
+      "tax_basis": "vat_included",
+      "basis_id": "basis:㎡:vat_included",
+      "comparison_basis_id": "basis:㎡:vat_included",
+      "period_kind": "none",
+      "unit_price_krw": "324000",
+      "quantity": "107",
+      "comparable_amount_krw": "34668000",
+      "scorable": true,
+      "exclusion_reasons": [],
+      "scenario": "완성 판재 순면적 취득; 운송·현장설치·현장 재단은 미산정",
+      "physical_panels": 36,
+      "purchased_nominal_area_sqm": "66978/625",
+      "leftover_nominal_area_sqm": "103/625",
+      "product_cost_vat_included_krw": 20160000,
+      "product_cost_per_sqm_exact": "20160000/107",
+      "product_cost_per_sqm_ceil6": "188411.214954",
+      "product_only_price_gap_rule_pass": true,
+      "product_only_difference_krw": 14508000,
+      "product_only_difference_using_ceil6_krw": 14507999,
+      "unverified_nonproduct_cost_ceiling_to_keep_1_2_rule_krw": 8730000
+    },
+    {
+      "fact_id": "dl:24298217:002470219_1:R26TB02071839:1",
+      "listing_id": "002470219_1000000001",
+      "contract_no": "002470219_1",
+      "request_no": "R26TB02071839",
+      "line_no": "1",
+      "request_date": "2026-06-27",
+      "agency_name": "경기도 용인시",
+      "unit": "㎡",
+      "tax_basis": "vat_included",
+      "basis_id": "basis:㎡:vat_included",
+      "comparison_basis_id": "basis:㎡:vat_included",
+      "period_kind": "none",
+      "unit_price_krw": "324000",
+      "quantity": "121",
+      "comparable_amount_krw": "39204000",
+      "scorable": true,
+      "exclusion_reasons": [],
+      "scenario": "완성 판재 순면적 취득; 운송·현장설치·현장 재단은 미산정",
+      "physical_panels": 41,
+      "purchased_nominal_area_sqm": "152561/1250",
+      "leftover_nominal_area_sqm": "1311/1250",
+      "product_cost_vat_included_krw": 22960000,
+      "product_cost_per_sqm_exact": "22960000/121",
+      "product_cost_per_sqm_ceil6": "189752.066116",
+      "product_only_price_gap_rule_pass": true,
+      "product_only_difference_krw": 16244000,
+      "product_only_difference_using_ceil6_krw": 16243999,
+      "unverified_nonproduct_cost_ceiling_to_keep_1_2_rule_krw": 9710000
+    }
+  ],
+  "negative_or_skipped_results": {
+    "lookup_results": [
+      {
+        "input": "23695151",
+        "kind": "item",
+        "item_id": "23695151",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      {
+        "input": "24269517",
+        "kind": "item",
+        "item_id": "24269517",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      {
+        "input": "25796301",
+        "kind": "item",
+        "item_id": "25796301",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      {
+        "input": "24468990",
+        "kind": "item",
+        "item_id": "24468990",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      {
+        "input": "23724115",
+        "kind": "item",
+        "item_id": "23724115",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      {
+        "input": "23737268",
+        "kind": "item",
+        "item_id": "23737268",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      {
+        "input": "25175289",
+        "kind": "item",
+        "item_id": "25175289",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      {
+        "input": "24298217",
+        "kind": "item",
+        "item_id": "24298217",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      }
+    ],
+    "23737268": {
+      "model": "SGⅢ-150",
+      "state": "available",
+      "local_only_amount_krw": 1924560000,
+      "local_only_quantity": 486,
+      "catalog_url": "https://api.savetax.now/v1/items/23737268",
+      "actual_core_spec": "Φ150mm×1.0MPa, GCD450-10, 수동 수직형·소프트실 부단수·유지보수용 보조밸브 내장, 면간448mm, 접합부속 포함",
+      "read_source_url": "https://www.daepoong.net/",
+      "finding": "제조사 실제 원문은 부단수 삼중지수 밸브의 용도를 뒷받침하지만 일반 판매가가 없다. 보조밸브 없는 저가 제수밸브를 같은 완제품으로 쓰지 않았다. 공식 event facts는 새로 읽지 않았고 이 행의 C/Q는 로컬 선별 수치다."
+    }
+  },
+  "document_tool_limitations": {
+    "cli_document_attempts": 17,
+    "cli_success": 9,
+    "cli_unsupported_xml_hwpml": 8,
+    "fallback": "8개는 원본이 HWPML XML임을 확인하고 표준 XML 텍스트를 별도 work에 추출했다. CLI 성공이나 최종본 검증으로 바꾸어 기록하지 않았다.",
+    "revision_note": "HWP·수동 HWPML은 변경추적 not_assessed이며, HWPX 무마커도 최종본 승인 의미가 아니다."
+  },
+  "next_action": "공식 판재 일반가격의 긍정 근거로 보존하되 운임·현장설치 차이를 실제 자료로 확정한 뒤 부모가 접수 우선순위를 판단한다. 판매자 연락·구매·주문·장바구니·POST는 하지 않았다.",
+  "source_files": [
+    {
+      "source_url": "https://hackathon.savetax.now/v1/events/current/items/lookup",
+      "observed_at_utc": "2026-10-19T13:29:30.297412+00:00",
+      "kind": "official_lookup",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/lookup-first-four.json",
+      "bytes": 1387,
+      "sha256": "2afb4d3b3cc27e82dbb18e11369fd917f750c0bfbbee4d5b65cd77bb97aa8e8f"
+    },
+    {
+      "source_url": "https://hackathon.savetax.now/v1/events/current/items/lookup",
+      "observed_at_utc": "2026-10-19T13:30:24.540023+00:00",
+      "kind": "official_lookup",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/lookup-standard-four.json",
+      "bytes": 1295,
+      "sha256": "f926c3e700c2c2c893ed1e5529e7291ddcc70877fdbfe0b6336a1dae3fc6d026"
+    },
+    {
+      "source_url": "https://hackathon.savetax.now/v1/events/current/items/24298217",
+      "observed_at_utc": "2026-10-19T13:32:22.946715+00:00",
+      "kind": "official_full_facts",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/event-24298217.json",
+      "bytes": 5332,
+      "sha256": "bb9e6274f208af61ff6ced5b1b79b8a38d0e9515cfbd95f64398f8f491bcece8"
+    },
+    {
+      "source_url": "https://api.savetax.now/v1/items/23737268",
+      "observed_at_utc": "2026-10-19T13:31:02.604294+00:00",
+      "kind": "official_catalog",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/catalog-23737268.json",
+      "bytes": 3510,
+      "sha256": "4a06165db331fdf4d6f54ad341ea24c275ba88c3f211020b898924daf70eb9e4"
+    },
+    {
+      "source_url": "https://api.savetax.now/v1/items/24298217",
+      "observed_at_utc": "2026-10-19T13:31:18.093812+00:00",
+      "kind": "official_catalog",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/catalog-24298217.json",
+      "bytes": 2770,
+      "sha256": "bee51a62e651f2e69b6d57bfd6f152ec92358c25bcbd85a0972b92197e4f7273"
+    },
+    {
+      "source_url": "https://www.antamin.shop/",
+      "observed_at_utc": "2026-10-19T13:31:29.701138+00:00",
+      "kind": "public_http_original",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/antamin-shop-home.html",
+      "bytes": 123438,
+      "sha256": "1682d39214ddc1bf58ddc4a14f47b181fef0aa56526d40e813b3fa3c16d628e1",
+      "http_status": 200,
+      "final_url": "https://www.antamin.shop/",
+      "redirects": []
+    },
+    {
+      "source_url": "https://www.antamine.com/",
+      "observed_at_utc": "2026-10-19T13:31:30.059214+00:00",
+      "kind": "public_http_original",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/antamine-maker-home.html",
+      "bytes": 346869,
+      "sha256": "42fb02ab20243bba1071dd9f699976d264c03e391db7e34ee09a867c7c8a95bc",
+      "http_status": 200,
+      "final_url": "https://www.antamine.com/",
+      "redirects": []
+    },
+    {
+      "source_url": "https://antamin.shop/product/aop-exterior-panel/17/category/47/display/1/",
+      "observed_at_utc": "2026-10-19T13:32:01.626837+00:00",
+      "kind": "public_http_original",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/antamin-aop17.html",
+      "bytes": 133037,
+      "sha256": "496782f1678beafb5ad7ce3a90f7a160629ced8419f513d7dcdd94de557a1188",
+      "http_status": 200,
+      "final_url": "https://antamin.shop/product/aop-exterior-panel/17/category/47/display/1/",
+      "redirects": []
+    },
+    {
+      "source_url": "https://www.antamine.com/?product_cat=%ec%a4%80%eb%b6%88%ec%97%b0-%ec%99%b8%ec%9e%a5-%ed%8c%a8%eb%84%90",
+      "observed_at_utc": "2026-10-19T13:32:01.915347+00:00",
+      "kind": "public_http_original",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/antamine-exterior.html",
+      "bytes": 217914,
+      "sha256": "197f092037e2606779bb0ddb4c7b52923aecdc88806fcca932b4918d001f5f4a",
+      "http_status": 200,
+      "final_url": "https://www.antamine.com/?product_cat=%EC%A4%80%EB%B6%88%EC%97%B0-%EC%99%B8%EC%9E%A5-%ED%8C%A8%EB%84%90",
+      "redirects": []
+    },
+    {
+      "source_url": "https://www.antamine.com/?product=ah8t-2",
+      "observed_at_utc": "2026-10-19T13:32:43.493884+00:00",
+      "kind": "public_http_original",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/antamine-aop-maker.html",
+      "bytes": 244558,
+      "sha256": "0597655388821724e74378cd1cdb6a7b84fe7bcf522f0537626d7766f98e14bf",
+      "http_status": 200,
+      "final_url": "https://www.antamine.com/?product=ah8t-2",
+      "redirects": []
+    },
+    {
+      "source_url": "https://antamin.shop/shopinfo/guide.html",
+      "observed_at_utc": "2026-10-19T13:38:59.228582+00:00",
+      "kind": "public_http_original",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/antamin-shop-guide.html",
+      "bytes": 101054,
+      "sha256": "e634f76e6b3db279af920399a1a68d13a08207e6457b2432ad0f178b925ddd34",
+      "http_status": 200,
+      "final_url": "https://antamin.shop/shopinfo/guide.html",
+      "redirects": []
+    },
+    {
+      "source_url": "https://www.daepoong.net/",
+      "observed_at_utc": "2026-10-19T13:39:01.172282+00:00",
+      "kind": "public_http_original",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/daepoong-valve-home.html",
+      "bytes": 99963,
+      "sha256": "4cd08667d70202c9776695f4c9066a59a800a1434dfbad063a096d138352dc3f",
+      "http_status": 200,
+      "final_url": "https://www.daepoong.net/",
+      "redirects": []
+    },
+    {
+      "source_url": "https://antamin.shop/product/aop-exterior-panel/17/category/47/display/1/",
+      "observed_at_utc": "2026-10-19T13:32:42.003543+00:00",
+      "kind": "actual_browser_or_jev_read",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/antamin-aop17-browser.json",
+      "bytes": 3290,
+      "sha256": "c75a5b882c3ecc562d0e5c8ae4b27e9abb4e5904a85920c0cbccc3437b242c60"
+    },
+    {
+      "source_url": "https://antamin.shop/product/aop-exterior-panel/17/category/47/display/1/",
+      "observed_at_utc": "2026-10-19T13:33:47.744146+00:00",
+      "kind": "actual_browser_or_jev_read",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/antamin-aop17-dom.json",
+      "bytes": 22741,
+      "sha256": "48411ed9664049d54b0fe15f882c7d8f50b16de9087553b474a48b15df3702b3"
+    },
+    {
+      "source_url": "https://antamin.shop/product/aop-exterior-panel/17/category/47/display/1/",
+      "observed_at_utc": "2026-10-19T13:36:50.039423+00:00",
+      "kind": "actual_browser_or_jev_read",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/antamin-aop17-quantity2.json",
+      "bytes": 7561,
+      "sha256": "fb8493cc61f6b8584f091bf48f9b7c36a8c76db830fe387e7d620dfdfde3dd6b"
+    },
+    {
+      "source_url": "https://antamin.shop/product/aop-exterior-panel/17/category/47/display/1/",
+      "observed_at_utc": null,
+      "kind": "actual_browser_or_jev_read",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/antamin-aop17-jev.json",
+      "bytes": 1165,
+      "sha256": "92699904e08e4bc8077550a857681f09193ede2bbc095b66a8d6d5a5b2a73ec6"
+    },
+    {
+      "source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002470219_1000000001",
+      "observed_at_utc": "2026-10-19T13:33:51.871323+00:00",
+      "kind": "actual_browser_or_jev_read",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/aop-original-g2b.json",
+      "bytes": 135511,
+      "sha256": "d55c3f79fd39818730ab59600780636fc7ac6f2d21486924c2914b64ebce1759"
+    },
+    {
+      "source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002470219_1000000001",
+      "observed_at_utc": "2026-10-19T13:34:38.675995+00:00",
+      "kind": "observed_official_attachment_download",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/aop-original-downloads/04_00247021900-20240604_계약조건및유의사항.zip",
+      "bytes": 849334,
+      "sha256": "97a33ce4fd5aae200f3a21fcf31fc64e6690439861c2832c745dec1595614a89",
+      "observed_link_name": "04_00247021900-20240604_계약조건및유의사항.zip"
+    },
+    {
+      "source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002470219_1000000001",
+      "observed_at_utc": "2026-10-19T13:34:43.678393+00:00",
+      "kind": "observed_official_attachment_download",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/aop-original-downloads/05_00247021900-지정규격서&#40;2023218_20240512__&#40;주&#41;서한안타민.hwpx",
+      "bytes": 5571104,
+      "sha256": "56a2095c80538390d2a79aff4eae1ba3f15936db6ebae850a36b57dbe116c1a0",
+      "observed_link_name": "05_00247021900-지정규격서(2023218_20240512__(주)서한안타민.hwpx"
+    },
+    {
+      "source_url": "https://api.parallel.ai/v1/search",
+      "observed_at_utc": "2026-10-19T13:31:12.641309+00:00",
+      "kind": "parallel_discovery",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/parallel-first-available.json",
+      "bytes": 10681,
+      "sha256": "edb660bc5e00d9772a33942837967a49b965fc67755138909956b51b6a597d3b"
+    },
+    {
+      "source_url": "https://api.parallel.ai/v1/search",
+      "observed_at_utc": "2026-10-19T13:38:21.243784+00:00",
+      "kind": "parallel_discovery",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/parallel-aop-valve-followup.json",
+      "bytes": 16623,
+      "sha256": "fe5d12c89cefb3f06d328b3753169c00af35f31c15066684a94f3a1c5219cbe2"
+    },
+    {
+      "source_url": null,
+      "observed_at_utc": null,
+      "kind": "original_spec_embedded_image",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/aop-original-images/image13.bmp",
+      "bytes": 266538,
+      "sha256": "ac56b36be77cc93ee4bf922d7dc459595b3144a0711c5746240fc4139e969f0d",
+      "source_archive_sha256": "56a2095c80538390d2a79aff4eae1ba3f15936db6ebae850a36b57dbe116c1a0",
+      "archive_member": "BinData/image13.bmp",
+      "visually_read": true
+    },
+    {
+      "source_url": null,
+      "observed_at_utc": null,
+      "kind": "original_spec_embedded_image",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/aop-original-images/image14.bmp",
+      "bytes": 1304662,
+      "sha256": "fb8c10cc7797501f7a7c4082372963c1841ed3098b453c99b67eebe4bce915aa",
+      "source_archive_sha256": "56a2095c80538390d2a79aff4eae1ba3f15936db6ebae850a36b57dbe116c1a0",
+      "archive_member": "BinData/image14.bmp",
+      "visually_read": true
+    },
+    {
+      "source_url": "https://antamin.shop/web/product/big/202110/8e69ad9be4cc57760f981b699b1b330e.jpg",
+      "observed_at_utc": "2026-10-19T13:35:07.546971+00:00",
+      "kind": "retail_image_visually_read",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/aop-retail-image-1.jpg",
+      "bytes": 214153,
+      "sha256": "cd42b6d95f4b263e91dc97e84030320f19c4bfb234552d6fe3f6def9a5fe9aa0"
+    },
+    {
+      "source_url": "https://shop.g2b.go.kr/static/CataAttach/XezCatalog/XZMOK/item_image/2021/07/12/96bce6e6-57ae-402f-aa57-fde151943f11.png",
+      "observed_at_utc": "2026-10-19T13:40:05.107320+00:00",
+      "kind": "official_catalog_image_visually_read",
+      "local_path": "work/fullscan/bulk-resume-20261019/pass5-finished/aop-original-catalog-image.png",
+      "bytes": 105012,
+      "sha256": "f79f74e83874bd0178d0188a46e5775548b69ea1dfd2b6fb8b4bcb5694ddc749"
+    }
+  ]
+}
