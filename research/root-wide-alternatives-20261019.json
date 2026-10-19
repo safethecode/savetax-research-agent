@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-19T09:51:56.680272+00:00",
+  "observed_at_utc": "2026-10-19T09:54:50.473204+00:00",
   "objective_additional_krw": "13144391772",
   "target_min_new_claim_krw": "200000000",
   "opportunities_last_confirmed": 36,
@@ -156,7 +156,8 @@
       "result_saved": true,
       "result_sha256": "82d4d9ed0a9c9f745c6de9f957ae7c95f7e5bd6fecbaaec91611cdfbfa064bc7",
       "result_is_qualification_verification": false,
-      "public_basis_urls": []
+      "public_basis_urls": [],
+      "root_reviewed_qualification": false
     },
     {
       "theme": "camera-mic",
@@ -166,7 +167,8 @@
       "result_saved": true,
       "result_sha256": "99067dd9a35b1359dc15dea434cacf518e85ac19606052e81f2d0e674d4f2284",
       "result_is_qualification_verification": false,
-      "public_basis_urls": []
+      "public_basis_urls": [],
+      "root_reviewed_qualification": false
     },
     {
       "theme": "consumables",
@@ -176,7 +178,8 @@
       "result_saved": true,
       "result_sha256": "64c945b4ea375ec950bbfe712d8a2f9b9ace60c0999476e442c692cb1f0fa808",
       "result_is_qualification_verification": false,
-      "public_basis_urls": []
+      "public_basis_urls": [],
+      "root_reviewed_qualification": false
     },
     {
       "theme": "electronics",
@@ -186,7 +189,8 @@
       "result_saved": true,
       "result_sha256": "5bad80d584dce5ecd77e9eef1a69cfc4c02604fc282a4d3fc2253fd251285707",
       "result_is_qualification_verification": false,
-      "public_basis_urls": []
+      "public_basis_urls": [],
+      "root_reviewed_qualification": false
     },
     {
       "theme": "equipment",
@@ -196,7 +200,8 @@
       "result_saved": true,
       "result_sha256": "ed9d2012bb23a21790392529537103299f02e39de7b19bd737a2ba69ca0c775b",
       "result_is_qualification_verification": false,
-      "public_basis_urls": []
+      "public_basis_urls": [],
+      "root_reviewed_qualification": false
     },
     {
       "theme": "furniture-material",
@@ -206,17 +211,19 @@
       "result_saved": true,
       "result_sha256": "45dcf576a32c549ccb512bbddda0c58e1e0be974c2ca556085efbba77fc4c4a7",
       "result_is_qualification_verification": false,
-      "public_basis_urls": []
+      "public_basis_urls": [],
+      "root_reviewed_qualification": false
     },
     {
       "theme": "laptop-copier",
       "run_id": "trun_f6dda171b4d641db9656633b4adc58b9",
       "http_status": 202,
-      "status": "running",
-      "result_saved": false,
-      "result_sha256": null,
+      "status": "completed",
+      "result_saved": true,
+      "result_sha256": "527135250e9343af4baefb88edf7e4088ed2e8cf0d175f53428257ad015f9e4b",
       "result_is_qualification_verification": false,
-      "public_basis_urls": []
+      "public_basis_urls": [],
+      "root_reviewed_qualification": false
     },
     {
       "theme": "road",
@@ -226,17 +233,19 @@
       "result_saved": true,
       "result_sha256": "f04f774bed6005c58318f8f505a1bb8c79a4e8c4df5d3e4e8e658dd1499c1be9",
       "result_is_qualification_verification": false,
-      "public_basis_urls": []
+      "public_basis_urls": [],
+      "root_reviewed_qualification": false
     },
     {
       "theme": "safety-light",
       "run_id": "trun_d6456bd4ffe447cd9487b0c332b265ab",
       "http_status": 202,
-      "status": "running",
-      "result_saved": false,
-      "result_sha256": null,
+      "status": "completed",
+      "result_saved": true,
+      "result_sha256": "4a083423ac801aa62c266a105ada32035b5b1501eae4d66ba32ec8fd24fdb52a",
       "result_is_qualification_verification": false,
-      "public_basis_urls": []
+      "public_basis_urls": [],
+      "root_reviewed_qualification": false
     },
     {
       "theme": "textile",
@@ -246,7 +255,8 @@
       "result_saved": true,
       "result_sha256": "060719d93c1f4e92b01d7b12bf346efb013462e64fb16a27cf96e660af143614",
       "result_is_qualification_verification": false,
-      "public_basis_urls": []
+      "public_basis_urls": [],
+      "root_reviewed_qualification": false
     }
   ],
   "new_previews": 0,
@@ -261,5 +271,13 @@
     "23859960 acoustic panel: manufacturer NRC/source to real selected ordinary retail price",
     "25862924 copier: higher-ppm complete4drawer NEW offer",
     "25829484 laptop: exactKG73G or stronger complete configuration, legitimateWin11Pro"
+  ],
+  "parallel_deep_completed_count": 10,
+  "parallel_deep_originals_unique_count": 54,
+  "automated_result_errors_rejected": [
+    "원단가×1.2를 비교단가 상한으로 계산한 오류. 모든 행이 양수인 예시의 올바른 방향은 B<=ΣC/(1.2×ΣQ)다.",
+    "제조사의 For project only 자료 분류만으로 별도 일반 판매처의 실제 판매가를 무효로 만드는 오류.",
+    "무조건 적용되는 일반 세일을 카드·쿠폰 조건부 혜택처럼 제외한 오류.",
+    "mini360B 원품은0.25㎥다. 다른 시험·인증의0.36㎥ 표기를 개선 성능으로 바로 채택하지 않는다."
   ]
 }
