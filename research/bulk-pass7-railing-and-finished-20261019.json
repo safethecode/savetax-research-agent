@@ -1,0 +1,1147 @@
+{
+  "title": "Owner 1 pass7 난간 부품가 및 고액 완제품 부정 결과",
+  "frozen_at_utc": "2026-10-19T14:54:16.297699+00:00",
+  "scope": "owner_slot=1의 새 원문 우선 조사. 50억 원 이상 4개 상태 확인 후 울타리·안전·급식기구·침대·선풍기로 이동했다. 로컬 목록을 모두 웹 검토한 것은 아니다.",
+  "status": "완성품 채택 단가와 검증 예상액은 확정하지 않았다. 신규 긍정 후보·POST는 없다.",
+  "counts": {
+    "fresh_lookup_items": 18,
+    "available": 12,
+    "claimed": 5,
+    "on_hold": 1,
+    "full_fact_items": 2,
+    "full_facts_preserved": 19,
+    "official_catalog_items": 5,
+    "parallel_queries": 16,
+    "ready_positive_candidates": 0,
+    "external_posts": 0,
+    "original_g2b_attachment_downloads": 1,
+    "original_pdf_documents": 3,
+    "reviewed_pdf_pages": [
+      {
+        "file": "부영물산_규격서(재료표 설계도면포함).pdf",
+        "page": 38
+      },
+      {
+        "file": "부영물산_금속제기타울타리 전체도면.pdf",
+        "page": 14
+      }
+    ],
+    "note": "로컬 자동 선별·상태 조회·검색·원문 실독·가격 검증 건수는 서로 다르다. Parallel 검색 결과는 가격 검증으로 세지 않았다."
+  },
+  "lookup_results": [
+    {
+      "input": "25014217",
+      "kind": "item",
+      "item_id": "25014217",
+      "state": "available",
+      "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)",
+      "source_url": "https://hackathon.savetax.now/v1/events/current/items/lookup",
+      "observed_at_utc": "2026-10-19T14:42:14.554049+00:00"
+    },
+    {
+      "input": "25014219",
+      "kind": "item",
+      "item_id": "25014219",
+      "state": "available",
+      "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)",
+      "source_url": "https://hackathon.savetax.now/v1/events/current/items/lookup",
+      "observed_at_utc": "2026-10-19T14:42:14.554049+00:00"
+    },
+    {
+      "input": "25014220",
+      "kind": "item",
+      "item_id": "25014220",
+      "state": "available",
+      "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)",
+      "source_url": "https://hackathon.savetax.now/v1/events/current/items/lookup",
+      "observed_at_utc": "2026-10-19T14:42:14.554049+00:00"
+    },
+    {
+      "input": "25181891",
+      "kind": "item",
+      "item_id": "25181891",
+      "state": "available",
+      "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)",
+      "source_url": "https://hackathon.savetax.now/v1/events/current/items/lookup",
+      "observed_at_utc": "2026-10-19T14:42:14.554049+00:00"
+    },
+    {
+      "input": "23562065",
+      "kind": "item",
+      "item_id": "23562065",
+      "state": "available",
+      "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)",
+      "source_url": "https://hackathon.savetax.now/v1/events/current/items/lookup",
+      "observed_at_utc": "2026-10-19T14:42:14.554049+00:00"
+    },
+    {
+      "input": "25308334",
+      "kind": "item",
+      "item_id": "25308334",
+      "state": "available",
+      "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)",
+      "source_url": "https://hackathon.savetax.now/v1/events/current/items/lookup",
+      "observed_at_utc": "2026-10-19T14:31:41.650080+00:00"
+    },
+    {
+      "input": "25562564",
+      "kind": "item",
+      "item_id": "25562564",
+      "state": "available",
+      "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)",
+      "source_url": "https://hackathon.savetax.now/v1/events/current/items/lookup",
+      "observed_at_utc": "2026-10-19T14:31:41.650080+00:00"
+    },
+    {
+      "input": "25706993",
+      "kind": "item",
+      "item_id": "25706993",
+      "state": "available",
+      "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)",
+      "source_url": "https://hackathon.savetax.now/v1/events/current/items/lookup",
+      "observed_at_utc": "2026-10-19T14:31:41.650080+00:00"
+    },
+    {
+      "input": "23673406",
+      "kind": "item",
+      "item_id": "23673406",
+      "state": "available",
+      "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)",
+      "source_url": "https://hackathon.savetax.now/v1/events/current/items/lookup",
+      "observed_at_utc": "2026-10-19T14:31:41.650080+00:00"
+    },
+    {
+      "input": "25898320",
+      "kind": "item",
+      "item_id": "25898320",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)",
+      "source_url": "https://hackathon.savetax.now/v1/events/current/items/lookup",
+      "observed_at_utc": "2026-10-19T14:31:41.650080+00:00"
+    },
+    {
+      "input": "24717961",
+      "kind": "item",
+      "item_id": "24717961",
+      "state": "available",
+      "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)",
+      "source_url": "https://hackathon.savetax.now/v1/events/current/items/lookup",
+      "observed_at_utc": "2026-10-19T14:37:37.985415+00:00"
+    },
+    {
+      "input": "22987019",
+      "kind": "item",
+      "item_id": "22987019",
+      "state": "available",
+      "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)",
+      "source_url": "https://hackathon.savetax.now/v1/events/current/items/lookup",
+      "observed_at_utc": "2026-10-19T14:37:37.985415+00:00"
+    },
+    {
+      "input": "24468990",
+      "kind": "item",
+      "item_id": "24468990",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)",
+      "source_url": "https://hackathon.savetax.now/v1/events/current/items/lookup",
+      "observed_at_utc": "2026-10-19T14:29:39.002154+00:00"
+    },
+    {
+      "input": "25175289",
+      "kind": "item",
+      "item_id": "25175289",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)",
+      "source_url": "https://hackathon.savetax.now/v1/events/current/items/lookup",
+      "observed_at_utc": "2026-10-19T14:29:39.002154+00:00"
+    },
+    {
+      "input": "23663239",
+      "kind": "item",
+      "item_id": "23663239",
+      "state": "on_hold",
+      "message": "운영진이 반려한 물품이라 2026-10-20 22:18(한국 시각)까지 등록할 수 없습니다 — 그 뒤에 다시 확인하세요",
+      "hold_until": "2026-10-20T13:17:49.020Z",
+      "source_url": "https://hackathon.savetax.now/v1/events/current/items/lookup",
+      "observed_at_utc": "2026-10-19T14:29:39.002154+00:00"
+    },
+    {
+      "input": "24684198",
+      "kind": "item",
+      "item_id": "24684198",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)",
+      "source_url": "https://hackathon.savetax.now/v1/events/current/items/lookup",
+      "observed_at_utc": "2026-10-19T14:29:39.002154+00:00"
+    },
+    {
+      "input": "25368071",
+      "kind": "item",
+      "item_id": "25368071",
+      "state": "available",
+      "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)",
+      "source_url": "https://hackathon.savetax.now/v1/events/current/items/lookup",
+      "observed_at_utc": "2026-10-19T14:34:20.258668+00:00"
+    },
+    {
+      "input": "24492570",
+      "kind": "item",
+      "item_id": "24492570",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)",
+      "source_url": "https://hackathon.savetax.now/v1/events/current/items/lookup",
+      "observed_at_utc": "2026-10-19T14:34:20.258668+00:00"
+    }
+  ],
+  "direct_read_results": [
+    {
+      "item_id": "23673406",
+      "snapshot": {
+        "name": "금속제기타울타리, 부영물산, BYC-BR-A005-1W-1200, W1200×H1200mm",
+        "model": "BYC-BR-A005-1W-1200",
+        "manufacturer": "주식회사 부영물산",
+        "category": "금속제기타울타리",
+        "listings": [
+          {
+            "listing_id": "222430625_1060000042",
+            "vendor": "주식회사 부영물산",
+            "unit_price_krw": "357000"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-13T00:31:17.826Z",
+        "facts_total": 13,
+        "facts_truncated": false
+      },
+      "availability": {
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "official_source_url": "https://hackathon.savetax.now/v1/events/current/items/23673406",
+      "official_observed_at_utc": "2026-10-19T14:46:40.109460+00:00",
+      "quantity": "1574",
+      "comparable_amount_krw": "528752700",
+      "fact_count": 13,
+      "unique_request_count": 13,
+      "min_fact_unit_price_krw": "321300",
+      "max_fact_unit_price_krw": "365925",
+      "facts": [
+        {
+          "fact_id": "dl:23673406:222430625_1:R25TB00896127:1",
+          "listing_id": "222430625_1060000042",
+          "contract_no": "222430625_1",
+          "request_no": "R25TB00896127",
+          "line_no": "1",
+          "request_date": "2026-06-26",
+          "agency_name": "경기도 화성시",
+          "unit": "m",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:m:vat_included",
+          "comparison_basis_id": "basis:m:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "321300",
+          "quantity": "175",
+          "comparable_amount_krw": "56227500",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:23673406:222430625_1:R25TB01099055:1",
+          "listing_id": "222430625_1060000042",
+          "contract_no": "222430625_1",
+          "request_no": "R25TB01099055",
+          "line_no": "1",
+          "request_date": "2025-11-07",
+          "agency_name": "서울특별시교육청 용산도서관",
+          "unit": "m",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:m:vat_included",
+          "comparison_basis_id": "basis:m:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "357000",
+          "quantity": "104",
+          "comparable_amount_krw": "37128000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:23673406:222430625_1:R25TB01145351:2",
+          "listing_id": "222430625_1060000042",
+          "contract_no": "222430625_1",
+          "request_no": "R25TB01145351",
+          "line_no": "2",
+          "request_date": "2026-04-04",
+          "agency_name": "경상북도 봉화군 농업기술센터",
+          "unit": "m",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:m:vat_included",
+          "comparison_basis_id": "basis:m:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "357000",
+          "quantity": "37",
+          "comparable_amount_krw": "13280400",
+          "scorable": true,
+          "exclusion_reasons": [],
+          "note": "요구 단가×수량(13209000)과 금액(13280400)이 다르다 — 비교 순금액은 금액 기준이다"
+        },
+        {
+          "fact_id": "dl:23673406:222430625_1:R25TB01300869:2",
+          "listing_id": "222430625_1060000042",
+          "contract_no": "222430625_1",
+          "request_no": "R25TB01300869",
+          "line_no": "2",
+          "request_date": "2026-06-17",
+          "agency_name": "경기도 평택시",
+          "unit": "m",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:m:vat_included",
+          "comparison_basis_id": "basis:m:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "357000",
+          "quantity": "113",
+          "comparable_amount_krw": "40341000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:23673406:222430625_1:R26TB01565540:1",
+          "listing_id": "222430625_1060000042",
+          "contract_no": "222430625_1",
+          "request_no": "R26TB01565540",
+          "line_no": "1",
+          "request_date": "2026-07-28",
+          "agency_name": "전북특별자치도 완주군",
+          "unit": "m",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:m:vat_included",
+          "comparison_basis_id": "basis:m:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "321300",
+          "quantity": "755",
+          "comparable_amount_krw": "242581500",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:23673406:222430625_1:R26TB01573428:1",
+          "listing_id": "222430625_1060000042",
+          "contract_no": "222430625_1",
+          "request_no": "R26TB01573428",
+          "line_no": "1",
+          "request_date": "2026-02-24",
+          "agency_name": "한국농어촌공사 전북지역본부 전주.완주.임실지사",
+          "unit": "m",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:m:vat_included",
+          "comparison_basis_id": "basis:m:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "357000",
+          "quantity": "4",
+          "comparable_amount_krw": "1463700",
+          "scorable": true,
+          "exclusion_reasons": [],
+          "note": "요구 단가×수량(1428000)과 금액(1463700)이 다르다 — 비교 순금액은 금액 기준이다"
+        },
+        {
+          "fact_id": "dl:23673406:222430625_1:R26TB01581375:1",
+          "listing_id": "222430625_1060000042",
+          "contract_no": "222430625_1",
+          "request_no": "R26TB01581375",
+          "line_no": "1",
+          "request_date": "2026-02-25",
+          "agency_name": "경기도 포천시",
+          "unit": "m",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:m:vat_included",
+          "comparison_basis_id": "basis:m:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "357000",
+          "quantity": "20",
+          "comparable_amount_krw": "7140000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:23673406:222430625_1:R26TB01700931:1",
+          "listing_id": "222430625_1060000042",
+          "contract_no": "222430625_1",
+          "request_no": "R26TB01700931",
+          "line_no": "1",
+          "request_date": "2026-03-23",
+          "agency_name": "충청북도 음성군",
+          "unit": "m",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:m:vat_included",
+          "comparison_basis_id": "basis:m:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "357000",
+          "quantity": "86",
+          "comparable_amount_krw": "30702000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:23673406:222430625_1:R26TB01722933:1",
+          "listing_id": "222430625_1060000042",
+          "contract_no": "222430625_1",
+          "request_no": "R26TB01722933",
+          "line_no": "1",
+          "request_date": "2026-03-26",
+          "agency_name": "관세청 서울세관",
+          "unit": "m",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:m:vat_included",
+          "comparison_basis_id": "basis:m:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "357000",
+          "quantity": "26",
+          "comparable_amount_krw": "9282000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:23673406:222430625_1:R26TB01932554:2",
+          "listing_id": "222430625_1060000042",
+          "contract_no": "222430625_1",
+          "request_no": "R26TB01932554",
+          "line_no": "2",
+          "request_date": "2026-05-19",
+          "agency_name": "경기도 안양시",
+          "unit": "m",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:m:vat_included",
+          "comparison_basis_id": "basis:m:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "357000",
+          "quantity": "107",
+          "comparable_amount_krw": "38199000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:23673406:222430625_1:R26TB02065072:1",
+          "listing_id": "222430625_1060000042",
+          "contract_no": "222430625_1",
+          "request_no": "R26TB02065072",
+          "line_no": "1",
+          "request_date": "2026-09-16",
+          "agency_name": "전북특별자치도 진안군",
+          "unit": "m",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:m:vat_included",
+          "comparison_basis_id": "basis:m:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "357000",
+          "quantity": "83",
+          "comparable_amount_krw": "29559600",
+          "scorable": true,
+          "exclusion_reasons": [],
+          "note": "요구 단가×수량(29631000)과 금액(29559600)이 다르다 — 비교 순금액은 금액 기준이다"
+        },
+        {
+          "fact_id": "dl:23673406:222430625_1:R26TB02082295:1",
+          "listing_id": "222430625_1060000042",
+          "contract_no": "222430625_1",
+          "request_no": "R26TB02082295",
+          "line_no": "1",
+          "request_date": "2026-07-01",
+          "agency_name": "전북특별자치도 전주시",
+          "unit": "m",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:m:vat_included",
+          "comparison_basis_id": "basis:m:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "357000",
+          "quantity": "32",
+          "comparable_amount_krw": "11424000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:23673406:222430625_1:R26TB02124161:1",
+          "listing_id": "222430625_1060000042",
+          "contract_no": "222430625_1",
+          "request_no": "R26TB02124161",
+          "line_no": "1",
+          "request_date": "2026-07-14",
+          "agency_name": "공무원연금공단",
+          "unit": "m",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:m:vat_included",
+          "comparison_basis_id": "basis:m:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "357000",
+          "quantity": "32",
+          "comparable_amount_krw": "11424000",
+          "scorable": true,
+          "exclusion_reasons": []
+        }
+      ],
+      "ready": false,
+      "benchmark_unit_price_krw": null,
+      "verified_expected_saving_krw": null,
+      "status": "partial_component_price_only",
+      "original_scope": "W1200×H1200mm 금속제기타울타리, 현장설치도. 공식 fact 단위는 m이다.",
+      "retail": {
+        "source_url": "https://nanganmall.com/bbs/board.php?bo_table=product_02&wr_id=2",
+        "manufacturer": "부영물산",
+        "model": "BR-A005-1",
+        "observed_price_krw": 48000,
+        "observed_price_unit": "H1200 난간 포스트 구성 1개",
+        "quote": "제품재질 SST304 / 포스트 몸체 [20 X 60mm STS PIPE] + 4T STS PLATE 손스침 연결 브라켓 + 4T STS PLATE 유리홀더 브라켓 + 하부 베이스판(미결합) + 하부캡(미결합) / H:1200: 48000원",
+        "tax_basis": null,
+        "freight_krw": null,
+        "scope_note": "48,000원은 포스트와 기재된 부속 가격이다. 강화접합유리와 앙카를 포함한 완성 난간 가격으로 읽지 않았다. 인접 BR-A005 H1200 54,000원과 혼합하지 않았다."
+      },
+      "original_document": {
+        "source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=222430625_1060000042",
+        "archive_sha256": "3e063e3296ed5dd9d291633017968ceb9af65056e48d968264521701d59a03c5",
+        "specification_file": "부영물산_규격서(재료표 설계도면포함).pdf",
+        "specification_sha256": "7309515849460f520e68f40dd8d0194f0e5acd99a3c7ee271840259931728723",
+        "specification_page": 38,
+        "drawing_file": "부영물산_금속제기타울타리 전체도면.pdf",
+        "drawing_sha256": "2433537e244a3fb41a09890fdbb533c5249bb2cae3ea91d0270fff03dd647d88",
+        "drawing_page": 14,
+        "visual_review": "규격서 38쪽과 실제 식별번호 23673406의 도면 14쪽을 렌더링해 직접 읽었다. 해당 모델은 손스침이 없다. 공통 사진이나 다른 난간 모델의 손스침을 이 제품의 필수 부재로 추가하지 않았다.",
+        "reader_note": "현재 document-read CLI는 PDF를 지원하지 않아 세 파일 모두 exit 2였다. pypdf로 별도 텍스트를 추출하고 해당 페이지를 Poppler로 렌더링했다. 도면 14쪽은 이미지로서 텍스트 추출은 비어 있었으며 시각 검토로 읽었다. 변경추적이나 최종본 여부는 판정하지 않았다."
+      },
+      "bill_of_materials_per_span": {
+        "span_width_m": "1.2",
+        "height_m": "1.2",
+        "components": [
+          {
+            "name": "지주",
+            "spec": "20×60×1.5T×1100",
+            "quantity": 1,
+            "unit": "EA",
+            "material": "KS D 3536 STS304 TKC"
+          },
+          {
+            "name": "STS 유리홀더 브라켓",
+            "spec": "BR-E001, BR-F004",
+            "quantity": 2,
+            "unit": "SET",
+            "material": "KS D 3536 STS304 TKC"
+          },
+          {
+            "name": "강화접합투명유리",
+            "spec": "1160×1100×10.76T",
+            "quantity": 1,
+            "unit": "EA",
+            "material": "GLASS"
+          },
+          {
+            "name": "앙카커버",
+            "spec": "100×100×25",
+            "quantity": 1,
+            "unit": "EA",
+            "material": "KS D 3536 STS304 TKC"
+          },
+          {
+            "name": "앙카플레이트",
+            "spec": "90×90×6T",
+            "quantity": 1,
+            "unit": "EA",
+            "material": "KS D 3536 STS304 TKC"
+          },
+          {
+            "name": "앙카볼트",
+            "spec": "3/8 SET ANCOR",
+            "quantity": 4,
+            "unit": "EA",
+            "material": "KS D 3536 STS304 TKC"
+          }
+        ]
+      },
+      "unresolved": [
+        "실제 1160×1100×10.76T 강화접합투명유리 및 도면상 홀더·앙카 등 나머지 필수 구성의 일반 판매 가격을 확인하지 못했다.",
+        "판매 포스트의 미결합 베이스판·캡은 결합 방법과 원품 앙카판·커버 규격 대응이 닫히지 않았다.",
+        "일반 10T 강화유리를 10.76T 강화접합유리 가격으로 대입하지 않았다. 손스침은 원품 필수 부재가 아니므로 추가 비용으로 쌓지 않았다.",
+        "판매가의 VAT·배송 조건을 읽지 못했다. 공임·운임을 임의 추정하거나 0원으로 처리하지 않았다.",
+        "포스트당 가격과 공식 m 단위의 완성 난간 가격을 직접 비교하지 않았다. 재고·보증 확약을 추가 차단 요건으로 만들지는 않았다."
+      ]
+    },
+    {
+      "item_id": "25368071",
+      "snapshot": {
+        "name": "구명조끼, 시울프마린, SW-F02(OR), 팽창식, 성인용, 275N",
+        "model": "SW-F02(OR)",
+        "manufacturer": "주식회사 시울프마린",
+        "category": "구명조끼",
+        "listings": [
+          {
+            "listing_id": "R25TA00441746010000001",
+            "vendor": "주식회사 시울프마린",
+            "unit_price_krw": "129000"
+          }
+        ],
+        "source_release": "r20261011T012137",
+        "fetched_at": "2026-10-13T20:58:38.154Z",
+        "facts_total": 6,
+        "facts_truncated": false
+      },
+      "availability": {
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "official_source_url": "https://hackathon.savetax.now/v1/events/current/items/25368071",
+      "official_observed_at_utc": "2026-10-19T14:35:59.581732+00:00",
+      "quantity": "3114",
+      "comparable_amount_krw": "383681000",
+      "fact_count": 6,
+      "unique_request_count": 6,
+      "min_fact_unit_price_krw": "122000",
+      "max_fact_unit_price_krw": "129000",
+      "facts": [
+        {
+          "fact_id": "dl:25368071:R25TA00441746:R25TB01118851:1",
+          "listing_id": "R25TA00441746010000001",
+          "contract_no": "R25TA00441746",
+          "request_no": "R25TB01118851",
+          "line_no": "1",
+          "request_date": "2025-10-28",
+          "agency_name": "한국해양교통안전공단",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:개:vat_included",
+          "comparison_basis_id": "basis:개:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "129000",
+          "quantity": "100",
+          "comparable_amount_krw": "12900000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:25368071:R25TA00441746:R25TB01204276:1",
+          "listing_id": "R25TA00441746010000001",
+          "contract_no": "R25TA00441746",
+          "request_no": "R25TB01204276",
+          "line_no": "1",
+          "request_date": "2025-11-18",
+          "agency_name": "한강수계관리위원회",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:개:vat_included",
+          "comparison_basis_id": "basis:개:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "129000",
+          "quantity": "65",
+          "comparable_amount_krw": "8385000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:25368071:R25TA00441746:R25TB01274381:1",
+          "listing_id": "R25TA00441746010000001",
+          "contract_no": "R25TA00441746",
+          "request_no": "R25TB01274381",
+          "line_no": "1",
+          "request_date": "2025-12-03",
+          "agency_name": "부산광역시 낙동강관리본부",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:개:vat_included",
+          "comparison_basis_id": "basis:개:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "129000",
+          "quantity": "10",
+          "comparable_amount_krw": "1290000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:25368071:R25TA00441746:R25TB01379841:1",
+          "listing_id": "R25TA00441746010000001",
+          "contract_no": "R25TA00441746",
+          "request_no": "R25TB01379841",
+          "line_no": "1",
+          "request_date": "2025-12-29",
+          "agency_name": "해군군수사령부",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:개:vat_included",
+          "comparison_basis_id": "basis:개:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "122000",
+          "quantity": "2575",
+          "comparable_amount_krw": "314150000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:25368071:R25TA00441746:R26TB01463300:1",
+          "listing_id": "R25TA00441746010000001",
+          "contract_no": "R25TA00441746",
+          "request_no": "R26TB01463300",
+          "line_no": "1",
+          "request_date": "2026-01-26",
+          "agency_name": "경기도 소방재난본부",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:개:vat_included",
+          "comparison_basis_id": "basis:개:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "129000",
+          "quantity": "360",
+          "comparable_amount_krw": "46440000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:25368071:R25TA00441746:R26TB01473275:1",
+          "listing_id": "R25TA00441746010000001",
+          "contract_no": "R25TA00441746",
+          "request_no": "R26TB01473275",
+          "line_no": "1",
+          "request_date": "2026-01-28",
+          "agency_name": "경상남도 김해시",
+          "unit": "개",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:개:vat_included",
+          "comparison_basis_id": "basis:개:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "129000",
+          "quantity": "4",
+          "comparable_amount_krw": "516000",
+          "scorable": true,
+          "exclusion_reasons": []
+        }
+      ],
+      "ready": false,
+      "benchmark_unit_price_krw": null,
+      "verified_expected_saving_krw": null,
+      "status": "same_model_retail_more_expensive",
+      "retail": {
+        "source_url": "https://seawolfmall.co.kr/product/sw-f02or%EA%B5%AD%EC%A0%9C%ED%95%AD%ED%95%B4%EC%9A%A9solas-%ED%8C%BD%EC%B0%BD%EC%8B%9D-%EA%B5%AC%EB%AA%85%EB%8F%99%EC%9D%98-275/85",
+        "model": "SW-F02(OR)",
+        "observed_price_krw": 275000,
+        "observed_price_unit": "275N 구명동의 1개",
+        "quote": "SW-F02(OR) 국제항해용(SOLAS) 팽창식 구명동의 275 / 275,000원",
+        "tax_basis": null,
+        "displayed_shipping_krw": 3000,
+        "note": "같은 OR·275N 모델이다. 다른 BK·220N 모델의 가격을 전용하지 않았다. 표시 상품가 자체가 모든 공식 fact 단가 122,000~129,000원보다 높아 양수 행이 없다. VAT·배송을 0원으로 해도 가격 역전이 없다."
+      },
+      "displayed_price_only_positive_saving_krw": 0,
+      "eligible_facts": 0
+    }
+  ],
+  "other_results": [
+    {
+      "item_id": "25308334",
+      "model": "SGY1-EX508-3024H-S",
+      "status": "no_verified_retail_price",
+      "reason": "공식 속성은 최고높이 3500mm, 3m 경간, φ76.3×3.2T 지주와 50.8×152.4 망이다. 실제 제조사 YL형 소개는 찾았지만 일반 판매가를 읽지 못했다. 짧은 일반 메쉬휀스 가격을 대입하지 않았다.",
+      "ready": false,
+      "benchmark_unit_price_krw": null,
+      "verified_expected_saving_krw": null
+    },
+    {
+      "item_id": "25562564",
+      "model": "ICF-SGY1-EX508-3030H-S-N",
+      "status": "no_verified_retail_price",
+      "reason": "공식 속성은 최고높이 4100mm, 3m 경간, φ76.3×3.2T 지주와 50.8×152.4 망이다. 제조사 소개에서 일반 판매가는 닫히지 않았다.",
+      "ready": false,
+      "benchmark_unit_price_krw": null,
+      "verified_expected_saving_krw": null
+    },
+    {
+      "item_id": "25706993",
+      "model": "IM-NJF2000",
+      "status": "no_verified_retail_price",
+      "reason": "경계·동물유도용, 높이 2150mm, 경간 2000mm, φ60.5×2T 지주 및 용융아연도금이 확인된다. 가격 없는 동물유도울타리 소개만 찾아 채택 단가는 없다.",
+      "ready": false,
+      "benchmark_unit_price_krw": null,
+      "verified_expected_saving_krw": null
+    },
+    {
+      "item_id": "24717961",
+      "model": "SKK-CB3150",
+      "status": "public_procurement_price_excluded",
+      "source_url": "https://skik.co.kr/htm/G03_1/24",
+      "observed_price_krw": 6000000,
+      "reason": "제조사 본문은 해당 인덕션 취사기를 조달제품·조달식별번호 24717961로 명시한다. 이 6,000,000원은 일반 소매가로 채택하지 않았다. 다른 가스 제품이나 CS3150 가격과 섞지 않았다. web 본문 실독과 HTTP의 TLS 실패를 구분했다.",
+      "ready": false,
+      "benchmark_unit_price_krw": null,
+      "verified_expected_saving_krw": null
+    },
+    {
+      "item_id": "22987019",
+      "model": "HGS-BS580L",
+      "status": "no_verified_retail_price",
+      "source_url": "https://hains.io.kr/?lanOk=eng",
+      "reason": "제조사에서 4찬 냉·온 배식대 모델을 확인했으나 가격은 없다. 냉식 기능 없는 일반 온장 배식대와 동일품으로 비교하지 않았다.",
+      "ready": false,
+      "benchmark_unit_price_krw": null,
+      "verified_expected_saving_krw": null
+    },
+    {
+      "item_id": "25014217",
+      "model": "ATBD-A01",
+      "status": "no_verified_retail_price",
+      "reason": "제조사·특허·조달 소개 외 실제 같은 모델 신품 일반 판매가를 찾지 못했다. 다른 침대 프레임 가격이나 미확인 매트리스 구성을 대입하지 않았다.",
+      "ready": false,
+      "benchmark_unit_price_krw": null,
+      "verified_expected_saving_krw": null
+    },
+    {
+      "item_id": "25014219",
+      "model": "ATBD-A03",
+      "status": "no_verified_retail_price",
+      "reason": "같은 제조사의 정확 모델 판매가와 완성 구성이 확인되지 않았다.",
+      "ready": false,
+      "benchmark_unit_price_krw": null,
+      "verified_expected_saving_krw": null
+    },
+    {
+      "item_id": "25014220",
+      "model": "ATBD-A04",
+      "status": "no_verified_retail_price",
+      "reason": "같은 제조사의 이층침대 모델 일반 판매가와 완성 구성이 확인되지 않았다.",
+      "ready": false,
+      "benchmark_unit_price_krw": null,
+      "verified_expected_saving_krw": null
+    },
+    {
+      "item_id": "25181891",
+      "model": "SIF-16WJDA",
+      "status": "sold_out_and_price_not_promising",
+      "source_url": "https://www.ssg.com/item/itemView.ssg?itemId=1000114563363",
+      "observed_price_krw": 91000,
+      "reason": "실제 web 본문은 정확 모델 91,000원과 품절을 표시했다. requests HTTP는 403으로 읽기 방법에 차이가 있었다. 품절 가격을 유효 판매가로 채택하지 않았다. 공식 전체 fact는 추가 조회하지 않아 개별 고단가 행의 양수 여부를 확정하지 않는다.",
+      "ready": false,
+      "benchmark_unit_price_krw": null,
+      "verified_expected_saving_krw": null
+    },
+    {
+      "item_id": "23562065",
+      "model": "MP-ST18",
+      "status": "no_verified_retail_price",
+      "reason": "공식 속성은 선경 5mm·50×150 망·1800mm 높이·2000mm 경간·φ76.3 지주다. 4.8mm 철선이나 60mm 지주 제품을 더 좋은 대체품으로 올리지 않았다. 정확 일반 판매가는 미확인이다.",
+      "ready": false,
+      "benchmark_unit_price_krw": null,
+      "verified_expected_saving_krw": null
+    }
+  ],
+  "sources": [
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/catalog-23562065.json",
+      "bytes": 3471,
+      "sha256": "6011f4744b76c1dbf9b3f00d8e6188e2d192cbb700505791514617fd57c076e9"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/catalog-23673406.json",
+      "bytes": 3428,
+      "sha256": "17b50fc8176b5ff7fdd3b5ad0b13704df13b05613f9da839f64d3841c403b172"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/catalog-25308334.json",
+      "bytes": 3412,
+      "sha256": "6af4fb3da4be927001f20e413575754e9545482e00d73f187272e4c273a057ad"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/catalog-25562564.json",
+      "bytes": 3396,
+      "sha256": "d6649d03843a64288e48ff578da48876b6731a547e3c24aa63892b580c2fd97f"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/catalog-25706993.json",
+      "bytes": 3396,
+      "sha256": "7f6bc8869aba72b603887267d2c62ab56d74cd0e49f7ce2036507c54821533ee"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/event-23673406.json",
+      "bytes": 10381,
+      "sha256": "54eef2fe8a4034bb0a0ee9497ee9e742bb289745f5370306dc255ea4a56e986d"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/event-25368071.json",
+      "bytes": 5188,
+      "sha256": "ecaedb73b4658aa0730284c8a8e958e0789d422baf889d31a10ae4c272ef0ed3"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/fence-catalog-requests.json",
+      "bytes": 539,
+      "sha256": "56aba5e7a7597caa91a51264044f43d7f7ecdf330d71894cec2266a1eff0e513"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/hains-maker-http.json",
+      "bytes": 14852,
+      "sha256": "191cc8a179aa15e70987e7dfe00cae1b34f8be72a655856de32dbe44846e3692"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/hains-maker.html",
+      "bytes": 58924,
+      "sha256": "1ddad9d640316a3dce64b6a47a96bfaae9e352e4145f30a6fb09e013a20f27a1"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/hains-maker.txt",
+      "bytes": 5224,
+      "sha256": "2e1fdd5491557fb4702a1abc1cb66ee6b1a9c1fc1b0c1382f8a1238d244c92be"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/lookup-beds-fan-mesh.json",
+      "bytes": 1537,
+      "sha256": "d3bc7ed214993ed355df53442f651180f7bd3a0b2c43553a4a85b2ba532480d5"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/lookup-fence-five.json",
+      "bytes": 1583,
+      "sha256": "18130a05fc1de2862031dc73f2f64c29bf0f64998a8b5ee27da2d3f226ee3afe"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/lookup-kitchen-two.json",
+      "bytes": 748,
+      "sha256": "97c45e239b0a786dd47c0daded8f0a526868dd90b5bbe9fa4779a907743e5a61"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/lookup-large-four.json",
+      "bytes": 1505,
+      "sha256": "d7ced571cebe37376ced08ce411b36b4822e8b598f73092a09145c654b0f48e3"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/lookup-safety-two.json",
+      "bytes": 794,
+      "sha256": "a5ff17779ab2e2b0a12e5511ea4e6964a8299b748e8d747cbb40cbfe48417e6c"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/namurang-yl-list-http.json",
+      "bytes": 186,
+      "sha256": "95a86c2e7e6b90b2499884db8676a37df1f4ac26ddf863f852e642a19b770c02"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/nanganmall-accessories-http.json",
+      "bytes": 15691,
+      "sha256": "ddd38193ca6e40c0c6db2a239b103178bfbd6c18beaa5d27cd53abde3cf43cce"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/nanganmall-accessories.html",
+      "bytes": 35392,
+      "sha256": "ad4c85c2f9663a7b52293569d185eefac77bd3f5ea0fba6d439098540c2e54a1"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/nanganmall-accessories.txt",
+      "bytes": 2180,
+      "sha256": "70368bb77c26aed6238ba7620d03bc5d3ce74eb4f97c250aa65c398d2763944f"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/nanganmall-bra005-1-http.json",
+      "bytes": 12427,
+      "sha256": "5f9ed8519c7ec7f14622a9ebaf3c03014dfc8a796840da192ef80bfc958c1465"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/nanganmall-bra005-1.html",
+      "bytes": 30245,
+      "sha256": "d4124b336affc84649d17a9ebb4a2de8fdd7152deb93336c27bdd987363a6f78"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/nanganmall-bra005-1.txt",
+      "bytes": 2466,
+      "sha256": "4153352c11a45682051870ae65b08d927d054da3fdc133b5c813ac0969c90c04"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/nanganmall-bra005-http.json",
+      "bytes": 12428,
+      "sha256": "e89efd6ff35d5925dc327150af8d44a2c186e7941931d95a68062dc06f3a4ec0"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/nanganmall-bra005.html",
+      "bytes": 30155,
+      "sha256": "c34e3b71f2c95f232c364fc9b602ea159757760476d8629d5b4a3b1ac0212e10"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/nanganmall-bra005.txt",
+      "bytes": 2462,
+      "sha256": "ed82cd810eb04e17fefa2b1493e0e0888547c979ca91e942a7e75f190932435b"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/nanganmall-maker-http.json",
+      "bytes": 15214,
+      "sha256": "0e9cce5d5fc0f2b2a9e77e010626281d2cf66fea66b48178743bed7c896c30fb"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/nanganmall-maker.html",
+      "bytes": 46460,
+      "sha256": "ad50b8224c7ba2872bb9e8ebc0bb9613fe376a6e3ad65b38ba26bfffa2e00726"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/nanganmall-maker.txt",
+      "bytes": 3296,
+      "sha256": "a224d69d2d75588ae1d3674a257fc5e717d013cb247ca3adafcaf156931a817a"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/nanganmall-materials-http.json",
+      "bytes": 15329,
+      "sha256": "9942d6457191f58d7f2303af8e3e013b563b8691f045a9acaf00c67dfa8a13e6"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/nanganmall-materials.html",
+      "bytes": 34278,
+      "sha256": "51d728ebfe08f3a2b785508527b3076643a2fd340fa2ed4bf94b122fcaea3f40"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/nanganmall-materials.txt",
+      "bytes": 2328,
+      "sha256": "28746054d998bf9ff24e9b4410f876f58112494d87ff75c3d75cdab6aee52bd9"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/original-railing-description.jpg",
+      "bytes": 1243986,
+      "sha256": "163429ba365f106b1cccbd3797c6aabd8da5c3114e4cc8ab7c0d1ba2565d5fd8"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/original-railing-photo.jpg",
+      "bytes": 236777,
+      "sha256": "58733980af634b6ed47352fd587bf488a0896ea8e0f1490ec001b3682bc84272"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/parallel-beds-fan-mesh-four.json",
+      "bytes": 14311,
+      "sha256": "cd9a28de573300abb85600ad8b8e42a723d923895244cec4eea43cf2a96e50e5"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/parallel-fence-exact-four.json",
+      "bytes": 8901,
+      "sha256": "b18af66bae9e9ad2810e341500e904969a06927a9df8c14faa49ab6004cb7751"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/parallel-kitchen-three.json",
+      "bytes": 3070,
+      "sha256": "4aa84868a9afcfd595540a74fe9161a7cca67975cf08b1d9e5562cd59c6ade92"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/parallel-lifevest-animalfence-two.json",
+      "bytes": 8822,
+      "sha256": "aada59446eeec1b2eaf41d1dad1f4707765c8e6471d7b028062d4aac10729b73"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/parallel-railing-completion-three.json",
+      "bytes": 19676,
+      "sha256": "716d9374d085b0437da21b733dab04086acc06d2b73574d8b4596897653cb5ec"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/railing-bom-page38.png",
+      "bytes": 400734,
+      "sha256": "7d2a3d3e0625488855c5523fafa0e8b8629aa69634a7e197957c03c3b92cb71c"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/railing-drawing-page14.png",
+      "bytes": 163160,
+      "sha256": "41e6c258285b5c59c300991b0574a208053b2d1c4701939e9d48d7b06cfeed6c"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/railing-original-download-meta.json",
+      "bytes": 812,
+      "sha256": "8c16553faedcfd0ac4f8bf577d5fc5bdb4764032f48f46efefa67bbc18f7a231"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/railing-original-downloads/222430625-05_ &#40;주&#41;부영물산_금속제울타리_규격서및도면.zip",
+      "bytes": 24119799,
+      "sha256": "3e063e3296ed5dd9d291633017968ceb9af65056e48d968264521701d59a03c5"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/railing-original-extracted/부영물산_규격서(재료표 설계도면포함).pdf",
+      "bytes": 4046107,
+      "sha256": "7309515849460f520e68f40dd8d0194f0e5acd99a3c7ee271840259931728723"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/railing-original-extracted/부영물산_금속제기타울타리 전체도면.pdf",
+      "bytes": 14798056,
+      "sha256": "2433537e244a3fb41a09890fdbb533c5249bb2cae3ea91d0270fff03dd647d88"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/railing-original-extracted/부영물산_디자인형울타리 전체도면.pdf",
+      "bytes": 14104715,
+      "sha256": "d4a9d78b3696280bd1c73676f45587a2aff25cba4a81f33b53bb1e579293d0c0"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/railing-original-extraction-meta.json",
+      "bytes": 1141,
+      "sha256": "ba8539715e386f3235b1c89b72af3e9e49c49c7dd24953432cfa73eef0512b25"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/railing-original-g2b.json",
+      "bytes": 119435,
+      "sha256": "3022a189dc95097f1fd90233a67f0b5d50271f0e8d96faeb59c119f2dc558d73"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/railing-original-image-meta.json",
+      "bytes": 1144,
+      "sha256": "f230c5632ea15a8563177ebd1198c37bfba9cdc7270195faf06df2633c8fe6b7"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/railing-pdf-1.json",
+      "bytes": 118171,
+      "sha256": "afc3730f7fc64c5fe21b0457e8f3126ae276ea66a1d644c4f4c9ac7141dbc0f1"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/railing-pdf-1.txt",
+      "bytes": 115219,
+      "sha256": "45d8f87a63874e40fa999918f5d787638d9a2a7392ef31e691b2f29c821cc913"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/railing-pdf-2.json",
+      "bytes": 43608,
+      "sha256": "25c842467f0f598de4f952a293e5e3496a86f48fb9a7ba32aea12531054de545"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/railing-pdf-2.txt",
+      "bytes": 39196,
+      "sha256": "9e8cf43ccbc391a18e5301ea717d8b93a96b807ab2771a8027be0cc2db3a344a"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/railing-pdf-3.json",
+      "bytes": 16861,
+      "sha256": "03296662e70bb58aa4b1b7ba77526a138d71a82afb0fafd71ef4b5022cdd624d"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/railing-pdf-3.txt",
+      "bytes": 15142,
+      "sha256": "5a4498a2e37f9b718d20adaa148fbeb9b15ace050d26f3d23fa430950345c5c9"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/seawolf-f02-or85-http.json",
+      "bytes": 13697,
+      "sha256": "8dc3495b4e6422c4306f2a1103940018d9fddc8fb0deca4f9f9b3e3cd40257a6"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/seawolf-f02-or85.html",
+      "bytes": 130734,
+      "sha256": "2f3a598122e19ff8936b874c79a436f527dfeb9a55f8a1ca64945bc17c5ba6b4"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/seawolf-f02-or85.txt",
+      "bytes": 3684,
+      "sha256": "93453b18c972a25e2e3e91ac7fb7cc5344489148de28b0ee65eb127e0ee64227"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/skik-cb3150-http.json",
+      "bytes": 142,
+      "sha256": "9e60e243905b19789d76cecabf6da4cfec8292dcde6facf5fb7c45b4f9646e5b"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/ssg-sif16wjda-http.json",
+      "bytes": 574,
+      "sha256": "960e4e7e081c9f0189094b78c709a4dc6f8fbe79dfcd4adf036f3b38e79fb95c"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/ssg-sif16wjda.html",
+      "bytes": 2762,
+      "sha256": "908d3a790549681513b81ad52267cbf268a2bcee09cad756042e0d78ec52ae01"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/ssg-sif16wjda.txt",
+      "bytes": 340,
+      "sha256": "1ef4a47dbb5b72a2a9069977e557df74c82928f89f0f9ebbdc64ea3761b0e21b"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass7/swdoro-yl-maker-http.json",
+      "bytes": 145,
+      "sha256": "da507c62e7b59f80da9061b571f5dc4ec9bdab785aac19856b535b05012e5b7f"
+    }
+  ],
+  "previous_frozen_units": [
+    "research/bulk-pass6-finished-20261019.json",
+    "research/bulk-pass6-appliance-negatives-20261019.json"
+  ]
+}
