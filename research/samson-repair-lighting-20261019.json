@@ -1,0 +1,958 @@
+{
+  "scope": "삼손 LED실내조명19건 실제근거보강; root만 외부revision 실행",
+  "status": "in_progress",
+  "proposed_count": 11,
+  "records": [
+    {
+      "item_id": "25790575",
+      "submission_id": "8d5d213f-dd3b-47d7-804c-3f3ad067e0f1",
+      "product_name": "LED실내조명등, 엔어스, EP0050-6464FD, 50W",
+      "base_revision": 1,
+      "before_amount_krw": 60372000,
+      "before_B": "28500",
+      "repair_status": "active_primary_research",
+      "new_revision_proposal": null,
+      "original_sources_reused": {
+        "listing_id": "R25TA00629733070000096",
+        "public_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R25TA00629733070000096",
+        "attachment_file_name": "260702_우수조달물품_최종규격서(2024151)_(주)엔어스_규격추가.hwpx",
+        "downloaded_file": "/Users/aaron-son/Documents/savetax-research-agent/work/recovery-20261019/lighting/spec-downloads/25790575/260702_우수조달물품_최종규격서&#40;2024151&#41;_&#40;주&#41;엔어스_규격추가.hwpx",
+        "extracted_text_file": "work/recovery-20261019/lighting/spec-text/25790575.txt",
+        "observed_at_utc": "2026-10-19T08:38:01.158651+00:00",
+        "text_read_at_utc": "2026-10-19T08:40:50.176604+00:00",
+        "exact_model_found_in_extracted_text": true,
+        "delivery_terms": "납품장소 하차도",
+        "defect_warranty_years": "3",
+        "minimum_optical_specs": {
+          "rated_flux_lm_min": "5500",
+          "efficacy_lm_w_min": "128",
+          "cri_ra_min": "80",
+          "nominal_cct_k": "5700",
+          "reading": "HWPX의 정확 모델 EP0050-6464FD 행 및 표 머리글 대조. 초기광속과 정격광속을 혼용하지 않았다.",
+          "summary": "원규격의 EP0050-6464FD 행은 정격광속 5,500lm, 광효율 128lm/W, 5700K, Ra80을 제시한다. 기존 샤인 판매 공시 4,500lm·90lm/W는 이를 충족하는 근거가 되지 못한다."
+        },
+        "reading_scope": "정확 모델의 포함 여부와 관련 텍스트를 검토했다. 모든 도면과 모든 조항을 시각 검수한 것으로 표시하지 않는다."
+      },
+      "original_exact_certificate": {
+        "model": "EP0050-6464FD",
+        "source_url": "https://min24.energy.or.kr/report/data/ReportDesinerCall.do?sysCode=NHIEFF&codeReportSct=NHF11&paramArr=215374",
+        "raw_file": "work/recovery-20261019/lighting/cert-25790575.txt",
+        "raw_sha256_verified": true,
+        "values": {
+          "efficacy_lm_w": "142.1",
+          "flux_lm": "6729.7",
+          "cct_k": "5447",
+          "cri_ra": "81.2",
+          "power_factor": "0.92",
+          "harmonic_current_pct": "17"
+        },
+        "basis": "한국에너지공단 정확 모델 인증서 및 부속서 시험성적; 판매 명목 사양과 분리"
+      },
+      "existing_counterevidence_ids": [
+        "cf571ea0-0b32-467c-8544-6647b0224aed",
+        "09c0b1fe-9606-4613-88e9-08f552dee2b8",
+        "0268e494-acc8-4f00-ac4a-d848cd786532"
+      ],
+      "material_resolution_claimed": false
+    },
+    {
+      "item_id": "25853499",
+      "submission_id": "3816979c-ee0d-4f11-a5cb-1265d37da838",
+      "product_name": "LED실내조명등, 일광전기, IKELED-RFHPM312-40, 40W",
+      "base_revision": 1,
+      "before_amount_krw": 56021000,
+      "before_B": "32000",
+      "repair_status": "active_primary_research",
+      "new_revision_proposal": null,
+      "original_sources_reused": {
+        "listing_id": "R26TA01795740000000054",
+        "public_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA01795740000000054",
+        "attachment_file_name": "다운라이트설비 외5종 규격서 (2026.04).zip",
+        "downloaded_file": "/Users/aaron-son/Documents/savetax-research-agent/work/recovery-20261019/lighting/spec-downloads/25853499/다운라이트설비 외5종 규격서 &#40;2026.04&#41;.zip",
+        "extracted_text_file": "work/recovery-20261019/lighting/spec-text/25853499.txt",
+        "observed_at_utc": "2026-10-19T08:39:54.739717+00:00",
+        "text_read_at_utc": "2026-10-19T08:40:39.041206+00:00",
+        "exact_model_found_in_extracted_text": true,
+        "delivery_terms": "납품장소 하차도",
+        "defect_warranty_years": "3",
+        "minimum_optical_specs": null,
+        "reading_scope": "정확 모델의 포함 여부와 관련 텍스트를 검토했다. 모든 도면과 모든 조항을 시각 검수한 것으로 표시하지 않는다."
+      },
+      "original_exact_certificate": {
+        "model": "IKELED-RFHPM312-40",
+        "source_url": "https://min24.energy.or.kr/report/data/ReportDesinerCall.do?sysCode=NHIEFF&codeReportSct=NHF11&paramArr=218258",
+        "raw_file": "work/recovery-20261019/lighting/cert-25853499.txt",
+        "raw_sha256_verified": true,
+        "values": {
+          "efficacy_lm_w": "135.5",
+          "flux_lm": "5242.5",
+          "cct_k": "5504",
+          "cri_ra": "83.7",
+          "power_factor": "0.98",
+          "harmonic_current_pct": "4"
+        },
+        "basis": "한국에너지공단 정확 모델 인증서 및 부속서 시험성적; 판매 명목 사양과 분리"
+      },
+      "existing_counterevidence_ids": [
+        "0d99050c-94cd-4dd4-9c0e-8a3c01c99205",
+        "1311406d-7a1c-4d8b-a960-91b4aabadc4e"
+      ],
+      "material_resolution_claimed": false
+    },
+    {
+      "item_id": "25331258",
+      "submission_id": "087efe4b-6c5b-4764-a3eb-5bcf4766922e",
+      "product_name": "LED실내조명등, 레이져라이팅, LLP-120140-DR34-N57S, 40W",
+      "base_revision": 2,
+      "before_amount_krw": 47618500,
+      "before_B": "17500",
+      "repair_status": "active_primary_research",
+      "new_revision_proposal": null,
+      "original_sources_reused": {
+        "listing_id": "002470244_1010000012",
+        "public_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002470244_1010000012",
+        "attachment_file_name": "00247024400-240701_우수조달물품_최종규격서(2023104)_레이저라이팅_주식회사.hwpx",
+        "downloaded_file": "/Users/aaron-son/Documents/savetax-research-agent/work/recovery-20261019/lighting/spec-downloads/25331258/00247024400-240701_우수조달물품_최종규격서&#40;2023104&#41;_레이저라이팅_주식회사.hwpx",
+        "extracted_text_file": "work/recovery-20261019/lighting/spec-text/25331258.txt",
+        "observed_at_utc": "2026-10-19T08:38:31.679632+00:00",
+        "text_read_at_utc": "2026-10-19T08:40:38.588986+00:00",
+        "exact_model_found_in_extracted_text": true,
+        "delivery_terms": "납품장소 하차도",
+        "defect_warranty_years": "3",
+        "minimum_optical_specs": {
+          "rated_flux_lm_min": "4400",
+          "initial_flux_pct_rated_min": "110",
+          "initial_flux_lm_min_derived": "4840",
+          "efficacy_lm_w_min": "110",
+          "cri_ra_min": "80",
+          "nominal_cct_k": "5700",
+          "reading": "HWPX의 정확 모델 LLP-120140-DR34-N57S 행과 실내조명 초기광속 기준을 대조했다. 초기광속 하한은 4400×1.10으로 계산했다.",
+          "summary": "원규격은 정확 모델의 5700K, 정격광속 4,400lm 이상, 광효율 110lm/W 이상, Ra80 이상을 확인해 준다. 실내조명 초기광속은 정격의 110% 이상이어서 하한은 4,840lm이다. 비교품은 판매 공시 4,400lm·6500K이며 원품의 펜던트 구조·플리커 억제·특허 기술까지 충족했다는 근거가 없다."
+        },
+        "reading_scope": "정확 모델의 포함 여부와 관련 텍스트를 검토했다. 모든 도면과 모든 조항을 시각 검수한 것으로 표시하지 않는다."
+      },
+      "original_exact_certificate": {
+        "model": "LLP-120140-DR34-N57S",
+        "source_url": "https://min24.energy.or.kr/report/data/ReportDesinerCall.do?sysCode=NHIEFF&codeReportSct=NHF11&paramArr=202646",
+        "raw_file": "work/recovery-20261019/lighting/cert-25331258.txt",
+        "raw_sha256_verified": true,
+        "values": {
+          "efficacy_lm_w": "145.2",
+          "flux_lm": "5756.4",
+          "cct_k": "5676",
+          "cri_ra": "83.7",
+          "power_factor": "0.97",
+          "harmonic_current_pct": "4"
+        },
+        "basis": "한국에너지공단 정확 모델 인증서 및 부속서 시험성적; 판매 명목 사양과 분리"
+      },
+      "existing_counterevidence_ids": [
+        "9cafd438-eca9-4aa8-9be3-9b0249660225",
+        "1c1745e9-4c42-45c0-b8fc-5d2f0328a3d1",
+        "a7da99e5-41a1-45b1-8cfe-ffb11bbe4d81"
+      ],
+      "material_resolution_claimed": false
+    },
+    {
+      "item_id": "25607692",
+      "submission_id": "655a457e-fe9d-4de7-bc30-444772615be7",
+      "product_name": "LED실내조명등, 지심엘앤씨, JS-EG40W(GT312), 40W",
+      "base_revision": 2,
+      "before_amount_krw": 35629000,
+      "before_B": "32000",
+      "repair_status": "active_primary_research",
+      "new_revision_proposal": null,
+      "original_sources_reused": {
+        "listing_id": "R26TA01774815000000018",
+        "public_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA01774815000000018",
+        "attachment_file_name": "규격서.zip",
+        "downloaded_file": "/Users/aaron-son/Documents/savetax-research-agent/work/recovery-20261019/lighting/spec-downloads/23990596/규격서.zip",
+        "extracted_text_file": "work/recovery-20261019/lighting/spec-text/23990596.txt",
+        "observed_at_utc": "2026-10-19T08:38:48.548195+00:00",
+        "text_read_at_utc": "2026-10-19T08:40:38.711067+00:00",
+        "exact_model_found_in_extracted_text": true,
+        "delivery_terms": "납품장소 하차도",
+        "defect_warranty_years": "3",
+        "minimum_optical_specs": null,
+        "reading_scope": "정확 모델의 포함 여부와 관련 텍스트를 검토했다. 모든 도면과 모든 조항을 시각 검수한 것으로 표시하지 않는다."
+      },
+      "original_exact_certificate": {
+        "model": "JS-EG40W(GT312)",
+        "source_url": "https://min24.energy.or.kr/report/data/ReportDesinerCall.do?sysCode=NHIEFF&codeReportSct=NHF11&paramArr=207349",
+        "raw_file": "work/recovery-20261019/lighting/cert-25607692.txt",
+        "raw_sha256_verified": true,
+        "values": {
+          "efficacy_lm_w": "131.7",
+          "flux_lm": "5243.7",
+          "cct_k": "5587",
+          "cri_ra": "82.5",
+          "power_factor": "0.96",
+          "harmonic_current_pct": "6.051"
+        },
+        "basis": "한국에너지공단 정확 모델 인증서 및 부속서 시험성적; 판매 명목 사양과 분리"
+      },
+      "existing_counterevidence_ids": [
+        "d3357aba-c63b-42ee-b39c-4dac025c85f9",
+        "ff700c39-9037-4650-a339-62049b2ba7f4"
+      ],
+      "material_resolution_claimed": false
+    },
+    {
+      "item_id": "24627368",
+      "submission_id": "f1231b38-ab24-4829-866a-298f5c91654c",
+      "product_name": "LED실내조명등, 행복일자리 장애인보호작업장, WHI-040S-DY312, 40W",
+      "base_revision": 2,
+      "before_amount_krw": 35244000,
+      "before_B": "30500",
+      "repair_status": "active_primary_research",
+      "new_revision_proposal": null,
+      "original_sources_reused": {
+        "listing_id": "R26TA01793289000000020",
+        "public_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA01793289000000020",
+        "attachment_file_name": "03. 규격서(보완).zip",
+        "downloaded_file": "/Users/aaron-son/Documents/savetax-research-agent/work/recovery-20261019/lighting/spec-downloads/24627368/03. 규격서&#40;보완&#41;.zip",
+        "extracted_text_file": "work/recovery-20261019/lighting/spec-text/24627368.txt",
+        "observed_at_utc": "2026-10-19T08:39:45.789388+00:00",
+        "text_read_at_utc": "2026-10-19T08:40:38.970689+00:00",
+        "exact_model_found_in_extracted_text": true,
+        "delivery_terms": "납품장소 하차도",
+        "defect_warranty_years": "3",
+        "minimum_optical_specs": null,
+        "reading_scope": "정확 모델의 포함 여부와 관련 텍스트를 검토했다. 모든 도면과 모든 조항을 시각 검수한 것으로 표시하지 않는다."
+      },
+      "original_exact_certificate": {
+        "model": "WHI-040S-DY312",
+        "source_url": "https://min24.energy.or.kr/report/data/ReportDesinerCall.do?sysCode=NHIEFF&codeReportSct=NHF11&paramArr=85900",
+        "raw_file": "work/recovery-20261019/lighting/cert-24627368.txt",
+        "raw_sha256_verified": true,
+        "values": {
+          "efficacy_lm_w": "115.0",
+          "flux_lm": "4565",
+          "cct_k": "5899",
+          "cri_ra": "81.8",
+          "power_factor": "0.95",
+          "harmonic_current_pct": "7.305"
+        },
+        "basis": "한국에너지공단 정확 모델 인증서 및 부속서 시험성적; 판매 명목 사양과 분리"
+      },
+      "existing_counterevidence_ids": [
+        "a9af108c-a25f-44f0-bf6a-6b7ad684f96c",
+        "8386c278-bd63-4ff3-a8bd-6ceefebf9280"
+      ],
+      "material_resolution_claimed": false
+    },
+    {
+      "item_id": "25412914",
+      "submission_id": "9efacba7-d0ae-489f-b105-a100f750fa92",
+      "product_name": "LED실내조명등, 선텍, STMAS-EF-1250E, 50W",
+      "base_revision": 2,
+      "before_amount_krw": 31068400,
+      "before_B": "28400",
+      "repair_status": "material_revision_applied_by_root",
+      "new_revision_proposal": "work/repair-samson-20261019/lighting/proposal-25412914.json",
+      "original_sources_reused": {
+        "listing_id": "R26TA01885353000000054",
+        "public_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA01885353000000054",
+        "attachment_file_name": "R26TA01885353-00_다운라이트설비외5종_규격서및도면_(주)선텍.Zip",
+        "downloaded_file": "/Users/aaron-son/Documents/savetax-research-agent/work/recovery-20261019/lighting/spec-downloads/25412914/R26TA01885353-00_다운라이트설비외5종_규격서및도면_&#40;주&#41;선텍.Zip",
+        "extracted_text_file": "work/recovery-20261019/lighting/spec-text/25412914.txt",
+        "observed_at_utc": "2026-10-19T08:38:08.062923+00:00",
+        "text_read_at_utc": "2026-10-19T08:40:38.477136+00:00",
+        "exact_model_found_in_extracted_text": true,
+        "delivery_terms": "납품장소 하차도",
+        "defect_warranty_years": "3",
+        "minimum_optical_specs": {
+          "rated_flux_lm_min": "5500",
+          "initial_flux_lm_min": "5225",
+          "efficacy_lm_w_min": "110",
+          "cri_ra_min": "80",
+          "cct_k": "5665±355",
+          "reading": "HWP 추출문 중 정확 모델 STMAS-EF-1250E의 품질기준 행 대조. 이미지 전체 시각 검수와 변경 추적 판정은 수행하지 않았다.",
+          "summary": "원규격은 정격광속 5,500lm 이상, 초기광속 5,225lm 이상, 광효율 110lm/W 이상, Ra80 이상을 명시한다. 기존 샤인 판매 공시 4,500lm·90lm/W는 이 기준보다 낮다."
+        },
+        "reading_scope": "정확 모델의 포함 여부와 관련 텍스트를 검토했다. 모든 도면과 모든 조항을 시각 검수한 것으로 표시하지 않는다."
+      },
+      "original_exact_certificate": {
+        "model": "STMAS-EF-1250E",
+        "source_url": "https://min24.energy.or.kr/report/data/ReportDesinerCall.do?sysCode=NHIEFF&codeReportSct=NHF11&paramArr=205158",
+        "raw_file": "work/recovery-20261019/lighting/cert-25412914.txt",
+        "raw_sha256_verified": true,
+        "values": {
+          "efficacy_lm_w": "110.3",
+          "flux_lm": "5607.5",
+          "cct_k": "5891",
+          "cri_ra": "83.9",
+          "power_factor": "0.98",
+          "harmonic_current_pct": "4"
+        },
+        "basis": "한국에너지공단 정확 모델 인증서 및 부속서 시험성적; 판매 명목 사양과 분리"
+      },
+      "existing_counterevidence_ids": [
+        "108f9aa5-d304-48c3-823b-c1470d0fbca0",
+        "f359e665-7825-4298-893d-614085acf98d"
+      ],
+      "material_resolution_claimed": true,
+      "proposed_B": 62000,
+      "proposed_amount_krw": 10438000,
+      "applied_revision": 3,
+      "after_amount_krw": 10438000,
+      "after_B": 62000
+    },
+    {
+      "item_id": "25333467",
+      "submission_id": "b5b21867-68fd-48ac-9a6c-44a723489306",
+      "product_name": "LED실내조명등, 썬래이, SR-MLCA312-40G, 40W",
+      "base_revision": 2,
+      "before_amount_krw": 30713500,
+      "before_B": "32000",
+      "repair_status": "active_primary_research",
+      "new_revision_proposal": null,
+      "original_sources_reused": {
+        "listing_id": "R26TA01856244000000060",
+        "public_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA01856244000000060",
+        "attachment_file_name": "R26TA01856244-00_다운라이트설비외5종_규격서및도면_(주)썬래이.zip",
+        "downloaded_file": "/Users/aaron-son/Documents/savetax-research-agent/work/recovery-20261019/lighting/spec-downloads/25333467/R26TA01856244-00_다운라이트설비외5종_규격서및도면_&#40;주&#41;썬래이.zip",
+        "extracted_text_file": "work/recovery-20261019/lighting/spec-text/25333467.txt",
+        "observed_at_utc": "2026-10-19T08:39:38.496785+00:00",
+        "text_read_at_utc": "2026-10-19T08:40:38.955133+00:00",
+        "exact_model_found_in_extracted_text": true,
+        "delivery_terms": "납품장소 하차도",
+        "defect_warranty_years": "3",
+        "minimum_optical_specs": null,
+        "reading_scope": "정확 모델의 포함 여부와 관련 텍스트를 검토했다. 모든 도면과 모든 조항을 시각 검수한 것으로 표시하지 않는다."
+      },
+      "original_exact_certificate": {
+        "model": "SR-MLCA312-40G",
+        "source_url": "https://min24.energy.or.kr/report/data/ReportDesinerCall.do?sysCode=NHIEFF&codeReportSct=NHF11&paramArr=203027",
+        "raw_file": "work/recovery-20261019/lighting/cert-25333467.txt",
+        "raw_sha256_verified": true,
+        "values": {
+          "efficacy_lm_w": "131.4",
+          "flux_lm": "5349.0",
+          "cct_k": "5321",
+          "cri_ra": "81.5",
+          "power_factor": "0.97",
+          "harmonic_current_pct": "3"
+        },
+        "basis": "한국에너지공단 정확 모델 인증서 및 부속서 시험성적; 판매 명목 사양과 분리"
+      },
+      "existing_counterevidence_ids": [
+        "38a614f5-29ea-41e1-8dfc-d7460ddde852",
+        "cab2cb6e-f0b7-4984-bcbd-6e21125ae236"
+      ],
+      "material_resolution_claimed": false
+    },
+    {
+      "item_id": "24777435",
+      "submission_id": "b5155a84-021d-4992-8ca6-ae5b73353be9",
+      "product_name": "LED실내조명등, 광오라이팅, KO-ME301240, 40W",
+      "base_revision": 2,
+      "before_amount_krw": 26673000,
+      "before_B": "32000",
+      "repair_status": "material_revision_applied_by_root",
+      "new_revision_proposal": "work/repair-samson-20261019/lighting/proposal-sigma-24777435.json",
+      "original_sources_reused": {
+        "listing_id": "R26TA01491855020000005",
+        "public_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA01491855020000005",
+        "attachment_file_name": "7. 다운5종 규격서.zip",
+        "downloaded_file": "/Users/aaron-son/Documents/savetax-research-agent/work/recovery-20261019/lighting/spec-downloads/24777435/7. 다운5종 규격서.zip",
+        "extracted_text_file": "work/recovery-20261019/lighting/spec-text/24777435.txt",
+        "observed_at_utc": "2026-10-19T08:39:28.952320+00:00",
+        "text_read_at_utc": "2026-10-19T08:40:38.929574+00:00",
+        "exact_model_found_in_extracted_text": true,
+        "delivery_terms": "납품장소 하차도",
+        "defect_warranty_years": "3",
+        "minimum_optical_specs": null,
+        "reading_scope": "정확 모델의 포함 여부와 관련 텍스트를 검토했다. 모든 도면과 모든 조항을 시각 검수한 것으로 표시하지 않는다."
+      },
+      "original_exact_certificate": {
+        "model": "KO-ME301240",
+        "source_url": "https://min24.energy.or.kr/report/data/ReportDesinerCall.do?sysCode=NHIEFF&codeReportSct=NHF11&paramArr=89929",
+        "raw_file": "work/recovery-20261019/lighting/cert-24777435.txt",
+        "raw_sha256_verified": true,
+        "values": {
+          "efficacy_lm_w": "114.2",
+          "flux_lm": "4732.6",
+          "cct_k": "5915",
+          "cri_ra": "82.8",
+          "power_factor": "0.97",
+          "harmonic_current_pct": "10"
+        },
+        "basis": "한국에너지공단 정확 모델 인증서 및 부속서 시험성적; 판매 명목 사양과 분리"
+      },
+      "existing_counterevidence_ids": [
+        "65bf2e61-3854-4015-bed2-cfc511de5785",
+        "0de303f9-c405-4e18-a93e-818f15e58200"
+      ],
+      "material_resolution_claimed": true,
+      "proposed_after_B": "39400",
+      "proposed_after_amount_krw": 15062400,
+      "applied_revision": 3,
+      "after_B": "39400",
+      "after_amount_krw": 15062400
+    },
+    {
+      "item_id": "24112596",
+      "submission_id": "0c9a4972-5271-40ff-9d87-d4424a0207b1",
+      "product_name": "LED실내조명등, 동영, PA12-40, 40W",
+      "base_revision": 2,
+      "before_amount_krw": 24661500,
+      "before_B": "17500",
+      "repair_status": "active_primary_research",
+      "new_revision_proposal": null,
+      "original_sources_reused": {
+        "listing_id": "R26TA01757553000000107",
+        "public_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA01757553000000107",
+        "attachment_file_name": "260316 규격서(동영_다운라이트외5종).zip",
+        "downloaded_file": "/Users/aaron-son/Documents/savetax-research-agent/work/recovery-20261019/lighting/spec-downloads/24112596/260316 규격서&#40;동영_다운라이트외5종&#41;.zip",
+        "extracted_text_file": "work/recovery-20261019/lighting/spec-text/24112596.txt",
+        "observed_at_utc": "2026-10-19T08:38:24.364271+00:00",
+        "text_read_at_utc": "2026-10-19T08:40:38.555772+00:00",
+        "exact_model_found_in_extracted_text": true,
+        "delivery_terms": "납품장소 하차도",
+        "defect_warranty_years": "3",
+        "minimum_optical_specs": null,
+        "reading_scope": "정확 모델의 포함 여부와 관련 텍스트를 검토했다. 모든 도면과 모든 조항을 시각 검수한 것으로 표시하지 않는다.",
+        "new_self_audit_exact_model_quality_row": {
+          "item_id": "24112596",
+          "model": "PA12-40",
+          "rated_flux_lm": "4400",
+          "initial_flux_lm_min": "4180",
+          "efficacy_lm_w_min": "110",
+          "cri_ra_min": "80",
+          "cct_k": "5665±355",
+          "source_text_file": "work/recovery-20261019/lighting/spec-text/24112596.txt",
+          "text_context_lines": "3190 vicinity; exact item/model followed by current/power/flux/CCT quality columns",
+          "not_generic_catalogue_values": true
+        }
+      },
+      "original_exact_certificate": {
+        "model": "PA12-40",
+        "source_url": "https://min24.energy.or.kr/report/data/ReportDesinerCall.do?sysCode=NHIEFF&codeReportSct=NHF11&paramArr=70521",
+        "raw_file": "work/recovery-20261019/lighting/cert-24112596.txt",
+        "raw_sha256_verified": true,
+        "values": {
+          "efficacy_lm_w": "135.6",
+          "flux_lm": "5473.9",
+          "cct_k": "5462",
+          "cri_ra": "81.5",
+          "power_factor": "0.99",
+          "harmonic_current_pct": null
+        },
+        "basis": "한국에너지공단 정확 모델 인증서 및 부속서 시험성적; 판매 명목 사양과 분리"
+      },
+      "existing_counterevidence_ids": [
+        "886e9dae-e259-4e8b-94a2-c73abc08fbf1",
+        "3fa4aeb7-e1a6-448f-8813-476ec3e73a10"
+      ],
+      "material_resolution_claimed": false
+    },
+    {
+      "item_id": "23699050",
+      "submission_id": "6a25d647-a5a7-439b-b81c-a48f5165a70d",
+      "product_name": "LED실내조명등, 루텍, G-LTF-3012L40, 40W",
+      "base_revision": 1,
+      "before_amount_krw": 23521000,
+      "before_B": "32000",
+      "repair_status": "material_revision_applied_by_root",
+      "new_revision_proposal": "work/repair-samson-20261019/lighting/proposal-sigma-23699050.json",
+      "original_sources_reused": {
+        "listing_id": "R26TA02057517000000021",
+        "public_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA02057517000000021",
+        "attachment_file_name": "규격서(루텍, 다운라이트설비 외 5종, 2026.07.).zip",
+        "downloaded_file": "/Users/aaron-son/Documents/savetax-research-agent/work/recovery-20261019/lighting/spec-downloads/23699050/규격서&#40;루텍, 다운라이트설비 외 5종, 2026.07.&#41;.zip",
+        "extracted_text_file": "work/recovery-20261019/lighting/spec-text/23699050.txt",
+        "observed_at_utc": "2026-10-19T08:39:15.550430+00:00",
+        "text_read_at_utc": "2026-10-19T08:40:50.214008+00:00",
+        "exact_model_found_in_extracted_text": true,
+        "delivery_terms": "납품장소 하차도",
+        "defect_warranty_years": "3",
+        "minimum_optical_specs": {
+          "rated_flux_lm": "4200",
+          "initial_flux_pct_rated_min": "95",
+          "efficacy_lm_w_min": "110",
+          "cri_ra_min": "80",
+          "cct_k": "5665±355",
+          "reading": "HWP 추출문 중 정확 모델 G-LTF-3012L40 품질기준 행 대조. 다른 원품 식별번호의 G-LTF-I3012L40 행·인증을 합치지 않았다.",
+          "summary": "원규격의 G-LTF-3012L40 행은 정격광속 4,200lm, 초기광속은 정격의 95% 이상, 광효율 110lm/W 이상, Ra80 이상, 5700K(5665±355K)를 명시한다. 태강 판매 공시는 이 기본 광학 범위와 비교할 수 있지만 정확한 원품 인증 시험값과 플리커·사용온도·취부 적합성을 확보하지 못했다."
+        },
+        "reading_scope": "정확 모델의 포함 여부와 관련 텍스트를 검토했다. 모든 도면과 모든 조항을 시각 검수한 것으로 표시하지 않는다."
+      },
+      "original_exact_certificate": {
+        "model": "TG2532PD40A",
+        "source_url": "https://min24.energy.or.kr/report/data/ReportDesinerCall.do?sysCode=NHIEFF&codeReportSct=NHF11&paramArr=207728",
+        "raw_file": "work/recovery-20261019/lighting/cert-alternative-TG2532PD40A.txt",
+        "raw_sha256_verified": true,
+        "values": {
+          "efficacy_lm_w": "135.1",
+          "flux_lm": "5181.2",
+          "cct_k": "5900",
+          "cri_ra": "81.2",
+          "power_factor": "0.95",
+          "harmonic_current_pct": "9.28"
+        },
+        "basis": "한국에너지공단 정확 모델 인증서 및 부속서 시험성적; 판매 명목 사양과 분리"
+      },
+      "existing_counterevidence_ids": [
+        "259fb458-08d9-42d7-8d81-36db010b75de",
+        "4aa23277-867b-4c19-a4c6-ae2aef7f6047"
+      ],
+      "material_resolution_claimed": true,
+      "after_B": "60000",
+      "after_amount_krw": 8205000,
+      "applied_revision": 3,
+      "proposed_after_B": "39400",
+      "proposed_after_amount_krw": 19473200
+    },
+    {
+      "item_id": "25771323",
+      "submission_id": "793c6ddf-19ce-471a-9443-4a3524be4bff",
+      "product_name": "LED실내조명등, 파인트리코리아, IDG-PP1232BB040A, 40W",
+      "base_revision": 2,
+      "before_amount_krw": 23010000,
+      "before_B": "32000",
+      "repair_status": "active_primary_research",
+      "new_revision_proposal": null,
+      "original_sources_reused": {
+        "listing_id": "R26TA01768235000000053",
+        "public_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA01768235000000053",
+        "attachment_file_name": "규격서.zip",
+        "downloaded_file": "/Users/aaron-son/Documents/savetax-research-agent/work/recovery-20261019/lighting/spec-downloads/25771323/규격서.zip",
+        "extracted_text_file": "work/recovery-20261019/lighting/spec-text/25771323.txt",
+        "observed_at_utc": "2026-10-19T08:39:20.271446+00:00",
+        "text_read_at_utc": "2026-10-19T08:40:38.912250+00:00",
+        "exact_model_found_in_extracted_text": true,
+        "delivery_terms": "납품장소 하차도",
+        "defect_warranty_years": "3",
+        "minimum_optical_specs": null,
+        "reading_scope": "정확 모델의 포함 여부와 관련 텍스트를 검토했다. 모든 도면과 모든 조항을 시각 검수한 것으로 표시하지 않는다."
+      },
+      "original_exact_certificate": {
+        "model": "IDG-PP1232BB040A",
+        "source_url": "https://min24.energy.or.kr/report/data/ReportDesinerCall.do?sysCode=NHIEFF&codeReportSct=NHF11&paramArr=215480",
+        "raw_file": "work/recovery-20261019/lighting/cert-25771323.txt",
+        "raw_sha256_verified": true,
+        "values": {
+          "efficacy_lm_w": "127.5",
+          "flux_lm": "5263.0",
+          "cct_k": "5606",
+          "cri_ra": "84.3",
+          "power_factor": "0.99",
+          "harmonic_current_pct": "1"
+        },
+        "basis": "한국에너지공단 정확 모델 인증서 및 부속서 시험성적; 판매 명목 사양과 분리"
+      },
+      "existing_counterevidence_ids": [
+        "3f259b0e-e534-4070-b630-93d412ee8ba6",
+        "2a09119b-c3c7-461a-9957-ba940cf89b04"
+      ],
+      "material_resolution_claimed": false
+    },
+    {
+      "item_id": "24624017",
+      "submission_id": "801afa5c-3bc7-41f6-873d-fd3c34c85b98",
+      "product_name": "LED실내조명등, 에코디바이스코리아, EE1230M9-040GH, 40W",
+      "base_revision": 2,
+      "before_amount_krw": 23000000,
+      "before_B": "32000",
+      "repair_status": "material_revision_applied_by_root",
+      "new_revision_proposal": "work/repair-samson-20261019/lighting/proposal-sigma-24624017.json",
+      "original_sources_reused": {
+        "listing_id": "R26TA01820188000000014",
+        "public_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA01820188000000014",
+        "attachment_file_name": "규격서_LED실내조명등_에코디바이스코리아 260424.hwp",
+        "downloaded_file": "/Users/aaron-son/Documents/savetax-research-agent/work/recovery-20261019/lighting/spec-downloads/23607691/규격서_LED실내조명등_에코디바이스코리아 260424.hwp",
+        "extracted_text_file": "work/recovery-20261019/lighting/spec-text/23607691.txt",
+        "observed_at_utc": "2026-10-19T08:38:56.288586+00:00",
+        "text_read_at_utc": "2026-10-19T08:40:38.722666+00:00",
+        "exact_model_found_in_extracted_text": true,
+        "delivery_terms": "납품장소 하차도",
+        "defect_warranty_years": "3",
+        "minimum_optical_specs": null,
+        "reading_scope": "정확 모델의 포함 여부와 관련 텍스트를 검토했다. 모든 도면과 모든 조항을 시각 검수한 것으로 표시하지 않는다."
+      },
+      "original_exact_certificate": {
+        "model": "EE1230M9-040GH",
+        "source_url": "https://min24.energy.or.kr/report/data/ReportDesinerCall.do?sysCode=NHIEFF&codeReportSct=NHF11&paramArr=87422",
+        "raw_file": "work/recovery-20261019/lighting/cert-24624017.txt",
+        "raw_sha256_verified": true,
+        "values": {
+          "efficacy_lm_w": "118.7",
+          "flux_lm": "4577.2",
+          "cct_k": "5821",
+          "cri_ra": "83.8",
+          "power_factor": "0.95",
+          "harmonic_current_pct": "20"
+        },
+        "basis": "한국에너지공단 정확 모델 인증서 및 부속서 시험성적; 판매 명목 사양과 분리"
+      },
+      "existing_counterevidence_ids": [
+        "10afd9be-6a70-4c08-b636-fb8429cea4e7",
+        "563061d3-bb0d-437a-a011-8af6500a3141"
+      ],
+      "material_resolution_claimed": true,
+      "after_B": "39400",
+      "after_amount_krw": 18745000,
+      "applied_revision": 5,
+      "proposed_after_B": "39400",
+      "proposed_after_amount_krw": 18745000
+    },
+    {
+      "item_id": "23352284",
+      "submission_id": "c3493bc2-7a4a-457e-87a1-f6b62c910c1c",
+      "product_name": "LED실내조명등, 젬, ZE-40A-E51, 40W",
+      "base_revision": 3,
+      "before_amount_krw": 17432400,
+      "before_B": "32000",
+      "repair_status": "material_revision_applied_by_root",
+      "new_revision_proposal": "work/repair-samson-20261019/lighting/proposal-sigma-23352284.json",
+      "original_sources_reused": {
+        "listing_id": "R26TA01794536010000031",
+        "public_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA01794536010000031",
+        "attachment_file_name": "규격서_(주)젬.Zip",
+        "downloaded_file": "/Users/aaron-son/Documents/savetax-research-agent/work/recovery-20261019/lighting/spec-downloads/23352284/규격서_&#40;주&#41;젬.Zip",
+        "extracted_text_file": "work/recovery-20261019/lighting/spec-text/23352284.txt",
+        "observed_at_utc": "2026-10-19T08:39:04.085222+00:00",
+        "text_read_at_utc": "2026-10-19T08:40:38.753814+00:00",
+        "exact_model_found_in_extracted_text": true,
+        "delivery_terms": "납품장소 하차도",
+        "defect_warranty_years": "3",
+        "minimum_optical_specs": null,
+        "reading_scope": "정확 모델의 포함 여부와 관련 텍스트를 검토했다. 모든 도면과 모든 조항을 시각 검수한 것으로 표시하지 않는다."
+      },
+      "original_exact_certificate": {
+        "model": "ZE-40A-E51",
+        "source_url": "https://min24.energy.or.kr/report/data/ReportDesinerCall.do?sysCode=NHIEFF&codeReportSct=NHF11&paramArr=37244",
+        "raw_file": "work/recovery-20261019/lighting/cert-23352284.txt",
+        "raw_sha256_verified": true,
+        "values": {
+          "efficacy_lm_w": "122.2",
+          "flux_lm": "4885.5",
+          "cct_k": "5655",
+          "cri_ra": "85.1",
+          "power_factor": "0.95",
+          "harmonic_current_pct": "10.76"
+        },
+        "basis": "한국에너지공단 정확 모델 인증서 및 부속서 시험성적; 판매 명목 사양과 분리"
+      },
+      "existing_counterevidence_ids": [
+        "d6593c61-1c29-44d9-895c-eac7711f051a",
+        "8d07158e-01ac-4f42-8053-2c7bc98c26d8"
+      ],
+      "material_resolution_claimed": true,
+      "after_B": "60000",
+      "after_amount_krw": 6288400,
+      "applied_revision": 5,
+      "proposed_after_B": "39400",
+      "proposed_after_amount_krw": 14487200
+    },
+    {
+      "item_id": "23607691",
+      "submission_id": "1ed2efb3-78f4-42fd-9fe0-2cf552bfc191",
+      "product_name": "LED실내조명등, 에코디바이스코리아, EE1230M7-040ML, 40W",
+      "base_revision": 2,
+      "before_amount_krw": 17100000,
+      "before_B": "32000",
+      "repair_status": "material_revision_applied_by_root",
+      "new_revision_proposal": "work/repair-samson-20261019/lighting/proposal-sigma-23607691.json",
+      "original_sources_reused": {
+        "listing_id": "R26TA01820188000000014",
+        "public_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA01820188000000014",
+        "attachment_file_name": "규격서_LED실내조명등_에코디바이스코리아 260424.hwp",
+        "downloaded_file": "/Users/aaron-son/Documents/savetax-research-agent/work/recovery-20261019/lighting/spec-downloads/23607691/규격서_LED실내조명등_에코디바이스코리아 260424.hwp",
+        "extracted_text_file": "work/recovery-20261019/lighting/spec-text/23607691.txt",
+        "observed_at_utc": "2026-10-19T08:38:56.288586+00:00",
+        "text_read_at_utc": "2026-10-19T08:40:38.722666+00:00",
+        "exact_model_found_in_extracted_text": true,
+        "delivery_terms": "납품장소 하차도",
+        "defect_warranty_years": "3",
+        "minimum_optical_specs": null,
+        "reading_scope": "정확 모델의 포함 여부와 관련 텍스트를 검토했다. 모든 도면과 모든 조항을 시각 검수한 것으로 표시하지 않는다."
+      },
+      "original_exact_certificate": {
+        "model": "EE1230M7-040ML",
+        "source_url": "https://min24.energy.or.kr/report/data/ReportDesinerCall.do?sysCode=NHIEFF&codeReportSct=NHF11&paramArr=53749",
+        "raw_file": "work/recovery-20261019/lighting/cert-23607691.txt",
+        "raw_sha256_verified": true,
+        "values": {
+          "efficacy_lm_w": "127.4",
+          "flux_lm": "5034.7",
+          "cct_k": "5807",
+          "cri_ra": "81.6",
+          "power_factor": "0.98",
+          "harmonic_current_pct": "8"
+        },
+        "basis": "한국에너지공단 정확 모델 인증서 및 부속서 시험성적; 판매 명목 사양과 분리"
+      },
+      "existing_counterevidence_ids": [
+        "e34589eb-c0b7-45d9-86f7-32e565a7c233",
+        "e4014d2d-3e34-465a-a9b0-2030e20560cd"
+      ],
+      "material_resolution_claimed": true,
+      "proposed_after_B": "39400",
+      "proposed_after_amount_krw": 10773000,
+      "applied_revision": 3,
+      "after_B": "39400",
+      "after_amount_krw": 10773000
+    },
+    {
+      "item_id": "23990596",
+      "submission_id": "8aa89d96-2f13-4348-ae02-9d9c620edcd0",
+      "product_name": "LED실내조명등, 지심엘앤씨, JS-LED-40W(DY312L), 40W",
+      "base_revision": 3,
+      "before_amount_krw": 14886200,
+      "before_B": "30500",
+      "repair_status": "active_primary_research",
+      "new_revision_proposal": null,
+      "original_sources_reused": {
+        "listing_id": "R26TA01774815000000018",
+        "public_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA01774815000000018",
+        "attachment_file_name": "규격서.zip",
+        "downloaded_file": "/Users/aaron-son/Documents/savetax-research-agent/work/recovery-20261019/lighting/spec-downloads/23990596/규격서.zip",
+        "extracted_text_file": "work/recovery-20261019/lighting/spec-text/23990596.txt",
+        "observed_at_utc": "2026-10-19T08:38:48.548195+00:00",
+        "text_read_at_utc": "2026-10-19T08:40:38.711067+00:00",
+        "exact_model_found_in_extracted_text": true,
+        "delivery_terms": "납품장소 하차도",
+        "defect_warranty_years": "3",
+        "minimum_optical_specs": null,
+        "reading_scope": "정확 모델의 포함 여부와 관련 텍스트를 검토했다. 모든 도면과 모든 조항을 시각 검수한 것으로 표시하지 않는다."
+      },
+      "original_exact_certificate": {
+        "model": "JS-LED-40W(DY312L)",
+        "source_url": "https://min24.energy.or.kr/report/data/ReportDesinerCall.do?sysCode=NHIEFF&codeReportSct=NHF11&paramArr=65136",
+        "raw_file": "work/recovery-20261019/lighting/cert-23990596.txt",
+        "raw_sha256_verified": true,
+        "values": {
+          "efficacy_lm_w": "117.9",
+          "flux_lm": "4706",
+          "cct_k": "5660",
+          "cri_ra": "80.3",
+          "power_factor": "0.98",
+          "harmonic_current_pct": null
+        },
+        "basis": "한국에너지공단 정확 모델 인증서 및 부속서 시험성적; 판매 명목 사양과 분리"
+      },
+      "existing_counterevidence_ids": [
+        "89a5f9f8-98a9-4906-91b3-0814b4147429",
+        "de78c204-6aa3-4b0d-8fe6-011739cc5838"
+      ],
+      "material_resolution_claimed": false
+    },
+    {
+      "item_id": "26073174",
+      "submission_id": "8fa2738f-2c08-42ea-967a-d51275a116cd",
+      "product_name": "LED실내조명등, 케이엘텍, KLT-EG1232-S40, 40W",
+      "base_revision": 2,
+      "before_amount_krw": 10836000,
+      "before_B": "32000",
+      "repair_status": "material_revision_applied_by_root",
+      "new_revision_proposal": "work/repair-samson-20261019/lighting/proposal-sigma-26073174.json",
+      "original_sources_reused": {
+        "listing_id": "R26TA01812963000000027",
+        "public_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA01812963000000027",
+        "attachment_file_name": "규격서(케이엘텍, 다운라이트설비 외 5종, 2026.04.).zip",
+        "downloaded_file": "/Users/aaron-son/Documents/savetax-research-agent/work/recovery-20261019/lighting/spec-downloads/26073174/규격서&#40;케이엘텍, 다운라이트설비 외 5종, 2026.04.&#41;.zip",
+        "extracted_text_file": "work/recovery-20261019/lighting/spec-text/26073174.txt",
+        "observed_at_utc": "2026-10-19T08:38:40.483531+00:00",
+        "text_read_at_utc": "2026-10-19T08:40:38.677640+00:00",
+        "exact_model_found_in_extracted_text": true,
+        "delivery_terms": "납품장소 하차도",
+        "defect_warranty_years": "3",
+        "minimum_optical_specs": null,
+        "reading_scope": "정확 모델의 포함 여부와 관련 텍스트를 검토했다. 모든 도면과 모든 조항을 시각 검수한 것으로 표시하지 않는다."
+      },
+      "original_exact_certificate": {
+        "model": "KLT-EG1232-S40",
+        "source_url": "https://min24.energy.or.kr/report/data/ReportDesinerCall.do?sysCode=NHIEFF&codeReportSct=NHF11&paramArr=222962",
+        "raw_file": "work/recovery-20261019/lighting/cert-26073174.txt",
+        "raw_sha256_verified": true,
+        "values": {
+          "efficacy_lm_w": "131.0",
+          "flux_lm": "4907.3",
+          "cct_k": "5559",
+          "cri_ra": "82.5",
+          "power_factor": "0.99",
+          "harmonic_current_pct": "1.31"
+        },
+        "basis": "한국에너지공단 정확 모델 인증서 및 부속서 시험성적; 판매 명목 사양과 분리"
+      },
+      "existing_counterevidence_ids": [
+        "6ff0582b-5053-4146-926c-ccce794d9224",
+        "4b34e85f-abd4-4824-8b6b-800433f9c857"
+      ],
+      "material_resolution_claimed": true,
+      "proposed_after_B": "39400",
+      "proposed_after_amount_krw": 7972200,
+      "applied_revision": 3,
+      "after_B": "39400",
+      "after_amount_krw": 7972200
+    },
+    {
+      "item_id": "24961256",
+      "submission_id": "ad8ea594-36c2-4c1b-9d08-33d66d803604",
+      "product_name": "LED실내조명등, 이에스텍, EST-FEB1200-40E, 40W",
+      "base_revision": 2,
+      "before_amount_krw": 7039500,
+      "before_B": "32000",
+      "repair_status": "material_revision_applied_by_root",
+      "new_revision_proposal": "work/repair-samson-20261019/lighting/proposal-sigma-24961256.json",
+      "original_sources_reused": {
+        "listing_id": "R26TA01809004000000007",
+        "public_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA01809004000000007",
+        "attachment_file_name": "규격서.zip",
+        "downloaded_file": "/Users/aaron-son/Documents/savetax-research-agent/work/recovery-20261019/lighting/spec-downloads/24638132/규격서.zip",
+        "extracted_text_file": "work/recovery-20261019/lighting/spec-text/24638132.txt",
+        "observed_at_utc": "2026-10-19T08:38:33.401281+00:00",
+        "text_read_at_utc": "2026-10-19T08:40:38.661943+00:00",
+        "exact_model_found_in_extracted_text": true,
+        "delivery_terms": "납품장소 하차도",
+        "defect_warranty_years": "3",
+        "minimum_optical_specs": {
+          "rated_flux_lm_min": "4400",
+          "initial_flux_pct_rated_min": "95",
+          "efficacy_lm_w_min": "110",
+          "cri_ra_min": "80",
+          "cct_k": "5665±355",
+          "power_factor_min": "0.9",
+          "reading": "공개 PDF 8쪽 성능표, 12쪽 FEB 도면을 렌더링하여 직접 확인했다.",
+          "summary": "원규격 PDF 8쪽은 정격광속 4,400lm 이상, 광효율 110lm/W 이상, Ra80 이상, CCT 5665±355K를 제시한다. 판매 공시 4,400lm·110lm/W·Ra80·5700K는 이 광학 공시 기준에 대응하지만, 인증 시험값의 우열과 실제 취부 호환은 별도다."
+        },
+        "reading_scope": "정확 모델의 포함 여부와 관련 텍스트를 검토했다. 모든 도면과 모든 조항을 시각 검수한 것으로 표시하지 않는다."
+      },
+      "original_exact_certificate": {
+        "model": "EST-FEB1200-40E",
+        "source_url": "https://min24.energy.or.kr/report/data/ReportDesinerCall.do?sysCode=NHIEFF&codeReportSct=NHF11&paramArr=91148",
+        "raw_file": "work/recovery-20261019/lighting/cert-24961256.txt",
+        "raw_sha256_verified": true,
+        "values": {
+          "efficacy_lm_w": "128.1",
+          "flux_lm": "4967.9",
+          "cct_k": "5498",
+          "cri_ra": "81.6",
+          "power_factor": "0.96",
+          "harmonic_current_pct": "7.37"
+        },
+        "basis": "한국에너지공단 정확 모델 인증서 및 부속서 시험성적; 판매 명목 사양과 분리"
+      },
+      "existing_counterevidence_ids": [
+        "be506f0e-1012-4609-9e6e-96b6635590fc",
+        "56a6cdcf-6706-4547-b812-968129514d1f"
+      ],
+      "material_resolution_claimed": true,
+      "proposed_after_B": "39400",
+      "proposed_after_amount_krw": 4368100,
+      "applied_revision": 3,
+      "after_B": "39400",
+      "after_amount_krw": 4368100
+    },
+    {
+      "item_id": "24638132",
+      "submission_id": "9c430801-1d65-4867-bc59-e35e73b9f367",
+      "product_name": "LED실내조명등, 이에스텍, EST-FMB1200-40E, 40W",
+      "base_revision": 2,
+      "before_amount_krw": 6955000,
+      "before_B": "30500",
+      "repair_status": "active_primary_research",
+      "new_revision_proposal": null,
+      "original_sources_reused": {
+        "listing_id": "R26TA01809004000000007",
+        "public_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA01809004000000007",
+        "attachment_file_name": "규격서.zip",
+        "downloaded_file": "/Users/aaron-son/Documents/savetax-research-agent/work/recovery-20261019/lighting/spec-downloads/24638132/규격서.zip",
+        "extracted_text_file": "work/recovery-20261019/lighting/spec-text/24638132.txt",
+        "observed_at_utc": "2026-10-19T08:38:33.401281+00:00",
+        "text_read_at_utc": "2026-10-19T08:40:38.661943+00:00",
+        "exact_model_found_in_extracted_text": true,
+        "delivery_terms": "납품장소 하차도",
+        "defect_warranty_years": "3",
+        "minimum_optical_specs": {
+          "rated_flux_lm_min": "4400",
+          "initial_flux_pct_rated_min": "95",
+          "efficacy_lm_w_min": "110",
+          "cri_ra_min": "80",
+          "cct_k": "5665±355",
+          "power_factor_min": "0.9",
+          "reading": "공개 PDF 8쪽 성능표, 11쪽 FMB 도면을 렌더링하여 직접 확인했다.",
+          "summary": "원규격 PDF 8쪽은 정격광속 4,400lm 이상, 광효율 110lm/W 이상, Ra80 이상, CCT 5665±355K를 제시한다. 판매 공시 4,400lm·110lm/W·Ra80·5700K는 이 광학 공시 기준에 대응하지만, 인증 시험값의 우열과 실제 취부 호환은 별도다."
+        },
+        "reading_scope": "정확 모델의 포함 여부와 관련 텍스트를 검토했다. 모든 도면과 모든 조항을 시각 검수한 것으로 표시하지 않는다."
+      },
+      "original_exact_certificate": {
+        "model": "EST-FMB1200-40E",
+        "source_url": "https://min24.energy.or.kr/report/data/ReportDesinerCall.do?sysCode=NHIEFF&codeReportSct=NHF11&paramArr=85505",
+        "raw_file": "work/recovery-20261019/lighting/cert-24638132.txt",
+        "raw_sha256_verified": true,
+        "values": {
+          "efficacy_lm_w": "119.4",
+          "flux_lm": "4746.0",
+          "cct_k": "5956",
+          "cri_ra": "82.3",
+          "power_factor": "0.95",
+          "harmonic_current_pct": "4"
+        },
+        "basis": "한국에너지공단 정확 모델 인증서 및 부속서 시험성적; 판매 명목 사양과 분리"
+      },
+      "existing_counterevidence_ids": [
+        "c4b9cc0e-262a-4fa0-bf6d-09279b7c5d67",
+        "7c6eb5ef-b1a1-4da5-bd65-bc5bd84ba8e3"
+      ],
+      "material_resolution_claimed": false
+    },
+    {
+      "item_id": "25823003",
+      "submission_id": "7497f39e-86eb-4211-b266-01127c671b10",
+      "product_name": "LED실내조명등, 루스테크놀로지, LUZ-FU1203-401, 40W",
+      "base_revision": 2,
+      "before_amount_krw": 5791500,
+      "before_B": "30500",
+      "repair_status": "active_primary_research",
+      "new_revision_proposal": null,
+      "original_sources_reused": {
+        "listing_id": "R26TA01807980010000081",
+        "public_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA01807980010000081",
+        "attachment_file_name": "규격서_루스테크놀로지(2026.09).zip",
+        "downloaded_file": "/Users/aaron-son/Documents/savetax-research-agent/work/recovery-20261019/lighting/spec-downloads/25823003/규격서_루스테크놀로지&#40;2026.09&#41;.zip",
+        "extracted_text_file": "work/recovery-20261019/lighting/spec-text/25823003.txt",
+        "observed_at_utc": "2026-10-19T08:38:16.162226+00:00",
+        "text_read_at_utc": "2026-10-19T08:40:38.514597+00:00",
+        "exact_model_found_in_extracted_text": true,
+        "delivery_terms": "납품장소 하차도",
+        "defect_warranty_years": "3",
+        "minimum_optical_specs": {
+          "rated_flux_lm_min": "4400",
+          "initial_flux_pct_rated_min": "95",
+          "efficacy_lm_w_min": "110",
+          "cri_ra_min": "80",
+          "nominal_cct_k": "5700",
+          "reading": "HWP 추출문의 정확 모델 LUZ-FU1203-401 품질기준 행 대조. 인증 부속서에서 비어 있는 CRI/CCT를 이 규격서의 계약 공시값과 구별했다.",
+          "summary": "원규격의 정확 모델 행은 정격광속 4,400lm 이상, 초기광속은 정격의 95% 이상, 광효율 110lm/W 이상, Ra80 이상, 5700K를 명시한다. 원품 인증서 부속서의 CCT·CRI 칸은 비어 있어 시험값을 채우지 않았다."
+        },
+        "reading_scope": "정확 모델의 포함 여부와 관련 텍스트를 검토했다. 모든 도면과 모든 조항을 시각 검수한 것으로 표시하지 않는다."
+      },
+      "original_exact_certificate": {
+        "model": "LUZ-FU1203-401",
+        "source_url": "https://min24.energy.or.kr/report/data/ReportDesinerCall.do?sysCode=NHIEFF&codeReportSct=NHF11&paramArr=217325",
+        "raw_file": "work/recovery-20261019/lighting/cert-25823003.txt",
+        "raw_sha256_verified": true,
+        "values": {
+          "efficacy_lm_w": "119.9",
+          "flux_lm": "4890.5",
+          "cct_k": null,
+          "cri_ra": null,
+          "power_factor": "0.97",
+          "harmonic_current_pct": "3"
+        },
+        "basis": "한국에너지공단 정확 모델 인증서 및 부속서 시험성적; 판매 명목 사양과 분리"
+      },
+      "existing_counterevidence_ids": [
+        "a3d60948-cc4f-4458-9505-97d4ffe11156",
+        "8b93feb9-36dd-4f55-815f-9038dca5b4f5"
+      ],
+      "material_resolution_claimed": false
+    }
+  ],
+  "applied_material_repair_count": 8,
+  "remaining_material_research_count": 11,
+  "current_total_amount_krw": 422754300
+}

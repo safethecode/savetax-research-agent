@@ -1,0 +1,1213 @@
+{
+  "updated_at_utc": "2026-10-19T10:42:32.193046+00:00",
+  "task": "삼손 hardware14 실질보완 재조사",
+  "status": "in_progress",
+  "item_count": 14,
+  "applied_revision_count": 2,
+  "current_total_amount_krw": 3354395410,
+  "actual_total_reduction_krw": 9253600,
+  "vendor_inquiry_drafts_path": "work/repair-samson-20261019/hardware/vendor-inquiry-drafts.json",
+  "vendor_first_batch_ids": [
+    "hn-original",
+    "tp-install",
+    "emstone-supply"
+  ],
+  "public_search_notes_path": "work/repair-samson-20261019/hardware/final-public-search-notes.json",
+  "limitations": "미공개 가격·성능·설치비를 만들어내지 않는다. 초안의 산식 예상액과 공식 심사 인정액은 구분한다. parent만 외부 revision을 수행한다.",
+  "items": [
+    {
+      "item_id": "25055159",
+      "submission_id": "41a5fe44-f0b9-4983-82e1-09bd3297c176",
+      "product_name": "보안용카메라, 비알인포텍, BRGT-B08040RAI, 14.11mmCMOS",
+      "current_revision": 1,
+      "amount_krw": 606066600,
+      "counterevidence_ids": [
+        "33a727a8-01cf-435b-b9aa-4bbf9e205b82",
+        "51b76279-ea04-4ca3-860e-3823308de677",
+        "b0547944-2632-4dd0-a17c-bbf5e32a36d9",
+        "ad48e978-3774-4373-85db-c9166a2f6089"
+      ],
+      "confirmed_defects": [
+        "정확한 원모델 BRGT-B08040RAI 제조사 카탈로그 PDF 3쪽(인쇄 33쪽)은 8MP 30fps·4.1~16.4mm·수평 망원 26도·IP67·4스트림·기가비트 LAN·SD512GB를 명시한다. 실제 판매품 DS-2CD2686G2-IZS는 각각 8MP 24fps·2.8~12mm·망원46도·IP66·3스트림·100Mbps·SD256GB로 차이가 확인된다.",
+        "현 제출은 손실을 정직하게 공개했으나 7개 fact·489대의 원래 요구를 제한된 일반 감시 범위가 모두 대체한다는 현장 근거는 없다."
+      ],
+      "unresolved": [
+        "특화 객체 속성/전용 보안·인증과 실제 설치 호환의 완전 대응은 미확인이다.",
+        "원품 IR은 공식 속성50m/제조사 해당 표30m 차이를 유지했다."
+      ],
+      "rebutted_points": [
+        "촬상소자·화소·셔터·IK10 등 대응 사양은 인정한다. 모델이 다르다는 이유만의 이의는 입증된 사양 차이와 구별한다.",
+        "물품 치수 숫자가 더 크다는 이유로 우위/열위를 판정하지 않는다."
+      ],
+      "source_urls": [
+        "https://btobcctv.com/product/detail.html?product_no=85663",
+        "http://www.brinfo.co.kr/assets/cat-p2.pdf",
+        "https://hikv.cafe24.com/SPEC/DS-2CD2686G2-IZS.jpg"
+      ],
+      "prior_audit_status": "confirmed_issue",
+      "repair_status": "no_qualifying_offer_verified_after_new_search",
+      "new_research": {
+        "paths": [
+          "work/repair-samson-20261019/hardware/parallel-brgt.json",
+          "work/repair-samson-20261019/hardware/parallel-camera8mptele.json",
+          "work/repair-samson-20261019/hardware/parallel-camera.json"
+        ],
+        "checked": [
+          "원품 정확 BRGT 제조사 인쇄33쪽을 BRGN의 다른 표와 분리했다.",
+          "같은 모델 일반판매 경로 외 Hanwha XNO-9083R/C9084R 및 Esca 8MP 경로로 넓혔다.",
+          "현재 Hikvision8MP24fps·IP66·2.8~12mm는 원품8MP30fps·IP67·4.1~16.4mm/망원26도와 실제 핵심 성능이 다르다.",
+          "Hanwha 후보의 8MP30fps·IP67은 맞지만 4.4~9.3mm의 망원화각 약47도는 원품26도 범위를 보존하지 못한다."
+        ],
+        "new_qualifying_offer": null
+      },
+      "directly_calculable_reduction_krw": null,
+      "whole_submission_rejection_risk_krw": 606066600
+    },
+    {
+      "item_id": "25560065",
+      "submission_id": "405b28dc-232d-44e0-a9e3-1bf54494efaa",
+      "product_name": "디지털비디오레코더, 엠스톤, EM-36B8V2, 16GB",
+      "current_revision": 1,
+      "amount_krw": 570855000,
+      "counterevidence_ids": [
+        "e1a90418-7460-4d58-ac80-3c5ebcadd2c2",
+        "65b9211b-8135-4ece-9154-ae8d1c15177a",
+        "9c6645cd-634d-4ca6-ab77-67a1edbdeb8b",
+        "b63d8ddb-71f9-4dca-a3b3-a75d9f5835c1"
+      ],
+      "confirmed_defects": [
+        "원품 EM-36B8V2의 FHD 36채널 동시 재생에 비해 판매품 DS-9664NI-M8의 동시 재생은 16채널이다. 64채널 입력·40채널 FHD 디코딩 수치가 동시 재생 36채널을 대신하지 않는다.",
+        "원품 2.5GbE 2포트·192TB에 비해 판매품 첨부 사양은 1GbE 2포트·128TB이다. 현재 제출도 이 차이를 공개했지만 77개 fact·95대 전량을 제한 용도에 적용할 자료는 없다."
+      ],
+      "unresolved": [
+        "원품 코덱·TTA·Failover·전용 연동 대응 및 현장별 필요 조건은 미확인이다.",
+        "동일 모델 MPS 판매가는 전화문의이며, 새로 검증된 숫자 일반가가 없다."
+      ],
+      "rebutted_points": [
+        "대체품 비교가 공개된 점은 인정한다. 제조사·모델 차이만으로 자동 탈락하거나 반증 접수만으로 예상액이 0원이 되는 것은 아니다.",
+        "192TB와 128TB는 최대 지원치이며 포함 HDD 판매량이 아니다."
+      ],
+      "source_urls": [
+        "https://www.emstone.com/data/sales/ko/2UB8V2%28TTA%29_CATALOG_KO_20250722.pdf",
+        "https://hikv.cafe24.com/SPEC/DS-9664NI-M8.jpg",
+        "https://www.emstone.com/ko/products/2ub8v2-tta2.9.24.1.31/",
+        "https://btobcctv.com/product/detail.html?product_no=107441",
+        "https://www.mpsmall.co.kr/goods/goods_view.php?goodsNo=24866",
+        "https://www.dahuasecurity.com/in/products/network-products/network-recorders/WizMind-Series/NVR6-XI/8HDD/NVR608H-64-XI",
+        "https://www.milesight.com/security/product/enterprise-nvr-3u",
+        "https://meritlilin.com/en/product/NAV2036A"
+      ],
+      "prior_audit_status": "confirmed_issue",
+      "repair_status": "no_qualifying_offer_verified_after_new_search",
+      "new_research": {
+        "paths": [
+          "work/repair-samson-20261019/hardware/parallel-em36.json",
+          "work/repair-samson-20261019/hardware/parallel-nvr-exact.json",
+          "work/repair-samson-20261019/hardware/parallel-nvr36playback.json"
+        ],
+        "checked": [
+          "동일 EM-36B8V2 MPS24866/ITNCCTV 원문은 일반 숫자 판매가 대신 문의 견적이다.",
+          "새 후보 QNAP QVP-85B·LILIN NAV2036A/NAV08036A·Milesight Enterprise·DahuaNVR608H-XI·Uniview 기업 NVR를 탐색했다.",
+          "Dahua NVR608H-64-XI 공식 원문은 1280Mbps·2.5G×2·40FHD 디코딩이지만 동시 재생16ch·8×20TB다. 원품36ch재생·192TB와 같다고 쓰지 않는다.",
+          "QNAP 기본8라이선스·로컬 재생16ch를 카메라64입력과 혼동하지 않는다. LILIN의 일부36ch상품3HDD와8HDD를 혼동하지 않는다."
+        ],
+        "new_qualifying_offer": null,
+        "new_sources": [
+          "https://www.dahuasecurity.com/in/products/network-products/network-recorders/WizMind-Series/NVR6-XI/8HDD/NVR608H-64-XI",
+          "https://www.milesight.com/security/product/enterprise-nvr-3u",
+          "https://meritlilin.com/en/product/NAV2036A"
+        ]
+      },
+      "directly_calculable_reduction_krw": null,
+      "whole_submission_rejection_risk_krw": 570855000
+    },
+    {
+      "item_id": "25431016",
+      "submission_id": "b5171da9-f4f5-400f-ab38-5e186b256dd7",
+      "product_name": "디지털비디오레코더, 엠스톤, EM-04B2-T, 16GB",
+      "current_revision": 1,
+      "amount_krw": 508724800,
+      "counterevidence_ids": [
+        "6d56b2c5-8fe5-4686-9ca3-d89a1fabbcad",
+        "aefa21ca-dc8d-40cc-95ea-fa3bbe3d356a",
+        "32a06e8e-51dc-4def-8d27-85d216213adc",
+        "c9c918ef-7244-4e41-b60e-ad43a83e8535",
+        "353bb871-f1ac-43c2-9dcb-bb778e41894d"
+      ],
+      "confirmed_defects": [
+        "원품 EM-04B2-T의 제조사 개별 사양상 최대 녹화500Mbps·최대48TB에 비해 판매품 DS-7608NI-M2 공식 해당 버전은 입력128Mbps·16TB×2=32TB로 낮다.",
+        "128Mbps 이하·32TB 이하로 사용 범위를 제한한 사실은 인정하나 62개 fact·218대의 실제 요구가 모두 이 안이라는 근거가 없다. 입력 채널4→8과 최대 해상도12→32MP 향상만으로 손실을 상쇄했다고 할 수 없다."
+      ],
+      "unresolved": [
+        "코덱·TTA·Failover·기존 전용 연동 대응은 미확인이다.",
+        "엠스톤 현재 제조사 1UB2-T 페이지의 인증번호208과 기존 제출300, 세대별 네트워크 표기는 차이가 있어 추가 결론에 사용하지 않았다.",
+        "현재 정적 HTML은410,000원·VAT 포함·HDD별도를 확인하지만 옵션 적용 후1개 합계는 이전 브라우저 관측과 구별한다."
+      ],
+      "rebutted_points": [
+        "원품16GB는 OS/NVR용이며 기본 녹화 HDD는 없음이다. 이를4채널 녹화 HDD 포함 세트라고 보는 이의는 맞지 않는다.",
+        "HDD 선택않함 옵션과 이전 브라우저 적용후410,000원 확인 기록은 보존되어 있다."
+      ],
+      "source_urls": [
+        "https://assets.hikvision.com/prd/public/all/doc/m000060963/Datasheet-of-DS-7608NI-M2_V4.63.010_20240606.pdf",
+        "https://itncctv.kr/web/upload/NNEditor/20260306/copy-1772774467-860_002.jpg",
+        "https://www.emstone.com/ko/products/1ub2/",
+        "https://itncctv.kr/product/detail.html?product_no=20773",
+        "https://www.emstone.com/data/sales/ko/1UB2-T_CATALOG_KO_20240808.pdf",
+        "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000002990",
+        "https://www.emstone.com/ko/products/1ub2-t2.9.24.1.31/",
+        "https://www.dahuasecurity.com/in/products/network-products/network-recorders/WizMind-Series/NVR6-XI/8HDD/NVR608H-64-XI"
+      ],
+      "prior_audit_status": "confirmed_issue",
+      "repair_status": "no_qualifying_offer_verified_after_new_search",
+      "new_research": {
+        "paths": [
+          "work/repair-samson-20261019/hardware/parallel-em04.json",
+          "work/repair-samson-20261019/hardware/parallel-nvr-exact.json"
+        ],
+        "checked": [
+          "원품 EM-04B2-T의500Mbps·2×24TB=48TB를 제조사 원문으로 다시 확인했다.",
+          "기존DS7608NI-M2의128Mbps·2×16TB는 핵심 녹화/저장 성능 차이다.",
+          "동일품Aesir1000002990/ITNCCTV16071은 가격문의다.",
+          "DahuaNVR608-64-4KS2 384Mbps 및 HanwhaXRN6410DB4 400Mbps는500Mbps에 미달한다. DahuaNVR608H-XI1280Mbps·8×20TB·2.5G는 성능 경로지만 국내 숫자 일반 판매가격이 연결되지 않았다."
+        ],
+        "new_qualifying_offer": null,
+        "new_sources": [
+          "https://www.emstone.com/ko/products/1ub2-t2.9.24.1.31/",
+          "https://www.dahuasecurity.com/in/products/network-products/network-recorders/WizMind-Series/NVR6-XI/8HDD/NVR608H-64-XI"
+        ]
+      },
+      "directly_calculable_reduction_krw": null,
+      "whole_submission_rejection_risk_krw": 508724800
+    },
+    {
+      "item_id": "25560063",
+      "submission_id": "f8f69b37-7ff3-48f9-8753-71f6ff5b96b2",
+      "product_name": "디지털비디오레코더, 엠스톤, EM-16B8V2, 16GB",
+      "current_revision": 1,
+      "amount_krw": 399515400,
+      "counterevidence_ids": [
+        "0b6b9e46-3d5f-45d3-a636-2ad04a1e48d7",
+        "2e1e2ceb-65ea-4ddf-9e86-7c9b7fdf3b4c",
+        "7fa02e5c-f59b-4ce5-bbcd-4fbab40d11a2"
+      ],
+      "confirmed_defects": [
+        "원품 제조사와 해당 모델 표는 2.5GbE 2포트 및 8베이·최대 192TB를 명시한다. 실제 판매품의 첨부 사양은 1GbE 2포트·베이당 16TB(8베이 128TB)이므로 최대 네트워크 및 확장 정격이 낮다.",
+        "현재 글은 이 차이와 16채널 일반 IP 용도 제한을 공개했지만, 남긴 91개 fact의 126대가 이 제한 안에서 원래 요구를 모두 충족한다는 현장별 자료는 없다. 차이를 밝힌 것만으로 전량의 대체 적합성이 입증되지는 않는다."
+      ],
+      "unresolved": [
+        "원품 TTA·Failover·전용 코덱/프로토콜의 필요한 범위와 대체 대응은 미확인이다.",
+        "신형 제조사 자료의 20TB/베이 표기는 현재 판매 버전에 대응하지 않아 임의 적용하지 않는다.",
+        "원품 최대 지원 용량은 기본 포함 HDD량과 다르다. HDD 미포함 본체끼리라는 설명은 인정한다."
+      ],
+      "rebutted_points": [
+        "64채널 입력 수를 가진 다른 모델이라는 사실만으로 대회 위반은 아니다. 원품 16채널과 대체품 16채널 동시 재생은 대응한다.",
+        "OS용 16GB SSD를 녹화 HDD 용량으로 보는 해석, 물리 LAN 5Gbps를 녹화 처리량으로 보는 해석은 채택하지 않는다."
+      ],
+      "source_urls": [
+        "https://www.emstone.com/data/sales/ko/2UB8V2%28TTA%29_CATALOG_KO_20250722.pdf",
+        "https://hikv.cafe24.com/SPEC/DS-9664NI-M8.jpg",
+        "https://www.emstone.com/ko/products/2ub8v2-tta2.9.24.1.31/",
+        "https://btobcctv.com/product/detail.html?product_no=107441",
+        "https://www.mpsmall.co.kr/goods/goods_view.php?goodsNo=24863",
+        "https://www.dahuasecurity.com/in/products/network-products/network-recorders/WizMind-Series/NVR6-XI/8HDD/NVR608H-64-XI"
+      ],
+      "prior_audit_status": "confirmed_issue",
+      "repair_status": "no_qualifying_offer_verified_after_new_search",
+      "new_research": {
+        "paths": [
+          "work/repair-samson-20261019/hardware/parallel-em16.json",
+          "work/repair-samson-20261019/hardware/parallel-nvr-exact.json",
+          "work/repair-samson-20261019/hardware/parallel-nvr36playback.json"
+        ],
+        "checked": [
+          "동일 EM-16B8V2 MPS24863/ITNCCTV 원문은 일반 숫자 판매가 대신 문의 견적이다.",
+          "QNAP QVP-85B·DahuaNVR608H-XI·Uniview의 실제 저장·네트워크·포함 라이선스 범위를 따로 대조했다.",
+          "DahuaNVR608H-64-XI는 재생16ch와2.5G×2가 대응하지만 공식8×20TB=160TB로 원품192TB를 보존하지 못한다. 외부확장장치 실제 포함가격 없이192TB충족으로 쓰지 않는다.",
+          "현재DS9664NI-M8의 64입력과40FHD디코딩은 재생16ch·1GbE×2·128TB 범위가 192TB/2.5G가 된다는 증거가 아니다."
+        ],
+        "new_qualifying_offer": null,
+        "new_sources": [
+          "https://www.dahuasecurity.com/in/products/network-products/network-recorders/WizMind-Series/NVR6-XI/8HDD/NVR608H-64-XI"
+        ]
+      },
+      "directly_calculable_reduction_krw": null,
+      "whole_submission_rejection_risk_krw": 399515400
+    },
+    {
+      "item_id": "24804791",
+      "submission_id": "8c34050d-b3f4-4073-9f26-a8671d7f7f25",
+      "product_name": "전원공급장치, 이레씨즈, CPC-6008, 8채널",
+      "current_revision": 1,
+      "amount_krw": 349224160,
+      "counterevidence_ids": [
+        "e1c7399f-02c2-4218-af87-45df8194f4d9",
+        "7b94b0eb-30f7-4ac9-b227-2296ed36aa60",
+        "38615f17-31ec-4d13-ae1c-06e2cc80131a",
+        "cea4d7f7-93e6-4572-89e2-19d23c3cf3b0"
+      ],
+      "confirmed_defects": [
+        "원품 제조사 CPC-6008 표는 채널당 최대5A·총10A, 비교품 SC-APC08의 제조사 해당 모델 표와 설명서는 채널당4A·총9A로 명시한다. 허용 부하가 각각20%·10% 낮다.",
+        "정격 초과 용도를 제외한다고 썼지만 남긴 985개 fact·1,232대의 실제 부하가 하향 정격 안이라는 자료가 없어 전량 적용 조건이 입증되지 않았다."
+      ],
+      "unresolved": [
+        "원품 전압 미세조정 기능의 필요 범위와 대체 지원은 미확인이다.",
+        "동일 CPC-6008의 숫자 일반가535,000원·무료배송은 실제 두 판매처에서 재확인했으나 현 대회 가격 차이 기준을 못 넘는다.",
+        "원품 설치·배선·시험과 대체 본체 공급 범위는 다르며 필요한 비용의 숫자는 확인하지 못했다."
+      ],
+      "rebutted_points": [
+        "8채널 순차전원·전체/개별 제어·정전복구 등 대응 기능 및 1U 본체의 랙 브래킷 포함은 인정한다.",
+        "동일 모델535,000원은 조건부 카드가가 아니다. 다른 모델이라는 이유만의 반증과 실제 정격 차이는 분리한다."
+      ],
+      "source_urls": [
+        "https://www.iers.co.kr/product_4/cpc-6008/",
+        "https://dome-cctv.com/product/detail.html?product_no=124660",
+        "https://www.sscctv.com/yc/sub/business/download.php?path=1717142815/SC-APC08_사용설명서.pdf&type=1",
+        "https://www.sscctv.com/yc/sub/business/view.php?it_id=1717142815&ca_id=c0&page=1",
+        "https://hikv.cafe24.com/SPEC/SC-APC08.jpg",
+        "https://www.mpsmall.co.kr/goods/goods_view.php?goodsNo=21893",
+        "https://www.safecctv.net/goods/goods_view.php?goodsNo=1000003930",
+        "https://www.compuzone.co.kr/product/product_detail.htm?ProductNo=1229119",
+        "https://www.xn--352bt7rw9agt.com/Power_Control_Power_Controller/?idx=5457",
+        "https://m.dome-cctv.com/product/detail.html?product_no=124662",
+        "https://tipsmall.co.kr/product/%EC%94%A8%EC%95%84%EC%9D%B4%EC%A6%88-sc-apc08he-8%EC%B1%84%EB%84%90-%ED%95%98%EC%9D%B4%ED%8C%8C%EC%9B%8C-ac-%EC%A0%84%EC%9B%90-%EA%B3%B5%EA%B8%89-%EC%A0%9C%EC%96%B4%EA%B8%B0/10990/"
+      ],
+      "prior_audit_status": "confirmed_issue",
+      "repair_status": "no_qualifying_offer_verified_after_new_search",
+      "new_research": {
+        "paths": [
+          "work/repair-samson-20261019/hardware/parallel-cpc6008.json",
+          "work/repair-samson-20261019/hardware/parallel-cpc2008.json",
+          "work/repair-samson-20261019/hardware/parallel-scapc08he.json",
+          "work/repair-samson-20261019/hardware/parallel-scapc08m.json",
+          "work/repair-samson-20261019/hardware/scapc08he-dome.json"
+        ],
+        "checked": [
+          "동일 CPC6008의 실제 컴퓨존1229119·제이엔몰5457 535,000원/무료배송 경로를 찾았다.",
+          "이 정확모델 일반가를 적용하면 원조달528,000~548,000원 대비 대회1.2배 또는 대당100만원 차이 문턱을 충족하지 못한다. 단순 양의 산식11,427,000원을 인정 예상액으로 제출하지 않는다.",
+          "기존SCAPC08 채널4A/전체9A와 원품5A/10A는 실제 차이로 남긴다.",
+          "SCAPC08HE 강화형은 팁스몰10990 출시예정·dome124662 전화문의여서 새 확정 B가 없다. CPC2008 구세대5A/10A 경로는350,000원이나 원품보다 분명한 핵심 우위 근거 없이 채택하지 않았다."
+        ],
+        "new_qualifying_offer": null,
+        "same_model_price_krw": 535000,
+        "same_model_formula_only_amount_krw": 11427000,
+        "price_gap_enforce_pass": false,
+        "new_sources": [
+          "https://www.compuzone.co.kr/product/product_detail.htm?ProductNo=1229119",
+          "https://www.xn--352bt7rw9agt.com/Power_Control_Power_Controller/?idx=5457",
+          "https://m.dome-cctv.com/product/detail.html?product_no=124662",
+          "https://tipsmall.co.kr/product/%EC%94%A8%EC%95%84%EC%9D%B4%EC%A6%88-sc-apc08he-8%EC%B1%84%EB%84%90-%ED%95%98%EC%9D%B4%ED%8C%8C%EC%9B%8C-ac-%EC%A0%84%EC%9B%90-%EA%B3%B5%EA%B8%89-%EC%A0%9C%EC%96%B4%EA%B8%B0/10990/"
+        ]
+      },
+      "directly_calculable_reduction_krw": null,
+      "whole_submission_rejection_risk_krw": 349224160
+    },
+    {
+      "item_id": "24461374",
+      "submission_id": "028942e0-06b4-48e8-8052-dc7716e1e8ff",
+      "product_name": "보안용카메라, 아이즈온솔루션, VD-SD200, 14.11mmCMOS",
+      "current_revision": 1,
+      "amount_krw": 348329350,
+      "counterevidence_ids": [
+        "6eab1f84-7f8a-40a8-bc00-11c2d3519e00",
+        "bcad3c70-ed43-4cb1-b0a2-150e64f6f997",
+        "9e5367f8-7483-4eca-8f02-555f8fe0d2c9",
+        "591642fe-7a21-4ea8-a4d2-69bd5f26aed2"
+      ],
+      "confirmed_defects": [
+        "원품 공식 속성은 SNR55dB이고 대체품 기존 공식 제원은 SNR≥52dB이다. 이 보증 하한으로 원품55dB 이상을 충족했다고 입증할 수 없다. 다만 ≥52는 실제 성능이 정확히52이거나 반드시 원품보다3dB 낮다는 뜻은 아니다.",
+        "비교 B2,005,650원의 부품 세금예산6,550원은 두 부품 판매처의 확정 VAT 고지가 아니다. 가격 근거 객체는 카메라 한 건뿐이며 브래킷·전원은 재현 메모에만 URL과 합산으로 남아 있다. 실제 부품 원문은 각각35,900원·29,600원으로 재확인했다."
+      ],
+      "unresolved": [
+        "특화 침수 감시/인증 및 기존 관제 연동의 필요한 범위와 대체 대응은 미확인이다.",
+        "두 부품 VAT 포함/별도의 명시를 확보하지 못했다. 예산 가산은 실제 세금 확정과 구분해야 하며, 이미 더한 예산을 누락 비용이라고 중복 차감하지 않는다.",
+        "실제 설치 작업·구조물·현장 전원/체결·방수 처리에 필요한 견적은 없다."
+      ],
+      "rebutted_points": [
+        "해상도2→4MP·광학40→42배·1/30000초·IR400m·IP67과 별도 전원/브래킷을 이미 추가한 사실은 인정한다.",
+        "부품 원문을 이번에 직접 읽었으므로 원문 자체가 전혀 없다는 이의는 그대로 유지할 수 없다. ≥52라는 표기만으로 실제 SNR52라고 단정하지 않는다."
+      ],
+      "source_urls": [
+        "https://itncctv.kr/web/upload/NNEditor/20250827/DS-2DF8C442IXS-AELW-2.jpg",
+        "https://www.eyesonsol.com/33",
+        "https://www.hikvisionmall.co.kr/product/detail.html?product_no=132",
+        "https://www.hikvisionmall.co.kr/product/detail.html?product_no=424",
+        "https://cdn.connectec.uk/Images/Products/CCTV/Cameras/hikvision/DS-2DF8C442IXS-AELW_Quick_Start_Guide.pdf",
+        "https://itncctv.kr/product/detail.html?product_no=20295",
+        "https://pro-av.hikvision.com/tr/products/IP-Products/PTZ-Cameras/Ultra-Series/ds-2df8c442ixs-aelw-t5-/",
+        "https://www.eyesonsol.com/27",
+        "https://cdn.imweb.me/thumbnail/20230620/9711eaac8d5eb.jpg",
+        "https://www.compuzone.co.kr/product/product_detail.htm?ProductNo=1051613",
+        "https://www.dahuasecurity.com/br/products/Dedicated-Products/Project-Exclusive/PTZ-Cameras/DH-SD8A840WA-HNF",
+        "https://www.dahuasecurity.com/asset/upload/uploads/soft/20190528/DH-SD8A840WA-HNF.pdf",
+        "https://www.rra.go.kr/ko/license/A_b_popup.do?app_no=201917210000009280",
+        "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/SD8A440GA-HNV_S0_datasheet_20230721.pdf",
+        "https://material.dahuasecurity.com/uploads/soft/20230928/DH-SD8A440WA-HNF.pdf"
+      ],
+      "prior_audit_status": "confirmed_issue",
+      "repair_status": "no_qualifying_offer_verified_after_new_search",
+      "new_research": {
+        "paths": [
+          "work/repair-samson-20261019/hardware/parallel-ptz55db.json",
+          "work/repair-samson-20261019/hardware/parallel-vdsd.json",
+          "work/repair-samson-20261019/hardware/offer-24461374-rejected-840wa.json",
+          "work/repair-samson-20261019/hardware/vdsd200-3.jpg",
+          "work/repair-samson-20261019/hardware/dahua-sd8a840wa-2019pdf.json",
+          "work/repair-samson-20261019/hardware/dahua-sd8a840wa-br.json",
+          "work/repair-samson-20261019/hardware/dahua-sd8a440ga.pdf",
+          "work/repair-samson-20261019/hardware/dahua-sd8a440vi.pdf",
+          "work/repair-samson-20261019/hardware/compuzone-ptz-browser.json",
+          "work/repair-samson-20261019/hardware/rra-ptz-registration.json",
+          "work/repair-samson-20261019/hardware/dahua-ptz-web3-manual.json",
+          "work/repair-samson-20261019/hardware/dahua-sd8a440wa-2023.json",
+          "work/repair-samson-20261019/hardware/dahua-sd8a440wa-2023.pdf",
+          "work/repair-samson-20261019/hardware/dahua-sd8a440wa-2023-p2.png"
+        ],
+        "checked": [
+          "새 정확 원품 VD-SD200 제조사/27의 사양 이미지를 직접 읽어1080p최대50/60fps·SNR55·IP67·IK10·40x·IR450m을 추가 확인했다.",
+          "DahuaSD8A840WA-HNF 구세대 AC24V3A·브래킷/전원 포함·SNR>56·8MP·40x·IP67과 컴퓨존 실제1,668,000원 무료배송을 연결했다. 그러나8MP/1080p모두30fps여서 원품60fps를 보존하지 못해 가격이 유리해도 후보에서 제외했다.",
+          "DahuaSD8A440GA-HNV도 공식PDF에서1080p최대30fps이므로 제외했다. 구세대SD8A440VI-HNI는1080p60fps+4MP+SNR>56가 있지만 국내 숫자 일반가가 아직 연결되지 않았다.",
+          "실제RRA 등록은SD8A840WAN-HNF 파생 모델이고 WA와WAN을 정확 판매SKU 증거 없이 같다고 단정하지 않았다. PAL/NTSC 전환을 허용하는 일반PTZ매뉴얼은 직접 확인했지만 특정 소매품 인증/60fps 충족 근거로 옮기지 않는다.",
+          "MPS 신세대 DC36V와 컴퓨존 구세대 AC24V의 상세를 섞지 않았다. ABI 검색1627500과 실제2500000을 구별했다.",
+          "새 SD8A440WA-HNF의2023-09-28 공식 PDF는4MP/1080p50/60fps·SNR55·0.001lux·IR500을 공시한다. 기존2019 동명 SKU의30fps·AC24V와 구분하며 같은세대 실제 국내 판매 가격·KC 대응·IK10까지 연결하는 견적을 준비한다. 국내 판매확정으로 쓰지 않는다."
+        ],
+        "new_qualifying_offer": null,
+        "new_sources": [
+          "https://www.eyesonsol.com/27",
+          "https://cdn.imweb.me/thumbnail/20230620/9711eaac8d5eb.jpg",
+          "https://www.compuzone.co.kr/product/product_detail.htm?ProductNo=1051613",
+          "https://www.dahuasecurity.com/br/products/Dedicated-Products/Project-Exclusive/PTZ-Cameras/DH-SD8A840WA-HNF",
+          "https://www.dahuasecurity.com/asset/upload/uploads/soft/20190528/DH-SD8A840WA-HNF.pdf",
+          "https://www.rra.go.kr/ko/license/A_b_popup.do?app_no=201917210000009280",
+          "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/SD8A440GA-HNV_S0_datasheet_20230721.pdf",
+          "https://material.dahuasecurity.com/uploads/soft/20230928/DH-SD8A440WA-HNF.pdf"
+        ]
+      },
+      "directly_calculable_reduction_krw": null,
+      "whole_submission_rejection_risk_krw": 348329350
+    },
+    {
+      "item_id": "25063931",
+      "submission_id": "32fc75ec-2ed1-4576-a9ec-dc74d20c0f92",
+      "product_name": "보안용카메라, 비알인포텍, BRLT-B08040RAI, 14.11mmCMOS",
+      "current_revision": 1,
+      "amount_krw": 330132000,
+      "counterevidence_ids": [
+        "b22af5e0-b7fc-4d27-b76d-34f4c4d31621",
+        "d0e86e56-b864-44a1-a98e-4941d176f55a",
+        "832d6528-7807-4ea2-8903-223bb9461c31"
+      ],
+      "confirmed_defects": [
+        "정확한 원모델 BRLT-B08040RAI 제조사 카탈로그 PDF 5쪽(인쇄 35쪽)은 3840×2160 30fps, 4.1~16.4mm, 수평 화각 103.9~26도, IP67을 명시한다. 판매품 실제 첨부표는 8MP 60Hz 24fps, 2.8~12mm·108~46도, IP66으로 프레임률·망원 범위·보호 정격이 낮다.",
+        "같은 개별 표에서 원품 4스트림·기가비트 LAN·SD 최대 512GB에 비해 판매품은 3스트림·100Mbps·SD 최대 256GB이다. 다른 고화소 제품이라는 설명만으로 이 손실이 없어지지 않는다."
+      ],
+      "unresolved": [
+        "원품 전용 속성 분석·인증·암호화 및 각 현장의 망원/프레임 필요 범위와 대체 대응은 미확인이다.",
+        "원품 공식 속성 IR50m와 제조사 해당 표 IR30m가 달라 원품 야간거리 하나를 임의 확정하지 않았다."
+      ],
+      "rebutted_points": [
+        "판매품도 1/1.8형 CMOS·8MP·1/100000초·IK10을 제공하고 최대 IR60m 및 SNR≥52dB 등 대응/장점이 있다.",
+        "구형 다른 버전의 20fps나 후속 G2H의 30fps를 실제 판매품에 섞지 않았다. 제조사·모델 차이를 공개한 점은 인정한다."
+      ],
+      "source_urls": [
+        "https://btobcctv.com/product/detail.html?product_no=85663",
+        "http://www.brinfo.co.kr/assets/cat-p2.pdf",
+        "https://hikv.cafe24.com/SPEC/DS-2CD2686G2-IZS.jpg"
+      ],
+      "prior_audit_status": "confirmed_issue",
+      "repair_status": "no_qualifying_offer_verified_after_new_search",
+      "new_research": {
+        "paths": [
+          "work/repair-samson-20261019/hardware/parallel-brlt.json",
+          "work/repair-samson-20261019/hardware/parallel-camera8mptele.json",
+          "work/repair-samson-20261019/hardware/parallel-camera.json"
+        ],
+        "checked": [
+          "원품 정확 BRLT 제조사 인쇄35쪽을 BRGN·BRGT와 분리했다.",
+          "동일품 일반판매와 Hanwha/Esca 대체 경로를 재탐색했다.",
+          "현재 Hikvision8MP24fps·IP66·2.8~12mm는 원품8MP30fps·IP67·4.1~16.4mm/망원26도와 핵심 성능 차이가 남는다.",
+          "대체품 화각을 광각 숫자만으로 우수하다고 판단하지 않았다."
+        ],
+        "new_qualifying_offer": null
+      },
+      "directly_calculable_reduction_krw": null,
+      "whole_submission_rejection_risk_krw": 330132000
+    },
+    {
+      "item_id": "24677197",
+      "submission_id": "498d3cc0-5d6b-45d7-91d2-659bbfeefbd7",
+      "product_name": "전원공급장치, 디라직, DPD-628, 8채널",
+      "current_revision": 2,
+      "amount_krw": 79950000,
+      "counterevidence_ids": [
+        "08653493-4f7a-4ac8-8f03-3f4ef155713e"
+      ],
+      "confirmed_defects": [],
+      "unresolved": [
+        "원품LOCK 로직·총 동시 허용량과 대체품의 완전 대응은 미확인이다. 대체 제조사 현행 표에는총9,900W가 명시되며 원품 총정격은 새로 확정하지 못했다.",
+        "실제 배선·랙고정·출력연결·순차설정 및 현장 보증 조건의 비용은 미확인이다. 모든 차액을 이 비용이라고 채우지 않는다.",
+        "VAT포함 명시문이 없지만 별도 부과가 관측된 것도 아니다."
+      ],
+      "rebutted_points": [
+        "DPD-628과 DPD-6208N은 모두디라직이다. 공식MAS PDF14쪽의 DPD-628·물품번호·DLOGIXS와 현행 제조사 페이지가 확인되므로 WISP 반증의 다른 제조사라는 부분은 틀리다.",
+        "모델은 다르며8채널·채널2,200W·DC24V1.5A·규격치수는 대응한다. 현 차수2의 제조사 정정은 타당하나 남은 조건까지 모두 해결했다는 뜻은 아니다."
+      ],
+      "source_urls": [
+        "https://sound4u.kr/product/디라직-dpd-6208n-순차전원기-전원공급기-전원분배기/2204/category/150/display/1/",
+        "https://dlogixs.co.kr/catalog/2026%20MAS%20%EC%B9%B4%ED%83%88%EB%A1%9C%EA%B7%B8_04.20.pdf",
+        "https://dlogixs.co.kr/product/dpd-6208n/",
+        "https://dlogixs.co.kr/product/dpd-6208n/?attachment_id=15978&download_file=5cf090a08fdde"
+      ],
+      "prior_audit_status": "unverified_gap",
+      "repair_status": "no_qualifying_offer_verified_after_new_search",
+      "new_research": {
+        "paths": [
+          "work/repair-samson-20261019/hardware/parallel-dpd628.json",
+          "work/repair-samson-20261019/hardware/dpd6208-manual.json"
+        ],
+        "checked": [
+          "DPD628과6208N이 같은 DIRAC/DLOGIXS 계열이라는 기존 반박을 유지했다.",
+          "새 실제 DPD6208N 공식 사용설명서를 내려받아0/1/2초·DC24V1.5A·채널MAX2200W·총9900W·LOCK에서 선택채널 상시전원·RemoteOnOff·Bypass를 확인했다.",
+          "원품 정확 MAS표는전원스위치LOCK·AC2200W×8CH·DC24V1.5A다. 원품에 별도공시 없는 총9900W나2200×8=17600W를 가상 정격으로 만들지 않았다.",
+          "동일DPD628 일반가와 원품 LOCK의 상세회로 동작 근거는 일반 검색에서 찾지 못했다. 새6208N의 LOCK 직접증명은 긍정 보완이지만 원품과의 구체 동작 동일성·분명한 성능우위를 단정하는 수정안으로 만들지 않았다."
+        ],
+        "new_qualifying_offer": null,
+        "new_sources": [
+          "https://dlogixs.co.kr/product/dpd-6208n/?attachment_id=15978&download_file=5cf090a08fdde"
+        ]
+      },
+      "directly_calculable_reduction_krw": null,
+      "whole_submission_rejection_risk_krw": 79950000
+    },
+    {
+      "item_id": "23385308",
+      "submission_id": "f8a15f70-5f9b-44e6-8c85-d8075c44b259",
+      "product_name": "네트워크스위치, 한드림넷, (CN)HN1010G, 8port",
+      "current_revision": 1,
+      "amount_krw": 43968000,
+      "counterevidence_ids": [
+        "2cc622b8-f4e7-49d0-9b9e-3923ea171b29",
+        "024ce46a-dc8e-454c-a104-c5eb1be889b3"
+      ],
+      "confirmed_defects": [],
+      "unresolved": [
+        "원품 VNM/VIPM·Multi OS와 대체품 Omada는 다른 관리 체계다. 실제 납품망의 필수 연동과 대체 대응은 미확인이다.",
+        "원품 내장AC전원·콘솔 대비 판매품 외부어댑터·관리구성 차이는 실제이지만 이것만으로 일반 스위칭 성능 열위나 새로운 필수 비용을 입증하지 않는다.",
+        "원품 보안기능확인서·국산 조건이 개별 fact에 필수인지, 대체품 인증이 그 조건에 맞는지 추가 검증이 필요하다."
+      ],
+      "rebutted_points": [
+        "8GbE+2SFP·20Gbps·14.88Mpps·MAC8K는 대응한다. PoE 추가만으로 모든 기능 우위를 주장하지 않은 점은 인정한다.",
+        "실제 사용자 신규후보의 더 좋음 선별정책을 대회 위반 조항으로 확대하지 않는다."
+      ],
+      "source_urls": [
+        "https://www.tp-link.com/kr/business-networking/omada-switch-poe/tl-sg2210p/v5.2/",
+        "https://tplinkmall.com/product/detail.html?product_no=90",
+        "https://www.shsys.kr/user/default/image/page/%EB%B8%8C%EB%A1%9C%EC%85%94_%ED%95%9C%EB%93%9C%EB%A6%BC%EB%84%B7.pdf",
+        "https://handreamnet.tistory.com/410"
+      ],
+      "prior_audit_status": "unverified_gap",
+      "repair_status": "ready_for_parent_review_with_original_installation_scope_gap",
+      "new_research": {
+        "paths": [
+          "work/repair-samson-20261019/hardware/draft-23385308.json",
+          "work/repair-samson-20261019/hardware/offer-23385308.json",
+          "work/repair-samson-20261019/hardware/sg3210x-m2-browser.json",
+          "work/repair-samson-20261019/hardware/sg3210x-m2-official.pdf",
+          "work/repair-samson-20261019/hardware/rra-sg3210x-registration.json",
+          "work/repair-samson-20261019/hardware/compuzone-faq.html"
+        ],
+        "checked": [
+          "새SG3210XM2의동선2.5G·80Gbps·59.52Mpps·MAC16K·관리기능·콘솔·내장AC·팬리스0~50℃·전원/랙키트·정확RRA·VAT·일반합계285800무료배송을 검증했다.",
+          "원품Flash64와대체32,원품VNM/MultiOS를 숨기지 않고 관리 기능 실제 지원 및 더 높은 처리량 중심 초안을 준비했다.",
+          "원품 정확23385308 표준규격서도현장설치12시간·보안기능확인서를 요구한다. 본체 가격 수정안은 이 필수비용/조건까지 해결한 완전계약 비교가 아니다."
+        ],
+        "new_qualifying_offer": "offer-23385308.json",
+        "status": "ready_for_parent_review_with_original_installation_scope_gap"
+      },
+      "directly_calculable_reduction_krw": null,
+      "whole_submission_rejection_risk_krw": 43968000,
+      "offer": {
+        "item_id": "23385308",
+        "submission_id": "f8a15f70-5f9b-44e6-8c85-d8075c44b259",
+        "revision_before": 1,
+        "status": "ready_for_parent_review_with_original_installation_scope_gap",
+        "comparison_kind": "higher_core_performance_complete_product",
+        "before_B_krw": 189000,
+        "after_B_krw": 285800,
+        "before_amount_krw": 43968000,
+        "after_amount_formula_krw": 25382400,
+        "quantity": 192.0,
+        "price_evidence_snapshot": "sg3210x-m2-browser.json",
+        "official_spec": "sg3210x-m2-spec.html",
+        "certification": "rra-sg3210x-registration.json",
+        "payload_path": "work/repair-samson-20261019/hardware/draft-23385308.json",
+        "fact_amounts": [
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R25TB01075312:1",
+            "C": "5016000",
+            "Q": "12",
+            "B": "285800",
+            "amount_krw": 1586400
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R25TB01186691:1",
+            "C": "25080000",
+            "Q": "60",
+            "B": "285800",
+            "amount_krw": 7932000
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R25TB01208415:1",
+            "C": "418000",
+            "Q": "1",
+            "B": "285800",
+            "amount_krw": 132200
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R25TB01220680:1",
+            "C": "418000",
+            "Q": "1",
+            "B": "285800",
+            "amount_krw": 132200
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R25TB01226871:1",
+            "C": "418000",
+            "Q": "1",
+            "B": "285800",
+            "amount_krw": 132200
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R25TB01256255:1",
+            "C": "418000",
+            "Q": "1",
+            "B": "285800",
+            "amount_krw": 132200
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R25TB01288144:1",
+            "C": "418000",
+            "Q": "1",
+            "B": "285800",
+            "amount_krw": 132200
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R25TB01324374:1",
+            "C": "1672000",
+            "Q": "4",
+            "B": "285800",
+            "amount_krw": 528800
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R25TB01336349:1",
+            "C": "836000",
+            "Q": "2",
+            "B": "285800",
+            "amount_krw": 264400
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R26TB01461270:1",
+            "C": "836000",
+            "Q": "2",
+            "B": "285800",
+            "amount_krw": 264400
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R26TB01569899:1",
+            "C": "7524000",
+            "Q": "18",
+            "B": "285800",
+            "amount_krw": 2379600
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R26TB01670024:1",
+            "C": "836000",
+            "Q": "2",
+            "B": "285800",
+            "amount_krw": 264400
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R26TB01788850:2",
+            "C": "836000",
+            "Q": "2",
+            "B": "285800",
+            "amount_krw": 264400
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R26TB01806939:1",
+            "C": "1254000",
+            "Q": "3",
+            "B": "285800",
+            "amount_krw": 396600
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R26TB01870033:1",
+            "C": "1672000",
+            "Q": "4",
+            "B": "285800",
+            "amount_krw": 528800
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R26TB01964989:1",
+            "C": "418000",
+            "Q": "1",
+            "B": "285800",
+            "amount_krw": 132200
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R26TB01998580:1",
+            "C": "1672000",
+            "Q": "4",
+            "B": "285800",
+            "amount_krw": 528800
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R26TB02118666:1",
+            "C": "418000",
+            "Q": "1",
+            "B": "285800",
+            "amount_krw": 132200
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R26TB02152717:1",
+            "C": "418000",
+            "Q": "1",
+            "B": "285800",
+            "amount_krw": 132200
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R26TB02171972:1",
+            "C": "418000",
+            "Q": "1",
+            "B": "285800",
+            "amount_krw": 132200
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R26TB02278820:1",
+            "C": "836000",
+            "Q": "2",
+            "B": "285800",
+            "amount_krw": 264400
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R26TB02283141:1",
+            "C": "1672000",
+            "Q": "4",
+            "B": "285800",
+            "amount_krw": 528800
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R26TB02284575:1",
+            "C": "418000",
+            "Q": "1",
+            "B": "285800",
+            "amount_krw": 132200
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R26TB02288061:1",
+            "C": "418000",
+            "Q": "1",
+            "B": "285800",
+            "amount_krw": 132200
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R26TB02328257:1",
+            "C": "1254000",
+            "Q": "3",
+            "B": "285800",
+            "amount_krw": 396600
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R26TB02330300:1",
+            "C": "11286000",
+            "Q": "27",
+            "B": "285800",
+            "amount_krw": 3569400
+          },
+          {
+            "fact_id": "dl:23385308:R25TA00961673:R26TB02332386:1",
+            "C": "13376000",
+            "Q": "32",
+            "B": "285800",
+            "amount_krw": 4230400
+          }
+        ],
+        "remaining_scope": "한드림넷 HN1010G의 PoE 없는 기가비트 관리형 스위치 본체와 TP-Link SG3210X-M2 완제품 취득가격을 비교한다. 대체품은 동선 속도·스위칭 처리량·MAC 용량을 높이고 일반 L2 관리 기능·콘솔·내장 AC 전원을 갖춘다. 원품 Flash 64MB에 대해 대체품 Flash는 32MB이고 DRAM은 원품 128MB에 대해 대체품256MB다. Flash 숫자 차이를 숨기지 않으며, 제조사가 제공하는 펌웨어·설정 관리 기능을 기준으로 비교했다. 한드림넷 VNM 전용 연동·Multi OS 및 원품의 보안기능확인서 인증을 TP-Link가 그대로 보유한다는 주장은 하지 않는다. 범용 관리형 스위치 본체 비교이며 현장 전용관리 연동·설치 용역과 광 모듈·광 케이블 별매 범위는 제품 가격에 포함시키지 않는다. 원품 23385308의 실제 표준규격서에는 현장설치도·설치시간12시간 및 보안기능확인서 보유 조건이 명시된다. B285,800원은 설치 완료가격이 아닌 완제품 본체 판매가격이다. 따라서 본체 성능 우위 및 구성 증명과 설치·전용관리 통합·해당 보안기능확인서까지 포함한 전체 계약 이행 증명은 구별한다.",
+        "vat_proof": {
+          "source_url": "https://m.compuzone.co.kr/cscenter/faq_main.htm",
+          "text": "컴퓨존에서 판매하는 모든 상품은 부가세 포함 가격으로 판매되고 있으며 세금계산서 발행이 가능합니다.",
+          "local_path": "work/repair-samson-20261019/hardware/compuzone-faq.html"
+        },
+        "original_model": "HN1010G",
+        "fact_count": 27,
+        "scope_note": "한드림넷 HN1010G의 PoE 없는 기가비트 관리형 스위치 본체와 TP-Link SG3210X-M2 완제품 취득가격을 비교한다. 대체품은 동선 속도·스위칭 처리량·MAC 용량을 높이고 일반 L2 관리 기능·콘솔·내장 AC 전원을 갖춘다. 원품 Flash 64MB에 대해 대체품 Flash는 32MB이고 DRAM은 원품 128MB에 대해 대체품256MB다. Flash 숫자 차이를 숨기지 않으며, 제조사가 제공하는 펌웨어·설정 관리 기능을 기준으로 비교했다. 한드림넷 VNM 전용 연동·Multi OS 및 원품의 보안기능확인서 인증을 TP-Link가 그대로 보유한다는 주장은 하지 않는다. 범용 관리형 스위치 본체 비교이며 현장 전용관리 연동·설치 용역과 광 모듈·광 케이블 별매 범위는 제품 가격에 포함시키지 않는다. 원품 23385308의 실제 표준규격서에는 현장설치도·설치시간12시간 및 보안기능확인서 보유 조건이 명시된다. B285,800원은 설치 완료가격이 아닌 완제품 본체 판매가격이다. 따라서 본체 성능 우위 및 구성 증명과 설치·전용관리 통합·해당 보안기능확인서까지 포함한 전체 계약 이행 증명은 구별한다.",
+        "amount_reduction_krw": 18585600,
+        "source_mapping": {
+          "original_flash": "https://api.savetax.now/v1/items/23385308",
+          "original_management_and_performance": "https://www.shsys.kr/user/default/image/page/%EB%B8%8C%EB%A1%9C%EC%85%94_%ED%95%9C%EB%93%9C%EB%A6%BC%EB%84%B7.pdf#page=4",
+          "original_environment": "https://www.shsys.kr/user/default/image/page/%EB%B8%8C%EB%A1%9C%EC%85%94_%ED%95%9C%EB%93%9C%EB%A6%BC%EB%84%B7.pdf#page=5",
+          "original_contract_spec": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R25TA00961673020000001"
+        }
+      },
+      "proposed_amount_formula_krw": 25382400,
+      "proposed_amount_reduction_krw": 18585600
+    },
+    {
+      "item_id": "24280590",
+      "submission_id": "3b0bbfa7-d55a-4bce-b731-0815067bcd9f",
+      "product_name": "네트워크스위치, 에이디엠, ASW-2224G, 24port",
+      "current_revision": 2,
+      "amount_krw": 36360000,
+      "counterevidence_ids": [
+        "df051e68-7356-4834-8ca9-4e7c87ec36e5",
+        "a048abc4-2fdf-4ac5-9718-96787fa088cd"
+      ],
+      "confirmed_defects": [],
+      "unresolved": [
+        "TL-SG3428은 버전에 따라 MAC8K/16K가 갈리는데 실제 판매 버전이 확인되지 않았다. 최신V2 이상16K를 판매품에 무조건 적용하거나 반대로 판매품이V1이라고 단정할 수 없다.",
+        "원품100Base-FX/1000Base-X 중100Mbps광과 원품메모리·기존망 설정 대응은 미확인이다. 대체품이 실제 필요한100Mbps광을 지원하지 못한다는 현장 근거까지는 없다."
+      ],
+      "rebutted_points": [
+        "24GbE+4SFP·56Gbps·41.66Mpps와 VLAN/관리 기능은 대응한다. 제조사·모델 차이를 공개했다.",
+        "100Base-FX를 실제 사용하는 용도와1Gbps광 범위만을 구별한 점은 인정한다. 미확인 판매 버전을 곧 확정 규격 미달로 바꾸지 않는다."
+      ],
+      "source_urls": [
+        "https://www.admict.co.kr/%EB%B3%B5%EC%A0%9C-%EC%84%A0%EB%B2%88%EA%B4%80%EB%A6%AC-%EC%84%9C%EB%B2%84",
+        "https://www.tp-link.com/kr/business-networking/managed-switch/tl-sg3428/v2/",
+        "https://www.tp-link.com/kr/business-networking/omada-switch-l3-l2-managed/tl-sg3428/v2.20/",
+        "https://tplinkmall.com/product/detail.html?product_no=79",
+        "https://tplinkmall.com/product/detail.html?product_no=183",
+        "https://www.tp-link.com/kr/business-networking/omada-switch-l3-l2-managed/tl-sg3428x/v1/",
+        "https://www.rra.go.kr/ko/license/A_b_popup.do?app_no=202117210000427579",
+        "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002370275_1040000084"
+      ],
+      "prior_audit_status": "unverified_gap",
+      "repair_status": "revision_applied",
+      "new_research": {
+        "paths": [
+          "work/repair-samson-20261019/hardware/draft-24280590.json",
+          "work/repair-samson-20261019/hardware/offer-24280590.json",
+          "work/repair-samson-20261019/hardware/sg3428x-browser-dom.json",
+          "work/repair-samson-20261019/hardware/sg3428x-original-factory.json",
+          "work/repair-samson-20261019/hardware/rra-sg3428x-registration.json",
+          "work/repair-samson-20261019/hardware/asw-original-scope-review.json",
+          "work/repair-samson-20261019/hardware/asw-contract-tab.json",
+          "work/repair-samson-20261019/hardware/asw-original-hwp-read.json",
+          "work/repair-samson-20261019/hardware/asw-conditions-download.json"
+        ],
+        "checked": [
+          "원품 ASW-2224G의 정확 제조사와 조달 규격서·계약조건 ZIP·계약사항 탭을 직접 읽었다.",
+          "원품56G·41.6Mpps 대비 새 TL-SG3428X는128G·95.23Mpps이며 MAC16K·DRAM256·24동선+4광·실제 관리 기능·내장전원·랙키트·팬리스·정확 RRA를 검증했다.",
+          "원 계약3.3 선택부품은 본체24280590와1G SX/LX 모듈23199005/23199006을 구분한다. 다른 랙 BOM이나 HN 설치12h를 이 품목에 옮기지 않는다.",
+          "100FX와Flash256→32 차이는 숨기지 않고 실제1G/10G 광 운영 및 관리·업데이트 기능 범위를 명시했다.",
+          "티피링크몰 실제 DOM의1개 일반 합계598000원·무료배송을 확인했다. 회원/딜러539600원은 제외했다.",
+          "원품9대2fact의 B398000→598000, 예상액38160000→36360000원으로1800000원 감소한다."
+        ],
+        "new_qualifying_offer": "offer-24280590.json",
+        "status": "revision_applied",
+        "new_sources": [
+          "https://tplinkmall.com/product/detail.html?product_no=183",
+          "https://www.tp-link.com/kr/business-networking/omada-switch-l3-l2-managed/tl-sg3428x/v1/",
+          "https://www.rra.go.kr/ko/license/A_b_popup.do?app_no=202117210000427579",
+          "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002370275_1040000084"
+        ]
+      },
+      "directly_calculable_reduction_krw": null,
+      "whole_submission_rejection_risk_krw": 36360000,
+      "offer": {
+        "item_id": "24280590",
+        "submission_id": "3b0bbfa7-d55a-4bce-b731-0815067bcd9f",
+        "revision_before": 1,
+        "status": "ready_for_parent_review",
+        "comparison_kind": "higher_core_performance_complete_product",
+        "original_model": "ASW-2224G",
+        "actual_model": "TL-SG3428X",
+        "before_B_krw": 398000,
+        "after_B_krw": 598000,
+        "before_amount_krw": 38160000,
+        "after_amount_formula_krw": 36360000,
+        "amount_reduction_krw": 1800000,
+        "quantity": 9.0,
+        "fact_count": 2,
+        "payload_path": "work/repair-samson-20261019/hardware/draft-24280590.json",
+        "fact_amounts": [
+          {
+            "fact_id": "dl:24280590:002370275_1:R26TB01701231:8",
+            "C": "4638000",
+            "Q": "1",
+            "B": "598000",
+            "amount_krw": 4040000
+          },
+          {
+            "fact_id": "dl:24280590:002370275_1:R26TB01940321:15",
+            "C": "37104000",
+            "Q": "8",
+            "B": "598000",
+            "amount_krw": 32320000
+          }
+        ],
+        "remaining_scope": "1Gbps 동선24포트와 1Gbps 광 업링크4포트를 사용하는 일반 관리형 스위치 본체 취득가격을 비교한다. 원품은 광 포트를100Base-FX/1000Base-X로 구성할 수 있으나 대체품 원문은1G/10G SFP+를 명시하므로100Mbps 광 운영까지 같다고 주장하지 않는다. 모든 납품 현장에서100FX가 사용됐다는 사실도 만들지 않는다. 원품 Flash256MB에 대해 대체품은32MB이며 이 차이를 공개한다. 대체품의 실제 듀얼 이미지·듀얼 설정·펌웨어 업데이트 및 관리 기능 지원을 확인했고 용량 숫자만으로 기능이 동일하다고 주장하지 않는다. 대체품 작동온도는0~45℃다. 원품의 SNMP 외 미공개 전용 기능이나 인증을 임의로 대체품이 보유한다고 덧붙이지 않는다. 해당 원 계약 규격서의3.3 선택부품 표에서 ASW-2224G(24280590)와1G SX/LX 광모듈(23199005/23199006)이 각각 별도 식별품으로 등재된다. 광 모듈·광 케이블은 양쪽 스위치 본체와 구별한다. 해당 계약의 규격서·계약조건 ZIP·계약사항 탭을 읽었고, 규격서의 시스템 설치/보증 일반 조항과 계약조건의 설치·교육 조항은 보존한다. 개별 ASW 본체의 설치시간12h가 기재된 자료는 아니며 다른 HN 모델의12h를 옮기지 않는다. 실제 현장공사를 모두 이행한 가격이라고 주장하지 않는다.",
+        "evidence_paths": [
+          "work/repair-samson-20261019/hardware/sg3428x-browser-dom.json",
+          "work/repair-samson-20261019/hardware/sg3428x-sale.json",
+          "work/repair-samson-20261019/hardware/sg3428x-spec.json",
+          "work/repair-samson-20261019/hardware/sg3428x-original-factory.json",
+          "work/repair-samson-20261019/hardware/rra-sg3428x-registration.json",
+          "work/repair-samson-20261019/hardware/asw2224-spec-fresh.json",
+          "work/repair-samson-20261019/hardware/asw-original-scope-review.json",
+          "work/repair-samson-20261019/hardware/asw-contract-tab.json",
+          "work/repair-samson-20261019/hardware/asw-original-hwp-read.json",
+          "work/repair-samson-20261019/hardware/asw-conditions-download.json"
+        ]
+      },
+      "proposed_amount_formula_krw": 36360000,
+      "proposed_amount_reduction_krw": 1800000,
+      "revision_before": 1,
+      "amount_before_krw": 38160000,
+      "actual_revision_evidence": {
+        "after_path": "work/repair-samson-20261019/after/3b0bbfa7-d55a-4bce-b731-0815067bcd9f.json",
+        "proposal_path": "work/repair-samson-20261019/proposals/3b0bbfa7-d55a-4bce-b731-0815067bcd9f.json",
+        "readback_amount_krw": 36360000,
+        "readback_revision": 2
+      },
+      "actual_amount_reduction_krw": 1800000,
+      "verification_status": "not_started"
+    },
+    {
+      "item_id": "24876179",
+      "submission_id": "7cf5013c-476b-430c-90a5-1d862bf6a2b0",
+      "product_name": "네트워크스위치, 여의시스템, YES-2116P, 16port PoE",
+      "current_revision": 1,
+      "amount_krw": 32716900,
+      "counterevidence_ids": [
+        "3ab3baeb-30d6-4532-beee-c40249974775",
+        "2ae219d2-2348-45e1-a489-d807a23525c7"
+      ],
+      "confirmed_defects": [
+        "원품 YES-2116P 제조사 해당 모델 PDF는 -10~50℃·팬리스, 실제 판매품 NEXT-POE3026SFP-400의 제조사 카탈로그 해당 열(PDF7쪽/인쇄12쪽)은0~40℃·FAN-Less 미지원으로 환경 정격과 냉각 구조가 다르다.",
+        "현 제출은0~40℃상온으로 제한한다고 밝혔지만 원품이 공급된36개 fact·53대 모두 이 범위에서 적합하다는 환경 근거는 없다."
+      ],
+      "unresolved": [
+        "원품PoE Remote Restart·DIP격리/스톰 억제 등과 판매품 자동 복구의 동일성, 현장별 필요 범위는 미확인이다.",
+        "판매 설명은 업링크/SFP콤보, 카탈로그는2SFP로 표현 차이가 있어 포트 수를 이중 합산하지 않는다."
+      ],
+      "rebutted_points": [
+        "원품16개PoE포트 대비 판매품24개·285W 대비400W 표기는 장점이다.24포트 모두30W 동시 공급을 주장하지 않았다.",
+        "B327,700원은 일반가324,700원에3,000원을 보수적으로 더한 값이다. 기본 무료배송을 두고 배송 누락으로 반증하지 않는다."
+      ],
+      "source_urls": [
+        "https://duhyun.com/mall/shopbrand_view.php?category=NVR_more&company=&page=2&uid=20627",
+        "https://www.compuzone.co.kr/product/product_detail.htm?ProductNo=416330",
+        "https://www.yoisys.com/data/item/1674626032/1_Datasheet_YES-2116P_KOR.pdf",
+        "https://eznet.synology.me/download/NEXT%EC%A0%9C%ED%92%88%EC%B9%B4%EB%8B%AC%EB%A1%9C%EA%B7%B8_2018.pdf",
+        "https://oemfile.informamarkets-info.com/FileUpload/2024SEC_35954/20230925074703108.pdf",
+        "https://www.mpsmall.co.kr/goods/goods_view.php?goodsNo=26625"
+      ],
+      "prior_audit_status": "confirmed_issue",
+      "repair_status": "no_qualifying_offer_verified_after_new_search",
+      "new_research": {
+        "paths": [
+          "work/repair-samson-20261019/hardware/parallel-yes2116.json",
+          "work/repair-samson-20261019/hardware/parallel-switchindustrial.json"
+        ],
+        "checked": [
+          "동일YES2116PMPS26625/Safe는숫자일반가없는문의경로다.",
+          "원품285W·16PoE+2SFP·팬리스·−10~50℃와 기존NEXT24PoE400W·팬0~40℃ 차이를 구별한다.",
+          "YES2218/2226후속도0~50℃·팬이라원품조건을자동충족하지않는다.",
+          "16PoE팬리스신규UHDPRO는2RJ업링크제품이어서2SFP지원과섞지않았다. 일반중국300W·팬리스모델은국내도착완제품일반판매가격을확정하지않았다."
+        ],
+        "new_qualifying_offer": null
+      },
+      "directly_calculable_reduction_krw": null,
+      "whole_submission_rejection_risk_krw": 32716900
+    },
+    {
+      "item_id": "24797706",
+      "submission_id": "048f57df-e9dd-487d-9123-130e89520508",
+      "product_name": "네트워크스위치, (주문자상표부착)미래시그널, (TW)NK-G802MT, 8port",
+      "current_revision": 2,
+      "amount_krw": 18264400,
+      "counterevidence_ids": [
+        "77f2d115-380d-4a28-95d8-6d7431d02b49",
+        "893ee4a0-f2c0-4913-9630-1f3ec3771b7b"
+      ],
+      "confirmed_defects": [],
+      "unresolved": [
+        "원품 NK-G802MT의 세부 관리·전원·환경·연동 조건과 판매품 대응은 충분히 특정되지 않았다. 원품 공개 MPS 경로는 제목NK-G802MT와 모델 필드NK-G802M이 달라 확정 동일품 가격이 될 수 없고 전화문의다.",
+        "광모듈·케이블·실제망 설정 호환은 미확인이다. 그 사실만으로 실패했다고 판정하지 않는다."
+      ],
+      "rebutted_points": [
+        "8GbE+2SFP·20Gbps·14.88Mpps·MAC8K·관리형은 대응한다. 대체품PoE는 추가 기능이다.",
+        "원품은 비PoE 모델 범위이며 별도 NK-PG802MT와 혼동하지 않았다. 모델 차이를 공개했으므로 같은 모델 사칭이라는 해석은 맞지 않는다."
+      ],
+      "source_urls": [
+        "https://www.tp-link.com/kr/business-networking/omada-switch-poe/tl-sg2210p/v5.2/",
+        "https://oemfile.informamarkets-info.com/FileUpload/2025SEC_39523/20250115161514483.pdf",
+        "https://tplinkmall.com/product/detail.html?product_no=90",
+        "https://www.cctv-mstore.com/goods/goods_list.php?cateCd=038003002019",
+        "https://www.mpsmall.co.kr/goods/goods_view.php?goodsNo=23842"
+      ],
+      "prior_audit_status": "unverified_gap",
+      "repair_status": "revision_applied",
+      "new_research": {
+        "paths": [
+          "work/repair-samson-20261019/hardware/draft-24797706.json",
+          "work/repair-samson-20261019/hardware/offer-24797706.json",
+          "work/repair-samson-20261019/hardware/sg3210x-m2-browser.json",
+          "work/repair-samson-20261019/hardware/sg3210x-m2-official.pdf",
+          "work/repair-samson-20261019/hardware/rra-sg3210x-registration.json",
+          "work/repair-samson-20261019/hardware/compuzone-faq.html"
+        ],
+        "checked": [
+          "동일NK-G802MT가격문의만 남는 경로 대신 새SG3210XM2 완제품을 연결했다.",
+          "원품8×1G·20G·14.88Mpps·MAC8K에 대해8×2.5G·80G·59.52Mpps·MAC16K로 핵심 성능이 높다. 1GSFP지원도 제조사PDF로 확인했다.",
+          "내장AC·전원코드·랙키트·콘솔·팬리스0~50·정확RRA모델·VAT포함·실제285800원 무료배송을 원문으로 검증했다.",
+          "B189000→285800,15fact77대25,718,000→18,264,400원이며7,453,600원 감소한다."
+        ],
+        "new_qualifying_offer": "offer-24797706.json",
+        "status": "revision_applied"
+      },
+      "directly_calculable_reduction_krw": null,
+      "whole_submission_rejection_risk_krw": 18264400,
+      "offer": {
+        "item_id": "24797706",
+        "submission_id": "048f57df-e9dd-487d-9123-130e89520508",
+        "revision_before": 1,
+        "status": "ready_for_parent_review",
+        "comparison_kind": "higher_core_performance_complete_product",
+        "before_B_krw": 189000,
+        "after_B_krw": 285800,
+        "before_amount_krw": 25718000,
+        "after_amount_formula_krw": 18264400,
+        "quantity": "77",
+        "price_evidence_snapshot": "sg3210x-m2-browser.json",
+        "official_spec": "sg3210x-m2-spec.html",
+        "certification": "rra-sg3210x-registration.json",
+        "payload_path": "work/repair-samson-20261019/hardware/draft-24797706.json",
+        "fact_amounts": [
+          {
+            "fact_id": "dl:24797706:002270042_1:2424404789:1",
+            "C": "1569000",
+            "Q": "3",
+            "B": "285800",
+            "amount_krw": 711600
+          },
+          {
+            "fact_id": "dl:24797706:002270042_1:R25TB01054247:7",
+            "C": "1046000",
+            "Q": "2",
+            "B": "285800",
+            "amount_krw": 474400
+          },
+          {
+            "fact_id": "dl:24797706:002270042_1:R25TB01056955:11",
+            "C": "1046000",
+            "Q": "2",
+            "B": "285800",
+            "amount_krw": 474400
+          },
+          {
+            "fact_id": "dl:24797706:002270042_1:R25TB01067109:9",
+            "C": "523000",
+            "Q": "1",
+            "B": "285800",
+            "amount_krw": 237200
+          },
+          {
+            "fact_id": "dl:24797706:002270042_1:R25TB01167728:6",
+            "C": "1569000",
+            "Q": "3",
+            "B": "285800",
+            "amount_krw": 711600
+          },
+          {
+            "fact_id": "dl:24797706:002270042_1:R25TB01179054:2",
+            "C": "1046000",
+            "Q": "2",
+            "B": "285800",
+            "amount_krw": 474400
+          },
+          {
+            "fact_id": "dl:24797706:002270042_1:R25TB01217517:7",
+            "C": "2615000",
+            "Q": "5",
+            "B": "285800",
+            "amount_krw": 1186000
+          },
+          {
+            "fact_id": "dl:24797706:002270042_1:R25TB01260469:5",
+            "C": "2615000",
+            "Q": "5",
+            "B": "285800",
+            "amount_krw": 1186000
+          },
+          {
+            "fact_id": "dl:24797706:002270042_1:R26TB01586295:1",
+            "C": "523000",
+            "Q": "1",
+            "B": "285800",
+            "amount_krw": 237200
+          },
+          {
+            "fact_id": "dl:24797706:002270042_1:R26TB01818130:1",
+            "C": "523000",
+            "Q": "1",
+            "B": "285800",
+            "amount_krw": 237200
+          },
+          {
+            "fact_id": "dl:24797706:002270042_1:R26TB01903606:2",
+            "C": "523000",
+            "Q": "1",
+            "B": "285800",
+            "amount_krw": 237200
+          },
+          {
+            "fact_id": "dl:24797706:002270042_1:R26TB01909835:3",
+            "C": "1046000",
+            "Q": "2",
+            "B": "285800",
+            "amount_krw": 474400
+          },
+          {
+            "fact_id": "dl:24797706:002270042_1:R26TB01975922:4",
+            "C": "1046000",
+            "Q": "2",
+            "B": "285800",
+            "amount_krw": 474400
+          },
+          {
+            "fact_id": "dl:24797706:002270042_1:R26TB01997749:3",
+            "C": "3138000",
+            "Q": "6",
+            "B": "285800",
+            "amount_krw": 1423200
+          },
+          {
+            "fact_id": "dl:24797706:002270042_1:R26TB02079833:3",
+            "C": "21443000",
+            "Q": "41",
+            "B": "285800",
+            "amount_krw": 9725200
+          }
+        ],
+        "remaining_scope": "원품의 전용 관리 체계를 현장별로 복제하는 설치 용역 가격은 포함하지 않는다. 그 필요성이나 비용을 창작하지 않았으며 위 본체 성능 비교의 범위로 parent가 최종 검토한다.",
+        "vat_proof": {
+          "source_url": "https://m.compuzone.co.kr/cscenter/faq_main.htm",
+          "text": "컴퓨존에서 판매하는 모든 상품은 부가세 포함 가격으로 판매되고 있으며 세금계산서 발행이 가능합니다.",
+          "local_path": "work/repair-samson-20261019/hardware/compuzone-faq.html"
+        }
+      },
+      "proposed_amount_formula_krw": 18264400,
+      "proposed_amount_reduction_krw": 7453600,
+      "revision_before": 1,
+      "amount_before_krw": 25718000,
+      "actual_revision_evidence": {
+        "after_path": "work/repair-samson-20261019/after/048f57df-e9dd-487d-9123-130e89520508.json",
+        "proposal_path": "work/repair-samson-20261019/proposals/048f57df-e9dd-487d-9123-130e89520508.json",
+        "readback_amount_krw": 18264400,
+        "readback_revision": 2
+      },
+      "actual_amount_reduction_krw": 7453600,
+      "verification_status": "not_started"
+    },
+    {
+      "item_id": "23809904",
+      "submission_id": "8fac13fa-d7cc-4222-9ddd-a4fc4dd1036f",
+      "product_name": "네트워크스위치, 한드림넷, HN1016G, 14port",
+      "current_revision": 2,
+      "amount_krw": 23788800,
+      "counterevidence_ids": [
+        "7030479b-9787-4cf7-841c-05ca461bfde4",
+        "ed1e4328-251d-4d14-9a17-7783f52975f9"
+      ],
+      "confirmed_defects": [
+        "물품23809904·HN1016G 표준규격서 적용범위 표는 현장설치도·설치시간12시간을 명시한다. 현재 B290,000원은 본체 판매가이고 이 작업의 비용을 정산하지 않았다. 단순 현장설치도 문자열만의 추측과는 구별되는 비교 범위 차이다."
+      ],
+      "unresolved": [
+        "12시간을72대의 순수 인건비라고 해석하거나 임의 시간당 임금을 곱하지 않았다. 작업별 실제 추가 견적과 계약상 배분액은 미확인이다.",
+        "VNM/V-IPM·Multi OS 및 원품 인증/기관 기존망 연동의 필요 범위와 대체 대응은 미확인이다.",
+        "동일품144만원은 조달620,400원보다 높아서 저렴한 동일품 대안이 아니다."
+      ],
+      "rebutted_points": [
+        "현재 차수2는 제조사·모델이 다른 본체 대체 비교라고 밝힌다. 원품14RJ45+2SFP·32Gbps·23.8Mpps 대비 판매품16RJ45+2SFP·36Gbps·26.8Mpps는 실제 향상이다.",
+        "차수1을 대상으로 한 기존 두 반증은 차수2의 이 설명을 읽고 평가해야 한다. 본체 취득 비교가 무조건 대회금지라는 일반화나 전액0원 판정은 하지 않는다."
+      ],
+      "source_urls": [
+        "https://www.shsys.kr/user/default/image/page/%EB%B8%8C%EB%A1%9C%EC%85%94_%ED%95%9C%EB%93%9C%EB%A6%BC%EB%84%B7.pdf",
+        "https://www.tp-link.com/kr/business-networking/omada-switch-smart/tl-sg2218/v1/",
+        "https://tplinkmall.com/product/detail.html?product_no=75",
+        "https://handreamnet.tistory.com/410",
+        "https://m.safecctv.net/goods/goods_view.php?goodsNo=1000005311"
+      ],
+      "prior_audit_status": "confirmed_issue",
+      "repair_status": "no_qualifying_offer_verified_after_new_search",
+      "new_research": {
+        "paths": [
+          "work/repair-samson-20261019/hardware/parallel-hn1016.json"
+        ],
+        "checked": [
+          "동일HN1016GSafe1000005311은실제1440000원무료배송으로원C620400원보다높다.",
+          "핵심성능상향대체와12h설치를포함한실제완료가격경로를찾는다.",
+          "원품정확23809904의표준규격서에현장설치12h·보안기능확인서·DRAM128·전원/랙/콘솔케이블이명시된다. 이규격이있다는사실을일반모니터/단순패치코드에확장하지않는다."
+        ],
+        "new_qualifying_offer": null,
+        "same_model_price_krw": 1440000,
+        "same_model_formula_only_amount_krw": 0
+      },
+      "directly_calculable_reduction_krw": null,
+      "whole_submission_rejection_risk_krw": 23788800
+    },
+    {
+      "item_id": "24361786",
+      "submission_id": "89ed88ca-dab0-485f-bd68-10ef85605971",
+      "product_name": "네트워크스위치, 누리아이엔지, SFP-I-LX, (부품)",
+      "current_revision": 1,
+      "amount_krw": 6500000,
+      "counterevidence_ids": [],
+      "confirmed_defects": [],
+      "unresolved": [
+        "원품 SFP-I-LX 판매 자료의 DDM지원에 비해 비교 SFP-1G20LX-LC 원문에서 DDM은 명시되지 않는다. 미표시는 미지원의 증명이 아니다.",
+        "벤더 EEPROM/펌웨어 및 실제스위치 호환은 미확인이다. 실제 호환 실패나 반드시 필요한 별도 옵션은 확인하지 못했다.",
+        "동일 SFP-I-LX MPS는 전화문의이다. 쿠팡8,500원+배송3,000원은 과거검색단서였고 직접 읽지 못해 대체 확정가격으로 사용하지 않았다."
+      ],
+      "rebutted_points": [
+        "싱글모드·1.25Gbps·1310nm·20km·LC의 기본 전송 사양은 대응한다. 대체품이라는 사실도 공개했다."
+      ],
+      "source_urls": [
+        "https://www.aesir3.shop/goods/goods_view.php?goodsNo=1000003352",
+        "https://www.mpsmall.co.kr/goods/goods_view.php?goodsNo=17040",
+        "http://www.nring.co.kr/",
+        "https://smartstore.naver.com/nuriing",
+        "https://www.coupang.com/vp/products/6820629565",
+        "https://cdn-saas-web-116-75.cdn-nhncommerce.com/aesir367_godomall_com/data/editor/goods/251117/5717ec4820baa9ae04ed413e2362dae1_172244.jpg"
+      ],
+      "prior_audit_status": "unverified_gap",
+      "repair_status": "no_qualifying_offer_verified_after_new_search",
+      "new_research": {
+        "paths": [
+          "work/repair-samson-20261019/hardware/parallel-sfpi.json",
+          "work/repair-samson-20261019/hardware/parallel-sfpddm.json",
+          "work/repair-samson-20261019/hardware/sfpi-mps-exact.json",
+          "work/repair-samson-20261019/hardware/nuri-store-jev.json",
+          "work/repair-samson-20261019/hardware/coupang-sfpi-browser.json",
+          "work/repair-samson-20261019/hardware/sfp1g20lx-spec.jpg"
+        ],
+        "checked": [
+          "정확MPSgoodsNo17040은전화문의이며10000017040오경로와구분했다.",
+          "누리공식홈페이지가연결한smartstore.naver.com/nuriing을실제Jev로읽었지만서비스오류다. 쿠팡6820629565의8500원검색값은직접접근거부를돌파했다고쓰지않는다.",
+          "현YOISFP1G20LXLC실제상세이미지는1.25G·1310nm·LC·20km를보여주나DDM문구가없다.",
+          "SoltechSFP-LX20(DDM)실제일반가28900경로는발견했으나원Nuri제품보다분명한핵심우위를새로증명하지않아완료수정안에넣지않았다."
+        ],
+        "new_qualifying_offer": null,
+        "new_sources": [
+          "http://www.nring.co.kr/",
+          "https://smartstore.naver.com/nuriing",
+          "https://www.coupang.com/vp/products/6820629565",
+          "https://cdn-saas-web-116-75.cdn-nhncommerce.com/aesir367_godomall_com/data/editor/goods/251117/5717ec4820baa9ae04ed413e2362dae1_172244.jpg"
+        ]
+      },
+      "directly_calculable_reduction_krw": null,
+      "whole_submission_rejection_risk_krw": 6500000
+    }
+  ]
+}
