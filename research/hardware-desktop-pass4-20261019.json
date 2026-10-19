@@ -1,0 +1,661 @@
+{
+  "created_at_utc": "2026-10-19T13:01:47.730152+00:00",
+  "scope": "owner2 데스크톱 완제품 높은 단가 구간. 로컬35개 상태와 실제 판매가 읽기를 구분한다.",
+  "state_screen": [
+    {
+      "item_id": "26151324",
+      "product_name": "데스크톱컴퓨터, 대우루컴즈, DT381B-226500, Intel Core Ultra 5 225(3.3GHz)",
+      "local_amount_krw": 1853367250.0,
+      "local_quantity": 1224.0,
+      "local_unit_price_krw": 1514188.929738562,
+      "input": "26151324",
+      "kind": "item",
+      "state": "reform_found",
+      "message": "개혁신당이 이미 찾은 상품입니다 (등록할 수 없고 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "26152667",
+      "product_name": "데스크톱컴퓨터, 삼보컴퓨터, DT281-GC41-006, Intel Core i5 14400(2.5GHz)",
+      "local_amount_krw": 1754852100.0,
+      "local_quantity": 1209.0,
+      "local_unit_price_krw": 1451490.570719603,
+      "input": "26152667",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "26060441",
+      "product_name": "데스크톱컴퓨터, 에이텍컴퓨터, A5TC-3NBDN, Intel Core Ultra 5 225(3.3GHz)",
+      "local_amount_krw": 1443095200.0,
+      "local_quantity": 967.0,
+      "local_unit_price_krw": 1492342.5025853154,
+      "input": "26060441",
+      "kind": "item",
+      "state": "reform_found",
+      "message": "개혁신당이 이미 찾은 상품입니다 (등록할 수 없고 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "26152669",
+      "product_name": "데스크톱컴퓨터, 삼보컴퓨터, DT281-GC51-004, Intel Core i5 14500(2.6GHz)",
+      "local_amount_krw": 978709600.0,
+      "local_quantity": 659.0,
+      "local_unit_price_krw": 1485143.5508345978,
+      "input": "26152669",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "25479168",
+      "product_name": "데스크톱컴퓨터, 유투, S7E2-520/B, Intel Core i7 14700(2.1GHz)",
+      "local_amount_krw": 620550900.0,
+      "local_quantity": 372.0,
+      "local_unit_price_krw": 1668147.5806451612,
+      "input": "25479168",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "26149840",
+      "product_name": "데스크톱컴퓨터, 대우루컴즈, DT387B-266508, Intel Core Ultra 7 265(2.4GHz)",
+      "local_amount_krw": 551163000.0,
+      "local_quantity": 245.0,
+      "local_unit_price_krw": 2249644.897959184,
+      "input": "26149840",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "26063776",
+      "product_name": "데스크톱컴퓨터, 삼보컴퓨터, DT281-GD71E-001, Intel Core Ultra 7 265(2.4GHz)",
+      "local_amount_krw": 522811000.0,
+      "local_quantity": 304.0,
+      "local_unit_price_krw": 1719773.0263157894,
+      "input": "26063776",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "26063772",
+      "product_name": "데스크톱컴퓨터, 삼보컴퓨터, DT281-GD51E-001, Intel Core Ultra 5 235(3.4GHz)",
+      "local_amount_krw": 514603800.0,
+      "local_quantity": 319.0,
+      "local_unit_price_krw": 1613178.0564263323,
+      "input": "26063772",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "25569894",
+      "product_name": "데스크톱컴퓨터, 에이텍컴퓨터, A4TQ-7VBDF, Intel Core i7 14700(2.1GHz)",
+      "local_amount_krw": 512919720.0,
+      "local_quantity": 241.0,
+      "local_unit_price_krw": 2128297.593360996,
+      "input": "25569894",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "25628961",
+      "product_name": "데스크톱컴퓨터, 아이브리지닷컴, M7-X47B-1A2N, i7-14700(2.1GHz)",
+      "local_amount_krw": 490338200.0,
+      "local_quantity": 328.0,
+      "local_unit_price_krw": 1494933.536585366,
+      "input": "25628961",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "25855493",
+      "product_name": "데스크톱컴퓨터, 티원엘에스, TMB-D71920S, Intel Core i7 14700(2.1GHz)",
+      "local_amount_krw": 476253600.0,
+      "local_quantity": 322.0,
+      "local_unit_price_krw": 1479048.447204969,
+      "input": "25855493",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "26063840",
+      "product_name": "데스크톱컴퓨터, 에이텍컴퓨터, A5TC-7HBDF, Intel Core Ultra 7 265(2.4GHz)",
+      "local_amount_krw": 475833375.0,
+      "local_quantity": 217.0,
+      "local_unit_price_krw": 2192780.529953917,
+      "input": "26063840",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "25628964",
+      "product_name": "데스크톱컴퓨터, 아이브리지닷컴, M7-X47B-2A2A, i7-14700(2.1GHz)",
+      "local_amount_krw": 474249900.0,
+      "local_quantity": 229.0,
+      "local_unit_price_krw": 2070960.2620087336,
+      "input": "25628964",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "25569998",
+      "product_name": "데스크톱컴퓨터, 삼보컴퓨터, DT281-GC71Q-005, Intel Core i7 14700(2.1GHz)",
+      "local_amount_krw": 435479000.0,
+      "local_quantity": 295.0,
+      "local_unit_price_krw": 1476200.0,
+      "input": "25569998",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "25569902",
+      "product_name": "데스크톱컴퓨터, 에이텍컴퓨터, A4TQ-7NBDN, Intel Core i7 14700(2.1GHz)",
+      "local_amount_krw": 430477000.0,
+      "local_quantity": 297.0,
+      "local_unit_price_krw": 1449417.5084175083,
+      "input": "25569902",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "25586027",
+      "product_name": "데스크톱컴퓨터, 다컴시스템, MI4FKD-4600BA, Intel Core i7 14700(2.1GHz)",
+      "local_amount_krw": 430414000.0,
+      "local_quantity": 296.0,
+      "local_unit_price_krw": 1454101.3513513512,
+      "input": "25586027",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "25803983",
+      "product_name": "데스크톱컴퓨터, 한성컴퓨터, T14-B741650V0, Intel Core i5 14400(2.5GHz)",
+      "local_amount_krw": 424215000.0,
+      "local_quantity": 301.0,
+      "local_unit_price_krw": 1409352.1594684385,
+      "input": "25803983",
+      "kind": "item",
+      "state": "reform_found",
+      "message": "개혁신당이 이미 찾은 상품입니다 (등록할 수 없고 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "26060425",
+      "product_name": "데스크톱컴퓨터, 에이텍컴퓨터, A5TC-7NBDF, Intel Core Ultra 7 265(2.4GHz)",
+      "local_amount_krw": 361218800.0,
+      "local_quantity": 218.0,
+      "local_unit_price_krw": 1656966.9724770642,
+      "input": "26060425",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "25666734",
+      "product_name": "데스크톱컴퓨터, 기린, KR176-T4932327, Intel Core i9-14900(2.0GHz)",
+      "local_amount_krw": 353713190.0,
+      "local_quantity": 133.0,
+      "local_unit_price_krw": 2659497.6691729324,
+      "input": "25666734",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "26063775",
+      "product_name": "데스크톱컴퓨터, 삼보컴퓨터, DT281-GD51E-004, Intel Core Ultra 5 235(3.4GHz)",
+      "local_amount_krw": 327163000.0,
+      "local_quantity": 146.0,
+      "local_unit_price_krw": 2240842.4657534244,
+      "input": "26063775",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "26060424",
+      "product_name": "데스크톱컴퓨터, 에이텍컴퓨터, A5TC-7NBDN, Intel Core Ultra 7 265(2.4GHz)",
+      "local_amount_krw": 315146800.0,
+      "local_quantity": 187.0,
+      "local_unit_price_krw": 1685277.0053475937,
+      "input": "26060424",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "25822925",
+      "product_name": "데스크톱컴퓨터, 인텍, ITA176-T4732328, IntelCore i7-14700(2.1GHz)",
+      "local_amount_krw": 312010640.0,
+      "local_quantity": 116.0,
+      "local_unit_price_krw": 2689746.896551724,
+      "input": "25822925",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "25803996",
+      "product_name": "데스크톱컴퓨터, 한성컴퓨터, T14-Z773211V7, Intel Core i7 14700(2.1GHz)",
+      "local_amount_krw": 311238790.0,
+      "local_quantity": 74.0,
+      "local_unit_price_krw": 4205929.594594595,
+      "input": "25803996",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "26060420",
+      "product_name": "데스크톱컴퓨터, 에이텍컴퓨터, A5TC-5NBDN, Intel Core Ultra 5 235(3.4GHz)",
+      "local_amount_krw": 303598000.0,
+      "local_quantity": 195.0,
+      "local_unit_price_krw": 1556912.8205128205,
+      "input": "26060420",
+      "kind": "item",
+      "state": "reform_found",
+      "message": "개혁신당이 이미 찾은 상품입니다 (등록할 수 없고 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "26060421",
+      "product_name": "데스크톱컴퓨터, 에이텍컴퓨터, A5TC-5NBEN, Intel Core Ultra 5 225(3.3GHz)",
+      "local_amount_krw": 302308625.0,
+      "local_quantity": 132.0,
+      "local_unit_price_krw": 2290216.856060606,
+      "input": "26060421",
+      "kind": "item",
+      "state": "reform_found",
+      "message": "개혁신당이 이미 찾은 상품입니다 (등록할 수 없고 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "26094314",
+      "product_name": "데스크톱컴퓨터, 다컴시스템, MI86-2265000, Intel Core Ultra 5 225(3.3GHz)",
+      "local_amount_krw": 284302000.0,
+      "local_quantity": 191.0,
+      "local_unit_price_krw": 1488492.1465968587,
+      "input": "26094314",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "25726663",
+      "product_name": "데스크톱컴퓨터, 트리엠, TX4-RH7-506, Intel Core i7-14700(2.1GHz)",
+      "local_amount_krw": 283377770.0,
+      "local_quantity": 186.0,
+      "local_unit_price_krw": 1523536.3978494625,
+      "input": "25726663",
+      "kind": "item",
+      "state": "reform_found",
+      "message": "개혁신당이 이미 찾은 상품입니다 (등록할 수 없고 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "26173338",
+      "product_name": "데스크톱컴퓨터, 에이텍컴퓨터, A5TQ-7VCDF, Intel Core Ultra 7 265(2.4GHz)",
+      "local_amount_krw": 280446560.0,
+      "local_quantity": 91.0,
+      "local_unit_price_krw": 3081830.3296703296,
+      "input": "26173338",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "25822922",
+      "product_name": "데스크톱컴퓨터, 인텍, ITA176-T4732427, IntelCore i7-14700(2.1GHz)",
+      "local_amount_krw": 277835000.0,
+      "local_quantity": 127.0,
+      "local_unit_price_krw": 2187677.1653543306,
+      "input": "25822922",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "25634786",
+      "product_name": "데스크톱컴퓨터, 티원엘에스, TMB-D7192ES, Intel Core i7 14700(2.1GHz)",
+      "local_amount_krw": 274815550.0,
+      "local_quantity": 152.0,
+      "local_unit_price_krw": 1807997.0394736843,
+      "input": "25634786",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "25569896",
+      "product_name": "데스크톱컴퓨터, 에이텍컴퓨터, A4TQ-7HBDF, Intel Core i7 14700(2.1GHz)",
+      "local_amount_krw": 267101000.0,
+      "local_quantity": 150.0,
+      "local_unit_price_krw": 1780673.3333333333,
+      "input": "25569896",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "25855496",
+      "product_name": "데스크톱컴퓨터, 티원엘에스, TMB-D71925S, Intel Core i7 14700(2.1GHz)",
+      "local_amount_krw": 259340400.0,
+      "local_quantity": 142.0,
+      "local_unit_price_krw": 1826340.8450704226,
+      "input": "25855496",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "25628965",
+      "product_name": "데스크톱컴퓨터, 아이브리지닷컴, M7-X47B-2A2B, i7-14700(2.1GHz)",
+      "local_amount_krw": 217346000.0,
+      "local_quantity": 97.0,
+      "local_unit_price_krw": 2240680.412371134,
+      "input": "25628965",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "item_id": "25870467",
+      "product_name": "데스크톱컴퓨터, 웰메이드컴퓨터, WDM-A99SS10D-R9, AMD Ryzen9 9900X(4.4GHz)",
+      "local_amount_krw": 216199645.0,
+      "local_quantity": 23.0,
+      "local_unit_price_krw": 9399984.56521739,
+      "input": "25870467",
+      "kind": "item",
+      "state": "available",
+      "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+    },
+    {
+      "item_id": "25803998",
+      "product_name": "데스크톱컴퓨터, 한성컴퓨터, T15-B841651V0, Intel Core Ultra 5 225(3.3GHz)",
+      "local_amount_krw": 214890100.0,
+      "local_quantity": 137.0,
+      "local_unit_price_krw": 1568540.8759124088,
+      "input": "25803998",
+      "kind": "item",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    }
+  ],
+  "state_screen_count": 35,
+  "available_in_selected_band": 1,
+  "item_id": "25870467",
+  "name": "데스크톱컴퓨터, 웰메이드컴퓨터, WDM-A99SS10D-R9, AMD Ryzen9 9900X(4.4GHz)",
+  "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/25870467",
+  "catalog_url": "https://api.savetax.now/v1/items/25870467",
+  "facts_count": 4,
+  "unique_request_count": 4,
+  "quantity": "23",
+  "comparable_amount_krw": "216199645",
+  "all_facts": [
+    {
+      "fact_id": "dl:25870467:002360134_1:R25TB01249998:1",
+      "listing_id": "002360134_1220000228",
+      "contract_no": "002360134_1",
+      "request_no": "R25TB01249998",
+      "line_no": "1",
+      "request_date": "2025-11-27",
+      "agency_name": "경남대학교 산학협력단",
+      "unit": "대",
+      "tax_basis": "vat_included",
+      "basis_id": "basis:대:vat_included",
+      "comparison_basis_id": "basis:대:vat_included",
+      "period_kind": "none",
+      "unit_price_krw": "7385500",
+      "quantity": "6",
+      "comparable_amount_krw": "44313000",
+      "scorable": true,
+      "exclusion_reasons": []
+    },
+    {
+      "fact_id": "dl:25870467:002360134_1:R26TB02108443:3",
+      "listing_id": "002360134_1220000228",
+      "contract_no": "002360134_1",
+      "request_no": "R26TB02108443",
+      "line_no": "3",
+      "request_date": "2026-07-08",
+      "agency_name": "국립순천대학교 산학협력단",
+      "unit": "대",
+      "tax_basis": "vat_included",
+      "basis_id": "basis:대:vat_included",
+      "comparison_basis_id": "basis:대:vat_included",
+      "period_kind": "none",
+      "unit_price_krw": "10074323",
+      "quantity": "15",
+      "comparable_amount_krw": "151114845",
+      "scorable": true,
+      "exclusion_reasons": []
+    },
+    {
+      "fact_id": "dl:25870467:002360134_1:R26TB02125781:1",
+      "listing_id": "002360134_1220000228",
+      "contract_no": "002360134_1",
+      "request_no": "R26TB02125781",
+      "line_no": "1",
+      "request_date": "2026-07-14",
+      "agency_name": "인천국제공항공사",
+      "unit": "대",
+      "tax_basis": "vat_included",
+      "basis_id": "basis:대:vat_included",
+      "comparison_basis_id": "basis:대:vat_included",
+      "period_kind": "none",
+      "unit_price_krw": "10385900",
+      "quantity": "1",
+      "comparable_amount_krw": "10385900",
+      "scorable": true,
+      "exclusion_reasons": []
+    },
+    {
+      "fact_id": "dl:25870467:002360134_1:R26TB02144054:1",
+      "listing_id": "002360134_1220000228",
+      "contract_no": "002360134_1",
+      "request_no": "R26TB02144054",
+      "line_no": "1",
+      "request_date": "2026-07-20",
+      "agency_name": "국립순천대학교 산학협력단",
+      "unit": "대",
+      "tax_basis": "vat_included",
+      "basis_id": "basis:대:vat_included",
+      "comparison_basis_id": "basis:대:vat_included",
+      "period_kind": "none",
+      "unit_price_krw": "10385900",
+      "quantity": "1",
+      "comparable_amount_krw": "10385900",
+      "scorable": true,
+      "exclusion_reasons": []
+    }
+  ],
+  "original_attributes": [
+    {
+      "name": "그래픽",
+      "unit": null,
+      "value": "RTX 5090"
+    },
+    {
+      "name": "메인보드",
+      "unit": null,
+      "value": "B850M"
+    },
+    {
+      "name": "사용전압",
+      "unit": "V",
+      "value": "AC220"
+    },
+    {
+      "name": "운영체계",
+      "unit": null,
+      "value": "옵션제공"
+    },
+    {
+      "name": "클록속도",
+      "unit": "GHz",
+      "value": "4.4"
+    },
+    {
+      "name": "확장슬롯",
+      "unit": null,
+      "value": "PCI-Express x16"
+    },
+    {
+      "name": "구성입력장치",
+      "unit": null,
+      "value": "키보드, 마우스"
+    },
+    {
+      "name": "캐시메모리용량",
+      "unit": "MB",
+      "value": "64"
+    },
+    {
+      "name": "비디오메모리규격",
+      "unit": null,
+      "value": "D7 32GB"
+    },
+    {
+      "name": "스위칭모드파워서플라이형식",
+      "unit": null,
+      "value": "1000W"
+    },
+    {
+      "name": "크기(깊이)",
+      "unit": "mm",
+      "value": "472"
+    },
+    {
+      "name": "크기(높이)",
+      "unit": "mm",
+      "value": "465"
+    },
+    {
+      "name": "크기(폭)",
+      "unit": "mm",
+      "value": "230"
+    },
+    {
+      "name": "옵션/기타",
+      "unit": null,
+      "value": "복구프로그램"
+    },
+    {
+      "name": "중앙처리장치(CPU)규격",
+      "unit": null,
+      "value": "AMD Ryzen9 9900X"
+    },
+    {
+      "name": "LAN규격",
+      "unit": null,
+      "value": "Gigabit"
+    },
+    {
+      "name": "메모리(RAM)용량",
+      "unit": "GB",
+      "value": "32"
+    },
+    {
+      "name": "SSD용량",
+      "unit": "TB",
+      "value": "1"
+    }
+  ],
+  "listings": [
+    {
+      "id": "002360134_1220000228",
+      "price": "11150900",
+      "priceKind": "unknown",
+      "contractEndYmd": "20280112",
+      "vendor": {
+        "id": "CN0100000676305",
+        "name": "주식회사 웰메이드컴퓨터"
+      },
+      "isActive": true,
+      "detailUrl": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002360134_1220000228",
+      "imageUrl": "https://shop.g2b.go.kr/static/CataAttach/XezCatalog/XZMOK/item_image/2025/07/02/fa81716c-f2d7-4777-b98d-d0fb5bccfd7c.jpg",
+      "deliveryReviews": 0
+    }
+  ],
+  "retail": {
+    "url": "https://mshop.danawa.com/mobile/?controller=blog&methods=productDetail&representProductSeq=3161807",
+    "seller": "㈜피씨블로그",
+    "name": "샵다나와 무이자PC [AMD R9-9950X/RTX5090/64G]",
+    "observed_full_price_krw": "17080000",
+    "observed_monthly_payment_krw": "474450",
+    "manufacturer_assembly_complete": true,
+    "configuration_observed": "9950X / X870 / DDR5 64GB(32GB×2) / RTX5090 32GB / SSD1TB / 1050W / 기본조립·2년 방문출장AS",
+    "operating_system": "별도구매",
+    "keyboard_mouse": "추가사양 별도 선택",
+    "vat_included": null,
+    "shipping": "택배 무료배송 표시. 퀵·직접수령도 별도 선택 가능한 배송방법이다.",
+    "full_finished_system_emc": "완성품에 대한 전자파 적합성평가를 받지 않은 제품이라는 고시를 실제 읽었다.",
+    "visible_purchase_button": true,
+    "search_cache_price_not_adopted": "13760000",
+    "comparison_decision": "실제17080000원은 모든 원fact의 단가7385500~10385900원보다 높다. 부속·운영체제 추가 비용을 빼도 새 차액을 주장할 수 없다. 이 경로를 더 우수한 대체품으로 최종 채택하지 않는다.",
+    "jev_read": "engine jev_ultrafast; stopped=done은 실제 판매가 조사 완료와 별개로 가격·사양을 조사자가 대조했다."
+  },
+  "other_path_failure": {
+    "url": "https://usr.icoda.co.kr/item/view/1606153",
+    "stage": "BrowserRuntime._run",
+    "error": "브라우저 작업 실패(exit=1). 외부 원문 오류를 출력하지 않았으며 가격 확인 성공으로 세지 않았다."
+  },
+  "same_model_retail_search": "정확 WDM-A99SS10D-R9 웹 검색은 결과0이었다. 시장 전체에 일반 판매가가 없다는 증명이 아니다.",
+  "sources": [
+    {
+      "path": "work/highvalue-hardware/resume-20261019/event-25870467.json",
+      "bytes": 3466,
+      "sha256": "8555e6aab16dc53f4e86f469927c51b2dda8d61ddb48085d8246250db75e3db0"
+    },
+    {
+      "path": "work/highvalue-hardware/resume-20261019/catalog-25870467.json",
+      "bytes": 4128,
+      "sha256": "14b8242ff163a20e8e5700cf98b958e2cdc93821c9520fdd13d28303fffc4da8"
+    },
+    {
+      "path": "work/highvalue-hardware/resume-20261019/desktop-band-local.json",
+      "bytes": 9142,
+      "sha256": "180aa75fdc47cca2d1b1b6ce631441e513cb5d71097eb0aaeb683328dd440e55"
+    },
+    {
+      "path": "work/highvalue-hardware/resume-20261019/desktop-new-current-lookup.json",
+      "bytes": 1448,
+      "sha256": "2377edd7fc6d7de769de73e6a6fef593d4fb55e72092e004fb8e64c456cecd18"
+    },
+    {
+      "path": "work/highvalue-hardware/resume-20261019/desktop-band-current-lookup.json",
+      "bytes": 9314,
+      "sha256": "700c0976d512778f42a4d6e3e21381f398dbc9d2a0b60a29992e84f498cf30ce"
+    },
+    {
+      "path": "work/highvalue-hardware/resume-20261019/wdm-danawa-native.json",
+      "bytes": 7047,
+      "sha256": "66e1186289eeefcf334a1531462a121a6b12d831be5534acdb517ca22bf1cab5"
+    },
+    {
+      "path": "work/highvalue-hardware/resume-20261019/wdm-danawa-jev.json",
+      "bytes": 1698,
+      "sha256": "f09ebaa0356216b90f3cb80c56fbe7c63e97707c6eb8984c3fc330d5b60d79e5"
+    },
+    {
+      "path": "work/highvalue-hardware/resume-20261019/wdm-complete-parallel.json",
+      "bytes": 13569,
+      "sha256": "7310929a8a5cafbc7fbb0ceba69cf2099eb14f44103807c92c4c8e2be3ff3dae"
+    }
+  ],
+  "adopted_comparison_price_krw": null,
+  "verified_expected_saving_krw": null,
+  "submission_ready": false,
+  "preview_count": 0,
+  "post_count": 0,
+  "production_changes": false,
+  "git_actions": false,
+  "original_attachment_reviewed": false
+}
