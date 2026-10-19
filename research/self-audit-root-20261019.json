@@ -1,0 +1,1809 @@
+{
+  "observed_at_utc": "2026-10-19T09:25:33.933990+00:00",
+  "scope": "root 담당 삼손 자체 감사: 소프트웨어·방화벽·케이블·완제품 PC 및 기존 제외/반려 상태",
+  "items": [
+    {
+      "item_id": "25395523",
+      "submission_id": "ddca1e1a-5beb-445c-9377-b3e18a3ed576",
+      "product_name": "방화벽장치, 시큐아이, BLUEMAX NGF 1100, 네트워크보안솔루션",
+      "current_revision": 2,
+      "submission_state": "accepted",
+      "amount_krw": 860100000,
+      "held": false,
+      "status": "confirmed_issue",
+      "confirmed_defects": [
+        "EFG는 물리 포트 6개로 원품 12개보다 적다. UDM 비교 2건도 스위치 포트와 독립 보안 인터페이스의 구조가 다르며 원품의 로그 저장·고급 VPN·국내 이행 조건 대응이 미입증이다."
+      ],
+      "unresolved": [
+        "EFG는 6포트이고 원품은 12포트이며 원품 로그 1TB·SSL VPN·국내 인증·현장 설치의 대응이 미입증이다."
+      ],
+      "rebutted_points": [
+        "대체품임을 현재 제목·주장·범위에 명시했다. 다른 모델명이라는 사실만으로 동일품을 사칭한 오류가 되지는 않는다.",
+        "판매가에는 관부가세와 표시 무료배송이 이미 포함돼 있다. 주문 후 품절 가능성 일반 안내를 현재 품절 표시로 해석하지 않는다.",
+        "제조사 EFG 사양은 Advanced NAT, IPsec 및 하드웨어 일체형 장비를 확인한다. NAT·IPsec·HW 자체가 전혀 없다는 주장은 성립하지 않는다. SSL VPN·기존 관리콘솔·전체 경보 방식의 동등성까지 확인되는 것은 아니다."
+      ],
+      "new_findings": [],
+      "source_urls": [
+        "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+        "https://techspecs.ui.com/unifi/cloud-gateways/efg",
+        "https://api.savetax.now/v1/items/25395523",
+        "https://www.secui.com/uploads/file_url-1781229933025-669069893.pdf",
+        "https://download.axilogi.com/Ubiquiti/Datasheet/EFG.pdf",
+        "https://store.ui.com/us/en/products/efg",
+        "https://help.ui.com/hc/en-us/articles/360006893234-UniFi-Gateway-Intrusion-Detection-and-Prevention-IDS-IPS"
+      ],
+      "fresh_source_records": [
+        "work/self-audit-20261019/root/sources/02740268ba5d39.json",
+        "work/self-audit-20261019/root/sources/4f5682542c1289.json"
+      ],
+      "counterevidence_ids": [
+        "050b076b-29bd-410a-af86-66737b9bc01b",
+        "499e4c0e-0b50-4fd2-8519-84e2e966d7d2",
+        "fd490278-ffbc-4740-85d0-d87b8e25c66d",
+        "1714e79d-687b-42cf-80f3-87810bddb9cd",
+        "a9bea3aa-1b32-49c1-bcac-e4b3757c9e3c",
+        "cd6937d6-4af6-49ce-9de8-1357c5369312",
+        "49789038-3f2c-4140-9b83-bba008509cec"
+      ],
+      "counterevidence_count": 7,
+      "arithmetic_verified": true,
+      "calculated_reduction_krw": null,
+      "potential_full_disallowance_krw": 860100000,
+      "assessment_limit": "확인된 차이와 미입증 조건을 분리했다. 전체 제출의 자동 실격이나 예상 감액 확정 판정이 아니다.",
+      "public_revision_correction": null,
+      "counterevidence_responses": [
+        {
+          "counterevidence_id": "499e4c0e-0b50-4fd2-8519-84e2e966d7d2",
+          "handle": "jwb",
+          "revision_no": 1,
+          "verdict": "반증 작성자 정정 확인",
+          "response": "작성자가 자동 검사의 품절 오독을 인정하고 앞선 반증을 무시해 달라고 정정했다. 판매 원문에서도 일반적 주문 후 품절 가능성 안내와 현재 상품 품절 표시는 구별해야 한다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ]
+        },
+        {
+          "counterevidence_id": "fd490278-ffbc-4740-85d0-d87b8e25c66d",
+          "handle": "jwb",
+          "revision_no": 1,
+          "verdict": "구체 반박 가능",
+          "response": "같은 작성자의 후속 정정이 해당 품절 판정을 자동 검사 오류라고 명시했다. 실제 판매 페이지의 가격/구매 표시와 일반적인 주문 후 취소 가능성 안내를 구별한다. 단, 이는 전량 재고나 국내 AS를 보장하지 않는다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ]
+        },
+        {
+          "counterevidence_id": "1714e79d-687b-42cf-80f3-87810bddb9cd",
+          "handle": "cnstar",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. EFG는 6포트이고 원품은 12포트이며 원품 로그 1TB·SSL VPN·국내 인증·현장 설치의 대응이 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ]
+        },
+        {
+          "counterevidence_id": "a9bea3aa-1b32-49c1-bcac-e4b3757c9e3c",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. EFG는 6포트이고 원품은 12포트이며 원품 로그 1TB·SSL VPN·국내 인증·현장 설치의 대응이 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ]
+        },
+        {
+          "counterevidence_id": "cd6937d6-4af6-49ce-9de8-1357c5369312",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. EFG는 6포트이고 원품은 12포트이며 원품 로그 1TB·SSL VPN·국내 인증·현장 설치의 대응이 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ]
+        },
+        {
+          "counterevidence_id": "49789038-3f2c-4140-9b83-bba008509cec",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. EFG는 6포트이고 원품은 12포트이며 원품 로그 1TB·SSL VPN·국내 인증·현장 설치의 대응이 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ]
+        }
+      ],
+      "prior_counterevidence_response_source": "research/public-counterevidence-review-20261019.json; 이번 모델별 검증에서 필요한 한정을 반영한 답변"
+    },
+    {
+      "item_id": "25217312",
+      "submission_id": "e1e6e4c9-1216-432a-a290-5ab6d4425a17",
+      "product_name": "방화벽장치, 퓨쳐시스템, WeGuardia(TM) ITU 3000(R2), 네트워크보안",
+      "current_revision": 2,
+      "submission_state": "accepted",
+      "amount_krw": 902400000,
+      "held": false,
+      "status": "confirmed_issue",
+      "confirmed_defects": [
+        "EFG는 물리 포트 6개로 원품 12개보다 적다. UDM 비교 2건도 스위치 포트와 독립 보안 인터페이스의 구조가 다르며 원품의 로그 저장·고급 VPN·국내 이행 조건 대응이 미입증이다."
+      ],
+      "unresolved": [
+        "원품의 12포트·SSD 128GB+로그 512GB, ITM 통합관리·SDP 모바일 VPN·국산 암호/국내 인증·OTP 및 현장 설치/AS에 대한 EFG의 대응은 미입증이다.",
+        "SSL VPN을 ITU3000R2의 원규격 필수 항목으로 별도 확정하지 않았다. 다른 SECUI 모델의 요건을 옮기지 않는다."
+      ],
+      "rebutted_points": [
+        "대체품임을 현재 제목·주장·범위에 명시했다. 다른 모델명이라는 사실만으로 동일품을 사칭한 오류가 되지는 않는다.",
+        "판매가에는 관부가세와 표시 무료배송이 이미 포함돼 있다. 주문 후 품절 가능성 일반 안내를 현재 품절 표시로 해석하지 않는다.",
+        "실제 EFG 제조사 사양은 Advanced NAT·IPsec·일체형 HW를 확인하므로 이 기능 자체가 없다는 주장은 성립하지 않는다. 원품 ITM 통합관리·SDP 모바일 VPN·국산 암호와 모든 경보 방식의 동등성까지 입증한 것은 아니다."
+      ],
+      "new_findings": [],
+      "source_urls": [
+        "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+        "https://techspecs.ui.com/unifi/cloud-gateways/efg",
+        "https://api.savetax.now/v1/items/25217312",
+        "https://www.future.co.kr/product/network_view01.php",
+        "https://store.ui.com/us/en/products/efg",
+        "https://help.ui.com/hc/en-us/articles/360006893234-UniFi-Gateway-Intrusion-Detection-and-Prevention-IDS-IPS"
+      ],
+      "fresh_source_records": [
+        "work/self-audit-20261019/root/sources/02740268ba5d39.json",
+        "work/self-audit-20261019/root/sources/4f5682542c1289.json"
+      ],
+      "counterevidence_ids": [
+        "20082d95-3916-4a4d-a19a-1b74498463f0",
+        "775dfe1e-7b3c-424a-8c52-bffce61e44f7",
+        "0780649b-be3b-4192-8d05-2411247b629a",
+        "cdf51184-5fc7-405b-a7d7-5d219cb67d72",
+        "76258a55-46b1-4f02-918f-08d534139199",
+        "7d78a9f7-5c64-42e5-8573-d167efdcf6c9",
+        "67d210d5-a74a-4cb3-8a70-4d703deac98d"
+      ],
+      "counterevidence_count": 7,
+      "arithmetic_verified": true,
+      "calculated_reduction_krw": null,
+      "potential_full_disallowance_krw": 902400000,
+      "assessment_limit": "확인된 차이와 미입증 조건을 분리했다. 전체 제출의 자동 실격이나 예상 감액 확정 판정이 아니다.",
+      "public_revision_correction": null,
+      "counterevidence_responses": [
+        {
+          "counterevidence_id": "775dfe1e-7b3c-424a-8c52-bffce61e44f7",
+          "handle": "jwb",
+          "revision_no": 1,
+          "verdict": "반증 작성자 정정 확인",
+          "response": "작성자가 자동 검사의 품절 오독을 인정하고 앞선 반증을 무시해 달라고 정정했다. 판매 원문에서도 일반적 주문 후 품절 가능성 안내와 현재 상품 품절 표시는 구별해야 한다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ]
+        },
+        {
+          "counterevidence_id": "0780649b-be3b-4192-8d05-2411247b629a",
+          "handle": "jwb",
+          "revision_no": 1,
+          "verdict": "구체 반박 가능",
+          "response": "같은 작성자의 후속 정정이 해당 품절 판정을 자동 검사 오류라고 명시했다. 실제 판매 페이지의 가격/구매 표시와 일반적인 주문 후 취소 가능성 안내를 구별한다. 단, 이는 전량 재고나 국내 AS를 보장하지 않는다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ]
+        },
+        {
+          "counterevidence_id": "cdf51184-5fc7-405b-a7d7-5d219cb67d72",
+          "handle": "cnstar",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. 원품 12포트·SSD 128GB+로그 512GB·국내 인증·ITM·SDP 모바일 VPN·OTP·설치/AS에 대한 EFG의 대응은 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ],
+          "self_audit_update": "다른 SECUI 모델의 SSL VPN 요건을 ITU3000R2에 전가하지 않도록 현재 모델에 확인된 항목으로 한정했다."
+        },
+        {
+          "counterevidence_id": "76258a55-46b1-4f02-918f-08d534139199",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. 원품 12포트·SSD 128GB+로그 512GB·국내 인증·ITM·SDP 모바일 VPN·OTP·설치/AS에 대한 EFG의 대응은 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ],
+          "self_audit_update": "다른 SECUI 모델의 SSL VPN 요건을 ITU3000R2에 전가하지 않도록 현재 모델에 확인된 항목으로 한정했다."
+        },
+        {
+          "counterevidence_id": "7d78a9f7-5c64-42e5-8573-d167efdcf6c9",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. 원품 12포트·SSD 128GB+로그 512GB·국내 인증·ITM·SDP 모바일 VPN·OTP·설치/AS에 대한 EFG의 대응은 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ],
+          "self_audit_update": "다른 SECUI 모델의 SSL VPN 요건을 ITU3000R2에 전가하지 않도록 현재 모델에 확인된 항목으로 한정했다."
+        },
+        {
+          "counterevidence_id": "67d210d5-a74a-4cb3-8a70-4d703deac98d",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. 원품 12포트·SSD 128GB+로그 512GB·국내 인증·ITM·SDP 모바일 VPN·OTP·설치/AS에 대한 EFG의 대응은 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ],
+          "self_audit_update": "다른 SECUI 모델의 SSL VPN 요건을 ITU3000R2에 전가하지 않도록 현재 모델에 확인된 항목으로 한정했다."
+        }
+      ],
+      "prior_counterevidence_response_source": "research/public-counterevidence-review-20261019.json; 이번 모델별 검증에서 필요한 한정을 반영한 답변"
+    },
+    {
+      "item_id": "23454738",
+      "submission_id": "89169733-cf7f-4a32-ba89-1d53b555e0df",
+      "product_name": "보안소프트웨어, 안랩, AhnLab V3 Net for Linux Server 3.6, 300Server 이상",
+      "current_revision": 2,
+      "submission_state": "accepted",
+      "amount_krw": 824071276,
+      "held": false,
+      "status": "unverified_gap",
+      "confirmed_defects": [],
+      "unresolved": [
+        "원품 GS 1등급·구형 Linux 지원·컨테이너 검사·EPP 연동·4시간 응답/설치 교육은 미입증이다."
+      ],
+      "rebutted_points": [
+        "일반 PC 전용 백신으로 단정할 수 없다. 실제 판매 페이지는 Linux를 지원하고 제조사 비교 페이지는 Linux를 서버로 분류한다.",
+        "서버 30% 조건과 최소 5좌석을 반영해 fact별 올림 수량의 전체 비용을 이미 부담했다. 단순 24,200원/서버로 계산하지 않았다."
+      ],
+      "new_findings": [
+        "동일 Linux 서버용 안랩 일반 판매가 660,000원 재확인 기록은 원품 납품 단가보다 높아 기존 비교가격을 대체할 저가 근거가 되지 않았다."
+      ],
+      "source_urls": [
+        "https://www.bitdefendershop.co.kr/product/business.asp?productNo=37",
+        "https://www.bitdefender.com/en-us/business/compare",
+        "https://www.bitdefendershop.co.kr/product/view.asp?productNo=39",
+        "https://help.ahnlab.com/V3Net/V3Net_Linux/ko_KR/introduction_requirement.htm",
+        "https://help.ahnlab.com/V3Net/V3Net_Linux/en_US/introduction_product.htm",
+        "https://www.ahnlab.com/ko/product/v3-net-for-unix-linux-server",
+        "https://www.bitdefender.com/en-us/blog/businessinsights/whats-new-in-gravityzone-may-2026",
+        "https://www.bitdefender.com/business/support/en/77209-376308-antimalware.html",
+        "https://www.bitdefender.com/business/support/en/77209-376327-endpoint-protection.html",
+        "https://www.bitdefender.com/en-gb/blog/businessinsights/gravityzone-top-performer-av-comparatives-testing-2026"
+      ],
+      "fresh_source_records": [
+        "work/self-audit-20261019/root/sources/dcb8a799bbb359.json",
+        "work/self-audit-20261019/root/sources/2eb8c152ff6df7.json",
+        "work/self-audit-20261019/root/sources/2a23493162a782.json"
+      ],
+      "counterevidence_ids": [
+        "bf9cb09b-8517-415a-a431-6c32b7185b30",
+        "9a8b4452-7359-441a-a75b-2cd470e89deb",
+        "7671d672-1d9e-4ce6-a215-470c9d6ff4b6",
+        "63063e73-0b45-40d0-81d8-69d9da9086e7",
+        "64f48ff7-63ea-49af-b9b3-51b0f46bcafe",
+        "25c8c3cc-f37b-4f6c-947f-8820de0e2960"
+      ],
+      "counterevidence_count": 6,
+      "arithmetic_verified": true,
+      "calculated_reduction_krw": null,
+      "potential_full_disallowance_krw": 824071276,
+      "assessment_limit": "확인된 차이와 미입증 조건을 분리했다. 전체 제출의 자동 실격이나 예상 감액 확정 판정이 아니다.",
+      "public_revision_correction": null,
+      "counterevidence_responses": [
+        {
+          "counterevidence_id": "bf9cb09b-8517-415a-a431-6c32b7185b30",
+          "handle": "WISP",
+          "revision_no": 1,
+          "verdict": "일부 반박 가능",
+          "response": "PC 가격 표시만으로 Linux 서버 사용 불가라고 단정할 수 없다. 제조사 원문은 Linux를 서버로 분류하고 최대 30% 서버를 허용하며 기존 계산은 ceil(Q*10/3)좌석(최소 5개)을 구매하도록 이미 비용을 가산했다. 서버 전용 39번과 다른 상품인 것은 맞고 GS 인증·서비스 대응은 여전히 미입증이다.",
+          "source_urls": [
+            "https://www.bitdefendershop.co.kr/product/business.asp?productNo=37",
+            "https://www.bitdefender.com/en-us/business/compare",
+            "https://www.bitdefendershop.co.kr/product/view.asp?productNo=39"
+          ]
+        },
+        {
+          "counterevidence_id": "9a8b4452-7359-441a-a75b-2cd470e89deb",
+          "handle": "cnstar",
+          "revision_no": 1,
+          "verdict": "일부 반박 가능",
+          "response": "PC 가격 표시만으로 Linux 서버 사용 불가라고 단정할 수 없다. 제조사 원문은 Linux를 서버로 분류하고 최대 30% 서버를 허용하며 기존 계산은 ceil(Q*10/3)좌석(최소 5개)을 구매하도록 이미 비용을 가산했다. 서버 전용 39번과 다른 상품인 것은 맞고 GS 인증·서비스 대응은 여전히 미입증이다.",
+          "source_urls": [
+            "https://www.bitdefendershop.co.kr/product/business.asp?productNo=37",
+            "https://www.bitdefender.com/en-us/business/compare",
+            "https://www.bitdefendershop.co.kr/product/view.asp?productNo=39"
+          ]
+        },
+        {
+          "counterevidence_id": "7671d672-1d9e-4ce6-a215-470c9d6ff4b6",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "300서버 이상 가격 구간과 원품의 서비스 범위에 맞는 동일품 일반 판매 가격은 확인하지 못했다. 원품 GS 1등급·구형 Linux 지원·컨테이너 검사·EPP 연동·4시간 응답/설치 교육은 미입증이다.",
+          "source_urls": [
+            "https://www.bitdefendershop.co.kr/product/business.asp?productNo=37",
+            "https://www.bitdefender.com/en-us/business/compare",
+            "https://www.bitdefendershop.co.kr/product/view.asp?productNo=39"
+          ]
+        },
+        {
+          "counterevidence_id": "63063e73-0b45-40d0-81d8-69d9da9086e7",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 반박 가능",
+          "response": "PC 가격 표시만으로 Linux 서버 사용 불가라고 단정할 수 없다. 제조사 원문은 Linux를 서버로 분류하고 최대 30% 서버를 허용하며 기존 계산은 ceil(Q*10/3)좌석(최소 5개)을 구매하도록 이미 비용을 가산했다. 서버 전용 39번과 다른 상품인 것은 맞고 GS 인증·서비스 대응은 여전히 미입증이다.",
+          "source_urls": [
+            "https://www.bitdefendershop.co.kr/product/business.asp?productNo=37",
+            "https://www.bitdefender.com/en-us/business/compare",
+            "https://www.bitdefendershop.co.kr/product/view.asp?productNo=39"
+          ]
+        },
+        {
+          "counterevidence_id": "64f48ff7-63ea-49af-b9b3-51b0f46bcafe",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 반박 가능",
+          "response": "PC 가격 표시만으로 Linux 서버 사용 불가라고 단정할 수 없다. 제조사 원문은 Linux를 서버로 분류하고 최대 30% 서버를 허용하며 기존 계산은 ceil(Q*10/3)좌석(최소 5개)을 구매하도록 이미 비용을 가산했다. 서버 전용 39번과 다른 상품인 것은 맞고 GS 인증·서비스 대응은 여전히 미입증이다.",
+          "source_urls": [
+            "https://www.bitdefendershop.co.kr/product/business.asp?productNo=37",
+            "https://www.bitdefender.com/en-us/business/compare",
+            "https://www.bitdefendershop.co.kr/product/view.asp?productNo=39"
+          ]
+        },
+        {
+          "counterevidence_id": "25c8c3cc-f37b-4f6c-947f-8820de0e2960",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 반박 가능",
+          "response": "PC 가격 표시만으로 Linux 서버 사용 불가라고 단정할 수 없다. 제조사 원문은 Linux를 서버로 분류하고 최대 30% 서버를 허용하며 기존 계산은 ceil(Q*10/3)좌석(최소 5개)을 구매하도록 이미 비용을 가산했다. 서버 전용 39번과 다른 상품인 것은 맞고 GS 인증·서비스 대응은 여전히 미입증이다.",
+          "source_urls": [
+            "https://www.bitdefendershop.co.kr/product/business.asp?productNo=37",
+            "https://www.bitdefender.com/en-us/business/compare",
+            "https://www.bitdefendershop.co.kr/product/view.asp?productNo=39"
+          ]
+        }
+      ],
+      "prior_counterevidence_response_source": "research/public-counterevidence-review-20261019.json; 이번 모델별 검증에서 필요한 한정을 반영한 답변"
+    },
+    {
+      "item_id": "23454736",
+      "submission_id": "ffbb5fe6-bf31-447c-8254-6ccc1ecfba11",
+      "product_name": "보안소프트웨어, 안랩, AhnLab V3 Net for Linux Server 3.6, 10~29Server",
+      "current_revision": 2,
+      "submission_state": "accepted",
+      "amount_krw": 860721338,
+      "held": false,
+      "status": "unverified_gap",
+      "confirmed_defects": [],
+      "unresolved": [
+        "원품 GS 1등급·구형 Linux 지원·컨테이너 검사·EPP 연동·현장 서비스는 미입증이다."
+      ],
+      "rebutted_points": [
+        "일반 PC 전용 백신으로 단정할 수 없다. 실제 판매 페이지는 Linux를 지원하고 제조사 비교 페이지는 Linux를 서버로 분류한다.",
+        "서버 30% 조건과 최소 5좌석을 반영해 fact별 올림 수량의 전체 비용을 이미 부담했다. 단순 24,200원/서버로 계산하지 않았다."
+      ],
+      "new_findings": [
+        "동일 Linux 서버용 안랩 일반 판매가 660,000원 재확인 기록은 원품 납품 단가보다 높아 기존 비교가격을 대체할 저가 근거가 되지 않았다."
+      ],
+      "source_urls": [
+        "https://www.bitdefendershop.co.kr/product/business.asp?productNo=37",
+        "https://www.bitdefender.com/en-us/business/compare",
+        "https://www.bitdefendershop.co.kr/product/view.asp?productNo=39",
+        "https://help.ahnlab.com/V3Net/V3Net_Linux/ko_KR/introduction_requirement.htm",
+        "https://help.ahnlab.com/V3Net/V3Net_Linux/en_US/introduction_product.htm",
+        "https://www.ahnlab.com/ko/product/v3-net-for-unix-linux-server",
+        "https://www.bitdefender.com/en-us/blog/businessinsights/whats-new-in-gravityzone-may-2026",
+        "https://www.bitdefender.com/business/support/en/77209-376308-antimalware.html",
+        "https://www.bitdefender.com/business/support/en/77209-376327-endpoint-protection.html",
+        "https://www.bitdefender.com/en-gb/blog/businessinsights/gravityzone-top-performer-av-comparatives-testing-2026"
+      ],
+      "fresh_source_records": [
+        "work/self-audit-20261019/root/sources/dcb8a799bbb359.json",
+        "work/self-audit-20261019/root/sources/2eb8c152ff6df7.json",
+        "work/self-audit-20261019/root/sources/2a23493162a782.json"
+      ],
+      "counterevidence_ids": [
+        "905e2de9-9bbd-46ee-9e02-0dc8af658547",
+        "3210e5d8-2e5c-46db-bc7c-f044ccc95ec1",
+        "d3e02554-bb09-402e-b6a6-4b3f49e5787f",
+        "c1577003-a091-45b3-bc81-a479f4e0b54e",
+        "f99fde6c-9ab9-41c8-aca0-cec4ef73bf3e",
+        "c067a838-947e-470f-b72e-64fe17a0b6f4"
+      ],
+      "counterevidence_count": 6,
+      "arithmetic_verified": true,
+      "calculated_reduction_krw": null,
+      "potential_full_disallowance_krw": 860721338,
+      "assessment_limit": "확인된 차이와 미입증 조건을 분리했다. 전체 제출의 자동 실격이나 예상 감액 확정 판정이 아니다.",
+      "public_revision_correction": null,
+      "counterevidence_responses": [
+        {
+          "counterevidence_id": "905e2de9-9bbd-46ee-9e02-0dc8af658547",
+          "handle": "WISP",
+          "revision_no": 1,
+          "verdict": "일부 반박 가능",
+          "response": "PC 가격 표시만으로 Linux 서버 사용 불가라고 단정할 수 없다. 제조사 원문은 Linux를 서버로 분류하고 최대 30% 서버를 허용하며 기존 계산은 ceil(Q*10/3)좌석(최소 5개)을 구매하도록 이미 비용을 가산했다. 서버 전용 39번과 다른 상품인 것은 맞고 GS 인증·서비스 대응은 여전히 미입증이다.",
+          "source_urls": [
+            "https://www.bitdefendershop.co.kr/product/business.asp?productNo=37",
+            "https://www.bitdefender.com/en-us/business/compare",
+            "https://www.bitdefendershop.co.kr/product/view.asp?productNo=39"
+          ]
+        },
+        {
+          "counterevidence_id": "3210e5d8-2e5c-46db-bc7c-f044ccc95ec1",
+          "handle": "cnstar",
+          "revision_no": 1,
+          "verdict": "일부 반박 가능",
+          "response": "PC 가격 표시만으로 Linux 서버 사용 불가라고 단정할 수 없다. 제조사 원문은 Linux를 서버로 분류하고 최대 30% 서버를 허용하며 기존 계산은 ceil(Q*10/3)좌석(최소 5개)을 구매하도록 이미 비용을 가산했다. 서버 전용 39번과 다른 상품인 것은 맞고 GS 인증·서비스 대응은 여전히 미입증이다.",
+          "source_urls": [
+            "https://www.bitdefendershop.co.kr/product/business.asp?productNo=37",
+            "https://www.bitdefender.com/en-us/business/compare",
+            "https://www.bitdefendershop.co.kr/product/view.asp?productNo=39"
+          ]
+        },
+        {
+          "counterevidence_id": "d3e02554-bb09-402e-b6a6-4b3f49e5787f",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "찾은 동일품 민수 DSP/ESP 가격은 버전/수량 구간/3년 약정이 달라 그대로 교체하지 않았다. 원품 GS 1등급·구형 Linux 지원·컨테이너 검사·EPP 연동·현장 서비스는 미입증이다.",
+          "source_urls": [
+            "https://www.bitdefendershop.co.kr/product/business.asp?productNo=37",
+            "https://www.bitdefender.com/en-us/business/compare",
+            "https://www.bitdefendershop.co.kr/product/view.asp?productNo=39"
+          ]
+        },
+        {
+          "counterevidence_id": "c1577003-a091-45b3-bc81-a479f4e0b54e",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 반박 가능",
+          "response": "PC 가격 표시만으로 Linux 서버 사용 불가라고 단정할 수 없다. 제조사 원문은 Linux를 서버로 분류하고 최대 30% 서버를 허용하며 기존 계산은 ceil(Q*10/3)좌석(최소 5개)을 구매하도록 이미 비용을 가산했다. 서버 전용 39번과 다른 상품인 것은 맞고 GS 인증·서비스 대응은 여전히 미입증이다.",
+          "source_urls": [
+            "https://www.bitdefendershop.co.kr/product/business.asp?productNo=37",
+            "https://www.bitdefender.com/en-us/business/compare",
+            "https://www.bitdefendershop.co.kr/product/view.asp?productNo=39"
+          ]
+        },
+        {
+          "counterevidence_id": "f99fde6c-9ab9-41c8-aca0-cec4ef73bf3e",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 반박 가능",
+          "response": "PC 가격 표시만으로 Linux 서버 사용 불가라고 단정할 수 없다. 제조사 원문은 Linux를 서버로 분류하고 최대 30% 서버를 허용하며 기존 계산은 ceil(Q*10/3)좌석(최소 5개)을 구매하도록 이미 비용을 가산했다. 서버 전용 39번과 다른 상품인 것은 맞고 GS 인증·서비스 대응은 여전히 미입증이다.",
+          "source_urls": [
+            "https://www.bitdefendershop.co.kr/product/business.asp?productNo=37",
+            "https://www.bitdefender.com/en-us/business/compare",
+            "https://www.bitdefendershop.co.kr/product/view.asp?productNo=39"
+          ]
+        },
+        {
+          "counterevidence_id": "c067a838-947e-470f-b72e-64fe17a0b6f4",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 반박 가능",
+          "response": "PC 가격 표시만으로 Linux 서버 사용 불가라고 단정할 수 없다. 제조사 원문은 Linux를 서버로 분류하고 최대 30% 서버를 허용하며 기존 계산은 ceil(Q*10/3)좌석(최소 5개)을 구매하도록 이미 비용을 가산했다. 서버 전용 39번과 다른 상품인 것은 맞고 GS 인증·서비스 대응은 여전히 미입증이다.",
+          "source_urls": [
+            "https://www.bitdefendershop.co.kr/product/business.asp?productNo=37",
+            "https://www.bitdefender.com/en-us/business/compare",
+            "https://www.bitdefendershop.co.kr/product/view.asp?productNo=39"
+          ]
+        }
+      ],
+      "prior_counterevidence_response_source": "research/public-counterevidence-review-20261019.json; 이번 모델별 검증에서 필요한 한정을 반영한 답변"
+    },
+    {
+      "item_id": "25395524",
+      "submission_id": "4eee0995-9b51-41e2-9253-0986371244e0",
+      "product_name": "방화벽장치, 시큐아이, BLUEMAX NGF 510, 네트워크보안솔루션",
+      "current_revision": 2,
+      "submission_state": "accepted",
+      "amount_krw": 1146100000,
+      "held": false,
+      "status": "confirmed_issue",
+      "confirmed_defects": [
+        "EFG는 물리 포트 6개로 원품 12개보다 적다. UDM 비교 2건도 스위치 포트와 독립 보안 인터페이스의 구조가 다르며 원품의 로그 저장·고급 VPN·국내 이행 조건 대응이 미입증이다."
+      ],
+      "unresolved": [
+        "EFG의 12.5Gbps IDS/IPS와 원품 방화벽 12Gbps는 같은 시험 조건 비교가 아니며, 원품 12포트/로그 1TB/SSL VPN/국내 인증·설치 대응이 미입증이다."
+      ],
+      "rebutted_points": [
+        "대체품임을 현재 제목·주장·범위에 명시했다. 다른 모델명이라는 사실만으로 동일품을 사칭한 오류가 되지는 않는다.",
+        "판매가에는 관부가세와 표시 무료배송이 이미 포함돼 있다. 주문 후 품절 가능성 일반 안내를 현재 품절 표시로 해석하지 않는다.",
+        "제조사 EFG 사양은 Advanced NAT, IPsec 및 하드웨어 일체형 장비를 확인한다. NAT·IPsec·HW 자체가 전혀 없다는 주장은 성립하지 않는다. SSL VPN·기존 관리콘솔·전체 경보 방식의 동등성까지 확인되는 것은 아니다."
+      ],
+      "new_findings": [],
+      "source_urls": [
+        "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+        "https://techspecs.ui.com/unifi/cloud-gateways/efg",
+        "https://api.savetax.now/v1/items/25395524",
+        "https://www.secui.com/uploads/file_url-1767798076411-311203176.pdf",
+        "https://www.secui.com/uploads/file_url-1781229933025-669069893.pdf",
+        "https://store.ui.com/us/en/products/efg",
+        "https://help.ui.com/hc/en-us/articles/360006893234-UniFi-Gateway-Intrusion-Detection-and-Prevention-IDS-IPS"
+      ],
+      "fresh_source_records": [
+        "work/self-audit-20261019/root/sources/02740268ba5d39.json",
+        "work/self-audit-20261019/root/sources/4f5682542c1289.json"
+      ],
+      "counterevidence_ids": [
+        "cac44b49-1d8a-438c-9c2a-7ce794287ddf",
+        "cf243188-9d78-4371-8291-3f2e92e83ca2",
+        "6348637c-0ad1-4330-9242-dad982ad06a7",
+        "c05a0edc-7a34-44e4-9dc0-1d4d3f4d8c0f",
+        "10f15b45-26ac-447c-ab65-1bacdd0a4af6",
+        "9ef9fac3-a88f-46d8-a9fb-c774a519bdb1",
+        "58d438f2-1e69-4cf5-af96-9e265a849670"
+      ],
+      "counterevidence_count": 7,
+      "arithmetic_verified": true,
+      "calculated_reduction_krw": null,
+      "potential_full_disallowance_krw": 1146100000,
+      "assessment_limit": "확인된 차이와 미입증 조건을 분리했다. 전체 제출의 자동 실격이나 예상 감액 확정 판정이 아니다.",
+      "public_revision_correction": null,
+      "counterevidence_responses": [
+        {
+          "counterevidence_id": "cf243188-9d78-4371-8291-3f2e92e83ca2",
+          "handle": "jwb",
+          "revision_no": 1,
+          "verdict": "반증 작성자 정정 확인",
+          "response": "작성자가 자동 검사의 품절 오독을 인정하고 앞선 반증을 무시해 달라고 정정했다. 판매 원문에서도 일반적 주문 후 품절 가능성 안내와 현재 상품 품절 표시는 구별해야 한다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ]
+        },
+        {
+          "counterevidence_id": "6348637c-0ad1-4330-9242-dad982ad06a7",
+          "handle": "jwb",
+          "revision_no": 1,
+          "verdict": "구체 반박 가능",
+          "response": "같은 작성자의 후속 정정이 해당 품절 판정을 자동 검사 오류라고 명시했다. 실제 판매 페이지의 가격/구매 표시와 일반적인 주문 후 취소 가능성 안내를 구별한다. 단, 이는 전량 재고나 국내 AS를 보장하지 않는다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ]
+        },
+        {
+          "counterevidence_id": "c05a0edc-7a34-44e4-9dc0-1d4d3f4d8c0f",
+          "handle": "cnstar",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. EFG의 12.5Gbps IDS/IPS와 원품 방화벽 12Gbps는 같은 시험 조건 비교가 아니며, 원품 12포트/로그 1TB/SSL VPN/국내 인증·설치 대응이 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ]
+        },
+        {
+          "counterevidence_id": "10f15b45-26ac-447c-ab65-1bacdd0a4af6",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. EFG의 12.5Gbps IDS/IPS와 원품 방화벽 12Gbps는 같은 시험 조건 비교가 아니며, 원품 12포트/로그 1TB/SSL VPN/국내 인증·설치 대응이 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ]
+        },
+        {
+          "counterevidence_id": "9ef9fac3-a88f-46d8-a9fb-c774a519bdb1",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. EFG의 12.5Gbps IDS/IPS와 원품 방화벽 12Gbps는 같은 시험 조건 비교가 아니며, 원품 12포트/로그 1TB/SSL VPN/국내 인증·설치 대응이 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ]
+        },
+        {
+          "counterevidence_id": "58d438f2-1e69-4cf5-af96-9e265a849670",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. EFG의 12.5Gbps IDS/IPS와 원품 방화벽 12Gbps는 같은 시험 조건 비교가 아니며, 원품 12포트/로그 1TB/SSL VPN/국내 인증·설치 대응이 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ]
+        }
+      ],
+      "prior_counterevidence_response_source": "research/public-counterevidence-review-20261019.json; 이번 모델별 검증에서 필요한 한정을 반영한 답변"
+    },
+    {
+      "item_id": "25358591",
+      "submission_id": "885c8a61-2f1b-4ce3-be29-9f0d2bb4699e",
+      "product_name": "방화벽장치, 퓨쳐시스템, WeGuardia(TM) ITU 1000(R2), FW/VPN/IPS 네트워크보안",
+      "current_revision": 2,
+      "submission_state": "accepted",
+      "amount_krw": 2280600000,
+      "held": false,
+      "status": "confirmed_issue",
+      "confirmed_defects": [
+        "EFG는 물리 포트 6개로 원품 12개보다 적다. UDM 비교 2건도 스위치 포트와 독립 보안 인터페이스의 구조가 다르며 원품의 로그 저장·고급 VPN·국내 이행 조건 대응이 미입증이다."
+      ],
+      "unresolved": [
+        "EFG는 원품과 포트·저장·국내 암호/CC·설치·하자보수 조건이 다르다."
+      ],
+      "rebutted_points": [
+        "대체품임을 현재 제목·주장·범위에 명시했다. 다른 모델명이라는 사실만으로 동일품을 사칭한 오류가 되지는 않는다.",
+        "판매가에는 관부가세와 표시 무료배송이 이미 포함돼 있다. 주문 후 품절 가능성 일반 안내를 현재 품절 표시로 해석하지 않는다.",
+        "실제 EFG 제조사 사양은 Advanced NAT·IPsec·일체형 HW를 확인한다. 원품의 ITM/SDP·국내 암호·인증·현장 서비스가 같다는 근거는 아니다."
+      ],
+      "new_findings": [],
+      "source_urls": [
+        "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+        "https://techspecs.ui.com/unifi/cloud-gateways/efg",
+        "https://api.savetax.now/v1/items/25358591",
+        "https://www.future.co.kr/product/network_view01.php",
+        "https://store.ui.com/us/en/products/efg",
+        "https://help.ui.com/hc/en-us/articles/360006893234-UniFi-Gateway-Intrusion-Detection-and-Prevention-IDS-IPS"
+      ],
+      "fresh_source_records": [
+        "work/self-audit-20261019/root/sources/02740268ba5d39.json",
+        "work/self-audit-20261019/root/sources/4f5682542c1289.json"
+      ],
+      "counterevidence_ids": [
+        "1867e07c-cc8b-4cb5-8e8e-d17419b510e8",
+        "35d8a12c-efb3-4b96-a753-9fb2458f61f4",
+        "ebb0b3b1-1b10-405e-9578-769fcc13ae45",
+        "9287ff23-093b-4c35-a45a-2ee2f8ba9b3a",
+        "daed0b22-197b-4e20-9911-009c2e1b6146",
+        "a306981f-f252-4580-a78f-0a10b3b9adad"
+      ],
+      "counterevidence_count": 6,
+      "arithmetic_verified": true,
+      "calculated_reduction_krw": null,
+      "potential_full_disallowance_krw": 2280600000,
+      "assessment_limit": "확인된 차이와 미입증 조건을 분리했다. 전체 제출의 자동 실격이나 예상 감액 확정 판정이 아니다.",
+      "public_revision_correction": null,
+      "counterevidence_responses": [
+        {
+          "counterevidence_id": "1867e07c-cc8b-4cb5-8e8e-d17419b510e8",
+          "handle": "jwb",
+          "revision_no": 1,
+          "verdict": "반증 작성자 정정 확인",
+          "response": "작성자가 자동 검사의 품절 오독을 인정하고 앞선 반증을 무시해 달라고 정정했다. 판매 원문에서도 일반적 주문 후 품절 가능성 안내와 현재 상품 품절 표시는 구별해야 한다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ]
+        },
+        {
+          "counterevidence_id": "35d8a12c-efb3-4b96-a753-9fb2458f61f4",
+          "handle": "jwb",
+          "revision_no": 1,
+          "verdict": "구체 반박 가능",
+          "response": "같은 작성자의 후속 정정이 해당 품절 판정을 자동 검사 오류라고 명시했다. 실제 판매 페이지의 가격/구매 표시와 일반적인 주문 후 취소 가능성 안내를 구별한다. 단, 이는 전량 재고나 국내 AS를 보장하지 않는다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ]
+        },
+        {
+          "counterevidence_id": "ebb0b3b1-1b10-405e-9578-769fcc13ae45",
+          "handle": "cnstar",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. EFG는 원품과 포트·저장·국내 암호/CC·설치·하자보수 조건이 다르다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ]
+        },
+        {
+          "counterevidence_id": "9287ff23-093b-4c35-a45a-2ee2f8ba9b3a",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. EFG는 원품과 포트·저장·국내 암호/CC·설치·하자보수 조건이 다르다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ]
+        },
+        {
+          "counterevidence_id": "daed0b22-197b-4e20-9911-009c2e1b6146",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. EFG는 원품과 포트·저장·국내 암호/CC·설치·하자보수 조건이 다르다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ]
+        },
+        {
+          "counterevidence_id": "a306981f-f252-4580-a78f-0a10b3b9adad",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. EFG는 원품과 포트·저장·국내 암호/CC·설치·하자보수 조건이 다르다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936",
+            "https://techspecs.ui.com/unifi/cloud-gateways/efg"
+          ]
+        }
+      ],
+      "prior_counterevidence_response_source": "research/public-counterevidence-review-20261019.json; 이번 모델별 검증에서 필요한 한정을 반영한 답변"
+    },
+    {
+      "item_id": "24830440",
+      "submission_id": "78aeeb93-1d92-4c09-9e1b-247ea0a4422c",
+      "product_name": "데이터베이스관리소프트웨어, 티맥스티베로, Tibero 7, DBMS, 1Core, Enterprise",
+      "current_revision": 2,
+      "submission_state": "accepted",
+      "amount_krw": 2862417244,
+      "held": false,
+      "status": "confirmed_issue",
+      "confirmed_defects": [
+        "Tibero의 UNIX 플랫폼·Oracle 호환 환경과 SQL Server의 지원 환경이 다르며 이관/설치 비용을 넣지 않았다."
+      ],
+      "unresolved": [
+        "Tibero의 Oracle 문법/UNIX 대응·국내 인증·설치 기술 지원·기존 시스템 전환 비용은 SQL Server와 맞지 않거나 미입증이다."
+      ],
+      "rebutted_points": [
+        "판매 원문은 SQL Server 2022 Enterprise 기업용 CSP 영구 2코어 팩이다. 개인용 단기 구독이라는 반증은 사실과 다르다.",
+        "2코어 팩·최소 4코어·홀수 코어 올림과 세액 10%가 이미 비교 단가에 반영됐다."
+      ],
+      "new_findings": [],
+      "source_urls": [
+        "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+        "https://learn.microsoft.com/ko-kr/sql/sql-server/editions-and-components-of-sql-server-2022?view=sql-server-ver16",
+        "https://www.microsoft.com/licensing/guidance/SQL",
+        "https://www.tibero.com/ko/products/Tibero"
+      ],
+      "fresh_source_records": [
+        "work/self-audit-20261019/root/sources/d1c5fde4be1ad1.json",
+        "work/self-audit-20261019/root/sources/7d83d53451d748.json"
+      ],
+      "counterevidence_ids": [
+        "bdfe2bb4-22d3-4072-9882-51d6ede501f0",
+        "bee973f2-5438-4e5f-9c01-cecf8cf67b7c",
+        "c5799960-56c4-469b-af20-c953d75b33ad",
+        "925e5403-c60a-490a-8f34-ca0d7df27ff4",
+        "19b79f7a-6c70-49b5-8c64-6654aa74de49"
+      ],
+      "counterevidence_count": 5,
+      "arithmetic_verified": true,
+      "calculated_reduction_krw": null,
+      "potential_full_disallowance_krw": 2862417244,
+      "assessment_limit": "확인된 차이와 미입증 조건을 분리했다. 전체 제출의 자동 실격이나 예상 감액 확정 판정이 아니다.",
+      "public_revision_correction": null,
+      "counterevidence_responses": [
+        {
+          "counterevidence_id": "bdfe2bb4-22d3-4072-9882-51d6ede501f0",
+          "handle": "shine",
+          "revision_no": 1,
+          "verdict": "구체 반박 가능",
+          "response": "판매 원문은 기업용 SQL Server 2022 Enterprise Core의 CSP Perpetual(영구) 2코어 팩이다. 가정용/개인용 단기 구독이라는 반증의 상품 분류는 원문과 맞지 않는다. 다만 Tibero 대체성·인증·설치/전환 조건 문제는 별도 미해결이다.",
+          "source_urls": [
+            "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+            "https://learn.microsoft.com/ko-kr/sql/sql-server/editions-and-components-of-sql-server-2022?view=sql-server-ver16"
+          ]
+        },
+        {
+          "counterevidence_id": "bee973f2-5438-4e5f-9c01-cecf8cf67b7c",
+          "handle": "WISP",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. Tibero의 Oracle 문법/UNIX 대응·국내 인증·설치 기술 지원·기존 시스템 전환 비용은 SQL Server와 맞지 않거나 미입증이다.",
+          "source_urls": [
+            "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+            "https://learn.microsoft.com/ko-kr/sql/sql-server/editions-and-components-of-sql-server-2022?view=sql-server-ver16"
+          ]
+        },
+        {
+          "counterevidence_id": "c5799960-56c4-469b-af20-c953d75b33ad",
+          "handle": "cnstar",
+          "revision_no": 1,
+          "verdict": "규정 범위 구별 필요",
+          "response": "대회 API의 공식 접수 검사는 양수 line의 수량 가중 평균 P와 M에 대해 1.2배 또는 단위 차액 100만원을 검사한다. 일반 사이트 method의 계약별 제2 판매처 기준을 대회 API의 line별 자동 탈락 규칙으로 동일시할 수 없다. 다만 최종 심사에서 판매 근거의 충분성은 별도 검토되며 실제 판매처 근거 문제는 해소해야 한다.",
+          "source_urls": [
+            "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+            "https://learn.microsoft.com/ko-kr/sql/sql-server/editions-and-components-of-sql-server-2022?view=sql-server-ver16"
+          ]
+        },
+        {
+          "counterevidence_id": "925e5403-c60a-490a-8f34-ca0d7df27ff4",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. Tibero의 Oracle 문법/UNIX 대응·국내 인증·설치 기술 지원·기존 시스템 전환 비용은 SQL Server와 맞지 않거나 미입증이다.",
+          "source_urls": [
+            "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+            "https://learn.microsoft.com/ko-kr/sql/sql-server/editions-and-components-of-sql-server-2022?view=sql-server-ver16"
+          ]
+        },
+        {
+          "counterevidence_id": "19b79f7a-6c70-49b5-8c64-6654aa74de49",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. Tibero의 Oracle 문법/UNIX 대응·국내 인증·설치 기술 지원·기존 시스템 전환 비용은 SQL Server와 맞지 않거나 미입증이다.",
+          "source_urls": [
+            "https://softwares.co.kr/product/detail.html?product_no=96&cate_no=24&display_group=1",
+            "https://learn.microsoft.com/ko-kr/sql/sql-server/editions-and-components-of-sql-server-2022?view=sql-server-ver16"
+          ]
+        }
+      ],
+      "prior_counterevidence_response_source": "research/public-counterevidence-review-20261019.json; 이번 모델별 검증에서 필요한 한정을 반영한 답변"
+    },
+    {
+      "item_id": "23235820",
+      "submission_id": "97e5c590-6729-4e8b-aab8-15270cbb1c27",
+      "product_name": "통신소프트웨어, 이노뎁, VURIX v1.0, 1ch 장비활성화",
+      "current_revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": 4931899814,
+      "held": false,
+      "status": "confirmed_issue",
+      "confirmed_defects": [
+        "WAVE-PRO-04는 기존 VURIX 서버의 활성화 키가 아니다. 새 WAVE 시스템 전제와 원품에 포함된 설치·커스터마이징·방문/응답 지원의 비용이 비교가격에서 빠져 있다."
+      ],
+      "unresolved": [
+        "WAVE는 기존 VURIX 서버 활성화 키가 아니며 현장 설치/커스터마이징/유지 지원·기관별 카메라/기존 서버 대응은 미입증이다."
+      ],
+      "rebutted_points": [
+        "각 fact마다 ceil(Q/4)팩을 구매해 남는 채널 비용도 포함했다. 4채널 팩을 채널 1개 가격처럼 넣은 오류는 아니다."
+      ],
+      "new_findings": [],
+      "source_urls": [
+        "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000214541",
+        "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002461659_1010000005",
+        "https://media2store2.blob.core.windows.net/storage/item_spec/24/245130.pdf",
+        "https://wavevms.com/data/help/obtaining_and_activating_vms_licenses.html",
+        "https://wavevms.com/data/help/activating_licenses.html",
+        "https://wavevms.com/data/help/services-and-licenses.html",
+        "https://www.hanwhavision.com/us/products/product-details/Wisenet-WAVE",
+        "https://upload.hanwhavision.com/hanwha-global/media-file-library/2026/6/BR_36_Wisenet_WAVE_Brochure_v16_Hanwha_Vision.pdf",
+        "https://hvsgmpprdstorage.blob.core.windows.net/pim/Wisenet%20WAVE/License%20Agreements_Wisenet%20WAVE_261015_EN_6-1-2.pdf",
+        "https://wavevms.com/wp-content/uploads/2023/07/WAVE_5.1_Feature_Overview_v5.pdf"
+      ],
+      "fresh_source_records": [
+        "work/self-audit-20261019/root/sources/2d620152005584.json"
+      ],
+      "counterevidence_ids": [
+        "c3ebf3ab-ab3e-487f-994b-469deff8622b",
+        "0bac4155-3b79-43ec-8d99-3200d9fa913f",
+        "9c623630-664a-4559-a563-fc6ada5a5aec",
+        "ed5d8a23-b1d5-4a5f-92b4-ecaa4c27ef58",
+        "a22d43e3-8279-48ea-9d4d-aa0acedf1692",
+        "b528851e-016c-43ba-a81e-fc88f20cbbc4",
+        "45b72fba-e9ff-4917-8b17-faf540ca10f1"
+      ],
+      "counterevidence_count": 7,
+      "arithmetic_verified": true,
+      "calculated_reduction_krw": null,
+      "potential_full_disallowance_krw": 4931899814,
+      "assessment_limit": "확인된 차이와 미입증 조건을 분리했다. 전체 제출의 자동 실격이나 예상 감액 확정 판정이 아니다.",
+      "public_revision_correction": null,
+      "counterevidence_responses": [
+        {
+          "counterevidence_id": "c3ebf3ab-ab3e-487f-994b-469deff8622b",
+          "handle": "shine",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "팩 잔여량은 fact별 ceil(Q/4)팩으로 이미 반영되어 있으나, 채널 수의 제조사 근거와 실제 도입 가능성은 별도다. WAVE는 기존 VURIX 서버 활성화 키가 아니며 현장 설치/커스터마이징/유지 지원·기관별 카메라/기존 서버 대응은 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000214541"
+          ]
+        },
+        {
+          "counterevidence_id": "0bac4155-3b79-43ec-8d99-3200d9fa913f",
+          "handle": "WISP",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. WAVE는 기존 VURIX 서버 활성화 키가 아니며 현장 설치/커스터마이징/유지 지원·기관별 카메라/기존 서버 대응은 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000214541"
+          ]
+        },
+        {
+          "counterevidence_id": "9c623630-664a-4559-a563-fc6ada5a5aec",
+          "handle": "shine",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "팩 잔여량은 fact별 ceil(Q/4)팩으로 이미 반영되어 있으나, 채널 수의 제조사 근거와 실제 도입 가능성은 별도다. WAVE는 기존 VURIX 서버 활성화 키가 아니며 현장 설치/커스터마이징/유지 지원·기관별 카메라/기존 서버 대응은 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000214541"
+          ]
+        },
+        {
+          "counterevidence_id": "ed5d8a23-b1d5-4a5f-92b4-ecaa4c27ef58",
+          "handle": "cnstar",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. WAVE는 기존 VURIX 서버 활성화 키가 아니며 현장 설치/커스터마이징/유지 지원·기관별 카메라/기존 서버 대응은 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000214541"
+          ]
+        },
+        {
+          "counterevidence_id": "a22d43e3-8279-48ea-9d4d-aa0acedf1692",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. WAVE는 기존 VURIX 서버 활성화 키가 아니며 현장 설치/커스터마이징/유지 지원·기관별 카메라/기존 서버 대응은 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000214541"
+          ]
+        },
+        {
+          "counterevidence_id": "b528851e-016c-43ba-a81e-fc88f20cbbc4",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. WAVE는 기존 VURIX 서버 활성화 키가 아니며 현장 설치/커스터마이징/유지 지원·기관별 카메라/기존 서버 대응은 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000214541"
+          ]
+        },
+        {
+          "counterevidence_id": "45b72fba-e9ff-4917-8b17-faf540ca10f1",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. WAVE는 기존 VURIX 서버 활성화 키가 아니며 현장 설치/커스터마이징/유지 지원·기관별 카메라/기존 서버 대응은 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000214541"
+          ]
+        }
+      ],
+      "prior_counterevidence_response_source": "research/public-counterevidence-review-20261019.json; 이번 모델별 검증에서 필요한 한정을 반영한 답변"
+    },
+    {
+      "item_id": "23454737",
+      "submission_id": "b7a3abfb-a1f6-4174-98fb-399a6b8e5ffb",
+      "product_name": "보안소프트웨어, 안랩, AhnLab V3 Net for Linux Server 3.6, 30~299Server",
+      "current_revision": 2,
+      "submission_state": "accepted",
+      "amount_krw": 2413277171,
+      "held": false,
+      "status": "unverified_gap",
+      "confirmed_defects": [],
+      "unresolved": [
+        "원품 GS 1등급·구형 Linux 지원·컨테이너 검사·EPP 연동·현장 서비스는 미입증이다."
+      ],
+      "rebutted_points": [
+        "일반 PC 전용 백신으로 단정할 수 없다. 실제 판매 페이지는 Linux를 지원하고 제조사 비교 페이지는 Linux를 서버로 분류한다.",
+        "서버 30% 조건과 최소 5좌석을 반영해 fact별 올림 수량의 전체 비용을 이미 부담했다. 단순 24,200원/서버로 계산하지 않았다."
+      ],
+      "new_findings": [
+        "동일 Linux 서버용 안랩 일반 판매가 660,000원 재확인 기록은 원품 납품 단가보다 높아 기존 비교가격을 대체할 저가 근거가 되지 않았다."
+      ],
+      "source_urls": [
+        "https://www.bitdefendershop.co.kr/product/business.asp?productNo=37",
+        "https://www.bitdefender.com/en-us/business/compare",
+        "https://www.bitdefendershop.co.kr/product/view.asp?productNo=39",
+        "https://help.ahnlab.com/V3Net/V3Net_Linux/ko_KR/introduction_requirement.htm",
+        "https://help.ahnlab.com/V3Net/V3Net_Linux/en_US/introduction_product.htm",
+        "https://www.ahnlab.com/ko/product/v3-net-for-unix-linux-server",
+        "https://www.bitdefender.com/en-us/blog/businessinsights/whats-new-in-gravityzone-may-2026",
+        "https://www.bitdefender.com/business/support/en/77209-376308-antimalware.html",
+        "https://www.bitdefender.com/business/support/en/77209-376327-endpoint-protection.html",
+        "https://www.bitdefender.com/en-gb/blog/businessinsights/gravityzone-top-performer-av-comparatives-testing-2026"
+      ],
+      "fresh_source_records": [
+        "work/self-audit-20261019/root/sources/dcb8a799bbb359.json",
+        "work/self-audit-20261019/root/sources/2eb8c152ff6df7.json",
+        "work/self-audit-20261019/root/sources/2a23493162a782.json"
+      ],
+      "counterevidence_ids": [
+        "c760f44e-4818-4525-9be2-0e8b1003caf3",
+        "d1e6d3e7-e467-41b4-824f-4ca5dab007f2",
+        "52bca217-1bae-4f29-993e-4adeeed6de90",
+        "562b28ab-c5c5-4681-b79d-0e3cff2351b9",
+        "d320b27b-5053-4e09-9bf9-ba99a7d2c735",
+        "4a1a6b03-8816-46a5-a72d-02676658d398"
+      ],
+      "counterevidence_count": 6,
+      "arithmetic_verified": true,
+      "calculated_reduction_krw": null,
+      "potential_full_disallowance_krw": 2413277171,
+      "assessment_limit": "확인된 차이와 미입증 조건을 분리했다. 전체 제출의 자동 실격이나 예상 감액 확정 판정이 아니다.",
+      "public_revision_correction": null,
+      "counterevidence_responses": [
+        {
+          "counterevidence_id": "c760f44e-4818-4525-9be2-0e8b1003caf3",
+          "handle": "WISP",
+          "revision_no": 1,
+          "verdict": "일부 반박 가능",
+          "response": "PC 가격 표시만으로 Linux 서버 사용 불가라고 단정할 수 없다. 제조사 원문은 Linux를 서버로 분류하고 최대 30% 서버를 허용하며 기존 계산은 ceil(Q*10/3)좌석(최소 5개)을 구매하도록 이미 비용을 가산했다. 서버 전용 39번과 다른 상품인 것은 맞고 GS 인증·서비스 대응은 여전히 미입증이다.",
+          "source_urls": [
+            "https://www.bitdefendershop.co.kr/product/business.asp?productNo=37",
+            "https://www.bitdefender.com/en-us/business/compare",
+            "https://www.bitdefendershop.co.kr/product/view.asp?productNo=39"
+          ]
+        },
+        {
+          "counterevidence_id": "d1e6d3e7-e467-41b4-824f-4ca5dab007f2",
+          "handle": "cnstar",
+          "revision_no": 1,
+          "verdict": "일부 반박 가능",
+          "response": "PC 가격 표시만으로 Linux 서버 사용 불가라고 단정할 수 없다. 제조사 원문은 Linux를 서버로 분류하고 최대 30% 서버를 허용하며 기존 계산은 ceil(Q*10/3)좌석(최소 5개)을 구매하도록 이미 비용을 가산했다. 서버 전용 39번과 다른 상품인 것은 맞고 GS 인증·서비스 대응은 여전히 미입증이다.",
+          "source_urls": [
+            "https://www.bitdefendershop.co.kr/product/business.asp?productNo=37",
+            "https://www.bitdefender.com/en-us/business/compare",
+            "https://www.bitdefendershop.co.kr/product/view.asp?productNo=39"
+          ]
+        },
+        {
+          "counterevidence_id": "52bca217-1bae-4f29-993e-4adeeed6de90",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "30~299서버 구간에 맞는 동일품 판매 가격은 확인하지 못했다. 원품 GS 1등급·구형 Linux 지원·컨테이너 검사·EPP 연동·현장 서비스는 미입증이다.",
+          "source_urls": [
+            "https://www.bitdefendershop.co.kr/product/business.asp?productNo=37",
+            "https://www.bitdefender.com/en-us/business/compare",
+            "https://www.bitdefendershop.co.kr/product/view.asp?productNo=39"
+          ]
+        },
+        {
+          "counterevidence_id": "562b28ab-c5c5-4681-b79d-0e3cff2351b9",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 반박 가능",
+          "response": "PC 가격 표시만으로 Linux 서버 사용 불가라고 단정할 수 없다. 제조사 원문은 Linux를 서버로 분류하고 최대 30% 서버를 허용하며 기존 계산은 ceil(Q*10/3)좌석(최소 5개)을 구매하도록 이미 비용을 가산했다. 서버 전용 39번과 다른 상품인 것은 맞고 GS 인증·서비스 대응은 여전히 미입증이다.",
+          "source_urls": [
+            "https://www.bitdefendershop.co.kr/product/business.asp?productNo=37",
+            "https://www.bitdefender.com/en-us/business/compare",
+            "https://www.bitdefendershop.co.kr/product/view.asp?productNo=39"
+          ]
+        },
+        {
+          "counterevidence_id": "d320b27b-5053-4e09-9bf9-ba99a7d2c735",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 반박 가능",
+          "response": "PC 가격 표시만으로 Linux 서버 사용 불가라고 단정할 수 없다. 제조사 원문은 Linux를 서버로 분류하고 최대 30% 서버를 허용하며 기존 계산은 ceil(Q*10/3)좌석(최소 5개)을 구매하도록 이미 비용을 가산했다. 서버 전용 39번과 다른 상품인 것은 맞고 GS 인증·서비스 대응은 여전히 미입증이다.",
+          "source_urls": [
+            "https://www.bitdefendershop.co.kr/product/business.asp?productNo=37",
+            "https://www.bitdefender.com/en-us/business/compare",
+            "https://www.bitdefendershop.co.kr/product/view.asp?productNo=39"
+          ]
+        },
+        {
+          "counterevidence_id": "4a1a6b03-8816-46a5-a72d-02676658d398",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 반박 가능",
+          "response": "PC 가격 표시만으로 Linux 서버 사용 불가라고 단정할 수 없다. 제조사 원문은 Linux를 서버로 분류하고 최대 30% 서버를 허용하며 기존 계산은 ceil(Q*10/3)좌석(최소 5개)을 구매하도록 이미 비용을 가산했다. 서버 전용 39번과 다른 상품인 것은 맞고 GS 인증·서비스 대응은 여전히 미입증이다.",
+          "source_urls": [
+            "https://www.bitdefendershop.co.kr/product/business.asp?productNo=37",
+            "https://www.bitdefender.com/en-us/business/compare",
+            "https://www.bitdefendershop.co.kr/product/view.asp?productNo=39"
+          ]
+        }
+      ],
+      "prior_counterevidence_response_source": "research/public-counterevidence-review-20261019.json; 이번 모델별 검증에서 필요한 한정을 반영한 답변"
+    },
+    {
+      "item_id": "25395525",
+      "submission_id": "14da6e95-ab5f-4e66-bffe-1deb898f3940",
+      "product_name": "방화벽장치, 시큐아이, BLUEMAX NGF 310, 네트워크보안솔루션",
+      "current_revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": 1193400000,
+      "held": false,
+      "status": "confirmed_issue",
+      "confirmed_defects": [
+        "원품의 독립 보안 인터페이스·로그 저장 및 고급 보안/현장 이행 구성이 UDM-Pro-Max의 비교 구성과 다르다. 기본 장비 가격만으로 같은 구성의 취득비용이 입증되지 않는다."
+      ],
+      "unresolved": [
+        "UDM-Pro-Max의 SSL VPN·국산 암호/CC·국내 이행 서비스·원품 로그 구성 대응이 미입증이다."
+      ],
+      "rebutted_points": [
+        "대체품임을 현재 제목·주장·범위에 명시했다. 다른 모델명이라는 사실만으로 동일품을 사칭한 오류가 되지는 않는다.",
+        "판매가에는 관부가세와 표시 무료배송이 이미 포함돼 있다. 주문 후 품절 가능성 일반 안내를 현재 품절 표시로 해석하지 않는다.",
+        "실제 비교품 UDM-Pro-Max의 제조사 사양은 IPsec·일반 방화벽 기능과 하드웨어 구성을 확인한다. 이를 EFG의 사양으로 대신 입증하지 않는다. 원품의 고급 VPN·특정 관리콘솔·전체 경보/국산 암호·국내 이행 조건이 같다는 근거는 아니다."
+      ],
+      "new_findings": [],
+      "source_urls": [
+        "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000265671",
+        "https://techspecs.ui.com/unifi/cloud-gateways/udm-pro-max",
+        "https://api.savetax.now/v1/items/25395525",
+        "https://api.savetax.now/v1/listings/R25TA01134403040000013",
+        "https://www.secui.com/uploads/file_url-1767797893660-211538582.pdf",
+        "https://www.itscc.kr/file/download.do?file=KPR100000002318",
+        "https://help.ui.com/hc/en-us/articles/360006893234-UniFi-Gateway-Intrusion-Detection-and-Prevention-IDS-IPS",
+        "https://blog.ui.com/article/unifi-network-9-0-built-to-scale"
+      ],
+      "fresh_source_records": [
+        "work/self-audit-20261019/root/sources/18f310993c4323.json",
+        "work/self-audit-20261019/root/sources/5acf649e33debe.json"
+      ],
+      "counterevidence_ids": [
+        "16ad6e44-49b8-454e-9101-3aca5426bef9",
+        "907f9e48-6070-43e2-bca6-d2a39a52a67f",
+        "9959e3ad-afbe-408c-860c-1b0bb84c3459",
+        "3a184a0c-651e-44db-8969-e9101cf22b42"
+      ],
+      "counterevidence_count": 4,
+      "arithmetic_verified": true,
+      "calculated_reduction_krw": null,
+      "potential_full_disallowance_krw": 1193400000,
+      "assessment_limit": "확인된 차이와 미입증 조건을 분리했다. 전체 제출의 자동 실격이나 예상 감액 확정 판정이 아니다.",
+      "public_revision_correction": null,
+      "counterevidence_responses": [
+        {
+          "counterevidence_id": "16ad6e44-49b8-454e-9101-3aca5426bef9",
+          "handle": "cnstar",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. UDM-Pro-Max의 SSL VPN·국산 암호/CC·국내 이행 서비스·원품 로그 구성 대응이 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000265671",
+            "https://techspecs.ui.com/unifi/cloud-gateways/udm-pro-max"
+          ]
+        },
+        {
+          "counterevidence_id": "907f9e48-6070-43e2-bca6-d2a39a52a67f",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. UDM-Pro-Max의 SSL VPN·국산 암호/CC·국내 이행 서비스·원품 로그 구성 대응이 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000265671",
+            "https://techspecs.ui.com/unifi/cloud-gateways/udm-pro-max"
+          ]
+        },
+        {
+          "counterevidence_id": "9959e3ad-afbe-408c-860c-1b0bb84c3459",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. UDM-Pro-Max의 SSL VPN·국산 암호/CC·국내 이행 서비스·원품 로그 구성 대응이 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000265671",
+            "https://techspecs.ui.com/unifi/cloud-gateways/udm-pro-max"
+          ]
+        },
+        {
+          "counterevidence_id": "3a184a0c-651e-44db-8969-e9101cf22b42",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. UDM-Pro-Max의 SSL VPN·국산 암호/CC·국내 이행 서비스·원품 로그 구성 대응이 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000265671",
+            "https://techspecs.ui.com/unifi/cloud-gateways/udm-pro-max"
+          ]
+        }
+      ],
+      "prior_counterevidence_response_source": "research/public-counterevidence-review-20261019.json; 이번 모델별 검증에서 필요한 한정을 반영한 답변"
+    },
+    {
+      "item_id": "25451683",
+      "submission_id": "17221199-9df4-4c24-babc-cf9501785d3b",
+      "product_name": "국솥, 신성하인스, SSH-MPA500J, 전기식/인덕션교반볶음솥",
+      "current_revision": 1,
+      "submission_state": "disqualified",
+      "amount_krw": 0,
+      "held": false,
+      "status": "excluded_rejected",
+      "confirmed_defects": [],
+      "unresolved": [
+        "이미 운영진 반려 상태이며 원품을 새로 접수하거나 수정하지 않았다. 기존 공공조달 견적은 신규 일반 판매가 근거로 재사용하지 않는다."
+      ],
+      "rebutted_points": [],
+      "new_findings": [],
+      "source_urls": [
+        "https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398",
+        "https://ssung.kr/portfolio/ssh-mpa-500j/",
+        "https://amicook.co.kr/sub2_3_5.html",
+        "https://www.s2b.kr/S2BNfiledata/remu_product/rema/2026/03/12/20260312_07211bc9-2faf-4c8a-ba40-03635fe69288.png",
+        "https://www.goods.go.kr/file/readDownloadFile.do?fileId=PPMS_202605120413362990"
+      ],
+      "fresh_source_records": [],
+      "counterevidence_ids": [],
+      "counterevidence_count": 0,
+      "arithmetic_verified": false,
+      "calculated_reduction_krw": null,
+      "potential_full_disallowance_krw": null,
+      "assessment_limit": "확인된 차이와 미입증 조건을 분리했다. 전체 제출의 자동 실격이나 예상 감액 확정 판정이 아니다.",
+      "public_revision_correction": null,
+      "counterevidence_responses": [],
+      "prior_counterevidence_response_source": "research/public-counterevidence-review-20261019.json; 이번 모델별 검증에서 필요한 한정을 반영한 답변"
+    },
+    {
+      "item_id": "25668782",
+      "submission_id": "975e811a-4b1e-4c1a-932d-1b1c05330673",
+      "product_name": "방화벽장치, 퓨쳐시스템, WeGuardia(TM) ITU 250(R1), FW+VPN+IPS 등 네트웍 보안",
+      "current_revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": 1128470000,
+      "held": false,
+      "status": "confirmed_issue",
+      "confirmed_defects": [
+        "원계약의 현장설치도·하자보수 1년과 해외구매대행 판매의 국내 A/S 불가 조건이 다르며, 표시 본체가격에는 현장 설정·정책 이전·원품 유지보수의 실제 비용을 넣지 않았다."
+      ],
+      "unresolved": [
+        "물리 포트 수의 많고 적음과 별개로 내장 LAN 스위치와 원품 독립 보안 인터페이스의 구조·동시 처리 성능, ITM/SDP·국내 암호/인증·기관 정책의 대응은 미입증이다.",
+        "원품 로그 용량을 별도 확인 없이 다른 방화벽 모델의 1TB로 옮겨 적용하지 않았다."
+      ],
+      "rebutted_points": [
+        "대체품임을 현재 제목·주장·범위에 명시했다. 다른 모델명이라는 사실만으로 동일품을 사칭한 오류가 되지는 않는다.",
+        "판매가에는 관부가세와 표시 무료배송이 이미 포함돼 있다. 주문 후 품절 가능성 일반 안내를 현재 품절 표시로 해석하지 않는다.",
+        "실제 비교품 UDM-Pro-Max의 제조사 사양은 IPsec·일반 방화벽 기능과 하드웨어 구성을 확인한다. 이를 EFG의 사양으로 대신 입증하지 않는다. 원품의 고급 VPN·특정 관리콘솔·전체 경보/국산 암호·국내 이행 조건이 같다는 근거는 아니다."
+      ],
+      "new_findings": [],
+      "source_urls": [
+        "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000265671",
+        "https://techspecs.ui.com/unifi/cloud-gateways/udm-pro-max",
+        "https://api.savetax.now/v1/items/25668782",
+        "https://www.future.co.kr/product/network_view01.php",
+        "https://opit.co.kr/business/security-products/network/vpn/future-itu-vpn",
+        "https://help.ui.com/hc/en-us/articles/360006893234-UniFi-Gateway-Intrusion-Detection-and-Prevention-IDS-IPS",
+        "https://blog.ui.com/article/unifi-network-9-0-built-to-scale"
+      ],
+      "fresh_source_records": [
+        "work/self-audit-20261019/root/sources/18f310993c4323.json",
+        "work/self-audit-20261019/root/sources/5acf649e33debe.json"
+      ],
+      "counterevidence_ids": [
+        "fcc907d3-886b-43fd-bc6e-636a8d46f811",
+        "eeb1c694-2a4d-407f-b9d6-a63dc460c021",
+        "3cfc069d-ab24-4cac-a109-913e22d4c8d5",
+        "5efb0b2c-c612-4067-a40f-934b52891885"
+      ],
+      "counterevidence_count": 4,
+      "arithmetic_verified": true,
+      "calculated_reduction_krw": null,
+      "potential_full_disallowance_krw": 1128470000,
+      "assessment_limit": "확인된 차이와 미입증 조건을 분리했다. 전체 제출의 자동 실격이나 예상 감액 확정 판정이 아니다.",
+      "public_revision_correction": null,
+      "counterevidence_responses": [
+        {
+          "counterevidence_id": "fcc907d3-886b-43fd-bc6e-636a8d46f811",
+          "handle": "cnstar",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. UDM-Pro-Max의 국내 보안 인증·원품 VPN 터널/정책 호환·현장 설치/하자보수 대응은 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000265671",
+            "https://techspecs.ui.com/unifi/cloud-gateways/udm-pro-max"
+          ]
+        },
+        {
+          "counterevidence_id": "eeb1c694-2a4d-407f-b9d6-a63dc460c021",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. UDM-Pro-Max의 국내 보안 인증·원품 VPN 터널/정책 호환·현장 설치/하자보수 대응은 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000265671",
+            "https://techspecs.ui.com/unifi/cloud-gateways/udm-pro-max"
+          ]
+        },
+        {
+          "counterevidence_id": "3cfc069d-ab24-4cac-a109-913e22d4c8d5",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. UDM-Pro-Max의 국내 보안 인증·원품 VPN 터널/정책 호환·현장 설치/하자보수 대응은 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000265671",
+            "https://techspecs.ui.com/unifi/cloud-gateways/udm-pro-max"
+          ]
+        },
+        {
+          "counterevidence_id": "5efb0b2c-c612-4067-a40f-934b52891885",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. UDM-Pro-Max의 국내 보안 인증·원품 VPN 터널/정책 호환·현장 설치/하자보수 대응은 미입증이다.",
+          "source_urls": [
+            "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000265671",
+            "https://techspecs.ui.com/unifi/cloud-gateways/udm-pro-max"
+          ]
+        }
+      ],
+      "prior_counterevidence_response_source": "research/public-counterevidence-review-20261019.json; 이번 모델별 검증에서 필요한 한정을 반영한 답변"
+    },
+    {
+      "item_id": "24322082",
+      "submission_id": "c5bdb0a0-1fd6-439a-9e1c-57432636f379",
+      "product_name": "전기다목적승용차, 나눔컴퍼니, NN-EMPC01, 순찰차, 5인승",
+      "current_revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": 587250000,
+      "held": false,
+      "status": "excluded_by_prior_instruction",
+      "confirmed_defects": [],
+      "unresolved": [
+        "자동차 조사 제외 지시에 따라 공개 차수·반증·기존 한계와 산술만 확인했다. 신규 차량 판매 조사/수정은 하지 않았다. 기존 순찰 특장·검사·개조 비용의 미입증은 남는다."
+      ],
+      "rebutted_points": [],
+      "new_findings": [],
+      "source_urls": [
+        "https://www.kia.com/kr/vehicles/ev6/price",
+        "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002150669_1140000001",
+        "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/pdf/price/price_ev6.pdf",
+        "https://www.kia.com/kr/vehicles/ev6/specification",
+        "https://www.kia.com/kr/customer-service/purchase-guide/tax",
+        "https://www.kia.com/kr/customer-service/purchase-guide/delivery",
+        "https://www.hyundai.com/contents/repn-car/catalog/ioniq5-price.pdf",
+        "https://www.hyundai.com/contents/repn-car/catalog/ioniq-5-2025-price.pdf"
+      ],
+      "fresh_source_records": [],
+      "counterevidence_ids": [
+        "3fdc5067-6538-496f-9a2e-85c81133ccb1",
+        "34969b82-f747-4d8a-8e09-2dab6ff62e15",
+        "0ae453f0-9bb0-47b8-b49b-b92979fd75de",
+        "7ba7b7d8-ed7f-4b02-8c90-b11e896e4ee2",
+        "fb954553-b1ae-4641-8633-e8cd74ca9abc"
+      ],
+      "counterevidence_count": 5,
+      "arithmetic_verified": true,
+      "calculated_reduction_krw": null,
+      "potential_full_disallowance_krw": null,
+      "assessment_limit": "확인된 차이와 미입증 조건을 분리했다. 전체 제출의 자동 실격이나 예상 감액 확정 판정이 아니다.",
+      "public_revision_correction": null,
+      "counterevidence_responses": [
+        {
+          "counterevidence_id": "3fdc5067-6538-496f-9a2e-85c81133ccb1",
+          "handle": "WISP",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. 순찰차의 특장/배선/필수 장비·인증·실제 운영 조건을 일반 EV6 트림/편의 옵션만으로 충족한다는 근거는 없다.",
+          "source_urls": [
+            "https://www.kia.com/kr/vehicles/ev6/price"
+          ]
+        },
+        {
+          "counterevidence_id": "34969b82-f747-4d8a-8e09-2dab6ff62e15",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "신규 자동차 조사는 제외하라는 기존 지시를 유지하고 이번에는 기등록 비교의 한계만 점검했다. 순찰차의 특장/배선/필수 장비·인증·실제 운영 조건을 일반 EV6 트림/편의 옵션만으로 충족한다는 근거는 없다.",
+          "source_urls": [
+            "https://www.kia.com/kr/vehicles/ev6/price"
+          ]
+        },
+        {
+          "counterevidence_id": "0ae453f0-9bb0-47b8-b49b-b92979fd75de",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. 순찰차의 특장/배선/필수 장비·인증·실제 운영 조건을 일반 EV6 트림/편의 옵션만으로 충족한다는 근거는 없다.",
+          "source_urls": [
+            "https://www.kia.com/kr/vehicles/ev6/price"
+          ]
+        },
+        {
+          "counterevidence_id": "7ba7b7d8-ed7f-4b02-8c90-b11e896e4ee2",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. 순찰차의 특장/배선/필수 장비·인증·실제 운영 조건을 일반 EV6 트림/편의 옵션만으로 충족한다는 근거는 없다.",
+          "source_urls": [
+            "https://www.kia.com/kr/vehicles/ev6/price"
+          ]
+        },
+        {
+          "counterevidence_id": "fb954553-b1ae-4641-8633-e8cd74ca9abc",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. 순찰차의 특장/배선/필수 장비·인증·실제 운영 조건을 일반 EV6 트림/편의 옵션만으로 충족한다는 근거는 없다.",
+          "source_urls": [
+            "https://www.kia.com/kr/vehicles/ev6/price"
+          ]
+        }
+      ],
+      "prior_counterevidence_response_source": "research/public-counterevidence-review-20261019.json; 이번 모델별 검증에서 필요한 한정을 반영한 답변"
+    },
+    {
+      "item_id": "25590567",
+      "submission_id": "be7f5dc6-e076-4b6c-a31a-5ab8a96a6390",
+      "product_name": "그래픽소프트웨어, Adobe, (US)Acrobat Pro DC R24, PDF편집",
+      "current_revision": 3,
+      "submission_state": "accepted",
+      "amount_krw": 1789326000,
+      "held": false,
+      "status": "unverified_gap",
+      "confirmed_defects": [],
+      "unresolved": [
+        "Acrobat의 XFA·고급 서명·접근성·기관별 기존 연동 대응 및 전환 비용은 미입증이다.",
+        "제조사 조달용 공시와 별개로 소프트이즈 판매 사용권의 기관/폐쇄망 적용 조건은 추가 확인이 필요하다."
+      ],
+      "rebutted_points": [
+        "소프트이즈 실제 일반 판매가는 1인·1PC 연간 55,000원(VAT 포함)이다.",
+        "제조사의 실제 구매 안내 창은 기업용과 조달용 모두 연간 55,000원(VAT 포함)을 공시한다. 기관용 가격 공시가 전혀 없다는 직전 설명은 잘못되어 revision 3으로 바로잡았다.",
+        "제조사의 조달용 가격표를 별도 일반 판매가격의 대용으로 채택하지 않았다. 기존 일반 판매처 가격 근거를 유지했다."
+      ],
+      "new_findings": [
+        "실제 가격 안내 창을 열어 조달(나라장터) 연간 식별번호 25798202·1인/1PC·55,000원을 확인했다. 공공기관/폐쇄망 상담 문구는 병존한다."
+      ],
+      "source_urls": [
+        "https://softis.co.kr/Products/ProductDetail/51028",
+        "https://www.ezpdf.co.kr/editor4/main.do",
+        "https://www.compuzone.co.kr/product/product_detail.htm?ProductNo=1288694",
+        "https://api.savetax.now/v1/items/25590567",
+        "https://www.adobe.com/kr/acrobat/features.html"
+      ],
+      "fresh_source_records": [
+        "work/self-audit-20261019/root/sources/03341d432368c5.json",
+        "work/self-audit-20261019/root/sources/d47943d35eab41.json"
+      ],
+      "counterevidence_ids": [
+        "30bce3db-1e3f-4629-ae26-1fdedd3927f8",
+        "3f62a760-1589-4fa8-a9da-ee7f284f56b1",
+        "2492c517-426b-4c9b-afc8-0e2268d8b443"
+      ],
+      "counterevidence_count": 3,
+      "arithmetic_verified": true,
+      "calculated_reduction_krw": null,
+      "potential_full_disallowance_krw": 1789326000,
+      "assessment_limit": "확인된 차이와 미입증 조건을 분리했다. 전체 제출의 자동 실격이나 예상 감액 확정 판정이 아니다.",
+      "public_revision_correction": {
+        "revision": 3,
+        "price_changed": false,
+        "amount_changed": false,
+        "receipt_path": "work/self-audit-20261019/root/ezpdf-revision-receipt.json"
+      },
+      "counterevidence_responses": [
+        {
+          "counterevidence_id": "30bce3db-1e3f-4629-ae26-1fdedd3927f8",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. ezPDF 4.0과 Acrobat Pro의 고급 전자서명/XFA/접근성/기존 연동·기관 폐쇄망 사용권 조건은 입증되지 않았다. 이번 재검토에서는 제조사 실제 구매 안내 창의 기업용·조달용 연간 55,000원(VAT 포함)을 확인했다. 따라서 기관용 가격 공시가 전혀 없다는 설명은 바로잡았으며, 이 소매 사용권의 기관 적용과 고급 기능 대응은 별도 검증 사항이다.",
+          "source_urls": [
+            "https://softis.co.kr/Products/ProductDetail/51028",
+            "https://www.ezpdf.co.kr/editor4/main.do",
+            "https://www.compuzone.co.kr/product/product_detail.htm?ProductNo=1288694"
+          ]
+        },
+        {
+          "counterevidence_id": "3f62a760-1589-4fa8-a9da-ee7f284f56b1",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. ezPDF 4.0과 Acrobat Pro의 고급 전자서명/XFA/접근성/기존 연동·기관 폐쇄망 사용권 조건은 입증되지 않았다. 이번 재검토에서는 제조사 실제 구매 안내 창의 기업용·조달용 연간 55,000원(VAT 포함)을 확인했다. 따라서 기관용 가격 공시가 전혀 없다는 설명은 바로잡았으며, 이 소매 사용권의 기관 적용과 고급 기능 대응은 별도 검증 사항이다.",
+          "source_urls": [
+            "https://softis.co.kr/Products/ProductDetail/51028",
+            "https://www.ezpdf.co.kr/editor4/main.do",
+            "https://www.compuzone.co.kr/product/product_detail.htm?ProductNo=1288694"
+          ]
+        },
+        {
+          "counterevidence_id": "2492c517-426b-4c9b-afc8-0e2268d8b443",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. ezPDF 4.0과 Acrobat Pro의 고급 전자서명/XFA/접근성/기존 연동·기관 폐쇄망 사용권 조건은 입증되지 않았다. 이번 재검토에서는 제조사 실제 구매 안내 창의 기업용·조달용 연간 55,000원(VAT 포함)을 확인했다. 따라서 기관용 가격 공시가 전혀 없다는 설명은 바로잡았으며, 이 소매 사용권의 기관 적용과 고급 기능 대응은 별도 검증 사항이다.",
+          "source_urls": [
+            "https://softis.co.kr/Products/ProductDetail/51028",
+            "https://www.ezpdf.co.kr/editor4/main.do",
+            "https://www.compuzone.co.kr/product/product_detail.htm?ProductNo=1288694"
+          ]
+        }
+      ],
+      "prior_counterevidence_response_source": "research/public-counterevidence-review-20261019.json; 이번 모델별 검증에서 필요한 한정을 반영한 답변"
+    },
+    {
+      "item_id": "25051183",
+      "submission_id": "93e5594a-205c-4aad-930d-754f1c2c00e2",
+      "product_name": "그래픽소프트웨어, Autodesk, (US)AutoCAD LT 2024, 도면설계프로그램, 단일사용자, 1년",
+      "current_revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": 940289910,
+      "held": false,
+      "status": "unverified_gap",
+      "confirmed_defects": [],
+      "unresolved": [
+        "BricsCAD 상업용 페이지에 교육/공공기관 감사 주의 안내가 있어 공공기관 도입 권한과 해당 에디션 가격은 미입증이다."
+      ],
+      "rebutted_points": [
+        "두 제품의 사용자·1년 기간이 명시되어 있고 다른 브랜드임을 공개했다. 판매처의 범용 교육/공공기관 감사 안내는 이 제품의 공공기관 사용 금지 조항으로 확정할 수 없다."
+      ],
+      "new_findings": [],
+      "source_urls": [
+        "https://softis.co.kr/Products/ProductDetail/50953",
+        "https://api.savetax.now/v1/items/25051183",
+        "https://damassets.autodesk.net/content/dam/autodesk/www/pdfs/autocad-lt-2024-brochure-en.pdf",
+        "https://helpcenter.bricsys.com/en-us/document/command-reference/o/open-command?version=V25",
+        "https://helpcenter.bricsys.com/en-us/document/command-reference/e/export-command?version=V25",
+        "https://helpcenter.bricsys.com/en-us/document/command-reference/l/line-command?version=V25",
+        "https://helpcenter.bricsys.com/en-us/document/command-reference/e/exportpdf-command?version=V25",
+        "https://helpcenter.bricsys.com/en-us/document/bricscad/customization/lisp?version=V25"
+      ],
+      "fresh_source_records": [
+        "work/self-audit-20261019/root/sources/a627b5d7a5cd75.json"
+      ],
+      "counterevidence_ids": [
+        "a401c56a-5a2e-43c1-9b59-7dc55c43f94f",
+        "a5233bb8-913b-4c5a-979d-1c3f687bbeeb",
+        "3594d720-9d84-4460-9682-9da02ff200b5",
+        "83e24d86-df6c-4957-9f32-d7bfe43beae9"
+      ],
+      "counterevidence_count": 4,
+      "arithmetic_verified": true,
+      "calculated_reduction_krw": null,
+      "potential_full_disallowance_krw": 940289910,
+      "assessment_limit": "확인된 차이와 미입증 조건을 분리했다. 전체 제출의 자동 실격이나 예상 감액 확정 판정이 아니다.",
+      "public_revision_correction": null,
+      "counterevidence_responses": [
+        {
+          "counterevidence_id": "a401c56a-5a2e-43c1-9b59-7dc55c43f94f",
+          "handle": "cnstar",
+          "revision_no": 1,
+          "verdict": "인용 정정 확인·라이선스 지적 미해소",
+          "response": "작성자가 이전 반증의 공식 문서 인용 일부를 취소한 정정은 확인된다. 판매처의 공공기관 관련 주의 문구는 실제로 존재하므로 공공기관 상업용 사용 적합성과 가격을 확보했다고 반박할 수 없다.",
+          "source_urls": [
+            "https://softis.co.kr/Products/ProductDetail/50953"
+          ]
+        },
+        {
+          "counterevidence_id": "a5233bb8-913b-4c5a-979d-1c3f687bbeeb",
+          "handle": "cnstar",
+          "revision_no": 1,
+          "verdict": "인용 정정 확인·라이선스 지적 미해소",
+          "response": "작성자가 이전 반증의 공식 문서 인용 일부를 취소한 정정은 확인된다. 판매처의 공공기관 관련 주의 문구는 실제로 존재하므로 공공기관 상업용 사용 적합성과 가격을 확보했다고 반박할 수 없다.",
+          "source_urls": [
+            "https://softis.co.kr/Products/ProductDetail/50953"
+          ]
+        },
+        {
+          "counterevidence_id": "3594d720-9d84-4460-9682-9da02ff200b5",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. BricsCAD 상업용 페이지에 교육/공공기관 감사 주의 안내가 있어 공공기관 도입 권한과 해당 에디션 가격은 미입증이다.",
+          "source_urls": [
+            "https://softis.co.kr/Products/ProductDetail/50953"
+          ]
+        },
+        {
+          "counterevidence_id": "83e24d86-df6c-4957-9f32-d7bfe43beae9",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. BricsCAD 상업용 페이지에 교육/공공기관 감사 주의 안내가 있어 공공기관 도입 권한과 해당 에디션 가격은 미입증이다.",
+          "source_urls": [
+            "https://softis.co.kr/Products/ProductDetail/50953"
+          ]
+        }
+      ],
+      "prior_counterevidence_response_source": "research/public-counterevidence-review-20261019.json; 이번 모델별 검증에서 필요한 한정을 반영한 답변"
+    },
+    {
+      "item_id": "23508391",
+      "submission_id": "90a5c26d-f1c3-42cc-a4d1-003477993262",
+      "product_name": "통신케이블어셈블리, 아이엠피, IM-PSW-0500, 50m, 스피커케이블",
+      "current_revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": 82720000,
+      "held": false,
+      "status": "unverified_gap",
+      "confirmed_defects": [],
+      "unresolved": [
+        "원품 핀 수·심 수·도체 규격이 불명확해 2극 동축 케이블이 모든 4심/특수 배선에 대응한다는 근거는 없다."
+      ],
+      "rebutted_points": [
+        "제조사 HWP 2개의 실제 원문은 차폐선·스피콘·50m를 명시하지만 4심/4핀을 필수로 명시하지 않는다. 2핀이라는 사실만으로 원품과 반드시 부적합하다고 단정할 수 없다."
+      ],
+      "new_findings": [],
+      "source_urls": [
+        "https://bkmic.com/goods/goods_view.php?goodsNo=5346",
+        "https://www.impav.com/r2/downloads/IM-PSW-0500/spec_1.hwp",
+        "https://www.impav.com/r2/downloads/IM-PSW-0500/spc_1.hwp",
+        "https://www.mogami-wire.co.jp/doc/2024_Catalog_J_250121.pdf",
+        "https://www.neutrik.com/en/product/nl2fx",
+        "https://nl.farnell.com/en-NL/neutrik/nl2fx/connector-speakon-socket-2pole/dp/2383461"
+      ],
+      "fresh_source_records": [
+        "work/self-audit-20261019/root/sources/f4c1ab8b72ecf5.json"
+      ],
+      "counterevidence_ids": [
+        "d4547ac5-15e7-4939-9ab9-07a9aa087594",
+        "b935d583-b4e3-47f8-b1e2-eb96a70002ab"
+      ],
+      "counterevidence_count": 2,
+      "arithmetic_verified": true,
+      "calculated_reduction_krw": null,
+      "potential_full_disallowance_krw": 82720000,
+      "assessment_limit": "확인된 차이와 미입증 조건을 분리했다. 전체 제출의 자동 실격이나 예상 감액 확정 판정이 아니다.",
+      "public_revision_correction": null,
+      "counterevidence_responses": [
+        {
+          "counterevidence_id": "d4547ac5-15e7-4939-9ab9-07a9aa087594",
+          "handle": "WISP",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. 원품 핀 수·심 수·도체 규격이 불명확해 2극 동축 케이블이 모든 4심/특수 배선에 대응한다는 근거는 없다.",
+          "source_urls": [
+            "https://bkmic.com/goods/goods_view.php?goodsNo=5346"
+          ]
+        },
+        {
+          "counterevidence_id": "b935d583-b4e3-47f8-b1e2-eb96a70002ab",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. 원품 핀 수·심 수·도체 규격이 불명확해 2극 동축 케이블이 모든 4심/특수 배선에 대응한다는 근거는 없다.",
+          "source_urls": [
+            "https://bkmic.com/goods/goods_view.php?goodsNo=5346"
+          ]
+        }
+      ],
+      "prior_counterevidence_response_source": "research/public-counterevidence-review-20261019.json; 이번 모델별 검증에서 필요한 한정을 반영한 답변"
+    },
+    {
+      "item_id": "24833002",
+      "submission_id": "0e45102a-d381-4ad9-8e14-7f4de13dd543",
+      "product_name": "데스크톱컴퓨터, 다컴시스템, QUANTUM-C9-3200, Intel Core i9 13900(2GHz)",
+      "current_revision": 1,
+      "submission_state": "accepted",
+      "amount_krw": 12100000,
+      "held": false,
+      "status": "confirmed_issue",
+      "confirmed_defects": [
+        "비교 완제품의 i9-14900KF에는 원품 i9-13900의 내장 그래픽/Quick Sync가 없고 SSD 2TB 하나는 SSD+별도 HDD의 두 드라이브 구성과 다르다."
+      ],
+      "unresolved": [
+        "대체 CPU는 KF라 내장 그래픽/QuickSync가 없고, HDD 1TB/복구 솔루션/카드 리더/키보드 마우스의 필수 구성 대응이 미확인이다."
+      ],
+      "rebutted_points": [
+        "완제품 PC 가격에 Windows 11 Pro 옵션 242,000원을 더한 3,251,000원을 사용했다. CPU 단품 또는 부품 합산가를 완제품 가격으로 쓴 사례가 아니다.",
+        "1.2~1.3배 구간에서 판매처 2곳을 반드시 요구하는 일반 사이트 문구를 별도 근거 없이 대회 자동 실격 조건으로 확장하지 않는다."
+      ],
+      "new_findings": [],
+      "source_urls": [
+        "https://www.nexpc.co.kr/renewal/goods_main/detail.php?gid=3710151",
+        "https://www.dacomsystem.com/quantum-c9-3200/",
+        "https://www.dacomsystem.com/DM/catalogue/dacomsystem_Spec.pdf"
+      ],
+      "fresh_source_records": [
+        "work/self-audit-20261019/root/sources/a9610ec74ba97f.json"
+      ],
+      "counterevidence_ids": [
+        "f8775549-973d-4e0f-9f7d-42b16a97050e",
+        "2a1afabe-d883-4d72-a77f-004793142b16"
+      ],
+      "counterevidence_count": 2,
+      "arithmetic_verified": true,
+      "calculated_reduction_krw": null,
+      "potential_full_disallowance_krw": 12100000,
+      "assessment_limit": "확인된 차이와 미입증 조건을 분리했다. 전체 제출의 자동 실격이나 예상 감액 확정 판정이 아니다.",
+      "public_revision_correction": null,
+      "counterevidence_responses": [
+        {
+          "counterevidence_id": "f8775549-973d-4e0f-9f7d-42b16a97050e",
+          "handle": "WISP",
+          "revision_no": 1,
+          "verdict": "일부 인정·추가 입증 필요",
+          "response": "원 제출은 동일품이라고 하지 않고 원품과 실판매 대체품의 제조사·모델을 제목/주장/비교 범위에 구별했다. 따라서 모델명이 없다는 사실만으로 동일품을 위장했다고 보는 것은 맞지 않는다. 그러나 대체품이 필수 핵심 사양과 완성 구성을 충족한다는 별도 근거가 필요하다. 대체 CPU는 KF라 내장 그래픽/QuickSync가 없고, HDD 1TB/복구 솔루션/카드 리더/키보드 마우스의 필수 구성 대응이 미확인이다.",
+          "source_urls": [
+            "https://www.nexpc.co.kr/renewal/goods_main/detail.php?gid=3710151"
+          ]
+        },
+        {
+          "counterevidence_id": "2a1afabe-d883-4d72-a77f-004793142b16",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "verdict": "규정 범위 구별 필요",
+          "response": "대회 API의 공식 접수 검사는 양수 line의 수량 가중 평균 P와 M에 대해 1.2배 또는 단위 차액 100만원을 검사한다. 일반 사이트 method의 계약별 제2 판매처 기준을 대회 API의 line별 자동 탈락 규칙으로 동일시할 수 없다. 다만 최종 심사에서 판매 근거의 충분성은 별도 검토되며 실제 판매처 근거 문제는 해소해야 한다.",
+          "source_urls": [
+            "https://www.nexpc.co.kr/renewal/goods_main/detail.php?gid=3710151"
+          ]
+        }
+      ],
+      "prior_counterevidence_response_source": "research/public-counterevidence-review-20261019.json; 이번 모델별 검증에서 필요한 한정을 반영한 답변"
+    },
+    {
+      "item_id": "25937069",
+      "submission_id": "4fe1dc1c-4722-484e-a2d4-0808fec65c0e",
+      "product_name": "하드디스크드라이브, Western digital, (TH)WUH722020CLE6L4, 20TB",
+      "current_revision": 3,
+      "submission_state": "accepted",
+      "amount_krw": 2640750,
+      "held": false,
+      "status": "excluded_by_prior_instruction",
+      "confirmed_defects": [],
+      "unresolved": [
+        "하드디스크는 사용자의 현재 상태 유지 지시를 보존했다. 공개 현행 차수·반증·산술만 확인하고 판매 원문 재조사/수정은 하지 않았다."
+      ],
+      "rebutted_points": [],
+      "new_findings": [],
+      "source_urls": [
+        "https://prod.danawa.com/info/?pcode=94815101",
+        "http://memoryall.co.kr/product/productView.php?nProdCode=94815101&service_id=pcdn",
+        "https://www.youngjaecomputer.com/shop/item.php?it_id=5749615705",
+        "https://www.mypcshop.co.kr/shop/item.php?it_id=5749615705"
+      ],
+      "fresh_source_records": [],
+      "counterevidence_ids": [
+        "5a31f0d9-bc87-45d7-a585-f0e006afa005"
+      ],
+      "counterevidence_count": 1,
+      "arithmetic_verified": true,
+      "calculated_reduction_krw": null,
+      "potential_full_disallowance_krw": null,
+      "assessment_limit": "확인된 차이와 미입증 조건을 분리했다. 전체 제출의 자동 실격이나 예상 감액 확정 판정이 아니다.",
+      "public_revision_correction": null,
+      "counterevidence_responses": [
+        {
+          "counterevidence_id": "5a31f0d9-bc87-45d7-a585-f0e006afa005",
+          "handle": "KiNa_키나",
+          "revision_no": 2,
+          "verdict": "판매처 확인·정식 HTTPS 근거 미확보",
+          "response": "가격 비교 주소만으로 실제 판매 검증을 완료했다는 기존 주장은 정정한다. 다나와 연결 링크를 따라 메모리올의 실제 HTTP 판매 상세에서 같은 모델·1,456,000원·재고 있음·배송비 2,750원·AS 3년을 직접 확인했다. 다만 HTTPS는 TLS 핸드셰이크 실패이고 VAT 포함 명시도 미확인이다. 따라서 HTTPS만 허용하는 정식 가격 근거 URL로 교체하지 못했으며, 가격 비교 주소 지적은 아직 해소되지 않았다. 한편 대회 API의 공식 접수 산식은 양수 line의 수량 가중 평균 비율을 검사한다. 일반 사이트 method의 계약별 제2 판매처 규정을 대회 API의 자동 탈락 규칙과 동일시할 수는 없으며, 최종 심사의 근거 충분성은 별도 판단 대상이다.",
+          "source_urls": [
+            "https://prod.danawa.com/info/?pcode=94815101",
+            "http://memoryall.co.kr/product/productView.php?nProdCode=94815101&service_id=pcdn",
+            "https://www.youngjaecomputer.com/shop/item.php?it_id=5749615705",
+            "https://www.mypcshop.co.kr/shop/item.php?it_id=5749615705"
+          ]
+        }
+      ],
+      "prior_counterevidence_response_source": "research/public-counterevidence-review-20261019.json; 이번 모델별 검증에서 필요한 한정을 반영한 답변"
+    }
+  ],
+  "new_counterevidence_responses": [
+    {
+      "item_id": "25395523",
+      "counterevidence_id": "050b076b-29bd-410a-af86-66737b9bc01b",
+      "handle": "KiNa_키나",
+      "revision_no": 2,
+      "verdict": "일부 사실은 반박 가능하나 전체 대체 적합성은 미해소",
+      "response": "현재 제출은 EFG 대체 비교임을 제목·주장에 명시한다. 제조사 실제 사양은 Advanced NAT(SNAT/DNAT/Masquerade/NAT Pooling/1-to-1 NAT), IPsec, 일체형 HW를 확인한다. 따라서 비교품에 NAT·IPsec·HW 자체가 없다는 결론은 맞지 않는다. 그러나 SSL VPN의 동일성, 특정 BLUEMAX/ITM 관리콘솔·모든 경보/국산 암호·국내 인증/현장 서비스의 대응은 입증되지 않았다. EFG의 물리 포트가 적은 문제와 저장장치·서비스 차이도 남아 있어 전체 반증 해소로 판정하지 않는다.",
+      "source_urls": [
+        "https://techspecs.ui.com/unifi/cloud-gateways/efg",
+        "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936"
+      ],
+      "publicly_posted": false
+    },
+    {
+      "item_id": "25217312",
+      "counterevidence_id": "20082d95-3916-4a4d-a19a-1b74498463f0",
+      "handle": "KiNa_키나",
+      "revision_no": 2,
+      "verdict": "일부 사실은 반박 가능하나 전체 대체 적합성은 미해소",
+      "response": "현재 제출은 EFG 대체 비교임을 제목·주장에 명시한다. 제조사 실제 사양은 Advanced NAT(SNAT/DNAT/Masquerade/NAT Pooling/1-to-1 NAT), IPsec, 일체형 HW를 확인하므로 비교품에 NAT·IPsec·HW 자체가 없다는 결론은 맞지 않는다. 그러나 원품 ITM 통합관리·SDP 모바일 VPN·전체 경보/국산 암호·국내 인증/현장 서비스의 대응은 미입증이다. EFG의 물리 포트 수와 로그 저장·서비스 차이도 남아 있어 전체 반증 해소로 판정하지 않는다. 다른 모델의 SSL VPN 요건을 이 원품에 옮기지 않았다.",
+      "source_urls": [
+        "https://techspecs.ui.com/unifi/cloud-gateways/efg",
+        "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936"
+      ],
+      "publicly_posted": false
+    },
+    {
+      "item_id": "25395524",
+      "counterevidence_id": "cac44b49-1d8a-438c-9c2a-7ce794287ddf",
+      "handle": "KiNa_키나",
+      "revision_no": 2,
+      "verdict": "일부 사실은 반박 가능하나 전체 대체 적합성은 미해소",
+      "response": "현재 제출은 EFG 대체 비교임을 제목·주장에 명시한다. 제조사 실제 사양은 Advanced NAT(SNAT/DNAT/Masquerade/NAT Pooling/1-to-1 NAT), IPsec, 일체형 HW를 확인한다. 따라서 비교품에 NAT·IPsec·HW 자체가 없다는 결론은 맞지 않는다. 그러나 SSL VPN의 동일성, 특정 BLUEMAX/ITM 관리콘솔·모든 경보/국산 암호·국내 인증/현장 서비스의 대응은 입증되지 않았다. EFG의 물리 포트가 적은 문제와 저장장치·서비스 차이도 남아 있어 전체 반증 해소로 판정하지 않는다.",
+      "source_urls": [
+        "https://techspecs.ui.com/unifi/cloud-gateways/efg",
+        "https://www.usashop.co.kr/goods/goods_view.php?goodsNo=1000273936"
+      ],
+      "publicly_posted": false
+    }
+  ],
+  "public_revision_count": 1,
+  "numeric_benchmark_changes": 0,
+  "public_new_counterevidence_posts": 0,
+  "independent_quality_review": {
+    "reviewer": "audit_kina",
+    "report_only_model_copy_corrected": [
+      "25395525",
+      "25668782"
+    ],
+    "original_requirement_scope_narrowed": [
+      "25217312"
+    ],
+    "finding": "UDM 보고서의 공통 EFG 해명 복사를 실제 UDM 사양으로 수정하고 ITU3000R2에 별도 확인되지 않은 SSL VPN 요건을 전가하지 않도록 한정했다. 공개 제출에는 이 보고서 복사 오류가 들어가지 않았다.",
+    "counterevidence_response_scope_corrected_count": 4
+  }
+}

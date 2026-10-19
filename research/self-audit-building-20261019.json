@@ -1,0 +1,1098 @@
+{
+  "observed_at_utc": "2026-10-19T09:23:25.339877+00:00",
+  "participant_handle": "삼손",
+  "scope": "building8",
+  "counts": {
+    "unverified_gap": 1,
+    "confirmed_issue": 7,
+    "no_new_verified_issue": 0
+  },
+  "amounts": {
+    "current_expected_krw": 5881475670,
+    "confirmed_issue_exposure_krw": 5297617289,
+    "unverified_gap_exposure_krw": 583858381,
+    "full_rejection_risk_exposure_krw": 5881475670,
+    "confirmed_final_deduction_krw": null,
+    "numerically_proven_arithmetic_overstatement_krw": 0,
+    "confirmed_specification_issue_exposure_krw": 2346840169,
+    "confirmed_unpriced_freight_omission_exposure_krw": 2950777120
+  },
+  "conclusion": "8건 모두 현재 예상액의 산술은 일치한다. 확정 비교조건 문제7건, 핵심 대체성 미입증1건으로 완전 방어 확인0건이다. 설명·인용 수정과 실질 해결을 구별했다. 전액위험액은 확정불인정액이 아니며 적합한 새 완제품 가격을 확보하지 못해 확정 감액을 숫자로 채우지 않았다.",
+  "rules_applied": [
+    "work/self-audit-20261019/rules.md3·4·5",
+    "공식 AGENTS 점수 제출 전 필수 검증3·5·7",
+    "method의 일반 분석 판정 기준을 대회 의무 규정으로 확대하지 않음"
+  ],
+  "verification_limits": [
+    "현재 판매URL4종을 HTTP로각1회 읽었고 원캔403은전용self-building브라우저에서성공했다. 비드앤비 옵션 추가선택은도구오류로실패하여 과거 실제선택과 현재HTTP옵션을구분했다.",
+    "새적합판매가격·실제운임/설치를확보한것은아니다. 공개반증은기존감사와같은ID들로새반증0건이다."
+  ],
+  "external_actions": "읽기 전용. 보호API·POST·수정·철회·커밋·푸시 없음.",
+  "records": [
+    {
+      "item_id": "22335767",
+      "submission_id": "f50bb38b-aae9-4e45-b228-9dc17ee3895a",
+      "model": "OC-SET",
+      "product_name": "콘크리트호안및옹벽블록, 이노블록, OC-SET, 보통옹벽블록(대형), W1520×L470×H305mm, 아웃크라핑",
+      "current_revision": 2,
+      "amount_krw": 583858381,
+      "status": "unverified_gap",
+      "held": false,
+      "lint_status": "unreadable",
+      "confirmed_issues": [
+        "원품과 대체품의 제조사·단 높이·형상·색상·질감은 실제로 다르다. 다만 차이 자체가 모든 현장에서 대체 불가라는 증명은 아니다."
+      ],
+      "remaining_gaps": [
+        "높은 자중·깊이는 확인되지만 자연석 장식형상·색상·블록 높이가 달라 경관상 유사성을 입증하지 못했다.",
+        "원품과 동일 구조계산·허용 벽높이·체결 호환성을 입증하지 못했다.",
+        "960,000원/차량은 공개표 기반 운임 예산이며 각 실제 출고공장·하차주소·경로 견적이 아니다."
+      ],
+      "revision_effect": "revision2는 VAT·운임 전액 누락이라는 오해와 계산 설명을 정정했다. 경관·구조 적합성을 실질적으로 새로 증명하지 않았다.",
+      "valid_rebuttals_to_counterevidence": [
+        "현재 본문은 다른 제조사·모델의 대체품임을 명시하므로 모델 이름이 다르다는 사실만으로 동일품 사칭이라고 판정할 수 없다.",
+        "블록의 실제 B에는 전면적·팔레트·차량 끝수와 VAT 또는 운임 예산이 반영돼 있다. 단열재 B도7m롤 끝수와 운임 예산을 반영했다. 원문 관측가를 실제 B로 혼동하거나 운임·VAT를 전혀 넣지 않았다고 한 부분은 부정확하다."
+      ],
+      "counterevidence_ids": [
+        "5d7cdaf4-9a8e-414d-9c94-3dbeecedc7c7",
+        "9dfb49b8-b373-43e1-9c88-64fe5ce0a15e",
+        "bbe976d5-195e-4f09-8b4a-828eb6d8da00",
+        "79a7bccb-0426-4471-bafa-86386a83605b"
+      ],
+      "counterevidence_reviews": [
+        {
+          "counterevidence_id": "5d7cdaf4-9a8e-414d-9c94-3dbeecedc7c7",
+          "handle": "WISP",
+          "revision_no": 1,
+          "prior_assessment": "운임 전액 누락 주장은 반박 가능; 실제 배송 견적·대체성 미해결",
+          "valid_response_preserved": "제조사·모델이 다른 대체품이라는 부분은 맞으며 제출도 그 점을 명시했다. 다만 운반비를 전혀 넣지 않았다는 설명은 다르다. B에는 fact별32개/차량 올림 운임960,000원/차량과 상품·운임 VAT10%를 반영했다. 이는 판매 페이지의 지역한정9,400원/개를 전국에 그대로 적용한 것이 아니라 공개 운임표 상방 시나리오다. 실제 각 출고지·하차지의 확정 운임이 아니라는 한계와 외관·구조 적합성 미입증은 남는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "9dfb49b8-b373-43e1-9c88-64fe5ce0a15e",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "prior_assessment": "기재 누락 오해 해명 가능; 경관·구조 적합성 미해결",
+          "valid_response_preserved": "원품 OC-SET과 케이토목1200×600×600 기본형을 동일품이라 기재하지 않았다. 원품1520×깊이470×높이305mm·속성500kg/개(원 규격 도면491kg)에 대해 판매품1200×깊이600×높이600mm·850kg/개, 압축강도28N/㎟다. 전면0.72㎡/개로 수량을 환산했다. 깊이와 전면㎡당 중량 상향은 확인되지만 폭·단높이·자연석 질감·색상은 같지 않다. 자중 상향만으로 경관 유사성·구조설계 적합성이 모두 충족됐다고 반박하지 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "bbe976d5-195e-4f09-8b4a-828eb6d8da00",
+          "handle": "shine",
+          "revision_no": 1,
+          "prior_assessment": "사실 오류 반박 가능",
+          "valid_response_preserved": "42,000원을 비교단가 B로 그대로 썼다는 지적은 실제 제출 본문과 다르다.42,000원은 판매처 원문 관측가이고 vat_included=false로 정확히 신고했다. 실제 각 줄의 B는 [42,000×ceil(Q/0.72)+960,000×ceil(ceil(Q/0.72)/32)]×1.1/Q를 소수6자리 올림한 값이다. 예를 들어131㎡ 줄은182개·차량6대, 비용14,744,400원, B112,552.671756원/㎡다. 상품과 운임 모두 VAT10%를 반영했다.15개 줄의 재계산 합계583,858,381원도 기존 접수액과 일치한다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "79a7bccb-0426-4471-bafa-86386a83605b",
+          "handle": "shine",
+          "revision_no": 1,
+          "prior_assessment": "사실 오류 반박 가능",
+          "valid_response_preserved": "42,000원을 비교단가 B로 그대로 썼다는 지적은 실제 제출 본문과 다르다.42,000원은 판매처 원문 관측가이고 vat_included=false로 정확히 신고했다. 실제 각 줄의 B는 [42,000×ceil(Q/0.72)+960,000×ceil(ceil(Q/0.72)/32)]×1.1/Q를 소수6자리 올림한 값이다. 예를 들어131㎡ 줄은182개·차량6대, 비용14,744,400원, B112,552.671756원/㎡다. 상품과 운임 모두 VAT10%를 반영했다.15개 줄의 재계산 합계583,858,381원도 기존 접수액과 일치한다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        }
+      ],
+      "risk_full_rejection_exposure_krw": 583858381,
+      "risk_is_final_deduction": false,
+      "risk_reason": "핵심 대체성 또는 필수 비용이 입증되지 않으면 해당 제출 전액 불인정 위험이 있다. 이는 최종 심사 결과나 확정 삭감액이 아니다.",
+      "numerically_recalculable_deduction_krw": null,
+      "numeric_deduction_limit": "적합한 완제품 가격·추가 수량·실제 운임/설치비가 미확정이라 임의 감액을 만들지 않는다. 산술검산 차이는0원이다.",
+      "calculation": {
+        "item_id": "22335767",
+        "revision": 2,
+        "amount_krw": 583858381,
+        "independent_recalculation_krw": 583858381,
+        "sum_C": "891966190",
+        "sum_BQ": "308107800.000589",
+        "sum_Q": "2723",
+        "weighted_ratio": "2.894980880063065122861683004",
+        "line_count": 15,
+        "request_count": 15,
+        "multi_line_requests": {},
+        "B_min": "110191.304348",
+        "B_max": "153450",
+        "minimum_original_unit_saving": "188050",
+        "fixed_lines_cost_headroom_until_1_2_ratio_krw": "435197358.3327443333333333333",
+        "fixed_lines_uniform_B_headroom_per_unit_krw": "159822.7537028073203574488921",
+        "ce_ids": [
+          "5d7cdaf4-9a8e-414d-9c94-3dbeecedc7c7",
+          "9dfb49b8-b373-43e1-9c88-64fe5ce0a15e",
+          "bbe976d5-195e-4f09-8b4a-828eb6d8da00",
+          "79a7bccb-0426-4471-bafa-86386a83605b"
+        ]
+      },
+      "resolution_evidence_needed": [
+        "OC-SET 동일품의 일반 판매가·도입 운임 또는 원품 경관과 구조 요구를 충족하는 대체 완제품의 제조사 규격·구조검토·실제 가격을 함께 확보한다."
+      ],
+      "new_supporting_complete_offer_found": false,
+      "current_retail_revisit": {
+        "url": "https://ktomok.com/shop/item.php?it_id=1581999922",
+        "capture_path": "work/self-audit-20261019/building/ktomok-large-http.json",
+        "http_status": 200,
+        "browser_read": "HTTP로 실제 내용 확인",
+        "result": "가격·단위·VAT/운임 조건과 강도 표기를 재확인해 과거 자료와 일치한다."
+      },
+      "source_urls": [
+        "https://ktomok.com/shop/item.php?it_id=1581999922",
+        "https://api.savetax.now/v1/items/22335767",
+        "https://ktomok.com/active_view/v1/tmap/t_map_calculator.php"
+      ],
+      "source_capture_paths": [
+        "work/self-audit-20261019/submissions/f50bb38b-aae9-4e45-b228-9dc17ee3895a.json",
+        "work/self-audit-20261019/counterevidence/f50bb38b-aae9-4e45-b228-9dc17ee3895a.json",
+        "research/public-counterevidence-review-20261019.json",
+        "research/evidence-recovery-20261019.json",
+        "work/recovery-20261019/building/recovery.json",
+        "work/self-audit-20261019/building/calculations.json"
+      ]
+    },
+    {
+      "item_id": "23950805",
+      "submission_id": "e450925f-d712-4f0b-b4b6-7e43adbdbd22",
+      "model": "STR-GP-10100",
+      "product_name": "샌드위치패널, 에스와이테크, STR-GP-10100, 1000×1000×100mm",
+      "current_revision": 2,
+      "amount_krw": 496333593,
+      "status": "confirmed_issue",
+      "held": false,
+      "lint_status": "unreadable",
+      "confirmed_issues": [
+        "실제 판매 페이지는 개별용달 착불이며 현재 B에는 운임 금액이 들어 있지 않다. 이 필수 비용의 누락은 확인되지만 현장별 금액은 미확정이다."
+      ],
+      "remaining_gaps": [
+        "원품의 특허 차수·브래킷·등압공간 구조, 수밀720Pa·최대가압380kgf/㎡의 동등성은 판매자료에서 입증하지 못했다.",
+        "판매 상품의 실제 제조사명과 선택 두께·48K에 대응하는 개별 시험 성적서가 확인되지 않았다. 공통64K·74K 성적을 선택품 시험으로 바꾸지 않았다.",
+        "판매처 착불 운임 금액이 공개되지 않아 B에 미반영이다. 설치비는 실판매 견적이 아닌 표준 일위대가 시나리오다.",
+        "상품별 지붕 상세 그림 하나가404다. 공통 벽체 표의 폭1000mm만으로 선택 지붕의 유효폭을 새로 확정하지 않았다. 기존2㎡ 환산의 개별 지붕 규격 확인이 남는다."
+      ],
+      "revision_effect": "가격 옵션·VAT·가중평균 규칙과 남은 한계를 설명한 수정이다. 강판 한 면의 두께 증가나 견본 불연 시험의 존재는 원품 이음·수밀·내풍압 및 운임의 실제 충족을 증명하지 않는다.",
+      "valid_rebuttals_to_counterevidence": [
+        "현재 본문은 다른 제조사·모델의 대체품임을 명시하므로 모델 이름이 다르다는 사실만으로 동일품 사칭이라고 판정할 수 없다.",
+        "비드앤비 해당URL에는 실제 옵션과 가격이 있으므로 사이트명만으로 가격비교 목록이라고 단정한 부분은 반박 가능하다.",
+        "공식 rules4는 양수 줄의 수량가중 평균으로1.2배를 검사한다. 줄별1.2배 미달 또는 일반 사이트의1.3배·제2판매처 기준만으로 전액0원이라고 단정할 근거는 없다.",
+        "VAT는 판매처 공통 주문 안내에서 포함으로 확인됐다. 이는 다른 핵심 조건의 검증과 별개다."
+      ],
+      "counterevidence_ids": [
+        "12459042-cf9e-4490-b633-ea1b0a9547bd",
+        "3b6ee284-0fea-4858-9c98-f5134050b2be",
+        "c14e3264-6f78-4195-b587-c3fe9fc0be9e",
+        "420c84e8-b777-4832-9005-d78e986d428a",
+        "e8e1b23a-98d8-468e-a009-19e1d601ae48"
+      ],
+      "counterevidence_reviews": [
+        {
+          "counterevidence_id": "12459042-cf9e-4490-b633-ea1b0a9547bd",
+          "handle": "WISP",
+          "revision_no": 1,
+          "prior_assessment": "동일품 오인 해명 가능; 비교조건 보강 필요",
+          "valid_response_preserved": "처음부터 제조사·모델이 다른 대체품 비교라고 명시한 제출이다. 동일 모델 판매가라는 주장은 하지 않았다. VAT는 실제 판매처 공통 안내에서 포함임을 확인했고 선택 옵션 합계도 다시 읽었다. 조달 현장설치도 금액에는 설치비 시나리오를 가산했지만 착불 운임은 B에서 빠져 있고 원품의 차수·이음·내풍압 성능은 대응 미확인이므로 같은 조건이라고 확정하지 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "3b6ee284-0fea-4858-9c98-f5134050b2be",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "prior_assessment": "동일품 오인·대회 배율 해석 반박 가능",
+          "valid_response_preserved": "처음부터 동일 모델이 아닌 핵심사양 대체 비교라고 제목·주장·재현 메모에 명시했다. 인용에 원품 모델명을 판매 상품명처럼 끼워넣지 않는다. 대회 접수 계산과 일반 사이트 판정 방법은 구별해야 한다. 현행 대회 rules.md 4절과 제출 schema는 예상액이 양수인 줄의 ΣC÷Σ(BQ)를 수량가중 평균 비율로 검사한다. 이 제출의 ΣC=2725418614원, Σ(BQ)=2229084981.974154원, 비율=1.222662배다. 대회 1.2배 평균 조건을 충족한다. 줄별 1.2배 미만을 전부 삭제하거나 1.2~1.3배에 제2판매처가 없다는 이유만으로 대회 예상액 전액0원이라고 결론내릴 근거는 해당 대회 문서에 없다. 다만 이 계산 반박이 대체품의 핵심 성능과 운임 문제를 해결하지는 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "c14e3264-6f78-4195-b587-c3fe9fc0be9e",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "prior_assessment": "이미 존재하는 사양표를 지적하되 미확인 핵심조건 유지",
+          "valid_response_preserved": "원 제출의 재현 메모에는 원품과 대체품의 용도·심재·치수·강판·체결·화재성능·인도조건을 나란히 기재했다. 이번 실제 판매 재조회에서도 상품명은 글라스울 지붕 샌드위치판넬이며100T와0.5T×0.6T 선택값은 확인된다. 판매 길이2000mm를 조달1000mm와 같다고 쓰지 않고 기존안은 면적으로 환산했다. 다만 실제 제조사·개별 유효폭·도장아연도강판의 정확한 등급과 핵심 차수·내풍압 성능은 모두 확인되었다고 답할 수 없다. 인용의 항목 수만으로 전 항목 부재를 단정한 부분과 실질 미입증 부분을 나눈다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "420c84e8-b777-4832-9005-d78e986d428a",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "prior_assessment": "핵심 대체성 미해결",
+          "valid_response_preserved": "원품의 차수·이음 구조와 수밀·내풍압이 제품의 기능을 정하는 요소라는 지적은 타당하다. 판매처의 공통 자료에는 불연·내화·열전도 성적 이미지가 있으나 선택한 GW48 지붕 제품이 원품의 해당 성능을 충족한다는 직접 대응 근거는 확인되지 않았다. 한쪽 강판이 0.6T라는 사실만으로 이 차이를 상쇄했다고 주장하지 않는다. 공개자료 범위에서 이 반증은 해소하지 못했다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "e8e1b23a-98d8-468e-a009-19e1d601ae48",
+          "handle": "sampple",
+          "revision_no": 1,
+          "prior_assessment": "표준 계산 출처 보완; 실판매 설치 견적과 세금 기준 미확보",
+          "valid_response_preserved": "설치 B는 원 제출 재현 메모의 식으로 재현된다. fact별 자재비=ceil(Q/2)×66220원이며 공급 줄은 자재비/Q, 설치 줄은 자재비×1.05/Q+(1,414,797/80)×1.1이다. 공개 출처는 2026 일위대가 PDF 250쪽(인쇄 242쪽) 8-18이다. 다만 이 자료는 판매자의 실제 설치 견적이 아니다. 표준값과 명시되지 않은 세금 기준을 실제 판매가의 price_evidence로 포장하지 않고 재현 메모에 연결했다. 조달 특약은 기본 나사·페인트·실리콘·인부 포함, 크레인 등은 제외다. B에 크레인을 더한 것은 보수적이지만 현장별 운임·부자재 비용은 여전히 미확인이다. 문서 연결만으로 비교 조건 전체가 검증되지는 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        }
+      ],
+      "risk_full_rejection_exposure_krw": 496333593,
+      "risk_is_final_deduction": false,
+      "risk_reason": "핵심 대체성 또는 필수 비용이 입증되지 않으면 해당 제출 전액 불인정 위험이 있다. 이는 최종 심사 결과나 확정 삭감액이 아니다.",
+      "numerically_recalculable_deduction_krw": null,
+      "numeric_deduction_limit": "적합한 완제품 가격·추가 수량·실제 운임/설치비가 미확정이라 임의 감액을 만들지 않는다. 산술검산 차이는0원이다.",
+      "calculation": {
+        "item_id": "23950805",
+        "revision": 2,
+        "amount_krw": 496333593,
+        "independent_recalculation_krw": 496333593,
+        "sum_C": "2725418614",
+        "sum_BQ": "2229084981.974154",
+        "sum_Q": "50579",
+        "weighted_ratio": "1.222662498756003433045805548",
+        "line_count": 91,
+        "request_count": 91,
+        "multi_line_requests": {},
+        "B_min": "33110",
+        "B_max": "59185.45875",
+        "minimum_original_unit_saving": "5014.54125",
+        "fixed_lines_cost_headroom_until_1_2_ratio_krw": "42097196.359179333333333333",
+        "fixed_lines_uniform_B_headroom_per_unit_krw": "832.3058257217290443332871943",
+        "ce_ids": [
+          "12459042-cf9e-4490-b633-ea1b0a9547bd",
+          "3b6ee284-0fea-4858-9c98-f5134050b2be",
+          "c14e3264-6f78-4195-b587-c3fe9fc0be9e",
+          "420c84e8-b777-4832-9005-d78e986d428a",
+          "e8e1b23a-98d8-468e-a009-19e1d601ae48"
+        ],
+        "sensitivity_limit": "현재 모든 양수 line 유지 시1.2배가 되는 추가 B 여유다. 경계값이 현재 최소 단위 차액보다 작아 이 지점까지 양수 집합은 유지된다. 실제 운임 견적이나 확정 감액이 아니다."
+      },
+      "resolution_evidence_needed": [
+        "동일 STR-GP 모델의 공개 일반 판매 완성 견적을 우선 확보한다. 대체품이면 실링·브래킷·이음 부속과 필요한 수밀720Pa·내풍압380kgf/㎡, 유효폭이 확인되는 완제품을 찾고 실제 운임·설치를 포함해 fact별 B를 다시 산정한다."
+      ],
+      "new_supporting_complete_offer_found": false,
+      "current_retail_revisit": {
+        "url": "https://bidnbee.com/shop/1671003950",
+        "http_status": 200,
+        "capture_path": "work/self-audit-20261019/building/bidnbee-http.json",
+        "result": "현재 기본가·각 두께 가산·코일0.5T×0.6T 가산2,200원·길이2000~17000 필드·착불 문구가 기존 관측과 일치한다.",
+        "prior_direct_selected_price_krw": 66220,
+        "prior_direct_selected_capture": "work/review-20261019/building-sources/bidnbee-selected-100.json",
+        "fresh_selected_dom": "추가 단일탭 옵션 검증은 BrowserRuntime 작업 오류로 실패했다. 오늘 새 선택 성공을 주장하지 않고 현재 HTTP 옵션과 과거 실제 선택 캡처를 구별한다."
+      },
+      "source_urls": [
+        "https://bidnbee.com/shop/1671003950",
+        "https://hackathon.savetax.now/docs/rules.md",
+        "https://hackathon.savetax.now/docs/submission-schema.md",
+        "https://bidnbee.com/data/editor/2410/c053ef78375f82c5d34fe8410ee334a8_1728537075_2133.jpg",
+        "https://www.mnwcc.or.kr/tech/upload/2026_breakdown_cost.pdf"
+      ],
+      "source_capture_paths": [
+        "work/self-audit-20261019/submissions/e450925f-d712-4f0b-b4b6-7e43adbdbd22.json",
+        "work/self-audit-20261019/counterevidence/e450925f-d712-4f0b-b4b6-7e43adbdbd22.json",
+        "research/public-counterevidence-review-20261019.json",
+        "research/evidence-recovery-20261019.json",
+        "work/recovery-20261019/building/recovery.json",
+        "work/self-audit-20261019/building/calculations.json"
+      ]
+    },
+    {
+      "item_id": "24449671",
+      "submission_id": "5441d618-53ed-4bfe-8f4b-a66bce6681b9",
+      "model": "KHCS-CB1 A025",
+      "product_name": "고무발포단열재, 경향산업, KHCS-CB1 A025, 1000×25mm, 시트/점착식",
+      "current_revision": 1,
+      "amount_krw": 1047766560,
+      "status": "confirmed_issue",
+      "held": false,
+      "lint_status": "unreadable",
+      "confirmed_issues": [
+        "대체 HIFLEX 압축잔류변형률21%는 원품18%이하보다 불리하다.",
+        "판매 자료의 사용온도 상한105℃는 원품 속성111℃보다 낮다.",
+        "제출44개 fact 단가는 설치 포함 등재의 단가 범위와 대응하지만 B에는 점착 롤·운임 예산만 있고 실제 설치·부자재 비용은 없다."
+      ],
+      "remaining_gaps": [
+        "원품 설치 포함 단가 54,337~59,710원과 자재만의 B를 비교했다. 실제 설치·부자재 비용을 확보하지 못했다.",
+        "압축잔류변형률 21%는 원품 18% 이하보다 불리하고 사용온도 상한 105℃도 원품 111℃보다 낮다. 단열 두께 상승만으로 모든 핵심 성능의 향상을 입증하지 못했다.",
+        "상단 제조사는 하이코리아이지만 본문에는 하이코리아·경향셀·아마텍 등을 취급한다고도 적혀 있다. 선택한 40T의 실제 납품 모델과 로트 일치가 확정되지 않았다."
+      ],
+      "revision_effect": "현revision1도 성능 열위·점착층 포함 시험 미확인·설치 제외를 인정한다. 명목 열저항55.4% 증가는 다른 핵심 열위를 해소하지 않는다.",
+      "valid_rebuttals_to_counterevidence": [
+        "현재 본문은 다른 제조사·모델의 대체품임을 명시하므로 모델 이름이 다르다는 사실만으로 동일품 사칭이라고 판정할 수 없다.",
+        "블록의 실제 B에는 전면적·팔레트·차량 끝수와 VAT 또는 운임 예산이 반영돼 있다. 단열재 B도7m롤 끝수와 운임 예산을 반영했다. 원문 관측가를 실제 B로 혼동하거나 운임·VAT를 전혀 넣지 않았다고 한 부분은 부정확하다."
+      ],
+      "counterevidence_ids": [
+        "8ae98b66-443d-4ec0-9914-70b586d8e292",
+        "594fd511-be3e-4a30-84be-40288c17c9f6",
+        "2d9e8721-861f-48a0-b506-754ef8f833fb",
+        "8cd1f733-6f52-4236-8c78-7a9175e9f09f"
+      ],
+      "counterevidence_reviews": [
+        {
+          "counterevidence_id": "8ae98b66-443d-4ec0-9914-70b586d8e292",
+          "handle": "WISP",
+          "revision_no": 1,
+          "prior_assessment": "동일품 오인 해명 가능; 성능·설치 차이 미해결",
+          "valid_response_preserved": "처음부터 경향산업 KHCS-CB1 A025와 하이코리아 HIFLEX 40T의 대체품 비교라고 명시했다. 동일 모델 가격이라고 주장하지 않았다. 판매 상세에서 40T×1m×7m, 수량 1의 217,700원과 VAT 포함 조건을 다시 확인했다. 다만 압축잔류변형과 사용온도 상한의 열위, 원품 설치 포함 금액과 자재 B의 차이는 남아 있어 같은 설치 조건의 확정 절감액으로 방어하지 못한다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "594fd511-be3e-4a30-84be-40288c17c9f6",
+          "handle": "cnstar",
+          "revision_no": 1,
+          "prior_assessment": "핵심 인도·설치 차이 미해결",
+          "valid_response_preserved": "설치 조건 차이에 관한 지적은 타당하다. 원시 등재 0479는 납품장소도 16,400원/m, 1002는 현장설치도 55,690원/m다. 제출한 44줄의 단가 54,337~59,710원은 설치 단가와 대응한다. fact의 listing_id가 0479라는 이유만으로 전부 자재 납품이라고 확정할 수 없다. B에는 7m 롤과 롤당 24,200원의 운임 예산만 있고 실제 설치·부자재 비용이 없다. 두 조달 등재의 차이 39,290원/m를 시장 설치비로 사용할 수는 없지만 설치 범위 차이를 해소할 자료도 확보하지 못했다. 기존 1,047,766,560원을 설치 조건까지 맞춘 검증액으로 확정하지 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "2d9e8721-861f-48a0-b506-754ef8f833fb",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "prior_assessment": "전 속성 부재 주장은 일부 반박 가능; 열위 조건 존재",
+          "valid_response_preserved": "판매 페이지의 실제 첨부 이미지를 읽으면 합성고무·독립기포·덕트용·시트형·폭 1000mm·40T×7m·전 규격 점착 가능을 확인할 수 있다. 제품 특징 그림에는 사용온도 −184~105℃도 적혀 있다. 따라서 8개 속성이 모두 확인되지 않는다고 단정하기는 어렵다. 다만 원품 25T를 40T로 바꾼 대안이고 밀도·정확한 NBR 배합·판매 로트는 미확정이다. 사용온도 상한 105℃는 원품 111℃보다 낮고 압축잔류변형률 21%도 원품 18% 이하보다 불리하므로 전체 대체성을 입증하지 못했다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "8cd1f733-6f52-4236-8c78-7a9175e9f09f",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "prior_assessment": "동일품 오인 해명 가능; 성능·설치 차이 미해결",
+          "valid_response_preserved": "처음부터 경향산업 KHCS-CB1 A025와 하이코리아 HIFLEX 40T의 대체품 비교라고 명시했다. 동일 모델 가격이라고 주장하지 않았다. 판매 상세에서 40T×1m×7m, 수량 1의 217,700원과 VAT 포함 조건을 다시 확인했다. 다만 압축잔류변형과 사용온도 상한의 열위, 원품 설치 포함 금액과 자재 B의 차이는 남아 있어 같은 설치 조건의 확정 절감액으로 방어하지 못한다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        }
+      ],
+      "risk_full_rejection_exposure_krw": 1047766560,
+      "risk_is_final_deduction": false,
+      "risk_reason": "핵심 대체성 또는 필수 비용이 입증되지 않으면 해당 제출 전액 불인정 위험이 있다. 이는 최종 심사 결과나 확정 삭감액이 아니다.",
+      "numerically_recalculable_deduction_krw": null,
+      "numeric_deduction_limit": "적합한 완제품 가격·추가 수량·실제 운임/설치비가 미확정이라 임의 감액을 만들지 않는다. 산술검산 차이는0원이다.",
+      "calculation": {
+        "item_id": "24449671",
+        "revision": 1,
+        "amount_krw": 1047766560,
+        "independent_recalculation_krw": 1047766560,
+        "sum_C": "2634872502",
+        "sum_BQ": "1587105900.025277",
+        "sum_Q": "45803",
+        "weighted_ratio": "1.660174347507646322162906221",
+        "line_count": 44,
+        "request_count": 44,
+        "multi_line_requests": {},
+        "B_min": "34557.142858",
+        "B_max": "39379.069768",
+        "minimum_original_unit_saving": "16310.930232",
+        "fixed_lines_cost_headroom_until_1_2_ratio_krw": "608621184.974723",
+        "fixed_lines_uniform_B_headroom_per_unit_krw": "13287.80178099083029495884549",
+        "ce_ids": [
+          "8ae98b66-443d-4ec0-9914-70b586d8e292",
+          "594fd511-be3e-4a30-84be-40288c17c9f6",
+          "2d9e8721-861f-48a0-b506-754ef8f833fb",
+          "8cd1f733-6f52-4236-8c78-7a9175e9f09f"
+        ]
+      },
+      "resolution_evidence_needed": [
+        "동일 KHCS-CB1 A025 점착 시트의 일반 판매가를 우선 확보한다. 대체품이면 압축변형18%이하·필요 온도·점착 완성 구성과 실제 설치·부자재·운임 가격을 확인한다."
+      ],
+      "new_supporting_complete_offer_found": false,
+      "current_retail_revisit": {
+        "url": "https://1canmall.com/product/%EA%B3%A0%EB%AC%B4%EB%B0%9C%ED%8F%AC-%EC%8B%9C%ED%8A%B8%EC%A0%90%EC%B0%A9/1059/category/253/display/1/",
+        "capture_path": "work/self-audit-20261019/building/1can-browser.json",
+        "http_status": 403,
+        "browser_read": "성공",
+        "result": "브라우저에서 기본가138,000원+40T×1M×7M옵션79,700원=217,700원, 하이코리아 표기, VAT포함, 상단 착불22,000원과 본문 박스당20,000원 문구 공존을 확인했다. 실제 공급 로트·설치비는 미확정이다."
+      },
+      "source_urls": [
+        "https://1canmall.com/product/%EA%B3%A0%EB%AC%B4%EB%B0%9C%ED%8F%AC-%EC%8B%9C%ED%8A%B8%EC%A0%90%EC%B0%A9/1059/category/253/display/1/",
+        "https://1canmall.com/web/upload/NNEditor/20220111/ED9598EC9DB4ECBD94EBA6ACEC9584-2019-06-min2028129_1.jpg",
+        "https://1canmall.com/web/upload/NNEditor/20220111/ED9598EC9DB4ECBD94EBA6ACEC9584-2019-06-min2028129_2.jpg",
+        "https://1canmall.com/web/upload/NNEditor/20220111/ED9598EC9DB4ECBD94EBA6ACEC9584-2019-06-min2028129_11.jpg",
+        "https://api.savetax.now/v1/listings/002270417_1110000479",
+        "https://api.savetax.now/v1/listings/002270417_1110001002"
+      ],
+      "source_capture_paths": [
+        "work/self-audit-20261019/submissions/5441d618-53ed-4bfe-8f4b-a66bce6681b9.json",
+        "work/self-audit-20261019/counterevidence/5441d618-53ed-4bfe-8f4b-a66bce6681b9.json",
+        "research/public-counterevidence-review-20261019.json",
+        "research/evidence-recovery-20261019.json",
+        "work/recovery-20261019/building/recovery.json",
+        "work/self-audit-20261019/building/calculations.json"
+      ]
+    },
+    {
+      "item_id": "23950808",
+      "submission_id": "36a9cefb-9942-4386-a712-2e94a3fac445",
+      "model": "STR-GP-10180",
+      "product_name": "샌드위치패널, 에스와이테크, STR-GP-10180, 1000×1000×180mm",
+      "current_revision": 3,
+      "amount_krw": 741958481,
+      "status": "confirmed_issue",
+      "held": false,
+      "lint_status": "unreadable",
+      "confirmed_issues": [
+        "실제 판매 페이지는 개별용달 착불이며 현재 B에는 운임 금액이 들어 있지 않다. 이 필수 비용의 누락은 확인되지만 현장별 금액은 미확정이다."
+      ],
+      "remaining_gaps": [
+        "원품의 특허 차수·브래킷·등압공간 구조, 수밀720Pa·최대가압380kgf/㎡의 동등성은 판매자료에서 입증하지 못했다.",
+        "판매 상품의 실제 제조사명과 선택 두께·48K에 대응하는 개별 시험 성적서가 확인되지 않았다. 공통64K·74K 성적을 선택품 시험으로 바꾸지 않았다.",
+        "판매처 착불 운임 금액이 공개되지 않아 B에 미반영이다. 설치비는 실판매 견적이 아닌 표준 일위대가 시나리오다.",
+        "상품별 지붕 상세 그림 하나가404다. 공통 벽체 표의 폭1000mm만으로 선택 지붕의 유효폭을 새로 확정하지 않았다. 기존2㎡ 환산의 개별 지붕 규격 확인이 남는다."
+      ],
+      "revision_effect": "가격 옵션·VAT·가중평균 규칙과 남은 한계를 설명한 수정이다. 강판 한 면의 두께 증가나 견본 불연 시험의 존재는 원품 이음·수밀·내풍압 및 운임의 실제 충족을 증명하지 않는다. 현재 revision3은 해당 두께48K의 2018년 양면0.4mm 견본 시험을 추가했지만 가격·fact·예상액은 그대로이고 현판매0.5T×0.6T 옵션과 제조공장·로트가 연결되지 않았다.",
+      "valid_rebuttals_to_counterevidence": [
+        "현재 본문은 다른 제조사·모델의 대체품임을 명시하므로 모델 이름이 다르다는 사실만으로 동일품 사칭이라고 판정할 수 없다.",
+        "비드앤비 해당URL에는 실제 옵션과 가격이 있으므로 사이트명만으로 가격비교 목록이라고 단정한 부분은 반박 가능하다.",
+        "공식 rules4는 양수 줄의 수량가중 평균으로1.2배를 검사한다. 줄별1.2배 미달 또는 일반 사이트의1.3배·제2판매처 기준만으로 전액0원이라고 단정할 근거는 없다.",
+        "VAT는 판매처 공통 주문 안내에서 포함으로 확인됐다. 이는 다른 핵심 조건의 검증과 별개다."
+      ],
+      "counterevidence_ids": [
+        "1d766824-4e3a-4628-bce4-e8326c1bf575",
+        "9a9b1fa4-643d-48ef-81ea-2978ef0bdc7b",
+        "f70bd9a0-3458-42ad-83c1-6641244be081",
+        "98350a58-29e5-4fea-934d-12f98e458678",
+        "aafa99d9-7983-4a9e-8d1a-9275b68f792d",
+        "aaccebb5-d731-4719-a281-979e3439f710"
+      ],
+      "counterevidence_reviews": [
+        {
+          "counterevidence_id": "1d766824-4e3a-4628-bce4-e8326c1bf575",
+          "handle": "WISP",
+          "revision_no": 1,
+          "prior_assessment": "동일품 오인 해명 가능; 비교조건 보강 필요",
+          "valid_response_preserved": "처음부터 제조사·모델이 다른 대체품 비교라고 명시한 제출이다. 동일 모델 판매가라는 주장은 하지 않았다. VAT는 실제 판매처 공통 안내에서 포함임을 확인했고 선택 옵션 합계도 다시 읽었다. 조달 현장설치도 금액에는 설치비 시나리오를 가산했지만 착불 운임은 B에서 빠져 있고 원품의 차수·이음·내풍압 성능은 대응 미확인이므로 같은 조건이라고 확정하지 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "9a9b1fa4-643d-48ef-81ea-2978ef0bdc7b",
+          "handle": "cnstar",
+          "revision_no": 1,
+          "prior_assessment": "실제 판매 상세·선택가 보강; 운임·개별 성적서 미해결",
+          "valid_response_preserved": "2026-10-19에 같은 판매 상세에서 180T, 0.5T×0.6T, 백색/백색, 길이 2000mm를 직접 선택한 상품 행과 합계 83,600원을 재확인했다. 이 URL은 옵션과 합계가 있는 판매 상세이며 검색 가격비교 목록은 아니다. 다만 단가 변동·견적 권유 안내는 실제 존재하므로 미래 대량 계약가가 확정됐다고 주장하지 않는다. VAT는 판매처 공통 안내에서 포함으로 확인했다. 착불 운임, 실제 제조사, 선택한 180T·48K의 개별 성적서 미확보 지적은 여전히 남는다. 원품 차수·수밀·내풍압 대응도 입증되지 않았으므로 이 부분을 반박하지 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "f70bd9a0-3458-42ad-83c1-6641244be081",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "prior_assessment": "이미 존재하는 사양표를 지적하되 미확인 핵심조건 유지",
+          "valid_response_preserved": "원 제출의 재현 메모에는 원품과 대체품의 용도·심재·치수·강판·체결·화재성능·인도조건을 나란히 기재했다. 이번 실제 판매 재조회에서도 상품명은 글라스울 지붕 샌드위치판넬이며180T와0.5T×0.6T 선택값은 확인된다. 판매 길이2000mm를 조달1000mm와 같다고 쓰지 않고 기존안은 면적으로 환산했다. 다만 실제 제조사·개별 유효폭·도장아연도강판의 정확한 등급과 핵심 차수·내풍압 성능은 모두 확인되었다고 답할 수 없다. 인용의 항목 수만으로 전 항목 부재를 단정한 부분과 실질 미입증 부분을 나눈다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "98350a58-29e5-4fea-934d-12f98e458678",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "prior_assessment": "동일품 오인 해명 가능; 비교조건 보강 필요",
+          "valid_response_preserved": "처음부터 제조사·모델이 다른 대체품 비교라고 명시한 제출이다. 동일 모델 판매가라는 주장은 하지 않았다. VAT는 실제 판매처 공통 안내에서 포함임을 확인했고 선택 옵션 합계도 다시 읽었다. 조달 현장설치도 금액에는 설치비 시나리오를 가산했지만 착불 운임은 B에서 빠져 있고 원품의 차수·이음·내풍압 성능은 대응 미확인이므로 같은 조건이라고 확정하지 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "aafa99d9-7983-4a9e-8d1a-9275b68f792d",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "prior_assessment": "핵심 대체성 미해결",
+          "valid_response_preserved": "원품의 차수·이음 구조와 수밀·내풍압이 제품의 기능을 정하는 요소라는 지적은 타당하다. 판매처의 공통 자료에는 불연·내화·열전도 성적 이미지가 있으나 선택한 GW48 지붕 제품이 원품의 해당 성능을 충족한다는 직접 대응 근거는 확인되지 않았다. 한쪽 강판이 0.6T라는 사실만으로 이 차이를 상쇄했다고 주장하지 않는다. 공개자료 범위에서 이 반증은 해소하지 못했다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "aaccebb5-d731-4719-a281-979e3439f710",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "prior_assessment": "대회 규칙 적용 오류 반박 가능; 사양·비용 미해결",
+          "valid_response_preserved": "대회 접수 계산과 일반 사이트 판정 방법은 구별해야 한다. 현행 대회 rules.md 4절과 제출 schema는 예상액이 양수인 줄의 ΣC÷Σ(BQ)를 수량가중 평균 비율로 검사한다. 이 제출의 ΣC=3912297885원, Σ(BQ)=3170339371.378240원, 비율=1.234031배다. 대회 1.2배 평균 조건을 충족한다. 줄별 1.2배 미만을 전부 삭제하거나 1.2~1.3배에 제2판매처가 없다는 이유만으로 대회 예상액 전액0원이라고 결론내릴 근거는 해당 대회 문서에 없다. 다만 이 계산 반박이 대체품의 핵심 성능과 운임 문제를 해결하지는 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        }
+      ],
+      "risk_full_rejection_exposure_krw": 741958481,
+      "risk_is_final_deduction": false,
+      "risk_reason": "핵심 대체성 또는 필수 비용이 입증되지 않으면 해당 제출 전액 불인정 위험이 있다. 이는 최종 심사 결과나 확정 삭감액이 아니다.",
+      "numerically_recalculable_deduction_krw": null,
+      "numeric_deduction_limit": "적합한 완제품 가격·추가 수량·실제 운임/설치비가 미확정이라 임의 감액을 만들지 않는다. 산술검산 차이는0원이다.",
+      "calculation": {
+        "item_id": "23950808",
+        "revision": 3,
+        "amount_krw": 741958481,
+        "independent_recalculation_krw": 741958481,
+        "sum_C": "3912297885",
+        "sum_BQ": "3170339371.378240",
+        "sum_Q": "60778",
+        "weighted_ratio": "1.234031258710075810589143684",
+        "line_count": 59,
+        "request_count": 59,
+        "multi_line_requests": {},
+        "B_min": "41800",
+        "B_max": "69613.45875",
+        "minimum_original_unit_saving": "5886.54125",
+        "fixed_lines_cost_headroom_until_1_2_ratio_krw": "89908866.121760",
+        "fixed_lines_uniform_B_headroom_per_unit_krw": "1479.299518275691862186975550",
+        "ce_ids": [
+          "1d766824-4e3a-4628-bce4-e8326c1bf575",
+          "9a9b1fa4-643d-48ef-81ea-2978ef0bdc7b",
+          "f70bd9a0-3458-42ad-83c1-6641244be081",
+          "98350a58-29e5-4fea-934d-12f98e458678",
+          "aafa99d9-7983-4a9e-8d1a-9275b68f792d",
+          "aaccebb5-d731-4719-a281-979e3439f710"
+        ],
+        "sensitivity_limit": "현재 모든 양수 line 유지 시1.2배가 되는 추가 B 여유다. 경계값이 현재 최소 단위 차액보다 작아 이 지점까지 양수 집합은 유지된다. 실제 운임 견적이나 확정 감액이 아니다."
+      },
+      "resolution_evidence_needed": [
+        "동일 STR-GP 모델의 공개 일반 판매 완성 견적을 우선 확보한다. 대체품이면 실링·브래킷·이음 부속과 필요한 수밀720Pa·내풍압380kgf/㎡, 유효폭이 확인되는 완제품을 찾고 실제 운임·설치를 포함해 fact별 B를 다시 산정한다."
+      ],
+      "new_supporting_complete_offer_found": false,
+      "current_retail_revisit": {
+        "url": "https://bidnbee.com/shop/1671003950",
+        "http_status": 200,
+        "capture_path": "work/self-audit-20261019/building/bidnbee-http.json",
+        "result": "현재 기본가·각 두께 가산·코일0.5T×0.6T 가산2,200원·길이2000~17000 필드·착불 문구가 기존 관측과 일치한다.",
+        "prior_direct_selected_price_krw": 83600,
+        "prior_direct_selected_capture": "work/review-20261019/building-sources/bidnbee-selected-180.json",
+        "fresh_selected_dom": "추가 단일탭 옵션 검증은 BrowserRuntime 작업 오류로 실패했다. 오늘 새 선택 성공을 주장하지 않고 현재 HTTP 옵션과 과거 실제 선택 캡처를 구별한다."
+      },
+      "source_urls": [
+        "https://bidnbee.com/shop/1671003950",
+        "https://hackathon.savetax.now/docs/rules.md",
+        "https://hackathon.savetax.now/docs/submission-schema.md",
+        "https://bidnbee.com/data/editor/2410/c053ef78375f82c5d34fe8410ee334a8_1728537075_2133.jpg",
+        "https://www.mnwcc.or.kr/tech/upload/2026_breakdown_cost.pdf"
+      ],
+      "source_capture_paths": [
+        "work/self-audit-20261019/submissions/36a9cefb-9942-4386-a712-2e94a3fac445.json",
+        "work/self-audit-20261019/counterevidence/36a9cefb-9942-4386-a712-2e94a3fac445.json",
+        "research/public-counterevidence-review-20261019.json",
+        "research/evidence-recovery-20261019.json",
+        "work/recovery-20261019/building/recovery.json",
+        "work/self-audit-20261019/building/calculations.json"
+      ]
+    },
+    {
+      "item_id": "23950811",
+      "submission_id": "bc74dccf-0867-4090-861d-6d2ac390c534",
+      "model": "STR-GP-10250",
+      "product_name": "샌드위치패널, 에스와이테크, STR-GP-10250, 1000×1000×250mm",
+      "current_revision": 3,
+      "amount_krw": 762452074,
+      "status": "confirmed_issue",
+      "held": false,
+      "lint_status": "unreadable",
+      "confirmed_issues": [
+        "실제 판매 페이지는 개별용달 착불이며 현재 B에는 운임 금액이 들어 있지 않다. 이 필수 비용의 누락은 확인되지만 현장별 금액은 미확정이다."
+      ],
+      "remaining_gaps": [
+        "원품의 특허 차수·브래킷·등압공간 구조, 수밀720Pa·최대가압380kgf/㎡의 동등성은 판매자료에서 입증하지 못했다.",
+        "판매 상품의 실제 제조사명과 선택 두께·48K에 대응하는 개별 시험 성적서가 확인되지 않았다. 공통64K·74K 성적을 선택품 시험으로 바꾸지 않았다.",
+        "판매처 착불 운임 금액이 공개되지 않아 B에 미반영이다. 설치비는 실판매 견적이 아닌 표준 일위대가 시나리오다.",
+        "상품별 지붕 상세 그림 하나가404다. 공통 벽체 표의 폭1000mm만으로 선택 지붕의 유효폭을 새로 확정하지 않았다. 기존2㎡ 환산의 개별 지붕 규격 확인이 남는다."
+      ],
+      "revision_effect": "가격 옵션·VAT·가중평균 규칙과 남은 한계를 설명한 수정이다. 강판 한 면의 두께 증가나 견본 불연 시험의 존재는 원품 이음·수밀·내풍압 및 운임의 실제 충족을 증명하지 않는다. 현재 revision3은 해당 두께48K의 2018년 양면0.4mm 견본 시험을 추가했지만 가격·fact·예상액은 그대로이고 현판매0.5T×0.6T 옵션과 제조공장·로트가 연결되지 않았다.",
+      "valid_rebuttals_to_counterevidence": [
+        "현재 본문은 다른 제조사·모델의 대체품임을 명시하므로 모델 이름이 다르다는 사실만으로 동일품 사칭이라고 판정할 수 없다.",
+        "비드앤비 해당URL에는 실제 옵션과 가격이 있으므로 사이트명만으로 가격비교 목록이라고 단정한 부분은 반박 가능하다.",
+        "공식 rules4는 양수 줄의 수량가중 평균으로1.2배를 검사한다. 줄별1.2배 미달 또는 일반 사이트의1.3배·제2판매처 기준만으로 전액0원이라고 단정할 근거는 없다.",
+        "VAT는 판매처 공통 주문 안내에서 포함으로 확인됐다. 이는 다른 핵심 조건의 검증과 별개다."
+      ],
+      "counterevidence_ids": [
+        "40515623-97ca-4ed3-a8e8-e07952f24067",
+        "dc54d575-5102-4d02-92b9-7772f8b9f465",
+        "858aa8c2-16d0-4d49-924c-b4b3e87fa656",
+        "de79e842-3fac-493b-853b-267232ee84cd",
+        "91b2ee93-51a1-41fe-841b-02d5ef9c0fef",
+        "957dd07f-9467-4fb2-86a6-fb5a82c120f0"
+      ],
+      "counterevidence_reviews": [
+        {
+          "counterevidence_id": "40515623-97ca-4ed3-a8e8-e07952f24067",
+          "handle": "WISP",
+          "revision_no": 1,
+          "prior_assessment": "동일품 오인 해명 가능; 비교조건 보강 필요",
+          "valid_response_preserved": "처음부터 제조사·모델이 다른 대체품 비교라고 명시한 제출이다. 동일 모델 판매가라는 주장은 하지 않았다. VAT는 실제 판매처 공통 안내에서 포함임을 확인했고 선택 옵션 합계도 다시 읽었다. 조달 현장설치도 금액에는 설치비 시나리오를 가산했지만 착불 운임은 B에서 빠져 있고 원품의 차수·이음·내풍압 성능은 대응 미확인이므로 같은 조건이라고 확정하지 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "dc54d575-5102-4d02-92b9-7772f8b9f465",
+          "handle": "cnstar",
+          "revision_no": 1,
+          "prior_assessment": "대회 규칙 적용 오류 반박 가능; 사양·비용 미해결",
+          "valid_response_preserved": "대회 접수 계산과 일반 사이트 판정 방법은 구별해야 한다. 현행 대회 rules.md 4절과 제출 schema는 예상액이 양수인 줄의 ΣC÷Σ(BQ)를 수량가중 평균 비율로 검사한다. 이 제출의 ΣC=4474904463원, Σ(BQ)=3712452352.922805원, 비율=1.205377배다. 대회 1.2배 평균 조건을 충족한다. 줄별 1.2배 미만을 전부 삭제하거나 1.2~1.3배에 제2판매처가 없다는 이유만으로 대회 예상액 전액0원이라고 결론내릴 근거는 해당 대회 문서에 없다. 다만 이 계산 반박이 대체품의 핵심 성능과 운임 문제를 해결하지는 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "858aa8c2-16d0-4d49-924c-b4b3e87fa656",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "prior_assessment": "이미 존재하는 사양표를 지적하되 미확인 핵심조건 유지",
+          "valid_response_preserved": "원 제출의 재현 메모에는 원품과 대체품의 용도·심재·치수·강판·체결·화재성능·인도조건을 나란히 기재했다. 이번 실제 판매 재조회에서도 상품명은 글라스울 지붕 샌드위치판넬이며250T와0.5T×0.6T 선택값은 확인된다. 판매 길이2000mm를 조달1000mm와 같다고 쓰지 않고 기존안은 면적으로 환산했다. 다만 실제 제조사·개별 유효폭·도장아연도강판의 정확한 등급과 핵심 차수·내풍압 성능은 모두 확인되었다고 답할 수 없다. 인용의 항목 수만으로 전 항목 부재를 단정한 부분과 실질 미입증 부분을 나눈다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "de79e842-3fac-493b-853b-267232ee84cd",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "prior_assessment": "동일품 오인 해명 가능; 비교조건 보강 필요",
+          "valid_response_preserved": "처음부터 제조사·모델이 다른 대체품 비교라고 명시한 제출이다. 동일 모델 판매가라는 주장은 하지 않았다. VAT는 실제 판매처 공통 안내에서 포함임을 확인했고 선택 옵션 합계도 다시 읽었다. 조달 현장설치도 금액에는 설치비 시나리오를 가산했지만 착불 운임은 B에서 빠져 있고 원품의 차수·이음·내풍압 성능은 대응 미확인이므로 같은 조건이라고 확정하지 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "91b2ee93-51a1-41fe-841b-02d5ef9c0fef",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "prior_assessment": "핵심 대체성 미해결",
+          "valid_response_preserved": "원품의 차수·이음 구조와 수밀·내풍압이 제품의 기능을 정하는 요소라는 지적은 타당하다. 판매처의 공통 자료에는 불연·내화·열전도 성적 이미지가 있으나 선택한 GW48 지붕 제품이 원품의 해당 성능을 충족한다는 직접 대응 근거는 확인되지 않았다. 한쪽 강판이 0.6T라는 사실만으로 이 차이를 상쇄했다고 주장하지 않는다. 공개자료 범위에서 이 반증은 해소하지 못했다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "957dd07f-9467-4fb2-86a6-fb5a82c120f0",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "prior_assessment": "대회 규칙 적용 오류 반박 가능; 사양·비용 미해결",
+          "valid_response_preserved": "대회 접수 계산과 일반 사이트 판정 방법은 구별해야 한다. 현행 대회 rules.md 4절과 제출 schema는 예상액이 양수인 줄의 ΣC÷Σ(BQ)를 수량가중 평균 비율로 검사한다. 이 제출의 ΣC=4474904463원, Σ(BQ)=3712452352.922805원, 비율=1.205377배다. 대회 1.2배 평균 조건을 충족한다. 줄별 1.2배 미만을 전부 삭제하거나 1.2~1.3배에 제2판매처가 없다는 이유만으로 대회 예상액 전액0원이라고 결론내릴 근거는 해당 대회 문서에 없다. 다만 이 계산 반박이 대체품의 핵심 성능과 운임 문제를 해결하지는 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        }
+      ],
+      "risk_full_rejection_exposure_krw": 762452074,
+      "risk_is_final_deduction": false,
+      "risk_reason": "핵심 대체성 또는 필수 비용이 입증되지 않으면 해당 제출 전액 불인정 위험이 있다. 이는 최종 심사 결과나 확정 삭감액이 아니다.",
+      "numerically_recalculable_deduction_krw": null,
+      "numeric_deduction_limit": "적합한 완제품 가격·추가 수량·실제 운임/설치비가 미확정이라 임의 감액을 만들지 않는다. 산술검산 차이는0원이다.",
+      "calculation": {
+        "item_id": "23950811",
+        "revision": 3,
+        "amount_krw": 762452074,
+        "independent_recalculation_krw": 762452074,
+        "sum_C": "4474904463",
+        "sum_BQ": "3712452352.922805",
+        "sum_Q": "55410",
+        "weighted_ratio": "1.205376941599511236341724510",
+        "line_count": 72,
+        "request_count": 72,
+        "multi_line_requests": {},
+        "B_min": "50050",
+        "B_max": "74508.45875",
+        "minimum_original_unit_saving": "7000",
+        "fixed_lines_cost_headroom_until_1_2_ratio_krw": "16634699.577195",
+        "fixed_lines_uniform_B_headroom_per_unit_krw": "300.2111455909583107742284786",
+        "ce_ids": [
+          "40515623-97ca-4ed3-a8e8-e07952f24067",
+          "dc54d575-5102-4d02-92b9-7772f8b9f465",
+          "858aa8c2-16d0-4d49-924c-b4b3e87fa656",
+          "de79e842-3fac-493b-853b-267232ee84cd",
+          "91b2ee93-51a1-41fe-841b-02d5ef9c0fef",
+          "957dd07f-9467-4fb2-86a6-fb5a82c120f0"
+        ],
+        "sensitivity_limit": "현재 모든 양수 line 유지 시1.2배가 되는 추가 B 여유다. 경계값이 현재 최소 단위 차액보다 작아 이 지점까지 양수 집합은 유지된다. 실제 운임 견적이나 확정 감액이 아니다."
+      },
+      "resolution_evidence_needed": [
+        "동일 STR-GP 모델의 공개 일반 판매 완성 견적을 우선 확보한다. 대체품이면 실링·브래킷·이음 부속과 필요한 수밀720Pa·내풍압380kgf/㎡, 유효폭이 확인되는 완제품을 찾고 실제 운임·설치를 포함해 fact별 B를 다시 산정한다."
+      ],
+      "new_supporting_complete_offer_found": false,
+      "current_retail_revisit": {
+        "url": "https://bidnbee.com/shop/1671003950",
+        "http_status": 200,
+        "capture_path": "work/self-audit-20261019/building/bidnbee-http.json",
+        "result": "현재 기본가·각 두께 가산·코일0.5T×0.6T 가산2,200원·길이2000~17000 필드·착불 문구가 기존 관측과 일치한다.",
+        "prior_direct_selected_price_krw": 100100,
+        "prior_direct_selected_capture": "work/review-20261019/building-sources/bidnbee-selected-250.json",
+        "fresh_selected_dom": "추가 단일탭 옵션 검증은 BrowserRuntime 작업 오류로 실패했다. 오늘 새 선택 성공을 주장하지 않고 현재 HTTP 옵션과 과거 실제 선택 캡처를 구별한다."
+      },
+      "source_urls": [
+        "https://bidnbee.com/shop/1671003950",
+        "https://hackathon.savetax.now/docs/rules.md",
+        "https://hackathon.savetax.now/docs/submission-schema.md",
+        "https://bidnbee.com/data/editor/2410/c053ef78375f82c5d34fe8410ee334a8_1728537075_2133.jpg",
+        "https://www.mnwcc.or.kr/tech/upload/2026_breakdown_cost.pdf"
+      ],
+      "source_capture_paths": [
+        "work/self-audit-20261019/submissions/bc74dccf-0867-4090-861d-6d2ac390c534.json",
+        "work/self-audit-20261019/counterevidence/bc74dccf-0867-4090-861d-6d2ac390c534.json",
+        "research/public-counterevidence-review-20261019.json",
+        "research/evidence-recovery-20261019.json",
+        "work/recovery-20261019/building/recovery.json",
+        "work/self-audit-20261019/building/calculations.json"
+      ]
+    },
+    {
+      "item_id": "23950807",
+      "submission_id": "72052690-b245-4644-87f6-15b87b0f390b",
+      "model": "STR-GP-10150",
+      "product_name": "샌드위치패널, 에스와이테크, STR-GP-10150, 1000×1000×150mm",
+      "current_revision": 2,
+      "amount_krw": 950032972,
+      "status": "confirmed_issue",
+      "held": false,
+      "lint_status": "unreadable",
+      "confirmed_issues": [
+        "실제 판매 페이지는 개별용달 착불이며 현재 B에는 운임 금액이 들어 있지 않다. 이 필수 비용의 누락은 확인되지만 현장별 금액은 미확정이다."
+      ],
+      "remaining_gaps": [
+        "원품의 특허 차수·브래킷·등압공간 구조, 수밀720Pa·최대가압380kgf/㎡의 동등성은 판매자료에서 입증하지 못했다.",
+        "판매 상품의 실제 제조사명과 선택 두께·48K에 대응하는 개별 시험 성적서가 확인되지 않았다. 공통64K·74K 성적을 선택품 시험으로 바꾸지 않았다.",
+        "판매처 착불 운임 금액이 공개되지 않아 B에 미반영이다. 설치비는 실판매 견적이 아닌 표준 일위대가 시나리오다.",
+        "상품별 지붕 상세 그림 하나가404다. 공통 벽체 표의 폭1000mm만으로 선택 지붕의 유효폭을 새로 확정하지 않았다. 기존2㎡ 환산의 개별 지붕 규격 확인이 남는다."
+      ],
+      "revision_effect": "가격 옵션·VAT·가중평균 규칙과 남은 한계를 설명한 수정이다. 강판 한 면의 두께 증가나 견본 불연 시험의 존재는 원품 이음·수밀·내풍압 및 운임의 실제 충족을 증명하지 않는다.",
+      "valid_rebuttals_to_counterevidence": [
+        "현재 본문은 다른 제조사·모델의 대체품임을 명시하므로 모델 이름이 다르다는 사실만으로 동일품 사칭이라고 판정할 수 없다.",
+        "비드앤비 해당URL에는 실제 옵션과 가격이 있으므로 사이트명만으로 가격비교 목록이라고 단정한 부분은 반박 가능하다.",
+        "공식 rules4는 양수 줄의 수량가중 평균으로1.2배를 검사한다. 줄별1.2배 미달 또는 일반 사이트의1.3배·제2판매처 기준만으로 전액0원이라고 단정할 근거는 없다.",
+        "VAT는 판매처 공통 주문 안내에서 포함으로 확인됐다. 이는 다른 핵심 조건의 검증과 별개다."
+      ],
+      "counterevidence_ids": [
+        "7b9490f0-0c1e-4f6f-a3a6-569c7b4f4685",
+        "59f0473d-32e3-4d4b-bdd7-379dfa8d6183",
+        "fb9b2280-9cf9-4a68-80aa-c9cd93a7ed75",
+        "542628b7-0c00-4fb7-9968-ecc921927024",
+        "9986015f-63dc-4042-8adc-678f5bf7227d",
+        "8dfa9fd1-3704-40ea-9c0b-f210ca8fbc97"
+      ],
+      "counterevidence_reviews": [
+        {
+          "counterevidence_id": "7b9490f0-0c1e-4f6f-a3a6-569c7b4f4685",
+          "handle": "WISP",
+          "revision_no": 1,
+          "prior_assessment": "동일품 오인 해명 가능; 비교조건 보강 필요",
+          "valid_response_preserved": "처음부터 제조사·모델이 다른 대체품 비교라고 명시한 제출이다. 동일 모델 판매가라는 주장은 하지 않았다. VAT는 실제 판매처 공통 안내에서 포함임을 확인했고 선택 옵션 합계도 다시 읽었다. 조달 현장설치도 금액에는 설치비 시나리오를 가산했지만 착불 운임은 B에서 빠져 있고 원품의 차수·이음·내풍압 성능은 대응 미확인이므로 같은 조건이라고 확정하지 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "59f0473d-32e3-4d4b-bdd7-379dfa8d6183",
+          "handle": "cnstar",
+          "revision_no": 1,
+          "prior_assessment": "대회 규칙 적용 오류 반박 가능; 사양·비용 미해결",
+          "valid_response_preserved": "대회 접수 계산과 일반 사이트 판정 방법은 구별해야 한다. 현행 대회 rules.md 4절과 제출 schema는 예상액이 양수인 줄의 ΣC÷Σ(BQ)를 수량가중 평균 비율로 검사한다. 이 제출의 ΣC=4822387282원, Σ(BQ)=3872354284.132069원, 비율=1.245337배다. 대회 1.2배 평균 조건을 충족한다. 줄별 1.2배 미만을 전부 삭제하거나 1.2~1.3배에 제2판매처가 없다는 이유만으로 대회 예상액 전액0원이라고 결론내릴 근거는 해당 대회 문서에 없다. 다만 이 계산 반박이 대체품의 핵심 성능과 운임 문제를 해결하지는 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "fb9b2280-9cf9-4a68-80aa-c9cd93a7ed75",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "prior_assessment": "이미 존재하는 사양표를 지적하되 미확인 핵심조건 유지",
+          "valid_response_preserved": "원 제출의 재현 메모에는 원품과 대체품의 용도·심재·치수·강판·체결·화재성능·인도조건을 나란히 기재했다. 이번 실제 판매 재조회에서도 상품명은 글라스울 지붕 샌드위치판넬이며150T와0.5T×0.6T 선택값은 확인된다. 판매 길이2000mm를 조달1000mm와 같다고 쓰지 않고 기존안은 면적으로 환산했다. 다만 실제 제조사·개별 유효폭·도장아연도강판의 정확한 등급과 핵심 차수·내풍압 성능은 모두 확인되었다고 답할 수 없다. 인용의 항목 수만으로 전 항목 부재를 단정한 부분과 실질 미입증 부분을 나눈다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "542628b7-0c00-4fb7-9968-ecc921927024",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "prior_assessment": "동일품 오인 해명 가능; 비교조건 보강 필요",
+          "valid_response_preserved": "처음부터 제조사·모델이 다른 대체품 비교라고 명시한 제출이다. 동일 모델 판매가라는 주장은 하지 않았다. VAT는 실제 판매처 공통 안내에서 포함임을 확인했고 선택 옵션 합계도 다시 읽었다. 조달 현장설치도 금액에는 설치비 시나리오를 가산했지만 착불 운임은 B에서 빠져 있고 원품의 차수·이음·내풍압 성능은 대응 미확인이므로 같은 조건이라고 확정하지 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "9986015f-63dc-4042-8adc-678f5bf7227d",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "prior_assessment": "핵심 대체성 미해결",
+          "valid_response_preserved": "원품의 차수·이음 구조와 수밀·내풍압이 제품의 기능을 정하는 요소라는 지적은 타당하다. 판매처의 공통 자료에는 불연·내화·열전도 성적 이미지가 있으나 선택한 GW48 지붕 제품이 원품의 해당 성능을 충족한다는 직접 대응 근거는 확인되지 않았다. 한쪽 강판이 0.6T라는 사실만으로 이 차이를 상쇄했다고 주장하지 않는다. 공개자료 범위에서 이 반증은 해소하지 못했다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "8dfa9fd1-3704-40ea-9c0b-f210ca8fbc97",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "prior_assessment": "대회 규칙 적용 오류 반박 가능; 사양·비용 미해결",
+          "valid_response_preserved": "대회 접수 계산과 일반 사이트 판정 방법은 구별해야 한다. 현행 대회 rules.md 4절과 제출 schema는 예상액이 양수인 줄의 ΣC÷Σ(BQ)를 수량가중 평균 비율로 검사한다. 이 제출의 ΣC=4822387282원, Σ(BQ)=3872354284.132069원, 비율=1.245337배다. 대회 1.2배 평균 조건을 충족한다. 줄별 1.2배 미만을 전부 삭제하거나 1.2~1.3배에 제2판매처가 없다는 이유만으로 대회 예상액 전액0원이라고 결론내릴 근거는 해당 대회 문서에 없다. 다만 이 계산 반박이 대체품의 핵심 성능과 운임 문제를 해결하지는 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        }
+      ],
+      "risk_full_rejection_exposure_krw": 950032972,
+      "risk_is_final_deduction": false,
+      "risk_reason": "핵심 대체성 또는 필수 비용이 입증되지 않으면 해당 제출 전액 불인정 위험이 있다. 이는 최종 심사 결과나 확정 삭감액이 아니다.",
+      "numerically_recalculable_deduction_krw": null,
+      "numeric_deduction_limit": "적합한 완제품 가격·추가 수량·실제 운임/설치비가 미확정이라 임의 감액을 만들지 않는다. 산술검산 차이는0원이다.",
+      "calculation": {
+        "item_id": "23950807",
+        "revision": 2,
+        "amount_krw": 950032972,
+        "independent_recalculation_krw": 950032972,
+        "sum_C": "4822387282",
+        "sum_BQ": "3872354284.132069",
+        "sum_Q": "84762",
+        "weighted_ratio": "1.245337313726930039935725591",
+        "line_count": 59,
+        "request_count": 59,
+        "multi_line_requests": {},
+        "B_min": "38390",
+        "B_max": "59995.961641",
+        "minimum_original_unit_saving": "10698.133333",
+        "fixed_lines_cost_headroom_until_1_2_ratio_krw": "146301784.201264333333333333",
+        "fixed_lines_uniform_B_headroom_per_unit_krw": "1726.030346160594763376670359",
+        "ce_ids": [
+          "7b9490f0-0c1e-4f6f-a3a6-569c7b4f4685",
+          "59f0473d-32e3-4d4b-bdd7-379dfa8d6183",
+          "fb9b2280-9cf9-4a68-80aa-c9cd93a7ed75",
+          "542628b7-0c00-4fb7-9968-ecc921927024",
+          "9986015f-63dc-4042-8adc-678f5bf7227d",
+          "8dfa9fd1-3704-40ea-9c0b-f210ca8fbc97"
+        ],
+        "sensitivity_limit": "현재 모든 양수 line 유지 시1.2배가 되는 추가 B 여유다. 경계값이 현재 최소 단위 차액보다 작아 이 지점까지 양수 집합은 유지된다. 실제 운임 견적이나 확정 감액이 아니다."
+      },
+      "resolution_evidence_needed": [
+        "동일 STR-GP 모델의 공개 일반 판매 완성 견적을 우선 확보한다. 대체품이면 실링·브래킷·이음 부속과 필요한 수밀720Pa·내풍압380kgf/㎡, 유효폭이 확인되는 완제품을 찾고 실제 운임·설치를 포함해 fact별 B를 다시 산정한다."
+      ],
+      "new_supporting_complete_offer_found": false,
+      "current_retail_revisit": {
+        "url": "https://bidnbee.com/shop/1671003950",
+        "http_status": 200,
+        "capture_path": "work/self-audit-20261019/building/bidnbee-http.json",
+        "result": "현재 기본가·각 두께 가산·코일0.5T×0.6T 가산2,200원·길이2000~17000 필드·착불 문구가 기존 관측과 일치한다.",
+        "prior_direct_selected_price_krw": 76780,
+        "prior_direct_selected_capture": "work/review-20261019/building-sources/bidnbee-selected-150.json",
+        "fresh_selected_dom": "추가 단일탭 옵션 검증은 BrowserRuntime 작업 오류로 실패했다. 오늘 새 선택 성공을 주장하지 않고 현재 HTTP 옵션과 과거 실제 선택 캡처를 구별한다."
+      },
+      "source_urls": [
+        "https://bidnbee.com/shop/1671003950",
+        "https://hackathon.savetax.now/docs/rules.md",
+        "https://hackathon.savetax.now/docs/submission-schema.md",
+        "https://bidnbee.com/data/editor/2410/c053ef78375f82c5d34fe8410ee334a8_1728537075_2133.jpg",
+        "https://www.mnwcc.or.kr/tech/upload/2026_breakdown_cost.pdf"
+      ],
+      "source_capture_paths": [
+        "work/self-audit-20261019/submissions/72052690-b245-4644-87f6-15b87b0f390b.json",
+        "work/self-audit-20261019/counterevidence/72052690-b245-4644-87f6-15b87b0f390b.json",
+        "research/public-counterevidence-review-20261019.json",
+        "research/evidence-recovery-20261019.json",
+        "work/recovery-20261019/building/recovery.json",
+        "work/self-audit-20261019/building/calculations.json"
+      ]
+    },
+    {
+      "item_id": "23220245",
+      "submission_id": "2f077bc7-12b9-4ac5-b491-9862cb954a25",
+      "model": "MH-6S-F(L)",
+      "product_name": "콘크리트호안및옹벽블록, 이노블록, MH-6S-F(L), 보통옹벽블록(중소형), W435×L225×H150mm, 멀티하이트스톤",
+      "current_revision": 1,
+      "amount_krw": 621952668,
+      "status": "confirmed_issue",
+      "held": false,
+      "lint_status": "unreadable",
+      "confirmed_issues": [
+        "실제 케이토목 B형 판매 원문은 압축강도25N/㎟ 내외로 원품 공식 속성28N/㎟보다 낮다.",
+        "멀티하이트 장식 면·3색을 회색 민무늬 B형이 재현하지 않는다."
+      ],
+      "remaining_gaps": [
+        "원품 28N/㎟보다 비교 판매품 표기 25N/㎟ 내외가 낮으며 새로운 28MPa 이상 실판매 가격을 확보하지 못했다.",
+        "원품과 형상·체결·배수·흡수율 대응을 입증하지 못했다.",
+        "멀티하이트 장식 형상·3색을 민무늬 회색B형이 재현하지 않는다."
+      ],
+      "revision_effect": "현재 본문도 강도 열위를 인정한다. 폭·중량 증가나 가격 계산·표기 정정이 그 열위를 해결하지 않는다.",
+      "valid_rebuttals_to_counterevidence": [
+        "현재 본문은 다른 제조사·모델의 대체품임을 명시하므로 모델 이름이 다르다는 사실만으로 동일품 사칭이라고 판정할 수 없다.",
+        "블록의 실제 B에는 전면적·팔레트·차량 끝수와 VAT 또는 운임 예산이 반영돼 있다. 단열재 B도7m롤 끝수와 운임 예산을 반영했다. 원문 관측가를 실제 B로 혼동하거나 운임·VAT를 전혀 넣지 않았다고 한 부분은 부정확하다."
+      ],
+      "counterevidence_ids": [
+        "ff38868f-7dae-438a-acb0-900a54d15ad5",
+        "829f5ef8-31e8-409e-9e28-91e882bf58d1",
+        "824d0b66-b67e-4171-a343-ca0f80199ae1",
+        "8ddbd9a3-b70c-48d1-ab85-2f3402657a0f",
+        "6c51222b-97b6-4a5e-b914-d88c610fb2e7"
+      ],
+      "counterevidence_reviews": [
+        {
+          "counterevidence_id": "ff38868f-7dae-438a-acb0-900a54d15ad5",
+          "handle": "WISP",
+          "revision_no": 1,
+          "prior_assessment": "운임 전액 누락 주장은 반박 가능; 대체성 지적 타당",
+          "valid_response_preserved": "다른 제조사 대체품이라는 부분은 맞다. 운반비·VAT가 전혀 빠졌다는 설명은 실제B와 다르다.원품1㎡마다11개,45개당팔레트15,000원과585개당차량1,200,000원(VAT별도)의 운임예산을 가산했다. 다만 지역·실제 경로의 확정견적이 아니며 이 해명이 핵심강도25<28과 구조·외관 차이를 해결하지는 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "829f5ef8-31e8-409e-9e28-91e882bf58d1",
+          "handle": "cnstar",
+          "revision_no": 1,
+          "prior_assessment": "지적 타당; 근거 부족으로 반박 불가",
+          "valid_response_preserved": "판매처 원문을2026-10-19 다시 읽은 결과 압축강도25N/㎟ 내외 표기가 그대로다. 공식 원품속성28N/㎟보다 낮다는 지적은 타당하다. 폭·깊이·중량 증가나 계산상 여유로 강도저하를 상쇄할 수 있다고 주장하지 않는다. 다른 판매처도 추가 탐색했지만28MPa이상·원품대응·실판매가격을 함께 입증하는 근거는 확보하지 못했다. 현재 자료로는 이 반증을 반박하지 못하며 기존 예상액을 검증 완료액으로 제시하지 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "824d0b66-b67e-4171-a343-ca0f80199ae1",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "prior_assessment": "대조표 존재 해명 가능; 핵심 적합성 미해결",
+          "valid_response_preserved": "원 제출은 원품 치수·중량과 비교품500×200×330·45kg의 대응표 및 차이를 이미 재현 메모에 적었다. 그러므로 모든 치수가 미기재라는 뜻은 아니다. 하지만 압축강도 저하, 체결·흡수율·설계 적합성 미확인은 여전히 남아 있다. 표기 누락을 보완하는 것만으로 대체품 적합성이 입증되지는 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "8ddbd9a3-b70c-48d1-ab85-2f3402657a0f",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "prior_assessment": "동일품 오인 해명 가능; 강도 기준 충족하지 못함",
+          "valid_response_preserved": "처음부터 조달 제조사·모델과 다른 대체품 비교라고 제목·주장에 명시한 자료다. 인용에 원모델명을 판매상품명처럼 넣는 수정은 하지 않는다. 동일품 비교라는 오해는 해명 가능하지만 원품28N/㎟보다 낮은25N/㎟ 판매품을 같거나 더 좋은 제품이라고 바꿔 주장할 근거는 없다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "6c51222b-97b6-4a5e-b914-d88c610fb2e7",
+          "handle": "sampple",
+          "revision_no": 1,
+          "prior_assessment": "지적 타당; 근거 부족으로 반박 불가",
+          "valid_response_preserved": "판매처 원문을2026-10-19 다시 읽은 결과 압축강도25N/㎟ 내외 표기가 그대로다. 공식 원품속성28N/㎟보다 낮다는 지적은 타당하다. 폭·깊이·중량 증가나 계산상 여유로 강도저하를 상쇄할 수 있다고 주장하지 않는다. 다른 판매처도 추가 탐색했지만28MPa이상·원품대응·실판매가격을 함께 입증하는 근거는 확보하지 못했다. 현재 자료로는 이 반증을 반박하지 못하며 기존 예상액을 검증 완료액으로 제시하지 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        }
+      ],
+      "risk_full_rejection_exposure_krw": 621952668,
+      "risk_is_final_deduction": false,
+      "risk_reason": "핵심 대체성 또는 필수 비용이 입증되지 않으면 해당 제출 전액 불인정 위험이 있다. 이는 최종 심사 결과나 확정 삭감액이 아니다.",
+      "numerically_recalculable_deduction_krw": null,
+      "numeric_deduction_limit": "적합한 완제품 가격·추가 수량·실제 운임/설치비가 미확정이라 임의 감액을 만들지 않는다. 산술검산 차이는0원이다.",
+      "calculation": {
+        "item_id": "23220245",
+        "revision": 1,
+        "amount_krw": 621952668,
+        "independent_recalculation_krw": 621952668,
+        "sum_C": "1712279646",
+        "sum_BQ": "1090326978",
+        "sum_Q": "12354",
+        "weighted_ratio": "1.570427661196511272602850335",
+        "line_count": 114,
+        "request_count": 114,
+        "multi_line_requests": {},
+        "B_min": "88257",
+        "B_max": "88257",
+        "minimum_original_unit_saving": "48803",
+        "fixed_lines_cost_headroom_until_1_2_ratio_krw": "336572727",
+        "fixed_lines_uniform_B_headroom_per_unit_krw": "27244.02841185041282175813502",
+        "ce_ids": [
+          "ff38868f-7dae-438a-acb0-900a54d15ad5",
+          "829f5ef8-31e8-409e-9e28-91e882bf58d1",
+          "824d0b66-b67e-4171-a343-ca0f80199ae1",
+          "8ddbd9a3-b70c-48d1-ab85-2f3402657a0f",
+          "6c51222b-97b6-4a5e-b914-d88c610fb2e7"
+        ]
+      },
+      "resolution_evidence_needed": [
+        "같은 원모델의 공개 일반 판매가 또는28MPa이상·흡수율·체결·구조 및 요구 외관을 충족하는 판매 완제품과 실제 도입 운임을 확보한다."
+      ],
+      "new_supporting_complete_offer_found": false,
+      "current_retail_revisit": {
+        "url": "https://ktomok.com/shop/item.php?it_id=1581999956",
+        "capture_path": "work/self-audit-20261019/building/ktomok-small-http.json",
+        "http_status": 200,
+        "browser_read": "HTTP로 실제 내용 확인",
+        "result": "가격·단위·VAT/운임 조건과 강도 표기를 재확인해 과거 자료와 일치한다."
+      },
+      "source_urls": [
+        "https://ktomok.com/shop/item.php?it_id=1581999956",
+        "https://api.savetax.now/v1/items/23220245"
+      ],
+      "source_capture_paths": [
+        "work/self-audit-20261019/submissions/2f077bc7-12b9-4ac5-b491-9862cb954a25.json",
+        "work/self-audit-20261019/counterevidence/2f077bc7-12b9-4ac5-b491-9862cb954a25.json",
+        "research/public-counterevidence-review-20261019.json",
+        "research/evidence-recovery-20261019.json",
+        "work/recovery-20261019/building/recovery.json",
+        "work/self-audit-20261019/building/calculations.json"
+      ]
+    },
+    {
+      "item_id": "24072887",
+      "submission_id": "9c39d2e4-987a-47a0-98c1-d2b219d277a9",
+      "model": "P200",
+      "product_name": "콘크리트호안및옹벽블록, 지성코퍼레이션, P200, 보통옹벽블록(중소형), W450×L340×H200mm, 절및성토블록, 회색",
+      "current_revision": 1,
+      "amount_krw": 677120941,
+      "status": "confirmed_issue",
+      "held": false,
+      "lint_status": "unreadable",
+      "confirmed_issues": [
+        "실제 케이토목 B형 판매 원문은 압축강도25N/㎟ 내외로 원품 공식 속성28N/㎟보다 낮다.",
+        "대체품 깊이330mm는 원품340mm보다10mm 짧다."
+      ],
+      "remaining_gaps": [
+        "원품 28N/㎟보다 비교 판매품 표기 25N/㎟ 내외가 낮으며 새로운 28MPa 이상 실판매 가격을 확보하지 못했다.",
+        "원품과 형상·체결·배수·흡수율 대응을 입증하지 못했다.",
+        "판매품 깊이330mm는 원품340mm보다 짧고 원품 흡수율 7% 이하 대응이 없다."
+      ],
+      "revision_effect": "현재 본문도 강도 열위를 인정한다. 폭·중량 증가나 가격 계산·표기 정정이 그 열위를 해결하지 않는다.",
+      "valid_rebuttals_to_counterevidence": [
+        "현재 본문은 다른 제조사·모델의 대체품임을 명시하므로 모델 이름이 다르다는 사실만으로 동일품 사칭이라고 판정할 수 없다.",
+        "블록의 실제 B에는 전면적·팔레트·차량 끝수와 VAT 또는 운임 예산이 반영돼 있다. 단열재 B도7m롤 끝수와 운임 예산을 반영했다. 원문 관측가를 실제 B로 혼동하거나 운임·VAT를 전혀 넣지 않았다고 한 부분은 부정확하다."
+      ],
+      "counterevidence_ids": [
+        "8617403f-9b17-4a6f-8e1f-e75a3e313a79",
+        "4e08c0b3-021c-4f37-bc6f-8980250432e5",
+        "1d8ff1ca-094d-4327-a89a-10847639b958",
+        "ebc30f91-2d9b-42cc-ae45-f02414520702",
+        "1fea2f43-2a4f-4573-b7a7-d2d56a12717d"
+      ],
+      "counterevidence_reviews": [
+        {
+          "counterevidence_id": "8617403f-9b17-4a6f-8e1f-e75a3e313a79",
+          "handle": "WISP",
+          "revision_no": 1,
+          "prior_assessment": "운임 전액 누락 주장은 반박 가능; 대체성 지적 타당",
+          "valid_response_preserved": "다른 제조사 대체품이라는 부분은 맞다. 운반비·VAT가 전혀 빠졌다는 설명은 실제B와 다르다.상품2,900원에45개당팔레트15,000원·585개당차량300,000원 예상운임과VAT를 fact별 끝수 올림해 더한 뒤 최대단가4,290원을 전fact에 적용했다. 다만 지역·실제 경로의 확정견적이 아니며 이 해명이 핵심강도25<28과 구조·외관 차이를 해결하지는 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "4e08c0b3-021c-4f37-bc6f-8980250432e5",
+          "handle": "cnstar",
+          "revision_no": 1,
+          "prior_assessment": "지적 타당; 근거 부족으로 반박 불가",
+          "valid_response_preserved": "판매처 원문을2026-10-19 다시 읽은 결과 압축강도25N/㎟ 내외 표기가 그대로다. 공식 원품속성28N/㎟보다 낮다는 지적은 타당하다. 폭·깊이·중량 증가나 계산상 여유로 강도저하를 상쇄할 수 있다고 주장하지 않는다. 다른 판매처도 추가 탐색했지만28MPa이상·원품대응·실판매가격을 함께 입증하는 근거는 확보하지 못했다. 현재 자료로는 이 반증을 반박하지 못하며 기존 예상액을 검증 완료액으로 제시하지 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "1d8ff1ca-094d-4327-a89a-10847639b958",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "prior_assessment": "대조표 존재 해명 가능; 핵심 적합성 미해결",
+          "valid_response_preserved": "원 제출은 원품 치수·중량과 비교품500×200×330·45kg의 대응표 및 차이를 이미 재현 메모에 적었다. 그러므로 모든 치수가 미기재라는 뜻은 아니다. 하지만 압축강도 저하, 체결·흡수율·설계 적합성 미확인은 여전히 남아 있다. 표기 누락을 보완하는 것만으로 대체품 적합성이 입증되지는 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "ebc30f91-2d9b-42cc-ae45-f02414520702",
+          "handle": "KiNa_키나",
+          "revision_no": 1,
+          "prior_assessment": "지적 타당; 근거 부족으로 반박 불가",
+          "valid_response_preserved": "판매처 원문을2026-10-19 다시 읽은 결과 압축강도25N/㎟ 내외 표기가 그대로다. 공식 원품속성28N/㎟보다 낮다는 지적은 타당하다. 폭·깊이·중량 증가나 계산상 여유로 강도저하를 상쇄할 수 있다고 주장하지 않는다. 다른 판매처도 추가 탐색했지만28MPa이상·원품대응·실판매가격을 함께 입증하는 근거는 확보하지 못했다. 현재 자료로는 이 반증을 반박하지 못하며 기존 예상액을 검증 완료액으로 제시하지 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        },
+        {
+          "counterevidence_id": "1fea2f43-2a4f-4573-b7a7-d2d56a12717d",
+          "handle": "sampple",
+          "revision_no": 1,
+          "prior_assessment": "지적 타당; 근거 부족으로 반박 불가",
+          "valid_response_preserved": "판매처 원문을2026-10-19 다시 읽은 결과 압축강도25N/㎟ 내외 표기가 그대로다. 공식 원품속성28N/㎟보다 낮다는 지적은 타당하다. 폭·깊이·중량 증가나 계산상 여유로 강도저하를 상쇄할 수 있다고 주장하지 않는다. 다른 판매처도 추가 탐색했지만28MPa이상·원품대응·실판매가격을 함께 입증하는 근거는 확보하지 못했다. 현재 자료로는 이 반증을 반박하지 못하며 기존 예상액을 검증 완료액으로 제시하지 않는다.",
+          "independent_conclusion": "현재 차수·공식 규칙·직접 판매 원문과 다시 대조했다. 계산·동일품 오인 해명은 유지하되 아래 confirmed_issues와remaining_gaps는 해결됐다고 세지 않는다."
+        }
+      ],
+      "risk_full_rejection_exposure_krw": 677120941,
+      "risk_is_final_deduction": false,
+      "risk_reason": "핵심 대체성 또는 필수 비용이 입증되지 않으면 해당 제출 전액 불인정 위험이 있다. 이는 최종 심사 결과나 확정 삭감액이 아니다.",
+      "numerically_recalculable_deduction_krw": null,
+      "numeric_deduction_limit": "적합한 완제품 가격·추가 수량·실제 운임/설치비가 미확정이라 임의 감액을 만들지 않는다. 산술검산 차이는0원이다.",
+      "calculation": {
+        "item_id": "24072887",
+        "revision": 1,
+        "amount_krw": 677120941,
+        "independent_recalculation_krw": 677120941,
+        "sum_C": "2017415611",
+        "sum_BQ": "1340294670",
+        "sum_Q": "312423",
+        "weighted_ratio": "1.505203039418190031301101869",
+        "line_count": 16,
+        "request_count": 16,
+        "multi_line_requests": {},
+        "B_min": "4290",
+        "B_max": "4290",
+        "minimum_original_unit_saving": "2019",
+        "fixed_lines_cost_headroom_until_1_2_ratio_krw": "340885005.833333333333333333",
+        "fixed_lines_uniform_B_headroom_per_unit_krw": "1091.100865920029361901439180",
+        "ce_ids": [
+          "8617403f-9b17-4a6f-8e1f-e75a3e313a79",
+          "4e08c0b3-021c-4f37-bc6f-8980250432e5",
+          "1d8ff1ca-094d-4327-a89a-10847639b958",
+          "ebc30f91-2d9b-42cc-ae45-f02414520702",
+          "1fea2f43-2a4f-4573-b7a7-d2d56a12717d"
+        ]
+      },
+      "resolution_evidence_needed": [
+        "같은 원모델의 공개 일반 판매가 또는28MPa이상·흡수율·체결·구조 및 요구 외관을 충족하는 판매 완제품과 실제 도입 운임을 확보한다."
+      ],
+      "new_supporting_complete_offer_found": false,
+      "current_retail_revisit": {
+        "url": "https://ktomok.com/shop/item.php?it_id=1581999956",
+        "capture_path": "work/self-audit-20261019/building/ktomok-small-http.json",
+        "http_status": 200,
+        "browser_read": "HTTP로 실제 내용 확인",
+        "result": "가격·단위·VAT/운임 조건과 강도 표기를 재확인해 과거 자료와 일치한다."
+      },
+      "source_urls": [
+        "https://ktomok.com/shop/item.php?it_id=1581999956",
+        "https://api.savetax.now/v1/items/24072887"
+      ],
+      "source_capture_paths": [
+        "work/self-audit-20261019/submissions/9c39d2e4-987a-47a0-98c1-d2b219d277a9.json",
+        "work/self-audit-20261019/counterevidence/9c39d2e4-987a-47a0-98c1-d2b219d277a9.json",
+        "research/public-counterevidence-review-20261019.json",
+        "research/evidence-recovery-20261019.json",
+        "work/recovery-20261019/building/recovery.json",
+        "work/self-audit-20261019/building/calculations.json"
+      ]
+    }
+  ],
+  "line_count": 470,
+  "counterevidence_count": 41
+}
