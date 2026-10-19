@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "owner": "hardware_resume",
+  "prepared_at_utc": "2026-10-19T12:07:56.486688+00:00",
+  "item_id": "25619100",
+  "original_model": "JHDC-4831AI",
+  "alternative_model": "SD8A840WA-HNF",
+  "status": "not_ready_certification_and_current_package_unresolved",
+  "submission_ready": false,
+  "adopted_benchmark_krw": null,
+  "verified_expected_saving_krw": null,
+  "adopted_expected_saving_krw": null,
+  "new_price_discovery_count": 0,
+  "new_validation": [
+    "컴퓨존 공식 VAT 포함 FAQ 원문",
+    "제조사 PDF 기본 부속품 시각 확인",
+    "제조사 전원 세대 표기 충돌",
+    "원품의 공식 TTA 보안 인증서 및 인증 범위"
+  ],
+  "retail_price_krw": "1668000",
+  "vat_included": true,
+  "shipping_included": false,
+  "conditional_shipping_krw_per_camera": "3000",
+  "conditional_hardware_benchmark_krw": "1671000",
+  "conditional_hardware_difference_krw": "702673000",
+  "official_quantity": "137",
+  "official_C_krw": "931600000",
+  "fact_count": 2,
+  "facts": [
+    {
+      "fact_id": "dl:25619100:002270134_1:R25TB01337473:31",
+      "listing_id": "002270134_1220002037",
+      "contract_no": "002270134_1",
+      "request_no": "R25TB01337473",
+      "line_no": "31",
+      "request_date": "2025-12-17",
+      "agency_name": "대구도시개발공사",
+      "unit": "대",
+      "tax_basis": "vat_included",
+      "basis_id": "basis:대:vat_included",
+      "comparison_basis_id": "basis:대:vat_included",
+      "period_kind": "none",
+      "unit_price_krw": "6800000",
+      "quantity": "91",
+      "comparable_amount_krw": "618800000",
+      "scorable": true,
+      "exclusion_reasons": [],
+      "conditional_hardware_benchmark_krw": "1671000",
+      "conditional_hardware_difference_krw": "466739000"
+    },
+    {
+      "fact_id": "dl:25619100:002270134_1:R26TB01970724:1",
+      "listing_id": "002270134_1220002037",
+      "contract_no": "002270134_1",
+      "request_no": "R26TB01970724",
+      "line_no": "1",
+      "request_date": "2026-05-29",
+      "agency_name": "대구도시개발공사",
+      "unit": "대",
+      "tax_basis": "vat_included",
+      "basis_id": "basis:대:vat_included",
+      "comparison_basis_id": "basis:대:vat_included",
+      "period_kind": "none",
+      "unit_price_krw": "6800000",
+      "quantity": "46",
+      "comparable_amount_krw": "312800000",
+      "scorable": true,
+      "exclusion_reasons": [],
+      "conditional_hardware_benchmark_krw": "1671000",
+      "conditional_hardware_difference_krw": "235934000"
+    }
+  ],
+  "original_TTA": {
+    "certificate_number": "TTA-IT-V-25-067",
+    "certificate_date": "2025-01-24",
+    "certificate_scope": "공공기관용 IP카메라 보안 성능품질 Ver.1: 보안 선택, 성능품질 미선택",
+    "firmware_version": "2.23.00_20240619_R24",
+    "base_model": "SI-9310IR",
+    "base_model_certificate": "TTA-IT-V-24-185",
+    "type": "보안 동일 소프트웨어 모델",
+    "exact_original_footnote": "※ TTA ( ● ) : TTA인증대상품목인 경우 TTA인증을 받은 모델",
+    "footnote_assessment": "원품 행의 보안 인증 상태와 공식 인증서가 대응한다. 각주 자체가 대체품에 같은 시험기관 인증을 법적으로 강제하는 문장이라고 확대하지 않는다."
+  },
+  "alternative_certification": {
+    "TTA_confirmed": null,
+    "security_function_certificate_confirmed": null,
+    "search_scope": "TTA 전체 인증제품 검색 및 TTA가 공개한 2026-10-15 보안기능 확인서 발급제품 현황",
+    "result": "관련 모델·제조사 검색 결과를 확인하지 못했다. 다른 시험기관 포함 미인증 단정은 하지 않는다.",
+    "KC_model_mapping": null,
+    "KC_note": "판매 페이지의 R-R-DXJ-DHI-LM22-A200과 카메라 모델의 대응을 확인하지 못했다."
+  },
+  "hardware": {
+    "manufacturer_standard_PFB306W_included": true,
+    "manufacturer_standard_power_adapter_included": true,
+    "manufacturer_PDF_power": "DC36V2.23A",
+    "manufacturer_HTML_power": "AC24V3A",
+    "common_power_path": "Hi-PoE",
+    "current_retail_stock_power_generation": null,
+    "current_retail_full_package_mapping": null,
+    "field_installation_in_retail_price": false,
+    "original_delivery_condition": "현장설치도",
+    "scope_note": "신품 카메라와 제조사 표준 부속품의 하드웨어 취득비를 검토한 산술. 원품 설치 계약 전체의 실제 절감액이 아니다."
+  },
+  "sources": [
+    {
+      "role": "retailer_VAT_policy",
+      "public_url": "https://m.compuzone.co.kr/cscenter/faq_main.htm",
+      "raw_file": "work/highvalue-hardware/resume-20261019/compuzone-vat-http.html",
+      "bytes": 925507,
+      "sha256": "729d8095b6a8ffb51db83bfa8f5efa2e7adbc7c3deaa2af145dadb96b30bf4ba",
+      "notes": "실제 HTTP 본문의 모든 상품 부가세 포함 안내를 읽었다. 검색 요약이 아니다."
+    },
+    {
+      "role": "retail_observation",
+      "public_url": "https://www.compuzone.co.kr/product/product_detail.htm?ProductNo=1051613",
+      "raw_file": "work/highvalue-hardware/resume-20261019/dahua-compuzone-native.json",
+      "bytes": 12368,
+      "sha256": "a7c650c6e04ccc6297816e7105156748cff90ba9ef19b16a5ad2549cd2236419",
+      "notes": "가격 경로 자체는 이전 root-wide-alternatives 조사에도 있어 신규 발견으로 중복 집계하지 않는다."
+    },
+    {
+      "role": "retail_shipping_popup",
+      "public_url": "https://www.compuzone.co.kr/product/product_detail.htm?ProductNo=1051613",
+      "raw_file": "work/highvalue-hardware/resume-20261019/dahua-shipping-native.json",
+      "bytes": 13778,
+      "sha256": "72a0785539d6920281a9fdafcd02e108cf8aa1579b49674e55fea4d1c39bd83f",
+      "notes": "30만원 이상 1박스만 무료라는 실제 팝업. 대량 전체 무료로 확대하지 않는다."
+    },
+    {
+      "role": "manufacturer_standard_package",
+      "public_url": "https://material.dahuasecurity.com/uploads/soft/20201217/DH-SD8A840WA-HNF_20201217(For-Project-Only).pdf",
+      "raw_file": "work/highvalue-hardware/resume-20261019/SD8A840WA-HNF-maker.pdf",
+      "bytes": 763293,
+      "sha256": "0301ca6f1b70b0241cdd7a0ffec646a6ab5ce68374ff65c403ae0775670c25ce",
+      "notes": "3페이지를 렌더링해 Included PFB306W 및 DC36V2.23A를 직접 확인했다."
+    },
+    {
+      "role": "manufacturer_current_spec",
+      "public_url": "https://www.dahuasecurity.com/products/dedicated-products/project-exclusive/ptz-cameras/sd8a840wa-hnf(for-project-only)",
+      "raw_file": "work/highvalue-hardware/resume-20261019/dahua-maker.html",
+      "bytes": 522185,
+      "sha256": "b9edb1bd4ed693103036f181b656a4c69076466cffc1c77f87eb4e2b488e6c45",
+      "notes": "현재 HTML은 AC24V3A이며 같은 모델의 2020 PDF와 충돌한다. 전원 세대를 혼합하지 않는다."
+    },
+    {
+      "role": "original_TTA_certificate",
+      "public_url": "https://cs.tta.or.kr/tta/notification/ttaCertProductListR.do",
+      "raw_file": "work/highvalue-hardware/resume-20261019/tta-original-security-certificate.pdf",
+      "bytes": 357548,
+      "sha256": "5e6dc9ddf03a93c70cc41e46c0fe9a81a8cb53798dc215e88c8e6278be121fad",
+      "notes": "전체 검색에서 JHDC-4831AI 검색 → 인증번호 TTA-IT-V-25-067 → 결과요약서(TTA-24-2920) 내려받기. 1페이지 렌더링 확인."
+    },
+    {
+      "role": "TTA_search_observation",
+      "public_url": "https://cs.tta.or.kr/tta/notification/ttaCertProductListR.do",
+      "raw_file": "work/highvalue-hardware/resume-20261019/tta-search-native.json",
+      "bytes": 10693,
+      "sha256": "4be1373991f605f96314d734c33e2b59351bc97820a657fddfa908fedb52240f",
+      "notes": "JHDC-4831AI 1건, SD8A840/Dahua/다후아 각 0건. 검색 범위의 관측 결과이며 미인증 확정이 아니다."
+    },
+    {
+      "role": "TTA_security_function_issued_list",
+      "public_url": "https://cs.tta.or.kr/tta/main/main.do",
+      "raw_file": "work/highvalue-hardware/resume-20261019/tta-security-function-20261015.xlsx",
+      "bytes": 37408,
+      "sha256": "2e9555d353624dafaf2a3ac9e6ffb9b89a410b5438befdd415f30a51e4742d56",
+      "notes": "2026-10-15 발급제품 현황 안내 → XLSX. 235개 제품 행에서 관련 모델·제조사명을 찾지 못했다. 다른 시험기관 발급 전체를 부정하지 않는다."
+    },
+    {
+      "role": "original_spec_extracted",
+      "public_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002270134_1220002037",
+      "raw_file": "work/highvalue-hardware/resume-20261019/jh-spec.txt",
+      "bytes": 1280400,
+      "sha256": "bcce7000bc5a4c255d2746066e905d2213c7fa8d05b3b9a1b57227db793dc2b1",
+      "notes": "3.4 선택부품 25619100/JHDC-4831AI 행 TTA●. HWP 변경 이력은 평가하지 않았다."
+    }
+  ],
+  "actions": {
+    "preview": 0,
+    "POST": 0,
+    "purchase": 0,
+    "cart": 0,
+    "seller_contact": 0,
+    "Git": 0
+  }
+}
