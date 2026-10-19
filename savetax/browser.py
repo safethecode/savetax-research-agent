@@ -208,8 +208,10 @@ class BrowserRuntime:
         # HTML의 지시문을 실행하지 않고 보이는 텍스트·상세 iframe 주소만 수집한다.
         expression = 'JSON.stringify({url:location.href,title:document.title,text:document.body.innerText.slice(0,40000),frames:Array.from(document.querySelectorAll("iframe[src]")).map(x=>x.src).slice(0,20)})'
         code = ('import json\n'
-            f'target = new_tab({url!r})\n'
+            'target = cdp("Target.createTarget", url="about:blank", background=True)["targetId"]\n'
             'try:\n'
+            '    switch_tab(target)\n'
+            f'    goto_url({url!r})\n'
             '    wait_for_load()\n'
             f'    result = json.loads(js({expression!r}))\n'
             '    print(json.dumps(result, ensure_ascii=False))\n'

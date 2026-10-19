@@ -1,7 +1,9 @@
 import json
+import io
 import tempfile
 import subprocess
 import unittest
+from contextlib import redirect_stdout
 from pathlib import Path
 from unittest.mock import patch
 
@@ -46,6 +48,61 @@ class BrowserTests(unittest.TestCase):
             self.assertIn('close_tab', code)
             self.assertNotIn('type_text(', code)
             self.assertNotIn('click_at_xy(', code)
+
+    def test_read_preserves_existing_blank_tab_and_closes_only_owned_tab(self):
+        # Harness new_tab(url) can reuse an attached blank tab; read must own
+        # its target even when reading the page raises before returning JSON.
+        for read_fails in (False, True):
+            with self.subTest(read_fails=read_fails), tempfile.TemporaryDirectory() as folder:
+                runtime = BrowserRuntime(folder)
+                pages = {'existing': 'about:blank'}
+                current = ['existing']
+                closed = []
+                url = 'https://shop.example/a?q=quoted%22'
+
+                def create_target(method, **params):
+                    self.assertEqual(method, 'Target.createTarget')
+                    pages['owned'] = params['url']
+                    return {'targetId': 'owned'}
+
+                def read_page(_expression):
+                    if read_fails:
+                        raise RuntimeError('page read failed')
+                    return json.dumps({'url': pages[current[0]], 'text': 'price'})
+
+                def close_page(target):
+                    closed.append(target)
+                    pages.pop(target)
+
+                def reuse_blank_page(address):
+                    pages[current[0]] = address
+                    return current[0]
+
+                def execute_harness_script(code):
+                    output = io.StringIO()
+                    helpers = {
+                        'new_tab': reuse_blank_page,
+                        'cdp': create_target,
+                        'switch_tab': lambda target: current.__setitem__(0, target),
+                        'goto_url': lambda address: pages.__setitem__(current[0], address),
+                        'wait_for_load': lambda: None,
+                        'js': read_page,
+                        'close_tab': close_page,
+                    }
+                    with redirect_stdout(output):
+                        exec(compile(code, '<browser-read>', 'exec'), helpers)
+                    return json.loads(output.getvalue().strip().splitlines()[-1])
+
+                with patch.object(runtime, '_run', side_effect=execute_harness_script):
+                    if read_fails:
+                        with self.assertRaisesRegex(RuntimeError, 'page read failed'):
+                            runtime.read(url)
+                    else:
+                        result = runtime.read(url)
+                        self.assertEqual(result['url'], url)
+                        self.assertEqual(result['text'], 'price')
+                self.assertEqual(pages, {'existing': 'about:blank'})
+                self.assertEqual(closed, ['owned'])
 
     def test_chrome_does_not_receive_procurement_or_model_keys(self):
         with tempfile.TemporaryDirectory() as folder:
