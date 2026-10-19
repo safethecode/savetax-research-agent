@@ -25,6 +25,7 @@
 ```powershell
 python -m savetax browser-status
 python -m savetax parallel-search --query '정확한 모델 국내 판매가' --output work/search.json
+python -m savetax parallel-search --query '정확한 모델' --objective '같은 모델의 국내 일반 신품 판매 상세와 실제 가격·포장 구성을 찾는다.' --output work/model-search.json
 python -m savetax browser-read --url 'https://판매처/상품' --output work/browser/product.json
 ```
 

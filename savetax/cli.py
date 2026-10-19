@@ -251,6 +251,7 @@ def main(argv=None):
     document.add_argument('--output', required=True)
     parallel = sub.add_parser('parallel-search', help='Parallel API로 국내 판매가 검색 단서 수집')
     parallel.add_argument('--query', required=True)
+    parallel.add_argument('--objective', help='모델명 검색어와 별도로 전달할 조사 목적')
     parallel.add_argument('--limit', type=int, default=5)
     parallel.add_argument('--output', required=True)
     score_build = sub.add_parser('build-score', help='공식 fact와 확인한 판매가로 점수 본문 생성')
@@ -356,7 +357,7 @@ def main(argv=None):
             from .parallel import ParallelClient
             from .secrets import activated_environment
             with activated_environment():
-                result = ParallelClient().search(args.query,max_results=args.limit)
+                result = ParallelClient().search(args.query,objective=args.objective,max_results=args.limit)
             write_json(args.output,result)
             print('Parallel 검색 결과 저장: '+str(args.output))
         elif args.command == 'build-score':
