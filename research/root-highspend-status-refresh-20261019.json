@@ -1,0 +1,694 @@
+{
+  "observed_at_utc": "2026-10-19T12:45:22.306766+00:00",
+  "scope": "root owner0에서 총금액50억 이상 물리적 품목의 현재 상태 재조회. 현재 가격 검증이나 절감액 확보 건수가 아니다.",
+  "selection_rule": "차량·소프트웨어 제외, 기존 기록에 claimed/reform_found가 있는 물품은 제외. 남은 총액50억 이상31개를 표적 조회. 과거 on_hold 포함은 현재 시각 상태를 조회했으며 만료 전 등록하지 않았다.",
+  "total_owner0_local_items_over5b_including_excluded": 55,
+  "targeted_lookup_count": 31,
+  "state_counts": {
+    "on_hold": 7,
+    "available": 21,
+    "claimed": 3
+  },
+  "retail_price_verified_count": 0,
+  "preview_count": 0,
+  "post_count": 0,
+  "items": [
+    {
+      "item_id": "23221303",
+      "name": "항공기연료, 터빈연료, 항공용, JP-8",
+      "model": "항공용",
+      "category": "항공기연료",
+      "local_C": 397239531680.0,
+      "local_Q": 341416011.0,
+      "local_lines": 70.0,
+      "historical_states": [
+        "available",
+        "on_hold"
+      ],
+      "fresh_lookup": {
+        "input": "23221303",
+        "kind": "item",
+        "item_id": "23221303",
+        "state": "on_hold",
+        "message": "운영진이 반려한 물품이라 2026-10-20 04:23(한국 시각)까지 등록할 수 없습니다 — 그 뒤에 다시 확인하세요",
+        "hold_until": "2026-10-19T19:22:01.046Z"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "23734426",
+      "name": "레미콘, 조합공통품목, 25-21-80, 25-21-80",
+      "model": "25-21-80",
+      "category": "레미콘",
+      "local_C": 70165910846.0,
+      "local_Q": 667702.0,
+      "local_lines": 6947.0,
+      "historical_states": [
+        "available",
+        "on_hold"
+      ],
+      "fresh_lookup": {
+        "input": "23734426",
+        "kind": "item",
+        "item_id": "23734426",
+        "state": "on_hold",
+        "message": "운영진이 반려한 물품이라 2026-10-20 07:24(한국 시각)까지 등록할 수 없습니다 — 그 뒤에 다시 확인하세요",
+        "hold_until": "2026-10-19T22:23:06.346Z"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "23734462",
+      "name": "아스팔트콘크리트, 조합공통품목, WC-2, 가열, 3등급",
+      "model": "WC-2",
+      "category": "아스팔트콘크리트",
+      "local_C": 62781539545.0,
+      "local_Q": 429799.0,
+      "local_lines": 1763.0,
+      "historical_states": [
+        "available",
+        "on_hold"
+      ],
+      "fresh_lookup": {
+        "input": "23734462",
+        "kind": "item",
+        "item_id": "23734462",
+        "state": "on_hold",
+        "message": "운영진이 반려한 물품이라 2026-10-20 07:24(한국 시각)까지 등록할 수 없습니다 — 그 뒤에 다시 확인하세요",
+        "hold_until": "2026-10-19T22:23:27.922Z"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "23734428",
+      "name": "레미콘, 조합공통품목, 25-21-120, 25-21-120",
+      "model": "25-21-120",
+      "category": "레미콘",
+      "local_C": 32668470074.0,
+      "local_Q": 308704.0,
+      "local_lines": 2982.0,
+      "historical_states": [
+        "available",
+        "on_hold"
+      ],
+      "fresh_lookup": {
+        "input": "23734428",
+        "kind": "item",
+        "item_id": "23734428",
+        "state": "on_hold",
+        "message": "운영진이 반려한 물품이라 2026-10-20 07:24(한국 시각)까지 등록할 수 없습니다 — 그 뒤에 다시 확인하세요",
+        "hold_until": "2026-10-19T22:23:07.772Z"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "23734469",
+      "name": "아스팔트콘크리트, 조합공통품목, BB-2, 가열, 3등급",
+      "model": "BB-2",
+      "category": "아스팔트콘크리트",
+      "local_C": 27277222296.0,
+      "local_Q": 228478.0,
+      "local_lines": 772.0,
+      "historical_states": [
+        "available"
+      ],
+      "fresh_lookup": {
+        "input": "23734469",
+        "kind": "item",
+        "item_id": "23734469",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "23734434",
+      "name": "레미콘, 조합공통품목, 25-24-120, 25-24-120",
+      "model": "25-24-120",
+      "category": "레미콘",
+      "local_C": 12495269125.0,
+      "local_Q": 111502.0,
+      "local_lines": 897.0,
+      "historical_states": [
+        "available",
+        "on_hold"
+      ],
+      "fresh_lookup": {
+        "input": "23734434",
+        "kind": "item",
+        "item_id": "23734434",
+        "state": "on_hold",
+        "message": "운영진이 반려한 물품이라 2026-10-20 07:24(한국 시각)까지 등록할 수 없습니다 — 그 뒤에 다시 확인하세요",
+        "hold_until": "2026-10-19T22:23:12.089Z"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "25786551",
+      "name": "철근콘크리트용봉강, 와이케이스틸, YK-400-19, SD400, D19",
+      "model": "YK-400-19",
+      "category": "철근콘크리트용봉강",
+      "local_C": 10495014769.0,
+      "local_Q": 12805.0,
+      "local_lines": 680.0,
+      "historical_states": [
+        "available"
+      ],
+      "fresh_lookup": {
+        "input": "25786551",
+        "kind": "item",
+        "item_id": "25786551",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "25890763",
+      "name": "철근콘크리트용봉강, 동국제강, DK-22(SD400), SD400, D22",
+      "model": "DK-22(SD400)",
+      "category": "철근콘크리트용봉강",
+      "local_C": 9814199410.0,
+      "local_Q": 11857.0,
+      "local_lines": 378.0,
+      "historical_states": [
+        "on_hold"
+      ],
+      "fresh_lookup": {
+        "input": "25890763",
+        "kind": "item",
+        "item_id": "25890763",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "24752907",
+      "name": "금속제창, 경원알미늄, KW-CAW-201-FW-24LEAR-11, 201mm, 커튼월/불소수지2회",
+      "model": "KW-CAW-201-FW-24LEAR-11",
+      "category": "금속제창",
+      "local_C": 9269259384.0,
+      "local_Q": 545250.0,
+      "local_lines": 15.0,
+      "historical_states": [
+        "available"
+      ],
+      "fresh_lookup": {
+        "input": "24752907",
+        "kind": "item",
+        "item_id": "24752907",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "24187150",
+      "name": "고상제설제, 하얀소금, 눈길파워Z-1000, 환경표지2종, 1000kg/포",
+      "model": "눈길파워Z-1000",
+      "category": "고상제설제",
+      "local_C": 9208793000.0,
+      "local_Q": 21194.0,
+      "local_lines": 62.0,
+      "historical_states": [
+        "available"
+      ],
+      "fresh_lookup": {
+        "input": "24187150",
+        "kind": "item",
+        "item_id": "24187150",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "25890764",
+      "name": "철근콘크리트용봉강, 동국제강, DK-25(SD400), SD400, D25",
+      "model": "DK-25(SD400)",
+      "category": "철근콘크리트용봉강",
+      "local_C": 9175774207.0,
+      "local_Q": 11174.0,
+      "local_lines": 242.0,
+      "historical_states": [
+        "available"
+      ],
+      "fresh_lookup": {
+        "input": "25890764",
+        "kind": "item",
+        "item_id": "25890764",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "23509837",
+      "name": "백신, Biogenesis bago, (AR)바이오아토젠 FMD 백신, 동물용, 50mL/병",
+      "model": "(AR)바이오아토젠 FMD 백신",
+      "category": "백신",
+      "local_C": 9119272900.0,
+      "local_Q": 219061.0,
+      "local_lines": 341.0,
+      "historical_states": [
+        "on_hold"
+      ],
+      "fresh_lookup": {
+        "input": "23509837",
+        "kind": "item",
+        "item_id": "23509837",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "23950714",
+      "name": "샌드위치패널, 에스와이테크, STW-GP-10150, 1000×1000×150mm",
+      "model": "STW-GP-10150",
+      "category": "샌드위치패널",
+      "local_C": 9115865316.0,
+      "local_Q": 143317.0,
+      "local_lines": 151.0,
+      "historical_states": [
+        "available",
+        "on_hold"
+      ],
+      "fresh_lookup": {
+        "input": "23950714",
+        "kind": "item",
+        "item_id": "23950714",
+        "state": "on_hold",
+        "message": "운영진이 반려한 물품이라 2026-10-20 04:23(한국 시각)까지 등록할 수 없습니다 — 그 뒤에 다시 확인하세요",
+        "hold_until": "2026-10-19T19:22:06.142Z"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "25740336",
+      "name": "태양광발전모듈, 에이치디현대에너지솔루션, HiS-T500NR-ES, 500W, 120셀",
+      "model": "HiS-T500NR-ES",
+      "category": "태양광발전모듈",
+      "local_C": 7813961100.0,
+      "local_Q": 48822.0,
+      "local_lines": 674.0,
+      "historical_states": [
+        "available"
+      ],
+      "fresh_lookup": {
+        "input": "25740336",
+        "kind": "item",
+        "item_id": "25740336",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "25218059",
+      "name": "철근콘크리트용봉강, 한국특강, KS-400-10, SD400, D10",
+      "model": "KS-400-10",
+      "category": "철근콘크리트용봉강",
+      "local_C": 7558133311.0,
+      "local_Q": 9132.0,
+      "local_lines": 383.0,
+      "historical_states": [
+        "available"
+      ],
+      "fresh_lookup": {
+        "input": "25218059",
+        "kind": "item",
+        "item_id": "25218059",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "21584881",
+      "name": "졸업앨범, 일반형, 250×315mm(부산)",
+      "model": "250×315mm(부산)",
+      "category": "졸업앨범",
+      "local_C": 7541590890.0,
+      "local_Q": 770.0,
+      "local_lines": 770.0,
+      "historical_states": [
+        "available",
+        "on_hold"
+      ],
+      "fresh_lookup": {
+        "input": "21584881",
+        "kind": "item",
+        "item_id": "21584881",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "21657949",
+      "name": "시멘트, 삼표시멘트, 포틀랜드시멘트(1종)포장, 40kg",
+      "model": "포틀랜드시멘트(1종)포장",
+      "category": "시멘트",
+      "local_C": 7198567240.0,
+      "local_Q": 1278498.0,
+      "local_lines": 543.0,
+      "historical_states": [
+        "available",
+        "on_hold"
+      ],
+      "fresh_lookup": {
+        "input": "21657949",
+        "kind": "item",
+        "item_id": "21657949",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "23598276",
+      "name": "기타조경시설물, 이노스, INOS-D007, 1000×1500×75mm",
+      "model": "INOS-D007",
+      "category": "기타조경시설물",
+      "local_C": 7119014400.0,
+      "local_Q": 19776.0,
+      "local_lines": 98.0,
+      "historical_states": [
+        "available",
+        "on_hold"
+      ],
+      "fresh_lookup": {
+        "input": "23598276",
+        "kind": "item",
+        "item_id": "23598276",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "23197517",
+      "name": "아스팔트, 일우피피씨, ILT-4, 200kg/드럼, 유화아스팔트",
+      "model": "ILT-4",
+      "category": "아스팔트",
+      "local_C": 7067835016.0,
+      "local_Q": 13086.0,
+      "local_lines": 545.0,
+      "historical_states": [
+        "available"
+      ],
+      "fresh_lookup": {
+        "input": "23197517",
+        "kind": "item",
+        "item_id": "23197517",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "24697420",
+      "name": "증발냉방장치, 안개핀조경, AGP-MP-406, 2.2kW",
+      "model": "AGP-MP-406",
+      "category": "증발냉방장치",
+      "local_C": 6626060000.0,
+      "local_Q": 893.0,
+      "local_lines": 58.0,
+      "historical_states": [
+        "available",
+        "on_hold"
+      ],
+      "fresh_lookup": {
+        "input": "24697420",
+        "kind": "item",
+        "item_id": "24697420",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "25218053",
+      "name": "철근콘크리트용봉강, 한국특강, KS-400-19, SD400, D19",
+      "model": "KS-400-19",
+      "category": "철근콘크리트용봉강",
+      "local_C": 6570885556.0,
+      "local_Q": 7967.0,
+      "local_lines": 532.0,
+      "historical_states": [
+        "available"
+      ],
+      "fresh_lookup": {
+        "input": "25218053",
+        "kind": "item",
+        "item_id": "25218053",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "25842132",
+      "name": "철근콘크리트용봉강, 화진철강, HJ400/16, SD400, D16",
+      "model": "HJ400/16",
+      "category": "철근콘크리트용봉강",
+      "local_C": 6420706128.0,
+      "local_Q": 7570.0,
+      "local_lines": 848.0,
+      "historical_states": [
+        "available"
+      ],
+      "fresh_lookup": {
+        "input": "25842132",
+        "kind": "item",
+        "item_id": "25842132",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "26262534",
+      "name": "전투복, 동명양행, 육군 하계용 하의(남군), 국방규격",
+      "model": "육군 하계용 하의(남군)",
+      "category": "전투복",
+      "local_C": 6407773320.0,
+      "local_Q": 181884.0,
+      "local_lines": 16.0,
+      "historical_states": [
+        "available"
+      ],
+      "fresh_lookup": {
+        "input": "26262534",
+        "kind": "item",
+        "item_id": "26262534",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "26274076",
+      "name": "군용방한복, GNT부산의용촌, 육군 방상외피(레이어링), 국방규격",
+      "model": "육군 방상외피(레이어링)",
+      "category": "군용방한복",
+      "local_C": 6251913360.0,
+      "local_Q": 71746.0,
+      "local_lines": 8.0,
+      "historical_states": [
+        "available"
+      ],
+      "fresh_lookup": {
+        "input": "26274076",
+        "kind": "item",
+        "item_id": "26274076",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "21639833",
+      "name": "시멘트, 한일시멘트, 포틀랜드1종포장시멘트, 40kg",
+      "model": "포틀랜드1종포장시멘트",
+      "category": "시멘트",
+      "local_C": 6119502166.0,
+      "local_Q": 1116526.0,
+      "local_lines": 387.0,
+      "historical_states": [
+        "available",
+        "on_hold"
+      ],
+      "fresh_lookup": {
+        "input": "21639833",
+        "kind": "item",
+        "item_id": "21639833",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "22839940",
+      "name": "수도용덕타일주철관, Φ150mm×6m, 2종, KP메커니컬/에폭시",
+      "model": "2종",
+      "category": "수도용덕타일주철관",
+      "local_C": 6025569370.0,
+      "local_Q": 18091.0,
+      "local_lines": 197.0,
+      "historical_states": [
+        "available"
+      ],
+      "fresh_lookup": {
+        "input": "22839940",
+        "kind": "item",
+        "item_id": "22839940",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "21584869",
+      "name": "졸업앨범, 일반형, 250×315mm(울산경남)",
+      "model": "250×315mm(울산경남)",
+      "category": "졸업앨범",
+      "local_C": 5959218420.0,
+      "local_Q": 703.0,
+      "local_lines": 703.0,
+      "historical_states": [
+        "available",
+        "on_hold"
+      ],
+      "fresh_lookup": {
+        "input": "21584869",
+        "kind": "item",
+        "item_id": "21584869",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "25218054",
+      "name": "철근콘크리트용봉강, 한국특강, KS-400-22, SD400, D22",
+      "model": "KS-400-22",
+      "category": "철근콘크리트용봉강",
+      "local_C": 5340888863.0,
+      "local_Q": 6470.0,
+      "local_lines": 310.0,
+      "historical_states": [
+        "available"
+      ],
+      "fresh_lookup": {
+        "input": "25218054",
+        "kind": "item",
+        "item_id": "25218054",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "24038394",
+      "name": "폴리우레아수지도막방수재, 한라케미칼, UREA-COOLINGZONE S200, t2mm, 주차장/옥상",
+      "model": "UREA-COOLINGZONE S200",
+      "category": "폴리우레아수지도막방수재",
+      "local_C": 5271013355.0,
+      "local_Q": 101389.0,
+      "local_lines": 47.0,
+      "historical_states": [
+        "available",
+        "on_hold"
+      ],
+      "fresh_lookup": {
+        "input": "24038394",
+        "kind": "item",
+        "item_id": "24038394",
+        "state": "on_hold",
+        "message": "운영진이 반려한 물품이라 2026-10-20 07:24(한국 시각)까지 등록할 수 없습니다 — 그 뒤에 다시 확인하세요",
+        "hold_until": "2026-10-19T22:23:14.258Z"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "25817222",
+      "name": "살수기, 에스알디코리아, SRDPFPE20BT, 12~15L/min",
+      "model": "SRDPFPE20BT",
+      "category": "살수기",
+      "local_C": 5246180000.0,
+      "local_Q": 2305.0,
+      "local_lines": 38.0,
+      "historical_states": [
+        "available",
+        "on_hold"
+      ],
+      "fresh_lookup": {
+        "input": "25817222",
+        "kind": "item",
+        "item_id": "25817222",
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "adopted_savings_krw": null
+    },
+    {
+      "item_id": "24762652",
+      "name": "금속제창, 경원알미늄, KW-CAW-180-HD-24LEAR-11, 180mm, 히든커튼월/불소수지2회",
+      "model": "KW-CAW-180-HD-24LEAR-11",
+      "category": "금속제창",
+      "local_C": 5133093390.0,
+      "local_Q": 301948.0,
+      "local_lines": 19.0,
+      "historical_states": [
+        "available"
+      ],
+      "fresh_lookup": {
+        "input": "24762652",
+        "kind": "item",
+        "item_id": "24762652",
+        "state": "claimed",
+        "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+      },
+      "adopted_savings_krw": null
+    }
+  ],
+  "additional_parallel_discovery": {
+    "calls": 4,
+    "queries": "BB-2 아스콘2회·눈길파워Z-1000·SRDPFPE20BT. 무관한 상품, 조달가격 재가공, 가격 없는 제조사 소개와 일반 시세 설명은 판매 근거로 채택하지 않음."
+  },
+  "source_integrity": [
+    {
+      "path": "work/highvalue-root/resume-20261019-pass2/root-highspend-status-selection.json",
+      "bytes": 11419,
+      "sha256": "3837ceffee2a5351e95ef2bc741c243e3d4e9d6638598b4ee005f08bd743743f"
+    },
+    {
+      "path": "work/highvalue-root/resume-20261019-pass2/root-highspend-status-lookup.json",
+      "bytes": 8765,
+      "sha256": "7f0b14a203616b5645191c8e728a72e9dd237b03daf3437cf4617d974bfb8bcd"
+    },
+    {
+      "path": "work/highvalue-root/resume-20261019-pass2/parallel-newbulk-0.json",
+      "bytes": 8333,
+      "sha256": "50045e8f73317336f360742b16a1549cee5ee5e55bba56a15be5472cd7fb5697"
+    },
+    {
+      "path": "work/highvalue-root/resume-20261019-pass2/parallel-newbulk-1.json",
+      "bytes": 1902,
+      "sha256": "ac130dfcebb7b7452acff8cb0af040ac2fde99cf020774701425f991c1a0987d"
+    },
+    {
+      "path": "work/highvalue-root/resume-20261019-pass2/parallel-newbulk-2.json",
+      "bytes": 1496,
+      "sha256": "f2698a344c1d30d65ce572f0135360b6baf1934a1f75b739fcfd9848ea1c082d"
+    },
+    {
+      "path": "work/highvalue-root/resume-20261019-pass2/parallel-newbulk-3.json",
+      "bytes": 4699,
+      "sha256": "cfacceda12ff75d10c4f2c151bab115db61d3896bb017a5953e3b55d6ed27b67"
+    }
+  ]
+}
