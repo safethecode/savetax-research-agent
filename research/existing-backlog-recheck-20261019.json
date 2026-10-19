@@ -1,5 +1,5 @@
 {
-  "reviewed_at_utc": "2026-10-19T12:02:21.731853+00:00",
+  "reviewed_at_utc": "2026-10-19T12:09:00.646951+00:00",
   "correction": "앞선 원장 조회는 기존 보고서의 서로 다른 차액 필드와 중첩 계산을 놓쳐 기존 대기 후보 전체를 재검증하지 못했다. 수집 수를 접수 준비 완료 수로 설명하지 않는다.",
   "method": "기존 research JSON의 item_id 문맥을 중첩 계산에 전달하여 saving/difference 계열을 다시 읽음. 소프트웨어·차량 제외. amount_krw 같은 타 참가자 접수액과 목표 단가 민감도는 검증된 절감액으로 승격하지 않음.",
   "existing_physical_scenario_records_checked": 58,
@@ -2729,5 +2729,20 @@
       "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
     }
   ],
-  "warning": "재조회 목록의 maximum_conditional_not_verified_krw는 가격별 민감도·목표 단가·미적합 대안·실제 판매가 기반 산술이 혼재한 과거 수치다. 이를 현재 접수 순위나 확보액으로 사용하지 않는다."
+  "warning": "재조회 목록의 maximum_conditional_not_verified_krw는 가격별 민감도·목표 단가·미적합 대안·실제 판매가 기반 산술이 혼재한 과거 수치다. 이를 현재 접수 순위나 확보액으로 사용하지 않는다.",
+  "concurrent_existing_submission_confirmation": {
+    "attribution": "원격 저장소에 동기화된 별도 병행 작업의 신규 접수. 이 조사 실행의 POST 성과로 세지 않음.",
+    "canonical_product_id": "23454735",
+    "source_url": "https://hackathon.savetax.now/v1/events/current/submissions/4017ca55-614a-49f6-b08a-8730b75f3d40",
+    "observed_at_utc": "2026-10-19T12:07:48.316174+00:00",
+    "submission_id": "4017ca55-614a-49f6-b08a-8730b75f3d40",
+    "submission_state": "accepted",
+    "amount_kind": "provisional",
+    "amount_krw": 668418261,
+    "current_revision": 1,
+    "verification_status": "not_started",
+    "lint_status": "unreadable",
+    "held": false,
+    "rejected": false
+  }
 }
