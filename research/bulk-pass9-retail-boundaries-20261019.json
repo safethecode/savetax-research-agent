@@ -1,0 +1,1106 @@
+{
+  "schema_version": 1,
+  "snapshot_status": "frozen_for_parent_review",
+  "observed_through_utc": "2026-10-19T16:55:35.691134+00:00",
+  "scope": "owner_slot 1 및 부모가 명시 이관한 품목. 현재 읽은 원문과 카탈로그만 보존하는 pass9 첫 묶음이다.",
+  "counts": {
+    "new_official_catalog_items": 8,
+    "new_state_lookup_items": 5,
+    "new_state_lookup_available": 5,
+    "parallel_queries": 15,
+    "http_page_groups": 9,
+    "http_200_with_substantive_text": 8,
+    "http_200_empty_body_groups": 1,
+    "retail_native_option_success": 1,
+    "official_fact_sets_newly_fetched": 0,
+    "adopted_offers": 0,
+    "new_posts": 0,
+    "source_files": 57,
+    "item_cards": 13
+  },
+  "count_note": "로컬 기계 선별 수는 웹 검토 수가 아니다. 이 묶음은 새 공식 fact를 가져오지 않아 계약·납품요구·라인 목록을 만들거나 검증액을 산출하지 않았다. 원품 카탈로그의 납품 합계는 탐색 정보이며 대회 C/Q로 대체하지 않는다.",
+  "items": [
+    {
+      "item_id": "22367620",
+      "name": "의료용살충제, 베스트텍코리아, 베가비티입제, 25g×40개/포",
+      "manufacturer": "(주)베스트텍코리아",
+      "model": "베가비티입제",
+      "category": "의료용살충제",
+      "official_catalog_url": "https://api.savetax.now/v1/items/22367620",
+      "catalog_observed_at_utc": "2026-10-19T16:33:04.139834+00:00",
+      "official_attributes": [
+        {
+          "name": "제형",
+          "unit": null,
+          "value": "고형제"
+        },
+        {
+          "name": "효능",
+          "unit": null,
+          "value": "모기유충의 구제"
+        },
+        {
+          "name": "사용기간",
+          "unit": null,
+          "value": "제조일로부터 24개월"
+        },
+        {
+          "name": "약품구분",
+          "unit": null,
+          "value": "의약외품"
+        },
+        {
+          "name": "저장방법",
+          "unit": null,
+          "value": "기밀용기, 건냉암소보관"
+        },
+        {
+          "name": "포장단위",
+          "unit": null,
+          "value": "25g×40개/포"
+        },
+        {
+          "name": "유효성분및함유량",
+          "unit": null,
+          "value": "BTI 활성결정성단백질및불활성농축고형물 H-14 strain BMP 144(역가 7000ITU/mg) 2.86g/100g"
+        }
+      ],
+      "procurement_activity_for_discovery_only": {
+        "contractCount": 1,
+        "contractAmount": null,
+        "deliveryOrderCount": 59,
+        "deliveryLineCount": 59,
+        "deliveryQuantity": "8169.0000",
+        "deliveryAmount": "531801900.0000",
+        "firstRequestDate": "2025-10-13",
+        "lastRequestDate": "2026-09-21"
+      },
+      "status": "no_exact_ordinary_retail_price_found",
+      "reason": "베가비티입제 25g×40개/포는 제조사·유효성분·포장을 확인했다. 공식 상품 사진에는 1kg/25g×40포가 보인다. 공개 일반 판매가를 확인하지 못했으며 공공조달 가격을 판매 근거로 쓰지 않았다.",
+      "adopted_benchmark_unit_price_krw": null,
+      "adopted_savings_krw": null,
+      "ready_for_submission": false,
+      "official_facts_fetched_in_this_unit": false,
+      "fulfillment_evidence": []
+    },
+    {
+      "item_id": "25645040",
+      "name": "콘크리트호안및옹벽블록, 그린스톤, YS-1, 보통옹벽블록(대형), W1200×L800×H500mm, 옐로우스톤(기본블록), 컬러",
+      "manufacturer": "그린스톤주식회사",
+      "model": "YS-1",
+      "category": "콘크리트호안및옹벽블록",
+      "official_catalog_url": "https://api.savetax.now/v1/items/25645040",
+      "catalog_observed_at_utc": "2026-10-19T16:33:19.642273+00:00",
+      "official_attributes": [
+        {
+          "name": "색상",
+          "unit": null,
+          "value": "컬러"
+        },
+        {
+          "name": "용도",
+          "unit": null,
+          "value": "보통옹벽블록(대형)"
+        },
+        {
+          "name": "종류",
+          "unit": null,
+          "value": "콘크리트호안및옹벽블록"
+        },
+        {
+          "name": "소요량",
+          "unit": "개/㎡",
+          "value": "1.67"
+        },
+        {
+          "name": "흡수율",
+          "unit": null,
+          "value": "7%이하"
+        },
+        {
+          "name": "단위무게",
+          "unit": "kg/개",
+          "value": "586"
+        },
+        {
+          "name": "압축강도",
+          "unit": "MPa",
+          "value": "28이상"
+        },
+        {
+          "name": "크기(길이)",
+          "unit": "mm",
+          "value": "800"
+        },
+        {
+          "name": "크기(두께)",
+          "unit": "mm",
+          "value": "500"
+        },
+        {
+          "name": "크기(폭)",
+          "unit": "mm",
+          "value": "1200"
+        },
+        {
+          "name": "옵션/기타",
+          "unit": null,
+          "value": "호칭:옐로우스톤(기본블록)"
+        }
+      ],
+      "procurement_activity_for_discovery_only": {
+        "contractCount": 1,
+        "contractAmount": null,
+        "deliveryOrderCount": 4,
+        "deliveryLineCount": 4,
+        "deliveryQuantity": "2920.0000",
+        "deliveryAmount": "533907000.0000",
+        "firstRequestDate": "2026-03-03",
+        "lastRequestDate": "2026-08-06"
+      },
+      "status": "no_exact_ordinary_retail_price_found",
+      "reason": "YS-1은 1200×800×500mm 컬러 블록이며 자중 586kg/개, 1.67개/㎡, 압축강도 28MPa 이상이다. ㎡당 자중은 978.62kg이다. 작은 민무늬 보강토블록의 가격을 이 구조물에 전용하지 않았다. 같은 모델의 일반 판매가는 확인하지 못했다.",
+      "adopted_benchmark_unit_price_krw": null,
+      "adopted_savings_krw": null,
+      "ready_for_submission": false,
+      "official_facts_fetched_in_this_unit": false,
+      "fulfillment_evidence": []
+    },
+    {
+      "item_id": "25266203",
+      "name": "동력분무기, 신한기술그룹, SHA-PS01, 0.615L/min, 거치형",
+      "manufacturer": "신한기술그룹 주식회사",
+      "model": "SHA-PS01",
+      "category": "동력분무기",
+      "official_catalog_url": "https://api.savetax.now/v1/items/25266203",
+      "catalog_observed_at_utc": "2026-10-19T16:33:35.139068+00:00",
+      "official_attributes": [
+        {
+          "name": "무게",
+          "unit": "kg",
+          "value": "28"
+        },
+        {
+          "name": "재질",
+          "unit": null,
+          "value": "강철, 알루미늄"
+        },
+        {
+          "name": "형식",
+          "unit": null,
+          "value": "거치형"
+        },
+        {
+          "name": "동력원",
+          "unit": null,
+          "value": "전기모터"
+        },
+        {
+          "name": "분무량",
+          "unit": "L/min",
+          "value": "0.615"
+        },
+        {
+          "name": "소요동력",
+          "unit": "kW",
+          "value": "0.15"
+        },
+        {
+          "name": "주행장치",
+          "unit": null,
+          "value": "무"
+        },
+        {
+          "name": "최고압력",
+          "unit": "MPa",
+          "value": "10"
+        },
+        {
+          "name": "호스길이",
+          "unit": "m",
+          "value": "20"
+        },
+        {
+          "name": "레버조작방향",
+          "unit": null,
+          "value": "상하좌우"
+        },
+        {
+          "name": "크기(깊이)",
+          "unit": "mm",
+          "value": "520"
+        },
+        {
+          "name": "크기(높이)",
+          "unit": "mm",
+          "value": "515"
+        },
+        {
+          "name": "크기(폭)",
+          "unit": "mm",
+          "value": "515"
+        }
+      ],
+      "procurement_activity_for_discovery_only": {
+        "contractCount": 1,
+        "contractAmount": null,
+        "deliveryOrderCount": 5,
+        "deliveryLineCount": 5,
+        "deliveryQuantity": "72.0000",
+        "deliveryAmount": "439200000.0000",
+        "firstRequestDate": "2025-11-05",
+        "lastRequestDate": "2026-07-21"
+      },
+      "status": "no_complete_product_retail_price_found",
+      "reason": "원품은 원형 송풍 팬과 분무 노즐을 갖춘 거치형 완제품이다. 0.15kW, 10MPa, 0.615L/min, 20m 호스, 28kg 속성을 보존했다. 농업용 펌프나 호스 부품의 가격을 완제품 가격으로 쓰지 않았다.",
+      "adopted_benchmark_unit_price_krw": null,
+      "adopted_savings_krw": null,
+      "ready_for_submission": false,
+      "official_facts_fetched_in_this_unit": false,
+      "fulfillment_evidence": []
+    },
+    {
+      "item_id": "26108907",
+      "name": "진공청소기, 삼성전자, (VN)VS70H18GVK , 500W, 핸디/스틱형",
+      "manufacturer": "삼성전자 주식회사",
+      "model": "(VN)VS70H18GVK",
+      "category": "진공청소기",
+      "official_catalog_url": "https://api.savetax.now/v1/items/26108907",
+      "catalog_observed_at_utc": "2026-10-19T16:37:17.755822+00:00",
+      "official_attributes": [
+        {
+          "name": "무게",
+          "unit": "kg",
+          "value": "1.96"
+        },
+        {
+          "name": "색상",
+          "unit": null,
+          "value": "새틴블랙"
+        },
+        {
+          "name": "전원",
+          "unit": "V",
+          "value": "AC220"
+        },
+        {
+          "name": "형태",
+          "unit": null,
+          "value": "핸디/스틱형"
+        },
+        {
+          "name": "포집양",
+          "unit": "L",
+          "value": "0.35"
+        },
+        {
+          "name": "흡입력",
+          "unit": "W",
+          "value": "180"
+        },
+        {
+          "name": "본체크기",
+          "unit": "mm",
+          "value": "250×1040×181"
+        },
+        {
+          "name": "소비전력",
+          "unit": "W",
+          "value": "500"
+        },
+        {
+          "name": "옵션/기타",
+          "unit": null,
+          "value": "구성품 : 물분사 물걸레 브러시, 솔브러시, 틈새브러시"
+        }
+      ],
+      "procurement_activity_for_discovery_only": {
+        "contractCount": 1,
+        "contractAmount": null,
+        "deliveryOrderCount": 115,
+        "deliveryLineCount": 116,
+        "deliveryQuantity": "196.0000",
+        "deliveryAmount": "104860000.0000",
+        "firstRequestDate": "2026-05-11",
+        "lastRequestDate": "2026-09-23"
+      },
+      "status": "retailer_page_read_failed",
+      "reason": "원품 VS70H18GVK에는 물분사 물걸레 브러시·솔브러시·틈새브러시가 명시된다. 판매처 HTTP 200 응답은 본문이 비어 있었고, 본인 브라우저의 document.readyState 읽기는 시간 초과했다. 카드 조건 가격과 다른 구성의 기본형을 채택하지 않았다.",
+      "adopted_benchmark_unit_price_krw": null,
+      "adopted_savings_krw": null,
+      "ready_for_submission": false,
+      "official_facts_fetched_in_this_unit": false,
+      "fulfillment_evidence": []
+    },
+    {
+      "item_id": "22151799",
+      "name": "주방기구소독기, 하인스, HGS-HG815S, 자외선소독/열풍건조/행주고무장갑, 580×550×1750mm",
+      "manufacturer": "(주)하인스",
+      "model": "HGS-HG815S",
+      "category": "주방기구소독기",
+      "official_catalog_url": "https://api.savetax.now/v1/items/22151799",
+      "catalog_observed_at_utc": "2026-10-19T16:37:48.717113+00:00",
+      "official_attributes": [
+        {
+          "name": "용량",
+          "unit": null,
+          "value": "행주:15장/고무장갑:15켤레"
+        },
+        {
+          "name": "재질",
+          "unit": null,
+          "value": "스테인리스강"
+        },
+        {
+          "name": "사용전압",
+          "unit": "V",
+          "value": "AC220"
+        },
+        {
+          "name": "소독대상",
+          "unit": null,
+          "value": "행주/고무장갑"
+        },
+        {
+          "name": "소독방식",
+          "unit": null,
+          "value": "자외선소독"
+        },
+        {
+          "name": "소비전력",
+          "unit": "W",
+          "value": "755"
+        },
+        {
+          "name": "건조기능유무",
+          "unit": null,
+          "value": "유(열풍건조)"
+        },
+        {
+          "name": "보온기능유무",
+          "unit": null,
+          "value": "유"
+        },
+        {
+          "name": "살균등소비전력",
+          "unit": "W",
+          "value": "15"
+        },
+        {
+          "name": "외형크기(깊이)",
+          "unit": "mm",
+          "value": "550"
+        },
+        {
+          "name": "외형크기(높이)",
+          "unit": "mm",
+          "value": "1750"
+        },
+        {
+          "name": "외형크기(폭)",
+          "unit": "mm",
+          "value": "580"
+        }
+      ],
+      "procurement_activity_for_discovery_only": {
+        "contractCount": 1,
+        "contractAmount": null,
+        "deliveryOrderCount": 7,
+        "deliveryLineCount": 19,
+        "deliveryQuantity": "66.0000",
+        "deliveryAmount": "103800000.0000",
+        "firstRequestDate": "2025-10-14",
+        "lastRequestDate": "2026-09-02"
+      },
+      "status": "manufacturer_listing_only",
+      "reason": "HGS-HG815S는 행주 15장·고무장갑 15켤레를 수납하는 자외선 살균·열풍 건조 완제품이다. 제조사 제품 목록은 검색됐으나 같은 모델의 공개 일반 판매가를 확인하지 못했다.",
+      "adopted_benchmark_unit_price_krw": null,
+      "adopted_savings_krw": null,
+      "ready_for_submission": false,
+      "official_facts_fetched_in_this_unit": false,
+      "fulfillment_evidence": []
+    },
+    {
+      "item_id": "23405394",
+      "name": "타월, 광천타올, GC-180, 400×800mm, 군용",
+      "manufacturer": "주식회사 광천타올",
+      "model": "GC-180",
+      "category": "타월",
+      "official_catalog_url": "https://api.savetax.now/v1/items/23405394",
+      "catalog_observed_at_utc": "2026-10-19T16:37:33.233795+00:00",
+      "official_attributes": [
+        {
+          "name": "색상",
+          "unit": null,
+          "value": "회색"
+        },
+        {
+          "name": "용도",
+          "unit": null,
+          "value": "군용"
+        },
+        {
+          "name": "호수",
+          "unit": null,
+          "value": "4"
+        },
+        {
+          "name": "구성수량",
+          "unit": null,
+          "value": "1"
+        },
+        {
+          "name": "크기(깊이)",
+          "unit": "mm",
+          "value": "800"
+        },
+        {
+          "name": "크기(폭)",
+          "unit": "mm",
+          "value": "400"
+        },
+        {
+          "name": "옵션/기타",
+          "unit": null,
+          "value": "질량:180g/장"
+        }
+      ],
+      "procurement_activity_for_discovery_only": {
+        "contractCount": 1,
+        "contractAmount": null,
+        "deliveryOrderCount": 1,
+        "deliveryLineCount": 2,
+        "deliveryQuantity": "92000.0000",
+        "deliveryAmount": "273240000.0000",
+        "firstRequestDate": "2026-02-23",
+        "lastRequestDate": "2026-02-23"
+      },
+      "status": "retail_search_lead_only",
+      "reason": "GC180은 400×800mm, 180g, 회색 군용 타월이다. 검색에서 동일 브랜드 180g 판매 단서를 찾았으나 이 패스에서 실제 판매 페이지·선택 옵션·세금·납품별 비교를 닫지 않았다. 검색 가격을 채택 단가로 쓰지 않았다.",
+      "adopted_benchmark_unit_price_krw": null,
+      "adopted_savings_krw": null,
+      "ready_for_submission": false,
+      "official_facts_fetched_in_this_unit": false,
+      "fulfillment_evidence": []
+    },
+    {
+      "item_id": "24079243",
+      "name": "타월, 샤워타월",
+      "manufacturer": null,
+      "model": null,
+      "category": "타월",
+      "official_catalog_url": "https://api.savetax.now/v1/items/24079243",
+      "catalog_observed_at_utc": "2026-10-19T16:36:46.861511+00:00",
+      "official_attributes": [],
+      "procurement_activity_for_discovery_only": {
+        "contractCount": 1,
+        "contractAmount": null,
+        "deliveryOrderCount": 2,
+        "deliveryLineCount": 6,
+        "deliveryQuantity": "160197.0000",
+        "deliveryAmount": "148983210.0000",
+        "firstRequestDate": "2026-08-12",
+        "lastRequestDate": "2026-08-12"
+      },
+      "status": "original_scope_insufficient",
+      "reason": "공식 카탈로그는 제조사·모델·속성·설명 본문이 비어 있다. 일반 샤워타월과의 구성·재질 대응을 확정하지 않았으며 이 품목의 새 판매 원문은 읽지 않았다.",
+      "adopted_benchmark_unit_price_krw": null,
+      "adopted_savings_krw": null,
+      "ready_for_submission": false,
+      "official_facts_fetched_in_this_unit": false,
+      "fulfillment_evidence": []
+    },
+    {
+      "item_id": "22298807",
+      "name": "살균제, 씨엔지, 보디가드, 5L×4통/상자, 가축질병예방용",
+      "manufacturer": "(주)씨엔지",
+      "model": "보디가드",
+      "category": "살균제",
+      "official_catalog_url": "https://api.savetax.now/v1/items/22298807",
+      "catalog_observed_at_utc": "2026-10-19T16:37:02.342346+00:00",
+      "official_attributes": [
+        {
+          "name": "용도",
+          "unit": null,
+          "value": "가축질병예방용"
+        },
+        {
+          "name": "적용균",
+          "unit": null,
+          "value": "구제역/조류인플루엔자/돼지콜레라/뉴캣슬병/일반세균 등"
+        },
+        {
+          "name": "사용방법",
+          "unit": null,
+          "value": "복합4급암모늄(10%) 및 산성제"
+        },
+        {
+          "name": "포장단위",
+          "unit": null,
+          "value": "5L×4통/상자"
+        },
+        {
+          "name": "외관및성상",
+          "unit": null,
+          "value": "다량의 물과 희석사용"
+        },
+        {
+          "name": "주성분및함유량",
+          "unit": null,
+          "value": "가축질병방역소독 및 차량소독"
+        },
+        {
+          "name": "기타유효성분및함유량",
+          "unit": null,
+          "value": "구연산20%/인산 등 적량"
+        },
+        {
+          "name": "옵션/기타",
+          "unit": null,
+          "value": "PE용기통"
+        }
+      ],
+      "procurement_activity_for_discovery_only": {
+        "contractCount": 1,
+        "contractAmount": null,
+        "deliveryOrderCount": 16,
+        "deliveryLineCount": 16,
+        "deliveryQuantity": "4850.0000",
+        "deliveryAmount": "252200000.0000",
+        "firstRequestDate": "2025-10-16",
+        "lastRequestDate": "2026-09-15"
+      },
+      "status": "different_pack_retail_price_not_adopted",
+      "reason": "원품은 보디가드 5L×4통/상자로 기재되며 공식 표시 단위는 통이다. 씨엔지 제조사의 보디가드 원문과 판매처 1L 18,500원은 읽었지만 5L 판매가는 없었다. 1L 가격을 5L 또는 4통 상자로 환산해 같은 상품 가격으로 쓰지 않았다.",
+      "adopted_benchmark_unit_price_krw": null,
+      "adopted_savings_krw": null,
+      "ready_for_submission": false,
+      "official_facts_fetched_in_this_unit": false,
+      "fulfillment_evidence": []
+    },
+    {
+      "item_id": "25581494",
+      "name": "무선마이크장치, 디스텍, DS-900DA, 송신기/수신기",
+      "manufacturer": "(주)디스텍",
+      "model": "DS-900DA",
+      "official_attributes": [
+        {
+          "name": "감도",
+          "unit": "dBm",
+          "value": "-95"
+        },
+        {
+          "name": "무게",
+          "unit": "kg",
+          "value": "2.8"
+        },
+        {
+          "name": "용도",
+          "unit": null,
+          "value": "강의용"
+        },
+        {
+          "name": "종류",
+          "unit": null,
+          "value": "무선마이크수신기"
+        },
+        {
+          "name": "수신기",
+          "unit": null,
+          "value": "무선수신기"
+        },
+        {
+          "name": "확성도",
+          "unit": "dB",
+          "value": "90"
+        },
+        {
+          "name": "변환방식",
+          "unit": null,
+          "value": "GFSK"
+        },
+        {
+          "name": "사용거리",
+          "unit": "m",
+          "value": "10"
+        },
+        {
+          "name": "사용전압",
+          "unit": "V",
+          "value": "12"
+        },
+        {
+          "name": "앰프출력",
+          "unit": "W",
+          "value": "30"
+        },
+        {
+          "name": "임피던스",
+          "unit": "Ω",
+          "value": "8"
+        },
+        {
+          "name": "출력레벨",
+          "unit": "mV",
+          "value": "10"
+        },
+        {
+          "name": "구성부분품",
+          "unit": null,
+          "value": "송신기, 수신기"
+        },
+        {
+          "name": "메인프레임",
+          "unit": null,
+          "value": "ABS"
+        },
+        {
+          "name": "송신주파수",
+          "unit": "MHz",
+          "value": "925~937.5"
+        },
+        {
+          "name": "수동송신기",
+          "unit": null,
+          "value": "자동링크방식"
+        },
+        {
+          "name": "수신주파수",
+          "unit": "MHz",
+          "value": "925~937.5"
+        },
+        {
+          "name": "주파수대역",
+          "unit": "MHz",
+          "value": "925~937.5"
+        },
+        {
+          "name": "주파수반응",
+          "unit": "MHz",
+          "value": "30~20000"
+        },
+        {
+          "name": "화음왜곡률",
+          "unit": null,
+          "value": "1%이하"
+        },
+        {
+          "name": "무선수신모듈",
+          "unit": null,
+          "value": "RF"
+        },
+        {
+          "name": "무선입력모듈",
+          "unit": null,
+          "value": "마이크2개지원"
+        },
+        {
+          "name": "부하임피던스",
+          "unit": "Ω",
+          "value": "8"
+        },
+        {
+          "name": "신호대잡음비",
+          "unit": "dB",
+          "value": "95"
+        },
+        {
+          "name": "출력임피던스",
+          "unit": "Ω",
+          "value": "8"
+        },
+        {
+          "name": "오디오출력모듈",
+          "unit": null,
+          "value": "지원(AUX, USB포함)"
+        },
+        {
+          "name": "크기(깊이)",
+          "unit": "mm",
+          "value": "162"
+        },
+        {
+          "name": "크기(높이)",
+          "unit": "mm",
+          "value": "220"
+        },
+        {
+          "name": "크기(폭)",
+          "unit": "mm",
+          "value": "340"
+        },
+        {
+          "name": "RF출력",
+          "unit": "dBm",
+          "value": "10"
+        }
+      ],
+      "official_catalog_url": "https://api.savetax.now/v1/items/25581494",
+      "status": "actual_selected_offer_core_correspondence_unresolved",
+      "reason": "DS-900DA는 마이크 2개 지원 및 전관방송 수신·앰프·스피커 일체형 기능이 원문에 있다. 대안 MA-100SB의 헤드셋 마이크 선택 가격은 실제 확인했지만 2개 마이크 지원과 전관방송 연동 대응을 확인하지 못했다. 출력 50W RMS만으로 핵심 성능이 더 좋다고 판정하지 않았다.",
+      "retail_offer": {
+        "source_url": "https://soundpower.co.kr/product/mipro-%EB%AF%B8%ED%94%84%EB%A1%9C-ma-100-%ED%9C%B4%EB%8C%80%EC%9A%A9-%EB%AC%B4%EC%84%A0%EC%95%B0%ED%94%84-%EC%BA%90%EB%A6%AC%EB%B0%B1-%EC%A6%9D%EC%A0%95-ma-100sb/7760",
+        "observed_at_utc": "2026-10-19T16:45:21.665977+00:00",
+        "brand": "MIPRO",
+        "model": "MA-100SB",
+        "selected_option": "앰프본체 + 헤드셋 마이크",
+        "quantity": 1,
+        "observed_selected_total_krw": 755000,
+        "base_price_krw": 700000,
+        "option_increment_krw": 55000,
+        "price_quote": "총 상품금액\n₩755,000 (1개)",
+        "shipping_quote": "배송비\t₩3,000 (₩60,000 이상 구매 시 무료)",
+        "tax_note": "공개 HTML의 기본가 분해는 공급가 636,364원 + 세액 63,636원 = 700,000원이다. 화면에 표시된 VAT 문구를 직접 인용한 것은 아니며, 헤드셋 옵션의 별도 세액 분해는 확인하지 않았다.",
+        "purchase_availability": {
+          "status": "available",
+          "channel": "택배 온라인 판매",
+          "basis": "선택된 헤드셋 옵션 행과 수량 1, 합계 755,000원 및 보이는 바로 구매하기 버튼을 실제 DOM에서 확인했다."
+        },
+        "native_tabs_cleaned": true
+      },
+      "adopted_benchmark_unit_price_krw": null,
+      "adopted_savings_krw": null,
+      "ready_for_submission": false,
+      "official_facts_fetched_in_this_unit": false,
+      "fulfillment_evidence": []
+    },
+    {
+      "item_id": "23435262",
+      "model": "CM180g",
+      "status": "prior_negative_reused_new_category_mismatch",
+      "prior_public_report": "research/bulk-complete-basics-nextday-20261017.json",
+      "reason": "이전 실제 판매가가 공식 fact보다 높았던 결과를 재사용했다. 새 한미타월 저가 목록은 물수건·면행주·손수건이어서 400×800mm 180g 완성 타월의 가격으로 채택하지 않았다.",
+      "adopted_benchmark_unit_price_krw": null,
+      "adopted_savings_krw": null,
+      "ready_for_submission": false
+    },
+    {
+      "item_id": "23544089",
+      "model": "HM002",
+      "status": "prior_negative_reused_new_category_mismatch",
+      "prior_public_report": "research/bulk-complete-basics-nextday-20261017.json",
+      "reason": "이전 실제 판매가가 공식 fact보다 높았던 결과를 재사용했다. 새 한미타월 저가 목록은 물수건·면행주·손수건이어서 400×800mm 180g 완성 타월의 가격으로 채택하지 않았다.",
+      "adopted_benchmark_unit_price_krw": null,
+      "adopted_savings_krw": null,
+      "ready_for_submission": false
+    },
+    {
+      "item_id": "26070866",
+      "model": "RFL-050-50K-102",
+      "status": "search_and_maker_lead_only",
+      "availability_lookup_in_this_unit": false,
+      "reason": "검색의 저가 제품은 8W 모듈 또는 중고 50W 제품이었다. 원품 50W 완성 신품의 가격으로 쓰지 않았다.",
+      "adopted_benchmark_unit_price_krw": null,
+      "adopted_savings_krw": null,
+      "ready_for_submission": false
+    },
+    {
+      "item_id": "25241027",
+      "model": "GTCBP-050-01-50",
+      "status": "search_and_maker_lead_only",
+      "availability_lookup_in_this_unit": false,
+      "reason": "갤럭시아이테크 제조사 홈페이지에서 해당 모델 적용 사례를 읽었으나 공개 일반 판매가는 확인하지 못했다.",
+      "adopted_benchmark_unit_price_krw": null,
+      "adopted_savings_krw": null,
+      "ready_for_submission": false
+    }
+  ],
+  "browser_evidence": {
+    "session": "bulk",
+    "baseline_restored": true,
+    "production_changed": false,
+    "shared_mcp_used": false,
+    "samsung_failure_stage": "wait_for_load: Runtime.evaluate document.readyState timeout",
+    "samsung_retry_result": "같은 판매처 재시도에서도 실패했으며 실제 상품가 확인으로 세지 않았다.",
+    "other_merchant_result": "사운드파워 Jev 및 선택 전후 실제 DOM 읽기는 성공했다. 임시 탭 정리를 확인했다.",
+    "jev_done_is_price_verification": false
+  },
+  "pending_separate_work": "고수량 4품목 26140728/25166552/23647593/24934810의 새 lookup 및 검색은 별도 후속 묶음으로 다루며 이 원천 해시에 포함하지 않는다.",
+  "sources": [
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/catalog-22367620.json",
+      "bytes": 3353,
+      "sha256": "2334a30ddacafb115e3564bc86623ede7e12cbfa346c30ec9d37eb154a50bc91"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/catalog-25645040.json",
+      "bytes": 3823,
+      "sha256": "6244a907e7eeacbc48c4faeb84eff187e3b93bebb9e3cc9b775aa68da431fa28"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/catalog-25266203.json",
+      "bytes": 3831,
+      "sha256": "47b8d4cd46b3e18511175a8676c60e02dd4a6a703485e7678a6946a8b2d2e1b1"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/catalog-26108907.json",
+      "bytes": 3600,
+      "sha256": "38cfdd0ad1480b2e4fe1d9f5037199ad2761ce266694a55a1bae9190f8ad77d6"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/catalog-22151799.json",
+      "bytes": 3872,
+      "sha256": "5d1617912fe0aebe2ff48c0de80ff472bcbacd6487aaa0805da3ea51180de79c"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/catalog-23405394.json",
+      "bytes": 3143,
+      "sha256": "db964c23c5c0010a8d0300d829542fd16ba7b1ebda461cf78eee27bdadc059e5"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/catalog-24079243.json",
+      "bytes": 2182,
+      "sha256": "45612558dc815544928945dde516cd826585b5fff66324261822748527071ecc"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/catalog-22298807.json",
+      "bytes": 3495,
+      "sha256": "9a340ef21d32226eb77f845f5d42170173d181aa8f8c302a73a85df175c7954a"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/lookup-standard-five.json",
+      "bytes": 1537,
+      "sha256": "372640066c046af479a412db8ba5d4306482d47d9c9dfa7053a2baefc22e7efc"
+    },
+    {
+      "path": "work/highvalue-root/resume-20261020-pass6/lookup-page10.json",
+      "bytes": 7721,
+      "sha256": "20c14b4e02800efabea50b64c675f958b1257be74b2705e5dc9e6bf3d4672c9d"
+    },
+    {
+      "path": "work/highvalue-root/resume-20261020-pass6/page10-owner.json",
+      "bytes": 2989,
+      "sha256": "33bb436fcfdeb7d7a528749c8b0acb1c151f61cd1eac4e7e7285d20e38b2e2e6"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass8/catalog-25581494.json",
+      "bytes": 5794,
+      "sha256": "87e562c5ff5976bb6cb23bdb667932e88cca828261c7f15b20b7e6d77ac7b661"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass8/lookup-copier-av-eight.json",
+      "bytes": 2552,
+      "sha256": "32908f7af8340d8357088f24c7bab1599a6f8613ea7358a802dff9ffa13c3118"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass8/disstech-2026-catalog.pdf",
+      "bytes": 4145662,
+      "sha256": "11e4f48e9a6e21ab1a5c68e861499716b8017db2ce63c7153f944a768e7091de"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass8/disstech-catalog-http.json",
+      "bytes": 451,
+      "sha256": "313155dd3c4ed231dc04ed8e63bb714e1d9ab760a05dfe711b682715e6264201"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass8/disstech-catalog-text.json",
+      "bytes": 20768,
+      "sha256": "8a80e4a46d58c7ab3240a09284ce9d41eb284db17a82adba26096b24dba3812e"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/parallel-standard-first-four.json",
+      "bytes": 28284,
+      "sha256": "a3e5db8bcacb37446ef00bb381a747dbb571e336a66806969c3fdc76d8712f01"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/parallel-page10-plus-four.json",
+      "bytes": 15161,
+      "sha256": "9523c57a21c338a291b3214880fa810c4fee13e46696473f6bc8b3ed20942a6a"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/parallel-short-maker-four.json",
+      "bytes": 13145,
+      "sha256": "649dbc8687b8571bf73803a8a31a34987b175a340c56dc9dfca58dcd15ce3bde"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/parallel-lamps-audio-three.json",
+      "bytes": 17723,
+      "sha256": "c2f55fdb83b0dc55eb953d8e28787a4a986e6436a9b85d9782052cb108243fc2"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/hanmi-cheap-list4010.html",
+      "bytes": 27955,
+      "sha256": "6281942113e85e5ac1da75aaf2e6d971793ca505b3590809ed8b019b83be93cc"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/hanmi-cheap-list4010.txt",
+      "bytes": 2510,
+      "sha256": "c411c7fe19fc98aafd1c8f7fbde8227d249de6d9f3c40e18edad10c2e65c7556"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/hanmi-cheap-list4010-http.json",
+      "bytes": 11326,
+      "sha256": "55e745eb6b3a2ad39f8c7e388e126d7e949cc9d8c7c53d57a4a386c593d8b9b2"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/samsungpmall-vs70-2913.html",
+      "bytes": 455,
+      "sha256": "0a3d7c86b1b4dc97d09df2b5f4bdace45936e4cf736e982df6fb6c203a7de630"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/samsungpmall-vs70-2913.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/samsungpmall-vs70-2913-http.json",
+      "bytes": 399,
+      "sha256": "02da977e22c599ea5c1145b9d1d26c3d49e7b8736b98c6c5c8764932096c0f19"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/eco89-bodyguard2031.html",
+      "bytes": 201811,
+      "sha256": "9c37fbd20dc56dbfb49fee052aec321ca85922f4366642d75f51a46874aba4c0"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/eco89-bodyguard2031.txt",
+      "bytes": 19954,
+      "sha256": "88c8531f575c66a779038a6596ec4958bee156e96885b5b02908c14ea1e838aa"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/eco89-bodyguard2031-http.json",
+      "bytes": 25820,
+      "sha256": "4c9149e97bb0ba59e63418d6e3d093720fc1fe3f88162b422956a35488049d3b"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/cnggo-maker-home.html",
+      "bytes": 76034,
+      "sha256": "527d0c8d252beaf16a1b3687ed1f2f0cb6e6277f62b60ee0ba1d33bfd76d0326"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/cnggo-maker-home.txt",
+      "bytes": 7769,
+      "sha256": "fc5a452ab5c7ff7f06a3609e62a569637141ab2df963c51c3bad7ab37456cada"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/cnggo-maker-home-http.json",
+      "bytes": 23988,
+      "sha256": "a1c865a1bb07c287bfe8ee877c932c1d587bba18e05400e82c228f5c19a6a683"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/cnggo-bodyguard466.html",
+      "bytes": 27728,
+      "sha256": "d9e584634ae830924e0dd2af47f5c755e5cb70223d64e5d494ba0ee5860d1d4a"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/cnggo-bodyguard466.txt",
+      "bytes": 1597,
+      "sha256": "076dd83fb540803ae83ca749005b19cc053f0858000c6f1530111368e1fb45af"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/cnggo-bodyguard466-http.json",
+      "bytes": 6975,
+      "sha256": "0f5c89eed28746319e96f3c1a72c178c3759b3cefe8208916f55a191b6d8506a"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/eco89-bodyguard-search.html",
+      "bytes": 163506,
+      "sha256": "596e28d48876ed0bd7cae66b0208b455da5e7b3bff68711b8f8c122ba36bbdd6"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/eco89-bodyguard-search.txt",
+      "bytes": 17480,
+      "sha256": "a5063ebbef01504fbd5ffa8542d22b0f644df65b6515979ea7840e46492d97ce"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/eco89-bodyguard-search-http.json",
+      "bytes": 22188,
+      "sha256": "46f0dba9dd4aa377594e609bc3cd87141a3ff1d69849a5840fdc4227a8c7cd2d"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/soundmodoo-ma100-4420.html",
+      "bytes": 157461,
+      "sha256": "ff165cfdf1869d73237e2245e4489dfe168d3a3e4bc6a652039839092fa02ece"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/soundmodoo-ma100-4420.txt",
+      "bytes": 11024,
+      "sha256": "984a7a3b50dd66d4188fe7f8c8397fcb92901929413589e036cdaa04f952beae"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/soundmodoo-ma100-4420-http.json",
+      "bytes": 30020,
+      "sha256": "5c6180315b917a46a5650aa41643ae978ed507377dedc59371cd67095661f2b1"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/soundpower-ma100-7760.html",
+      "bytes": 223747,
+      "sha256": "10c6d1886d2d123ed15d947d61c87c08ffaaf0dd8e90a34bb854ff4cb493999c"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/soundpower-ma100-7760.txt",
+      "bytes": 8328,
+      "sha256": "2a4a49c5a5ebc36463b2bdd724aa88685fbfa065cb4b76e4c277a48b177e5c5a"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/soundpower-ma100-7760-http.json",
+      "bytes": 78122,
+      "sha256": "4b567fac15ca0e35e1d9ada2e785830a1b54c1bfbeb76b815c200707d802cd2a"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/galaxiatech-maker-home.html",
+      "bytes": 102366,
+      "sha256": "aa6b5a103e8c6534b5d7731196c52c99fb28b244ec9176bd24b2176aed210fa4"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/galaxiatech-maker-home.txt",
+      "bytes": 2084,
+      "sha256": "6e1d4349f631edd762588dbe1bd81350614ed81b8d70da87478bd2d5c0a3d71f"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/galaxiatech-maker-home-http.json",
+      "bytes": 4147,
+      "sha256": "ce34a7a37f541cb553ac866db22890bfa04215f2a66f2a822f54fc8f16f34b31"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/original-22367620.jpg",
+      "bytes": 80560,
+      "sha256": "9113bae9b4794da8e238cec979713701b77215d4f42b497c3d2006268d35e22c"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/original-25266203.jpg",
+      "bytes": 15927,
+      "sha256": "5ec265f999aac34b7fdd55eb450e373cf2ca4897d278a8c7a0cecbb70977521d"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/original-25645040.jpg",
+      "bytes": 14593,
+      "sha256": "a1480eb7fa7281a3aa02ccd5728d75e505396912302c0fce2dd394db78010477"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/original-image-meta.json",
+      "bytes": 1421,
+      "sha256": "d5de9fff7c38d70ca842ee8d63c1519cf7495d7da366ea2c551e402e0882195d"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/soundpower7760-jev.json",
+      "bytes": 919,
+      "sha256": "df51a525cfad77bd44357fc0c6f75666091f3d412cb275ba88209fe91edf360f"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/soundpower7760-headset-native.json",
+      "bytes": 14464,
+      "sha256": "3c0d98396c6a64e07643868a222647f442db49c2e5de3487ba89766c6d6edbd7"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/samsungpmall2913-jev-failure.json",
+      "bytes": 352,
+      "sha256": "7ad35bd7db6c4cda950ee5ab13e3a2db245c12d65ec8a43c188ebf28e741dc8a"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/samsungpmall-navigation-diagnostic.json",
+      "bytes": 304,
+      "sha256": "c43eb0afc196a9404fbe96e307ae8edc84274292b051566b9cae64e966625acb"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass9/bulk-baseline-restored.json",
+      "bytes": 318,
+      "sha256": "4bbe8babe8079a6abd652a1408763d2f204d30f517caedc935563fc5c96537ae"
+    },
+    {
+      "path": "research/bulk-complete-basics-nextday-20261017.json",
+      "bytes": 193096,
+      "sha256": "f25f50d1bc4ed79fdee9e39e0c5bea06747f25afc2bf0d9edd5ec8398c9f152c"
+    }
+  ]
+}
