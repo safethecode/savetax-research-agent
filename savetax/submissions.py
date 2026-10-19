@@ -221,9 +221,16 @@ class ScoreClient:
             raise error from None
         return {'state':'submitted','response':_redact(result,self.client._token)}
 
-    def _post(self, suffix, body, key=None):
-        if suffix not in ('/submissions/preview','/submissions'):
+    def _post(self, suffix, body, key=None, *, revision=None):
+        is_revision = bool(re.fullmatch(r'/submissions/[A-Za-z0-9_-]{1,200}/revisions', suffix)) and not TOKEN_PATTERN.search(suffix)
+        if suffix not in ('/submissions/preview','/submissions') and not is_revision:
             raise ValueError('허용되지 않은 점수 경로')
+        if is_revision:
+            if isinstance(revision, bool) or not isinstance(revision, int) or revision < 1:
+                raise ValueError('현재 revision은 양의 정수여야 합니다')
+            self._validate_key(key)
+        elif revision is not None:
+            raise ValueError('수정 요청에만 If-Match를 보낼 수 있습니다')
         if any(is_procurement_price_url(evidence.get('source_url'))
                for line in body.get('lines', [])
                for evidence in line.get('price_evidence', [])):
@@ -241,6 +248,8 @@ class ScoreClient:
             headers['Idempotency-Key'] = key
         elif suffix == '/submissions':
             self._validate_key(key)
+        if is_revision:
+            headers['If-Match'] = str(revision)
         response,error = None,None
         try:
             response = requests.post(BASE+suffix,data=payload,headers=headers,
@@ -262,7 +271,7 @@ class ScoreClient:
                 error = SaveTaxError(f'점수 요청 HTTP {response.status_code} ({code})',status=response.status_code,code=code,stage='http')
             elif not isinstance(result,dict):
                 error = SaveTaxError('점수 요청 응답 해석 실패; 같은 멱등 키로 결과를 확인하세요',stage='decode')
-            elif suffix == '/submissions':
+            elif suffix == '/submissions' or is_revision:
                 self._require_receipt(result)
         finally:
             response.close()
@@ -284,3 +293,24 @@ class ScoreClient:
         if len(matching) != 1 or matching[0].get('state') != 'available':
             raise ValueError('물품이 이미 등록되었거나 현재 등록할 수 없습니다')
         return self._post('/submissions',body,idempotency_key)
+
+    def revise(self, submission_id, body, idempotency_key, preview):
+        """Revise an existing owned submission using its preview revision.
+
+        The server's If-Match check protects against a change after preview.
+        This method never creates a claim or withdraws the existing submission.
+        """
+        self._validate_key(idempotency_key)
+        if (not isinstance(submission_id, str)
+                or not re.fullmatch(r'[A-Za-z0-9_-]{1,200}', submission_id)
+                or TOKEN_PATTERN.search(submission_id)):
+            raise ValueError('유효한 제출 ID가 필요합니다')
+        if (not isinstance(preview, dict) or preview.get('ok') is not True
+                or preview.get('next_action') != 'revise_existing'
+                or preview.get('claimed_by_me') is not True
+                or preview.get('existing_submission_id') != submission_id
+                or preview.get('existing_submission_state') != 'accepted'):
+            raise ValueError('본인 제출의 수정 가능한 preview 결과가 필요합니다')
+        current_revision = preview.get('current_revision')
+        return self._post('/submissions/'+submission_id+'/revisions', body,
+                          idempotency_key, revision=current_revision)
