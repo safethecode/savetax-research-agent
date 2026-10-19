@@ -1,0 +1,219 @@
+{
+  "item_id": "20282162",
+  "name": "경유, 고유황",
+  "owner_slot": 2,
+  "reviewed_by": "root assistance; hardware_resume와 분담 확인",
+  "observed_at": "2026-10-19T12:02:54.115169+00:00",
+  "official_observed_at": "2026-10-19T11:51:24.320199+00:00",
+  "availability_at_observation": {
+    "state": "available",
+    "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+  },
+  "scorable_fact_count": 5,
+  "unique_request_count": 5,
+  "quantity_liter": "47012403",
+  "comparable_amount_krw": "65337710110",
+  "procurement_amount_is_not_saving": true,
+  "facts": [
+    {
+      "fact_id": "dl:20282162:R26TA02076008:R26TB02250269:1",
+      "listing_id": "R26TA02076008020000001",
+      "contract_no": "R26TA02076008",
+      "request_no": "R26TB02250269",
+      "line_no": "1",
+      "request_date": "2026-09-03",
+      "agency_name": "해군군수사령부",
+      "unit": "리터",
+      "tax_basis": "vat_included",
+      "basis_id": "basis:리터:vat_included",
+      "comparison_basis_id": "basis:리터:vat_included",
+      "period_kind": "none",
+      "unit_price_krw": "1370",
+      "quantity": "20106403",
+      "comparable_amount_krw": "27545772110",
+      "scorable": true,
+      "exclusion_reasons": []
+    },
+    {
+      "fact_id": "dl:20282162:R26TA02076008:R26TB02336087:1",
+      "listing_id": "R26TA02076008020000001",
+      "contract_no": "R26TA02076008",
+      "request_no": "R26TB02336087",
+      "line_no": "1",
+      "request_date": "2026-09-21",
+      "agency_name": "해군군수사령부",
+      "unit": "리터",
+      "tax_basis": "vat_included",
+      "basis_id": "basis:리터:vat_included",
+      "comparison_basis_id": "basis:리터:vat_included",
+      "period_kind": "none",
+      "unit_price_krw": "1407",
+      "quantity": "25000000",
+      "comparable_amount_krw": "35175000000",
+      "scorable": true,
+      "exclusion_reasons": []
+    },
+    {
+      "fact_id": "dl:20282162:R26TA02113950:R26TB02253594:1",
+      "listing_id": "R26TA02113950020000001",
+      "contract_no": "R26TA02113950",
+      "request_no": "R26TB02253594",
+      "line_no": "1",
+      "request_date": "2026-09-02",
+      "agency_name": "방위사업청",
+      "unit": "리터",
+      "tax_basis": "vat_included",
+      "basis_id": "basis:리터:vat_included",
+      "comparison_basis_id": "basis:리터:vat_included",
+      "period_kind": "none",
+      "unit_price_krw": "1373",
+      "quantity": "56000",
+      "comparable_amount_krw": "76888000",
+      "scorable": true,
+      "exclusion_reasons": []
+    },
+    {
+      "fact_id": "dl:20282162:R26TA02113950:R26TB02253608:1",
+      "listing_id": "R26TA02113950020000001",
+      "contract_no": "R26TA02113950",
+      "request_no": "R26TB02253608",
+      "line_no": "1",
+      "request_date": "2026-09-02",
+      "agency_name": "방위사업청",
+      "unit": "리터",
+      "tax_basis": "vat_included",
+      "basis_id": "basis:리터:vat_included",
+      "comparison_basis_id": "basis:리터:vat_included",
+      "period_kind": "none",
+      "unit_price_krw": "1373",
+      "quantity": "250000",
+      "comparable_amount_krw": "343250000",
+      "scorable": true,
+      "exclusion_reasons": []
+    },
+    {
+      "fact_id": "dl:20282162:R26TA02113950:R26TB02253610:1",
+      "listing_id": "R26TA02113950020000001",
+      "contract_no": "R26TA02113950",
+      "request_no": "R26TB02253610",
+      "line_no": "1",
+      "request_date": "2026-09-02",
+      "agency_name": "방위사업청",
+      "unit": "리터",
+      "tax_basis": "vat_included",
+      "basis_id": "basis:리터:vat_included",
+      "comparison_basis_id": "basis:리터:vat_included",
+      "period_kind": "none",
+      "unit_price_krw": "1373",
+      "quantity": "1600000",
+      "comparable_amount_krw": "2196800000",
+      "scorable": true,
+      "exclusion_reasons": []
+    }
+  ],
+  "original_source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA02076008020000001",
+  "original_download": {
+    "file": "규격서 등.zip",
+    "bytes": 201183,
+    "method": "실제 공개 상세의 관측한 첨부 링크를 눌러 다운로드. Browser.setDownloadBehavior를 작업 뒤 default로 복구.",
+    "contains": [
+      "0 표준규격서(저장용유류).hwp",
+      "'26-'27 고유황경유 예상소요량.xlsx",
+      "저장용 유류 구매계약 추가 특수조건 26.06.hwp"
+    ],
+    "read_scope": "두 HWP 본문을 실제 추출해 읽었다. 표·도면의 시각 검토나 XLSX 분석을 완료했다는 뜻은 아니다."
+  },
+  "procurement_findings": [
+    "표준규격서 2가의 선박용(고유황) 경유는 석유제품 품질기준에 따른다. F76이라는 별도 군 규격으로 추정하지 않았다.",
+    "공식 등재 인도조건은 수요기관 탱크주입도다. 추가 특수조건 제6조·제8조는 지정 장소까지 실제 납품·주유, 필요 장비와 선박급유를 설명한다.",
+    "실제 해당 상세는 계약해지상품이라고 표시했으나 공식 이벤트의 해당 관측 상태는 available이었다. 다른 등재 계약까지 해지되었다고 일반화하지 않는다."
+  ],
+  "market_discovery": {
+    "source_url": "https://ns.haewoon.co.kr/site/main/oil2/list",
+    "access_status": "웹 검색 결과의 실제 열 제목·행 발췌만 읽음. 직접 웹 open은 timeout, ns 및 www 공개 HTTPS 직접 GET은 각각 TLS hostname mismatch. 검증 해제·우회 없음.",
+    "evidence_status": "discovery_only_not_verified_offer",
+    "row": "2026.06.27~2026.10.16, 0.05% MGO",
+    "pretax_krw_per_liter": "1215.61",
+    "tax_exempt_column_krw": "1611.82",
+    "vat_column_krw": "161.18",
+    "taxed_column_krw": "1773",
+    "decision": "1215.61원을 일반 과세 배송 판매가로 옮기지 않는다. 1773원도 수수료 제외 표이며 현재 같은 납품 범위를 충족하는 실제 일반 판매가로 확정하지 않았다."
+  },
+  "parallel": {
+    "actual_queries": 3,
+    "files": [
+      "parallel-fuel-0.json",
+      "parallel-fuel-1.json",
+      "parallel-fuel-2.json"
+    ],
+    "result": "공공 입찰 단가, 자동차용 주유소 가격, 가격 인하 기사와 제조사 MGO 소개였다. 같은 고유황 경유의 낮은 일반 판매가가 아니다."
+  },
+  "adopted_benchmark_unit_price_krw": null,
+  "adopted_expected_saving_krw": null,
+  "submission_ready": false,
+  "preview_count": 0,
+  "post_count": 0,
+  "source_integrity": [
+    {
+      "path": "work\\highvalue-root\\resume-20261019\\fuel-20282162\\'26-'27 고유황경유 예상소요량.xlsx",
+      "bytes": 15916,
+      "sha256": "31484877e5069b03a340be13dc4da32ffedc25562549f54cd585e8c4be4d91c7"
+    },
+    {
+      "path": "work\\highvalue-root\\resume-20261019\\fuel-20282162\\0 표준규격서(저장용유류).extracted.json",
+      "bytes": 13642,
+      "sha256": "86448c8ed813814f26b8e200a7cc6605a88c15f4455eca03bbec5badb3f5753c"
+    },
+    {
+      "path": "work\\highvalue-root\\resume-20261019\\fuel-20282162\\0 표준규격서(저장용유류).hwp",
+      "bytes": 52224,
+      "sha256": "4d45f685cee0179176e8e507a0a03c49d621efcdc5d7e7a4e44dd66fbc373191"
+    },
+    {
+      "path": "work\\highvalue-root\\resume-20261019\\fuel-20282162\\catalog.json",
+      "bytes": 2751,
+      "sha256": "e514f86913e08fa5c7089a919820062b9ef54b3eedbb393396fcfaad98f25b40"
+    },
+    {
+      "path": "work\\highvalue-root\\resume-20261019\\fuel-20282162\\event.json",
+      "bytes": 4493,
+      "sha256": "0540ff67663c73804ff7b6c5da5b80c06fe11d7b73da968b1e8f7a03bd5c13d9"
+    },
+    {
+      "path": "work\\highvalue-root\\resume-20261019\\fuel-20282162\\listing.json",
+      "bytes": 4656,
+      "sha256": "d014b861e262ab0ee026d98a2a1305a29e684d9fd8d77cedac50d18b6880fc39"
+    },
+    {
+      "path": "work\\highvalue-root\\resume-20261019\\fuel-20282162\\parallel-fuel-0.json",
+      "bytes": 3161,
+      "sha256": "c57c09ff0c3161e08cec2f848eccb86f15e915f4be8bf9bc33d19c183bc90b0f"
+    },
+    {
+      "path": "work\\highvalue-root\\resume-20261019\\fuel-20282162\\parallel-fuel-1.json",
+      "bytes": 263,
+      "sha256": "6fd5595fe027df0dbc961991a7ea677b203b83a437c9f75576b5949b1eee7a41"
+    },
+    {
+      "path": "work\\highvalue-root\\resume-20261019\\fuel-20282162\\parallel-fuel-2.json",
+      "bytes": 13440,
+      "sha256": "bccfeb22c0bbdd7448e489f2398aa18922fd29ca14c4f104e79a63af0e6dc898"
+    },
+    {
+      "path": "work\\highvalue-root\\resume-20261019\\fuel-20282162\\규격서 등.zip",
+      "bytes": 201183,
+      "sha256": "6976410cec0fa69567a3026c2e6334a7791dd50c01918200e7cafcf0acf5a645"
+    },
+    {
+      "path": "work\\highvalue-root\\resume-20261019\\fuel-20282162\\저장용 유류 구매계약 추가 특수조건 26.06.extracted.json",
+      "bytes": 58664,
+      "sha256": "5a0b784db739ad1e198b487b45001a0de2a4938511ac63e58e60722ab5bffe43"
+    },
+    {
+      "path": "work\\highvalue-root\\resume-20261019\\fuel-20282162\\저장용 유류 구매계약 추가 특수조건 26.06.hwp",
+      "bytes": 167424,
+      "sha256": "2b131f47c2ed7b8452474d97dabda1c0f95ad356f514751392e7e845123c6c58"
+    }
+  ],
+  "next_action": "같은 선박용 규격의 조달 밖 공개 일반 공급가와 세금·실제 운송 범위가 확보되면 재검토. 이번 원문·부정 경로를 반복하지 않고 다른 고액 후보를 조사한다."
+}
