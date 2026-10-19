@@ -1,5 +1,7 @@
 # SaveTax Research Harness Implementation Plan
 
+> **과거 설계 기록(2026-10-16).** 아래 내용은 작성 시점의 범위다. 이후 점수 제출·revision 등이 구현됐으므로 현재 기능은 [사용법](../../usage.md), 새 구조는 [로컬 조사·Codex 리뷰 설계](../specs/2026-10-20-local-research-codex-review-design.md)를 참고한다. 현재 사용자 권한·금액 정책을 이 기록에서 추론하지 않는다.
+
 > **For agentic workers:** Use superpowers:subagent-driven-development or superpowers:executing-plans. 사용자가 병렬 구현과 조사, 커밋·푸시를 요청했다.
 
 **Goal:** 조달 원본과 국내 판매가를 연결하는 재현 가능한 조사 도구를 만들고 실제 후보를 검증한다.
