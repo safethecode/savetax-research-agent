@@ -1,0 +1,458 @@
+{
+  "status": "frozen_pass15_high_value_curtainwall_primary_scope",
+  "created_at_utc": "2026-10-19T20:37:06.060604+00:00",
+  "scope": "owner1의 미실독50억원 이상 물리 품목23761096을 우선했다. 현재 채팅의600억 신규 탐색·기존 접수 유지 범위를 적용했으며 다른 채팅의 감사/revision 권한을 이관하지 않았다.",
+  "counts": {
+    "targeted_candidates": 1,
+    "new_official_lookup_requests": 1,
+    "new_official_lookup_items": 1,
+    "new_available_items": 1,
+    "new_official_catalog_GET": 1,
+    "new_official_event_GET": 1,
+    "new_official_listing_GET": 1,
+    "official_facts": 13,
+    "actual_Parallel_queries": 3,
+    "actual_manufacturer_HTTP_connection_error": 1,
+    "actual_other_manufacturer_HTTP_success": 1,
+    "actual_official_catalog_image_success_and_visual_read": 1,
+    "actual_Jev_calls": 1,
+    "own_CLI_single_network_recheck": 1,
+    "verified_current_retail_prices": 0,
+    "adopted_offers": 0,
+    "verified_positive_candidates": 0,
+    "POST": 0
+  },
+  "item": {
+    "item_id": "23761096",
+    "manufacturer": "주식회사 유니크시스템",
+    "business_no": "7528600124",
+    "model": "DHS-CW188-2",
+    "current_state": "available",
+    "state_observed_at_utc": "2026-10-19T20:32:25.766072+00:00",
+    "state_source_file": "work/fullscan/bulk-resume-20261019/pass15/lookup-dhs.json",
+    "adopted_B_krw": null,
+    "verified_saving_krw": null,
+    "ready": false,
+    "official_facts": {
+      "source_url": "https://hackathon.savetax.now/v1/events/current/items/23761096",
+      "source_file": "work/fullscan/bulk-resume-20261019/pass15/event-23761096.json",
+      "observed_at_utc": "2026-10-19T20:33:15.082614+00:00",
+      "snapshot_facts_total": 13,
+      "snapshot_facts_truncated": false,
+      "source_release": "r20261011T012137",
+      "fact_count": 13,
+      "distinct_contract_request_count": 13,
+      "quantity": "391969",
+      "comparable_amount_krw": "5209838778",
+      "unit": "kg",
+      "tax_basis": "vat_included",
+      "min_fact_unit_price_exact": "102492280/7747",
+      "max_fact_unit_price_exact": "3783393/232",
+      "all_contract_request_line_references": [
+        {
+          "fact_id": "dl:23761096:001782453_1:1224167856:5",
+          "listing_id": "001782453_1490000047",
+          "contract_no": "001782453_1",
+          "request_no": "1224167856",
+          "line_no": "5",
+          "request_date": "2025-12-12",
+          "agency_name": "서울특별시교육청",
+          "quantity": "331837",
+          "comparable_amount_krw": "4390197027",
+          "unit": "kg",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:kg:vat_included",
+          "comparison_basis_id": "basis:kg:vat_included"
+        },
+        {
+          "fact_id": "dl:23761096:001782453_1:3324357241:4",
+          "listing_id": "001782453_1490000047",
+          "contract_no": "001782453_1",
+          "request_no": "3324357241",
+          "line_no": "4",
+          "request_date": "2025-11-17",
+          "agency_name": "충청북도 영동군",
+          "quantity": "312",
+          "comparable_amount_krw": "4270136",
+          "unit": "kg",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:kg:vat_included",
+          "comparison_basis_id": "basis:kg:vat_included"
+        },
+        {
+          "fact_id": "dl:23761096:001782453_1:R25TB00092702:1",
+          "listing_id": "001782453_1490000047",
+          "contract_no": "001782453_1",
+          "request_no": "R25TB00092702",
+          "line_no": "1",
+          "request_date": "2026-03-04",
+          "agency_name": "전북특별자치도교육청",
+          "quantity": "13319",
+          "comparable_amount_krw": "176210766",
+          "unit": "kg",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:kg:vat_included",
+          "comparison_basis_id": "basis:kg:vat_included"
+        },
+        {
+          "fact_id": "dl:23761096:001782453_1:R25TB00342673:4",
+          "listing_id": "001782453_1490000047",
+          "contract_no": "001782453_1",
+          "request_no": "R25TB00342673",
+          "line_no": "4",
+          "request_date": "2026-01-08",
+          "agency_name": "인천광역시 연수구",
+          "quantity": "2759",
+          "comparable_amount_krw": "38535998",
+          "unit": "kg",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:kg:vat_included",
+          "comparison_basis_id": "basis:kg:vat_included"
+        },
+        {
+          "fact_id": "dl:23761096:001782453_1:R25TB00416762:1",
+          "listing_id": "001782453_1490000047",
+          "contract_no": "001782453_1",
+          "request_no": "R25TB00416762",
+          "line_no": "1",
+          "request_date": "2026-03-23",
+          "agency_name": "경상북도교육청 경상북도포항교육지원청",
+          "quantity": "24999",
+          "comparable_amount_krw": "330742591",
+          "unit": "kg",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:kg:vat_included",
+          "comparison_basis_id": "basis:kg:vat_included"
+        },
+        {
+          "fact_id": "dl:23761096:001782453_1:R25TB00596156:4",
+          "listing_id": "001782453_1490000047",
+          "contract_no": "001782453_1",
+          "request_no": "R25TB00596156",
+          "line_no": "4",
+          "request_date": "2025-12-11",
+          "agency_name": "경기도 소방재난본부",
+          "quantity": "212",
+          "comparable_amount_krw": "3122427",
+          "unit": "kg",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:kg:vat_included",
+          "comparison_basis_id": "basis:kg:vat_included"
+        },
+        {
+          "fact_id": "dl:23761096:001782453_1:R25TB00616130:4",
+          "listing_id": "001782453_1490000047",
+          "contract_no": "001782453_1",
+          "request_no": "R25TB00616130",
+          "line_no": "4",
+          "request_date": "2026-02-25",
+          "agency_name": "경기도교육청 경기도용인교육지원청",
+          "quantity": "7747",
+          "comparable_amount_krw": "102492280",
+          "unit": "kg",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:kg:vat_included",
+          "comparison_basis_id": "basis:kg:vat_included"
+        },
+        {
+          "fact_id": "dl:23761096:001782453_1:R25TB01205203:3",
+          "listing_id": "001782453_1490000047",
+          "contract_no": "001782453_1",
+          "request_no": "R25TB01205203",
+          "line_no": "3",
+          "request_date": "2025-11-18",
+          "agency_name": "전북대학교 산학협력단",
+          "quantity": "1492",
+          "comparable_amount_krw": "24322208",
+          "unit": "kg",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:kg:vat_included",
+          "comparison_basis_id": "basis:kg:vat_included"
+        },
+        {
+          "fact_id": "dl:23761096:001782453_1:R25TB01297460:6",
+          "listing_id": "001782453_1490000047",
+          "contract_no": "001782453_1",
+          "request_no": "R25TB01297460",
+          "line_no": "6",
+          "request_date": "2026-03-06",
+          "agency_name": "경기도교육청 경기도가평교육지원청",
+          "quantity": "156",
+          "comparable_amount_krw": "2535465",
+          "unit": "kg",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:kg:vat_included",
+          "comparison_basis_id": "basis:kg:vat_included"
+        },
+        {
+          "fact_id": "dl:23761096:001782453_1:R26TB01926985:2",
+          "listing_id": "001782453_1490000047",
+          "contract_no": "001782453_1",
+          "request_no": "R26TB01926985",
+          "line_no": "2",
+          "request_date": "2026-05-18",
+          "agency_name": "전남광주통합특별시교육청 전남청사",
+          "quantity": "5845",
+          "comparable_amount_krw": "85749524",
+          "unit": "kg",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:kg:vat_included",
+          "comparison_basis_id": "basis:kg:vat_included"
+        },
+        {
+          "fact_id": "dl:23761096:001782453_1:R26TB02078632:4",
+          "listing_id": "001782453_1490000047",
+          "contract_no": "001782453_1",
+          "request_no": "R26TB02078632",
+          "line_no": "4",
+          "request_date": "2026-06-30",
+          "agency_name": "경기도교육청 경기도여주교육지원청",
+          "quantity": "464",
+          "comparable_amount_krw": "7566786",
+          "unit": "kg",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:kg:vat_included",
+          "comparison_basis_id": "basis:kg:vat_included"
+        },
+        {
+          "fact_id": "dl:23761096:001782453_1:R26TB02181124:3",
+          "listing_id": "001782453_1490000047",
+          "contract_no": "001782453_1",
+          "request_no": "R26TB02181124",
+          "line_no": "3",
+          "request_date": "2026-07-29",
+          "agency_name": "경기도교육청 경기도여주교육지원청 대신중학교",
+          "quantity": "1610",
+          "comparable_amount_krw": "26245608",
+          "unit": "kg",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:kg:vat_included",
+          "comparison_basis_id": "basis:kg:vat_included"
+        },
+        {
+          "fact_id": "dl:23761096:001782453_1:R26TB02327199:6",
+          "listing_id": "001782453_1490000047",
+          "contract_no": "001782453_1",
+          "request_no": "R26TB02327199",
+          "line_no": "6",
+          "request_date": "2026-09-17",
+          "agency_name": "경기도교육청 경기도용인교육지원청",
+          "quantity": "1217",
+          "comparable_amount_krw": "17847962",
+          "unit": "kg",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:kg:vat_included",
+          "comparison_basis_id": "basis:kg:vat_included"
+        }
+      ]
+    },
+    "official_catalog_and_listing_read": {
+      "catalog_source_file": "work/fullscan/bulk-resume-20261019/pass15/catalog-23761096.json",
+      "listing_source_file": "work/fullscan/bulk-resume-20261019/pass15/listing-dhs.json",
+      "listing_id": "001782453_1490000047",
+      "attributes": [
+        {
+          "name": "기능",
+          "unit": null,
+          "value": "단열/기밀/수밀/채광"
+        },
+        {
+          "name": "재질",
+          "unit": null,
+          "value": "알루미늄"
+        },
+        {
+          "name": "형태",
+          "unit": null,
+          "value": "단열커튼월"
+        },
+        {
+          "name": "창틀두께",
+          "unit": "mm",
+          "value": "188"
+        },
+        {
+          "name": "표면처리",
+          "unit": null,
+          "value": "불소수지2회"
+        }
+      ],
+      "delivery_terms": "현장설치도",
+      "supply_region": "전지역(제주 및 도서산간지역 운임비 별도)",
+      "contract_supply_region": "전지역(제주 및 도서산간지역 운임비 별도)",
+      "synonyms_raw": "160||창틀||창짝||알루미늄||불소수지2회||단열커튼월||단열/기밀/수밀/채광||단열||기밀||밀폐||채광||환기||금속제창||유니크시스템||DHS-CW188-2||188mm||단열커튼월/불소수지2회||금속제창||고정미서기창||188",
+      "scope": "알루미늄 188mm 단열커튼월/불소수지2회이며 단열·기밀·수밀·채광 기능을 명시한다. 실제 등재 조건은 현장설치도, 전지역 공급이나 제주·도서산간 운임 별도다. 설치 포함만으로 탐색을 닫지 않고 일반 판매 완성 구성과 취득가격 경로를 찾았다.",
+      "unit_note": "공식 수량391,969는kg이며 창틀391,969개나391,969㎡가 아니다. 임의 창당 무게·면적계수로 다른 판매 단위 가격을 환산하지 않았다.",
+      "catalog_activity_difference_note": "카탈로그는 납품요구·라인 14개을 표시하고 event 스냅샷은총13facts·미절단을 표시한다. Q/C는 일치한다. 차이를 임의 제외행이나 추가 제출행으로 만들지 않고 실제 반환된13개를 보존했다.",
+      "attachment_metadata": [
+        {
+          "ext": ".hwpx",
+          "seq": 1,
+          "group": "b5a64719-a0ed-484f-aa99-81b76f646c39",
+          "fileName": "물품구매(제조)계약일반조건(계약예규 제813호)(20251231).hwpx",
+          "sizeBytes": 157104,
+          "extractStatus": "ok"
+        },
+        {
+          "ext": ".hwpx",
+          "seq": 2,
+          "group": "b5a64719-a0ed-484f-aa99-81b76f646c39",
+          "fileName": "(개정전문) 물품구매계약 품질관리 특수조건 (안전관리물자).hwpx",
+          "sizeBytes": 85855,
+          "extractStatus": "ok"
+        },
+        {
+          "ext": ".hwpx",
+          "seq": 3,
+          "group": "b5a64719-a0ed-484f-aa99-81b76f646c39",
+          "fileName": "(개정전문)물품 다수공급자계약 특수조건(조달청 공고 제2026-270호).hwpx",
+          "sizeBytes": 137103,
+          "extractStatus": "ok"
+        },
+        {
+          "ext": ".hwp",
+          "seq": 4,
+          "group": "b5a64719-a0ed-484f-aa99-81b76f646c39",
+          "fileName": "01_금속제창_규격서_유니크시스템 (변경).hwp",
+          "sizeBytes": 5638656,
+          "extractStatus": "ok"
+        }
+      ],
+      "attachment_text_or_drawing_read_this_pass": false,
+      "attachment_scope_limit": "01_금속제창_규격서_유니크시스템 (변경).hwp의5,638,656바이트 메타데이터는 확인했지만 원본을 내려받아 본문·표·도면을 읽은 것은 아니다. 유리·하지틀·세부 체결품·절단 가공의 정확 포함 범위를 확정하지 않았다."
+    },
+    "actual_original_catalog_image": {
+      "source_url": "https://shop.g2b.go.kr/static/CataAttach/XezCatalog/XZMOK/item_image/2019/12/16/aaeda581-57ae-492d-9977-22f0c0ed5013.jpg",
+      "source_file": "work/fullscan/bulk-resume-20261019/pass15/dhs-official-catalog.jpg",
+      "sha256": "46543a8f5e9466f29bc96af7f6690867068ad1b5f57894b70a888ffc8b3c7bd6",
+      "observed_at_utc": "2026-10-19T20:34:28.500119+00:00",
+      "visually_read": true,
+      "finding": "공식 연결 이미지는 유리 파사드의 설치 외관 사진이다. 부재 상세도나kg당 완성 구성표가 아니므로 보이는 유리를 근거로 해당 가격에 모든 유리가 포함됐다고 단정하지 않았다."
+    },
+    "manufacturer_access_attempts": {
+      "source_url": "https://www.uniquesystem.co.kr",
+      "URL_discovery_role": "유니크시스템 회사와 홈페이지를 명시한 검색 기사에서 발견한 주소이며 기사 자체는 일반 판매가 근거가 아니다.",
+      "HTTP_file": "work/fullscan/bulk-resume-20261019/pass15/unique-maker-home-http.json",
+      "HTTP_error_code": "ConnectionError",
+      "actual_Jev_file": "work/fullscan/bulk-resume-20261019/pass15/unique-maker-jev.json",
+      "actual_Jev_operation": "BLOCKED",
+      "actual_Jev_latency_ms": 221,
+      "first_browser_literal": "DNS_PROBE_STARTED",
+      "single_recheck_file": "work/fullscan/bulk-resume-20261019/pass15/unique-maker-recheck-read.json",
+      "single_recheck_browser_literal": "DNS_PROBE_FINISHED_NXDOMAIN",
+      "recheck_after_more_than_15_seconds": true,
+      "finding": "제조사 본문 접근에 실패했다. Jev BLOCKED와 재확인 DNS 오류를 실제 제조사 자료·가격 검증 성공으로 세지 않았고 보안 설정·인증을 우회하지 않았다."
+    },
+    "actual_other_manufacturer_source": {
+      "source_url": "https://www.1588-8895.com/DH_SYS006",
+      "source_file": "work/fullscan/bulk-resume-20261019/pass15/duhyeon-other-maker-DH_SYS006-http.json",
+      "seller_or_maker": "두현창호",
+      "observed_at_utc": "2026-10-19T20:34:00.539653+00:00",
+      "actual_body_scope": {
+        "bar_width_mm": "60~172",
+        "glass_thickness_mm": "24~39",
+        "insulating_material": "폴리아미드",
+        "gasket": "EPDM",
+        "assembly_literal": "구성부재를 공장에서 사전 조립 후, 현장에 반입하여 취부하는 제품"
+      },
+      "fixed_ordinary_price_observed": false,
+      "finding": "검색의DH_SYS006을 유니크시스템 DHS-CW188-2와 같다고 확정하지 않았다. 두현창호는 다른 제조사·다른 폭 범위의 커튼월 안내이며 가격도 없다. 해당 유리두께·부속·성능을 원품의 수치로 옮기지 않았다."
+    },
+    "other_search_limits": "해외United/Uni-systems, 다른 회사의 커튼월 소개와 알루미늄 투자 자료는 동일 제조사·판매가로 쓰지 않았다. G마켓16,200원은 검색상 창호용 양면테이프 부품이므로 완성 창호 가격으로 채택하지 않았고 직접 실판매 검증 완료 가격으로도 세지 않았다.",
+    "decision": "정확 제조사의 일반 판매 원문은 접근 실패했고 검색에서 찾은 다른 업체 원문은 가격이 없다. 따라서 채택 단가와 검증 절감액은null이다. 이는 읽은 경로의 한계이며 모든 시장에 일반 판매가가 없다는 결론이 아니다. 재고·보증·모든 인증 일치를 새 일괄 문턱으로 세운 결과도 아니다."
+  },
+  "prior_result_reuse": "이미 실제 원규격·부적합 판매 경로가 있던 저유황경유·JET A-1·에코-다노가, 기존claimed CT-FC-05E는 새 조회/검색 없이 재사용했다. 상태-only와 실제 원문 실독을 나누었다.",
+  "parent_late_handoffs_deferred": [
+    {
+      "item_id": "26316952",
+      "model": "육군 기능성전투우의 상의",
+      "state_note": "부모page10의 새available 기록만 수신. 본인 새lookup·원규격/판매 실독 없음."
+    },
+    {
+      "item_id": "22772690",
+      "model": "TIE-N20WR",
+      "state_note": "부모 새available 기록을 수신했고 기존TIE-N20 제조사·WR 구성 미확인 기록을 재사용한다. 새lookup·같은 검색 반복 없음."
+    }
+  ],
+  "sources": [
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass15/candidate-selection.json",
+      "bytes": 1432,
+      "sha256": "641d1ec895dddfae955584e33d27cf69ab9303663e8cda59998599d70a55c7e3"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass15/catalog-23761096.json",
+      "bytes": 3014,
+      "sha256": "1910540063374f223a3254e182cd2a305b17da6f324512ef88c9b18b9e0b0a74"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass15/dhs-official-catalog.jpg",
+      "bytes": 19537,
+      "sha256": "46543a8f5e9466f29bc96af7f6690867068ad1b5f57894b70a888ffc8b3c7bd6"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass15/dhs-official-image-meta.json",
+      "bytes": 681,
+      "sha256": "3ed2cad59f8f80644e1cf68f88b6b1dbb939180886d8801903fbe38c07d2d092"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass15/duhyeon-other-maker-DH_SYS006-http.json",
+      "bytes": 14958,
+      "sha256": "ffe9a67c735a03b4f035b456125c03317512f2955f6621d06eba030354a94944"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass15/duhyeon-other-maker-DH_SYS006.html",
+      "bytes": 53455,
+      "sha256": "2b359997cd4ea1bbcb4a1d4b774f777ebea3ff4b08fed9b9473806e89075fd79"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass15/duhyeon-other-maker-DH_SYS006.txt",
+      "bytes": 7455,
+      "sha256": "1262cb9a2f734ee0da85a2a6515c769661776d83459ae44403cec08915ec4a49"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass15/event-23761096.json",
+      "bytes": 11859,
+      "sha256": "40ce3a7a26a62565330b96de1c14a3adfedf2cd97c09c4d1236458025d5a5d9a"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass15/listing-dhs.json",
+      "bytes": 9185,
+      "sha256": "45bd5942b8c19d671845804f88558b460998cd8787ea9f998afcc1ecbadf9fe8"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass15/lookup-dhs.json",
+      "bytes": 485,
+      "sha256": "774137ae3e03088d2704742b0bdf8cd94b237efd0fae851160a89bc90c8f1c79"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass15/parallel-dhs-three.json",
+      "bytes": 23046,
+      "sha256": "e198014d927bf5175fbd7b057d05b83440cf485f03c7a70b7ce0595dc591e2c9"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass15/unique-maker-home-http.json",
+      "bytes": 148,
+      "sha256": "001c49753b53a2efa4829399d8f9d98d6f90ab25a64d524ebbd31d9bb8bf4d89"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass15/unique-maker-jev.json",
+      "bytes": 486,
+      "sha256": "4cfb509ff4a3f4aecbf80afbc7a2338430bd27c86241b020661cb6d634ef71ec"
+    },
+    {
+      "path": "work/fullscan/bulk-resume-20261019/pass15/unique-maker-recheck-read.json",
+      "bytes": 470,
+      "sha256": "c8b7f7a4b2f233de9cb89c43fe999d624ba4d19eff3c10a4b272b15563d6100f"
+    }
+  ],
+  "operational_controls": {
+    "prior_frozen_files_modified": false,
+    "production_modified": false,
+    "git_actions": 0,
+    "POST": 0,
+    "shared_MCP_actions": 0,
+    "seller_contact_cart_purchase": 0,
+    "security_or_authentication_bypass": 0
+  }
+}
