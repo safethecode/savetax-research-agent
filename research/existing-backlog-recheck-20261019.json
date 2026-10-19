@@ -1,0 +1,2733 @@
+{
+  "reviewed_at_utc": "2026-10-19T12:02:21.731853+00:00",
+  "correction": "앞선 원장 조회는 기존 보고서의 서로 다른 차액 필드와 중첩 계산을 놓쳐 기존 대기 후보 전체를 재검증하지 못했다. 수집 수를 접수 준비 완료 수로 설명하지 않는다.",
+  "method": "기존 research JSON의 item_id 문맥을 중첩 계산에 전달하여 saving/difference 계열을 다시 읽음. 소프트웨어·차량 제외. amount_krw 같은 타 참가자 접수액과 목표 단가 민감도는 검증된 절감액으로 승격하지 않음.",
+  "existing_physical_scenario_records_checked": 58,
+  "currently_available_existing_scenario_records": 33,
+  "actual_followup_parallel_pro_tasks_completed": 5,
+  "actual_followup_parallel_pro_reports_read_by_root": 5,
+  "new_submission_ready_count": 0,
+  "preview_count": 0,
+  "post_count": 0,
+  "root_direct_primary_findings": {
+    "26129504": {
+      "finding": "XT 본체의 VAT 포함이 공개 HTML 공급가·세액으로 해소됨. HDD 장착·설치의 확정 비용은 여전히 미확인.",
+      "source_url": "https://highwonsolution.cafe24.com/product/detail.html?product_no=695",
+      "body_price_krw": "398200",
+      "body_price_supply_krw": "362000",
+      "body_price_tax_krw": "36200",
+      "body_vat_included": true,
+      "tax_source_kind": "실제 HTTP200 상품 HTML _iPrdtPriceOrg + _iPrdtPriceTax. 화면에 부가세 포함 문장이 있다고 인용하지 않음.",
+      "non_adopted_installation_lead": {
+        "source_url": "https://www.idis-cctv.co.kr/goods/view?no=2",
+        "reason": "무료 교체는 녹화기 및 카메라 16대 이상 세트 구매 조건. DVR만 교체하는 이번 비교의 무료 공임으로 쓰지 않음."
+      },
+      "adopted_benchmark_unit_price_krw": null,
+      "adopted_saving_krw": null
+    },
+    "22644501": {
+      "finding": "과거 검색 6090원은 채택하지 않음. 실제 다나와 경유 판매처는 일반 판매가10700원, 할인표시9200원으로 조달7590~8250원보다 높음.",
+      "source_url": "https://www.11st.co.kr/products/1522253455",
+      "regular_price_krw": "10700",
+      "discount_display_krw": "9200",
+      "discount_condition_not_adopted": true,
+      "shipping_krw": "3000",
+      "shipping_free_threshold_krw": "50000",
+      "original_delivery_terms": "납품장소 하차도",
+      "adopted_benchmark_unit_price_krw": null,
+      "adopted_saving_krw": null
+    },
+    "23226259": {
+      "finding": "원규격 전체 추출문을 다시 읽어 5·6형식·바이러스/혈액 차단·투습/정전기 방지와 옵션별 별도 물품번호를 구분. SF4500 베트남 제품을 원품과 동일하다고 채택하지 않음.",
+      "source_url": "https://api.savetax.now/v1/items/23226259",
+      "parallel_actual_retail_discoveries_root_not_independently_opened": [
+        "https://www.nowmro.com/m/product.html?branduid=629802",
+        "https://nowmro.com/shop/shopdetail.html?branduid=10879715"
+      ],
+      "adopted_benchmark_unit_price_krw": null,
+      "adopted_saving_krw": null
+    },
+    "23950703": {
+      "finding": "기존 사용자의 이음 방수·외관 미충족으로 접수하지 않는다는 판단을 확인. 현재 판매 평판의 선택 두께는150T까지여서 같은 두께의 저가를 새로운 상향 대안으로 승격하지 않음.",
+      "source_url": "https://bidnbee.com/shop/1712625434",
+      "adopted_benchmark_unit_price_krw": null,
+      "adopted_saving_krw": null
+    }
+  },
+  "existing_backlog_rechecked": [
+    {
+      "item_id": "23734462",
+      "latest_state": "on_hold",
+      "maximum_conditional_not_verified_krw": "27323122045",
+      "records": [
+        {
+          "source": "research/root-material-frontier-20261017.json",
+          "values": [
+            {
+              "key": "unadjusted_material_difference_krw",
+              "amount": "27323122045",
+              "path": "/asphalt"
+            }
+          ],
+          "status": "hold_pending_grade_and_delivery_evidence",
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "23734462",
+        "product_name": "아스팔트콘크리트, 조합공통품목, WC-2, 가열, 3등급",
+        "model": "WC-2",
+        "detail_category": "아스팔트콘크리트",
+        "local_amount_krw": 62781539545.0,
+        "local_quantity": 429799.0,
+        "local_unit_price_krw": 146071.8604394147
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "25570042",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "12252807600",
+      "records": [
+        {
+          "source": "research/concrete-focus-hn684.json",
+          "values": [
+            {
+              "key": "arithmetic_difference_before_fit_and_hold_review_krw",
+              "amount": "12252807600",
+              "path": "/calculation_scenarios/per_fact_acquisition_only"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/concrete-focus-hn684.json",
+          "values": [
+            {
+              "key": "arithmetic_difference_before_fit_and_hold_review_krw",
+              "amount": "12213286800",
+              "path": "/calculation_scenarios/uniform_conservative_unit_price"
+            }
+          ],
+          "status": "모든 fact에 최소 수량2개 주문의 배송부담2200원/개를 더한 단가를 일괄 적용한다. 5개이상 무료배송 fact에도 같은 완충액을 적용한 산술 시나리오다.",
+          "model": null
+        },
+        {
+          "source": "research/concrete-focus-hn684.json",
+          "values": [
+            {
+              "key": "arithmetic_difference_before_fit_and_hold_review_krw",
+              "amount": "12251448000",
+              "path": "/calculation_scenarios/only_free_shipping_facts"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/concrete-focus-hn684.json",
+          "values": [
+            {
+              "key": "arithmetic_difference_krw",
+              "amount": "12251448000",
+              "path": "/parent_accuracy_audit"
+            }
+          ],
+          "status": "검증 완료 후보와 제출 확정 금액에서 제외한다. 실제 비교 범위와 성능 근거를 보완할 연구 단서로 보존한다.",
+          "model": null
+        },
+        {
+          "source": "research/bulk-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "conditional_material_difference_krw",
+              "amount": "12251448000",
+              "path": "/priority_saved_bundle_candidates/4"
+            }
+          ],
+          "status": "HN-684 핵심 설치·하중 미검증. manhole-core-evidence-followup의 같은 와이어망/카탈로그 반복 중단",
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "25570042",
+        "product_name": "맨홀보조물, 에이치엔스마트코리아, HN-684, Φ600×35mm",
+        "model": "HN-684",
+        "detail_category": "맨홀보조물",
+        "local_amount_krw": 16007706000.0,
+        "local_quantity": 17966.0,
+        "local_unit_price_krw": 891000.0
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "24578151",
+      "latest_state": "on_hold",
+      "maximum_conditional_not_verified_krw": "5181791227",
+      "records": [
+        {
+          "source": "research/root-ceiling-submission-preparation-20261017.json",
+          "values": [
+            {
+              "key": "conditional_before_molding_freight_savings_krw",
+              "amount": "1757751313",
+              "path": "/manufacturer_material_quantity_table"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/root-ceiling-submission-preparation-20261017.json",
+          "values": [
+            {
+              "key": "before_molding_freight_savings_krw",
+              "amount": "1757751313",
+              "path": "/conditional_material_only_calculation"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/hardware-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "all75_facts_conditional_material_savings_krw",
+              "amount": "5181791227",
+              "path": "/round14_dabar_core_reassessment/cost_scope"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "conditional_savings_krw",
+              "amount": "5181791227",
+              "path": "/hyep01_followup/provisional_material_only_scenario"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "conditional_savings_before_molding_freight_krw",
+              "amount": "2815909658",
+              "path": "/hyep01_followup/zenfix_alternative_followup/manufacturer_standard_BOM_followup/nonadopted_arithmetic"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "conditional_before_molding_freight_savings_krw",
+              "amount": "1757751313",
+              "path": "/hyep01_followup/zenfix_alternative_followup/current_300x600_standard_BOM"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "conditional_material_only_savings_krw",
+              "amount": "5181791227",
+              "path": "/hyep01_followup/verified_numeric_table/1"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "24578151",
+        "product_name": "융복합불연천장재, 화영, HY-EP01, 불연내진천장시스템",
+        "model": "HY-EP01",
+        "detail_category": "융복합불연천장재",
+        "local_amount_krw": 6807052520.0,
+        "local_quantity": 141958.0,
+        "local_unit_price_krw": 47951.1723185731
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "23950712",
+      "latest_state": "claimed",
+      "maximum_conditional_not_verified_krw": "3944534580",
+      "records": [
+        {
+          "source": "research/bulk-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "conditional_material_difference_krw",
+              "amount": "3944534580",
+              "path": "/priority_saved_bundle_candidates/0"
+            }
+          ],
+          "status": "상향 대안 신규 조사 중; 완성 접합 및 운임 검토 필요",
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "23950712",
+        "product_name": "샌드위치패널, 에스와이테크, STW-GP-10100, 1000×1000×100mm",
+        "model": "STW-GP-10100",
+        "detail_category": "샌드위치패널",
+        "local_amount_krw": 8598770210.0,
+        "local_quantity": 155442.0,
+        "local_unit_price_krw": 55318.19077212079
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "23950714",
+      "latest_state": "on_hold",
+      "maximum_conditional_not_verified_krw": "3595273242",
+      "records": [
+        {
+          "source": "research/root-broad-materials-next-20261017.json",
+          "values": [
+            {
+              "key": "goods_only_conditional_difference_krw",
+              "amount": "3595273242",
+              "path": "/SY_wall_candidate/conditional_goods_only_calculation"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "23950714",
+        "product_name": "샌드위치패널, 에스와이테크, STW-GP-10150, 1000×1000×150mm",
+        "model": "STW-GP-10150",
+        "detail_category": "샌드위치패널",
+        "local_amount_krw": 9115865316.0,
+        "local_quantity": 143317.0,
+        "local_unit_price_krw": 63606.30850492266
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "25218051",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "2784954683",
+      "records": [
+        {
+          "source": "research/bulk-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "conditional_savings_krw",
+              "amount": "2784954683",
+              "path": "/steelnetwork_2016_conditional_quantities_followup/candidates/0/no_rounding_only_ge25t_summary"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "conditional_savings_krw",
+              "amount": "1714776941",
+              "path": "/steelnetwork_2016_conditional_quantities_followup/candidates/0/each_fact_25t_ceiling_summary"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/root-complete-panels-and-steel-20261017.json",
+          "values": [
+            {
+              "key": "hypothetical_savings_after_B_ceil6_and_fact_floor_krw",
+              "amount": "1714776941",
+              "path": "/steelnetwork_historical_retail_followup/conditional_math/independent_535_530_scenarios/25218051"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/root-complete-panels-and-steel-20261017.json",
+          "values": [
+            {
+              "key": "hypothetical_savings_after_B_ceil6_and_fact_floor_krw",
+              "amount": "1209912575",
+              "path": "/steelnetwork_historical_retail_followup/conditional_math/independent_535_530_scenarios/25218052"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "25218051",
+        "product_name": "철근콘크리트용봉강, 한국특강, KS-400-13, SD400, D13",
+        "model": "KS-400-13",
+        "detail_category": "철근콘크리트용봉강",
+        "local_amount_krw": 14091602349.0,
+        "local_quantity": 17148.0,
+        "local_unit_price_krw": 821763.6079426173
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "25207423",
+      "latest_state": "claimed",
+      "maximum_conditional_not_verified_krw": "2469691000",
+      "records": [
+        {
+          "source": "research/industrial-rfid-winter-followup.json",
+          "values": [
+            {
+              "key": "difference_positive_before_gap_rule_krw",
+              "amount": "2469691000",
+              "path": "/rfid/records/0/price_only_counterfactuals/0"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/industrial-rfid-winter-followup.json",
+          "values": [
+            {
+              "key": "difference_positive_before_gap_rule_krw",
+              "amount": "2159191000",
+              "path": "/rfid/records/0/price_only_counterfactuals/1"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "25207423",
+        "product_name": "도서관리시스템, 이씨오, LVM-RC500A-BF, 도서대출반납시스템",
+        "model": "LVM-RC500A-BF",
+        "detail_category": "도서관리시스템",
+        "local_amount_krw": 5043548500.0,
+        "local_quantity": 212.0,
+        "local_unit_price_krw": 23790323.11320755
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "25218052",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "1931066873",
+      "records": [
+        {
+          "source": "research/bulk-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "conditional_savings_krw",
+              "amount": "1931066873",
+              "path": "/steelnetwork_2016_conditional_quantities_followup/candidates/1/no_rounding_only_ge25t_summary"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "conditional_savings_krw",
+              "amount": "1209912575",
+              "path": "/steelnetwork_2016_conditional_quantities_followup/candidates/1/each_fact_25t_ceiling_summary"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "25218052",
+        "product_name": "철근콘크리트용봉강, 한국특강, KS-400-16, SD400, D16",
+        "model": "KS-400-16",
+        "detail_category": "철근콘크리트용봉강",
+        "local_amount_krw": 10093247350.0,
+        "local_quantity": 12257.0,
+        "local_unit_price_krw": 823468.0060373665
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "23950716",
+      "latest_state": "claimed",
+      "maximum_conditional_not_verified_krw": "1747929089",
+      "records": [
+        {
+          "source": "research/panel-followups-review.json",
+          "values": [
+            {
+              "key": "whole_panel_floor_difference_sum",
+              "amount": "1746455934",
+              "path": "/reviews/1/arithmetic"
+            },
+            {
+              "key": "raw_all_fact_net_difference",
+              "amount": "1746455969",
+              "path": "/reviews/1/arithmetic"
+            },
+            {
+              "key": "continuous_floor_difference_sum",
+              "amount": "1747929089",
+              "path": "/reviews/1/arithmetic"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "conditional_material_difference_krw",
+              "amount": "1746455934",
+              "path": "/priority_saved_bundle_candidates/2"
+            }
+          ],
+          "status": "외벽200T; 양면0.5T 확인 이력. 성능 상향·접합·운임 미검증",
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "23950716",
+        "product_name": "샌드위치패널, 에스와이테크, STW-GP-10200, 1000×1000×200mm",
+        "model": "STW-GP-10200",
+        "detail_category": "샌드위치패널",
+        "local_amount_krw": 4087898369.0,
+        "local_quantity": 57184.0,
+        "local_unit_price_krw": 71486.75099678231
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "23950710",
+      "latest_state": "claimed",
+      "maximum_conditional_not_verified_krw": "1469407682",
+      "records": [
+        {
+          "source": "research/panel-followups-review.json",
+          "values": [
+            {
+              "key": "whole_panel_floor_difference_sum",
+              "amount": "1467017511",
+              "path": "/reviews/2/arithmetic"
+            },
+            {
+              "key": "raw_all_fact_net_difference",
+              "amount": "1467017602",
+              "path": "/reviews/2/arithmetic"
+            },
+            {
+              "key": "continuous_floor_difference_sum",
+              "amount": "1469407682",
+              "path": "/reviews/2/arithmetic"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "conditional_material_difference_krw",
+              "amount": "1467017511",
+              "path": "/priority_saved_bundle_candidates/3"
+            }
+          ],
+          "status": "외벽50T; 양면0.5T 확인 이력. 성능 상향·접합·운임 미검증",
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "23950710",
+        "product_name": "샌드위치패널, 에스와이테크, STW-GP-10050, 1000×1000×50mm",
+        "model": "STW-GP-10050",
+        "detail_category": "샌드위치패널",
+        "local_amount_krw": 3295059202.0,
+        "local_quantity": 74093.0,
+        "local_unit_price_krw": 44471.936647186645
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "21657949",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "1445326240",
+      "records": [
+        {
+          "source": "research/industrial-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "saving_fact_floor_krw",
+              "amount": "1445326240",
+              "path": "/cement_same_model_followup_20261017/reviews/0/conditional_price_sensitivities_not_retail_evidence/0"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/industrial-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "saving_fact_floor_krw",
+              "amount": "1193779700",
+              "path": "/cement_same_model_followup_20261017/reviews/0/conditional_price_sensitivities_not_retail_evidence/1"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/industrial-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "saving_fact_floor_krw",
+              "amount": "1074388620",
+              "path": "/cement_same_model_followup_20261017/reviews/0/conditional_price_sensitivities_not_retail_evidence/2"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/industrial-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "saving_fact_floor_krw",
+              "amount": "902961430",
+              "path": "/cement_same_model_followup_20261017/reviews/0/conditional_price_sensitivities_not_retail_evidence/3"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/industrial-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "saving_fact_floor_krw",
+              "amount": "850036530",
+              "path": "/cement_same_model_followup_20261017/reviews/0/conditional_price_sensitivities_not_retail_evidence/4"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/industrial-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "saving_fact_floor_krw",
+              "amount": "641206930",
+              "path": "/cement_same_model_followup_20261017/reviews/0/conditional_price_sensitivities_not_retail_evidence/5"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/industrial-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "saving_fact_floor_krw",
+              "amount": "343222440",
+              "path": "/cement_same_model_followup_20261017/reviews/0/conditional_price_sensitivities_not_retail_evidence/6"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/industrial-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "saving_fact_floor_krw",
+              "amount": "29402170",
+              "path": "/cement_same_model_followup_20261017/reviews/0/conditional_price_sensitivities_not_retail_evidence/7"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "21657949",
+        "product_name": "시멘트, 삼표시멘트, 포틀랜드시멘트(1종)포장, 40kg",
+        "model": "포틀랜드시멘트(1종)포장",
+        "detail_category": "시멘트",
+        "local_amount_krw": 7198567240.0,
+        "local_quantity": 1278498.0,
+        "local_unit_price_krw": 5630.487681638923
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "25240330",
+      "latest_state": "claimed",
+      "maximum_conditional_not_verified_krw": "1383178800",
+      "records": [
+        {
+          "source": "research/industrial-rfid-winter-followup.json",
+          "values": [
+            {
+              "key": "difference_positive_before_gap_rule_krw",
+              "amount": "1383178800",
+              "path": "/rfid/records/1/price_only_counterfactuals/0"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/industrial-rfid-winter-followup.json",
+          "values": [
+            {
+              "key": "difference_positive_before_gap_rule_krw",
+              "amount": "1207476000",
+              "path": "/rfid/records/1/price_only_counterfactuals/1"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "25240330",
+        "product_name": "도서관리시스템, 앤로보틱스, EZ-2560HSC, 도서대출반납시스템",
+        "model": "EZ-2560HSC",
+        "detail_category": "도서관리시스템",
+        "local_amount_krw": 3138396800.0,
+        "local_quantity": 150.0,
+        "local_unit_price_krw": 20922645.333333332
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "23950713",
+      "latest_state": "claimed",
+      "maximum_conditional_not_verified_krw": "1288967985",
+      "records": [
+        {
+          "source": "research/root-wall-and-oven-followup-20261017.json",
+          "values": [
+            {
+              "key": "conditional_saving_all_positive",
+              "amount": "1288967985",
+              "path": "/official_items/0/conditional_panel_only_calculation"
+            },
+            {
+              "key": "conditional_saving_gap_met",
+              "amount": "1108585869",
+              "path": "/official_items/0/conditional_panel_only_calculation"
+            }
+          ],
+          "status": "conditional arithmetic only; no adopted price or submission",
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "23950713",
+        "product_name": "샌드위치패널, 에스와이테크, STW-GP-10125, 1000×1000×125mm",
+        "model": "STW-GP-10125",
+        "detail_category": "샌드위치패널",
+        "local_amount_krw": 3915577956.0,
+        "local_quantity": 67783.0,
+        "local_unit_price_krw": 57766.371450068604
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "23950708",
+      "latest_state": "claimed",
+      "maximum_conditional_not_verified_krw": "1263470413",
+      "records": [
+        {
+          "source": "research/bulk-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "conditional_difference_krw",
+              "amount": "1263470413",
+              "path": "/sywall75_150_complete_retail_followup/items/1/conditional_goods_only_calculation"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "23950708",
+        "product_name": "샌드위치패널, 에스와이테크, STW-GM-10150, 1000×1000×150mm",
+        "model": "STW-GM-10150",
+        "detail_category": "샌드위치패널",
+        "local_amount_krw": 3005723906.0,
+        "local_quantity": 29814.0,
+        "local_unit_price_krw": 100815.85516871269
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "23950711",
+      "latest_state": "claimed",
+      "maximum_conditional_not_verified_krw": "1243898534",
+      "records": [
+        {
+          "source": "research/bulk-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "conditional_difference_krw",
+              "amount": "1243898534",
+              "path": "/sywall75_150_complete_retail_followup/items/0/conditional_goods_only_calculation"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "23950711",
+        "product_name": "샌드위치패널, 에스와이테크, STW-GP-10075, 1000×1000×75mm",
+        "model": "STW-GP-10075",
+        "detail_category": "샌드위치패널",
+        "local_amount_krw": 3480897285.0,
+        "local_quantity": 74733.0,
+        "local_unit_price_krw": 46577.78069928947
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "24988800",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "1149080000",
+      "records": [
+        {
+          "source": "research/concrete-focus-bdk-acquisition.json",
+          "values": [
+            {
+              "key": "arithmetic_difference_krw",
+              "amount": "1149080000",
+              "path": "/selected_fact_scope"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "conditional_material_difference_krw",
+              "amount": "1149080000",
+              "path": "/priority_saved_bundle_candidates/5"
+            }
+          ],
+          "status": "완성 데크조합 미검증. 부분 부재가격을 완제품가격으로 확대하지 않음",
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "24988800",
+        "product_name": "기타조경시설물, 제이엠에스씨, BDK-SC-002, 1000×1000×71mm",
+        "model": "BDK-SC-002",
+        "detail_category": "기타조경시설물",
+        "local_amount_krw": 2023051600.0,
+        "local_quantity": 5324.0,
+        "local_unit_price_krw": 379987.1525169046
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "24396644",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "1099752450",
+      "records": [
+        {
+          "source": "research/hardware-camera-body.json",
+          "values": [
+            {
+              "key": "difference_before_shipping_accessories_unloading",
+              "amount": "1099752450",
+              "path": "/new_fields_followup/md25s/component_arithmetic_only"
+            },
+            {
+              "key": "max_additional_total_for_1067930000_saving",
+              "amount": "31822450",
+              "path": "/new_fields_followup/md25s/component_arithmetic_only"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "24396644",
+        "product_name": "합성수지덱, 스마트합성데크, MD-25S, 1600×150×t25mm",
+        "model": "MD-25S",
+        "detail_category": "합성수지덱",
+        "local_amount_krw": 1727098950.0,
+        "local_quantity": 18671.0,
+        "local_unit_price_krw": 92501.68443040008
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "21639833",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "1098967666",
+      "records": [
+        {
+          "source": "research/industrial-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "saving_fact_floor_krw",
+              "amount": "1098967666",
+              "path": "/cement_same_model_followup_20261017/reviews/1/conditional_price_sensitivities_not_retail_evidence/0"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/industrial-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "saving_fact_floor_krw",
+              "amount": "900003696",
+              "path": "/cement_same_model_followup_20261017/reviews/1/conditional_price_sensitivities_not_retail_evidence/1"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/industrial-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "saving_fact_floor_krw",
+              "amount": "807961196",
+              "path": "/cement_same_model_followup_20261017/reviews/1/conditional_price_sensitivities_not_retail_evidence/2"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/industrial-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "saving_fact_floor_krw",
+              "amount": "677458596",
+              "path": "/cement_same_model_followup_20261017/reviews/1/conditional_price_sensitivities_not_retail_evidence/3"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/industrial-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "saving_fact_floor_krw",
+              "amount": "637899946",
+              "path": "/cement_same_model_followup_20261017/reviews/1/conditional_price_sensitivities_not_retail_evidence/4"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/industrial-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "saving_fact_floor_krw",
+              "amount": "481665946",
+              "path": "/cement_same_model_followup_20261017/reviews/1/conditional_price_sensitivities_not_retail_evidence/5"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/industrial-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "saving_fact_floor_krw",
+              "amount": "248601046",
+              "path": "/cement_same_model_followup_20261017/reviews/1/conditional_price_sensitivities_not_retail_evidence/6"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "21639833",
+        "product_name": "시멘트, 한일시멘트, 포틀랜드1종포장시멘트, 40kg",
+        "model": "포틀랜드1종포장시멘트",
+        "detail_category": "시멘트",
+        "local_amount_krw": 6119502166.0,
+        "local_quantity": 1116526.0,
+        "local_unit_price_krw": 5480.841615869223
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "26027177",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "1095023040",
+      "records": [
+        {
+          "source": "research/root-followup-20261017.json",
+          "values": [
+            {
+              "key": "scenario_only_difference_krw",
+              "amount": "1095023040",
+              "path": "/records/0"
+            }
+          ],
+          "status": "일반 운동용 세트의 조건부 비교로 보관한다. 다음 날 가격·available·비교 범위를 다시 확인하고 공식 preview를 거친다.",
+          "model": "VIMS03"
+        }
+      ],
+      "local_screen": {
+        "item_id": "26027177",
+        "product_name": "남성용운동복, 비전실업, VIMS03, 육군춘추용(상/하의)",
+        "model": "VIMS03",
+        "detail_category": "남성용운동복",
+        "local_amount_krw": 2368702640.0,
+        "local_quantity": 64004.0,
+        "local_unit_price_krw": 37008.66570839322
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "22644501",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "1000000000",
+      "records": [
+        {
+          "source": "research/root-physical-goods-followup-20261017.json",
+          "values": [
+            {
+              "key": "saving_at_threshold_krw",
+              "amount": "1000000000",
+              "path": "/items/0/screening_threshold_not_market_price"
+            },
+            {
+              "key": "saving_one_micro_above_krw",
+              "amount": "999999999",
+              "path": "/items/0/screening_threshold_not_market_price"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "22644501",
+        "product_name": "단독경보형감지기, 리더스테크, LTD-3300B, 연기감지기, 광전식2종",
+        "model": "LTD-3300B",
+        "detail_category": "단독경보형감지기",
+        "local_amount_krw": 1662371755.0,
+        "local_quantity": 209102.0,
+        "local_unit_price_krw": 7950.051912463774
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "25899994",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "1000000000",
+      "records": [
+        {
+          "source": "research/root-physical-goods-followup-20261017.json",
+          "values": [
+            {
+              "key": "saving_at_threshold_krw",
+              "amount": "1000000000",
+              "path": "/items/1/screening_threshold_not_market_price"
+            },
+            {
+              "key": "saving_one_micro_above_krw",
+              "amount": "999999999",
+              "path": "/items/1/screening_threshold_not_market_price"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "25899994",
+        "product_name": "냉방기, 삼성전자, (TH)AR50F07D01HT, 3.0kW, 벽걸이형",
+        "model": "(TH)AR50F07D01HT",
+        "detail_category": "냉방기",
+        "local_amount_krw": 1863908166.0,
+        "local_quantity": 3045.0,
+        "local_unit_price_krw": 612120.9083743843
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "25461083",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "1000000000",
+      "records": [
+        {
+          "source": "research/root-physical-goods-followup-20261017.json",
+          "values": [
+            {
+              "key": "saving_at_threshold_krw",
+              "amount": "1000000000",
+              "path": "/items/2/screening_threshold_not_market_price"
+            },
+            {
+              "key": "saving_one_micro_above_krw",
+              "amount": "999999999",
+              "path": "/items/2/screening_threshold_not_market_price"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "25461083",
+        "product_name": "건물번호판, 에스디티, AB-0009, 260×215×1mm, 일반용",
+        "model": "AB-0009",
+        "detail_category": "건물번호판",
+        "local_amount_krw": 2148319000.0,
+        "local_quantity": 217720.0,
+        "local_unit_price_krw": 9867.347969869557
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "24215740",
+      "latest_state": "on_hold",
+      "maximum_conditional_not_verified_krw": "1000000000",
+      "records": [
+        {
+          "source": "research/root-physical-goods-followup-20261017.json",
+          "values": [
+            {
+              "key": "saving_at_threshold_krw",
+              "amount": "1000000000",
+              "path": "/items/3/screening_threshold_not_market_price"
+            },
+            {
+              "key": "saving_one_micro_above_krw",
+              "amount": "999999999",
+              "path": "/items/3/screening_threshold_not_market_price"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "24215740",
+        "product_name": "금속제패널, 스마일테크, SER-ST-I, 금속시트, KSD3528, 불소수지, 1.2mm, 평판",
+        "model": "SER-ST-I",
+        "detail_category": "금속제패널",
+        "local_amount_krw": 3854015956.0,
+        "local_quantity": 24042.0,
+        "local_unit_price_krw": 160303.467099243
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "23327841",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "978272100",
+      "records": [
+        {
+          "source": "research/industrial-rfid-winter-followup.json",
+          "values": [
+            {
+              "key": "difference_before_shipping_krw",
+              "amount": "978272100",
+              "path": "/winter_coats/records/1/price_only_counterfactual"
+            },
+            {
+              "key": "difference_if_3500_shipping_charged_for_every_unit_krw",
+              "amount": "897327600",
+              "path": "/winter_coats/records/1/price_only_counterfactual"
+            }
+          ],
+          "status": "실제 선택 합계·VAT·배송 문구 확인 완료. 원품의 보온재/치수/외피 결합 기능 대응은 미확인하므로 정량 차액을 점수·확정절감으로 채택하지 않았다.",
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "23327841",
+        "product_name": "남성용외투, 미도물산, MIDO0055, 경찰동계용(내피)",
+        "model": "MIDO0055",
+        "detail_category": "남성용외투",
+        "local_amount_krw": 1665144000.0,
+        "local_quantity": 23127.0,
+        "local_unit_price_krw": 72000.0
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "23704787",
+      "latest_state": "on_hold",
+      "maximum_conditional_not_verified_krw": "972968145",
+      "records": [
+        {
+          "source": "research/bulk-polyurea-nextday-20261017.json",
+          "values": [
+            {
+              "key": "scenario_difference_krw",
+              "amount": "972968145",
+              "path": "/calculation/scenarios/0"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-polyurea-nextday-20261017.json",
+          "values": [
+            {
+              "key": "scenario_difference_krw",
+              "amount": "962854571",
+              "path": "/calculation/scenarios/1"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "23704787",
+        "product_name": "폴리우레아수지도막방수재, 제이에스기술, JSPU-70R, t2mm, 주차장/옥상",
+        "model": "JSPU-70R",
+        "detail_category": "폴리우레아수지도막방수재",
+        "local_amount_krw": 3068750540.0,
+        "local_quantity": 58024.0,
+        "local_unit_price_krw": 52887.60754170688
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "26003126",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "932250000",
+      "records": [
+        {
+          "source": "research/after-linux-three-review.json",
+          "values": [
+            {
+              "key": "scope_before_site_fit_review_arithmetic_difference_krw",
+              "amount": "932250000",
+              "path": "/items/2/limited_replacement_plan"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "26003126",
+        "product_name": "컨테이너하우스, 이엔후레쉬, EN-YS12, 3.2×9.2×3.2m, 여성편의시설/작전대기실용",
+        "model": "EN-YS12",
+        "detail_category": "컨테이너하우스",
+        "local_amount_krw": 1440450000.0,
+        "local_quantity": 33.0,
+        "local_unit_price_krw": 43650000.0
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "23779255",
+      "latest_state": "on_hold",
+      "maximum_conditional_not_verified_krw": "931572000",
+      "records": [
+        {
+          "source": "research/bulk-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "factwise_savings_krw",
+              "amount": "931572000",
+              "path": "/sod50_complete_streetlight_followup/not_adopted_screening_arithmetic"
+            }
+          ],
+          "status": "실제판매선택금액만대입해도최소10억미만.원품보다더나은핵심성능·완성범위도미확인이므로채택예상액이아니다.",
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "23779255",
+        "product_name": "태양광가로등, 에스오디, SOD-50W, 50W, 5m",
+        "model": "SOD-50W",
+        "detail_category": "태양광가로등",
+        "local_amount_krw": 1136780000.0,
+        "local_quantity": 226.0,
+        "local_unit_price_krw": 5030000.0
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "24531953",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "876449280",
+      "records": [
+        {
+          "source": "research/root-followup-20261017.json",
+          "values": [
+            {
+              "key": "scenario_only_difference_krw",
+              "amount": "876449280",
+              "path": "/records/1"
+            }
+          ],
+          "status": "9억원 미만 조건부 후보로 보관한다. 일반 겨울 내의의 가격 차이와 원품 전체 기능 충족을 구별한다.",
+          "model": "VIMW04"
+        }
+      ],
+      "local_screen": {
+        "item_id": "24531953",
+        "product_name": "내복, 비전실업, VIMW04, 육군동계용(상/하의)",
+        "model": "VIMW04",
+        "detail_category": "내복",
+        "local_amount_krw": 1837860480.0,
+        "local_quantity": 74528.0,
+        "local_unit_price_krw": 24660.0
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "24535648",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "723478050",
+      "records": [
+        {
+          "source": "research/industrial-complete-goods-nextday.json",
+          "values": [
+            {
+              "key": "counterfactual_difference_krw",
+              "amount": "723478050",
+              "path": "/records/5/retail_comparison/price_only_arithmetic"
+            }
+          ],
+          "status": "가격 계산만의 가정이며 규격·치수별 실제 대체 가능 물량이 미확정. 점수/절감 확정액으로 채택하지 않음.",
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "24535648",
+        "product_name": "내복, 코데아, codea-2229, 육군동계용(상/하의)",
+        "model": "codea-2229",
+        "detail_category": "내복",
+        "local_amount_krw": 1511061750.0,
+        "local_quantity": 61053.0,
+        "local_unit_price_krw": 24750.0
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "22944239",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "692247800",
+      "records": [
+        {
+          "source": "research/concrete-focus-pp-court.json",
+          "values": [
+            {
+              "key": "arithmetic_difference_if_vat_included_krw",
+              "amount": "692247800",
+              "path": "/cost_scenario_not_adopted"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "22944239",
+        "product_name": "플라스틱바닥재, 코스코디에스, POWER COURT-01-02-03, 306×306×19mm",
+        "model": "POWER COURT-01-02-03",
+        "detail_category": "플라스틱바닥재",
+        "local_amount_krw": 3461127800.0,
+        "local_quantity": 49800.0,
+        "local_unit_price_krw": 69500.55823293173
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "21743345",
+      "latest_state": "claimed",
+      "maximum_conditional_not_verified_krw": "686777930",
+      "records": [
+        {
+          "source": "research/bulk-dsg-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "arithmetic_difference_krw",
+              "amount": "686777930",
+              "path": "/candidate/goods_acquisition_only_scenario"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-dsg-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "arithmetic_saving_scenario_krw",
+              "amount": "541724780",
+              "path": "/candidate/freight_scenarios/0"
+            },
+            {
+              "key": "saving_after_rounded_b_krw",
+              "amount": "541724701",
+              "path": "/candidate/freight_scenarios/0"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-dsg-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "arithmetic_saving_scenario_krw",
+              "amount": "380541330",
+              "path": "/candidate/freight_scenarios/1"
+            },
+            {
+              "key": "saving_after_rounded_b_krw",
+              "amount": "380541275",
+              "path": "/candidate/freight_scenarios/1"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-dsg-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "arithmetic_saving_scenario_krw",
+              "amount": "207598500",
+              "path": "/candidate/freight_scenarios/2"
+            },
+            {
+              "key": "saving_after_rounded_b_krw",
+              "amount": "207598453",
+              "path": "/candidate/freight_scenarios/2"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-dsg-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "arithmetic_saving_scenario_krw",
+              "amount": "21351600",
+              "path": "/candidate/freight_scenarios/3"
+            },
+            {
+              "key": "saving_after_rounded_b_krw",
+              "amount": "21351596",
+              "path": "/candidate/freight_scenarios/3"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "21743345",
+        "product_name": "콘크리트호안및옹벽블록, 덕산산업, DSGSBLOCK-21, 보통옹벽블록(대형), W1000×L730×H500mm, 통나무무늬형",
+        "model": "DSGSBLOCK-21",
+        "detail_category": "콘크리트호안및옹벽블록",
+        "local_amount_krw": 1322608180.0,
+        "local_quantity": 26885.0,
+        "local_unit_price_krw": 49195.0225032546
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "20756242",
+      "latest_state": "claimed",
+      "maximum_conditional_not_verified_krw": "631579094",
+      "records": [
+        {
+          "source": "research/hardware-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "factwise_floored_saving_krw",
+              "amount": "631579094",
+              "path": "/round29_owner2_bottled_and_tank_products/items/1/non_adopted_sensitivity"
+            }
+          ],
+          "status": "운임/탱크주입비를더하기전에도최소10억미달이다. 이가격경로를고액준비후보로승격하지않는다.",
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "20756242",
+        "product_name": "무기응집제, 고도화학, KD8, 탱크로리, 비중1.32,0.08, 황산알루미늄",
+        "model": "KD8",
+        "detail_category": "무기응집제",
+        "local_amount_krw": 4038761456.0,
+        "local_quantity": 25884.0,
+        "local_unit_price_krw": 156033.1268737444
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "23950703",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "622210478",
+      "records": [
+        {
+          "source": "research/root-stw-gm-9150-20261018.json",
+          "values": [
+            {
+              "key": "saving_if_used_krw",
+              "amount": "596512238",
+              "path": "/options/0"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/root-stw-gm-9150-20261018.json",
+          "values": [
+            {
+              "key": "saving_if_used_krw",
+              "amount": "622210478",
+              "path": "/options/1"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "23950703",
+        "product_name": "샌드위치패널, 에스와이테크, STW-GM-9150, 1000×900×150mm",
+        "model": "STW-GM-9150",
+        "detail_category": "샌드위치패널",
+        "local_amount_krw": 1080584988.0,
+        "local_quantity": 8923.0,
+        "local_unit_price_krw": 121101.0857334977
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "24077287",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "484038612",
+      "records": [
+        {
+          "source": "research/industrial-cot-followup.json",
+          "values": [
+            {
+              "key": "conditional_price_difference_krw",
+              "amount": "484038612",
+              "path": "/record"
+            }
+          ],
+          "status": "awaiting_parent_review_and_nextday_refresh",
+          "model": null
+        },
+        {
+          "source": "research/industrial-cot-followup.json",
+          "values": [
+            {
+              "key": "local_arithmetic_difference_krw",
+              "amount": "484038612",
+              "path": "/record/nextday_local_assessment"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "24077287",
+        "product_name": "야전침대, 침대, 알미늄제(장력장치미포함)2",
+        "model": "알미늄제(장력장치미포함)2",
+        "detail_category": "야전침대",
+        "local_amount_krw": 1153974612.0,
+        "local_quantity": 9852.0,
+        "local_unit_price_krw": 117131.0
+      },
+      "previous_ledger_state": "available",
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "25184452",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "448539650",
+      "records": [
+        {
+          "source": "research/concrete-focus-nextday-materials.json",
+          "values": [
+            {
+              "key": "arithmetic_difference_krw",
+              "amount": "448539650",
+              "path": "/panel_candidates/0/material_only_unadopted_scenario"
+            }
+          ],
+          "status": "운임·포장·가공·심재 차이를 해결하기 전의 산술 시나리오이며 확정 절감액이 아니다.",
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "25184452",
+        "product_name": "금속제패널, 대진산업건설, DJ-ALC40F1, 금속복합, KSF4737, 불소수지, 4mm, 평판",
+        "model": "DJ-ALC40F1",
+        "detail_category": "금속제패널",
+        "local_amount_krw": 1232050950.0,
+        "local_quantity": 19045.0,
+        "local_unit_price_krw": 64691.56996587031
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "23226259",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "431774484",
+      "records": [
+        {
+          "source": "research/hardware-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "factwise_floored_saving_krw",
+              "amount": "431774484",
+              "path": "/round32_owner2_deicer_suit_and_oven/items/1/non_adopted_sensitivities/0"
+            }
+          ],
+          "status": "채택 B나 예상 접수액이 아니다. 운임 추가 전에도 최소10억 미달이다.",
+          "model": null
+        },
+        {
+          "source": "research/hardware-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "factwise_floored_saving_krw",
+              "amount": "214401894",
+              "path": "/round32_owner2_deicer_suit_and_oven/items/1/non_adopted_sensitivities/1"
+            }
+          ],
+          "status": "채택 B나 예상 접수액이 아니다. 운임 추가 전에도 최소10억 미달이다.",
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "23226259",
+        "product_name": "화학물질보호복, 엠텍에스티에스, GuardWear 4500",
+        "model": "GuardWear 4500",
+        "detail_category": "화학물질보호복",
+        "local_amount_krw": 1971923800.0,
+        "local_quantity": 256094.0,
+        "local_unit_price_krw": 7700.0
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "24751638",
+      "latest_state": "claimed",
+      "maximum_conditional_not_verified_krw": "428953000",
+      "records": [
+        {
+          "source": "research/hardware-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "optimistic_display_price_only_saving_upper_bound_krw",
+              "amount": "428953000",
+              "path": "/round40_owner2_initial_complete_products/items/0/retail_paths/2"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "24751638",
+        "product_name": "주철맨홀뚜껑, 종합맨홀, JH-C-648-1, 구상흑연주철, 상하수도용, 원형, Φ648×110mm",
+        "model": "JH-C-648-1",
+        "detail_category": "주철맨홀뚜껑",
+        "local_amount_krw": 2845983000.0,
+        "local_quantity": 8030.0,
+        "local_unit_price_krw": 354418.804483188
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "24085920",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "385014600",
+      "records": [
+        {
+          "source": "research/bulk-bunkbed-nextday-20261017.json",
+          "values": [
+            {
+              "key": "arithmetic_difference_krw",
+              "amount": "385014600",
+              "path": "/candidate/budget_scenario"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "24085920",
+        "product_name": "침대, 아모스아인스가구, AMCB-20S, 1040×2050×1944mm, 2인용",
+        "model": "AMCB-20S",
+        "detail_category": "침대",
+        "local_amount_krw": 863132000.0,
+        "local_quantity": 1108.0,
+        "local_unit_price_krw": 779000.0
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "21001348",
+      "latest_state": "claimed",
+      "maximum_conditional_not_verified_krw": "377093107",
+      "records": [
+        {
+          "source": "research/bulk-material-nextday-20261017.json",
+          "values": [
+            {
+              "key": "arithmetic_difference_krw",
+              "amount": "377093107",
+              "path": "/curb_candidates/1/scenarios_not_adopted/regional_300k"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-material-nextday-20261017.json",
+          "values": [
+            {
+              "key": "arithmetic_difference_krw",
+              "amount": "178283331",
+              "path": "/curb_candidates/1/scenarios_not_adopted/road500km_base630k"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "21001348",
+        "product_name": "자연석경계석, 동해석재산업, DHS-0003, 200×250×1000mm, 보차도용, 직선, 모따기10R",
+        "model": "DHS-0003",
+        "detail_category": "자연석경계석",
+        "local_amount_krw": 1640824110.0,
+        "local_quantity": 48460.0,
+        "local_unit_price_krw": 33859.350185720185
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "25072818",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "348382800",
+      "records": [
+        {
+          "source": "research/concrete-focus-sjt400.json",
+          "values": [
+            {
+              "key": "arithmetic_difference_krw",
+              "amount": "348382800",
+              "path": "/comparison/material_only_reference"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/concrete-focus-sjt400.json",
+          "values": [
+            {
+              "key": "saving_krw",
+              "amount": "221895528",
+              "path": "/selected_fact_scope"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "25072818",
+        "product_name": "그레이팅덮개, 세진프라스틱, SJT-400, 993×400×9mm",
+        "model": "SJT-400",
+        "detail_category": "그레이팅덮개",
+        "local_amount_krw": 579275000.0,
+        "local_quantity": 6815.0,
+        "local_unit_price_krw": 85000.0
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "22423685",
+      "latest_state": "claimed",
+      "maximum_conditional_not_verified_krw": "264720434",
+      "records": [
+        {
+          "source": "research/bulk-hanil-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "regional_eligible_difference_krw",
+              "amount": "264606885",
+              "path": "/candidate/calculation"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-hanil-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "eligible_difference_krw",
+              "amount": "264606885",
+              "path": "/candidate/calculation/scenarios/0"
+            },
+            {
+              "key": "all_line_difference_before_rule_krw",
+              "amount": "264720434",
+              "path": "/candidate/calculation/scenarios/0"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-hanil-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "eligible_difference_krw",
+              "amount": "234246887",
+              "path": "/candidate/calculation/scenarios/1"
+            },
+            {
+              "key": "all_line_difference_before_rule_krw",
+              "amount": "234246914",
+              "path": "/candidate/calculation/scenarios/1"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-hanil-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "eligible_difference_krw",
+              "amount": "181116888",
+              "path": "/candidate/calculation/scenarios/2"
+            },
+            {
+              "key": "all_line_difference_before_rule_krw",
+              "amount": "181116914",
+              "path": "/candidate/calculation/scenarios/2"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-hanil-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "eligible_difference_krw",
+              "amount": "67925424",
+              "path": "/candidate/calculation/scenarios/3"
+            },
+            {
+              "key": "all_line_difference_before_rule_krw",
+              "amount": "112806914",
+              "path": "/candidate/calculation/scenarios/3"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-hanil-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "all_line_difference_before_rule_krw",
+              "amount": "39249254",
+              "path": "/candidate/calculation/scenarios/4"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "22423685",
+        "product_name": "콘크리트호안및옹벽블록, 한일콘크리트, hanil-76, 보통옹벽블록(대형), W1000×L800×H500mm, 생태블록",
+        "model": "hanil-76",
+        "detail_category": "콘크리트호안및옹벽블록",
+        "local_amount_krw": 693666534.0,
+        "local_quantity": 7457.0,
+        "local_unit_price_krw": 93022.19847123508
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "21110900",
+      "latest_state": "claimed",
+      "maximum_conditional_not_verified_krw": "263559595",
+      "records": [
+        {
+          "source": "research/bulk-material-nextday-20261017.json",
+          "values": [
+            {
+              "key": "arithmetic_difference_krw",
+              "amount": "263559595",
+              "path": "/curb_candidates/0/scenarios_not_adopted/regional_300k"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "21110900",
+        "product_name": "자연석경계석, 후암석재, HA-1005, 200×250×1000mm, 보차도용, 직선, 모따기10R",
+        "model": "HA-1005",
+        "detail_category": "자연석경계석",
+        "local_amount_krw": 1884006290.0,
+        "local_quantity": 60339.0,
+        "local_unit_price_krw": 31223.690979300285
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "24298217",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "261813000",
+      "records": [
+        {
+          "source": "research/bulk-finished-panels-nextday-20261017.json",
+          "values": [
+            {
+              "key": "goods_only_arithmetic_difference_krw",
+              "amount": "261813000",
+              "path": "/candidate/calculation"
+            },
+            {
+              "key": "goods_only_formula_difference_krw",
+              "amount": "261812994",
+              "path": "/candidate/calculation"
+            }
+          ],
+          "status": "panel_goods_only_scenario_not_adopted",
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "24298217",
+        "product_name": "유리섬유강화플라스틱패널, 서한안타민, AOP, L2440×W1220×t8mm",
+        "model": "AOP",
+        "detail_category": "유리섬유강화플라스틱패널",
+        "local_amount_krw": 626373000.0,
+        "local_quantity": 1933.0,
+        "local_unit_price_krw": 324041.9037765132
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "22639524",
+      "latest_state": "on_hold",
+      "maximum_conditional_not_verified_krw": "261437072",
+      "records": [
+        {
+          "source": "research/bulk-hanil-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "eligible_difference_krw",
+              "amount": "261437062",
+              "path": "/other_regional_candidates/0/scenarios/0"
+            },
+            {
+              "key": "all_line_difference_before_rule_krw",
+              "amount": "261437072",
+              "path": "/other_regional_candidates/0/scenarios/0"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-hanil-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "eligible_difference_krw",
+              "amount": "237149063",
+              "path": "/other_regional_candidates/0/scenarios/1"
+            },
+            {
+              "key": "all_line_difference_before_rule_krw",
+              "amount": "237149072",
+              "path": "/other_regional_candidates/0/scenarios/1"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-hanil-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "eligible_difference_krw",
+              "amount": "194645063",
+              "path": "/other_regional_candidates/0/scenarios/2"
+            },
+            {
+              "key": "all_line_difference_before_rule_krw",
+              "amount": "194645072",
+              "path": "/other_regional_candidates/0/scenarios/2"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-hanil-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "eligible_difference_krw",
+              "amount": "139997062",
+              "path": "/other_regional_candidates/0/scenarios/3"
+            },
+            {
+              "key": "all_line_difference_before_rule_krw",
+              "amount": "139997072",
+              "path": "/other_regional_candidates/0/scenarios/3"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-hanil-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "all_line_difference_before_rule_krw",
+              "amount": "79277072",
+              "path": "/other_regional_candidates/0/scenarios/4"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "22639524",
+        "product_name": "콘크리트호안및옹벽블록, 제일콘크리트, ji14, 보통옹벽블록(대형), W1000×L750×H500mm",
+        "model": "ji14",
+        "detail_category": "콘크리트호안및옹벽블록",
+        "local_amount_krw": 621093072.0,
+        "local_quantity": 6320.0,
+        "local_unit_price_krw": 98274.22025316456
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "23096835",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "240526064",
+      "records": [
+        {
+          "source": "research/bulk-complete-basics-nextday-20261017.json",
+          "values": [
+            {
+              "key": "cost_difference_before_unconfirmed_regional_freight_krw",
+              "amount": "240526064",
+              "path": "/fact_backed_items/4/unadopted_scenarios/0"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-complete-basics-nextday-20261017.json",
+          "values": [
+            {
+              "key": "cost_difference_before_unconfirmed_regional_freight_krw",
+              "amount": "160417984",
+              "path": "/fact_backed_items/4/unadopted_scenarios/1"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "23096835",
+        "product_name": "팬티, 제일, JEIL-203, 군용(드로즈)",
+        "model": "JEIL-203",
+        "detail_category": "팬티",
+        "local_amount_krw": 1041606864.0,
+        "local_quantity": 267903.0,
+        "local_unit_price_krw": 3888.0
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "26129504",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "225147950",
+      "records": [
+        {
+          "source": "research/root-continued-newgoods-20261019.json",
+          "values": [
+            {
+              "key": "conditional_arithmetic_saving_krw",
+              "amount": "225147950",
+              "path": "/sentry_followup"
+            }
+          ],
+          "status": null,
+          "model": "Sentry 7816V5"
+        }
+      ],
+      "local_screen": {
+        "item_id": "26129504",
+        "product_name": "디지털비디오레코더, 시큐인포, Sentry 7816V5, 14TB",
+        "model": "Sentry 7816V5",
+        "detail_category": "디지털비디오레코더",
+        "local_amount_krw": 297070000.0,
+        "local_quantity": 61.0,
+        "local_unit_price_krw": 4870000.0
+      },
+      "previous_ledger_state": "available",
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "23166753",
+      "latest_state": "claimed",
+      "maximum_conditional_not_verified_krw": "223016600",
+      "records": [
+        {
+          "source": "research/bulk-hanil-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "eligible_difference_krw",
+              "amount": "222987769",
+              "path": "/other_regional_candidates/2/scenarios/0"
+            },
+            {
+              "key": "all_line_difference_before_rule_krw",
+              "amount": "223016600",
+              "path": "/other_regional_candidates/2/scenarios/0"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-hanil-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "eligible_difference_krw",
+              "amount": "201131773",
+              "path": "/other_regional_candidates/2/scenarios/1"
+            },
+            {
+              "key": "all_line_difference_before_rule_krw",
+              "amount": "201207800",
+              "path": "/other_regional_candidates/2/scenarios/1"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-hanil-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "eligible_difference_krw",
+              "amount": "163026176",
+              "path": "/other_regional_candidates/2/scenarios/2"
+            },
+            {
+              "key": "all_line_difference_before_rule_krw",
+              "amount": "163247800",
+              "path": "/other_regional_candidates/2/scenarios/2"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-hanil-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "eligible_difference_krw",
+              "amount": "108241779",
+              "path": "/other_regional_candidates/2/scenarios/3"
+            },
+            {
+              "key": "all_line_difference_before_rule_krw",
+              "amount": "114615200",
+              "path": "/other_regional_candidates/2/scenarios/3"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-hanil-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "eligible_difference_krw",
+              "amount": "18055998",
+              "path": "/other_regional_candidates/2/scenarios/4"
+            },
+            {
+              "key": "all_line_difference_before_rule_krw",
+              "amount": "62274400",
+              "path": "/other_regional_candidates/2/scenarios/4"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "23166753",
+        "product_name": "콘크리트호안및옹벽블록, 대한콘크리트, DHC-G20, 보통옹벽블록(대형), W1000×L700×H500mm, A형",
+        "model": "DHC-G20",
+        "detail_category": "콘크리트호안및옹벽블록",
+        "local_amount_krw": 515573700.0,
+        "local_quantity": 5027.0,
+        "local_unit_price_krw": 102560.91108016709
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "23589147",
+      "latest_state": "on_hold",
+      "maximum_conditional_not_verified_krw": "220693050",
+      "records": [
+        {
+          "source": "research/bulk-hanil-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "eligible_difference_krw",
+              "amount": "220693007",
+              "path": "/other_regional_candidates/1/scenarios/0"
+            },
+            {
+              "key": "all_line_difference_before_rule_krw",
+              "amount": "220693050",
+              "path": "/other_regional_candidates/1/scenarios/0"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-hanil-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "eligible_difference_krw",
+              "amount": "196300019",
+              "path": "/other_regional_candidates/1/scenarios/1"
+            },
+            {
+              "key": "all_line_difference_before_rule_krw",
+              "amount": "196933050",
+              "path": "/other_regional_candidates/1/scenarios/1"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-hanil-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "eligible_difference_krw",
+              "amount": "154925423",
+              "path": "/other_regional_candidates/1/scenarios/2"
+            },
+            {
+              "key": "all_line_difference_before_rule_krw",
+              "amount": "155644050",
+              "path": "/other_regional_candidates/1/scenarios/2"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-hanil-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "eligible_difference_krw",
+              "amount": "91590175",
+              "path": "/other_regional_candidates/1/scenarios/3"
+            },
+            {
+              "key": "all_line_difference_before_rule_krw",
+              "amount": "103544450",
+              "path": "/other_regional_candidates/1/scenarios/3"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-hanil-block-nextday-20261017.json",
+          "values": [
+            {
+              "key": "all_line_difference_before_rule_krw",
+              "amount": "51721200",
+              "path": "/other_regional_candidates/1/scenarios/4"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "23589147",
+        "product_name": "콘크리트호안및옹벽블록, 금오콘크리트, kumo-14, 보통옹벽블록(대형), W1000×L750×H500mm",
+        "model": "kumo-14",
+        "detail_category": "콘크리트호안및옹벽블록",
+        "local_amount_krw": 523309650.0,
+        "local_quantity": 5142.0,
+        "local_unit_price_krw": 101771.61610268378
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "24560028",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "219042800",
+      "records": [
+        {
+          "source": "research/bulk-safety-storage-nextday-20261017.json",
+          "values": [
+            {
+              "key": "arithmetic_difference_krw",
+              "amount": "219042800",
+              "path": "/candidate/calculation_scenarios/0"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/bulk-safety-storage-nextday-20261017.json",
+          "values": [
+            {
+              "key": "arithmetic_difference_krw",
+              "amount": "212474800",
+              "path": "/candidate/calculation_scenarios/1"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "24560028",
+        "product_name": "접이식의자, 베스툴, BNU15F40D, 510×510×850mm",
+        "model": "BNU15F40D",
+        "detail_category": "접이식의자",
+        "local_amount_krw": 508691600.0,
+        "local_quantity": 3284.0,
+        "local_unit_price_krw": 154900.0
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "22924491",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "142574900",
+      "records": [
+        {
+          "source": "research/bulk-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "conditional_positive_fact_savings_krw",
+              "amount": "142574900",
+              "path": "/concrete_resume_20261017/comparison_results/0"
+            }
+          ],
+          "status": null,
+          "model": "DC-DCP01"
+        }
+      ],
+      "local_screen": {
+        "item_id": "22924491",
+        "product_name": "콘크리트호안및옹벽블록, 대창디에스, DC-DCP01, 보통옹벽블록(대형), W1480×L1480×H260mm, DCP패널블록",
+        "model": "DC-DCP01",
+        "detail_category": "콘크리트호안및옹벽블록",
+        "local_amount_krw": 1355140100.0,
+        "local_quantity": 3579.0,
+        "local_unit_price_krw": 378636.5185806091
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "21499993",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "107800794",
+      "records": [
+        {
+          "source": "research/rebar21499993-review.json",
+          "values": [
+            {
+              "key": "sum_floor_difference_krw",
+              "amount": "107800794",
+              "path": "/retail_evidence/1/conditional_arithmetic/positive_scope"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/rebar21499993-review.json",
+          "values": [
+            {
+              "key": "sum_floor_difference_krw",
+              "amount": "57154232",
+              "path": "/retail_evidence/2/conditional_arithmetic/positive_scope"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/rebar21499993-review.json",
+          "values": [
+            {
+              "key": "sum_floor_difference_krw",
+              "amount": "34945156",
+              "path": "/retail_evidence/2/conditional_arithmetic/ratio_sorted_prefix_at_least_1_2"
+            }
+          ],
+          "status": null,
+          "model": null
+        },
+        {
+          "source": "research/rebar21499993-review.json",
+          "values": [
+            {
+              "key": "sum_floor_difference_krw",
+              "amount": "34945156",
+              "path": "/selected_scope/summary"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "21499993",
+        "product_name": "철근콘크리트용봉강, 현대제철, HS-16(SD400), SD400, D16",
+        "model": "HS-16(SD400)",
+        "detail_category": "철근콘크리트용봉강",
+        "local_amount_krw": 21712125491.0,
+        "local_quantity": 26803.0,
+        "local_unit_price_krw": 810063.2575084879
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "25352555",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "85695000",
+      "records": [
+        {
+          "source": "research/bulk-cabinet-nextday-20261017.json",
+          "values": [
+            {
+              "key": "arithmetic_difference_krw",
+              "amount": "85695000",
+              "path": "/candidate/budget_scenario"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "25352555",
+        "product_name": "캐비닛, 아모스아인스가구, AMCB-850, 801×420×1880mm",
+        "model": "AMCB-850",
+        "detail_category": "캐비닛",
+        "local_amount_krw": 350054000.0,
+        "local_quantity": 967.0,
+        "local_unit_price_krw": 362000.0
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "24035326",
+      "latest_state": "claimed",
+      "maximum_conditional_not_verified_krw": "66934000",
+      "records": [
+        {
+          "source": "research/hardware-evidence.json",
+          "values": [
+            {
+              "key": "potential_savings_krw",
+              "amount": "66934000",
+              "path": "/candidates/3/comparison"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "24035326",
+        "product_name": "비디오프로젝터, Epson, (PH)EB-X550KG, 5500ANSI lm",
+        "model": "(PH)EB-X550KG",
+        "detail_category": "비디오프로젝터",
+        "local_amount_krw": 145408000.0,
+        "local_quantity": 82.0,
+        "local_unit_price_krw": 1773268.2926829269
+      },
+      "previous_ledger_state": "claimed",
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "24813212",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "34711500",
+      "records": [
+        {
+          "source": "research/fullscan-hardware.json",
+          "values": [
+            {
+              "key": "provisional_component_difference_krw",
+              "amount": "34711500",
+              "path": "/camera_bracket_focus/deferred_small_drafts/0"
+            }
+          ],
+          "status": "deferred_under_100m_supply_version_and_parent_dom_review",
+          "model": "TR-UP08-A-IN"
+        }
+      ],
+      "local_screen": {
+        "item_id": "24813212",
+        "product_name": "카메라브래킷, 포딕스시스템, FDC-CBR215P, 기둥형",
+        "model": "FDC-CBR215P",
+        "detail_category": "카메라브래킷",
+        "local_amount_krw": 68766000.0,
+        "local_quantity": 438.0,
+        "local_unit_price_krw": 157000.0
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "24813213",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "31242000",
+      "records": [
+        {
+          "source": "research/fullscan-hardware.json",
+          "values": [
+            {
+              "key": "provisional_component_difference_krw",
+              "amount": "31242000",
+              "path": "/camera_bracket_focus/deferred_small_drafts/1"
+            }
+          ],
+          "status": "deferred_under_100m_load_and_parent_dom_review",
+          "model": "TR-WE45-IN"
+        }
+      ],
+      "local_screen": {
+        "item_id": "24813213",
+        "product_name": "카메라브래킷, 포딕스시스템, FDC-CBR230W, 벽부형",
+        "model": "FDC-CBR230W",
+        "detail_category": "카메라브래킷",
+        "local_amount_krw": 39360000.0,
+        "local_quantity": 246.0,
+        "local_unit_price_krw": 160000.0
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "24632808",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "28339800",
+      "records": [
+        {
+          "source": "research/furniture.json",
+          "values": [
+            {
+              "key": "hypothetical_savings_if_identical_and_all_Q_eligible_krw",
+              "amount": "28339800",
+              "path": "/candidates/0/screening"
+            }
+          ],
+          "status": "정확대응 미확정이고, 동일하다고 가정해도 일반가 기준절감액이1억미만. 1억우선대상제외.",
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "24632808",
+        "product_name": "작업용의자, 듀오백, CSQ1H-ADMB, 680×614~674×1135~1241mm",
+        "model": "CSQ1H-ADMB",
+        "detail_category": "작업용의자",
+        "local_amount_krw": 207127800.0,
+        "local_quantity": 951.0,
+        "local_unit_price_krw": 217800.0
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "25890771",
+      "latest_state": "available",
+      "maximum_conditional_not_verified_krw": "23808483",
+      "records": [
+        {
+          "source": "research/bulk-goal1000-20261017.json",
+          "values": [
+            {
+              "key": "conditional_positive_fact_savings_krw",
+              "amount": "23808483",
+              "path": "/new_SD500_rebar_followup"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "25890771",
+        "product_name": "철근콘크리트용봉강, 동국제강, DK-22(SD500), SD500, D22",
+        "model": "DK-22(SD500)",
+        "detail_category": "철근콘크리트용봉강",
+        "local_amount_krw": 8496358733.0,
+        "local_quantity": 10176.0,
+        "local_unit_price_krw": 834940.9132272012
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    },
+    {
+      "item_id": "24339648",
+      "latest_state": "claimed",
+      "maximum_conditional_not_verified_krw": "23380000",
+      "records": [
+        {
+          "source": "research/hardware-evidence.json",
+          "values": [
+            {
+              "key": "potential_savings_krw",
+              "amount": "23380000",
+              "path": "/candidates/6/comparison"
+            }
+          ],
+          "status": null,
+          "model": null
+        }
+      ],
+      "local_screen": {
+        "item_id": "24339648",
+        "product_name": "하드디스크드라이브, Seagate, (CN)ST10000NM002G, 10TB",
+        "model": "(CN)ST10000NM002G",
+        "detail_category": "하드디스크드라이브",
+        "local_amount_krw": 47992000.0,
+        "local_quantity": 28.0,
+        "local_unit_price_krw": 1714000.0
+      },
+      "previous_ledger_state": null,
+      "latest_state_observed_at_utc": "2026-10-19T11:38:20.301336+00:00"
+    }
+  ],
+  "warning": "재조회 목록의 maximum_conditional_not_verified_krw는 가격별 민감도·목표 단가·미적합 대안·실제 판매가 기반 산술이 혼재한 과거 수치다. 이를 현재 접수 순위나 확보액으로 사용하지 않는다."
+}
