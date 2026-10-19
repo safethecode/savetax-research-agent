@@ -165,7 +165,14 @@
     "predicted_operation": "CLICK",
     "confidence": 0.24,
     "prediction_automatically_executed": false,
-    "browser_primary_text_reviewed": true
+    "browser_primary_text_reviewed": true,
+    "additional_loop_attempt": {
+      "status": "subprocess_error",
+      "session": "root-cooker-jev",
+      "requested_max_steps": 3,
+      "actual_step_count": null,
+      "detail": "CLI가 subprocess exit1을 반환. 원문 오류·실제 실행 단계는 확인하지 못함. 완료 또는 가격검증으로 집계하지 않음."
+    }
   },
   "submissions": {
     "preview_count": 0,
@@ -192,5 +199,13 @@
     "delivery_terms": "현장설치도",
     "supply_region": "전지역(제주 및 도서산간지역 운임비 별도)",
     "catalog_price_not_used_as_market_price": true
-  }
+  },
+  "latest_availability": {
+    "input": "25451683",
+    "kind": "item",
+    "item_id": "25451683",
+    "state": "claimed",
+    "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+  },
+  "latest_availability_observed_at_utc": "2026-10-19T10:44:52.465980+00:00"
 }
