@@ -1,0 +1,83 @@
+{
+  "created_at_utc": "2026-10-19T22:38:37.773247+00:00",
+  "frozen_base_report": {
+    "path": "public-ready-hardware-camera-natto-pass35-20261020.json",
+    "bytes": 99371,
+    "sha256": "45c2f939e7c7483220dde31ac254cab6ca617ae4b1db276600fa16e13be8d8ea",
+    "unchanged": true
+  },
+  "camera_negative_price_only_math": {
+    "raw_display_price_krw": "8810900",
+    "Q": "137",
+    "official_C_krw": "931600000",
+    "displayed_price_times_Q_krw": "1207093300",
+    "uncapped_difference_krw": "-275493300",
+    "formula": "931600000 - 8810900 * 137 = -275493300",
+    "scope": "세금 대응·부속품·현장설치 비용을 확정하지 않은 본체 표시가격만의 음수 차액이며 채택B나 점수 산술이 아니다. 미확인 비용0원 가정 없음.",
+    "all_fact_math": [
+      {
+        "fact_id": "dl:25619100:002270134_1:R25TB01337473:31",
+        "listing_id": "002270134_1220002037",
+        "contract_no": "002270134_1",
+        "request_no": "R25TB01337473",
+        "line_no": "31",
+        "quantity": "91",
+        "comparable_amount_krw": "618800000",
+        "raw_display_price_krw": "8810900",
+        "raw_price_times_Q_krw": "801791900",
+        "uncapped_display_price_difference_krw": "-182991900",
+        "formula": "comparable_amount_krw - 8,810,900 × quantity",
+        "adopted_savings_krw": null
+      },
+      {
+        "fact_id": "dl:25619100:002270134_1:R26TB01970724:1",
+        "listing_id": "002270134_1220002037",
+        "contract_no": "002270134_1",
+        "request_no": "R26TB01970724",
+        "line_no": "1",
+        "quantity": "46",
+        "comparable_amount_krw": "312800000",
+        "raw_display_price_krw": "8810900",
+        "raw_price_times_Q_krw": "405301400",
+        "uncapped_display_price_difference_krw": "-92501400",
+        "formula": "comparable_amount_krw - 8,810,900 × quantity",
+        "adopted_savings_krw": null
+      }
+    ],
+    "adopted_benchmark_krw": null,
+    "verified_savings_krw": null
+  },
+  "natto_math": {
+    "C_krw": "1128480000",
+    "Q": "4702",
+    "ordinary_price_B": null,
+    "formula": "C - B*Q, 그러나 정확 일반가B 미확보로 수치 산술하지 않음",
+    "verified_savings_krw": null,
+    "all_75_fact_refs_in": "public-ready-hardware-camera-natto-pass35-20261020.json"
+  },
+  "common_hwp_reuse": {
+    "source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=001750922_1090000004",
+    "raw_path": "work/highvalue-hardware/resume-20261019/pass35/downloads/보조사료 규격서_켐포트.hwp",
+    "bytes": 5543424,
+    "sha256": "79857ea7f78f933a8c85d348cdc20b5fcf8ad4867444facb280681c4c6284976",
+    "extracted_text": "work/highvalue-hardware/resume-20261019/pass35/natto-spec-text.json",
+    "excerpts": "work/highvalue-hardware/resume-20261019/pass35/natto-scope-excerpts.json",
+    "exact_model_scope": [
+      "22959184 낫또그로5kg",
+      "22959185 락토그로5kg",
+      "22959186 이스트그로5kg"
+    ],
+    "no_cross_model_price_or_formula_transfer": true
+  },
+  "browser_cleanup": {
+    "manual_tabs": "6개 수동 읽기와1개 다운로드 작업은 각 Target.createTarget의 반환target만 finally close_tab로 닫음",
+    "jev_tabs": "BrowserRuntime._run은 시작 전 탭 목록을 보존하고 작업 중 생긴 탭만 finally _cleanup_new_tabs로 정리하며 오류0. Agent context도 종료됨. 기존 사용자/다른세션 탭을 닫지 않음.",
+    "extra_shared_browser_actions": 0
+  },
+  "new_submission_count": 0,
+  "production_changes": 0,
+  "git_changes": 0,
+  "all_77_complete_fact_numbers_in": "public-ready-hardware-camera-natto-pass35-20261020.json",
+  "published_base_report": "research/hardware-camera-natto-pass35-20261020.json",
+  "frozen_addendum_input_sha256": "ea0bacdd0cee18dc00b39e2347ce0c309de00dd85d5c45f285db58df8f4a31ec"
+}
