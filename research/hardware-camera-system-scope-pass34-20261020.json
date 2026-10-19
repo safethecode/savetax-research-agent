@@ -1,0 +1,1033 @@
+{
+  "created_at_utc": "2026-10-19T21:38:27.762741+00:00",
+  "report_kind": "카메라·영상저장 예외 현재 상태와 완성 시스템 원문 pass34",
+  "scope": "현재 채팅600억원·신규 고액우선·기존 접수 유지. 타 채팅1000억원/감사/revision/하한완화 권한을 적용하지 않는다. Parent만 Git/POST.",
+  "local_screen": {
+    "initial_camera_surveillance_bracket_count_over_200m": 305,
+    "separate_digital_video_recorder_count_over_200m": 19,
+    "local_selection_not_price_verification": true,
+    "prior_claimed_or_own_excluded_initial": 28,
+    "initial_status_only_or_unread_remaining": 277,
+    "note": "이는 지정 분류·로컬금액2억 이상을 선별한 부분 집합이며 전체 인덱스 또는 모든 카메라 분야 실독 완료 수가 아니다."
+  },
+  "lookup_snapshots": [
+    {
+      "observed_at_utc": "2026-10-19T21:31:02.918882+00:00",
+      "response": {
+        "items": [
+          {
+            "input": "23938819",
+            "kind": "item",
+            "item_id": "23938819",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "24514795",
+            "kind": "item",
+            "item_id": "24514795",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "23560183",
+            "kind": "item",
+            "item_id": "23560183",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          }
+        ]
+      }
+    },
+    {
+      "observed_at_utc": "2026-10-19T21:31:28.163450+00:00",
+      "response": {
+        "items": [
+          {
+            "input": "24911369",
+            "kind": "item",
+            "item_id": "24911369",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "25667929",
+            "kind": "item",
+            "item_id": "25667929",
+            "state": "available",
+            "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+          },
+          {
+            "input": "25619100",
+            "kind": "item",
+            "item_id": "25619100",
+            "state": "available",
+            "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+          },
+          {
+            "input": "25268559",
+            "kind": "item",
+            "item_id": "25268559",
+            "state": "available",
+            "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+          },
+          {
+            "input": "26161319",
+            "kind": "item",
+            "item_id": "26161319",
+            "state": "available",
+            "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+          },
+          {
+            "input": "25914196",
+            "kind": "item",
+            "item_id": "25914196",
+            "state": "available",
+            "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+          },
+          {
+            "input": "25121121",
+            "kind": "item",
+            "item_id": "25121121",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "25004877",
+            "kind": "item",
+            "item_id": "25004877",
+            "state": "available",
+            "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+          },
+          {
+            "input": "24544758",
+            "kind": "item",
+            "item_id": "24544758",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "23579287",
+            "kind": "item",
+            "item_id": "23579287",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "24658149",
+            "kind": "item",
+            "item_id": "24658149",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "25702936",
+            "kind": "item",
+            "item_id": "25702936",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "25473735",
+            "kind": "item",
+            "item_id": "25473735",
+            "state": "available",
+            "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+          },
+          {
+            "input": "25478681",
+            "kind": "item",
+            "item_id": "25478681",
+            "state": "available",
+            "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+          },
+          {
+            "input": "25196837",
+            "kind": "item",
+            "item_id": "25196837",
+            "state": "available",
+            "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+          },
+          {
+            "input": "25644256",
+            "kind": "item",
+            "item_id": "25644256",
+            "state": "available",
+            "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+          },
+          {
+            "input": "24732510",
+            "kind": "item",
+            "item_id": "24732510",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "24744148",
+            "kind": "item",
+            "item_id": "24744148",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "24541031",
+            "kind": "item",
+            "item_id": "24541031",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "26156250",
+            "kind": "item",
+            "item_id": "26156250",
+            "state": "available",
+            "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+          },
+          {
+            "input": "24808089",
+            "kind": "item",
+            "item_id": "24808089",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "24153587",
+            "kind": "item",
+            "item_id": "24153587",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "23914281",
+            "kind": "item",
+            "item_id": "23914281",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "25702956",
+            "kind": "item",
+            "item_id": "25702956",
+            "state": "available",
+            "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+          },
+          {
+            "input": "25968059",
+            "kind": "item",
+            "item_id": "25968059",
+            "state": "available",
+            "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+          },
+          {
+            "input": "24778075",
+            "kind": "item",
+            "item_id": "24778075",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "25206656",
+            "kind": "item",
+            "item_id": "25206656",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "24831842",
+            "kind": "item",
+            "item_id": "24831842",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "24198679",
+            "kind": "item",
+            "item_id": "24198679",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "23788726",
+            "kind": "item",
+            "item_id": "23788726",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "24897986",
+            "kind": "item",
+            "item_id": "24897986",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "25216108",
+            "kind": "item",
+            "item_id": "25216108",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "24120967",
+            "kind": "item",
+            "item_id": "24120967",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "25652701",
+            "kind": "item",
+            "item_id": "25652701",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "23227362",
+            "kind": "item",
+            "item_id": "23227362",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "24567374",
+            "kind": "item",
+            "item_id": "24567374",
+            "state": "available",
+            "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+          },
+          {
+            "input": "25254921",
+            "kind": "item",
+            "item_id": "25254921",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "25591317",
+            "kind": "item",
+            "item_id": "25591317",
+            "state": "available",
+            "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+          },
+          {
+            "input": "24461369",
+            "kind": "item",
+            "item_id": "24461369",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "24949051",
+            "kind": "item",
+            "item_id": "24949051",
+            "state": "available",
+            "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+          },
+          {
+            "input": "24665511",
+            "kind": "item",
+            "item_id": "24665511",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "24732508",
+            "kind": "item",
+            "item_id": "24732508",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "25667944",
+            "kind": "item",
+            "item_id": "25667944",
+            "state": "available",
+            "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+          },
+          {
+            "input": "24477035",
+            "kind": "item",
+            "item_id": "24477035",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "23586487",
+            "kind": "item",
+            "item_id": "23586487",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "25238676",
+            "kind": "item",
+            "item_id": "25238676",
+            "state": "available",
+            "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+          },
+          {
+            "input": "24754885",
+            "kind": "item",
+            "item_id": "24754885",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          },
+          {
+            "input": "24835774",
+            "kind": "item",
+            "item_id": "24835774",
+            "state": "available",
+            "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+          },
+          {
+            "input": "25268540",
+            "kind": "item",
+            "item_id": "25268540",
+            "state": "available",
+            "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+          },
+          {
+            "input": "25897611",
+            "kind": "item",
+            "item_id": "25897611",
+            "state": "available",
+            "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+          }
+        ]
+      }
+    },
+    {
+      "observed_at_utc": "2026-10-19T21:36:28.367745+00:00",
+      "response": {
+        "items": [
+          {
+            "input": "25560065",
+            "kind": "item",
+            "item_id": "25560065",
+            "state": "claimed_by_me",
+            "my_submission_id": "405b28dc-232d-44e0-a9e3-1bf54494efaa",
+            "current_revision": 1,
+            "message": "내가 이미 등록한 물품입니다 — 새로 제출하지 말고 내 제출을 수정하세요"
+          },
+          {
+            "input": "25560066",
+            "kind": "item",
+            "item_id": "25560066",
+            "state": "claimed",
+            "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+          }
+        ]
+      }
+    }
+  ],
+  "fresh_lookup_unique_count": 55,
+  "fresh_lookup_state_counts": {
+    "claimed": 33,
+    "available": 21,
+    "claimed_by_me": 1
+  },
+  "claimed_reuse_note": "24808090/25473676/23579286/24835047/24094060/24835049 등의 기존 claimed를 재사용했다. 새23938819/24514795/23560183도 claimed라 가격 검색을 하지 않았다. BKT-AIBOX-1N26137711의 기존 claimed도 재사용했다.",
+  "existing_own_nvr_preserved": {
+    "item_id": "25560065",
+    "model": "EM-36B8V2",
+    "state": "claimed_by_me",
+    "submission_id": "405b28dc-232d-44e0-a9e3-1bf54494efaa",
+    "current_revision": 1,
+    "action": "새 가격 조사·POST·revision 없이 기존 접수 유지"
+  },
+  "other_nvr_skip": {
+    "item_id": "25560066",
+    "model": "EM-64B8V2",
+    "state": "claimed",
+    "market_research_performed": false
+  },
+  "records": [
+    {
+      "item_id": "26161319",
+      "original_owner_slot": 0,
+      "scope_exception": "카메라 본체/영상저장 완성 구성 조사 예외",
+      "name": "영상감시장치, 탄탄코어, TAC-OA6081RG03(TAC-OA6081RG), 옥외(방법)감시시스템",
+      "model": "TAC-OA6081RG03(TAC-OA6081RG)",
+      "manufacturer": "주식회사탄탄코어",
+      "availability": {
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "official_event_source": "event-26161319.json",
+      "official_C_krw": "852403200",
+      "official_Q": "134",
+      "unit": "조",
+      "scorable_fact_count": 2,
+      "unique_request_count": 2,
+      "facts_truncated": false,
+      "all_scorable_facts": [
+        {
+          "fact_id": "dl:26161319:0024H0017_1:R26TB01930061:1",
+          "listing_id": "0024H0017_1020000061",
+          "contract_no": "0024H0017_1",
+          "request_no": "R26TB01930061",
+          "line_no": "1",
+          "request_date": "2026-05-19",
+          "agency_name": "서울시설공단",
+          "unit": "조",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:조:vat_included",
+          "comparison_basis_id": "basis:조:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "6336000",
+          "quantity": "70",
+          "comparable_amount_krw": "443520000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:26161319:0024H0017_1:R26TB02016573:1",
+          "listing_id": "0024H0017_1020000061",
+          "contract_no": "0024H0017_1",
+          "request_no": "R26TB02016573",
+          "line_no": "1",
+          "request_date": "2026-06-12",
+          "agency_name": "서울시설공단",
+          "unit": "조",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:조:vat_included",
+          "comparison_basis_id": "basis:조:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "6388800",
+          "quantity": "64",
+          "comparable_amount_krw": "408883200",
+          "scorable": true,
+          "exclusion_reasons": []
+        }
+      ],
+      "fulfillment_references": [
+        {
+          "fact_id": "dl:26161319:0024H0017_1:R26TB01930061:1",
+          "listing_id": "0024H0017_1020000061",
+          "contract_no": "0024H0017_1",
+          "request_no": "R26TB01930061",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:26161319:0024H0017_1:R26TB02016573:1",
+          "listing_id": "0024H0017_1020000061",
+          "contract_no": "0024H0017_1",
+          "request_no": "R26TB02016573",
+          "line_no": "1"
+        }
+      ],
+      "original_attributes": [
+        {
+          "name": "구성",
+          "unit": null,
+          "value": "AI블릿카메라:TAC-OA6081RG, PoE이더넷스위치"
+        },
+        {
+          "name": "용도",
+          "unit": null,
+          "value": "옥외(방법)감시시스템"
+        },
+        {
+          "name": "옵션/기타",
+          "unit": null,
+          "value": "AI블릿카메라:2M AI블릿카메라/12.7mmCMOS/ 최저조도:컬러0.007lx(F1.3.1/30초/렌즈:4.38~9.33mm(x2.13)전동가변/AI엔진기반분석:이동객체계수및시계열실세계좌표계, PoE이더넷스위치:8 TP(10/100/1000Mbps)+2 SFP(100M/1Gbps)/8 PoE(af/at)+PoE Max120W/L2 1G스위치"
+        }
+      ],
+      "original_listing_id": "0024H0017_1020000061",
+      "delivery_terms": "현장설치도",
+      "supply_region": "전지역",
+      "core_complete_scope": {
+        "camera": "TAC-OA6081RG 2M AI블릿카메라, 12.7mmCMOS",
+        "lens": "4.38~9.33mm 전동 가변, 약2.13배",
+        "minimum_illumination": "컬러0.007lx(F1.3.1/30초): 공식 속성의 원문 표기를 보존",
+        "analysis": "AI엔진 기반 이동 객체 계수 및 시계열 실세계 좌표계",
+        "included_network": "8 TP(10/100/1000Mbps)+2 SFP(100M/1Gbps), 8 PoE af/at, 최대120W L2 1G스위치",
+        "scope_limit": "일반 2MP 카메라의 침입/움직임 검지만으로 실세계 좌표·시계열 분석을 대체하지 않는다. 별도 PoE스위치를 빼거나 SFP포트 수로 광모듈 포함을 추정하지 않는다. 원품에 침수/화재 기능이 있다고 임의 추가하지 않는다."
+      },
+      "original_native_review": "초기 빈 템플릿을 완료로 세지 않고 물품번호 로딩을 기다려 실제 모델·조 단위·구성 관련 선택품목·첨부 상태를 다시 읽었다.",
+      "original_native_source": "tac-g2b-waited-browser.json",
+      "original_document_review": "REST 첨부6개와 실제 화면 첨부0개를 구분. 해당 ZIP/HWP를 내려받거나 읽었다고 세지 않았다. 규격 속성·제조사 AI분석 제품 원문까지만 실제 읽음.",
+      "retail_review": {
+        "same_model_general_price": null,
+        "manufacturer_page_numeric_general_price": null,
+        "vat_included": null,
+        "shipping_included": null,
+        "complete_alternative_price": null,
+        "decision": "정확 일반 판매가가 없으며 완성 핵심 기능·필수 구성이 대응하는 더 우수한 대체품 가격을 검증하지 못함. 판매가 미확보는 기능이 없다는 증거가 아니다.",
+        "missing_price_scope": [
+          "정확 모델의 신품 전체 일반가",
+          "실제 모델/분석기능/라이선스 및 필수 구성 대응",
+          "판매세금·운임 기준"
+        ],
+        "not_a_blanket_veto": "설치·보증·대량재고 확약을 모든 후보의 추가 필수조건으로 삼지 않았고, 확인된 원품 범위 차이를 보존했다."
+      },
+      "adopted_benchmark_price_krw": null,
+      "conditional_arithmetic_krw": null,
+      "verified_expected_saving_krw": null,
+      "submission_ready": false
+    },
+    {
+      "item_id": "25667929",
+      "original_owner_slot": 1,
+      "scope_exception": "카메라 본체/영상저장 완성 구성 조사 예외",
+      "name": "영상감시장치, 포딕스시스템, Prime5G-SYS-L135, 중앙감시시스템",
+      "model": "Prime5G-SYS-L135",
+      "manufacturer": "주식회사 포딕스시스템",
+      "availability": {
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "official_event_source": "event-25667929.json",
+      "official_C_krw": "1056992000",
+      "official_Q": "58",
+      "unit": "조",
+      "scorable_fact_count": 5,
+      "unique_request_count": 5,
+      "facts_truncated": false,
+      "all_scorable_facts": [
+        {
+          "fact_id": "dl:25667929:R25TA00939812:R26TB01566376:2",
+          "listing_id": "R25TA00939812060000520",
+          "contract_no": "R25TA00939812",
+          "request_no": "R26TB01566376",
+          "line_no": "2",
+          "request_date": "2026-02-23",
+          "agency_name": "전남광주통합특별시교육청 전남광주통합특별시교육청광양평생교육관",
+          "unit": "조",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:조:vat_included",
+          "comparison_basis_id": "basis:조:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "18224000",
+          "quantity": "6",
+          "comparable_amount_krw": "109344000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:25667929:R25TA00939812:R26TB01737180:2",
+          "listing_id": "R25TA00939812060000520",
+          "contract_no": "R25TA00939812",
+          "request_no": "R26TB01737180",
+          "line_no": "2",
+          "request_date": "2026-03-30",
+          "agency_name": "한국남부발전(주)남제주화력발전소",
+          "unit": "조",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:조:vat_included",
+          "comparison_basis_id": "basis:조:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "18224000",
+          "quantity": "30",
+          "comparable_amount_krw": "546720000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:25667929:R25TA00939812:R26TB01800356:1",
+          "listing_id": "R25TA00939812060000520",
+          "contract_no": "R25TA00939812",
+          "request_no": "R26TB01800356",
+          "line_no": "1",
+          "request_date": "2026-04-13",
+          "agency_name": "한국동서발전주식회사",
+          "unit": "조",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:조:vat_included",
+          "comparison_basis_id": "basis:조:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "18224000",
+          "quantity": "12",
+          "comparable_amount_krw": "218688000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:25667929:R25TA00939812:R26TB02198223:1",
+          "listing_id": "R25TA00939812060000520",
+          "contract_no": "R25TA00939812",
+          "request_no": "R26TB02198223",
+          "line_no": "1",
+          "request_date": "2026-08-04",
+          "agency_name": "전남광주통합특별시교육청 전남광주통합특별시고흥교육지원청",
+          "unit": "조",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:조:vat_included",
+          "comparison_basis_id": "basis:조:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "18224000",
+          "quantity": "5",
+          "comparable_amount_krw": "91120000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:25667929:R25TA00939812:R26TB02206837:1",
+          "listing_id": "R25TA00939812060000520",
+          "contract_no": "R25TA00939812",
+          "request_no": "R26TB02206837",
+          "line_no": "1",
+          "request_date": "2026-08-07",
+          "agency_name": "전라남도교육청 목포여자상업고등학교",
+          "unit": "조",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:조:vat_included",
+          "comparison_basis_id": "basis:조:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "18224000",
+          "quantity": "5",
+          "comparable_amount_krw": "91120000",
+          "scorable": true,
+          "exclusion_reasons": []
+        }
+      ],
+      "fulfillment_references": [
+        {
+          "fact_id": "dl:25667929:R25TA00939812:R26TB01566376:2",
+          "listing_id": "R25TA00939812060000520",
+          "contract_no": "R25TA00939812",
+          "request_no": "R26TB01566376",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:25667929:R25TA00939812:R26TB01737180:2",
+          "listing_id": "R25TA00939812060000520",
+          "contract_no": "R25TA00939812",
+          "request_no": "R26TB01737180",
+          "line_no": "2"
+        },
+        {
+          "fact_id": "dl:25667929:R25TA00939812:R26TB01800356:1",
+          "listing_id": "R25TA00939812060000520",
+          "contract_no": "R25TA00939812",
+          "request_no": "R26TB01800356",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25667929:R25TA00939812:R26TB02198223:1",
+          "listing_id": "R25TA00939812060000520",
+          "contract_no": "R25TA00939812",
+          "request_no": "R26TB02198223",
+          "line_no": "1"
+        },
+        {
+          "fact_id": "dl:25667929:R25TA00939812:R26TB02206837:1",
+          "listing_id": "R25TA00939812060000520",
+          "contract_no": "R25TA00939812",
+          "request_no": "R26TB02206837",
+          "line_no": "1"
+        }
+      ],
+      "original_attributes": [
+        {
+          "name": "구성",
+          "unit": null,
+          "value": "영상암호화저장장치, 안내전광판"
+        },
+        {
+          "name": "용도",
+          "unit": null,
+          "value": "중앙감시시스템"
+        },
+        {
+          "name": "옵션/기타",
+          "unit": null,
+          "value": "영상암호화저장장치:Intel celeron/RAM:4GB/SSD:64GB/Windows/데이터암호화를통한유출방지및분산저장CCTV시스템 V7.0.1 1CH포함, 안내전광판:5개/실내용/600×337.5mm/384×216pixel"
+        }
+      ],
+      "original_listing_id": "R25TA00939812060000520",
+      "delivery_terms": "납품장소 하차도",
+      "supply_region": "전지역(제주 및 도서산간지역 운임비 별도)",
+      "core_complete_scope": {
+        "hardware": "Intel Celeron/RAM4GB/SSD64GB/Windows 영상암호화저장장치",
+        "included_license": "데이터 암호화를 통한 유출방지 및 분산저장 CCTV 시스템 V7.0.1 1CH 포함",
+        "included_displays": "안내전광판5개, 실내용, 각600×337.5mm,384×216pixel",
+        "scope_limit": "일반 미니PC 또는 NVR 한대만으로 전체 시스템을 대체하지 않는다. 안내전광판5개와 데이터 암호화·분산저장 소프트웨어 비용을0원으로 만들지 않는다. 제조사 공통 기술과 해당 모델에 직접 명시한 속성을 구분한다.",
+        "quantity_source": "5개·600×337.5mm/384×216 수치는 공식 물품 속성. 실제 본문 표는 안내전광판+영상암호화저장장치(데이터암호화 분산저장S/W 포함)를 확인하며, 구성도 이미지만으로 수량5개를 세었다고 하지 않는다."
+      },
+      "original_native_review": "초기 빈 템플릿을 완료로 세지 않고 물품번호 로딩을 기다려 실제 모델·조 단위·구성 관련 선택품목·첨부 상태를 다시 읽었다.",
+      "original_native_source": "prime-g2b-waited-browser.json",
+      "original_document_review": "실제 원본HWPX 다운로드·본문 추출·해당 모델 표 셀·구성도 내장BMP2개를 직접 읽음. 전체 문서/도면 렌더링 완료로 확대하지 않음.",
+      "retail_review": {
+        "same_model_general_price": null,
+        "manufacturer_page_numeric_general_price": null,
+        "vat_included": null,
+        "shipping_included": null,
+        "complete_alternative_price": null,
+        "decision": "정확 일반 판매가가 없으며 완성 핵심 기능·필수 구성이 대응하는 더 우수한 대체품 가격을 검증하지 못함. 판매가 미확보는 기능이 없다는 증거가 아니다.",
+        "missing_price_scope": [
+          "정확 모델의 신품 전체 일반가",
+          "실제 모델/분석기능/라이선스 및 필수 구성 대응",
+          "판매세금·운임 기준"
+        ],
+        "not_a_blanket_veto": "설치·보증·대량재고 확약을 모든 후보의 추가 필수조건으로 삼지 않았고, 확인된 원품 범위 차이를 보존했다."
+      },
+      "adopted_benchmark_price_krw": null,
+      "conditional_arithmetic_krw": null,
+      "verified_expected_saving_krw": null,
+      "submission_ready": false
+    }
+  ],
+  "scorable_fact_count": 7,
+  "official_C_sum_krw": "1909395200",
+  "manufacturer_primary_observations": [
+    {
+      "url": "https://www.tantancore.com/bbs/board.php?bo_table=camera",
+      "source_file": "tac-camera-browser.json",
+      "actual_read": true,
+      "scope": "AI-VDS·교통량·속도·점유율·돌발상황 분석·솔루션 소개. 회사의 일반 성능 홍보치를 TAC-OA6081RG03 개별 검증값으로 전용하지 않음.",
+      "exact_target_price": null
+    },
+    {
+      "url": "https://fodics.com/?module=Html&action=SiteComp&sSubNo=5",
+      "source_file": "prime-product-browser.json",
+      "actual_read": true,
+      "scope": "영상 수신/암호화 저장, 구간별 암호화, 분산저장·다중 디스크 활용, 와치독 복구 기술 설명. 단순 미니PC 또는 무료VMS에 같은 기능이 있다고 추정하지 않음.",
+      "exact_target_price": null
+    },
+    {
+      "url": "https://fodics.com/?module=Board&action=SiteBoard&sMode=SELECT_FORM&iBrdNo=4",
+      "source_file": "prime-procurement-board-browser.json",
+      "actual_read": true,
+      "scope": "식별번호를 클릭하면 G2B로 이동한다고 명시한 우수조달제품 단가 목록. 여러 PrimeG 다른모델 숫자는 일반 판매가격이나 Prime5G-SYS-L135 가격이 아님.",
+      "exact_target_price": null
+    }
+  ],
+  "prime_original_hwp_source": {
+    "file_bytes": 19158164,
+    "sha256": "942c4444f911f7a051a1e8977c942a53482939d1aa0f563c671f360a65ea4a87",
+    "source_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R25TA00939812060000520",
+    "filename": "●_260701(1)_우수제품 규격서(2025035)_(주)포딕스시스템.hwpx",
+    "text_characters": 616039,
+    "revision_review": {
+      "status": "no_known_markers",
+      "scope": "hwpx_section_xml",
+      "marker_counts": {
+        "insertBegin": 0,
+        "insertEnd": 0,
+        "deleteBegin": 0,
+        "deleteEnd": 0
+      },
+      "text_policy": "revision_accept_reject_not_applied"
+    },
+    "target_cells": "prime-target-table-cells.json",
+    "embedded_image_provenance": "prime-embedded-image-provenance.json",
+    "visual_observation": "원본 내장 구성도에는 전광판 형태 패널과 소형 저장/제어 박스가 함께 표현됨. 그림에서 패널5개의 정량 수량·완성 성능 시험을 확인한 것으로 확대하지 않음.",
+    "reader_limit_review": "기본100MB 압축해제 상한을 넘는 합계162,198,873B를 중앙목록으로 먼저 점검했다. 중복 항목0·본문XML49,029,059B 확인 후 read_document의 한정 인자200MB로 읽었다. 경로/DTD/구역 검증은 유지했고 생산코드는 변경하지 않았다."
+  },
+  "next_queue_note": {
+    "item_id": "22959184",
+    "model": "낫또그로",
+    "owner_slot": 2,
+    "parent_current_available_source": "부모21:29UTC 전달. 카메라 우선으로 이번 패스에서 가격 조회하지 않음.",
+    "retail_read_complete": false,
+    "verified_saving_krw": null,
+    "note": "기존 검색/상태-only 기록과 실제 판매가 판독을 구분한다. 새로운 동일 모델 일반가가 있을 때 후순위 조사."
+  },
+  "parallel_calls": 2,
+  "jev_calls": 1,
+  "jev_predicted_operation": "TYPE_TEXT",
+  "jev_action_executed": false,
+  "jev_note": "TYPE_TEXT 예측은 실제 동작 실행·모델/가격 검증이 아니다. 수동 제조사/원품 원문 읽기를 별도로 수행했다.",
+  "web_search_calls": 1,
+  "web_query_count": 3,
+  "manual_browser_page_navigation_count": 9,
+  "initial_g2b_empty_templates": 2,
+  "complete_content_read_visit_count": 7,
+  "native_attachment_download_navigation_count": 1,
+  "native_attachment_download_count": 1,
+  "manufacturer_numeric_ordinary_quote_count": 0,
+  "verified_positive_count": 0,
+  "deferred_verified_queue_count": 0,
+  "submission_count": 0,
+  "source_manifest_count": 36,
+  "source_manifest": [
+    {
+      "path": "camera-local-frontier.json",
+      "bytes": 168280,
+      "sha256": "c0654df287c5b59c3f8e5e112845248cc0eaa7fced2e5688ca417dcfc84d34b4"
+    },
+    {
+      "path": "camera-state-selection.json",
+      "bytes": 204482,
+      "sha256": "6420dac44e06bfeef6bcdd069b7a515b2ccae0dd5a8787955052321daba3fc40"
+    },
+    {
+      "path": "catalog-25667929.json",
+      "bytes": 2726,
+      "sha256": "b4908158a7290e989b933d63aea5cb23da2e77c6242f9f457c52f1e387733da0"
+    },
+    {
+      "path": "catalog-26161319.json",
+      "bytes": 2849,
+      "sha256": "715772349d2f83e84cf8ef928809f589a2b332308be23517ea11d05ea56eb16b"
+    },
+    {
+      "path": "downloads/●_260701&#40;1&#41;_우수제품 규격서&#40;2025035&#41;_&#40;주&#41;포딕스시스템.hwpx",
+      "bytes": 19158164,
+      "sha256": "942c4444f911f7a051a1e8977c942a53482939d1aa0f563c671f360a65ea4a87"
+    },
+    {
+      "path": "event-25667929.json",
+      "bytes": 4297,
+      "sha256": "0c5a521d7e52d77f53bd2365857928d2c8f36279fe307f518715616f8624116a"
+    },
+    {
+      "path": "event-26161319.json",
+      "bytes": 2105,
+      "sha256": "d4248c1e1b6dd639d0014951995d6d00425884b1f8479e5237b4192cdf2b06ee"
+    },
+    {
+      "path": "listing-0024H0017_1020000061.json",
+      "bytes": 8146,
+      "sha256": "8a67298b73b2e4d3e8acc5d8ace820a895f0fca2c554766a5d4f8ee5ab017e2e"
+    },
+    {
+      "path": "listing-R25TA00939812060000520.json",
+      "bytes": 6539,
+      "sha256": "90dfe6acc3ae5d7d02912ae85fc5e91ccb8e246ba9b42800216bbfd87ba95049"
+    },
+    {
+      "path": "lookup-next50.json",
+      "bytes": 14142,
+      "sha256": "af6baaa79820f0c1f435210474a20edb926b40e0f017afb1b12cb433aaf1693a"
+    },
+    {
+      "path": "lookup-nvr.json",
+      "bytes": 773,
+      "sha256": "f5058d70ff1ba5091203531ff65bdf24d2ae6c790241860b75a70ab0482e4fe4"
+    },
+    {
+      "path": "lookup.json",
+      "bytes": 1008,
+      "sha256": "3ff2752bfa20fd32cb34e4062c6ff70aee30112d9103a5a7e3713dcdbb457941"
+    },
+    {
+      "path": "nvr-local-additional-frontier.json",
+      "bytes": 7157,
+      "sha256": "53e38e505c93c3ac7140e06badcaf1dc415e0ee0d672febeb1c005798cc1b376"
+    },
+    {
+      "path": "nvr-prior-reuse.json",
+      "bytes": 689,
+      "sha256": "331de0bac92770e777feb4522d7e94a10a8b3875880a9baf5019eaf2a096b2d2"
+    },
+    {
+      "path": "prime-download-observation.json",
+      "bytes": 548,
+      "sha256": "4298cb53f4c393acd513dd05635da27cd32659ea19e751c698bf4590de18d4a4"
+    },
+    {
+      "path": "prime-embedded-image-provenance.json",
+      "bytes": 636,
+      "sha256": "2697a70280afce26810d947b60088beb9eeb3fa5a4953cfc2433501cb129836d"
+    },
+    {
+      "path": "prime-g2b-browser.json",
+      "bytes": 8003,
+      "sha256": "6bfece35bab83a26821f7a867a8e919711c1c19ff1fffabe08b2f36c136f0a83"
+    },
+    {
+      "path": "prime-g2b-waited-browser.json",
+      "bytes": 46821,
+      "sha256": "6fbfcf1bb91fe570d09b6e0c649fa937e0427c404e4644a258618a0e86895c54"
+    },
+    {
+      "path": "prime-jev.json",
+      "bytes": 346,
+      "sha256": "eafa56b1bd7e2c3909bdbafed41a81c895a6e3c80526ca3e69432e7fbf9b81b5"
+    },
+    {
+      "path": "prime-l127-l153-configuration.BMP",
+      "bytes": 771398,
+      "sha256": "387336e94681a2b7b13938dd5cda452de0ab3353ec053dba24507076835a393c"
+    },
+    {
+      "path": "prime-l135-shape.BMP",
+      "bytes": 16698,
+      "sha256": "420bd3c9051d73bd51574a8cdac03524fe9465e089caa9cdae7fd5741d1ddffb"
+    },
+    {
+      "path": "prime-maker-browser.json",
+      "bytes": 30987,
+      "sha256": "1c5f65f9f3a9e85ddb492367e62b6c100dd328f6c054a1b29977276276d65a0a"
+    },
+    {
+      "path": "prime-parallel.json",
+      "bytes": 4500,
+      "sha256": "d8b2f8477f47956e7c49c561283f8b656084da67aa57c2abd7d353eaa6f907f3"
+    },
+    {
+      "path": "prime-procurement-board-browser.json",
+      "bytes": 73261,
+      "sha256": "e177c342c8f3901be925d151711d11f60b8fc88e35e5ae38f10d7685cabf7887"
+    },
+    {
+      "path": "prime-product-browser.json",
+      "bytes": 10744,
+      "sha256": "cf9f3c1511373d2e7c30b023b6e2db9cac6ddeaf876ccfe1c2a38b60517579e2"
+    },
+    {
+      "path": "prime-scope-excerpts.json",
+      "bytes": 21238,
+      "sha256": "c97b0a2127bfab8a361a2cd564565d788d5fe7dac7da60d2b77126ac2a9bb411"
+    },
+    {
+      "path": "prime-spec-text.json",
+      "bytes": 1991178,
+      "sha256": "9fff05e1840eb8c71ae199b002da23ab85d7e97da0b4fffbacc08bf4af18a9c3"
+    },
+    {
+      "path": "prime-target-table-cells.json",
+      "bytes": 9177,
+      "sha256": "0c6653509235c1f07de92a89449f1591409d26c0a191c37557ad24f961f1b6cd"
+    },
+    {
+      "path": "prime-zip-metadata.json",
+      "bytes": 532,
+      "sha256": "92b84a0457fd666c5a61e2b1aa84735210c1bb8da785011541382260b5d07b53"
+    },
+    {
+      "path": "prior-records.json",
+      "bytes": 9111,
+      "sha256": "622b4fc07ae30e39932d010416b3c61571e95da9d6379d62a128db4bd2c80ecd"
+    },
+    {
+      "path": "tac-camera-browser.json",
+      "bytes": 22826,
+      "sha256": "4bbd8e7e083cdafb23a9145a654a089edc86b0c3a8dd1aac42b6f24875dad81f"
+    },
+    {
+      "path": "tac-g2b-browser.json",
+      "bytes": 7937,
+      "sha256": "402c06a39a3b6ee96169ab587f1285c235f44ffcb30e4a378b4905683ce5f718"
+    },
+    {
+      "path": "tac-g2b-waited-browser.json",
+      "bytes": 14657,
+      "sha256": "130f57bf720ec8d497856e3dedfcee740cabe322c5c22f0034927ff19e798044"
+    },
+    {
+      "path": "tac-maker-browser.json",
+      "bytes": 25170,
+      "sha256": "6f93524f2044f05ab1e73d3cf5b7704ae25fe0e82c1202ec363a24cb70881ea6"
+    },
+    {
+      "path": "tac-parallel.json",
+      "bytes": 8424,
+      "sha256": "d0a0cad71d0561c4359e5d3c9f244a2c9e179a5cc8f32cf89530001cff5703f9"
+    },
+    {
+      "path": "web-search.json",
+      "bytes": 29494,
+      "sha256": "cd1251b3671ce2d6c39e60e50e1eaf4bf64096aab647ba642ea9da02e45b7628"
+    }
+  ],
+  "limits": [
+    "전체55개 상태조회 중 실제 깊게 읽은2품목만7facts를 보존했다. 다른 available19개는 판매원문 미완료 상태로 남긴다.",
+    "사양·구성·분석기능·필수 라이선스 비용을0원으로 채우지 않았고 일반 가격이 없는 숫자를 만들어 넣지 않았다.",
+    "원품 설치·검사·공급 지역과 판매 대안의 차이를 공개할 수 있으나 이번에는 비교할 실제 전체 일반가가 없다.",
+    "기존 고정본·생산코드·Git·POST·기존 접수는 변경하지 않았다."
+  ],
+  "private_source_directory": "work/highvalue-hardware/resume-20261019/pass34"
+}
