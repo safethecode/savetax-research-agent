@@ -1,0 +1,1003 @@
+{
+  "created_at_utc": "2026-10-19T17:45:54.440922+00:00",
+  "report_kind": "owner2 금속 내진패널·방상외피 pass25",
+  "scope": "현재채팅600억원·기존접수유지·신규탐색. 다른채팅1000억/감사/revision은가져오지않음.",
+  "lookup_observed_at_utc": "2026-10-19T17:42:10.756423+00:00",
+  "lookup_records": [
+    {
+      "input": "25158120",
+      "kind": "item",
+      "item_id": "25158120",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "input": "23978885",
+      "kind": "item",
+      "item_id": "23978885",
+      "state": "claimed",
+      "message": "다른 참가자가 이미 등록한 물품입니다 — 다른 물품을 고르세요 (등록 시도는 제출 횟수에 세지 않습니다)"
+    },
+    {
+      "input": "24193344",
+      "kind": "item",
+      "item_id": "24193344",
+      "state": "available",
+      "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+    },
+    {
+      "input": "26274074",
+      "kind": "item",
+      "item_id": "26274074",
+      "state": "available",
+      "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+    }
+  ],
+  "records": [
+    {
+      "item_id": "24193344",
+      "model": "DK-AL20C",
+      "owner_slot": 2,
+      "name": "금속제패널, 디자인기린, DK-AL20C, 2000×1000×30mm",
+      "availability": {
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/24193344",
+      "official_catalog_url": "https://api.savetax.now/v1/items/24193344",
+      "official_C_krw": "3886129230",
+      "official_Q": "14252",
+      "scorable_fact_count": 22,
+      "unique_request_count": 22,
+      "listing_fact_totals": {
+        "002270140_1040000005": {
+          "C_krw": "3886129230",
+          "Q": "14252",
+          "fact_count": 22
+        }
+      },
+      "original_attributes": [
+        {
+          "name": "색상",
+          "unit": null,
+          "value": "지정색상"
+        },
+        {
+          "name": "용도",
+          "unit": null,
+          "value": "외벽패널"
+        },
+        {
+          "name": "재질",
+          "unit": null,
+          "value": "알루미늄"
+        },
+        {
+          "name": "종류",
+          "unit": null,
+          "value": "금속제패널"
+        },
+        {
+          "name": "형태",
+          "unit": null,
+          "value": "코너판"
+        },
+        {
+          "name": "코팅재질",
+          "unit": null,
+          "value": "무기질실리카"
+        },
+        {
+          "name": "표면판두께",
+          "unit": "mm",
+          "value": "2"
+        },
+        {
+          "name": "표면판재질",
+          "unit": null,
+          "value": "알루미늄"
+        },
+        {
+          "name": "크기(길이)",
+          "unit": "mm",
+          "value": "2000"
+        },
+        {
+          "name": "크기(두께)",
+          "unit": "mm",
+          "value": "30"
+        },
+        {
+          "name": "크기(폭)",
+          "unit": "mm",
+          "value": "1000"
+        }
+      ],
+      "all_scorable_facts": [
+        {
+          "fact_id": "dl:24193344:002270140_1:2323481112:2",
+          "listing_id": "002270140_1040000005",
+          "contract_no": "002270140_1",
+          "request_no": "2323481112",
+          "line_no": "2",
+          "request_date": "2025-11-24",
+          "agency_name": "경상북도 구미시",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included",
+          "comparison_basis_id": "basis:㎡:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "277000",
+          "quantity": "198",
+          "comparable_amount_krw": "54956800",
+          "scorable": true,
+          "exclusion_reasons": [],
+          "note": "요구 단가×수량(54846000)과 금액(54956800)이 다르다 — 비교 순금액은 금액 기준이다"
+        },
+        {
+          "fact_id": "dl:24193344:002270140_1:3224379128:2",
+          "listing_id": "002270140_1040000005",
+          "contract_no": "002270140_1",
+          "request_no": "3224379128",
+          "line_no": "2",
+          "request_date": "2026-04-16",
+          "agency_name": "강원특별자치도교육청 강원특별자치도태백교육지원청",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included",
+          "comparison_basis_id": "basis:㎡:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "277000",
+          "quantity": "916",
+          "comparable_amount_krw": "253790170",
+          "scorable": true,
+          "exclusion_reasons": [],
+          "note": "요구 단가×수량(253732000)과 금액(253790170)이 다르다 — 비교 순금액은 금액 기준이다"
+        },
+        {
+          "fact_id": "dl:24193344:002270140_1:3224398556:2",
+          "listing_id": "002270140_1040000005",
+          "contract_no": "002270140_1",
+          "request_no": "3224398556",
+          "line_no": "2",
+          "request_date": "2026-07-14",
+          "agency_name": "강원특별자치도교육청 강원특별자치도춘천교육지원청",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included",
+          "comparison_basis_id": "basis:㎡:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "277000",
+          "quantity": "437",
+          "comparable_amount_krw": "121087780",
+          "scorable": true,
+          "exclusion_reasons": [],
+          "note": "요구 단가×수량(121049000)과 금액(121087780)이 다르다 — 비교 순금액은 금액 기준이다"
+        },
+        {
+          "fact_id": "dl:24193344:002270140_1:R25TB00266092:2",
+          "listing_id": "002270140_1040000005",
+          "contract_no": "002270140_1",
+          "request_no": "R25TB00266092",
+          "line_no": "2",
+          "request_date": "2025-11-05",
+          "agency_name": "전남광주통합특별시 장성군",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included",
+          "comparison_basis_id": "basis:㎡:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "277000",
+          "quantity": "63",
+          "comparable_amount_krw": "17523020",
+          "scorable": true,
+          "exclusion_reasons": [],
+          "note": "요구 단가×수량(17451000)과 금액(17523020)이 다르다 — 비교 순금액은 금액 기준이다"
+        },
+        {
+          "fact_id": "dl:24193344:002270140_1:R25TB00368306:2",
+          "listing_id": "002270140_1040000005",
+          "contract_no": "002270140_1",
+          "request_no": "R25TB00368306",
+          "line_no": "2",
+          "request_date": "2026-01-29",
+          "agency_name": "경기도교육청 경기도파주교육지원청",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included",
+          "comparison_basis_id": "basis:㎡:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "277000",
+          "quantity": "1205",
+          "comparable_amount_krw": "333785000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:24193344:002270140_1:R25TB00623303:2",
+          "listing_id": "002270140_1040000005",
+          "contract_no": "002270140_1",
+          "request_no": "R25TB00623303",
+          "line_no": "2",
+          "request_date": "2026-04-24",
+          "agency_name": "전남광주통합특별시 장흥군",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included",
+          "comparison_basis_id": "basis:㎡:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "277000",
+          "quantity": "1176",
+          "comparable_amount_krw": "325677210",
+          "scorable": true,
+          "exclusion_reasons": [],
+          "note": "요구 단가×수량(325752000)과 금액(325677210)이 다르다 — 비교 순금액은 금액 기준이다"
+        },
+        {
+          "fact_id": "dl:24193344:002270140_1:R25TB01194145:1",
+          "listing_id": "002270140_1040000005",
+          "contract_no": "002270140_1",
+          "request_no": "R25TB01194145",
+          "line_no": "1",
+          "request_date": "2025-11-14",
+          "agency_name": "전남광주통합특별시 무안청사",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included",
+          "comparison_basis_id": "basis:㎡:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "277000",
+          "quantity": "6598",
+          "comparable_amount_krw": "1827646000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:24193344:002270140_1:R25TB01242139:2",
+          "listing_id": "002270140_1040000005",
+          "contract_no": "002270140_1",
+          "request_no": "R25TB01242139",
+          "line_no": "2",
+          "request_date": "2025-11-26",
+          "agency_name": "전남광주통합특별시 무안군",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included",
+          "comparison_basis_id": "basis:㎡:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "277000",
+          "quantity": "462",
+          "comparable_amount_krw": "127990620",
+          "scorable": true,
+          "exclusion_reasons": [],
+          "note": "요구 단가×수량(127974000)과 금액(127990620)이 다르다 — 비교 순금액은 금액 기준이다"
+        },
+        {
+          "fact_id": "dl:24193344:002270140_1:R25TB01391639:2",
+          "listing_id": "002270140_1040000005",
+          "contract_no": "002270140_1",
+          "request_no": "R25TB01391639",
+          "line_no": "2",
+          "request_date": "2025-12-31",
+          "agency_name": "경기도교육청 경기도가평교육지원청",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included",
+          "comparison_basis_id": "basis:㎡:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "277000",
+          "quantity": "362",
+          "comparable_amount_krw": "100274000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:24193344:002270140_1:R26TB01411910:2",
+          "listing_id": "002270140_1040000005",
+          "contract_no": "002270140_1",
+          "request_no": "R26TB01411910",
+          "line_no": "2",
+          "request_date": "2026-01-09",
+          "agency_name": "전남광주통합특별시교육청 전남광주통합특별시나주교육지원청",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included",
+          "comparison_basis_id": "basis:㎡:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "277000",
+          "quantity": "458",
+          "comparable_amount_krw": "126860460",
+          "scorable": true,
+          "exclusion_reasons": [],
+          "note": "요구 단가×수량(126866000)과 금액(126860460)이 다르다 — 비교 순금액은 금액 기준이다"
+        },
+        {
+          "fact_id": "dl:24193344:002270140_1:R26TB01438311:2",
+          "listing_id": "002270140_1040000005",
+          "contract_no": "002270140_1",
+          "request_no": "R26TB01438311",
+          "line_no": "2",
+          "request_date": "2026-08-04",
+          "agency_name": "강원특별자치도교육청 강원특별자치도삼척교육지원청",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included",
+          "comparison_basis_id": "basis:㎡:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "297000",
+          "quantity": "223",
+          "comparable_amount_krw": "66082500",
+          "scorable": true,
+          "exclusion_reasons": [],
+          "note": "요구 단가×수량(66231000)과 금액(66082500)이 다르다 — 비교 순금액은 금액 기준이다"
+        },
+        {
+          "fact_id": "dl:24193344:002270140_1:R26TB01439867:2",
+          "listing_id": "002270140_1040000005",
+          "contract_no": "002270140_1",
+          "request_no": "R26TB01439867",
+          "line_no": "2",
+          "request_date": "2026-01-19",
+          "agency_name": "전남광주통합특별시교육청 광주동신여자고등학교",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included",
+          "comparison_basis_id": "basis:㎡:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "277000",
+          "quantity": "198",
+          "comparable_amount_krw": "54846000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:24193344:002270140_1:R26TB01489863:2",
+          "listing_id": "002270140_1040000005",
+          "contract_no": "002270140_1",
+          "request_no": "R26TB01489863",
+          "line_no": "2",
+          "request_date": "2026-02-02",
+          "agency_name": "전남광주통합특별시교육청 전남광주통합특별시진도교육지원청",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included",
+          "comparison_basis_id": "basis:㎡:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "277000",
+          "quantity": "130",
+          "comparable_amount_krw": "35985070",
+          "scorable": true,
+          "exclusion_reasons": [],
+          "note": "요구 단가×수량(36010000)과 금액(35985070)이 다르다 — 비교 순금액은 금액 기준이다"
+        },
+        {
+          "fact_id": "dl:24193344:002270140_1:R26TB01619439:2",
+          "listing_id": "002270140_1040000005",
+          "contract_no": "002270140_1",
+          "request_no": "R26TB01619439",
+          "line_no": "2",
+          "request_date": "2026-03-06",
+          "agency_name": "전남광주통합특별시교육청 전남광주통합특별시신안교육지원청",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included",
+          "comparison_basis_id": "basis:㎡:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "277000",
+          "quantity": "177",
+          "comparable_amount_krw": "49048390",
+          "scorable": true,
+          "exclusion_reasons": [],
+          "note": "요구 단가×수량(49029000)과 금액(49048390)이 다르다 — 비교 순금액은 금액 기준이다"
+        },
+        {
+          "fact_id": "dl:24193344:002270140_1:R26TB01654483:2",
+          "listing_id": "002270140_1040000005",
+          "contract_no": "002270140_1",
+          "request_no": "R26TB01654483",
+          "line_no": "2",
+          "request_date": "2026-06-24",
+          "agency_name": "강원특별자치도교육청 강원특별자치도삼척교육지원청",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included",
+          "comparison_basis_id": "basis:㎡:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "277000",
+          "quantity": "96",
+          "comparable_amount_krw": "26564300",
+          "scorable": true,
+          "exclusion_reasons": [],
+          "note": "요구 단가×수량(26592000)과 금액(26564300)이 다르다 — 비교 순금액은 금액 기준이다"
+        },
+        {
+          "fact_id": "dl:24193344:002270140_1:R26TB01672115:1",
+          "listing_id": "002270140_1040000005",
+          "contract_no": "002270140_1",
+          "request_no": "R26TB01672115",
+          "line_no": "1",
+          "request_date": "2026-06-09",
+          "agency_name": "강원특별자치도교육청 강원특별자치도화천교육지원청",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included",
+          "comparison_basis_id": "basis:㎡:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "277000",
+          "quantity": "110",
+          "comparable_amount_krw": "30572490",
+          "scorable": true,
+          "exclusion_reasons": [],
+          "note": "요구 단가×수량(30470000)과 금액(30572490)이 다르다 — 비교 순금액은 금액 기준이다"
+        },
+        {
+          "fact_id": "dl:24193344:002270140_1:R26TB01884570:1",
+          "listing_id": "002270140_1040000005",
+          "contract_no": "002270140_1",
+          "request_no": "R26TB01884570",
+          "line_no": "1",
+          "request_date": "2026-05-06",
+          "agency_name": "충청북도 단양군",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included",
+          "comparison_basis_id": "basis:㎡:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "178000",
+          "quantity": "316",
+          "comparable_amount_krw": "56248000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:24193344:002270140_1:R26TB01889364:2",
+          "listing_id": "002270140_1040000005",
+          "contract_no": "002270140_1",
+          "request_no": "R26TB01889364",
+          "line_no": "2",
+          "request_date": "2026-05-07",
+          "agency_name": "전남광주통합특별시교육청 전남광주통합특별시장성교육지원청",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included",
+          "comparison_basis_id": "basis:㎡:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "277000",
+          "quantity": "289",
+          "comparable_amount_krw": "80180420",
+          "scorable": true,
+          "exclusion_reasons": [],
+          "note": "요구 단가×수량(80053000)과 금액(80180420)이 다르다 — 비교 순금액은 금액 기준이다"
+        },
+        {
+          "fact_id": "dl:24193344:002270140_1:R26TB02008957:2",
+          "listing_id": "002270140_1040000005",
+          "contract_no": "002270140_1",
+          "request_no": "R26TB02008957",
+          "line_no": "2",
+          "request_date": "2026-09-14",
+          "agency_name": "강원특별자치도교육청 강원특별자치도춘천교육지원청",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included",
+          "comparison_basis_id": "basis:㎡:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "277000",
+          "quantity": "77",
+          "comparable_amount_krw": "21329000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:24193344:002270140_1:R26TB02029948:2",
+          "listing_id": "002270140_1040000005",
+          "contract_no": "002270140_1",
+          "request_no": "R26TB02029948",
+          "line_no": "2",
+          "request_date": "2026-06-16",
+          "agency_name": "경기도 시흥시",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included",
+          "comparison_basis_id": "basis:㎡:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "277000",
+          "quantity": "215",
+          "comparable_amount_krw": "59555000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:24193344:002270140_1:R26TB02116285:2",
+          "listing_id": "002270140_1040000005",
+          "contract_no": "002270140_1",
+          "request_no": "R26TB02116285",
+          "line_no": "2",
+          "request_date": "2026-07-10",
+          "agency_name": "전남광주통합특별시교육청 전남광주통합특별시목포교육지원청",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included",
+          "comparison_basis_id": "basis:㎡:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "297000",
+          "quantity": "81",
+          "comparable_amount_krw": "24057000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:24193344:002270140_1:R26TB02315042:2",
+          "listing_id": "002270140_1040000005",
+          "contract_no": "002270140_1",
+          "request_no": "R26TB02315042",
+          "line_no": "2",
+          "request_date": "2026-09-14",
+          "agency_name": "강원특별자치도교육청 강원특별자치도강릉교육지원청",
+          "unit": "㎡",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:㎡:vat_included",
+          "comparison_basis_id": "basis:㎡:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "198000",
+          "quantity": "465",
+          "comparable_amount_krw": "92070000",
+          "scorable": true,
+          "exclusion_reasons": []
+        }
+      ],
+      "review": {
+        "status": "실제 내진 패널 원문·완성 구성 확인, 일반 판매가 미확보",
+        "finding": "기존 자동 분류만 있던 초기 MD5구간의 고액 물리 상품을 다시 검토했다. 공식 원품은 DK-AL20C 코너판,2000×1000×30mm·표면알루미늄2mm·무기질실리카 코팅이다. 실제 G2B 설명과 관측 첨부를 직접 내려받아 슬라이딩이 가능한 금속재 내진패널,층간변위2%이상·불연/가스유해성 기준과 브래킷/캡/볼트·백업재·실란트 구성을 읽었다. 주요자재 표는 패널1개·볼트8개·내진캡8개·L700브래킷2개·L1400브래킷2개와 도장이다. 같은 모델의 002270140_1040000005는 현장설치도,0014는 납품장소하차도이므로 등재가격 차이를 일반 판매가 또는 검증 절감액으로 쓰지 않았다. Parallel와웹검색은 같은 완제품 일반가를 확보하지 못했고 무관한 PC/센서·범용 알루미늄판 가격은 제외했다. 실제 필요한 부재 비용을0으로 만들지 않으며 채택B는null이다.",
+        "original_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=002270140_1040000005",
+        "original_document_sha256": "a2a3d6e2099c2a3c34e8b4880eb7e7141f71bb0b24c707dd78a65ec1d7a113d0",
+        "source_files": [
+          "girin-panel-parallel.json",
+          "web-search-log.json",
+          "girin-original-jev.json",
+          "girin-original-browser.json",
+          "girin-download.json",
+          "girin-extracted.json",
+          "girin-text.txt",
+          "listing-002270140_1040000005.json",
+          "listing-002270140_1040000014.json"
+        ]
+      },
+      "benchmark_unit_price_krw": null,
+      "verified_saving_krw": null,
+      "vat_included": null,
+      "shipping_included": null,
+      "ready_for_preview": false,
+      "ready_for_submission": false
+    },
+    {
+      "item_id": "26274074",
+      "model": "육군 방상외피(레이어링)",
+      "owner_slot": 2,
+      "name": "군용방한복, 주노물산, 육군 방상외피(레이어링), 국방규격",
+      "availability": {
+        "state": "available",
+        "message": "등록할 수 있는 물품입니다 (선점은 제출이 접수되는 순간 정해집니다)"
+      },
+      "official_event_url": "https://hackathon.savetax.now/v1/events/current/items/26274074",
+      "official_catalog_url": "https://api.savetax.now/v1/items/26274074",
+      "official_C_krw": "2069645340",
+      "official_Q": "23618",
+      "scorable_fact_count": 9,
+      "unique_request_count": 5,
+      "listing_fact_totals": {
+        "R26TA01891663000000001": {
+          "C_krw": "2069645340",
+          "Q": "23618",
+          "fact_count": 9
+        }
+      },
+      "original_attributes": [],
+      "all_scorable_facts": [
+        {
+          "fact_id": "dl:26274074:R26TA01891663:R26TB02046128:1",
+          "listing_id": "R26TA01891663000000001",
+          "contract_no": "R26TA01891663",
+          "request_no": "R26TB02046128",
+          "line_no": "1",
+          "request_date": "2026-06-22",
+          "agency_name": "육군군수사령부",
+          "unit": "매",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:매:vat_included",
+          "comparison_basis_id": "basis:매:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "87630",
+          "quantity": "1100",
+          "comparable_amount_krw": "96393000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:26274074:R26TA01891663:R26TB02046128:2",
+          "listing_id": "R26TA01891663000000001",
+          "contract_no": "R26TA01891663",
+          "request_no": "R26TB02046128",
+          "line_no": "2",
+          "request_date": "2026-06-22",
+          "agency_name": "육군군수사령부",
+          "unit": "매",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:매:vat_included",
+          "comparison_basis_id": "basis:매:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "87630",
+          "quantity": "4820",
+          "comparable_amount_krw": "422376600",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:26274074:R26TA01891663:R26TB02048378:1",
+          "listing_id": "R26TA01891663000000001",
+          "contract_no": "R26TA01891663",
+          "request_no": "R26TB02048378",
+          "line_no": "1",
+          "request_date": "2026-06-22",
+          "agency_name": "육군군수사령부",
+          "unit": "매",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:매:vat_included",
+          "comparison_basis_id": "basis:매:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "87630",
+          "quantity": "1132",
+          "comparable_amount_krw": "99197160",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:26274074:R26TA01891663:R26TB02048378:2",
+          "listing_id": "R26TA01891663000000001",
+          "contract_no": "R26TA01891663",
+          "request_no": "R26TB02048378",
+          "line_no": "2",
+          "request_date": "2026-06-22",
+          "agency_name": "육군군수사령부",
+          "unit": "매",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:매:vat_included",
+          "comparison_basis_id": "basis:매:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "87630",
+          "quantity": "3649",
+          "comparable_amount_krw": "319761870",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:26274074:R26TA01891663:R26TB02048381:1",
+          "listing_id": "R26TA01891663000000001",
+          "contract_no": "R26TA01891663",
+          "request_no": "R26TB02048381",
+          "line_no": "1",
+          "request_date": "2026-06-22",
+          "agency_name": "육군군수사령부",
+          "unit": "매",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:매:vat_included",
+          "comparison_basis_id": "basis:매:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "87630",
+          "quantity": "1100",
+          "comparable_amount_krw": "96393000",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:26274074:R26TA01891663:R26TB02048381:2",
+          "listing_id": "R26TA01891663000000001",
+          "contract_no": "R26TA01891663",
+          "request_no": "R26TB02048381",
+          "line_no": "2",
+          "request_date": "2026-06-22",
+          "agency_name": "육군군수사령부",
+          "unit": "매",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:매:vat_included",
+          "comparison_basis_id": "basis:매:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "87630",
+          "quantity": "4820",
+          "comparable_amount_krw": "422376600",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:26274074:R26TA01891663:R26TB02048388:1",
+          "listing_id": "R26TA01891663000000001",
+          "contract_no": "R26TA01891663",
+          "request_no": "R26TB02048388",
+          "line_no": "1",
+          "request_date": "2026-06-22",
+          "agency_name": "육군군수사령부",
+          "unit": "매",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:매:vat_included",
+          "comparison_basis_id": "basis:매:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "87630",
+          "quantity": "1130",
+          "comparable_amount_krw": "99021900",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:26274074:R26TA01891663:R26TB02048388:2",
+          "listing_id": "R26TA01891663000000001",
+          "contract_no": "R26TA01891663",
+          "request_no": "R26TB02048388",
+          "line_no": "2",
+          "request_date": "2026-06-22",
+          "agency_name": "육군군수사령부",
+          "unit": "매",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:매:vat_included",
+          "comparison_basis_id": "basis:매:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "87630",
+          "quantity": "5017",
+          "comparable_amount_krw": "439639710",
+          "scorable": true,
+          "exclusion_reasons": []
+        },
+        {
+          "fact_id": "dl:26274074:R26TA01891663:R26TB02285963:1",
+          "listing_id": "R26TA01891663000000001",
+          "contract_no": "R26TA01891663",
+          "request_no": "R26TB02285963",
+          "line_no": "1",
+          "request_date": "2026-09-03",
+          "agency_name": "육군군수사령부",
+          "unit": "매",
+          "tax_basis": "vat_included",
+          "basis_id": "basis:매:vat_included",
+          "comparison_basis_id": "basis:매:vat_included",
+          "period_kind": "none",
+          "unit_price_krw": "87630",
+          "quantity": "850",
+          "comparable_amount_krw": "74485500",
+          "scorable": true,
+          "exclusion_reasons": []
+        }
+      ],
+      "review": {
+        "status": "현재 계약의 방상외피 원문 직접 확인·기존 무가격 결과 재사용",
+        "finding": "주노물산 방상외피의 기존 같은 모델 일반가 미확보 결과를 재사용해 같은 무가격 검색은 반복하지 않았다. 현재 공식available과9facts를 확인한 뒤 실제 해당 계약의 방상외피 구매요구서 ZIP을 내려받았다. 이 원품은 PRD8415-4177이고 더헤르첸 기능성방한복 PRD8415-4178과 다른 의복이다. 육군2026.4.XX개정안의 표 셀 주소·span을 대조하여 상층나일론93±4%/폴리우레탄7±4%,중간PTFE,하층폴리에스터100%를 확인했다. 공군2026.5.20문서도 ZIP에 함께 있으나 육군의 확정 원규격으로 대체하지 않았다. 별도 기능성방한복의 충전재300g㎡나clo를 이 방상외피로 전용하지 않았으며 가격·필수비용이 미확정이라B/차액null을 유지한다.",
+        "original_url": "https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=R26TA01891663000000001",
+        "army_original_document_sha256": "eb4a9599bc46d52e270e4e750d593983364b01ab665c8eb969f99eb87a6b9565",
+        "source_files": [
+          "prior-review.json",
+          "listing-R26TA01891663000000001.json",
+          "juno-download.json",
+          "juno-zip-members.json",
+          "juno-army-52.hwpx",
+          "juno-army-52-extracted.json",
+          "juno-army-52-text.txt",
+          "document-table-review.json"
+        ]
+      },
+      "benchmark_unit_price_krw": null,
+      "verified_saving_krw": null,
+      "vat_included": null,
+      "shipping_included": null,
+      "ready_for_preview": false,
+      "ready_for_submission": false
+    }
+  ],
+  "supplement_to_frozen_pass24": {
+    "item_id": "26316983",
+    "relationship": "pass24 고정본 이후 추가된2026 기능성방한복 공통원문 보조자료. 신규 검증가격/신규물품수로 세지 않음.",
+    "source": "layering-2026-army-primary.hwpx",
+    "sha256": "26981ddb3fcffe1c445684c35f85ec41cd0b5bcfbecf141a35e2e2f571be47b5",
+    "provenance": "industrial 담당이 공개 G2B공고 R26BK01539499의관측seq3ZIP에서 직접내려받음. 원시·추출본·다운로드metadata를 복사하고 원본문서해시를 독립검증.",
+    "limitation": "2026.4.XX개정안의 공통문서이며 더헤르첸 계약에첨부된동일본 직접확인은미완료. PRD8415-4178의충전재clo는완성의복clo가아님. PRD8415-4177주노방상외피와별개임.",
+    "adopted_saving_krw": null
+  },
+  "claimed_not_in_new_queue": [
+    "25158120",
+    "23978885"
+  ],
+  "search_execution_accounting": "Parallel3회 중 방수시트2개는 선행 준비 검색이 남았으나 공식claimed여서 실제원문 후속·가격채택·접수로진행하지않았다. 이후선택은available만계속한다.",
+  "scorable_fact_count": 31,
+  "parallel_calls": 3,
+  "jev_calls": 1,
+  "jev_predicted_operation": "BLOCKED(실행/가격검증결과아님)",
+  "web_query_count": 6,
+  "actual_browser_page_read_count": 3,
+  "direct_original_downloads": 2,
+  "shared_2026_document_count": 1,
+  "verified_price_count": 0,
+  "verified_positive_count": 0,
+  "deferred_verified_queue_count": 0,
+  "submission_count": 0,
+  "source_manifest_count": 36,
+  "source_manifest": [
+    {
+      "path": "catalog-24193344.json",
+      "bytes": 3817,
+      "sha256": "fddf8693a1481507edd1b262b8ca5621051cb42a2e62dc26c9f8a8159b220b2d"
+    },
+    {
+      "path": "catalog-26274074.json",
+      "bytes": 2018,
+      "sha256": "f61e569c42aab39bd4e65009755ac003806e5db63a6778d52096de402baf2694"
+    },
+    {
+      "path": "claimed-prior-reuse.json",
+      "bytes": 128866,
+      "sha256": "c7336b8f699cd4d0ed60bf007f9039e8284849a6f02daab32889197548170444"
+    },
+    {
+      "path": "document-table-review.json",
+      "bytes": 72842,
+      "sha256": "ff1c009b638d76a5b8d3d5574f6e48bc02169c74f06f59ce0394e6e525b93309"
+    },
+    {
+      "path": "event-24193344.json",
+      "bytes": 17754,
+      "sha256": "33e119536fc9cb483f32c52ab2103efea4f6072820407eb58fa3774efb976660"
+    },
+    {
+      "path": "event-26274074.json",
+      "bytes": 6713,
+      "sha256": "20f5e09006c3414d277c2a28b5f8aa514e7f591337ad1764a201676cf4aeb151"
+    },
+    {
+      "path": "girin-download.json",
+      "bytes": 4628,
+      "sha256": "bc5c47586f6e4ab559565e8f9af295294d9053e3d5fd5a379e5a574db00fde0c"
+    },
+    {
+      "path": "girin-downloads/00227014002-지정규격서_2021193_&#40;220216_디자인기린&#41;.hwp",
+      "bytes": 197120,
+      "sha256": "a2a3d6e2099c2a3c34e8b4880eb7e7141f71bb0b24c707dd78a65ec1d7a113d0"
+    },
+    {
+      "path": "girin-extracted.json",
+      "bytes": 55195,
+      "sha256": "a9e7b2c478d583482a0f37ce5bb7c23d4f62648fb374bee99b7c1c6576b6e0b0"
+    },
+    {
+      "path": "girin-original-browser.json",
+      "bytes": 14052,
+      "sha256": "13f9e3506a86b4bb3fca6c3350a11d9086a70a4523ce9c632d1c7cc738169b8b"
+    },
+    {
+      "path": "girin-original-jev.json",
+      "bytes": 289,
+      "sha256": "6dc5dabd7025d057b596cd5fd048a9d8b89eb3f0fb6cc5a3b8cad05e5d180aa8"
+    },
+    {
+      "path": "girin-panel-parallel.json",
+      "bytes": 4146,
+      "sha256": "730e46f93fdfba2ce65a314e6f6cf0889bc7320615cc81abac136a5809434283"
+    },
+    {
+      "path": "girin-text.txt",
+      "bytes": 27037,
+      "sha256": "8c6907f930dc30ee840b99f6a8a9ac8c2a6701530b2f3163593a8440cb1a5a06"
+    },
+    {
+      "path": "juno-army-52-extracted.json",
+      "bytes": 79189,
+      "sha256": "420a84613b585a0cf46e9372893c6e58050eba71fccd457737f0dc69e369e09d"
+    },
+    {
+      "path": "juno-army-52-text.txt",
+      "bytes": 38954,
+      "sha256": "4ed929d2f22477f135b760d8a5708d3e76e4f5d08ea7efa16a488a7f845db09d"
+    },
+    {
+      "path": "juno-army-52.hwpx",
+      "bytes": 2942764,
+      "sha256": "eb4a9599bc46d52e270e4e750d593983364b01ab665c8eb969f99eb87a6b9565"
+    },
+    {
+      "path": "juno-army-57-extracted.json",
+      "bytes": 92355,
+      "sha256": "120f569a5004320ae6e3f3beed236c1d8498388b0cb36607464ece4c98d0a6ed"
+    },
+    {
+      "path": "juno-army-57-text.txt",
+      "bytes": 45354,
+      "sha256": "e3036d75a1a786d97619a7dc064c16cf49f86f0689ea7de9abeef6483a43f94d"
+    },
+    {
+      "path": "juno-army-57.hwpx",
+      "bytes": 2962579,
+      "sha256": "b82529cc7da68fed5880784d79ce6d06c5aa039f10910657b74d0851a1e063ed"
+    },
+    {
+      "path": "juno-download.json",
+      "bytes": 4418,
+      "sha256": "40e7e5e824829596f3fb83a51ffe1cc2732e82df669746954f4d7d08bdb2f5ab"
+    },
+    {
+      "path": "juno-downloads/방상외피 구매요구서 등_육군,공군.zip",
+      "bytes": 5798557,
+      "sha256": "88a8c5b66bb26e14571e46989df427aee4d7786e59d603fb65173711771eaac2"
+    },
+    {
+      "path": "juno-zip-members.json",
+      "bytes": 254,
+      "sha256": "03bd8fdd1ea008b8bfcbfebad817c9feef37d1397c0c23ea8cc1c07c60341e35"
+    },
+    {
+      "path": "layering-2026-army-primary.hwpx",
+      "bytes": 6818157,
+      "sha256": "26981ddb3fcffe1c445684c35f85ec41cd0b5bcfbecf141a35e2e2f571be47b5"
+    },
+    {
+      "path": "layering-2026-army-text.json",
+      "bytes": 151749,
+      "sha256": "1c10a8ff6d92efa0fe259d5415e3831731435bd639524698e9afdcec72de59d4"
+    },
+    {
+      "path": "layering-2026-army-text.txt",
+      "bytes": 75227,
+      "sha256": "581def437da03ab637dd2a7af51cbb2410e77992ffc822f6d707bcd730d65811"
+    },
+    {
+      "path": "layering-2026-primary-download.json",
+      "bytes": 1431,
+      "sha256": "01d10a6f3e7a8a5124781105847a7213c594840543a3675c237916332c609319"
+    },
+    {
+      "path": "listing-002270140_1040000005.json",
+      "bytes": 6038,
+      "sha256": "25c406cebf6d5b95c626c973f8dba0da021521673b0003f17fdb4da629065036"
+    },
+    {
+      "path": "listing-002270140_1040000014.json",
+      "bytes": 6045,
+      "sha256": "206bac84891dd8c30cab63cc6d96d4b0131d06c352aa46ab32903008cd420aff"
+    },
+    {
+      "path": "listing-R26TA01891663000000001.json",
+      "bytes": 5017,
+      "sha256": "25ec3c640ea1b69a0939c54a7143625e609b0318b8077e0545b4c0aa64ef2167"
+    },
+    {
+      "path": "lookup.json",
+      "bytes": 1216,
+      "sha256": "fd44c6e225c6ccbcf31e1818ee6e9eef0c4929af42abb00195a6453f857836cd"
+    },
+    {
+      "path": "prior-review.json",
+      "bytes": 32598,
+      "sha256": "dcc56a254fe1f3e60f6df992bda7e765f7eb3bbc507a04c1796f832673c8dcc9"
+    },
+    {
+      "path": "selection-local.json",
+      "bytes": 2248105,
+      "sha256": "779f2b4a208eaac6b40a0cae67996c93196bf64d043d0a1d44d749d5a91c8cb6"
+    },
+    {
+      "path": "smart-sheet-parallel.json",
+      "bytes": 2656,
+      "sha256": "b543b9c6576367dcb76dae5cc67435b21192eef2159f1af4916b40a88d9de52f"
+    },
+    {
+      "path": "turbo-sheet-parallel.json",
+      "bytes": 5033,
+      "sha256": "132b178407534580aa0bd3349445c49ff0f718742833a8347dbe275313b9eac6"
+    },
+    {
+      "path": "unclaimed-selection-local.json",
+      "bytes": 1557801,
+      "sha256": "d96029a456395dc2e48556af6bae364da1a7eba152c809d12bbca1390bc6e7ea"
+    },
+    {
+      "path": "web-search-log.json",
+      "bytes": 26785,
+      "sha256": "eeafd151b80e7452175657981a7b0b29cdb68549596588fd92e7556a0c391593"
+    }
+  ],
+  "private_source_directory": "work/highvalue-hardware/resume-20261019/pass25"
+}
