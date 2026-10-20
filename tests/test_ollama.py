@@ -50,9 +50,10 @@ class OllamaTests(unittest.TestCase):
             self.assertNotIn('secret-test', prepared.body.decode())
             self.assertNotIn('private-test', prepared.body.decode())
             self.assertEqual(json.loads(prepared.body), {
-                'model': 'qwen3.5:9b', 'prompt': 'Summarize observed facts.',
+                'model': 'qwen3.5:9b', 'prompt': 'Return one JSON object matching this schema:\n'
+                    +json.dumps(SCHEMA,ensure_ascii=False)+'\n\nSummarize observed facts.',
                 'format': SCHEMA, 'stream': False, 'think': False,
-                'options': {'num_ctx': 8192, 'num_predict': 1536}})
+                'options': {'temperature':0,'presence_penalty':0,'num_ctx': 8192, 'num_predict': 1536}})
             self.assertFalse(client.session.trust_env)
             self.assertFalse(send.call_args.kwargs['allow_redirects'])
             self.assertEqual(send.call_args.kwargs['proxies'], {})

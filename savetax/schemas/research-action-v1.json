@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "action",
+    "query",
+    "url",
+    "proposal"
+  ],
+  "properties": {
+    "action": {
+      "enum": [
+        "search",
+        "read",
+        "finish"
+      ]
+    },
+    "query": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 1000
+    },
+    "url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 8192
+    },
+    "proposal": {
+      "anyOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "schema_version",
+            "comparison_kind",
+            "claims",
+            "unknowns"
+          ],
+          "properties": {
+            "schema_version": {
+              "const": "1"
+            },
+            "comparison_kind": {
+              "enum": [
+                "identical",
+                "equivalent",
+                "unknown"
+              ]
+            },
+            "claims": {
+              "type": "array",
+              "maxItems": 40,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "field",
+                  "value",
+                  "status",
+                  "source_id",
+                  "quote",
+                  "location"
+                ],
+                "properties": {
+                  "field": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 80
+                  },
+                  "value": {
+                    "type": [
+                      "string",
+                      "number",
+                      "integer",
+                      "boolean",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "observed",
+                      "inferred",
+                      "unknown",
+                      "disputed"
+                    ]
+                  },
+                  "source_id": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "quote": {
+                    "type": "string",
+                    "maxLength": 2000
+                  },
+                  "location": {
+                    "type": "string",
+                    "maxLength": 200
+                  }
+                }
+              }
+            },
+            "unknowns": {
+              "type": "array",
+              "maxItems": 40,
+              "items": {
+                "type": "string",
+                "maxLength": 2000
+              }
+            }
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  }
+}

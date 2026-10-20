@@ -11,6 +11,7 @@ import requests
 
 from savetax.cli import main, write_json
 from savetax.client import SaveTaxClient
+from publication_fixture import approved_publication
 
 
 def response(status, payload=None, *, decode_error=False):
@@ -28,17 +29,19 @@ class ScoreCliTests(unittest.TestCase):
         self.addCleanup(self.temp.cleanup)
         self.source = Path(self.temp.name)/'body.json'
         self.receipt = Path(self.temp.name)/'receipt.json'
-        self.body = {'canonical_product_id':'001','lines':[{'fact_id':'F1'}]}
+        self.body, self.package, self.review = approved_publication(Path(self.temp.name) / 'evidence')
         write_json(self.source,self.body)
         self.client = SaveTaxClient(token='savetax_'+'x'*32)
         self.events = []
 
-    def run_score(self, *, amount='200000000', preview=None, submit=None, recovery=None, state='available', extra=(), send=True):
+    def run_score(self, *, amount='200000000', preview=None, submit=None, recovery=None, state='available', extra=(), send=True, approved=True, on_preview=None):
         preview = preview if preview is not None else {'ok':True,'next_action':'submit','total_amount_krw':amount}
 
         def post(url, **kwargs):
             if url.endswith('/preview'):
                 self.events.append(('preview',None))
+                if on_preview is not None:
+                    on_preview()
                 return response(200,preview)
             self.events.append(('submit',kwargs['headers']['Idempotency-Key']))
             if isinstance(submit,Exception):
@@ -59,10 +62,52 @@ class ScoreCliTests(unittest.TestCase):
                 patch('savetax.client.requests.get',side_effect=get), \
                 contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
             return main(['score','--input',str(self.source),'--receipt',str(self.receipt),
-                         *(['--send'] if send else []),*extra])
+                         *(['--send'] if send else []),
+                         *(['--package',str(self.package),'--review',str(self.review)] if approved else []),
+                         *extra])
 
     def saved(self):
         return json.loads(self.receipt.read_text(encoding='utf-8'))
+
+    def test_fresh_send_without_review_does_not_make_http_or_create_receipt(self):
+        self.assertEqual(self.run_score(approved=False), 2)
+        self.assertEqual(self.events, [])
+        self.assertFalse(self.receipt.exists())
+
+    def test_final_body_change_invalidates_review_before_http_or_receipt_creation(self):
+        write_json(self.source, {**self.body, 'title': '검토 뒤 바뀐 본문'})
+        self.assertEqual(self.run_score(), 2)
+        self.assertEqual(self.events, [])
+        self.assertFalse(self.receipt.exists())
+
+    def test_review_changed_during_preview_does_not_mark_request_sending(self):
+        def remove_review():
+            self.review.unlink()
+        self.assertEqual(self.run_score(on_preview=remove_review), 2)
+        self.assertEqual(self.events, [('preview', None)])
+        self.assertEqual(self.saved()['state'], 'previewed')
+
+    def test_unresolved_request_recovers_before_requiring_missing_review(self):
+        self.assertEqual(self.run_score(submit=requests.Timeout()), 2)
+        original = self.receipt.read_bytes()
+        key = self.saved()['idempotency_key']
+        self.events.clear()
+        self.assertEqual(self.run_score(approved=False, recovery=response(202, {'state':'pending'})), 0)
+        self.assertEqual(self.events, [('recover', key)])
+        self.assertEqual(self.receipt.read_bytes(), original)
+        self.events.clear()
+        self.assertEqual(self.run_score(approved=False, recovery=response(200, {'submission_id':'S1'})), 0)
+        self.assertEqual(self.events, [('recover', key)])
+        self.assertEqual(self.saved()['state'], 'submitted')
+
+    def test_not_found_recovery_requires_review_before_preview_or_receipt_changes(self):
+        self.assertEqual(self.run_score(submit=requests.Timeout()), 2)
+        original = self.receipt.read_bytes()
+        key = self.saved()['idempotency_key']
+        self.events.clear()
+        self.assertEqual(self.run_score(approved=False, recovery=response(404, {'code':'NOT_FOUND'})), 2)
+        self.assertEqual(self.events, [('recover', key)])
+        self.assertEqual(self.receipt.read_bytes(), original)
 
     def test_submitted_receipt_replay_never_previews_or_submits_again(self):
         self.assertEqual(self.run_score(),0)
@@ -72,7 +117,7 @@ class ScoreCliTests(unittest.TestCase):
         self.assertEqual(self.events[1],('lookup','001'))
         self.assertEqual(self.events[2][0],'submit')
         self.events.clear()
-        self.assertEqual(self.run_score(),0)
+        self.assertEqual(self.run_score(approved=False),0)
         self.assertEqual(self.events,[])
         self.assertEqual(self.receipt.read_bytes(),original)
 

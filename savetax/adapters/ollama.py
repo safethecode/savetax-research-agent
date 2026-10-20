@@ -80,9 +80,13 @@ class OllamaClient:
                 raise ValueError
         except (ValueError, TypeError, UnicodeError):
             raise OllamaError('invalid_input') from None
-        payload = {'model': self.profile.model, 'prompt': prompt, 'format': schema,
+        instruction = ('Return one JSON object matching this schema:\n'
+                       + encoded_schema.decode('utf-8') + '\n\n' + prompt)
+        if len(instruction.encode('utf-8')) > MAX_PROMPT_BYTES:
+            raise OllamaError('invalid_input')
+        payload = {'model': self.profile.model, 'prompt': instruction, 'format': schema,
                    'stream': False, 'think': self.profile.think,
-                   'options': {'num_ctx': self.profile.num_ctx,
+                   'options': {'temperature': 0, 'presence_penalty': 0, 'num_ctx': self.profile.num_ctx,
                                'num_predict': self.profile.num_predict}}
         try:
             with exclusive_lock(self.lock_path):

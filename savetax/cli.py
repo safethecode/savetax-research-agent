@@ -263,15 +263,24 @@ def main(argv=None):
     score.add_argument('--guide', default=None)
     score.add_argument('--min-saving', default='0')
     score.add_argument('--send', action='store_true')
+    score.add_argument('--package', help='최종 본문과 원천을 고정한 근거 묶음')
+    score.add_argument('--review', help='해당 묶음의 Codex 검토 영수증')
     queue = sub.add_parser('queue', help='검증한 신규 후보를 차액순으로 제출 목록 생성')
     queue.add_argument('--input', required=True)
     queue.add_argument('--output', default='work/submission-queue.json')
     queue.add_argument('--remaining', type=int)
     queue.add_argument('--release-deferred', action='store_true', default=True)
     queue.add_argument('--defer-small', action='store_false', dest='release_deferred')
+    from .commands import research as research_command, review as review_command
+    research_command.add_parser(sub)
+    review_command.add_parser(sub)
     args = parser.parse_args(argv)
     try:
-        if args.command == 'download':
+        if args.command == 'research':
+            return research_command.execute(args)
+        elif args.command == 'review':
+            return review_command.execute(args)
+        elif args.command == 'download':
             _download(args)
         elif args.command == 'summary':
             print(json.dumps(dataset_summary(args.parquet), ensure_ascii=False, indent=2))
@@ -370,66 +379,8 @@ def main(argv=None):
             rows = source['candidates'] if isinstance(source,dict) else source
             write_json(args.output,prioritize(rows,remaining=args.remaining,release_deferred=args.release_deferred))
         elif args.command == 'score':
-            from .client import SaveTaxClient
-            from .submissions import ScoreClient
-            body = read_json(args.input)
-            key = 'score-'+hashlib.sha256(json.dumps(body,sort_keys=True,ensure_ascii=False).encode()).hexdigest()
-            saved = read_json(args.receipt) if Path(args.receipt).exists() else None
-            if saved and (saved.get('idempotency_key') != key or saved.get('body') != body):
-                raise ValueError('다른 점수 제출의 영수증입니다. 새 경로를 사용하세요')
-            if saved and saved.get('state') == 'submitted':
-                try:
-                    ScoreClient._require_receipt(saved.get('response'))
-                except RuntimeError:
-                    saved['state'] = 'sending'
-                    write_json(args.receipt,saved)
-                else:
-                    print('이미 점수 접수한 영수증을 보존합니다: '+str(args.receipt))
-                    return 0
-            minimum = Decimal(args.min_saving)
-            if not minimum.is_finite() or minimum < 0:
-                raise ValueError('min-saving은 0 이상의 원화 금액이어야 합니다')
-            client = SaveTaxClient(guide_path=args.guide)
-            scoring = ScoreClient(client)
-            receipt = saved or {'idempotency_key':key,'body':body,'state':'prepared'}
-            if receipt['state'] == 'sending':
-                recovery = scoring.recover_request(key)
-                if recovery['state'] == 'submitted':
-                    receipt['response'] = recovery['response']
-                    receipt['state'] = 'submitted'
-                    write_json(args.receipt,receipt)
-                    return 0
-                if recovery['state'] == 'pending':
-                    print('점수 접수가 아직 확정되지 않았습니다. 같은 영수증을 유지합니다')
-                    return 0
-                if recovery['state'] != 'not_found':
-                    raise ValueError('접수 조회 상태를 확인할 수 없습니다')
-            preview = scoring.preview(body)
-            receipt.update(preview=preview,state='previewed')
-            write_json(args.receipt,receipt)
-            if preview.get('ok') is not True or preview.get('next_action') != 'submit':
-                raise ValueError('점수 preview가 신규 제출을 허용하지 않았습니다')
-            amount_raw = preview.get('total_amount_krw')
-            # Live preview uses JSON integers; decimal strings remain supported.
-            # Reject booleans and floats so no rounded value reaches submission.
-            if type(amount_raw) not in (str,int):
-                raise ValueError('점수 preview 금액은 정수 또는 십진 문자열이어야 합니다')
-            amount = Decimal(amount_raw)
-            if not amount.is_finite() or amount < 0:
-                raise ValueError('점수 preview 금액은 유한한 0 이상의 원화여야 합니다')
-            if amount < minimum:
-                receipt['state'] = 'deferred_lower_amount'
-                write_json(args.receipt,receipt)
-                print(f'후순위 대기: 예상 {amount:,.0f}원, 우선 기준 {minimum:,.0f}원')
-                return 0
-            print(f'점수 preview 예상액 {amount:,.0f}원')
-            if args.send:
-                receipt['state'] = 'sending'
-                write_json(args.receipt,receipt)
-                receipt['response'] = scoring.submit(body,key,preview)
-                receipt['state'] = 'submitted'
-                write_json(args.receipt,receipt)
-                print('점수 제출 결과: '+json.dumps(receipt['response'],ensure_ascii=False))
+            from .application.publication import run_score
+            return run_score(args)
     except RuntimeError as exc:
         # SaveTax/market transports expose only sanitized errors.
         print(str(exc), file=sys.stderr)

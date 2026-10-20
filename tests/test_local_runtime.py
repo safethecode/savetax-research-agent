@@ -100,7 +100,8 @@ class LocalRuntimeTests(unittest.TestCase):
         for url in ('https://example.com', 'http://localhost:11434', 'http://127.0.0.1.evil',
                     'http://user:password@127.0.0.1:11434', 'http://127.0.0.1:11434/api',
                     'http://127.0.0.1:11434?key=x', 'http://0.0.0.0:11434',
-                    'http://127.0.0.1:0', 'http://127.0.0.1:11434#fragment'):
+                    'http://127.0.0.1:0', 'http://127.0.0.1:11434#fragment',
+                    'http://127.0.0.1:11434?', 'http://127.0.0.1:11434#'):
             with self.subTest(url=url), self.assertRaises(ValueError):
                 LocalProfile(base_url=url)
         self.assertEqual(LocalProfile(base_url='http://[::1]:11434/').base_url, 'http://[::1]:11434')

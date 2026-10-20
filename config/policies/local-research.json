@@ -1,0 +1,12 @@
+{
+  "schema_version": "1",
+  "policy_id": "local-research-readonly-v1",
+  "allow_submit": false,
+  "allow_revise": false,
+  "max_candidates": 20,
+  "max_actions": 12,
+  "max_searches": 3,
+  "max_reads": 3,
+  "jev_steps": 8,
+  "max_attempts": 2
+}

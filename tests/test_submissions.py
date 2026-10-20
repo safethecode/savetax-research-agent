@@ -143,7 +143,10 @@ class ScoreTests(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     build_submission(self.item,{**offer,**extra},self.event)
 
-    def test_score_http_destination_and_idempotency_are_fixed(self):
+    # These tests isolate transport/lookup behavior. Real broker validation is
+    # exercised in test_publication_gate and the CLI/revision integration tests.
+    @patch('savetax.submissions.require_publication_approval', return_value={'decision': 'approved'})
+    def test_score_http_destination_and_idempotency_are_fixed(self, _review_boundary):
         raw = SaveTaxClient(token='savetax_'+'x'*32)
         response = Mock(status_code=201,headers={})
         response.json.return_value = {'submission_id':'S1','amount_krw':'200000000'}
@@ -173,7 +176,8 @@ class ScoreTests(unittest.TestCase):
         self.assertEqual(json.loads(prepared.body), body)
         self.assertEqual(prepared.headers['Content-Type'], 'application/json')
 
-    def test_success_http_with_unreadable_json_remains_an_unconfirmed_result(self):
+    @patch('savetax.submissions.require_publication_approval', return_value={'decision': 'approved'})
+    def test_success_http_with_unreadable_json_remains_an_unconfirmed_result(self, _review_boundary):
         raw = SaveTaxClient(token='savetax_'+'x'*32)
         response = Mock(status_code=201, headers={})
         response.json.side_effect = ValueError('untrusted response contents')
@@ -186,7 +190,8 @@ class ScoreTests(unittest.TestCase):
         self.assertNotIn('untrusted', str(error.exception))
         response.close.assert_called_once()
 
-    def test_success_without_submission_id_is_not_a_receipt(self):
+    @patch('savetax.submissions.require_publication_approval', return_value={'decision': 'approved'})
+    def test_success_without_submission_id_is_not_a_receipt(self, _review_boundary):
         raw = SaveTaxClient(token='savetax_'+'x'*32)
         for payload in ({}, [], {'submission_id':None}, {'submission_id':''}, {'submission_id':True}):
             with self.subTest(payload=payload):
@@ -198,7 +203,8 @@ class ScoreTests(unittest.TestCase):
                         ScoreClient(raw).submit(build_submission(self.item,self.offer,self.event),
                             'research-key-123', {'ok':True,'next_action':'submit'})
 
-    def test_lookup_must_match_requested_product_instead_of_first_available_row(self):
+    @patch('savetax.submissions.require_publication_approval', return_value={'decision': 'approved'})
+    def test_lookup_must_match_requested_product_instead_of_first_available_row(self, _review_boundary):
         raw = SaveTaxClient(token='savetax_'+'x'*32)
         rows = [{'item_id':'other','state':'available'}, {'item_id':'001','state':'claimed'}]
         response = Mock(status_code=201,headers={})
@@ -210,7 +216,8 @@ class ScoreTests(unittest.TestCase):
                     'research-key-123', {'ok':True,'next_action':'submit'})
         post.assert_not_called()
 
-    def test_no_lookup_match_never_sends_submission(self):
+    @patch('savetax.submissions.require_publication_approval', return_value={'decision': 'approved'})
+    def test_no_lookup_match_never_sends_submission(self, _review_boundary):
         raw = SaveTaxClient(token='savetax_'+'x'*32)
         response = Mock(status_code=201,headers={})
         response.json.return_value = {'submission_id':'S1'}

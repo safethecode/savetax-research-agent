@@ -28,7 +28,7 @@ class LocalProfile:
         if type(self.think) is not bool:
             raise ValueError('Local thinking mode must be boolean')
         try:
-            if (not isinstance(self.base_url, str)
+            if (not isinstance(self.base_url, str) or '?' in self.base_url or '#' in self.base_url
                     or any(ord(c) < 33 or ord(c) > 126 for c in self.base_url)):
                 raise ValueError
             parsed = urlsplit(self.base_url)

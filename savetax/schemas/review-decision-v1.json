@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SaveTax evidence review decision v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "decision", "blocking", "accepted_limitations", "notes", "source_assessments"],
+  "properties": {
+    "schema_version": {"type": "string", "const": "1"},
+    "decision": {"type": "string", "enum": ["approved", "needs_evidence", "rejected"]},
+    "blocking": {"type": "array", "maxItems": 100, "items": {"type": "string", "minLength": 1, "maxLength": 2000}},
+    "accepted_limitations": {"type": "array", "maxItems": 100, "items": {"type": "string", "minLength": 1, "maxLength": 2000}},
+    "notes": {"type": "string", "minLength": 1, "maxLength": 8000},
+    "source_assessments": {
+      "type": "array", "maxItems": 100,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["source_id", "assessment"],
+        "properties": {
+          "source_id": {"type": "string", "minLength": 1, "maxLength": 100},
+          "assessment": {"type": "string", "minLength": 1, "maxLength": 2000}
+        }
+      }
+    }
+  }
+}
