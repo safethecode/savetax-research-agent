@@ -36,3 +36,5 @@
 - [2026-10-16 초기 구현 계획](superpowers/plans/2026-10-16-research-harness.md)
 
 두 문서는 작성 시점의 범위를 보존한다. 현재 구현·사용자 권한·최신 금액 정책은 해당 날짜의 문구만으로 결정하지 않는다.
+
+- [로컬 Qwen 조사와 Codex 근거 리뷰 실행](local-research.md)

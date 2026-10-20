@@ -25,3 +25,16 @@
 - `adapters.codex.CodexReviewer.review(package_dir, manifest) -> dict`: ordinary `codex exec`, read-only/ephemeral/output-schema, package를 신뢰할 수 없는 증거 데이터로 취급한다.
 
 모델 응답은 제안이며 승인 권한을 갖지 않는다. 연구 CLI는 `research --input <snapshot.json> --policy <policy.json> --run-dir <dir>`와 `--item-id` 공식 조회 경로를 제공한다. 리뷰 CLI는 `review --package <dir>`다. `score --send`는 `--package`와 `--review`를 요구한다.
+
+## 완료 기록 — 2026-10-20
+
+- [x] runtime·로컬 추론, 실제 설치된 qwen3.5:9b 호출 확인
+- [x] 제한된 search/read/finish 조사, 재개·원문 보존·fact 계산
+- [x] 고정 근거 묶음·Codex stdin 원문 리뷰·공통 출판 gate
+- [x] 기존 접수 영수증 재생·모호한 POST의 멱등 복구 유지
+- [x] 12개 구현 모듈의 실제 계층 이동·이전 import 호환·의존 방향 검사
+- [x] 257개 unittest 실행: 255통과, OS 권한으로 2생략
+- [x] 별도 경로 wheel 설치와 포함 리소스 검사
+- [x] 독립 리뷰의 두 P2(429 Retry-After, 후보별 조회 실패 격리) 재현·수정·재검증
+
+현재 자동 초안 지원 범위와 실행 명령은 [로컬 조사 사용법](../../local-research.md)에 있다. 원문·계산·본문·정책을 바꾸면 새 리뷰가 필요하다. 검증 과정에서 대회 접수나 예약을 생성하지 않았다.

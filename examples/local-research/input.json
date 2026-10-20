@@ -1,0 +1,46 @@
+{
+  "fixture_only": true,
+  "item": {
+    "item_id": "EXAMPLE-001",
+    "availability": {
+      "state": "available"
+    },
+    "snapshot": {
+      "model": "ABC",
+      "name": "합성 예제, 실제 조달 물품 아님"
+    },
+    "facts_total": 1,
+    "returned_count": 1,
+    "facts_truncated": false,
+    "facts": [
+      {
+        "fact_id": "EXAMPLE-F1",
+        "contract_no": "EXAMPLE-C1",
+        "request_no": "EXAMPLE-R1",
+        "line_no": "1",
+        "unit": "대",
+        "tax_basis": "vat_included",
+        "basis_id": "EXAMPLE-B1",
+        "period_kind": "none",
+        "scorable": true,
+        "quantity": "1000",
+        "comparable_amount_krw": "300000000"
+      }
+    ]
+  },
+  "event": {
+    "dataset_release_id": "example-release",
+    "ruleset_version": "example-rules"
+  },
+  "sources": [
+    {
+      "source_id": "S1",
+      "path": "retailer.txt",
+      "url": "https://seller.example/item",
+      "kind": "retailer",
+      "method": "synthetic-fixture",
+      "observed_at": "2026-10-20T00:00:00Z",
+      "truncated": false
+    }
+  ]
+}

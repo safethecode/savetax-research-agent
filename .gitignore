@@ -12,3 +12,6 @@ savetax-agent-guide.md
 guide.md
 .DS_Store
 research/private/
+
+build/
+dist/

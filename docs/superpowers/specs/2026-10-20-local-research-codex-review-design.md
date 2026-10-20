@@ -1,8 +1,8 @@
 # 로컬 조사 모델과 Codex 근거 리뷰 아키텍처
 
-작성일: 2026-10-20 (한국시간). 상태: **검토용 설계**.
+작성일: 2026-10-20 (한국시간). 상태: **2026-10-20 구현 반영**.
 
-사용자가 선택한 조사 모델은 Ollama의 `qwen3.5:9b`다. Jev·Parallel은 기존 외부 API를 사용하고, Codex는 원문 근거와 계산을 최종 검토한다. 이 문서는 현재 구현과 앞으로 구현할 구조를 구분한다. 이 문서 작성 자체로 로컬 실행기·Codex 자동 리뷰·자동 제출이 동작하는 것은 아니다.
+사용자가 선택한 조사 모델은 Ollama의 `qwen3.5:9b`다. Jev·Parallel은 기존 외부 API를 사용하고, Codex는 원문 근거와 계산을 최종 검토한다. 이 문서는 현재 구현과 앞으로 구현할 구조를 구분한다. 실행 가능한 범위와 명령은 [로컬 조사 사용법](../../local-research.md)에 기록한다. 자동 초안은 우선 동일 모델·같은 단위·포함 배송비를 지원하며, 대체품·미확인 환산·별도 필수 비용은 근거 대기로 남긴다.
 
 ## 1. 목적과 범위
 
@@ -19,23 +19,23 @@
 
 금액 목표, 일일 한도, owner 구간과 조사 제외 분야는 버전 있는 **실행 정책**이다. 과거 채팅의 금액·날짜·권한을 모델 프롬프트나 프로그램 상수로 승격하지 않는다. 실제 예산 절감액·심사 인정액·대회 접수 예상액은 별도 필드다.
 
-## 2. 현재 확인한 상태
+## 2. 구현 전 기준선과 현재 대응
 
 | 항목 | 현재 구현 |
 |---|---|
-| Python 패키지 | `savetax/` 평면 모듈. `requests`, `duckdb`, 선택 의존성 `olefile` |
+| Python 패키지 | `commands/application/domain/adapters/runtime` 분리. 평면 모듈은 호환 facade. `requests`, `duckdb`, `jsonschema`, 선택 `olefile` |
 | 실행 진입점 | `python -m savetax`, 설치 명령 `savetax = savetax.cli:main` |
 | 조사 도구 | 공식 API·Parquet 선별·Jev/Browser Harness·Parallel·판매 MCP·문서 추출 |
-| 모델 연결 | Jev/TypeSafe와 보조 `TEXT_MODEL_*` 설정. 상위 로컬 조사 실행기는 없음 |
-| Codex 연결 | 독립 근거 리뷰 실행기·리뷰 영수증 검증은 없음 |
-| 제출 | 본문 생성과 HTTP 전송이 `submissions.py`에 함께 있음. CLI가 preview·영수증·재개 처리 |
+| 모델 연결 | loopback Ollama 제한 실행기·도구 예산·재개, 기존 Jev/Parallel 재사용 |
+| Codex 연결 | ordinary `codex exec` read-only·완전한 텍스트 묶음 전달·broker 영수증 검증 |
+| 제출 | `domain/scoring.py` 조립·계산, `adapters/scoring.py` 전송, `application/publication.py` gate·영수증·복구 |
 | 기존 증거 판정 | 일부 검증 boolean을 입력으로 신뢰. 공식 preview는 원문 사실성 리뷰를 대신하지 않음 |
 | 테스트 기준선 | 2026-10-20 네트워크 없는 unittest 187개 통과 |
 | 이 PC | RTX 3080 Ti 12GB·RAM 약32GB·Ollama0.40.0. `qwen3.5:9b` Q4_K_M 설치, 약6.6GB |
 
-모델 메타데이터의 도구·이미지·추론 지원은 확인했다. 실제 조사의 속도·정확도·GPU 상주 여부는 아직 측정하지 않았다. 지원 최대 컨텍스트 전체를 12GB VRAM에서 쓸 수 있다고 가정하지 않는다.
+모델 메타데이터의 도구·이미지·추론 지원은 확인했다. 합성 자료 한 건에서 실제 Qwen 추출·계산·묶음 저장을 약 8.2초에 확인했다. 이 한 건으로 실제 조사의 정확도·처리량·GPU 상주를 보장하지 않는다. 지원 최대 컨텍스트 전체를 12GB VRAM에서 쓸 수 있다고 가정하지 않는다.
 
-현재 `cli.py`는 명령 해석, 조사 흐름, JSON 저장과 접수 복구를 함께 맡는다. `analysis.py`는 DuckDB I/O를 포함하므로 순수 domain 코드로 분류하지 않는다. `submissions.py`는 순수 본문 생성과 인증된 쓰기를 분리할 대상이다.
+기존 `cli.py`는 호환 진입점을 유지하며 새 조사·리뷰 명령과 접수 복구는 분리했다. `analysis.py`는 DuckDB I/O를 포함하므로 순수 domain 코드로 분류하지 않는다. `submissions.py`는 분리한 builder와 전송 클래스의 호환 진입점이다.
 
 ## 3. 선택한 방식과 대안
 
@@ -66,7 +66,7 @@ flowchart TD
     GATE --> PUB[공식 preview / 상태 확인 / 접수·복구]
 ```
 
-의존 방향은 `cli → application → domain + adapters + runtime`이다. `domain`은 표준 라이브러리만 사용하고 네트워크·LLM·파일·환경변수에 접근하지 않는다. 어댑터는 application을 import하지 않는다. runtime은 경로·원자적 저장·체크포인트·설정을 제공하며 업무 판단을 하지 않는다.
+의존 방향은 `cli → application → domain + adapters + runtime`이다. `domain`은 표준 라이브러리만 사용하고 네트워크·LLM·파일·환경변수에 접근하지 않는다. 점수 전송 어댑터는 직접 호출에도 같은 검사를 강제하기 위해 publication의 단일 gate를 호출한다. 이 명시적 경계를 제외한 어댑터는 application을 import하지 않는다. runtime은 경로·원자적 저장·체크포인트·설정을 제공하며 업무 판단을 하지 않는다.
 
 | 담당 | 할 일 | 넘기지 않을 권한 |
 |---|---|---|
@@ -81,7 +81,7 @@ flowchart TD
 
 ## 5. 목표 파일 구조와 이전 대응표
 
-아래는 **구현 이후 목표 구조**다. 현재 존재하지 않는 명령·모듈이 구현됐다는 뜻은 아니다.
+아래는 구현한 계층과 유지하는 호환 경로다. 원본 데이터·기존 조사 기록은 이동하지 않았다.
 
 ```text
 savetax/
@@ -97,7 +97,6 @@ savetax/
     review.py                  # 묶음 고정, Codex 실행, 리뷰 결과 수용
     publication.py             # 리뷰 확인, preview, 기존 영수증 상태 머신
   domain/
-    contracts.py               # 버전 있는 job / 관측 / 제안 / 리뷰 계약
     rules.py                   # 선언형 선별 규칙
     evidence.py                # 증거 입력 검증, 기존 지원 범위 명시
     scoring.py                 # 본문 구성, 단위·VAT·팩 및 fact별 계산
@@ -117,13 +116,12 @@ savetax/
   runtime/
     config.py                  # 명시적 root, 비밀 없는 실행 설정
     artifacts.py               # 원자적 JSON, 경로 검증, 해시
-    checkpoints.py             # 조사 job 재개·잠금
     secrets.py                 # 서비스별 자격증명 주입
-  ...기존 평면 모듈              # 이전 import용 facade, 단계별 축소
-config/                        # 비밀 없는 설정 예시, 구현 단계에서 추가
+  ...기존 평면 모듈              # 이전 import용 facade
+config/                        # 비밀 없는 실행 설정과 정책 예시
   policies/                    # 목표·우선순위·쓰기 범위의 정책 예시
-prompts/                       # 버전 있는 Qwen 정리 / Codex 리뷰 지침
-schemas/                       # 모델 입출력 계약, 계약 검증과 함께 관리
+savetax/prompts/               # wheel에 포함되는 Qwen / Codex 지침
+savetax/schemas/               # wheel에 포함되는 버전 있는 JSON Schema
 tests/                         # 기존 테스트 유지, 이후 계층별로 점진 이동
 docs/                          # 문서 색인·사용법·연동·아키텍처·과거 설계
 research/                      # 공개 조사 기록·공개 상태 원장
@@ -180,7 +178,7 @@ work/
 
 ## 7. 입력·출력 계약
 
-모든 계약에는 `schema_version`이 있고, 금액·수량은 Decimal 문자열이다. JSON 구조가 맞는 것은 근거가 참이라는 뜻이 아니다. `schemas/`의 버전 있는 JSON Schema를 구조 계약의 정본으로 삼는다. `domain/contracts.py`는 같은 스키마를 읽어 구조를 검증하고 출처·해시·금액 등 의미 검사를 추가하며, 별도의 필드 정의를 독립 관리하지 않는다. 모델에 전달한 스키마와 실제 검증 스키마의 일치를 테스트한다.
+모든 계약에는 `schema_version`이 있고, 금액·수량은 Decimal 문자열이다. JSON 구조가 맞는 것은 근거가 참이라는 뜻이 아니다. `savetax/schemas/`의 버전 있는 JSON Schema를 구조 계약의 정본으로 삼는다. application이 같은 스키마로 구조를 검증하고 출처·해시·금액의 의미 검사를 추가하며, 별도의 필드 정의를 독립 관리하지 않는다. 모델에 전달한 스키마와 실제 검증 스키마의 일치를 테스트한다.
 
 ### ResearchJob
 
@@ -281,3 +279,11 @@ Ollama 호출은 기본 loopback만 허용하고 리다이렉트·프록시·암
 ## 12. 이 문서 작성 시점의 구현 상태
 
 로컬 모델·외부 API·Codex 역할과 데이터 계약·파일 이전 순서를 설계했다. 새 실행기나 리뷰 gate는 아직 구현하지 않았다. 기존 source·공개 조사 자료·영수증 형식은 그대로다. 구현은 이 문서의 검토와 구현 계획 단계를 거쳐 진행한다.
+
+## 11. 구현 확인 기록
+
+- 실행·설정·아티팩트, Ollama, 조사 workflow, 고정 근거·Codex 리뷰, 공통 출판 gate와 접수 복구를 구현했다.
+- 기존 12개 구현 모듈을 실제 계층으로 이동하고 원래 import facade와 공개 함수/클래스 identity를 보존했다. 테스트의 직접 치환 주입 경로는 실제 구현 모듈을 사용한다.
+- 원천·계산·본문·정책·공식 fact 범위를 고정한다. 별도 비용·대체품의 자동 초안 확대는 현재 범위 밖이며 대기 근거를 보존한다.
+- Codex Windows read-only 환경에서 파일 읽기가 거절되는 것을 실제 확인해, 제한 내 전체 텍스트 묶음을 stdin으로 전달한다. 일부를 생략하거나 sandbox를 완화하지 않는다. 바이너리·전체 입력 한도 초과는 명시적으로 실패한다.
+- 원천 묶음·실행 영수증과 실제 추론 결과는 Git 제외 `work/`에 있다. 대회 신규 접수·revision·예약 생성은 이 구현 검증에서 수행하지 않았다.

@@ -20,10 +20,12 @@
 | Python | 공식 API·Parquet·규칙·증거 입력·수치 계산·접수 복구 구현 | 계산·단계 실행·근거 보존·권한 경계 |
 | Jev·Browser Harness | 별도 브라우저 런타임과 세션·작업 잠금 구현 | 공개 원문·실제 옵션 관측 |
 | Parallel·판매 MCP | 검색 어댑터 구현 | 실제 판매처 후보 발견 |
-| Ollama `qwen3.5:9b` | 조사 모델로 선택, 저장소의 상위 실행기는 미구현 | 검색 계획·필드 추출·비교 제안·초안 |
-| Codex | 근거 리뷰 자동 연결·리뷰 gate는 미구현 | 고정한 원문·계산·최종 본문 리뷰 |
+| Ollama `qwen3.5:9b` | 제한된 조사 실행기·재개·출처 제안 구현 | 검색 계획·필드 추출·비교 제안·초안 |
+| Codex | 고정 근거 리뷰·정확한 본문/정책 해시 gate 구현 | 고정한 원문·계산·최종 본문 리뷰 |
 
-목표 의존 방향은 `CLI → application → domain + adapters + runtime`이다. 모델 제안, 실제 관측, 검토 승인과 공식 접수는 다른 상태로 보존한다. [설계의 현재 상태와 이전 순서](docs/superpowers/specs/2026-10-20-local-research-codex-review-design.md#10-단계별-이전과-검증-기준)를 확인한 뒤 구현한다.
+목표 의존 방향은 `CLI → application → domain + adapters + runtime`이다. 모델 제안, 실제 관측, 검토 승인과 공식 접수는 다른 상태로 보존한다. [로컬 조사 실행법](docs/local-research.md)과 [설계](docs/superpowers/specs/2026-10-20-local-research-codex-review-design.md)를 확인한다.
+
+실행 가능한 로컬 예제와 Codex 리뷰는 [로컬 조사 사용법](docs/local-research.md)에 있다. `commands / application / domain / adapters / runtime`으로 구현을 분리했고 기존 평면 모듈은 import 호환 facade다.
 
 ## 설치와 검증
 
