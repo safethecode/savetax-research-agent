@@ -32,7 +32,7 @@ class BrowserTests(unittest.TestCase):
     def test_missing_typesafe_key_precedes_browser_start(self):
         with tempfile.TemporaryDirectory() as folder:
             runtime = BrowserRuntime(folder)
-            with patch('savetax.browser.environment', return_value={}), patch.object(runtime, '_run') as run:
+            with patch('savetax.adapters.browser.environment', return_value={}), patch.object(runtime, '_run') as run:
                 with self.assertRaisesRegex(ValueError, 'TYPESAFE_API_KEY'):
                     runtime.plan('https://shop.example/a', '제품 가격 확인')
                 run.assert_not_called()
@@ -109,10 +109,10 @@ class BrowserTests(unittest.TestCase):
             chrome = Path(folder)/'chrome.exe'
             chrome.touch()
             runtime = BrowserRuntime(folder)
-            with patch('savetax.browser.environment',return_value={'SAVETAX_TOKEN':'private-test','TYPESAFE_API_KEY':'model-test','PARALLEL_API_KEY':'search-test'}), \
-                    patch('savetax.browser.shutil.which',return_value=str(chrome)), \
+            with patch('savetax.adapters.browser.environment',return_value={'SAVETAX_TOKEN':'private-test','TYPESAFE_API_KEY':'model-test','PARALLEL_API_KEY':'search-test'}), \
+                    patch('savetax.adapters.browser.shutil.which',return_value=str(chrome)), \
                     patch.object(runtime,'_endpoint',side_effect=[None,'http://127.0.0.1:1234']), \
-                    patch('savetax.browser.subprocess.Popen') as spawn:
+                    patch('savetax.adapters.browser.subprocess.Popen') as spawn:
                 spawn.return_value.pid = 1234
                 result = runtime.prepare_env(start=True)
             child_env = spawn.call_args.kwargs.get('env',{})
@@ -128,7 +128,7 @@ class BrowserTests(unittest.TestCase):
             existing, owned = 'A'*32, 'B'*32
             with patch.object(runtime,'prepare_env',return_value={}), \
                     patch.object(runtime,'_page_targets',side_effect=[{existing},{existing,owned}]), \
-                    patch('savetax.browser.subprocess.run',side_effect=[subprocess.TimeoutExpired('test',55),subprocess.CompletedProcess('cleanup',0,'','')]) as run:
+                    patch('savetax.adapters.browser.subprocess.run',side_effect=[subprocess.TimeoutExpired('test',55),subprocess.CompletedProcess('cleanup',0,'','')]) as run:
                 with self.assertRaisesRegex(RuntimeError,'55초'):
                     runtime._run('test')
             cleanup_code = run.call_args.kwargs['input']
@@ -143,7 +143,7 @@ class BrowserTests(unittest.TestCase):
             runtime.python.touch()
             with patch.object(runtime, 'prepare_env', return_value={}), \
                     patch.object(runtime, '_page_targets', side_effect=[{'A'*32}, {'A'*32, 'B'*32}]), \
-                    patch('savetax.browser.subprocess.run', side_effect=[
+                    patch('savetax.adapters.browser.subprocess.run', side_effect=[
                         subprocess.TimeoutExpired('test', 55),
                         subprocess.CompletedProcess('cleanup', 1, '', 'external-secret-detail')]):
                 with self.assertRaisesRegex(RuntimeError, '55초') as failure:
@@ -159,7 +159,7 @@ class BrowserTests(unittest.TestCase):
             runtime.python.touch()
             with patch.object(runtime, 'prepare_env', return_value={}), \
                     patch.object(runtime, '_page_targets', side_effect=[set(), {'B'*32}]), \
-                    patch('savetax.browser.subprocess.run', side_effect=[
+                    patch('savetax.adapters.browser.subprocess.run', side_effect=[
                         subprocess.CompletedProcess('model', 0, 'not-json', ''),
                         subprocess.CompletedProcess('cleanup', 1, '', 'external-secret-detail')]):
                 with self.assertRaisesRegex(RuntimeError, 'JSON') as failure:
@@ -179,7 +179,7 @@ class BrowserTests(unittest.TestCase):
                 with patch.object(runtime, 'prepare_env', return_value={}), \
                         patch.object(runtime, '_page_targets', return_value=set()), \
                         patch.object(runtime, '_cleanup_new_tabs', side_effect=error), \
-                        patch('savetax.browser.subprocess.run', side_effect=subprocess.TimeoutExpired('test', 55)):
+                        patch('savetax.adapters.browser.subprocess.run', side_effect=subprocess.TimeoutExpired('test', 55)):
                     with self.assertRaisesRegex(RuntimeError, '55초') as failure:
                         runtime._run('test')
                 self.assertIn('정리', str(failure.exception))
@@ -194,7 +194,7 @@ class BrowserTests(unittest.TestCase):
             with patch.object(runtime, 'prepare_env', return_value={}), \
                     patch.object(runtime, '_page_targets', return_value=set()), \
                     patch.object(runtime, '_cleanup_new_tabs', side_effect=json.JSONDecodeError('external-secret-detail', '', 0)), \
-                    patch('savetax.browser.subprocess.run', return_value=subprocess.CompletedProcess('model', 0, '{"ok": true}', '')):
+                    patch('savetax.adapters.browser.subprocess.run', return_value=subprocess.CompletedProcess('model', 0, '{"ok": true}', '')):
                 with self.assertRaisesRegex(RuntimeError, '결과는 생성됐지만') as failure:
                     runtime._run('test', model=True)
             self.assertNotIn('external-secret-detail', str(failure.exception))

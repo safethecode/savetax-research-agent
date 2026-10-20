@@ -10,7 +10,7 @@ from datetime import datetime, timezone
 from decimal import Decimal, InvalidOperation
 from pathlib import Path
 
-from .analysis import dataset_summary, mine_batch
+from .adapters.datasets import dataset_summary, mine_batch
 
 BASE = 'https://hackathon.savetax.now/v1/events/current'
 TARGET = '60000000000'
@@ -65,7 +65,7 @@ def render_report(result):
 
 
 def _mine(args):
-    from .rules import apply_rules, validate_strategy
+    from .domain.rules import apply_rules, validate_strategy
     strategy = read_json(args.strategy)
     validate_strategy(strategy)
     fingerprint = hashlib.sha256(json.dumps(strategy, sort_keys=True).encode()).hexdigest()
@@ -103,7 +103,7 @@ def _mine(args):
 
 
 def _hydrate(args):
-    from .client import SaveTaxClient, SaveTaxError
+    from .adapters.catalog import SaveTaxClient, SaveTaxError
     client = SaveTaxClient(guide_path=args.guide)
     data = read_json(args.input)
     candidates = data['candidates'] if isinstance(data, dict) else data
@@ -137,7 +137,7 @@ def _hydrate(args):
                                  'retry_after': getattr(exc, 'retry_after', None),
                                  'observed_at': datetime.now(timezone.utc).isoformat()}
             if getattr(exc,'stage',None) == 'transport':
-                from .client import diagnose_connection
+                from .adapters.catalog import diagnose_connection
                 failures[item_id]['connection_diagnostic'] = diagnose_connection('hackathon.savetax.now')
         existing['failures'] = list(failures.values())
         write_json(args.output, existing)
@@ -145,7 +145,7 @@ def _hydrate(args):
 
 
 def _evaluate(args):
-    from .evidence import evaluate_candidate
+    from .domain.evidence import evaluate_candidate
     data = read_json(args.input)
     candidates = data['candidates'] if isinstance(data, dict) else data
     results, seen = [], set()
@@ -174,7 +174,7 @@ def _evaluate(args):
 
 
 def _download(args):
-    from .client import SaveTaxClient
+    from .adapters.catalog import SaveTaxClient
     destination = Path(args.output)
     archive = SaveTaxClient(guide_path=args.guide).download_dataset(destination)
     target = destination.parent.resolve()
@@ -257,23 +257,16 @@ def main(argv=None):
     score_build = sub.add_parser('build-score', help='공식 fact와 확인한 판매가로 점수 본문 생성')
     score_build.add_argument('--input', required=True)
     score_build.add_argument('--output', default='work/score-body.json')
-    score = sub.add_parser('score', help='검증한 신규 후보를 preview 후 접수 (--send)')
-    score.add_argument('--input', required=True)
-    score.add_argument('--receipt', required=True)
-    score.add_argument('--guide', default=None)
-    score.add_argument('--min-saving', default='0')
-    score.add_argument('--send', action='store_true')
-    score.add_argument('--package', help='최종 본문과 원천을 고정한 근거 묶음')
-    score.add_argument('--review', help='해당 묶음의 Codex 검토 영수증')
     queue = sub.add_parser('queue', help='검증한 신규 후보를 차액순으로 제출 목록 생성')
     queue.add_argument('--input', required=True)
     queue.add_argument('--output', default='work/submission-queue.json')
     queue.add_argument('--remaining', type=int)
     queue.add_argument('--release-deferred', action='store_true', default=True)
     queue.add_argument('--defer-small', action='store_false', dest='release_deferred')
-    from .commands import research as research_command, review as review_command
+    from .commands import research as research_command, review as review_command, score as score_command
     research_command.add_parser(sub)
     review_command.add_parser(sub)
+    score_command.add_parser(sub)
     args = parser.parse_args(argv)
     try:
         if args.command == 'research':
@@ -295,17 +288,17 @@ def main(argv=None):
         elif args.command == 'evaluate':
             _evaluate(args)
         elif args.command == 'feedback':
-            from .rules import learn_from_feedback
+            from .domain.rules import learn_from_feedback
             feedback_data = read_json(args.input)
             if isinstance(feedback_data, dict):
                 feedback_data = feedback_data.get('status', feedback_data).get('reports', [])
             write_json(args.output, learn_from_feedback(read_json(args.strategy), feedback_data))
         elif args.command == 'market-search':
-            from .market import MarketClient
+            from .adapters.market import MarketClient
             write_json(args.output, MarketClient(args.provider).search(args.query, args.limit))
         elif args.command == 'report':
-            from .reports import ReportClient, validate_report
-            from .client import SaveTaxClient
+            from .adapters.reports import ReportClient, validate_report
+            from .adapters.catalog import SaveTaxClient
             body = validate_report(read_json(args.input))
             key = 'research-' + hashlib.sha256(json.dumps(body, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
             receipt = {'idempotency_key': key, 'body': body, 'state': 'prepared'}
@@ -326,8 +319,8 @@ def main(argv=None):
             else:
                 print('일반 제보 검토본 저장: ' + str(args.receipt))
         elif args.command == 'reports':
-            from .reports import ReportClient, REPORTS_URL
-            from .client import SaveTaxClient
+            from .adapters.reports import ReportClient, REPORTS_URL
+            from .adapters.catalog import SaveTaxClient
             client = SaveTaxClient(guide_path=args.guide)
             status = ReportClient(client).list_reports()
             rows = status.get('reports', status.get('items', []))
@@ -338,7 +331,7 @@ def main(argv=None):
             write_json(args.output, {'status': status, 'rejected_histories': histories})
             print('일반 제보 상태 저장: ' + str(args.output))
         elif args.command in ('browser-status','browser-read','browser-plan','browser-jev'):
-            from .browser import BrowserRuntime
+            from .adapters.browser import BrowserRuntime
             runtime = BrowserRuntime(session_name=args.session)
             if args.command == 'browser-status':
                 print(json.dumps(runtime.status(),ensure_ascii=False,indent=2))
@@ -353,7 +346,7 @@ def main(argv=None):
                 write_json(args.output,result)
                 print('브라우저 조사 결과 저장: '+str(args.output))
         elif args.command == 'document-read':
-            from .documents import read_document
+            from .adapters.documents import read_document
             source = Path(args.input)
             output = Path(args.output)
             targets = (output, output.with_suffix(output.suffix + '.tmp'))
@@ -363,24 +356,23 @@ def main(argv=None):
             write_json(args.output, result)
             print('문서 본문 추출 저장: '+str(args.output)+' (사양·표 대조 전)')
         elif args.command == 'parallel-search':
-            from .parallel import ParallelClient
-            from .secrets import activated_environment
+            from .adapters.parallel import ParallelClient
+            from .runtime.secrets import activated_environment
             with activated_environment():
                 result = ParallelClient().search(args.query,objective=args.objective,max_results=args.limit)
             write_json(args.output,result)
             print('Parallel 검색 결과 저장: '+str(args.output))
         elif args.command == 'build-score':
-            from .submissions import build_submission
+            from .domain.scoring import build_submission
             source = read_json(args.input)
             write_json(args.output,build_submission(source['item'],source['offer'],source['event']))
         elif args.command == 'queue':
-            from .queue import prioritize
+            from .domain.queue import prioritize
             source = read_json(args.input)
             rows = source['candidates'] if isinstance(source,dict) else source
             write_json(args.output,prioritize(rows,remaining=args.remaining,release_deferred=args.release_deferred))
         elif args.command == 'score':
-            from .application.publication import run_score
-            return run_score(args)
+            return score_command.execute(args)
     except RuntimeError as exc:
         # SaveTax/market transports expose only sanitized errors.
         print(str(exc), file=sys.stderr)

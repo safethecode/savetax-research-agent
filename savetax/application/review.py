@@ -19,7 +19,7 @@ import uuid
 
 from jsonschema import Draft202012Validator, ValidationError
 
-from ..runtime.artifacts import atomic_json, canonical_hash, safe_path
+from ..runtime.artifacts import atomic_json, canonical_hash, exclusive_lock, safe_path
 
 _ID = re.compile(r'[A-Za-z0-9_-]{1,100}\Z')
 _HASH = re.compile(r'[a-f0-9]{64}\Z')
@@ -390,6 +390,20 @@ def review_package(package_dir, reviewer):
               'execution_receipt': receipt_relative, 'execution_receipt_hash': canonical_hash(receipt)}
     review_path = safe_path(package.parent, f'reviews/{identifier}.json')
     atomic_json(review_path, record)
+    # Update only the owning job's currently selected immutable package. A review
+    # finishing after an explicit retry must not overwrite the replacement job.
+    job_dir = package.parent.parent
+    job_path = safe_path(job_dir, 'job.json')
+    if job_path.exists():
+        lock = (job_dir.parent.parent / '.run.lock' if job_dir.parent.name == 'jobs'
+                else job_dir / '.review-job.lock')
+        with exclusive_lock(lock):
+            state = _read_json(job_path)
+            selected = state.get('package_dir') if isinstance(state, dict) else None
+            if isinstance(selected, str) and Path(selected).resolve() == package:
+                state.update(state=decision['decision'], review_path=str(review_path.resolve()),
+                             reviewed_at=record['reviewed_at'])
+                atomic_json(job_path, state)
     return review_path
 
 

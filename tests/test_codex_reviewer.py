@@ -1,4 +1,5 @@
 import io
+import hashlib
 import json
 import subprocess
 import tempfile
@@ -41,8 +42,8 @@ class CodexReviewerTests(unittest.TestCase):
         self.root = Path(self.temp.name)
         self.package = self.root / 'package'
         self.package.mkdir()
-        (self.package / 'manifest.json').write_text('{}')
-        self.manifest = {'package_hash': 'a' * 64}
+        self.manifest = {'package_hash': 'a' * 64, 'body': None, 'sources': []}
+        (self.package / 'manifest.json').write_text(json.dumps(self.manifest))
         self.decision = {'schema_version': '1', 'decision': 'needs_evidence',
                          'blocking': ['가격 미확인'], 'accepted_limitations': [],
                          'notes': '추가 근거 필요', 'source_assessments': []}
@@ -98,3 +99,40 @@ class CodexReviewerTests(unittest.TestCase):
                     with self.assertRaises(RuntimeError):
                         CodexReviewer(executable='codex-test', max_output_bytes=4096, model='configured-codex-model').review(
                             self.package, self.manifest)
+
+    def test_complete_manifest_body_and_all_text_and_raw_captures_are_inline(self):
+        text = 'INLINE-RETAIL: MODEL-A 신품 100원 부가세 포함 무료배송'
+        raw = '{"text":"INLINE-RAW: MODEL-A selected option A quantity 1 total 100"}'
+        (self.package / 'seller.txt').write_text(text, encoding='utf-8')
+        (self.package / 'capture.json').write_text(raw, encoding='utf-8')
+        self.manifest.update(body={'title': 'INLINE-BODY-EXACT', 'lines': []},
+                             policy={'policy_id': 'INLINE-POLICY'}, sources=[{
+            'source_id': 'S1', 'path': 'seller.txt', 'raw_path': 'capture.json',
+            'sha256': hashlib.sha256(text.encode()).hexdigest(),
+            'raw_sha256': hashlib.sha256(raw.encode()).hexdigest()}])
+        delivered = {}
+        def execute(command, cwd, prompt):
+            delivered['prompt'] = prompt
+            return events(self.decision), b''
+        with patch.object(CodexReviewer, '_execute', side_effect=execute):
+            reviewer = CodexReviewer(executable='codex-test', model='configured-codex-model')
+            reviewer.review(self.package, self.manifest)
+        prompt = delivered['prompt'].decode('utf-8')
+        self.assertIn(text, prompt)
+        self.assertIn('INLINE-RAW: MODEL-A selected option A quantity 1 total 100', prompt)
+        self.assertIn('INLINE-BODY-EXACT', prompt)
+        self.assertIn('INLINE-POLICY', prompt)
+        self.assertIn('No file commands or tools are needed', prompt)
+        self.assertEqual(reviewer.last_execution['input_bytes'], len(delivered['prompt']))
+        self.assertEqual(reviewer.last_execution['input_sha256'], hashlib.sha256(delivered['prompt']).hexdigest())
+
+    def test_actual_full_inline_prompt_overflow_never_launches_codex(self):
+        text = 'x' * 262144
+        (self.package / 'seller.txt').write_text(text, encoding='utf-8')
+        self.manifest['sources'] = [{'source_id': 'S1', 'path': 'seller.txt',
+                                     'sha256': hashlib.sha256(text.encode()).hexdigest()}]
+        with patch.object(CodexReviewer, '_execute', return_value=(events(self.decision), b'')) as execute:
+            with self.assertRaisesRegex(RuntimeError, 'input_limit'):
+                CodexReviewer(executable='codex-test', model='configured-codex-model').review(
+                    self.package, self.manifest)
+        execute.assert_not_called()

@@ -1,5 +1,6 @@
 """Codex reviews a fixed evidence package, with no publication side effect."""
 import json
+from pathlib import Path
 from ..adapters.codex import CodexReviewer
 from ..application.review import review_package
 
@@ -12,5 +13,7 @@ def add_parser(sub):
 
 def execute(args):
     path=review_package(args.package,CodexReviewer(model=args.model))
-    print(json.dumps({'review_path':str(path)},ensure_ascii=False))
+    record=json.loads(Path(path).read_text(encoding='utf-8'))
+    print(json.dumps({'review_path':str(path),'decision':record['decision'],
+                      'blocking_count':len(record['blocking'])},ensure_ascii=False))
     return 0

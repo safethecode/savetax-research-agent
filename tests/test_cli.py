@@ -51,7 +51,7 @@ class CliTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as folder:
             source, output = Path(folder)/'input.json', Path(folder)/'facts.json'
             write_json(source, {'candidates': [{'item_id': '001'}]})
-            with patch('savetax.client.SaveTaxClient') as factory, patch('savetax.cli.time.sleep'):
+            with patch('savetax.adapters.catalog.SaveTaxClient') as factory, patch('savetax.cli.time.sleep'):
                 factory.return_value.get_json.side_effect = [
                     {'items': [{'item_id': '001', 'state': 'claimed'}]},
                     {'item_id': '001', 'facts': [], 'availability': {'state': 'claimed'}}]
@@ -62,7 +62,7 @@ class CliTests(unittest.TestCase):
     def test_reports_reads_rejected_review_status_history(self):
         with tempfile.TemporaryDirectory() as folder:
             output = Path(folder)/'status.json'
-            with patch('savetax.client.SaveTaxClient') as factory:
+            with patch('savetax.adapters.catalog.SaveTaxClient') as factory:
                 factory.return_value.get_json.side_effect = [
                     {'reports': [{'report_id': 'r1', 'review_status': 'rejected'}]},
                     {'history': [{'review_code': 'MODEL_MISMATCH'}]}]
@@ -77,7 +77,7 @@ class CliTests(unittest.TestCase):
                     'reason': '같은 모델의 현재 판매 페이지를 직접 확인했으며 조건 확인이 필요합니다.',
                     'source_url': 'https://example.com/item'}
             write_json(source, body)
-            with patch('savetax.client.SaveTaxClient'), patch('savetax.reports.ReportClient') as reports:
+            with patch('savetax.adapters.catalog.SaveTaxClient'), patch('savetax.adapters.reports.ReportClient') as reports:
                 reports.return_value.submit.return_value = {'report_id': 'R-123', 'review_status': 'submitted'}
                 with contextlib.redirect_stdout(io.StringIO()):
                     self.assertEqual(main(['report', '--input', str(source), '--receipt', str(receipt), '--send']),0)
@@ -93,7 +93,7 @@ class CliTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as folder:
             source, output = Path(folder)/'input.json', Path(folder)/'facts.json'
             write_json(source, {'candidates': [{'item_id': '001'}]})
-            with patch('savetax.client.SaveTaxClient') as factory, patch('savetax.cli.time.sleep'):
+            with patch('savetax.adapters.catalog.SaveTaxClient') as factory, patch('savetax.cli.time.sleep'):
                 factory.return_value.get_json.side_effect = SaveTaxError('HTTP',status=401,code='invalid_token',stage='http')
                 with contextlib.redirect_stdout(io.StringIO()):
                     self.assertEqual(main(['hydrate','--input',str(source),'--output',str(output)]),0)

@@ -31,7 +31,7 @@ def response(status=200, payload=None, body=b"", headers=None):
 class ClientTests(unittest.TestCase):
     def test_authorized_get_has_no_redirects_and_returns_json(self):
         # Break caught: a transport default follows redirects or drops bearer auth.
-        with patch("savetax.client.requests.get", return_value=response(payload={"data": [1]})) as get:
+        with patch("savetax.adapters.catalog.requests.get", return_value=response(payload={"data": [1]})) as get:
             self.assertEqual(SaveTaxClient(TOKEN).get_json("https://api.savetax.now/v1/listings", {"has_activity": 1}), {"data": [1]})
         args, kwargs = get.call_args
         self.assertEqual(args, ("https://api.savetax.now/v1/listings",))
@@ -52,14 +52,14 @@ class ClientTests(unittest.TestCase):
             "https://api.savetax.now/v1/me#fragment", "https://API.SAVETAX.NOW/v1/me",
             "https://api.savetax.now/v1/me\n",
         ]
-        with patch("savetax.client.requests.get") as get:
+        with patch("savetax.adapters.catalog.requests.get") as get:
             for url in unsafe:
                 with self.subTest(url=url), self.assertRaises(UnsafeUrlError):
                     SaveTaxClient(TOKEN).get_json(url)
         get.assert_not_called()
 
     def test_rejects_token_in_query_or_params_without_exposing_it(self):
-        with patch("savetax.client.requests.get") as get:
+        with patch("savetax.adapters.catalog.requests.get") as get:
             for url, params in [
                 ("https://api.savetax.now/v1/me?token=" + TOKEN, None),
                 ("https://api.savetax.now/v1/me", {"q": TOKEN}),
@@ -72,7 +72,7 @@ class ClientTests(unittest.TestCase):
         get.assert_not_called()
 
     def test_redirect_is_an_error_without_leaking_location(self):
-        with patch("savetax.client.requests.get", return_value=response(302, headers={"Location": "https://evil.test/" + TOKEN})) as get:
+        with patch("savetax.adapters.catalog.requests.get", return_value=response(302, headers={"Location": "https://evil.test/" + TOKEN})) as get:
             with self.assertRaises(SaveTaxError) as raised:
                 SaveTaxClient(TOKEN).get_json("https://hackathon.savetax.now/v1/events/current/me")
         self.assertEqual(raised.exception.status, 302)
@@ -82,7 +82,7 @@ class ClientTests(unittest.TestCase):
 
     def test_http_error_preserves_status_and_service_code_but_not_body(self):
         fixture = response(401, {"error": {"code": "unauthorized", "message": "Bearer " + TOKEN}})
-        with patch("savetax.client.requests.get", return_value=fixture):
+        with patch("savetax.adapters.catalog.requests.get", return_value=fixture):
             with self.assertRaises(SaveTaxError) as raised:
                 SaveTaxClient(TOKEN).get_json("https://api.savetax.now/v1/me")
         self.assertEqual(raised.exception.status, 401)
@@ -91,14 +91,14 @@ class ClientTests(unittest.TestCase):
         self.assertIsNone(raised.exception.__cause__)
 
     def test_error_code_cannot_echo_credential_as_a_substring(self):
-        with patch("savetax.client.requests.get", return_value=response(401, {"code": "echo_" + TOKEN})):
+        with patch("savetax.adapters.catalog.requests.get", return_value=response(401, {"code": "echo_" + TOKEN})):
             with self.assertRaises(SaveTaxError) as raised:
                 SaveTaxClient(TOKEN).get_json("https://api.savetax.now/v1/me")
         self.assertNotIn(TOKEN, str(raised.exception))
         self.assertEqual(raised.exception.code, "http_error")
 
     def test_transport_error_never_keeps_raw_request_or_exception(self):
-        with patch("savetax.client.requests.get", side_effect=requests.ConnectionError("Bearer " + TOKEN)):
+        with patch("savetax.adapters.catalog.requests.get", side_effect=requests.ConnectionError("Bearer " + TOKEN)):
             with self.assertRaises(SaveTaxError) as raised:
                 SaveTaxClient(TOKEN).get_json("https://api.savetax.now/v1/me")
         self.assertEqual(raised.exception.stage, "transport")
@@ -109,7 +109,7 @@ class ClientTests(unittest.TestCase):
     def test_repr_and_response_redaction_hide_credentials(self):
         client = SaveTaxClient(TOKEN)
         fixture = {"echo": TOKEN, "nested": {"Authorization": "Bearer " + TOKEN, "access_token": OTHER_TOKEN}, TOKEN: "bad key"}
-        with patch("savetax.client.requests.get", return_value=response(payload=fixture)):
+        with patch("savetax.adapters.catalog.requests.get", return_value=response(payload=fixture)):
             result = client.get_json("https://api.savetax.now/v1/me")
         self.assertNotIn(TOKEN, repr(client))
         self.assertNotIn(TOKEN, repr(result))
@@ -122,7 +122,7 @@ class ClientTests(unittest.TestCase):
             with patch.dict(os.environ, {"SAVETAX_TOKEN": TOKEN}):
                 client = SaveTaxClient(guide_path=guide)
                 explicit = SaveTaxClient(OTHER_TOKEN, guide_path=guide)
-            with patch("savetax.client.requests.get", return_value=response(payload={})) as get:
+            with patch("savetax.adapters.catalog.requests.get", return_value=response(payload={})) as get:
                 client.get_json("https://api.savetax.now/v1/me")
                 self.assertEqual(get.call_args.kwargs["headers"]["Authorization"], "Bearer " + TOKEN)
                 explicit.get_json("https://api.savetax.now/v1/me")
@@ -133,7 +133,7 @@ class ClientTests(unittest.TestCase):
             guide = Path(folder) / "private.md"
             guide.write_text("Bearer " + TOKEN + "\nrepeat " + TOKEN, encoding="utf-8")
             client = SaveTaxClient(guide_path=guide)
-            with patch("savetax.client.requests.get", return_value=response(payload={})) as get:
+            with patch("savetax.adapters.catalog.requests.get", return_value=response(payload={})) as get:
                 client.get_json("https://api.savetax.now/v1/me")
                 self.assertEqual(get.call_args.kwargs["headers"]["Authorization"], "Bearer " + TOKEN)
             guide.write_text(TOKEN + "\n" + OTHER_TOKEN, encoding="utf-8")
@@ -141,7 +141,7 @@ class ClientTests(unittest.TestCase):
                 SaveTaxClient(guide_path=guide)
 
     def test_missing_invalid_credentials_fail_before_network(self):
-        with TemporaryDirectory() as folder, patch.dict(os.environ, {}, clear=True), patch("savetax.client.requests.get") as get:
+        with TemporaryDirectory() as folder, patch.dict(os.environ, {}, clear=True), patch("savetax.adapters.catalog.requests.get") as get:
             for token in ["", "not-a-token", TOKEN + "\r\nX-Evil: yes"]:
                 with self.subTest(token_length=len(token)), self.assertRaises(SaveTaxError):
                     SaveTaxClient(token)
@@ -153,14 +153,14 @@ class ClientTests(unittest.TestCase):
         with TemporaryDirectory() as folder, patch.dict(os.environ, {}, clear=True):
             guide = Path(folder)/'guide.md'
             guide.write_text(TOKEN.replace('_', '\\_'), encoding='utf-8')
-            with patch('savetax.client.Path.cwd', return_value=Path(folder)):
+            with patch('savetax.adapters.catalog.Path.cwd', return_value=Path(folder)):
                 client = SaveTaxClient()
-            with patch('savetax.client.requests.get', return_value=response(payload={})) as get:
+            with patch('savetax.adapters.catalog.requests.get', return_value=response(payload={})) as get:
                 client.get_json('https://api.savetax.now/v1/me')
                 self.assertEqual(get.call_args.kwargs['headers']['Authorization'], 'Bearer ' + TOKEN)
 
     def test_invalid_json_is_a_sanitized_error(self):
-        with patch("savetax.client.requests.get", return_value=response(body=TOKEN.encode())):
+        with patch("savetax.adapters.catalog.requests.get", return_value=response(body=TOKEN.encode())):
             with self.assertRaises(SaveTaxError) as raised:
                 SaveTaxClient(TOKEN).get_json("https://api.savetax.now/v1/me")
         self.assertEqual(raised.exception.stage, "decode")
@@ -174,7 +174,7 @@ class ClientTests(unittest.TestCase):
         fixture.raw = io.BytesIO(buffer.getvalue())
         with TemporaryDirectory() as folder:
             destination = Path(folder) / "dataset.zip"
-            with patch("savetax.client.requests.get", return_value=fixture) as get:
+            with patch("savetax.adapters.catalog.requests.get", return_value=fixture) as get:
                 saved = SaveTaxClient(TOKEN).download_dataset(destination)
             self.assertEqual(saved, destination)
             self.assertTrue(zipfile.is_zipfile(saved))
@@ -188,7 +188,7 @@ class ClientTests(unittest.TestCase):
             destination.write_bytes(b"original")
             for fixture in [response(403, {"code": "forbidden"}), response(body=b"not zip")]:
                 fixture.raw = io.BytesIO(fixture.content)
-                with patch("savetax.client.requests.get", return_value=fixture):
+                with patch("savetax.adapters.catalog.requests.get", return_value=fixture):
                     with self.assertRaises(SaveTaxError):
                         SaveTaxClient(TOKEN).download_dataset(destination)
                 self.assertEqual(destination.read_bytes(), b"original")

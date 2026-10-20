@@ -27,7 +27,7 @@ class MissingPublicationReviewTests(unittest.TestCase):
         response.json.return_value = {'submission_id': 'S1'}
         with patch.object(self.raw, 'get_json', return_value={
                 'items': [{'item_id': '001', 'state': 'available'}]}) as lookup, \
-                patch('savetax.submissions.requests.post', return_value=response) as post:
+                patch('savetax.adapters.scoring.requests.post', return_value=response) as post:
             with self.assertRaisesRegex(ValueError, 'package|review|검토'):
                 self.scoring.submit(self.body, 'publication-key-123', self.preview)
         lookup.assert_not_called()
@@ -36,7 +36,7 @@ class MissingPublicationReviewTests(unittest.TestCase):
     def test_direct_revision_requires_review_before_any_http(self):
         response = Mock(status_code=200, headers={})
         response.json.return_value = {'submission_id': 'S1', 'revision': 3}
-        with patch('savetax.submissions.requests.post', return_value=response) as post:
+        with patch('savetax.adapters.scoring.requests.post', return_value=response) as post:
             with self.assertRaisesRegex(ValueError, 'package|review|검토'):
                 self.scoring.revise('S1', self.body, 'publication-key-123', self.revision_preview)
         post.assert_not_called()
@@ -44,7 +44,7 @@ class MissingPublicationReviewTests(unittest.TestCase):
     def test_private_post_cannot_bypass_review_on_final_write(self):
         response = Mock(status_code=201, headers={})
         response.json.return_value = {'submission_id': 'S1'}
-        with patch('savetax.submissions.requests.post', return_value=response) as post:
+        with patch('savetax.adapters.scoring.requests.post', return_value=response) as post:
             with self.assertRaisesRegex(ValueError, 'package|review|검토'):
                 self.scoring._post('/submissions', self.body, 'publication-key-123')
         post.assert_not_called()
@@ -52,7 +52,7 @@ class MissingPublicationReviewTests(unittest.TestCase):
     def test_private_revision_post_cannot_bypass_review(self):
         response = Mock(status_code=200, headers={})
         response.json.return_value = {'submission_id': 'S1', 'revision': 3}
-        with patch('savetax.submissions.requests.post', return_value=response) as post:
+        with patch('savetax.adapters.scoring.requests.post', return_value=response) as post:
             with self.assertRaisesRegex(ValueError, 'package|review|검토'):
                 self.scoring._post('/submissions/S1/revisions', self.body,
                                    'publication-key-123', revision=2)
@@ -75,7 +75,7 @@ class ApprovedPublicationGateTests(unittest.TestCase):
         response.json.return_value = {'submission_id': 'S1'}
         with patch.object(self.raw, 'get_json', return_value={
                 'items': [{'item_id': '001', 'state': 'available'}]}), \
-                patch('savetax.submissions.requests.post', return_value=response) as post:
+                patch('savetax.adapters.scoring.requests.post', return_value=response) as post:
             result = self.scoring.submit(self.body, 'publication-key-123', self.preview, **self.context)
         self.assertEqual(result, {'submission_id': 'S1'})
         self.assertEqual(json.loads(post.call_args.kwargs['data']), self.body)
@@ -85,7 +85,7 @@ class ApprovedPublicationGateTests(unittest.TestCase):
         changed = copy.deepcopy(self.body)
         changed['lines'][0]['benchmark_unit_price_krw'] = '1'
         with patch.object(self.raw, 'get_json') as lookup, \
-                patch('savetax.submissions.requests.post') as post:
+                patch('savetax.adapters.scoring.requests.post') as post:
             with self.assertRaises(ValueError):
                 self.scoring.submit(changed, 'publication-key-123', self.preview, **self.context)
         lookup.assert_not_called()
@@ -95,7 +95,7 @@ class ApprovedPublicationGateTests(unittest.TestCase):
         manifest = json.loads((self.package / 'manifest.json').read_text(encoding='utf-8'))
         (self.package / manifest['sources'][0]['path']).write_text('판매가를 바꾼 원문', encoding='utf-8')
         with patch.object(self.raw, 'get_json') as lookup, \
-                patch('savetax.submissions.requests.post') as post:
+                patch('savetax.adapters.scoring.requests.post') as post:
             with self.assertRaises(ValueError):
                 self.scoring.submit(self.body, 'publication-key-123', self.preview, **self.context)
         lookup.assert_not_called()
@@ -106,7 +106,7 @@ class ApprovedPublicationGateTests(unittest.TestCase):
             self.body['title'] = '최초 승인 뒤 달라진 제목'
             return {'items': [{'item_id': '001', 'state': 'available'}]}
         with patch.object(self.raw, 'get_json', side_effect=mutate_after_initial_gate), \
-                patch('savetax.submissions.requests.post') as post:
+                patch('savetax.adapters.scoring.requests.post') as post:
             with self.assertRaises(ValueError):
                 self.scoring.submit(self.body, 'publication-key-123', self.preview, **self.context)
         post.assert_not_called()
@@ -116,7 +116,7 @@ class ApprovedPublicationGateTests(unittest.TestCase):
         preview = {'ok': True, 'next_action': 'revise_existing', 'claimed_by_me': True,
                    'existing_submission_id': 'S1', 'existing_submission_state': 'accepted',
                    'current_revision': 2}
-        with patch('savetax.submissions.requests.post') as post:
+        with patch('savetax.adapters.scoring.requests.post') as post:
             with self.assertRaises(ValueError):
                 self.scoring.revise('S1', body, 'publication-key-123', preview,
                                     package_dir=package, review_path=review)
@@ -125,7 +125,7 @@ class ApprovedPublicationGateTests(unittest.TestCase):
     def test_either_missing_context_path_blocks_before_any_http(self):
         for context in ({'package_dir': self.package}, {'review_path': self.review}):
             with self.subTest(context=context), patch.object(self.raw, 'get_json') as lookup, \
-                    patch('savetax.submissions.requests.post') as post:
+                    patch('savetax.adapters.scoring.requests.post') as post:
                 with self.assertRaises(ValueError):
                     self.scoring.submit(self.body, 'publication-key-123', self.preview, **context)
                 lookup.assert_not_called()

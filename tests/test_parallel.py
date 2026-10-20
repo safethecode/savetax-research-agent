@@ -32,7 +32,7 @@ class ParallelTests(unittest.TestCase):
              'excerpts': ['50m 순동', '일반판매가 100원'], 'publish_date': None},
             {'url': 'https://shop.example/other', 'title': '다른 상품', 'excerpts': []},
         ]}
-        with patch('savetax.parallel.requests.post', return_value=response(fixture)) as post:
+        with patch('savetax.adapters.parallel.requests.post', return_value=response(fixture)) as post:
             result = ParallelClient(KEY).search('IM-PSW-0500', objective='동일 모델 판매가', max_results=1)
         self.assertEqual(result['results'], [{'source_url': 'https://shop.example/cable',
             'title': '케이블', 'excerpt': '50m 순동\n일반판매가 100원'}])
@@ -52,7 +52,7 @@ class ParallelTests(unittest.TestCase):
     def test_objective_only_still_supplies_required_search_queries(self):
         # Break caught: objective-only calls produce a schema-invalid request.
         with patch.dict(os.environ, {'PARALLEL_API_KEY': KEY}), patch(
-                'savetax.parallel.requests.post', return_value=response({'results': []})) as post:
+                'savetax.adapters.parallel.requests.post', return_value=response({'results': []})) as post:
             result = ParallelClient().search(objective='순동 차폐 케이블 판매처', max_results=10)
         self.assertEqual(result['results'], [])
         self.assertEqual(post.call_args.kwargs['json']['search_queries'], ['순동 차폐 케이블 판매처'])
@@ -60,7 +60,7 @@ class ParallelTests(unittest.TestCase):
     def test_invalid_input_or_secret_query_never_reaches_network(self):
         # Break caught: credentials in caller input are sent as search text.
         with patch.dict(os.environ, {'TYPESAFE_API_KEY': OTHER_KEY}), patch(
-                'savetax.parallel.requests.post') as post:
+                'savetax.adapters.parallel.requests.post') as post:
             client = ParallelClient(KEY)
             for query in ['', None, '  ', KEY, PAT, 'prefix ' + OTHER_KEY]:
                 with self.subTest(query_type=type(query).__name__), self.assertRaises(ParallelError):
@@ -86,7 +86,7 @@ class ParallelTests(unittest.TestCase):
              'excerpts': ['echo ' + PAT + ' ' + KEY]},
         ], 'extra': KEY}
         with patch.dict(os.environ, {'TEXT_MODEL_API_KEY': OTHER_KEY}), patch(
-                'savetax.parallel.requests.post', return_value=response(fixture)):
+                'savetax.adapters.parallel.requests.post', return_value=response(fixture)):
             result = ParallelClient(KEY).search('cable')
         self.assertEqual(len(result['results']), 1)
         self.assertEqual(result['results'][0]['title'], '[REDACTED][REDACTED]')
@@ -101,7 +101,7 @@ class ParallelTests(unittest.TestCase):
             fixture = response({'error': {'message': KEY, 'code': 'echo_' + KEY}},
                 status=status, headers={'Retry-After': '17', 'Location': 'https://evil.example/' + KEY})
             with self.subTest(status=status), patch(
-                    'savetax.parallel.requests.post', return_value=fixture) as post:
+                    'savetax.adapters.parallel.requests.post', return_value=fixture) as post:
                 with self.assertRaises(ParallelError) as raised:
                     ParallelClient(KEY).search('cable')
                 self.assertEqual(raised.exception.status, status)
@@ -112,19 +112,19 @@ class ParallelTests(unittest.TestCase):
 
     def test_transport_and_bad_schema_errors_discard_raw_objects(self):
         # Break caught: request exception context or malformed JSON reaches logs.
-        with patch('savetax.parallel.requests.post', side_effect=requests.ConnectionError(KEY)):
+        with patch('savetax.adapters.parallel.requests.post', side_effect=requests.ConnectionError(KEY)):
             with self.assertRaises(ParallelError) as raised:
                 ParallelClient(KEY).search('cable')
         self.assertEqual(raised.exception.code, 'transport_error')
         self.assertIsNone(raised.exception.__context__)
         for payload in [[], {}, {'results': 'bad'}, {'results': [{'url': 'https://x.example',
                 'title': 'bad', 'excerpts': [KEY, 12]}]}]:
-            with patch('savetax.parallel.requests.post', return_value=response(payload)):
+            with patch('savetax.adapters.parallel.requests.post', return_value=response(payload)):
                 with self.assertRaises(ParallelError) as raised:
                     ParallelClient(KEY).search('cable')
                 self.assertEqual(raised.exception.code, 'invalid_response')
                 self.assertNotIn(KEY, str(raised.exception))
-        with patch('savetax.parallel.requests.post', return_value=response(body=KEY.encode())):
+        with patch('savetax.adapters.parallel.requests.post', return_value=response(body=KEY.encode())):
             with self.assertRaises(ParallelError) as raised:
                 ParallelClient(KEY).search('cable')
         self.assertEqual(raised.exception.code, 'invalid_response')

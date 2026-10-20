@@ -23,7 +23,7 @@ class ScoreRevisionTests(unittest.TestCase):
     def test_revision_uses_same_owned_submission_and_if_match(self):
         response = Mock(status_code=200, headers={})
         response.json.return_value = {'submission_id': 'S1', 'revision': 3}
-        with patch('savetax.submissions.requests.post', return_value=response) as post:
+        with patch('savetax.adapters.scoring.requests.post', return_value=response) as post:
             receipt = self.client.revise('S1', self.body, 'revision-key-123', self.preview, **self.context)
         self.assertEqual(receipt['revision'], 3)
         args, kwargs = post.call_args
@@ -37,7 +37,7 @@ class ScoreRevisionTests(unittest.TestCase):
         cases = ({'next_action': 'submit'}, {'claimed_by_me': False},
                  {'existing_submission_id': 'S2'}, {'existing_submission_state': 'disqualified'},
                  {'current_revision': True}, {'current_revision': 0})
-        with patch('savetax.submissions.requests.post') as post:
+        with patch('savetax.adapters.scoring.requests.post') as post:
             for change in cases:
                 with self.subTest(change=change), self.assertRaises(ValueError):
                     self.client.revise('S1', self.body, 'revision-key-123', {**self.preview, **change}, **self.context)
@@ -49,7 +49,7 @@ class ScoreRevisionTests(unittest.TestCase):
     def test_revision_conflict_is_sanitized_without_changing_key(self):
         response = Mock(status_code=409, headers={})
         response.json.return_value = {'code': 'REVISION_CONFLICT', 'message': 'untrusted text'}
-        with patch('savetax.submissions.requests.post', return_value=response):
+        with patch('savetax.adapters.scoring.requests.post', return_value=response):
             with self.assertRaises(SaveTaxError) as caught:
                 self.client.revise('S1', self.body, 'revision-key-123', self.preview, **self.context)
         self.assertEqual(caught.exception.code, 'REVISION_CONFLICT')

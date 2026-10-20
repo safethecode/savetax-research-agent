@@ -3,7 +3,8 @@ import json
 from pathlib import Path
 
 from ..adapters.ollama import OllamaClient
-from ..application.research import ResearchTools, run_research, validate_policy
+from ..application.research import ResearchTools, run_research, validate_policy, rate_limit_metadata, cooldown_active
+from ..runtime.artifacts import atomic_json
 from ..runtime.config import LocalProfile
 
 
@@ -26,6 +27,7 @@ def execute(args):
     profile=LocalProfile(**json.loads(Path(args.profile).read_text(encoding='utf-8-sig'))) if args.profile else LocalProfile()
     model=OllamaClient(profile)
     tools=ResearchTools(args.root,args.env_file) if args.tools else None
+    failed=False
     if args.input:
         path=Path(args.input).resolve()
         data=json.loads(path.read_text(encoding='utf-8-sig'))
@@ -34,26 +36,51 @@ def execute(args):
             for source in job.get('sources',[]):
                 source['path']=str((path.parent/source['path']).resolve())
     else:
-        from ..client import SaveTaxClient
+        from ..adapters.catalog import SaveTaxClient, SaveTaxError
         import re
         if any(not re.fullmatch(r'[A-Za-z0-9_-]{1,80}',value) for value in args.item_id):
             raise ValueError('invalid item_id')
+        if len(args.item_id)>policy['max_candidates']:
+            raise ValueError('candidate budget exceeded; split input explicitly')
+        fetch_path=Path(args.run_dir)/'fetch-state.json'
+        fetch_state=json.loads(fetch_path.read_text(encoding='utf-8')) if fetch_path.exists() else {'failures':[]}
+        if cooldown_active(fetch_state.get('retry_not_before')):
+            raise RuntimeError('official API Retry-After cooldown has not elapsed')
         client=SaveTaxClient(guide_path=args.guide)
         base='https://hackathon.savetax.now/v1/events/current'
-        event=client.get_json(base)
-        inputs=[]
-        for item_id in args.item_id[:policy['max_candidates']]:
-            lookup=client.get_json(base+'/items/lookup',params={'ids':item_id})
-            matching=[row for row in lookup.get('items',[]) if row.get('item_id')==item_id]
-            if len(matching)!=1 or matching[0].get('state')!='available':
-                print(item_id+': 현재 available 아님; 조사 건너뜀')
-                continue
-            item=client.get_json(base+'/items/'+item_id)
-            item['availability']=matching[0]
-            inputs.append({'item':item,'event':event,'sources':[]})
-    if len(inputs)>policy['max_candidates']:
+        def record_failure(item_id,error):
+            fetch_state['failures'].append({'item_id':item_id,'error_type':type(error).__name__,
+                'http_status':getattr(error,'status',None),'stage':getattr(error,'stage',None)})
+            fetch_state.update(rate_limit_metadata(error))
+            atomic_json(fetch_path,fetch_state)
+            print(json.dumps({'item_id':item_id,'state':'official_fetch_failed',
+                              'http_status':getattr(error,'status',None)},ensure_ascii=False))
+        try:
+            event=client.get_json(base)
+        except SaveTaxError as error:
+            record_failure(None,error)
+            return 2
+        def live_jobs():
+            nonlocal failed
+            for item_id in args.item_id:
+                try:
+                    lookup=client.get_json(base+'/items/lookup',params={'ids':item_id})
+                    matching=[row for row in lookup.get('items',[]) if row.get('item_id')==item_id]
+                    if len(matching)!=1 or matching[0].get('state')!='available':
+                        print(item_id+': 현재 available 아님; 조사 건너뜀')
+                        continue
+                    item=client.get_json(base+'/items/'+item_id)
+                    item['availability']=matching[0]
+                except SaveTaxError as error:
+                    failed=True
+                    record_failure(item_id,error)
+                    if error.status==429:
+                        break
+                    continue
+                yield {'item':item,'event':event,'sources':[]}
+        inputs=live_jobs()
+    if isinstance(inputs,list) and len(inputs)>policy['max_candidates']:
         raise ValueError('candidate budget exceeded; split input explicitly')
-    failed=False
     for job in inputs:
         try:
             state=run_research(job,policy,args.run_dir,model=model,tools=tools)

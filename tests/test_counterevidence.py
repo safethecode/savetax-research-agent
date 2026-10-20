@@ -27,7 +27,7 @@ class CounterevidenceTests(unittest.TestCase):
     def test_post_is_narrow_and_never_follows_redirects(self):
         response = Mock(status_code=201, headers={})
         response.json.return_value = {'counterevidence_id': 'counter-1', 'body': self.token}
-        with patch('savetax.counterevidence.requests.post', return_value=response) as request:
+        with patch('savetax.adapters.counterevidence.requests.post', return_value=response) as request:
             result = self.client.submit('submission-1', self.body, 'stable-key-001')
         self.assertEqual(request.call_args.args[0],
                          'https://hackathon.savetax.now/v1/events/current/submissions/submission-1/counterevidence')
@@ -59,14 +59,14 @@ class CounterevidenceTests(unittest.TestCase):
     def test_http_failure_preserves_retry_after_without_server_text(self):
         response = Mock(status_code=429, headers={'Retry-After': '60'})
         response.json.return_value = {'code': 'RATE_LIMITED', 'message': self.token}
-        with patch('savetax.counterevidence.requests.post', return_value=response), self.assertRaises(SaveTaxError) as caught:
+        with patch('savetax.adapters.counterevidence.requests.post', return_value=response), self.assertRaises(SaveTaxError) as caught:
             self.client.submit('submission-1', self.body, 'stable-key-001')
         self.assertEqual(caught.exception.retry_after, 60)
         self.assertNotIn(self.token, str(caught.exception))
         response.close.assert_called_once()
 
     def test_transport_failure_does_not_expose_request_or_claim_success(self):
-        with patch('savetax.counterevidence.requests.post', side_effect=requests.Timeout(self.token)), self.assertRaises(SaveTaxError) as caught:
+        with patch('savetax.adapters.counterevidence.requests.post', side_effect=requests.Timeout(self.token)), self.assertRaises(SaveTaxError) as caught:
             self.client.submit('submission-1', self.body, 'stable-key-001')
         self.assertEqual(caught.exception.stage, 'transport')
         self.assertNotIn(self.token, str(caught.exception))

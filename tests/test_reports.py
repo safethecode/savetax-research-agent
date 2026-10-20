@@ -21,7 +21,7 @@ class ReportTests(unittest.TestCase):
         response = Mock(status_code=201, headers={})
         response.json.return_value = {'report_id': 'R1', 'status': 'submitted'}
         client = ReportClient(SaveTaxClient(token='savetax_' + 'x'*32))
-        with patch('savetax.reports.requests.post', return_value=response) as request:
+        with patch('savetax.adapters.reports.requests.post', return_value=response) as request:
             result = client.submit(self.report, 'stable-key-001')
         self.assertEqual(result['report_id'], 'R1')
         self.assertEqual(request.call_args.args[0], 'https://hackathon.savetax.now/v1/events/current/reports')
@@ -32,7 +32,7 @@ class ReportTests(unittest.TestCase):
         response = Mock(status_code=403, headers={})
         token = 'savetax_' + 'x'*32
         response.json.return_value = {'message': token, 'code': 'SCOPE_DENIED'}
-        with patch('savetax.reports.requests.post', return_value=response):
+        with patch('savetax.adapters.reports.requests.post', return_value=response):
             with self.assertRaises(SaveTaxError) as caught:
                 ReportClient(SaveTaxClient(token=token)).submit(self.report, 'stable-key-001')
         self.assertNotIn(token, str(caught.exception))
@@ -48,7 +48,7 @@ class ReportTests(unittest.TestCase):
         current = {'report_id':'37c99372-472d-4921-901b-ba87603f9e63','revision':1,'review_status':'submitted'}
         response = Mock(status_code=200,headers={})
         response.json.return_value = {'revision':2}
-        with patch('savetax.reports.requests.patch',return_value=response) as request:
+        with patch('savetax.adapters.reports.requests.patch',return_value=response) as request:
             client.revise(current,self.report,'correction-key-001')
         self.assertEqual(request.call_args.kwargs['headers']['If-Match'],'1')
         with self.assertRaises(ValueError):

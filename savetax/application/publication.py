@@ -21,9 +21,8 @@ def _read_json(path):
 
 def run_score(args):
     """Reconcile a saved request before requiring approval for any new send."""
-    # Preserve the compatibility imports used by callers of the original client.
-    from ..client import SaveTaxClient
-    from ..submissions import ScoreClient
+    from ..adapters.catalog import SaveTaxClient
+    from ..adapters.scoring import ScoreClient
 
     body = _read_json(args.input)
     key = 'score-' + hashlib.sha256(

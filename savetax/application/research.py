@@ -1,7 +1,7 @@
 """Bounded local research. Tool results and model suggestions never authorize writes."""
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from decimal import Decimal, ROUND_CEILING
 from importlib.resources import files
 import hashlib
@@ -34,6 +34,25 @@ def validate_policy(policy):
     return policy
 
 
+def rate_limit_metadata(error):
+    if getattr(error,'status',None)!=429:
+        return {}
+    seconds=getattr(error,'retry_after',None)
+    seconds=seconds if type(seconds) is int and seconds>=0 else 60
+    return {'http_status':429,'retry_after':seconds,
+            'retry_not_before':(datetime.now(timezone.utc)+timedelta(seconds=seconds)).isoformat()}
+
+
+def cooldown_active(value):
+    if not value:
+        return False
+    try:
+        deadline=datetime.fromisoformat(value)
+        return deadline>datetime.now(timezone.utc)
+    except (ValueError,TypeError):
+        raise ValueError('invalid persisted provider cooldown') from None
+
+
 class ResearchTools:
     """Fixed read-only broker: Parallel discovery and existing guarded Jev loop."""
 
@@ -41,14 +60,14 @@ class ResearchTools:
         self.root, self.env_file, self.session = Path(root), env_file, session
 
     def search(self, query):
-        from ..parallel import ParallelClient
-        from ..secrets import load_env_file
+        from ..adapters.parallel import ParallelClient
+        from ..runtime.secrets import load_env_file
         import os
         key = os.environ.get('PARALLEL_API_KEY') or load_env_file(self.root/self.env_file).get('PARALLEL_API_KEY')
         return ParallelClient(api_key=key).search(query, max_results=5)
 
     def read(self, url, steps):
-        from ..browser import BrowserRuntime
+        from ..adapters.browser import BrowserRuntime
         goal = ('공개 상품 상세에서 실제 모델, 선택 옵션, 신품 일반 판매가, 한 팩 수량, '
                 '부가세, 배송비, 완제품 구성과 구매 가능 표시를 읽는다. '
                 '구매·장바구니·로그인·문의·판매자 연락·차단 우회는 하지 않는다.')
@@ -136,6 +155,10 @@ def _draft(data, proposal, sources):
     if blocking:
         return None,{'blocking':sorted(set(blocking)),'total_savings_krw':None}
     item = data['item']
+    if (item.get('snapshot',{}).get('installation_required') is True
+            or any(f.get('installation_required') is True for f in item.get('facts',[]))):
+        return None,{'blocking':['official scope includes required installation; cost evidence needed'],
+                     'total_savings_krw':None}
     if type(values['vat_included']) is not bool or type(values['pack_quantity']) is not int:
         return None,{'blocking':['invalid VAT or pack value'],'total_savings_krw':None}
     if any(f.get('scorable') and f.get('unit')!=values['unit'] for f in item['facts']):
@@ -186,6 +209,8 @@ def run_research(data, policy, run_dir, *, model, tools=None):
             saved=json.loads(run_path.read_text(encoding='utf-8'))
             if saved.get('policy_hash')!=identity['policy_hash'] or saved.get('profile')!=profile:
                 raise ValueError('run policy or model profile changed; start a new run')
+            if cooldown_active(saved.get('retry_not_before')):
+                raise RuntimeError('provider Retry-After cooldown has not elapsed')
         else:
             atomic_json(run_path,{'schema_version':'1','policy_hash':identity['policy_hash'],'profile':profile})
             atomic_json(run_dir/'effective-policy.json',policy)
@@ -222,6 +247,8 @@ def run_research(data, policy, run_dir, *, model, tools=None):
                                     | {'text':text[:take],'context_truncated':take<len(text)})
                     remaining-=take
                 context={'model':item.get('snapshot',{}).get('model'),'item_id':item_id,
+                         'official_snapshot_excerpt':json.dumps(item.get('snapshot',{}),ensure_ascii=False)[:2000],
+                         'official_snapshot_context_truncated':len(json.dumps(item.get('snapshot',{}),ensure_ascii=False))>2000,
                          'units':sorted({f.get('unit','') for f in item.get('facts',[]) if f.get('scorable')}),
                          'sources':snippets,'discovered_urls':state['discovered_urls'],
                          'recent_search':[{'query':h['query'],'results':[
@@ -287,5 +314,10 @@ def run_research(data, policy, run_dir, *, model, tools=None):
         except (ValueError,RuntimeError,OSError) as error:
             state.update(state='failed' if state['attempts']>=policy['max_attempts'] or state['actions']>=policy['max_actions'] else 'retry_wait',
                          error_type=type(error).__name__)
+            cooldown=rate_limit_metadata(error)
+            if cooldown:
+                state.update(cooldown)
+                run_state=json.loads(run_path.read_text(encoding='utf-8'))
+                atomic_json(run_path,{**run_state,**cooldown})
             atomic_json(path,state)
             raise

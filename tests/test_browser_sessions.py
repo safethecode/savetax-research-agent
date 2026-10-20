@@ -28,7 +28,7 @@ class BrowserSessionTests(unittest.TestCase):
             default = BrowserRuntime(folder)
             industrial = BrowserRuntime(folder, session_name='industrial')
             hardware = BrowserRuntime(folder, session_name='hardware-2')
-            with patch('savetax.browser.environment', return_value={}):
+            with patch('savetax.adapters.browser.environment', return_value={}):
                 self.assertEqual(default._env()['BH_HOME'], str(Path(folder).resolve()/'work/browser-state'))
                 self.assertEqual(industrial._env()['BH_HOME'], str(Path(folder).resolve()/'work/browser-sessions/industrial/browser-state'))
                 self.assertEqual(hardware._env()['BH_HOME'], str(Path(folder).resolve()/'work/browser-sessions/hardware-2/browser-state'))
@@ -47,7 +47,7 @@ class BrowserSessionTests(unittest.TestCase):
                 def open(self, url, timeout):
                     urls.append(url)
                     return io.StringIO('{"webSocketDebuggerUrl":"ws://127.0.0.1:2222/browser"}')
-            with patch('savetax.browser.build_opener', return_value=Opener()):
+            with patch('savetax.adapters.browser.build_opener', return_value=Opener()):
                 self.assertEqual(runtime._endpoint(), 'http://127.0.0.1:2222')
             self.assertEqual(urls, ['http://127.0.0.1:2222/json/version'])
 
@@ -57,7 +57,7 @@ class BrowserSessionTests(unittest.TestCase):
             inherited = {'BU_CDP_URL':'http://127.0.0.1:1111',
                          'BU_CDP_WS':'ws://127.0.0.1:1111/browser', 'BU_NAME':'shared',
                          'BU_BROWSER_ID':'foreign-cloud-browser'}
-            with patch('savetax.browser.environment', return_value=inherited):
+            with patch('savetax.adapters.browser.environment', return_value=inherited):
                 env = runtime.prepare_env()
             self.assertFalse(any(key in env for key in ('BU_CDP_URL','BU_CDP_WS','BU_NAME','BU_BROWSER_ID')))
 
@@ -66,7 +66,7 @@ class BrowserSessionTests(unittest.TestCase):
             runtime = BrowserRuntime(folder, session_name='industrial')
             inherited = {key:str(Path(folder)/'shared') for key in
                          ('BH_RUNTIME_DIR','BH_TMP_DIR','BH_CONFIG_DIR','BH_AGENT_WORKSPACE')}
-            with patch('savetax.browser.environment', return_value=inherited):
+            with patch('savetax.adapters.browser.environment', return_value=inherited):
                 env = runtime._env()
             home = Path(folder).resolve()/'work/browser-sessions/industrial/browser-state'
             self.assertEqual(env['BH_RUNTIME_DIR'], str(runtime.ipc_runtime))
@@ -81,10 +81,10 @@ class BrowserSessionTests(unittest.TestCase):
             runtime = BrowserRuntime(folder, session_name='industrial')
             env = {'SAVETAX_TOKEN':'procurement-secret', 'TYPESAFE_API_KEY':'model-secret',
                    'PARALLEL_API_KEY':'search-secret'}
-            with patch('savetax.browser.environment', return_value=env), \
-                    patch('savetax.browser.shutil.which', return_value=str(chrome)), \
+            with patch('savetax.adapters.browser.environment', return_value=env), \
+                    patch('savetax.adapters.browser.shutil.which', return_value=str(chrome)), \
                     patch.object(runtime, '_endpoint', side_effect=[None, 'http://127.0.0.1:2222']), \
-                    patch('savetax.browser.subprocess.Popen') as spawn:
+                    patch('savetax.adapters.browser.subprocess.Popen') as spawn:
                 spawn.return_value.pid = 4321
                 result = runtime.prepare_env(start=True)
             base = Path(folder).resolve()/'work/browser-sessions/industrial'
@@ -118,7 +118,7 @@ class BrowserSessionTests(unittest.TestCase):
                     ('browser-read', ['--url','https://shop.example/item','--output',str(output)]),
                     ('browser-plan', ['--url','https://shop.example/item','--goal','가격 읽기','--output',str(output)])):
                 with self.subTest(command=command), \
-                        patch('savetax.browser.environment', return_value={}), \
+                        patch('savetax.adapters.browser.environment', return_value={}), \
                         patch.object(BrowserRuntime, 'status', result), \
                         patch.object(BrowserRuntime, 'read', result), \
                         patch.object(BrowserRuntime, 'plan', result), \
@@ -135,7 +135,7 @@ class BrowserSessionTests(unittest.TestCase):
             existing, new = 'A'*32, 'B'*32
             with patch.object(runtime, 'prepare_env', return_value={}), \
                     patch.object(runtime, '_page_targets', side_effect=[{existing}, {existing,new}]), \
-                    patch('savetax.browser.subprocess.run', side_effect=[
+                    patch('savetax.adapters.browser.subprocess.run', side_effect=[
                         subprocess.TimeoutExpired('read',55), subprocess.CompletedProcess('cleanup',0,'','')]) as run:
                 with self.assertRaisesRegex(RuntimeError, '55초'):
                     runtime._run('fixed-read')

@@ -27,7 +27,7 @@ def reply(payload=None, status=200, sse=False, session=None):
 class MarketTests(unittest.TestCase):
     def test_daiso_stateless_sse_search_preserves_korean_and_has_no_credentials(self):
         fixture = {"jsonrpc": "2.0", "id": 1, "result": {"content": [{"type": "text", "text": json.dumps({"products": [{"id": "1012542", "name": "한솔 복사용지", "price": 2000}]}, ensure_ascii=False)}]}}
-        with patch.dict(os.environ, {"SAVETAX_TOKEN": "savetax_" + "a" * 40}), patch("savetax.market.requests.post", return_value=reply(fixture, sse=True)) as post:
+        with patch.dict(os.environ, {"SAVETAX_TOKEN": "savetax_" + "a" * 40}), patch("savetax.adapters.market.requests.post", return_value=reply(fixture, sse=True)) as post:
             result = MarketClient("daiso").search("복사용지", limit=3)
         self.assertEqual(result["result"]["products"][0]["name"], "한솔 복사용지")
         self.assertEqual(result["provider"], "daiso")
@@ -46,7 +46,7 @@ class MarketTests(unittest.TestCase):
             reply({"jsonrpc": "2.0", "id": 2, "result": {"tools": tools}}),
             reply({"jsonrpc": "2.0", "id": 3, "result": {"structuredContent": {"products": [{"price": 100}]}, "content": []}}),
         ]
-        with patch("savetax.market.requests.post", side_effect=fixtures) as post:
+        with patch("savetax.adapters.market.requests.post", side_effect=fixtures) as post:
             result = MarketClient("danawa").search("LCM200A", limit=20)
         self.assertEqual(result["result"], {"products": [{"price": 100}]})
         calls = post.call_args_list
@@ -56,7 +56,7 @@ class MarketTests(unittest.TestCase):
         self.assertTrue(all(call.args == ("https://mcp.ai.cowave.kr/mcp",) for call in calls))
 
     def test_rejects_unknown_provider_and_sensitive_query_before_network(self):
-        with patch("savetax.market.requests.post") as post:
+        with patch("savetax.adapters.market.requests.post") as post:
             with self.assertRaises(MarketError):
                 MarketClient("https://evil.test")
             for query in ["", "savetax_" + "a" * 40]:
@@ -70,7 +70,7 @@ class MarketTests(unittest.TestCase):
     def test_http_403_is_identified_without_retry_or_response_html(self):
         fixture = reply(status=403)
         fixture._content = b"<html>Forbidden nginx</html>"
-        with patch("savetax.market.requests.post", return_value=fixture) as post:
+        with patch("savetax.adapters.market.requests.post", return_value=fixture) as post:
             with self.assertRaises(MarketError) as raised:
                 MarketClient("danawa").search("monitor")
         self.assertEqual(raised.exception.status, 403)
@@ -79,7 +79,7 @@ class MarketTests(unittest.TestCase):
         self.assertEqual(post.call_count, 1)
 
     def test_redirect_is_never_followed(self):
-        with patch("savetax.market.requests.post", return_value=reply(status=307)) as post:
+        with patch("savetax.adapters.market.requests.post", return_value=reply(status=307)) as post:
             with self.assertRaises(MarketError) as raised:
                 MarketClient("daiso").search("paper")
         self.assertEqual(raised.exception.code, "redirect_blocked")
@@ -91,13 +91,13 @@ class MarketTests(unittest.TestCase):
             {"jsonrpc": "2.0", "id": 1, "result": {"isError": True, "content": [{"type": "text", "text": "not available"}]}},
         ]
         for fixture in fixtures:
-            with self.subTest(fixture=fixture), patch("savetax.market.requests.post", return_value=reply(fixture)):
+            with self.subTest(fixture=fixture), patch("savetax.adapters.market.requests.post", return_value=reply(fixture)):
                 with self.assertRaises(MarketError):
                     MarketClient("daiso").search("paper")
 
     def test_wrong_rpc_id_or_malformed_sse_cannot_satisfy_request(self):
         for fixture in [reply({"jsonrpc": "2.0", "id": 99, "result": {}}), reply({"id": 1}, sse=True)]:
-            with self.subTest(body=fixture.content), patch("savetax.market.requests.post", return_value=fixture):
+            with self.subTest(body=fixture.content), patch("savetax.adapters.market.requests.post", return_value=fixture):
                 with self.assertRaises(MarketError):
                     MarketClient("daiso").search("paper")
 
@@ -106,7 +106,7 @@ class MarketTests(unittest.TestCase):
             reply({"jsonrpc": "2.0", "id": 1, "result": {"protocolVersion": "2025-03-26"}}), reply(status=202),
             reply({"jsonrpc": "2.0", "id": 2, "result": {"tools": [{"name": "search_products", "inputSchema": {"properties": {"keyword": {"type": "string"}, "account": {"type": "string"}}, "required": ["keyword", "account"]}}]}}),
         ]
-        with patch("savetax.market.requests.post", side_effect=fixtures) as post:
+        with patch("savetax.adapters.market.requests.post", side_effect=fixtures) as post:
             with self.assertRaises(MarketError) as raised:
                 MarketClient("danawa").search("paper")
         self.assertEqual(raised.exception.stage, "schema")

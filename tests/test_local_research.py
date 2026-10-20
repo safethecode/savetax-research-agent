@@ -152,6 +152,66 @@ class LocalResearchTests(unittest.TestCase):
             manifest = json.loads((Path(state['package_dir'])/'manifest.json').read_text())
             self.assertEqual(manifest['calculation']['total_savings_krw'],str(200000*(i+1)))
 
+    def test_search_and_jev_are_separate_and_collision_keeps_original_capture(self):
+        data=copy.deepcopy(self.data)
+        data['sources'][0]['source_id']='read-1'
+        proposal=copy.deepcopy(self.proposal)
+        for claim in proposal['claims']:
+            claim['source_id']='read-1-capture'
+        text=Path(self.data['sources'][0]['path']).read_text(encoding='utf-8')
+        class Tools:
+            def search(self,query):
+                return {'results':[{'source_url':'https://shop.example/item','title':'ABC','excerpt':'단서'}]}
+            def read(self,url,steps):
+                return {'url':url,'text':text,'observed_at':'2026-10-20T00:00:00Z',
+                        'steps':[{'operation':'DONE','label':'complete'}]}
+        model=Model([
+            {'action':'search','query':'ABC 판매가','url':None,'proposal':None},
+            {'action':'read','query':None,'url':'https://shop.example/item','proposal':None},
+            {'action':'finish','query':None,'url':None,'proposal':proposal}])
+        state=run_research(data,self.policy,self.root/'live-tools',model=model,tools=Tools())
+        manifest=json.loads((Path(state['package_dir'])/'manifest.json').read_text())
+        self.assertEqual(state['searches'],1)
+        self.assertEqual(state['reads'],1)
+        self.assertEqual([s['source_id'] for s in manifest['sources']],['read-1','read-1-capture'])
+        source=manifest['sources'][1]
+        self.assertTrue((Path(state['package_dir'])/source['raw_path']).exists())
+        self.assertEqual((self.root/'live-tools/jobs/001/sources/read-1.txt').read_text(encoding='utf-8'),text)
+
+    def test_action_budget_persists_and_oversized_sources_are_rejected(self):
+        policy={**self.policy,'max_actions':1}
+        class Tools:
+            def search(self,query):
+                return {'results':[]}
+        with self.assertRaises(ValueError):
+            run_research(self.data,policy,self.root/'budget',model=Model([
+                {'action':'search','query':'ABC','url':None,'proposal':None}]),tools=Tools())
+        state=json.loads((self.root/'budget/jobs/001/job.json').read_text())
+        self.assertEqual(state['actions'],1)
+        self.assertEqual(state['state'],'failed')
+        Path(self.data['sources'][0]['path']).write_bytes(b'x'*4_000_001)
+        model=Model([])
+        with self.assertRaises(ValueError):
+            run_research(self.data,self.policy,self.root/'large',model=model)
+        self.assertEqual(model.calls,0)
+
+    def test_rate_limit_persists_cooldown_for_this_run_before_retry(self):
+        from savetax.adapters.parallel import ParallelError
+        class Tools:
+            def search(self,query):
+                raise ParallelError('rate_limited',status=429,retry_after=600)
+        run=self.root/'rate-limit'
+        with self.assertRaises(RuntimeError):
+            run_research(self.data,self.policy,run,model=Model([
+                {'action':'search','query':'ABC','url':None,'proposal':None}]),tools=Tools())
+        state=json.loads((run/'jobs/001/job.json').read_text())
+        self.assertEqual(state['http_status'],429)
+        self.assertEqual(state['retry_after'],600)
+        model=Model([])
+        with self.assertRaises(RuntimeError):
+            run_research(self.data,self.policy,run,model=model,tools=Tools())
+        self.assertEqual(model.calls,0)
+
 
 if __name__=='__main__':
     unittest.main()

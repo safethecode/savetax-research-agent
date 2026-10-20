@@ -226,3 +226,21 @@ class EvidenceReviewTests(unittest.TestCase):
             self.skipTest('OS account cannot create directory symbolic links')
         with self.assertRaises(ValueError):
             review_package(linked, FixtureReviewer())
+
+    def test_review_updates_only_the_matching_job_and_preserves_attempts(self):
+        package = self.package()
+        job = self.root / 'job.json'
+        state = {'state': 'awaiting_review', 'package_dir': str(package.resolve()),
+                 'attempts': 3, 'history': [{'kind': 'source_read'}]}
+        job.write_text(json.dumps(state), encoding='utf-8')
+        review = review_package(package, FixtureReviewer())
+        updated = json.loads(job.read_text(encoding='utf-8'))
+        self.assertEqual(updated['state'], 'approved')
+        self.assertEqual(Path(updated['review_path']), review)
+        self.assertEqual(updated['attempts'], 3)
+        self.assertEqual(updated['history'], state['history'])
+        updated['package_dir'] = str(self.root / 'different-package')
+        job.write_text(json.dumps(updated), encoding='utf-8')
+        before = job.read_bytes()
+        review_package(package, FixtureReviewer(decision='rejected'))
+        self.assertEqual(job.read_bytes(), before)

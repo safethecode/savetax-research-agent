@@ -57,9 +57,9 @@ class ScoreCliTests(unittest.TestCase):
             self.events.append(('lookup',kwargs.get('params',{}).get('ids')))
             return response(200,{'items':[{'item_id':'001','state':state}]})
 
-        with patch('savetax.client.SaveTaxClient',return_value=self.client), \
-                patch('savetax.submissions.requests.post',side_effect=post), \
-                patch('savetax.client.requests.get',side_effect=get), \
+        with patch('savetax.adapters.catalog.SaveTaxClient',return_value=self.client), \
+                patch('savetax.adapters.scoring.requests.post',side_effect=post), \
+                patch('savetax.adapters.catalog.requests.get',side_effect=get), \
                 contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
             return main(['score','--input',str(self.source),'--receipt',str(self.receipt),
                          *(['--send'] if send else []),

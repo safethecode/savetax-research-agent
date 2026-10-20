@@ -32,7 +32,7 @@ class CodexReviewer:
     """A reviewer whose execution provenance is produced by this adapter, never the model."""
 
     def __init__(self, *, model=None, executable='codex', timeout=180,
-                 max_output_bytes=1024 * 1024, max_input_bytes=65536):
+                 max_output_bytes=1024 * 1024, max_input_bytes=262144):
         if (isinstance(timeout, bool) or not isinstance(timeout, (int, float))
                 or not math.isfinite(timeout) or timeout <= 0):
             raise ValueError('Codex timeout은 유한한 양수여야 합니다')
@@ -173,7 +173,32 @@ class CodexReviewer:
         except (OSError, ValueError):
             raise RuntimeError('codex review: invalid_staging_input') from None
         prompt = files('savetax').joinpath('prompts/codex-review-v1.txt').read_text(encoding='utf-8')
-        prompt += '\nBroker package hash: ' + str(manifest.get('package_hash', '')) + '\n'
+        inline = []
+        included = set()
+        try:
+            for source in manifest.get('sources', []):
+                for path_key, hash_key in (('path', 'sha256'), ('raw_path', 'raw_sha256')):
+                    relative = source.get(path_key)
+                    if relative is None or relative in included:
+                        continue
+                    raw = safe_path(package, relative).read_bytes()
+                    if hashlib.sha256(raw).hexdigest() != source.get(hash_key):
+                        raise ValueError()
+                    # Binary evidence must be prepared as a separate reviewable
+                    # text/visual package. Never silently omit an unreadable file.
+                    text = raw.decode('utf-8')
+                    inline.append({'source_id': source['source_id'], 'path': relative,
+                                   'sha256': source[hash_key], 'encoding': 'utf-8', 'text': text})
+                    included.add(relative)
+            payload = {'manifest': manifest, 'body': manifest.get('body'), 'source_artifacts': inline}
+            serialized = json.dumps(payload, ensure_ascii=False, sort_keys=True,
+                                    separators=(',', ':'), allow_nan=False)
+        except UnicodeError:
+            raise RuntimeError('codex review: non_utf8_source_requires_text_package') from None
+        except (OSError, ValueError, KeyError, TypeError):
+            raise RuntimeError('codex review: invalid_inline_evidence') from None
+        prompt += ('\nBEGIN UNTRUSTED EVIDENCE JSON\n' + serialized
+                   + '\nEND UNTRUSTED EVIDENCE JSON\n')
         encoded = prompt.encode('utf-8')
         if len(encoded) > self.max_input_bytes:
             raise RuntimeError('codex review: input_limit')
@@ -203,6 +228,8 @@ class CodexReviewer:
                                'observed_at': datetime.now(timezone.utc).isoformat(),
                                'stdout_sha256': hashlib.sha256(stdout).hexdigest(),
                                'stderr_sha256': hashlib.sha256(stderr).hexdigest(),
+                               'input_sha256': hashlib.sha256(encoded).hexdigest(),
+                               'input_bytes': len(encoded), 'evidence_delivery': 'inline-utf8-v1',
                                'decision_sha256': canonical_hash(decision),
                                'package_sha256': manifest['package_hash']}
         return decision

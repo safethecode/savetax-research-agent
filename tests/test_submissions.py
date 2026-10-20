@@ -49,7 +49,7 @@ class ScoreTests(unittest.TestCase):
         for url in ('https://m.s2b.kr/estimate/detail.do?f_re_estimate_code=202603127292398',
                     'https://shop.g2b.go.kr/link/GMSF001_01/?ctrtItemMngNo=1',
                     'https://ppi.g2b.go.kr:8914/sm/dm/sch/searchGoodsDetail.do?id=1'):
-            with self.subTest(url=url), patch('savetax.submissions.requests.post') as post:
+            with self.subTest(url=url), patch('savetax.adapters.scoring.requests.post') as post:
                 with self.assertRaisesRegex(ValueError,'공공조달'):
                     build_submission(self.item,{**self.offer,'url':url},self.event)
                 body['lines'][0]['price_evidence'][0]['source_url'] = url
@@ -120,7 +120,7 @@ class ScoreTests(unittest.TestCase):
 
     def test_submit_requires_successful_submit_preview(self):
         client = ScoreClient(SaveTaxClient(token='savetax_'+'x'*32))
-        with patch('savetax.submissions.requests.post') as post:
+        with patch('savetax.adapters.scoring.requests.post') as post:
             for preview in ({'ok':False},{'ok':True,'next_action':'pick_another_product'}):
                 with self.assertRaises(ValueError):
                     client.submit(build_submission(self.item,self.offer,self.event),'research-key-123',preview)
@@ -145,13 +145,13 @@ class ScoreTests(unittest.TestCase):
 
     # These tests isolate transport/lookup behavior. Real broker validation is
     # exercised in test_publication_gate and the CLI/revision integration tests.
-    @patch('savetax.submissions.require_publication_approval', return_value={'decision': 'approved'})
+    @patch('savetax.adapters.scoring.require_publication_approval', return_value={'decision': 'approved'})
     def test_score_http_destination_and_idempotency_are_fixed(self, _review_boundary):
         raw = SaveTaxClient(token='savetax_'+'x'*32)
         response = Mock(status_code=201,headers={})
         response.json.return_value = {'submission_id':'S1','amount_krw':'200000000'}
         with patch.object(raw,'get_json',return_value={'items':[{'item_id':'001','state':'available'}]}), \
-                patch('savetax.submissions.requests.post',return_value=response) as post:
+                patch('savetax.adapters.scoring.requests.post',return_value=response) as post:
             result = ScoreClient(raw).submit(build_submission(self.item,self.offer,self.event),
                     'research-key-123',{'ok':True,'next_action':'submit'})
         self.assertEqual(result['submission_id'],'S1')
@@ -168,7 +168,7 @@ class ScoreTests(unittest.TestCase):
         self.assertGreater(len(requests.Request('POST', 'https://example.invalid', json=body).prepare().body), 1048576)
         response = Mock(status_code=200, headers={})
         response.json.return_value = {'ok': True}
-        with patch('savetax.submissions.requests.post', return_value=response) as post:
+        with patch('savetax.adapters.scoring.requests.post', return_value=response) as post:
             ScoreClient(SaveTaxClient(token='savetax_'+'x'*32)).preview(body)
         prepared = requests.Request('POST', *post.call_args.args, **{
             k: v for k, v in post.call_args.kwargs.items() if k in ('headers', 'json', 'data')}).prepare()
@@ -176,13 +176,13 @@ class ScoreTests(unittest.TestCase):
         self.assertEqual(json.loads(prepared.body), body)
         self.assertEqual(prepared.headers['Content-Type'], 'application/json')
 
-    @patch('savetax.submissions.require_publication_approval', return_value={'decision': 'approved'})
+    @patch('savetax.adapters.scoring.require_publication_approval', return_value={'decision': 'approved'})
     def test_success_http_with_unreadable_json_remains_an_unconfirmed_result(self, _review_boundary):
         raw = SaveTaxClient(token='savetax_'+'x'*32)
         response = Mock(status_code=201, headers={})
         response.json.side_effect = ValueError('untrusted response contents')
         with patch.object(raw, 'get_json', return_value={'items':[{'item_id':'001','state':'available'}]}), \
-                patch('savetax.submissions.requests.post', return_value=response):
+                patch('savetax.adapters.scoring.requests.post', return_value=response):
             with self.assertRaises(SaveTaxError) as error:
                 ScoreClient(raw).submit(build_submission(self.item,self.offer,self.event),
                     'research-key-123', {'ok':True,'next_action':'submit'})
@@ -190,7 +190,7 @@ class ScoreTests(unittest.TestCase):
         self.assertNotIn('untrusted', str(error.exception))
         response.close.assert_called_once()
 
-    @patch('savetax.submissions.require_publication_approval', return_value={'decision': 'approved'})
+    @patch('savetax.adapters.scoring.require_publication_approval', return_value={'decision': 'approved'})
     def test_success_without_submission_id_is_not_a_receipt(self, _review_boundary):
         raw = SaveTaxClient(token='savetax_'+'x'*32)
         for payload in ({}, [], {'submission_id':None}, {'submission_id':''}, {'submission_id':True}):
@@ -198,31 +198,31 @@ class ScoreTests(unittest.TestCase):
                 response = Mock(status_code=201, headers={})
                 response.json.return_value = payload
                 with patch.object(raw,'get_json',return_value={'items':[{'item_id':'001','state':'available'}]}), \
-                        patch('savetax.submissions.requests.post',return_value=response):
+                        patch('savetax.adapters.scoring.requests.post',return_value=response):
                     with self.assertRaises(SaveTaxError):
                         ScoreClient(raw).submit(build_submission(self.item,self.offer,self.event),
                             'research-key-123', {'ok':True,'next_action':'submit'})
 
-    @patch('savetax.submissions.require_publication_approval', return_value={'decision': 'approved'})
+    @patch('savetax.adapters.scoring.require_publication_approval', return_value={'decision': 'approved'})
     def test_lookup_must_match_requested_product_instead_of_first_available_row(self, _review_boundary):
         raw = SaveTaxClient(token='savetax_'+'x'*32)
         rows = [{'item_id':'other','state':'available'}, {'item_id':'001','state':'claimed'}]
         response = Mock(status_code=201,headers={})
         response.json.return_value = {'submission_id':'S1'}
         with patch.object(raw,'get_json',return_value={'items':rows}), \
-                patch('savetax.submissions.requests.post',return_value=response) as post:
+                patch('savetax.adapters.scoring.requests.post',return_value=response) as post:
             with self.assertRaises(ValueError):
                 ScoreClient(raw).submit(build_submission(self.item,self.offer,self.event),
                     'research-key-123', {'ok':True,'next_action':'submit'})
         post.assert_not_called()
 
-    @patch('savetax.submissions.require_publication_approval', return_value={'decision': 'approved'})
+    @patch('savetax.adapters.scoring.require_publication_approval', return_value={'decision': 'approved'})
     def test_no_lookup_match_never_sends_submission(self, _review_boundary):
         raw = SaveTaxClient(token='savetax_'+'x'*32)
         response = Mock(status_code=201,headers={})
         response.json.return_value = {'submission_id':'S1'}
         with patch.object(raw,'get_json',return_value={'items':[{'item_id':'other','state':'available'}]}), \
-                patch('savetax.submissions.requests.post',return_value=response) as post:
+                patch('savetax.adapters.scoring.requests.post',return_value=response) as post:
             with self.assertRaises(ValueError):
                 ScoreClient(raw).submit(build_submission(self.item,self.offer,self.event),
                     'research-key-123', {'ok':True,'next_action':'submit'})
@@ -233,7 +233,7 @@ class ScoreTests(unittest.TestCase):
         response = Mock(status_code=201,headers={})
         response.json.return_value = {'submission_id':'S1'}
         with patch.object(raw,'get_json',return_value={'items':[{'item_id':'001','state':'available'}]}) as lookup, \
-                patch('savetax.submissions.requests.post',return_value=response) as post:
+                patch('savetax.adapters.scoring.requests.post',return_value=response) as post:
             with self.assertRaises(ValueError):
                 ScoreClient(raw).submit(build_submission(self.item,self.offer,self.event),
                     None, {'ok':True,'next_action':'submit'})
@@ -248,8 +248,8 @@ class ScoreTests(unittest.TestCase):
             with self.subTest(status=status):
                 response = Mock(status_code=status, headers={})
                 response.json.return_value = payload
-                with patch('savetax.client.requests.get',return_value=response), \
-                        patch('savetax.submissions.requests.post') as post:
+                with patch('savetax.adapters.catalog.requests.get',return_value=response), \
+                        patch('savetax.adapters.scoring.requests.post') as post:
                     self.assertEqual(ScoreClient(raw).recover_request('research-key-123'),expected)
                 response.close.assert_called_once()
                 post.assert_not_called()
@@ -258,11 +258,11 @@ class ScoreTests(unittest.TestCase):
         raw = SaveTaxClient(token='savetax_'+'x'*32)
         response = Mock(status_code=404, headers={})
         response.json.return_value = {'code':'NOT_FOUND'}
-        with patch('savetax.client.requests.get',return_value=response):
+        with patch('savetax.adapters.catalog.requests.get',return_value=response):
             self.assertEqual(ScoreClient(raw).recover_request('research-key-123'),{'state':'not_found'})
         response = Mock(status_code=200, headers={})
         response.json.return_value = {'state':'pending'}
-        with patch('savetax.client.requests.get',return_value=response):
+        with patch('savetax.adapters.catalog.requests.get',return_value=response):
             with self.assertRaises(SaveTaxError) as error:
                 ScoreClient(raw).recover_request('research-key-123')
         self.assertEqual(error.exception.stage,'decode')
@@ -271,7 +271,7 @@ class ScoreTests(unittest.TestCase):
         raw = SaveTaxClient(token='savetax_'+'x'*32)
         response = Mock(status_code=422,headers={})
         response.json.return_value = {'error':{'code':'PRICE_GAP_TOO_SMALL','message':raw._token}}
-        with patch('savetax.submissions.requests.post',return_value=response):
+        with patch('savetax.adapters.scoring.requests.post',return_value=response):
             with self.assertRaises(SaveTaxError) as error:
                 ScoreClient(raw).preview({})
         self.assertEqual(error.exception.status,422)
