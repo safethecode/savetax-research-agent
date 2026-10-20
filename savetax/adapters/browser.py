@@ -247,7 +247,7 @@ class BrowserRuntime:
             raise ValueError('입력값은 100자 이하의 라벨=값 쌍이어야 합니다')
         if not self._env().get('TYPESAFE_API_KEY'):
             raise ValueError('TYPESAFE_API_KEY 환경변수가 필요합니다')
-        code = ('import json, re\nfrom jev_ultrafast import Agent\nfrom jev_ultrafast.model import field_context\n'
+        code = ('import json, re\nfrom jev_ultrafast import Agent\nfrom jev_ultrafast.model import field_context\nfrom jev_ultrafast.browser import StalePage\n'
             f'FILLS = {fills!r}\n'
             f'GUARD = re.compile({JEV_GUARD_PATTERN!r}, re.I)\n'
             'steps = []\nstopped = None\n'
@@ -259,7 +259,11 @@ class BrowserRuntime:
             '        label = (action or {}).get("label", d["choice"])\n'
             '        steps.append({"operation": d["operation"], "label": label[:200], "confidence": d["confidence"], "latency_ms": d["latency_ms"]})\n'
             '        if d["operation"] in ("DONE", "BLOCKED"):\n'
-            '            agent.command("act", {"fingerprint": state["page"]["fingerprint"]})\n'
+            '            try:\n'
+            '                agent.command("act", {"fingerprint": state["page"]["fingerprint"]})\n'
+            '            except StalePage:\n'
+            '                steps[-1]["stale_page"] = True\n'
+            '                continue\n'
             '            stopped = d["operation"].lower(); break\n'
             '        if GUARD.search(label):\n'
             '            stopped = "guarded"; break\n'
@@ -269,7 +273,11 @@ class BrowserRuntime:
             '                stopped = "guarded"; break\n'
             '            agent.pending_text = (field_context(agent.state["goal"], action, state["page"], agent.state["history"]), value, None)\n'
             '            steps[-1]["text"] = value\n'
-            '        agent.command("act", {"fingerprint": state["page"]["fingerprint"]})\n'
+            '        try:\n'
+            '            agent.command("act", {"fingerprint": state["page"]["fingerprint"]})\n'
+            '        except StalePage:\n'
+            '            steps[-1]["stale_page"] = True\n'
+            '            continue\n'
             '    page = agent.browser.observe(screenshot=False)\n'
             '    print(json.dumps({"stopped": stopped or "step_limit", "steps": steps, "url": page["url"], "title": page["title"], "text": page["text"][:40000], "model": (agent.state["decisions"] or [{}])[-1].get("model")}, ensure_ascii=False))\n')
         result = self._run(code, model=True, timeout=180)

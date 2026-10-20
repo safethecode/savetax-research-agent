@@ -73,3 +73,5 @@ python -m pip wheel . --no-deps -w work/wheels
 구조화 출력은 스키마를 API의 format과 프롬프트에 함께 전달하고 추출 생성 설정을 고정한다. JSON 형식 성공과 값의 사실성은 별도로 검증한다. [Ollama의 구조화 출력 설명](https://docs.ollama.com/capabilities/structured-outputs)을 참고한다.
 
 2026-10-20 검증에서는 unittest 257개 중 255개가 통과했고 2개는 Windows의 symlink 생성 권한 때문에 생략됐다. wheel을 별도 경로에 설치해 계층 import와 네 가지 프롬프트·스키마 리소스도 확인했다. 실제 Qwen 합성 자료 한 건은 약 8.2초에 초안·계산·묶음을 만들었으며, 재실행은 같은 job을 재사용했다. 실제 Codex 리뷰는 계산을 확인하고 합성 판매처·불충분한 원규격을 근거로 `needs_evidence`를 반환했다. 실제 판매 조사의 정확도나 대회 접수 성공률을 측정한 결과는 아니다.
+
+실제 후보를 대상으로 한 후속 시험은 [2026-10-20 로컬 모델 시험](../research/local-model-trial-20261020.md)에 있다. live 작업에서 판매 관측이 없으면 검색·발견 URL 읽기를 먼저 수행하고, Jev의 StalePage는 기존 단계 예산 안에서 다시 판단한다. 실제 가격 검증의 성공과 모델 실행 성공을 구분한다.

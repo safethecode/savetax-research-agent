@@ -212,6 +212,79 @@ class LocalResearchTests(unittest.TestCase):
             run_research(self.data,self.policy,run,model=model,tools=Tools())
         self.assertEqual(model.calls,0)
 
+    def test_live_job_without_sources_must_search_then_read_before_finish(self):
+        data=copy.deepcopy(self.data)
+        data['sources']=[]
+        proposal=copy.deepcopy(self.proposal)
+        for claim in proposal['claims']:
+            claim['source_id']='read-1'
+        text=Path(self.data['sources'][0]['path']).read_text(encoding='utf-8')
+        calls=[]
+        class Tools:
+            def search(self,query):
+                calls.append('search')
+                return {'results':[{'source_url':'https://shop.example/item','title':'ABC','excerpt':'발견 단서'}]}
+            def read(self,url,steps):
+                calls.append('read')
+                return {'url':url,'text':text,'observed_at':'2026-10-20T00:00:00Z'}
+        class RecordingModel(Model):
+            schemas=[]
+            def generate(self,prompt,schema):
+                self.schemas.append(schema)
+                return super().generate(prompt,schema)
+        model=RecordingModel([
+            {'action':'search','query':'ABC 판매가','url':None,'proposal':None},
+            {'action':'read','query':None,'url':'https://shop.example/item','proposal':None},
+            {'action':'finish','query':None,'url':None,'proposal':proposal}])
+        state=run_research(data,self.policy,self.root/'mandatory-discovery',model=model,tools=Tools())
+        self.assertEqual(calls,['search','read'])
+        self.assertEqual(model.schemas[0]['properties']['action']['enum'],['search'])
+        self.assertEqual(model.schemas[1]['properties']['action']['enum'],['read'])
+        self.assertEqual(model.schemas[1]['properties']['url']['enum'],['https://shop.example/item'])
+        self.assertEqual(state['state'],'awaiting_review')
+
+    def test_live_job_cannot_finish_from_official_listing_instead_of_retail_evidence(self):
+        data=copy.deepcopy(self.data)
+        data['sources']=[]
+        with self.assertRaises(ValueError):
+            run_research(data,self.policy,self.root/'premature',model=Model([
+                {'action':'finish','query':None,'url':None,'proposal':self.proposal}]),tools=object())
+
+    def test_live_resume_retries_observation_after_failed_first_read(self):
+        data=copy.deepcopy(self.data);data['sources']=[]
+        policy={**self.policy,'max_reads':2}
+        proposal=copy.deepcopy(self.proposal)
+        for claim in proposal['claims']:
+            claim['source_id']='read-2'
+        text=Path(self.data['sources'][0]['path']).read_text(encoding='utf-8')
+        class Tools:
+            reads=0
+            def search(self,query):
+                return {'results':[{'source_url':'https://shop.example/item'}]}
+            def read(self,url,steps):
+                self.reads+=1
+                if self.reads==1:
+                    raise RuntimeError('transient read timeout')
+                return {'url':url,'text':text,'observed_at':'2026-10-20T00:00:00Z'}
+        class RecordingModel(Model):
+            def generate(self,prompt,schema):
+                self.last_schema=schema
+                if self.calls==2:
+                    self.retry_schema=schema
+                return super().generate(prompt,schema)
+        model=RecordingModel([
+            {'action':'search','query':'ABC','url':None,'proposal':None},
+            {'action':'read','query':None,'url':'https://shop.example/item','proposal':None},
+            {'action':'read','query':None,'url':'https://shop.example/item','proposal':None},
+            {'action':'finish','query':None,'url':None,'proposal':proposal}])
+        tools=Tools();run=self.root/'resume-read'
+        with self.assertRaises(RuntimeError):
+            run_research(data,policy,run,model=model,tools=tools)
+        state=run_research(data,policy,run,model=model,tools=tools)
+        self.assertEqual(model.retry_schema['properties']['action']['enum'],['read'])
+        self.assertEqual(state['reads'],2)
+        self.assertEqual(state['state'],'awaiting_review')
+
 
 if __name__=='__main__':
     unittest.main()

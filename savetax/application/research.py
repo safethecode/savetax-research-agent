@@ -1,6 +1,7 @@
 """Bounded local research. Tool results and model suggestions never authorize writes."""
 from __future__ import annotations
 
+from copy import deepcopy
 from datetime import datetime, timedelta, timezone
 from decimal import Decimal, ROUND_CEILING
 from importlib.resources import files
@@ -255,14 +256,30 @@ def run_research(data, policy, run_dir, *, model, tools=None):
                              {k:str(r.get(k,''))[:1200] for k in ('source_url','title','excerpt')}
                              for r in h['results'][:2]]} for h in state['history'][-2:]],
                          'remaining_actions':policy['max_actions']-state['actions']}
-                action=model.generate(_resource('prompts/research-v1.txt')+'\nDATA:\n'+json.dumps(context,ensure_ascii=False),schema)
+                action_schema=deepcopy(schema)
+                observed_sources=any(s.get('kind') in ('retailer','manufacturer') for s in state['sources'])
+                if tools is not None and not observed_sources:
+                    if state['searches']==0:
+                        action_schema['properties']['action']['enum']=['search']
+                        action_schema['properties']['query']={'type':'string','minLength':1,'maxLength':1000}
+                        action_schema['properties']['url']={'type':'null'}
+                        action_schema['properties']['proposal']={'type':'null'}
+                    elif state['discovered_urls'] and state['reads']<policy['max_reads']:
+                        action_schema['properties']['action']['enum']=['read']
+                        action_schema['properties']['query']={'type':'null'}
+                        action_schema['properties']['url']={'type':'string','enum':state['discovered_urls']}
+                        action_schema['properties']['proposal']={'type':'null'}
+                context['allowed_actions']=action_schema['properties']['action']['enum']
+                context['retail_source_ids']=[s['source_id'] for s in state['sources']
+                    if s.get('kind') in ('retailer','manufacturer')]
+                action=model.generate(_resource('prompts/research-v1.txt')+'\nDATA:\n'+json.dumps(context,ensure_ascii=False),action_schema)
                 try:
-                    Draft202012Validator(schema).validate(action)
+                    Draft202012Validator(action_schema).validate(action)
                 except ValidationError:
                     raise ValueError('model action/proposal violates schema') from None
                 atomic_json(job_dir/'proposals'/f"action-{state['actions']:03}.json",{
                     'action':action,'model_metadata':getattr(model,'last_metadata',{}),
-                    'context_hash':canonical_hash(context),'schema_hash':canonical_hash(schema)})
+                    'context_hash':canonical_hash(context),'schema_hash':canonical_hash(action_schema)})
                 if action['action']=='finish':
                     if action['proposal'] is None:
                         raise ValueError('finish requires a proposal')
