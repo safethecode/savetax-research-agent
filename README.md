@@ -22,9 +22,11 @@ $savetax 기존 판정의 이유를 읽고 이의제기를 보완해 줘.
 | `.agents/skills/savetax/` | 스킬과 작업별 참고 문서 |
 | `savetax/`, `scripts/`, `tests/` | 기존 계산·연동·전송·복구 도구와 회귀 테스트 |
 | `docs/` | 필요한 경우 찾아보는 CLI·연동 설명 |
-| `research/` | 공개 조사 기록·접수 원장. [최신 결과](research/README.md) |
+| `records/` | 접수 원장과 [결과 요약](records/appeals-20261106.md) 2개만 보존 |
 | `work/` | Git 제외: 원문·데이터·실행 상태·영수증 |
-| `docs/archive/`, `docs/superpowers/` | 과거 운영 지시와 설계. 일반 실행에는 읽지 않음 |
+| `config/` | 로컬 실행 설정·기본 선별 정책 |
+
+예제 폴더와 별도 전략 폴더는 제거했다. 기존 선별 기본값은 `config/policies/candidate-selection.json` 한 곳에서 관리하고, 사용자 지정 `--strategy` 입력은 계속 지원한다. 과거 조사 607개와 설계·운영 기록은 Git 이력 및 `work/archive/legacy-layout-20261107.zip`에 보관했다. 일반 작업에는 읽지 않는다.
 
 선택적으로 [기존 CLI](docs/usage.md)와 [로컬 모델 실행](docs/local-research.md)을 사용할 수 있다. 로컬 모델은 조사 제안, Python은 계산·저장·API, Codex는 근거·본문 판단을 맡는다. 현재 구현은 `commands → application → domain/adapters/runtime`이며 이전 import 경로는 호환 facade다.
 

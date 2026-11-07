@@ -10,6 +10,22 @@ from savetax.cli import main, normalize_fact, write_json
 
 
 class CliTests(unittest.TestCase):
+    def test_default_selection_policy_runs_mining_and_feedback(self):
+        with tempfile.TemporaryDirectory() as folder:
+            state, output, feedback, proposal = [Path(folder)/p for p in (
+                'state.json', 'out.json', 'feedback.json', 'proposal.json')]
+            write_json(feedback, {'reports': []})
+            with patch('savetax.cli.mine_batch', return_value=[]) as mining:
+                with contextlib.redirect_stdout(io.StringIO()):
+                    self.assertEqual(main(['mine', '--parquet', 'unused', '--handle', 'public',
+                                           '--dataset-version', 'v1', '--batches', '1',
+                                           '--state', str(state), '--output', str(output)]), 0)
+                    self.assertEqual(main(['feedback', '--input', str(feedback),
+                                           '--output', str(proposal)]), 0)
+            mining.assert_called_once()
+            self.assertEqual(json.loads(proposal.read_text(encoding='utf-8'))['strategy']['name'],
+                             'domestic-first')
+
     def test_fact_keeps_official_basis_and_uncertain_installation(self):
         item = {'item_id': '001', 'snapshot': {'model': 'ABC'}, 'facts': []}
         fact = {'fact_id': 'F1', 'unit': '대', 'tax_basis': 'vat_included',

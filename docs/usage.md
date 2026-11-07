@@ -26,6 +26,8 @@ python -m savetax hydrate --limit 10
 python -m savetax market-search --provider daiso --query 복사용지 --limit 5
 ```
 
+`mine`과 `feedback`의 기본 선별 정책은 `config/policies/candidate-selection.json`이며 `--strategy`로 실제 사용할 정책 파일을 지정할 수 있다.
+
 `mine`은 같은 상태·출력 파일로 실행하면 다음 묶음부터 이어간다. handle·버전·경로·전략이 바뀌면 새 파일을 지정한다. 실패 후보는 기록하며 다음 후보를 처리하고, `hydrate --retry-failures`로 재시도한다. 시장 검색 결과는 실제 판매가 검증의 출발점이다.
 
 ## 점수와 대기열
@@ -100,6 +102,6 @@ python -m savetax evaluate --input work/manual-evidence.json --output work/evalu
 
 ## 근거와 조사 기록
 
-`research/`에는 확인한 가격과 제외·보류 이유를 저장한다. 원본 데이터와 대량 fact는 `work/`에만 둔다. 가격 시점 차이는 조사 제외 조건으로 쓰지 않는다. 납품요구와 실제 예산 절감은 구별하며 서버 영수증의 예상액을 임의로 확정 인정액으로 바꾸지 않는다.
+`records/`에는 접수 원장과 결과 요약만 저장한다. 조사 과정·확인 가격·제외/보류 이유·원본 데이터·대량 fact는 `work/`에 둔다. 가격 시점 차이는 조사 제외 조건으로 쓰지 않는다. 납품요구와 실제 예산 절감은 구별하며 서버 영수증의 예상액을 임의로 확정 인정액으로 바꾸지 않는다.
 
-중요한 정정 사례는 [동일성 감사](../research/identity-audit.md)에 있다. 모니터 상품 제목은 같았지만 상세에 다른 모델 대체 발송이 있었으므로 동일 제품 가격 근거에서 제외했다. 이후 하네스와 스킬은 실제 발송 모델까지 확인하도록 보완했다.
+중요한 정정 사례는 [동일성 감사](https://github.com/safethecode/savetax-research-agent/blob/0ad6f980630563cfdc6af01bf01c5ffe1c435e46/research/identity-audit.md)에 있다. 모니터 상품 제목은 같았지만 상세에 다른 모델 대체 발송이 있었으므로 동일 제품 가격 근거에서 제외했다. 이후 하네스와 스킬은 실제 발송 모델까지 확인하도록 보완했다.

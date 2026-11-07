@@ -1,6 +1,6 @@
 # 국내 상품검색 MCP 연결 현황
 
-> 현재 연동 구현과 날짜가 적힌 과거 실측 기록이다. 연결 상태·응답 시간·모델/가격 관측을 오늘의 상태로 확대하지 않는다. 전체 구조는 [아키텍처 설계](../superpowers/specs/2026-10-20-local-research-codex-review-design.md), 문서 목록은 [색인](../README.md)을 참고한다.
+> 현재 연동 구현과 날짜가 적힌 과거 실측 기록이다. 연결 상태·응답 시간·모델/가격 관측을 오늘의 상태로 확대하지 않는다. 전체 구조는 [아키텍처 설계](https://github.com/safethecode/savetax-research-agent/blob/0ad6f980630563cfdc6af01bf01c5ffe1c435e46/docs/superpowers/specs/2026-10-20-local-research-codex-review-design.md), 문서 목록은 [색인](../README.md)을 참고한다.
 
 브라우저 연동 추가: `browser_harness` 0.1.13을 별도 환경에 설치하고 네이티브 MCP `browser_page_info` 실제 호출을 확인했다. 작업 전용 Chrome 연결·Jev·키 사용 상태는 [브라우저 조사 문서](browser.md)를 참고한다.
 

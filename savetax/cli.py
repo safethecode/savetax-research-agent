@@ -200,7 +200,7 @@ def main(argv=None):
     mine = sub.add_parser('mine', help='고정 무작위 묶음의 후보 선별·재개')
     for name in ('parquet', 'handle', 'dataset-version'):
         mine.add_argument('--' + name, required=True)
-    mine.add_argument('--strategy', default='strategies/domestic-first.json')
+    mine.add_argument('--strategy', default='config/policies/candidate-selection.json')
     mine.add_argument('--state', default='work/state.json')
     mine.add_argument('--output', default='work/candidates.json')
     mine.add_argument('--batches', type=int, default=1)
@@ -214,7 +214,7 @@ def main(argv=None):
     evaluate.add_argument('--input', required=True)
     evaluate.add_argument('--output', default='work/evaluation.json')
     feedback = sub.add_parser('feedback', help='반려 피드백으로 DSL 개선안 생성')
-    feedback.add_argument('--strategy', default='strategies/domestic-first.json')
+    feedback.add_argument('--strategy', default='config/policies/candidate-selection.json')
     feedback.add_argument('--input', required=True)
     feedback.add_argument('--output', default='work/strategy-proposal.json')
     market = sub.add_parser('market-search', help='다이소·다나와 MCP 실제 검색')

@@ -1,6 +1,6 @@
 # 공식 규격서 본문 읽기
 
-> 현재 연동 구현과 날짜가 적힌 과거 실측 기록이다. 연결 상태·응답 시간·모델/가격 관측을 오늘의 상태로 확대하지 않는다. 전체 구조는 [아키텍처 설계](../superpowers/specs/2026-10-20-local-research-codex-review-design.md), 문서 목록은 [색인](../README.md)을 참고한다.
+> 현재 연동 구현과 날짜가 적힌 과거 실측 기록이다. 연결 상태·응답 시간·모델/가격 관측을 오늘의 상태로 확대하지 않는다. 전체 구조는 [아키텍처 설계](https://github.com/safethecode/savetax-research-agent/blob/0ad6f980630563cfdc6af01bf01c5ffe1c435e46/docs/superpowers/specs/2026-10-20-local-research-codex-review-design.md), 문서 목록은 [색인](../README.md)을 참고한다.
 
 나라장터에서 내려받은 문서의 확장자와 실제 형식이 다를 때 `document-read`로 파일 내용을 먼저 판별한다. 네트워크 요청 없이 로컬 파일만 읽으며 원본 파일을 변경하지 않는다.
 

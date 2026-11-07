@@ -8,10 +8,10 @@
 
 ```powershell
 python -m pip install -e .
-python -m savetax research --input examples/local-research/input.json --policy config/policies/local-research.json --profile config/local-profile.json --run-dir work/runs/local-example
+python -m savetax research --input work/input.json --policy config/policies/local-research.json --profile config/local-profile.json --run-dir work/runs/research-001
 ```
 
-이 예제는 **합성 자료**이며 실제 접수 대상이나 실판매 근거가 아니다. 외부 검색·브라우저를 호출하지 않고 로컬 추출과 계산·근거 묶음 저장을 확인한다. `awaiting_review`는 근거 검증이나 접수 성공을 뜻하지 않는다.
+`work/input.json`에는 실제 공식 snapshot과 저장한 판매 원문의 경로를 넣는다. 입력 구조는 아래의 item/event/sources 설명을 따른다. `awaiting_review`는 근거 검증이나 접수 성공을 뜻하지 않는다.
 
 실제 조사에는 공식 snapshot JSON을 `--input`으로 주거나 공식 API 조회를 사용한다. 후자는 개인 가이드의 기존 인증과 브라우저 별도 런타임이 필요하다.
 
@@ -74,4 +74,4 @@ python -m pip wheel . --no-deps -w work/wheels
 
 2026-10-20 검증에서는 unittest 257개 중 255개가 통과했고 2개는 Windows의 symlink 생성 권한 때문에 생략됐다. wheel을 별도 경로에 설치해 계층 import와 네 가지 프롬프트·스키마 리소스도 확인했다. 실제 Qwen 합성 자료 한 건은 약 8.2초에 초안·계산·묶음을 만들었으며, 재실행은 같은 job을 재사용했다. 실제 Codex 리뷰는 계산을 확인하고 합성 판매처·불충분한 원규격을 근거로 `needs_evidence`를 반환했다. 실제 판매 조사의 정확도나 대회 접수 성공률을 측정한 결과는 아니다.
 
-실제 후보를 대상으로 한 후속 시험은 [2026-10-20 로컬 모델 시험](../research/local-model-trial-20261020.md)에 있다. live 작업에서 판매 관측이 없으면 검색·발견 URL 읽기를 먼저 수행하고, Jev의 StalePage는 기존 단계 예산 안에서 다시 판단한다. 실제 가격 검증의 성공과 모델 실행 성공을 구분한다.
+실제 후보를 대상으로 한 후속 시험은 [2026-10-20 로컬 모델 시험](https://github.com/safethecode/savetax-research-agent/blob/0ad6f980630563cfdc6af01bf01c5ffe1c435e46/research/local-model-trial-20261020.md)에 있다. live 작업에서 판매 관측이 없으면 검색·발견 URL 읽기를 먼저 수행하고, Jev의 StalePage는 기존 단계 예산 안에서 다시 판단한다. 실제 가격 검증의 성공과 모델 실행 성공을 구분한다.

@@ -37,8 +37,8 @@ python -m savetax score --input <package_dir>/body.json --package <package_dir> 
 |---|---|
 | `.agents/skills/savetax/` | 재사용 절차의 정본 |
 | `savetax/`, `tests/` | 작동하는 도구와 그 회귀 테스트 |
-| `research/` | 공개 조사 기록·접수 원장 |
+| `records/` | 현재 접수 원장과 결과 요약만 보존 |
 | `work/` | 비공개 원문·실행 상태·실제 첨부·영수증 |
-| `docs/archive/`, `docs/superpowers/` | 과거 운영 지시·설계. 일반 실행 때 로드하지 않음 |
+| `work/archive/`와 Git 이력 | 과거 조사·설계·일회성 도구. 일반 실행 때 로드하지 않음 |
 
 자료/문서 변경은 연결·입력·결과를 해당 범위에서 확인한다. 코드 변경 때만 관련 테스트를 실행하며, 반복 실패·새 원인·공통 경계 변경이 없다면 같은 검사를 늘리지 않는다. 독립 리뷰나 전수 재감사는 요청되거나 실제 불일치가 있을 때 수행한다.
