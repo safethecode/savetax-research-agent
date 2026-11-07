@@ -53,7 +53,7 @@ TypeSafe는 Jev의 동작 선택에 사용한다. `TEXT_MODEL_API_KEY`가 없어
 
 케이토목 보강토블록 B형의 수량별 합계도 직접 확인했다. 초기 상품가 2,900원에 운임 예상 510원만 더한 초안은 팔레트 비용을 빠뜨렸다. 수량 1에서는 팔레트 15,000원을 더한 17,900원, 수량 585에서는 팔레트 13개 195,000원을 더한 1,891,500원이 표시됐다. 두 합계 모두 페이지의 VAT·운임 별도 조건을 그대로 따른다. 25톤 운임 예상 300,000원까지 더한 만차 기준은 VAT 포함 개당 약 4,120.77원이며, 납품 사실별 끝수와 지역에 따라 달라진다. 이 관측을 바탕으로 조사 스킬에 수량 입력 후 추가 비용과 숨겨진 배송 필드의 표시 여부를 확인하는 절차를 추가했다.
 
-[Browser Harness](https://github.com/browser-use/browser-harness), [Jev](https://github.com/browser-use/jev-ultrafast), [Parallel Responses](https://docs.parallel.ai/responses-api/responses-quickstart)의 공식 문서를 확인했다. 재사용 절차는 `.agents/skills/savetax-browser/SKILL.md`다.
+[Browser Harness](https://github.com/browser-use/browser-harness), [Jev](https://github.com/browser-use/jev-ultrafast), [Parallel Responses](https://docs.parallel.ai/responses-api/responses-quickstart)의 공식 문서를 확인했다. 재사용 절차는 `.agents/skills/savetax/references/browser.md`다.
 
 ## 오류 원인과 탭 정리 결과
 

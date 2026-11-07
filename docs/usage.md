@@ -1,8 +1,8 @@
 # 기존 CLI 사용법
 
-현재 구현된 명령의 참고 문서다. 로컬 조사 실행기와 Codex 자동 리뷰의 목표 구조는 [아키텍처 설계](superpowers/specs/2026-10-20-local-research-codex-review-design.md)에 있으며 아직 구현되지 않았다. 현재 사용자 위임과 실행 정책을 확인한 뒤 외부 쓰기 명령을 사용한다.
+현재 구현된 명령의 참고 문서다. 일반 작업은 [savetax 스킬](../.agents/skills/savetax/SKILL.md), 로컬 모델과 Codex 리뷰는 [실행 문서](local-research.md)에서 시작한다. 현재 사용자 위임과 실행 정책을 확인한 뒤 외부 쓰기 명령을 사용한다.
 
-브라우저·Jev는 [브라우저 연동](integrations/browser.md), Parallel은 [검색 연동](integrations/parallel.md), HWP/HWPX는 [문서 추출](integrations/documents.md)을 참고한다. 아래 기존 점수 명령은 현재 구현을 설명하며 앞으로 적용할 Codex 리뷰 gate와 구분한다.
+브라우저·Jev는 [브라우저 연동](integrations/browser.md), Parallel은 [검색 연동](integrations/parallel.md), HWP/HWPX는 [문서 추출](integrations/documents.md)을 참고한다. 새 점수 접수·revision에는 현재 근거 묶음과 일치하는 실제 Codex 승인 파일이 필요하다. 저장된 동일 해시의 승인 파일은 재사용한다.
 
 ## 실행
 
@@ -75,13 +75,13 @@ URL은 해당 `offer.url`과 같아야 하며 채널도 일치해야 한다. `un
 
 ```powershell
 python -m savetax build-score --input work/verified-offer.json --output work/score-body.json
-python -m savetax score --input work/score-body.json --receipt work/score-item.json --min-saving 1000000000
-python -m savetax score --input work/score-body.json --receipt work/score-item.json --min-saving 1000000000 --send
+python -m savetax score --input work/score-body.json --receipt work/score-item.json --min-saving <현재-기준>
+python -m savetax score --input work/score-body.json --package <package_dir> --review <review.json> --receipt work/score-item.json --min-saving <현재-기준> --send
 ```
 
-`score`는 preview의 실제 서버 예상액이 `--min-saving`보다 작으면 접수하지 않고 후순위로 기록한다. 범용 명령의 기본값은 0이며 이 작업의 제출 기준을 뜻하지 않는다. 현재 작업은 `AGENTS.md`와 날짜별 선별 기록의 금액·한도를 따르며, 위 예시는 10억 원 우선 검토다. preview가 신규 등록을 허용해야 하고 제출 직전 중복을 다시 조회한다. 성공한 영수증은 재실행해도 덮어쓰거나 재접수하지 않는다. 접수 결과가 불명확하면 같은 멱등 키로 결과부터 확인한다.
+`score`는 preview의 실제 서버 예상액이 `--min-saving`보다 작으면 접수하지 않고 후순위로 기록한다. 범용 명령의 기본값은 0이며 이 작업의 제출 기준을 뜻하지 않는다. 현재 채팅의 금액·한도를 따르며 과거 날짜별 하한을 기본값으로 적용하지 않는다. preview가 신규 등록을 허용해야 하고 제출 직전 중복을 다시 조회한다. 성공한 영수증은 재실행해도 덮어쓰거나 재접수하지 않는다. 접수 결과가 불명확하면 같은 멱등 키로 결과부터 확인한다.
 
-기존 제출의 승인된 근거 보완에는 Python의 `ScoreClient.revise(submission_id, body, idempotency_key, preview)`를 사용한다. 전체 새 본문을 먼저 `preview`하고, 본인 소유의 편집 가능한 제출을 가리키는 `revise_existing` 결과만 전달한다. 클라이언트는 그 결과의 `current_revision`을 `If-Match`로 보내며 신규 등록이나 철회로 우회하지 않는다. 수정 본문·멱등 키·영수증을 보존하고, 응답이 불명확하면 `recover_request`로 같은 요청의 결과를 먼저 확인한다. 매 수정 직전 개인 지침 재확인과 실제 근거 검토는 조사자가 수행한다. preview의 형식·산식 통과는 가격과 대체 적합성의 입증을 대신하지 않는다.
+기존 제출의 승인된 근거 보완에는 Python의 `ScoreClient.revise(submission_id, body, idempotency_key, preview, package_dir=..., review_path=...)`를 사용한다. 전체 새 본문을 먼저 `preview`하고, 본인 소유의 편집 가능한 제출을 가리키는 `revise_existing` 결과만 전달한다. 클라이언트는 그 결과의 `current_revision`을 `If-Match`로 보내며 신규 등록이나 철회로 우회하지 않는다. 수정 본문·멱등 키·영수증을 보존하고, 응답이 불명확하면 `ScoreClient(client).recover_request(idempotency_key)`로 같은 요청의 결과를 먼저 확인한다. 이의제기의 접수 결과는 이 점수 전용 복구 endpoint가 아니라 verdict의 appeals에서 확인한다. 매 수정 직전 개인 지침 재확인과 실제 근거 검토는 조사자가 수행한다. preview의 형식·산식 통과는 가격과 대체 적합성의 입증을 대신하지 않는다.
 
 `queue` 입력은 `item_id`, `state`, `verified`, `eligible_for_preview`, `potential_savings_krw`를 가진 물품별 후보 목록이다.
 

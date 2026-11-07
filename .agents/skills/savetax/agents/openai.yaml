@@ -1,0 +1,4 @@
+interface:
+  display_name: "SaveTax"
+  short_description: "조사·가격 비교·접수·이의제기를 필요한 절차만 읽어 진행합니다"
+  default_prompt: "$savetax 스킬로 현재 요청을 처리하고 기존 근거와 접수 상태를 이어서 사용해 주세요."
