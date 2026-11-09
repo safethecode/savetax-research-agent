@@ -1,33 +1,107 @@
-# SaveTax
+<h1 align="center">SaveTax</h1>
 
-SaveTax 조사·근거 비교·접수·이의제기를 실행하는 스킬과 보조 Python 도구다.
+<p align="center">
+  조달 가격 비교부터 근거 검토와 이의제기까지.
+</p>
 
-## 스킬로 사용
+<p align="center">
+  <a href=".agents/skills/savetax/SKILL.md">에이전트 스킬</a> ·
+  <a href="docs/usage.md">CLI 사용법</a> ·
+  <a href="docs/local-research.md">로컬 모델</a> ·
+  <a href="docs/README.md">문서</a>
+</p>
 
-진입점은 [savetax 스킬](.agents/skills/savetax/SKILL.md) 하나다.
+<p align="center">
+  <img src="assets/hackathon-award.png" width="340" alt="나랏돈 50조 찾기 해커톤 8위 · 확정 발견금액 5,576,770,830원" />
+</p>
+
+SaveTax는 공식 조달 데이터와 실제 판매 원문을 대조하는 **에이전트 스킬과 Python 도구**입니다. 후보 조사, 가격·사양 비교, 근거 정리, 접수와 이의제기를 하나의 작업 흐름으로 연결합니다.
+
+## 주요 기능
+
+- **근거 중심 비교** — 실제 판매 모델·옵션·구성품을 확인하고, 동일품과 대체품의 차이를 기록합니다.
+- **공식 데이터 계산** — 공식 fact의 납품금액·수량을 바탕으로 단위·포장 수량·세금 기준을 맞춰 비교합니다.
+- **로컬 조사와 Codex 리뷰** — Ollama로 조사 제안을 만들고, 고정한 원문·계산·본문을 Codex가 검토합니다.
+- **접수와 이의제기** — preview, 중복 확인, 멱등 키와 영수증을 통해 접수·수정·복구를 이어갑니다.
+
+## 빠른 시작
+
+### 에이전트 스킬
+
+저장소를 Codex에서 열고 [`savetax`](.agents/skills/savetax/SKILL.md) 스킬을 호출합니다.
 
 ```text
 $savetax 저장된 근거를 이어서 검토하고, 위임된 접수까지 진행해 줘.
 $savetax 기존 판정의 이유를 읽고 이의제기를 보완해 줘.
 ```
 
-현재 채팅의 위임·범위와 [AGENTS.md](AGENTS.md)를 따른다. 스킬은 조사/접수/이의/브라우저/도구 실행 중 필요한 참고 문서만 읽는다. 같은 원문·본문·정책의 검토는 재사용하며, 접수 확인은 영수증과 공식 조회로 끝낸다. 외부 작업은 현재 상태와 기한이 허용할 때만 수행한다.
+스킬은 작업에 필요한 참고 문서만 읽습니다. 현재 채팅의 위임·범위와 [저장소 작업 지침](AGENTS.md)을 따르며, 같은 원문과 본문의 검토 결과는 재사용합니다.
 
-이 PC에서는 개인 skills 폴더의 `savetax`를 저장소 스킬에 정션으로 연결한다. 다른 환경에서는 `.agents/skills/savetax`를 개인 skills 경로에 연결하거나 복사해 설치한다. 정본은 저장소에 하나만 둔다. 기존 `savetax-research`·`savetax-browser` 절차는 이 스킬의 참고 문서에 통합했다.
+다른 프로젝트에서도 사용하려면 `.agents/skills/savetax`를 개인 skills 경로에 연결하거나 복사합니다. 저장소의 스킬을 정본으로 관리합니다.
 
-## 저장 구조
+### Python CLI
 
-| 위치 | 내용 |
+**Python 3.11 이상**이 필요합니다.
+
+```bash
+git clone https://github.com/safethecode/savetax-research-agent.git
+cd savetax-research-agent
+python -m pip install -e .
+python -m savetax --help
+```
+
+외부 연동을 사용할 때 해당 서비스의 인증을 설정합니다. 공식 API 인증은 `SAVETAX_TOKEN`, 검색·브라우저 설정은 [연동 문서](docs/README.md)를 참고합니다. 저장된 자료만 검토할 때는 모델이나 브라우저를 실행할 필요가 없습니다.
+
+## 작업 흐름
+
+`후보 조사 → 판매 원문 확인 → 공식 fact 계산 → 근거 묶음 → Codex 리뷰 → preview·접수`
+
+| 구성 | 역할 |
 |---|---|
-| `.agents/skills/savetax/` | 스킬과 작업별 참고 문서 |
-| `savetax/`, `scripts/`, `tests/` | 기존 계산·연동·전송·복구 도구와 회귀 테스트 |
-| `docs/` | 필요한 경우 찾아보는 CLI·연동 설명 |
-| `records/` | 접수 원장과 [결과 요약](records/appeals-20261106.md) 2개만 보존 |
-| `work/` | Git 제외: 원문·데이터·실행 상태·영수증 |
-| `config/` | 로컬 실행 설정·기본 선별 정책 |
+| 에이전트 스킬 | 조사·접수·이의제기의 절차와 판단 기준 |
+| 로컬 모델 · Ollama | 출처를 바탕으로 조사 제안과 초안 작성 |
+| Python | 데이터 조회·계산·근거 보존·API 실행 |
+| Codex | 원문·사양·계산·최종 본문 검토 |
 
-예제 폴더와 별도 전략 폴더는 제거했다. 기존 선별 기본값은 `config/policies/candidate-selection.json` 한 곳에서 관리하고, 사용자 지정 `--strategy` 입력은 계속 지원한다. 과거 조사 607개와 설계·운영 기록은 Git 이력 및 `work/archive/legacy-layout-20261107.zip`에 보관했다. 일반 작업에는 읽지 않는다.
+새 점수 접수와 revision에는 현재 근거 묶음과 일치하는 Codex 승인이 필요합니다. 검색 결과, 실제 판매 관측, 예상 접수액, 심사 인정액, 실제 예산 절감액은 각각 구분해 기록합니다.
 
-선택적으로 [기존 CLI](docs/usage.md)와 [로컬 모델 실행](docs/local-research.md)을 사용할 수 있다. 로컬 모델은 조사 제안, Python은 계산·저장·API, Codex는 근거·본문 판단을 맡는다. 현재 구현은 `commands → application → domain/adapters/runtime`이며 이전 import 경로는 호환 facade다.
+## 문서
 
-Python 3.11 이상에서 `python -m pip install -e .`, `python -m savetax --help`로 도구를 준비한다. 저장 자료만 검토할 때 모델·브라우저를 켤 필요는 없다. 키·개인 지침·원본은 커밋하지 않고 예약은 요청 없이 만들지 않는다.
+| 문서 | 내용 |
+|---|---|
+| [스킬](.agents/skills/savetax/SKILL.md) | 일반 작업의 시작점 |
+| [CLI 사용법](docs/usage.md) | 명령·입력 형식·가격 환산·접수 복구 |
+| [로컬 모델 실행](docs/local-research.md) | Ollama 조사·근거 묶음·Codex 리뷰 |
+| [브라우저 연동](docs/integrations/browser.md) | Browser Harness·Jev로 판매 원문 확인 |
+| [검색 연동](docs/integrations/parallel.md) | Parallel 검색 |
+| [상품 검색](docs/integrations/market-mcp.md) | 상품검색 MCP |
+| [문서 추출](docs/integrations/documents.md) | HWP·HWPX 처리 |
+| [접수·이의제기 기록](records/appeals-20261106.md) | 보완 내역과 결과 요약 |
+
+## 프로젝트 구조
+
+```text
+.agents/skills/savetax/  스킬과 작업별 참고 문서
+savetax/
+  commands/             CLI 명령
+  application/          조사·리뷰·접수 흐름
+  domain/               계산과 규칙
+  adapters/             API·검색·브라우저·모델 연동
+  runtime/              설정·저장·잠금
+config/                 로컬 실행 설정과 선별 정책
+scripts/                보조 실행 도구
+tests/                  회귀 테스트
+docs/                   사용법과 연동 문서
+records/                접수 원장과 결과 요약
+assets/                 README 이미지
+work/                   비공개 원문·데이터·영수증 · Git 제외
+```
+
+## 개발
+
+```bash
+python -m pip install -e .
+python -m unittest discover -s tests
+```
+
+키·개인 지침·원본 자료·실행 로그는 Git에 포함하지 않습니다. 선별 기본값은 `config/policies/candidate-selection.json`에서 관리하며, `--strategy`로 별도 정책을 지정할 수 있습니다.

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="124" viewBox="0 0 540 124" role="img" aria-labelledby="title desc">
+  <title id="title">나랏돈 50조 찾기 해커톤 8위</title>
+  <desc id="desc">확정 발견금액 5,576,770,830원. 은은한 홀로그램 금속 배경과 월계수로 만든 프로젝트 성과 배지.</desc>
+  <defs>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2=".7">
+      <stop stop-color="#f5e7d8"/>
+      <stop offset=".24" stop-color="#e9e6db"/>
+      <stop offset=".44" stop-color="#dadbda"/>
+      <stop offset=".49" stop-color="#f9faf7"/>
+      <stop offset=".54" stop-color="#d4d5d5"/>
+      <stop offset=".79" stop-color="#e6dadd"/>
+      <stop offset="1" stop-color="#f4e5d2"/>
+    </linearGradient>
+    <linearGradient id="spectrum" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#f0bbb6"/>
+      <stop offset=".19" stop-color="#f6e9b0"/>
+      <stop offset=".31" stop-color="#d8e9c9"/>
+      <stop offset=".42" stop-color="#cdd6ed"/>
+      <stop offset=".50" stop-color="#eeeae8"/>
+      <stop offset=".63" stop-color="#d8c8e9"/>
+      <stop offset=".79" stop-color="#efc6cb"/>
+      <stop offset="1" stop-color="#f6d5bb"/>
+    </linearGradient>
+    <radialGradient id="warmth" cx="1" cy="1" r="1">
+      <stop stop-color="#fff8bf" stop-opacity=".74"/>
+      <stop offset=".48" stop-color="#fff8dc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#b8986b" stop-opacity=".48"/>
+      <stop offset=".36" stop-color="#8a9696" stop-opacity=".36"/>
+      <stop offset=".7" stop-color="#a8797d" stop-opacity=".50"/>
+      <stop offset="1" stop-color="#bd9c5b" stop-opacity=".40"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2=".25">
+      <stop stop-color="#955442"/>
+      <stop offset=".52" stop-color="#716650"/>
+      <stop offset="1" stop-color="#9b7137"/>
+    </linearGradient>
+    <linearGradient id="laurel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#b67f3e"/>
+      <stop offset=".5" stop-color="#aa5b48"/>
+      <stop offset="1" stop-color="#8d5c51"/>
+    </linearGradient>
+    <linearGradient id="glint" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".48" stop-color="#fff" stop-opacity=".66"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft-glint"><feGaussianBlur stdDeviation="4"/></filter>
+    <filter id="shadow" x="-.1" y="-.2" width="1.2" height="1.5">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#5b4c49" flood-opacity=".09"/>
+    </filter>
+    <clipPath id="shape"><rect x="10" y="10" width="520" height="104" rx="18"/></clipPath>
+  </defs>
+  <rect x="10" y="10" width="520" height="104" rx="18" fill="url(#silver)" filter="url(#shadow)"/>
+  <g clip-path="url(#shape)">
+    <rect x="10" y="10" width="520" height="104" fill="url(#spectrum)" opacity=".43"/>
+    <rect x="10" y="10" width="520" height="104" fill="url(#warmth)"/>
+    <path d="M214-20H269L333 150H277Z" fill="url(#glint)" opacity=".7" filter="url(#soft-glint)"/>
+    <path d="M11 31V29Q11 11 30 11H510Q529 11 529 30" fill="none" stroke="#fff" stroke-opacity=".65"/>
+  </g>
+  <rect x="17.5" y="17.5" width="505" height="89" rx="12" fill="none" stroke="url(#edge)" stroke-width="1.4"/>
+  <g transform="translate(38 31.25) scale(.88)" fill="url(#laurel)">
+    <g>
+      <path d="M25 14C16 11 17 3 20 0C27 5 28 11 25 14Z"/>
+      <path d="M28 21C23 13 27 6 32 4C35 12 32 18 28 21Z"/>
+      <path d="M19 24C9 23 7 14 8 10C18 11 23 19 19 24Z"/>
+      <path d="M20 31C16 23 20 18 25 16C29 24 26 29 20 31Z"/>
+      <path d="M17 37C6 37 1 30 2 24C14 25 19 31 17 37Z"/>
+      <path d="M21 44C17 36 22 30 28 28C30 36 27 42 21 44Z"/>
+      <path d="M24 50C12 54 5 49 4 43C14 40 21 44 24 50Z"/>
+      <path d="M30 55C25 48 29 42 35 40C38 47 36 53 30 55Z"/>
+      <path d="M34 59C23 65 15 63 12 57C21 51 28 53 34 59Z"/>
+    </g>
+    <g transform="translate(80 0) scale(-1 1)">
+      <path d="M25 14C16 11 17 3 20 0C27 5 28 11 25 14Z"/>
+      <path d="M28 21C23 13 27 6 32 4C35 12 32 18 28 21Z"/>
+      <path d="M19 24C9 23 7 14 8 10C18 11 23 19 19 24Z"/>
+      <path d="M20 31C16 23 20 18 25 16C29 24 26 29 20 31Z"/>
+      <path d="M17 37C6 37 1 30 2 24C14 25 19 31 17 37Z"/>
+      <path d="M21 44C17 36 22 30 28 28C30 36 27 42 21 44Z"/>
+      <path d="M24 50C12 54 5 49 4 43C14 40 21 44 24 50Z"/>
+      <path d="M30 55C25 48 29 42 35 40C38 47 36 53 30 55Z"/>
+      <path d="M34 59C23 65 15 63 12 57C21 51 28 53 34 59Z"/>
+    </g>
+    <path d="M25 13C14 33 19 52 39 62M55 13C66 33 61 52 41 62" fill="none" stroke="url(#laurel)" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M40 60C31 54 24 58 18 64C26 67 34 65 40 63C46 65 54 67 62 64C56 58 49 54 40 60L46 70L40 67L34 70Z"/>
+  </g>
+  <g font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR',sans-serif" fill="url(#ink)" font-weight="700">
+    <text x="131" y="48" font-size="17" letter-spacing="-.35">나랏돈 50조 찾기 해커톤 · 8위</text>
+    <text x="130" y="87" font-size="27" letter-spacing="-.7">확정 발견금액 5,576,770,830원</text>
+  </g>
+</svg>
